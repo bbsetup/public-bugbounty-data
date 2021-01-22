@@ -1,0 +1,214 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>ACOPOST - A COllection of POS Taggers</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <meta http-equiv="content-type" content="text/html;" charset="utf-8" />
+</head>
+
+<body>
+
+<div id="PageHeader">
+  <center>ACOPOST - A COllection of POS Taggers</center>
+</div>
+
+<center>
+<!-- Hermes logo -->
+<img src="platypus.jpg" alt="A platypus.">
+<br /><em>Quite hard to classify...</em>
+</center>
+
+<p>Welcome to the home page of ACOPOST, a free and open source
+collection of part-of-speech taggers.  In corpus linguistics,
+part-of-speech tagging (POS tagging or POST), also called grammatical
+tagging or word-category disambiguation, is the process of marking up
+the words in a text (corpus) as corresponding to a particular part of
+speech, based on both its definition, as well as its context â
+i.e. relationship with adjacent and related words in a phrase,
+sentence, or paragraph. A simplified form of this is commonly taught
+to school-age children, in the identification of words as nouns,
+verbs, adjectives, adverbs, etc. Once performed by hand, POS tagging
+is now done in the context of computational linguistics, using
+algorithms which associate discrete terms, as well as hidden parts of
+speech, in accordance with a set of descriptive tags.
+</p>
+
+<table align="center" border="0">
+  <tr>
+    <td>
+    <a href="http://sourceforge.net/projects/acopost/files/"><img src="download.png"
+    alt="Download now" border="0"></a>
+    </td>
+    <td>
+    <a href="http://sourceforge.net/projects/acopost/files/">Download
+    now (C source and Perl/Python scripts, <tt>.tar.gz</tt>)</a>
+    </td>
+  </tr>
+</table>
+
+<hr/>
+
+<h2>News</h2>
+
+<dl>
+  <dt><em>Current status</em> (2012-11-22)</dt>
+  <dd>The version patched for 64-bit systems is ready in Git. The bugs
+  in <tt>t3</tt> and <tt>met</tt> related to large and/or noisy
+  lexicons seem to have been fixed. The maintenance team has been
+  expanded to three members. We have made it compile and work on Mac
+  OS X, and have created autoconf/automake scripts, as well as an RPM
+  spec file. We are close to being able to make a release of a new
+  version. Until we make the release, users interested in the new
+  version should clone
+  the <a href="http://sourceforge.net/p/acopost/code">Git
+  repository</a>. For more information on the project, please write me
+  (Tiago).</dd>
+
+  <dt>2010-03-04</dt>
+  <dd>Created a git repository for the project, including this web
+      page. Access information is given at
+      <a href="https://sourceforge.net/projects/acopost/develop">https://sourceforge.net/projects/acopost/develop</a>,
+      code can be browsed online
+      <a href="http://acopost.git.sourceforge.net/git/gitweb.cgi?p=acopost/acopost;a=tree">here</a>.</dd>
+
+  <dt>2010-03-04</dt>
+  <dd>Project changes: Tiago Tresoldi is the new maintainer; besides a
+      new home page, the programs are being adapted to 64-bit systems
+      and code is being cleaned.</dd>
+
+  <dt>2007-05-13</dt>
+  <dd>Tiago Tresoldi released his own patched version of ACOPOST, 1.8.6, which compiled with <tt>gcc</tt>
+      versions 3 and 4, on his <a href="http://hermes.sf.net/">Hermes project page</a>.</dd>
+
+  <dt>2002-09-23</dt>
+  <dd>Renamed ICOPOST to ACOPOST and moved the package to the
+      Sourceforge repository of open source projects.  Released
+      version 1.8.4, which contained a preliminary user's guide. The
+      project was put on halt since Ingo SchrÃ¶der (the original
+      maintainer) would not have the time to maintain the
+      package.</dd>
+
+  <dt>2002-04-24</dt>
+  <dd>Released version 1.8.3 beta, containing an additional tagger
+  based on example-based techniques.</dd>
+
+  <dt>2001-08-21</dt>
+  <dd>Released version 0.9.0 (first public release).</dd>
+
+  <dt>2001-07-14</dt>
+  <dd>First public talk about ICOPOST.</dd>
+
+  <dt>2001-06-08</dt>
+  <dd>Web page started.</dd>
+</dl>
+
+<h2>What is ACOPOST about?</h2>
+
+<p>Part-of-speech (POS) tagging is the task of assigning grammatical
+classes to words in a natural language sentence.  It's important
+because subsequent processing stages (such as parsing or sentence
+translaiton) become easier if the word class for a word is
+available. </p>
+
+<p>Here's an English example of a tagged sentence taken from the Wall
+Street Journal of the Penn Treebank:</p>
+
+<table border="1" align="center">
+  <tr> <th>Word</th>          <th>Part-of-speech tag</th> </tr>
+  <tr> <td>Measures</td>      <td>NNS</td>                </tr>
+  <tr> <td>of</td>            <td>IN</td>                 </tr>
+  <tr> <td>manufacturing</td> <td>VBG</td>                </tr>
+  <tr> <td>activity</td>      <td>NN</td>                 </tr>
+  <tr> <td>fell</td>          <td>VBD</td>                </tr>
+  <tr> <td>more</td>          <td>RBR</td>                </tr>
+  <tr> <td>than</td>          <td>IN</td>                 </tr>
+  <tr> <td>the</td>           <td>DT</td>                 </tr>
+  <tr> <td>overall</td>       <td>JJ</td>                 </tr>
+  <tr> <td>measures</td>      <td>NNS</td>                </tr>
+  <tr> <td>.</td>             <td>.</td>                  </tr>
+</table>
+
+<p>ACOPOST is a set of freely available POS taggers modeled after
+well-known techniques. The programs are written in C (aiming for
+extreme portability and code correctness/safety) and run under various
+UNIX flavors (and probably even under Windows). ACOPOST currently
+consists of four taggers which are based on different frameworks:</p>
+
+<ol>
+  <li>Maximum Entropy Tagger MET: This tagger uses an iterative
+      procedure to successively improve parameters for a set of
+      features that help to distinguish between relevant
+      contexts. It's based on a framework suggested by Ratnaparkhi
+      [1997].</li>
+  <li>Trigram Tagger T3: This kind of tagger is based on Hidden Markov
+      Models (HMM) where the states are tag pairs that emit words,
+      i. e., it's based on transitional and lexical probabilities. The
+      technique has been suggested by Rabiner [1990] and the
+      implementation is influenced by Brants [2000].</li>
+  <li>Error-driven Transformation-based Tagger TBT: Transformation
+      rules are learned from an annotated corpus which change the
+      currently assigned tag depending on triggering context
+      conditions. The general approach as well as the application to
+      POS tagging has been proposed by Brill [1993].</li>
+  <li>Example-based tagger ET: Example-based models (also called
+      memory-based, instance-based or distance-based) rest on the
+      assumption that cognitive behavior can be achieved by looking at
+      past experiences that resemble the current problem rather than
+      learning and applying abstract rules. They have been suggested
+      for NLP by Daelemans et al. [1996].</li>
+</ol>
+
+<p>A detailed description, an extensive evaluation and new suggestions
+can be found in an accompanying technical report
+[<a href="schroder2002.pdf">SchrÃ¶der 2002</a>].</p>
+
+<h2>Further information</h2>
+
+<p>The project page at Sourceforge can be reached at 
+<a href="http://sourceforge.net/projects/acopost/">http://sourceforge.net/projects/acopost/</a>
+where the latest releases can be found.</p>
+
+<p>Mailing lists are available for announcements, for developers and
+for users at
+<a href="http://sourceforge.net/p/acopost/mailman/">http://sourceforge.net/p/acopost/mailman/</a>.</p>
+
+<h2>References</h2>
+
+<p>Thorsten Brants. 2000. TnT - as statistical part-of-speech
+tagger. In <em>Proceedings of the Sixth Applied Natural Language
+Processing Conference (ANLP-2000)</em>, Seattle, WA, USA.</p>
+
+<p>Eric Brill. 1993. Automatic grammar induction and parsing free
+text: A transformation-based appraoch. In <em>Proceedings of the 31st
+Annual Meeting of the ACL</em>.</p>
+
+<p>Walter Daelemans, Jakub Zavrel, Peter Berck &amp; Steven
+Gillis. 1996. MBT: A memory-based part of speech tagger-generator.  In
+Eva Ejerhed &amp; Ido Dagan, ed., <em>Proceedings of the Fourth
+Workshop on Very Large Corpora</em>, pages 14-27.</p>
+
+<p>Ingo SchrÃ¶der. 2002. <a href="schroder2002.pdf">A Case Study in
+Part-of-Speech tagging Using the ICOPOST Toolkit</a>.  Technical
+report FBI-HH-M-314/02. Department of Computer Science, University of
+Hamburg.</p>
+
+<p>Lawrence R. Rabiner. 1990. A tutorial on hidden markov models and
+selected applications in speech recognition.  In Alex Waibel &amp;
+Kai-Fu Lee, ed., <em>Readings in Speech Recognition</em>. Morgan
+Kaufmann, San Mateo, CA, USA, pages 267-290. See also Errata.</p>
+
+<p>Adwait Ratnaparkhi. 1998. <em>Maximum Entropy Models for Natural
+Language Ambiguity Resolution</em>. Ph.D. thesis, University of
+Pennsylvania. </p>
+
+<hr>
+
+<center>
+For contact: tresoldi at gmail dot com<br />
+<a href="http://sourceforge.net/projects/acopost"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=62355&amp;type=15" width="150" height="40" alt="Get ACOPOST - a collection of POS taggers at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
+</center>
+
+</body>
+</html>
+
+```
