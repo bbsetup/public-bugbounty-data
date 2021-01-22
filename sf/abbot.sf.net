@@ -1,0 +1,28 @@
+```<html>
+<head>
+<title>Abbot Java GUI Test Framework</title>
+<meta name="authors" content="Timothy Wall">
+<meta name="keywords" content="java, gui, test, testing, unit, software, automated, junit, record, playback, qa, quality, awtunit, swingunit, jfcunit">
+<meta name="description" content="Abbot Java GUI Testing Framework: Record and play back actions to test your Java GUI, suitable for use by developers and QA.">
+<meta name="date" content="2004-07-20">
+</head>
+
+<script language="Javascript">
+	function redirect() {
+		window.location = "doc/overview.shtml";
+	}
+</script>
+
+<body onLoad="javascript:redirect()">
+
+</body>
+</html>
+<!-- 
+Local variables:
+eval: (add-hook 'write-file-hooks 'time-stamp)
+time-stamp-start: "<meta name=\"date\" content=\""
+time-stamp-format: "%:y-%02m-%02d"
+time-stamp-end: "\">"
+End:
+-->
+```
