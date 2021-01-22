@@ -1,0 +1,93 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> 
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="Author" content="Dmitry Kasatkin, Carlos Chinea,Miklos Quartus"> 
+<meta name="Keywords" content="affix, bluetooth, linux, stack, hci, l2cap, rfcomm, sdp, obex,  
+	Nokia bluetooth driver for Linux, Nokia Bluetooth Card, openzaurus, sharp zaurus, bt, l2cap 1.2, bluetooth 1.2"> 
+<meta name="Description" content="Affix - Bluetooth Protocol Stack for Linux"> 
+<title>Affix Bluetooth Protocol Stack For Linux</title> 
+<link rel=stylesheet href=base.css type=text/css> 
+</head> 
+
+<body text="#000000" bgcolor="#FFFFFF" link="#0000EF" vlink="#55188A" alink="#FF0000"> 
+<h2><div align="center">Welcome to the Affix web site - Bluetooth Protocol Stack for Linux</div></h2> 
+<center>
+<ul> 
+	<a href="index.shtml#news">News - </a> 
+	<a href="overview.shtml">Overview & Features - </a> 
+	<a href="support_hw.shtml">Supported Hardware - </a> 
+	<a href="documentation.shtml">Documentation - </a> 
+	<a href="download.shtml">Download for 2.6 kernel - </a> 
+	<a href="affixkernel2_4.shtml">Download for 2.4 kernels - </a>
+	<a href="links.shtml">Links - </a> 
+	<a href="lists.shtml">Mailing lists </a> 
+</ul> 
+</center>
+<hr>
+
+<font color="#4e4e4e">Last updated on&nbsp;<em>Tuesday, 20-Dec-2005 15:26:02 UTC</em>.
+<p>
+<h2><a name="news">Latest News</a></h2>
+<ul>
+	<li> [20.12.2005] Small update in the end user and technical documentation.
+	<li> [26.08.2005] Security update.Patch for btsrv.c file in affix-3.2.0 package <a href="patch_btsrv_affix_3_2_0">here</a>.Thanks again to Kevin Finisterre.</li>
+	<li> [26.08.2005] Security update.Patch for btsrv.c file in affix-2.1.2 package <a href="patch_btsrv_affix_2_1_2">here</a>.</li>
+	<li> [01.07.2005] Security update.Patch for affix-3.2.0 package <a href="affix_320_sec.patch">here</a>.Many thanks to Kevin Finisterre for his feedback on security issues on affix.</li>
+	<li> [01.07.2005] Security update.Patch for affix-2.1.2 package <a href="affix_212_sec.patch">here</a>.</li>
+	<li> [25.04.2005] Please stay tune to affix.Soon there will be new updates in this webpage.</li>
+	<li> [25.04.2005] Security update.Patch for affix-kernel-3.2.0 <a href="patch_hci_3_2_0">here</a>.Patch for affix-kernel-2.1.2 <a href="patch_hci_2_1_2">here</a>.</li>
+        <li> [01.09.2004] Released new Affix end user and technical documentation. Updated Affix HOWTO and web pages. Also released Affix FAQ and Affix documentation HOWTO.</li>
+        <li> [29.07.2004] <a href="#download">Affix 3.2.0</a> released. (HID profile).</li>
+        <li> [23.07.2004] Updated draft of Affix 3.0.0 enduser <a href="affix-newdoc/Affix-enduser/index.html">documentation</a> released.</li>
+        <li> [20.07.2004] <a href="#download">Affix 3.1.1</a> released. Socket interface support for L2CAP 1.2.</li>
+        <li> [20.07.2004] <a href="pyaffix.shtml">PyAffix 0.9.2</a> released. Support for L2CAP 1.2.</li>
+        <li> [09.07.2004] Affix 3.1.0 released. L2CAP 1.2 (Retransmission and Flow control mode supported).</li>
+        <li> [04.06.2004] Second draft of Affix 3.0.0 enduser documentation released.</li>
+        <li> [28.05.2004] First draft of Affix 3.0.0 enduser documentation released.</li>
+        <li> [18.05.2004] Affix 3.0.0 released (Only for 2.6.X kernels). Affix web page for 2.4.X kernels <a href="affixkernel2_4.shtml">here</a>.</li>
+        <li> [20.02.2004] Affix 2.1.2 released.</li>
+        <li> [30.01.2004] <a href="pyaffix.shtml">PyAffix 0.9.1 and patch for Python 2.2.3</a> released.(Small fix in setup.py).</li>
+        <li> [26.01.2004] <a href="pyaffix.shtml">PyAffix 0.9</a> released.PyAffix gives Python socket interface support for Affix.</li>
+        <li> [12.01.2004] Affix 2.1.1 released. (Several fixes in RFCOMM, L2CAP, HCI and socket interface)</li>
+        <li> [01.12.2003] Affix 2.1.0 released. (2.6 Kernel support. L2CAP Groups. HCI Broadcast. Bug fixes)</li>
+        <li> [06.06.2003] <a href="howto.shtml#howtopushbusinesscard">Business card push</a> section was added to HOWTO.</li>
+        <li> [29.04.2003] Affix 2.0.2 released -&gt; stable. (Socket PCMCIA card ver 2.5 must work) </li>
+        <li> [20.04.2003] Affix 2.0.1 released. (TDK Bluetooth PCMCIA card support) </li>
+        <li> [16.04.2003] affix-kernel-2.0.0 patch for RedHat 9 <a href=archive/affix-kernel-2.0.0.RH9.patch>here</a>.</li>
+        <li> [16.04.2003] Affix 2.0.0 released !!! </li>
+        <li> [16.04.2003] Affix 2.0.0 plugin for Ethereal released (see links). </li>
+        <li> [15.04.2003] PAN demonstration page (see links) from Enoch Tai </li>
+        <li> [14.03.2003] Affix 2.0.0-pre2 released. Looks stable. New: Working Audio, FAX Profile</li>
+        <li> [05.03.2003] Affix 2.0.0-pre1 released.</li>
+        <li> [13.02.2003] Affix <a href="#irc">IRC channel</a> established on irc.foofa.net .</li>
+        <li> [05.02.2003] affix-1.2.6-1 and affix-kernel-1.2.6-1 are now in stable section</li>
+        <li> [09.01.2003] GPRS-HOWTO page added. (Thanks to Darrel Beale)</li>
+        <li> [19.12.2002] affix-kernel-1.2.7-pre1.patch - RFCOMM mtu fix for 1.2.6</li>
+        <li> [16.12.2002] affix-1.2.6.patch1 - Makefile fix for OpenObex 0.9.8</li>
+        <li> [15.12.2002] affix-kernel-1.2.6 and affix-1.2.6 release (fixes, performance)</li>
+        <li> [27.11.2002] affix-kernel-1.2.5 and affix-1.2.5 release (fixes)</li>
+        <li> [21.11.2002] LAN configuration section was added to HOWTO.</li>
+        <li> [20.11.2002] Affix Documentation Project (see <a href="#docs">Documentation</a>).</li>
+        <li> [14.11.2002] affix-1.2.4 and affix-kernel-1.2.4 released. (good fixes).</li>
+        <li> [14.11.2002] Ethereal patch <a href="archive/ethereal_affix-3.patch">ethereal_affix-3.patch</a>
+        released (thanks to Christoph) (full Bluetooth support).</li>
+</ul>
+
+<hr>
+
+<p>
+Copyright © 2000, 2001, 2002, 2003 and 2004 Dmitry Kasatkin, Carlos Chinea
+<cite>&lt;carlos dot chinea at nokia dot com&gt;</cite><br>
+WEB style by Miklos Quartus and Henri Ranki
+</p>
+
+<p>Powered by <a href="http://sourceforge.net">
+<img src="http://sourceforge.net/sflogo.php?group_id=40574" width="88" height="31" border="0" alt="SourceForge Logo"></a>
+</p>
+
+</body>
+</html>
+
+
+```
