@@ -1,0 +1,114 @@
+```<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>Android Design</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/folding.css" />
+	<style type="text/css">
+	#welcomeWrapper {
+		position: relative;
+	}
+	#welcomeOverlay {
+		left: 10px;
+		position: absolute;
+		top: 472px;
+		width: 280px;
+	}
+	#welcomeOverlay #cvLink {
+		padding-right: 15px;
+		background: url('imgs/disclosure_right.png') right center no-repeat;
+	}
+	</style>
+	<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.common.min.js"></script>
+	<script type="text/javascript" src="js/jquery.folding.min.js"></script>
+	<script type="text/javascript" src="js/adchs.js"></script>
+</head>
+<body>
+	<div id="pageWrapper">
+		<div id="header">
+			<a href="index.html">Android Design&nbsp;<span class="headerChs">Android è®¾è®¡æåéå®æ¹ç®ä½ä¸­æç</span></a>
+		</div>
+		<div id="navWrapper">
+			<div class="divListwHeader foldingList initShow">
+				<div class="trigger"><a class="highlight" href="index.html">å¼å§</a></div>
+				<ul class="foldingContainer">
+					<li><a href="get-started/create-vistion.html">åæ°çè§è§ææ</a></li>
+					<li><a href="get-started/principles.html">è®¾è®¡åå</a></li>
+					<li><a href="get-started/ui-overview.html">UI æ¦è§</a></li>
+				</ul>
+			</div>
+			<div class="divListwHeader foldingList">
+				<div class="trigger"><a href="style/index.html">é£æ ¼</a></div>
+				<ul class="foldingContainer">
+					<li><a href="style/devices-displays.html">è®¾å¤åæ¾ç¤º</a></li>
+					<li><a href="style/themes.html">ä¸»é¢</a></li>
+					<li><a href="style/touch-feedback.html">è§¦æ¸åé¦</a></li>
+					<li><a href="style/metrics-grids.html">åº¦éåä½åç½æ ¼</a></li>
+					<li><a href="style/typography.html">å­ä½</a></li>
+					<li><a href="style/color.html">é¢è²</a></li>
+					<li><a href="style/iconography.html">å¾æ </a></li>
+					<li><a href="style/writing.html">åä½é£æ ¼</a></li>
+				</ul>
+			</div>
+			<div class="divListwHeader foldingList">
+				<div class="trigger"><a href="patterns/index.html">æ¨¡å¼</a></div>
+				<ul class="foldingContainer">
+					<li><a href="patterns/new.html">Android æ°ç¹æ§</a></li>
+					<li><a href="patterns/gestures.html">æå¿</a></li>
+					<li><a href="patterns/app-structure.html">åºç¨ç»æ</a></li>
+					<li><a href="patterns/navigation.html">å¯¼èª</a></li>
+					<li><a href="patterns/actionbar.html">æä½æ </a></li>
+					<li><a href="patterns/multi-pane-layouts.html">å¤è§å¾å¸å±</a></li>
+					<li><a href="patterns/swipe-views.html">æ»å¨è§å¾</a></li>
+					<li><a href="patterns/selection.html">éæ©</a></li>
+					<li><a href="patterns/confirming-acknowledging.html">ç¡®è®¤åæç¤º</a></li>
+					<li><a href="patterns/notifications.html">éç¥</a></li>
+					<li><a href="patterns/widgets.html">å°é¨ä»¶</a></li>
+					<li><a href="patterns/settings.html">è®¾ç½®</a></li>
+					<li><a href="patterns/help.html">å¸®å©</a></li>
+					<li><a href="patterns/compatibility.html">å¼å®¹æ§</a></li>
+					<li><a href="patterns/accessibility.html">å¯ç¨æ§</a></li>
+					<li><a href="patterns/pure-android.html">çº¯ç²¹ç Android</a></li>
+				</ul>
+			</div>
+			<div class="divListwHeader foldingList">
+				<div class="trigger"><a href="building-blocks/index.html">æ§ä»¶</a></div>
+				<ul class="foldingContainer">
+					<li><a href="building-blocks/tabs.html">æ ç­¾éé¡¹å¡</a></li>
+					<li><a href="building-blocks/lists.html">åè¡¨</a></li>
+					<li><a href="building-blocks/grid-lists.html">ç½æ ¼åè¡¨</a></li>
+					<li><a href="building-blocks/scrolling.html">æ»å¨å®¹å¨</a></li>
+					<li><a href="building-blocks/spinners.html">ä¸æèå (Spinners)</a></li>
+					<li><a href="building-blocks/buttons.html">æé®</a></li>
+					<li><a href="building-blocks/text-fields.html">ææ¬æ¡</a></li>
+					<li><a href="building-blocks/seek-bars.html">æ»å</a></li>
+					<li><a href="building-blocks/progress.html">è¿åº¦æ¡åæ´»å¨</a></li>
+					<li><a href="building-blocks/switches.html">å¼å³</a></li>
+					<li><a href="building-blocks/dialogs.html">å¯¹è¯æ¡</a></li>
+					<li><a href="building-blocks/pickers.html">éæ©å¨</a></li>
+				</ul>
+			</div>
+			<br class="clear" />
+		</div>
+		<div id="content">
+			<div id="welcomeWrapper">
+				<a href="get-started/create-vistion.html"><img src="imgs/index_landing_page.png" /></a>
+				<div id="welcomeOverlay">
+					æ¬¢è¿æ¥å° <span class="highlight">Android Design</span>ï¼å¨è¿éæ¨å¯ä»¥å­¦ä¹ å°å¦ä½è®¾è®¡åºä¼ç§ç Android åºç¨ã<br /><br />
+					<a id="cvLink" href="get-started/create-vistion.html">åæ°çè§è§ææ</a>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="footer">
+			<p><a href="http://adchs.sourceforge.net">Android Design å®åè®¾è®¡éå®æ¹ç®ä½ä¸­æç</a>&nbsp;-&nbsp;<a href="http://www.sunjw.us/adchs" target="_blank">www.sunjw.us/adchs</a>&nbsp;-&nbsp;æè°¢&nbsp;<a href="http://www.topfun.us" target="_blank">topfun åå­¦</a>&nbsp;<a href="http://www.freemindworld.com" target="_blank">Li Fanxi</a>&nbsp;<a href="http://www.apkbus.com" target="_blank">å®åå·´å£«</a>&nbsp;æä¾ç&nbsp;<a href="http://www.topfun.us/adchs/">éå1</a>&nbsp;<a href="http://www.freemindworld.com/adchs">éå2</a>&nbsp;<a href="http://www.apkbus.com/design">éå3</a>ã</p>
+			<p id="copyright">æ²¡æç¹å«è¯´æçè¯ï¼ææåå®¹æç§ <a href="http://creativecommons.org/licenses/by/2.5/" target="_blank">Creative Commons Attribution 2.5</a> åè®®ææã<br />åºäº <a href="http://developer.android.com/design/" target="_blank">Android Design</a> ç¿»è¯èæï¼é¨åå¾çåè®¾è®¡æ ·å¼ä¹æ¥èªäº <a href="http://developer.android.com/design/" target="_blank">Android Design</a>ãAndroid æ¯ Google çåæ ã</p>
+			<p>2012-2013&nbsp;-&nbsp;<a href="http://www.sunjw.us/blog" target="_blank">Sun Junwen</a>&nbsp;-&nbsp;sunjw8888 at gmail.com&nbsp;-&nbsp;<a href="http://www.sunjw.us/jsminnpp/" target="_blank">JSMinNpp</a>&nbsp;-&nbsp;<a href="http://www.twitter.com/sunjw" target="_blank" title="Follow me on Twitter"><img src="imgs/twitter-small.png" alt="Follow me on Twitter"/></a>&nbsp;<a href="http://www.facebook.com/profile.php?id=1444809914" target="_blank" title="Follow me on Facebook"><img src="imgs/fb-small.png" alt="Follow me on Facebook"/></a>&nbsp;<a href="http://weibo.com/nusjw" target="_blank" title="Follow me on Weibo"><img src="imgs/weibo-small.png" alt="Follow me on Weibo"/></a>&nbsp;<a href="http://www.renren.com/sunjwvista" target="_blank" title="Follow me on Renren"><img src="imgs/renren-small.png" alt="Follow me on Renren"/></a>&nbsp;-&nbsp;<g:plusone size="small"></g:plusone></p>
+		</div>
+	</div>
+</body>
+</html>
+```
