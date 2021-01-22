@@ -1,0 +1,116 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Title      : Puzzled
+Version    : 1.0
+Released   : 20080706
+Description: A wide two-column design suitable for blogs and small websites.
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>The ADC Project</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="content-language" content="en-us" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="imagetoolbar" content="no" />
+
+		<meta name="description" content="Advanced Direct Connect (ADC) is a simple protocol for a client/server-oriented messaging and file sharing system."/>
+		<meta name="keywords" content=""/>
+		<meta name="robots" content="index, follow, noarchive, nocache" />
+		<meta name="distribution" content="global" />
+		<meta name="author" content="" />
+		<meta name="copyright" content="&copy; 2001-2020 Jacek Sieka, Fredrik Ullner" />
+
+		<link rel="alternate" type="application/rss+xml" title="DC++ Blog" href="https://dcpp.wordpress.com/feed/" />
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.dcbase.org/?id=idx&amp;mode=rss" />
+
+		<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1>The ADC Project</h1>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="https://dcpp.wordpress.com/">blog</a></li>
+            <li><a href="https://discourse.dcbase.org/">discourse</a></li>
+			<li><a href="https://adc.sourceforge.io/ADC.html">protocol</a></li>
+			<li><a href="https://adc.sourceforge.io/ADC-EXT.html">extensions</a></li>
+            <li><a href="https://adc.sourceforge.io/ADC-Recommendations.html">recommendations</a></li>
+            <li><a href="https://sourceforge.net/p/adc/code/HEAD/tree/trunk/">svn</a></li>
+		</ul>
+	</div>
+</div>
+<!-- end header <p class="text1">&#8220;In posuere eleifend odio quisque <br />
+	semper augue mattis&#8221;</p>-->
+
+<!-- start page -->
+<div id="page">
+	<!-- start content -->
+<div id="content">
+		<!-- start latest-post -->
+		<div id="latest-post" class="post">
+			<h1 class="title">Welcome to the home of the ADC community!</h1>
+			<div class="entry">
+				<p>Advanced Direct Connect (ADC) is a simple protocol for a client/server-oriented messaging and file sharing system. The ADC Project aims to provide documentation for the ADC community and its developers.</p>
+				<p>ADC is the next generation Direct Connect protocol. It aims to provide a well specified protocol that enables globally unique identification of users, encrypted password sending, hashes for communication and file retrieval, full UTF-8 support and identifiable C-C connections.</p> <p>ADC is split up into two sections; the base protocol and its extensions. The base protocol specifies and requires login procedures, error code messaging, information notifications and basic file sharing. Extensions to the protocol can be more quickly modified and used, without interfering with the base protocol. Extensions include hash algorithms, regular expressions, user commands and secure (TLS) connections.</p>
+			</div>
+		</div>
+		<div id="recent-posts">
+			<div class="post">
+				<h1 class="title">News</h1><br />
+                <h3 class="title">New version of ADC Extensions Released</h3>
+                <div class="entry">
+                    <p>Version 1.0.8</p>
+                    <p>
+                        Improved NATT documentation, as according to the original paper.<br />
+                        Added ONID extension to provide online service integration.<br />
+                        TIGR now specifies the changes done to the file list.<br />
+                        Added error code ADCS transfers are required in STA.<br />
+                        Added ASCH extension for extended searching capability.<br />
+                        Added Date attribute in file list for files and directories.<br />
+                        Added Size attribute in file list for directories.<br />
+                        Added Children attribute in file list for directories.<br />
+                        Added downloaded progress report for uploaders in GET.<br />
+                        Added RDEX for extended redirecting capabilities.<br />
+                    </p>
+                    <p><small><a href="https://adc.sourceforge.io/ADC.html" class="more">view documentation</a></small></p>
+                </div>
+                <h3 class="title">New version of ADC base Released</h3>
+				<div class="entry">
+					<p>Version 1.0.3</p>
+					<p>
+                        Added examples for each command.<br />
+                        Features are now described in its own section.<br />
+                        Specified token use from server party in client-client connections.<br />
+                        Changed size in file list schema to an unsigned long to manage files larger than 2 GiB.Editorial updates <br />
+                    </p>
+					<p><small><a href="https://adc.sourceforge.io/ADC.html" class="more">view documentation</a></small></p>
+				</div>
+			</div>
+		</div>
+</div>
+	<!-- end content -->
+	<!-- start sidebar -->
+	<div id="sidebar">
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end sidebar -->
+</div>
+
+<!-- end page -->
+<div id="footer">
+	<p id="legal">&copy;2007 Puzzled. All Rights Reserved. Reworked but originally designed by <a href="http://www.freecsstemplates.org/">freecsstemplates.org</a>.</p>
+	<p id="links"><a href="https://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a> &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://jigsaw.w3.org/css-validator/check/referer" title="This page validates as CSS"><abbr title="Cascading Style Sheets">CSS</abbr></a></p>
+</div>
+</body>
+</html>
+```
