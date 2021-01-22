@@ -1,0 +1,1 @@
+```<html><body><h1>Welcome to the Vendor API for Takeaway</h1></body></html>```
