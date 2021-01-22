@@ -1,0 +1,24 @@
+```<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+		window.addEventListener("message", receiveMessage, false);
+
+		function receiveMessage(event) {
+			document.write(event.data);
+		}
+		
+		function notifyReady(){
+			top.opener.postMessage('ready',"*");
+		}
+		</script>
+	</head>
+	<body onload="notifyReady()">
+	<div style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color:gray;"><p style="text-align: center;  color: white; position: absolute; top: 30%; left: 52%; margin-right: -48%; transform: translate(-50%, -50%); font-size: 75px;font-family : Avenir;">Loading...</p></div>
+	</body>
+</html>
+
+
+```
