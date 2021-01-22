@@ -1,0 +1,198 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<meta name="keywords" content="Backup, Rsync, Snapshot, Hardlink, Linux, Red Hat, CentOS, Scientific Linux, Windows, dedup, Deduplication, FreeNAS, Cygwin, Perl, SME-Server, smeserver, Freedup, Nagios, NRPE"><title>Affa Backup</title>
+
+<style type="text/css">
+body {
+font-family: Arial,Helvetica,sans-serif;
+}
+</style></head><body>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td colspan="2" rowspan="1" style="vertical-align: top;">
+<table style="text-align: left; width: 555px; height: 91px;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="vertical-align: middle; width: 80px; height: 60px;"><img style="width: 75px; height: 75px;" src="Affa-Logo.png" alt="Affa Logo"></td>
+<td style="vertical-align: middle; width: 100%;">
+<h1>&nbsp;Affa Backup Server<br>
+</h1>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding-left: 1ex;" colspan="2" rowspan="1"><small>Copyright (C)
+2004-2012 by Michael
+Weinberger</small></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">
+<h3>Description</h3>
+<p>The main purpose of this affa package is to turn linux
+server
+into a dedicated backup server in less than an hour. Affa backs up
+systems which have
+sshd running and rsync installed. Once it is configured, Affa runs
+reliably unattended and sends warning messages in case of any errors. </p>
+<p>All backup archives are full backups, as Affa make use
+of the
+hardlink technique. Therefore a new full backup only needs disk space
+for the differences plus the filesystem overhead for the hardlinks and
+directories (which is typically 2-3%). The optional file deduplication
+saves additional disk space.<br>
+</p>
+<p>Affa is based on the rsync program and supports the
+rsync
+--compress option. This allows you to run backups over the internet or
+VPN. A typical setup is one or more Affa backup servers placed in
+different locations, which backup the production server(s) over the
+VPN. </p>
+<p>Affa is a command line tool for system administrators
+and is
+intentionally designed without a GUI. Therefore it can be efficiently
+managed on the console and over slow internet connections.</p>
+<h3>Documentation</h3>
+Installation instructions, manual and sample configurations can be
+found <a href="http://wiki.nikoforge.org/">here</a>.<br>
+<ul>
+<li><a href="http://nikoforge.org/Affa_Quickstart_Example">Quickstart
+example for the impatient</a></li>
+<li><a href="http://nikoforge.org/Affa_Sample_Configurations">Sample
+configurations</a></li>
+<li><a href="http://nikoforge.org/Affa_Server_Setup_on_CentOS_6_%2864-bit%29">Setup
+on CentOS</a></li>
+<li><a href="http://nikoforge.org/Affa_Configuration">Configuration
+properties</a></li>
+<li>Download Manual as <a href="AffaPdfMan.pdf">PDF</a></li>
+</ul>
+<h3>Affa features at a glance</h3>
+<ul>
+<li> Affa is secure: Data is pulled from the sources
+using <span class="external text">rsync over ssh</span>
+with
+public/private key authentication </li>
+<li> Periodically runs unattended full backups. Only
+differences to the previous full backup are transferred over the
+network </li>
+<li> Using <span class="external text">rsync</span>
+with optional bandwidth limit and compression allows backups over the
+internet </li>
+<li> Uses <span class="external text">hardlinks</span>
+to save
+physical disk space </li>
+<li> Keeps a configurable number of scheduled, daily,
+weekly,
+monthly and yearly full backup archives</li>
+<li>Optional file deduplication <br>
+</li>
+<li> The archives are browseable. No need to unpack them
+first. </li>
+<li> Archives can be mapped to a <span class="external text">Samba</span>
+share. </li>
+<li> Backup jobs are started by the cron daemon </li>
+<li> Interrupted jobs continuing with already transfered
+data
+when restarted </li>
+<li> Directories and files can be excluded from the
+backup </li>
+<li> Configurable nice level for rsync processes on the
+backup
+server and remote server(s) </li>
+<li> Optional run of custom programs before and after a
+job run
+(e.g. dumping a database) </li>
+<li> Checks the disk space left after a job run with
+warning
+levels strict, normal or risky </li>
+<li> Extensive checking of failure conditions </li>
+<li> Sends failure messages to a configurable list of
+email
+addresses </li>
+<li> Sends a warning message, if the backup server runs
+out of
+disk space </li>
+<li> Built-in <span class="external text">NPRE</span>
+support
+with auto-configuration for <span class="external text">ICINGA
+and Nagios</span> </li>
+<li> Option to display current status of all jobs showing
+times
+of last and next run, size and disk usage </li>
+<li> Status can be mailed on a daily, weekly or monthly
+schedule </li>
+<li> Option to display all existing archives of a job
+shown
+date, number of files, size and bytes tranferred from the source </li>
+<li> Configurable via <span class="external text">plain
+text config files</span> with one record for each job and a
+default
+record
+for all jobs </li>
+<li> Configration can be spread over multiple files </li>
+<li> Logs to /var/log/affa/JOB.log with optional debug
+switch
+for higher verbosity </li>
+<li> All log files are rotated weekly, with 5 logs kept </li>
+</ul>
+<h3>Download</h3>
+Affa is available as an <a href="http://www.heise.de/software/download/affa_backup_server/81798">RPM
+package</a> or <a href="http://sourceforge.net/projects/affa/files/">tarball</a>.<br>
+<br>
+<h3>Discussion and Help</h3>
+<a href="http://sourceforge.net/projects/affa/forums">http://sourceforge.net/projects/affa/forums</a><br>
+<h3>License</h3>
+Affa is distributed under the <a href="http://www.gnu.org/licenses/gpl-3.0.html">GNU General
+Public
+License</a>.<br>
+
+<br></td>
+<td style="vertical-align: top;">
+<table style="text-align: left; height: 1283px; width: 212px;" border="0" cellpadding="20" cellspacing="0">
+<tbody>
+<tr>
+<td style="vertical-align: top;">
+<div style="text-align: center;"> <a title="Affa Backup Server, Download bei heise" href="http://www.heise.de/software/download/affa_backup_server/81798"><img style="border: 0px solid ; width: 143px; height: 69px;" alt="Affa Backup Server, Download bei heise" title="Affa Backup Server, Download bei heise" src="http://www.heise.de/software/icons/download_logo2.png"></a></div>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;"><img style="width: 200px; height: 85px;" title="Author's 16 x 1 TB iSCSI FreeNAS Storage used with Affa" src="affa-storage.png" alt="Author's 16 x 1 TB iSCSI FreeNAS Storage used with Affa"></td>
+</tr>
+<tr>
+<td style="vertical-align: middle; text-align: center;"><a href="http://nikoforge.org/Affa_Sample_Configurations#Linux_Server_with_MySQL_Database"><img style="border: 0px solid ; width: 193px; height: 278px;" title="Affa Config File" src="Config-Screenshot.png" alt="Affa Config File"></a></td>
+</tr>
+<tr>
+<td style="vertical-align: middle; height: 25%; text-align: center;"><img style="width: 138px; height: 200px;" title="Author's 8 x 1 TB iSCSI QNAP-809-Pro Storage used with Affa" src="QNAP-Affa-Storage.png" alt="Author's 8 x 1 TB iSCSI QNAP-809-Pro Storage used with Affa"></td>
+</tr>
+<tr>
+<td style="vertical-align: middle; height: 25%; text-align: center;"><img style="width: 130px; height: 150px;" title="Author's 1 TB NFS QNAP-109-Pro Storage used with Affa" src="QNAP109PRO-Affa-Storage.png" alt="Author's 1 TB NFS QNAP-109-Pro Storage used with Affa"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://nikoforge.org/fwa/" : "http://nikoforge.org/fwa/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script>
+<noscript><p><img src="http://nikoforge.org/fwa/piwik.php?idsite=1" style="border: 0pt none ;" alt=""></p>
+</noscript>
+<!-- End Piwik Tracking Code -->
+
+</body></html>```
