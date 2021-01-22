@@ -1,0 +1,529 @@
+```<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LINE GAME 7å¨å¹´ï½LINEãã¤ã³ã1500ä¸ãã¤ã³ãå±±åãã­ã£ã³ãã¼ã³</title>
+<meta name="Description" content="ããããã¾ã§LINE GAME 7å¨å¹´!æ¥é ã®æè¬ã®æ°æã¡ãè¾¼ãã¦ãã­ã£ã³ãã¼ã³éå¬ä¸­ï¼éããåã ã¡ã®äººæ°ã«å¿ãã¦å ±é¬ããããããï¼7äººéããã¨LINEãã¤ã³ã1500ä¸ãã¤ã³ããå±±åãï¼ã²ã¼ã åã®7å¨å¹´ã¢ã¤ã³ã³ãã¿ãããã¦ä»ããã­ã£ã³ãã¼ã³ã«åå ãããï¼">
+<meta name="Keywords" content="LINE,ã©ã¤ã³,GAME,ã²ã¼ã ,7å¨å¹´,7th,anniversary,LINEãã¤ã³ã,ã­ã£ã³ãã¼ã³,ãã³ãã³,POP2,LINEã·ã§ã,ã¿ã³ã¿ã³,ãã³ãã³ã¿ã¦ã³,ãã©ã¦ã³ãã¡ã¼ã ,ã¬ã³ã¸ã£ã¼,ãã³ãã³,POPã·ã§ã³ã©">
+	<meta property="og:title" content="LINE GAME 7å¨å¹´ï½LINEãã¤ã³ã1500ä¸ãã¤ã³ãå±±åãã­ã£ã³ãã¼ã³">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://7thanniversary.game.line.me/">
+	<meta property="og:image" content="https://7thanniversary.game.line.me/img/ogp.png">
+	<meta property="og:description" content="ããããã¾ã§LINE GAME 7å¨å¹´!æ¥é ã®æè¬ã®æ°æã¡ãè¾¼ãã¦ãã­ã£ã³ãã¼ã³éå¬ä¸­ï¼éããåã ã¡ã®äººæ°ã«å¿ãã¦å ±é¬ããããããï¼7äººéããã¨LINEãã¤ã³ã1500ä¸ãã¤ã³ããå±±åãï¼ã²ã¼ã åã®7å¨å¹´ã¢ã¤ã³ã³ãã¿ãããã¦ä»ããã­ã£ã³ãã¼ã³ã«åå ãããï¼">
+	<meta name="twitter:card" content="summary_large_image">
+	<link rel="icon" href="https://7thanniversary.game.line.me/img/favicon.ico">
+<link rel="stylesheet" href="common/public.css?1229" type="text/css">
+<link rel="stylesheet" href="common/bootstrap-reboot.css" type="text/css">
+	<link rel="stylesheet" href="common/slick-theme.css">
+<link rel="stylesheet" href="common/slick.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="common/slick.min.js"></script>
+	<script type="text/javascript">
+			$(function(){
+		$('a[href^="#"]').click(function(){
+			var speed = 1000;
+			var href= $(this).attr("href");
+			var target = $(href == "#" || href == "" ? 'html' : href);
+			var position = target.offset().top;
+			$("html, body").animate({scrollTop:position}, speed,"swing");
+			return false;
+	});
+	});
+
+		$("document").ready(function(){
+		$('.one-time').slick({
+			dots: true,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 1,
+			adaptiveHeight: true,
+			edgeFriction:0.15,
+			prevArrow: '<img src="img/arw_left.png" class="slide-arrow prev-arrow">',
+			nextArrow: '<img src="img/arw_right.png" class="slide-arrow next-arrow">'
+});
+});
+
+jQuery( window ).bind( 'scroll', function() {
+	scrolled = jQuery( window ).scrollTop();
+	weight1 = 0.22;
+	weight2 = 0.12;
+	weight1 = 0.26;
+	weight2 = 0.12;
+	jQuery( '.parallax1' ).css( 'top', 1000 - scrolled * weight1 + 'px' );
+	jQuery( '.parallax2' ).css( 'top', 800 - scrolled * weight2 + 'px' );
+	jQuery( '.parallax3' ).css( 'top', 800 - scrolled * weight1 + 'px' );
+	jQuery( '.parallax4' ).css( 'top', 800 - scrolled * weight2 + 'px' );
+});
+$(function(){
+	$('.js-modal-open').each(function(){
+		$(this).on('click',function(){
+			var target = $(this).data('target');
+			var modal = document.getElementById(target);
+			$(modal).fadeIn();
+			return false;
+		});
+	});
+	$('.js-modal-close').on('click',function(){
+		$('.js-modal').fadeOut();
+		return false;
+	}); 
+});
+	$(function(){
+		var scrollPosition;
+		$(".js-modal-open").on("click",function(){
+			scrollPosition = $(window).scrollTop();
+			$('body').addClass('fixed').css({'top':-scrollPosition});
+		});
+		$(".js-modal-close").on("click",function(){
+			$('body').removeClass('fixed').css({'top':0});
+			window.scrollTo(0,scrollPosition);
+		});
+	});
+	</script>
+	
+	
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-41426907-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-41426907-6');
+</script>
+</head>
+
+<body>
+<div class="main">
+	<section id="head">
+		<h1 class="clear_txt">LINEãã¤ã³ã1,500ä¸å±±åãã­ã£ã³ãã¼ã³</h1>
+		<div class="head_1"><img src="img/7th_icon.png" alt="7th LINEGAME"></div>
+		<div class="head_2"><img src="img/top_ribon.png" alt="LINE GAME 7å¨å¹´ï¼"></div>
+		<div class="head_3"><img src="img/linepoint_logo.png"alt=""LINEãã¤ã³ãã1,500ä¸></div>
+		<div class="head_4"><img src="img/top_campaign.png" alt="å±±åãã­ã£ã³ãã¼ã³"></div>
+		<div class="head_5"><img src="img/ataru.png" alt="å¨å¡ã«å½ããï¼"></div>
+		<div class="head_date pc_hide"><img src="img/top_date.png" alt="éå¬æéã2019/11/15(é) 11:00ã11/29(é)11:00"></div>
+		<div class="head_date sp_hide"><img src="img/pc_top_date.png" alt="éå¬æéã2019/11/15(é) 11:00ã11/29(é)11:00"></div>
+		<div class="fin pc_hide"><img src="img/fin.png"></div>
+		<div class="fin sp_hide"><img src="img/pc_fin.png"></div>
+		<div class="head_txt pc_hide"><img src="img/summary.png?1129" alt="éããåã ã¡ã®äººæ°ã«å¿ãã¦å ±é¬ããããããï¼7äººéããã¨LINEãã¤ã³ã1,500ä¸ãã¤ã³ããå±±åãï¼"></div>
+		<div class="head_txt sp_hide"><img src="img/pc_summary.png?1129" alt="éããåã ã¡ã®äººæ°ã«å¿ãã¦å ±é¬ããããããï¼7äººéããã¨LINEãã¤ã³ã1,500ä¸ãã¤ã³ããå±±åãï¼"></div>
+		<div class="info_7th"><img src="img/7th_info.png" alt="ã²ã¼ã åã®7å¨å¹´ã¢ã¤ã³ã³ãã¿ãããã¦ä»ããã­ã£ã³ãã¼ã³ã«åå ãããï¼"></div>
+	</section>
+	<img src="img/coin_left.png" class="parallax1 pc_hide">
+	<img src="img/coin_right.png" class="parallax2 pc_hide">
+	<img src="img/pc_coin_left.png" class="parallax3 sp_hide">
+	<img src="img/pc_coin_right.png" class="parallax4 sp_hide">
+	<section id="target_game">
+		<h2><img src="img/h2_1.png" class="pc_hide" alt="å¯¾è±¡ã²ã¼ã "><img src="img/pc_h2_1.png" class="sp_hide" alt="å¯¾è±¡ã²ã¼ã "></h2>
+		<div class="con1_txt"><img src="img/con1_txt.png"></div>
+		<div class="tap_pokota"><img src="img/tap.png" alt="ã²ã¼ã ã¢ã¤ã³ã³ãã¿ããã§ã¹ã¿ã¼ãï¼"></div>
+		<div class="apli_btn pc_hide">
+			<ul class="clearfix content">
+				<!--ã¢ããªSP-->
+				<li>
+					<a href="https://fsss.adj.st/?adjust_t=ftr9cfl&adjust_campaign=ACQ&adjust_deeplink=LGPKPK%3a%2f%2f" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopoko', 'value': true});"><img src="img/icon_back.png"><img src="img/icon_pokopoko.png" class="icon_css vertical1"><img src="img/btn_pokopoko.png" class="btn_css" alt="LINE ãã³ãã³"></a>
+					<a href="" class="js-modal-open" data-target="modal_pokopoko" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopoko_rw', 'value': true});"><img src="img/apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="https://29zz.adj.st/?adjust_t=h589aq8&adjust_campaign=ACQ&adjust_deeplink=LGLP2%3a%2f%2f" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pop2', 'value': true});"><img src="img/icon_back.png"><img src="img/icon_pop2.png" class="icon_css vertical8"><img src="img/btn_pop2.png" class="btn_css" alt="LINE POP2"></a>
+					<a href="" class="js-modal-open" data-target="modal_pop2" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pop_rw', 'value': true});"><img src="img/apli_etc.png" class="etc_css"></a>
+				</li>
+				<!--<li>
+					<a href="https://app.adjust.com/jsr?url=https%3A%2F%2F29zz.adj.st%2F%3Fadjust_t%3Dh589aq8%26adjust_deeplink%3DLGLP2%3A%2F%2F" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pop2', 'value': true});"><img src="img/icon_back.png"><img src="img/icon_pop2.png" class="icon_css vertical8"><img src="img/btn_pop2.png" class="btn_css" alt="LINE POP2"></a>
+					<a href="" class="js-modal-open" data-target="modal_pop2" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pop_rw', 'value': true});"><img src="img/apli_etc.png" class="etc_css"></a>
+				</li>-->
+				<li>
+					<a href="https://7ehz.adj.st/?adjust_t=5cv5bnk&adjust_campaign=ACQ&adjust_deeplink=LGPKV%3a%2f%2f" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopantown', 'value': true});"><img src="img/icon_back.png"><img src="img/icon_pokopantown.png" class="icon_css vertical6"><img src="img/btn_pokopantown.png" class="btn_css" alt="LINE ãã³ãã³ã¿ã¦ã³"></a>
+					<a href="" class="js-modal-open" data-target="modal_pokopantown" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopantown_rw', 'value': true});"><img src="img/apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="https://aelw.adj.st/?adjust_t=g2e07xl&adjust_campaign=ACQ&adjust_deeplink=LGPSH%3a%2f%2f" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'tantan', 'value': true});"><img src="img/icon_back.png"><img src="img/icon_tantan.png" class="icon_css vertical4"><img src="img/btn_tantan.png" class="btn_css" alt="LINE ããºã« ã¿ã³ã¿ã³" ></a>
+					<a href="" class="js-modal-open" data-target="modal_tantan" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'tantan_rw', 'value': true});"><img src="img/apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="https://5dg-2.tlnk.io/serve?action=click&publisher_id=219757&site_id=129190&site_id_android=129191" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopan', 'value': true});"><img src="img/icon_back.png"><img src="img/icon_pokopan.png" class="icon_css vertical9"><img src="img/btn_pokopan.png" class="btn_css" alt="LINE ãã³ãã³"></a>
+					<a href="" class="js-modal-open" data-target="modal_pokopan" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopan_rw', 'value': true});"><img src="img/apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="https://92yr.adj.st/?adjust_t=ppqf2p5&adjust_campaign=ACQ&adjust_deeplink=LGCHEF%3a%2f%2f" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'chef', 'value': true});"><img src="img/icon_back.png"><img src="img/icon_shef.png" class="icon_css vertical2"><img src="img/btn_shef.png" class="btn_css" alt="LINE ã·ã§ã"></a>
+					<a href="" class="js-modal-open" data-target="modal_shef" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'chef_rw', 'value': true});"><img src="img/apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="https://hguk.adj.st/?adjust_t=du8ctaa&adjust_campaign=ACQ&adjust_deeplink=LGFARM%3a%2f%2f" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'brownfarm', 'value': true});"><img src="img/icon_back.png"><img src="img/icon_farm.png" class="icon_css vertical3"><img src="img/btn_farm.png" class="btn_css" alt="LINE ãã©ã¦ã³ãã¡ã¼ã  "></a>
+					<a href="" class="js-modal-open" data-target="modal_farm" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'brownfarm_rw', 'value': true});"><img src="img/apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="https://gw8f.adj.st/?adjust_t=uo05081&adjust_campaign=ACQ&adjust_deeplink=LGPOP3%3a%2f%2f" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'popchoco', 'value': true});"><img src="img/icon_back.png"><img src="img/icon_chocolate.png" class="icon_css vertical5"><img src="img/btn_chocolate.png" class="btn_css" alt="LINE POPã·ã§ã³ã©"></a>
+					<a href="" class="js-modal-open" data-target="modal_chocolate" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'popchoco_rw', 'value': true});"><img src="img/apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="https://tlcf.adj.st/?adjust_t=rbjsq9r&adjust_campaign=ACQ&adjust_deeplink=LGRGS%3a%2f%2f" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'ranger', 'value': true});"><img src="img/icon_back.png"><img src="img/icon_renger.png" class="icon_css vertical7"><img src="img/btn_renger.png" class="btn_css" alt="LINE ã¬ã³ã¸ã£ã¼"></a>
+					<a href="" class="js-modal-open" data-target="modal_renger" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'ranger_rw', 'value': true});"><img src="img/apli_etc.png" class="etc_css"></a>
+				</li>
+			</ul>
+		</div>
+		<!--ã¢ããªPC-->
+		<div class="apli_btn sp_hide">
+			<ul class="clearfix content">
+				<li>
+					<a href="" class="js-modal-open" data-target="pc_modal_pokopoko" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopoko', 'value': true});"><img src="img/pc_icon_back.png"><img src="img/icon_pokopoko.png" class="icon_css vertical1"><img src="img/pc_btn_pokopoko.png" class="btn_css"></a>
+					<a href="" class="js-modal-open" data-target="pc_etc_modal_pokopoko" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopoko_rw', 'value': true});"><img src="img/pc_apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="" class="js-modal-open" data-target="pc_modal_pop2" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pop2', 'value': true});"><img src="img/pc_icon_back.png"><img src="img/icon_pop2.png" class="icon_css vertical8"><img src="img/pc_btn_pop2.png" class="btn_css"></a>
+					<a href="" class="js-modal-open" data-target="pc_etc_modal_pop2" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pop_rw', 'value': true});"><img src="img/pc_apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="" class="js-modal-open" data-target="pc_modal_pokopantown" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopantown', 'value': true});"><img src="img/pc_icon_back.png"><img src="img/icon_pokopantown.png" class="icon_css vertical6"><img src="img/pc_btn_pokopantown.png" class="btn_css"></a>
+					<a href="" class="js-modal-open" data-target="pc_etc_modal_pokopantown" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopantown_rw', 'value': true});"><img src="img/pc_apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="" class="js-modal-open" data-target="pc_modal_tantan" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'tantan', 'value': true});"><img src="img/pc_icon_back.png"><img src="img/icon_tantan.png" class="icon_css vertical4"><img src="img/pc_btn_tantan.png" class="btn_css"></a>
+					<a href="" class="js-modal-open" data-target="pc_etc_modal_tantan" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'tantan_rw', 'value': true});"><img src="img/pc_apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="" class="js-modal-open" data-target="pc_modal_pokopan" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopan', 'value': true});"><img src="img/pc_icon_back.png"><img src="img/icon_pokopan.png" class="icon_css vertical9"><img src="img/pc_btn_pokopan.png" class="btn_css"></a>
+					<a href="" class="js-modal-open" data-target="pc_etc_modal_pokopan" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopan_rw', 'value': true});"><img src="img/pc_apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="" class="js-modal-open" data-target="pc_modal_shef" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'chef', 'value': true});"><img src="img/pc_icon_back.png"><img src="img/icon_shef.png" class="icon_css vertical2"><img src="img/pc_btn_shef.png" class="btn_css"></a>
+					<a href="" class="js-modal-open" data-target="pc_etc_modal_shef" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'chef_rw', 'value': true});"><img src="img/pc_apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="" class="js-modal-open" data-target="pc_modal_farm" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'brownfarm', 'value': true});"><img src="img/pc_icon_back.png"><img src="img/icon_farm.png" class="icon_css vertical3"><img src="img/pc_btn_farm.png" class="btn_css"></a>
+					<a href="" class="js-modal-open" data-target="pc_etc_modal_farm" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'brownfarm_rw', 'value': true});"><img src="img/pc_apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="" class="js-modal-open" data-target="pc_modal_chocolate" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'popchoco', 'value': true});"><img src="img/pc_icon_back.png"><img src="img/icon_chocolate.png" class="icon_css vertical5"><img src="img/pc_btn_chocolate.png" class="btn_css"></a>
+					<a href="" class="js-modal-open" data-target="pc_etc_modal_chocolate" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'popchoco_rw', 'value': true});"><img src="img/pc_apli_etc.png" class="etc_css"></a>
+				</li>
+				<li>
+					<a href="" class="js-modal-open" data-target="pc_modal_renger" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'ranger', 'value': true});"><img src="img/pc_icon_back.png"><img src="img/icon_renger.png" class="icon_css vertical7"><img src="img/pc_btn_renger.png" class="btn_css"></a>
+					<a href="" class="js-modal-open" data-target="pc_etc_modal_renger" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'ranger_rw', 'value': true});"><img src="img/pc_apli_etc.png" class="etc_css"></a>
+				</li>
+			</ul>
+			<div class="chara_back"><img src="img/chara_back.png"></div>
+		</div>
+	</section>
+
+	<section class="method">
+		<h2><img src="img/h2_2.png" class="pc_hide"><img src="img/pc_h2_2.png" class="sp_hide"></h2>
+		<div class="pc_hide">
+				<div><img src="img/ttl.png" alt="èªåããããã¨"></div>
+				<div class="icon_me_friend"><img src="img/icon_me.png" alt="èªåã®ç»é¢"></div>
+				<div class="slider one-time slick-dots slider1">
+					<div><img src="img/slider1_1.png"></div>
+					<div><img src="img/slider1_2.png"></div>
+					<div><img src="img/slider1_3.png"></div>
+				</div>
+				<div class="arrow_shita"><img src="img/arrow_shita.png"></div>
+				<div><img src="img/ttl2.png" alt="åéã«ãã£ã¦ããããã¨"></div>
+				<div class="icon_me_friend"><img src="img/icon_friend.png" alt="åã ã¡ã®ç»é¢"></div>
+				<div class="slider one-time slick-dots slider1">
+					<div><img src="img/slider2_1.png"></div>
+					<div><img src="img/slider2_2.png"></div>
+					<div><img src="img/slider2_3.png"></div>
+			</div>
+		</div>
+		<div class="sp_hide pc_slider">
+			<div class="slider_left">
+				<div><img src="img/ttl.png" alt="èªåããããã¨"></div>
+				<div class="icon_me_friend"><img src="img/icon_me.png"></div>
+				<div class="slider one-time slick-dots slider1">
+					<div><img src="img/pc_slider1_1.png"></div>
+					<div><img src="img/pc_slider1_2.png"></div>
+					<div><img src="img/pc_slider1_3.png"></div>
+				</div>
+			</div>
+			<div class="slider_right">
+				<div><img src="img/ttl2.png" alt="åéã«ãã£ã¦ããããã¨"></div>
+				<div class="icon_me_friend"><img src="img/icon_friend.png"></div>
+				<div class="slider one-time slick-dots slider1">
+					<div><img src="img/pc_slider2_1.png"></div>
+					<div><img src="img/pc_slider2_2.png"></div>
+					<div><img src="img/pc_slider2_3.png"></div>
+			</div>
+			</div>
+		</div>
+		<div class="contents2_btn"><a href="#target_game" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'link_game', 'value': true});"><img src="img/btn_game.png" alt="å¯¾è±¡ã²ã¼ã ãç¢ºèª"></a></div>
+		<div class="contents2_btn"><a href="" class="js-modal-open" data-target="modal_note"><img src="img/btn_precaution.png" alt="ã­ã£ã³ãã¼ã³ã«é¢ããæ³¨æäºé "></a></div>
+	</section>
+	<section class="bottom_section">
+		<div class="message pc_hide"><img src="img/message.png"></div>
+		<div class="message sp_hide"><div class="pc_message"><img src="img/pc_message.png"></div></div>
+		<div class="news_txt"><img src="img/news_txt.png"></div>
+		<div class="official_sns pc_hide">
+			<div><a href="https://line.me/R/ti/p/%40linegame" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'cv_line', 'value': true});" target="_blank"><img src="img/btn_line.png" alt="LINEå¬å¼ã¢ã«ã¦ã³ã"></a></div>
+			<div><a href="https://twitter.com/LINEGAME_Japan" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'cv_twitter', 'value': true});" target="_blank"><img src="img/btn_tw.png" alt="å¬å¼Twitterã¢ã«ã¦ã³ã"></a></div>
+		</div>
+		<div class="official_sns sp_hide">
+		<div><a href="" class="js-modal-open" data-target="pc_modal_line" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'cv_line', 'value': true});"><img src="img/btn_line.png" alt="LINEå¬å¼ã¢ã«ã¦ã³ã"></a></div>
+		<div><a href="https://twitter.com/LINEGAME_Japan" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'cv_twitter', 'value': true});" target="_blank"><img src="img/btn_tw.png" alt="å¬å¼Twitterã¢ã«ã¦ã³ã"></a></div>
+		</div>
+		<div class="sns">
+			<div><a href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2F7thanniversary.game.line.me%2F" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'share_line', 'value': true});" target="_blank"><img src="img/icon_line.png"></a></div>
+			<div><a href="https://twitter.com/intent/tweet?text=LINE%20GAME7%E5%91%A8%E5%B9%B4&tw_p=tweetbutton&url=https%3A%2F%2F7thanniversary.game.line.me%2F" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'share_twitter', 'value': true});" target="_blank"><img src="img/icon_twitter.png"></a></div>
+			<div><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2F7thanniversary.game.line.me&amp%3Bt=LINE%20GAME%20-%E3%81%8A%E3%81%8B%E3%81%92%E3%81%95%E3%81%BE%E3%81%A76%E5%91%A8%E5%B9%B4!%E6%97%A5%E9%A0%83%E3%81%AE%E6%84%9F%E8%AC%9D%E3%81%AE%E6%B0%97%E6%8C%81%E3%81%A1%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%E3%80%81%E6%8A%BD%E9%81%B8%E3%81%A7%E7%B7%8F%E5%8B%A2%E7%B4%84250%E4%B8%87%E5%90%8D%E6%A7%98%E3%81%AB%E8%B1%AA%E8%8F%AF%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3%E3%83%88%E3%81%8C%E5%BD%93%E3%81%9F%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E9%96%8B%E5%82%AC%E4%B8%AD%EF%BC%81%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E2%86%92" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'share_facebook', 'value': true});" target="_blank"><img src="img/icon_facebook.png"></a></div>
+		</div>
+		<div class="btn_top"><a href="#head" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'link_top', 'value': true});"><img src="img/btn_top.png" alt="ãã¼ã¸ãããã¸"></a></div>
+		<ul class="foot_text">
+			<li><a href="https://terms2.line.me/LGAPP_privacy/" target="_blank">ãã©ã¤ãã·ã¼ããªã·ã¼</a></li>
+			<li><a href="https://lg-cs.line.me/fm/public/inquiry/index" target="_blank">ãåãåãã</a></li>
+		</ul>
+	</section>
+	<!--ã¢ã¼ãã«sp-->
+
+	<div id="modal_pokopoko" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/modal_pokopoko.png"></div>
+			<div class="modal_btn"><a href="https://fsss.adj.st/?adjust_t=ftr9cfl&adjust_campaign=ACQ&adjust_deeplink=LGPKPK%3a%2f%2f" target="_blank" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopoko_2', 'value': true});"><img src="img/modal_btn.png"></a></div>
+		</div>
+	</div>
+	<div id="modal_pop2" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/modal_pop2.png"></div>
+			<div class="modal_btn"><a href="https://29zz.adj.st/?adjust_t=h589aq8&adjust_campaign=ACQ&adjust_deeplink=LGLP2%3a%2f%2f" target="_blank" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pop2_2', 'value': true});"><img src="img/modal_btn.png"></a></div>
+		</div>
+	</div>
+	<div id="modal_pokopantown" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/modal_pokopantown.png"></div>
+			<div class="modal_btn"><a href="https://7ehz.adj.st/?adjust_t=5cv5bnk&adjust_campaign=ACQ&adjust_deeplink=LGPKV%3a%2f%2f" target="_blank" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopantown_2', 'value': true});"><img src="img/modal_btn.png"></a></div>
+		</div>
+	</div>
+	<div id="modal_tantan" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/modal_tantan.png"></div>
+			<div class="modal_btn"><a href="https://aelw.adj.st/?adjust_t=g2e07xl&adjust_campaign=ACQ&adjust_deeplink=LGPSH%3a%2f%2f" target="_blank" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'tantan_2', 'value': true});"><img src="img/modal_btn.png"></a></div>
+		</div>
+	</div>
+	<div id="modal_pokopan" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/modal_pokopan.png"></div>
+			<div class="modal_btn"><a href="https://5dg-2.tlnk.io/serve?action=click&publisher_id=219757&site_id=129190&site_id_android=129191" target="_blank" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'pokopan_2', 'value': true});"><img src="img/modal_btn.png"></a></div>
+		</div>
+	</div>
+	<div id="modal_shef" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/modal_shef.png"></div>
+			<div class="modal_btn"><a href="https://92yr.adj.st/?adjust_t=ppqf2p5&adjust_campaign=ACQ&adjust_deeplink=LGCHEF%3a%2f%2f" target="_blank" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'chef_2', 'value': true});"><img src="img/modal_btn.png"></a></div>
+		</div>
+	</div>
+	<div id="modal_farm" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/modal_farm.png"></div>
+			<div class="modal_btn"><a href="https://hguk.adj.st/?adjust_t=du8ctaa&adjust_campaign=ACQ&adjust_deeplink=LGFARM%3a%2f%2f" target="_blank" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'brownfarm_2', 'value': true});"><img src="img/modal_btn.png"></a></div>
+		</div>
+	</div>
+	<div id="modal_chocolate" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/modal_chocolate.png"></div>
+			<div class="modal_btn"><a href="https://gw8f.adj.st/?adjust_t=uo05081&adjust_campaign=ACQ&adjust_deeplink=LGPOP3%3a%2f%2f" target="_blank" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'popchoco_2', 'value': true});"><img src="img/modal_btn.png"></a></div>
+		</div>
+	</div>
+	<div id="modal_renger" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/modal_renger.png"></div>
+			<div class="modal_btn"><a href="https://tlcf.adj.st/?adjust_t=rbjsq9r&adjust_campaign=ACQ&adjust_deeplink=LGRGS%3a%2f%2f" target="_blank" onclick="gtag('event', 'click', {'event_category': '7th','event_label': 'ranger_2', 'value': true});"><img src="img/modal_btn.png"></a></div>
+		</div>
+	</div>
+	
+			<!--ã¢ã¼ãã«pc-->
+	<div id="pc_modal_pokopoko" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_pokopoko.png"></div>
+		</div>
+	</div>
+	<div id="pc_modal_pop2" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_pop2.png"></div>
+		</div>
+	</div>
+	<div id="pc_modal_pokopantown" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_town.png"></div>
+		</div>
+	</div>
+	<div id="pc_modal_tantan" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_tantan.png"></div>
+		</div>
+	</div>
+	<div id="pc_modal_pokopan" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_pokopan.png"></div>
+		</div>
+	</div>
+	<div id="pc_modal_shef" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_shef.png"></div>
+		</div>
+	</div>
+	<div id="pc_modal_farm" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_farm.png"></div>
+		</div>
+	</div>
+	<div id="pc_modal_chocolate" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_chocolate.png"></div>
+		</div>
+	</div>
+	<div id="pc_modal_renger" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_renger.png"></div>
+		</div>
+	</div>
+	<div id="pc_modal_line" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_line.png"></div>
+		</div>
+	</div>
+	
+		<!--ã¢ã¼ãã«pc-->
+	<div id="pc_etc_modal_pokopoko" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_game_pokopoko.png"></div>
+		</div>
+	</div>
+	<div id="pc_etc_modal_pop2" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_game_pop2.png"></div>
+		</div>
+	</div>
+	<div id="pc_etc_modal_pokopantown" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_game_pokopantown.png"></div>
+		</div>
+	</div>
+	<div id="pc_etc_modal_tantan" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_game_tantan.png"></div>
+		</div>
+	</div>
+	<div id="pc_etc_modal_pokopan" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_game_pokopan.png"></div>
+		</div>
+	</div>
+	<div id="pc_etc_modal_shef" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_game_chef.png"></div>
+		</div>
+	</div>
+	<div id="pc_etc_modal_farm" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_game_farm.png"></div>
+		</div>
+	</div>
+	<div id="pc_etc_modal_chocolate" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_game_chocolate.png"></div>
+		</div>
+	</div>
+	<div id="pc_etc_modal_renger" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/pc_modal_game_ranger.png"></div>
+		</div>
+	</div>
+
+	<div id="modal_note" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div>
+		<div class="modal__content">
+			<a class="js-modal-close" href=""><img src="img/modal_close.png"></a>
+			<div><img src="img/modal_note.png"></div>
+			<div class="modal_notetext">ã»æ¬ã­ã£ã³ãã¼ã³ã¯LINEæ ªå¼ä¼ç¤¾ãè¡ã£ã¦ããã¾ãã<br>
+ã»æ¬ã­ã£ã³ãã¼ã³ã¯æ¥æ¬å¨ä½ã®æ¹ã®ã¿å¯¾è±¡ã¨ãªãã¾ãã<br>
+ã»æ¬ã­ã£ã³ãã¼ã³ã¯äºåãªãå¤æ´ãä¸­æ­ã¾ãã¯ä¸­æ­¢ãããã¦ããã ãå ´åããããã¾ããããããããäºæ¿ãã ããã <br>
+ã»ã²ã¹ãã­ã°ã¤ã³ã§ãã¬ã¤ãã¦ããå ´åã¯ãåå ãã§ããªãã®ã§ãæ³¨æãã ãããLINEã­ã°ã¤ã³å¾ã«åå ããé¡ããã¾ãã<br>
+ã»ã²ã¼ã åã®ã­ã£ã³ãã¼ã³ãã¼ã¸ã«ããåå ãã¿ã³ãæ¼ããªãã¨ã­ã£ã³ãã¼ã³ã«åå ãããã¨ãã§ãã¾ããã<br>
+ã»1æ¥ã®æå¾ã¡ãã»ã¼ã¸éä¿¡åæ°ã¯ãåå ã²ã¼ã 1ã¤ã«ã¤ã100åãä¸éã¨ãã¦è¨ç®ããã¾ããï¼æ¯æ¥0æã«ãªã»ãã)<br>
+ã»LINE POINTã¯ã­ã£ãã¼ã³çµäºå¾ã«å¯¾è±¡èã«LINE POINTãã¼ã¸ã«èªåã§ä»ä¸ããã¾ãã<br>
+ã»åã ã¡ã«ã¡ãã»ã¼ã¸ãéã£ã¦åã ã¡ãã²ã¼ã ã«ã­ã°ã¤ã³ããæã«ç²å¾ã§ããã¢ã¤ãã ã¯ãæå¾ããã²ã¼ã åã®ãã¬ã¼ã³ãBOXã«ä»ä¸ããã¾ãã<br>
+ã»æå¾ãéã£ãåã ã¡ãã²ã¼ã ã«ã­ã°ã¤ã³ããããç¢ºèªããå ´åã¯ã²ã¼ã åã®LINEãã¤ã³ãå±±åãã­ã£ã³ãã¼ã³ã®ã­ã£ã³ãã¼ã³ãã¼ã¸ãããç¢ºèªãã ããã<br>
+ã»ã²ã¼ã åã¢ã¤ãã ã«ã¯æå¹æéããããã¾ãã®ã§ãæ³¨æãã ããã<br>
+ã»æ¬ã­ã£ã³ãã¼ã³ã¯LINEæ ªå¼ä¼ç¤¾ãç¬èªã«è¡ãªããã®ã§ãããAppleç¤¾ãGoogleç¤¾ã¨ã¯ä¸åé¢ä¿ãããã¾ããã<br>
+ã»æ¬ã­ã£ã³ãã¼ã³ã«é¢ãããåãåããã«ã¤ãã¾ãã¦ã¯ããLINE GAMEãµãã¼ããã¾ã§ãé¡ããããã¾ãã<br>
+ã»ã¾ããå½ç¤¾ã«ããããã®ä»åãæ±ãã¯<a href="https://terms2.line.me/LGAPP_privacy" target="_blank">ãã©ã¤ãã·ã¼ããªã·ã¼</a> ã«å¾ãã¾ãããåæã®ä¸ããåå ãã ããã</div>
+		</div>
+	</div>
+</div>
+	<!-- User Insight PCDF Code Start :  -->
+<script type="text/javascript">
+var _uic = _uic ||{}; var _uih = _uih ||{};_uih['id'] = 54014;
+_uih['lg_id'] = '';
+_uih['fb_id'] = '';
+_uih['tw_id'] = '';
+_uih['uigr_1'] = ''; _uih['uigr_2'] = ''; _uih['uigr_3'] = ''; _uih['uigr_4'] = ''; _uih['uigr_5'] = '';
+_uih['uigr_6'] = ''; _uih['uigr_7'] = ''; _uih['uigr_8'] = ''; _uih['uigr_9'] = ''; _uih['uigr_10'] = '';
+_uic['uls'] = 1;
+
+/* DO NOT ALTER BELOW THIS LINE */
+/* WITH FIRST PARTY COOKIE */
+(function() {
+var bi = document.createElement('script');bi.type = 'text/javascript'; bi.async = true;
+bi.src = '//cs.nakanohito.jp/b3/bi.js';
+var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bi, s);
+})();
+</script>
+<!-- User Insight PCDF Code End :  -->
+</body>
+</html>
+```
