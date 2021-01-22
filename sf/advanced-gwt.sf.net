@@ -1,0 +1,545 @@
+```
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Advanced GWT Components - 
+        Welcome Page</title>
+    <style type="text/css" media="all">
+      @import url("./css/maven-base.css");
+      @import url("./css/site.css");
+    </style>
+    <link rel="alternate"  type="application/rss+xml" href="http://feedproxy.google.com/AdvancedGwtComponents-ProjectNews" title="Advanced GWT Components - Project News"/>
+    <link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
+    <link rel="alternate" title="Advanced GWT Components Project News" href="/rss/rss.xml" type="application/rss+xml"/>
+        <meta name="description" content="Advanced GWT Components is an extension of the standard Google Web Toolkit library. It allows making rich web interfaces extremely quickly even if you're not skilled in DHTML and JavaScript programming. Currently the library supports such popular browsers like Internet Explorer, Firefox, Safary, Opera and Chrome."/>
+    <meta name="keywords" content="GWT, AJAX, Java, widget, component, library, web 2.0, web UI, rich web, editable grid, hiererchical grid, tree grid, combo box, suggestion box, date picker, grid panel, toolbar, pager"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      </head>
+  <body class="composite">
+    <div id="banner">
+                    <div id="bannerLeft">
+    
+            Advanced GWT Components
+    
+            </div>
+            <div id="bannerRight">
+<form action="http://advanced-gwt.sourceforge.net/search.html" id="cse-search-box">
+<div>
+<input type="hidden" name="cx" value="partner-pub-9000622932994109:cyhfrydmysw" />
+<input type="hidden" name="cof" value="FORID:10" />
+<input type="hidden" name="ie" value="UTF-8" />
+Site Search: <input type="text" name="q" size="31" />
+<input type="submit" name="sa" value="Search" />
+</div>
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+</div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+      <div class="xleft"><a href="http://feedproxy.google.com/AdvancedGwtComponents-ProjectNews" alt="Project News Subscription" title="Subscribe"><img src="images/feed.png"/> Project News</a></div>
+      <div class="xright">            <a href="index.html">Home</a>
+            |
+                <a href="http://sourceforge.net/news/?group_id=216339" class="externalLink">News</a>
+            |
+                <a href="demo/index.html">Live Demo</a>
+            |
+                <a href="http://sourceforge.net/projects/advanced-gwt/files/advanced-gwt-components/" class="externalLink">Downloads</a>
+            |
+                <a href="quickstart.html">Quick Start</a>
+            |
+                <a href="faq.html">FAQ</a>
+            |
+                <a href="apidocs/index.html">API Documents</a>
+            |
+                <a href="http://code.google.com/p/advanced-gwt-components/issues/list?can=1&q=&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles" class="externalLink">Tracker</a>
+        </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+                 <h5>Home</h5>
+            <ul>
+              
+    <li class="none">
+              <strong>Welcome Page</strong>
+        </li>
+          </ul>
+              <h5>Downloads</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="https://sourceforge.net/projects/advanced-gwt/files/advanced-gwt-components/" class="externalLink">Free Binary</a>
+          </li>
+              
+    <li class="none">
+                    <a href="source-repository.html">Source Code</a>
+          </li>
+          </ul>
+              <h5>Demo</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="demo/index.html">Live Demo</a>
+          </li>
+              
+    <li class="none">
+                    <a href="http://sourceforge.net/project/screenshots.php?group_id=216339" class="externalLink">Screenshots</a>
+          </li>
+          </ul>
+              <h5>Widgets</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="advanced-flex-table.html">Advanced FlexTable</a>
+          </li>
+              
+    <li class="none">
+                    <a href="simple-grid.html">Simple Grid</a>
+          </li>
+              
+    <li class="none">
+                    <a href="editable-grid.html">Editable Grid</a>
+          </li>
+              
+    <li class="none">
+                    <a href="hierarchical-grid.html">Hierarchical Grid</a>
+          </li>
+              
+    <li class="none">
+                    <a href="tree-grid.html">Tree Grid</a>
+          </li>
+              
+    <li class="none">
+                    <a href="master-detail.html">Master-Detail Panel</a>
+          </li>
+              
+    <li class="none">
+                    <a href="grid-panel.html">Grid Panel</a>
+          </li>
+              
+    <li class="none">
+                    <a href="grid-panel.html">Grid Toolbar</a>
+          </li>
+              
+    <li class="none">
+                    <a href="grid-panel.html">Pager</a>
+          </li>
+              
+    <li class="none">
+                    <a href="advanced-tab-panel.html">Advanced TabPanel</a>
+          </li>
+              
+    <li class="none">
+                    <a href="borders.html">Single Border</a>
+          </li>
+              
+    <li class="none">
+                    <a href="borders.html">Round Corner Border</a>
+          </li>
+              
+    <li class="none">
+                    <a href="text-and-button.html">Date Picker</a>
+          </li>
+              
+    <li class="none">
+                    <a href="text-and-button.html">Combo Box</a>
+          </li>
+              
+    <li class="none">
+                    <a href="text-and-button.html">Suggestion Box</a>
+          </li>
+          </ul>
+              <h5>Documentation</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="quickstart.html">Quick Start</a>
+          </li>
+              
+    <li class="none">
+                    <a href="tutorial/index.html">Tutorial</a>
+          </li>
+              
+    <li class="none">
+                    <a href="faq.html">FAQ</a>
+          </li>
+              
+    <li class="none">
+                    <a href="decision-maker.html">Decision Maker</a>
+          </li>
+              
+    <li class="none">
+                    <a href="apidocs/index.html">JavaDocs API</a>
+          </li>
+          </ul>
+              <h5>Support</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="http://code.google.com/p/advanced-gwt-components/issues/list?can=1&q=&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles" class="externalLink">Tracker</a>
+          </li>
+          </ul>
+              <h5>Project Documentation</h5>
+            <ul>
+              
+                
+                    
+                  
+                  
+              
+        <li class="collapsed">
+                    <a href="project-info.html">Project Information</a>
+                </li>
+              
+                
+                    
+                  
+                  
+              
+        <li class="collapsed">
+                    <a href="project-reports.html">Project Reports</a>
+                </li>
+          </ul>
+             <div class="poweredBy">
+<a href="http://sourceforge.net/projects/advanced-gwt"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=216339&type=10" width="80" height="15" border="0" alt="Get Advanced GWT Components at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
+<!-- SpyLOG -->
+<script type="text/javascript"> //<![CDATA[
+var spylog_counter=1022684;
+var spylog_part="";
+var spylog_track_links="ext";
+var spylog_page_level="0";
+//]]></script>
+<script src="http://tools.spylog.ru/counter_experimental.js" type="text/javascript"></script>
+<noscript><a
+href="http://u10226.84.spylog.com/cnt?cid=1022684&amp;f=3&amp;p=0"
+target="_blank">
+<img src="http://u10226.84.spylog.com/cnt?cid=1022684&amp;p=0"
+alt="SpyLOG" width="88" height="31" /></a>
+</noscript>
+<!--/ SpyLOG -->
+<a href="http://sourceforge.net/donate/index.php?group_id=216339"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project" /></a>
+<a href="http://www.jetbrains.com/idea/" style="width:88px; height:31px; border:0; margin:0;padding:0;text-decoration:none;text-indent:0;"><img src="http://www.jetbrains.com/idea/opensource/img/all/banners/idea88x31_white.gif" alt="The best Java IDE" border="0"/></a>
+</div>
+      </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        
+    
+        <div class="section">
+<h2>Introduction<a name="Introduction"></a></h2>
+            
+<p>
+                Advanced GWT Components is an extension of the standard Google Web Toolkit
+                library. It allows making rich web interfaces extremely quickly even if you're
+                not skilled in DHTML and JavaScript programming. Currently the library supports
+                such popular browsers like Internet Explorer, Firefox, Safary, Opera and Chrome.
+            </p>
+            
+<p>
+                The library is absolutely free and you can download and use it right now. 
+            </p>
+            
+<p>
+                Download the latest stable version here:
+                <a class="externalLink" href="http://sourceforge.net/projects/advanced-gwt/files/advanced-gwt-components/2.0.9/">2.0.9</a>.
+            </p>
+            
+<p>
+                Or add the following Maven dependency:
+</p>
+<div class="source">
+<pre>
+    <style type="text/css"></style>
+
+<div>
+<pre>
+<span class="s0">&lt;</span><span class="s1">dependency</span><span class="s0">&gt;</span><span class="s2">
+<a name="l18"></a>     </span><span class="s0">&lt;</span><span class="s1">groupId</span><span class="s0">&gt;</span><span class="s3">net.sf.advanced-gwt</span><span class="s0">&lt;/</span><span class="s1">groupId</span><span class="s0">&gt;</span><span class="s2">
+<a name="l19"></a>     </span><span class="s0">&lt;</span><span class="s1">artifactId</span><span class="s0">&gt;</span><span class="s3">advanced-gwt</span><span class="s0">&lt;/</span><span class="s1">artifactId</span><span class="s0">&gt;</span><span class="s2">
+<a name="l20"></a>     </span><span class="s0">&lt;</span><span class="s1">version</span><span class="s0">&gt;</span><span class="s3">2.0.9</span><span class="s0">&lt;/</span><span class="s1">version</span><span class="s0">&gt;</span><span class="s2">
+<a name="l21"></a>     </span><span class="s0">&lt;</span><span class="s1">scope</span><span class="s0">&gt;</span><span class="s3">provided</span><span class="s0">&lt;/</span><span class="s1">scope</span><span class="s0">&gt;</span><span class="s2">
+<a name="l22"></a></span><span class="s0">&lt;/</span><span class="s1">dependency</span><span class="s0">&gt;</span></pre></div>
+</pre></div>
+            
+            
+<p>
+                Don't forget to look at our <a href="/demo/index.html">Live Demo</a>!
+            </p>
+        </div>
+        
+<div class="googleAds">
+<script type="text/javascript"><!--
+google_ad_client = "pub-9000622932994109";
+/* 728x90, created 25.11.08 */
+google_ad_slot = "0511751421";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+        
+<div class="section">
+<h2>Widgets<a name="Widgets"></a></h2>
+            
+<p>
+              Click one of the following links to know more about a widget:
+              </p>
+<ul>
+                  
+<li><a href="editable-grid.html">Editable (updatable) Grid</a></li>
+                  
+<li><a href="hierarchical-grid.html">Hierarchical Grid</a></li>
+                  
+<li><a href="tree-grid.html">Tree Grid</a></li>
+                  
+<li><a href="advanced-flex-table.html">Advanced FlexTable</a></li>
+                  
+<li><a href="simple-grid.html">SimpleGrid</a></li>
+                  
+<li><a href="advanced-tab-panel.html">AdvancedTabPanel</a></li>
+                  
+<li><a href="borders.html">SingleBorder</a></li>
+                  
+<li><a href="borders.html">RoundCornerBorder</a></li>
+                  
+<li><a href="grid-panel.html">Pager</a></li>
+                  
+<li><a href="grid-panel.html">Grid Toolbar</a></li>
+                  
+<li><a href="grid-panel.html">Grid Panel</a></li>
+                  
+<li><a href="master-detail.html">Master-Detail Panel</a></li>
+                  
+<li><a href="text-and-button.html">Date Picker</a></li>
+                  
+<li><a href="text-and-button.html">Combo Box</a></li>
+                  
+<li><a href="text-and-button.html">Suggestion Box</a></li>
+              </ul>
+              You don't know what of the components, approahes and solutions is the best choice for your application, do you?
+              Click the link to try our <a href="decision-maker.html">decision making scheme</a>!
+            
+        </div>
+        
+<div class="googleAds">
+<script type="text/javascript"><!--
+google_ad_client = "pub-9000622932994109";
+/* 728x90, created 25.11.08 */
+google_ad_slot = "0511751421";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+        
+<div class="section">
+<h2>Features List<a name="Features_List"></a></h2>
+            
+<p>
+              </p>
+<ul>
+                  
+<li>improved browser independent table body scrolling</li>
+                  
+<li>editable grids</li>
+                  
+<li>hierarchical and master-detail representations of complicated data models</li>
+                  
+<li>multiple and single row selections</li>
+                  
+<li>client side paging and sorting</li>
+                  
+<li>server side (lazy) data loading</li>
+                  
+<li>client and server side content rendering</li>
+                  
+<li>full keyboard control</li>
+                  
+<li>flexible tab panels</li>
+                  
+<li>customizable borders API</li>
+                  
+<li>localization and internationalization</li>
+                  
+<li>&lt;thead&gt; HTML tag support in tables</li>
+                  
+<li>&lt;tfoot&gt; HTML tag support in tables</li>
+                  
+<li>splitting to view and model (MVP design)</li>
+                  
+<li>data model events</li>
+                  
+<li>lazy rendering for large drop down lists</li>
+                  
+<li>customizable event management and rendering</li>
+                  
+<li>GWT 1.6.4, 1.7.1, 2.0.x, 2.1.x, 2.2.x, 2.3.x, 2.4.x, 2.5.x or higher compatibility</li>
+                  
+<li>no dependencies to other third-party libraries</li>
+                  
+<li>theme runtime switching for non-styled widgets</li>
+                  
+<li>latest releases are available in the Maven Central Repository <span class="new">new</span></li>
+              </ul>
+            
+        </div>
+        
+<div class="section">
+<h2>GWT Compatibility Matrix<a name="GWT_Compatibility_Matrix"></a></h2>
+            
+<p>
+                Advanced GWT Components were reworked in 2.0.0 release. Deprecated API usage was removed and Java generics
+                has been applied everywhere it was possible. The price for these improvements was different GWT versions
+                incompatibility. To check what library version is most suitable for your project see the table below.
+            </p>
+            
+<table border="0" class="bodyTable">
+                
+<tr class="a">
+                    
+<th></th>
+                    
+<th>GWT 1.4.x</th>
+                    
+<th>GWT 1.5.x</th>
+                    
+<th>GWT 1.6.x</th>
+                    
+<th>GWT 1.7.x</th>
+                    
+<th>GWT 2.0.x</th>
+                    
+<th>GWT 2.1.x</th>
+                    
+<th>GWT 2.2.x</th>
+                    
+<th>GWT 2.3.x</th>
+                    
+<th>GWT 2.4.x</th>
+                    
+<th>GWT 2.5.x</th>
+                </tr>
+                
+<tr class="b">
+                    
+<th>1.x</th>
+                    
+<td>Yes</td>
+                    
+<td>Yes</td>
+                    
+<td>Yes</td>
+                    
+<td>Yes</td>
+                    
+<td>Yes</td>
+                    
+<td>Yes</td>
+                    
+<td>Yes*</td>
+                    
+<td>Yes*</td>
+                    
+<td>Yes*</td>
+                    
+<td>Yes*</td>
+                </tr>
+                
+<tr class="a">
+                    
+<th>2.x</th>
+                    
+<td>No</td>
+                    
+<td>No</td>
+                    
+<td>Yes</td>
+                    
+<td>Yes</td>
+                    
+<td>Yes</td>
+                    
+<td>Yes</td>
+                    
+<td>Yes</td>
+                    
+<td>Yes</td>
+                    
+<td>Yes</td>
+                    
+<td>Yes</td>
+                </tr>
+            </table>
+            
+<p>
+                * - should work but hasn't been tested
+            </p>
+            
+<p>
+                Note that older versions of the library (1.x) will be patched only in case of critical bug fixes. All
+                the new features are expected to be done in 2.x releases.
+            </p>
+        </div>
+        
+<div class="googleAds">
+<script type="text/javascript"><!--
+google_ad_client = "pub-9000622932994109";
+/* 728x90, created 25.11.08 */
+google_ad_slot = "0511751421";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+    
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2008-2013
+    
+      </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6639698-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script></body>
+</html>
+```
