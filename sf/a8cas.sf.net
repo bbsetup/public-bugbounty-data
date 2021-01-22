@@ -1,0 +1,75 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB" dir="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>A8CAS - software for reading/writing Atari 8-bit cassettes</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="screen.css" />
+</head>
+<body>
+	<div id="main">
+		<h1>A8CAS - software for reading/writing Atari 8-bit cassettes</h1>
+		<div id="sidebar">
+			<ul>
+				<li class="current"><a href="index.html">Main page</a>
+					<ul>
+						<li><a href="index.html#about">About</a></li>
+						<li><a href="index.html#contact">Contact</a></li>
+						<li><a href="index.html#download">Download</a></li>
+						<li><a href="index.html#examples">Example tapes</a></li>
+					</ul>
+				</li>
+				<li><a href="news.html">News (2015.12.10)</a></li>
+				<li><a href="features.html">Features</a>
+					<ul>
+						<li><a href="features.html#liba8cas">liba8cas</a></li>
+						<li><a href="features.html#a8cas-tools">a8cas-tools</a></li>
+						<li><a href="features.html#patch">Atari800 patch</a></li>
+						<li><a href="features.html#todo">To do</a></li>
+					</ul>
+				</li>
+				<li><a href="links.html">Links</a></li>
+				<li><a href="format-cas.html">CAS format</a></li>
+				<li><a href="format-hex.html">HEX format</a></li>
+				<li><a href="format-fsk.html">FSK format</a></li>
+				<li><a href="format-raw.html">Raw files</a></li>
+				<li><a href="turbo.html">Turbo tapes</a></li>
+				<li><a href="api.html">Programming Interface</a></li>
+			</ul>
+		</div>
+
+		<h2><a name="about"/>About A8CAS</h2>
+		<p>The aim of the <b>A8CAS</b> project is to create software to read, save and archive tapes for <a href="http://en.wikipedia.org/wiki/Atari_8-bit_family">Atari 8-bit computers</a>.</p>
+		<p>Early Atari computers could store their programs on <a href="http://en.wikipedia.org/wiki/Compact_Cassette">Compact Cassettes</a>. Lots of commercial software was also sold on tapes. Some of the tapes employed different tricks
+			to prevent creating illegal copies. A8CAS aims to correctly read and write all such tapes.</p>
+			<p>A8CAS is inspired by existing utilities, Ernest R. Schreurs' <a href="http://home.planet.nl/~ernest/atarixle.html">WAV2CAS and CAS2WAV</a>.
+				Schreurs' tools however did not support tapes with non-standard data (copy prevention mechanisms), and reading tapes from low-quality audio files was very unreliable. A8CAS addresses both of those issues. A8CAS now provides a superset of WAV2CAS' features.</p>
+				<p>A8CAS consists of:</p>
+				<ul>
+					<li><b>liba8cas</b> a C shared library that contains all routines needed to read and write cassettes (support for <a href="format-cas.html">CAS</a>, <a href="format-hex.html">HEX</a>, <a href="format-fsk.html">FSK</a> and sound files WAV, OGG, FLAC etc. is implemented). The library can be used in emulators and drivers for SIO interfaces such as SIO2PC;</li>
+					<li><b>a8cas-tools</b> - a set of command-line tools that contains <code>a8cas-convert</code>, a utility similar to WAV2CAS/CAS2WAV. The tools use the A8CAS library;</li>
+					<li><b>atari800-a8cas</b> - a modification of <a href="http://atari800.sourceforge.net/">the Atari800 emulator</a>, that uses liba8cas to load and save tape files (CAS, HEX, WAV, OGG, ...).</li>
+				</ul>
+
+
+				<h2><a name="contact"/>Contact</h2>
+				<p>This software has been created by Tomasz Krasuski. You can contact me by e-mail: <code>kr0tki (at) poczta DOT onet DOT pl</code>.
+					Feel free to share questions or suggestions related to the A8CAS project.</p>
+
+
+					<h2><a name="download"/>Download</h2>
+					<p> All source files are available under the GNU General Public License ver.2. See COPYING for details.</p>
+					<p>To download the liba8cas library, a8cas-tools and/or atari800-a8cas, go to the <a href="https://sourceforge.net/projects/a8cas/files/">SourceForge download page</a>. The Windows an OS X archives are self-contained - they do not require any external dependencies. When building from sources, the dependencies are as follows:</p>
+					<ul>
+						<li>liba8cas requires <a href="http://www.mega-nerd.com/libsndfile/">libsndfile</a>;</li>
+						<li>a8cas-tools requires liba8cas;</li>
+						<li>atari800-a8cas requires liba8cas, in addition to other dependencies of an unmodified Atari800 emulator.</li>
+					</ul>
+
+
+					<h2><a name="examples"/>Example tapes</h2>
+					<p>See <a href="links.html">Links</a> for a few sources of CAS files that can be used to play with the emulator's new features.</p>
+
+				</div>
+			</body>
+			</html>
+```
