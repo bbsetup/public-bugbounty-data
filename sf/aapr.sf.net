@@ -1,0 +1,79 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>AES Archive Password Recovery Utility - Home</title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+<div id="wrap">
+
+<div id="top"></div>
+
+<div id="content">
+
+<div class="header">
+<h1><a href="#">AAPR</a></h1>
+<h2>AES Archive Password Recovery Utility</h2>
+</div>
+
+<div class="breadcrumbs">
+<a href="index.html">Home</a> &middot; <a href="download.html">Download</a> &middot; <a href="how-to.html">Documentation</a>
+ &middot; <a href="about.html">About</a>
+</div>
+
+<div class="middle">
+<h2>AAPR : a RAR Password Recovery tool	</h2>
+AAPR, is a small utility that can help you recover password of encrypted archives.
+At present It only support RAR v3 with encrypted file names. 
+It can perform 2 types of recovery methods : 
+brute-force and dictionary.
+<p /><br />
+AES is a very computationally intensive encryption scheme.
+Because there are no known flaws that could help speed up the process, the only simple way to
+to find the password is to try them all. It could take a very long time. If it's a long password,
+It won't be possible to recover it because it would take hundreds of years of CPU time to find it.
+<p /><br />
+AAPR will hence only be useful is the password is weak : short, or a word in a dictionary.
+<p /><br />
+If you already know some information about the password, AAPR could be very useful :
+I originally wrote the program because I had to open an archive I created a long time
+ago but could not remember the password. Because I donât want to have too many
+passwords to remember (I remember quite a lot of them already), one thing I often do,
+is to combine several passwords I already know to create a stronger passwords.
+So I have been able to use AAPR successfully by compiling a list of all the passwords
+I thought I could have used, and telling AAPR to try all permutations.
+<p /><br />
+ 		
+</div>
+		
+<div class="right">
+<h2>Latest version : v0.01	</h2>		
+<h2>Navigation</h2>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="download.html">Download</a></li>
+	<li><a href="how-to.html">How-to use</a></li>
+	<li><a href="faq.html">FAQ</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+<br />Hosted by :<br />
+<a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=200739&amp;type=2" width="125" height="37" border="0" alt="SourceForge.net Logo" /></a>		
+</div>
+
+<div id="clear"></div>
+
+</div>
+
+<div id="bottom"></div>
+
+</div>
+
+<div id="footer">
+
+</div>
+
+</body>
+</html>```
