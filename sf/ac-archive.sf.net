@@ -1,0 +1,174 @@
+```<html><head><title>Autoconf Macro Archive - Documentation - introduction.htm</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /><style>
+ p.para             { text-align: justify; margin-left: 1em; margin-right: 1em }
+ dt.refcaption      { font-weight: bold }
+ h2.subsection      { text-align: center }
+ dd.refcontent      { text-align: justify; margin-right: 1em }
+ a:link { color: #000080; text-decoration: none }
+ a:visited { color: #200060; text-decoration: none }
+
+</style>
+</head><body><div style="width:100%; border 1px red; background-color: #FCC; padding: 1em; font-size: large; font-weight: bold">
+<div align="center"> <u>AC Autoconf Macro Archive </u></div>
+</div>
+<table width="100%"><tr valign="top">  <td width="145" bgcolor="#E0E0FF">
+        <!--logo:-->
+        <center>
+        <big><big><a href="http://ac-archive.sf.net">
+        <font color="#4000C0"><b>AC</b><small>-</small><i>Archive</i></font>
+        </a></big></big>
+        <br /><small>Autoconf Macro Archive</small></center>
+        <!--logo/-->
+        
+<hr />
+
+        <!--site:-->
+        <A href="http://ac-archive.sf.net">ac-archive.sf.net:</A>
+        - <A href="http://sf.net/projects/ac-archive/">Project</A>
+        <A href="http://sf.net/cvs/?group_id=32081">CVS</A>
+        - <A href="http://sf.net/project/showfiles.php?group_id=32081">
+        Download</A><!--site/-->
+        
+<hr />
+<!--dirs:-->
+<a href="macros.html">Macro Index</a><br />
+- <a href="AM_Support/index.html">AM Support</a><br />
+- <a href="C++_Support/index.html">C++ Support</a><br />
+- <a href="C_Support/index.html">C Support</a><br />
+- <a href="Fortran_Support/index.html">Fortran Support</a><br />
+- <a href="Java_Support/index.html">Java Support</a><br />
+- <a href="Cross_Compilation/index.html">Cross Compilation</a><br />
+- <a href="Installed_Packages/index.html">Installed Packages</a><br />
+- <a href="Miscellaneous/index.html">Miscellaneous</a><br />
+- <a href="LaTeX_Support/index.html">LaTeX Support</a><br />
+- <a href="Uncategorized/index.html">Uncategorized</a><br />
+- <a href="ac-archive/index.html">archive macros</a><br />
+- <a href="adl/index.html">adl's macros</a><br />
+- <a href="bkorb/index.html">bkorb's macros</a><br />
+- <a href="guidod/index.html">guidod's macros</a><br />
+- <a href="latex/index.html">latex's macros</a><br />
+- <a href="other/index.html">other's macros</a><br />
+- <a href="rleigh/index.html">rleigh's macros</a><br />
+- <a href="obsoleted/index.html">obsoleted macros</a><br />
+- <a href="released/index.html">released macros</a><br />
+- <a href="search.html">search index</a><br />
+<!--dirs/-->
+<hr />
+
+        <!--docs:-->
+        <a href="doc/introduction.html">Documentation</a><br />
+        - <a href="doc/contribute.html">Contribute!</a><br />
+        - <a href="doc/history.html">History</a><br />
+        - <a href="doc/acincludedir.html">acincludedir&nbsp;m4</a><br />
+        - <a href="doc/acinclude.html">acinclude (tool)</a><br />
+        - <a href="doc/howto.html">macro howto</a><br />
+        - <a href="doc/tricks.html">ax tricks</a><br />
+        - <a href="doc/maintainers.html">maintainers</a><br />
+        - <a href="doc/copyright.html">License</a><br />
+        - <a href="doc/else.html">Topics</a><br />
+        <!--docs/-->
+        
+<hr />
+
+        <small><i>generated...</i><br />
+        <center>2007-08-05 </center></small><br />
+        <b><a href="copyright.html">(C) 2007</a>  <a href="mailto:guidod[@]gmx.de">guidod</a></b>
+        </td><td>
+<!-- CATEGORY  "Documentation" -->
+<!-- SHORTNAME "Documentation" -->
+<!-- SORTING "A" -->
+
+<p class="para">
+ I'd like to say one small thing before going into details:
+ <em>Please contribute!</em> Much effort has been put into this place,
+ in the hope that it will be useful to as many people as possible. But
+ we can't do it all by ourselves -- we need your help. If you have
+ written a macro (or two?) of which you think that it might be useful,
+ please contribute it to the archive.
+</p>
+<p class="para">
+ Curiously enough, many people seem to be scared away by the idea
+ that "their macro is not good enough to be published". Try to look at
+ it this way: Nobody is perfect, nobody knows everything and nobody
+ will be flamed if there is a minor stylistic deficiency in the code of
+ a macro published here. <em>Hey, do you know any better way to get
+ your code debugged for free by several hundred volunteers? :-)</em>
+</p>
+
+<p class="para">
+ Enough for now, just have a look at the
+ <a href="http://sources.redhat.com/autoconf/">autoconf</a> 
+ macros - they are grouped by category on the left side.
+</p>
+
+
+<div style="width:80%; border: 1px solid red; background-color: #FCC; margin: 2em; padding: 2em; text-align: center; font-size: large; font-weight: bold">This project has been discontinued.<br />Please send your updates to the<br /><a href="https://www.gnu.org/software/autoconf-archive/" style="font-decoration: none">GNU Autoconf Macro Archive</a> </div>
+
+
+<a name="downloading"></a>
+<h2>Downloading all macros at once</h2>
+
+<p class="para">
+ In case you want to download all macros at once rather than having to click
+ through the whole list and access them individually, just get tarballs and
+ rpm archives from the  
+ <a href="http://sourceforge.net/project/showfiles.php?group_id=32081">
+ project's sourceforge filelist</a>, where updates are posted
+ every time a member of the archive changes or new macros are added.
+<br /> &nbsp;
+</p>
+
+<table width="100%"><tr valign="top"><td align="center">
+<p>
+<em>Just get all the m4 macro source files..</em>
+<br /><a href="ac-archive-macros-2007.0805.tar.bz2">ac-archive-macros-2007.0805.tar.bz2</a>
+</p><p>
+<em>or just the generated unix man pages...</em>
+<br /><a href="ac-archive-man7-2007.0805.tar.bz2">ac-archive-man7-2007.0805.tar.bz2</a>
+</p>
+</td><td align="center">
+<p>
+<em>The complete source tarball and RPMs can be fetched from the...</em>
+<br /><a href="http://sourceforge.net/project/showfiles.php?group_id=32081">
+Sourceforge Download Repository 
+(<a href="http://prdownloads.sourceforge.net/ac-archive/ac-archive-2007.0202.tar.bz2"
+>ac-archive-2007.0202.tar.bz2</a>)
+</p><p>
+<em>The current CVS Repository is visible at sourceforge as well...</em>
+<br />browse online at
+<a href="http://ac-archive.cvs.sourceforge.net/ac-archive/">
+                ac-archive.cvs.sourceforge.net/ac-archive </a>
+</td></tr></table>
+<p>&nbsp;</p>
+
+<hr width="60%" align="center">
+<p>further reading...
+<a name="links"></a>
+<ul>
+<li><a href="http://www.gnu.org/software/autoconf">
+    GNU Autoconf</a> configure maker
+<li><a href="http://www.gnu.org/software/automake">
+    GNU Automake</a> makefile generator
+<li><a href="http://www.gnu.org/software/libtool">
+    GNU Libtool</a>  sharedlibrary tool
+<li><a href="http://www.gnu.org/software/m4">
+    GNU M4 </a> the macro processor
+<li><a href="http://sources.redhat.com">
+    RedHat Autotools</a> project sources
+<li><a href="http://autoconf-archive.cryp.to">
+    Autoconf Macro Archive</a> at Cryp.To (Peter Simon)
+<li>and <a href="http://ac-archive.sourceforge.net">
+    <b>AC Macro Archive</b></a> at SF.Net (Guido Draheim)
+    <small><br>............ including 
+      <A href="http://sf.net/project/showfiles.php?group_id=32081">
+        RPMs and tarballs
+      </A>
+   </small>
+<li>
+   <a href="http://autogen.sourceforge.net">
+   Autogen</a> to easily create new autoconf tests.
+</ul>
+</p>
+</td></tr></table>
+</body></html>
+```
