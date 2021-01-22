@@ -1,0 +1,314 @@
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	   "http://www.w3.org/TR/html4/loose.dtd">
+<html> 
+
+
+<head>
+ 
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+ 
+<title>Welcome to AACLS Ldap site</title>
+<link title="feuille" type="text/css" rel="stylesheet" href="./feuille.css">
+</head>
+
+<body  text="#333333" link="#6666aa" alink="#aa6666" vlink="#6666aa">
+
+<table width="736" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+	<td width="1" bgcolor="#999999"><img src="./img/blank.gif" alt="" width="1"></td>
+	<td>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+		<tr bgcolor="#999999"><td colspan="2"><img src="./img/blank.gif" width="1" height="1" alt=""></td></tr>
+                <tr bgcolor="#eeeeee"><td colspan="2"><img src="./img/blank.gif" width="1" height="3" alt=""></td></tr>
+		<tr bgcolor="#eeeeee"><td><font face=verdana color=black><img src="./img/blank.gif" width="5" height="1" alt=""><strong>AACLS/Home</strong></font><br></td></tr>
+		<tr bgcolor="#eeeeee"><td colspan="2"><img src="./img/blank.gif" width="1" height="3" alt=""></td></tr>
+		<tr bgcolor="#999999"><td colspan="2"><img src="./img/blank.gif" width="1" height="1" alt=""></td></tr>
+	</table>
+
+	<table border="0" cellspacing="0" cellpadding="5" bgcolor="#ffffff">
+		<tr valign="top">
+		<td width="132" bgcolor="#a0b8c8"> 
+		<center>
+
+		<table width="126" bgcolor="black" cellspacing="1" cellpadding="0">
+			<tr><td> 
+
+			<table width="125" bgcolor="#a0b8c8" cellspacing="0" cellpadding="4" border="0">
+				<tr><td bgcolor="#eeeeee"><strong>Sections</strong></td></tr>
+			</table>
+			</td></tr>
+			<tr><td>
+			<table width="125" bgcolor="#a0b8c8" cellspacing="0" cellpadding="4" border="0">
+				<tr bgcolor="#ffffdd">
+				<td align="left" bgcolor="#ffffdd">
+				<img src="./img/blank.gif" width="0" alt="">
+				<a href="/index.php">
+				<font face="helvetica,arial" size="2" >Home</font></a>
+				</td></tr>
+				<tr bgcolor="#ffffdd">
+				<td align="left" bgcolor="#ffffdd">
+				<img src="./img/blank.gif" width="0" alt="">
+				<a href="/download.php">
+				<font face="helvetica,arial" size="2" >Download</font></a>
+				</td></tr>
+
+				<tr bgcolor="#ffffdd">
+				<td align="left" bgcolor="#ffffdd">
+				<img src="./img/blank.gif" width="0" alt="">
+				<a href="http://aacls.sourceforge.net/doc.php">
+				<font face="helvetica,arial" size="2" >Documentation</font></a>
+				</td></tr>		
+
+                                <tr bgcolor="#ffffdd">
+                                <td align="left" bgcolor="#ffffdd">
+                                <img src="./img/blank.gif" width="0" alt="">
+                                <a href="http://aacls.sourceforge.net/license.php">
+                                <font face="helvetica,arial" size="2" >Licensing</font></a>
+                                </td></tr>
+
+				<tr bgcolor="#ffffdd">
+				<td align="left" bgcolor="#ffffdd">
+				<img src="./img/blank.gif" width="0" alt="">
+				<a href="http://www.sourceforge.net/projects/aacls">
+				<font face="helvetica,arial" size="2" >SF Page</font></a>
+				</td></tr>
+			</table>
+	
+			</td></tr>
+		</table>
+		</center>
+		</td>
+	<td bgcolor="#ffffff" rowspan="2" width="600">
+
+<CENTER>
+<h1>Welcome to AACLS slapd backend site</h1>
+</CENTER>
+
+<table width="580" cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td bgcolor="#999999" width="2"><img width="2" src="./img/blank.gif" alt=""></td>
+<td bgcolor="#ffffff" width="10" align="left">
+<table cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeeee"><tr><td bgcolor="#999999" colspan="2" height="2"></td></tr><tr><td nowrap>
+ <table><tr><td><strong>Licensing</strong></td></tr></table></TD>
+ <td bgcolor="#999999" width="2" align="left"><img width="2" src="./img/blank.gif" alt=""></td>
+</tr></table></td>
+<td bgcolor="#ffffff"></td>
+<td bgcolor="#ffffff" width="2"><img width="2" src="./img/blank.gif" alt=""></td>
+</tr>
+<tr>
+<td height="2" bgcolor="#999999" colspan="5"></td>
+</tr>
+<tr><td bgcolor="#999999" width="2"></td>
+<td bgcolor="#ffffff" colspan="3" width="576">
+<table cellpadding="4" bgcolor="#ffffdd" width="100%"><tr><td>
+<font color="red">
+This backend is designed specifically for OpenLDAP Software but is not a 
+product of the <a href="http://www.openldap.org/">OpenLDAP Project</a>.
+OpenLDAP is a registered trademark of the OpenLDAP Foundation
+</color>
+</td></tr></table></td>
+<td bgcolor="#999999" width="2"></td>
+</tr>
+<tr>
+<td height="2" bgcolor="#999999" colspan="5"></td>
+</tr>
+</table>
+<img src="/img/blank.gif" height="10" alt="">
+
+<table width="580" cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td bgcolor="#999999" width="2"><img width="2" src="./img/blank.gif" alt=""></td>
+<td bgcolor="#ffffff" width="10" align="left">
+<table cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeeee"><tr><td bgcolor="#999999" colspan="2" height="2"></td></tr><tr><td nowrap>
+ <table><tr><td><strong>Latest&nbsp;News</strong></td></tr></table></TD>
+ <td bgcolor="#999999" width="2" align="left"><img width="2" src="./img/blank.gif" alt=""></td>
+</tr></table></td>
+<td bgcolor="#ffffff"></td>
+<td bgcolor="#ffffff" width="2"><img width="2" src="./img/blank.gif" alt=""></td>
+</tr>
+<tr>
+<td height="2" bgcolor="#999999" colspan="5"></td>
+</tr>
+<tr><td bgcolor="#999999" width="2"></td>
+<td bgcolor="#ffffff" colspan="3" width="576">
+<table cellpadding="4" bgcolor="#ffffdd" width="100%"><tr><td>
+<p>20/02/2005: Before sharing the beta version of the AACLs overlay, you could use the latest version : 2.2.23 (improvements, up to date versions, ...)
+<p>2/11/2004: After a long silence, I'm moving from the AACLs backend to the AACLs overlay (which I hope will be <a href="http://www.openldap.org/lists/openldap-devel/200410/msg00051.html">integrated</a>
+soon in OpenLDAP :))
+<p>26/5/2004: New release for OpenLDAP 2.2.11. At this time, it seems that the core feature "extended referrals" does not give the right results every time. (Note: the 2.2.6 version has not been released due to software and time problems !)
+<p>17/3/2004: New release for OpenLDAP 2.2.6. For now, only two memory leaks remain (via Valgrind).
+<!--<p>20/1/2004: New release for OpenLDAP 2.1.25. A lots of bug fix and better support about severeal functionnalites (extended referrals, alias, ...).
+The team is preparing the 2.2 version. There's now the Java code to use the AACLs server (see doc. section).
+<p>9/12/2003: After a short mail exchange with Kurt D. Zeilenga, CEO of OpenLDAP project, this website is being changed
+to respect the OpenLDAP trademark and to notify visitors that this backend is not part of
+the official OpenLDAP product.
+<p>10/11/2003: New version of the backend for OpenLDAP 2.1.23. We introduce
+extended referral support through extended control. (See Documetation for more
+information). We also correct some bugs :) !-->
+
+</td></tr></table></td>
+<td bgcolor="#999999" width="2"></td>
+</tr>
+<tr>
+<td height="2" bgcolor="#999999" colspan="5"></td>
+</tr>
+</table>
+<img src="/img/blank.gif" height="10" alt="">
+
+
+<table width="580" cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td bgcolor="#999999" width="2"><img width="2" src="./img/blank.gif" alt=""></td>
+<td bgcolor="#ffffff" width="10" align="left">
+<table cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeeee"><tr><td bgcolor="#999999" colspan="2" height="2"></td></tr><tr><td nowrap>
+ <table><tr><td><strong>Overview</strong></td></tr></table></TD>
+ <td bgcolor="#999999" width="2" align="left"><img width="2" src="./img/blank.gif" alt=""></td>
+</tr></table></td>
+<td bgcolor="#ffffff"></td>
+<td bgcolor="#ffffff" width="2"><img width="2" src="./img/blank.gif" alt=""></td>
+</tr>
+<tr>
+<td height="2" bgcolor="#999999" colspan="5"></td>
+</tr>
+<tr><td bgcolor="#999999" width="2"></td>
+<td bgcolor="#ffffff" colspan="3" width="576">
+<table cellpadding="4" bgcolor="#ffffdd" width="100%"><tr><td>
+
+<p><b>AACLS</b> stands for <b>A</b>dvanced <B>ACL</B> <B>S</B>erver, it is an OpenLdap slapd's server backend that allows the ldap server administrator to define advanced Access control rules that are executed for each queries made to the ldap server and that are contained in an "human readable format" inside the ldap directory itself.
+<!-- <p> The access control rules are defined using a special format described in <a href=syntax.php> syntax </a>. -->
+<p> All documentation, usage information, concept lightnings can be found on the <a href="doc.php">documentation</a> page.
+<p><b>Note: </b>At this time, this backend can only be used as a gateway !!!
+
+</td></tr></table></td>
+<td bgcolor="#999999" width="2"></td>
+</tr>
+<tr>
+<td height="2" bgcolor="#999999" colspan="5"></td>
+</tr>
+</table>
+<img src="/img/blank.gif" height="10" alt="">
+
+<table width="580" cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td bgcolor="#999999" width="2"><img width="2" src="./img/blank.gif" alt=""></td>
+<td bgcolor="#ffffff" width="10" align="left">
+<table cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeeee"><tr><td bgcolor="#999999" colspan="2" height="2"></td></tr><tr><td nowrap>
+ <table><tr><td><strong>Download</strong></td></tr></table></TD>
+ <td bgcolor="#999999" width="2" align="left"><img width="2" src="./img/blank.gif" alt=""></td>
+</tr></table></td>
+<td bgcolor="#ffffff"></td>
+<td bgcolor="#ffffff" width="2"><img width="2" src="./img/blank.gif" alt=""></td>
+</tr>
+<tr>
+<td height="2" bgcolor="#999999" colspan="5"></td>
+</tr>
+<tr><td bgcolor="#999999" width="2"></td>
+<td bgcolor="#ffffff" colspan="3" width="576">
+<table cellpadding="4" bgcolor="#ffffdd" width="100%"><tr><td>
+<p>The AACLS backend is distributed as a patch against the OpenLdap current version of the ldap server. 
+
+<p>For a complete description of how to get the code, how to compile it, to configure and test it, please refer to the <a href="download.php">download</a> page.
+
+</td></tr></table></td>
+<td bgcolor="#999999" width="2"></td>
+</tr>
+<tr>
+<td height="2" bgcolor="#999999" colspan="5"></td>
+</tr>
+</table>
+<img src="/img/blank.gif" height="10" alt="">
+
+<table width="580" cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td bgcolor="#999999" width="2"><img width="2" src="./img/blank.gif" alt=""></td>
+<td bgcolor="#ffffff" width="10" align="left">
+<table cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeeee"><tr><td bgcolor="#999999" colspan="2" height="2"></td></tr><tr><td nowrap>
+ <table><tr><td><strong>Development</strong></td></tr></table></TD>
+ <td bgcolor="#999999" width="2" align="left"><img width="2" src="./img/blank.gif" alt=""></td>
+</tr></table></td>
+<td bgcolor="#ffffff"></td>
+<td bgcolor="#ffffff" width="2"><img width="2" src="./img/blank.gif" alt=""></td>
+</tr>
+<tr>
+<td height="2" bgcolor="#999999" colspan="5"></td>
+</tr>
+<tr><td bgcolor="#999999" width="2"></td>
+<td bgcolor="#ffffff" colspan="3" width="576">
+<table cellpadding="4" bgcolor="#ffffdd" width="100%"><tr><td>
+<p> For any topic concerning development or bug report, please go on the project's <a href="http://sourceforge.net/projects/aacls">SourceForge page</a>.
+
+
+</td></tr></table></td>
+<td bgcolor="#999999" width="2"></td>
+</tr>
+<tr>
+<td height="2" bgcolor="#999999" colspan="5"></td>
+</tr>
+</table>
+<img src="/img/blank.gif" height="10" alt="">
+
+<table width="580" cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td bgcolor="#999999" width="2"><img width="2" src="./img/blank.gif" alt=""></td>
+<td bgcolor="#ffffff" width="10" align="left">
+<table cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeeee"><tr><td bgcolor="#999999" colspan="2" height="2"></td></tr><tr><td nowrap>
+ <table><tr><td><strong>Documentation</strong></td></tr></table></TD>
+ <td bgcolor="#999999" width="2" align="left"><img width="2" src="./img/blank.gif" alt=""></td>
+</tr></table></td>
+<td bgcolor="#ffffff"></td>
+<td bgcolor="#ffffff" width="2"><img width="2" src="./img/blank.gif" alt=""></td>
+</tr>
+<tr>
+<td height="2" bgcolor="#999999" colspan="5"></td>
+</tr>
+<tr><td bgcolor="#999999" width="2"></td>
+<td bgcolor="#ffffff" colspan="3" width="576">
+<table cellpadding="4" bgcolor="#ffffdd" width="100%"><tr><td>
+You can find project's documentation at : <a href="doc.php">here</a> online, or you can download the <a href="doc/2.0/aacls.pdf">pdf</a> or  <a href="doc/2.0/aacls.ps">ps</a> 
+</td></tr></table></td>
+<td bgcolor="#999999" width="2"></td>
+</tr>
+<tr>
+<td height="2" bgcolor="#999999" colspan="5"></td>
+</tr>
+</table>
+<img src="/img/blank.gif" height="10" alt="">
+
+
+
+</td></tr>
+
+<tr><td bgcolor="a0b8c8" valign="bottom"> <center>
+<a href="http://www.linagora.com"><img
+ align="bottom"
+ src="./logo-linagora.gif"
+ border="1" alt="Linagora"
+ width="88"></a>
+<a href="http://sourceforge.net/"><img
+  align="bottom"
+  src="http://sourceforge.net/sflogo.php?group_id=235" width="88" height="31"
+  border="0" alt="SourceForge" /></a>
+</center>
+</td><td>
+</td>
+</tr>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr bgcolor="#999999"><td><img src="$base/img/blank.gif" width="1" height="1" alt=""></td></tr>
+<tr bgcolor="#eeeeee"><td align="center"><img src="$base/img/blank.gif" width="5" height="1" alt="">
+<font size="-1">  AACLS backend for OpenLDAP Software</font></td></tr>
+<tr bgcolor="#eeeeee"><td><img src="$base/img/blank.gif" width="1" height="5" alt=""></td></tr>
+<tr bgcolor="#999999"><td><img src="$base/img/blank.gif" width="1" height="1" alt=""></td></tr>
+</table>
+
+</td>
+<td bgcolor="#999999" width="1"> <img src="$base/img/blank.gif" width="1" alt=""> </td>
+</tr>
+
+</table>
+
+</body>
+</html>
+```
