@@ -1,0 +1,481 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>LDAP Account Sync</title>
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#0000ee" alink="#0000ee"
+ vlink="#551a8b">
+<h2 align="center"> LDAP Account Synchronization Project</h2>
+<br>
+<b><u>Alias:</u></b> LDAP Account Sync, AcctSync<br>
+<br>
+<b><u>Introduction</u></b>
+<br>
+&nbsp;&nbsp;&nbsp; The LDAP Account Sync Project's goal is
+create a user and group account system synchronized between Windows and
+UNIX Systems.&nbsp;&nbsp;This is not authorization, but rather
+synchronization
+of the account information and passwords.<br>
+<br>
+&nbsp;&nbsp; A number of other ways to do single-login authentication
+already exist:<br>
+<ul>
+</ul>
+<ul>
+  <li>Using <a href="http://www.samba.org/">SAMBA</a>
+as your NT/2000 domain PDC and store samba account information in LDAP.</li>
+  <ul>
+    <li>No Microsoft Domain Controllers necessary</li>
+  </ul>
+  <ul>
+    <li>NT 4 Domain Support only</li>
+  </ul>
+  <li>The "iPlanet Directory Server 4.0"&reg;
+NT synch tool</li>
+  <ul>
+    <li>NT 4 Domain Support only</li>
+  </ul>
+  <ul>
+    <li>No longer available</li>
+  </ul>
+  <li>Novell&reg; and <a href="http://www.psynch.com/">Psynch&reg;</a>
+have directory synchronization products that use the password filter
+DLL.</li>
+  <li>CSS Solutions <a href="http://www.css-solutions.ca/ad4unix/">AD4Unix</a></li>
+  <ul>
+    <li>Uses Active Directory for all account information and
+authentication</li>
+  </ul>
+  <li>Third party client authentication modules</li>
+  <ul>
+    <li>PAM Modules for UNIX</li>
+  </ul>
+  <ul>
+    <li>GINA Modules for Windows (e.g. pGINA <a
+ href="http://pgina.cs.plu.edu/">http://pgina.cs.plu.edu/</a>)</li>
+  </ul>
+</ul>
+<blockquote>
+  <ul>
+  </ul>
+</blockquote>
+&nbsp; What advantage does the LDAP Account Synchronization Project
+have over the other single account systems?&nbsp; Well, it
+depends.&nbsp; The reason for this project is to create an open source
+account system to work with existing account systems (OpenLDAP and
+Windows Active Directory).&nbsp; By doing this method, it can allow
+flexibility between the differences in the Windows and UNIX
+administration tasks.&nbsp; Review your requirements to see which
+method suits the solution.<br>
+<br>
+<div align="left"><u><b>Project Goals</b></u><br>
+</div>
+<ul>
+  <li>Create a single account system to allow flexibility between the
+UNIX and Windows paradigms.</li>
+  <li>Update, if necessary, the PERL
+backend on OpenLDAP, and port back-perl to the Win32 build of OpenLDAP
+using ActiveState's <a
+ href="http://www.activestate.com/Products/ActivePerl">Win32 PERL</a>
+package.</li>
+</ul>
+<span style="font-weight: bold; text-decoration: underline;">Design</span><br>
+<br>
+&nbsp;&nbsp; The account synchronization consist of three key areas,
+each
+area is divided into two parts. &nbsp;<br>
+<ul>
+  <li>User account modification ( Add/Del/Modify )</li>
+  <ul>
+    <li>Account modification from Windows-&gt;LDAP</li>
+    <li>Account modification from LDAP-&gt;Windows</li>
+  </ul>
+  <li>User password modification</li>
+  <ul>
+    <li>Password modification from Windows-&gt;LDAP</li>
+  </ul>
+  <ul>
+    <li>Password modification from LDAP-&gt;Windows</li>
+  </ul>
+  <li>User group modification ( Add/Del/Modify )</li>
+  <ul>
+    <li>Group modification from Windows-&gt;LDAP</li>
+    <li>Group modification from LDAP-&gt;Windows</li>
+  </ul>
+</ul>
+&nbsp;&nbsp; The project will
+produce each of the six components mentioned above. &nbsp;The main
+language of
+implementation will be PERL, due to it's cross-platform support,
+availability,
+and support in OpenLDAP's back-perl backend. &nbsp; Any modifications
+to
+OpenLDAP will be in C. &nbsp;At least one part, "2a - user password
+modifications
+from Windows-&gt;LDAP" will require a Windows password filter DLL, and
+that
+will have to be done in MSVC++.<br>
+<br>
+&nbsp;&nbsp; A NT/2000 password filter dll updates the OpenLDAP
+Directory Server
+when
+a NT/2000 user changes her/his password on any machine in the NT/2000
+domain.&nbsp;&nbsp; The back-perl OpenLDAP backend ( iPlanet&reg; uses
+their plugin API ) is
+used on both the NT/2000 server and on the main OpenLDAP server ( if
+they
+are different ) to modify NT/2000 accounts when accounts are modified
+in
+the directory, or vice-versa.<br>
+<br>
+&nbsp;&nbsp;&nbsp;Also, this method allows the authentication services
+on
+all operating systems to remain "intact" ie.&nbsp;no use of third party
+authentication modules, eg. PAM modules ( UNIX ) or GINA modules (
+Windows ) that are not
+from the OS vender.<br>
+<br>
+&nbsp;&nbsp;With the account sync
+scenario, a site can have all user account information, including valid
+passwords,
+in one location, the LDAP server, allowing it to reuse that server for
+applications requiring LDAP as an authentication service.
+&nbsp;&nbsp;Various other authentication
+scenarios, although use LDAP, still require giving up valid user
+passwords in the LDAP
+server, as the user passwords are stored elsewhere.<br>
+<br>
+<a href="pres">More information</a> on what acctsync does... <br>
+<br>
+<br>
+<i>Figure 1. A sample network configuration.<br>
+</i><br>
+<img src="acctsync1.png" alt="Account sync diagram 1" width="898"
+ height="484"> <br>
+<br>
+<u><b><br>
+Components</b></u><br>
+The components below make up the LDAP Account Sync Project:<br>
+<ul>
+  <li>OpenLDAP + backPerl (<a
+ href="http://sourceforge.net/projects/acctsync">http://sourceforge.net/projects/acctsync</a>)</li>
+  <ul>
+    <li>By using the OpenLDAP Replication system, all changes from the
+master OpenLDAP server are replicated into the OpenLDAP + backPerl
+Win32 binaries to make changes to the Windows Active Directory.<br>
+    </li>
+  </ul>
+  <li>passwdHk (<a href="http://sourceforge.net/projects/passwdhk">http://sourceforge.net/projects/passwdhk</a>)</li>
+  <ul>
+    <li>With the Windows Password Filtering API, passwdHk receives all
+the password changes on the Domain Controller.&nbsp; Then, it forwards
+the changes to the master OpenLDAP server.<br>
+    </li>
+  </ul>
+  <li>LDAPPerl (<a href="http://sourceforge.net/projects/ldapperl">http://sourceforge.net/projects/ldapperl</a>)</li>
+  <ul>
+    <li>This allows the passwdHk Password Change script to use the
+OpenLDAP Libraries to make changes to the master OpenLDAP server.<br>
+    </li>
+  </ul>
+  <li>acctSync Components (<a
+ href="http://sourceforge.net/projects/acctsync/">http://sourceforge.net/projects/acctsync/</a>)</li>
+  <ul>
+    <li>OpenLDAP acctSync Schema</li>
+    <ul>
+      <li>Incorporates Windows only attributes into the master OpenLDAP
+server.<br>
+      </li>
+    </ul>
+  </ul>
+  <ul>
+    <li>acctSync PerlModule for OpenLDAP + backPerl</li>
+    <ul>
+      <li>The user, password, and group synchronization from LDAP -&gt;
+Windows<br>
+      </li>
+    </ul>
+  </ul>
+  <ul>
+    <li>passwdHk Password Change script</li>
+    <ul>
+      <li>The password synchronization from Windows -&gt; LDAP<br>
+      </li>
+    </ul>
+  </ul>
+</ul>
+<u><b>Projects downloads and communication</b></u><br>
+<div align="left">
+<blockquote>&nbsp;&nbsp;&nbsp; See the sourceforge project summary page
+at <a href="https://sourceforge.net/projects/acctsync/">https://sourceforge.net/projects/acctsync/</a>
+for project files and more information on CVS, etc. &nbsp;<br>
+  <br>
+&nbsp;&nbsp;&nbsp; Communication will be done on the two mailing lists,
+acctsync-devel at <a
+ href="https://lists.sourceforge.net/lists/listinfo/acctsync-devel">
+https://lists.sourceforge.net/lists/listinfo/acctsync-devel</a> &nbsp;
+for developers working on the acctsync project, and acctsync-general at
+  <a class="moz-txt-link-freetext"
+ href="https://lists.sourceforge.net/lists/listinfo/acctsync-general">https://lists.sourceforge.net/lists/listinfo/acctsync-general</a>
+for users and other people requiring general information on the
+acctsync project.<br>
+  <br>
+</blockquote>
+<u><b>Project Status</b></u><br>
+<blockquote>
+  <table cellpadding="2" cellspacing="2" border="0" width="100%">
+    <tbody>
+      <tr>
+        <td style="vertical-align: top;"><span
+ style="font-style: italic;">01OCT03</span><br>
+        </td>
+        <td style="vertical-align: top;">-<br>
+        </td>
+        <td style="vertical-align: top;">Redesigned the web site
+layout.&nbsp; Hopefully it describes the project better.&nbsp; Also, a
+new version of OpenLDAP and acctSync is in the works.<br>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"><br>
+        </td>
+        <td style="vertical-align: top;"><br>
+        </td>
+        <td style="vertical-align: top;"><br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><i>01AUG02</i><br>
+        </td>
+        <td valign="top">-<br>
+        </td>
+        <td valign="top"> <a
+ href="http://acctsync.sf.net/passwdhk1.jpg">Screenshot</a> of the <b>passwdHk-config</b>
+utility. This utility configures the behavior of the passwdHk password
+synchronization DLL used to transmit the modified windows passwords
+over to the LDAP server. The DLL is configured via the registry. </td>
+      </tr>
+      <tr>
+        <td valign="top"><br>
+        </td>
+        <td valign="top"><br>
+        </td>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+        <td valign="top"><i>16JUL02</i><br>
+        </td>
+        <td valign="top">-<br>
+        </td>
+        <td valign="top"> OpenLDAP binaries for the 2.1.3 release are
+now available on the project page at <a
+ href="http://sourceforge.net/projects/acctsync">http://sourceforge.net/projects/acctsync</a>.
+The binaries were built with OpenSSL 0.9.6d, Berkeley DB 4.0.14, and
+ActiveState Perl 5.6.1. </td>
+      </tr>
+      <tr>
+        <td valign="top"><br>
+        </td>
+        <td valign="top"><br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><i>22MAY02</i><br>
+        </td>
+        <td valign="top">-<br>
+        </td>
+        <td valign="top"><i>acctSync.pm</i> and <i>acctSyncAccount.schema</i>
+are in CVS. acctSync.pm is the perl module that OpenLDAP Perl backend
+loads to process the user modification requests. I am waiting for an
+official OID number which I expect to arrive any day now. </td>
+      </tr>
+      <tr>
+        <td valign="top"><br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><i>20APR02</i><br>
+        </td>
+        <td valign="top">-<br>
+        </td>
+        <td valign="top">The current patch has been added to the
+OpenLDAP
+CVS source code repository. &nbsp;Therefore I wil not be posting any
+more
+patches. &nbsp;The back-perl backend should now compile on win32 using
+OpenLDAP
+from CVS.<br>
+        <br>
+I have been working on a PERL OpenLDAP extension to simplify writing
+PERL
+scripts that use the OpenLDAP libraries. &nbsp;The project is ldapperl,
+it's
+derived from perldap <a href="http://www.perldap.org/">http://www.perldap.org/</a>
+and can be found at <a href="http://ldapperl.sourceforge.net/">http://ldapperl.sourceforge.net/</a>
+. &nbsp;The goal is to more closely export the OpenLDAP C and C++ APIs
+as
+a PERL extension. <br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><br>
+        </td>
+        <td valign="top"><br>
+        </td>
+        <td valign="top"><br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><i>27MAR02</i><br>
+        </td>
+        <td valign="top">-<br>
+        </td>
+        <td valign="top">The current patch for OpenLDAP+back-perl on
+win32 can be found at <a
+ href="http://prdownloads.sourceforge.net/acctsync/back-perl.win32.current.patch.gz">
+http://prdownloads.sourceforge.net/acctsync/back-perl.win32.current.patch.gz</a>
+. &nbsp;This patch should apply cleanly against current OpenLDAP CVS
+HEAD branch. &nbsp;Note CVS changes significantly in short periods of
+time.<br>
+        <br>
+I have been told that this patch will eventually be applied in OpenLDAP
+CVS but with no date guarantee. &nbsp;Do not use the older patches,
+this
+one fixed all the issues I had ran into at the time I uploaded it.
+&nbsp;<br>
+        <br>
+After applying the patch you must
+        <ol>
+          <li>#define HAVE_SLAPD_PERL and HAVE_WIN32_ASPERL in the
+ldap/include/portable.nt file. </li>
+          <li>Import the back-perl project into your OpenLDAP workspace.</li>
+          <li>Add back-perl as a dependency of slapd project.</li>
+          <li>Add the 'perl56.lib' as a library dependency to slapd.</li>
+          <li>Modify your library and include directory paths to
+reflect where you have your perl/lib/CORE directory.</li>
+          <li>Last two steps also have to be done for other executables
+eg. slapadd, etc.</li>
+        </ol>
+If you have any problems feel free to drop a note on the list at <a
+ class="moz-txt-link-freetext"
+ href="https://lists.sourceforge.net/lists/listinfo/acctsync-general">https://lists.sourceforge.net/lists/listinfo/acctsync-general</a>
+.<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><br>
+        </td>
+        <td valign="top"><br>
+        </td>
+        <td valign="top"><br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><i>26MAR02</i><br>
+        </td>
+        <td valign="top">-<br>
+        </td>
+        <td valign="top">Update of "Password Hook DLL" now available
+from the <a href="https://sourceforge.net/projects/acctsync/">sourceforge
+summary page</a>. &nbsp;It now includes, registry entries for all of
+the configuration options, supports logging, create process flags, wait
+timing. &nbsp;Also
+included is a driver program to load the DLL during testing, to execute
+the
+functions. &nbsp;This version, though still considered alpha works well
+for
+me. &nbsp;Security and memory audits are next.<br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><br>
+        </td>
+        <td valign="top"><br>
+        </td>
+        <td valign="top"><br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><i>23MAR02</i><br>
+        </td>
+        <td valign="top">-<br>
+        </td>
+        <td valign="top">Uploaded the alpha source for a password
+filter I am working on. &nbsp;"Password Hook DLL" is a NT password
+filter that takes the user's password and then passes it to a script
+registered in the registry. &nbsp;The DLL thus is effectively a generic
+password filter. &nbsp;This is a different approach from <a
+ href="http://www.denglernet.de/">Osama Dengler's password filter</a>
+which makes the LDAP calls directly to the LDAP server. <br>
+        <br>
+This very alpha code reliabley crashes windows 2000, but hopefully
+that'll change soon. &nbsp;The code can be downloaded from the
+sourceforge summary page at <a
+ href="https://sourceforge.net/projects/acctsync/">https://sourceforge.net/projects/acctsync/</a><br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><br>
+        </td>
+        <td valign="top"><br>
+        </td>
+        <td valign="top"><br>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+</blockquote>
+<b><u>Building OpenLDAP on win32 system</u></b><br>
+<blockquote>I am planning to put up detailed instructions on this in
+the
+future but for now here are some pointers.<br>
+  <ol>
+    <li>Go through the OpenLDAP <a href="http://www.openldap.org/faq/">
+FAQ</a> . &nbsp;Specifically the win32 notes in the <a
+ href="http://www.openldap.org/faq/data/cache/4.html">developer section</a>
+.</li>
+    <li>See the <a
+ href="http://www.fivesight.com/downloads/openldap.asp">FiveSight</a>
+win32 OpenLDAP page for more information.</li>
+    <li>Search the <a href="http://www.openldap.org/lists/">OpenLDAP
+mailing-list</a> archive for questions previously answered.<br>
+    </li>
+  </ol>
+</blockquote>
+</div>
+<div align="left"><u><b>References</b></u><br>
+<ol>
+  <li>OpenLDAP - <a href="http://www.openldap.org/">http://www.openldap.org/</a></li>
+  <li>PERL - <a href="http://www.perl.com/">http://www.perl.com/</a></li>
+  <li>ActiveState Win32 Perl - <a
+ href="http://www.activestate.com/Products/ActivePerl/">http://www.activestate.com/Products/ActivePerl/</a></li>
+  <li>LDAP User Manager Project - <a
+ href="http://ldapusrmgr.sourceforge.net/">http://ldapusrmgr.sourceforge.net/</a></li>
+  <li>MS-Windows password filters - <a
+ href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/security/Security/password_filter_reference.asp">
+http://msdn.microsoft.com/library/default.asp?url=/library/en-us/security/Security/password_filter_reference.asp</a></li>
+</ol>
+<i>SourceForge Rules!!</i><a href="http://sourceforge.net"> <img
+ src="http://sourceforge.net/sflogo.php?group_id=48772&amp;type=5"
+ width="210" height="62" border="0" alt="SourceForge Logo"></a> <br>
+<br>
+Developed at <a href="http://www.fit.edu/">Florida Tech</a> <a
+ href="http://www.fit.edu/"><img
+ src="fit.gif"
+ style="border: 0px solid ;" title="" alt="Florida Tech Logo"></a><br>
+</div>
+<p> </p>
+<hr><i>For more information email Curtis Robinson, crobinso.at.fit.edu
+or <a
+ href="https://lists.sourceforge.net/lists/listinfo/acctsync-general/">acctsync-general</a>
+. <br>
+</i><span style="font-style: italic;">Last Modified by Curtis Robinson
+on 10/01/03</span><br>
+</body>
+</html>
+```
