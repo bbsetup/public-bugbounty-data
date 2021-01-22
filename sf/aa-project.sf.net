@@ -1,0 +1,140 @@
+```<HTML>
+<HEAD>
+<TITLE>AA-project homepage</TITLE>
+</HEAD>
+<BODY BGCOLOR="#000000" TEXT="#3ffc00" LINK="#fc3f00" VLINK="#ff3f00" ALINK="#ffffff">
+<center>
+<H1>AA-project homepage</H1>
+</center>
+<HR>
+<center>
+<PRE>
+     dT8  8Tb     
+    dT 8  8 Tb    
+   dT  8  8  Tb   
+&#60;PROJECT&#62;&#60;PROJECT&#62;
+ dT    8  8    Tb 
+dT     8  8     Tb
+</PRE>
+</P>
+</center>
+<HR>
+<P>
+
+<P>
+<center>
+<H1>Three goals of AA-Project:</H1>
+</center>
+
+</P>
+
+<OL>
+<LI>
+
+Port all important software (like Doom, Second Reality, X windows etc..) 
+on AA-lib.
+<LI>
+
+Port AA-lib on all available platforms (mainly ZX-Spectrum and Sharp).
+<LI>
+
+Force IBM to start manufacturing MDA cards again.
+</OL>
+
+<P>
+AA-project was started by Jan Hubicka. In that times just a few people knew about
+it. Then a new demo named BB has been relased to show the power 
+of AA-lib technology. Now the project is freely available and anyone can help.
+
+</P>
+<HR>
+<center>
+<H1>Why is this page green?</H1>
+</center>
+Well is just because you use wrong software. There is just one truth web browser - Lynx.
+<HR>
+<center>
+<H1>
+NEWS
+</H1>
+We are moving from our original home to SourceForge.  
+Please check <A HREF="http://sourceforge.net/projects/aa-project/">SourceForge news</A>.
+</center>
+<HR>
+
+<center>
+<H1>Pages</H1>
+</center>
+<UL>
+<UL>
+<LI><A href=gallery>AA-lib gallery</A>
+<LI><A href=tune>How to tune AA-lib</A>
+</UL>
+<center>
+<H1>Software</H1>
+</center>
+<HR>
+<UL>
+<LI><A href=aalib>AA-lib homepage</A>
+<LI><A href=bb>BB-the portable demo</A>
+<LI><A href=aavga>AAvga - an SVGAlib wrapper</A>
+<LI><A href=aview>Aview - an high quality ascii art browser/animation player</A>
+<LI><A href=aagroup>AA group homepage (demo group that created BB)</A>
+<LI><A href=aa3d>Random dot stereogram generator</A>
+</UL>
+<HR>
+<CENTER>
+<H1>Software known to support AA</H1>
+</CENTER>
+<UL>
+<LI> <A HREF=http://webpages.mr.net/bobz/ttyquake/>ttyquake</A> (Whats that?)
+<LI> <A HREF=http://www.libsdl.org/download.html>Simple DIrectmedia Layer</A> (popular GFX library)
+<LI> <A HREF=http://samba.anu.edu.au/dumb/>dumb</A> (Doom clone)
+<LI> <A HREF=http://ascii.dyne.org/>Hasciicam</A> ((h)ascii for the masses!)
+<LI> <A HREF=http://spondooliks.org/alex/apron/apron.php3>apron</A> (mpeg1 player)
+<LI> <A HREF=http://freshmeat.net/projects/aatv/>aatv</A> (aatv (ascii art TV) is an application that lets you watch TV in a text console)
+<LI> <A HREF=http://makosteszta.sote.hu/linux/lold.html>The LameOver Linux Demo Project</A>
+<LI> <A HREF=http://www.gimp.org>GIMP</A> (General image manipulation program)
+<LI><A href=http://atrey.karlin.mff.cuni.cz/~tomby/3de.html>Tomby's 3d engine (DOS only)</A>
+<LI><A href=http://www.paru.cas.cz/~hubicka/XaoS>XaoS - an realtime fractal zoomer</A>
+</UL>
+Any other? Send info to hubicka@paru.cas.cz
+<HR>
+<center>
+<H1>History of AA-project</H1>
+</center>
+<P>
+Once upon a time we've (my friend Kamil and I) bought two old Herculeses
+as secondary monitors. We didn't know for that time that our Diamond
+Stealths 64 cards would become obsolete soon. The next day we downloaded
+the logo of Linux Texas Users Group
+- nice silly penguin looking like a cowboy! It was so exciting logo ... we
+decided that we couldn't live without it and we wanted to see it 
+at boot time as a logo on our secondary monitors. There was a small problem
+- Hercules doesn't support color graphics. So we decided to convert the
+penguin image to ascii art using netpbm tools.
+
+</P>
+<P>
+The output was very ugly because the converting algorithm was absolutly stupid.
+During the night I designed a new convertor that used a font bitmap to
+creat an aproximation table. The output wasn't very good since the algorithm
+wasn't tuned so well. Many months this small piece of code was waiting on my
+disc for the day "D". Meanwhile I started a new project XaoS (a fractal zoomer)
+with my friend Thomas. And then I got an idea: Ascii Art Mandelbrots!
+I was really impressed by the result! XaoS was faster, portable and looking
+much better than ever before. I found a new way to go ...
+
+</P>
+<HR>
+<center>
+<A href="http://sourceforge.net"> <IMG
+                            src="http://sourceforge.net/sflogo.php?group_id=20003" width="88"
+			                                height="31" border="0" alt="SourceForge Logo"></A>
+</center>
+<HR>
+<center>
+Copyright (C) by Jan Hubicka
+</center>
+</HTML>
+```
