@@ -1,0 +1,23 @@
+```<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <link rel="icon" href="data:;base64,=">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>错误</title>
+    <link rel="stylesheet" href="//res.wx.qq.com/open/libs/weui/1.0.2/weui.min.css"/>
+</head>
+<body ontouchstart>
+
+<div class="weui-msg" id="invoice_show">
+    <div class="weui-msg__icon-area">
+        <i class="weui-icon-info weui-icon_msg"></i>
+    </div>
+    <div class="weui-msg__text-area">
+        <h2 class="weui-msg__title">错误码: 1000</h2>
+        <h2 class="weui-msg__title">网络异常,请稍后重试！</h2>
+                <p class="weui-msg__desc"></p>
+            </div>
+</div>
+</body>
+</html>```
