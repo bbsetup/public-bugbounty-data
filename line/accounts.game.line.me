@@ -1,0 +1,137 @@
+```
+<!DOCTYPE html>
+<html dir="ltr" lang="en_US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property="og:title" content="LINE Login">
+  <meta property="og:description" content="Log in to LINE GAME Platform Console">
+  <meta property="og:image" content="https://line.me/favicon.ico">
+  <title>LINE Login</title>
+
+  <link rel="icon" href="https://line.me/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="https://line.me/apple-touch-icon-precomposed.png">
+<script>/* analytics */
+(function(g,d){
+  var v='release/stable';
+  g._trmq=[];g._trm=function(){g._trmq.push(arguments)};
+  g.onerror=function(m,f,l,c){g._trm('send','exception',m,f,l,c)};
+  var h=location.protocol==='https:'?'https://d.line-scdn.net':'http://d.line-cdn.net';
+  var s=d.createElement('script');s.async=1;
+  s.src=h+'/n/_4/torimochi.js/public/v1/'+v+'/min/torimochi.js';
+  var t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);
+})(window, document);
+
+_trm('performance', { rate: 0.05 });
+_trm('enable', { productKey: "line-web-login-real" });
+/* /analytics */</script>
+
+<script type="text/javascript" charset="UTF-8" src="https://access.line.me/oauth2/v2.1/messages"></script>
+
+  <link href="https://static.line-scdn.net/line_web_login/176024e73da/dist/css/chunk-common.css" rel="preload" as="style">
+
+  <link href="https://static.line-scdn.net/line_web_login/176024e73da/dist/js/chunk-common.js" rel="preload" as="script">
+  <link href="https://static.line-scdn.net/line_web_login/176024e73da/dist/js/chunk-vendors.js" rel="preload" as="script">
+
+    <link href="https://static.line-scdn.net/line_web_login/176024e73da/dist/css/index.css" rel="preload" as="style">
+    <link href="https://static.line-scdn.net/line_web_login/176024e73da/dist/js/index.js" rel="preload" as="script">
+
+
+  <link href="https://static.line-scdn.net/line_web_login/176024e73da/dist/css/chunk-common.css" rel="stylesheet">
+    <link href="https://static.line-scdn.net/line_web_login/176024e73da/dist/css/index.css" rel="stylesheet">
+
+<noscript>
+  <link rel="stylesheet" href="https://static.line-scdn.net/line_web_login/176024e73da/dist/css/chunk-common.css">
+</noscript>
+</head>
+
+<body ontouchstart="">
+<noscript>
+  <div class="LyWrap">
+    <!--CONTENTS-AREA-->
+    <div class="LyContents" role="main">
+      <div class="lyContentsInner">
+        <div class="MdBox01">
+          <section class="mdBox01Inner MdLYR03Error">
+            <div class="MdLogo01 mdLogo01P01">
+              <h1 class="mdLogo01Img">LINE</h1>
+            </div>
+            <h2 class="mdLYR03Title mdMN10Title">
+              <span class="mdLYR03Icon MdIco01Alert">alert</span>
+              <span>JavaScript error</span>
+            </h2>
+            <p class="mdLYR03Desc mdMN10Desc">
+              JavaScript is disabled on your browser.<br />
+Please enable JavaScript to use this site.            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</noscript>
+
+<div id="__layout">
+  <div class="LyBody" id="app">
+    <app :channel-id="1588947857"
+         :is-error="false"
+         :is-captcha="false"
+         verifier=""
+         captcha-url="/dialog/captcha/FkjrMBL5L12KCgz5RjdBmwveWxxkcxLR73J6xJBJ5ol"
+         line-rsa-url="/authct/v1/keys/line"
+         naver-rsa-url="/authct/v1/keys/naver"
+         pincode-url="/pincode"
+         open-authentication-session-url="/dialog/v2/autht/session"
+         probe-id-provider-url="/dialog/v2/autht/idProvider"
+         issue-connect-key-url="/dialog/v2/autht/connect/key"
+         qr-code-url="/qrlogin/v1/session"
+         wait-qr-code-verification-complete-url="/qrlogin/v1/qr/wait"
+         wait-pin-code-verification-complete-url="/qrlogin/v1/pin/wait"
+         :permitted-naver-login="true"
+         :enable-continue-without-login="false"
+         :using-vae-logic="false"
+         :switch-amr="true"
+         login-retry-page-url="/oauth2/v2.1/noauto-login?returnUri=%2Foauth2%2Fv2.1%2Fauthorize%2Fconsent%3Fscope%3Dopenid%2Bprofile%26response_type%3Dcode%26state%3Dconsole-1611350944780%26redirect_uri%3Dhttps%253A%252F%252Faccounts.game.line.me%252Flogin%252Fcallback%26client_id%3D1588947857&loginChannelId=1588947857&switch_amr=true&reqId=WuQUapemaulFfTpAGflpuY"
+         authorize-page-url="/oauth2/v2.1/authenticate"
+         return-uri="/oauth2/v2.1/authorize/consent?scope=openid+profile&amp;response_type=code&amp;state=console-1611350944780&amp;redirect_uri=https%3A%2F%2Faccounts.game.line.me%2Flogin%2Fcallback&amp;client_id=1588947857"
+         
+         auto-login-fallback-url="https://access.line.me/oauth2/v2.1/login?loginState=0CXJb21uGVAaGgqpLk0m63&amp;loginChannelId=1588947857&amp;returnUri=%2Foauth2%2Fv2.1%2Fauthorize%2Fconsent%3Fscope%3Dopenid%2Bprofile%26response_type%3Dcode%26state%3Dconsole-1611350944780%26redirect_uri%3Dhttps%253A%252F%252Faccounts.game.line.me%252Flogin%252Fcallback%26client_id%3D1588947857"
+         line-download-url="https://access.line.me/oauth2/v2.1/login?loginState=0CXJb21uGVAaGgqpLk0m63&amp;loginChannelId=1588947857&amp;returnUri=%2Foauth2%2Fv2.1%2Fauthorize%2Fconsent%3Fscope%3Dopenid%2Bprofile%26response_type%3Dcode%26state%3Dconsole-1611350944780%26redirect_uri%3Dhttps%253A%252F%252Faccounts.game.line.me%252Flogin%252Fcallback%26client_id%3D1588947857"
+         
+    >
+      <template slot="serverside_field">
+        <input type="hidden" name="__csrf" id="__csrf" value="E6z259m7OskNO8W8Qnc2kr">
+        <input type="hidden" name="loginChannelId" value="1588947857">
+        <input type="hidden" name="returnUri" value="/oauth2/v2.1/authorize/consent?scope=openid+profile&amp;response_type=code&amp;state=console-1611350944780&amp;redirect_uri=https%3A%2F%2Faccounts.game.line.me%2Flogin%2Fcallback&amp;client_id=1588947857">
+        <input type="hidden" name="lang" value="en_US">
+        <input type="hidden" name="state" value="">
+        <input type="hidden" name="displayType" value="b">
+        <input type="hidden" name="captchaKey" value="FkjrMBL5L12KCgz5RjdBmwveWxxkcxLR73J6xJBJ5ol">
+      </template>
+
+      <template slot="serverside_redirect_query">
+        <input type="hidden" name="__csrf" id="__csrf" value="E6z259m7OskNO8W8Qnc2kr">
+        <input type="hidden" name="loginChannelId" value="1588947857">
+        <input type="hidden" name="returnUri" value="/oauth2/v2.1/authorize/consent?scope=openid+profile&amp;response_type=code&amp;state=console-1611350944780&amp;redirect_uri=https%3A%2F%2Faccounts.game.line.me%2Flogin%2Fcallback&amp;client_id=1588947857">
+      </template>
+
+    </app>
+  </div>
+
+  <script src="https://static.line-scdn.net/line_web_login/176024e73da/dist/lc_common.js"></script>
+</div>
+
+<script src="https://static.line-scdn.net/line_web_login/176024e73da/dist/js/chunk-vendors.js"></script>
+<script src="https://static.line-scdn.net/line_web_login/176024e73da/dist/js/chunk-common.js"></script>
+
+  <script src="https://static.line-scdn.net/line_web_login/176024e73da/dist/js/index.js"></script>
+
+<script>
+  var lap_optout_check_api_url = "https://optout-api.tr.line.me/enabled";
+</script>
+
+<script src="https://static.line-scdn.net/line_web_login/176024e73da/dist/lap_optout_check.min.js"></script>
+
+</body>
+</html>
+```
