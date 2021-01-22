@@ -1,0 +1,67 @@
+```<html>
+<head>
+<title>ABillS - AsmodeuS Billing system</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+ <meta name="Author" content="Asmodeus">
+ <meta name="description" content="ABillS - AsmodeuS Billing system / Cisco PPPoE PPTP PPPD livingston VOiP Mail Postfix">
+ <meta name="keywords" content="Billing dialup pppoe pptp cisco ppp livingston portmaster homonet radius voip asmodeus">
+
+</head>
+<style type="text/css">
+a        {color: #EEEEEE; 
+		 text-decoration: none;
+		 font-size:10pt
+		 }
+A:HOVER  {color: #FFFFFF;
+		  text-decoration : underline;
+		  font-size:10pt;
+		}
+</style>
+<body bgcolor=#000000 link=#EEEEEE vlink=EEEEEE leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<basefont face="Arial" color=gold size="1">
+<table width=100% height=100%>
+<tr ><td  align=center valign=center><a href='http://abills.net.ua/wiki/'><font size=5>[</font><font size=10>[ABillS]</font><font size=5>]</font></a>
+	<p>
+		<a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=YOUR_GROUP_ID_GOES_HERE&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo" /></a>
+		<!-- Nabat Rate -->
+
+<SCRIPT language="JavaScript">
+//<!--
+var id='336';
+var img='nabat1';
+var j=0;
+var an=navigator.appName; 
+var d=document; c=''; je='';
+var script='http://www.nabat.com.ua/cgi-bin/counter/hellping.cgi';
+//-->
+</SCRIPT>
+
+<SCRIPT language="javascript1.1"><!--
+j=1//--></SCRIPT><SCRIPT language="JavaScript1.2"><!--
+j=2//--></SCRIPT><SCRIPT language="JavaScript1.3"><!--
+j=3//--></SCRIPT>
+
+<SCRIPT language="JavaScript">
+<!--
+d.cookie="v=1;path=/";
+s=screen;
+an!="Netscape"?c=s.colorDepth:c=s.pixelDepth;
+r=escape(d.referrer);
+
+d.write('<a href="http://nabat.com.ua/"><img alt=nabat border=0 width=88 height=31 src="'+script+'?id='+id+'&img='+img+((typeof(s)=='undefined')?'':'&res='+s.width+'&c='+c) +
+ '&from='+r+'&pg='+escape(window.location.href)+(d.cookie?'&ce=1':'')+
+ '&j='+j+(navigator.javaEnabled()?'&je=1':'')+'"></a>');
+//-->
+</SCRIPT>
+
+<noscript>
+<a href="http://www.nabat.com.ua"><img src='http://www.nabat.com.ua/cgi-bin/counter/hellping.cgi?336+nabat1' width=88 height=31 border=0 alt="Nabat"></a>
+</noscript>
+
+<!-- END Nabat Rate -->
+	</p>
+</td></tr>
+</tabel>
+</body>
+</html>
+```
