@@ -1,0 +1,210 @@
+```<!DOCTYPE html>
+<html><head>
+<title>aa2map</title>
+<style type=text/css>
+img[alt=thumbnail] { height:100px; }
+img[alt=thumbnail]:active { height:100%; }
+</style></head><body>
+<p><img src="images/banner.png" alt="" title=""></p>
+
+<pre><code> ####    #####   #####  ##  ##     ####   #####  ######     ####     #    #   ####   #####
+##  ##  ##      ##      ##  ##    ##  ##  ##  ##   ##      ##  ##    ##  ##  ##  ##  ##  ##
+##  ##   ####   ##      ##  ##    ##  ##  #####    ##         ##     ######  ##  ##  #####
+######      ##  ##      ##  ##    ######  ##  ##   ##        ##      ######  ######  ##
+##  ##  #####    #####  ##  ##    ##  ##  ##  ##   ##      ######    ##  ##  ##  ##  ##
+</code></pre>
+
+<iframe src="http://www.youtube.com/embed/CzVsu4f4iz0" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
+<p>aa2map (ASCII art 2 map) is a procedural map generator that parses ASCII art
+and heightmaps into a id Tech 3 (Quake III: Arena)  map file.</p>
+
+<h2>Features</h2>
+
+<ul>
+<li>Everyone will be able to create custom maps for id Tech 3 based games with this</li>
+<li>Succeeds at generating maps with random structures, obstacles and defilades which work just fine for tactical shooters</li>
+<li>Easier to use than 3D modeling software</li>
+<li>Maps for fast-paced shooters might require some fine-tuning for the game physics by someone who has a good understanding of the gameplay</li>
+<li>Maps, entities, objects, and spawn points can be edited using ASCII art and heightmaps</li>
+<li>Many image formats for heightmaps are supported (using SDL_Image)</li>
+<li>Maps can be mirrored, flipped, and compiled and completely packaged with all required textures and shaders</li>
+<li>Generates also run maps (Defrag), strafe pad maps (Defrag), mazes, landscapes</li>
+<li>Shaders are generated automatically and make it easier to replace textures or effects</li>
+<li>Can be completely scripted and automated on headless (no Desktop) systems/servers</li>
+<li>Generated maps can be imported by other level design programs for further editing and merging</li>
+</ul>
+
+<h2>Video</h2>
+
+<p><a href="https://www.youtube.com/watch?v=CzVsu4f4iz0">https://www.youtube.com/watch?v=CzVsu4f4iz0</a></p>
+
+<p>Mirror: <a href="https://archive.org/embed/aa2map">https://archive.org/embed/aa2map</a></p>
+
+<h2>Download</h2>
+
+<p>Source: <a href="https://sourceforge.net/projects/aa2map/files/aa2map-0.7.9-src.zip/download">aa2map-0.7.9-src.zip</a></p>
+
+<p>Linux binary: <a href="https://sourceforge.net/projects/aa2map/files/aa2map-0.7.9-linux.tar.gz/download">aa2map-0.7.9-linux.tar.gz</a></p>
+
+<p>Example Map: <a href="https://sourceforge.net/projects/aa2map/files/aa2map-0.7.9-example-pk3.zip/download">aa2map-0.7.9-example-pk3.zip</a></p>
+
+<p>Current version: 0.7.9</p>
+
+<h2>How does it work?</h2>
+
+<p><img src="images/chart.png" alt="" title="">
+<img src="images/chart4.png" alt="" title="">
+<img src="images/chart5.png" alt="" title="">
+<img src="images/chart2.png" alt="" title="">
+<img src="images/chart3.png" alt="" title=""></p>
+
+<p>In this example 'L' is a segment of the landscape generated from a heightmap</p>
+
+<p>Multiple ASCII files will be stacked like storeys</p>
+
+<h2>Usage</h2>
+
+<p><img src="images/screenshot.png" alt="" title=""></p>
+
+<h2>Install</h2>
+
+<p>Run the following in the src directory</p>
+
+<pre><code>./configure;make;make install
+</code></pre>
+
+<h2>Changes</h2>
+
+<pre><code>0.0.1preview1
+- first preview
+- tested with OpenArena and seems to work
+
+0.0.1preview2
+- small code changes
+
+0.0.1preview3
+- first preview with example ASCII art and the resulting map as pk3
+
+0.0.2
+- added --maze[=SIZE] generate a random maze with SIZE (default: 20)
+- added support for individual textures
+- many code cleanups
+
+0.0.3
+- added --message=TEXT message to show when map loads
+- added support for teleporters
+
+0.0.4
+- added support for "storeys"; if you specify more than one ASCII file,
+  aa2map will stack them on each other like storeys of a building
+- added support for even more entities
+- added a 2nd example map
+
+0.7.9
+- many hugh code cleanups
+- added PHP web frontend for generating maps online
+- added --idtech3 create id Tech 3 map (default)
+- added --scale=XxYxZ scale ASCII blocks to N units in every axis (def: 128x128x128)
+- added --hflip flip map horizontally
+- added --vflip flip map vertically
+- added --gravity=N gravity N when map loads (default: game default)
+- added --compile compile the map
+- added --mirror=BORDER mirror map at BORDER (for team play)
+- added automatic shader generation for id Tech 3
+- updated example map
+- added --path=PATH set a different path for textures and shader (default: "aa2map")
+- added -o=FILE output map data into FILE (default: stdout)
+- added --compile  compile map (and add bot support)
+- added --landscape generate landscape map using HEIGHTMAP
+- added --strafe[=N:G:I:H] generate strafe pad map
+- added --run[=L:C] generate run map (Defrag (id Tech 3) only)
+- added --maze[=XxY] generate a random maze with XxY size (default: 10x20)
+- added --museum=PK3 generate map using only models found in PK3 archive
+</code></pre>
+
+<h2>Screenshots</h2>
+
+<p>some of these are old</p>
+
+<p><img src="images/screenshot.png" alt="thumbnail" title="">
+<img src="images/screenshot2.png" alt="thumbnail" title="">
+<img src="images/screenshots/dp000005.jpg" alt="thumbnail" title="">
+<img src="images/screenshots/dp000006.jpg" alt="thumbnail" title="">
+<img src="images/screenshots/landscape2.png" alt="thumbnail" title="">
+<img src="images/screenshots/landscape3.png" alt="thumbnail" title="">
+<img src="images/screenshots/landscape4.png" alt="thumbnail" title="">
+<img src="images/screenshots/run0.png" alt="thumbnail" title="">
+<img src="images/screenshots/run1.png" alt="thumbnail" title="">
+<img src="images/screenshots/run2.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0000.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0001.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0002.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0003.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0004.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0005.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0006.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0007.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0008.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0009.png" alt="thumbnail" title="">
+<img src="images/screenshots/chart_fm.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot000a.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot000b.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot000c.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot000d.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot000e.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot000f.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot000g.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot000h.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot000i.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot000j.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot000k.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot000l.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0010.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0013.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0014.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0015.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0016.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0017.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0018.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0019.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0020.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0021.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0022.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0023.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0024.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0025.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0026.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0027.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0028.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0032.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0099.png" alt="thumbnail" title="">
+<img src="images/screenshots/shot0100.png" alt="thumbnail" title="">
+<img src="images/screenshots/strafe0.png" alt="thumbnail" title="">
+<img src="images/screenshots/strafe1.png" alt="thumbnail" title="">
+<img src="images/screenshots/strafe2.png" alt="thumbnail" title="">
+<img src="images/idtech3_brushes.png" alt="thumbnail" title=""></p>
+
+<h2>License</h2>
+
+<pre><code>aa2map is a procedural map generator that parses ASCII art
+Copyright (C) 2007-2011 NoisyB
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+</code></pre>
+
+<p><img src="images/banner.png" alt="" title=""></p>
+</body></html>
+```
