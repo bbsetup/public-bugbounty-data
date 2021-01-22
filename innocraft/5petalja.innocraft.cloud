@@ -1,0 +1,39 @@
+```<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex,nofollow">
+	<title>Matomo &rsaquo; Error</title>
+	<link rel="shortcut icon" href="plugins/CoreHome/images/favicon.png" />
+	<link rel="stylesheet" type="text/css" href="plugins/Morpheus/stylesheets/simple_structure.css" />
+</head>
+<body id="simple">
+
+<div class="logo">
+	<img title="Matomo" alt="Matomo" style="height: 40px;" src="plugins/Morpheus/images/logo.svg"/>
+</div>
+
+<div class="box">
+
+	<div class="header">
+		<h1>An error occurred</h1>
+	</div>
+
+	<div class="content"><h2>Matomo is not set up yet</h2>
+                    <p><a href="javascript:window.history.back();">Go Back</a> | <a href="index.php">Go to Matomo</a></p>  <ul>
+                            <li><a rel="noreferrer noopener" target="_blank" href="https://matomo.org">Matomo.org homepage</a></li>
+                            <li><a rel="noreferrer noopener" target="_blank" href="https://matomo.org/faq/">Frequently Asked Questions</a></li>
+                            <li><a rel="noreferrer noopener" target="_blank" href="https://matomo.org/docs/">User Guides</a></li>
+                            <li><a rel="noreferrer noopener" target="_blank" href="https://forum.matomo.org/">Matomo Forums</a></li>
+                            <li><a rel="noreferrer noopener" target="_blank" href="https://matomo.org/support/?pk_campaign=App_AnErrorOccured&pk_source=Matomo_App&pk_medium=ProfessionalServicesLink">Professional Support for Matomo</a></li>
+                            </ul>    </div>
+
+    <div class="footer">
+        <a href="index.php">&laquo; Back to Matomo</a>
+    </div>
+
+</div>
+</body>
+</html>
+
+```
