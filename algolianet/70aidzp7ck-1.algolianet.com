@@ -1,0 +1,1 @@
+```{"message":"Path not supported by Algolia REST API. Please have a look at http://www.algolia.com/doc/rest_api for the list of valid commands","status":404}```
