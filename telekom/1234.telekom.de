@@ -1,0 +1,619 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+<!--[if (lte IE 8) ]><html lang="de-DE" class="no-js lte-ie8"><![endif]--> 
+<!--[if (gt IE 8)|!(IE)]><!--><html class="no-js" lang="de"><!--<![endif]--> 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ferndiagnose | Telekom</title>
+    <meta name="description" content="Fernsteuerung bedeutet, dass Ihr Kundenberater mit seiner Maus und seiner Tastatur alle notwendigen Schritte auf Ihrem Bildschirm f&uuml;r Sie sichtbar bei gleichzeitigem telefonischen Kontakt durchf&uuml;hren kann.">
+
+    <meta name="keywords" content="Telekom, Deutsche Telekom, Fernassistent, Rescue">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<link href="/files/components.css?view=1" rel="stylesheet" type="text/css" />
+<link href="/files/components.min3.css?view=1" rel="stylesheet" type="text/css" />
+<link href="/files/one-number-custom.css?view=1" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="/files/telekom.ico" />
+
+<script src="/files/modernizr.custom.21754.js" type="text/javascript" ></script>
+<script src="/files/prettify.js" type="text/javascript" ></script>
+<script src="/files/dtag.min.js" type="text/javascript" ></script>
+<script>
+window.onload = function() {
+ alert("let's go!");
+}
+</script>
+<!-- VERSION: V5 VOM 21.01.2019 -->
+
+<!-- Checkbox -->
+
+    <script type="text/javascript">
+      var html = document.getElementsByTagName('html')[0];
+      html.setAttribute('class', 'js');
+    </script>
+
+
+<!-- OS-Erkennung -->
+<script type="text/javascript">
+            function navigatorTest() {
+            var ua = navigator.userAgent;
+
+	    var x = "";	
+
+    document.getElementById('rel').appendChild(document.createTextNode(ua));
+
+    //UAParser: https://github.com/faisalman/ua-parser-js
+
+    var parser = new UAParser();    
+    console.log(parser.getResult());
+    parser.setUA(navigator.userAgent);
+
+    var result = parser.getResult();
+    var osName = result.os.name;
+    var osNummer = result.os.version;
+    var browserName = result.browser.name;
+    var browserVersion = result.browser.version;
+    var deviceModel = result.device.model;
+    var deviceType = result.device.type;
+    var deviceVendor = result.device.vendor;
+
+x = "Sie nutzen das Betriebssystem: " + osName + " " + osNummer;
+y = " Ihr genutzter Browser: " + browserName + " " + browserVersion;
+
+if (deviceModel !== undefined) {
+y = " Ihr genutztes Gerät: " + deviceVendor + " " + deviceModel + " " + deviceType;}   
+
+
+	if (ua.search('iPhone') != -1) {				
+
+
+		document.getElementById("button").value="F\u00fcr iOS herunterladen";
+		url="https://itunes.apple.com/de/app/bomgar/id488264551";
+	} else if (ua.search('HTC') != -1) {	
+
+
+		document.getElementById("button").value="F\u00fcr HTC herunterladen";
+		url="https://play.google.com/store/apps/details?id=com.bomgar.thinclient.android.HTC&hl=de";
+
+
+
+
+
+	} else if (ua.search('Mac|Macintosh') != -1) {
+		document.getElementById("mobil").style.display = "none";
+
+
+		url = "https://www.telekom.de/hilfe/downloads/diagnose-tool-mac.dmg";
+	} else if (ua.search('SAMSUNG|Samsung|GT|SM') != -1) {
+
+
+		document.getElementById("button").value="F\u00fcr Samsung herunterladen";
+		url="https://play.google.com/store/apps/details?id=com.bomgar.thinclient.android.Samsung&hl=de";
+	} else if (ua.search('Windows') != -1) { 
+		document.getElementById("mobil").style.display = "none";
+
+
+		url = "https://www.telekom.de/hilfe/downloads/diagnose-tool-pc.exe";
+    } else if (ua.search('LG') != -1) {
+		document.getElementById("button").value="F\u00fcr LG herunterladen";
+		url = "https://play.google.com/store/apps/details?id=com.bomgar.thinclient.android.LG";
+ 	} 
+	else if (ua.search('Android') != -1) {
+
+
+		document.getElementById("button").value="F\u00fcr Android herunterladen";
+		url = "https://play.google.com/store/apps/details?id=com.bomgar.thinclient.android";
+ 	} else {
+
+
+		url="https://play.google.com/store/apps/details?id=com.bomgar.thinclient.android&hl=de";
+	}
+	
+    document.getElementById('text1').appendChild(document.createTextNode(x));
+    document.getElementById('text2').appendChild(document.createTextNode(y));
+}
+
+function openWin() {
+    myWindow = window.open(url, "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=500,height=500");
+}
+
+window.onload = function() {
+    navigatorTest();
+}
+
+	</script>
+
+
+  	<noscript>
+  	
+ 	</noscript>
+	
+<style>
+div.herobox-text {
+width: 525px;
+}
+
+p {
+max-width: 630px;
+margin-top: 10px !important;
+}
+
+p.browser {
+max-width: 630px;
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+font-weight: bold;
+color: #e20074;
+}
+
+p.you-may-close {
+font-size: 14pt;
+}
+
+.highlights-mobile {
+text-align: left;
+}
+
+.highlights-mobile p {
+font-size: 18px !important;
+max-width: 630px;
+text-align: left;
+}
+
+.error {
+    font-size: 170%;
+    color: red;
+}
+div#downloadInstructions.contentBox {
+    font-size: 180%;
+/* Position and style */
+    position: absolute;   
+	z-index: 999;
+	max-width: 975px;
+	width: 100%;
+	height: auto;
+        margin-left: 4%;
+        margin-right: auto;
+
+  	top: 250;
+	left: 0px;
+	opacity: 1.0;
+	background: #e0e0e0;
+        padding: 10px;
+}
+
+#access_key_pretty\:label {
+font-size:200%;
+vertical-align: middle;
+font-weight: bold;
+margin-right: 5px;
+/* display: none; */
+}
+
+h1.sectionTitle {
+font-size:200%;
+display: none;
+}
+
+#teaser.teaser {
+         height: 300px;
+	 z-index: 5;
+}
+
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front {
+/*     position: fixed   */
+     z-index: 999;
+     width: 94% !important;
+     max-width: 630px;
+     height: auto;
+     top: 20% !important;
+     background: #ffffff;
+     font-family: TeleGrotesk, Helvetica, Arial, sans-serif;
+     font-size: 1.6em;
+     left: 2% !important;
+     white-space: normal;
+}
+
+div#bomgarDialog.ui-dialog-content.ui-widget-content {
+height: auto !important;
+font-family: inherit;
+}
+
+.ui-widget-content a {
+    color: #007faf !important;
+}
+
+#access_key_submit {
+margin-left: 5px;
+height: 32px;
+padding: 0px 23px 0px;
+}
+/*
+#access_key_submit:hover {
+color: #fff;
+background-color: #d0006a;
+border-color: #a90056;
+}
+*/
+
+#access_key_pretty {
+vertical-align: middle;
+}
+
+.wrapper {
+padding-left: 1.2em;
+}
+
+</style>
+<!-- Clickjacking Legacy Browser Frame Breaking Script --> 
+<style id="antiClickjack">body{display:none !important;}</style>
+<script type="text/javascript">
+   if (self === top) {
+       var antiClickjack = document.getElementById("antiClickjack");
+       antiClickjack.parentNode.removeChild(antiClickjack);
+   } else {
+       top.location = self.location;
+   }
+</script>
+
+    <!-- HTML5 element and CSS3 media query support for IE8 --> 
+    <!--[if lte IE 8]> 
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> 
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> 
+    <![endif]--> 
+</head>
+
+<body class="dtx" id="top">
+      <header id="header">
+          <div class="wrapper">
+            <img alt="Telekom Logo" 
+         class="logo"
+         width="100" height="48"
+         src="/files/telekom-logo.png">
+            <img alt="Erleben, was verbindet."
+         class="claim" 
+         width="201" height="15"
+         src="/files/telekom-claim.png">
+          </div>
+      </header>
+    
+      
+<div id="teaser" class="teaser">
+      
+            <div class="teaser-background">
+              &nbsp;
+            </div>  
+            
+            <div class="wrapper">  
+            
+                <div class="herobox">
+                    <div class="herobox-text-container">
+                        <div class="herobox-text-underlay-side"></div>
+                        <div class="herobox-text-underlay-bottom"></div>
+                        <div class="herobox-text">
+                            <h1>Telekom</h1>
+                            <h2>Ferndiagnose</h2>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="highlights" id="desktop">
+               
+
+
+<!-- Ausgabe für Desktop
+<p id="text1" style="display: none;"></p>
+-->
+                </div>
+            
+            </div>
+  </div>
+     
+    <div class="mainscreen-mobile mobile-device-col">
+      <div class="noise-wrapper">
+            <div class="wrapper">
+
+
+            </div>
+        </div>
+    </div>
+ 
+<div class="section-highlights-mobile only-on-mobile">
+
+	<div class="wrapper">
+		<div class="highlights-mobile" id="mobil">
+
+<p>Wenn Sie die Ferndiagnose App noch nicht installiert haben, klicken Sie auf die Schaltfl&auml;che, um diese kostenfrei herunterzuladen.
+<br>
+<input type="submit" name="" class="btn btn-brand" id="button"
+		value="Herunterladen" onclick="openWin()" />
+
+		</div>
+	</div>
+ 
+</div>
+
+
+<br>
+<div class="wrapper">
+
+<p>
+Für die Teilnahme an der Ferndiagnose gelten folgende Datenschutzhinweise, über die Sie sich <a href="https://www.telekom.de/datenschutzhinweise/download/020.pdf" target="_blank">hier</a> informieren können. 
+</legend>
+
+
+
+<form action="/check_access_key" method="get" id="access_key_form" name="auswahl">
+
+<span style="display;" 
+	id="access_key_params"
+	data-javastart-supported="true"
+	data-chat-enabled="false"
+	data-current-locale="de"
+></span>
+<span style="display;" 
+	id="access_key_strings"
+	data-invalid-key="Der eingegebene Schlüssel ist nicht gültig."
+	data-validation-error="Fehler bei Validierung von Zugangsschlüssel."
+></span>
+	<div id="access_key_error" class="error" style="display:block;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="contentBox" id="sessionKeyBox">
+	<h1 class="sectionTitle">
+		<span>
+		Sitzungsschlüssel
+		</span>
+			&nbsp;
+	
+	</h1>
+	<div>
+	<form action="/check_access_key" method="get"
+      id="access_key_form">
+	<label id="access_key_pretty:label" for="access_key_pretty"
+		class="accessible">Sitzungsschlüssel</label>
+	<input type="text" name="access_key_pretty" id="access_key_pretty" value=""
+		size="12" maxlength="7" autocomplete="off" />
+	<input type="submit" name="access_key_submit" id="access_key_submit"
+		value="Senden" />
+	<img src="/content/loading.gif" alt="" class="hidden"
+		id="session_key_loading_gif" />
+	<div id="access_key_error" class="hidden error"></div>
+</form>
+
+
+<span class="params"
+	id="access_key_params"
+	data-disable-clickonce="false"
+	data-chat-enabled="false"
+	data-current-locale="de"
+></span>
+<span class="params"
+	id="access_key_strings"
+	data-invalid-key="Der eingegebene Schlüssel ist nicht gültig."
+	data-validation-error="Fehler bei Validierung von Zugangsschlüssel."
+></span>
+
+	</div>
+</div>
+
+
+
+
+<script type="text/javascript" src="/content/lib/jquery.js"></script>
+<script type="text/javascript" src="/content/portal.js"></script>
+<!--[if lt IE 10]>
+<script type="text/javascript" src="/content/ie9_public.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/api/start_session.js"></script>
+<script type="text/javascript" src="/api/content/core.js"></script>
+<script type="text/javascript" src="/content/access_key_input.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+    <p class="browser" id="text1"></p>
+<br>
+    <p class="browser" id="text2"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+
+	
+
+</fieldset>
+</form>
+
+</div>
+
+
+
+<br><br><br>
+    <footer>
+    <div class="wrapper">
+          <nav class="col-10 left footer-menu-left">
+<ul>
+<li>Kompetenter Service rund um PC, Tablet, Smartphone & Co: <a target="_blank" href="http://www.telekom.de/computerhilfe">Computerhilfe für Privatkunden </a></li>
+<li><a target="_blank" href="https://geschaeftskunden.telekom.de/internet-dsl/tarife/computerhilfe-business">Computerhilfe Business</a></li>
+</ul>
+<nav></nav>
+                <ul>
+                    <li class="copyright">&copy;&nbsp;&nbsp;Telekom Deutschland GmbH</li>
+                    
+                    <li class="linebreak-1">&nbsp;</li>
+                    
+                    <li><a target="_blank" href="https://www.telekom.de/start/impressum">Impressum </a></li>
+                   
+                    <li><a target="_blank" href="http://www.telekom.de/agb">AGB</a></li>
+                    
+                    <li><a target="_blank" href="https://www.telekom.com/de/verantwortung/gesellschaft-und-mitarbeiter/jugendschutz">Jugendschutz</a></li>
+                    
+                    <li class="linebreak-2">&nbsp;</li>
+                    
+                    <li><a target="_blank" href="https://www.telekom.de/start/haftungsausschluss">Haftungsausschluss</a></li>
+
+                    <li><a target="_blank" href="http://www.telekom.de/datenschutz-ganz-einfach">Datenschutz</a></li>
+                    
+                    <li class="linebreak-2">&nbsp;</li>
+                    
+                    <li><a target="_blank" href="https://www.telekom.com/de/verantwortung/klima-und-umwelt">Umweltschutz</a></li>
+
+                </ul>
+            </nav>
+            <div class="col-2 right footer-menu-right">
+                <a href="#top" data-scroll="">nach oben</a>
+            </div>
+
+
+    </div>
+   </footer>
+
+
+
+    <script src="/files/bind-polyfill.min.js"></script>
+    <script src="/files/smooth-scroll.min.js"></script>
+    <script src="/files/custom.js" type="text/javascript"></script>
+<script>
+
+            $(document).ready(function() {
+               $('.form-checkbox').checkbox()
+                $('.form-radio').radio()
+                $('.form-select').selectbox()
+                $('body').totop()
+                $('#my-tooltip').qtip()
+                $('#my-info-flag').qtip({
+                    content: {
+                        title: 'Info Flag',
+                        text: 'Info Flags are plain text informations attached to pieces content which will be displayed on mouseover.'
+                    }
+                })
+
+                var dark = false
+
+                $('#dark').click(function() {
+                    var $button = $(this)
+                    if (!dark) {
+                        $button.addClass('active')
+                            .text('Bright Theme')
+                        $('body').addClass('dark')
+                        dark = true
+                    } else {
+                        $button.removeClass('active')
+                            .text('Dark Theme')
+                        $('body').removeClass('dark')
+                        dark = false
+                    }
+                })
+
+                $('#modal-init-demo2').on('show.tc.modal', function (event) {
+                  var $button = $(event.relatedTarget)
+                  var value = $button.data('init-value')
+
+                  var $modal = $(this)
+                  $modal.find('input[name="text-modal"]').val(value)
+                })
+
+                $('form[name="exampleModalForm3"]').on('submit', function (event) {
+                  event.preventDefault()
+
+                  var $modal = $('#modal-init-demo2')
+                  $modal.modal('hide')
+
+                  var $form = $(this)
+                  alert($form.serialize())
+                })
+
+            })
+
+            window.onload = function() {
+                navigatorTest();
+               document.getElementById("access_key_pretty").focus();
+               document.getElementById("access_key_submit").setAttribute("class", "btn btn-brand");
+				}
+
+        </script>
+
+
+<p>
+
+<h6 style="color: #ffffff;">Erkannter User Agent:<br><i><h7 id="inhalt"><h7 id="rel">
+
+
+<div id="footer" class="contentBox">
+
+</div>
+
+<div id="powered-by">
+
+</div>
+
+<!--
+Copyright © 2002-2020 BeyondTrust Corporation. Ein Weitervertrieb ist nicht zulässig. Alle Rechte vorbehalten.
+	<a id="powered_by_text" href="https://www.beyondtrust.com/remote-support" class="inverse" target="_blank">BeyondTrust Remote Support</a>
+-->
+
+<script src="/files/jquery.min.js"></script>
+<script>
+    (function(window,undefined){"use strict";var LIBVERSION="0.7.18",EMPTY="",UNKNOWN="?",FUNC_TYPE="function",UNDEF_TYPE="undefined",OBJ_TYPE="object",STR_TYPE="string",MAJOR="major",MODEL="model",NAME="name",TYPE="type",VENDOR="vendor",VERSION="version",ARCHITECTURE="architecture",CONSOLE="console",MOBILE="mobile",TABLET="tablet",SMARTTV="smarttv",WEARABLE="wearable",EMBEDDED="embedded";var util={extend:function(regexes,extensions){var margedRegexes={};for(var i in regexes){if(extensions[i]&&extensions[i].length%2===0){margedRegexes[i]=extensions[i].concat(regexes[i])}else{margedRegexes[i]=regexes[i]}}return margedRegexes},has:function(str1,str2){if(typeof str1==="string"){return str2.toLowerCase().indexOf(str1.toLowerCase())!==-1}else{return false}},lowerize:function(str){return str.toLowerCase()},major:function(version){return typeof version===STR_TYPE?version.replace(/[^\d\.]/g,"").split(".")[0]:undefined},trim:function(str){return str.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"")}};var mapper={rgx:function(ua,arrays){var i=0,j,k,p,q,matches,match;while(i<arrays.length&&!matches){var regex=arrays[i],props=arrays[i+1];j=k=0;while(j<regex.length&&!matches){matches=regex[j++].exec(ua);if(!!matches){for(p=0;p<props.length;p++){match=matches[++k];q=props[p];if(typeof q===OBJ_TYPE&&q.length>0){if(q.length==2){if(typeof q[1]==FUNC_TYPE){this[q[0]]=q[1].call(this,match)}else{this[q[0]]=q[1]}}else if(q.length==3){if(typeof q[1]===FUNC_TYPE&&!(q[1].exec&&q[1].test)){this[q[0]]=match?q[1].call(this,match,q[2]):undefined}else{this[q[0]]=match?match.replace(q[1],q[2]):undefined}}else if(q.length==4){this[q[0]]=match?q[3].call(this,match.replace(q[1],q[2])):undefined}}else{this[q]=match?match:undefined}}}}i+=2}},str:function(str,map){for(var i in map){if(typeof map[i]===OBJ_TYPE&&map[i].length>0){for(var j=0;j<map[i].length;j++){if(util.has(map[i][j],str)){return i===UNKNOWN?undefined:i}}}else if(util.has(map[i],str)){return i===UNKNOWN?undefined:i}}return str}};var maps={browser:{oldsafari:{version:{"1.0":"/8",1.2:"/1",1.3:"/3","2.0":"/412","2.0.2":"/416","2.0.3":"/417","2.0.4":"/419","?":"/"}}},device:{amazon:{model:{"Fire Phone":["SD","KF"]}},sprint:{model:{"Evo Shift 4G":"7373KT"},vendor:{HTC:"APA",Sprint:"Sprint"}}},os:{windows:{version:{ME:"4.90","NT 3.11":"NT3.51","NT 4.0":"NT4.0",2000:"NT 5.0",XP:["NT 5.1","NT 5.2"],Vista:"NT 6.0",7:"NT 6.1",8:"NT 6.2",8.1:"NT 6.3",10:["NT 6.4","NT 10.0"],RT:"ARM"}}}};var regexes={browser:[[/(opera\smini)\/([\w\.-]+)/i,/(opera\s[mobiletab]+).+version\/([\w\.-]+)/i,/(opera).+version\/([\w\.]+)/i,/(opera)[\/\s]+([\w\.]+)/i],[NAME,VERSION],[/(opios)[\/\s]+([\w\.]+)/i],[[NAME,"Opera Mini"],VERSION],[/\s(opr)\/([\w\.]+)/i],[[NAME,"Opera"],VERSION],[/(kindle)\/([\w\.]+)/i,/(lunascape|maxthon|netfront|jasmine|blazer)[\/\s]?([\w\.]*)/i,/(avant\s|iemobile|slim|baidu)(?:browser)?[\/\s]?([\w\.]*)/i,/(?:ms|\()(ie)\s([\w\.]+)/i,/(rekonq)\/([\w\.]*)/i,/(chromium|flock|rockmelt|midori|epiphany|silk|skyfire|ovibrowser|bolt|iron|vivaldi|iridium|phantomjs|bowser|quark)\/([\w\.-]+)/i],[NAME,VERSION],[/(trident).+rv[:\s]([\w\.]+).+like\sgecko/i],[[NAME,"IE"],VERSION],[/(edge|edgios|edgea)\/((\d+)?[\w\.]+)/i],[[NAME,"Edge"],VERSION],[/(yabrowser)\/([\w\.]+)/i],[[NAME,"Yandex"],VERSION],[/(puffin)\/([\w\.]+)/i],[[NAME,"Puffin"],VERSION],[/((?:[\s\/])uc?\s?browser|(?:juc.+)ucweb)[\/\s]?([\w\.]+)/i],[[NAME,"UCBrowser"],VERSION],[/(comodo_dragon)\/([\w\.]+)/i],[[NAME,/_/g," "],VERSION],[/(micromessenger)\/([\w\.]+)/i],[[NAME,"WeChat"],VERSION],[/(qqbrowserlite)\/([\w\.]+)/i],[NAME,VERSION],[/(QQ)\/([\d\.]+)/i],[NAME,VERSION],[/m?(qqbrowser)[\/\s]?([\w\.]+)/i],[NAME,VERSION],[/(BIDUBrowser)[\/\s]?([\w\.]+)/i],[NAME,VERSION],[/(2345Explorer)[\/\s]?([\w\.]+)/i],[NAME,VERSION],[/(MetaSr)[\/\s]?([\w\.]+)/i],[NAME],[/(LBBROWSER)/i],[NAME],[/xiaomi\/miuibrowser\/([\w\.]+)/i],[VERSION,[NAME,"MIUI Browser"]],[/;fbav\/([\w\.]+);/i],[VERSION,[NAME,"Facebook"]],[/headlesschrome(?:\/([\w\.]+)|\s)/i],[VERSION,[NAME,"Chrome Headless"]],[/\swv\).+(chrome)\/([\w\.]+)/i],[[NAME,/(.+)/,"$1 WebView"],VERSION],[/((?:oculus|samsung)browser)\/([\w\.]+)/i],[[NAME,/(.+(?:g|us))(.+)/,"$1 $2"],VERSION],[/android.+version\/([\w\.]+)\s+(?:mobile\s?safari|safari)*/i],[VERSION,[NAME,"Android Browser"]],[/(chrome|omniweb|arora|[tizenoka]{5}\s?browser)\/v?([\w\.]+)/i],[NAME,VERSION],[/(dolfin)\/([\w\.]+)/i],[[NAME,"Dolphin"],VERSION],[/((?:android.+)crmo|crios)\/([\w\.]+)/i],[[NAME,"Chrome"],VERSION],[/(coast)\/([\w\.]+)/i],[[NAME,"Opera Coast"],VERSION],[/fxios\/([\w\.-]+)/i],[VERSION,[NAME,"Firefox"]],[/version\/([\w\.]+).+?mobile\/\w+\s(safari)/i],[VERSION,[NAME,"Mobile Safari"]],[/version\/([\w\.]+).+?(mobile\s?safari|safari)/i],[VERSION,NAME],[/webkit.+?(gsa)\/([\w\.]+).+?(mobile\s?safari|safari)(\/[\w\.]+)/i],[[NAME,"GSA"],VERSION],[/webkit.+?(mobile\s?safari|safari)(\/[\w\.]+)/i],[NAME,[VERSION,mapper.str,maps.browser.oldsafari.version]],[/(konqueror)\/([\w\.]+)/i,/(webkit|khtml)\/([\w\.]+)/i],[NAME,VERSION],[/(navigator|netscape)\/([\w\.-]+)/i],[[NAME,"Netscape"],VERSION],[/(swiftfox)/i,/(icedragon|iceweasel|camino|chimera|fennec|maemo\sbrowser|minimo|conkeror)[\/\s]?([\w\.\+]+)/i,/(firefox|seamonkey|k-meleon|icecat|iceape|firebird|phoenix|palemoon|basilisk|waterfox)\/([\w\.-]+)$/i,/(mozilla)\/([\w\.]+).+rv\:.+gecko\/\d+/i,/(polaris|lynx|dillo|icab|doris|amaya|w3m|netsurf|sleipnir)[\/\s]?([\w\.]+)/i,/(links)\s\(([\w\.]+)/i,/(gobrowser)\/?([\w\.]*)/i,/(ice\s?browser)\/v?([\w\._]+)/i,/(mosaic)[\/\s]([\w\.]+)/i],[NAME,VERSION]],cpu:[[/(?:(amd|x(?:(?:86|64)[_-])?|wow|win)64)[;\)]/i],[[ARCHITECTURE,"amd64"]],[/(ia32(?=;))/i],[[ARCHITECTURE,util.lowerize]],[/((?:i[346]|x)86)[;\)]/i],[[ARCHITECTURE,"ia32"]],[/windows\s(ce|mobile);\sppc;/i],[[ARCHITECTURE,"arm"]],[/((?:ppc|powerpc)(?:64)?)(?:\smac|;|\))/i],[[ARCHITECTURE,/ower/,"",util.lowerize]],[/(sun4\w)[;\)]/i],[[ARCHITECTURE,"sparc"]],[/((?:avr32|ia64(?=;))|68k(?=\))|arm(?:64|(?=v\d+;))|(?=atmel\s)avr|(?:irix|mips|sparc)(?:64)?(?=;)|pa-risc)/i],[[ARCHITECTURE,util.lowerize]]],device:[[/\((ipad|playbook);[\w\s\);-]+(rim|apple)/i],[MODEL,VENDOR,[TYPE,TABLET]],[/applecoremedia\/[\w\.]+ \((ipad)/],[MODEL,[VENDOR,"Apple"],[TYPE,TABLET]],[/(apple\s{0,1}tv)/i],[[MODEL,"Apple TV"],[VENDOR,"Apple"]],[/(archos)\s(gamepad2?)/i,/(hp).+(touchpad)/i,/(hp).+(tablet)/i,/(kindle)\/([\w\.]+)/i,/\s(nook)[\w\s]+build\/(\w+)/i,/(dell)\s(strea[kpr\s\d]*[\dko])/i],[VENDOR,MODEL,[TYPE,TABLET]],[/(kf[A-z]+)\sbuild\/.+silk\//i],[MODEL,[VENDOR,"Amazon"],[TYPE,TABLET]],[/(sd|kf)[0349hijorstuw]+\sbuild\/.+silk\//i],[[MODEL,mapper.str,maps.device.amazon.model],[VENDOR,"Amazon"],[TYPE,MOBILE]],[/\((ip[honed|\s\w*]+);.+(apple)/i],[MODEL,VENDOR,[TYPE,MOBILE]],[/\((ip[honed|\s\w*]+);/i],[MODEL,[VENDOR,"Apple"],[TYPE,MOBILE]],[/(blackberry)[\s-]?(\w+)/i,/(blackberry|benq|palm(?=\-)|sonyericsson|acer|asus|dell|meizu|motorola|polytron)[\s_-]?([\w-]*)/i,/(hp)\s([\w\s]+\w)/i,/(asus)-?(\w+)/i],[VENDOR,MODEL,[TYPE,MOBILE]],[/\(bb10;\s(\w+)/i],[MODEL,[VENDOR,"BlackBerry"],[TYPE,MOBILE]],[/android.+(transfo[prime\s]{4,10}\s\w+|eeepc|slider\s\w+|nexus 7|padfone)/i],[MODEL,[VENDOR,"Asus"],[TYPE,TABLET]],[/(sony)\s(tablet\s[ps])\sbuild\//i,/(sony)?(?:sgp.+)\sbuild\//i],[[VENDOR,"Sony"],[MODEL,"Xperia Tablet"],[TYPE,TABLET]],[/android.+\s([c-g]\d{4}|so[-l]\w+)\sbuild\//i],[MODEL,[VENDOR,"Sony"],[TYPE,MOBILE]],[/\s(ouya)\s/i,/(nintendo)\s([wids3u]+)/i],[VENDOR,MODEL,[TYPE,CONSOLE]],[/android.+;\s(shield)\sbuild/i],[MODEL,[VENDOR,"Nvidia"],[TYPE,CONSOLE]],[/(playstation\s[34portablevi]+)/i],[MODEL,[VENDOR,"Sony"],[TYPE,CONSOLE]],[/(sprint\s(\w+))/i],[[VENDOR,mapper.str,maps.device.sprint.vendor],[MODEL,mapper.str,maps.device.sprint.model],[TYPE,MOBILE]],[/(lenovo)\s?(S(?:5000|6000)+(?:[-][\w+]))/i],[VENDOR,MODEL,[TYPE,TABLET]],[/(htc)[;_\s-]+([\w\s]+(?=\))|\w+)*/i,/(zte)-(\w*)/i,/(alcatel|geeksphone|lenovo|nexian|panasonic|(?=;\s)sony)[_\s-]?([\w-]*)/i],[VENDOR,[MODEL,/_/g," "],[TYPE,MOBILE]],[/(nexus\s9)/i],[MODEL,[VENDOR,"HTC"],[TYPE,TABLET]],[/d\/huawei([\w\s-]+)[;\)]/i,/(nexus\s6p)/i],[MODEL,[VENDOR,"Huawei"],[TYPE,MOBILE]],[/(microsoft);\s(lumia[\s\w]+)/i],[VENDOR,MODEL,[TYPE,MOBILE]],[/[\s\(;](xbox(?:\sone)?)[\s\);]/i],[MODEL,[VENDOR,"Microsoft"],[TYPE,CONSOLE]],[/(kin\.[onetw]{3})/i],[[MODEL,/\./g," "],[VENDOR,"Microsoft"],[TYPE,MOBILE]],[/\s(milestone|droid(?:[2-4x]|\s(?:bionic|x2|pro|razr))?:?(\s4g)?)[\w\s]+build\//i,/mot[\s-]?(\w*)/i,/(XT\d{3,4}) build\//i,/(nexus\s6)/i],[MODEL,[VENDOR,"Motorola"],[TYPE,MOBILE]],[/android.+\s(mz60\d|xoom[\s2]{0,2})\sbuild\//i],[MODEL,[VENDOR,"Motorola"],[TYPE,TABLET]],[/hbbtv\/\d+\.\d+\.\d+\s+\([\w\s]*;\s*(\w[^;]*);([^;]*)/i],[[VENDOR,util.trim],[MODEL,util.trim],[TYPE,SMARTTV]],[/hbbtv.+maple;(\d+)/i],[[MODEL,/^/,"SmartTV"],[VENDOR,"Samsung"],[TYPE,SMARTTV]],[/\(dtv[\);].+(aquos)/i],[MODEL,[VENDOR,"Sharp"],[TYPE,SMARTTV]],[/android.+((sch-i[89]0\d|shw-m380s|gt-p\d{4}|gt-n\d+|sgh-t8[56]9|nexus 10))/i,/((SM-T\w+))/i],[[VENDOR,"Samsung"],MODEL,[TYPE,TABLET]],[/smart-tv.+(samsung)/i],[VENDOR,[TYPE,SMARTTV],MODEL],[/((s[cgp]h-\w+|gt-\w+|galaxy\snexus|sm-\w[\w\d]+))/i,/(sam[sung]*)[\s-]*(\w+-?[\w-]*)/i,/sec-((sgh\w+))/i],[[VENDOR,"Samsung"],MODEL,[TYPE,MOBILE]],[/sie-(\w*)/i],[MODEL,[VENDOR,"Siemens"],[TYPE,MOBILE]],[/(maemo|nokia).*(n900|lumia\s\d+)/i,/(nokia)[\s_-]?([\w-]*)/i],[[VENDOR,"Nokia"],MODEL,[TYPE,MOBILE]],[/android\s3\.[\s\w;-]{10}(a\d{3})/i],[MODEL,[VENDOR,"Acer"],[TYPE,TABLET]],[/android.+([vl]k\-?\d{3})\s+build/i],[MODEL,[VENDOR,"LG"],[TYPE,TABLET]],[/android\s3\.[\s\w;-]{10}(lg?)-([06cv9]{3,4})/i],[[VENDOR,"LG"],MODEL,[TYPE,TABLET]],[/(lg) netcast\.tv/i],[VENDOR,MODEL,[TYPE,SMARTTV]],[/(nexus\s[45])/i,/lg[e;\s\/-]+(\w*)/i,/android.+lg(\-?[\d\w]+)\s+build/i],[MODEL,[VENDOR,"LG"],[TYPE,MOBILE]],[/android.+(ideatab[a-z0-9\-\s]+)/i],[MODEL,[VENDOR,"Lenovo"],[TYPE,TABLET]],[/linux;.+((jolla));/i],[VENDOR,MODEL,[TYPE,MOBILE]],[/((pebble))app\/[\d\.]+\s/i],[VENDOR,MODEL,[TYPE,WEARABLE]],[/android.+;\s(oppo)\s?([\w\s]+)\sbuild/i],[VENDOR,MODEL,[TYPE,MOBILE]],[/crkey/i],[[MODEL,"Chromecast"],[VENDOR,"Google"]],[/android.+;\s(glass)\s\d/i],[MODEL,[VENDOR,"Google"],[TYPE,WEARABLE]],[/android.+;\s(pixel c)\s/i],[MODEL,[VENDOR,"Google"],[TYPE,TABLET]],[/android.+;\s(pixel xl|pixel)\s/i],[MODEL,[VENDOR,"Google"],[TYPE,MOBILE]],[/android.+;\s(\w+)\s+build\/hm\1/i,/android.+(hm[\s\-_]*note?[\s_]*(?:\d\w)?)\s+build/i,/android.+(mi[\s\-_]*(?:one|one[\s_]plus|note lte)?[\s_]*(?:\d?\w?)[\s_]*(?:plus)?)\s+build/i,/android.+(redmi[\s\-_]*(?:note)?(?:[\s_]*[\w\s]+))\s+build/i],[[MODEL,/_/g," "],[VENDOR,"Xiaomi"],[TYPE,MOBILE]],[/android.+(mi[\s\-_]*(?:pad)(?:[\s_]*[\w\s]+))\s+build/i],[[MODEL,/_/g," "],[VENDOR,"Xiaomi"],[TYPE,TABLET]],[/android.+;\s(m[1-5]\snote)\sbuild/i],[MODEL,[VENDOR,"Meizu"],[TYPE,TABLET]],[/android.+a000(1)\s+build/i,/android.+oneplus\s(a\d{4})\s+build/i],[MODEL,[VENDOR,"OnePlus"],[TYPE,MOBILE]],[/android.+[;\/]\s*(RCT[\d\w]+)\s+build/i],[MODEL,[VENDOR,"RCA"],[TYPE,TABLET]],[/android.+[;\/\s]+(Venue[\d\s]{2,7})\s+build/i],[MODEL,[VENDOR,"Dell"],[TYPE,TABLET]],[/android.+[;\/]\s*(Q[T|M][\d\w]+)\s+build/i],[MODEL,[VENDOR,"Verizon"],[TYPE,TABLET]],[/android.+[;\/]\s+(Barnes[&\s]+Noble\s+|BN[RT])(V?.*)\s+build/i],[[VENDOR,"Barnes & Noble"],MODEL,[TYPE,TABLET]],[/android.+[;\/]\s+(TM\d{3}.*\b)\s+build/i],[MODEL,[VENDOR,"NuVision"],[TYPE,TABLET]],[/android.+;\s(k88)\sbuild/i],[MODEL,[VENDOR,"ZTE"],[TYPE,TABLET]],[/android.+[;\/]\s*(gen\d{3})\s+build.*49h/i],[MODEL,[VENDOR,"Swiss"],[TYPE,MOBILE]],[/android.+[;\/]\s*(zur\d{3})\s+build/i],[MODEL,[VENDOR,"Swiss"],[TYPE,TABLET]],[/android.+[;\/]\s*((Zeki)?TB.*\b)\s+build/i],[MODEL,[VENDOR,"Zeki"],[TYPE,TABLET]],[/(android).+[;\/]\s+([YR]\d{2})\s+build/i,/android.+[;\/]\s+(Dragon[\-\s]+Touch\s+|DT)(\w{5})\sbuild/i],[[VENDOR,"Dragon Touch"],MODEL,[TYPE,TABLET]],[/android.+[;\/]\s*(NS-?\w{0,9})\sbuild/i],[MODEL,[VENDOR,"Insignia"],[TYPE,TABLET]],[/android.+[;\/]\s*((NX|Next)-?\w{0,9})\s+build/i],[MODEL,[VENDOR,"NextBook"],[TYPE,TABLET]],[/android.+[;\/]\s*(Xtreme\_)?(V(1[045]|2[015]|30|40|60|7[05]|90))\s+build/i],[[VENDOR,"Voice"],MODEL,[TYPE,MOBILE]],[/android.+[;\/]\s*(LVTEL\-)?(V1[12])\s+build/i],[[VENDOR,"LvTel"],MODEL,[TYPE,MOBILE]],[/android.+[;\/]\s*(V(100MD|700NA|7011|917G).*\b)\s+build/i],[MODEL,[VENDOR,"Envizen"],[TYPE,TABLET]],[/android.+[;\/]\s*(Le[\s\-]+Pan)[\s\-]+(\w{1,9})\s+build/i],[VENDOR,MODEL,[TYPE,TABLET]],[/android.+[;\/]\s*(Trio[\s\-]*.*)\s+build/i],[MODEL,[VENDOR,"MachSpeed"],[TYPE,TABLET]],[/android.+[;\/]\s*(Trinity)[\-\s]*(T\d{3})\s+build/i],[VENDOR,MODEL,[TYPE,TABLET]],[/android.+[;\/]\s*TU_(1491)\s+build/i],[MODEL,[VENDOR,"Rotor"],[TYPE,TABLET]],[/android.+(KS(.+))\s+build/i],[MODEL,[VENDOR,"Amazon"],[TYPE,TABLET]],[/android.+(Gigaset)[\s\-]+(Q\w{1,9})\s+build/i],[VENDOR,MODEL,[TYPE,TABLET]],[/\s(tablet|tab)[;\/]/i,/\s(mobile)(?:[;\/]|\ssafari)/i],[[TYPE,util.lowerize],VENDOR,MODEL],[/(android[\w\.\s\-]{0,9});.+build/i],[MODEL,[VENDOR,"Generic"]]],engine:[[/windows.+\sedge\/([\w\.]+)/i],[VERSION,[NAME,"EdgeHTML"]],[/(presto)\/([\w\.]+)/i,/(webkit|trident|netfront|netsurf|amaya|lynx|w3m)\/([\w\.]+)/i,/(khtml|tasman|links)[\/\s]\(?([\w\.]+)/i,/(icab)[\/\s]([23]\.[\d\.]+)/i],[NAME,VERSION],[/rv\:([\w\.]{1,9}).+(gecko)/i],[VERSION,NAME]],os:[[/microsoft\s(windows)\s(vista|xp)/i],[NAME,VERSION],[/(windows)\snt\s6\.2;\s(arm)/i,/(windows\sphone(?:\sos)*)[\s\/]?([\d\.\s\w]*)/i,/(windows\smobile|windows)[\s\/]?([ntce\d\.\s]+\w)/i],[NAME,[VERSION,mapper.str,maps.os.windows.version]],[/(win(?=3|9|n)|win\s9x\s)([nt\d\.]+)/i],[[NAME,"Windows"],[VERSION,mapper.str,maps.os.windows.version]],[/\((bb)(10);/i],[[NAME,"BlackBerry"],VERSION],[/(blackberry)\w*\/?([\w\.]*)/i,/(tizen)[\/\s]([\w\.]+)/i,/(android|webos|palm\sos|qnx|bada|rim\stablet\sos|meego|contiki)[\/\s-]?([\w\.]*)/i,/linux;.+(sailfish);/i],[NAME,VERSION],[/(symbian\s?os|symbos|s60(?=;))[\/\s-]?([\w\.]*)/i],[[NAME,"Symbian"],VERSION],[/\((series40);/i],[NAME],[/mozilla.+\(mobile;.+gecko.+firefox/i],[[NAME,"Firefox OS"],VERSION],[/(nintendo|playstation)\s([wids34portablevu]+)/i,/(mint)[\/\s\(]?(\w*)/i,/(mageia|vectorlinux)[;\s]/i,/(joli|[kxln]?ubuntu|debian|suse|opensuse|gentoo|(?=\s)arch|slackware|fedora|mandriva|centos|pclinuxos|redhat|zenwalk|linpus)[\/\s-]?(?!chrom)([\w\.-]*)/i,/(hurd|linux)\s?([\w\.]*)/i,/(gnu)\s?([\w\.]*)/i],[NAME,VERSION],[/(cros)\s[\w]+\s([\w\.]+\w)/i],[[NAME,"Chromium OS"],VERSION],[/(sunos)\s?([\w\.\d]*)/i],[[NAME,"Solaris"],VERSION],[/\s([frentopc-]{0,4}bsd|dragonfly)\s?([\w\.]*)/i],[NAME,VERSION],[/(haiku)\s(\w+)/i],[NAME,VERSION],[/cfnetwork\/.+darwin/i,/ip[honead]{2,4}(?:.*os\s([\w]+)\slike\smac|;\sopera)/i],[[VERSION,/_/g,"."],[NAME,"iOS"]],[/(mac\sos\sx)\s?([\w\s\.]*)/i,/(macintosh|mac(?=_powerpc)\s)/i],[[NAME,"Mac OS"],[VERSION,/_/g,"."]],[/((?:open)?solaris)[\/\s-]?([\w\.]*)/i,/(aix)\s((\d)(?=\.|\)|\s)[\w\.])*/i,/(plan\s9|minix|beos|os\/2|amigaos|morphos|risc\sos|openvms)/i,/(unix)\s?([\w\.]*)/i],[NAME,VERSION]]};var UAParser=function(uastring,extensions){if(typeof uastring==="object"){extensions=uastring;uastring=undefined}if(!(this instanceof UAParser)){return new UAParser(uastring,extensions).getResult()}var ua=uastring||(window&&window.navigator&&window.navigator.userAgent?window.navigator.userAgent:EMPTY);var rgxmap=extensions?util.extend(regexes,extensions):regexes;this.getBrowser=function(){var browser={name:undefined,version:undefined};mapper.rgx.call(browser,ua,rgxmap.browser);browser.major=util.major(browser.version);return browser};this.getCPU=function(){var cpu={architecture:undefined};mapper.rgx.call(cpu,ua,rgxmap.cpu);return cpu};this.getDevice=function(){var device={vendor:undefined,model:undefined,type:undefined};mapper.rgx.call(device,ua,rgxmap.device);return device};this.getEngine=function(){var engine={name:undefined,version:undefined};mapper.rgx.call(engine,ua,rgxmap.engine);return engine};this.getOS=function(){var os={name:undefined,version:undefined};mapper.rgx.call(os,ua,rgxmap.os);return os};this.getResult=function(){return{ua:this.getUA(),browser:this.getBrowser(),engine:this.getEngine(),os:this.getOS(),device:this.getDevice(),cpu:this.getCPU()}};this.getUA=function(){return ua};this.setUA=function(uastring){ua=uastring;return this};return this};UAParser.VERSION=LIBVERSION;UAParser.BROWSER={NAME:NAME,MAJOR:MAJOR,VERSION:VERSION};UAParser.CPU={ARCHITECTURE:ARCHITECTURE};UAParser.DEVICE={MODEL:MODEL,VENDOR:VENDOR,TYPE:TYPE,CONSOLE:CONSOLE,MOBILE:MOBILE,SMARTTV:SMARTTV,TABLET:TABLET,WEARABLE:WEARABLE,EMBEDDED:EMBEDDED};UAParser.ENGINE={NAME:NAME,VERSION:VERSION};UAParser.OS={NAME:NAME,VERSION:VERSION};if(typeof exports!==UNDEF_TYPE){if(typeof module!==UNDEF_TYPE&&module.exports){exports=module.exports=UAParser}exports.UAParser=UAParser}else{if(typeof define===FUNC_TYPE&&define.amd){define(function(){return UAParser})}else if(window){window.UAParser=UAParser}}var $=window&&(window.jQuery||window.Zepto);if(typeof $!==UNDEF_TYPE){var parser=new UAParser;$.ua=parser.getResult();$.ua.get=function(){return parser.getUA()};$.ua.set=function(uastring){parser.setUA(uastring);var result=parser.getResult();for(var prop in result){$.ua[prop]=result[prop]}}}})(typeof window==="object"?window:this);
+</script>
+
+<!-- 
+<script src="/files/jquery.easing.1.3.js"></script>
+-->
+<script src="/files/components.min.js"></script>
+</body>
+</html>```
