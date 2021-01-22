@@ -1,0 +1,190 @@
+```<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>AESCrypt Home Page</title>
+  </head>
+
+  <body>
+<center>
+    <h1>AESCrypt: Rijndael encryption for shell scripts and Ruby.</h1>
+</center>
+<p>
+AESCrypt is a program for encrypting/decrypting streams of data using
+Rijndael and Cipher Block Feedback mode (CFB-128).  </p>
+
+<h2> Sourceforge project page: </h2>
+
+See <a href="http://sourceforge.net/projects/aescrypt/">http://sourceforge.net/projects/aescrypt/</a>
+
+
+<h2>Usage:</h2>
+
+aescrypt -k {keyfile} [-s 128|192|256]<br>
+aesget -k {keyfile} [-s 128|192|256] <br>
+<p>
+Encrypt/decrypt stdin using the Advanced Encryption Standard winner
+"Rijndael" encryption algorithm in Cipher Block Feedback (stream)
+mode. Uses /dev/urandom to create a salt. Prepends the output stream
+with salt when encrypting, strips it off when decrypting.
+</p>
+
+<p>
+Keyfile format:
+</p>
+
+<pre>
+...
+kk=hexdits
+...
+</pre>
+
+<p>
+where hexdits is:
+</p>
+
+<p>
+32 chars for 128 bit<br>
+48 chars for 196 bits. <br>
+64 chars for 256 bits
+</p>
+
+<p>
+Note that there may be other text in the file. But the key must be at
+start of a line, and must start with 'kk=', and must be hex.
+</p>
+
+<p> If the key file is "-", it instead reads the hex-coded key bytes off
+stdin and treats them as a null-terminated hex key. Care must be taken
+when reading the key from stdin, as you must supply exactly 33 bytes for
+128 bit keys, 49 bytes for 192 bit keys, and 65 bytes for 256 bit keys.
+The stdin functionality is useful in those cases where having the
+unencrypted key in a file is undesirable, but it is less forgiving in
+terms of key format.
+</p>
+
+
+<h2>Limitations:</h2>
+
+<ol>
+<li> The keyfile is *NOT* encrypted. 
+<li> Now supports 192 and 256 bit keys! 128 bits is the default, so 
+it is backward compatible with aescrypt versions not endowed with the -s
+option.
+<li> Need a key generator! ( This should be a simple shell script -- use dd 
+to grab some data, then md5sum to create a hex mix of that data, then
+'awk' to grab the hex part of the output of md5sum ). 
+<li> Relies upon having /dev/urandom. See the Ocotillo PRNG if you don't
+  have a /dev/urandom. 
+
+<li>This program was deliberately kept extremely simple. It is not
+intended to be a full encryption solution, it is intended to be used
+within scripts as part of a complete solution. Keychain management,
+public key signatures, etc. are all expected to be done external to this
+program. 
+
+</ol>
+
+
+<h2> Legal Notices </h2>
+<p>
+This software is a cryptographic component. It is not for export
+or redistribution to any of what are called the "T-10 Terrorist States"
+as detirmined by the U.S. Department of State. Please comply with
+this restriction so that this site is not forced to shut down. 
+</p>
+
+<p><b>December 15, 2000:</b> Export reminder: I received a phone call
+today from a lady with the U.S. Bureau of Export Administration (BXA)
+who'd read my AEScrypt page (the URL of which I'd submitted to them
+for an export license exemption as required by U.S. export
+regulations, see <a href="http://www.crypto.com">crypto.com</a> for
+more info). aescrypt is of course Open Source. She wished to remind me
+that any application built using Open Source encryption components had
+to also be submitted to the BXA for the proper export license or
+license exemption if the application was to be exported. The export
+license for the component covers only the component, not applications
+that use the component. The fact that the component itself is Open
+Source and thus may be freely exported does not matter.
+</p>
+
+<p>
+    Hopefully this reminder will prevent problems on the part of those
+    who use AEScrypt or other Open Source encryption components as
+    part of a larger application.
+</p>
+
+<h2> Obtaining Source </h2>
+<p>
+The latest versions of this software is available only as source in the
+directories
+<a href="ftp://ftp.badtux.net/pub/crypto/aescrypt/">
+/pub/crypto/aescrypt</a>
+and 
+<a href="ftp://ftp.badtux.net/pub/crypto/aes-rb/">/pub/crypto/aes-rb</a> (for
+the Ruby version)
+ftp.badtux.net . Older versions are available on this web page.
+</p>
+
+<ul>
+<li><a href="aescrypt-0.7.tar.gz">aescrypt-0.7.tar.gz</a> The current version
+<li><a href="aescrypt-0.6.tar.gz">aescrypt-0.6.tar.gz</a> The previous version
+<li><a href="aes-rb-0.1.0.tar.gz">aes-rb-0.1.0.tar.gz</a> (current)
+<li><a href="aes-rb-0.0.1.tar.gz">aes-rb-0.0.1.tar.gz</a> (previous) A version for use
+within <a href="http://www.ruby-lang.org">Ruby</a> (see the README file
+for compile and usage info)
+</ul>
+
+
+<h2> Installation: </h2>
+<pre>
+./configure -prefix=/location/to/install
+make
+make install
+</pre>
+
+<h2> Authors: </h2>
+<p>
+AESCrypt was written by <a href="mailto:eric@badtux.org">Eric Lee Green</a>,
+and was modified to use Rijndael rather than Twofish by 
+<a href="mailto:randyk@sourceforge.net">Randy Kaelber</a>.  Randy also
+added support for larger key sizes. 
+AESCrypt is copyrighted by <a href="http://www.estinc.com">Enhanced
+Software Technologies Inc.</a>, but is
+released under a BSD-style Open Source license. See file LICENSE for info.
+The Ruby module is based upon the Rijndael routines in aescrypt, combined
+with the logic from <a href="http://twofish-py.sourceforge.net">twofish-py</a>,
+and was written by Eric Lee Green. It is released under a BSD-style Open Source
+license, with the exception of a few sample programs, which are under the Ruby
+license.
+</p>
+
+<p>
+Attribution information: This software includes Rijndael encryption
+routines by Antoon Bosselaers and Vincent Rijmen. They have stated
+that their routines are free for public use. 
+</p>
+
+
+<h2> Maintainers: </h2>
+<p>
+Eric Lee Green and Randy Kaelber
+</p>
+
+<h2> Hosting: </h2>
+
+Done by <a href="http://www.vasoftware.com">VA Software's</a> <a href="http://www.sourceforge.net">Source Forge</a> service. When VA finally finishes
+going bankrupt, aescrypt will be self-hosted at the site "software.badtux.net"
+(but don't bother going there yet, it's not going up until SourceForge
+goes kafloop). 
+
+    <hr>
+    <address><a href="mailto:eric@badtux.org">Eric Lee Green</a></address>
+<!-- Created: Fri Nov  3 13:30:00 MST 2000 -->
+<!-- hhmts start -->
+Last modified: Sept 17, 2002
+<!-- hhmts end -->
+<!-- $Revision: 1.3 $ -->
+<!-- $Date: 2000/12/18 23:07:49 $ -->
+  </body>
+</html>
+```
