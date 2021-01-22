@@ -1,0 +1,123 @@
+```<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>The ABC Music project</title>
+    
+    <link rel="stylesheet" type="text/css" title="default" href="style.css" 
+      media="screen" />
+    <!--Comment for diff-->
+    <link rel="top" href="./" />
+    <link rel="first" href="./" />
+    <link rel="next" href="./resources.html" />
+    <link rel="last" href="./about.html" />
+    <link rel="contents" href="./about.html#sitemap" />
+
+    <meta name="author" content="Bert Van Vreckem" />
+    <meta name="description" content="ABC is a music notation format. This
+      website promotes the ABC Music standard and offers a home for developers
+      that write ABC compliant software." />
+    <meta name="keywords" content="ABC, music, typesetting, standard" />
+
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="Content-type" content='text/html; charset="utf-8"' />    
+
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="header">
+        <!-- menu -->
+        <ul class="menu">
+          <li><a href="./">start</a></li>
+          <li><a href="./resources.html">resources</a></li>
+          <li><a href="./standard/">standard</a></li>
+          <li><a href="./abcMIDI/">abcMIDI</a></li>
+          <li><a href="./iabc/">iabc</a></li>
+          <li><a href="./jcabc2ps/">jcabc2ps</a></li>
+          <li><a href="./NMD/">NMD</a></li>
+          <li><a href="./help.html">help</a></li>
+          <li><a href="./about.html">about</a></li>
+        </ul>
+        
+        <p>[<a href="https://sourceforge.net/projects/abc/">Project Summary
+            Page</a>]</p>
+        
+      </div>
+      <div class="content">
+        <h1>The ABC Music project</h1>
+
+        <p>ABC, developed by Chris Walshaw, is a format designed to notate
+          music using plain text. It was originally designed for folk
+          tunes of Western European origin which can be written on one staff,
+          but has since been extended to support the notation of complete,
+          classical music scores.</p>
+
+        <p>Since its introduction at the end of 1991, ABC has become very
+          popular. Programs on many operating systems use ABC as an
+          input and/or output format. There are programs which produce
+          printed sheet music or allow for computer performances, search
+          in tune databases, or that analyze tunes in some way.</p>
+
+        <p>The aim of this project is to promote the ABC language by maintaining
+          the ABC standard and a set of software and source code that manipulate
+          and present music written in ABC.</p>
+
+        <p>On this site, you can find among others:</p>
+
+        <ul>
+          <li><a href="./standard/">The ABC standard</a>
+            (maintainer:
+            <a href="http://sourceforge.net/users/ioppenhm/">
+            Irwin Oppenheim</a>)</li>
+
+          <li><a href="./resources.html">resources</a>: ABC resources on the web</li>
+          
+          <li><a href="./abcMIDI/">abcMIDI</a> (maintainer: <a
+            href="http://sourceforge.net/users/sshlien/">Seymour Shlien</a>):
+            It contains among other things a tool for creating <acronym 
+              title="Musical Instrument Digital Interface">MIDI</acronym>
+            output, and a tool for transposing tunes.</li>
+
+          <li><a href="./iabc/">iabc</a> (maintainer: <a
+              href="http://abc.sourceforge.net/iabc/about_aaron.html">Aaron
+              Newman</a>): a graphical, interactive, and cross-platform ABC
+            editor</li>
+
+          <li><a href="./jcabc2ps/">jcabc2ps</a> (maintainer: <a
+              href="http://sourceforge.net/users/chambers/">John Chambers</a>): an
+              ABC to PostScript convertor</li>
+
+          <li><a href="./NMD/">The Nottingham Music Database</a>
+            (maintainer: <a
+              href="http://sourceforge.net/users/jallwright/">James
+              Allwright</a>): an ABC version of this tune collection</li>
+        </ul>
+
+        <p>You can download files, access the CVS repository, use the bug
+            reporting system, etc. from the <a
+            href="https://sourceforge.net/projects/abc/">Project Summary
+            Page</a>.</p>
+
+        <p>The ABC Music project is grateful to
+          <a href="https://sourceforge.net/users/bertv/">Bert Van Vreckem</a>
+          for designing and maintaining this website.</p>
+
+        <p class="banner">
+          <a class="banner" href="http://sourceforge.net">
+            <img src="http://sourceforge.net/sflogo.php?group_id=abc&amp;type=4"
+              width="125" height="37" alt="SourceForge.net Logo" />
+          </a>
+        </p>
+      </div> <!-- end content -->
+      
+      <div class="footer">
+        $Id: index.html,v 1.10 2004/01/26 21:13:58 aaron_newman Exp $
+      </div> <!-- end footer -->
+    </div> <!-- end main -->
+    
+  </body>
+</html>
+```
