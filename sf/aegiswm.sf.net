@@ -1,0 +1,160 @@
+```<head>
+	<title>AegisWM</title>
+</head>
+
+<body>
+	python-requests/2.22.0	<h2>Documentation</h2>
+	<p>
+	You can read the latest AegisWM documentation <a href='doc/html/index.html'>here</a>.
+	</p>
+
+	<h4>October 31, 2004</h4>
+	<p>
+	I sat down to kind of take stock of the current state of things.
+	I think that they are moving along well, slowly, but well.  As I
+	near finishing up the first stage, I sat down to think and design
+	for some of the upcoming stages.
+	</p>
+	<p>
+	I have come to like the idea of thinking of AegisWM as a state
+	machine.  I don't have any plans yet, to convert te current event
+	processing system over to a state table driven system, I think the
+	idea is intriguing.  The state table could be configurable, and
+	could be very flexible.  The coding changes that would be required
+	to affect that change wouldn't be overwhelming.  The biggest issue
+	would be implementing the state table itself in a way that could be
+	configurable at runtime, and with scripting languages.
+	</p>
+	<p>
+	AegisWM will have an Action system similar to previous iterations of
+	Aegis and Kahakai.  Actions will form the base for adding the ability to
+	extend AegisWM with scripting languages.  This is going to be the next
+	step.  I will start coding up the basic Action system immediately.  The
+	goal is to encapsulate the current mismash of event functions into
+	objects.  I don't forsee this being a difficult process.  Though
+	considering my time constraints, it may take some time.
+	</p>
+	<p>
+	The Action system will consist of the following classes:
+	<ul>
+		<li>BaseAction:  This is the abstract base class for all
+		Actions.</li>
+		<li>SingleAction:  This performs a single action.  It will be
+		the most often used Action.</li>
+		<li>MultiAction:  This performs N actions.  It provides a way to
+		add, remove, reorder and otherwise manage its multiple Actions.</li>
+		<li><i>Feel free to suggest more Action types</i></li>
+	</ul>
+	</p>
+
+	<h4>October 31, 2004 - Update</h4>
+	<p>
+	I have spent the last day or two cleaning some things up.  I added
+	logging functionality to AegisWM.  It now uses syslog to perform
+	all logging.  You will have to configure your logger appropriately.
+	It should be easy to filter though, since all logging messages contain
+	'aegiswm' as the program name.	I have also moved the ClientMap
+	class into its own file.  TitleBar and the WindowState struct will
+	also be moved eventually to their own files.
+	</p>
+
+	<h4>October 28, 2004 - Update</h4>
+	<p>
+	Ok, I have been working on Aegis lately, and about all that is needed to
+	complete the first stage is raising windows to the front when they are
+	focused.  I hope to get that done in the next day or two.
+	</p>
+
+	<h4>Update</h4>
+	<p>
+	I have been working on this, but I have also been busy with other
+	stuff.	I have not had the chance to spend as much time on this as
+	I would like, so I am lagging a bit behind.
+	</p>
+
+	<h2>Introduction</h2>
+	<p>
+	Ok, it has been so long since I have done anything with Aegis, that I might as well be starting
+	over.  In fact, that is not a bad idea.  I am flying blind now as it is.
+	</p>
+
+	<p>
+	I am changing things around now.  These are the things that we are going to do with Aegis.
+	When I say "we", I mean "I", I don't expect anyone to really want to help until I get
+	something that is interesting.	No one is really doing active developement, even the
+	time the I spend on it cannot really be called "active" development.  There hasn't
+	been much communication, and not much has resulted from our efforts.  There is no one
+	to blame but myself, but enough of the Mea Culpas, on with what I want to do in the future.
+	</p>
+
+	<p>
+	<ol>
+
+		<li> First, I want to get a primitive WM going.  Something along the lines of aewm++.  But
+		from scratch.  
+		<br>
+		UPDATE:  This is 95% complete.  All that is missing is the
+		ability to raise windows when they are clicked.
+		</li>
+		<li> NEW:  We need to add some basic <a href="http://tronche.com/gui/x/icccm/">ICCCM</a>
+		compliance if we have any hope of actually being usable.</li>
+		<li> NEW:  We need to create the basics of configuration.</li>
+		<li> From there I want to start adding in primitive scripting stuff.  Ruby and Perl, since those are the
+		  two that I am familiar with.  This isn't much more than stubs and limited working examples of
+		  limited functionality.</li>
+		<li> Web page.</li>
+		<li> Bugzilla.</li>
+		<li> From there I don't have a clue (we'll see what happens).  Here are some things that will need to
+		be done (in no order other than the order they come to mind):
+		<ul>
+			<li>Configuration</li>
+			<li>Full <a href="http://tronche.com/gui/x/icccm/">ICCCM</a> and EWMH compliance</li>
+			<li>Logging</li>
+			<li>Improved Look and Feel</li>
+			<li>Additional language support.</li>
+			<li>Richer set of events</li>
+		</ul>
+		</li>
+	</ol>
+	</p>
+
+
+	<h3>The plan for Step 1.</h3>
+
+	<p>
+	<ol>
+		<li>KISS</li>
+		<li>Refer to #1</li>
+		<li>Refer to #2</li>
+	</ol>
+	</p>
+
+	<h3>"Features" planned for Step 1.</h3>
+	</p>
+	<ul>
+		<li>The ability to change focus</li>
+		<li><strike>Root window mouse and keyboard events</strike></li>
+		<li><strike>The ability to move windows</strike></li>
+		<li><strike>Create top level windows</strike></li>
+		<li><strike>reparent application windows into top level windows</strike></li>
+		<li>NO, NO, NO to complex widgets (by complex i mean anything more than a single toplevel
+		parent window).  Ok, so maybe this doesn't make much sense as, so by this I mean nothing
+		more than a titlebar and the window for a total of tree windows (The parent window, the
+		titlebar and the application window).</li>
+		<li>No widget libraries</li>
+	</ul>
+	</p>
+
+	<h3>Basic result from Step 1.</h3>
+	<p>
+	Not much.  Pretty unpretty.  :)  Not much resemblance to a window manager.  It should be able to
+	create/reparent windows and thats about it.
+	</p>
+
+	<h3>Timeline for Step 1.</h3>
+	<p>
+	2 weeks, so mid-October.  No promises though.
+	</p>
+
+</body>
+```
