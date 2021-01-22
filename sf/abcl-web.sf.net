@@ -1,0 +1,213 @@
+``` <html>
+   <head>
+     <title>ABCL-web</title>
+     <link rel="stylesheet" href="http://www.w3.org/StyleSheets/Core/Modernist" type="text/css">
+   </head>
+   <body>
+
+     <h1><a href="http://armedbear.org/abcl.html">ABCL</a>-web</h1>
+     <p> 	a web-framework using Armed Bear Common Lisp as a Java Servlet <br/>
+       <a href="#Rationale">Rationale</a> <a href="#Status">Current Status</a>
+       <a href="#License">License</a> 	<a href="#Structure">Structure</a>
+       <a href="tutorial.html">Tutorial</a> <br/>
+       <a href="http://sourceforge.net/projects/abcl-web/">Sourceforge page</a>
+     </p>
+
+
+     <h2>Overview</h2>
+     <p>	The <a href="http://common-lisp.net/project/armedbear/">Armed Bear Common Lisp</a>
+       that works on top of Java Virtual Machine (<a href="http://en.wikipedia.org/wiki/JVM">JVM</a>)
+       can allow us to use the <a href="http://en.wikipedia.org/wiki/Common_Lisp">Common Lisp</a>
+       for web application development, and use all the mature <a
+       href="http://en.wikipedia.org/wiki/Java_programming_language">Java</a> web development platform features and
+       libraries while programming in the dynamic and extensible Common Lisp language.</p>
+    <p>Typicaly Java web applications are implemented via the <a href="http://en.wikipedia.org/wiki/Java_servlet">Java Servlets</a> API.
+      Each servlet is a Java class, and servlets are executed in a Servlet Container, such as
+      <a href="http://tomcat.apache.org/">Apache Tomcat</a>. Thus, to Java web applications with 
+      Common Lisp, we'd need to make a bridge between a Java Servlets and ABCL. <br/>
+      While there can be different approaches (for example, we can try to create servlets with ABCL),
+      most simple and natural one is to create a Java Servlet, that will load ABCL and
+      forward web requests to ABCL. ABCL will generate output for response to this requests.
+      Such servlet will act as bridge between Java Servlet Container and the ABCL application side.</p>
+    <h2><a name="Rationale">Rationale</a></h2>
+    <p>One can ask the question, why use Java if we have plenty of other Common Lisp implementations?
+      Well, plenty of Common Lisp implementations can be used for web development, but usage of Java
+      platform has its advantage. Most CL implementations do not have properly implemented 
+      native mulithreading, while Java, and thus ABCL, have full and stable support for threads -- it 
+      can make use of multiple cores/CPUs.<br/>
+      Maturity of CL web frameworks is questionable, while Java is very widespread and mature.<br/>
+      Also, a lot of libraries ara available for Java platform, and some of them might not be 
+      available for Common Lisp. While some of them can be used via FFI, it won't be feasible for
+      functions that require high performance (FFI calls have their overhead)<br />
+      There's also a question of hosting -- it might be easier to find Java hosting rather than Lisp
+      web hosting. From hosting point of view, ABCL-web application is an ordinary Java Web Application,
+      no installation of additional stuff is required.<br />
+      Also, in some cases integration with existing solutions might be desired/required, or developers
+      want have an option to easily migrate from Common Lisp to Java -- for example, they can code
+      prototype in Common Lisp, and then migrate to Java for production high-performance system.</p>
+    <h2><a name="Status">Current status</a></h2>
+    <p>The current status is alpha. Working prototypes have been created and tested, but there are known issues,
+      this ABCL-web is not recommended for production environments.<br />
+      The current project goal is to provide working prototype. The security have not being tested, thus
+      installing ABCL-web on your webserver <strong>will open security holes</strong>, upto
+      <strong>control from remote!</strong><br/>
+      Current prototype might have problems installing into arbitrary Servlet Container, Servlet
+      Container should be somewhat tuned -- security disabled, etc. </p>
+    <h2><a name="License">Licence</a></h2>
+    <p>abcl-web is distributed under LGPL license, with clarifications from LLGPL applicable.
+      (while components, such us ABCL itself, may come with different licenses). To clarify this:
+      you can use this however you want with your web applications, but if you modify ABCL-web, we'd like
+      to see your patches and apply them if they are useful in general.</p>
+    <h2><a name="Features">Features</a></h2>
+    <p> <ul> 
+	<li>runs on variety of platforms and servlet containers (in theory, so far)</li>
+	<li>can use any Java library transparently</li>
+	<li><a href="http://common-lisp.net/project/slime/">SLIME</a>
+	  (<a href="www.gnu.org/software/emacs/">GNU Emacs</a>) IDE (integrated development environment)</li>
+	<li>dynamic development -- you can write or change function, and it will be immidiately available</li>
+	<li>just-in-time debugging -- if error happens, you can debug it, fix it (changing some functions, for example),
+	  and rerun processing -- and browser will just see a normal (fixed) page as if no error happened!</li>
+    </ul></p>
+    <p>Read <a href="tutorial.html">Tutorial</a> for further explanations.</a>
+
+<h2><a name="Structure">Structure</h2>
+<p>The goal of this project is not just to enable some development possibilities, but a 
+  complete framework, so development will not only be possible, but will be effective, 
+  easy, productive and fun! Thus, we are going to provides all tools needed for development
+  (if there are more than one way available, we are going to provide all ways for user to choose).</p>
+<p>Thus, we divide abcl-web into following layers:
+  <ul><li><a href="#ServletBridge">Servlet bridge</a> (core)</l2>
+<li><a href="http://common-lisp.net/project/armedbear/">the Lisp implementation</a> (it might be customized at some point)</li>
+<li>the <a href="#Loader">Loader</a><li>
+<li><a href="#JCon">Java connectivity</a> (calls from lisp to Java)</li>
+<li><a href="#WFram">Web application frameworks</a></li>
+<li><a href="#LML">markup languages and templating</a></li>
+<li><a href="#DBF">database frameworks</a></li>
+<li><a href="#UTIL">utilities</a> (misc useful stuff)</li>
+</ul>
+</p>
+<h3><a name="ServletBridge">Servlet bridge</a></h3>
+<p>The Servlet Bridge passes requests from Servlet Container to the Lisp interpreter.
+  It's also responsible to load the Lisp and initialize web application.</p>
+<p>We also want to debug our code, thus we have two servlets -- LspExec and LspDebug. They are Java class files.</p>
+<p>If we want debugging, we first launch LspDebug (you can run it on the Apache start).
+  LspDebug loads the Lisp interpreter, and then loads file "lisp/dbgrstart.lisp", that is supposed
+  to initialize a debugging interface. (since we use <a href="http://common-lisp.net/project/slime/">SLIME</a>, 
+  dbgrstart.lisp loads and initializes the SLIME debugging server). dbgrstart.lisp is not critical 
+  to LspDebug -- it can work without it. Note, that unless you specify autostart, debugger will be
+  loaded on first access to that servlet -- first access will take a long time, upto minute.
+  Once loaded, LspDebug will either tell that it failed to load interpreter, or will provide a form
+  where you can write the lisp code. It passes code you write to interpreter, and prints the results, or 
+  exception if code produces an error. Please note, that it's a very low-level debugger, and it's only 
+  intended to be used for diagnosing some weird bootstrap problems. Also, you should note that this debugger 
+  uses "throwing debugging hook" -- even if you'll load SLIME, it will report errors the same ugly
+  -- but stable -- way. On the production servers, LspDebug should either be deleted, or
+  access to it should be limited, since if you run it, <strong>anyone can execute arbitrary code</strong> on behalf
+  of your webserver!.
+</p>
+<p>LspExec is supposed to be loaded directly on production servers -- it's able to initialize
+  interpreter too, but it won't load dbgrstart.lisp though. Current version is able to detect
+  that Swank (SLIME backend) is initialized, and to use SLIME's debugging hook. If no swank is found,
+  any condition signaled will be critical and will be displayed instead of the page.<br/>
+  After installing hook, LspExec will try to load lisp/servlet-loader.lisp file. If servlet loading
+  process will have some fixable problems, you'll be able to debug it in SLIME and continue process.
+  When file is loaded successfully, it will try to find symbol CL-USER::*SERVLET*. If it finds that symbol,
+  and it's a lisp function, initialization is considered successful.<br/>
+  As for requests, LspExec will either report problem (no interpreter or no servlet), or
+  will pass <a href="http://java.sun.com/j2ee/sdk_1.3/techdocs/api/javax/servlet/http/HttpServletRequest.html">request</a>
+  and <a href="http://java.sun.com/j2ee/sdk_1.2.1/techdocs/api/javax/servlet/http/HttpServletResponse.html">response</a>
+  objects to that lisp function. Lisp function should use response object to do output.
+  If lisp function throws, condition's class will be displayed.</p>
+<p>web.xml file can be also considered a part of bridge, but it's quite simple. If your webapp
+  is called lispwebapp, it will normally map LspDebug to http://myserver/lispwebapp/servlet/LspDebug
+  and LspExec to http://myserver/lispwebapp/servlet/LspExec (you can change it).
+  It should also automatically start LspDebug on debugging environment and LspExec on production.</p>
+<h3><a name="Loader">Loader</a></h3>
+<p>The first level of loader consists of two lisp files -- dbgrstart.lisp and servlet-loader.lisp. </p>
+<p>dbgrstart.lisp is used to to start a debugger -- <a href="http://common-lisp.net/project/slime/">SLIME</a>,
+  and initialize some parameters. Note that version of SLIME should be exactly same as you use in Emacs!
+  Remote debugging is possible, but it requires some special tweaks.    	
+</p>
+<p>servlet-loader.lisp is used to compile and load all required libraries and application code.
+  For current version, any problem compiling/loading library is a critical error -- 
+  most likely you'll need to restart Servlet Container (tomcat) after such errors -- but that
+  shouldn't worry you after you setup all required libs.
+  The loading of application files (that are changed more frequently) is not a critical errror --
+  normally, you'll be able to debug it via SLIME, update your files, and restart loading process.
+</p>
+<p>servlet-loader.lisp launches second-level initialization -- servlet.lisp file.
+  Traditionally, servler.lisp creates packages, specifies Java classes being used and proceeds next-level initialization.
+  We could use <a href="http://www.cliki.net/asdf">asdf</a> for neat loading process, but so far we use simple loader, which 
+  allows retry loading each individual file.
+  In current implementation, the servlet.lisp file also defines top-level servlet function -- servlet1-service, which
+  calls analyze-request, process-request and generate-output functions, allowing restart at each level.
+  Normally, web frameworks should just redefine those functions.</p>
+
+<h3><a name="JCon">Java connectivity</a></h3>
+<p>Currently the jfli-abcl library is used. There is an alternative, but jfli-abcl is faster.</p>
+<p>You just specify Java class classes you want to use in the loader -- (def-java-class "java.io.InputStreamReader")
+  -- and use package "java.io" unless you want to use qualified name |java.io|:InputStreamReader, and then you can 
+  create object -- (InputStreamReader.new some params), and call methods -- 
+  (InputStreamReader.read reader param pam pam) -- first parameter should be class itself.
+  Normally you write all classes you use in the servlet.lisp, but you can also load new classes in REPL.</p>
+
+<h3><a name="WFram">Web frameworks</a></h3>
+<p>The roots of simple framework is defined in servlet.lisp -- they are functions analyze-request, process-request and generate-output.
+  analyze-request should identify which request we are going to serve and to extract form data, user session and other parameters.
+  Than both analyzed-request and normal request are passed to process-request. Process-request should perform business logic 
+  operations and produce some data for output. generate-output formats recieved data and sends them to response object.
+  (i believe it's some kind of Dispatcher View pattern).</p>
+<p>The goal of three-phase processing is that you can debug each part separately, so if generate-output is broken,
+  you can have request parsed and processed, so you can just re-launch generate-output.</p>
+<p>You can find that using simple framework for bigger projects would be overkill. We can offer you two flavours
+  of frameworks -- with auto-continuations and manual-continuations, more to come later :). <br/>
+  In current lispwebapp examples, <a href="web-engine.html">web-engine</a> -- 'manual-continuations' is used.
+</p>
+
+<h3><a name="LML">markup languages and templating</a></h3>
+<p><a href="http://lml2.b9.com/">LML2</a> is supported/recommended.</p>
+<pre> (html (:p ((:a :href "http://lml2.b9.com/") "LML2") "is supported"))</pre>
+<pre> (html (:p (:princ (+  2 2) (dynamic-code-here))))</pre>
+
+<h3><a name="DBF">Database frameworks</a></h3>
+<p>JDBC is accessible through jfli-abcl, you can connect to MySQL, PostgreSQL or whatever.</p>
+<p>Alternatively, you can use <a href="jena.sourceforge.net">Jena</a> -- Semantic Web Framework --
+  and have semantic-level database! <a href="rdf.html">Here</a> is a description of Lisp-friendly bindings.</p>
+
+<h3><a name="UTIL">utilities (misc useful stuff)</a></h3>
+<p><a href="http://weitz.de/cl-ppcre/">CL-PPCRE</a> regex lib is supported/recommended.</p>
+<p>
+  <a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=183565&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo" /></a>
+
+  <!-- HotLog -->
+  <script type="text/javascript" language="javascript">
+    hotlog_js="1.0";
+    hotlog_r=""+Math.random()+"&s=418520&im=15&r="+escape(document.referrer)+"&pg="+
+    escape(window.location.href);
+    document.cookie="hotlog=1; path=/"; hotlog_r+="&c="+(document.cookie?"Y":"N");
+  </script>
+  <script type="text/javascript" language="javascript1.1">
+    hotlog_js="1.1";hotlog_r+="&j="+(navigator.javaEnabled()?"Y":"N")
+  </script>
+  <script type="text/javascript" language="javascript1.2">
+    hotlog_js="1.2";
+    hotlog_r+="&wh="+screen.width+'x'+screen.height+"&px="+
+    (((navigator.appName.substring(0,3)=="Mic"))?
+    screen.colorDepth:screen.pixelDepth)</script>
+  <script type="text/javascript" language="javascript1.3">hotlog_js="1.3"</script>
+  <script type="text/javascript" language="javascript">hotlog_r+="&js="+hotlog_js;
+    document.write("<a href='http://click.hotlog.ru/?418520' target='_top'><img "+
+                                                                                 " src='http://hit22.hotlog.ru/cgi-bin/hotlog/count?"+
+                                                                                        hotlog_r+"&' border=0 width=88 height=31 alt=HotLog><\/a>")
+  </script>
+  <noscript>
+    <a href="http://click.hotlog.ru/?418520" target="_top"><br>
+      <img src="http://hit22.hotlog.ru/cgi-bin/hotlog/count?s=418520&amp;im=15" border="0" 
+           width="88" height="31" alt="HotLog"></a>
+  </noscript>
+
+  <!-- /HotLog -->
+
+</p>
+</body></html>
+```
