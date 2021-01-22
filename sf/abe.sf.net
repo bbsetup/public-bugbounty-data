@@ -1,0 +1,186 @@
+```<html>
+<head>
+<title>Abe's Amazing Adventure!!</title>
+<style>
+h2 {color: orange; background: #a03000;}
+h3 {color: orange; background: #a03000; padding: 2px;}
+body { font-family: arial, sans-serif; font-size: small; color: #ffd080;  background-color: #000000}
+td { font-size: small; font-family: arial, sans-serif; color: ffd080; }
+
+
+a:link    {color:#900B09; background-color:transparent; text-decoration:none}
+a:visited {color:#900B09; background-color:transparent; text-decoration:none}
+a:active  {color:#FF0000; background-color:transparent; text-decoration:none}
+a:hover   {color:#FF0000; background-color:transparent; text-decoration:underline}
+
+
+</style>
+</head>
+<body>
+
+<table width=600 border=0 cellspacing=0 cellpadding=2>
+<tr>
+<td bgcolor=#a03000>
+<table border=0 cellspacing=0 cellpadding=0 background=webback.jpg>
+<tr><td valign=top rowspan=2>
+<img src=webabe.jpg align=left>
+</td>
+<td>
+<h3>Description:</h3>
+<blockquote>
+A scrolling, platform-jumping, key-collecting, ancient pyramid exploring game, vaguely in the style of <a href="http://plus4.emucamp.com/sd.php?pid=10399">similar games</a> for the Commodore+4. The game is intended to show young people (I'm writing it for my son's birthday) all the cool games they missed.<br>
+</blockquote>
+<p>
+</td>
+</tr>
+<tr>
+<td>
+<h3>System Requirements:</h3>
+<blockquote>
+The <a href="http://libsdl.org">SDL</a> and <a href="http://www.libsdl.org/projects/SDL_mixer/">SDL_mixer</a> libraries. The game will compile and run on Linux, Windows, MacOS X and the BeOS.
+</blockquote>
+
+</td>
+</tr>
+<tr><td colspan=2><img src=row.jpg></td></tr>
+<tr>
+<td valign=top width=50%>
+<h3>Screenshots</h3>
+<blockquote>
+<a href="screen0-4-1.png">Curious Cannons!</a><br>
+<a href="screen2-4-2.png">Bears, oh my!</a><br>
+<b>Older screenshots:</b><br>
+<a href="title.png">Titles</a><br>
+<a href="game.png">A patient spider</a><br>
+<a href="game2.png">Magical fire</a><br>
+<a href="abe_title.png">Old title screen</a><br>
+<a href="abe_spider.png">A spider guards the key</a><br>
+<a href="abe_gem.png">Hidden gems</a><br>
+<a href="abe_outside.png">Outside scene</a><br>
+<a href="map.jpg">Entire map (warning large file and spoiler)</a><br>
+</blockquote>
+<p>
+</td>
+<td valign=top>
+<h3>Downloading and links</h3>
+<blockquote>
+<ul>
+<li><a href="http://www.getdeb.net/app.php?name=abe's%20amazing%20adventure">Ubuntu .deb files for Abe</a>
+<li><a href="http://www.sf.net/projects/abe">Abe!! on sourceforge</a>
+<li><a href="http://sourceforge.net/project/showfiles.php?group_id=70141">Download Abe!!</a>
+<li><a href="http://www.happypenguin.org/show?Abe%27s%20Amazing%20Adventure%21%21">Abe!! on the linux game tome</a>
+<li><a href="http://bebits.com/app/3337">Abe!! on BeBits</a>
+<li><a href="http://freshmeat.net/projects/abe">Abe!! on freshmeat</a>
+</ul>
+</blockquote>
+</td>
+</tr>
+<tr>
+<td valign=top>
+<h3>Building the Source</h3>
+<blockquote>
+To compile on linux get the source, untar it and:
+<tt>
+<br>./autogen.sh<br>
+./configure<br>
+make<br>
+</tt>
+<p>
+
+You can also cross-compile to windows by:
+<tt>
+<br>./autogen.sh<br>
+./cross-configure<br>
+./cross-make<br>
+</tt>
+For more info on cross-compilation, look <a href="http://www.mingw.org/mingwfaq.shtml#faq-cross">here</a>.
+</blockquote>
+</td>
+<td valign=top>
+<h3>Running Abe!!</h3>
+<blockquote>
+You can run it by typing <tt>./abe</tt> or <tt>abe.exe</tt> on Windows.<br>
+To run in windowed mode, do: <tt>./abe --window</tt>
+<tt>./abe -?</tt> will give you the less often used features.<br>
+</blockquote>
+</td>
+</tr>
+<tr>
+<td valign=top>
+<h3>Controls</h3>
+<blockquote>
+Keyboard controls:<br>
+<pre>
+Game:
+arrow keys - move
+space - jump
+enter - use a balloon
+esc - quit
+r - repaint screen
+b - take a screenshot
+(when Game.h::GOD_MODE is set)
+g - toggle god mode
+
+Editor:
+(set Game.h::GOD_MODE=1)
+arrow keys - move
+move around by pages:
+home,end,
+pageup,pagedow
+enter - put down tile
+1,2,3 - select layer
+del,backspace - clear tile
+5,6,7 - cycle thru tiles
+L - load map
+S - save map
+I - icon selector
+esc - quit
+rectangle selections:
+(q - upper left, w - lower right)
+q,w - to make a ladder
+q,e - to fill a rectangle
+
+Mouse control in editor:
+left click - put down tile
+middle click - clear tile
+right click - icon selector
+</pre>
+</blockquote>
+</td>
+<td valign=top>
+<h3>Known issues/Bugs</h3>
+<blockquote>
+<ul>
+<li>On a MacOS X laptop, I couldn't run the game in fullscreen mode. Run the game with the --window option.
+<li>If the game won't start and complains about sound support, run it with the --nosound option.
+<li>If you get really frustrated, edit Game.h and set GOD_MODE to 1. Then pressing "g" will toggle god mode   ;-)
+</blockquote>
+</td>
+</tr>
+<tr>
+<td valign=top>
+<h3>Thanks go to:</h3>
+<blockquote>
+<ul>
+<li>SourceForge and SDL!! (links below).
+<li>Alex Clark for the music
+<li>Michal Tomaszkiewicz for compiling on Be
+<li>Countless people for testing (Christie, Abe, etc.)
+</ul>
+</blockquote>
+<p>
+</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan=2 valign=top>
+
+<A href="http://sourceforge.net/projects/abe"> <IMG src="http://sourceforge.net/sflogo.php?group_id=70141&amp;type=5" width="210" height="62" border="0" alt="SourceForge.net Logo"></A>
+
+<a href="http://libsdl.org"><img src="http://www.libsdl.org/images/SDL_now.gif" border=0></a>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</body>
+</html>
+```
