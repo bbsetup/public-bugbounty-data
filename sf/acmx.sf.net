@@ -1,0 +1,44 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title> Acmx library open source page </title>
+<meta name="Description" content="Acmx description">
+<meta name="Keywords" content="Acmx Autocad dotNet plugin">
+</head>
+<body>
+<font face="Arial" size="10" color="red"><P ALIGN="CENTER">Acmx</P></font>
+<font face="Arial" size="5" color="red"><P ALIGN="CENTER">Autocad managed extentions library</P></font>
+<font face="Arial" size="3" color="red"><i><P ALIGN="CENTER">Open source page</P></i></font>
+<br>
+<font face="Courier" size="3" color="blue"><b><P ALIGN="CENTER">Acmx library description</P></b></font>
+<font face="Courier" size="4" color="black"><P>Acmx library is designed to help AutoCad .net plugins development with a set of .net classes incapsulating commonly used operations.
+<p>Acmx library can be used with AutoCad managed wrappers and COM APIs.</p>
+<p>Features exposed now:</P>
+<ul>
+	<li>A set of adapters for AutoCad application tree .net and COM models: application, documents, objects, layers, layouts.</li>
+	<li>Arbitrary properties serialization using Microsoft [Serializable] attribute for documents, objects, layers, layouts. Including document object crossreferences.</li>	
+	<li>Document command and context menu adapters.</li>
+	<li>AutoCad tray progress bar adapter.</li>
+</ul>
+<p>System requirements:</P>
+<ul>
+	<li>Autocad 2006 or 2007</li>
+	<li>Microsoft .Net framework v2.0.</li>	
+</ul>
+<font face="Courier" size="3" color="blue"><b><P ALIGN="CENTER">Acmx library project:</P></b></font>
+<P>Here are the Source Forge <a href="https://sourceforge.net/projects/acmx/">mailings, downloads and SVN</a> for the Acmx library.</P>
+<font face="Courier" size="3" color="blue"><b><P ALIGN="CENTER">Acmx library assemblies documentation:</P></b></font>
+<P>The classes exposed by Acmx library are documented in .XML's which are in the library archive.</P>
+<P>Here is online version of the documentation generated with doxygen (for the version 3.0 there are some API enhancements, not reflected there):</P>
+<ul>
+	<li><a href="/CommonHtml/index.html">Common classes assembly</a></li>
+	<li><a href="/AcadConnectivityHtml/index.html">AutoCad connectivity assembly</a></li>
+</ul>
+<br>
+<P>Any comments and questions are appreciated. Anton Sokolov, e-mail: acmx@ngs.ru , <a href="http://anthon.sokolov.googlepages.com">web-page</a>
+</P>
+</font>
+<a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=166304&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo" /></a>
+</body> 
+</html>
+```
