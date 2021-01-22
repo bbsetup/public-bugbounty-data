@@ -1,0 +1,71 @@
+```<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="Description" content="LV2 abGate - Noise gate plugin" />
+	<meta name="Keywords" content="lv2, abgate, noise, gate, plugin, linux, gtkmm, gimp, c++, ardour, jack, qt5" />
+	<meta name="Author" content="hippie.lt" />
+	<title>abGate - LV2 Noise Gate Plugin</title>
+	<style type="text/css" media="screen">
+			@import "css/stilius.css";
+	</style>
+	<link rel="shortcut icon" type="image/png" href="css/ikonyte.png" />
+	<link rel="icon" type="image/png" href="css/ikonyte.png" />
+</head>
+
+<body>
+
+<div id="talpykla">
+	<h1>abGate: LV2 Noise Gate</h1>
+	<img alt="screenshot" src="screenshot.png" />
+
+	<div style="text-align: justify;">
+		<p>LV2 abGate plugin is released under the terms of the GNU Lesser General Public License v3. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. So use it at your own risk.
+		<h2 style="background-color: inherit; color: #b31a1a;">News:</h2>
+		<ul>
+			<li>Source is now hosted on <a href="https://github.com/antanasbruzas/abGate">github</a>.</li>
+		</ul>
+
+		<h2>Download</h2>
+		<p>You can download the latest release from here:</p>
+		<p><a href="https://github.com/antanasbruzas/abGate/archive/v1.1.9.tar.gz">abGate-1.1.9.tar.gz</a> (updated: 2017-11-01 13:00 UTC+02)</p>
+		<p class="checksum">SHA512 sum:</p>
+		<code>669dc1f54fa64526595cd30051ecc0b16f89e7a4eeb2dcf9008c0ea40f1f433598406d735c186bfe17bfaf4ec737a1ab66f62b0d1b4d783574a1830bb893431d  abGate-1.1.9.tar.gz</code>
+
+		<h2>Installation:</h2>
+		<p>abGate plugin will be installed into /usr/lib/lv2 by default. If you want to change the installation path, edit Makefile and plugin_configuration.h files</p>
+		<p>Before installing the plugin from source check if you have all of the required libraries:</p>
+		<ul>
+			<li>g++ compiler</li>
+			<li>pkg-config</li>
+			<li>gtkmm >= 2.4</li>
+			<li>lv2core</li>
+			<li>qmake</li>
+		</ul>
+		<p>To install the plugin, go to abGate folder in the terminal and type:</p>
+		<p style="font-style: italic; margin-left: 20px;">make</p>
+		<p>If 'make' finished successfully, type the following as root:</p>
+		<p style="font-style: italic; margin: 0px 0px 30px 20px;">make install</p>
+
+		<span style="float:left; margin: 4px 2px 0px 0px;">If you found this plugin useful and would like to see new features and improvements, please consider making a donation:</span>
+		<div id="supportTheProject" style="text-align: center;">
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+			<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+		</div>
+
+		<p>Author: Antanas Bružas <img src="css/elpastas.png" alt="contact" /></p>
+
+</div>
+
+<div id="poraste_desine">
+    <h6>&copy Copyright 2011-2017 Antanas Bružas</h6>
+</div>
+
+</body>
+</html>
+```
