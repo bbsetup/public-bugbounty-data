@@ -1,0 +1,184 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>AdaOpenGL - An Ada binding to OpenGL</title>
+<link rel=StyleSheet href="./css/Black.css" type="text/css" media="all">
+</head>
+	<div id="menu">
+		<a href="index.php"><img src="images/icons/noia/news.png" alt="News" title="News" style="border: none"></a>
+		<a href="screenshots.php"><img src="images/icons/noia/screenshots.png" alt="Screenshots" title="Screenshots" style="border: none"></a>
+		<a href="downloads.php"><img src="images/icons/noia/downloads.png" alt="Downloads" title="Downloads" style="border: none"></a>
+		<a href="docs.php"><img src="images/icons/noia/documentation.png" alt="Documentation" title="Documentation" style="border: none"></a>
+		<a href="links.php"><img src="images/icons/noia/links.png" alt="Links" title="Links" style="border: none"></a>
+		<a href="http://sourceforge.net/projects/adaopengl/"><img src="images/icons/noia/project page.png" alt="Project page" title="Project page" style="border: none"></a>
+		<br>
+		<a href="http://www.opengl.org/"><img src="images/ogla_sm.gif" width="88" style="border: none" alt="OpenGL Logo"></a>
+		<a href="http://sourceforge.net/"><img src="http://sourceforge.net/sflogo.php?group_id=70196&amp;type=1" width="88" height="31" style="border: none" alt="SourceForge.net Logo"></a>
+		<a href="http://validator.w3.org/check/referer"><img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" height="31" width="88" style="border: none"></a>	</div>
+	<div id="content">
+		<h1>About</h1>
+		<p>
+			This Ada-binding to OpenGL aims at providing the latest OpenGL
+			features in a collection of Ada packages. It also supports the
+			major OpenGL support libraries such as GLU, GLUT and GLFW.<br>
+		</p>
+		<h1>News</h1>
+
+		<dl>
+			<dt> 2003-08-12 </dt>
+				<dd> It was about time to release 0.12. I have been putting it off
+					for a while now hoping that someone would test the WGL binding, but so
+					far that has not happened.<br>
+					0.12 includes bindings to GLFW and WGL and the GNAE support has been
+					fixed as it was broken in 0.10. Also, 0.12 no longer requires a
+					patched AdaBindX to work.
+					It's on the <a href="downloads.php">downloads</a>
+					page.
+
+			<dt> 2003-06-27 </dt>
+				<dd> I accidentally forgot to add the AdaBindX patch to the 0.10
+					release so if you want to use it with X11 support you have
+					to fetch the patch from AdaOpenGL 0.9.<br>
+					I'm working on the next release which I expect to be out
+					shortly. It will no longer require a patched AdaBindX, it will
+					include support for WGL and
+					<a href="http://glfw.sourceforge.net/">GLFW</a> and I have
+					updated the opengl, glX and glext bindings to the latest
+					versions available. There are also some more style corrections,
+					mainly in glext and glX which should now compile without warnings
+					with '-gnaty'.<br>
+					The WGL and GLFW bindings are already in CVS if you want to try them
+					out. The WGL binding is currently being verified by one of my users
+					and I will probably whip up some minor GLFW demo some day soon to
+					test that binding. After both are verified I will release a new
+					version.<br>
+					At this point there are only two things left on my todo list for
+					1.0, and they are an AGL-binding and make sure everything compiles
+					with '-gnaty' (I don't think all of the examples do at the moment).
+					I should also design some better documentation, although this is a
+					boring task.
+
+			<dt> 2003-06-18 </dt>
+				<dd> AdaOpenGL 0.10 is out, grab it from the
+					<a href="downloads.php">downloads</a> page.<br>
+					This is a minor update which mainly constitutes of a
+					gazillion style fixes, an install target in the Makefile
+					and compilation of a dynamic library.<br>
+					I have run this version on MacOS X and it is working
+					just fine, what is missing though is a binding to AGL and
+					I still haven't gotten round to fixing a WGL binding.<br>
+					At the moment I am working on a project where I will be
+					using this binding a lot so hopefully I will be forced to
+					create those two last bindings in the near future =).
+					I consider AGL, WGL and final style fixes the three tasks
+					left before I go 1.0 so we are getting close already.
+
+			<dt> 2003-03-24 </dt>
+				<dd> Long time, no update. I've been very busy at school, but
+					I haven't forgotten about this project yet.<br>
+					As my school project is coming up, and it uses Ada and
+					OpenGL I'm hoping to clean some stuff up here real soon.
+					<br>
+					In the meantime you can admire the new screenshot of
+					AdaGLUT running on MacOS X 10.2.4 in Apple's X11. I'm
+					hoping to be able to write a carbonized example in the
+					near future for all you OSX-lovers out there.
+
+			<dt> 2003-01-11 </dt>
+				<dd> Finally I have released AdaOpenGL 0.9 which I would like
+					to consider the first stable release.<br>
+					I have not had time to extensively test it but the tests
+					I have performed tells me it's working satisfactory.<br>
+					You can get it from the
+					<a href="downloads.php">downloads</a> page.<br>
+					These versions are supported:<br>
+					OpenGL: 1.4<br>
+					GLU: 1.3<br>
+					glut: 3.7<br>
+					glX: 1.4<br>
+					<br>
+					<b>New features:</b>
+					<ul>
+						<li>glut support</li>
+						<li>Replaced all uses of "access GL*" in
+							function/procedure declarations with GL*Ptr
+							types</li>
+						<li>Added glut example</li>
+						<li>Added SDL example</li>
+					</ul>
+				<br>
+					<b>Bugfixes:</b>
+					<ul>
+						<li>You can now pass Ada null's to gl* functions (that
+							support it)</li>
+						<li>Removed unnecessary overloaded functions that used
+							System.Address since you can use 'Unchecked_Access
+							to pass an aliased variable as a pointer</li>
+						<li>Stronger typing</li>
+						<li>glX fixed, requires a patched AdaBindX 0.7.2, or a
+							newer version (not available at the moment)</li>
+						<li>glX example now working</li>
+						<li>Alot of sourcecode cleanups</li>
+					</ul>
+
+			<dt> 2003-01-08 </dt>
+				<dd> Guillaume Foliard found the glX problem and sent in a
+					a patch that adds two missing features to AdaBindX which
+					are needed to use glX. The patch has been sent to the
+					AdaBindX developers and we hope that it will be included
+					in the next release.<br>
+					In the meantime the patch can be downloaded here:
+					<a href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=664228&amp;group_id=70196&amp;atid=526925">AdaBindX 0.7.2 Patch</a><br>
+					Since this was the final major bug with the current CVS
+					version of AdaOpenGL I hope that I will be able to release
+					the next version within the next day or two. There are
+					some minor bugs left in the examples that I want to fix
+					first and I have to study for my exams (therefore the
+					delay).
+
+			<dt> 2003-01-04 </dt>
+				<dd> OpenGL.GLUT is up and running. OpenGL and OpenGL.GLU seems
+					to behaving as they should, so the next release is closing
+					in fast. The only thing that is not working as I want it
+					to is OpenGL.GLX. Passing a NULL to glXCreateContext as
+					the sharedList parameter causes an exception to be
+					raised even though this is how you use it in C, I must've
+					misunderstood some vital Ada part relating to interfacing
+					C libs. I have added a screenshot of GLUT running one of
+					the NeHe tutorials in fullscreen.<br>
+					I'm working on the thick binding and it is progressing
+					nicely. There will probably be a prototype available real
+					soon.<br>
+					As I have three exams starting next saturday and after
+					that I'm back to school I'm in a hurry to finish as much
+					as possible this week since I don't know how much time I
+					will have available in two weeks.
+
+			<dt> 2002-12-31 </dt>
+				<dd> I have added a documentation section. Most of the docs are
+					generated by AdaDoc so they might not be very informative.
+					Hopefully I will get some more comments into those files
+					which will make the docs more human readable.<br>
+					I've also restructured some of the function calls in CVS
+					thanks to some hints from Joachim Schröer. I've begun
+					working on GLUT, but it's not ready for use just yet.
+
+			<dt> 2002-12-28 </dt>
+				<dd> I have uploaded <a href="http://prdownloads.sourceforge.net/adaopengl/adaopengl-0.1.tar.gz?download">adaopengl-0.1.tar.gz</a>.<br>
+					This release is meant to be used for evaluation and
+					feedback. It is likely the API will change somewhat in the
+					near future to provide a thicker binding. The standard
+					OpenGL API will always be there though.<br><br>
+
+					This is the first post.<br>
+					There is not much here yet except that css and iconset
+					that I stole ;).<br>
+					There is a somewhat useful version of AdaOpenGL in cvs. If
+					you have anything constructive to say about it please mail
+					me or use the mailinglist provided by sourceforge.
+		</dl>
+	
+		<br><hr>
+	</div>
+</html>
+```
