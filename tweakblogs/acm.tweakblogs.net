@@ -1,0 +1,301 @@
+```<!doctype html><!-- © 1998 - 2021 DPG Online Services B.V. -->
+<html lang="NL"><head>
+        
+                            <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                                                <meta name="referrer" content="origin-when-cross-origin">
+                            
+                    <title>ACM&#039;s blog - Tweakers</title>
+        <link rel="navigator" title="Spring voorbij navigatie" href="https://acm.tweakblogs.net/#contentArea">
+
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-Regular.woff2" as="font" type="font/woff2" crossorigin>
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+
+                                            <link rel="shortcut icon" href="https://tweakers.net/favicon.ico" type="image/x-icon">
+                            <link rel="alternate" title="ACM&#039;s blog - Reacties" type="application/rss+xml" href="https://acm.tweakblogs.net/feed/comments">
+                            <link rel="alternate" title="ACM&#039;s blog" type="application/rss+xml" href="https://acm.tweakblogs.net/feed/">
+            
+        <script>
+                var relaxedDomain  = 'tweakers.net',
+                    tweakersConfig = {"BaseURL":"https:\/\/acm.tweakblogs.net\/","TnetBaseURL":"https:\/\/tweakers.net\/","ForumBaseURL":"https:\/\/gathering.tweakers.net\/","ImgURL":"https:\/\/tweakers.net\/","sidName":"__Secure-TnetID","UserID":0,"requestId":"Twk-eun-web2_200.1.0_34870_600b45e4e6bd42.52184187","abStatsPath":"\/ajax\/4pTvUVM9i62upnPMUgur46qE8W\/","loginJs":"https:\/\/tweakers.net\/x\/scripts\/min\/login.js?1605690650","loginCss":"https:\/\/tweakers.net\/x\/styles\/profiles\/login.css?1583238942","clickToLoad":false};
+
+                try
+                {
+                    document.domain = relaxedDomain;
+                }
+                catch (e)
+                {
+                    relaxedDomain = '';
+                }
+                document.documentElement.className = 'js';
+            </script>
+        <link rel="stylesheet" href="https://tweakers.net/x/styles/tweakblogs/weblogs.css?1608112821" type="text/css">
+                                        <script src="https://tweakers.net/x/build/runtime.36cbb21e.js"></script><script src="https://tweakers.net/x/build/0.3c968efc.js"></script><script src="https://tweakers.net/x/build/1.fe0b8bdd.js"></script><script src="https://tweakers.net/x/build/frontpage.e631087f.js"></script>
+
+                    <script src="https://tweakers.net/x/scripts/min/general.js?1605696722"></script>
+            <script src="https://tweakers.net/x/scripts/min/weblogs.js?1604565751"></script>
+            <script src="https://tweakers.net/x/scripts/min/rml_toolbar.js?1605522743"></script>
+                    <script>
+            var _wtq=[['_init',{"randomId":"934304650406340","trackId":"318816705845986","trackDomain":"tweakers.net","domain":"tweakers.net;gathering.tweakers.net","cookie":"1","mediaCode":"wt_mc","contentId":"","contentGroup":{"1":"tweakers.net","2":"Tweakblogs"},"executePluginFunction":"wt_urlCampaignMapper;wt_stats_plugin","requestObfuscation":true,"customParameter":{"1":"LG"}}],['_trackPage']];
+			loadJS('https://tweakers.net/x/scripts/min/UYKViB.js',AbStats.wtCallBack);
+
+        </script>
+    
+    </head>
+    <body>
+
+    <div id="container">    <div id="tweakblogsNav">
+        <div class="logo"><a href="https://tweakblogs.net/"><img src="https://tweakers.net/g/if/weblogs/tweakblogs.png" width=131 height=20 alt="Tweakblogs"></a></div>
+        <ul>
+            <li><a href="https://tweakblogs.net/">Tweakblogs Home</a></li>
+            <li><a href="https://tweakers.net/">Tweakers</a></li>
+                            <li>
+                    <a href="https://tweakers.net/nieuws/">Nieuws</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/reviews/">Reviews</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/pricewatch/">Pricewatch</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/aanbod/">Vraag &amp; Aanbod</a>
+                </li>
+                            <li>
+                    <a href="https://gathering.tweakers.net/">Forum</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/carriere/">Carri&egrave;re</a>
+                </li>
+                            <li>
+                    <a href="#">Meer</a>
+                </li>
+                    </ul>
+    </div>
+    <div id="banner">
+    
+        
+    <h1><a href="https://acm.tweakblogs.net">ACM&#039;s blog</a></h1>
+            <span class="subtitle">Tweakers.net&#039;s technische kant en meer</span>
+    </div>
+            <p class="breadCrumb">
+                <a href="https://acm.tweakblogs.net/feed/" title="ACM&#039;s blog" rel="nofollow">
+            <img src="https://tweakers.net/g/if/v2/icons/rss_small.png" width=12 height=12 alt="[RSS]">
+        </a>
+                                <a href="https://acm.tweakblogs.net">            Home            </a>
+            </p>
+<div id="pagebody">
+                <div class="columnwrapper normal">    <div class="content">
+			<div class="blogpost">
+				<h2><a href="https://acm.tweakblogs.net/blog/12361/alternatieven-voor-javas-threadlocal-om-objecten-te-hergebruiken">Alternatieven voor Java&#039;s ThreadLocal om objecten te hergebruiken</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/1830/" rel="nofollow">ACM</a> op dinsdag 17 november 2015 19:25 - <a href="https://acm.tweakblogs.net/blog/12361/alternatieven-voor-javas-threadlocal-om-objecten-te-hergebruiken#reacties">Reacties (10)</a><br>Categorie: <a href="https://acm.tweakblogs.net/blog/cat/1698">Development</a>, Views: 4.855
+				</p>
+				<div class="article">Soms zijn objecten relatief 'duur' om te maken, in vergelijking tot hun runtime-performance. Bekende voorbeelden in Java zijn <span class="mono">NumberFormat</span> en <span class="mono">DateFormat</span>. Ze zijn zo duur om te maken omdat ze onder andere eerst de 'huidige' Locale opzoeken en zich vervolgens zo configurere dat ze correcte formats opleveren voor die taal. Als dat eenmaal gebeurd is, is de aanroep van <span class="mono">format()</span> vrij snel gebeurd.<br>
+In Tweakers gebruiken we de <span class="mono">NumberFormat</span> erg veel in onze <a href="https://tweakers.net/reviews/2779/tweakers-7-waarom-een-eigen-java-back-end.html" rel="external">&quot;Java-engine&quot;</a>.<h5 class="rml" id="part_1">Objecten hergebruiken</h5>Bij dat soort objcten zou je liever niet voor <i>elke</i> aanroep van <span class="mono">format()</span> eerst een nieuw object maken. Idealiter zou je één keer een NumberFormat-object maken en die steeds hergebruiken. Dat is vooral effectief als je veel cijfers in mooie leesbare formatting wilt genereren.<br>
+In Java is het dan ook een heel gebruikelijke performancetip om <span class="mono">NumberFormat</span> en dergelijke te hergebruiken. Als je maar één thread gebruikt is dat ook een heel makkelijk advies om op te volgen; je kan dan domweg je formatter in een class-property bewaren of eventueel zelfs een <span class="mono">static</span> object ervoor aanmaken. <br>
+<br>
+En dat bewaren van een object helpt ook echt, in een eenvoudige <a href="http://openjdk.java.net/projects/code-tools/jmh/" rel="external nofollow">JMH-benchmark</a> bleek dat steeds een nieuw <span class="mono">NumberFormat</span>-object aanmaken en daarna één cijfer formatten op zo'n 1,8 miljoen formats per seconde uitkwam. Dat klinkt heel veel, maar als je dat vergelijkt met een hergebruikt object dan valt het toch tegen. Met één object aanmaken in totaal en steeds daarmee formatten kwam de test namelijk uit op ruim 39 miljoen formats per seconde uit, ruim twintig keer zoveel.<br>
+<br>
+Overigens is het hergebruiken van objecten lang niet altijd de moeite waard. De JVM kent aardig wat optimalisaties om kleine, kortlevende objecten zeer snel aan te maken en weer te verwijderen. Doe het dus alleen als je denkt dat het echt wat toevoegt.<h5 class="rml" id="part_2">Hergebruik bij meerdere threads</h5>Gebruik je echter meerdere threads, dan wordt het een stuk lastiger. Als de interne <i>state</i> van een object verandert, dan is het object in principe niet <i>thread safe</i>. Als je ze dan toch in meerdere threads tegelijk gebruikt, dan levert dat onvoorspelbaar gedrag op. Dit geldt onder andere voor <span class="mono">NumberFormat</span> en <span class="mono">DateFormat</span>, maar er zijn natuurlijk veel meer objecten waar dat relevant voor is. Het idee van een object-property of een <span class="mono">static</span> object werkt hier daarom niet zomaar, dan kan je niet garanderen dat dat object slechts door één thread (tegelijk) gebruikt wordt.<br>
+<br>
+Om objecten toch <i>thread safe</i> te kunnen hergebruiken is er in Java een standaardtechniek ontwikkeld. Dat is de <a href="http://docs.oracle.com/javase/8/docs/api/index.html?java/lang/ThreadLocal.html" rel="external nofollow">ThreadLocal</a>. Die zorgt ervoor dat er voor iedere thread een uniek object wordt gemaakt en dat dat object vervolgens <i>binnen</i> die thread steeds hergebruikt wordt. Dit heeft wat overhead ten opzichte van direct hergebruiken, maar in de praktijk is het bijna even snel. Het kwam in diezelfde benchmark uit op bijna 33 miljoen formats per seconde met één thread en met vier en acht threads (op een vier-core machine zonder hyperthreading) op ruim 130 miljoen formats per seconde.<h5 class="rml" id="part_3">Nadeel van ThreadLocal in webapplicaties</h5>Helaas heeft het gebruik van <span class="mono">ThreadLocal</span> voor webapplicaties een groot nadeel: het is een gebruikelijke bron van geheugenlekken. Dat is iets dat vrij specifiek voor webapplicaties geldt en niet voor reguliere applicaties, je hoeft je dus niet direct zorgen te gaan maken.<br>
+De reden dat het die geheugenlekken veroorzaakt hangt samen met de manier waarop de meeste application servers, waaronder Tomcat, applicaties en classes inladen. Dat doen ze met een losse <a href="http://docs.oracle.com/javase/8/docs/api/index.html?java/lang/ClassLoader.html" rel="external nofollow">ClassLoader</a>.<br>
+Het gaat wat te ver om dat hier helemaal uit te leggen, maar het komt er op neer dat <span class="mono">Threads</span> gedeeld worden door meerdere webapplicaties en dat de webapplicaties een eigen <span class="mono">ClassLoader</span> (en dus geheugen) voor de eigen klassedefinities hebben. Als je vervolgens een <span class="mono">ThreadLocal</span> gebruikt, wordt de klassedefinitie van de objecten daarin vastgehouden binnen die algemene <span class="mono">Thread</span>. En doordat die klasse-definitie wordt vastgehouden wordt effectief dat hele stuk geheugen (inclusief alle klassedefinities voor de webapplicatie) vastgehouden. En dat blijft dan dus ook in de <i>heap</i> aanwezig nadat je de applicatie hebt <i>undeployed</i>.<br>
+<br>
+Dat geheugenlek met <span class="mono">ThreadLocals</span> is op zich goed te voorkomen, maar in het kort komt het advies daarbij er op neer op het direct weer verwijderen van het object nadat de <i>request</i> is afgelopen. Op die manier bespaar je dan uiteindelijk wel wát keren dat je dure objecten opnieuw worden aangemaakt, maar niet zoveel als idealiter mogelijk is. Belangrijker nog is dat het vereist dat de code die het einde van je request afhandelt ook nog even rekening houdt met allerlei zaken die elders (misschien wel in je template-engine) spelen.<h5 class="rml" id="part_4">Alternatieven voor ThreadLocal</h5>In onze webapplicaties vond ik het niet erg mooi om allerlei 'kennis' van de interne processen nog in de afhandeling van het einde van requests te verwerken. Bovendien voelt het ook vreemd om de code zo aan te passen dat zo'n langlevend object uiteindelijk toch maar voor enkele tientallen of een paar honderd format's gebruikt wordt.<h6 class="rml" id="part_5">Object pool</h6>Een veelgebruikte techniek om 'dure' objecten te bewaren en te kunnen hergebruiken is een <a href="https://en.wikipedia.org/wiki/Object_pool_pattern" rel="external nofollow">Object pool</a>. Daarbij maak je enkele instanties van je klasse aan en bewaar je die op een centrale plaats. Vervolgens kan er elke keer als er zo'n object nodig is eentje gereserveerd worden en kan het aan het einde van de werkzaamheden weer teruggegeven worden.<br>
+Deze aanpak is onder andere erg gebruikelijk voor verbindingen met databases en andere databronnen. Daar heet het dan vaak een Connection Pool. Doordat het geen relatie met de <span class="mono">Threads</span> heeft is er verder geen sprake van dat type geheugenlek.<br>
+<br>
+Er zijn vele Object pools te vinden. Ik heb een aantal ervan in JMH-benchmarks omgezet. Dat ging om eenvoudige zelfgeschreven varianten met queues of om generieke Object-poolimplementaties. De queues waren allemaal gebaseerd op de standaardimplementaties van Java, zoals de <a href="http://docs.oracle.com/javase/8/docs/api/index.html?java/util/concurrent/ConcurrentLinkedQueue.html" rel="external nofollow">ConcurrentLinkedQueue</a>, de <a href="http://docs.oracle.com/javase/8/docs/api/index.html?java/util/ArrayDeque.html" rel="external nofollow">ArrayDeque</a> in combinatie met synchronization of locks en de <a href="http://docs.oracle.com/javase/8/docs/api/index.html?java/util/concurrent/ArrayBlockingQueue.html" rel="external nofollow">ArrayBlockingQueue</a>. De pools bestonden uit een voorbeeld op de <a href="http://docs.oracle.com/javase/8/docs/api/index.html?java/util/concurrent/Semaphore.html" rel="external nofollow">Semaphore</a>, de <a href="http://commons.apache.org/proper/commons-pool/" rel="external nofollow">Apache commons Pool</a>, de <a href="https://github.com/DanielYWoo/fast-object-pool" rel="external nofollow">Fast object pool</a> en een idee voor een <a href="http://daviddengcn.blogspot.nl/2015/02/a-lock-free-java-object-pool.html" rel="external nofollow">Lock free pool</a>.<br>
+<br>
+&lt;iframe src=&quot;//charts.tweakzones.net/kpFFR/1/index.html&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;allowfullscreen&quot; webkitallowfullscreen=&quot;webkitallowfullscreen&quot; mozallowfullscreen=&quot;mozallowfullscreen&quot; oallowfullscreen=&quot;oallowfullscreen&quot; msallowfullscreen=&quot;msallowfullscreen&quot; width=&quot;600&quot; height=&quot;400&quot;&gt;&lt;/iframe&gt;<br>
+<br>
+Op de Fast object pool na hadden alle implementaties als nadeel dat ze significant trager werden naarmate er twee of meer threads actief werden. En in vergelijking met de <span class="mono">ThreadLocal</span> was het sowieso dramatisch, de snelste implementatie bij één thread kwam nog op een redelijke 21 miljoen formats per seconde; maar bij vier threads was de snelste slechts 17 miljoen. Dat is vooral slecht vergeleken met de 130 miljoen die bij <span class="mono">ThreadLocal</span> mogelijk was. Het was zelfs vrij slecht in vergelijking met domweg steeds een nieuw <span class="mono">NumberFormat</span>-object aanmaken, die zat met vier threads op 6,4 miljoen formats per seconde.<br>
+Blijkbaar is het principe van Object pool toch niet zo geschikt voor dit soort objecten, waarbij het 'echte werk' (de format-aanroep) slechts heel kort duurt.<h6 class="rml" id="part_6">Objecten per Thread bewaren</h6>Aangezien de Object pools nogal tegen vielen, ben ik een ander idee gaan uitwerken. Er lijkt niet echt een naam voor te bestaan, maar uiteindelijk heb ik een soortgelijke constructie als de <span class="mono">ThreadLocal</span> gemaakt. Het belangrijkste verschil is dat de objecten nu niet meer 'in' de <span class="mono">Thread</span> worden opgeslagen. Dat heeft als groot voordeel dat als de webapplicatie stopt, dat dan ook alle objecten vrij gemaakt kunnen worden en de geheugenlek niet meer voorkomt.<br>
+<br>
+De objecten worden domweg in een <span class="mono">Map&lt;Long, T&gt;</span> opgeslagen, waarbij T het te bewaren object is en de Long de identifier van een Thread representeert. Uiteindelijk heb ik daar diverse implementaties voor gemaakt. Dat ging om <a href="http://docs.oracle.com/javase/8/docs/api/index.html?java/util/concurrent/ConcurrentHashMap.html" rel="external nofollow">ConcurrentHashMap</a>, <a href="http://docs.oracle.com/javase/8/docs/api/index.html?java/util/concurrent/ConcurrentSkipListMap.html" rel="external nofollow">ConcurrentSkipListMap</a>, <a href="https://bitbucket.org/trove4j/trove" rel="external nofollow">Trove4J's TSynchronizedLongObjectMap</a>, <a href="http://google.github.io/guava/releases/18.0/api/docs/index.html?com/google/common/cache/Cache.html" rel="external nofollow">Google's Guava Cache</a>, <a href="https://github.com/ben-manes/concurrentlinkedhashmap" rel="external nofollow">ConcurrentLinkedHashMap</a>, <a href="https://github.com/ben-manes/caffeine" rel="external nofollow">Caffeine's Cache</a>.<br>
+<br>
+In de praktijk bleek met name de standaard ConcurrentHashMap van Java erg goed te presteren. In onderstaande grafiek is ter referentie ook weer het aanmaken van losse objecten per format meegenomen.<br>
+<br>
+&lt;iframe src=&quot;//charts.tweakzones.net/JyuPo/1/index.html&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;allowfullscreen&quot; webkitallowfullscreen=&quot;webkitallowfullscreen&quot; mozallowfullscreen=&quot;mozallowfullscreen&quot; oallowfullscreen=&quot;oallowfullscreen&quot; msallowfullscreen=&quot;msallowfullscreen&quot; width=&quot;600&quot; height=&quot;400&quot;&gt;&lt;/iframe&gt;<h6 class="rml" id="part_7">Zelf uitproberen?</h6>Als je zelf wilt kijken hoe een en ander presteert, dan kan je op <a href="https://github.com/tweakers-dev/objectpool-benchmarks" rel="external nofollow">onze github-repository</a> de code bekijken en clonen. Je kan uiteraard ook in je eigen clone benchmarks toevoegen als je een goed idee hebt, dat volgens jou (nog) beter presteert dan de ConcurrentHashMap of de ThreadPool.<br>
+Als je denkt dat (een deel van) de benchmarks verkeerd zijn geïmplementeerd, hoor ik dat natuurlijk ook graag.<h6 class="rml" id="part_8">Over de benchmarks</h6>De benchmarks zijn gedraaid met <a href="http://openjdk.java.net/projects/code-tools/jmh/" rel="external nofollow">Java's Microbenchmark Harness</a>. De cijfers zijn verzameld op een Intel Core i5-4690 met vier cpu-cores en een kloksnelheid van 3,5GHz (met pieken door Turbo Boost naar ruim 3,8GHz). Dit systeem draait op Windows 10.</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://acm.tweakblogs.net/blog/7711/er-zijn-genoeg-alternatieven-voor-banners%21-nou-welke-dan.html">&quot;Er zijn genoeg alternatieven voor banners!&quot; Nou, welke dan?</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/1830/" rel="nofollow">ACM</a> op zondag 25 maart 2012 23:15 - <a href="https://acm.tweakblogs.net/blog/7711/er-zijn-genoeg-alternatieven-voor-banners%21-nou-welke-dan.html#reacties">Reacties (40)</a><br>Categorie: <a href="https://acm.tweakblogs.net/blog/cat/746">Tweakers.net</a>, Views: 10.768
+				</p>
+				<div class="article">In de diverse discussies over advertenties, die elke zoveel tijd weer opnieuw beginnen, wordt regelmatig door bezoekers gesteld dat er alternatieven zijn voor die opzichtige flashbanners. Net weer in een mailwisseling met een gebruiker.<br>
+<br>
+Hoewel we in de praktijk al aardig op zoek zijn met ons &quot;Non-spot&quot; advertentieteam, blijft er in de regel toch teruggegrepen worden naar (flash)banners die in meer of mindere mate opzichtig zijn. Over het algemeen geldt tenslotte; hoe groter, hoe meer geld het ons oplevert (en hoe strengere regels we hanteren).<br>
+Voorbeelden van die non-spotuitingen zijn trouwens zaken als het mogen testen van de <a href="https://tweakers.net/plan/626/wil-jij-de-nieuwe-htc-one-x-testen.html" rel="external">HTC One X</a> en de wervingsactie van de <a href="https://tweakers.net/plan/616/klpd-start-wervingsactie-via-tweakers-punt-net.html" rel="external">KLPD</a>. &quot;Helaas&quot; worden bij dat soort campagnes alsnog gewone banners geplaatst om de speciale pagina's aan te jagen.<br>
+<br>
+Het is in deze blog niet mijn bedoeling om weer allerlei discussie over hoe erg flash- en html5-banners zijn op te rakelen. Dat er gebruikers zijn die zich er aan storen (en/of ze blokkeren) weten we uiteraard al lang <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+<br>
+Waar ik vooral benieuwd naar ben, is hoe men durft te stellen &quot;er zijn genoeg alternatieven&quot; zonder dan ook met bruikbare voorbeelden te komen. Ik heb zelfs wel eens iemand zien stellen - toen ik er over doorvroeg - dat ik dat zelf maar uit moest zoeken, want het was tenslotte niet zijn verantwoordelijkheid dat Tweakers.net geld verdient. Op zich had die bezoeker natuurlijk gelijk met die stelling, maar ga dan niet eerst stellen dat je betere manieren weet en dan niks toelichten...<h6 class="rml" id="part_1">Donaties</h6>Er zijn natuurlijk al allerlei manieren die we hebben gezien, een van de meest genoemde is het donatiesysteem. Wikipedia is dan een veelgebruikt voorbeeld, maar die vergelijkging gaat niet op. Vergeleken met Wikipedia hebben wij namelijk heel veel personeel voor de bezoekers die we bedienen. Zelfs als we de mensen die met marketing en sales bezig zijn niet meetellen zitten we al op ruim 30 man aan personeel dat direct voor Tweakers.net werkt. Daar komt dan uiteraard nog een rits mensen die indirect voor Tweakers.net werken bij (zoals P&amp;O, finance, de facilitaire dienst, etc) en de sales- en marketingmensen.<br>
+<br>
+Ik ga geen cijfers voor de inkomsten en uitgaven noemen. Maar als je voor het gemak aanneemt dat die 30 mensen een modaal inkomen krijgen en dan 1,5x zoveel kosten dan als ze aan loon krijgen, dan kan je zelf wel uitrekenen hoeveel donaties van 10cent of 1 euro we dan moeten krijgen. Probeer dan nog te schatten hoeveel van de circa 3 miljoen bezoekers die we bereiken ook daadwerkelijk jaarlijks zal gaan en blijven doneren... Als je ziet hoeveel moeite het Wikipedia kost, dan verwacht ik niet dat Tweakers.net een kans heeft om ook maar in de buurt van de loonkosten te komen <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+<br>
+Bovendien heeft het vziw ook nog allerlei lastige juridische haken en ogen. Ook varianten met micro-betalingen zien we niet zitten, voor zover er uberhaupt al van dat soort systemen van de grond zijn gekomen.<br>
+Een donatiesysteem levert in onze ogen dus een te onbetrouwbare - en met onze bezoekersaantallen waarschijnlijk ook te lage - inkomstenstroom op. Maar dat kunnen we natuurlijk verkeerd zien.<h6 class="rml" id="part_2">Abonnementen</h6>Er wordt ook wel gesteld dat we meer abonnementen zouden willen (of moeten) verkopen. In werkelijkheid bieden we die eigenlijk meer als een dienst aan, dan dat wij er echt signficant aan verdienen. Als we een met de banners vergelijkbare hoeveelheid inkomsten uit abonnees willen halen zullen we er niet een paar honderd, maar tienduizenden moeten zien te verkopen... Of we moeten er veel meer geld voor gaan vragen.<br>
+<br>
+Gezien de reacties van bezoekers in dergelijke discussies en naar onze eigen inschatting gaat ook dat niet werken. We verwachten niet dat er - buiten degenen die er nu al een hebben - nog veel andere bezoekers bereid zijn om te betalen voor deelname aan de community van en het bekijken van de content op Tweakers.net. We zijn uiteraard de huidige abonnees dankbaar voor hun steun, maar zien het niet gebeuren om wat voor abonnementsstructuur dan ook werkend te maken voor heel Tweakers.net.<br>
+Als je in de vorige alinea aan het rekenen was gegaan; onze abonnementen kosten nu 15 euro per jaar, je kan ook hier dus uitrekenen hoeveel we er moeten verkopen <img src="https://tweakers.net/g/s/puh2.gif" width="15" height="15" alt=":P"><br>
+<br>
+Zolang we de content of andere onmisbare site-delen niet achter een betaalmuur gooien, zullen gebruikers niet heel erg gemotiveerd zijn er een aan te schaffen. En als we dat wel doen gaan er ook veel gebruikers op zoek naar een alternatief dat gratis is gebleven.<h6 class="rml" id="part_3">Welke alternatieven zijn er dan?</h6>Ik weet het eigenlijk niet, maar moet daarbij zeggen dat het ook niet echt mijn verantwoordelijkheid is. Ik ben meer iemand die van de zijlijn toekijkt naar zowel wat de bezoekers zeggen als wat wij intern doen, maar ik ben niet heel actief betrokken bij de onderzoeken die marketing en sales uitvoeren.<br>
+Er zijn uiteraard allerlei interessante ideeen die voor bepaalde niches werken verzonnen, maar welke zouden er ook voor Tweakers.net werken? Er is vast van alles met gamification mogelijk, maar tegelijkertijd is iedereen ondertussen vast ook de vaak niet geheel optionele in-app uitbreidingen in de diverse mobiele en online games zat...<br>
+<br>
+Wie een goed idee (of een vraag) heeft mag het zeggen, we horen het namelijk graag <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+<br>
+En als jij een briljant idee hebt maar ons het niet gratis wil geven is daar ook vast over te praten. Tweakers.net is tenslotte geen non-profit organisatie (en zal dat ook niet worden), dus op een andere, betere manier inkomsten gaan genereren mag ook best een investering vereisen.<br>
+<br>
+<small>Dit blog is bedoeld als een opening voor discussie over alternatieven voor advertenties. Ik weet dat flashbanners soms ruk zijn, dus dat hoef je niet te benadrukken. Dat gezegd hebbende, ze leveren ons vooralsnog een aardige duit op, dus ze zullen niet zomaar afgeschaft worden. Tenzij er dus een echt werkbaar alternatief is.</small></div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://acm.tweakblogs.net/blog/7656/serverkeuzes-bij-tweakers-punt-net.html">Serverkeuzes bij Tweakers.net</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/1830/" rel="nofollow">ACM</a> op maandag  5 maart 2012 22:13 - <a href="https://acm.tweakblogs.net/blog/7656/serverkeuzes-bij-tweakers-punt-net.html#reacties">Reacties (22)</a><br>Categorie: <a href="https://acm.tweakblogs.net/blog/cat/746">Tweakers.net</a>, Views: 9.531
+				</p>
+				<div class="article">Elke keer als we nieuwe servers presenteren in een .plan of <a href="https://tweakers.net/reviews/2470/tweakers-punt-net-serverbeheer-phoenix.html" rel="external">ander artikel</a> wordt daar door gebruikers op uiteenlopende manieren op gereageerd. De meesten vinden het uiteraard coole hardware en laten dat weten, maar een enkeling neemt de moeite vragen te stellen of opmerkingen te plaatsen.<br>
+En dat waarderen we zeer, daarom heb ik de moeite genomen de keuzes en redenaties hieronder nog een keer samen te vatten. En wederom, voor vragen en opmerkingen staan we nog steeds open. We hebben zelfs wel eens onze keuzes aangepast naar aanleiding van opmerkingen van lezers <small>maar dat geven we uiteraard niet toe! <img src="https://tweakers.net/g/s/puh2.gif" width="12" height="12" alt=":P"></small><h5 class="rml" id="part_1">Waarom niet in de Cloud?</h5>Aangezien de Cloud en het gebruik van virtualisatie in is, wordt daar uiteraard naar gevraagd. Daar wordt o.a. bij gesuggereerd dat het goedkoper zou zijn, eenvoudiger te schalen is/meer capaciteit beschikbaar maakt, minderkost, betere uptimes biedt en nog wel meer positieve punten. Bij deze loop ik de belangrijkste drie punten even langs.<h6 class="rml" id="part_2">Uptime</h6>Zowel <a href="https://tweakers.net/nieuws/74025/grote-storing-amazon-clouddiensten-treft-websites.html" rel="external">Amazon</a> als <a href="http://www.theregister.co.uk/2012/02/29/windows_azure_outage/" rel="external nofollow">Microsoft</a> hebben bewezen dat ze wel degelijk down kunnen gaan.<br>
+Dus de uptime is niet per se beter dan die van onszelf, die zit namelijk sinds mei 2011 op bijna 99.9% met in totaal minder dan 9 uur downtime. Daarbij werd meer dan de helft van die &quot;downtime&quot; veroorzaakt door een nachtelijke storing waardoor pageviews vertraagd werden. Dat werd op zich wel terecht als &quot;down&quot; geregistreerd, maar de site werkte in werkelijkheid nog wel gewoon. Zo'n probleem had zich ook bij een Cloud dienst kunnen voordoen, aangezien het niks met de onderliggende hardware had te maken <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+Uitval door server- en netwerkhardware was dus nog zeldzamer.<h6 class="rml" id="part_3">Schaling</h6>Of een applicatie goed of slecht schaalt hangt vooral af van de applicatie en diens onderdelen zelf af. Niet alle delen van een website kunnen even eenvoudig geschaald worden. Denk daarbij onder andere aan relationele databases, zware processen en pagina's en bestandssystemen. En als die software dus niet geschikt is om op veel langzame in plaats van weinig snelle CPU's te werken, dan gaat je dat op zijn minst een hoop tijd (en dus geld) kosten om dat aan te passen. <br>
+En inderaad, de software van Tweakers.net is er niet voor ontwikkeld. Dat betekent niet dat het niet zou werken met een schaling in de breedte, maar wel dat er gegarandeerd een aantal pijnpunten in zullen zitten.<br>
+<br>
+Zeker met de ontwikkeling van de hardwareperformance van de afgelopen tien jaar was het voor Tweakers.net geen enkel probleem om domweg verticaal te blijven schalen. En met de introductie van SSD's in databaseservers hebben we ook het veranderen van de moeilijkst te schalen software weer een behoorlijke tijd kunnen uitstellen. Sterker nog, ik voorzie voor zeker de komende drie jaar weer geen reden om de SQL-server in de breedte te gaan schalen.<br>
+<br>
+Bovendien zorgt schalen in de breedte er niet voor dat iedere losse pageview of query snel is. Alleen maar dat je er veel tegelijk aan kan. En wij willen ook graag de indivuele pageviews snel hebben. Naast een stukje imago blijkt ook dat het beter is voor je <a href="http://www.impressivewebs.com/importance-of-website-performance-sources/" rel="external nofollow">pageviews en gebruikerstevredenheid</a>. Uiteraard wordt een groot deel van de performance bepaald aan de browserzijde, maar we willen ook de serverzijde niet zomaar vertragen.<h6 class="rml" id="part_4">Lagere kosten</h6>Momenteel wordt tweakers.net effectief beheerd door slechts 1 systeembeheerder. We denken niet dat we met minder dan dat toe kunnen <img src="https://tweakers.net/g/s/puh2.gif" width="15" height="15" alt=":P"> Afgezien daarvan zit je natuurlijk met aanschafkosten, elke keer dat we dat weer berekenen blijkt dat de totale huurkosten voor een VM hoger zijn dan een vergelijkbare dedicated server; een Amazon EC2 High Memory instance (als primaire MySQL-server) kost je circa 26000 dollar over drie jaar, daar kopen wij makkelijk 3 of 4 vergelijkbare servers voor... Daarbij hebben wij uiteraard wel de mazzel dat ons rack en stroomverbruik heel goedkoop is. Maar tenzij je dat soort machines niet continu nodig hebt, is het aanzienlijk duurder om ze in de Cloud te huren.<h5 class="rml" id="part_5">Waarom zulke dikke hardware?</h5>Ook wordt vaak gesuggereerd dat we overdreven dikke hardware kopen en met veel minder toe zouden moeten kunnen. <i>Dat klopt.</i> Althans, meestal... Doordat we geen gebruik maken van Cloud-diensten (en zelfs als we dat zouden doen) kunnen we niet zomaar in een paar seconde even wat meer capaciteit erbij inzetten. We moeten de hardware dus aanschaffen met voldoende capaciteit voor de komende drie jaar. Bovendien moeten ze de pieken aan kunnen, de dalen lukt met bijna elke server wel <img src="https://tweakers.net/g/s/wink.gif" width="15" height="15" alt=";)"><br>
+<br>
+Tijdens de weggeefactie van <a href="https://tweakers.net/plan/619/win-een-betakey-voor-diablo-iii.html" rel="external">Diablo 3 key's</a> in februari, ontstonden een paar hele hoge pieken. In onderstaand plaatje zie je dat er ineens 2x zoveel pageviews waren tijdens wat normaliter al de piek van de dag is. Op <i>dat</i> soort pieken kopen we onze hardware in, niet op de belasting van de nacht of zelfs dag ervoor of erna <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+<br>
+<noscript class="lazycontent"><img src="https://tweakers.net/ext/f/N54qWrY1YnxvmPADIKOiL6Pr/full.png" class="rml" width="490" height="170" alt="Tweakers.net pageviews op 21 februari" title="Tweakers.net pageviews op 21 februari"></noscript><br>
+<br>
+Op hetzelfde plaatje zie je trouwens tussen 14u en 15u een ander fenomeen waarom we zoveel overcapaciteit per server plannen. Doordat er wat werkzaamheden met onze netwerkswitches waren, lagen tijdelijk 3 van de 4 webservers eruit. En dat ging eigenlijk nog best goed, de piek van een uur later had ie niet aangekund, maar het normale verkeer had ie weinig moeite mee.<br>
+<br>
+Verder geldt uiteraard ook hier de opmerking over verticaal vs horizontaal, sommige software is nou eenmaal eenvoudiger verticaal te schalen dan horizontaal. En bovendien zie je het verticaal direct voor elke pageview terug. Uiteraard is er een grens waar de ROI van een nog dikkere cpu zeker niet meer terug komt en we zoeken die ook per configuratie gevoelsmatig weer op; we hebben geen tijd en mankracht voor uitgebreide benchmarks met diverse configuraties, dus we zullen eerder &quot;iets te zwaar&quot; dan &quot;iets te licht&quot; aanschaffen <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+Naast de dikke hardware is er uiteraard ook nog &quot;veel&quot; hardware. Dat doen we vooral om redundantie in te bouwen, we streven er naar om van alles minstens 2 stuks te hebben, zodat er een uit kan vallen kan zonder direct grote en vooral langdurige invloed op de site te hebben.</div>
+			</div>
+			<div class="blogpost" lang="en">
+				<h2><a href="https://acm.tweakblogs.net/blog/7354/alternative-search-engines-have-lousy-crawlers.html">Alternative search engines have lousy crawlers</a> <img src="https://tweakers.net/g/v/en.png" width=16 height=11 alt="en" title="Deze post is in het Engels"></h2>
+				<p class="author">
+					By <a href="https://tweakers.net/gallery/1830/" rel="nofollow">ACM</a> on Thursday  1 December 2011 00:08 - <a href="https://acm.tweakblogs.net/blog/7354/alternative-search-engines-have-lousy-crawlers.html#reacties">Comments (7)</a><br>Category: <a href="https://acm.tweakblogs.net/blog/cat/746">Tweakers.net</a>, Views: 11.466
+				</p>
+				<div class="article">There are a few alternative search engines arriving every year. All claim some distinctive features, most try to be some alternative to the big players either as a whole or for a specific niche. <a href="https://tweakers.net/nieuws/78417/gedecentraliseerde-opensource-zoekmachine-yacy-gaat-live.html" rel="external">Yacy</a> is one of the latest that saw a public announcement, although it was around for much longer.<br>
+<br>
+As a publisher, we see one very common denominator; they're generally lousy crawlers. Especially compared to Googlebot and Bingbot. Tweakers.net offers over a million &quot;articles&quot; (forum topics, news articles, reviews, etc). Many of those pages have links to tweak some aspects of the current view (sorting, paging, filtering). On top of that, we offer links to specific finer grained information, like a direct link to a comment on a article or topic.<br>
+<br>
+So while we offer over a million articles, we've in the order of a hundred million <i>unique</i> links on our site. We don't need, nor want, all those urls treated as important and/or distinct pages on our site. I.e. we don't want, nor need, to have those url's followed, they're there for our visitors but not very usefull for search engines. We generally don't even see those urls as a different page and the particular content will have been indexed via some other (more important) link anyway.<br>
+So to steer the crawlers, we mark them with <span class="mono">rel='nofollow'</span> and add a line to our robots.txt if possible. Apart from having popularised and generally obeying these markers, Googlebot and Bingbot offer additional tools to reduce this problem. For instance, Google allows you to <a href="http://googlewebmastercentral.blogspot.com/2011/07/improved-handling-of-urls-with.html" rel="external nofollow">specify</a> how GET-parameters should be interpreted, so they know how to treat links with them.<br>
+<br>
+Yes, we're one of the publishers that use the <span class="mono">rel=nofollow</span> to actually just mark url's to be ignored from the link-graph. We don't really care about all its added bonuses that used to be there, like the 'pagerank'-skulpting. We just really don't want or need those url's to be indexed, saving &quot;them&quot; and us processing time and leaving room for crawlers to actually spend time to index the parts we <i>do</i> want them to index.<br>
+<br>
+The new crawlers generally lack (full) support for those aspects to steer crawlers, even the more basic aspects. Its not uncommon for them to:<ul><li>Ignore nofollow on links or in metatags</li><li>Ignore noindex in metatags</li><li>Partially or fully ignore the robots.txt</li><li>Fail to fully understand the robots.txt</li><li>Fail to limit their amount of requests to some decent value</li><li>Fail to understand how relative links work in combination with a <span class="mono">base href</span> (untill a few years ago Google didn't understand that too well either)</li><li>Fail to understand that links are given in html, and should thus be correctly decoded (i.e. no <span class="mono">&amp;</span> in urls)</li><li>Not offer any insight in why our pages are being crawled</li></ul>With that in mind, we are fairly quick to decide to block entire search engines. Either by blocking the ip addresses or adding some lines to our robots.txt. Given its behavior, it wouldn't suprise me if we're going to <b>block Yacy</b> (for now) as well... I've already seen it do requests to url's blocked via our robots.txt and it doesn't seem to understand nofollow too well. We don't mind being indexed by robots, but we do if they do it incorrectly and/or inefficiently.</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://acm.tweakblogs.net/blog/6379/advertenties-op-tweakers-punt-net-een-paar-mythes-en-misvattingen.html">Advertenties op Tweakers.net: een paar mythes en misvattingen</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/1830/" rel="nofollow">ACM</a> op vrijdag  8 april 2011 11:45 - <a href="https://acm.tweakblogs.net/blog/6379/advertenties-op-tweakers-punt-net-een-paar-mythes-en-misvattingen.html#reacties">Reacties (97)</a><br>Categorie: <a href="https://acm.tweakblogs.net/blog/cat/746">Tweakers.net</a>, Views: 49.892
+				</p>
+				<div class="article">In de loop der jaren heb ik de nodige bannerdiscussies op Tweakers.net meegemaakt. Ik ga hier niet proberen te ontkennen dat die dingen irritant kunnen zijn. Maar er zijn ook gewoon wat misvattingen en mythes rond banners, zowel in het algemeen als op Tweakers.net. Daar heb ik er een aantal van verzameld en wat uitleg bij gegeven <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+<br>
+<b>Als ik er niet op klik, levert het jullie toch niks op, dus kan ik 'm net zo goed blokkeren?</b><br>
+Een belangrijke mythe met banners is dat bezoekers vaak denken dat banners alleen geld opleveren als er op geklikt wordt. Er zijn in de advertentiewereld vijf afrekenmodellen: <abbr title="Cost per Click">CPC</abbr>, <abbr title="Cost per Sale">CPS</abbr>, <abbr title="Cost per Action">CPA</abbr>, <abbr title="Cost per Mille">CPM</abbr> en Fixed Fee.<br>
+<br>
+Bij CPC wordt er inderdaad per klik betaald, dit model wordt veel bij bulkadvertenties gebruikt. O.a. Google's Adsense gebruikt dit model veel. Op Tweakers.net wordt dit model nauwelijks bij de gewone advertenties gebruikt, behalve Adsense hebben we verder geen bulkadvertenties. Dit model wordt verder wel het meest in de pricewatch gebruikt.<br>
+<br>
+CPS en CPA zijn aan elkaar verwant, hierbij betaalt de adverteerder pas als er wat verkocht wordt of een handeling gedaan wordt (bijvoorbeeld inschrijven op een nieuwsbrief of evenement). Het grootste nadeel hiervan is uiteraard dat de inkomsten sterk afhangen van hoe goed de adverteerders zelf te werk gaan. Bovendien ben je vaak afhankelijk van een tussenpartij die de bron van een aankoop moet zien te traceren naar de goede partij.<br>
+Het grootste voordeel is dat de inkomsten 'per keer' vaak behoorlijk hoog zijn. Soms is dat een vast bedrag, soms een percentage van het aankoopbedrag en soms gecombineerd. Daar staat uiteraard tegenover dat het aantal 'keer' dat het gebeurt doorgaans nogal laag is <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"> CPS wordt met sommige klanten in de pricewatch gebruikt, verder komt het in principe niet voor op Tweakers.net.<br>
+<br>
+De meest gebruikte modellen voor &quot;display advertising&quot; (aka banners) bij Tweakers.net zijn CPM en Fixed Fee. Bij de eerste wordt er voor elke duizend vertoningen een bedrag afgerekend. Fixed Fee wordt vooral gebruikt voor de meer complexe uitingen, zoals een dag lang een &quot;site takeover&quot;, of als er vanuit Tweakers.net veel inspanning bij komt kijken. Uiteraard kunnen de diverse modellen ook gecombineerd worden, zoals een vast start bedrag aangevuld met CPM of CPM gecombineerd met CPC, CPS of CPA.<br>
+<br>
+De mythe is dus maar gedeeltelijk waar. Bij de meeste banners die je op Tweakers.net en veel andere sites ziet worden de inkomsten <i>juist</i> bepaalt door de vertoningen. Zelfs bij fixed fee, want dat vaste bedrag is doorgaans deels afgesproken op basis van een verwacht aantal vertoningen. Als een bezoeker op een advertentie klikt levert dat ons vaak juist niets extra's op.<br>
+<br>
+Adsense is daarbij een verhaal apart, dat combineert CPC-uitingen met CPM- en CPA-uitingen. De inkomsten daarvan zijn overigens relatief laag tov de &quot;display&quot; uitingen en we gebruiken expres de grafische uitingen van Adsense niet doordat die vaak lelijk/storend zijn en we daar nauwelijks invloed op hebben.<br>
+<br>
+<b>Ik kijk er toch niet naar.</b><br>
+Ik heb hier geen referenties naar wetenschappelijk onderzoek bij, maar voor zover ik weet word je over het algemeen (onbewust) toch nog wel een beetje beïnvloed door advertenties. Zelfs als je denkt er niet naar te kijken. Dus heeft het voor de adverteerders ook dan zin dat de advertenties bij jou in beeld komen.<br>
+<br>
+<b>Als ik 'm download, maar niet weergeef, is het toch ook goed?</b><br>
+Het komt voor dat gebruikers voorstellen om een plugin te gebruiken die de banners wel downloadt, maar niet weergeeft. Hoewel dit op korte termijn wellicht werkt, zullen adverteerders er niet heel blij van worden en waarschijnlijk uiteindelijk minder hoge bedragen per vertoning gaan willen betalen.<br>
+<br>
+<b>Jullie hebben toch zat bezoekers, dus wat maakt het uit dat ik banners blokkeer?</b><br>
+Als iedereen zo denkt... <img src="https://tweakers.net/g/s/puh2.gif" width="15" height="15" alt=":P"><br>
+<br>
+<b>Ik bepaal zelf wat ik op mijn scherm krijg!</b><br>
+Dit is natuurlijk geen mythe en ook geen misvatting. Het is absoluut waar dat de bezoeker uiteindelijk zelf bepaalt wat er op zijn scherm verschijnt. Dit wordt echter vaak genoemd als verweer tegen het in de algemene voorwaarden opgenomen stukje over dat wij mensen mogen blokkeren als ze onze advertenties actief weren. En in die context geldt natuurlijk ook het omgekeerde: wij mogen zelf bepalen of en in welke vorm we iemand de site willen laten zien <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+In de regel doen we daar overigens niet zo moeilijk over. Er moet aardig wat gebeuren voor je een ban krijgt.<br>
+<br>
+<b>Zonder bezoekers, geen Tweakers.net</b><br>
+Wederom geen mythe. Het is absoluut waar dat Tweakers.net alleen overleeft doordat het bezoekers heeft. Maar het is vooral irrelevant in de bannerdiscussies: er zijn nou eenmaal inkomsten nodig om de uitgaven te dekken. En de uitgaven zijn nodig om bezoekers aan te trekken en/of terug te laten keren.<br>
+<br>
+<b>Je kan toch een abonnement nemen? / Jullie proberen ons een abonnement op te dringen.</b><br>
+Bezoekers wijzen elkaar vaak onderling op het bestaan van het 'bannervrij abonnement' zodra er een opmerking over de advertenties komt. Dat abonnement bieden we uiteraard aan voor diegenen die Tweakers.net wel inkomsten gunnen, maar geen banners willen zien.<br>
+Desalniettemin doen wij weinig moeite om gebruikers een abonnement te laten nemen, we beseffen ter dege dat iemand niet elke site die hij bezoekt geld wil geven. En zelfs 15 euro/jaar is dan uiteindelijk best veel. Bovendien is het voor ons maar de vraag of dat meer oplevert dan we met bannervertoningen aan diezelfde bezoeker zouden verdienen. Als iemand een jaar lang één banner per dag ziet zitten we break-even met 4,1 cent per vertoning. En dan negeer ik nog het feit dat van die 15 euro nog de btw af moet en een deel bij de betaaldienst blijft hangen <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+<br>
+<b>Die servers moeten natuurlijk ergens van betaald worden. Die servers/de bandbreedte wordt toch gesponsord? Jullie werken toch met vrijwilligers?</b><br>
+Drie punten die op zichzelf geen mythe zijn, ze zijn zelfs grotendeels waar. Alleen de servers worden al jaren niet meer gesponsord. Maar de onderliggende mythe is dat er blijkbaar nogal eens gedacht wordt dat Tweakers.net weinig kosten heeft of dat servers en bandbreedte de grootste post zouden zijn. In werkelijkheid ligt dat wat anders. Tweakers.net heeft - ondanks een actieve groep vrijwilligers - momenteel ook ongeveer 45 mensen in dienst.<br>
+Als we voor het gemak aannemen dat ze gemiddeld genomen 'modaal' verdienen  (33.000 euro per jaar bruto) en dat er 50% overheadkosten zijn dan kom je al op ruim 2 miljoen euro per jaar aan personeelskosten... Dat is dan ook met afstand de grootste kostenpost, ik geloof dat servers pas op de derde of vierde plek komen. Dus het klopt dat servers geld kosten, maar als dat de enige of hoogste post was, dan hadden we met veel minder advertenties toegekund <img src="https://tweakers.net/g/s/puh2.gif" width="15" height="15" alt=":P"><br>
+<br>
+<b>VNU moet natuurlijk geld verdienen... / Tweakers.net is heel erg commercieel geworden</b><br>
+De eerste is kortweg waar, maar het wordt vaak als een equivalent voor de tweede gepresenteerd of met een hele negatieve toonzetting gesteld. Tweakers.net is helemaal niet &quot;sinds kort&quot; commercieel en ook is het mijns inziens niet &quot;meer commercieel geworden&quot;. Maar Tweakers.net is natuurlijk wel &quot;groter&quot; geworden, waardoor het misschien wat meer naar voren komt.<br>
+Tweakers.net is echter al jaren commercieel, er wordt al jaren geprobeerd meer inkomsten te vergaren dan dat er uitgaven zijn; er wordt dus al jaren geprobeerd winst te maken. En met 'al jaren' bedoel ik dan in ieder geval al sinds ik in januari 2002 aangenomen werd, niet pas sinds de overname door VNU in 2006 <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+<br>
+<b>Door de overname door VNU is het veel erger met banners geworden.</b><br>
+Er wordt wel eens een causaal verband gesuggereerd tussen &quot;de overname&quot; en dat het erop lijkt dat advertenties geleidelijk aan steeds vaker voorkomen en/of steeds groter worden. Dat er steeds meer advertenties op Tweakers.net zouden staan is volgens mij niet waar, maar dat ze steeds groter worden waarschijnlijk wel.<br>
+Wat hier een mythe aan is, is dat dat door VNU veroorzaakt zou zijn. Voor zover ik kan nagaan is dit domweg de ontwikkeling van &quot;de markt&quot; en zou dit ook gebeurd zijn als Tweakers.net niet overgenomen was. Kijk maar naar Fok, zij zijn bijna even oud als Tweakers.net, maar niet overgenomen door een derde partij en vertonen een vergelijkbaar (of erger?) beeld met steeds grotere/opdringerigere banners.<br>
+<br>
+<b>Dan weigeren jullie die banner toch gewoon? / Waarom die grote advertenties, die kleine banners/tekstbanners vind ik niet erg?</b><br>
+Dit is een lastige. We zouden graag irritante advertenties weren, sterker nog, dat gebeurt ook geregeld. Het is niet ongebruikelijk dat voorstellen van klanten helemaal niet of slechts in afgezwakte vorm uiteindelijk bij de bezoekers op hun scherm komen. Maar het blijft natuurlijk een feit dat wij afhankelijk zijn van de vraag naar advertentieruimte. Als niemand vraagt wat wij willen bieden... dan komt er geen geld in het laatje. De adverteerders daarin opvoeden is iets wat we wel proberen, maar dat gaat via zoveel verschillende partijen en mensen, dat het maar de vraag is of de mening van de Tweakers uiteindelijk wel echt bij de beslissingsnemers bij de klant terechtkomt <img src="https://tweakers.net/g/s/nosmile.gif" width="15" height="15" alt=":/"><br>
+<br>
+Het is op zich wel mogelijk  - met onze hoeveelheid verkeer - om vooral de kleinere advertenties in bulk neer te zetten, bijvoorbeeld via Adsense' grafische advertenties. Maar dan kunnen we het ons nog minder permiteren om kieskeurig te zijn. En ook de relevantie van de advertenties voor de bezoeker komt dan volledig in handen van zo'n derde partij. We tonen dan ook liever geen advertenties dan slechte/niet passende advertenties in grote aantallen. Dat heeft dan wel de consequentie dat de adverteerders die we krijgen wel wat meer eisen stellen.<br>
+<br>
+<b>Jullie verkopen reviews! Kijk maar naar de Heavy Rain review</b><br>
+Aangezien deze in de reacties hieronder aangehaald wordt, heb ik een quote van mijn eigen reactie hier nog even gekopieerd:<blockquote cite="http://acm.tweakblogs.net/blog/6379/advertenties-op-tweakers-punt-net-een-paar-mythes-en-misvattingen.html#r_85923"><div>quote: <a href="https://acm.tweakblogs.net/blog/6379/advertenties-op-tweakers-punt-net-een-paar-mythes-en-misvattingen.html#r_85923" rel="external" title="http://acm.tweakblogs.net/blog/6379/advertenties-op-tweakers-punt-net-een-paar-mythes-en-misvattingen.html#r_85923">http://acm.tweakblogs.net...misvattingen.html#r_85923</a></div><div class="quote">Het verband zit hem in het simpele feit dat het een voldoende interessant spel moest worden dat wij 'm wel wilden reviewen. En daarbij krijgen wij een embargodatum opgelegd waarvoor we geen review mogen publiceren (anders krijgen we uberhaupt geen reviewmateriaal). Sony pakt diezelfde datum natuurlijk ook om dan zo'n royale campagne te starten en Tweakers.net is een van de sites waar veel gamers komen.<br>
+<br>
+Sony heeft de review niet vooraf ingezien en de redactie heeft niet de opdracht gekregen om voor Sony de review extra gunstig af te zetten. Hadden ze die opdracht wel gekregen, dan zie ik onze hoofdredacteur ervoor aan om de review - ook al is ie nog zo netjes - niet te publiceren of het cijfer er juist uit te schrappen.</div></blockquote><hr><br>
+Er zijn vast nog meer punten die genoemd zouden kunnen worden, maar dit waren de belangrijkste die ik kon bedenken. Als ik iets vergeten ben of verkeerd genoemd heb, dan hoor ik het uiteraard graag. Vragen en opbouwende kritiek zijn uiteraard ook welkom <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+<br>
+[update]<br>
+Quote van mijn eigen reactie hieronder toegevoegd ivm 'de reviews zijn te koop'-mythe.</div>
+			</div><div class="pageIndex"><div class="floatright"><a href="https://acm.tweakblogs.net/blog/page/2">Oudere posts</a> &raquo;</div></div></div><div class="sidebar">
+        <div id="loginFrame">
+            <h2 class="top">Inloggen</h2>
+            <p>Login met je  <a href="https://tweakblogs.net/login/?location=https%3A%2F%2Facm.tweakblogs.net%2F">Tweakers profiel</a>.</p>
+        </div>
+		<div class="recentPosts">
+			<h4>Recente posts</h4><ul class="ellipsis"><li><a href="https://acm.tweakblogs.net/blog/12361/alternatieven-voor-javas-threadlocal-om-objecten-te-hergebruiken" title="Alternatieven voor Java&#039;s ThreadLocal om objecten te hergebruiken (10)">Alternatieven voor Java&#039;s ThreadLocal om objecten te hergebruiken (10)</a></li><li><a href="https://acm.tweakblogs.net/blog/7711/er-zijn-genoeg-alternatieven-voor-banners%21-nou-welke-dan.html" title="&quot;Er zijn genoeg alternatieven voor banners!&quot; Nou, welke dan? (40)">&quot;Er zijn genoeg alternatieven voor banners!&quot; Nou, welke dan? (40)</a></li><li><a href="https://acm.tweakblogs.net/blog/7656/serverkeuzes-bij-tweakers-punt-net.html" title="Serverkeuzes bij Tweakers.net (22)">Serverkeuzes bij Tweakers.net (22)</a></li></ul>
+		</div>
+		<div class="categories">
+			<h4>Categorieën</h4><ul><li><a href="https://acm.tweakblogs.net/blog/cat/1698">Development (2)</a></li><li><a href="https://acm.tweakblogs.net/blog/cat/746">Tweakers.net (20)</a><ul class="ulChild"><li><a href="https://acm.tweakblogs.net/blog/cat/747">Browsers (8)</a></li><li><a href="https://acm.tweakblogs.net/blog/cat/763">Pricewatch (4)</a></li></ul></li></ul>
+		</div>
+		<div class="archives">
+			<h4>Archieven</h4><ul id="archiveList"><li class="open"><b>2015</b> (1)<ul class="ulChild"><li><a href="https://acm.tweakblogs.net/blog/archief/2015/11/">nov 2015</a> (1)</li></ul></li><li><b>2012</b> (2)<ul class="ulChild"><li><a href="https://acm.tweakblogs.net/blog/archief/2012/03/">mrt 2012</a> (2)</li></ul></li><li><b>2011</b> (4)<ul class="ulChild"><li><a href="https://acm.tweakblogs.net/blog/archief/2011/12/">dec 2011</a> (1)</li><li><a href="https://acm.tweakblogs.net/blog/archief/2011/04/">apr 2011</a> (2)</li><li><a href="https://acm.tweakblogs.net/blog/archief/2011/01/">jan 2011</a> (1)</li></ul></li><li><b>2010</b> (10)<ul class="ulChild"><li><a href="https://acm.tweakblogs.net/blog/archief/2010/12/">dec 2010</a> (1)</li><li><a href="https://acm.tweakblogs.net/blog/archief/2010/11/">nov 2010</a> (1)</li><li><a href="https://acm.tweakblogs.net/blog/archief/2010/06/">jun 2010</a> (4)</li><li><a href="https://acm.tweakblogs.net/blog/archief/2010/05/">mei 2010</a> (1)</li><li><a href="https://acm.tweakblogs.net/blog/archief/2010/04/">apr 2010</a> (1)</li><li><a href="https://acm.tweakblogs.net/blog/archief/2010/03/">mrt 2010</a> (1)</li><li><a href="https://acm.tweakblogs.net/blog/archief/2010/02/">feb 2010</a> (1)</li></ul></li><li><b>2009</b> (5)<ul class="ulChild"><li><a href="https://acm.tweakblogs.net/blog/archief/2009/12/">dec 2009</a> (1)</li><li><a href="https://acm.tweakblogs.net/blog/archief/2009/10/">okt 2009</a> (1)</li><li><a href="https://acm.tweakblogs.net/blog/archief/2009/07/">jul 2009</a> (1)</li><li><a href="https://acm.tweakblogs.net/blog/archief/2009/05/">mei 2009</a> (1)</li><li><a href="https://acm.tweakblogs.net/blog/archief/2009/04/">apr 2009</a> (1)</li></ul></li></ul><script type="text/javascript">weblogFolderTree('archiveList');</script>
+		</div>
+		<div class="about">
+			<h4>About</h4>
+			<p></p>
+			<ul>
+				<li class="user"><a href="https://tweakers.net/gallery/1830/" rel="nofollow">Profiel op Tweakers</a></li>
+			</ul>
+		</div></div>
+</div>
+            </div>
+
+        </div>    <script>
+                if(window.BehaviourManager)BehaviourManager.exec();
+            </script>
+    <noscript>
+                    <img src="https://tweakers.net/318816705845986/wt?p=328,&amp;cg1=tweakers.net&amp;cg2=Tweakblogs&amp;cp1=LG" width="1" height="1" alt="" style="display:none">
+            </noscript>
+
+<!--
+Request ID: Twk-eun-web2_200.1.0_34870_600b45e4e6bd42.52184187
+Env: frontpage-production
+Server time: 0,0220 s (C: 0,0135 s, Q: 5; 0,0073 s, E: 1; 0,0200 s, M: 2; 0,0027 s, A: 0; 0,0000 s)
+Mem: 4760 KB
+
+Engines: (S) twk-eun-web1 (1)
+-->
+        
+    </body>
+</html>
+```
