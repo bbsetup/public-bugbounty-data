@@ -1,0 +1,1 @@
+```<p style="text-align:center; font:normal 18px Arial, sans-serif; padding-top:20px;">Hi there, this site is not yet activated.  If you have a login to this site, please login here: <a href="http://adventuresoutback.convergencecms.co/login">http://adventuresoutback.convergencecms.co/login</a></p>```
