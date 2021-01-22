@@ -1,0 +1,113 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <!-- head -->
+  
+  <head>
+  <meta name="keywords" content="accessrunner, cxacru, ADSL, USB, Linux, driver">
+  <meta name="description" content="Linux driver for Conexant AccessRunner ADSL USB modem">
+  <title>Conexant AccessRunner ADSL USB modems with Linux</title>
+  <link rel="stylesheet" title="Fixed menu" href="fixed.css" media="screen, print, projection, tv">
+  <link rel="stylesheet" title="Scrolled menu" href="main.css" media="screen and (max-height: 27em)">
+</head>
+
+<body>
+
+  <!-- Site navigation menu -->
+  <ul class="navbar">
+  <li><a href="index.shtml">Main</a></li>
+  <li><a href="modems.shtml">Supported modems</a></li>
+  <li><a href="firmware.shtml">Firmware</a></li>
+  <li><a href="driver.shtml">Driver</a></li>
+  <li><a href="connection.shtml">Connection setup</a></li>
+  <li><a href="http://sourceforge.net/project/showfiles.php?group_id=47406">Download</a></li>
+  <li><a href="https://lists.sourceforge.net/lists/listinfo/accessrunner-general">Mailing list</a></li>
+  <li><a href="es/base.html">Original page by Josep Comas (in Spanish)</a></li>
+  <li><a href="http://sourceforge.net/projects/accessrunner">SF.net project page</a></li>
+</ul>
+
+<!-- SF.net logo -->
+<a href="http://sourceforge.net"><img class="navbar"
+  src="http://sflogo.sourceforge.net/sflogo.php?group_id=47406&amp;type=1"
+  border="0" alt="SourceForge.net Logo"/></a>
+
+
+  <!-- body -->
+  <h1>Conexant AccessRunner ADSL USB modems with Linux</h1>
+
+
+  <h2>About</h2>
+  <p>This site is intended to provide support for using the ADSL USB modems
+  based on the popular <a href="http://www.conexant.com/">Conexant</a>
+  AccessRunner chipset with Linux.  Here you can find out which <a
+    href="modems.shtml">modems</a> are supported, how to obtain and upload
+  the <a href="firmware.shtml">firmware</a> to the modem, what you need to
+  add the <a href="driver.shtml">driver</a> to your kernel, and how to
+  establish an Internet <a href="connection.shtml">connection</a> through
+  your ISP.</p>
+
+  <p class="nb"><em>
+      Please note that this site is under construction, and many pages are
+      incomplete.  Stay tuned!
+  </em></p>
+
+  <h2>News</h2>
+  <dl>
+    <dt>28/02/2005</dt>
+    <dd>Updated firmware section to a usable state.</dd>
+
+    <dt>27/02/2005</dt>
+    <dd>Added section on Internet connection setup.</dd>
+
+    <dt>16/02/2005</dt>
+    <dd>First public driver release.  Completed driver section.</dd>
+
+    <dt>10/02/2005</dt>
+    <dd>Added (still unfinished) firmware and driver sections.</dd>
+
+    <dt>27/01/2005</dt>
+    <dd>Added table of supported modems.</dd>
+
+    <dt>20/01/2005</dt>
+    <dd>Several bugs have been discovered in <code>usbatm</code> core.
+    Duncan Sands is doing a major overhaul of it which should result in a
+    cleaner and safer design.  Still striving to be in time for 2.6.11</dd>
+
+    <dt>17/01/2005</dt>
+    <dd>Main project page replaced with the new one.</dd>
+
+    <dt>16/01/2005</dt>
+    <dd><a href="http://sourceforge.net/users/jcomas">Josep Comas</a>, being
+    busy with other projects, kindly agreed to expand the development team
+    and to hand on the site support to the new maintainer, yours truly <a
+      href="http://sourceforge.net/users/roman_kagan">Roman Kagan</a>.</dd>
+  </dl>
+
+  <h2>Credits</h2>
+  <p>Most of the credit goes for <a
+    href="http://sourceforge.net/users/jcomas">Josep Comas</a>, who has
+  created this project on the <a href="http://sourceforge.net">SF.net</a>,
+  accumulated a lot of information about the AccessRunner chipset, and
+  created and maintained the software bundle needed to use the ADSL USB
+  modems based on this chipset.</p>
+
+  <p>He's been helped by <a href="es/linux/manual.html#sec4">a number of
+    brave people</a> who are also to be credited with the creation and the
+  maintenance of this project.</p>
+
+  <p>During some period of inactivity Francesco Zuliani provided support and
+  maintenance on his <a
+    href="http://www.zullinux.it/linux/accessrunner.html">alternative
+    site</a>.</p>
+
+  <p>Recent progress of the project was inspired by the advent of the
+  <code>usbatm</code> infrastructure added to the Linux kernel by Duncan
+  Sands and David Woodhouse.</p>
+
+  <!-- footer -->
+  
+    
+  <address>Last update: Tuesday, 01-Mar-2005 01:05:42 UTC by <a href="http://sourceforge.net/users/roman_kagan">roman_kagan</a></address>
+</body>
+
+</html>
+```
