@@ -1,0 +1,139 @@
+```<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<title>AdaDoc</title>
+<meta http-equiv="Content-Type" content="text/html"/>
+<link href="adadoc.sourceforge.net" title="Home"/>
+<link rel="stylesheet" href="adadoc.css" type="text/css"/>
+<meta name="keywords" content="AdaDoc, adadoc, Ada95, ada95, Documentation, GPL, Ada, ada, Generator, Tools, Tool, Vincent Decorges, Julien Burdy, eivd, ina"/>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" vlink="#666699" alink="#CC0000">
+<table width="85%" border="0">
+  <tr>
+    <td width="28%" align="left" valign="top">
+      <table width="100%" border="0">
+        <tr>
+          <td valign="middle" align="center"><b><font size="6" color="#000099" face="Arial, Helvetica, sans-serif">AdaDoc</font></b></td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%" border="2" bgcolor="#0033CC">
+              <tr>
+                <td valign="top" align="left" bgcolor="#6699FF" height="149">
+                  <p><b><font color="#000000">Home</font></b></p>
+                  <ul>
+                    <li><a href="what.html">What is AdaDoc?</a></li>
+                    <li><a href="examples.html">Examples</a></li>
+                    <li><a href="state.html">Current State</a></li>
+                    <li><a href="doc.html"><font color="#0000CC">Documentation</font></a></li>
+                    <li><a href="download.html"><font color="#0000CC">Download</font></a></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" bgcolor="#6699FF" height="119">
+                  <p><font color="#0000CC"><a href="http://sourceforge.net/projects/adadoc" target="_blank">Sourceforge</a></font></p>
+                  <ul>
+                    <li><a href="http://lists.sourceforge.net/lists/listinfo/adadoc-news" target="_blank"><font color="#0000CC">Mailling
+                      lists</font></a></li>
+                    <li><a href="http://sourceforge.net/forum/?group_id=22930" target="_blank">Forum</a></li>
+                    <li><font color="#0000CC"><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=22930&amp;atid=377054" target="_blank">Report
+                      a bug</a></font></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+    
+    <td width="72%">
+      <table width="95%" border="0" align="center">
+        <tr>
+        
+          <td height="68"><font size="6">Welcome to <i><font color="#0000CC">AdaDoc</font></i>
+          home page</font><font size="6"> </font></td>
+            
+        </tr>
+        <tr>
+          <td height="385" valign="top">
+            
+            <p>AdaDoc is a tool for developers using the Ada95 programming language. Its goal is
+            to create a documentation in different formats from a specification package.
+            Currently support for HTML, LaTeX, Texinfo and Stronghelp formats is available.</p>
+              
+            <p>AdaDoc is under the <a href="http://www.gnu.org/copyleft/gpl.html"
+            target="_blank">GPL licence</a>.</p>
+              
+            <p>AdaDoc was originally developed by students of the University of Applied Sciences
+            of Western Switzerland.</p>
+            
+            <p><b>2008-09-11:</b><br/><br/>
+            
+            AdaDoc development has restarted after a period of inactivity lasting almost four
+            years. Look for an incremental 2.1.1 release in a couple of months. The
+            incremental release will use modern tools/libraries to build AdaDoc and, hopefully,
+            fix a few bugs as well. However, no significant new features are planned for 2.1.1.
+            </p>
+            
+            <p>After the 2.1.1 release, work will begin on supporting Ada 2005 features in
+            AdaDoc.</p>
+
+            <p><b>2004-12-27:</b><br/><br/>
+            
+            AdaDoc 2.1 is out! It includes new modules to generate documentations in Texinfo and
+            Stronghelp formats, thanks to Bent Bracke and Stephane Riviere. Download it at <a
+            href="http://sourceforge.net/project/showfiles.php?group_id=22930"
+            target="_blank">Sourceforge</a>.</p>
+                                      
+            <p><b>2004-04-12:</b><br/><br/>
+            
+            AdaDoc 2.02 is out! It will now compile with XmlAda 1.0. Download it at <a
+            href="http://sourceforge.net/project/showfiles.php?group_id=22930"
+            target="_blank">Sourceforge</a>.</p>
+                          
+            <p><b>2003-06-07:</b><br/><br/>
+            
+            AdaDoc 2.01 is out! Download it at <a
+            href="http://sourceforge.net/project/showfiles.php?group_id=22930"
+            target="_blank">Sourceforge</a>.</p>
+              
+            <p><b>2002-08-27:</b><br/><br/>
+            
+            AdaDoc 2 is out! Download it at <a
+            href="http://sourceforge.net/project/showfiles.php?group_id=22930"
+            target="_blank">Sourceforge</a>.</p>
+              
+            <p>Have a look at AdaDoc's <a href="doctech/index.html" target="_blank">technical
+            documentation</a> generate by itself!</p>
+              
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%" border="0">
+              <tr>
+                <td width="33%" align="center"><a href="http://www.eivd.ch"><img src="images/eivd_coul_sans.gif" alt="eivd logo" width="153" height="122" border="0"/></a></td>
+                <td width="37%" align="center"><a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=22930&amp;type=2" alt="sourceforge logo" width="125" height="37" border="0"/></a></td>
+                <td width="30%" align="center"><a href="http://www.adapower.com/"><img src="images/adapowered.jpg" alt="adapowered logo" width="200" height="50" border="0"/></a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+    
+  </tr>
+</table>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+    _uacct = "UA-815673-6";
+    urchinTracker();
+</script>
+</body>
+</html>
+```
