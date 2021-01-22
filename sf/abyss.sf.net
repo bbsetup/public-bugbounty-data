@@ -1,0 +1,165 @@
+```
+
+
+
+
+<HTML>
+<HEAD>
+<TITLE>ABYSS Web Server: Welcome
+</TITLE>
+<META name="description" content="ABYSS is a free HTTP/1.1 Web Server designed by Moez Mahfoudh for UNIX and Win32 systems. Its main design goals are speed, low resource
+usage and portability.">
+<META name="keywords" content="abyss, web server, server, http, free, source, linux, solaris, freebsd, unix, windows, win, win32, moez, mahfoudh">
+</HEAD>
+<BODY bgColor=#80a0f0 text=#000000>
+
+<center>
+
+<p>
+<h1>ABYSS Web Server</h1>
+
+<div style="font: normal 0.75em 'Lucida Grande', Geneva, Arial, Verdana, sans-serif; width: 90%; margin: 1em; padding: 1ex; border: 2px red solid; background-color: #B5CFF7;">
+<p style="font-size: 1.5em; margin: 0;">IMPORTANT NOTICE</p>
+<p>The software described and available for download in this site is the last open source version of Abyss Web Server: In 2001, Abyss Web Server became closed source and subsequent versions were and continue to be published by <a href="http://www.aprelium.com">Aprelium Technologies</a> (a company founded by Abyss Web Server's original author).</p>
+<p>So if you are looking for the modern releases of Abyss Web Server, please visit <a href="http://www.aprelium.com/abyssws">http://www.aprelium.com/abyssws</a>.</p>
+<p>Otherwise, feel free to download and use Abyss Web Server 0.3 under <a href="license.html">its modified BSD type license terms and condition</a>.
+</p>
+</div>
+
+</p>
+<table border=0 bgcolor=#000000>
+<tr>
+<td>
+<table BORDER="0" CELLSPACING="3" CELLPADDING="10">
+<tr>
+<td bgcolor="#b0b080" nowrap rowspan=3 valign=top>
+<p>
+<br>
+
+<b>Welcome</b><br>
+&nbsp;<A href="index.html#what">What is it?</A>&nbsp;<br>
+&nbsp;<A href="index.html#who">Who wrote it?</A>&nbsp;<br>
+&nbsp;<A href="index.html#why">Why?</A>&nbsp;<br>
+&nbsp;<A href="index.html#help">How to help?</A>&nbsp;<br>
+<br>
+
+<b>Downloading</b><br>
+&nbsp;<A href="downlast.html">Latest release</A>&nbsp;<br>
+&nbsp;<A href="downold.html">Older releases</A>&nbsp;<br>
+<br>
+
+<b>Documentation</b><br>
+&nbsp;<A href="install.html">Installation</A>&nbsp;<br>
+&nbsp;<A href="config.html">Configuration</A>&nbsp;<br>
+&nbsp;<A href="license.html">License</A>&nbsp;<br>
+<br>
+
+<b>Support</b><br>
+&nbsp;<A href="contact.html">Contact</A>&nbsp;<br>
+&nbsp;<A href="mailing.html">Mailing list</A>&nbsp;<br>
+<br>
+
+<b>Developement</b><br>
+&nbsp;<A href="status.html">Status</A>&nbsp;<br>
+&nbsp;<A href="change.html">Change log</A>&nbsp;<br>
+&nbsp;<A href="todo.html">To do list</A>&nbsp;<br>
+&nbsp;<A href="bugs.html">Bugs</A>&nbsp;<br>
+<br>
+<br>
+</p>
+
+</td>
+<td align=right>
+<font size=+1 color=#ffffff><i>
+&nbsp;
+Welcome
+&nbsp;
+</i></font>
+</td>
+</tr>
+<tr>
+<td bgcolor=#ffffff valign=top height=700>
+<br>
+<blockquote>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+<H2 align=left><A name=what>What is it?</H2>
+ABYSS aims to be a
+fully HTTP/1.1 compliant web server. Its main design goals are speed, low resource
+usage and portability. ABYSS works on most UNIX based systems and on Win32
+systems (Win95/98/2000/NT).
+
+<H2 align=left><A name=who>Who wrote it?</H2>
+ABYSS was written from scratch by Moez Mahfoudh. For more information about licensing, <a href="license.html">click here</a>.<br>
+Copyright &copy; 2000 <A href="mailto:mmoez@bigfoot.com">Moez Mahfoudh</A>. All rights reserved.
+
+<H2 align=left><A name=why>Why bother writing another HTTP server?</H2>
+
+HTTP servers used nowadays are too complex and/or system dependant.
+This can be explained by two facts:
+<ul>
+<li>They are based on old software (CERN httpd or NCSA httpd) which was written in the beginning of the 90's with no portability or modularity in mind.
+<li>They are getting bigger from version to version as they need to support evolution of standards.
+</ul>
+Started as a personal challenge, ABYSS project tries to avoid the mistakes found in the design of other servers. ABYSS characteristics/features are:
+<ul>
+<li>Built from scratch
+<li>Modular
+<li>Customizable: you can build a version which includes only the features you need.
+<li>Highly portable: it is written in ANSI C.
+<li>Low memory use.
+<li>Low system load.
+<li>Tiny: on Linux, the executable size is about 35kB.
+<li>Fast: On stable developement releases, it is 70% as fast as Apache. When using threads, this rate is 130%.
+</ul>
+
+<H2 align=left><A name=help>How to help?</H2>
+ABYSS seems to interest you ? That's very good. You can help by:
+<ul>
+<li>Using it.
+<li>Testing it.
+<li>Submitting bug reports.
+<li>Speaking about it to people you know.
+</ul>
+
+</blockquote>
+<br>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- <hr>
+<p>
+<font size=-1><b>Support ABYSS - Visit Sponsors</b></font></p>
+<p>
+
+<a href="http://programmersheaven.com"><img src="ph120x60.gif" alt="www.programmersheaven.com" border=0 width="120" height="60"></a>
+
+</p>
+-->
+<hr>
+<FONT size=-1>
+Copyright &copy; 2000 <A href="mailto:mmoez@bigfoot.com">Moez Mahfoudh</A>. All rights reserved |  Hosted by <A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=3921" width="88" height="31" border="0" alt="SourceForge Logo" align="absmiddle"></A> | Last Modified: Feb 22, 2001
+</FONT></CENTER>
+
+
+<!-- HTML pre-processed by htp 1.11 RELEASE -->
+
+</BODY></HTML>```
