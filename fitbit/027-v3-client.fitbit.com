@@ -1,0 +1,1 @@
+```{"errors":[{"errorType":"3A18A092-9871-4CCC-B83B-E56261F4E04A","message":"Invalid request reference. Lookup https://wiki.fitbit.com/display/dev/Server+Errors"}],"success":false}```
