@@ -1,0 +1,488 @@
+```<!doctype html>
+<html lang="en">
+    <head >
+        <script>
+    var BASE_URL = 'https://account.magento.com/';
+    var require = {
+        "baseUrl": "https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US"
+    };
+</script>
+        <meta charset="utf-8"/><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"95a6a0aaac",applicationID:"589020890"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,w=["click","keydown","mousedown","pointerdown","touchstart"];w.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?u(e,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){e&&a&&e(n,r,i);for(var c=t(i),f=v(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[h[n]];return p&&p.push([b,n,r,c]),c}}function o(e,t){y[e]=v(e).concat(t)}function m(e,t){var n=y[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return y[e]||[]}function g(e){return p[e]=p[e]||i(n)}function w(e,t){s(e,function(e,n){t=t||"feature",h[n]=t,t in d||(d[t]=[])})}var y={},h={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:w,abort:c,aborted:!1};return b}function o(e){return u(e,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=e("gos"),s=e(6),d={},p={},l=t.exports=i();t.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(y,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1194.min.js"},h=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:w,features:{},xhrWrappable:h,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var x=0},{}],"wrap-function":[function(e,t,n){function r(e,t){function n(t,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],e)}c(n+"start",[o,a,f],s,u);try{return p=t.apply(a,o)}catch(m){throw c(n+"err",[o,a,m],s,u),m}finally{c(n+"end",[o,a,p],s,u)}}return a(t)?t:(n||(n=""),nrWrapper[p]=t,o(t,nrWrapper,e),nrWrapper)}function r(e,t,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<t.length;u++)f=t[u],c=e[f],a(c)||(e[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!m||t){var c=m;m=!0;try{e.emit(n,r,o,t,a)}catch(f){i([f,n,r,o],e)}m=c}}return e||(e=s),n.inPlace=r,n.flag=p,n}function i(e,t){t||(t=s);try{t.emit("internal-error",e)}catch(n){}}function o(e,t,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(e);return r.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(o){i([o],n)}for(var a in e)l.call(e,a)&&(t[a]=e[a]);return t}function a(e){return!(e&&e instanceof Function&&e.apply&&!e[p])}function c(e,t){var n=t(e);return n[p]=e,o(e,n,s),n}function f(e,t,n){var r=e[t];e[t]=c(r,n)}function u(){for(var e=arguments.length,t=new Array(e),n=0;n<e;++n)t[n]=arguments[n];return t}var s=e("ee"),d=e(7),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;t.exports=r,t.exports.wrapFunction=c,t.exports.wrapInPlace=f,t.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta name="title" content="Cloud Projects"/>
+<meta name="description" content="Magento"/>
+<meta name="keywords" content="Magento, Varien, E-commerce"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="format-detection" content="telephone=no"/>
+<title>Cloud Projects</title>
+<link  rel="stylesheet" type="text/css"  media="all" href="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/mage/calendar.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/css/styles-m.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/css/flexboxgrid.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/css/styles-l.css" />
+<link  rel="stylesheet" type="text/css"  media="print" href="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/css/print.css" />
+<script  type="text/javascript"  src="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/requirejs/require.js"></script>
+<script  type="text/javascript"  src="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/mage/requirejs/mixins.js"></script>
+<script  type="text/javascript"  src="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/requirejs-config.js"></script>
+<script  type="text/javascript"  src="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/mage/polyfill.js"></script>
+<link rel="preload" as="font" crossorigin="anonymous" href="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/fonts/opensans/light/opensans-300.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/fonts/opensans/regular/opensans-400.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/fonts/opensans/semibold/opensans-600.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/fonts/opensans/bold/opensans-700.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/fonts/Luma-Icons.woff2" />
+<link  rel="stylesheet" type="text/css" href="https://use.typekit.net/fkg5fef.css" />
+<link  rel="icon" type="image/x-icon" href="https://account.magento.com/media/favicon/default/favicon.ico" />
+<link  rel="shortcut icon" type="image/x-icon" href="https://account.magento.com/media/favicon/default/favicon.ico" />
+<link rel="apple-touch-icon" type="image/png" href="https://magento.com/apple-touch-icon.png">
+
+<script>
+window.marketingtech = {
+  adobe: {
+    launch: {
+      property: 'global',
+      // TODO: change the environment to whichever launch embed code environment
+      // you want to load on that page.  We recommend matching the launch 
+      // environment with your environments (launch dev on your dev/qa/local
+      // environments, launch stage on your stage environment, etc.)
+      environment: 'production'
+    }
+  }
+};
+window.marketingtech.adobe.target = true;
+</script>
+<script src="//www.adobe.com/marketingtech/main.min.js"></script>
+<script>
+digitalData._set("digitalData.page.pageInfo.siteSection","Magento - My Account");
+digitalData._set("digitalData.page.pageInfo.template","magento");
+digitalData._set("digitalData.page.pageInfo.language","en-us");
+digitalData._set("digitalData.page.pageInfo.geoRegion","us");
+digitalData._set("digitalData.page.pageInfo.breadCrumbs",["Home"]);
+</script>
+
+
+<style>
+body[class*="customer-account"] .nav-main .container .nav-logo-subsite.partners .logo-main {
+    min-width: 135px;
+}
+</style>
+<meta name="p:domain_verify" content="dfe067f8bae59ddb55950fead146fb58"/>        <!-- BEGIN GOOGLE VERIFICATION TAG -->
+<!-- END GOOGLE VERIFICATION TAG -->
+<!-- BEGIN GTAG GLOBAL TAG -->
+<!-- END GTAG GLOBAL TAG -->
+            <!-- BEGIN GOOGLE UNIVERSAL ANALYTICS CODE -->
+            <script type="text/x-magento-init">
+            {
+                "*": {
+                    "Magento_GoogleAnalytics/js/google-analytics": {
+                        "isCookieRestrictionModeEnabled": 0,
+                        "currentWebsite": 1,
+                        "cookieName": "user_allowed_save_cookie",
+                        "ordersTrackingData": [],
+                        "pageTrackingData": {"optPageUrl":"","isAnonymizedIpActive":false,"accountId":"UA-68953122-1"}                    }
+                }
+            }
+            </script>
+            <!-- END GOOGLE UNIVERSAL ANALYTICS CODE -->
+                </head>
+    <body data-container="body"
+          data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/images/loader-2.gif"}}'
+        class="spectrum spectrum--light spectrum--medium account cloud-customer-login page-layout-1column">
+        
+    <script>
+        require.config({
+            deps: [
+                'jquery',
+                'mage/translate',
+                'jquery/jquery-storageapi'
+            ],
+            callback: function ($) {
+                'use strict';
+
+                var dependencies = [],
+                    versionObj;
+
+                $.initNamespaceStorage('mage-translation-storage');
+                $.initNamespaceStorage('mage-translation-file-version');
+                versionObj = $.localStorage.get('mage-translation-file-version');
+
+                
+                if (versionObj.version !== '477fbba084f1b5d1b76aef5e1dbf15dc1852eb25') {
+                    dependencies.push(
+                        'text!js-translation.json'
+                    );
+
+                }
+
+                require.config({
+                    deps: dependencies,
+                    callback: function (string) {
+                        if (typeof string === 'string') {
+                            $.mage.translate.add(JSON.parse(string));
+                            $.localStorage.set('mage-translation-storage', string);
+                            $.localStorage.set(
+                                'mage-translation-file-version',
+                                {
+                                    version: '477fbba084f1b5d1b76aef5e1dbf15dc1852eb25'
+                                }
+                            );
+                        } else {
+                            $.mage.translate.add($.localStorage.get('mage-translation-storage'));
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "\u002F",
+                "domain": ".magento.com",
+                "secure": false,
+                "lifetime": "900"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong>
+                    <span>For the best experience on our site, be sure to turn on Javascript in your browser.</span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+<script>
+    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });
+</script>
+<!-- ko scope: 'company' -->
+<div class="message company-warning _hidden" data-bind="css: { _hidden: !isCompanyBlocked() }">
+<span>
+<!-- ko i18n: 'Your company account is blocked and you cannot place orders. If you have questions, please contact your company administrator.' --><!-- /ko -->
+</span>
+</div>
+<!-- /ko -->
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "company": {
+                        "component": "Magento_Company/js/view/company",
+                        "logoutUrl": "https://account.magento.com/customer/account/logout/"
+                    }
+                }
+            }
+        }
+    }
+</script>
+<!-- BEGIN GTAG CART SCRIPT -->
+<!-- END GTAG CART SCRIPT -->
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_GoogleTagManager/js/google-tag-manager-cart": {
+                "blockNames": ["category.products.list","product.info.upsell","catalog.product.related","checkout.cart.crosssell","search_result_list"],
+                "cookieAddToCart": "add_to_cart",
+                "cookieRemoveFromCart": "remove_from_cart"
+            }
+        }
+    }
+</script>
+
+<div class="page-wrapper"><header class="page-header"><div class="header content"><div data-action="toggle-nav" class="hamburger-box">
+    <span class="action nav-toggle"><span>Toggle Nav</span></span>
+</div>
+
+<a
+    class="logo"
+    href="https://magento.com/"
+    title="Magento Commerce"
+    aria-label="store logo">
+    <img src="https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/images/logo.svg"
+         title="Magento&#x20;Commerce"
+         alt="Magento&#x20;Commerce"
+        width="225"        height="69"    />
+</a>
+<script>
+    require(['loadicons/index'], function (loadIcons) {
+        loadIcons('https://account.magento.com/static/version20210121174117/frontend/McStore/base/en_US/images/spectrum_icons.svg');
+    });
+</script>
+</div></header><main id="maincontent" class="page-main container"><a id="contentarea" tabindex="-1"></a>
+<div class="columns row"><div class="column main col-xs-12"><div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <!-- ko if: cookieMessages && cookieMessages.length > 0 -->
+    <div role="alert" data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+
+    <!-- ko if: messages().messages && messages().messages.length > 0 -->
+    <div role="alert" data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script>
+</div><input name="form_key" type="hidden" value="9vibM5nghGFduBeI" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+    <script>
+        window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/account.magento.com\/customer\/account\/create\/context\/checkout\/","customerForgotPasswordUrl":"https:\/\/account.magento.com\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/account.magento.com\/"};
+    </script>
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"},"msp_recaptcha":{"settings":{"siteKey":"6LdcuBgTAAAAAF-q4FpBLk2JV1EQBBuiIJVV9okl","size":"normal","badge":null,"theme":"light","lang":null,"enabled":{"login":false,"create":true,"forgot":false,"contact":true,"review":false,"newsletter":false,"sendfriend":true,"paypal":false}}}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Faccount.magento.com\u002Fstatic\u002Fversion20210121174117\u002Ffrontend\u002FMcStore\u002Fbase\u002Fen_US\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/section-config":{"sections":{"stores\/store\/switch":"*","stores\/store\/switchrequest":"*","directory\/currency\/switch":"*","*":["messages","company"],"customer\/account\/logout":["recently_viewed_product","recently_compared_product"],"customer\/account\/loginpost":"*","customer\/account\/createpost":"*","customer\/account\/editpost":"*","customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"rest\/v1\/requisition_lists":["requisition"],"requisition_list\/requisition\/delete":["requisition"],"requisition_list\/item\/addtocart":["cart"],"checkout\/cart\/add":["cart"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","checkout-data","last-ordered-items","instant-purchase"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase"],"authorizenet\/directpost_payment\/place":["cart","checkout-data"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"paypal\/express\/onauthorization":["cart","checkout-data"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"multishipping\/checkout\/overviewpost":["cart"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"persistent\/index\/unsetcookie":["persistent"],"quickorder\/sku\/uploadfile\/":["cart"],"review\/product\/post":["review"]},"clientSideSections":["checkout-data","cart-data"],"baseUrls":["https:\/\/account.magento.com\/"]}}}</script>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/customer-data":{"sectionLoadUrl":"https:\/\/account.magento.com\/customer\/section\/load\/","expirableSectionLifetime":60,"expirableSectionNames":["cart","persistent"],"cookieLifeTime":"900","updateSessionUrl":"https:\/\/account.magento.com\/customer\/account\/updateSession\/"}}}</script>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/invalidation-processor":{"invalidationRules":{"website-rule":{"Magento_Customer\/js\/invalidation-rules\/website-rule":{"scopeConfig":{"websiteId":1}}}}}}}</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/account.magento.com\/page_cache\/block\/render\/","handles":["default","cloud_customer_login"],"originalRequest":{"route":"cloud","controller":"customer","action":"login","uri":"\/cloud\/customer\/login\/"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+<script type="text/x-magento-init">
+{"*":{"Magento_Banner\/js\/model\/banner":{"sectionLoadUrl":"https:\/\/account.magento.com\/banner\/ajax\/load\/","cacheTtl":30000}}}</script>
+
+<div class="block">
+    <div class="cloud-login-page">
+        <span class="rocket"></span>
+        <div class="row flex-row">
+            <div class="col-xs-12 col-sm-6">
+                <h2>Need Help Logging in?</h2>
+                
+                <div class="cloud-login-page__content">
+                    <h3>Access Magento Commerce Cloud with your Magento.com account.</h3>
+                    <p>If your Magento.com account has the same email as your Cloud account, click
+                        <a class="login-page-link link-orange"
+                           href="https://account.magento.com/customer/account/login/referer/aHR0cHM6Ly9hY2NvdW50Lm1hZ2VudG8uY29tL2Nsb3VkL2N1c3RvbWVyL3JlZGlyZWN0Lw%2C%2C/">
+                            Login with Magento.com                        </a> and use your Magento.com password.
+                    </p>
+                </div>
+                
+                <div class="cloud-login-page__content">
+                    <h3>Do not have a Magento.com Account?</h3>
+                    <p>Your Cloud account is now part of Magento.com. When you login for the first time, click
+                        <a class="login-page-link link-orange"
+                           href="https://account.magento.com/customer/account/login/referer/aHR0cHM6Ly9hY2NvdW50Lm1hZ2VudG8uY29tL2Nsb3VkL2N1c3RvbWVyL3JlZGlyZWN0Lw%2C%2C/">
+                            Login with Magento.com                        </a>, click
+                        <a class="login-page-link" href="https://account.magento.com/customer/account/forgotpassword/">Forget
+                            your password?</a>, and set your new password.
+                    </p>
+                </div>
+
+                <div class="cloud-login-page__content">
+                    <h3>Need Assistance?</h3>
+                    <p>Please contact
+                        <a class="login-page-link" href="mailto:HelpCenterLoginIssues@magento.com">HelpCenterLoginIssues@magento.com</a><br>
+                    </p>
+                </div>
+                
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <h2>Login to Magento Commerce Cloud</h2>
+                <p>Magento Commerce Cloud access is now a part of your Magento.com account.</p>
+                <a href="https://account.magento.com/customer/account/login/referer/aHR0cHM6Ly9hY2NvdW50Lm1hZ2VudG8uY29tL2Nsb3VkL2N1c3RvbWVyL3JlZGlyZWN0Lw%2C%2C/" class="btn btn-default">Login with Magento.com</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div></div></main><footer class="page-footer"><div class="footer content"><small class="copyright">
+    <span> Magento, Inc. All rights reserved.
+</span>
+</small>
+<ul class="footer links"><li class="nav item"><a href="https://magento.com/legal/terms/privacy">Privacy Policy</a></li><li class="nav item"><a href="https://magento.com/legal/terms/website">Terms Of Service</a></li><li class="nav item"><a href="https://magento.com/legal/licensing">License/Trademark FAQ</a></li></ul>
+<script type="text/javascript">
+    require(['jquery', 'jquery/jquery.cookie'], function ($) {
+
+        var cookieInitPopup = "survey_popup_init";
+        var cookieLaterShow = "survey_show_later";
+        var cookieNeverShow = "survey_show_never";
+        var initPopupPagesClasses = ['download-index-index','downloads-index-index', 'customer-account-index'];
+        var pageWithoutPopupClasses = ['customer-account-create', 'customer-account-forgotpassword'];
+        var cookieSetting = { path: "\u002F" , domain: ".magento.com"};
+        var cookieSettingNever = $.extend(cookieSetting, { expires:1000} );
+
+        /**
+         * Check if page appropriate to init popup
+         *
+         * @returns {boolean}
+         */
+        function canInitPopup() {
+            var result = false;
+            initPopupPagesClasses.forEach(function (className) {
+                if ($("body").hasClass(className)) {
+                    result = true;
+                }
+            });
+            return result;
+        }
+
+        /**
+         * Check if page appropriate to init popup
+         *
+         * @returns {boolean}
+         */
+        function pageWithoutPopup() {
+            var result = false;
+            pageWithoutPopupClasses.forEach(function (className) {
+                if ($("body").hasClass(className)) {
+                    result = true;
+                }
+            });
+            return result;
+        }
+
+        /**
+         * Check if init cookie set
+         *
+         * @returns {boolean}
+         */
+        function isCookieSet(name) {
+            if (!$.cookie(name)) {
+                return false;
+            }
+            return true;
+        }
+
+        /**
+         * Check if reject cookie set
+         *
+         * @returns {boolean}
+         */
+        function rejectCookiesSet() {
+            if ($.cookie(cookieLaterShow) || $.cookie(cookieNeverShow)) {
+                return true;
+            }
+            return false;
+        }
+
+        /**
+         * Show popup
+         */
+        function showPopup() {
+            if (canInitPopup() && !isCookieSet(cookieNeverShow)) {
+
+                if (isCookieSet(cookieLaterShow)) {
+                    $.cookie(cookieLaterShow, '', $.extend(cookieSetting, { expires: -1}));
+                }
+
+                if (!isCookieSet(cookieInitPopup)) {
+                    $.cookie(cookieInitPopup, true, cookieSetting);
+                }
+                $("#survey-popup").show();
+            } else {
+                if (!isCookieSet(cookieInitPopup) || rejectCookiesSet() || pageWithoutPopup()) {
+                    return;
+                }
+                $("#survey-popup").show();
+            }
+        }
+
+        /**
+         * OK button action handler
+         */
+        function okAction() {
+            $.cookie(cookieNeverShow, true, cookieSettingNever);
+            $("#survey-popup").hide();
+            window.open("http://selfserve.decipherinc.com/survey/selfserve/9d5/g30c/201200?list=1");
+        }
+
+        /**
+         * LATER button action handler
+         */
+        function laterAction() {
+            $("#survey-popup").hide();
+            $.cookie(cookieLaterShow, true, cookieSetting);
+        }
+
+        /**
+         * NO button action handler
+         */
+        function noThanksAction() {
+            $("#survey-popup").hide();
+            $.cookie(cookieNeverShow, true, cookieSettingNever);
+        }
+
+        $("#tech-download").click(okAction);
+        $("#later").click(laterAction);
+        $("#no-thanks").click(noThanksAction);
+        showPopup();
+    });
+</script>
+
+<div id="survey-popup" style="display: none">
+    <div class="survey-logo"></div>
+    <h4>Help us improve Magento My Account</h4>
+    <p>We are asking people to answer a 3 question survey to help us improve this site. Can you please share your opinions with us?</p>
+    <div class="survey-actions">
+        <div id="no-thanks">No thanks</div>
+        <div id="later" class="spectrum-Button spectrum-Button--primary">
+            <span class="spectrum-Button-label">Later</span>
+        </div>
+        <div id="tech-download" class="spectrum-Button spectrum-Button--cta">
+            <span class="spectrum-Button-label">OK</span>
+        </div>
+    </div>
+</div></div></footer><script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/account.magento.com\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/account.magento.com\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/account.magento.com\/rest\/customer_account\/V1\/products-render-info"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }
+</script>
+
+</div>    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"95a6a0aaac","applicationID":"589020890","transactionName":"YFdQYkJTWUACAEBbClkdc1VEW1hdTABYXRBTHVFDQ0ZYXgYRG14KUFtc","queueTime":0,"applicationTime":446,"atts":"TBBTFApJSk4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+```
