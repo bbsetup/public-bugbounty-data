@@ -1,0 +1,89 @@
+```
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Welcome</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://store.my.games/hotbox/gem_static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://store.my.games/hotbox/gem_static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://store.my.games/hotbox/gem_static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://store.my.games/hotbox/gem_static/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://store.my.games/hotbox/gem_static/favicon/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+</head>
+<body class="b-account-page" style="background-color: #000">
+<input type="hidden" name="csrfmiddlewaretoken" value="tunSRk4HzKTX6w6MY8uow3cEZZCbljfdyUrRKQgeKnavtKcKY9AKq6hDfamVlxqj">
+<script>
+    window.__GEMS = {
+        
+        "env": "production",
+        "elem": ".js-header",
+        "continue": "https://account.my.games/profile/userinfo/",
+        "failure": "https://account.my.games/login/",
+        "auth": 1,
+        "lang": "en_US",
+        "langs_available": ["en_US", "de_DE", "fr_FR", "es_ES", "pl_PL", "ru_RU", "tr_TR"],
+        "set_lang_url": "$url$",
+        'client_id': 'games.my.com',
+        "enable_analytics": 1,
+        "toolbar": { 'preset': 'store' },
+        "transparent": true,
+        "onFormChange": function (type) {
+            if (type === "signup") {
+                window.history.pushState({ type: type }, "Signup page", "/signup/" + window.location.search);
+            } else if (type === "login") {
+                window.history.pushState({ type: type }, "Login page", "/login/" + window.location.search);
+            }
+        }
+    };
+</script>
+
+<script src="https://store.my.games/hotbox/gem_static/leela/header.js"></script>
+<script src="https://store.my.games/hotbox/gem_static/account/release/main.js"></script>
+<div class="b-bg">
+    <div class="b-bg__img"></div>
+</div>
+<div class="b-header js-header"></div>
+<div class="b-main">
+    
+<div id="auth-page"></div>
+
+    <div class="container">
+        <div class="b-debug js-debug is-hidden" style="display: none;">
+            <pre>{}</pre>
+        </div>
+    </div>
+</div>
+
+
+    <script src="//store.my.games/hotbox/gem_static/leela/footer.js"></script>
+
+
+
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function()
+
+    {(m[i].a=m[i].a||[]).push(arguments)}
+    ;
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(53878270, "init",
+
+        { clickmap:true, trackLinks:true, accurateTrackBounce:true }
+    );
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/53878270" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>
+```
