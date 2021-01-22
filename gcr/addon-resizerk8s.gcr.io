@@ -1,0 +1,1 @@
+```Invalid host name addon-resizerk8s.gcr.io.```
