@@ -1,0 +1,237 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<html>
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org">
+
+    <title>Access Server Project at SourceForge</title>
+  </head>
+
+  <body bgcolor="white">
+    <div align="Center">
+      <table>
+        <tr>
+          <td><img src="acaciaRocks.jpg" alt=
+          "Zimbabwean Rock Formation"> </td>
+
+          <td>
+            <h1>Access Server</h1>
+
+            <p>Maintainer: <a href=
+            "mailto:thaig@sourceforge.net">Timothy N Murphy</a></p>
+          </td>
+        </tr>
+      </table>
+
+      <p>With thanks to&nbsp; <a href="http://sourceforge.net"><img
+      src="http://sourceforge.net/sflogo.php?group_id=18343" width=
+      "88" height="31" border="0" alt="SourceForge"></a> &nbsp; for
+      their excellent service.</p>
+    </div>
+
+    <table width="90%">
+      <tr>
+        <td>
+          <p><em>The Access Server controls a pool of modems and
+          waits for incoming calls. It then connects these calls to
+          a remote tcp socket. The program runs under Linux and
+          boots off a single floppy disk. With a multi-port serial
+          card it could be useful to ISPs but that's not all . .
+          .</em></p>
+        </td>
+      </tr>
+    </table>
+    <hr>
+
+    <h2>Contents</h2>
+
+    <ul>
+      <li><a href=
+      "ftp://accessserver.sourceforge.net/pub/accessserver/">Download</a></li>
+
+      <li><a href="#Whatitdoes">What it does</a></li>
+
+      <li>
+        <ul>
+          <li><a href="#Requirements">Requirements</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#History">History</a></li>
+
+      <li><a href="#Scratching_the_itch">Scratching The
+      Itch</a></li>
+
+      <li><a href="#Some_Other_Applications">Some Other
+      Applications</a></li>
+    </ul>
+    <hr>
+
+    <h2><a name="Whatitdoes"></a> What the Access Server Does</h2>
+    Access Server is a suite of programs that does a couple of
+    things: 
+
+    <ul>
+      <li>It is an "access/terminal server" which connects incoming
+      modem connections to remote TCP sockets. <em>Scenario:</em>
+      An ISP has a bank of modems attached to a PC with a
+      multi-port serial card. A caller connects to one of the
+      modems. The Access Server registers the call, allows the
+      modem to answer and connects the modem to a remote Radius
+      Authentication application. All this time, a manager is able
+      to see a GUI representation of the call load, which modems
+      are busy and how many failed connections were registered in
+      the last hour.</li>
+
+      <li>It is a testbed for a VoIP (Voice-over-IP) system that
+      uses the voice recording and playback features of current
+      voice modems</li>
+    </ul>
+
+    <h3><a name="Requirements"></a>Requirements</h3>
+
+    <p>The idea is to develop a gateway between telephone networks
+    and IP networks. It should:</p>
+
+    <ul>
+      <li>Be like an appliance - put the disk in, switch on the
+      computer, forget!</li>
+
+      <li>It should be simple and act sensibly when things go wrong
+      (e.g. power cuts)</li>
+
+      <li>Run on low-end hardware.</li>
+
+      <li>It should be possible to use it as a gateway to things
+      other than just the PPP protocol.</li>
+
+      <li>Configuration and management must be possible from a a
+      remote location.</li>
+
+      <li>When one is trying to get one of these servers running
+      one needs an interface with which it is easy to make
+      changes.</li>
+
+      <li>It's always very important to keep a check on how well it
+      is running so the management program's user interface should
+      present the vital information simply and quickly.</li>
+    </ul>
+
+    <p>The Access Server Project addresses these requirements by
+    the following means:</p>
+
+    <ul>
+      <li>It offers a web management interface via a tiny embedded
+      web server. This allows the status of individual modems to be
+      viewed from a web browser as well as permitting modems to be
+      enabled and disabled, or reset etc.</li>
+
+      <li>It runs on linux, and is booted off a single floppy disk.
+      It configures itself and automatically finds available modems
+      - this is useful in the case of power failure as it will
+      simply reload and carry on working when power returns.</li>
+
+      <li>Installation is as simple as editing a small config file
+      on the floppy disk to specify an IP address for the machine
+      and for the remote TCP service, inserting the disk into a
+      computer and powering on.</li>
+    </ul>
+
+    <p>Please ask questions so I can think of more to write!</p>
+    <hr>
+
+    <h2><a name="History"></a>History</h2>
+
+    <p>I started writing Access Server to scratch an itch.&nbsp; My
+    office used a Xyplex(TM) Access Server 720.&nbsp; We were
+    running a dial-in service using a proprietary protocol.&nbsp;
+    The modem rack had 4 modems and there was no chance of buying
+    any more since the company that made it was sold and the model
+    discontinued.</p>
+
+    <p>I spent a long time trying to work out how to attach a plain
+    old external modem to the Access server as a quick fix. I'm
+    from Zimbabwe and we don't buy new things like modem racks here
+    without a more than excellent reason.</p>
+
+    <p>Anyhow the experience was miserable.&nbsp; The 720 has an
+    extremely arcane command language,&nbsp; some commands activate
+    immediate changes while some activate delayed changes and it's
+    very hard to know which is which.&nbsp;</p>
+
+    <p>Our server ran a program which received the raw data from
+    the incoming modem (via a TCP socket).&nbsp; This program was
+    responsible for managing the proprietary protocol that the
+    caller spoke.</p>
+
+    <p>Simply setting the port to make a raw (untranslated and
+    unfiltered) connection to a remote port was hard even though I
+    copied the 720 port config from one of the existing modems to
+    the port of the new external modem.</p>
+
+    <h2><a name="Scratching_the_itch"></a>Scratching the Itch</h2>
+    To cut the story short, I decided that this was a terrible
+    waste of time. So I decided to write an Access Server myself
+    like so: 
+
+    <ol>
+      <li>Wrote it in Linux - reliable, customisable.</li>
+
+      <li>It boots from a floppy disk which makes everything
+      simpler for Windoze types because they don't have to install
+      anything. In addition it can run on machines without hard
+      drives like the old bit of junk in the corner that nobody can
+      find a use for.</li>
+
+      <li>Uses static linking and cram all the functionality into a
+      single executable which runs as the init process - this saves
+      one from the pain of stripping down the C library to fit on a
+      compressed ramdisk image. It means that you can use the same
+      C library as you use normally on your Linux machine.</li>
+    </ol>
+    <hr>
+
+    <h2><a name="Some_Other_Applications"></a>Some Other
+    Applications</h2>
+    Well, first problems first for me but some interesting
+    alternative uses for an Access Server of this type have popped
+    into mind. 
+
+    <p>There is, of course, the standard kind of thing where the
+    access server runs pppd for every incoming connection.&nbsp;
+    This could be done by Access Server as well.&nbsp; It's
+    modem-autodetection feature and remote management features
+    (when they are written) could make it a worthwhile alternative
+    to the many other getty's out there.</p>
+
+    <p>Then the other area that I'd like to explore is VOIP.&nbsp;
+    Currently lots of people have voice-modems.&nbsp; I'd like to
+    explore the possibility of setting up a few of these as "input"
+    points from the Plain Old Telephone System (POTS), transferring
+    the information via the internet to an "output" point.</p>
+
+    <p>VOIP is a magic thing for people in the third world.&nbsp;
+    Overseas telephone calls can be ruinously expensive, but
+    businesses everywhere need to make them every day -
+    particularly those with export/import focus. &nbsp; People
+    could use products like Netmeeting but these require a computer
+    with an internet connection and they're a pain to learn to
+    operate and the person you're trying to contact has to have the
+    same thing.&nbsp; It would be much simpler if people could use
+    just their telephone to do it.</p>
+
+    <p>Of course this has been done already but it's not ubiqitous
+    yet and the cost is not all that low.</p>
+
+    <p>Anyhow we'll see.&nbsp; I'm having a lot of trouble
+    interpreting the formats that my USR Sportster Voice
+    records.</p>
+    <hr align="Left" width="100%" size="2">
+
+    <div align="Center">
+      <h1>The End</h1>
+    </div>
+  </body>
+</html>
+
+```
