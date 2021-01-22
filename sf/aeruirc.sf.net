@@ -1,0 +1,97 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Aeru IRC project Official Site</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="css/three_column.css" media="screen,projection" title="Three Column (BlueRobot.com)" />
+<link rel="alternate stylesheet" type="text/css" href="css/three_column_black.css" media="screen, projection" title="Black Three Column" />
+</head>
+<body>
+<div id="logo">
+<a href="index.php"><img style="border:0;width:326px;height:230px" src="aeruirc_splash.png" alt="Aeu IRC's splash screen" title="Official splash screen of Aeru IRC project" /></a>
+</div>
+<div id="menu">
+<h2>ShockDev.AeruIRC</h2>
+<ul>
+ <li><a href="index.php?page=news">News</a></li>
+ <li><a href="index.php?page=features">Features</a></li>
+ <li><a href="index.php?page=faq">FAQ</a></li>
+ <li><a href="/phpBB2/">Forums</a></li>
+ <li><a href="redirect.php?page=changelog">Changelog</a></li>
+ <li><a href="redirect.php?page=todo">Todo list</a></li>
+ <li><a href="http://www.sourceforge.net/projects/aeruirc/">Sourceforge Page</a></li>
+ <li><a href="index.php?page=cvs">CVS</a></li>
+ <li><a href="index.php?page=downloads">Download</a></li>
+ <li><a href="index.php?page=contributors">Contributors</a></li>
+</ul>
+<p>
+<a href="http://sourceforge.net"> <img src="http://sourceforge.net/sflogo.php?group_id=56290" border="0" alt="SourceForge Logo" /></a>
+</p>
+<p>
+      <a href="http://validator.w3.org/check/referer"><img
+          src="valid-xhtml10.png"
+          style="border:0;width:88px;height:31px"
+          alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+</p>
+<p>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+  <img style="border:0;width:88px;height:31px"
+       src="vcss.png"
+       alt="Valid CSS!" />
+ </a>
+</p>
+</div>
+<div id="content" class="content">
+<h2 align="center">Welcome to Aeru IRC web site</h2>
+<p>
+Welcome to the official Aeru IRC project Web Site.
+Aeru IRC is a IRC client written in C# for currently the Microsoft .NET Framework only.
+The client is based on RFC 1459(Internet Relay Chat Protocol) and RFC 2812(Internet Relay Chat: Client Protocol).
+They are 5 members working on Aeru IRC and the leader of the project is Michaël Larouche aka Shock The Dark Mage.
+The project is on alpha status.
+</p>
+
+<h2>History of the Aeru IRC project.</h2>
+<p>
+I(Michaël Larouche aka Shock) have begin this project near February 2002 when I was consulting my book on C#
+and it has a example of a "IRC client" who was using a MS Access Database for storing discussions and users.
+This was not a REAL IRC Client.
+The IRC protocol is much better than a MS Access.
+So I begin to hack the FTP client example and make a little terminal to send RAW commands.
+I was using the .NET Framework Beta 2.
+</p>
+<p>
+In April 2002, I got Visual Studio .NET 2002 with .NET Framwork RTM.
+So I begin to make the GUI and little implantation of the IRC protocol.
+In this version of the code, the GUI was better than implantation of the IRC protocol because I was focusing on the GUI
+rather than the socket and IRC protocole so it was bad.
+I stopping working on the project because of lack of interess.
+</p>
+<p>
+But in November 2002, I decided to restart from stratch, with focusing on implanting socket and IRC protocol.
+I starting designing the client the 4th november and the first working was on 8th november.
+It was a little terminal who was parsing somes reply message from the IRC server.
+As long, the client was growing up and the GUI was forming. At March 2003, the IRC protocol was almost
+finish(missing DCC and IDENT server) and the client was usable for daily use.
+Also I got a new member, Alex Egg, who made the splash screen.
+</p>
+<p>
+But I take a little break to focus more on school work.
+During that time, I was thinking adding multi-server function.
+But with this current code, this would take a lot of rework and I also realised that the code was a little bad.
+So I remake the design of the program but keeping closer with the current code for easier adapation.
+The code was splitted into 3 assemblies, AeruIRC.IRC for IRC protocol, AeruIRC.Core for utilies functions and AeruIRC.GUI for the Windows.Forms GUI.
+This new codebase is currrently in work in the CVS.
+On June 29th, I got people for helping making the client: Martin Lévesque aka [rypt0, Étienne Bernier Gosselin aka Burger and William Myatt.
+I am very happy from their contribution to the project.
+</p>
+</div>
+<div id="credit">
+<p>Site rendered with </p><p>Server: </p><p>This site is better rendered with <a href="http://www.mozilla.org" target="_new" title="Mozilla, the most successful stantard browser">Mozilla</a>. </p>
+<p>©2002-2003 Shock's Dev. All rights reserved.<br />
+Microsoft, .NET, Windows are trademarks of Microsoft Corporation.</p>
+</div>
+</body>
+</html>
+
+```
