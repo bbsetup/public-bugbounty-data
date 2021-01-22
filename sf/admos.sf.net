@@ -1,0 +1,139 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>ADMOS - Innovative Operating System</title>
+<link rel="stylesheet" href="3col_leftNav.css" type="text/css" />
+</head>
+<body>
+<div id="masthead">
+  <h1 id="siteName">ADMOS</h1>
+  <div id="globalNav"> <a href="about.html">About us </a> | <a href="products.html">Products</a> | <a href="http://sourceforge.net/projects/admos/">Download</a> | <a href="buy.html">Buy</a> | <a href="#">Community</a> | <a href="#">Support</a> | <a href="#">Donate</a> </div>
+  <h2 id="pageName">Innovative Operating System </h2>
+  <div id="breadCrumb"> <a href="#">Homepage</a></div>
+</div>
+<div id="navBar">
+  <div id="search"></div>
+  <div id="sectionLinks">
+    <h3>Support</h3>
+    <ul>
+      <li><a href="https://sourceforge.net/projects/admos/forums/forum/1120070">Help</a></li>
+      <li><a href="https://sourceforge.net/projects/admos/forums/forum/1120069">Open   Discussion</a></li>
+      <li><a href="https://sourceforge.net/mail/?group_id=314248">Mailing List</a>
+        <ul>
+          <li><a href="https://sourceforge.net/tracker/?group_id=314248&amp;atid=1322317">Report Bugs</a></li>
+          <li><a href="https://sourceforge.net/tracker/?group_id=314248&amp;atid=1322318">Support   Requests</a></li>
+          <li><a href="https://sourceforge.net/tracker/?group_id=314248&amp;atid=1322319">Patches</a></li>
+          <li><a href="https://sourceforge.net/tracker/?group_id=314248&amp;atid=1322320">Feature   Requests</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+    <div id="sectionLinks">
+    <h3>Documentation</h3>
+    <ul>
+      <li><a href="https://sourceforge.net/apps/mediawiki/admos/">Wiki</a></li>
+      <li><a href="https://sourceforge.net/apps/trac/admos/">Trac</a></li>
+      <li><a href="https://sourceforge.net/apps/phpwebsite/admos/">Press Release </a></li>
+      <li><a href="https://sourceforge.net/apps/gallery/admos/">Gallery</a></li>
+      </ul>
+  </div>
+  <div id="sectionLinks">
+    <h3>Follow</h3>
+    <ul>
+      <li><a href="https://sourceforge.net/apps/laconica/admos/">Updates</a></li>
+      <li><a href="https://sourceforge.net/apps/wordpress/admos/">Blog</a></li>
+    </ul>
+  </div>
+  <div id="sectionLinks">
+    <h3>Project Management</h3>
+    <ul>
+      <li><a href="https://sourceforge.net/apps/taskfreak/admos/">Task Manager</a></li>
+      <li><a href="https://sourceforge.net/apps/ideatorrent/admos/">Brainstorm</a></li>
+	  <li><a href="https://sourceforge.net/apps/dotproject/admos/">Events & Tasks</a></li>
+    </ul>
+  </div>
+  <!--<div class="relatedLinks">
+    <h3>Related Link Category</h3>
+    <ul>
+      <li><a href="#">Related Link</a></li>
+      <li><a href="#">Related Link</a></li>
+      <li><a href="#">Related Link</a></li>
+      <li><a href="#">Related Link</a></li>
+      <li><a href="#">Related Link</a></li>
+      <li><a href="#">Related Link</a></li>
+    </ul>
+  </div>
+  <div class="relatedLinks">
+    <h3>Related Link Category</h3>
+    <ul>
+      <li><a href="#">Related Link</a></li>
+      <li><a href="#">Related Link</a></li>
+      <li><a href="#">Related Link</a></li>
+      <li><a href="#">Related Link</a></li>
+      <li><a href="#">Related Link</a></li>
+      <li><a href="#">Related Link</a></li>
+    </ul>
+  </div>-->
+</div>
+<!--end navBar div -->
+<div id="headlines">
+  <center><a href="http://sourceforge.net/donate/index.php?group_id=314248"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project" /> </a></center>
+  <h3><a href="http://gnu.org"><img src="GNU-FSF-4.jpg" alt="GNU's Not Unix" width="170" height="177" border="0" longdesc="http://gnu.org" /></a><a href="http://linux-libre.fsfla.org/"><img src="Linux-Inside.gif" alt="Linux kernel" width="168" height="132" border="0" longdesc="http://linux-libre.fsfla.org/" /></a></h3>
+  <p><a href="http://ubuntu.com"><img src="ubuntu.PNG" alt="Ubuntu" width="167" height="240" border="0" longdesc="http://ubuntu.com" /></a></p>
+  <p>&nbsp;</p>
+  <div id="advert"> 
+    <p><img src="" alt="" width="107" height="66" /> Your AD can be placed here. </p>
+    <p>Send us your offers at : abhradipm@gmail.com </p>
+  </div>
+</div>
+<!--end headlines -->
+<div id="content">
+  <div class="feature"> <img src="minimalubuntu.PNG" alt="" width="229" height="166" />
+    <h3>What is ADMOS?&nbsp;</h3>
+    <p align="justify"><strong>ADMOS-Lite</strong> (previously known as <strong>minimalubuntu</strong>) is an operating system that features LXDE and   lightweight programs based on Ubuntu (operating system), but it   is not an official project by Canonical Ltd. The goal of ADMOS-Lite is to create a distribution based on Ubuntu that is reasonably fast even on limited hardware &amp; comprises of 100% free software only. In contrast to other variants of   Ubuntu, ADMOS-Lite is focused on providing a trimmed set of software   packages while providing the experience expected by a modern computer   user. Furthermore, the user interface is designed to be usable even at smaller   resolutions such as those on older computers and netbooks.
+    </p>
+    <p align="justify">ADMOS-Lite uses software from the repositories of Ubuntu but also   excludes non-free elements. ADMOS-Lite is promoted, developed, and   distributed by the P4F Project.</p>
+  </div>
+  <div class="story">
+    <h3>Main Characteristics </h3>
+    <ul>
+      <li>Minimal (308mb)</li>
+      <li>Version 1 is Based of Ubuntu 9.04</li>
+      <li>Uses Desktop Environment provided by LXDE</li>
+      <li>Ready to go for further customiztion with necessary tools inbuilt   including a CD/DVD burner</li>
+      <li>Fast file processing and a nice file manager.</li>
+      <li>Inbuilt IceCat Browser (100% Free Alternative to Firefox 3.5) with   private browsing features.</li>
+      <li>100% Free Software (i.e. No restricted or multiverse module)</li>
+      <li>Easy Graphical Package Installer with Synaptics</li>
+      <li>Lightweight text editor Leafpad.</li>
+      <li>Comes Free of Cost</li>
+    </ul>
+    </div>
+  <div class="story">
+    <h3>Why MinimaLubuntu (ADMOS-Lite) ? </h3>
+    <p align="justify">I love ubuntu. More than any other gnu+linux operating system. I feel   that a good operating system needs to be stable. After all I am giving   my precious hardware in the hand of this OS and it therefore must be   reliable, solid and able to take good care of my hardware. Its like   finding a groom for daughter. And that is why although I like the   bleeding edge thing in fedora I keep a distance with it when when it   comes to installing the OS on my hard disk. I seriously dont like that   much of rapid change for a base system. Would you like to change your   wife every six months (notice that I said &quot;wife&quot; not &quot;girlfriend&quot;)?   Ubuntu is strong and reliable and probably that is why millions of   people worldwide trust on Ubuntu as their desktop OS.<br />
+      <br />
+      <strong>Ubuntu in its official definition says :<br />
+Ubuntu is an operating system built by a worldwide team of expert   developers. It contains all the applications you need: a web browser,   office suite, media apps, instant messaging and much more.<br />
+<br />
+Ubuntu is an open-source alternative to Windows and Office.</strong><br />
+<br />
+Now this is where problem starts for me (and possibly for several   others). I am a greater lover of free software. And by saying free   software I mean 100% free software that ensures your security and   freedom (Free as in Freedom, not as in Free Beer). How can my favourite   distro be such a huge supporter of open source?? I mean wt*?<br />
+&quot;OK&quot; I said to myself &quot;Cool down &amp; think what you can do to save   both of your favourites&quot;. Answer was quite easy. I installed, got into   the system and removed all those non-free stuffs :)<br />
+<br />
+But there is one more problem too. Ubuntu was quite slow performer compared to Zenwalk (my other   favourite) or sitaz (I am amazed with this one). I dont like gnome's   burden on my low ram computer (Although I am a fan of gnome otherwise).   As a advanced user, I sometimes just need my console and none of those   heavy stuffs. Dont think of me geek enough to say &quot;console is my only   love&quot;. I need GUI. To show off to friends or at those rare times when I   decide to play games on my computer.<br />
+<br />
+Now the next task for me was to get rid off those heavy staffs that I   dont need at this system with low memory. Finally I installed LXDE   instead of gnome and started living with my computer happily ever after.<br />
+<br />
+....Film is not over yet my friend! I decided to move a step further and   built a new operating system based of Ubuntu and stripped it down to   308 mb only. Uploaded it to a server, set up a website and released it   for download by everyone in the world. I named it ADMOS-Lite.</p>
+  </div>
+</div>
+<!--end content -->
+<div id="siteInfo"> <img src="" width="44" height="22" /> <a href="about.html">About Us</a> | <a href="#">Site Map</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a> | &copy;2010 Abhradip Mukherjee (All content released under GFDL) </div>
+<br />
+</body>
+</html>
+```
