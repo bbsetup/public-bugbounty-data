@@ -1,0 +1,90 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>ADODBAPI</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 2.0  (Win32)">
+	<META NAME="CREATED" CONTENT="20070712;14202402">
+	<META NAME="CHANGEDBY" CONTENT="Vernon Cole">
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=0 CELLSPACING=0 STYLE="page-break-before: always">
+	<TR>
+		<TD>
+			<H1><IMG SRC="adodbapilogo.gif" NAME="graphics1" ALIGN=BOTTOM WIDTH=273 HEIGHT=62 BORDER=0></H1>
+		</TD>
+		<TD>
+			<P ALIGN=RIGHT><A HREF="http://sourceforge.net/"><IMG SRC="http://sourceforge.net/sflogo.php?group_id=63427&amp;type=4" NAME="graphics2" ALT="SourceForge.net Logo" ALIGN=BOTTOM WIDTH=125 HEIGHT=37 BORDER=0></A></P>
+		</TD>
+	</TR>
+</TABLE>
+<P>A <A HREF="http://www.python.org/">Python</A> module that makes it
+easy to use <A HREF="http://www.microsoft.com/data/ado/">Microsoft
+ADO</A> for connecting with databases and other data sources.&nbsp;</P>
+<H2>Features:</H2>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in">100% <A HREF="http://www.python.org/topics/database/DatabaseAPI-2.0.html">DB-API
+	2.0</A> compliant. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">Includes <A HREF="http://pyunit.sourceforge.net/">pyunit</A>
+	testcases and examples describing how to use the module.&nbsp; 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">Fully implemented in Python. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">Licensed under the <A HREF="http://www.opensource.org/licenses/lgpl-license.php">LGPL</A>
+	license, which means that it can be used freely even in commercial
+	programs subject to certain restrictions. 
+	</P>
+	<LI><P>Tested using Microsoft SQL server, MySQL and Access (Jet) tables. Works with many others including AS/400.
+	</P>
+</UL>
+<H2>Project page:</H2>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in">Brief Documentation: <A HREF="quick_reference.pdf">quick_reference.pdf</A></P>
+	<LI><P STYLE="margin-bottom: 0in">Read more <A HREF="http://www.sourceforge.net/projects/adodbapi">here.</A></P>
+	<LI><P STYLE="margin-bottom: 0in">Guilty Party (a.k.a. new 
+project leader): <A HREF=http://sourceforge.net/users/kf7xm>Vernon 
+Cole</A></P> 
+</UL>
+<H2>Prerequisites:</H2>
+<UL>
+       <LI><P STYLE="margin-bottom: 0in">Python 2.5 or higher.
+        </P>
+	<LI><P STYLE="margin-bottom: 0in">Mark Hammond's <A HREF="http://pywin32.sourceforge.net/">pywin32</A>
+	python for windows extensions. (Since pywin32 release 211, 
+adodbapi is included, so you do not need to download it separately unless you want patches or are using IronPython.)
+	</P>
+	<LI><P><I>OR:</I> <A HREF=http://www.codeplex.com/Wiki/view.aspx?ProjectName=IronPython>IronPython</A> 
+version 2.6 or later. 
+	</P>
+</UL>
+<H2>Download:</H2>
+<P>The latest release may be found <A 
+HREF="http://www.sourceforge.net/projects/adodbapi">here
+.</A></P>
+<H2>Mailing Lists:</H2>
+<P>The old adodbapi mailing lists are dead.
+<br>If you want to discuss or participate in developing adodbapi, 
+subscribe to the
+<A 
+HREF="http://mail.python.org/mailman/listinfo/python-win32">pywin32
+mailing list</A>. 
+</P>
+<H2>Thanks:</H2>
+<P>Original Author <A HREF="http://sourceforge.net/sendmessage.php?touser=618411">Henrik
+Ekelund</A>.</P>
+<H2>Contribute:</H2>
+<P>Please send bug reports (preferably failing test cases),
+improvements and comments to the developers mailing list. 
+</P>
+<H2>Links:</H2>
+<P>Information about connectionstrings can be found <A HREF="http://www.connectionstrings.com/">here</A>.
+<BR><BR>The Python database SIG and related mailing list is
+<A HREF="http://www.python.org/sigs/db-sig/">here.</A><BR><BR><A HREF="http://www.egenix.com/">eGenix</A>
+provides a high preformance commercial alternative if you want to use
+ODBC rather than ADO/OLE-DB. <BR><BR>Other database interfaces can be
+found <A HREF="http://dmoz.org/Computers/Programming/Languages/Python/Modules/Databases_and_Persistence/">here</A>.
+</P>
+</BODY>
+</HTML>
+```
