@@ -1,0 +1,173 @@
+```
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>3rdParty-Login</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="expires" content="0">
+
+		<link href="/otp-css/login.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="/otp-js/sgd.js"></script>
+	</head>
+
+<body>
+
+<style>
+# <!-- based on suckerfish style from alistapart.com -->
+ul 
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li 
+{
+  list-style: none;
+  float: left;
+  position: relative;
+  width: 10em;
+}
+
+li ul 
+{
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+li:hover ul
+{
+  display: block;
+}
+
+#contentcolumn 
+{ 
+   margin-left: 620px; 
+}
+
+#leftcolumn
+{
+  float: left;
+  width: 620px;
+}
+
+.innertube
+{
+  margin: 10px; 
+  margin-top: 0;
+}
+</style>
+
+
+<!-- Header -->
+<div class="tbs-header">
+	<div class="tbs-header-content">
+		<span class="tbs-text-big">3rdParty Access</span>
+		<div class="tbs-box-right">
+			
+	
+			<ul style="width:60px;">
+         		<li class="selected"> <a href="?lg=de" target="_top">Deutsch</a> 
+            	<img src="/otp-images/tmp_arrow.png" alt="arrow" height="9px" width="9px" style="padding-left: 2px;" />
+            <li> <a href="?lg=en" target="_top">English</a></li>
+	</ul>		
+			
+		</div>
+	</div>
+</div>
+<div class="tbs-content fullscreen">
+
+	<!-- Loginbox -->
+	<div class="tbs-box-left">
+		<div class="tbs-login">
+			
+			<div class="header">
+				<h1>Willkommen beim 3rdParty access der Deutschen Telekom AG</h1>
+			</div>
+			<div class="header">
+				<h1></h1>
+				<h1>Bitte tragen Sie ihrem Usernamen ohne @otp.t-mobile.ssgd ein und fordern ein OTP an.</h1>
+				
+			</div>
+
+			
+			<form name="login" method="POST" action="/otp/otpLoginV2.pl" accept-charset="UTF-8" >
+			<div class="header">
+				<h1><input id="user" name="alias" maxlength="256" type="text" value="" tabindex="1" />  @OTP.t-mobile.ssgd</h1>
+			</div>
+			
+			<div class="tbs-button">
+				<button id="pw_submit" name="pw_submit" class="tbs-box-center" type="submit" tabindex="15" value="z132983341e428bad834abd057a9a92d5c65a773">OTP anfordern </button>
+			</div>
+			<input id="lg" name="lg" type="hidden" value="de">
+			
+			 <script type="text/javascript">
+			 var Sekunden = 0;
+			 var Buttonbeschriftung = "OTP anfordern";
+			 
+			 document.getElementById('pw_submit').disabled = true;
+			 
+			 for(i = 1; i <= Sekunden; i++)
+			 {
+			     window.setTimeout("ButtonAktualisieren(" + i + ")", i*1000);
+			 }
+			 
+			 window.setTimeout("ButtonFreigeben()", Sekunden*1000);
+			 
+			 
+			 function ButtonAktualisieren(VergangeneSekunden)
+			 {
+			     if(VergangeneSekunden == Sekunden)
+			     {
+			         document.getElementById('pw_submit').innerHTML = Buttonbeschriftung;
+			     }
+			     else
+			     {
+			         Restsekunden = Sekunden-VergangeneSekunden;
+			         document.getElementById('pw_submit').innerHTML = Buttonbeschriftung + " (" + Restsekunden + ") ";
+			     }
+			 }
+			 
+			 
+			 function ButtonFreigeben()
+			 {
+			     document.getElementById('pw_submit').disabled = false;
+			 }
+			</script>
+			
+			
+<input id="csrf" name="csrf" type="hidden" value="9BD3E3F2-5CF7-11EB-BEBE-BAF5DC33A97D">
+
+			</form>
+		</div>
+	</div>
+
+
+<!-- Loginbox -->
+<div class="tbs-box-left">
+	 <div id="hilfe" style=" width: 600px; margin: 50px 180px ; padding: 20px 20px; background-color: rgb(237, 237, 237); border: 1px solid rgb(208, 208, 208);">
+
+<a href="/installic_de.html" target="_blank" title="Oracle Secure Global Desktop-Client">Oracle Secure Global Desktop-Client<A>
+<br>
+<a href="/docs/downloads/3rdpartyaccess-userhandout_de.pdf" target="blank" title="Handout f&uuml;r den User &nbsp; PDF">Handout f&uuml;r den User &nbsp; <img src="/docs/images/pdf.png"  style="padding-left: 2px;"></A><br>
+<br>
+<hr>
+<br>		<b>Servicedesk:</b><br>
+<br>
+Servicedesk f&uuml;r ihre OSGD/OTP St&ouml;rungen:<br>
+Telefon: +49 211 5208 2630<br>
+eMail: <a href="mailto:cic.24x7@t-systems.com?subject=OSGD incident">
+    Mail an den Servicedesk
+</a>
+<br>
+Der Servicedesk steht Ihnen 7x24 Stunden zur Verf&uuml;gung.<br>
+Bei St&ouml;rungsmeldungen via eMail bitte "OSGD + &lt;Name 3rd party&gt;" im Betreff angeben.<br>
+Bitte notieren Sie sich die email-Adresse und Telefonnummer des Servicedesk f&uuml;r den Notfall.<br>
+
+	</div>	
+</div>
+</div><font color="white">QDEGY6</font></body></html>```
