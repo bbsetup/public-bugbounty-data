@@ -1,0 +1,673 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=windows-1252">
+  <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+  <meta name="keywords"
+ content="Ericsson, AEM, Asynchronous Event Mechanism, Asynchronous Events, asynchronous socket, soft-timers, event-driven, Linux kernel, Telecom, SourceForge, Frederic Rossi">
+  <meta name="owner" content="Ericsson Research Canada">
+  <title>AEM - Asynchronous Event Mechanism</title>
+  <meta name="author" content="Frederic Rossi">
+  <meta name="description" content="AEM Home Page">
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" width="742" border="0"
+ height="101">
+  <tbody>
+    <tr>
+      <td width="1" height="1">
+      <table border="0" cellspacing="0" cellpadding="0" width="774">
+        <tbody>
+          <tr>
+            <td width="153" bgcolor="#ffffff"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a href="http://sourceforge.net"><img
+ src="Images/sflogo.png"
+ style="border: 0px solid ; width: 88px; height: 31px;"
+ alt="SourceForge.net Logo" align="left" title=""> </a><br>
+            </font> </td>
+            <td align="right" width="530" bgcolor="#ffffff"><big> </big>
+            <p align="left"><b><big><big><font size="-1"
+ face="Helvetica, Arial, sans-serif"><big><big>AEM - The Linux
+Asynchronous Event Mechanism</big></big></font> </big></big></b></p>
+            <big> </big></td>
+            <td align="right" width="91" bgcolor="#ffffff"><font
+ size="-1" face="Helvetica, Arial, sans-serif"><a
+ href="http://sourceforge.net/projects/aem"> </a><br>
+            </font> </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="447">
+  <tbody>
+    <tr>
+      <td valign="top" align="left" width="170" bgcolor="#c0c0c0">
+      <table bordercolor="#d77023" height="10" width="107">
+        <tbody>
+          <tr>
+            <td width="6" rowspan="17" height="464"><font size="-1"
+ face="Helvetica, Arial, sans-serif" color="#996633"><br>
+            </font> </td>
+            <td colspan="2" height="10" width="111">
+            <p align="left"><font size="-1"
+ face="Helvetica, Arial, sans-serif" color="#996633"> <b>Project</b></font></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="6" height="5"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="5" width="99"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a href="#Project"> Status</a></font> </td>
+          </tr>
+          <tr>
+            <td width="6" height="3"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="3" width="99"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a
+ href="http://sourceforge.net/projects/aem"> Project Page</a></font> </td>
+          </tr>
+          <tr>
+            <td width="6" height="1"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="1" width="99"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a
+ href="http://sourceforge.net/cvs/?group_id=28248"> CVS</a></font> </td>
+          </tr>
+          <tr>
+            <td height="10"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="10"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+          </tr>
+          <tr>
+            <td width="111" height="10" colspan="2" nowrap="nowrap">
+            <p align="left"><font color="#996633"><b><font size="-1"
+ face="Helvetica, Arial, sans-serif"> Source Code</font></b></font></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="6" height="3"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="10" width="99"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a href="#Patches"> Patches</a></font> </td>
+          </tr>
+          <tr>
+            <td width="6" height="1"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="10" width="99"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a href="#Packages"> Packages</a></font> </td>
+          </tr>
+          <tr>
+            <td height="10"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="10"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+          </tr>
+          <tr>
+            <td colspan="2" height="18" width="111">
+            <p align="left"><b><font size="-1"
+ face="Helvetica, Arial, sans-serif"> <font color="#996633">Documentation</font></font></b></p>
+            </td>
+          </tr>
+          <tr>
+            <td height="2" width="6"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="2" width="99"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a href="#Reports"> Reports</a></font> </td>
+          </tr>
+          <tr>
+            <td height="1" width="6"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="1" width="99"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a href="#Articles"> Articles</a></font> </td>
+          </tr>
+          <tr>
+            <td height="10"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="10"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+          </tr>
+          <tr>
+            <td colspan="2" height="10" width="111">
+            <p align="left"><font size="-1"
+ face="Helvetica, Arial, sans-serif" color="#996633"> <b>Information</b></font></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="6" height="11"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="10" width="99"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a href="#Links"> Links</a></font> </td>
+          </tr>
+          <tr>
+            <td width="6" height="5"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="5" width="99"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a href="#Contacts"> Contacts</a></font> </td>
+          </tr>
+          <tr>
+            <td height="10"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+            <td height="10"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+            </font> </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td valign="top" width="590"><!-- begin content table --><!--
+	Body
+-->
+      <table border="0" width="700">
+        <tbody>
+          <tr>
+            <td width="664" bgcolor="#cccccc"><b><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a name="overview">Overview&nbsp;</a></font></b> </td>
+          </tr>
+        </tbody>
+      </table>
+      <blockquote>
+        <p> </p>
+        <p
+ style="font-family: helvetica,arial,sans-serif; text-align: justify;"><font
+ size="-1" face="Helvetica, Arial, sans-serif"> AEM (Asynchronous Event
+Mechanism) provides a generic and native support for asynchronous events
+into the Linux kernel.&nbsp; Its goal is to provide a scalable and soft
+real-time mechanism to applications running on Linux. <o:p></o:p></font></p>
+        <div style="text-align: justify;"> </div>
+        <p
+ style="font-family: helvetica,arial,sans-serif; text-align: justify;"> </p>
+        <div style="text-align: justify;"> </div>
+        <p
+ style="font-family: helvetica,arial,sans-serif; text-align: justify;"><font
+ size="-1" face="Helvetica, Arial, sans-serif">AEM targets the telecom
+industry where an efficient&nbsp; handling of a massive number of system
+events is crucial. But in addition, the field of applications and the
+way it can be used is manifold: user space interface for network
+protocols, embeded in event-driven applications, exception
+notifications.... AEM enables the design and implemention of either
+fully event-driven applications or&nbsp; applications mixing
+event-driven code and sequential code.</font></p>
+        <p
+ style="font-family: helvetica,arial,sans-serif; text-align: justify;"><font
+ size="-1" face="Helvetica, Arial, sans-serif"> AEM works by executing
+user space procedures or by creating new processes asychronously in
+response to system events. It can support several millions of active
+events per CPU-board depending on the available memory (a P3 with 750Mb
+supports up to 2 millions events). <br>
+        </font></p>
+        <p
+ style="font-family: helvetica,arial,sans-serif; text-align: justify;"><font
+ size="-1" face="Helvetica, Arial, sans-serif">AEM's API regarding
+event handlers is not fixed but is defined by implementators in their
+respective event modules. This provides a flexible mechanism allowing to
+comform to any kind of existing standard.<br>
+        </font></p>
+        <div style="text-align: justify;"> </div>
+        <div style="text-align: justify;"> </div>
+        <p
+ style="font-family: helvetica,arial,sans-serif; text-align: justify;"> </p>
+        <div style="text-align: justify;"> </div>
+        <p
+ style="font-family: helvetica,arial,sans-serif; text-align: justify;"><font
+ size="-1" face="Helvetica, Arial, sans-serif">AEM is a kernel patch
+for the basic support and kernel modules for specific event
+implementations.&nbsp; This is an ongoing research project and the
+source code is available [ <a href="#Packages">here</a> ].&nbsp; More
+descriptions and explanations on how to use AEM modules can be found [ <a
+ href="#AEM_modules">here</a> ].<br>
+        </font> </p>
+        <div style="text-align: justify;"> </div>
+        <p
+ style="font-family: helvetica,arial,sans-serif; text-align: justify;"> </p>
+        <div style="text-align: justify;"> </div>
+        <p
+ style="font-family: helvetica,arial,sans-serif; text-align: justify;"> </p>
+        <div style="text-align: justify;"> </div>
+        <p
+ style="font-family: helvetica,arial,sans-serif; text-align: justify;"><font
+ size="-1" face="Helvetica, Arial, sans-serif"> AEM has also been
+introduced as a requirement for the OSDL Carrier-Grade Linux 2.0
+specifications.</font></p>
+        <blockquote>
+          <blockquote>
+            <ul>
+            </ul>
+          </blockquote>
+        </blockquote>
+        <p> </p>
+      </blockquote>
+      <table border="0" cellspacing="1" width="700">
+        <tbody>
+          <tr>
+            <td bgcolor="#cccccc" width="661"><b><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a name="license">License&nbsp;</a></font></b> </td>
+          </tr>
+        </tbody>
+      </table>
+      <blockquote>
+        <div style="text-align: left;"> <font size="-1"
+ face="Helvetica, Arial, sans-serif">The AEM source code is being
+released under the <a href="http://www.gnu.org/copyleft/gpl.html"> GNU
+Public License (GPL), version 2</a>. </font></div>
+      </blockquote>
+      <table border="0" cellspacing="1" width="700">
+        <tbody>
+          <tr>
+            <td bgcolor="#cccccc" width="660"><b><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a name="Reports">Reports&nbsp;</a></font></b> </td>
+          </tr>
+        </tbody>
+      </table>
+      <div align="left">
+      <div style="text-align: left;">
+      <blockquote><font size="-1" face="Helvetica, Arial, sans-serif">[R1]
+OSDL Carrier-Grade Linux Working Group, Requirements for Low-Level
+Asynchronous Events [ <a href="reports/AEM_cgl_reqts_draft0.6.pdf">pdf</a>
+], Draft 0.6.<br>
+[R2]&nbsp;AEM - FAQ [ <a href="reports/aem-faq-draf0.3.pdf">pdf</a> ],
+Draft 0.3.<br>
+[R3] Frederic Rossi, The Benefits of An Event Mechanism in
+Carrier-Grade Linux [ <a href="articles/Rossi2003AEMintro.pdf">pdf</a>
+], February 2003. <br>
+        </font> </blockquote>
+      </div>
+      <table border="0" cellspacing="1" width="700">
+        <tbody>
+          <tr>
+            <td bgcolor="#cccccc" width="660"><b><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a name="Articles">Articles/Conferences&nbsp;</a></font></b> </td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="text-align: left;">
+      <blockquote style="font-family: helvetica,arial,sans-serif;"><font
+ size="-1" face="Helvetica, Arial, sans-serif">[<a name="1"></a>1]
+Frederic Rossi, Asynchronous Events on Linux [ <a
+ href="reports/aem_ocg_2002June25.pdf">pdf</a> ], Open Cluster Group
+Conference, June 25 2002.<br>
+[<a name="2"></a>2] Frederic Rossi, An Event Mechanism For Linux, in
+Linux Journal, July 2003, #111.<br>
+[<a name="3"></a>3] Frederic Rossi, AEM - A Scalable and Native Event
+Mechanism for Linux, November 2004, #127.<br></font></blockquote>
+      </div>
+      <ul>
+      </ul>
+      </div>
+      <table border="0" cellspacing="1" width="700">
+        <tbody>
+          <tr>
+            <td bgcolor="#cccccc" width="659"><b><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a name="Patches"> Patches&nbsp;</a></font></b> </td>
+          </tr>
+        </tbody>
+      </table>
+      <blockquote>
+        <div align="center"> </div>
+        <p style="text-align: justify;"><font size="-1"
+ face="Helvetica, Arial, sans-serif">These are the latest patches for
+AEM. They are also included into the corresponding packages just below.<br>
+        </font> </p>
+        <table cellpadding="2" cellspacing="2" border="0"
+ style="width: 450px;">
+          <tbody>
+            <tr>
+              <td
+ style="vertical-align: top; background-color: rgb(102, 255, 255); text-align: center; width: 10px;"><font
+ size="-1" face="Helvetica, Arial, sans-serif"><b><nobr>Kernel</nobr></b><br>
+              </font> </td>
+              <td
+ style="vertical-align: top; background-color: rgb(102, 255, 255); text-align: center; width: 10px;"
+ align="center"><font size="-1" face="Helvetica, Arial, sans-serif"><b><nobr>Patch</nobr></b><br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td valign="top" rowspan="1" colspan="2" bgcolor="#65ff65"
+ style="width: 10px;"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><i><nobr>Kernel 2.6</nobr></i><br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><nobr>2.6.6</nobr></font></td>
+              <td
+ style="vertical-align: top; text-align: center; background-color: rgb(255, 255, 204);"
+ align="center"><font size="-1" face="Helvetica, Arial, sans-serif"><nobr>[</nobr><a
+ href="src/linux-2.6.6-aem-15r9.patch"><nobr>aem-15r9</nobr></a><nobr>]
+ </nobr><br>
+              </font> </td>
+            </tr>
+            <tr align="left">
+              <td bgcolor="#65ff65" valign="top" rowspan="1" colspan="2"
+ style="width: 10px;"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><i><nobr>Kernel 2.4</nobr></i><br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td valign="top" style="width: 10px;"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><nobr>2.4.20</nobr><br>
+              </font> </td>
+              <td valign="top" bgcolor="#ffffcc" style="width: 10px;"
+ align="center"><font size="-1" face="Helvetica, Arial, sans-serif"><nobr>[</nobr><nobr></nobr><a
+ href="src/linux-2.4.20-aem-12r14.patch"><nobr>aem-12r14</nobr></a><nobr>
+]</nobr><a href="src/linux-2.4.20-aem-12r14.patch"><nobr></nobr></a><a
+ href="src/linux-2.4.20-aem-12r14.patch"><nobr></nobr></a><nobr></nobr></font> </td>
+            </tr>
+          </tbody>
+        </table>
+        <font size="-1" face="Helvetica, Arial, sans-serif"><br>
+        </font>
+        <div align="center"> </div>
+      </blockquote>
+      <table border="0" cellspacing="1" width="700">
+        <tbody>
+          <tr>
+            <td bgcolor="#cccccc" width="659"><b><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a name="Packages">Packages&nbsp;</a></font></b> </td>
+          </tr>
+        </tbody>
+      </table>
+      <blockquote>
+        <div align="center"> </div>
+        <div style="text-align: justify;"><font size="-1"
+ face="Helvetica, Arial, sans-serif">The source code can also be
+downloaded from the <a href="http://sourceforge.net/projects/aem">SF
+page</a>. Pre-downloaded packages can be found <a
+ href="http://prdownloads.sourceforge.net/aem">here</a>.<br>
+        </font> </div>
+        <div style="text-align: justify;"><font size="-1"
+ face="Helvetica, Arial, sans-serif"> These are the complete packages
+for AEM. The most up to date release of AEM is for the Linux kernel
+2.6.0. The release for the kernel 2.4.x is quite old now and most likely
+won't be updated.<br>
+        </font> </div>
+        <font size="-1" face="Helvetica, Arial, sans-serif"><br>
+        </font>
+        <table cellpadding="5" width="550">
+          <tbody>
+            <tr bgcolor="#66ffff">
+              <td width="323" align="center">
+              <p><b><font size="-1" face="Helvetica, Arial, sans-serif"><nobr>Packages</nobr></font></b></p>
+              </td>
+              <td width="276" align="center">
+              <p><b><font size="-1" face="Helvetica, Arial, sans-serif"><nobr>Version</nobr></font></b></p>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" rowspan="1" colspan="2" bgcolor="#65ff65"><font
+ size="-1" face="Helvetica, Arial, sans-serif"><i><nobr>Kernel 2.6</nobr></i><br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><nobr>AEM (kernel 2.6.6)</nobr></font></td>
+              <td
+ style="vertical-align: top; text-align: center; background-color: rgb(255, 255, 204);"><font
+ size="-1" face="Helvetica, Arial, sans-serif"><nobr>[</nobr><a
+ href="http://prdownloads.sourceforge.net/aem/mod_aem-2.6.6-v0.9.1.tar.gz?download"><nobr>v0.9.1</nobr></a><nobr>]</nobr><br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td valign="top" rowspan="1" colspan="2" bgcolor="#65ff65"><font
+ size="-1" face="Helvetica, Arial, sans-serif"><i><nobr>Kernel 2.4</nobr></i><br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td valign="top" align="left"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><nobr>AEM (kernel 2.4.20)</nobr><br>
+              </font> </td>
+              <td valign="top" bgcolor="#ffffcc" align="center"><font
+ size="-1" face="Helvetica, Arial, sans-serif"><nobr>[</nobr><a
+ href="http://prdownloads.sourceforge.net/aem/mod_aem-2.4.20-v0.3.3.tar.gz?download"><nobr>v0.3.3</nobr></a><nobr>]</nobr><br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td valign="top" rowspan="1" colspan="2" bgcolor="#65ff65"><font
+ size="-1" face="Helvetica, Arial, sans-serif"><i><nobr>Architecture
+Independant</nobr></i><br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td width="221" align="left">
+              <p><font size="-1" face="Helvetica, Arial, sans-serif"><nobr>Test
+suite</nobr></font></p>
+              </td>
+              <td width="269" align="center" bgcolor="#ffffcc">
+              <p><font size="-1" face="Helvetica, Arial, sans-serif"><nobr>[</nobr><a
+ href="http://prdownloads.sourceforge.net/aem/aem-testsuite-v0.4.tar.gz?download"><nobr>v0.4</nobr></a><nobr>]</nobr></font></p>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" align="left"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><nobr> Stabilization suite</nobr><br>
+              </font> </td>
+              <td valign="top" align="center" bgcolor="#ffffcc"><font
+ size="-1" face="Helvetica, Arial, sans-serif"><nobr> [</nobr><a
+ href="http://prdownloads.sourceforge.net/aem/aem-stabilization-v0.4.tar.gz?download"><nobr>v0.4</nobr></a><nobr>]</nobr><br>
+              </font> </td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+      <table border="0" cellspacing="1" width="700">
+        <tbody>
+          <tr>
+            <td bgcolor="#cccccc" width="658"><b><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a name="Scalability"> Performance
+and Scalability&nbsp;</a></font></b> </td>
+          </tr>
+        </tbody>
+      </table>
+      <blockquote>
+        <div style="text-align: left;"> </div>
+        <div align="justify"><font size="-1"
+ face="Helvetica, Arial, sans-serif">In [<a href="#1">1</a>] some
+comparisons have been made between a program using a standard socket
+interface and another one using the AEM asynchronous TCP/IP interface.
+The goal was to show that the time to context-switch a process for
+executing event handlers was not a handicap. <br>
+        <br>
+Some measurements have been done recently in order to get scalability
+figures of AEM. The goal was to ensure that the current implementation
+offered the expected capabilities. We have chosen to adapt a simple
+existing HTTP server and used httperf to generate the traffic.<br>
+        <br>
+This test aims at looking at the scalability of AEM regarding the
+number of opened connections versus the number of active connections.
+This test does not look at the performance of the mechanism (AEMhttpd [ <a
+ href="src/AEMhttpd-v0.2.tbz">v0.2</a> ] is single-threaded in this
+case) but the scalability with respect to the job implementation. <br
+ style="font-family: helvetica,arial,sans-serif;">
+        <br style="font-family: helvetica,arial,sans-serif;">
+The hardware used for these tests (up/bottom). AEMhttpd is the server
+and httperf the client:<br>
+        </font>
+        <ul style="font-family: helvetica,arial,sans-serif;">
+          <li style="text-align: justify;"><font size="-1"
+ face="Helvetica, Arial, sans-serif">P3-SMP: the server on a P3/SMP(2)
+750 Mhz 768 Mb RAM and the client on a P4 2.2 Ghz 512 Mb RAM through a
+hub 100 Mb/s</font></li>
+          <li style="text-align: justify;"><font size="-1"
+ face="Helvetica, Arial, sans-serif">P4: the server on a P4 2.4 Ghz 512
+Mb RAM and the client on a P3 750 Mhz 250 Mb RAM through a hub 100 Mb/s</font></li>
+          <li style="text-align: justify;"><font size="-1"
+ face="Helvetica, Arial, sans-serif">Celeron: the server on a Celeron
+500 Mhz 512 Mb RAM and the client on a P4 2.2 Ghz 512 Mb RAM though a
+hub 100 Mb/s</font></li>
+        </ul>
+        <font size="-1" face="Helvetica, Arial, sans-serif"><br>
+        </font> </div>
+      </blockquote>
+      <div align="center"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><img src="scalability/AEMhttpd.jpg"
+ title="" alt="AEMhttpd" style="width: 590px; height: 510px;"> &nbsp; <br>
+      </font> </div>
+      <table border="0" cellspacing="1" width="700">
+        <tbody>
+          <tr>
+            <td bgcolor="#cccccc" width="658"><b><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a name="AEM_modules"> AEM
+modules&nbsp;</a></font></b> </td>
+          </tr>
+        </tbody>
+      </table>
+      <blockquote>
+        <table width="650" border="0" cellspacing="2" cellpadding="2">
+          <tbody>
+            <tr>
+              <td valign="top" bgcolor="#66ffff" width="20%"
+ align="center"><font size="-1" face="Helvetica, Arial, sans-serif"><b>Module</b><br>
+              </font> </td>
+              <td valign="top" bgcolor="#66ffff" width="60%"
+ align="center"><font size="-1" face="Helvetica, Arial, sans-serif"><b>Description</b><br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td valign="top" align="left" bgcolor="#339999"><font
+ size="-1" face="Helvetica, Arial, sans-serif">aem-core<br>
+              </font> </td>
+              <td bgcolor="#ffffff" width="120" valign="top"
+ align="left"><font size="-1" face="Helvetica, Arial, sans-serif">AEM
+core functionalities [ <a href="aemcore.html">more</a> ]<br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td
+ style="vertical-align: top; background-color: rgb(51, 153, 153);"><font
+ size="-1" face="Helvetica, Arial, sans-serif">aem-sched</font></td>
+              <td style="vertical-align: top;"><font size="-1"
+ face="Helvetica, Arial, sans-serif">Adds event affinity to the
+scheduler decision (only for kernel 2.4)<br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td valign="top" align="left" bgcolor="#339999"><font
+ size="-1" face="Helvetica, Arial, sans-serif">aem-ip<br>
+              </font> </td>
+              <td valign="top" width="120" align="left"><font size="-1"
+ face="Helvetica, Arial, sans-serif">Asynchronous socket interface
+(currently TCP/IP is supported) [ <a href="aemip.html">more</a> ]<br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td valign="top" align="left" bgcolor="#339999"><font
+ size="-1" face="Helvetica, Arial, sans-serif">aem-timer<br>
+              </font> </td>
+              <td valign="top" align="left"><font size="-1"
+ face="Helvetica, Arial, sans-serif">POSIX timers based on AEM [ <a
+ href="aemtimers.html">more</a> ]<br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td valign="top" align="left" bgcolor="#339999"><font
+ size="-1" face="Helvetica, Arial, sans-serif">aem-tipc<br>
+              </font> </td>
+              <td valign="top" align="left"><font size="-1"
+ face="Helvetica, Arial, sans-serif">Support for the native TIPC
+asynchronous interface [ more ]<br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td
+ style="vertical-align: top; background-color: rgb(51, 153, 153);"><font
+ size="-1" face="Helvetica, Arial, sans-serif">aem-pexit<br>
+              </font> </td>
+              <td
+ style="vertical-align: top; font-family: helvetica,arial,sans-serif;"><font
+ size="-1" face="Helvetica, Arial, sans-serif">Process termination
+notification (explicit return or fault)&nbsp; [ <a href="aemproc.html">more</a>
+]<br>
+              </font> </td>
+            </tr>
+            <tr>
+              <td
+ style="vertical-align: top; background-color: rgb(51, 153, 153); font-family: helvetica,arial,sans-serif;"><font
+ size="-1" face="Helvetica, Arial, sans-serif">aem-fd</font></td>
+              <td
+ style="vertical-align: top; font-family: helvetica,arial,sans-serif;"><font
+ size="-1" face="Helvetica, Arial, sans-serif">Notification for
+operations on files and directories (open, chown, chmod, lock...)&nbsp;
+[ <a href="aemfd.html">more</a> ]<br>
+              </font> </td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+      <ul>
+      </ul>
+      <table border="0" cellspacing="1" width="700"
+ style="font-family: helvetica,arial,sans-serif;">
+        <tbody>
+          <tr>
+            <td bgcolor="#cccccc" width="658"><b><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a name="Links">Links&nbsp;</a></font></b> </td>
+          </tr>
+        </tbody>
+      </table>
+      <ul>
+        <li><font size="-1" face="Helvetica, Arial, sans-serif">AEM at
+Sourceforge [<a href="http://sourceforge.net/projects/aem">
+http://sourceforge.net/projects/aem</a> ]</font></li>
+        <li><font size="-1" face="Helvetica, Arial, sans-serif">OSDL
+Carrier-Grade Linux [<a href="http://www.osdl.org/projects/cgl">
+http://www.osdl.org/projects/cgl</a> ]</font></li>
+      </ul>
+      <ul>
+      </ul>
+      <ul>
+      </ul>
+      <table border="0" cellspacing="1" width="700">
+        <tbody>
+          <tr>
+            <td bgcolor="#cccccc" width="656"><b><font size="-1"
+ face="Helvetica, Arial, sans-serif"><a name="Contacts">Contact&nbsp;</a></font></b> </td>
+          </tr>
+        </tbody>
+      </table>
+      <blockquote>
+        <p><font size="-1" face="Helvetica, Arial, sans-serif"><a
+ href="mailto:fjrossi@users.sourceforge.net"> Frederic Rossi</a> (<a
+ href="mailto:frederic.rossi@ericsson.com">Ericsson
+Research</a>)</font> </p>
+      </blockquote>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top"><font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+      </font> </td>
+      <td valign="top"> <font size="-1"
+ face="Helvetica, Arial, sans-serif"><br>
+      </font> </td>
+    </tr>
+  </tbody>
+</table>
+<font size="-1" face="Helvetica, Arial, sans-serif"><br>
+<br>
+<br>
+<br>
+</font>
+</body>
+</html>
+```
