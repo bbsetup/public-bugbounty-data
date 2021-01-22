@@ -1,0 +1,620 @@
+```<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>ADOdb - Database Abstraction Layer for PHP [ADOdb]</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki"/>
+<meta name="theme-color" content="#008800"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="keywords" content="php, programming, database, abstraction, layer, mysql, microsoft,sql,server, oracle, ibm, db2, firebird, interbase, postgres, postgresql, linux, ibase, code, simplicity, portable, sap, maxdb, adaptive, informix, odbc, XML, active, record, session, management, date, time, library, active, record"/>
+<meta name="description" content="ADOdb is a database abstraction layer for PHP. Compatible with most supported databases, it provides an easy way to use the same code against all databases, Portable code can be written that runs unchanged. It also simplifies PHP database access, and includes an extended date/time library, database managed session control, XML database management, and an active record library"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/dokuwiki/lib/exe/opensearch.php" title="ADOdb"/>
+<link rel="start" href="/dokuwiki/"/>
+<link rel="contents" href="/dokuwiki/doku.php?id=index&amp;do=index" title="Sitemap"/>
+<link rel="manifest" href="/dokuwiki/lib/exe/manifest.php"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/dokuwiki/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="/dokuwiki/feed.php?mode=list&amp;ns="/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="/dokuwiki/doku.php?do=export_xhtml&amp;id=index"/>
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="/dokuwiki/doku.php?do=export_raw&amp;id=index"/>
+<link rel="canonical" href="http://adodb.org/dokuwiki/"/>
+<link rel="stylesheet" href="/dokuwiki/lib/exe/css.php?t=dokuwiki&amp;tseed=30565a68243d4f0599969091e128466d"/>
+<!--[if gte IE 9]><!-->
+<script >/*<![CDATA[*/var NS='';var JSINFO = {"plugins":{"edittable":{"default columnwidth":""}},"move_renameokay":false,"id":"index","namespace":"","ACT":"show","useHeadingNavigation":1,"useHeadingContent":1};
+/*!]]>*/</script>
+<script charset="utf-8" src="/dokuwiki/lib/exe/jquery.php?tseed=34a552433bc33cc9c3bc32527289a0b2" defer="defer"></script>
+<script charset="utf-8" src="/dokuwiki/lib/exe/js.php?t=dokuwiki&amp;tseed=30565a68243d4f0599969091e128466d&amp;template=dokuwiki" defer="defer"></script>
+<!--<![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="shortcut icon" href="/dokuwiki/lib/tpl/dokuwiki/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/dokuwiki/lib/tpl/dokuwiki/images/apple-touch-icon.png" />
+    </head>
+
+<body>
+    <div id="dokuwiki__site"><div id="dokuwiki__top" class="site dokuwiki mode_show tpl_dokuwiki   home showSidebar hasSidebar">
+
+        
+<!-- ********** HEADER ********** -->
+<div id="dokuwiki__header"><div class="pad group">
+
+    
+    <div class="headings group">
+        <ul class="a11y skip">
+            <li><a href="#dokuwiki__content">skip to content</a></li>
+        </ul>
+
+        <h1><a href="/dokuwiki/doku.php?id=index"  accesskey="h" title="[H]"><img src="/dokuwiki/lib/exe/fetch.php?media=logo.png" width="176" height="62" alt="" /> <span>ADOdb</span></a></h1>
+                    <p class="claim">Database Abstraction Layer for PHP</p>
+            </div>
+
+    <div class="tools group">
+        <!-- USER TOOLS -->
+                    <div id="dokuwiki__usertools">
+                <h3 class="a11y">User Tools</h3>
+                <ul>
+                    <li class="action login"><a href="/dokuwiki/doku.php?id=index&amp;do=login&amp;sectok=" title="Log In" rel="nofollow"><span>Log In</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 17.25V14H3v-4h7V6.75L15.25 12 10 17.25M8 2h9a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-4h2v4h9V4H8v4H6V4a2 2 0 0 1 2-2z"/></svg></a></li>                </ul>
+            </div>
+        
+        <!-- SITE TOOLS -->
+        <div id="dokuwiki__sitetools">
+            <h3 class="a11y">Site Tools</h3>
+            <form action="/dokuwiki/doku.php?id=index" method="get" role="search" class="search doku_form" id="dw__search" accept-charset="utf-8"><input type="hidden" name="do" value="search" /><input type="hidden" name="id" value="index" /><div class="no"><input name="q" type="text" class="edit" title="[F]" accesskey="f" placeholder="Search" autocomplete="on" id="qsearch__in" value="" /><button value="1" type="submit" title="Search">Search</button><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>            <div class="mobileTools">
+                <form action="/dokuwiki/doku.php" method="get" accept-charset="utf-8"><div class="no"><input type="hidden" name="id" value="index" /><select name="do" class="edit quickselect" title="Tools"><option value="">Tools</option><optgroup label="Page Tools"><option value="edit">Show pagesource</option><option value="revisions">Old revisions</option><option value="siteexport_addpage">Export Page to HTML/PDF</option><option value="backlink">Backlinks</option></optgroup><optgroup label="Site Tools"><option value="recent">Recent Changes</option><option value="media">Media Manager</option><option value="index">Sitemap</option></optgroup><optgroup label="User Tools"><option value="login">Log In</option></optgroup></select><button type="submit">&gt;</button></div></form>            </div>
+            <ul>
+                <li class="action recent"><a href="/dokuwiki/doku.php?id=index&amp;do=recent" title="Recent Changes [r]" rel="nofollow" accesskey="r">Recent Changes</a></li><li class="action media"><a href="/dokuwiki/doku.php?id=index&amp;do=media&amp;ns=" title="Media Manager" rel="nofollow">Media Manager</a></li><li class="action index"><a href="/dokuwiki/doku.php?id=index&amp;do=index" title="Sitemap [x]" rel="nofollow" accesskey="x">Sitemap</a></li>            </ul>
+        </div>
+
+    </div>
+
+    <!-- BREADCRUMBS -->
+            <div class="breadcrumbs">
+                                        <div class="trace"><span class="bchead">Trace:</span> <span class="bcsep">•</span> <span class="curid"><bdi><a href="/dokuwiki/doku.php?id=index"  class="breadcrumbs" title="index">ADOdb - Database Abstraction Layer for PHP</a></bdi></span></div>
+                    </div>
+    
+
+
+    <hr class="a11y" />
+</div></div><!-- /header -->
+
+        <div class="wrapper group">
+
+                            <!-- ********** ASIDE ********** -->
+                <div id="dokuwiki__aside"><div class="pad aside include group">
+                    <h3 class="toggle">Sidebar</h3>
+                    <div class="content"><div class="group">
+                                                                        
+<p>
+<strong>Resources</strong>
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=v5:reference:reference_index" class="wikilink1" title="v5:reference:reference_index" data-wiki-id="v5:reference:reference_index">Reference Manual</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=v5:userguide:userguide_index" class="wikilink1" title="v5:userguide:userguide_index" data-wiki-id="v5:userguide:userguide_index">User Guide &amp; Tutorials</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=v5:dictionary:dictionary_index" class="wikilink1" title="v5:dictionary:dictionary_index" data-wiki-id="v5:dictionary:dictionary_index">The Data Dictionary</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=v5:axmls:axmls_index" class="wikilink1" title="v5:axmls:axmls_index" data-wiki-id="v5:axmls:axmls_index">ADOdb-xmlschema</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=v5:activerecord:activerecord_index" class="wikilink1" title="v5:activerecord:activerecord_index" data-wiki-id="v5:activerecord:activerecord_index">ADOdb Active Record</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=v5:performance:performance_index" class="wikilink1" title="v5:performance:performance_index" data-wiki-id="v5:performance:performance_index">Performance Monitoring</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=v5:datetime:datetime_index" class="wikilink1" title="v5:datetime:datetime_index" data-wiki-id="v5:datetime:datetime_index">Date/Time Library</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=v5:session:session_index" class="wikilink1" title="v5:session:session_index" data-wiki-id="v5:session:session_index">Session Management Library</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=v5:proxy:proxy_index" class="wikilink1" title="v5:proxy:proxy_index" data-wiki-id="v5:proxy:proxy_index">ADOdb Proxy Server</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=v5:addons:addons_index" class="wikilink1" title="v5:addons:addons_index" data-wiki-id="v5:addons:addons_index">Unsupported Addons</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=project:standards" class="wikilink1" title="project:standards" data-wiki-id="project:standards">Coding Standards</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=v5:php_compatibility_status" class="wikilink1" title="v5:php_compatibility_status" data-wiki-id="v5:php_compatibility_status">PHP Compatibility Status</a></div>
+</li>
+</ul>
+
+<p>
+<strong><a href="/dokuwiki/doku.php?id=v5:database:supported" class="wikilink1" title="v5:database:supported" data-wiki-id="v5:database:supported">Supported Databases</a></strong>
+</p>
+<ol>
+<li class="level1"><div class="li"> Full support    <ul>	<li>
+<a href="/dokuwiki/doku.php?id=v5:database:ibm_db2" class="wikilink1" title="v5:database:ibm_db2">IBM DB2</a>	</li>
+	<li>
+<a href="/dokuwiki/doku.php?id=v5:database:microsoft_sql_server" class="wikilink1" title="v5:database:microsoft_sql_server">Microsoft SQL Server</a>	</li>
+	<li>
+<a href="/dokuwiki/doku.php?id=v5:database:mysql" class="wikilink1" title="v5:database:mysql">MySQL</a>	</li>
+	<li>
+<a href="/dokuwiki/doku.php?id=v5:database:oracle" class="wikilink1" title="v5:database:oracle">Oracle</a>	</li>
+	<li>
+<a href="/dokuwiki/doku.php?id=v5:database:postgresql" class="wikilink1" title="v5:database:postgresql">PostgreSQL</a>	</li>
+	<li>
+<a href="/dokuwiki/doku.php?id=v5:database:sqlite" class="wikilink1" title="v5:database:sqlite">SQLite Database</a>	</li>
+</ul>
+</div>
+</li>
+<li class="level1"><div class="li"> Partial support <ul>	<li>
+<a href="/dokuwiki/doku.php?id=v5:database:firebird" class="wikilink1" title="v5:database:firebird">Firebird &amp; Interbase</a>	</li>
+	<li>
+<a href="/dokuwiki/doku.php?id=v5:database:ldap" class="wikilink1" title="v5:database:ldap">LDAP</a>	</li>
+	<li>
+<a href="/dokuwiki/doku.php?id=v5:database:access" class="wikilink1" title="v5:database:access">Microsoft Access</a>	</li>
+	<li>
+<a href="/dokuwiki/doku.php?id=v5:database:odbc" class="wikilink1" title="v5:database:odbc">ODBC</a>	</li>
+	<li>
+<a href="/dokuwiki/doku.php?id=v5:database:pdo" class="wikilink1" title="v5:database:pdo">PDO</a>	</li>
+</ul>
+</div>
+</li>
+<li class="level1"><div class="li"> <a href="/dokuwiki/doku.php?id=v5:database:unsupported" class="wikilink1" title="v5:database:unsupported" data-wiki-id="v5:database:unsupported">Obsolete/Unsupported Drivers</a></div>
+</li>
+</ol>
+                                            </div></div>
+                </div></div><!-- /aside -->
+            
+            <!-- ********** CONTENT ********** -->
+            <div id="dokuwiki__content"><div class="pad group">
+                
+                <div class="pageId"><span>index</span></div>
+
+                <div class="page group">
+                                                            <!-- wikipage start -->
+                    <!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="#installation">Installation</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="#system_requirements">System requirements</a></div></li>
+<li class="level2"><div class="li"><a href="#installation_via_composer">Installation Via Composer</a></div></li>
+<li class="level2"><div class="li"><a href="#manual_installation">Manual Installation</a></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><a href="#support">Support</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="#project_location">Project Location</a></div></li>
+<li class="level2"><div class="li"><a href="#how_to_ask_for_help">How To Ask For Help</a></div></li>
+<li class="level2"><div class="li"><a href="#why_don_t_you_support_earlier_versions">Why Don&#039;t You Support Earlier Versions?</a></div></li>
+<li class="level2"><div class="li"><a href="#our_community">Our Community</a></div></li>
+</ul>
+</li>
+<li class="level1"><div class="li"><a href="#announcements">Announcements</a></div></li>
+<li class="level1"><div class="li"><a href="#miscellaneous">Miscellaneous</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="#tags">Tags</a></div></li>
+<li class="level2"><div class="li"><a href="#copyright">Copyright</a></div></li>
+<li class="level2"><div class="li"><a href="#thanks">Thanks</a></div></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 class="sectionedit1" id="adodb_-_database_abstraction_layer_for_php">ADOdb - Database Abstraction Layer for PHP</h1>
+<div class="level1">
+
+<p>
+ADOdb is a fast, easy to use, popular database abstraction layer for <a href="https://en.wikipedia.org/wiki/PHP" class="interwiki iw_wp" title="https://en.wikipedia.org/wiki/PHP">PHP</a>. It allows the same code to be used when accessing a <a href="/dokuwiki/doku.php?id=v5:database:supported" class="wikilink1" title="v5:database:supported" data-wiki-id="v5:database:supported">wide range of databases</a>. 
+</p>
+
+<p>
+It has been actively maintained since 2000 by the project&#039;s founder, John Lim, who decided to retire from the project in 2013. Damien Regad and Mark Newnham took over the project, with the help of numerous <a href="https://github.com/ADOdb/ADOdb/graphs/contributors" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/graphs/contributors" rel="ugc nofollow noopener">community contributors</a>. 
+</p>
+
+<p>
+ADOdb contains components for querying and updating databases, as well as an Object Orientated <a href="/dokuwiki/doku.php?id=v5:activerecord:activerecord_index" class="wikilink1" title="v5:activerecord:activerecord_index" data-wiki-id="v5:activerecord:activerecord_index">Active Record</a> library, schema management and performance monitoring. It also contains the following standalone extensions:
+</p>
+<ul>
+<li class="level1"><div class="li"> A <a href="/dokuwiki/doku.php?id=v5:datetime:datetime_index" class="wikilink1" title="v5:datetime:datetime_index" data-wiki-id="v5:datetime:datetime_index">Date/Time</a> library to handle dates outside of the normal PHP limits.</div>
+</li>
+<li class="level1"><div class="li"> A <a href="/dokuwiki/doku.php?id=v5:session:session_index" class="wikilink1" title="v5:session:session_index" data-wiki-id="v5:session:session_index">Session Management</a> library that extends the normal PHP functionality to allow storing of session management data in a database, or in encrypted values</div>
+</li>
+</ul>
+
+<p>
+Note that ADOdb is not a replacement for the <a href="http://php.net/manual/en/refs.database.php" class="urlextern" target="_blank" title="http://php.net/manual/en/refs.database.php" rel="ugc nofollow noopener">native PHP database extensions</a>, but is built on top of them. This means that the corresponding driver(s) must be installed and correctly configured for ADOdb to work.
+</p>
+<div class="wrap_right wrap_box wrap_round plugin_wrap" style="width: 340px; max-width: 100%;">
+<p>
+<span>
+<a href="https://sourceforge.net/projects/adodb/files/latest/download" class="media" target="_blank" title="https://sourceforge.net/projects/adodb/files/latest/download" rel="ugc nofollow noopener"><img src="/dokuwiki/lib/exe/fetch.php?media=download-big.png" class="media" title="Download the latest stable release from SourceForge" alt="Download the latest stable release from SourceForge" /></a></span>
+<span> <strong>Stable Release</strong>
+</span> <br/>
+
+<span>
+<a href="https://sourceforge.net/projects/adodb/files/adodb-php5-only/adodb-5.21/" class="media" target="_blank" title="https://sourceforge.net/projects/adodb/files/adodb-php5-only/adodb-5.21/" rel="ugc nofollow noopener"><img src="/dokuwiki/lib/exe/fetch.php?media=download-big.png" class="media" title="Download a pre-production release from SourceForge" alt="Download a pre-production release from SourceForge" /></a></span>
+<span> <strong>Pre-Production Release</strong>
+</span> <br/>
+
+<span>
+<a href="https://sourceforge.net/projects/adodb/files/Documentation/" class="media" target="_blank" title="https://sourceforge.net/projects/adodb/files/Documentation/" rel="ugc nofollow noopener"><img src="/dokuwiki/lib/exe/fetch.php?media=download-big.png" class="media" title="Download the documentation from SourceForge" alt="Download the documentation from SourceForge" /></a></span>
+<span> <strong>Documentation</strong>
+</span>
+</p>
+
+<h5 id="current_status">Current Status</h5>
+<div class="table sectionedit4"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0 leftalign"> Description                 </th><th class="col1 leftalign"> Version                                                                        </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0 leftalign"> Stable Release  </td><td class="col1 leftalign"> <a href="https://github.com/ADOdb/ADOdb/releases/latest" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/releases/latest" rel="ugc nofollow noopener">5.20.19</a>                     </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 leftalign"> Pre-Production Release     </td><td class="col1 leftalign"> <a href="https://github.com/ADOdb/ADOdb/releases/tag/v5.21.0-beta.1" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/releases/tag/v5.21.0-beta.1" rel="ugc nofollow noopener">5.21.0-beta.1</a>   </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 leftalign"> Earliest Supported Release  </td><td class="col1 leftalign"> 5.20.15                                                                        </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 leftalign"> Production Track            </td><td class="col1 leftalign"> <a href="/dokuwiki/doku.php?id=project:version_5_development" class="wikilink1" title="project:version_5_development" data-wiki-id="project:version_5_development">Version 5</a>                                    </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0 leftalign"> Development Track           </td><td class="col1 leftalign"> <a href="/dokuwiki/doku.php?id=project:version_6_development" class="wikilink1" title="project:version_6_development" data-wiki-id="project:version_6_development">Version 6</a>                                    </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0 leftalign"> Prior Releases              </td><td class="col1 leftalign"> <a href="https://sourceforge.net/projects/adodb/files/adodb-php5-only/" class="urlextern" target="_blank" title="https://sourceforge.net/projects/adodb/files/adodb-php5-only/" rel="ugc nofollow noopener">SourceForge</a>  </td>
+	</tr>
+</table></div>
+
+<p>
+
+  <!-- Twitter Follow Button -->
+  <div style="width:100%;text-align:center">
+    <a href="https://twitter.com/ADODB_announce" class="twitter-follow-button" 
+       data-show-count="false" data-size="large">
+      Follow @ADODB_announce
+    </a>
+  </div>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</p>
+</div>
+</div>
+
+<h2 class="sectionedit5" id="installation">Installation</h2>
+<div class="level2">
+
+</div>
+
+<h3 class="sectionedit6" id="system_requirements">System requirements</h3>
+<div class="level3">
+
+<p>
+ADOdb is compatible with and supported on all <a href="https://www.php.net/supported-versions" class="urlextern" target="_blank" title="https://www.php.net/supported-versions" rel="ugc nofollow noopener">active versions of PHP</a> (&gt;= 7.3 as of this writing).
+</p>
+
+<p>
+It is expected to work as well on earlier versions (PHP 5.3.2 or later for ADOdb 5.20 branch, 5.5.9 for the upcoming 5.21 release), but this is not officially supported. See <a href="/dokuwiki/doku.php?id=v5:php_compatibility_status" class="wikilink1" title="v5:php_compatibility_status" data-wiki-id="v5:php_compatibility_status">PHP Compatibility Status</a>.
+</p>
+
+</div>
+
+<h3 class="sectionedit7" id="installation_via_composer">Installation Via Composer</h3>
+<div class="level3">
+
+</div>
+
+<h4 id="production">Production</h4>
+<div class="level4">
+<pre class="code">composer require adodb/adodb-php ^5.20</pre>
+
+</div>
+
+<h4 id="development">Development</h4>
+<div class="level4">
+<pre class="code">composer require adodb/adodb-php dev-master</pre>
+
+</div>
+
+<h3 class="sectionedit8" id="manual_installation">Manual Installation</h3>
+<div class="level3">
+
+<p>
+Download and unpack into the directory of choice.
+</p>
+
+</div>
+
+<h2 class="sectionedit9" id="support">Support</h2>
+<div class="level2">
+
+</div>
+
+<h3 class="sectionedit10" id="project_location">Project Location</h3>
+<div class="level3">
+<div class="wrap_right plugin_wrap">
+<p>
+<a href="https://github.com/ADOdb/ADOdb" class="media" target="_blank" title="https://github.com/ADOdb/ADOdb" rel="ugc nofollow noopener"><img src="/dokuwiki/lib/exe/fetch.php?media=github-mark-64px.png" class="media" title="ADOdb Project on GitHub" alt="ADOdb Project on GitHub" /></a>
+</p>
+</div>
+<p>
+ADOdb&#039;s source code and bug tracker are located at <a href="https://github.com/ADOdb/ADOdb" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb" rel="ugc nofollow noopener">Github</a>.
+See also the <a href="https://sourceforge.net/projects/adodb/" class="urlextern" target="_blank" title="https://sourceforge.net/projects/adodb/" rel="ugc nofollow noopener">SourceForge project page</a>.
+</p>
+
+</div>
+
+<h3 class="sectionedit13" id="how_to_ask_for_help">How To Ask For Help</h3>
+<div class="level3">
+
+<p>
+You can post an issue in the <a href="https://github.com/ADOdb/ADOdb/issues" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/issues" rel="ugc nofollow noopener">Github issue tracker</a>.
+</p>
+
+<p>
+To help with quick resolution:
+</p>
+<ul>
+<li class="level1"><div class="li"> Try running the code with <a href="/dokuwiki/doku.php?id=v5:userguide:debug" class="wikilink1" title="v5:userguide:debug" data-wiki-id="v5:userguide:debug">Debug Mode</a> enabled</div>
+</li>
+<li class="level1"><div class="li"> Give the version of ADOdb you are using. Please check the top of this page for the earliest release that is supported by the community.</div>
+</li>
+<li class="level1"><div class="li"> Give the version of PHP you are using, the operating system, the driver and the database version.</div>
+</li>
+<li class="level1"><div class="li"> Provide a code snippet, and if possible a description of what you are expecting to receive from a function</div>
+</li>
+</ul>
+
+<p>
+You can also ask questions on
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="http://stackoverflow.com/questions/tagged/adodb-php" class="urlextern" target="_blank" title="http://stackoverflow.com/questions/tagged/adodb-php" rel="ugc nofollow noopener">Stack Overflow</a> using a tag of <strong>adodb-php</strong></div>
+</li>
+<li class="level1"><div class="li"> <a href="https://gitter.im/ADOdb/ADOdb" class="urlextern" target="_blank" title="https://gitter.im/ADOdb/ADOdb" rel="ugc nofollow noopener">gitter</a>, community adodb/adodb </div>
+</li>
+</ul>
+
+</div>
+
+<h3 class="sectionedit14" id="why_don_t_you_support_earlier_versions">Why Don&#039;t You Support Earlier Versions?</h3>
+<div class="level3">
+
+<p>
+We have limited resources, and unfortunately can&#039;t afford to maintain the older versions in parallel with the current stable releases and the development track. 
+</p>
+
+<p>
+Version 5.20.0 was released in November 2015, you should be at least to that point, and we strongly recommend to apply the latest hotfix release.. 
+</p>
+
+</div>
+
+<h3 class="sectionedit15" id="our_community">Our Community</h3>
+<div class="level3">
+
+<p>
+The ADOdb user base is large, with an average of 300 downloads a week. We have put together a short <a href="/dokuwiki/doku.php?id=project:user_base" class="wikilink1" title="project:user_base" data-wiki-id="project:user_base">list of some current projects</a>. See also the <a href="https://github.com/ADOdb/ADOdb/network/dependents" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/network/dependents" rel="ugc nofollow noopener">dependencies</a>, i.e. the list of GitHub repositories require ADOdb in their <em>composer.json</em> file.
+</p>
+
+<p>
+You are welcome to contribute to the project and help the Open Source community:
+</p>
+<ul>
+<li class="level1"><div class="li"> Share your experience, e.g. on Twitter <a href="https://twitter.com/ADOdb_announce" class="urlextern" target="_blank" title="https://twitter.com/ADOdb_announce" rel="ugc nofollow noopener">@ADOdb_announce</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="https://github.com/ADOdb/ADOdb/issues" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/issues" rel="ugc nofollow noopener">Answer user questions in the issue tracker</a></div>
+</li>
+<li class="level1"><div class="li"> Submit your bug fixes, enhancements or new features via <a href="https://github.com/ADOdb/ADOdb/compare" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/compare" rel="ugc nofollow noopener">GitHub pull requests</a></div>
+</li>
+<li class="level1"><div class="li"> Check the <em><a href="/dokuwiki/doku.php?id=tag:dormant&amp;do=showtag&amp;tag=dormant" class="wikilink1" title="tag:dormant" rel="tag">dormant</a></em> tag; if you have expertise in the Databases listed, consider helping us out</div>
+</li>
+<li class="level1"><div class="li"> Help us improve <a href="/dokuwiki/doku.php?id=project:documentation" class="wikilink1" title="project:documentation" data-wiki-id="project:documentation">Documentation</a>, both developer and user. It has recently been converted from old html files, and may contain numerous errors.</div>
+</li>
+</ul>
+
+</div>
+
+<h2 class="sectionedit16" id="announcements">Announcements</h2>
+<div class="level2">
+
+<p>
+Follow us on <strong><a href="https://twitter.com/ADOdb_announce" class="urlextern" target="_blank" title="https://twitter.com/ADOdb_announce" rel="ugc nofollow noopener">@ADOdb_announce</a></strong> on Twitter. We post notices of new releases and important bug fixes first there.
+</p>
+<div class="table sectionedit17"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0 leftalign"> Date        </th><th class="col1 leftalign"> Description                                                                                                                                                                            </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0 leftalign"> 20/12/2020  </td><td class="col1 leftalign"> ADOdb version 5.21.0-beta.1 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.21.0-beta.1/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.21.0-beta.1/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                      </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0 leftalign"> 13/12/2020  </td><td class="col1 leftalign"> ADOdb version 5.20.19 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.19/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.19/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                  </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0 leftalign"> 28/06/2020  </td><td class="col1 leftalign"> ADOdb version 5.20.18 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.18/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.18/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                  </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0 leftalign"> 31/03/2020  </td><td class="col1 leftalign"> ADOdb version 5.20.17 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.17/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.17/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                  </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0 leftalign"> 12/01/2020  </td><td class="col1 leftalign"> ADOdb version 5.20.16 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.16/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.16/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                  </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0 leftalign"> 24/11/2019  </td><td class="col1 leftalign"> ADOdb version 5.20.15 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.15/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.15/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                  </td>
+	</tr>
+	<tr class="row7">
+		<td class="col0 leftalign"> 06/01/2019  </td><td class="col1 leftalign"> ADOdb version 5.20.14 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.14/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.14/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                  </td>
+	</tr>
+	<tr class="row8">
+		<td class="col0 leftalign"> 06/08/2018  </td><td class="col1 leftalign"> ADOdb version 5.20.13 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.13/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.13/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                  </td>
+	</tr>
+	<tr class="row9">
+		<td class="col0 leftalign"> 30/03/2018  </td><td class="col1 leftalign"> ADOdb version 5.20.12 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.12/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.12/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a> <br/>
+Note that 5.20.11 has been withdrawn due to a bug on PHP 5.x  </td>
+	</tr>
+	<tr class="row10">
+		<td class="col0 leftalign"> 08/03/2018  </td><td class="col1 leftalign"> ADOdb version 5.20.10 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.10/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.10/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                  </td>
+	</tr>
+	<tr class="row11">
+		<td class="col0 leftalign"> 21/12/2016  </td><td class="col1 leftalign"> ADOdb version 5.20.9 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.9/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.9/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                    </td>
+	</tr>
+	<tr class="row12">
+		<td class="col0 leftalign"> 17/12/2016  </td><td class="col1 leftalign"> ADOdb version 5.20.8 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.8/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.8/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                    </td>
+	</tr>
+	<tr class="row13">
+		<td class="col0 leftalign"> 20/09/2016  </td><td class="col1 leftalign"> ADOdb version 5.20.7 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.7/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.7/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                    </td>
+	</tr>
+	<tr class="row14">
+		<td class="col0 leftalign"> 31/08/2016  </td><td class="col1 leftalign"> ADOdb version 5.20.6 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.6/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.6/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                    </td>
+	</tr>
+	<tr class="row15">
+		<td class="col0 leftalign"> 10/08/2016  </td><td class="col1 leftalign"> ADOdb version 5.20.5 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.5/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.5/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                    </td>
+	</tr>
+	<tr class="row16">
+		<td class="col0 leftalign"> 09/04/2016  </td><td class="col1 leftalign"> ADOdb version 5.20.4 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.4/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.4/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                    </td>
+	</tr>
+	<tr class="row17">
+		<td class="col0 leftalign"> 01/01/2016  </td><td class="col1 leftalign"> ADOdb version 5.20.3 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.3/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.3/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                    </td>
+	</tr>
+	<tr class="row18">
+		<td class="col0 leftalign"> 27/12/2015  </td><td class="col1 leftalign"> ADOdb version 5.20.2 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.2/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.2/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                    </td>
+	</tr>
+	<tr class="row19">
+		<td class="col0 leftalign"> 06/12/2015  </td><td class="col1 leftalign"> ADOdb version 5.20.1 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.1/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.1/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                    </td>
+	</tr>
+	<tr class="row20">
+		<td class="col0 leftalign"> 28/11/2015  </td><td class="col1 leftalign"> ADOdb version 5.20.0 is available. <a href="https://github.com/ADOdb/ADOdb/blob/v5.20.0/docs/changelog.md" class="urlextern" target="_blank" title="https://github.com/ADOdb/ADOdb/blob/v5.20.0/docs/changelog.md" rel="ugc nofollow noopener">Full Changelog</a>                                                                    </td>
+	</tr>
+</table></div>
+
+</div>
+
+<h2 class="sectionedit18" id="miscellaneous">Miscellaneous</h2>
+<div class="level2">
+
+</div>
+
+<h3 class="sectionedit19" id="tags">Tags</h3>
+<div class="level3">
+<div class="cloud">
+	<a href="/dokuwiki/doku.php?id=tag:access&amp;do=showtag&amp;tag=access" class="cloud1_tag2" title="access">access</a>
+	<a href="/dokuwiki/doku.php?id=tag:active&amp;do=showtag&amp;tag=active" class="cloud4_tag2" title="active">active</a>
+	<a href="/dokuwiki/doku.php?id=tag:active_record&amp;do=showtag&amp;tag=active_record" class="cloud3_tag2" title="active_record">active_record</a>
+	<a href="/dokuwiki/doku.php?id=tag:ado&amp;do=showtag&amp;tag=ado" class="cloud1_tag2" title="ado">ado</a>
+	<a href="/dokuwiki/doku.php?id=tag:borland&amp;do=showtag&amp;tag=borland" class="cloud1_tag2" title="borland">borland</a>
+	<a href="/dokuwiki/doku.php?id=tag:cache&amp;do=showtag&amp;tag=cache" class="cloud5_tag2" title="cache">cache</a>
+	<a href="/dokuwiki/doku.php?id=tag:codesniffer&amp;do=showtag&amp;tag=codesniffer" class="cloud1_tag2" title="codesniffer">codesniffer</a>
+	<a href="/dokuwiki/doku.php?id=tag:coding&amp;do=showtag&amp;tag=coding" class="cloud1_tag2" title="coding">coding</a>
+	<a href="/dokuwiki/doku.php?id=tag:db2&amp;do=showtag&amp;tag=db2" class="cloud3_tag2" title="db2">db2</a>
+	<a href="/dokuwiki/doku.php?id=tag:debugging&amp;do=showtag&amp;tag=debugging" class="cloud1_tag2" title="debugging">debugging</a>
+	<a href="/dokuwiki/doku.php?id=tag:deprecated&amp;do=showtag&amp;tag=deprecated" class="cloud4_tag2" title="deprecated">deprecated</a>
+	<a href="/dokuwiki/doku.php?id=tag:dormant&amp;do=showtag&amp;tag=dormant" class="cloud5_tag2" title="dormant">dormant</a>
+	<a href="/dokuwiki/doku.php?id=tag:embarcadero&amp;do=showtag&amp;tag=embarcadero" class="cloud1_tag2" title="embarcadero">embarcadero</a>
+	<a href="/dokuwiki/doku.php?id=tag:firebird&amp;do=showtag&amp;tag=firebird" class="cloud1_tag2" title="firebird">firebird</a>
+	<a href="/dokuwiki/doku.php?id=tag:foxpro&amp;do=showtag&amp;tag=foxpro" class="cloud1_tag2" title="foxpro">foxpro</a>
+	<a href="/dokuwiki/doku.php?id=tag:freetds&amp;do=showtag&amp;tag=freetds" class="cloud1_tag2" title="freetds">freetds</a>
+	<a href="/dokuwiki/doku.php?id=tag:frontbase&amp;do=showtag&amp;tag=frontbase" class="cloud1_tag2" title="frontbase">frontbase</a>
+	<a href="/dokuwiki/doku.php?id=tag:ibm&amp;do=showtag&amp;tag=ibm" class="cloud3_tag2" title="ibm">ibm</a>
+	<a href="/dokuwiki/doku.php?id=tag:informix&amp;do=showtag&amp;tag=informix" class="cloud1_tag2" title="informix">informix</a>
+	<a href="/dokuwiki/doku.php?id=tag:interbase&amp;do=showtag&amp;tag=interbase" class="cloud1_tag2" title="interbase">interbase</a>
+	<a href="/dokuwiki/doku.php?id=tag:memcached&amp;do=showtag&amp;tag=memcached" class="cloud1_tag2" title="memcached">memcached</a>
+	<a href="/dokuwiki/doku.php?id=tag:microsoft_sql_server&amp;do=showtag&amp;tag=microsoft_sql_server" class="cloud1_tag2" title="microsoft_sql_server">microsoft_sql_server</a>
+	<a href="/dokuwiki/doku.php?id=tag:mysql&amp;do=showtag&amp;tag=mysql" class="cloud3_tag2" title="mysql">mysql</a>
+	<a href="/dokuwiki/doku.php?id=tag:netezza&amp;do=showtag&amp;tag=netezza" class="cloud1_tag2" title="netezza">netezza</a>
+	<a href="/dokuwiki/doku.php?id=tag:objects&amp;do=showtag&amp;tag=objects" class="cloud3_tag2" title="objects">objects</a>
+	<a href="/dokuwiki/doku.php?id=tag:obsolete&amp;do=showtag&amp;tag=obsolete" class="cloud4_tag2" title="obsolete">obsolete</a>
+	<a href="/dokuwiki/doku.php?id=tag:odbc&amp;do=showtag&amp;tag=odbc" class="cloud1_tag2" title="odbc">odbc</a>
+	<a href="/dokuwiki/doku.php?id=tag:odbtp&amp;do=showtag&amp;tag=odbtp" class="cloud1_tag2" title="odbtp">odbtp</a>
+	<a href="/dokuwiki/doku.php?id=tag:oracle&amp;do=showtag&amp;tag=oracle" class="cloud1_tag2" title="oracle">oracle</a>
+	<a href="/dokuwiki/doku.php?id=tag:pear&amp;do=showtag&amp;tag=pear" class="cloud5_tag2" title="pear">pear</a>
+	<a href="/dokuwiki/doku.php?id=tag:phpdocumentor&amp;do=showtag&amp;tag=phpdocumentor" class="cloud1_tag2" title="phpdocumentor">phpdocumentor</a>
+	<a href="/dokuwiki/doku.php?id=tag:portable&amp;do=showtag&amp;tag=portable" class="cloud3_tag2" title="portable">portable</a>
+	<a href="/dokuwiki/doku.php?id=tag:postgres&amp;do=showtag&amp;tag=postgres" class="cloud1_tag2" title="postgres">postgres</a>
+	<a href="/dokuwiki/doku.php?id=tag:proxy&amp;do=showtag&amp;tag=proxy" class="cloud1_tag2" title="proxy">proxy</a>
+	<a href="/dokuwiki/doku.php?id=tag:sap&amp;do=showtag&amp;tag=sap" class="cloud4_tag2" title="sap">sap</a>
+	<a href="/dokuwiki/doku.php?id=tag:semantic&amp;do=showtag&amp;tag=semantic" class="cloud1_tag2" title="semantic">semantic</a>
+	<a href="/dokuwiki/doku.php?id=tag:smart_transactions&amp;do=showtag&amp;tag=smart_transactions" class="cloud4_tag2" title="smart_transactions">smart_transactions</a>
+	<a href="/dokuwiki/doku.php?id=tag:sql_server&amp;do=showtag&amp;tag=sql_server" class="cloud1_tag2" title="sql_server">sql_server</a>
+	<a href="/dokuwiki/doku.php?id=tag:sqlite2&amp;do=showtag&amp;tag=sqlite2" class="cloud1_tag2" title="sqlite2">sqlite2</a>
+	<a href="/dokuwiki/doku.php?id=tag:sqlite3&amp;do=showtag&amp;tag=sqlite3" class="cloud1_tag2" title="sqlite3">sqlite3</a>
+	<a href="/dokuwiki/doku.php?id=tag:standards&amp;do=showtag&amp;tag=standards" class="cloud1_tag2" title="standards">standards</a>
+	<a href="/dokuwiki/doku.php?id=tag:supported&amp;do=showtag&amp;tag=supported" class="cloud4_tag2" title="supported">supported</a>
+	<a href="/dokuwiki/doku.php?id=tag:text&amp;do=showtag&amp;tag=text" class="cloud1_tag2" title="text">text</a>
+	<a href="/dokuwiki/doku.php?id=tag:tier1&amp;do=showtag&amp;tag=tier1" class="cloud4_tag2" title="tier1">tier1</a>
+	<a href="/dokuwiki/doku.php?id=tag:tier2&amp;do=showtag&amp;tag=tier2" class="cloud4_tag2" title="tier2">tier2</a>
+	<a href="/dokuwiki/doku.php?id=tag:unicode&amp;do=showtag&amp;tag=unicode" class="cloud1_tag2" title="unicode">unicode</a>
+	<a href="/dokuwiki/doku.php?id=tag:unix&amp;do=showtag&amp;tag=unix" class="cloud4_tag2" title="unix">unix</a>
+	<a href="/dokuwiki/doku.php?id=tag:windows&amp;do=showtag&amp;tag=windows" class="cloud4_tag2" title="windows">windows</a>
+</div>
+
+</div>
+
+<h3 class="sectionedit20" id="copyright">Copyright</h3>
+<div class="level3">
+
+<p>
+2000-2013 © John Lim<br/>
+
+2014- © Damien Regad, Mark Newnham &amp; The ADOdb Community
+</p>
+
+<p>
+ADODb is dual-licensed under the BSD and Lesser <abbr title="GNU General Public License">GPL</abbr> license, with the BSD License having priority.
+</p>
+
+</div>
+
+<h3 class="sectionedit21" id="thanks">Thanks</h3>
+<div class="level3">
+<div class="group plugin_wrap"><div class="wrap_right plugin_wrap" style="width: 40px; max-width: 100%;">
+<p>
+<a href="https://www.jetbrains.com/phpstorm/" class="media" target="_blank" title="https://www.jetbrains.com/phpstorm/" rel="ugc nofollow noopener"><img src="/dokuwiki/lib/exe/fetch.php?w=50&amp;tok=8fe843&amp;media=icon_phpstorm.png" class="media" title="PHPStorm IDE" alt="PHPStorm IDE" width="50" /></a>
+</p>
+</div><div class="plugin_wrap">
+<p>
+The ADOdb team would like to thank <a href="https://www.jetbrains.com/" class="urlextern" target="_blank" title="https://www.jetbrains.com/" rel="ugc nofollow noopener">JetBrains</a> for their valued support to the project, in the form of free <a href="https://www.jetbrains.com/buy/opensource/?product=phpstorm" class="urlextern" target="_blank" title="https://www.jetbrains.com/buy/opensource/?product=phpstorm" rel="ugc nofollow noopener">PHPStorm IDE</a> licences.
+</p>
+</div></div>
+</div>
+
+                    <!-- wikipage stop -->
+                                    </div>
+
+                <div class="docInfo"><bdi>index.txt</bdi> · Last modified: 2020/12/21 09:33 by <bdi>dregad</bdi></div>
+
+                            </div></div><!-- /content -->
+
+            <hr class="a11y" />
+
+            <!-- PAGE ACTIONS -->
+            <div id="dokuwiki__pagetools">
+                <h3 class="a11y">Page Tools</h3>
+                <div class="tools">
+                    <ul>
+                        <li class="source"><a href="/dokuwiki/doku.php?id=index&amp;do=edit" title="Show pagesource [v]" rel="nofollow" accesskey="v"><span>Show pagesource</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m.12 13.5l3.74 3.74 1.42-1.41-2.33-2.33 2.33-2.33-1.42-1.41-3.74 3.74m11.16 0l-3.74-3.74-1.42 1.41 2.33 2.33-2.33 2.33 1.42 1.41 3.74-3.74z"/></svg></a></li><li class="revs"><a href="/dokuwiki/doku.php?id=index&amp;do=revisions" title="Old revisions [o]" rel="nofollow" accesskey="o"><span>Old revisions</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11 7v5.11l4.71 2.79.79-1.28-4-2.37V7m0-5C8.97 2 5.91 3.92 4.27 6.77L2 4.5V11h6.5L5.75 8.25C6.96 5.73 9.5 4 12.5 4a7.5 7.5 0 0 1 7.5 7.5 7.5 7.5 0 0 1-7.5 7.5c-3.27 0-6.03-2.09-7.06-5h-2.1c1.1 4.03 4.77 7 9.16 7 5.24 0 9.5-4.25 9.5-9.5A9.5 9.5 0 0 0 12.5 2z"/></svg></a></li><li class="backlink"><a href="/dokuwiki/doku.php?id=index&amp;do=backlink" title="Backlinks" rel="nofollow"><span>Backlinks</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10.59 13.41c.41.39.41 1.03 0 1.42-.39.39-1.03.39-1.42 0a5.003 5.003 0 0 1 0-7.07l3.54-3.54a5.003 5.003 0 0 1 7.07 0 5.003 5.003 0 0 1 0 7.07l-1.49 1.49c.01-.82-.12-1.64-.4-2.42l.47-.48a2.982 2.982 0 0 0 0-4.24 2.982 2.982 0 0 0-4.24 0l-3.53 3.53a2.982 2.982 0 0 0 0 4.24m2.82-4.24c.39-.39 1.03-.39 1.42 0a5.003 5.003 0 0 1 0 7.07l-3.54 3.54a5.003 5.003 0 0 1-7.07 0 5.003 5.003 0 0 1 0-7.07l1.49-1.49c-.01.82.12 1.64.4 2.43l-.47.47a2.982 2.982 0 0 0 0 4.24 2.982 2.982 0 0 0 4.24 0l3.53-3.53a2.982 2.982 0 0 0 0-4.24.973.973 0 0 1 0-1.42z"/></svg></a></li><li class="siteexport_addpage"><a href="/dokuwiki/doku.php?id=index&amp;do=siteexport_addpage" title="Export Page to HTML/PDF" rel="nofollow"><span>Export Page to HTML/PDF</span><svg width="61px" height="51px" viewBox="0 0 61 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs></defs><path d="M26.1891503,39.0065635 L26.0876578,38.9773206 L60.6523866,1.23972885 L60.4321374,2.11844376 L60.476442,2.07071678 L60.4265202,2.14085429 L49.5024876,45.7237994 L32.8255882,40.9187101 L26,50.508302 L26,39.2103249 L26.1891503,39.0065635 Z M60.9727675,0.862917243 L22.2676619,38.2155059 L-0.00245042233,30.2214566 L60.9727675,0.862917243 Z" id="Paper-Plane"></path></svg></a></li><li class="top"><a href="#dokuwiki__top" title="Back to top [t]" rel="nofollow" accesskey="t"><span>Back to top</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg></a></li>                    </ul>
+                </div>
+            </div>
+        </div><!-- /wrapper -->
+
+        
+<!-- ********** FOOTER ********** -->
+<div id="dokuwiki__footer"><div class="pad">
+    <div class="license">Except where otherwise noted, content on this wiki is licensed under the following license: <bdi><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" rel="license" class="urlextern" target="_blank">CC Attribution-Share Alike 4.0 International</a></bdi></div>
+    <div class="buttons">
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" rel="license" target="_blank"><img src="/dokuwiki/lib/images/license/button/cc-by-sa.png" alt="CC Attribution-Share Alike 4.0 International" /></a>        <a href="https://www.dokuwiki.org/donate" title="Donate" target="_blank"><img
+            src="/dokuwiki/lib/tpl/dokuwiki/images/button-donate.gif" width="80" height="15" alt="Donate" /></a>
+        <a href="https://php.net" title="Powered by PHP" target="_blank"><img
+            src="/dokuwiki/lib/tpl/dokuwiki/images/button-php.gif" width="80" height="15" alt="Powered by PHP" /></a>
+        <a href="//validator.w3.org/check/referer" title="Valid HTML5" target="_blank"><img
+            src="/dokuwiki/lib/tpl/dokuwiki/images/button-html5.png" width="80" height="15" alt="Valid HTML5" /></a>
+        <a href="//jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS" target="_blank"><img
+            src="/dokuwiki/lib/tpl/dokuwiki/images/button-css.png" width="80" height="15" alt="Valid CSS" /></a>
+        <a href="https://dokuwiki.org/" title="Driven by DokuWiki" target="_blank"><img
+            src="/dokuwiki/lib/tpl/dokuwiki/images/button-dw.png" width="80" height="15"
+            alt="Driven by DokuWiki" /></a>
+    </div>
+</div></div><!-- /footer -->
+
+    </div></div><!-- /site -->
+
+    <div class="no"><img src="/dokuwiki/lib/exe/taskrunner.php?id=index&amp;1611353180" width="2" height="1" alt="" /></div>
+    <div id="screen__mode" class="no"></div></body>
+</html>
+```
