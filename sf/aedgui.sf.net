@@ -1,0 +1,264 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Welcome to aedGUI!</title>
+<link type="text/css" href="skin/page.css" rel="stylesheet">
+</head>
+<body text="#000000" bgcolor="#FFFFFF">
+<!--================= start Banner ==================-->
+<table summary="header with logos" width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<!--================= start Group Logo ==================-->
+<td bgcolor="#FFFFFF"><a href="http://aedgui.sf.net"><img border="0" class="logoImage" alt="aedGUI" src="images/logo_aedgui.png"></a></td>
+<!--================= end Group Logo ==================-->
+<!--================= start Project Logo ==================--><td width="100%" align="center" bgcolor="#FFFFFF"><a href=""></a></td>
+<!--================= end Project Logo ==================-->
+<!--================= start Search ==================--><td valign="top" rowspan="2" bgcolor="#FFFFFF">
+<form target="_blank" action="http://www.google.com/search" method="get">
+<table summary="search" border="0" cellspacing="0" cellpadding="0" bgcolor="#F7F7F7">
+<tr>
+<td bgcolor="#a5b6c6" colspan="3"><img height="10" width="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td colspan="3"><img height="8" width="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td><img height="1" width="1" alt="" src="skin/images/spacer.gif"></td><td nowrap="nowrap"><input value="http://aedgui.sf.net" name="sitesearch" type="hidden"><input size="15" name="q" id="query" type="text"><img height="1" width="5" alt="" src="skin/images/spacer.gif"><input name="Search" value="Search" type="submit">
+<br>
+<span class="search">
+                          the aedGUI site
+                          
+                          
+                        </span></td><td><img height="1" width="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td colspan="3"><img height="7" width="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td class="bottom-left-thick"></td><td bgcolor="#a5b6c6"><img height="1" width="1" alt="" src="skin/images/spacer.gif"></td><td class="bottom-right-thick"></td>
+</tr>
+</table>
+</form>
+</td>
+<!--================= end Search ==================--><td bgcolor="#FFFFFF"><img height="10" width="10" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td valign="bottom" bgcolor="#FFFFFF" colspan="2">
+<!--================= start Tabs ==================-->
+<div class="tab">
+<table summary="tab bar" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="8"><img alt="" height="8" width="8" src="skin/images/spacer.gif"></td><td valign="bottom">
+<table summary="selected tab" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="22" class="top-left"></td><td height="22" valign="middle" bgcolor="#a5b6c6"><span class="tab"><b><a href="index.html"><font color="#000000">Home</font></a></b></span></td><td height="22" class="top-right"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<!--================= end Tabs ==================-->
+</td><td bgcolor="#FFFFFF"><img alt="" width="1" height="1" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td bgcolor="#a5b6c6" colspan="4"><img width="1" height="10" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+</table>
+<!--================= end Banner ==================-->
+<!--================= start Menu, NavBar, Content ==================-->
+<table summary="page content" bgcolor="#ffffff" width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top">
+<table summary="menu" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<!--================= start left top NavBar ==================-->
+<td rowspan="3" valign="top">
+<table summary="blue line" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td bgcolor="#a5b6c6"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td bgcolor="#CFDCED"><font color="#F7F7F7" size="4" face="Arial, Helvetica, Sans-serif">&nbsp;</font></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+</table>
+</td>
+<!--================= end left top NavBar ==================--><td bgcolor="#a5b6c6"><img width="1" height="1" alt="" src="skin/images/spacer.gif"></td><td valign="bottom" bgcolor="#F7F7F7"><img width="10" height="10" alt="" src="skin/images/spacer.gif"></td><td nowrap="nowrap" valign="top" bgcolor="#F7F7F7">
+<!--================= start Menu items ==================-->
+<div class="menu">
+<ul>
+<li>
+<font color="#000000">About</font>
+<ul>
+<li>
+<a href="http://aedgui.sf.net/index.shtml">Index</a>
+</li>
+<li>
+<a href="roadmap.html">Roadmap</a>
+</li>
+<li>
+<a href="screenshots.html">Screenshots</a>
+</li>
+<li>
+<a href="http://sourceforge.net/project/showfiles.php?group_id=79749">Download</a>
+</li>
+<li>
+<a href="http://aedgui.sf.net/cvs/">CVS Usage</a>
+</li>
+<li>
+<a href="contact.html">Contact us!</a>
+</li>
+</ul>
+</li>
+<li>
+<font color="#000000">SF Tools</font>
+<ul>
+<li>
+<a href="https://sf.net/projects/aedgui">Project Page</a>
+</li>
+<li>
+<a href="http://sourceforge.net/tracker/?func=add&group_id=79749&atid=557646">Submit a bug</a>
+</li>
+<li>
+<a href="http://sourceforge.net/tracker/?func=add&group_id=79749&atid=557649">Request Feature</a>
+</li>
+<li>
+<a href="http://sourceforge.net/mail/?group_id=79749">Mailing Lists</a>
+</li>
+<li>
+<a href="http://sourceforge.net/forum/?group_id=79749">Forums</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<!--================= end Menu items ==================-->
+</td><td valign="bottom" bgcolor="#F7F7F7"><img width="10" height="10" alt="" src="skin/images/spacer.gif"></td><td bgcolor="#a5b6c6"><img width="1" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td colspan="2" rowspan="2" class="bottom-left-thick"></td><td bgcolor="#a5b6c6"><img height="10" width="10" border="0" alt="" src="skin/images/spacer.gif"></td><td colspan="2" rowspan="2" class="bottom-right-thick"></td>
+</tr>
+<tr>
+<td height="1" bgcolor="#a5b6c6"><img width="1" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+</table>
+</td><td valign="top" width="100%">
+<table summary="content" width="100%" border="0" cellpadding="0" cellspacing="0">
+<!--================= start middle NavBar ==================-->
+<tr>
+<td colspan="4" bgcolor="#a5b6c6"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td align="left" width="10" bgcolor="#CFDCED"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td><td align="left" width="50%" bgcolor="#CFDCED"><span class="trail">
+                      &nbsp;
+                      <script src="skin/breadcrumbs.js" language="JavaScript" type="text/javascript"></script></span><img width="10" height="8" alt="" src="skin/images/spacer.gif"></td><td align="right" width="50%" bgcolor="#CFDCED"><font color="#F7F7F7" size="3" face="Arial, Helvetica, Sans-serif">
+                      &nbsp;
+                      
+                    </font><img width="10" height="8" alt="" src="skin/images/spacer.gif"></td><td width="10" bgcolor="#CFDCED"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td colspan="4" bgcolor="#a5b6c6"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<!--================= end middle NavBar ==================-->
+<!--================= start Content==================-->
+<tr>
+<td align="left" width="10"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td><td align="left" width="100%">
+<div class="content">
+<table class="title">
+<tr>
+<td valign="middle">
+<h1>Welcome to aedGUI!</h1>
+</td><td nowrap="nowrap" width="80" align="center"><a class="dida" href="index.pdf"><img alt="print-friendly version" src="skin/images/printer.png" border="0"><br>
+                  print-friendly<br>
+                  PDF</a></td>
+</tr>
+</table> 
+    
+<a name="N101BE"></a><a name="Introduction"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td height="10" width="9"></td><td>
+<h3>Introduction</h3>
+</td><td></td>
+</tr>
+<tr>
+<td class="bottom-left-thick"></td><td bgcolor="#a5b6c6"></td><td class="bottom-right-thick"></td>
+</tr>
+</tbody>
+</table>
+<div class="section">
+      
+	
+<p>
+		aedGUI is a cross-plataform, easy-to-use, non-intrusive C++ GUI library
+		that runs on top of SDL, providing themeable widgets without learning
+		Yet Another API.
+	</p>
+    
+</div>
+    
+<a name="N101C8"></a><a name="Project+News"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td height="10" width="9"></td><td>
+<h3>Project News</h3>
+</td><td></td>
+</tr>
+<tr>
+<td class="bottom-left-thick"></td><td bgcolor="#a5b6c6"></td><td class="bottom-right-thick"></td>
+</tr>
+</tbody>
+</table>
+<div class="section">
+      
+	
+
+					<A HREF="http://sourceforge.net/forum/forum.php?forum_id=333945"><B>0.1.8a release</B></A>&nbsp;&nbsp;&nbsp;<I>eduardobrasao - 2003-12-02 10:00</I><div align="center">  <A HREF="http://sourceforge.net/forum/forum.php?forum_id=333945">[Read More/Comment]</a></div><HR width="100%" size="1" noshade>
+					<A HREF="http://sourceforge.net/forum/forum.php?forum_id=311452"><B>New 0.1.7 release</B></A>&nbsp;&nbsp;&nbsp;<I>eduardobrasao - 2003-09-17 20:44</I><div align="center">  <A HREF="http://sourceforge.net/forum/forum.php?forum_id=311452">[Read More/Comment]</a></div><HR width="100%" size="1" noshade>
+					<A HREF="http://sourceforge.net/forum/forum.php?forum_id=303482"><B>Sam Lantinga joins aedGUI</B></A>&nbsp;&nbsp;&nbsp;<I>eduardobrasao - 2003-08-20 19:08</I><div align="center">  <A HREF="http://sourceforge.net/forum/forum.php?forum_id=303482">[Read More/Comment]</a></div><HR width="100%" size="1" noshade>
+					<A HREF="http://sourceforge.net/forum/forum.php?forum_id=297444"><B>New 0.1.6 release!</B></A>&nbsp;&nbsp;&nbsp;<I>eduardobrasao - 2003-07-29 19:11</I><div align="center">  <A HREF="http://sourceforge.net/forum/forum.php?forum_id=297444">[Read More/Comment]</a></div><HR width="100%" size="1" noshade>
+					<A HREF="http://sourceforge.net/forum/forum.php?forum_id=295497"><B>We are alive!</B></A>&nbsp;&nbsp;&nbsp;<I>eduardobrasao - 2003-07-23 06:20</I><div align="center">  <A HREF="http://sourceforge.net/forum/forum.php?forum_id=295497">[Read More/Comment]</a></div><HR width="100%" size="1" noshade>
+					<A HREF="http://sourceforge.net/forum/forum.php?forum_id=290516"><B>New project admin</B></A>&nbsp;&nbsp;&nbsp;<I>eduardobrasao - 2003-07-06 16:15</I><div align="center">  <A HREF="http://sourceforge.net/forum/forum.php?forum_id=290516">[Read More/Comment]</a></div><HR width="100%" size="1" noshade>
+					<A HREF="http://sourceforge.net/forum/forum.php?forum_id=287683"><B>New 0.1.5 release!</B></A>&nbsp;&nbsp;&nbsp;<I>eduardobrasao - 2003-06-24 19:16</I><div align="center">  <A HREF="http://sourceforge.net/forum/forum.php?forum_id=287683">[Read More/Comment]</a></div><HR width="100%" size="1" noshade>
+					<A HREF="http://sourceforge.net/forum/forum.php?forum_id=285987"><B>Visual C support</B></A>&nbsp;&nbsp;&nbsp;<I>eduardobrasao - 2003-06-18 20:04</I><div align="center">  <A HREF="http://sourceforge.net/forum/forum.php?forum_id=285987">[Read More/Comment]</a></div><HR width="100%" size="1" noshade>
+					<A HREF="http://sourceforge.net/forum/forum.php?forum_id=285986"><B>New aedTextBox... working!</B></A>&nbsp;&nbsp;&nbsp;<I>eduardobrasao - 2003-06-18 20:03</I><div align="center">  <A HREF="http://sourceforge.net/forum/forum.php?forum_id=285986">[Read More/Comment]</a></div><HR width="100%" size="1" noshade>
+					<A HREF="http://sourceforge.net/forum/forum.php?forum_id=285985"><B>New developers!</B></A>&nbsp;&nbsp;&nbsp;<I>eduardobrasao - 2003-06-18 20:02</I><div align="center">  <A HREF="http://sourceforge.net/forum/forum.php?forum_id=285985">[Read More/Comment]</a></div><HR width="100%" size="1" noshade><div align="center"><a href="http://sourceforge.net/news/?group_id=79749">[News archive]</a></div>
+    
+</div>
+  
+</div>
+</td><td width="10"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<!--================= end Content==================-->
+</table>
+</td>
+</tr>
+</table>
+<!--================= end Menu, NavBar, Content ==================-->
+<!--================= start Footer ==================-->
+<table summary="footer" cellspacing="0" cellpadding="0" width="100%" border="0">
+<tr>
+<td colspan="2" height="1" bgcolor="#F7F7F7"><img height="1" width="1" alt="" src="skin/images/spacer.gif"><a href="skin/images/label.gif"></a><a href="skin/images/page.gif"></a><a href="skin/images/chapter.gif"></a><a href="skin/images/chapter_open.gif"></a><a href="skin/images/current.gif"></a><a href="/favicon.ico"></a></td>
+</tr>
+<tr>
+<div class="host">
+<img alt="" height="1" width="10" src="skin/images/spacer.gif"><a href="http://www.sourceforge.net"><img border="0" class="logoImage" alt="" src="http://sourceforge.net/sflogo.php?group_id=79749&type=2"></a>
+</div>
+<td colspan="2" bgcolor="#a5b6c6" class="copyright" align="center" width="90%"><span class="footnote">Copyright &copy;
+                2003&nbsp;The aedGUI Team and A&amp;D Solu&ccedil;&otilde;es Ltda All rights reserved.
+                <br>
+<script type="text/javascript" language="JavaScript"><!--
+                  document.write(" - "+"Last Published: " + document.lastModified);
+                  //  --></script></span></td><td nowrap="nowrap" align="right" bgcolor="#a5b6c6" class="logos"><a href="http://validator.w3.org/check/referer"><img width="88" height="31" alt="Valid HTML 4.01!" src="skin/images/valid-html401.png" class="logoImage" border="0"></a><a href="http://jigsaw.w3.org/css-validator/"><img width="88" height="31" alt="Valid CSS!" src="skin/images/vcss.png" class="logoImage" border="0"></a><a href="http://xml.apache.org/forrest/"><img border="0" alt="Built with Apache Forrest logo" src="images/built-with-forrest-button.png" width="88" height="31"><img height="1" width="5" alt="" border="0" src="skin/images/spacer.gif"></a></td>
+</tr>
+</table>
+<!--================= end Footer ==================-->
+</body>
+</html>
+```
