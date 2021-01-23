@@ -1,0 +1,1196 @@
+```<!DOCTYPE html>
+<html  lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<meta name="geo.placename" content="," />
+<meta name="geo.region" content="US-" />
+<link rel="shortlink" href="https://www.airnow.gov/" />
+<link rel="canonical" href="https://www.airnow.gov/" />
+<meta name="description" content="AirNow is your one-stop source for air quality data. Our recently redesigned site highlights air quality in your local area first, while still providing air quality information at state, national, and world views." />
+<meta name="dcterms.coverage" content="," />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="shortcut icon" href="/core/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&amp;l='+l:'';j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-L8ZB');</script>
+
+    <title>AirNow.gov</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_MIAq6aFsP96Ozy0fYV-YbhaaMxSLdtYtEn2oWxlbsuE.css?qncph8" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.4.0/8.x-3.x/drupal-bootstrap.min.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_dmE0YbA5fwBykRmXqaiAA4Z2XF8z4h5hHuLrIajchyk.css?qncph8" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_u1nt0rO1xlizrjKfHmBTWY2aUkkitBErWOG2SbekjeE.css?qncph8" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+  </head>
+  <body class="path-frontpage has-glyphicons">
+    <a href="#main-content" style="color: #000000; font-size: 15px;" class="visually-hidden focusable skip-link" role="navigation" id="Skip to main content" name="Skip to main content" aria-label="Skip to main content">
+      Skip to main content
+    </a>
+    <div id="popup-announcement-container" style="display: none;" role="contentinfo" aria-label="Announcement Popup">
+      <div id="popup-announcement">
+        <span class="popup-announcement-title-dismiss">X</span>
+        <h3 class="popup-announcement-title">
+          No Data Available
+        </h3>
+        <div class="popup-announcement-message">
+            There are no current and forecast air quality data found near your location.<br/><br/>
+            <span class="statePageLink">Please visit the <a id="popup-announcement-state-page-link" href=""></a> for a list of cities with data.</span>
+            <span class="otherCountryText" style="display: none;">Please search for a U.S. location, or visit the International navigation tab.</span>
+        </div>
+      </div>
+    </div>
+    <div id="popup-data-provider-container" style="display: none;" role="contentinfo"  aria-label="Data Provider Popup">
+      <div id="popup-data-provider">
+        <span class="popup-data-provider-title-dismiss">X</span>
+        <h3 class="popup-data-provider-title">
+          Data Courtesy Of
+        </h3>
+        <div class="popup-data-provider-message">
+            Unable to retrieve Data Providers.
+        </div>
+      </div>
+    </div>
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-L8ZB" height="0" width="0" title="Google Tag Manager"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+
+<div>
+    <div class="region region-froze-nav">
+    <section id="block-customnavigationblock" class="block block-block-content block-block-content1dcd2ed1-e110-43f9-b1eb-5911c8c05b2b clearfix">
+  
+    
+
+      
+
+<div id="master-navbar" class="navbar navbar-fixed-top top-bar top-color-def">
+  <div class="navbar-holder">
+    <div class="navigation-holder">
+      <a href="/">
+        <div class="navbar-header" id="navbarHeader"  style="float:left;">
+                    <img alt="Air Now Logo" src="https://www.airnow.gov/sites/default/files/2017-12/AirNow_Logo_White.svg">
+        </div>
+      </a>
+      <div class="dropdown dropdown-search">
+        <button id="search-btn" class="dropbtn" tabindex="-1" name="Search">
+          <span class="hidden">Search</span>
+          <span class="fa fa-search" aria-hidden="true"></span>
+          <span class="fa fa-times" aria-hidden="true" style="display: none;"></span>
+        </button>
+        <div id="search-content" class="dropdown-content">
+
+                                        
+          <form class="epa-search" method="get" action="https://search.epa.gov/epasearch">
+            <label class="hidden" for="what-look">Search Bar</label>
+            <input class="search-bar" type="text" name="querytext" id="what-look" value=""/>
+            <button class="search-submit-button" id="search-button" type="submit" title="Search"><span class="fa fa-search" aria-hidden="true"></span></button>
+            <input type="hidden" name="typeofsearch" value="area" />
+            <input type="hidden" name="areaname" value="AirNow" />
+            <input type="hidden" name="inmeta" value="URL~www.airnow.gov">
+          </form>
+
+                  </div>
+      </div>
+      <div class="mobile-dropdown">
+        <span class="fa fa-bars" aria-hidden="true"></span>
+      </div>
+      <div class="dropdown mobile-city visible-xs noData">
+        <h2 class="location-label">No Location Selected</h2>
+      </div>
+      <div class="mobile-scroll">
+                                      <div class="dropdown dropdown-gen">
+          <div id="airnow-btn" class="dropbtn"
+          		                      >
+
+                                                                      <a class="main-link dropbtn-nav-link" href="/" target="_self" tabindex="0">AirNow</a>
+                      </div>
+          <div class="dropdown-content">
+                                                                                                                  <a class="main-link nav-link" href="/about-airnow" target="_self"
+                                    >About AirNow</a>
+                                                                                                                                                <a class="main-link nav-link" href="/how-to-use-this-site" target="_self"
+                                    >How to use this site</a>
+                                                                                                                                                <a class="main-link nav-link" href="/partners" target="_self"
+                                    >AirNow Partners</a>
+                                                                                                                    <a class="sub-link nav-link" href="/partners" target="_self">List of Partners</a>
+                                                                                                                                      <a class="sub-link nav-link" href="/partners/for-partners" target="_self">For Partners</a>
+                                                                                                                                                                  <a class="main-link nav-link" href="https://usepa.servicenowservices.com/airnow" target="_self"
+                                    >FAQs</a>
+                                                                                                                                                <a class="main-link nav-link" href="/contact-us" target="_self"
+                                    >Contact Us</a>
+                                                                                                                                                <a class="main-link nav-link" href="/announcements" target="_self"
+                                    >Announcements</a>
+                                                                                                                                                <a class="main-link nav-link" href="/about-the-data" target="_self"
+                                    >About the data</a>
+                                                    </div>
+        </div>
+                                      <div class="dropdown dropdown-gen">
+          <div id="aqi-and-health-btn" class="dropbtn"
+          		                      >
+
+                                                                      <a class="main-link dropbtn-nav-link" href="/aqi-and-health" target="_self" tabindex="0">AQI &amp; Health</a>
+                      </div>
+          <div class="dropdown-content">
+                                                                                                                  <a class="main-link nav-link" href="/aqi" target="_self"
+                                    >Air Quality Index (AQI)</a>
+                                                                                                                    <a class="sub-link nav-link" href="/aqi/aqi-basics" target="_self">AQI Basics</a>
+                                                                                                                                      <a class="sub-link nav-link" href="https://www.epa.gov/ozone-pollution" target="_self">Ozone</a>
+                                                                                                                                      <a class="sub-link nav-link" href="/aqi/aqi-basics/using-air-quality-index" target="_self">Using the Air Quality Index</a>
+                                                                                                                                      <a class="sub-link nav-link" href="https://www.epa.gov/pm-pollution" target="_self">Particle Pollution</a>
+                                                                                                                                      <a class="sub-link nav-link" href="/aqi/aqi-calculator" target="_self">AQI Calculators</a>
+                                                                                                                                      <a class="sub-link nav-link" href="/aqi/action-days" target="_self">Action Days</a>
+                                                                                                                                                                  <a class="main-link nav-link" href="/air-quality-and-health" target="_self"
+                                    >Air Quality and Health</a>
+                                                                                                                    <a class="sub-link nav-link" href="/activity-guides-publications" target="_self">Activity Guides</a>
+                                                                                                                                      <a class="sub-link nav-link" href="/air-quality-and-health/your-health" target="_self">Your Health</a>
+                                                                                                                                      <a class="sub-link nav-link" href="/air-quality-and-health/asthma-and-heart-disease" target="_self">Asthma and Heart Disease</a>
+                                                                                                                                      <a class="sub-link nav-link" href="/air-quality-and-health/online-training-for-health-professionals" target="_self">Health Professionals</a>
+                                                                                                                                                                  <a class="main-link nav-link" href="/aqaw" target="_self"
+                                    >Air Quality Awareness Week</a>
+                                                    </div>
+        </div>
+                                      <div class="dropdown dropdown-gen">
+          <div id="fires-btn" class="dropbtn"
+          		                      >
+
+                                                                      <a class="main-link dropbtn-nav-link" href="/fires" target="_self" tabindex="0">Fires</a>
+                      </div>
+          <div class="dropdown-content">
+                                                                                                                  <a class="main-link nav-link" href="/fires" target="_self"
+                                    >Fires</a>
+                                                                                                                                                <a class="main-link nav-link" href="https://fire.airnow.gov" target="_blank"
+                                    >Fire and Smoke Map</a>
+                                                                                                                                                <a class="main-link nav-link" href="/fires/using-airnow-during-wildfires" target="_self"
+                                    >Using AirNow During Wildfires</a>
+                                                                                                                                                <a class="main-link nav-link" href="/air-quality-and-health/fires/smoke-advisories" target="_self"
+                                    >Smoke Advisories</a>
+                                                                                                                                                <a class="main-link nav-link" href="/air-quality-and-health/fires-and-your-health" target="_self"
+                                    >Fires and Health</a>
+                                                    </div>
+        </div>
+                                      <div class="dropdown dropdown-gen">
+          <div id="maps-and-data-btn" class="dropbtn"
+          		                      >
+
+                                                                      <a class="main-link dropbtn-nav-link" href="/maps-and-data" target="_self" tabindex="0">Maps &amp; Data</a>
+                      </div>
+          <div class="dropdown-content">
+                                                                                                                  <a class="main-link nav-link" href="https://gispub.epa.gov/airnow/" target="_blank"
+                                    >Interactive Map</a>
+                                                                                                                                                <a class="main-link nav-link" href="/national-maps" target="_self"
+                                    >National Maps</a>
+                                                                                                                                                <a class="main-link nav-link" href="https://fire.airnow.gov/" target="_self"
+                                    >Fire and Smoke Map</a>
+                                                                                                                                                <a class="main-link nav-link" href="/fires/using-airnow-during-wildfires" target="_self"
+                                    >Using AirNow During Wildfires</a>
+                                                                                                                                                <a class="main-link nav-link" href="/state" target="_self"
+                                    >Information by state</a>
+                                                                                                                                                <a class="main-link nav-link" href="https://gispub.epa.gov/airnow/index.html?tab=3" target="_blank"
+                                    >Past Data</a>
+                                                                                                                    <a class="sub-link nav-link" href="/state?name=alabama#historicalAQI" target="_self">By City</a>
+                                                                                                                                      <a class="sub-link nav-link" href="https://gispub.epa.gov/airnow/index.html?tab=3" target="_blank">By Monitor</a>
+                                                                                                                                                                  <a class="main-link nav-link" href="/international/us-embassies-and-consulates" target="_self"
+                                    >U.S. Embassies &amp; Consulates</a>
+                                                                                                                                                <a class="main-link nav-link" href="https://www.epa.gov/outdoor-air-quality-data" target="_self"
+                                    >AirData</a>
+                                                                                                                                                <a class="main-link nav-link" href="https://www3.epa.gov/aircompare/" target="_self"
+                                    >AirCompare</a>
+                                                                                                                                                <a class="main-link nav-link" href="https://docs.airnowapi.org/" target="_self"
+                                    >Developers/API</a>
+                                                                                                                                                <a class="main-link nav-link" href="/airnow-mobile-app" target="_self"
+                                    >AirNow Mobile App</a>
+                                                    </div>
+        </div>
+                                      <div class="dropdown dropdown-gen">
+          <div id="education-btn" class="dropbtn"
+          		                      >
+
+                                                                      <a class="main-link dropbtn-nav-link" href="/education" target="_self" tabindex="0">Education</a>
+                      </div>
+          <div class="dropdown-content">
+                                                                                                                  <a class="main-link nav-link" href="/air-quality-flag-program" target="_self"
+                                    >Air Quality Flag Program</a>
+                                                                                                                                                <a class="main-link nav-link" href="/air-quality-flag-program-in-spanish" target="_self"
+                                    >Air Quality Flag Program (En Español)</a>
+                                                                                                                                                <a class="main-link nav-link" href="/education/what-you-can-do" target="_self"
+                                    >What You Can Do</a>
+                                                                                                                                                <a class="main-link nav-link" href="/education/teachers" target="_self"
+                                    >Information for:</a>
+                                                                                                                    <a class="sub-link nav-link" href="/education/teachers" target="_self">Teachers</a>
+                                                                                                                                      <a class="sub-link nav-link" href="/education/students" target="_self">Students</a>
+                                                                                                                                      <a class="sub-link nav-link" href="/air-quality-and-health/online-training-for-health-professionals" target="_self">Health Professionals</a>
+                                                                                                                                      <a class="sub-link nav-link" href="/education/for-weathercasters" target="_self">Weathercasters</a>
+                                                                      </div>
+        </div>
+                                      <div class="dropdown dropdown-gen">
+          <div id="international-btn" class="dropbtn"
+          		                      >
+
+                          International
+                      </div>
+          <div class="dropdown-content">
+                                                                                                                  <a class="main-link nav-link" href="/international/us-embassies-and-consulates" target="_self"
+                                    >U.S. Embassies and Consulates</a>
+                                                                                                                                                <a class="main-link nav-link" href="https://gispub.epa.gov/airnow/?xmin=-17134679.370019116&amp;ymin=3571995.9725610483&amp;xmax=-5661192.634746248&amp;ymax=11449023.492688756&amp;clayer=none&amp;mlayer=ozonepm&amp;panel=0" target="_blank"
+                                    >Canada</a>
+                                                                                                                                                <a class="main-link nav-link" href="https://gispub.epa.gov/airnow/?xmin=-12217397&amp;ymin=1920062&amp;xmax=-10356002&amp;ymax=2656304&amp;clayer=none&amp;mlayer=ozonepm&amp;panel=0" target="_blank"
+                                    >Mexico</a>
+                                                    </div>
+        </div>
+                                      <div class="dropdown dropdown-gen">
+          <div id="resources-btn" class="dropbtn"
+          		                      >
+
+                          Resources
+                      </div>
+          <div class="dropdown-content">
+                                                                                                                  <a class="main-link nav-link" href="http://www.enviroflash.info/" target="_self"
+                                    >EnviroFlash emails</a>
+                                                                                                                                                <a class="main-link nav-link" href="https://www.epa.gov/air-sensor-toolbox" target="_self"
+                                    >Air Sensors</a>
+                                                                                                                                                <a class="main-link nav-link" href="/resources/web-cams" target="_self"
+                                    >Web Cams</a>
+                                                                                                                                                <a class="main-link nav-link" href="https://docs.airnowapi.org/" target="_self"
+                                    >Developers/API</a>
+                                                                                                                    <a class="sub-link nav-link" href="/custom-airnow-maps/map-overview" target="_self">Custom AirNow Maps</a>
+                                                                                                                                      <a class="sub-link nav-link" href="/aqi-widgets" target="_self"> Widgets</a>
+                                                                                                                                                                  <a class="main-link nav-link" href="/all-publications" target="_self"
+                                    >Publications</a>
+                                                                                                                                                <a class="main-link nav-link" href="/all-publications-en-espanol" target="_self"
+                                    >Publications (En Espanol)</a>
+                                                                                                                                                                                                                                                                                                                                                                                                <a class="main-link nav-link" href="/air-quality-videos" target="_self"
+                                    >Air Quality Videos</a>
+                                                                                                                                                <a class="main-link nav-link" href="/site-map" target="_self"
+                                    >Site Map</a>
+                                                    </div>
+        </div>
+            </div>
+    </div>
+  </div>
+
+  <div id="bb-nav" class="bb-holder">
+    <div class="bb-info-holder noData">
+      <div class="strip-padding status-message-container" id="status-message-container">
+        <div class="nav-left-side-toolbar">
+    
+
+    
+    <div id="nav-announcements-tool" class="nav-tool" tabindex="0">
+    <button id="nav-announcements-toggle" class="nav-tool-toggle" tabindex="-1" name="Announcements">
+      <span class="sr-only">Show Announcements Popup</span>
+    </button>
+    <div class="nav-tool-counter blue">
+      4
+    </div>
+    <div id="nav-announcements-popup-arrow" class="nav-tool-popup-arrow">
+      <span class="sr-only">Arrow pointing from Announcements Popup to the Tool button</span>
+    </div>
+  </div>
+
+    <div id="nav-announcements-popup" class="nav-tool-popup">
+    <span class="popup-dismiss">&#10799;</span>
+    <h1 class="popup-title">Announcements</h1>
+    <div class="popup-container">
+                        <div class="announcement-container">
+            <a class="link" href="/announcement/4171">
+              <span class="sr-only">https://www.airnow.gov/announcement/4171</span>
+            </a>
+            <h2 class="title">Upcoming Webinar: the Science Behind the AirNow Sensor Data Pilot</h2>
+            <h3 class="date">2021-01-11</h3>
+            <div class="message"><p>Learn about the scientific work that allowed AirNow to add data from low-cost sensors to the Fire and Smoke Map. Join us for a free webinar from 1 to 3 p.m. EST, <strong>Thursday, January 28, 2021</strong>. For more info and to register to attend, visit <a href="https://go.usa.gov/xAUmZ">https://go.usa.gov/xAUmZ</a></p></div>
+          </div>
+                                <div class="announcement-container">
+            <a class="link" href="/announcement/4011">
+              <span class="sr-only">https://www.airnow.gov/announcement/4011</span>
+            </a>
+            <h2 class="title">Sensor Data Available on Fire and Smoke Map </h2>
+            <h3 class="date">2020-08-19</h3>
+            <div class="message"><p>AirNow and the U.S. Forest Service have launched a pilot project to show data from low-cost sensors on the Fire and Smoke Map. The goal of the project is to provide additional air quality information during wildfires – especially in areas with no AirNow monitors. <a href="https://fire.airnow.gov/" target="_blank">See the map</a>.</p>
+</div>
+          </div>
+                                <div class="announcement-container">
+            <a class="link" href="/announcement/3786">
+              <span class="sr-only">https://www.airnow.gov/announcement/3786</span>
+            </a>
+            <h2 class="title">AirNow app</h2>
+            <h3 class="date">2020-06-04</h3>
+            <div class="message"><p><span><span>EPA’s AirNow app has a sleek new look and improved functionality! Download the updated app for free on the <a href="https://apps.apple.com/us/app/epa-airnow/id467653238">Apple App Store</a> or the <a href="https://play.google.com/store/apps/details?id=com.saic.airnow">Google Play Store</a>.</span></span></p></div>
+          </div>
+                                <div class="announcement-container">
+            <a class="link" href="/announcement/3336">
+              <span class="sr-only">https://www.airnow.gov/announcement/3336</span>
+            </a>
+            <h2 class="title">Updated AirNow Website </h2>
+            <h3 class="date">2020-04-15</h3>
+            <div class="message"><p>Welcome to the updated AirNow website. If you have questions, <a href="/contact-us">let us know</a>.</p>
+
+<p><a href="/how-to-use-this-site">Learn how to use this site.</a></p></div>
+          </div>
+                  </div>
+    <div class="view-all-link">
+      <a href="/announcements">View All (4)</a>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="strip-padding">
+        <div class="nav-right-side-toolbar">
+      <div id="nav-weather-tool" class="nav-tool">
+    <div class="weather-degrees-value-wrapper">
+      <img class="weather-degrees" alt="weather degrees" src="/themes/anblue/images/weather/Weather_Degree_F.svg"/>
+      <div class="weather-value"></div>
+    </div>
+    <div class="weather-icon">
+      <img alt="weather icon" src="/themes/anblue/images/weather/weather_icon_partly_cloudy.svg"/>
+    </div>
+    <img class="weather-loading" alt="weather loading spinner" src="/themes/anblue/images/30.svg"/>
+  </div>
+
+      <div id="nav-aqi-tool" class="nav-tool hidden">
+    <div class="aqi-button aqi-nav-scroll">
+      <a class="btn btn-aqi-nav aqi-orb">
+        <span class="aqi-nav-text">AQI</span>
+        <span class="fa fa-times" style="display: none"></span>
+      </a>
+    </div>
+    <div class="aq-dial aqi-nav-scroll small status-bar">
+      <img class="aq-dial-background" src="/themes/anblue/images/dial2/dial_black_circle_top.svg" alt="Dial Background Circle Top" />
+      <img class="aq-dial-background2" src="/themes/anblue/images/dial2/dial_black_circle_bottom.svg" alt="Dial Background Circle Bottom"/>
+      <img class="aq-dial-meter" src="/themes/anblue/images/dial2/dial_legend.svg" alt="Dial Arched AQI Legend"/>
+      <img class="aq-dial-arrow" src="/themes/anblue/images/dial2/dial_arrow_full_rounded.svg" alt="Dial AQI Value Indicator Arrow" />
+      <img class="aq-dial-status" src="/themes/anblue/images/dial2/dial_not_available.svg" alt="Dial Category Indicator Half-Circle" />
+      <div class="bottom-half">
+        <div class="current-aq-container">
+          <div class="header">
+            Current Air Quality <span class="aq-updated-time"></span>
+          </div>
+          <div class="current-aq-data">
+            <div class="aqi"></div>
+            <div class="pollutant"></div>
+          </div>
+        </div>
+        <div class="forecast-aq-container">
+          <div class="header">Forecast AQI</div>
+          <div class="today-aq-data">
+            <div class="date">Today</div>
+            <div class="circle">
+              <img class="action-day" src="/themes/anblue/images/dial2/action_day_icon.png" alt="Action Day Icon" />
+            </div>
+            <div class="category"></div>
+          </div>
+          <div class="tomorrow-aq-data">
+            <div class="date">Tomorrow</div>
+            <div class="circle">
+              <img class="action-day" src="/themes/anblue/images/dial2/action_day_icon.png" alt="Action Day Icon" />
+            </div>
+            <div class="category"></div>
+          </div>
+          <div class="misc">
+            <div class="browser-only">More</div>
+            <a class="print-only" href="//airnow.gov">AirNow.gov</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <div id="nav-geosearch-tool" class="aqi-container nav-tool hidden">
+    <div class="curr-cond-label aqi-nav-scroll hidden-xs">
+      <a href="/"></a>
+    </div>
+    <div class="location-input aqi-nav-scroll">
+      <div class="location-input-holder">
+        <label class="hidden" for="location-input-nav">Location Search</label>
+        <input id="location-input-nav" class="location-input-style location-input-field" placeholder="ZIP Code, City, or State"/>
+        <div class="location-input-gps-btn"></div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="display: none;" id="tippy_container"></div>
+
+  </section>
+
+<div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+</div>
+
+
+  <div class="main-content">
+    <div role="main" class="main-container js-quickedit-main-content testcontents">
+      <div class="">
+                
+                
+                        <section>
+
+                    
+		            
+			
+                                <a id="main-content"></a>
+			
+              <div class="region region-content">
+      <div class="views-element-container form-group"><div class="view view-home-page view-id-home_page view-display-id-page_1 js-view-dom-id-323320ebaddf854dc25380c72c4a0a66b9aae86ef2606d0c205a352af5a47878">
+  
+    
+      <div class="view-header">
+      
+<article data-history-node-id="2" role="article" class="home-marquee is-promoted full clearfix">     <div class="marquee" style="background: url(/themes/anblue/images/AirNow_Marquee_Sunbeam.jpg); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size:cover">
+            <div class="marquee-background marquee-background-hide"
+                 >
+      <div class="marquee-holder">
+                
+<div class="aq-dial-container col-md-5 col-sm-6 col-md-offset-2 col-sm-offset-1 noData">
+  <div class="aq-dial-mobile-spacer visible-xs"></div>
+  <div class="aq-dial">
+    <img class="aq-dial-background" src="themes/anblue/images/dial2/dial_black_circle_top.svg" alt="Dial Background Circle Top" />
+    <img class="aq-dial-background2" src="themes/anblue/images/dial2/dial_black_circle_bottom.svg" alt="Dial Background Circle Bottom"/>
+    <img class="aq-dial-meter" src="themes/anblue/images/dial2/dial_legend.svg" alt="Dial Arched AQI Legend"/>
+    <img class="aq-dial-arrow" src="themes/anblue/images/dial2/dial_arrow_full_rounded.svg" alt="Dial AQI Value Indicator Arrow" />
+    <img class="aq-dial-status" src="themes/anblue/images/dial2/dial_not_available.svg" alt="Dial Category Indicator Half-Circle" />
+    <div class="top-half">
+      <div class="current-category-tooltip-hotspot"></div>
+    </div>
+    <div class="bottom-half">
+      <div class="current-aq-container">
+        <div class="header">
+          Current Air Quality <span class="aq-updated-time"></span>
+        </div>
+        <div class="current-aq-data">
+          <div class="aqi"></div>
+          <div class="pollutant"></div>
+        </div>
+      </div>
+      <div class="forecast-aq-container">
+        <div class="header">Forecast AQI</div>
+        <div class="today-aq-data">
+          <div class="date">Today</div>
+          <div class="circle">
+            <img class="action-day" src="themes/anblue/images/dial2/action_day_icon.png" alt="Action Day Icon" />
+          </div>
+          <div class="category"></div>
+        </div>
+        <div class="tomorrow-aq-data">
+          <div class="date">Tomorrow</div>
+          <div class="circle">
+            <img class="action-day" src="themes/anblue/images/dial2/action_day_icon.png" alt="Action Day Icon" />
+          </div>
+          <div class="category"></div>
+        </div>
+        <div class="misc">
+          <div class="browser-only">More</div>
+          <a class="print-only" href="//airnow.gov">AirNow.gov</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="marquee-col marquee-location-col col-sm-5 visible-xs noData">
+  <div class="marquee-col-holder">
+    <div class="location-holder splash-screen">
+      <div class="col-xs-12 location-input-holder">
+        <label class="hidden" for="location-input-mobile">Location Search</label>
+        <div id="location-input-mobile-gps" style="display: inline-block">
+          <input id="location--inputmobile"
+                 class="location-input-style location-input-field location-input-marquee visible-xs"
+                 placeholder="ZIP Code, City, or State"/>
+          <div class="location-input-gps-btn"></div>
+        </div>
+      </div>
+      <div class="mobile-location-label"></div>       <div class="mobile-reporting-location"></div>
+      <div class="col-xs-12 location-label-holder">
+        <h2 class="location-label standard-location-label splash-main-message">
+          Get air quality data where you live.
+                  </h2>
+      </div>
+      <div class="col-xs-12 location-btn-holder">
+        <a id="mobile-air-quality-monitors-near-me" href="https://gispub.epa.gov/airnow/" target="_blank" class="btn btn-custom-blue air-quality-monitors-near-me">Monitors Near Me</a>
+        <a id="mobile-trends" href="/trends/?cityName&stateName&countryCode" target="_self" class="btn btn-custom-blue trends">Recent Trends</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="marquee-dataprovider-col ">
+</div>
+
+<div class="mobile-marquee-dataprovider-col">
+</div>
+
+
+<div class="site-attribution">
+  <a class="epa-logo" href="https://www.epa.gov/" target="_blank">
+    <img src="/themes/anblue/images/epa-logo.svg" alt="EPA">
+  </a>
+  and
+  <a class="partners-link" href="/partners">PARTNERS</a>
+</div>
+
+
+<div class="marquee-col marquee-location-col col-sm-5 hidden-xs noData">
+  <div class="marquee-col-holder">
+    <div class="location-holder splash-screen">
+      <div class="col-xs-12 location-input-holder">
+        <label class="hidden" for="location-input">Location Search</label>
+        <div id="location-input-gps-wrapper" style="display: inline-block;">
+          <input id="location-input" class="location-input-style location-input-field location-input-marquee hidden-xs"
+                 aria-label="Location Search" placeholder="ZIP Code, City, or State"/>
+          <label style="display: none;" for="location-input_input">Location Search</label>
+          <div class="location-input-gps-btn"></div>
+        </div>
+      </div>
+      <div class="col-xs-12 location-label-holder">
+        <h1 class="location-label standard-location-label splash-main-message">
+          Get air quality data where you live.
+                  </h1>
+      </div>
+      <div class="reporting-location">
+      </div>
+      <div class="col-xs-12 location-btn-holder">
+        <a id="air-quality-monitors-near-me" href="https://gispub.epa.gov/airnow/" target="_blank" class="btn btn-custom-blue air-quality-monitors-near-me">Monitors Near Me</a>
+        <a id="trends" href="/trends/?cityName&stateName&countryCode" target="_self" class="btn btn-custom-blue trends">Recent Trends</a>
+      </div>
+
+                </div>
+  </div>
+
+</div>
+
+<div class="po-aqi-scale noData">
+  <button class="po-scale-item po-aqi-scale-btn">
+    <img class="aqi-legend-icon" src="/themes/anblue/images/Legend_Color_block.svg" alt="">
+    <span class="fa fa-chevron-circle-down"></span>AQI Legend
+  </button>
+  <div class="po-scale-item po-aqi-scale-display po-aqi-scale-display-hidden">
+    <div class="row strip-margin scale-section-title">
+      <div class="col-xs-10 po-title-container">
+        <p class="display-item po-title-text">Air Quality Index Scale </p>
+      </div>
+      <div class="col-xs-2 display-close-holder">
+        <span class="fa fa-times"></span>
+      </div>
+    </div>
+    <div class="row strip-margin scale-section scale-section-good">
+      <div class="col-xs-4 po-aqi-text">0 - 50</div>
+      <div class="col-xs-8 po-category-text">Good</div>
+    </div>
+    <div class="row strip-margin scale-section scale-section-moderate">
+      <div class="col-xs-4 po-aqi-text">51 - 100</div>
+      <div class="col-xs-8 po-category-text">Moderate</div>
+    </div>
+    <div class="row strip-margin scale-section scale-section-sensitive-unhealthy">
+      <div class="col-xs-4 po-aqi-text">101 - 150</div>
+      <div class="col-xs-8 po-category-text">Unhealthy for Sensitive Groups (USG)</div>
+    </div>
+    <div class="row strip-margin scale-section scale-section-unhealthy">
+      <div class="col-xs-4 po-aqi-text">151 - 200</div>
+      <div class="col-xs-8 po-category-text">Unhealthy</div>
+    </div>
+    <div class="row strip-margin scale-section scale-section-very-unhealthy">
+      <div class="col-xs-4 po-aqi-text">201 - 300</div>
+      <div class="col-xs-8 po-category-text">Very Unhealthy</div>
+    </div>
+    <div class="row strip-margin scale-section scale-section-hazardous">
+      <div class="col-xs-4 po-aqi-text">301 - 500</div>
+      <div class="col-xs-8 po-category-text">Hazardous</div>
+    </div>
+    <div class="row strip-margin scale-section scale-section-info">
+      <div class="col-xs-4"></div>
+      <div class="col-xs-8 value-text po-category-text">
+        <p>Values above 500 are <a href="/aqi/aqi-basics/extremely-high-levels-of-pm25">beyond</a> the AQI scale.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</article>
+
+    </div>
+      
+      <div class="view-content">
+          <div class="views-row">
+
+
+<article data-history-node-id="16" class="band is-promoted full clearfix">
+
+  <div class="band-style-general band-style-nondesc noData">
+    		<div class="band-title-row-light">
+		  <div class="band-title-holder">
+		  	 			<h1 id="current-aq-band" class="band-title-light" >Current Air Quality</h1>
+					  </div>
+		</div>
+    
+              <div class="band-card-row-light band-current-aq-row row">                         <div class="col-xs-12 current-aq-band-row">
+
+    <div class="col-xs-12 strip-padding">
+
+    <div class="col-sm-6 pollutant-custom-col">
+      <div class="band-custom-section map-section">
+        <h2 class="demo_text_overlay" style="display: none;">Loading...</h2>
+        <div id="timeicons">
+        <div class="time_overlay"></div>
+                      <div class="map_icons_overlay">
+                                            <div class="map-icon map-icon-0">
+
+                                
+                                                                                  <a class="map-icon-link map-icon-tooltip map-icon-link-0 map-icon-tooltip-0"
+                                  >
+                  <img alt="Map Info Icon" class="map-icon-img map-icon-img-0"
+                       src="https://www.airnow.gov/sites/default/files/2019-03/button_info.png">
+                </a>
+                                  <span id="map-icon-tooltip-html-0" style="display: none;">&lt;div class=&quot;tippy-close-holder&quot;&gt;
+&lt;div onmousedown=&quot;document.activeElement.style.visibility=&#039;hidden&#039;;&quot;&gt;
+&lt;div class=&quot;fa fa-times&quot; id=&quot;close-box&quot; style=&quot;position: absolute; left: 5px; top: 5px; z-index: -1;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;Map Info Icon Content from Home Current AQ Band&quot; style=&quot;padding-top: 5px;&quot;&gt;
+&lt;p&gt;This map shows current air quality (&lt;a href=&quot;/aqi/aqi-basics/using-air-quality-index#nowcast&quot; target=&quot;_blank&quot;&gt;NowCast AQI&lt;/a&gt;) for ozone or PM, whichever is highest. The area is approximate.&lt;/p&gt;
+
+&lt;p&gt;Due to processing time, this map may take longer to update than the dial.&lt;/p&gt;
+&lt;/div&gt;
+</span>
+                              </div>
+                          </div>
+                  </div>
+		<div class="more_maps_overlay"><button id="national-maps" class="btn btn-custom-blue">National Maps</button></div>
+        <!--img class="example_map_overlay" src="/themes/anblue/images/example_map_overlay.png"-->
+        <div id="map" class="map" tabindex="0"></div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 pollutant-custom-col">
+      	  
+      <div class="pollutant-card primary-pollutant-card">
+      <div class="col-xs-12 pollutant-title-section">
+        <h2 class="pollutant-card-title">No Pollutant Available</h2>
+        <p class="pollutant-card-title-subtext"></p>
+      </div>
+      <div class="col-xs-12 pollutants-list">
+      </div>
+    </div>
+
+    <div class="pollutant-card other-pollutants-card" style="margin-top: -5px;">             <div class="col-xs-12 pollutants-list">      </div>
+    </div>
+  
+  </div>
+ 
+</div>
+</div>
+
+        </div>
+      
+  </div>
+</article>
+</div>
+    <div class="views-row">
+
+
+<article data-history-node-id="15" class="band is-promoted full clearfix">
+
+  <div class="band-style-general band-style-nondesc noData">
+    		<div class="band-title-row-white">
+		  <div class="band-title-holder">
+		  	 			<h1 id="forecast-aq-band" class="band-title-white" >Air Quality Forecast</h1>
+					  </div>
+		</div>
+    
+              <div class="band-card-row-white band-forecast-aq-row row">           
+<div class="col-xs-12 forecast-aq-band-row pollutant-mobile-stack-format">
+  <div class="row forecast-aq-days has-data ">
+                                              
+        <div class="visible-xs col-xs-12 forecastProvider">
+    </div>
+
+    <div class="col-sm-8 col-xs-12 forecast-aq-discussion">
+      <p id="forecastDiscussion"></p>
+      <p id="forecastDiscussionLink"></p>
+    </div>
+
+        <div class="col-sm-4 hidden-xs forecastProvider">
+    </div>
+
+    <div class="col-xs-12 days">
+      <div id="day-holder-0" class="day-holder day-shade-0 col-xs-2 strip-padding">
+        <div id="day-0" class="day">
+          <div class="text-center row day-text day-name"></div>
+          <div class="text-center row day-status-image day-aqi-value pollutant-status-circle"></div>
+          <div class="text-center row day-text day-status"></div>
+          <div class="text-center row day-text day-pollutant"></div>                     <div class="row day-caret show-day-caret hidden-xs">
+            <div class="day-caret-triangle"></div>
+          </div>
+        </div>
+        <div class="col-xs-12 day-caret show-day-caret day-mobile-indicators visible-xs">
+          <div class="mobile-day-caret-triangle"></div>
+        </div>
+      </div>
+      <div id="day-holder-1" class="day-holder day-shade-1 col-xs-2 strip-padding">
+        <div id="day-1" class="day">
+          <div class="text-center row day-text day-name"></div>
+          <div class="text-center row day-status-image day-aqi-value pollutant-status-circle"></div>
+          <div class="text-center row day-text day-status"></div>
+          <div class="text-center row day-text day-pollutant"></div>                     <div class="row day-caret hidden-xs">
+            <div class="day-caret-triangle"></div>
+          </div>
+        </div>
+        <div class="col-xs-12 day-caret day-mobile-indicators visible-xs">
+          <div class="mobile-day-caret-triangle"></div>
+        </div>
+      </div>
+      <div id="day-holder-2" class="day-holder day-shade-2 col-xs-2 strip-padding">
+        <div id="day-2" class="day">
+          <div class="text-center row day-text day-name"></div>
+          <div class="text-center row day-status-image day-aqi-value pollutant-status-circle"></div>
+          <div class="text-center row day-text day-status"></div>
+          <div class="text-center row day-text day-pollutant"></div>                     <div class="row day-caret hidden-xs">
+            <div class="day-caret-triangle"></div>
+          </div>
+        </div>
+        <div class="col-xs-12 day-caret day-mobile-indicators visible-xs">
+          <div class="mobile-day-caret-triangle"></div>
+        </div>
+      </div>
+      <div id="day-holder-3" class="day-holder day-shade-3 col-xs-2 strip-padding">
+        <div id="day-3" class="day">
+          <div class="text-center row day-text day-name"></div>
+          <div class="text-center row day-status-image day-aqi-value pollutant-status-circle"></div>
+          <div class="text-center row day-text day-status"></div>
+          <div class="text-center row day-text day-pollutant"></div>                     <div class="row day-caret hidden-xs">
+            <div class="day-caret-triangle"></div>
+          </div>
+        </div>
+        <div class="col-xs-12 day-caret day-mobile-indicators visible-xs">
+          <div class="mobile-day-caret-triangle"></div>
+        </div>
+      </div>
+      <div id="day-holder-4" class="day-holder day-shade-4 col-xs-2 strip-padding">
+        <div id="day-4" class="day">
+          <div class="text-center row day-text day-name"></div>
+          <div class="text-center row day-status-image day-aqi-value pollutant-status-circle"></div>
+          <div class="text-center row day-text day-status"></div>
+          <div class="text-center row day-text day-pollutant"></div>                     <div class="row day-caret hidden-xs">
+            <div class="day-caret-triangle"></div>
+          </div>
+        </div>
+        <div class="col-xs-12 day-caret day-mobile-indicators visible-xs">
+          <div class="mobile-day-caret-triangle"></div>
+        </div>
+      </div>
+      <div id="day-holder-5" class="day-holder day-shade-5 col-xs-2 strip-padding hidden-xs">
+        <div id="day-5" class="day day-no-border">
+          <div class="text-center row day-text day-name"></div>
+          <div class="text-center row day-status-image day-aqi-value pollutant-status-circle"></div>
+          <div class="text-center row day-text day-status"></div>
+          <div class="text-center row day-text day-pollutant"></div>           <div class="row day-caret hidden-xs">
+            <div class="day-caret-triangle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 pollutant-card-col">
+    <div class="pollutant-card primary-pollutant-card">
+      <div class="col-xs-12 pollutant-title-section">
+        <h2 class="pollutant-card-title">No Pollutant Available</h2>
+        <p class="pollutant-card-title-subtext"></p>
+      </div>
+      <div class="col-xs-12 pollutants-list">
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 pollutant-card-col">
+    <div class="pollutant-card other-pollutants-card">
+      <div class="col-xs-12 pollutant-title-section">
+        <h2 class="pollutant-card-title">No Pollutant Available</h2>
+        <p class="pollutant-card-title-subtext"></p>
+      </div>
+      <div class="col-xs-12 pollutants-list">
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+        </div>
+      
+  </div>
+</article>
+</div>
+    <div class="views-row">
+
+
+<article data-history-node-id="12" class="band is-promoted full clearfix">
+
+  <div class="band-style-general band-style-announcements">
+    		<div class="band-title-row-light">
+		  <div class="band-title-holder">
+		  	 			<h1 id="announcements-band" class="band-title-light" >Announcements</h1>
+					  </div>
+		</div>
+    
+              
+
+<div class="band-card-row-light band-basic row flex flex-hidden-xs">
+      <div class="col-sm-4 outer-card-style announcement-card">
+      <div class="inner-card-style inner-card-style-announcement">
+        <a class="card-link" href="/announcement/4171">
+          <span class="sr-only">https://www.airnow.gov/announcement/4171</span>
+        </a>
+        <div class="col-xs-12">
+          <h4>
+            Upcoming Webinar: the Science Behind the AirNow Sensor Data Pilot
+          </h4>
+        </div>
+
+        <div class="col-xs-12">
+          <b>2021-01-11</b>
+        </div>
+
+        <div class="col-xs-12">
+          <p>Learn about the scientific work that allowed AirNow to add data from low-cost sensors to the Fire and Smoke Map. Join us for a free webinar from 1 to 3 p.m. EST, <strong>Thursday, January 28, 2021</strong>. For more info and to register to attend, visit <a href="https://go.usa.gov/xAUmZ">https://go.usa.gov/xAUmZ</a></p>
+        </div>
+      </div>
+    </div>
+      <div class="col-sm-4 outer-card-style announcement-card">
+      <div class="inner-card-style inner-card-style-announcement">
+        <a class="card-link" href="/announcement/4011">
+          <span class="sr-only">https://www.airnow.gov/announcement/4011</span>
+        </a>
+        <div class="col-xs-12">
+          <h4>
+            Sensor Data Available on Fire and Smoke Map 
+          </h4>
+        </div>
+
+        <div class="col-xs-12">
+          <b>2020-08-19</b>
+        </div>
+
+        <div class="col-xs-12">
+          <p>AirNow and the U.S. Forest Service have launched a pilot project to show data from low-cost sensors on the Fire and Smoke Map. The goal of the project is to provide additional air quality information during wildfires – especially in areas with no AirNow monitors. <a href="https://fire.airnow.gov/" target="_blank">See the map</a>.</p>
+
+        </div>
+      </div>
+    </div>
+      <div class="col-sm-4 outer-card-style announcement-card">
+      <div class="inner-card-style inner-card-style-announcement">
+        <a class="card-link" href="/announcement/3786">
+          <span class="sr-only">https://www.airnow.gov/announcement/3786</span>
+        </a>
+        <div class="col-xs-12">
+          <h4>
+            AirNow app
+          </h4>
+        </div>
+
+        <div class="col-xs-12">
+          <b>2020-06-04</b>
+        </div>
+
+        <div class="col-xs-12">
+          <p><span><span>EPA’s AirNow app has a sleek new look and improved functionality! Download the updated app for free on the <a href="https://apps.apple.com/us/app/epa-airnow/id467653238">Apple App Store</a> or the <a href="https://play.google.com/store/apps/details?id=com.saic.airnow">Google Play Store</a>.</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+  </div>
+</article>
+</div>
+    <div class="views-row">
+
+
+<article data-history-node-id="11" class="band is-promoted full clearfix">
+
+  <div class="band-style-general band-style-nondesc">
+    		<div class="band-title-row-white">
+		  <div class="band-title-holder">
+		  	 			<h1 id="explore-maps-and-data" class="band-title-white" >Explore</h1>
+					  </div>
+		</div>
+    
+                <div class="band-card-row-white band-basic row">		              
+
+
+<div class="col-sm-4 outer-card-style basic-card">
+        <a class="card-link" target="_self" href="/fires">
+        <div class="inner-card-style inner-card-style-basic">
+  
+        
+  <div class="col-xs-12">
+    <h2 class="text-center card-name">
+      Fires
+    </h2>
+    <h2 class="text-center card-name-mobile">
+      Current Fire Conditions
+    </h2>
+  </div>
+
+  
+      <div class="col-xs-12 basic-image basic-image-nondesc">
+      <img alt="Fire Icon" src="https://www.airnow.gov/sites/default/files/2019-03/fire-icon.gif">
+    </div>
+  </div>
+    </a>
+    </div>
+
+
+
+                      
+
+
+<div class="col-sm-4 outer-card-style basic-card">
+        <a class="card-link" target="_self" href="/international/us-embassies-and-consulates">
+        <div class="inner-card-style inner-card-style-basic">
+  
+        
+  <div class="col-xs-12">
+    <h2 class="text-center card-name">
+      Embassies and Consulates
+    </h2>
+    <h2 class="text-center card-name-mobile">
+      Embassies and Consulates
+    </h2>
+  </div>
+
+  
+      <div class="col-xs-12 basic-image basic-image-nondesc">
+      <img alt="US Department of State Seal" src="https://www.airnow.gov/sites/default/files/2019-04/dos-seal-150x150.png">
+    </div>
+  </div>
+    </a>
+    </div>
+
+
+
+                      
+
+
+<div class="col-sm-4 outer-card-style basic-card">
+        <a class="card-link" target="_self" href="https://gispub.epa.gov/airnow/index.html?tab=3">
+        <div class="inner-card-style inner-card-style-basic">
+  
+        
+  <div class="col-xs-12">
+    <h2 class="text-center card-name">
+      Archived Dates 
+    </h2>
+    <h2 class="text-center card-name-mobile">
+      Archived Dates 
+    </h2>
+  </div>
+
+  
+      <div class="col-xs-12 basic-image basic-image-nondesc">
+      <img alt="Archived Dates" src="https://www.airnow.gov/sites/default/files/2019-03/archive-icon.gif">
+    </div>
+  </div>
+    </a>
+    </div>
+
+
+
+                      
+
+
+<div class="col-sm-4 outer-card-style basic-card">
+        <a class="card-link" target="_blank" href="/resources/web-cams">
+        <div class="inner-card-style inner-card-style-basic">
+  
+        
+  <div class="col-xs-12">
+    <h2 class="text-center card-name">
+      Air Quality Webcams
+    </h2>
+    <h2 class="text-center card-name-mobile">
+      Webcams
+    </h2>
+  </div>
+
+  
+      <div class="col-xs-12 basic-image basic-image-nondesc">
+      <img alt="webcam" src="https://www.airnow.gov/sites/default/files/2018-01/webcam_icon_0.png">
+    </div>
+  </div>
+    </a>
+    </div>
+
+
+
+                      
+
+
+<div class="col-sm-4 outer-card-style basic-card">
+        <a class="card-link" target="_blank" href="/air-quality-flag-program">
+        <div class="inner-card-style inner-card-style-basic">
+  
+        
+  <div class="col-xs-12">
+    <h2 class="text-center card-name">
+      Air Quality Flag Program
+    </h2>
+    <h2 class="text-center card-name-mobile">
+      Air Quality Flag Program
+    </h2>
+  </div>
+
+  
+      <div class="col-xs-12 basic-image basic-image-nondesc">
+      <img alt="flag" src="https://www.airnow.gov/sites/default/files/2018-01/FlagProgram_icon.png">
+    </div>
+  </div>
+    </a>
+    </div>
+
+
+
+                      
+
+
+<div class="col-sm-4 outer-card-style basic-card">
+        <a class="card-link" target="_blank" href="http://www.enviroflash.info/">
+        <div class="inner-card-style inner-card-style-basic">
+  
+        
+  <div class="col-xs-12">
+    <h2 class="text-center card-name">
+      Sign up for Email Notifications
+    </h2>
+    <h2 class="text-center card-name-mobile">
+      Email Notifications
+    </h2>
+  </div>
+
+  
+      <div class="col-xs-12 basic-image basic-image-nondesc">
+      <img alt="Enviroflash" src="https://www.airnow.gov/sites/default/files/2018-01/EnviroFlash.png">
+    </div>
+  </div>
+    </a>
+    </div>
+
+
+
+                  </div>
+      
+  </div>
+</article>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+
+  </div>
+
+          
+
+        </section>
+
+                      </div>
+    </div>
+  </div>
+
+      <footer class="">
+        <div class="region region-footer">
+    <section id="block-customfooterblock" class="block block-block-content block-block-content0c452b0d-4287-4b26-8476-3450b97df1f6 clearfix">
+  
+    
+
+      
+<div class="footer-navigation">
+  <div class="container">
+
+    <div class="row footer-mobile-section">
+      <div class="col-sm-6 hidden-xs footer-site-text-holder">
+                <p class="footer-site-text">AirNow.gov - Home of the U.S. Air Quality Index</p>
+            </div>
+
+      <div class="col-sm-2 hidden-xs footer-site-link-holder">
+        <p class="footer-site-link"><a href="/">Home</a> | <a href="/site-map">Site Map</a></p>
+      </div>
+
+      <div class="col-sm-4 social-media-holders">
+                  <div id="social-media-0" class="social-media-holder">
+            <a class="social-media-link" href="http://www.enviroflash.info/" target="_blank">
+              <img alt="EnviroFlash Emails" src="https://www.airnow.gov/sites/default/files/styles/thumbnail/public/2018-01/Social_Media_Icons_Email_AAA.png?itok=iQ_Kc-tz" class="social-media-image">
+            </a>
+          </div>
+                  <div id="social-media-1" class="social-media-holder">
+            <a class="social-media-link" href="https://docs.airnowapi.org/" target="_blank">
+              <img alt="App" src="https://www.airnow.gov/sites/default/files/styles/thumbnail/public/2018-01/Social_Media_Icons_Phone_AAA.png?itok=WTup7RGp" class="social-media-image">
+            </a>
+          </div>
+                  <div id="social-media-2" class="social-media-holder">
+            <a class="social-media-link" href="http://feeds.enviroflash.info/" target="_blank">
+              <img alt="RSS" src="https://www.airnow.gov/sites/default/files/styles/thumbnail/public/2018-01/Social_Media_Icons_rss_AAA.png?itok=Yz0Fui-l" class="social-media-image">
+            </a>
+          </div>
+                  <div id="social-media-3" class="social-media-holder">
+            <a class="social-media-link" href="https://twitter.com/airnow" target="_blank">
+              <img alt="Twitter" src="https://www.airnow.gov/sites/default/files/styles/thumbnail/public/2018-01/Social_Media_Icons_Twitter_AAA_1.png?itok=c8AQX0mn" class="social-media-image">
+            </a>
+          </div>
+                  <div id="social-media-4" class="social-media-holder">
+            <a class="social-media-link" href="https://www.facebook.com/airnow" target="_blank">
+              <img alt="Facebook" src="https://www.airnow.gov/sites/default/files/styles/thumbnail/public/2018-01/Social_Media_Icons_Facebook_AAA.png?itok=29ciZUDW" class="social-media-image">
+            </a>
+          </div>
+              </div>
+
+      <div class="col-xs-12 visible-xs footer-site-text-holder">
+                  <p class="footer-site-text">AirNow.gov - Home of the U.S. Air Quality Index</p>
+              </div>
+      <div class="col-xs-12 visible-xs footer-site-link-holder">
+        <p class="footer-site-link"><a href="/">Home</a> | <a href="/site-map">Site Map</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+    </footer>
+  
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"batch","currentPathIsAdmin":true,"isFront":true,"currentLanguage":"en","currentQuery":{"_format":"json","id":"266","op":"do"}},"pluralDelimiter":"\u0003","bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"planYourDayDescriptions":{"default":{"good":{"current":"\u003Cp\u003EEnjoy your outdoor activities.\u003C\/p\u003E\r\n","forecast":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EEnjoy your outdoor activities.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n"},"moderate":{"current":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EIf you are \u003Cstrong\u003Eunusually sensitive\u003C\/strong\u003E to particle pollution, consider reducing your\u0026nbsp;\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003Eactivity level or shorten the amount of time you are active outdoors.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n","forecast":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EIf you are \u003Cstrong\u003Eunusually sensitive\u003C\/strong\u003E to particle pollution, consider reducing your\u0026nbsp;\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003Eactivity level or shorten the amount of time you are active outdoors.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n"},"sensitive_unhealthy":{"current":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EPeople with heart or lung disease, older adults, children and teens \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E\u2013 take any of these steps to reduce your exposure:\u003Cstrong\u003E \u003C\/strong\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EChoose less strenuous activities (like walking instead of running) so you don\u2019t breathe as hard.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EShorten the amount of time you are active outdoors. \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EBe active outdoors when air quality is better.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EEveryone else: \u003C\/strong\u003EEnjoy your outdoor activities.\u003C\/p\u003E\r\n","forecast":"\u003Cp\u003E\u003Cstrong\u003EHave flexibility in your schedule?\u003C\/strong\u003E\u003Cbr \/\u003E\r\nEven if the forecast is Orange (unhealthy for sensitive groups), there may be times during the day when air quality is OK for outdoor activities. Check \u003Cem\u003Ecurrent air quality\u003C\/em\u003E to see if now is a good time for you to be active outdoors.\u003C\/p\u003E\r\n\u003Cp\u003E\u003Cstrong\u003ECan\u2019t change your schedule?\u003C\/strong\u003E\u003Cbr \/\u003E\r\n\u003Cstrong\u003EPeople with heart or lung disease, older adults, children and teens: \u003C\/strong\u003EReduce your exposure by choosing less strenuous activities or shortening the amount of time you are active outdoors.\u003Cbr \/\u003E\r\n\u003Cstrong\u003EEveryone else: \u003C\/strong\u003EEnjoy your outdoor activities.\u003C\/p\u003E"},"unhealthy":{"current":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EPeople with heart or lung disease, older adults, children and teens\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E \u2013 take any of these steps to reduce your exposure: \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EAvoid strenuous outdoor activities.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EKeep outdoor activities short.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EConsider moving physical activities indoors or rescheduling them.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EEveryone else \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E\u2013 take\u003Cstrong\u003E \u003C\/strong\u003Eany of these steps to reduce your exposure:\u003Cstrong\u003E \u003C\/strong\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EChoose less strenuous activities (like walking instead of running) so you don\u2019t breathe as hard.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EShorten the amount of time you are active outdoors. \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EBe active outdoors when air quality is better.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n","forecast":"\u003Cp\u003E\u003Cstrong\u003EHave flexibility in your schedule?\u003C\/strong\u003E\u003Cbr \/\u003E\r\nIf the forecast is Red (unhealthy), there may still be times during the day when air quality is OK for outdoor activities. Check \u003Cem\u003Ecurrent air quality\u003C\/em\u003E to see if now is a good time for you to be active outdoors.\u003C\/p\u003E\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003ECan\u2019t change your schedule? \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003Cbr \/\u003E\r\n\u003Cstrong\u003EPeople with heart or lung disease, older adults, children and teens\u003C\/strong\u003E: Reduce your exposure by avoiding strenuous outdoor activities or keeping outdoor activities short. Consider moving physical activities indoors.\u003Cbr \/\u003E\r\n\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EEveryone else: \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EReduce your exposure by choosing less\u003Cstrong\u003E \u003C\/strong\u003Estrenuous\u003Cstrong\u003E \u003C\/strong\u003Eactivities or shortening the amount of time you are active outdoors.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E"},"very_unhealthy":{"current":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EPeople with heart or lung disease, older adults, children and teens\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E: \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EAvoid physical activities outdoors.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EEveryone else:\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EAvoid strenuous outdoor activities.\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EKeep outdoor activities short.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EConsider moving physical activities indoors or rescheduling them.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EStay tuned to local news media for advisories.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n","forecast":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EWhen the forecast is Purple (very unhealthy), \u003Cstrong\u003Eeveryone\u003C\/strong\u003E needs to cut back on outdoor activities. Stay tuned to local news media for advisories.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EPeople with heart or lung disease, older adults, children and teens: \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003EAvoid physical activities outdoors.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EEveryone else: \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EAvoid strenuous outdoor activities or keep physical activities short. Consider moving physical activities indoors or rescheduling them.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n"},"hazardous":{"current":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EEveryone\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E should stay indoors and reduce activity levels. \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EStay tuned to local news media for advisories.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n","forecast":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EWhen the forecast is Maroon (hazardous), \u003Cstrong\u003Eeveryone\u003C\/strong\u003E should stay indoors and reduce activity levels.\u0026nbsp; \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EStay tuned to local news media for advisories.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n"},"beyond_aqi":{"current":"\u003Cp\u003EValues above 500 are considered \u003Ca href=\u0022\/aqi\/aqi-basics\/extremely-high-levels-of-pm25\u0022\u003EBeyond the Air Quality Index\u003C\/a\u003E.\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EEveryone\u003C\/strong\u003E should stay indoors and reduce activity levels. \u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EStay tuned to local news media for advisories.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n","forecast":"\u003Cp\u003EValues above 500 are considered \u003Ca href=\u0022\/aqi\/aqi-basics\/extremely-high-levels-of-pm25\u0022\u003EBeyond the Air Quality Index\u003C\/a\u003E.\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EEveryone\u003C\/strong\u003E should stay indoors and reduce activity levels. \u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EStay tuned to local news media for advisories.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n"}},"ozone":{"good":{"current":"\u003Cp\u003EEnjoy your outdoor activities.\u003C\/p\u003E\r\n","forecast":"\u003Cp\u003EEnjoy your outdoor activities.\u003C\/p\u003E\r\n"},"moderate":{"current":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EIf you are \u003Cstrong\u003Eunusually sensitive\u003C\/strong\u003E to ozone, consider reducing your activity level\u0026nbsp;\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003Eor shorten the amount of time you are active outdoors.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n","forecast":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EIf you are \u003Cstrong\u003Eunusually sensitive\u003C\/strong\u003E to ozone, consider reducing your activity level\u0026nbsp;\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003Eor shorten the amount of time you are active outdoors.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n"},"sensitive_unhealthy":{"current":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EPeople with lung disease such as asthma, children and teens, older adults, and people who \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003Eare routinely active outdoors for six or more hours a day \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E\u2013\u2013 take any of these steps to reduce your exposure:\u003Cstrong\u003E \u003C\/strong\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EChoose less strenuous activities (like walking instead of running) so you don\u2019t breathe as hard\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EShorten the amount of time you are active outdoors. \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EBe active outdoors when air quality is better.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EEveryone else:\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E Enjoy your outdoor activities.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n","forecast":"\u003Cp\u003E\u003Cstrong\u003EHave flexibility in your schedule?\u003C\/strong\u003E\u003Cbr \/\u003E\r\nEven if the forecast is Orange (unhealthy for sensitive groups), there may be times during the day when air quality is OK for outdoor activities. Ozone is often lower in the morning. Check \u003Cem\u003Ecurrent air quality\u003C\/em\u003E to see if now is a good time for you to be active outdoors.\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECan\u2019t change your schedule?\u003C\/strong\u003E\u003Cbr \/\u003E\r\n\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EPeople with lung disease such as asthma, children and teens, older adults, and people who \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003Eare routinely active outdoors for six or more hours a day: \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003EReduce your exposure by choosing less\u003Cstrong\u003E \u003C\/strong\u003Estrenuous\u003Cstrong\u003E \u003C\/strong\u003Eactivities or shortening the amount of time you are active outdoors. \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003Cbr \/\u003E\r\n\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EEveryone else:\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E Enjoy your outdoor activities.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E"},"unhealthy":{"current":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EPeople with lung disease such as asthma, children and teens, older adults, and people who are routinely active outdoors for six or more hours a day \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E\u2013- take any of these steps to reduce your exposure: \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EAvoid strenuous outdoor activities.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EKeep outdoor activities short.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EConsider moving physical activities indoors or rescheduling them.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EEveryone else \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E\u2013\u003Cstrong\u003E \u003C\/strong\u003Etake\u003Cstrong\u003E \u003C\/strong\u003Eany of these steps to reduce your exposure:\u003Cstrong\u003E \u003C\/strong\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EChoose less strenuous activities (like walking instead of running) so you don\u2019t breathe as hard.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EShorten the amount of time you are active outdoors. \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EBe active outdoors when air quality is better.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n","forecast":"\u003Cp\u003E\u003Cstrong\u003EHave flexibility in your schedule?\u003C\/strong\u003E\u003Cbr \/\u003E\r\nEven if the forecast is Orange (unhealthy for sensitive groups), there may be times during the day when air quality is OK for outdoor activities. Ozone is often lower in the morning. Check \u003Cem\u003Ecurrent air quality\u003C\/em\u003E to see if now is a good time for you to be active outdoors.\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003ECan\u2019t change your schedule? \u003C\/strong\u003E\u003Cbr \/\u003E\r\n\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EPeople with lung disease such as asthma, children and teens, older adults, and people who \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003Eare routinely active outdoors for six or more hours a day: \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003EReduce your exposure by avoiding strenuous outdoor activities or keeping outdoor activities short. Consider moving physical activities indoors.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003Cbr \/\u003E\r\n\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EEveryone else: \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003EReduce your exposure by choosing less\u003Cstrong\u003E \u003C\/strong\u003Estrenuous\u003Cstrong\u003E \u003C\/strong\u003Eactivities or shortening the amount of time you are active outdoors. \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n"},"very_unhealthy":{"current":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EPeople with lung disease such as asthma, children and teens, older adults, and people who \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003Eare routinely active outdoors for six or more hours a day:\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EAvoid physical activities outdoors.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EEveryone else:\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EAvoid strenuous outdoor activities.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EKeep outdoor activities short.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\t\u003Cli\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EConsider moving physical activities indoors or rescheduling them.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EStay tuned to local news media for advisories.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n","forecast":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EWhen the forecast is Purple (very unhealthy), \u003Cstrong\u003Eeveryone\u003C\/strong\u003E needs to cut back on outdoor activities. Stay tuned to local news media for advisories.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EPeople with lung disease such as asthma, children and teens, older adults, and people who \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003Eare routinely active outdoors for six or more hours a day: \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003EAvoid physical activities outdoors.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EEveryone else: \u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003EAvoid strenuous outdoor activities or keep physical activities short. Consider moving physical activities indoors or rescheduling them.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n"},"hazardous":{"current":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003EEveryone\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003Cspan\u003E\u003Cspan\u003E should stay indoors. \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EStay tuned to local news media for advisories.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n","forecast":"\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EWhen the forecast is Maroon (hazardous), \u003Cstrong\u003Eeveryone\u003C\/strong\u003E should stay indoors.\u0026nbsp; \u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EStay tuned to local news media for advisories.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n"},"beyond_aqi":{"current":"\u003Cp\u003EValues above 500 are considered \u003Ca href=\u0022\/aqi\/aqi-basics\/extremely-high-levels-of-pm25\u0022\u003EBeyond the Air Quality Index\u003C\/a\u003E.\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EEveryone\u003C\/strong\u003E should stay indoors. \u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EStay tuned to local news media for advisories.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n","forecast":"\u003Cp\u003EValues above 500 are considered \u003Ca href=\u0022\/aqi\/aqi-basics\/extremely-high-levels-of-pm25\u0022\u003EBeyond the Air Quality Index\u003C\/a\u003E.\u003C\/p\u003E\r\n\r\n\u003Cp\u003E\u003Cstrong\u003EEveryone\u003C\/strong\u003E should stay indoors. \u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EStay tuned to local news media for advisories.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\r\n"}}},"currentBandChartFilterDescriptions":{"day_description":"\u003Cp\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EDAY\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003C\/p\u003E\n\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EThis chart shows the \u003Ca href=\u0022\/aqi\/aqi-basics\/using-air-quality-index#nowcast\u0022 target=\u0022_blank\u0022\u003E\u003Cu\u003ENowCast AQI\u003C\/u\u003E\u003C\/a\u003E in your area for each hour from midnight to the current hour. Mouse over or tap a bar to see which pollutant (ozone or PM) was highest that hour.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E\n","week_description":"\u003Cp\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EMONTH\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003C\/p\u003E\n\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EThis chart shows the daily AQI in your area for each of the last 30 days. Mouse over or tap a bar to see which pollutant (ozone or PM) was highest that day.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E","month_description":"\u003Cp\u003E\u003Cstrong\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EWEEK\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/strong\u003E\u003C\/p\u003E\n\n\u003Cp\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003EThis chart shows the daily\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E AQI\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E\u003Cspan\u003E in your area for each of the last 7 days. Mouse over or tap a bar to see which pollutant (ozone or PM) was highest that day.\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/span\u003E\u003C\/p\u003E"},"themeDirectory":"\/themes\/anblue","user":{"uid":0,"permissionsHash":"74684d2afb3baef668365fe4a9bd590779021690522e93369386c3e13a39b2ed"}}</script>
+<script src="/sites/default/files/js/js_8NOdCA8pCNRYZgBTuyniXst9j0Sl8ZjduZEscEqgSww.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
+<script src="/sites/default/files/js/js_nCx2IRWMnDRsZ17r678tXDmSm4aEycX8X7fd53gkRgg.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment-with-locales.js"></script>
+<script src="/sites/default/files/js/js_d78MxhMTcTg2qyU1aBodyf8-SE5W7B5gd8ZVsHyOR0c.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/esri-leaflet/2.2.3/esri-leaflet.js"></script>
+<script src="/sites/default/files/js/js_YfidcGCxfOUaxgCoKyurW9T_y4eO9fMEFEOcrlKaRZc.js"></script>
+
+  </body>
+</html>
+```
