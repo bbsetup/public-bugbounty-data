@@ -1,0 +1,1883 @@
+```<!doctype html>
+<!--[if IE 9]><html class="ie9 no-js" lang="cn"><![endif]-->
+<!--[if !IE]>-->
+<html lang="cn" class="no-js" from="CMS:Overseas2cn">
+<!--<![endif]-->
+
+<head>
+  <meta charset="UTF-8" />
+  <title>ä¸ªäººä¸­å¿|ä¸å å¸å·</title>
+  <meta name="keywords" content="ä¸å ä¸ªäººä¸­å¿" />
+  <meta name="description" content="æ¬¢è¿è®¿é®ä¸å å¸å·ä¸ªäººä¸­å¿ã" />
+  <!--[if lte IE 9]>
+  <script>if(location.pathname != "/upgrade/browser")location.href="https://www.oneplus.com/cn/upgrade/browser";</script>
+  <![endif]-->
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="screen-orientation" content="portrait">
+  <meta name="x5-orientation" content="portrait">
+  <meta name="full-screen" content="no">
+  <meta name="x5-fullscreen" content="true">
+  <meta name="x5-page-mode" content="app">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="renderer" content="webkit">
+  <meta name="referrer" content="always">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  
+  <script>
+    window.op = window.op || {}; window.op.initTime = new Date();
+    document.documentElement.className += op.isMobile ? ' mobile ' : ' pc ';
+  </script>
+  <link rel="shortcut icon" type="image/x-icon"
+        href="https://image01.oneplus.cn/shop/202003/19/677/7fa57f35c179bad9cc9f18e2dd9b1d40.ico?20201217155545">
+  <link href="https://statics.oneplus.cn/ov/assets/styles/vendor.css?20201217155545" rel="stylesheet">
+  <link href="https://statics.oneplus.cn/ov/user/user-center/cn/user-info/index.css?20201217155545" rel="stylesheet">
+
+  <style>
+
+    /*å¨çº¿å®¢ææé®*/
+    .one-button.btn-black-online {
+      border-color: #101920;
+      background-color: white;
+      color: #101920;
+    }
+
+    .one-button.btn-black-online:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -1px;
+      left: -1px;
+      z-index: -1;
+      width: 0;
+      height: 100%;
+      height: calc(100% + 2px);
+      transition: 0.25s;
+      background-color: #101920;
+      border-radius: 2px;
+    }
+
+    .one-button.btn-black-online:hover:before {
+      background-color: black;
+      width: 100%;
+      width: calc(100% + 2px);
+    }
+
+    @media screen and (max-width: 735px) {
+      #footer .contact-us .link {
+        padding: 0 20%;
+      }
+
+      #footer .contact-us .link ul li:nth-child(3) {
+        border-right: 0;
+      }
+    }
+
+    .nav-bread {
+      width: 100%;
+      display: flex;
+      width: 100%;
+      display: flex;
+      /* padding: 16px 20px 0; */
+      color: #000;
+
+min-height: auto;
+line-height: inherit;
+    }
+
+    .home {
+      display: inline-block;
+      margin-right: 12px;
+      white-space: nowrap;
+      padding: 13px 0;
+    }
+
+    .home a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    .bread-link {
+      color: #000;
+    }
+
+    .bread-ol {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .bread-ol li {
+      padding: 13px 0;
+    }
+
+    .bread-ol li span {
+      display: inline-block;
+      margin: 0 12px;
+    }
+
+    .bread-ol li a {
+      color: #000
+    }
+
+    .bread-ol li:before {
+      content: '';
+      width: 15px;
+      height: 20px;
+      background-size: 8px 18px;
+      display: inline-block;
+      vertical-align: sub;
+      background: url("https://image01.oneplus.cn/shop/201903/26/1591/5c27720e66ff7447e055c6f86f8907b5.svg") center no-repeat;
+    }
+
+    @media screen and (max-width: 768px) {
+      .nav-bread {
+        width: 100%;
+        display: flex;
+        width: 100%;
+        display: flex;
+        color: #000;
+      }
+    }
+ #header .icon>a.search-everything {
+      color: #000;
+      transition: .25s;
+ }
+ #header .icon>a.search-everything:hover {
+   border-bottom: 2px solid #eb0028;
+ }
+  #footer .footer-nav .trade-in-mo {
+      display: none;
+   }
+    #header .family-show .show-window span {
+         line-height: 1.5;
+    }
+   @media screen and (max-width: 1024px) {
+        #footer .footer-nav .trade-in-pc {
+            display: none;
+         }
+      #footer .footer-nav .trade-in-mo {
+          display: block;
+       }
+      #header .family-show .show-window span {
+         line-height: 50px;
+      }
+       #header .family-show .show-window span > br {
+         display: none;
+      }
+   }
+  </style>
+</head>
+
+<body class="hide-body">
+<!--<img src="https://statics.oneplus.cn/v2/img/oneplus3t/weixin.jpg?20201217155545" style="position:absolute;top: -5000px; width: 100px; height: 100px; overflow: hidden;" alt="">-->
+
+<div class="oneplus-store-cn">
+  <input type="hidden" id="_india_host" value="https://www.oneplus.in">
+  <input type="hidden" id="_net_host" value="https://www.oneplus.com">
+  <input type="hidden" id="_cn_host" value="https://www.oneplus.com/cn">
+  <input type="hidden" id="_in_account" value="https://account.oneplus.in">
+  <input type="hidden" id="_com_account" value="https://account.oneplus.com/cn">
+  <input id="mark-currency-format" type="hidden"
+         value="%7B%22pattern%22%3A%22%C2%A5%25s%22%2C%22precision%22%3A2%2C%22requiredPrecision%22%3A2%2C%22decimalSymbol%22%3A%22.%22%2C%22groupSymbol%22%3A%22%2C%22%2C%22groupLength%22%3A3%2C%22integerRequired%22%3A1%7D">
+  <input type="hidden" name="api-sign-in" id="api-sign-in" value="https://store.oneplus.com/xman/user/ac-login">
+  <input type="hidden" name="link-sign-in" id="link-sign-in" value="https://store.oneplus.com/xman/user/ac-login">
+  <input type="hidden" name="link-user-center" id="link-user-center" value="https://www.oneplus.com/cn/customer/info">
+  <input type="hidden" name="link-home" id="link-home" value="https://www.oneplus.com/cn">
+  <input type="hidden" name="mark-current-store" id="mark-current-store" value="cn">
+  <input type="hidden" id="assets-public-path" name="assets-public-path" value="https://statics.oneplus.cn">
+  <input type="hidden" name="bag-cart-products" id="bag-cart-products" value="https://store.oneplus.com/xman/cart/index">
+
+  <input type="hidden" name="verify-oneplusid-url" id="verify-oneplusid-url" value="https://account.oneplus.com/cn/isLogin" />
+  <input type="hidden" name="aliverify-js" id="aliverify-js"
+         value="https://g.alicdn.com/sd/ncpc/nc.js?20201217155545" />
+  <input type="hidden" name="aliverify-link" id="aliverify-link"
+         value="https://g.alicdn.com/sd/ncpc/nc.css?20201217155545" />
+  <input type="hidden" name="aliverify-url" id="aliverify-url" value="https://account.oneplus.com/cn/getAliyunAppKey" />
+  <input type="hidden" name="one-cn-login-sign-in-url" id="one-cn-login-sign-in-url"
+         value="https://account.oneplus.com/cn/onepluslogin">
+  <input type="hidden" name="one-cn-login-send-bind-code" id="one-cn-login-send-bind-code"
+         value="https://account.oneplus.com/cn/code/get/bind">
+  <input type="hidden" name="one-cn-login-login-bind-url" id="one-cn-login-login-bind-url"
+         value="https://account.oneplus.com/cn/login/bind">
+  <input type="hidden" name="one-cn-login-bind-oneplus-account" id="one-cn-login-bind-oneplus-account"
+         value="https://account.oneplus.com/cn/unionlogin/bind/user">
+  <input type="hidden" name="one-cn-login-send-bind-code-third" id="one-cn-login-send-bind-code-third"
+         value="https://account.oneplus.com/cn/code/get/register/union">
+  <input type="hidden" name="one-cn-login-login-bind-url-third" id="one-cn-login-login-bind-url-third"
+         value="https://account.oneplus.com/cn/unionlogin/bind/mobile">
+  <input type="hidden" name="one-cn-login-account-register-url-third" id="one-cn-login-account-register-url-third"
+         value="https://account.oneplus.com/cn/unionlogin/register">
+  <input type="hidden" name="one-cn-login-verify-code-third" id="one-cn-login-verify-code-third"
+         value="https://account.oneplus.com/cn/code/verify/register/union" />
+  <input type="hidden" name="one-cn-code-login-sign-in-url" id="one-cn-code-login-sign-in-url"
+         value="https://account.oneplus.com/cn/login/sms">
+  <input type="hidden" name="one-cn-send-msg-code-url" id="one-cn-send-msg-code-url"
+         value="https://account.oneplus.com/cn/code/get/login">
+  <input type="hidden" name="one-cn-login-verify-mode" id="one-cn-login-verify-mode"
+         value="https://account.oneplus.com/cn/code/getVerifyMode">
+  <input type="hidden" name="one-cn-login-verify-image" id="one-cn-login-verify-image"
+         value="https://account.oneplus.com/cn/getVerifyImage">
+  <input type="hidden" name="aliverify-traceless" id="aliverify-traceless"
+         value="https://g.alicdn.com/sd/nvc/1.1.112/guide.js">
+  <input type="hidden" name="one-cn-recover-url" id="one-cn-recover-url" value="https://account.oneplus.com/cn/recover">
+  <input type="hidden" name="one-cn-recover-third-url" id="one-cn-recover-third-url"
+         value="https://account.oneplus.com/cn/third/recover">
+
+<script type="application/json" id="signin-locale-data">
+  {
+    "signInPage": {
+      "signInTitle":"ç»å½",
+      "bindMobileTitle": "ç»å®ææºå·",
+      "verifyMobileTitle": "éªè¯ææºå·",
+      "verifyEmailTitle": "éªè¯é®ç®±å¸å·",
+      "verifyAccountTitle": "éªè¯ä¸å å¸å·",
+      "createPwdTitle": "åå»ºå¯ç ",
+      "modifyPwdTitle": "ä¿®æ¹å¯ç ",
+      "signInTips":"éæ©å¶å®æ¹å¼ç»å½",
+      "createAccount": "åå»ºå¸å·",
+      "signIn": "ç»å½",
+      "signUp": "æ³¨å",
+      "password": "å¯ç ",
+      "confirm":"ç¡®å®",
+      "cancel":"åæ¶",
+      "forgotPassword": "å¿è®°å¯ç ",
+      "email": "é®ç®±",
+      "emailOrNumber": "ææº / é®ç®±",
+      "emailOrNumberOrUsername": "ææº / é®ç®± / ç¨æ·å",
+      "mobileNumber": "ææºå·",
+      "change": "ä¿®æ¹",
+      "edit": "ç¼è¾",
+      "otp": "è¯·è¾å¥ç­ä¿¡éªè¯ç ",
+      "getOtp": "è·åéªè¯ç ",
+      "emailCode": "è¯·è¾å¥é®ç®±éªè¯ç ",
+      "getEmailCode": "è·åéªè¯ç ",
+      "signUseOTP": "ç­ä¿¡éªè¯ç ç»å½",
+      "signUsePwd": "å¯ç ç»å½",
+      "verifyMobile": "éªè¯ææºå·",
+      "hasSendEmail": "ç³»ç»å·²ç»åéäºä¸å°éªè¯é®ä»¶è³",
+      "hasSendCode": "ç³»ç»å·²ç»åéäºä¸æ¡ç­ä¿¡éªè¯ç è³",
+      "sendAgain": "éæ°åé",
+      "later": " åéæ°åé",
+      "sendedText":"såéæ°åé",
+      "sendSucceedToast": "åéæå",
+      "sendMobileSucceed": "åéæå",
+      "sendVerifyCodeSucceed": "åéæå",
+      "bindMobileTips": "ä¸ºäºå¸æ·å®å¨åæ­£å¸¸ä½¿ç¨ï¼æ ¹æ®ãç½ç»å®å¨æ³ãï¼è¯·ç»å®ææºå·ç ã",
+      "verifyMobileTips": "ä¸ºäºå¸æ·å®å¨åæ­£å¸¸ä½¿ç¨ï¼éè¦éªè¯ä½ çææºå·ç ã",
+      "verifyEmailTips": "ä¸ºäºå¸æ·å®å¨åæ­£å¸¸ä½¿ç¨ï¼éè¦éªè¯ä½ çé®ç®±å¸å·ã",
+      "kindlyRemind":"æ¸©é¦¨æç¤º",
+      "richContentDialogTip":"å¾æ±æ­ï¼æ¨çå¸å·å·²ç³è¯·äºå¸å·æ³¨éï¼è¥è¦å®æç»å½ï¼è¯·åæ¤éå¸å·æ³¨éç³è¯·ãè°¢è°¢",
+      "closeWindow":"åæ¶",
+      "richRecover": "æ¾å¼æ³¨é",
+      "format":{
+        "dd":"days",
+        "hh": "hour",
+        "mm": "min",
+        "ss": "s"
+      },
+      "passwordRulesTips":{
+        "letterRule":"ä½¿ç¨å­æ¯ï¼æ°å­åç¬¦å·ä¸¤ç§ä»¥ä¸çç»å",
+        "lengthRule":"å¯ç éå¶8-16ä½å­ç¬¦ä»¥å"
+      }
+    },
+    "accountTips": {
+      "mobileErrorTip": "è¯·è¾å¥æ­£ç¡®çææºå·ç ",
+      "emailErrorTip":"ç±äºå®å¨åå ï¼ç¨æ·åç»å½å·²ä¸çº¿ï¼è¯·è¾å¥æ­£ç¡®æ ¼å¼çææºå·/é®ç®±",
+      "mobileEmptyErrorTip": "è¯·è¾å¥11ä½ææºå·ç ",
+      "emailEmptyErrorTip": "è¯·è¾å¥æ¨çç»å½å¸å·",
+      "mobileOrEmailEmptyErrorTip":"è¯·è¾å¥æ¨çç»å½å¸å·",
+      "emailPatternErrorTip":"ç±äºå®å¨åå ï¼ç¨æ·åç»å½å·²ä¸çº¿ï¼è¯·è¾å¥æ­£ç¡®æ ¼å¼çææºå·/é®ç®±",
+      "emailUnConfirmTip": "é®ç®±æªæ¿æ´»ï¼ç¹å»é¾æ¥ç¡®è®¤é®ç®±. &nbsp;&nbsp;<a href=\"{verifyEmailLink}\" class=\"link-action link-underline\">æ¿æ´»é®ç®±</a>",
+      "pwdErrorTip": "å¯ç éè¯¯",
+      "pwdFormatErrorTip": "æ ¼å¼ä¸æ­£ç¡®",
+      "pwdEmptyErrorTip": "è¯·è¾å¥æ¨çç»å½å¯ç ",
+      "verifyErrorTip": "éªè¯ç éè¯¯",
+
+      "verifyTip": "è¯·å®æå®å¨æ ¡éª",
+      "aliverifyErrorTip": "è¯·æ»å¨éªè¯ç å®æå®å¨éªè¯",
+      "imgCodeErrorTip": "å¾çéªè¯ç è¾å¥éè¯¯",
+      "imgCodePlaceholder": "è¯·è¾å¥å¾çéªè¯ç ",
+
+      "sendVerifyCodeSuccess": "åéæå",
+      "sendVerifyCodefaild": "åéå¤±è´¥",
+      "bindMobileSuccess": "ç»å®æå",
+      "signInTips": "éæ©å¶å®æ¹å¼ç»å½",
+      "loginSuccessTips": "ç»å½æå",
+      "loginTimeoutTips": "ç»å½è¶æ¶ï¼è¯·éæ°ç»å½",
+      "requestErrorTip": "è¯·æ±å¤±è´¥ï¼è¯·ç¨ååå°è¯"
+    }
+  }
+</script>
+
+<script>
+  window.GLOBAL_ACCOUNT_CONFIG = {
+    "DOMAIN_ACCOUNT_CENTER_OATH": "https://account.oneplus.com/cn/service",
+      "DOMAIN_ACCOUNT_CENTER": "https://account.oneplus.com/cn/service",
+      "DOMAIN_ACCOUNT": "https://account.oneplus.com/cn",
+      'HT_LOGIN':Â 'https://id.oneplus.com/resources/js/oneplus.login.js',
+      'HT_PAGELOGIN':Â 'https://id.oneplus.com/resources/js/oneplusPage.login.js',
+      'DOMAIN_XMAN': 'https://store.oneplus.com',
+      "HOME_URL": "https://www.oneplus.com/cn",
+      "recaptcha": {
+        "size": "invisible",
+        "tabindex": 5
+      },
+      "isSupportOTP": true,
+      "supportType": 'email_or_mobile',
+      "signInLink": "https://store.oneplus.com/xman/user/ac-login",
+      "signUpLink": "https://account.oneplus.com/cn/signup",
+      "verifyEmailLink": "https://account.oneplus.com/cn/signup#/email?rt=1",
+      "verifyUrlLink": "https://www.oneplus.com/cn/account/confirm-url",
+      "setUserNameLink": "https://www.oneplus.com/cn/account/update-username",
+      "userAgreementLink": "https://www.oneplus.com/cn/legal/user-agreement",
+      "privacyPolicy": "https://www.oneplus.com/cn/legal/privacy-policy",
+
+      "defaultUrl": "https://account.oneplus.com/cn",
+      "forgotLink": "https://account.oneplus.com/cn/forgot",
+      "agreementLink": "https://account.oneplus.com/cn/agreement",
+      isGray: true,
+      loginConfig: {
+        app: 10,
+        client: 1
+      },
+      telConfig: {
+        cn: { // ä¸­å½
+          name: 'ä¸­å½',
+          reg: /^1[1|2|3|4|5|6|7|8|9]\d{9}$/,
+          prefix: '+86',
+          mc: 'cn'
+        },
+        in: { // å°åº¦
+          name: 'India',
+          reg: /^[6789]\d{9}$/,
+          prefix: '+91',
+          mc: 'in'
+        },
+        us: { // ç¾å½
+          name: 'United States',
+          reg: /^[0-9-+()\s]{10}$/,
+          prefix: '+1',
+          mc: 'us'
+        },
+        uk: {
+          name: 'United Kingdom',
+          reg: /^[0-9(\-+)\s]{7,}$/i,
+          prefix: '+44',
+          mc: 'uk'
+        }
+      },
+      grayConfig: {
+        signIn: ['https://account.oneplus.com/cn/signin', 'https://account.oneplus.com/cn/login'],
+        signUp: ['https://account.oneplus.com/cn/signup', 'https://account.oneplus.com/cn/regist'],
+        forgot: ['https://account.oneplus.com/cn/forgot', 'https://account.oneplus.com/cn/forget']
+      }
+    }
+
+  function checkGray(pageName, isOld) {
+    var search = window.location.search
+    if (window.GLOBAL_ACCOUNT_CONFIG.isGray) {
+      if (isOld) {
+        var grayConfig = window.GLOBAL_ACCOUNT_CONFIG.grayConfig
+        if (grayConfig && grayConfig[pageName] && grayConfig[pageName][1]) {
+          window.location.href = grayConfig[pageName][0] + search
+        }
+      }
+    } else {
+      if (!isOld) {
+        var grayConfig = window.GLOBAL_ACCOUNT_CONFIG.grayConfig
+        if (grayConfig && grayConfig[pageName] && grayConfig[pageName][1]) {
+          window.location.href = grayConfig[pageName][1] + search
+        }
+      }
+    }
+  }
+</script>
+  <script>
+    var oneCnLoginMobileRulesList = [{ "reg": /^1\d{10}$/ }];
+  </script>
+
+  <script>window.isCommunity=!!(typeof window.COMMUNITY_APP_ACCOUNT !== 'undefined' && typeof window.COMMUNITY_APP_ACCOUNT.COMMUNITY_APP_ACCOUNT_LOGIN !== 'undefined' && typeof window.COMMUNITY_APP_ACCOUNT.COMMUNITY_APP_ACCOUNT_LOGIN === 'function')</script>
+  <script type="application/json" id="one-cn-login-data-translation">
+    {
+      "signUpTitle":"ç»å½",
+      "codeSignUpTitle":"ææºç­ä¿¡ç»å½",
+      "commonSignUpTitle":"ç¨æ·åå¯ç ç»å½",
+      "loginSubmitVal": "ç¡®å®",
+      "emailErrorTip":"è¯·è¾å¥æ¨çç»å½å¸å·",
+      "emailEmptyErrorTip":"è¯·è¾å¥æ¨çç»å½å¸å·",
+      "pwdErrorTip":"å¯ç éè¯¯",
+      "pwdFormatErrorTip": "å¯ç é¿åº¦ä¸º6-16ä½",
+      "pwdEmptyErrorTip":"è¯·è¾å¥æ¨çç»å½å¯ç ",
+      "setPwdErrorTip":"è¯·è®¾ç½®ç»å½å¯ç ",
+      "phoneErrorTip": "æ ¼å¼ä¸æ­£ç¡®",
+      "telPatternErrorTip": "è¯·è¾å¥11ä½ææºå·ç ",
+      "imgCodeErrorTip": "å¾çéªè¯ç è¾å¥éè¯¯",
+      "verifyCodePlaceholder": "è¯·è¾å¥ç­ä¿¡éªè¯ç ",
+      "verifyErrorTip": "éªè¯ç éè¯¯",
+      "imgCodePlaceholder": "è¯·è¾å¥å¾çéªè¯ç ",
+      "aliverifyErrorTip": "è¯·æ»å¨éªè¯ç å®æå®å¨éªè¯",
+      "loginLink":"https://account.oneplus.com/cn/login",
+      "qqUrl":"https://account.oneplus.com/cn/qqlogin",
+      "weixinUrl":"https://account.oneplus.com/cn/wxlogin",
+      "weiboUrl":"https://account.oneplus.com/cn/wblogin",
+      "forgotLink":"https://account.oneplus.com/cn/forget",
+      "signUpLink":"https://account.oneplus.com/cn/regist",
+      "agreementLink": "https://account.oneplus.com/cn/agreement",
+      "countdownTimes": 120,
+      "sendVerifyCodeSuccess": "åéæå",
+      "sendVerifyCodefaild": "åéå¤±è´¥",
+      "bindMobileSuccess": "ç»å®æå",
+      "signInTips":"éæ©å¶å®æ¹å¼ç»å½",
+      "loginSuccessTips": "ç»å½æå",
+      "loginTimeoutTips": "é¡µé¢å·²è¿æ",
+      "requestErrorTip":"è¯·æ±å¤±è´¥ï¼è¯·ç¨ååå°è¯",
+      "defaultUrl":"https://account.oneplus.com/cn",
+      "format":{
+        "dd":"days",
+        "hh": "hour",
+        "mm": "min",
+        "ss": "s"
+      },
+      "passwordRulesTips":{
+        "lengthRule":"6 ï½16 ä½å­ç¬¦",
+        "letterRule":"åå«å­æ¯",
+        "numberRule":"åå«æ°å­"
+      },
+      "binding":{
+        "newPhoneText":"ä¸ºäºå¸æ·çå®å¨åæ­£å¸¸ä½¿ç¨ï¼è¯·ç»å®ä½ çææºå·ç ã",
+        "sendText":"såéæ°åé",
+        "nextText": "ä¸ä¸æ­¥",
+        "sendAgainText":"éæ°åé",
+        "confirmText":"ç¡®å®",
+        "verifyText":"åééªè¯ç ",
+        "getVerifyText":"è·åéªè¯ç ",
+        "phonePre":"+86",
+        "phoneErrorTip":"è¯·è¾å¥æ­£ç¡®çææºå·ç ",
+        "phoneEmptyErrorTip":"è¯·è¾å¥æ¨çææºå·ç ",
+        "pwdErrorTip":"Password does not meet minimal requirements.",
+        "patternPwdErrorTip":"Password does not meet minimal requirements.",
+        "codeTips":"è¯·è¾å¥éªè¯ç ",
+        "comfirmCodeNotExistTip":"Your verification code was entered incorrectly.",
+        "comfirmCodeExpiredTip":"The confirmation code has expired.",
+        "phonePlaceHolderText":"ææºå·",
+        "networkError":"Network Error",
+        "successMsg":"success",
+        "bindingInfo":"æ³¨åä¸å ï¼å³è¡¨ç¤ºä½ åæä¸å ç",
+        "bindMobileInfo": "ç»å®ææºå·ï¼å³è¡¨ç¤ºä½ åæä¸å ç",
+        "bindingLink":"https://www.oneplus.com/cn",
+        "bindingLinkInfo":"ç¨æ·åè®®",
+        "bindingOneInfo": "å·²ç»æä¸å å¸å·ï¼",
+        "bindingOneLinkInfo": "ç»å®ä½ çä¸å å¸å·"
+      }
+    }
+  </script>
+
+
+  <script type="application/json" id="one-cn-login-data-email-list">
+    ["@qq.com","@163.com","@126.com","@sina.com","@hotmail.com","@sohu.com","@foxmail.com","@yeah.net","@vip.qq.com","@gmail.com","@hotmail.com","@yahoo.com","@outlook.com","@yahoo.co.in","@googlemail.com","@web.de","@gmx.de","@live.com","@rediffmail.com","@hotmail.co.uk","@hotmail.fr","@yahoo.in","@hotmail.it","@ymail.com","@msn.com","@yahoo.co.uk","@mail.ru","@aol.com","@139.com","@hggame.com","@love11.com","@buston.cn","@kcidc.com","@sfba.cn","@hensao.com","@tour0.com","@ytgame.com","@pay55.com","@oneplus.net","@oneplus.cn"]
+  </script>
+
+<!--å¾®ä¿¡å°ç¨åºå¥å£äºç»´ç   -->
+<script type="text/template" id="tpl-auto-applet">
+  <auto-applets class="subscribe-container" ref="autosub">
+    <div slot="auto-subscribe-title">
+      <p class="title one-font-medium">å°ç¨åºç­¾å°æç¤¼</p>
+    </div>
+    <div slot="auto-subscribe-subtitle">
+      <p class="subtitle">ç­¾å°å³é20åéä»¶ä¼æ å¸</p>
+    </div>
+    <div slot="subscribe-text">
+      <img class="m-b-sm" src="https://image01.oneplus.cn/shop/202003/25/78/17be84ec1425d58b75b1b341d1df4c7c.jpg" alt="">
+      <div class="subtitle one-font-wx">æ¨å¯å¾®ä¿¡æ«ææé¿æäºç»´ç </div>
+    </div>
+  </auto-applets>
+</script>
+
+<script type="application/json" id="header-data-translation" v-pre>
+  {
+    "iconImg":"https://image01.oneplus.cn/shop/201911/26/15/bb8fbaf7c2952907feb0f61df71f7724.png"
+  }
+</script>
+
+<script type="application/json" id="header-data-url-list">
+  [
+    "",
+    "/",
+    "/store"
+  ]
+</script>
+
+<script>
+  window.AJAX_OPTIONS = {
+    timeout: 30000,
+    tips: 'Oops, the spaceship just got lost! We are trying to get it back to earth.'
+  }
+</script>
+
+  <div id="page-header" class="hidden-in-heytap-app">
+<div class="hidden-in-bbs-app">
+<div class="cookie-warn" style="display:none;">
+      <div class="cookie-warn-container">
+        <a href="https://account.oneplus.com/cn/agreement_privacy?from=hotjar" class="cookie-warn-content">
+          <p class="cookie-notice__desc">ä¸ºæ¹è¿ç¨æ·ä½éªï¼æä»¬ä½¿ç¨Cookiesåç¬¬ä¸æ¹åæå·¥å·åæç¨æ·è¡ä¸ºï¼ç»§ç»­è®¿é®å³è¡¨ç¤ºæ¨åææä»¬ä½¿ç¨ã<span>æ¥çéç§æ¿ç­</span>
+          </p>
+        </a> 
+        <a id="close-cookie-btn" href="javascript:;" class="close-cookie-warn"></a>
+      </div>
+    </div>
+    <bar-store-confirm></bar-store-confirm>
+   <retail-entry retail-href="/cn/retail?from=navtop&t=20201217155545">åå¾éè¿çé¶å®åºä½éªè´­ä¹°</retail-entry>
+   <div id="header-auto-applet"></div>
+</div>
+<header id="header">
+  <div class="container-infinite overflow-visible top-header">
+    <nav class="nav container-infinite">
+      <ul class="nav-left" :class="{'search-collapsed': header.topnavsCollapsed}">
+        <li class="icon brand">
+          <a v-if="isCommunity" href="javascript:void(0)" class="ico-wrapper">ä¸å ç¤¾åº</a>
+          <a v-else href="https://www.oneplus.com/cn" class="ico-wrapper"><i class="ico ico-brand-2020"></i></a>
+        </li>
+        <li class="icon show-menu">
+          <a class="ico-wrapper as-show-menu" :class="{'collapsed': header.menuCollapsed}" href="" id="store-nav"
+             data-target="#nav-pages-slide" data-trigger="#store-nav" @click.prevent="xsToggleHeaderNavSlide">
+            <i class="icon-show-menu"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="nav-pages" :class="{'collapsed': header.topnavsCollapsed}" id="nav-pages-slide">
+        <li class="page">
+  <a class="family-slide-trigger collapsed" id="series-slide-trigger"
+   @click="xsToggleNavSlide" href="https://www.oneplus.com/cn/8-pro?from=head"><span class="label">8 ç³»å</span><span class="series-new">New</span><i class="icon-fold"></i></a>
+  <nav class="family-show collapsed" id="series-slide">
+    <div class="container-text">
+      <ul class="show-windows">
+        <li class="show-window">
+          <a class="series-item-link link-black text-normal item-link" href="https://www.oneplus.com/cn/8t?from=head">
+            <i class="series-item-new" style="font-style: normal;">New</i>
+              <img class="head-8t navImg" src="" 
+                  data-src="https://image01.oneplus.cn/shop/202011/04/1-M00-2F-5D-rBqgkV-iUlWAPN69AABEuPXyqaI328.jpg"
+                  data-src-mo="https://image01.oneplus.cn/shop/202011/04/1-M00-2F-5D-rBqgkV-iUlWAPN69AABEuPXyqaI328.jpg"
+              alt="" />
+            <span>OnePlus 8T</span>
+          </a>
+        </li>
+        <li class="show-window">
+          <a class="series-item-link link-black text-normal item-link" href="https://www.oneplus.com/cn/8t-cyberpunk2077?from=head">
+              <img class="head-8pro navImg" src=""
+                  data-src="https://image01.oneplus.cn/shop/202011/10/1-M00-2F-BB-rBqgkV-qlRiAX0n-AABEn2-0tXg327.jpg"
+                  data-src-mo="https://image01.oneplus.cn/shop/202011/10/1-M00-0F-0B-rBqgjV-qlSmAAitTAAAWERBVaYE417.jpg"
+                  alt="" />
+            <span>8Tèµåæå 2077</span>
+          </a>
+        </li>
+        <li class="show-window">
+          <a class="series-item-link link-black text-normal item-link" href="https://www.oneplus.com/cn/8-pro?from=head">
+              <img class="head-8pro navImg" src=""
+                  data-src="https://image01.oneplus.cn/shop/202011/04/1-M00-2F-5D-rBqgkV-iUp2AMv_BAAA7uENOAME731.jpg"
+                  data-src-mo="https://image01.oneplus.cn/shop/202011/04/1-M00-2F-5D-rBqgkV-iUp2AMv_BAAA7uENOAME731.jpg"
+                  alt="" />
+            <span>OnePlus 8 Pro</span>
+          </a>
+        </li>
+        <li class="show-window">
+          <a class="series-item-link link-black text-normal item-link" href="https://www.oneplus.com/cn/8?from=head">
+              <img class="head-8 navImg" src=""
+                  data-src="https://image01.oneplus.cn/shop/202011/04/1-M00-2F-5D-rBqgkV-iUq-ARcvHAAA-UK4hkXM119.jpg"
+                  data-src-mo="https://image01.oneplus.cn/shop/202011/04/1-M00-2F-5D-rBqgkV-iUq-ARcvHAAA-UK4hkXM119.jpg "
+                  alt="" />
+            <span>OnePlus 8</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </li>
+        <li class="page">	
+          <a href="https://www.oneplus.com/cn/event/backpack?from=head" >éä»¶</a>	
+        </li>
+<li class="page">
+
+  <a class="family-slide-trigger collapsed" id="family-slide-trigger" href="https://www.oneplus.com/cn/store?from=head"
+     @click="xsToggleNavSlide"><span class="label">åå</span><i class="icon-fold"></i></a>
+
+</li>
+        <li class="page">
+          <a href="https://www.oneplus.com/cn/brand?from=head" onclick="_opq.push(['trackEvent','opcn_T106','åç'])">åç</a>
+        </li>
+        <li class="page">
+          <a href="https://www.oneplus.com/cn/support?from=head" onclick="_opq.push(['trackEvent','opcn_T103','æå¡'])">æå¡</a>
+        </li>
+        <li class="page">
+          <a href="http://www.oneplusbbs.com?from=head" onclick="_opq.push(['trackEvent','opcn_T104','è®ºå'])" target="_blank">è®ºå</a>
+        </li>
+        <li class="page">
+          <a href="https://www.oneplus.com/cn/retail?from=head" onclick="_opq.push(['trackEvent','','é¶å®åº'])">é¶å®åº</a>
+        </li>
+        <li class="user-brief-info page">
+          <div class="info text-black flex flex-content-between flex-align-center" v-if="!user.signedIn">
+            <i class="ico svg-icon ico-user_v2"></i>
+            <span>
+                <a class="btn-signIn text-blue" :href="'https://store.oneplus.com/xman/user/ac-login?returnTo=' + url">ç»å½</a>
+            </span>
+          </div>
+          <div class="info info-unsignedIn" v-else>
+            <a class="text-black flex flex-content-between" :href="'https://my.oneplus.com/cn/mindex?' + new Date().getTime()">
+              <div class="info-text">
+                <i v-if="user.signedIn && user.avatar" class="user-avatar">
+                  <img :src="user.avatar" alt="Avatar">
+                </i>
+                <i v-else class="ico svg-icon ico-user_v2"></i>
+                <span class="user-name">{{user.name}}</span>
+              </div>
+              <div>
+                <i class="ico svg-icon ico-arrow-right icon-arrow"></i>
+              </div>
+            </a>
+          </div>
+        </li>
+      </ul>
+      <ul class="nav-right" :class="{'on-search': header.onSearch}">
+        <li class="icon sign-in">
+  <a class="user-account" id="show-user-info" :href="user.signedIn ? 'https://my.oneplus.com/cn/order?from=head' : 'https://store.oneplus.com/xman/user/ac-login?returnTo=' + url+'&from=head'">
+    <i v-if="user.signedIn && user.avatar" class="user-avatar">
+      <img :src="user.avatar" alt="Avatar">
+    </i>
+    <i v-else class="ico ico-user_v2"></i>
+  </a>
+  <div class="user-info" id="user-info">
+    <nav class="user-info-nav signed-in">
+      <ul class="nav-links">
+        <li class="nav-link with-separator">
+          <a class="link" :href="user.signedIn ? 'https://my.oneplus.com/cn/order?from=head' : 'https://store.oneplus.com/xman/user/ac-login?returnTo='+encodeURIComponent('https://my.oneplus.com/cn/order')+'&channel=1&from=head'">è®¢å</a>
+        </li>
+        <li class="nav-link with-separator">
+          <a class="link to-dashboard"
+             :href="user.signedIn ? 'https://my.oneplus.com/cn/mindex?' + new Date().getTime()+'&from=head' : 'https://store.oneplus.com/xman/user/ac-login?returnTo='+encodeURIComponent('https://my.oneplus.com/cn/mindex?' + new Date().getTime())+'&channel=1&from=head'">å¸æ·</a>
+          <a class="link to-info"
+             :href="user.signedIn ? 'https://id.oneplus.com/profile.html?fromOneplus=true&from=head' : 'https://store.oneplus.com/xman/user/ac-login?returnTo='+encodeURIComponent('https://id.oneplus.com/profile.html')+'?fromOneplus=true&from=head'" :target="user.signedIn?'_blank':'_self'">å¸æ·</a>
+        </li>
+        <li v-if="user.signedIn" class="nav-link nav-sign with-separator">
+          <div class="sign-item sign-out-item flex flex-content-between">
+            <span class="user-name">{{user.name}}</span>
+            <a class="link-sign text-right" @click.prevent="userSignOut" href="https://store.oneplus.com/xman/user/logout">ç»åº</a>
+          </div>
+        </li>
+        <li v-else class="nav-link nav-sign with-separator">
+          <div class="link flex flex-content-end">
+            <div class="sign-item sign-in-item">
+              <a :href="'https://store.oneplus.com/xman/user/ac-login?returnTo=' + url" class="link-sign">ç»å½</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</li>
+<li class="shop-basket" ref="shopBag">
+
+  <a class="shop-bag__icon hidden-xs" @mouseenter="fetchCartInfo" @click="jumpToCart" href="https://store.oneplus.com/cn/cart">
+    <i class="ico ico-bag_v2 show-number"></i>
+    <i class="ico shop-bag__red-dot" v-if="cart.itemNum && cart.itemNum > 0">{{cart.itemNum}}</i>
+  </a>
+  <a class="shop-bag__icon hidden-not-xs" @click="fetchCartInfo();jumpToCart($event)" href="https://store.oneplus.com/cn/cart">
+    <i class="ico ico-bag_v2 show-number"></i>
+    <i class="ico shop-bag__red-dot" v-if="cart.itemNum && cart.itemNum > 0">{{cart.itemNum}}</i>
+  </a>
+
+  <input type="hidden" name="api-cart-gift-info-url" id="cart-gift-info-url" value="https://store.oneplus.com/xman/cart/cart-gift-info">
+  <div class="basket-info">
+    <nav class="basket-info-nav">
+      <div class="basket-title">
+        <div class="cart-title">
+          <span class="headline">
+            <span>å·²éæ©</span>
+            <span v-if="!cart.showError && cart.cartGoods && cart.cartGoods.length"> ({{cart.itemNum}} ä»¶åå)</span>
+          </span>
+          <span class="basket-close-btn-xs" @click="closeMiniCart"></span>
+        </div>
+        <div class="cart-free-limit" v-if="!cart.loading">
+          <div class="free-text text-black">
+            <span v-if="cart.freeShopping">æ¯æåé®</span>
+            <span v-else>è¿å·® <span v-if="cart.cartGoods && cart.cartGoods.length">{{freeShippingPrice}}</span><span v-else>ï¿¥ 99.00</span> åé®</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-cur" :style="'width:'+freeLimitProgress"></div>
+          </div>
+        </div>
+      </div>
+      <div class="basket-main">
+        <div class="cart-items-placeholder" v-if="cart.loading">
+          <one-spinner></one-spinner>
+        </div>
+        <div class="minicart-container" :class="{'empty-cart':!(cart.cartGoods && cart.cartGoods.length)}" v-else>
+          <ul class="cart-products" v-if="cart.cartGoods && cart.cartGoods.length && !cart.loading">
+            <li v-for="(item,index) in cart.cartGoods" class="products-link" :class="{'gift-item': item.buyType == 2}">
+              <a href="https://store.oneplus.com/cn/cart">
+          <span class="cart-item-tr">
+            <span class="cart-item-td td-image">
+              <span class="image-placeholder">
+                <img :src="clipImage(item.imageUrl, '80x80')" :srcset="clipImage(item.imageUrl, '160x160') + ' 1x,' + clipImage(item.imageUrl, '80x80') + ' 2x'"
+                     :alt="item.displayName" :srcset="item.imageUrl+ ' 1x,' + item.imageUrl+ ' 2x'">
+              </span>
+            </span>
+
+            <span class="cart-item-td">
+              <span class="td-name">
+                <span class="cart-item-tr">
+                  <span class="cart-item-td item-name">
+                    <p class="text-black p-">
+                      <span class="tag-buy-type-div" v-if="item.buyType == 2"><span class="tag-buy-type"><span class="tag-text">èµ å</span></span></span>
+                                    <span v-if="item.attachment && item.attachment.productDisplayName">
+                                      <span>{{item.attachment.productDisplayName}}</span><br>
+                                      <template v-for="option in item.attachment.skuSelectOptions">
+                                        <span>{{option.optLabel}}</span><br>
+                                      </template>
+                                    </span>
+                                    <span v-else>{{item.displayName}}</span>
+                    </p>
+                  </span>
+                </span>
+                <span class="cart-item-tr no-wrap">
+                  <span class="cart-item-td">
+                    <p class="text-black p- now-price">{{formatCurrency(item.nowPrice)}}</p>
+                    <p class="text-black p- free-price">åè´¹</p>
+                  </span>
+                  <span class="cart-item-td">
+                    <p class="text-black p- text-right">x {{item.qty}}</p>
+                  </span>
+                </span>
+              </span>
+
+              <span v-for="childItem in item.childItems" v-if="childItem.buyType == 2" class="td-name cart-sku-gift-item">
+                <span class="cart-item-tr">
+                  <span class="cart-item-td item-name">
+                    <p class="text-black p-">
+                      <span class="tag-buy-type-div"><span class="tag-buy-type"><span class="tag-text">èµ å</span></span></span>
+                      <span class="gift-name">{{childItem.displayName}}</span>
+                    </p>
+                  </span>
+                </span>
+                <span class="cart-item-tr no-wrap">
+                  <span class="cart-item-td">
+                    <p class="text-black p-">åè´¹</p>
+                  </span>
+                  <span class="cart-item-td">
+                    <p class="text-black p- text-right">x {{childItem.qty}}</p>
+                  </span>
+                </span>
+              </span>
+            </span>
+
+          </span>
+              </a>
+            </li>
+          </ul>
+          <div class="cart-no-products" v-if="cart.cartGoods && !cart.cartGoods.length && !cart.loading">
+            <div class="icon-container">
+              <i class="ico ico-empty-bag"></i>
+            </div>
+            <div class="text-container">
+              <p v-if="!cart.showError">æ¨çè´­ç©è½¦éæ²¡æååï¼</p>
+              <p v-if="cart.showError">ç³ç³ï¼å¯è½åºéäºï¼å»çç</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cart-info">
+        <div v-if="(!cart.showError && isEmptyCart) || cart.loading">
+          <div v-show="headerIsXs && cart.storeLinks.length">
+            <div class="cart-link" v-for="storeItem in cart.storeLinks">
+              <one-button class="full-width btn-black btn-ghost" type="link" :href="storeItem.href ? storeItem.href : 'https://store.oneplus.com/cn'">{{storeItem.label}}</one-button>
+            </div>
+          </div>
+          <div v-show="!(headerIsXs && cart.storeLinks.length)">
+            <div class="cart-link">
+              <one-button class="full-width btn-black btn-ghost" ref="bagLink" type="link" href="https://store.oneplus.com/cn">å»è´­ç©</one-button>
+            </div>
+          </div>
+        </div>
+        <div class="cart-link" v-if="cart.showError && !cart.loading" >
+          <one-button class="full-width" ref="bagLink" type="link" href="https://store.oneplus.com/cn/cart">æ¥çæçè´­ç©è½¦</one-button>
+        </div>
+        <div class="cart-link font-subheading" v-if="(!cart.showError && !isEmptyCart) && !cart.loading">
+          <div class="text">
+            <div class="total-price">
+              <span class="label">æ»ä»·</span>
+              <span class="value">{{formatCurrency(cart.totalPrice)}}</span>
+            </div>
+            <div class="gifts-tips" v-if="cart.giftsTips">è¯·å¨è´­ç©è½¦æ·»å èµ å</div>
+          </div>
+          <div class="button clearfix">
+            <div class="item">
+              <a class="one-button full-width btn-ghost btn-black frozen" href="https://store.oneplus.com/cn/cart">å»è´­ç©è½¦</a>
+            </div>
+            <div class="item">
+              <one-button class="full-width " ref="bagLink" type="link" href="javascript:;" @click="miniCartGoToOrder('https://store.oneplus.com/cn/checkout-page')">å»ç»ç®</one-button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <one-dialog no-padding ref="chooseStore">
+      <choose-store></choose-store>
+    </one-dialog>
+
+    <one-dialog ref="errMsg" class-name="err-msg">{{errMsg}}</one-dialog>
+
+    <sign-in-toast>
+      <span slot="text">æ¬¢è¿è®¿é®ä¸å å®ç½</span>
+    </sign-in-toast>
+
+    <one-dialog ref="transformLoginDialog">
+      <sign-in-cn is-popup="true" v-show="loginDialogFlag"></sign-in-cn>
+    </one-dialog>
+
+  </div>
+
+</div>
+
+<!--<style>
+    .account-list-container .user-info-container .basic-info-container .header-container {
+        pointer-events: none;
+    }
+    #input-avatar {
+        pointer-events: none;
+    }
+
+   label[for=input-avatar] {
+     display: none;
+   }
+
+   .account-list-container .user-info-container .basic-info-container .basic-info .item .change-name-tip {
+       display: none;
+   }
+
+  .basic-info a.text-sm.text-strong.link-blue.link-underline {
+    display: none;
+}
+</style>-->
+
+<main class="main-section user-center-main" role="main" id="uc-userinfo">
+  <uc-main :active="active" :module-title="mainData.mobuleTitle" :sub-title="mainData.subTitle"  back-link="https://my.oneplus.com/cn/mindex">
+    <!--å·¦ä¾§èååè¡¨-->
+    <!--<template slot="menu"></template>-->
+
+    <!--å³ä¾§å¤´é¨ä¿¡æ¯æ¡-->
+    <!--<template slot="headline"></template>-->
+
+    <!--å³ä¾§åå®¹åºåææ§½-->
+    <template slot="warp">
+      <div id="user-center-info">
+        <router-view></router-view>
+      </div>
+    </template>
+  </uc-main>
+  <input type="hidden" id="mark-loading-control" value="dev-control"/>
+  <!-- è·åç¨æ·ä¿¡æ¯ -->
+  <input type="hidden" name="user-info-url" id="user-info-url" value="https://www.oneplus.com/cn/union/user/detail">
+  <!-- ä¿®æ¹ç¨æ·å -->
+  <input type="hidden" name="edit-userinfo-url" id="edit-userinfo-url" value="https://account.oneplus.com/cn/updateUser">
+
+  <input type="hidden" name="sync-username-url" id="sync-username-url" value="https://www.oneplus.com/cn/user/refresh-username">
+  <!-- ä¸ä¼ å¾ç -->
+  <input type="hidden" name="edit-avatar-url" id="edit-avatar-url" value="https://www.oneplus.com/cn/union/user/avatarUpload">
+
+  <input type="hidden" name="check-email-url" id="check-email-url" value="https://www.oneplus.com/cn/user/check-email-password">
+  <input type="hidden" name="email-confirm-url" id="email-confirm-url" value="https://account.oneplus.com/cn/modifyEmail">
+  <!-- éç½®å¯ç  -->
+  <input type="hidden" name="change-password-url" id="change-password-url" value="https://account.oneplus.com/cn/updatePassWord">
+
+  <!-- è·åææºéªè¯ç  -->
+  <input type="hidden" name="send-sms-url" id="send-sms-url" value="https://account.oneplus.com/cn/sendCodeUserCenter">
+  <!-- éªè¯ææºéªè¯ç  -->
+  <input type="hidden" name="verify-smscode-url" id="verify-smscode-url" value="https://account.oneplus.com/cn/validaterCode">
+    <!-- éªè¯é®ç®± -->
+  <input type="hidden" name="send-email-url" id="send-email-url" value="https://www.oneplus.com/cn/union/user/authenticatePassword">
+  <!-- åéé®ç®±éªè¯ç  -->
+  <input type="hidden" name="send-email-code" id="send-email-code" value="https://account.oneplus.com/cn/sendCodeBind">
+  <input type="hidden" name="send-newsms-url" id="send-newsms-url" value="https://account.oneplus.com/cn/sendCodeBind">
+  <!-- éªè¯æ°ææºéªè¯ç  -->
+  <input type="hidden" name="verify-newsmscode-url" id="verify-newsmscode-url" value="https://account.oneplus.com/cn/modifyMobile">
+   <!-- æ³¨éç¨æ·æ¶è·åææºå· -->
+  <input type="hidden" name="get-remove-url" id="get-remove-url" value="https://account.oneplus.com/cn/deactivated/info">
+  <!-- æ³¨éç¨æ·æ¶åéææºéªè¯ç  -->
+  <input type="hidden" name="send-remove-url" id="send-remove-url" value="https://account.oneplus.com/cn/deactivated/code">
+  <!-- æ³¨éç¨æ·æ¶éªè¯ææºéªè¯ç  -->
+  <input type="hidden" name="verify-remove-url" id="verify-remove-url" value="https://account.oneplus.com/cn/deactivated/verify">
+  <!-- ç¡®è®¤æ³¨éå¸æ· -->
+  <input type="hidden" name="sure-remove-url" id="sure-remove-url" value="https://account.oneplus.com/cn/deactivated/confirm">
+
+  <input type="hidden" name="send-deactive-userEamil" id="send-deactive-userEamil" value="https://account.oneplus.com/cn/json/store/SendDeactiveUserEamil">
+  <!-- è§£é¤ç¬¬ä¸æ¹ç»å® -->
+  <input type="hidden" id="union-unbind-url" value="https://account.oneplus.com/cn/unbind/user"/>
+  <!-- è§£é¤å¶ä»ç»å®ï¼åç»å®å½å -->
+  <input type="hidden" id="confirm-bind-url" value="https://account.oneplus.com/cn/bind/forced">
+  <!-- ç¬¬ä¸æ¹ç»å®è·³è½¬ -->
+	<input type="hidden" id="bind-qq-url" value="https://account.oneplus.com/cn/bind/qq"/>
+	<input type="hidden" id="bind-weixin-url" value="https://account.oneplus.com/cn/bind/wechat"/>
+	<input type="hidden" id="bind-weibo-url" value="https://account.oneplus.com/cn/bind/weibo"/>
+        <input type="hidden" id="bind-app-url" value="https://account.oneplus.com/cn/bind/confirm"/>
+</main>
+
+<script>
+  var USER_CENTER_SECTION_ID = '#uc-userinfo';
+</script>
+<script type="application/json" id="data-translation">
+  {
+    "t9n":{
+      "basicInfo":{
+        "defaultText": "è¯·æ±å¤±è´¥",
+        "moduleTitle":"ä¸ªäººä¿¡æ¯",
+        "publicTitle":"åºæ¬ä¿¡æ¯",
+        "publicTip":"ä½ çå¬å¼ä¸ªäººåºæ¬ä¿¡æ¯ï¼å°ä»æ¾ç¤ºå¨ä¸å è®ºå",
+        "uploadText":"ä¸ä¼ å¾ç",
+        "usernameText":"ç¨æ·å: ",
+        "editText":"ç¼è¾",
+        "saveChangeText":"ä¿å­ä¿®æ¹",
+        "cancelText":"åæ¶",
+        "haschangedOnceTip":"ä½ å·²ç»è³å°æ´æ¹äºä¸æ¬¡ç¨æ·å",
+        "changeOnceText":"ç¨æ·ååªå¯ä»¥ä¿®æ¹ä¸æ¬¡",
+        "countryText":"å½å®¶: ",
+        "securityTitle":"å®å¨ä¿¡æ¯",
+        "securityTip":"å®å¨ä¿¡æ¯æ¯ç»å¯¹ä¿å¯çï¼æä»¬ä¸ä¼éé²ç»ä»»ä½äºº",
+        "emailText":"é®ç®±: ",
+        "phonePre":"+86",
+        "phoneText":"ææºå·: ",
+        "passwordText":"å¯ç : ",
+        "passwordTip":"ä¸ºä¿éå¸æ·å®å¨ï¼å»ºè®®ä½ å®ææ´æ¢å¯ç ã",
+        "thumbnailTitle":"ç¼è¾ç¼©ç¥å¾",
+        "uploadBtnText":"ä¸ä¼ å¤´å",
+        "saveText":"ä¿å­",
+        "uploadTip":"ä½ å½åæ¾ç¤ºçç¨æ·å¤´åå°ä¼æ¯å¬å¼ä¿¡æ¯",
+        "connectedTitle":"å¸å·ç»å®",
+        "connectedText":"å·²ç»å®",
+        "connectedTip":"ä¸å å¸å·ç»å®çç¬¬ä¸æ¹å¸å·ï¼å¯ç¨äºç´æ¥ç»å½ä¸å å®ç½",
+        "removeTip": "ä¸å å¸å·ç¸å³çåè½åæéè®¾ç½®",
+        "removeTitle": "å¸å·ç®¡ç",
+        "removeText": "æ³¨éå¸å·",
+        "removeSlogn": "è¯·ä½ å¨ç³è¯·ç¨æ·å¸å·æ³¨éä¹åï¼ç¡®è®¤å¸å·ä¸­çè®¢åæ²¡æâæªå®æè®¢åâæâç­å¾éè´§âç¶æ",
+        "remove": "æ³¨é",
+        "qqText":"QQ",
+        "sinaText":"æ°æµªå¾®å",
+        "wxText":"å¾®ä¿¡",
+        "unconnectedText":"æªç»å®",
+        "unConnected":"è§£é¤ç»å®",
+        "goConnected":"å»ç»å®",
+        "nameExistedErrorTip":"è¿ä¸ªç¨æ·åå·²ç»å­å¨-è¯·éæ©å¦ä¸ä¸ª",
+        "namePatternErrorTip":"ä½ çç¨æ·ååå«ç¹æ®å­ç¬¦,è¯·ç¨å­æ¯æ°å­ä»£æ¿",
+        "nameErrorTip":"è¯·è¾å¥ææçç¨æ·å",
+        "nameSameErrorTip":"ä½ çæ°ç¨æ·ååºè¯¥ä¸æ§ç¨æ·åä¸å",
+        "nameLimitedErrorTip":"æ´æ¹ç¨æ·åå¤ªé¢ç¹ï¼è¯·ç¨ååè¯",
+        "nameChangeOnceErrorTip":"å¯¹ä¸èµ·ï¼ä½ çç¨æ·åä¸è½åè¢«ç¼è¾",
+        "topSuccessTip":"ä½ å·²ç»æåä¿®æ¹äºä½ çå¸æ·ä¿¡æ¯!",
+        "avatarSuccessTip":"ä¸ä¼ æå",
+        "imageLimitedErrorTip":"è¯·éæ©ä¸å¼ å°äº1000px*1000pxï¼å°äº2MBçJPG/PNGå¾ç",
+        "imageSizeErrorTip":"è¿å¼ ç§çå¤ªå¤§äºï¼è¯·åè¯ä¸æ¬¡",
+        "imagePatternErrorTip":"è¿å¼ ç§çå¿é¡»æ¯jpgæpngï¼è¯·åè¯ä¸æ¬¡ã",
+        "editEmailSucceed":"çµå­é®ä»¶æ´æ°",
+        "editPhoneSucceed":"ææºå·ç æ´æ°ã",
+        "editPasswordSucceed":"ä½ å·²ç»æåä¿®æ¹äºä½ çå¸æ·ä¿¡æ¯!",
+        "deactivateAccountText":"å³é­å¸æ·",
+        "deactivateText":"å³é­æçå¸æ·",
+        "deactivateAccountTip":"å¦æä½ ä¸è®¤ä¸ºä½ å°ä½¿ç¨OnePluså¸æ·ä¸å,æ¿å é¤ä½ çå¸æ·,æä»¬å¯ä»¥å¸®ä½ å®æä½ çè¯·æ±ãè¯·è®°ä½ï¼ä½ å°æ æ³éæ°æ¿æ´»ä½ çå¸æ·ææ£ç´¢ä½ æ·»å çä»»ä½åå®¹æä¿¡æ¯ãå¦æä½ ä»ç¶æ³å é¤ä½ çå¸æ·ï¼è¯·ç¹å»<span class='active'>âå³é­æçå¸æ·â.</span>",
+        "qqToast": "è§£é¤ç»å®åï¼å°æ æ³ä½¿ç¨QQç»å½ä¸å å®ç½ãè®ºåç­åºç¨",
+        "wbToast": "è§£é¤ç»å®åï¼å°æ æ³ä½¿ç¨å¾®åç»å½ä¸å å®ç½ãè®ºåç­åºç¨",
+        "wxToast": "è§£é¤ç»å®åï¼å°æ æ³ä½¿ç¨å¾®ä¿¡ç»å½ä¸å å®ç½ãè®ºåç­åºç¨",
+       "removeList": [
+          {"name": "å¦ææ¨å¸ææ³¨éæ¨çä¸å å¸å·ï¼è¯·æ¨å¡å¿äºè§£ä»¥ä¸é£é©! "},
+          {"name": "æ³¨éå¸å·åï¼å°ä¸åæ¥æè®¿é®ä¸å å¸å·ç¸å³çåè½åæé:"},
+          {"name": "1ãæ¨å°æ æ³è®¿é®è¯¥å¸å·æè·åå¸å·ä¿¡æ¯ã"},
+          {"name": "2ãæ¨å°æ æ³ä½¿ç¨è¯¥å¸å·ç»å½ä¸å å®æ¹ç½ç«æ¥çæ¨çè®¢åä¿¡æ¯ææå°æ¨çè´­ä¹°å­è¯æåç¥¨ã"},
+          {"name": "3ãæ¨å°æ æ³ä½¿ç¨è¯¥å¸å·ç»å½âä¸å è®ºåâæ¥çæ¨çå¸å­æè¯è®ºã"},
+          {"name": "4ãæ¨çç§¯åä¹å°è¢«å é¤ï¼æ¨æææçå¯ç¨ä¼æ å¸ä¹ä¼è¢«å é¤ã"},
+          {"name": "5ãæ¨å°æ æ³ä½¿ç¨è¯¥å¸å·ç»å½âä¸æ¥ä¸å¾âææ£ç´¢ä¸ä¼ çç§çã"},
+          {"name": "6ãæ¨å°æ æ³ä½¿ç¨è¯¥å¸å·ç»å½ä¸å å®æ¹å¾®ä¿¡å°ç¨åºãåºç¨ååºç­å®¢æ·ç«¯ã"},
+          {"name": "7ãæ¨å°æ æ³ä½¿ç¨è¯¥å¸å·ç»å½âäºæå¡âã"},
+          {"name": "8ãæ¨å°æ æ³ä½¿ç¨è¯¥å¸å·ç»å½å¯ä½¿ç¨ä¸å å¸å·ç»å½çæææ¸¸æåºç¨ã"}
+        ],
+        "removeName": "æ³¨éå¸å·é¡»ç¥",
+        "removeTipNotes": "æ¸©é¦¨æé:",
+        "removeMes": [
+          {"name": "1ãæäº¤æ³¨éå¸å·ç³è¯·åï¼æ¨çå¸å·å°æ90æ¥çåç¨æï¼æ¨å¯ä»¥éæ©å¨90æ¥åæ¤éæ³¨éå¸å·ç³è¯·ï¼90æ¥åæ¨çå¸å·å°è¢«æ°¸ä¹å é¤ã"},
+          {"name": "2ãè¯·æ¨å¨ç³è¯·ç¨æ·å¸å·æ³¨éä¹åï¼ç¡®è®¤å¸å·ä¸­çè®¢åæ²¡æâæªå®æè®¢åâæâç­å¾éè´§âç¶æã"},
+          {"name": "3ãç³è¯·æ³¨éçå¸å·ï¼åè´­ä¹°çä¸å äºæå¡å°ç»æ­¢ï¼ä¸æ¯æéæ¬¾ã"},
+          {"name": "4ãå¸å·å¦æ¶åæ¸¸æèµäº§è½¬ç§»åéæ¬¾ç­é®é¢ï¼è¯·èç³»ç¸å³æ¸¸æååè¿è¡å¤çã"}
+        ],
+        "removeCancel": "åæ¶æ³¨é",
+        "removeSure": "æ³¨éå¸å·",
+        "removeMany": "äºè§£æ´å¤æ³¨éå¸å·ç¸å³é®é¢",
+        "bind": "ç»å®æå",
+        "bindWx": "è¯¥å¾®ä¿¡å·²ç»å®å¶å®å¸å·ï¼æ¯å¦è§£é¤ä¸ç»å°è¯¥å¸å·?",
+        "bindQq": "è¯¥QQå·²ç»å®å¶å®å¸å·ï¼æ¯å¦è§£é¤ä¸ç»å°è¯¥å¸å·ï¼",
+        "bindWb": "è¯¥å¾®åå·²ç»å®å¶å®å¸å·ï¼æ¯å¦è§£é¤ä¸ç»å°è¯¥å¸å·?",
+        "appBindText": "ç¡®å®",
+        "appUnbindText": "åæ¶",
+        "appBindTip": "ä½ å¥½"
+      },
+      "resetEmail":{
+         "defaultText": "è¯·æ±å¤±è´¥",
+        "verifyErrorTip": "è¯·è¾å¥å®æ´éªè¯ç ",
+        "verifyTitle": "éªè¯èº«ä»½",
+        "moduleTitle": "ä¸ºä¿éå®å¨ï¼æä»¬éè¦éªè¯æ¯ä½ æ¬äººå¨æä½",
+        "subTitle": "ä½ å½åçææºå·æé®ç®±",
+        "getCodeText": "è·åéªè¯ç ",
+        "sendCodeText": "åééªè¯ç ",
+        "noSendCodeText": "såéæ°åé",
+        "inputCodeText": "è¾å¥éªè¯ç ",
+        "confirm": "ç¡®è®¤",
+        "helpOnePlus": "è¥ææºå·²ä¸¢å¤±æåç¨ï¼è¯·<a href=\"http://www.sobot.com/chat/pc/index.html?sysNum=8b1ffba807764bc3bf2da878e5bb3df6\" style=\"color: #0099cc;\" target=\"_blank\">èç³»å®¢æ</a>æ´æ¢ï¼é¿åå¸å·è¢«çã",
+        "newNumber": "éªè¯æ°é®ç®±",
+        "phoneNumber": "ææºå·",
+        "message": "å·ç éè¯¯",
+        "phoneErrorTip": "è¾å¥é®ç®±å·æè¯¯",
+        "tipMessage": "è¯·è¾å¥ææºæé®ç®±"
+      },
+      "resetPassword":{
+        "moduleTitle":"å¸æ·ä¿¡æ¯",
+        "subTitle":"ä¿®æ¹å¯ç ",
+        "protectTip":"ä¸ºäºä¿æ¤å¸æ·å®å¨ï¼æä»¬éè¦ç¡®è®¤æ¯ä½ èªå·±å¨æä½å¸æ·",
+        "curPwdTitle":"å½åå¯ç ",
+        "newPwdTitle":"æ°å¯ç ",
+        "newPwdTitleAgain":"ç¡®è®¤æ°å¯ç ",
+        "confirmBtnText":"ç¡®å®",
+        "forgotPwdText":"",
+        "pwdErrorTip":"å¯ç ä¸è½æ»¡è¶³æä½éåº¦çè¦æ±",
+        "paramsErrorTip":"å¯ç ä¸è½æ»¡è¶³æä½éåº¦çè¦æ±",
+        "oldPwdErrorTip":"è¯·è¾å¥å½åå¯ç ",
+        "newPwdErrorTip":"è¯·ç¡®ä¿ä½ çæ°å¯ç ç¬¦åä»¥ä¸ææè¦æ±",
+        "surePwdErrorTip":"ä¸¤æ¬¡å¯ç ä¸ä¸è´"
+      },
+      "deactivateAccount":{
+        "moduleTitle":"å¸æ·ä¿¡æ¯",
+        "subTitle":"å³é­å¸æ·",
+        "tip":"Deactivation Terms",
+        "title1":"å½ä½ åå» <span class='active'>âåç¨æçå¸æ·â </span>æé®æ¶ï¼ä½ å°ä¸åå·æè®¿é®ä»¥ä¸åè½çæé:",
+        "title2":"ä½ çå¸æ·å°æ90å¤©çæ³¨éæï¼ç¶åç«å³å é¤å¸æ·ãä½ å¯ä»¥éæ©å¨90å¤©åçä»»ä½æ¶é´éæ°æ¿æ´»ä½ çå¸æ·ãä¹åï¼ä½ çå¸æ·å°è¢«æ°¸ä¹å é¤ãè¯·åéä¸è¿°é¨åï¼äºè§£å°è¢«å é¤çåå®¹ã",
+        "title3":"è¯·å¨ <span class='active'>åç¨ä½ çå¸æ·</span> åç¡®è®¤",
+        "tipText":[
+          "ä½ å°æ æ³è®¿é®ä½ çå¸æ·æè·åä½ çå¸æ·ä¿¡æ¯",
+          "ä½ å°æ æ³ç»å½æä»¬çå®æ¹ç½ç«æ¥çä½ çè®¢åä¿¡æ¯ææå°ä½ çè´­ä¹°è¯æå/æåç¥¨",
+          "ä½ å°æ æ³ç»å½ä¸å è®ºåæ¥çä½ çå¸å­æè¯è®ºãä½ çç§¯ååå¥çä¹å°è¢«å é¤",
+          "ä½ å°æ æ³ç»å½å°âShot on OnePlusâææ£ç´¢â¯ä½ ä¸ä¼ ç§ç"
+        ],
+        "tipText1":[
+          "è¯·ç¡®ä¿ä½ çå¸æ·æ²¡æâæªå®æè®¢åâå/æâæªå®æéè´§â",
+          "è¯·å¡å¿éè¯»å¹¶åæä¸è¿°âå¸å·å é¤ä¿¡æ¯âãè¿å°å¸®å©æä»¬æ´å¿«å°å¤çä½ çåæ¶è¯·æ±"
+        ],
+        "accountDeletionTip":"å é¤å¸å·",
+        "deactivateAccountTip":"éæ°è¾å¥å¯ç ä»¥åç¨ä½ çå¸æ·:",
+        "deactivateTip":"å³é­æçå¸æ·",
+        "frequencyLimitTip":"ä½ çé®ä»¶å·²ç»åéäº5æ¬¡ä»¥ä¸,è¯·å¨24å°æ¶ååè¯ä¸æ¬¡",
+        "cancel":"åæ¶",
+        "Confirm":"ç¡®è®¤",
+        "successDialogTitle":"ä½ çå¸æ·å·²è¢«æååç¨",
+        "successDialogTip":"ä½ çå¸æ·å·²è¢«åç¨ï¼90å¤©åå°è¢«æ°¸ä¹å é¤ãä½ å¯ä»¥å¨æªæ¥90å¤©åçä»»ä½æ¶é´éæ°æ¿æ´»ä½ çå¸æ·ç»å½å°ä½ çå¸æ·",
+        "submitted":"å¨,",
+        "emailTip":"æä»¬å·²ç»åäºä¸å°çµå­é®ä»¶ç»",
+        "emailTip1":"è¯·æç§é®ä»¶ä¸­çè¯´æå³é­ä½ çä¸å å¸å·",
+        "emailTip2":"æ²¡ææ¶å°é®ä»¶?ç¹å»",
+        "sendAgain":"éæ°åé",
+        "later":"ç¨ç­",
+        "format":{
+          "dd":"days",
+          "hh": "hour",
+          "mm": "min",
+          "ss": "s"
+        }
+      },
+      "resetPhone":{
+        "defaultText": "è¯·æ±å¤±è´¥",
+        "verifyErrorTip": "è¯·è¾å¥å®æ´éªè¯ç ",
+        "verifyTitle": "éªè¯èº«ä»½",
+        "moduleTitle": "ä¸ºä¿éå®å¨ï¼æä»¬éè¦éªè¯æ¯ä½ æ¬äººå¨æä½",
+        "subTitle": "ä½ å½åçææºå·æé®ç®±",
+        "getCodeText": "è·åéªè¯ç ",
+        "sendCodeText": "åééªè¯ç ",
+        "noSendCodeText": "såéæ°åé",
+        "inputCodeText": "è¾å¥éªè¯ç ",
+        "confirm": "ç¡®è®¤",
+       "helpOnePlus": "è¥ææºå·²ä¸¢å¤±æåç¨ï¼è¯·<a href=\"http://www.sobot.com/chat/pc/index.html?sysNum=8b1ffba807764bc3bf2da878e5bb3df6\" style=\"color: #0099cc;\" target=\"_blank\">èç³»å®¢æ</a>æ´æ¢ï¼é¿åå¸å·è¢«çã",
+        "regNewNumber": "éªè¯æ°å·ç ",
+        "newNumber": "éªè¯æ°å·ç ",
+        "phoneNumber": "ææºå·",
+        "message": "å·ç éè¯¯",
+        "phoneErrorTip": "è¾å¥ææºå·æè¯¯",
+        "tipMessage": "è¯·è¾å¥ææºæé®ç®±"
+      },
+      "removeAccount": {
+        "defaultText": "è¯·æ±å¤±è´¥",
+        "verifyErrorTip": "è¯·è¾å¥å®æ´éªè¯ç ",
+        "verifyTitle": "éªè¯èº«ä»½",
+        "moduleTitle": "ä¸ºä¿éå®å¨ï¼æä»¬éè¦éªè¯æ¯ä½ æ¬äººå¨æä½",
+        "subTitle": "ä½ å½åçææºå·",
+        "getCodeText": "è·åéªè¯ç ",
+        "sendCodeText": "åééªè¯ç ",
+        "noSendCodeText": "såéæ°åé",
+        "inputCodeText": "è¾å¥ç­ä¿¡éªè¯ç ",
+        "confirm": "ç¡®è®¤",
+        "helpOnePlus": "<a href=\"http://www.sobot.com/chat/pc/index.html?sysNum=8b1ffba807764bc3bf2da878e5bb3df6\" style=\"color: #0099cc;\" target=\"_blank\">éè¦å¸®å©ï¼</a>",
+        "message": "å·ç éè¯¯",
+        "removeText": "ç¹å»ç¡®è®¤æäº¤ï¼å®æå¸å·æ³¨éç³è¯·ï¼ç¨æ·ç¸å³æ°æ®å°å¨90å¤©åè¿è¡å½»åºå é¤ï¼æ æ³æ¢å¤ï¼å¨æ­¤æé´ä½ è¥å¯¹å¸å·æ³¨éæå¡å­å¨çèï¼å¯å¨90å¤©åçä»»ä½æ¶é´æ®µåæ¤éè¯¥ç³è¯·ã"
+      }
+    },
+    "url":{
+      "defaultAvatarUrl":"https://statics.oneplus.cn/ov/assets/images/user/user-info/avatar-default.png",
+      "cameraImgUrl":"https://statics.oneplus.cn/ov/assets/images/user/user-info/carema.png",
+      "allowbackLink":"/customer/dashboard",
+      "forgotLink":"https://account.oneplus.com/cn/forget",
+      "iconSuccessImgUrl":"https://statics.oneplus.cn/ov/assets/images/account/success.png"
+    },
+    "autoHide":true,
+    "blockTime": 10000,
+    "format":{
+      "dd":"days",
+      "hh": "hour",
+      "mm": "min",
+      "ss": "s"
+    },
+    "avatarSize":{
+      "width":200,
+      "height":200
+    },
+    "showConnected":false,
+    "passwordRulesTips": {
+      "lengthRule": "6 ï½16ä½",
+      "letterRule": "åå«å­æ¯",
+      "numberRule": "åå«æ°å­"
+    }
+  }
+</script>
+
+<script type="application/json" id="data-email-list">
+   ["@gmail.com","@hotmail.com","@yahoo.com","@outlook.com","@yahoo.co.in","@googlemail.com","@web.de","@gmx.de","@live.com","@rediffmail.com","@hotmail.co.uk","@hotmail.fr","@yahoo.in","@hotmail.it","@ymail.com","@msn.com","@yahoo.co.uk","@mail.ru","@aol.com","@qq.com","@163.com","@126.com","@sina.com","@hotmail.com","@sohu.com","@foxmail.com","@yeah.net","@vip.qq.com","@139.com","@hggame.com","@love11.com","@buston.cn","@kcidc.com","@sfba.cn","@hensao.com","@tour0.com","@ytgame.com","@pay55.com","@oneplus.net","@oneplus.cn"]
+</script>
+
+<script>
+  var nameValidList = [
+    {
+      "reg":/^[\s\S]{3,25}$/,
+      "text":"3 ï½25 ä½å­ç¬¦"
+    },
+    {
+      "reg":/^[^`~!@#$^&\+\-*=|{}':;\",\\<>?ï¼ï¿¥ââããâï¼ï¼ââ'ãï¼ãï¼%\/]+$/,
+      "text":"ä¸è½ä½¿ç¨: â, â, -, /, \, =, >, <, *, %, #"
+    }
+  ];
+
+  var phoneValidList = [
+    {
+      "reg":/^[789]\d{0,9}$/
+    }
+  ];
+
+  var countryStyle = {
+    "max-height": "400px",
+    "overflow-y": "auto",
+    "overflow-x": "hidden"
+  }
+var UC_USER_INFO_DATA = {
+    verifyMaxLength: 8,
+    countdownTimes: 120,
+    tips: {
+      passwordRulesTips: {
+        "lengthRule":"6 ï½16 ä½å­ç¬¦",
+        "letterRule":"åå«å­æ¯",
+        "numberRule":"åå«æ°å­"
+      },
+      verifyErrorTip: 'éªè¯ç æè¯¯',
+      passwordErrorTip: 'å¯ç æ ¼å¼ä¸æ­£ç¡®',
+      passwordNoSame: 'å¯ç ä¸ä¸è´',
+      userErrorTip: 'é®ç®±æææºæ ¼å¼ä¸æ­£ç¡®',
+      emailNullTip: 'é®ç®±æææºå·ä¸è½ä¸ºç©º',
+      userInfoTip: 'å®åå¸æ·ä¿¡æ¯',
+      emailORphone: 'ææºï¼é®ç®±',
+      setPasswordTip: 'è®¾ç½®å¸æ·å¯ç ',
+      passwordTip: 'å¯ç '
+    },
+    resUrl: {
+      // å®åä¿¡æ¯åééªè¯ç æ¥å£
+      sendCode: 'https://account.oneplus.com/cn/sendCode',
+      // éªè¯åè¾å¥å¯ç å¹¶æäº¤æ¥å£
+      bindUser: 'https://account.oneplus.com/cn/thirdPartyBind'
+    },
+    rules: {
+      email: {reg:/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/, tip: 'é®ç®±æ ¼å¼ä¸æ­£ç¡®'},
+      phone: {reg:/^1[3|4|5|7|8][0-9]\d{8}$/, tip: 'ææºå·æ ¼å¼ä¸æ­£ç¡®'},
+      autoEmail: ["@qq.com","@163.com","@126.com","@sina.com","@hotmail.com","@sohu.com","@foxmail.com","@yeah.net","@vip.qq.com","@gmail.com","@hotmail.com","@yahoo.com","@outlook.com","@yahoo.co.in","@googlemail.com","@web.de","@gmx.de","@live.com","@rediffmail.com","@hotmail.co.uk","@hotmail.fr","@yahoo.in","@hotmail.it","@ymail.com","@msn.com","@yahoo.co.uk","@mail.ru","@aol.com","@139.com","@hggame.com","@love11.com","@buston.cn","@kcidc.com","@sfba.cn","@hensao.com","@tour0.com","@ytgame.com","@pay55.com","@oneplus.net","@oneplus.cn"]
+    },
+    text: {
+      submitBtn: 'ç¡®å®'
+    }
+  };
+</script>
+
+<!-- ä¸ªäººä¸­å¿å·¦ä¾§èåéç½®ä¿¡æ¯ -->
+<input id="user-info-url" name="user-info-url" type="hidden" value="https://store.oneplus.com/xman/user/info-sec" />
+<input id="user-default-avatar-url" name="user-default-avatar-url" type="hidden" value="https://statics.oneplus.cn/ov/assets/images/referral/avatar-default.png" />
+
+<script>
+  var USER_CENTER_NAV_LIST = [   // ä¸ªäººä¸­å¿èåéç½®æ°æ®
+    {
+      title: '',
+      subList: [
+        { // è®¢å
+          url: 'https://my.oneplus.com/cn/order',
+          key: 'order',
+          val: 'è®¢å'
+        }
+      ]
+    },
+    {
+      title: 'æçèµäº§',
+      subList: [
+        { // æçå¸
+          url: 'https://my.oneplus.com/cn/coupon',
+          key: 'coupon',
+          val: 'æçå¸'
+        },
+		{ // æçæ´»å¨
+		  url: 'https://my.oneplus.com/cn/ticket',
+		  key: 'ticket',
+		  val: 'æçæ´»å¨'
+		},
+      //  { // éè¯·ç 
+       //   url: 'https://my.oneplus.com/cn/invitation',
+     //     key: 'invite',
+      //    val: 'éè¯·ç '
+     //   },
+        { // å¥å
+          url: 'https://my.oneplus.com/cn/award',
+          key: 'award',
+          val: 'å¥å'
+        },
+        { // æ¨èè¿å©
+          url: 'https://www.oneplus.com/cn/referral/detail',
+          key: 'referral',
+          val: 'æ¨èè¿å©'
+        },
+        { // ä»¥æ§æ¢æ°
+          url: 'https://www.oneplus.com/cn/trade',
+          key: 'trade',
+          val: 'ä»¥æ§æ¢æ°'
+        }
+      ]
+    },
+    {
+      title: 'ä¸å å¸æ·ç®¡ç',
+      subList: [
+        { // ä¸ªäººä¿¡æ¯
+          url: 'https://account.oneplus.com/cn',
+          opurl:'https://id.oneplus.com/profile.html?fromOneplus=true',
+          key: 'account',
+          val: 'ä¸ªäººä¿¡æ¯'
+        },
+        { // æ¶è´§å°å
+          url: 'https://my.oneplus.com/cn/address',
+          key: 'address',
+          val: 'æ¶è´§å°å'
+        },
+        { // äº§åè®¤è¯
+          url: 'https://my.oneplus.com/cn/device',
+          key: 'atteimei',
+          val: 'äº§åè®¤è¯'
+        }
+      ]
+    },
+    {
+      title: 'å®åæå¡',
+      subList: [
+        { // ä¸å ä¿éæå¡
+          url: 'https://my.oneplus.com/cn/jdb',
+          key: 'jdb',
+          val: 'ä¸å ä¿éæå¡'
+        },
+        { // å®åå
+          url: 'https://my.oneplus.com/cn/aftersale',
+          key: 'afterSale',
+          val: 'å®åå'
+        }
+      ]
+    }
+  ];
+  </script>
+
+<div class="container-text hidden-in-heytap-app">
+<nav class="nav-bread">
+</nav>
+</div>
+
+
+
+<div id="page-footer" class="hidden-in-heytap-app">
+  <footer id="footer">
+    <div class="container-text">
+      <div class="footer-nav">
+    <dl>
+      <dt class="nav-trigger collapsed">ä¸å äº§å<i class="icon-fold"></i></dt>
+      <dd class="nav-slide text-sm">
+        <ul>
+          <li>
+            <a href="https://www.oneplus.com/cn/8t?from=foot">OnePlus 8T</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/8-pro?from=foot">OnePlus 8 Pro</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/8?from=foot">OnePlus 8</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/7t-pro?from=foot">OnePlus 7T Pro</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/7t?from=foot">OnePlus 7T</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/7pro?from=foot">OnePlus 7 Pro</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/7?from=foot">OnePlus 7</a>
+          </li>
+        </ul>
+      </dd>
+    </dl>
+    <dl>
+      <dt class="nav-trigger collapsed">éä»¶<i class="icon-fold"></i></dt>
+      <dd class="nav-slide text-sm">
+        <ul>
+          <li>
+            <a href="https://www.oneplus.com/cn/store/audio?from=foot">è³æº</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/store/cases?from=foot">å£³/è</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/store/cables?from=foot">ééå¨/æ°æ®çº¿</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/store/bundles?from=foot">å¥è£</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/store/lifestyle?from=foot">çæ´»é¦</a>
+          </li>
+        </ul>
+      </dd>
+    </dl>
+    <dl>
+      <dt class="nav-trigger collapsed">ç­é¨æ´»å¨<i class="icon-fold"></i></dt>
+      <dd class="nav-slide text-sm">
+        <ul>
+          <li>
+            <a href="https://photos.oneplus.com/cn?from=foot">Shot on OnePlus</a>
+          </li>
+        </ul>
+      </dd>
+    </dl>
+    <dl>
+      <dt class="nav-trigger collapsed">å³äºä¸å <i class="icon-fold"></i></dt>
+      <dd class="nav-slide text-sm">
+        <ul>
+          <li>
+            <a href="https://www.oneplus.com/cn/brand?from=foot">äºè§£ä¸å </a>
+          </li>
+          <li>
+            <a href="https://career.oneplus.com/cn?from=foot">å å¥ä¸å </a>
+          </li>
+            <li>
+            <a href="https://www.oneplus.com/cn/sustainability?from=foot">å¯æç»­åå±</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/hydrogenos?from=foot">HydrogenOS</a>
+          </li>
+          <li>
+            <a href="https://cloud.h2os.com?from=foot">äºæå¡</a>
+          </li>
+          <li>
+            <a href="https://www.h2os.com/preinstall?from=foot">é¢ç½®åºç¨å¬ç¤º</a>
+          </li>
+        </ul>
+      </dd>
+    </dl>
+    <dl>
+      <dt class="nav-trigger collapsed">æå¡æ¯æ<i class="icon-fold"></i></dt>
+      <dd class="nav-slide text-sm">
+        <ul>
+          <li>
+            <a href="https://www.oneplus.com/cn/support/shopping-help?from=foot">è´­ä¹°å¸®å©</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/support/product/protection-service?from=foot">è´­ä¹°ä¿é</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/support/manuals?from=foot">ç¨æ·æå</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/support/repair?from=foot">å¯ä¿®æå¡</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/support/service-center?from=foot">æå¡ä¸­å¿</a>
+          </li>
+          <li>
+            <a href="https://www.oneplus.com/cn/support/contact?from=foot">èç³»æä»¬</a>
+          </li>
+        </ul>
+      </dd>
+    </dl>
+  </div>
+    </div>
+    <div class="container-infinite">
+      <div class="container-text">
+    <div class="contact-us">
+      <div class="retailer-entry font-body-1">æ´å¤éè´­æ¹å¼ï¼è¯·<a href="https://www.oneplus.com/cn/retail?from=foot">&nbsp;æ¥æ¾é¶å®åº&nbsp;</a>æ<a onclick="window.tipShow.show()">&nbsp;ä¸å å¾®ä¿¡å®æ¹åå</a></div>
+      <div class="customer-support">
+        <div class="btn-container">
+          <a href="tel:400 - 888 - 1111" class="one-tel-number service-number font-subtitle">
+            <i class="ico ico-call_v2 svg-icon"></i> <span>400 - 888 - 1111</span>
+          </a>
+          <a href="https://chat.sobot.com/chat/h5/v2/index.html?sysnum=8b1ffba807764bc3bf2da878e5bb3df6" target="_blank" class="one-tel-number service-number font-subtitle">
+            <i class="ico ico-live-chat svg-icon"></i> <span>å¨çº¿å®¢æ</span>
+          </a>
+        </div>
+        <p class="one-tel-time service-available">å¨ä¸è³å¨æ¥  9:00 - 22:00</p>
+        <span class="div-line"></span>
+        <p class="social-media font-subheading">
+          <a href="javascript:;" class="link-gray link-wechat">
+            <i class="ico ico-wechat_v2 svg-icon"></i>
+            <img class="wechat-qr-code"
+                 src="https://image01.oneplus.cn/shop/202003/30/985/4a29e5bdf6e65e4ad9d7d7810d599a2f.jpg"
+                 alt="WeChat QR Code">
+          </a>
+          <a href="https://weibo.com/oneplusmobile" target="_blank" class="link-gray">
+            <i class="ico ico-weibo_v2 svg-icon"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-container bg-warm-gray">
+    <div class="container-text">
+      <div class="self-help">
+        <div class="current-store country-icon hidden-footer-not-xs">
+          <i class="cn"></i>ä¸­å½å¤§é ( ç®ä½ä¸­æ / CNY )
+        </div>
+        <div class="link font-descriptions">
+          <ul>
+            <li><a href="https://account.oneplus.com/cn/agreement_privacy?from=foot">éç§æ¿ç­</a></li>
+            <li><a href="https://account.oneplus.com/cn/agreement?from=foot">ç¨æ·åè®®</a></li>
+            <li><a href="https://account.oneplus.com/cn/terms-and-conditions?from=foot">ç«èµè§å</a></li>
+            <li><a href="https://account.oneplus.com/cn/ip-policy?from=foot">ç¥è¯äº§ææ¿ç­</a></li>
+            <li><a href="mailto:security@oneplus.com">å®å¨é®é¢åé¦</a></li>
+            <li><a href="https://www.oneplus.com/cn/sitemap?from=foot">ç«ç¹å°å¾</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-record font-descriptions">
+        <span class="no-wrap">Â© 2013-2020 OnePlus. All Rights Reserved.</span>
+      </div>
+      <div class="copy-right">
+        <p class="font-descriptions">
+          <span class="no-wrap">ç²¤ICPå¤<a href="https://beian.miit.gov.cn" target="_blank">13080605</a>å·</span><span> | </span><span class="no-wrap">å¤æ¡ä¸»ä½ç¼å·:</span>
+          <span class="no-wrap">44201910955995</span> <br>
+          <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030402001407" target="_blank" track-key="d56663b49c29ea630fdebd39ba0a9acb" et-attached="1" class="under-supervision">
+            <img src="https://statics.oneplus.cn/ov/assets/images/footer/badge.png" alt="ç²¤å¬ç½å®å¤ 44030402001407å·">
+            <span>ç²¤å¬ç½å®å¤ 44030402001407å·</span>
+          </a>
+        </p>
+        <div class="certificate-container">
+          <a class="certificate-badge"
+             href="https://image01.oneplus.cn/shop/201811/13/1139/4ac3b42ccae6aa15de8ca8ce6df0140b.jpg"
+             target="_blank" track-data="çµå­è¥ä¸æ§ç§">
+            <img src="https://image01.oneplus.cn/shop/201811/13/835/51638e8fd2593c56856278feb794b506.png"
+                 alt="çµå­è¥ä¸æ§ç§" title="çµå­è¥ä¸æ§ç§" width="83" height="30">
+          </a>
+          <a class="certificate-badge"
+             href="https://ss.knet.cn/verifyseal.dll?sn=e14063044030050707awmq000000&amp;ct=df&amp;a=1&amp;pa=20151014"
+             track-key="97fd6aef8e1b0f732c6abdfd2ffbb811" et-attached="1" track-data="å¯ä¿¡ç½ç«" target="_blank">
+            <img src="https://statics.oneplus.cn/ov/assets/images/footer/cnnic.png" width="83" height="30"
+                 alt="å¯ä¿¡ç½ç«">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </footer>
+</div>
+
+<script>
+  (function () {
+    function getCookie(name) {
+      var value = "; " + document.cookie;
+      var parts = value.split("; " + name + "=");
+      if (parts.length == 2) return parts.pop().split(";").shift();
+    }
+
+    if (document.getElementById('foo-service-chat-for-sobot')) {
+      var el = document.getElementById('foo-service-chat-for-sobot'),
+        userName = getCookie('opnickname'),
+        email = getCookie('opuseremail'),
+        phone = getCookie('opuserphone'),
+        url = el.getAttribute('href');
+
+      if (userName) {
+        url += '&uname=' + userName;
+      }
+      if (email && email != "" && email != "\"\"") {
+        url += '&email=' + email;
+      }
+      if (phone && phone != "" && phone != "\"\"") {
+        url += '&tel=' + phone;
+      }
+
+      el.setAttribute('href', url);
+    }
+
+    /*å¤æ­æ¯å¦ä¸ºwebview*/
+    var isWebView = getCookie('analytics_from_flag') || '';
+    if (isWebView === 'app_webview' || typeof window.COMMUNITY_APP_ACCOUNT !== 'undefined') {
+      /*éèè®ºå*/
+      var nav = document.getElementById('nav-pages-slide');
+      if (nav) {
+        var closeInWebview = nav.querySelectorAll(".page");
+        for (var i = 0; i < closeInWebview.length; i++) {
+          var navText = closeInWebview[i].getElementsByTagName('a');
+          if (navText[0].innerHTML == 'è®ºå') {
+            closeInWebview[i].style.display = 'none';
+          }
+        }
+      }
+      /*éèå½å®¶éé¡¹*/
+      var currentStore = document.querySelectorAll('.current-store');
+      if (currentStore.length > 0) currentStore[0].style.display = 'none';
+      /*éèéåºç»å½*/
+      var logout = document.querySelectorAll('.logout');
+      if (logout.length > 0) logout[0].style.display = 'none';
+    }
+    
+    window.COMMUNITY_APP_BACK = function () {
+      history.back();
+    }
+  })();
+</script>
+
+<section class="universal-loading-canvas" id="universal-loading-canvas">
+  <i class="univesal-loading-container">
+    <svg class="universal-spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+      <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+    </svg>
+  </i>
+</section>
+<!-- <script  type="text/javascript" src="//webapi.amap.com/maps?v=1.4.15&key=ed869a2986825db4e08882686f2d83ac"></script> -->
+
+<script type="text/javascript" crossorigin src="https://statics.oneplus.cn/ov/assets/scripts/vendor.js?20201217155545"></script>
+<script type="text/javascript" crossorigin src="https://statics.oneplus.cn/ov/user/user-center/cn/user-info/index.js?20201217155545"></script>
+
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var a = document.createElement("script");
+    a.type = "text/javascript";
+    a.async = true;
+    a.src = "https://statics.oneplus.cn/ov/assets/scripts/opdcV3.0.0.min.js?20201217155545";
+    var b = document.getElementsByTagName("script")[0x0];
+    b.parentNode.insertBefore(a, b);
+
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?3a59d601a13580387971f58e07f89889";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<style>
+    .cookie-warn{
+      position:relative;
+      background: #52565a;
+      text-align: center;
+      font-size: 14px;
+      height: 50px;
+      overflow: hidden;
+    }
+    .cookie-warn-container{
+      position: relative;
+      max-width: 1200px;
+      min-width: 300px;
+      display: block;
+      margin: auto;
+      width: 100%;
+    }
+    .cookie-warn-content{
+      display: block;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .cookie-notice__desc {
+      line-height: 50px;
+      font-size: 14px;
+      color: #cacaca;
+      word-break: break-word;
+    }
+    .cookie-notice__link {
+      display: inline-block;
+      font-size: 14px;
+      color: #fff;
+    }
+    .close-cookie-warn{
+      display: block;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    .close-cookie-warn:hover{
+      cursor: pointer;
+    }
+    .close-cookie-warn::before,.close-cookie-warn::after{
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      content: "";
+      display: block;
+      background-color: #fff;
+    }
+    .close-cookie-warn::before{
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      height: 0;
+      width: 16px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-top: -1px;
+      margin-left: -8px;
+
+    }
+    .close-cookie-warn::after{
+      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+      height: 16px;
+      width: 0;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -1px;
+      margin-top: -8px;
+    }
+    .close-cookie-warn:hover:after, .close-cookie-warn:hover:before{
+      background-color: #fff;
+      border-color: #ccc;
+    }
+    @media screen and (max-width: 1050px){
+      .cookie-warn{
+        height: 50px;
+      }
+      .cookie-notice__desc{
+        line-height: 25px;
+      }
+    }
+    @media screen and (max-width: 735px){
+      .cookie-warn{
+        height: auto;
+      }
+      .cookie-warn-container{
+        padding: 8px 0px;
+      }
+      .cookie-warn-content{
+        padding-left: 15px;
+      }
+      .cookie-notice__desc{
+        font-size: 12px;
+        line-height: 1.5;
+      }
+    }
+    @media screen and (max-width: 500px){
+      .cookie-warn{
+        text-align: left;
+      }
+    }
+    @media screen and (min-width: 736px){
+    .cookie-warn {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 9999;
+      background-color: #fff;
+    }
+
+    .close-cookie-warn::before, .close-cookie-warn::after {
+      background-color: #fff;
+      border-color: #ccc;
+    }
+
+    .close-cookie-warn:hover:after, .close-cookie-warn:hover:before {
+      background-color: #fff;
+      border-color: #101920;
+    }
+
+    .cookie-notice__desc {
+      color: rgba(87, 87, 87, 1);
+      font-size: 14px;
+    }
+
+    .cookie-notice__desc span{
+      color: rgba(87, 87, 87, 1);
+      font-size: 14px;
+      border-bottom: 1px solid #575757;
+    }
+  }
+
+  @media screen and (max-width: 735px){
+    .cookie-warn{
+      background-color: #fff;
+    }
+
+    .cookie-notice__desc {
+      color: rgba(87, 87, 87, 1);
+      font-size: 12px;
+    }
+
+    .cookie-notice__desc span{
+      color: rgba(87, 87, 87, 1);
+      font-size: 12px;
+      border-bottom: 1px solid #575757;
+    }
+
+    .close-cookie-warn::before, .close-cookie-warn::after {
+      background-color: #fff;
+      border-color: #828282;
+    }
+
+    .close-cookie-warn:hover:after, .close-cookie-warn:hover:before {
+      background-color: #fff;
+      border-color: #828282;
+    }
+  }
+  </style>
+  <script>
+    window.addEventListener('load',function(){
+      var isLoggedIn = getCookieWarn('ONEPLUSID'),
+          hasCookieCloseRecord =  getCookieWarn('CookieClose'),
+          cookieWarn = document.getElementsByClassName('cookie-warn')[0];
+      var closeCookieBtn = document.getElementById('close-cookie-btn');
+      //var isBrand = window.location.pathname.indexOf('brand') !== -1;
+      if(cookieWarn && closeCookieBtn){
+        if(!isLoggedIn && !hasCookieCloseRecord && !window.isMiniProgram){
+          cookieWarn.style.display = 'block'
+        }
+        
+        closeCookieBtn.addEventListener('click',function(){
+          cookieWarn.style.display = 'none';
+          setCookieWarn('CookieClose','true');
+        })
+      }
+
+      // éå¯¹å¹¿ååå·åçå¤ç
+      var adid = getQueryString('adid');
+      var cps = getQueryString('cps');
+      if (adid) {
+        setCookieWarn('adid', adid, 7);
+      }
+      if (cps) {
+        setCookieWarn('cps', cps, 7);
+      }
+    })
+
+  function getQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) {
+      return decodeURI(r[2]);
+    }
+    return null;
+  }
+
+    function setCookieWarn(name,value,day) { 
+      var Days = day || 30; 
+      var exp = new Date(); 
+      exp.setTime(exp.getTime() + Days*24*60*60*1000); 
+      document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString() + ";path=/;domain=oneplus.com"; 
+    }
+
+    //è¯»åcookies 
+    function getCookieWarn(name) { 
+      var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+      if(arr=document.cookie.match(reg))
+        return unescape(arr[2]); 
+      else 
+        return null; 
+    }
+
+    // Hotjar Tracking Code for oneplus.com/cn
+    (function(h,o,t,j,a,r){
+      if (h.location.pathname.indexOf('retail') !== -1) return;
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:1386048,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+<script>
+     var isXs
+     if(window.matchMedia("(max-width: 1050px)").matches) {
+           isXs = true;
+      } else {
+            isXs = false;
+      }
+
+    function twofunction()
+      {
+           var imgs = document.querySelectorAll('.navImg');
+            for (var i = 0; i < imgs.length; i++) {
+               if (isXs) {
+                       imgs[i].src = imgs[i].getAttribute('data-src-mo');
+               }else {
+                       imgs[i].src = imgs[i].getAttribute('data-src');
+                }
+            }
+     }
+// loadä¹åå°±å è½½
+     function addLoadEvent(func) {
+           var oldonload = window.onload;
+           if (typeof window.onload != 'function') {
+            window.onload = func;
+         } else{
+                window.onload = function() {
+                    oldonload();
+                    func();
+                 }
+           }
+      }
+//  å°å¯¼èªæ æå è½½
+     function addLoadIMG(func) {
+          var item = document.querySelectorAll("#nav-pages-slide .page")
+          for(let i = 0; i < item.length; i ++) {
+               item[i].addEventListener("mouseover", func, false);
+           }         
+      }
+//addLoadEvent(twofunction)
+addLoadIMG(twofunction)
+</script>
+
+<style>
+  @media screen and (max-width: 1050px) {
+  #header .nav .page #series-slide .show-window {
+    width: 109px;
+  }
+}
+</style>
+<script  type="text/javascript" src='https://id.oneplus.com/resources/js/oneplus.login.js'></script>
+</body>
+
+</html>```
