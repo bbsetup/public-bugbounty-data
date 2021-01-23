@@ -1,0 +1,1592 @@
+```<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>American Weightlifting</title>
+
+  <meta name="title" content="American Weightlifting">
+  <meta name="description" content="American Weightlifting is the story of a sport in turmoil and the athletes and coaches whose passion drives them to succeed despite the odds. Amateur athletes and coaches with little or no financial support struggle to compete with the professionals who dominate the sport internationally. Training in garages, working full time jobs, ignored by the public and the media, American weightlifters work to compete with the best in the world.">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://americanweightlifting.vhx.tv&format=json" title="American Weightlifting" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://americanweightlifting.vhx.tv&format=xml" title="American Weightlifting" />
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://americanweightlifting.vhx.tv">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      /*............................................
+  	global
+  ..............................................*/
+  html.wf-loading {
+  	opacity: 0;
+  }
+  html.wf-active {
+  	opacity: 1;
+      transition: 0.2s ease;
+  	-moz-transition: 0.2s ease;
+  	-webkit-transition: 0.2s ease;
+  	-o-transition: 0.2s ease;
+  }
+  
+  body {
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    font-size: 17px;
+   	font-weight: 300;
+    background-color: #464750;
+  }
+  
+  a:link,
+  a:visited {
+  	color: inherit;
+    transition: 0.2s ease;
+  	-moz-transition: 0.2s ease;
+  	-webkit-transition: 0.2s ease;
+  	-o-transition: 0.2s ease;
+  }
+  
+  a:hover,
+  a:active {
+  	color: #2c2c32;
+  }
+  
+  h1, h2, h3, ul, dl, dd {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    letter-spacing: 0.02em; 
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  
+  h2 {
+  	font-size: 38px;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  /*............................................
+  	header
+  ..............................................*/
+  header {
+    padding:10px 0 10px 20px;
+    background: #464750;
+    overflow: hidden;
+    height: 70px;
+    border-bottom: 10px solid #464750;
+  }
+  header h1 {
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    width: 500px;
+    color: #ffffff;
+  }
+  
+  header a:link,
+  header a:visited {
+  	color: #464750;
+    text-decoration: none;
+  }
+  header a:hover,
+  header a:active {
+  	color: #2c2c32;
+    text-decoration: none;
+  }
+  
+  header nav {
+    float: left;
+  }
+  
+  header nav {
+   overflow: hidden;
+   position: relative;
+   top: 23px;
+  }
+  
+  header nav li {
+    float: left;
+    margin-right: 15px;
+  }
+  header .social {
+  	position: absolute;
+  	left: 20px;
+  	top: 23px;
+  }
+  header .social .email {
+    text-align: right;
+  }
+  header .social li {
+  	float: right;
+    margin-top: 10px;
+  }
+  header .social li.twitter {
+  	width: 85px;
+  }
+  header	.social li.email a {
+  	display: block;
+  	max-width: 200px;
+  	padding: 3px 5px;
+  	margin: 0px 4px 0px 4px;
+  
+  	-webkit-border-radius: 3px;
+  	border-radius: 3px;
+  
+  	background-color: #ffffff;
+  	border: 1px solid #f7f7f7;
+  	color:#333333;
+  
+  	letter-spacing: 0;
+  	line-height: 1;
+  	font-size: 11px;
+  	font-family: sans-serif;
+  	font-weight: bold;
+  
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: none;
+  	text-shadow: 1px 1px 0px rgba(255,255,255,.2);
+  
+  	background: rgb(255,255,255);
+  	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(223,223,223,1) 100%);
+  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(223,223,223,1)));
+  	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(223,223,223,1) 100%);
+  	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(223,223,223,1) 100%);
+  	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(223,223,223,1) 100%);
+  	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(223,223,223,1) 100%);
+  }
+  header .social li.email a i {
+  	color: #000;
+  }
+  header .social li.email a:hover {
+  	opacity: 1;
+  	color: #adadb3;
+  }
+  header .social li.email a:hover i {
+  	color: #adadb3;
+  }
+  
+  @media screen and (max-width: 800px){
+  	header h1 {
+    	position: relative;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+      left: auto;
+    }
+  	header {
+  		height: 125px;
+      padding: 10px 0;
+    }
+    header nav {
+  		float: none;
+  		position: relative;
+  		top: auto;
+      text-align: center;
+  	}
+    header nav li {
+    	float: none;
+      display: inline;
+    }
+   	header .social li,
+    header .social .email {
+  		float: left;
+  		display: block;
+  		text-align: left;
+      padding: 0 5px;
+    }
+  	header .social {
+  	  position: static;
+      right: auto;
+      top: auto;
+      padding-top: 5px;
+      width: 305px;
+      margin: auto;
+      text-align: center;
+    } 
+  }
+  
+  /*............................................
+  	feature
+  ..............................................*/
+  .feature {
+    position: relative;
+    height: 480px;
+    background: #222;
+    overflow: hidden;
+  }
+  
+  .feature iframe, 
+  .feature object, 
+  .feature embed,
+  .feature #trailer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .feature .slides {
+    height: 480px;
+  }
+  
+  /*............................................
+  	controls
+  ..............................................*/
+  .controls {
+  	background: #adadb3;
+    overflow: hidden;
+  }
+  
+  .controls .container {
+  	margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  .controls .buy, .controls .trailer {
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    letter-spacing: 0.02em; 
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-decoration: none;
+    color: #2c2c32;
+  }
+  
+  .controls .buy:hover, .controls .trailer:hover {
+  	color: #ffffff;
+    background-color: rgba(0,0,0,0.2);
+  }
+  
+  .controls .trailer {
+    height: 150px;
+    float: left;
+  	width: 37%;
+  }
+  .controls .trailer span {
+  	padding-top: 15px;
+    display: block;
+   }
+  .controls .trailer i,
+  .controls .buy i{
+    font-size: 49px;
+  }
+  .controls .buy .icon-stop {
+  	font-size: 25px;
+  }
+  
+  .controls .buy {
+  	float: left;
+  	width: 26%;
+    min-height: 150px;
+    display: block;
+    position: relative;
+  }
+  .controls .buy span {
+    border-right: 1px dotted #ffffff;
+    border-left: 1px dotted #ffffff;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 10px 10% 0 10%;
+    height: 100%;
+  }
+  .controls .buy .price {
+    font-size: 44px;
+    display: block;
+  }
+  
+  .controls .buy .action {
+    display: block;
+  }
+  
+  .controls .buy em {
+  	font-size: 14px;
+    display: block;
+    line-height: 15px;
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    text-transform: none;
+    color: #2c2c32;
+  }
+  .controls .buy .geoblocked {
+  	font-size :16px;
+  	padding-top: 45px;
+    line-height: 21px;
+   }
+  
+   @media screen and (max-width: 700px){
+   	.controls .container {
+  		width: 100%;
+  	}
+   	.controls .buy {
+    	width: 100%;
+      float: none;
+      min-height: auto;
+      padding: 20px 0;
+  		border-top: 1px dotted #ffffff;
+  		border-bottom: 1px dotted #ffffff;
+    }
+    .controls .buy span {
+  	  position: relative;
+      padding: 0;
+      margin: 0;
+      border-right: none;
+  	  border-left: none;
+      width: 100%;
+  	}
+    .controls .trailer span {
+    	padding: 15px 0 20px 0;
+    }
+  	.controls .trailer {
+      width: 100%;
+      float: none;
+  	}
+  	.controls .newsletter {
+      width: 100%;
+      float: none;
+      padding: 20px 0;
+  	}
+   }
+   
+   /*............................................
+  	newsletter
+  ..............................................*/
+  .newsletter form {
+  	height: 50px;
+    position: relative;
+    padding-left: 35px;
+  }
+  .newsletter {
+  	width: 37%;
+  	padding: 50px 0 0 0;
+    color: #2c2c32;
+    margin: 0;
+    overflow: hidden;
+    text-align: right;
+  }
+  
+  .newsletter label {
+  	font-size: 18px;
+    text-align: left;
+    display: block;
+    margin-left: 35px;
+  }
+  
+  .newsletter input.required {
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+  	margin: 0;
+    border: 3px solid #ffffff;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+  	-moz-border-radius: 5px;
+  	border-radius: 5px;
+    float: left;
+  	margin: 10px auto;
+    color: #ffffff;
+    padding: 4px 0 4px 10px;
+    width: 200px;
+  	border-color: none;
+    text-transform: none;
+    font-size: 16px;
+  }
+  
+  .newsletter ::-webkit-input-placeholder {
+  	color: #ffffff;
+  }
+  .newsletter :-moz-placeholder {
+  	color: #ffffff;
+  }
+  .newsletter ::-moz-placeholder {
+  	color: #ffffff;
+  }
+  .newsletter :-ms-input-placeholder {
+  	color: #ffffff;
+  }
+  
+  
+  .newsletter input:focus {
+      outline: none;
+  }
+  
+  .newsletter input[type="submit"] {
+  	background: #ffffff url('http://dr56wvhu2c8zo.cloudfront.net/indieflick/assets/7796bab4-de0a-4aa4-9ee3-2303493bdc2e/input-arrow.png') no-repeat 50% 50%;
+    color: #fff;
+    border: none;
+    -webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	border-radius: 3px;
+    position: absolute;
+  	top: 15px;
+  	left: 215px;
+  	width: 30px;
+  	height: 25px;
+    text-indent: -99999px;
+  	padding-top: 2px;
+    line-height: 24px;
+  }
+  
+  .newsletter input[type="submit"]:hover {
+  	background-color: #adadb3;
+    transition: 0.2s ease;
+  	-moz-transition: 0.2s ease;
+  	-webkit-transition: 0.2s ease;
+  	-o-transition: 0.2s ease;
+  }
+   @media screen and (max-width: 960px){
+   	.newsletter label {
+  	  font-size: 15px;
+     }
+   }
+   @media screen and (max-width: 800px){
+    .newsletter label {
+  	  font-size: 14px;
+      text-align: center;
+      margin-left: 0;
+     }
+     .newsletter form {
+  		width: 215px;
+      margin: auto;
+      padding-left: 0;
+     }
+     .newsletter input[type="email"] {
+  		margin: 10px auto;
+     }
+     .newsletter input[type="submit"] {
+  	   left: 180px;
+      }
+   }
+  
+  /*............................................
+  	about
+  ..............................................*/
+  .about {
+  	color: #2c2c32;
+  	background: #ffffff;
+    padding: 60px 0;
+    min-height: 260px;
+  }
+  
+  .about h2 {
+  	text-align: center;
+    line-height: 1;
+  }
+  
+  .about .portrait {
+  	float: right;
+    display: inline;
+    margin: 0 30px 20px 30px;
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    border: 4px solid #2c2c32;
+    background-image: url( false );
+    -webkit-border-radius: 100px;
+  	-moz-border-radius: 100px;
+  	border-radius: 100px;
+  }
+  
+  .about .text {
+  	width: 600px;
+    margin: 15px auto 0;
+    line-height: 1.57;
+    text-align: justify;
+  }
+  .about a:link,
+  .about a:visited {
+  	color: #2c2c32;
+  }
+  .about a:hover,
+  .about a:active {
+  	opacity: .7;
+  }
+  
+  @media screen and (max-width: 600px){
+  	.about .portrait {
+  	  float: none;
+    	display: block;
+  		margin: 15px auto;
+     }
+     .about .text {
+     		width: auto;
+        padding: 25px;
+      }
+  }
+  
+  /*............................................
+  	tumblr, twitter, etc
+  ..............................................*/
+  .news {
+  	background: #2c2c32;
+    color: #ffffff;
+    padding: 30px 0 60px;
+    position: relative;
+  }
+  
+  .news .toggle {
+  	float: left;
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    letter-spacing: 0.02em; 
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 26px;
+    position: absolute;
+    left: 30px;
+    padding-top: 30px;
+  }
+  
+  .news .toggle .off {
+  	text-decoration: none;
+    color: #adadb3;
+  }
+  
+  .news .toggle .off i {
+  	visibility: hidden;
+  }
+  
+  .news .toggle .on {
+  	text-decoration: none;
+    color: #ffffff;
+  }
+  .news .toggle .on i {
+  	visibility: visible;
+  }
+  .news .content {
+  	width: 600px;
+    margin: 0 auto;
+  }
+  
+  .news .content h2 {
+  	text-align: center;
+    line-height: 1;
+  }
+  .news .page {
+  	position: relative;
+    top: 0;
+  }
+  /* TWITTER */
+  .news .twitter {
+  	display: none;
+  }
+  .news .tweets li {
+  	margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+  }
+  .news .tweets li:last-child {
+  	border-bottom: none;
+  }
+  .news .tweets li .post {
+  	width: 80%;
+    margin: 0 auto;
+    text-transform: none;
+  }
+  .news .tweets li .avatar {
+  	-webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  .news .tweets li .text {
+  	text-align: left;
+    margin-left: 60px;
+    min-height: 50px;
+  }
+  .news .tweets li .meta a {
+  	text-decoration: none;
+    font-size: 12px;
+  }
+  /* BLOG */
+  .news .blog {
+  	text-align: center;
+    display: none;
+  }
+  .news .blog .entry {
+  	margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+  }
+  .news .blog .entry .timestamp a {
+  	text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .news .blog .entry p {
+  	text-align: left;
+  }
+  .news .blog .photo img {
+  	width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .news .blog .link h2 a {
+  	text-decoration: none;
+  }
+  .news .blog .video .thevideo {
+  	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 */
+  	padding-top: 0px;
+  	height: 0;
+  }
+  .news .blog .video .thevideo iframe,
+  .news .blog .video .thevideo object,
+  .news .blog .video .thevideo embed {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  }
+  .news .blog .readmore {
+  	display: inline-block;
+    margin: 0 auto;
+    padding: 10px 12px;
+    background-color: #ffffff;
+    color: #2c2c32;
+    font-weight: normal;
+    text-decoration:none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  .news .blog .readmore:hover {
+  	background-color: #adadb3;
+  }
+  .credits ul {
+    text-transform: uppercase;
+    line-height: 28px;
+    margin-top: 15px;
+  }
+  
+  .credits ul span {
+  	display: inline-block;
+    width: 290px;
+    text-align: right;
+    padding-right: 20px;
+    opacity:0.7;
+  	filter:alpha(opacity=70);
+    text-transform: none;
+  }
+  
+  .credits h2 {
+  	margin-top: 30px;
+  }
+  @media screen and (max-width: 600px){
+  	.news .toggle {
+    	position: relative;
+      width: 100%;
+      text-align: center;
+      left: auto;
+      padding: 0 0 25px 0;
+    }
+  	.news .icon-caret-right {
+  		display: none;
+  	}
+  	.news .content {
+  		width: 90%;
+  		padding: 25px 5%;
+  	}
+  	.credits ul {
+    	text-align: center;
+   	}
+  	.credits ul span {
+  	  text-align: center;
+    	width: auto;
+  	}
+  }
+  
+  /*............................................
+  	laurels
+  ..............................................*/
+  .pics {
+  	background: #464750;
+    padding: 5px 0;
+    text-align: center;
+    overflow: hidden;
+  }
+  .pics ul {
+  	padding: 35px 0;
+  }
+  .pics ul li {
+  	display: inline;
+    margin: 20px 10px;
+  }
+  
+  @media screen and (max-width: 800px){
+  	.pics ul li {
+    	display: block;
+    }
+  }
+  
+  /*............................................
+  	footer
+  ..............................................*/
+  footer {
+  	background: #464750;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  footer a:link,
+  footer a:visited {
+  	color: #464750;
+    text-decoration: none;
+    transition: 0.2s ease;
+  	-moz-transition: 0.2s ease;
+  	-webkit-transition: 0.2s ease;
+  	-o-transition: 0.2s ease;
+  }
+  
+  footer .vhx-logo {
+  	float: right;
+    opacity: 0.8;
+  	filter: alpha(opacity=80);
+  }
+  
+  footer .vhx-logo:hover {
+    opacity:1;
+  	filter:alpha(opacity=100);
+  }
+  
+  footer h2 {
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    letter-spacing: 0.05em; 
+    text-transform: uppercase;
+    color: #2c2c32;
+    line-height: 1;
+  }
+  
+  footer ul {
+  	float:left;
+  }
+  
+  footer li {
+  	float:left;
+    margin-right: 15px;
+  }
+   @media screen and (max-width: 600px){
+  	 footer ul {
+       margin: 15px 0;
+     }
+     footer li {
+     	text-align: center;
+  	  display: inline;
+     	float: none;
+      margin: 0 5px;
+     }
+   }
+  /*............................................
+  	subpages
+  ..............................................*/
+  .sub-page .vhx {
+  	background: #ffffff;
+    color: #2c2c32;
+    padding: 30px 0;
+    border-top: 30px solid #adadb3;
+    border-bottom: 30px solid #464750;
+  }
+  
+  .sub-page .vhx h1 {
+  	text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .sub-page .vhx h2 {
+  	margin-top: 0.5em;
+  }
+  
+  .sub-page .vhx h1, .sub-page .vhx h2 {
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    letter-spacing: 0.03em; 
+    text-transform: uppercase;
+    margin: 0 0 0.2em;
+    font-weight: normal;
+  }
+  
+  .sub-page .vhx p {
+  	margin: 0 0 1.2em;
+  }
+  
+  .sub-page .vhx a:link,
+  .sub-page .vhx a:visited{
+  	color: #464750;
+  	opacity:0.6;
+  	filter:alpha(opacity=60);
+  }
+  
+  .sub-page .vhx a:hover,
+  .sub-page .vhx a:active {
+  	opacity:1;
+  	filter:alpha(opacity=100);
+  }
+  
+  .sub-page .vhx .subpage {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .payments.sub-page .vhx .subpage {
+    width: 690px;
+    margin: 0 auto;
+  }
+  
+  .sub-page .vhx #payment-module {
+  	margin: 20px 0;
+  }
+  
+  .sub-page .vhx #payment-module h1 {
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    letter-spacing: 0.05em; 
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 38px;
+  }
+  
+  .sub-page .vhx #payment-module h2 {
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    letter-spacing: 0.05em; 
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #2c2c32;
+    font-size: 24px;
+  }
+  
+  .sub-page .vhx #payment-module footer .coupon-fields label {
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    letter-spacing: 0.05em; 
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #2c2c32;
+    font-size: 24px;
+  }
+  
+  .sub-page .vhx #payment-module h3, .sub-page .vhx #payment-module h3 span {
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    letter-spacing: 0.05em; 
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #2c2c32;
+    font-size: 28px;
+  }
+  
+  .sub-page .vhx #payment-module input.text, .sub-page .vhx #payment-module textarea {
+  	border-color: #adadb3;
+  }
+  
+  .sub-page .vhx #payment-module footer input[type="button"], .sub-page .vhx #payment-module footer input[type="submit"] {
+  	background-color: #464750;
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    letter-spacing: 0.08em; 
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  
+  .sub-page .vhx #payment-module footer input[type="button"]:hover, .sub-page .vhx #payment-module footer input[type="submit"]:hover {
+  	background-color: #464750;
+  }
+  
+  @media screen and (max-width: 600px){
+  	.sub-page .vhx .subpage {
+  		width: 90%;
+  		padding: 0 5%;
+  	}
+  }
+  
+  body.sessions .subpage .contents, body.passwords .subpage .contents, body.press_codes .subpage .contents {
+  	background-color: rgba(0,0,0,0);
+  }
+  
+  
+  body.press_codes .subpage input[type="text"], 
+  body.press_codes .subpage input[type="password"], 
+  body.press_codes .subpage textarea {
+  	border-color: #464750;
+  }
+  
+  body.sessions .subpage input[type="submit"], body.sessions .subpage input[type="button"], body.passwords .subpage input[type="submit"], body.passwords .subpage input[type="button"], body.press_codes .subpage input[type="submit"], body.press_codes .subpage input[type="button"] {
+  	background-color: #464750;
+    font-family: 'Oswald',"garamond-premier-pro",serif;
+    letter-spacing: 0.08em; 
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 24px;
+    padding: 0.5em 0.8em;
+  }
+  
+  body.sessions .subpage input[type="submit"]:hover, body.sessions .subpage input[type="button"]:hover, body.passwords .subpage input[type="submit"]:hover, body.passwords .subpage input[type="button"]:hover, body.press_codes .subpage input[type="submit"]:hover, body.press_codes .subpage input[type="button"]:hover {
+  	background-color: #464750;
+  }
+  
+  /*............................................
+  	utilties
+  ..............................................*/
+  .subpageNavbarContainer {
+  	z-index: 100;
+  }
+  .copyrightContainer {
+  	padding-top: 0;
+  }
+  .group:after {
+  	content: ".";
+  	display: block;
+  	height: 0;
+  	clear: both;
+  	visibility: hidden;
+   }
+  </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      var _gaq = _gaq || [];
+  
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+        ga('create', 'UA-19540423-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'americanweightlifting');
+      ga('send', 'pageview');
+  
+      var Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_SENT_FREE_COPIES":"admin_sent_free_copies","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_SIGNUP_COMPLETE":"authentication","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_LOADEDDATA":"Video Content Loaded","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_FULLSCREEN":"Fullscreen Enabled/ Disabled","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD_TRIGGER":"addwatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE_TRIGGER":"removewatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List ","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_CURRENT_USER_ID":"current_user_id","PROPERTY_CURRENT_USER_EMAIL":"current_user_email","PROPERTY_CURRENT_SITE_ID":"current_site_id","PROPERTY_CURRENT_SITE_KEY":"current_site_key","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+        SITE_GANALYTICS_ENABLED: false
+      };
+  
+        Tracking.SITE_GANALYTICS_ENABLED = true;
+          ga('create', '', 'auto', { 'name': 'site' });
+  
+        ga('site.require', 'displayfeatures');
+        ga('site.set', 'dimension1', 'americanweightlifting');
+        ga('site.send', 'pageview');
+  
+        var _vhx = {
+          environment: 'production',
+          site: { id: '740', domain: 'americanweightlifting.vhx.tv', host: 'americanweightlifting.vhx.tv' },
+          geo:  { country: 'us' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      var _current_user = {"id":null,"email":null,"name":null},
+          _current_site = {"id":740,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"americanweightlifting"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="http://www.americanweightliftingfilm.com/_inc/style.css" />
+<!----
+<header>
+	<h1 class="title">American Weightlifting</h1>
+
+  
+  
+</header>
+---->
+
+
+<div width="100%" align="center">
+
+
+	<div class="subpageNavbarContainer" style="width: 100%; position: fixed; top: 0px; left: 0px;">
+	
+		<div class="menuOuterContainer">
+			<div class="menuInnerContainer">
+			<a class="menu" href="http://www.americanweightliftingfilm.com/about/">ABOUT</a> &nbsp; &nbsp; &nbsp; <a class="menu" href="http://www.americanweightliftingfilm.com/clips/">WATCH CLIPS</a> &nbsp; &nbsp; &nbsp; <a class="menu" href="http://www.americanweightliftingfilm.com/premiere/">PREMIERE</a> &nbsp; &nbsp; &nbsp; <a class="menu" href="http://www.americanweightliftingfilm.com/buy/">BUY</a> &nbsp; &nbsp; &nbsp; <a class="menu" href="http://www.americanweightliftingfilm.com/press/">PRESS</a> &nbsp; &nbsp; &nbsp; <a class="menu" href="http://www.americanweightliftingfilm.com/contact/">CONTACT</a> &nbsp; &nbsp; &nbsp; <a class="menu" href="http://www.americanweightliftingfilm.com/">HOME</a>
+			</div>
+		</div>
+		
+		
+		<div class="chalkboardHeaderSubpage" align="center">
+			
+			<table align="center" width="800" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td align="left" valign="middle" style="padding-top: 10px; padding-bottom: 35px;">
+					<img src="http://www.americanweightliftingfilm.com/images/layout/headerTitle.png" />
+				</td>
+				<td align="right" align="middle">
+					<img src="http://www.americanweightliftingfilm.com/images/layout/cover-subpageHeader.png" class="subpageHeaderCoverImage" />
+				</td>
+			</td>
+			</table>
+		
+		</div>
+	
+	</div>
+	
+	
+	<div class="mainContent" style="">
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <div class="main">
+      <section class="feature">
+        <div id="trailer" data-trailer-url=""></div>
+    
+        <div class="slides" data-slideshow>
+            <img src="https://dr56wvhu2c8zo.cloudfront.net/americanweightlifting/assets/d8389363-03c1-45f4-a6a0-444896d010ce/gregSnatch2AtBurgeners.jpg">
+            <img src="https://dr56wvhu2c8zo.cloudfront.net/americanweightlifting/assets/3f8235d1-2ea7-4dc9-9e07-46ebc2ab8fef/sportsPalace2003-2005.jpg">
+        </div>
+      </section>
+      <section class="controls">
+      	<div class="container group">
+          <a href="#trailer" class="trailer" title="Play Trailer">
+            <span>
+            	<i class="icon-play"></i><br>
+    	        Watch the trailer
+            </span>
+          </a>
+    				<a href="/buy" class="buy" title="Buy Now">
+            <span>
+          	    <strong class="price">$199.95</strong> 
+            	  <strong class="action">BUY OR RENT</strong>
+    						<em>Watch Instantly!</em>
+    				</span>
+          </a>
+          
+          
+          
+        </div>
+      </section>
+      <section class="about">
+      	<h2>American Weightlifting: The Documentary</h2>
+        
+        <div class="text">American Weightlifting is the story of a sport in turmoil and the athletes and coaches whose passion drives them to succeed despite the odds. Amateur athletes and coaches with little or no financial support struggle to compete with the professionals who dominate the sport internationally. Training in garages, working full time jobs, ignored by the public and the media, American weightlifters strive to compete with the best in the world. </div>
+      </section>
+      <section class="news">
+      	<ul class="toggle">
+        	
+          
+          
+        </ul>
+        
+          
+          <li class="page twitter" rel="tweetstream" data-twitter-handle="amweightlifting">
+              <ul class="tweets">
+                  <li>
+                    <div class="post">
+                    	<div class="avatar"><a href="http://twitter.com/AmWeightlifting"><img src="http://twitter.com/api/users/profile_image/AmWeightlifting" /></a></div>
+                    	<div class="text">RT <a target='_blank' href='https://twitter.com/CAthletics'>@CAthletics</a>: Now on Google Play! American Weightlifting: The Documentary <a target='_blank' href='https://t.co/vpH5cwqFQ8'>https://t.co/vpH5cwqFQ8</a> <a target='_blank' href='https://twitter.com/search?q=%23weightlifting'>#weightlifting</a> <a target='_blank' href='https://twitter.com/search?q=%23usaw'>#usaw</a> <a target='_blank' href='https://twitter.com/USWeightlifting'>@USWeightlifting</a></div>
+                    </div>
+                    <div class="meta"><a href="http://twitter.com/AmWeightlifting/status/616733598570299393">&infin; over 5 years ago</a></div>
+                  </li>
+                  <li>
+                    <div class="post">
+                    	<div class="avatar"><a href="http://twitter.com/AmWeightlifting"><img src="http://twitter.com/api/users/profile_image/AmWeightlifting" /></a></div>
+                    	<div class="text">RT <a target='_blank' href='https://twitter.com/CAthletics'>@CAthletics</a>: American Weightlifting is the only documentary film on the sport of weightlifting in the US. <a target='_blank' href='http://t.co/KFzgLFyYtz'>http://t.co/KFzgLFyYtz</a></div>
+                    </div>
+                    <div class="meta"><a href="http://twitter.com/AmWeightlifting/status/596438374870683648">&infin; over 5 years ago</a></div>
+                  </li>
+                  <li>
+                    <div class="post">
+                    	<div class="avatar"><a href="http://twitter.com/AmWeightlifting"><img src="http://twitter.com/api/users/profile_image/AmWeightlifting" /></a></div>
+                    	<div class="text">RT <a target='_blank' href='https://twitter.com/CAthletics'>@CAthletics</a>: Greg Everett | Building A Dynasty - FloElite: <a target='_blank' href='http://t.co/9ARi0EoyXP'>http://t.co/9ARi0EoyXP</a> <a target='_blank' href='https://twitter.com/search?q=%23gregeverett'>#gregeverett</a> <a target='_blank' href='https://twitter.com/search?q=%23catalystathletics'>#catalystathletics</a> <a target='_blank' href='https://twitter.com/search?q=%23weightlifting'>#weightlifting</a> <a target='_blank' href='https://twitter.com/search?q=%23usaw'>#usaw</a> #…</div>
+                    </div>
+                    <div class="meta"><a href="http://twitter.com/AmWeightlifting/status/586999464809730048">&infin; almost 6 years ago</a></div>
+                  </li>
+                  <li>
+                    <div class="post">
+                    	<div class="avatar"><a href="http://twitter.com/AmWeightlifting"><img src="http://twitter.com/api/users/profile_image/AmWeightlifting" /></a></div>
+                    	<div class="text">RT <a target='_blank' href='https://twitter.com/CAthletics'>@CAthletics</a>: Check out <a target='_blank' href='http://t.co/vVG0792Ydj'>http://t.co/vVG0792Ydj</a> for their new video on Greg Everett, Catalyst Athletics and the sport of… <a target='_blank' href='https://t.co/imX'>https://t.co/imX</a>…</div>
+                    </div>
+                    <div class="meta"><a href="http://twitter.com/AmWeightlifting/status/586576417560797184">&infin; almost 6 years ago</a></div>
+                  </li>
+                  <li>
+                    <div class="post">
+                    	<div class="avatar"><a href="http://twitter.com/AmWeightlifting"><img src="http://twitter.com/api/users/profile_image/AmWeightlifting" /></a></div>
+                    	<div class="text">RT <a target='_blank' href='https://twitter.com/CAthletics'>@CAthletics</a>: Greg Everett | Building A Dynasty - FloElite: <a target='_blank' href='http://t.co/4K2kbmAYUU'>http://t.co/4K2kbmAYUU</a> <a target='_blank' href='https://twitter.com/search?q=%23gregeverett'>#gregeverett</a> <a target='_blank' href='https://twitter.com/search?q=%23catalystathletics'>#catalystathletics</a> <a target='_blank' href='https://twitter.com/search?q=%23usaw'>#usaw</a></div>
+                    </div>
+                    <div class="meta"><a href="http://twitter.com/AmWeightlifting/status/586563635515797504">&infin; almost 6 years ago</a></div>
+                  </li>
+                  <li>
+                    <div class="post">
+                    	<div class="avatar"><a href="http://twitter.com/AmWeightlifting"><img src="http://twitter.com/api/users/profile_image/AmWeightlifting" /></a></div>
+                    	<div class="text">RT <a target='_blank' href='https://twitter.com/CAthletics'>@CAthletics</a>: Please Post a Review of <a target='_blank' href='https://twitter.com/search?q=%23AmericanWeightlifting'>#AmericanWeightlifting</a>! <a target='_blank' href='http://t.co/0tgLE9JxHw'>http://t.co/0tgLE9JxHw</a> OR <a target='_blank' href='http://t.co/CdHhCDYR04'>http://t.co/CdHhCDYR04</a> Thanks for your support! #…</div>
+                    </div>
+                    <div class="meta"><a href="http://twitter.com/AmWeightlifting/status/586195877175271424">&infin; almost 6 years ago</a></div>
+                  </li>
+                  <li>
+                    <div class="post">
+                    	<div class="avatar"><a href="http://twitter.com/AmWeightlifting"><img src="http://twitter.com/api/users/profile_image/AmWeightlifting" /></a></div>
+                    	<div class="text">RT <a target='_blank' href='https://twitter.com/CAthletics'>@CAthletics</a>: all wk, <a target='_blank' href='https://twitter.com/search?q=%23americanweightlifting'>#americanweightlifting</a> movie only $5.99 download or DVD. Code "lifttheworld" <a target='_blank' href='http://t.co/53P6GnsCKR'>http://t.co/53P6GnsCKR</a> <a target='_blank' href='https://twitter.com/USWeightliftin'>@USWeightliftin</a>…</div>
+                    </div>
+                    <div class="meta"><a href="http://twitter.com/AmWeightlifting/status/585134147133288448">&infin; almost 6 years ago</a></div>
+                  </li>
+                  <li>
+                    <div class="post">
+                    	<div class="avatar"><a href="http://twitter.com/AmWeightlifting"><img src="http://twitter.com/api/users/profile_image/AmWeightlifting" /></a></div>
+                    	<div class="text">RT <a target='_blank' href='https://twitter.com/KevWesterman'>@KevWesterman</a>: <a target='_blank' href='https://twitter.com/CAthletics'>@CAthletics</a> <a target='_blank' href='https://twitter.com/search?q=%23lifttheworld'>#lifttheworld</a> has nothing on this masterpiece</div>
+                    </div>
+                    <div class="meta"><a href="http://twitter.com/AmWeightlifting/status/584813404013006849">&infin; almost 6 years ago</a></div>
+                  </li>
+                  <li>
+                    <div class="post">
+                    	<div class="avatar"><a href="http://twitter.com/AmWeightlifting"><img src="http://twitter.com/api/users/profile_image/AmWeightlifting" /></a></div>
+                    	<div class="text">RT <a target='_blank' href='https://twitter.com/CAthletics'>@CAthletics</a>: <a target='_blank' href='https://twitter.com/search?q=%23Repost'>#Repost</a> <a target='_blank' href='https://twitter.com/crossfitremus'>@crossfitremus</a> with repostapp.
+・・・
+Breakfast , some coffe and american weightlifting the… <a target='_blank' href='https://t.co/IWVzHBJ0FR'>https://t.co/IWVzHBJ0FR</a></div>
+                    </div>
+                    <div class="meta"><a href="http://twitter.com/AmWeightlifting/status/584402293291814914">&infin; almost 6 years ago</a></div>
+                  </li>
+              </ul>
+    			</li> <!-- .twitter-handle -->
+    
+          <li class="page blog" rel="updates">
+          </li>
+      	</ul> <!-- #content -->
+      </section>
+      <section class="pics">
+      </section>
+    </div>    <div class="clear"></div>
+  </section>
+
+  <section>
+    <!---
+<footer>
+	<a class="vhx-logo" href="http://vhx.tv" title="Powered by VHX" target="_blank">
+		<img src="http://dr56wvhu2c8zo.cloudfront.net/assets/powered_by_vhx_white.png" alt="Powered by VHX">
+  </a>
+  <h2>American Weightlifting</h2>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/faq">FAQ</a></li>
+    <li><a href="/privacy">Privacy Policy</a></li>
+    <li><a href="/tos">Terms of Use</a></li>
+  </ul>
+</footer>
+--->
+
+</div>
+
+
+
+	
+	
+	
+	<div class="copyrightContainer">
+		
+		<a class="copyright" target="_blank" href="http://www.catalystathletics.com">&copy; Greg Everett & Catalyst Athletics, Inc.</a>
+		
+    <a class="vhx-logo" href="http://vhx.tv" title="Powered by VHX" target="_blank">
+		<img src="http://dr56wvhu2c8zo.cloudfront.net/assets/powered_by_vhx_white.png" alt="Powered by VHX">
+  	</a>
+	</div>
+
+
+
+
+</div>
+    <div class="clear"></div>
+  </section>
+
+  <script>
+    var _site = {
+      color:        '#adadb3',
+      key:          'americanweightlifting',
+      facebook_url: '',
+      twitter_name: 'amweightlifting'
+    };
+  
+    var _config = {
+      country_code: 'us'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  
+<script>
+  var _flash = {
+    alert:  "",
+    notice: ""
+  };
+
+  
+      $(document).ready(function() {
+        $(".news .toggle a").click(function(e){
+  	e.preventDefault();
+    
+  	$(".news .toggle a").removeClass("on").addClass("off");
+    $(this).addClass("on");
+    
+    var rel = $(this).attr("rel");
+    var $targ = $("#content .page[rel='"+rel+"']");
+    $targ.show();
+    $("#content .page").not("[rel='"+rel+"']").hide();
+   
+     
+  });
+  
+  if ($("#blog").length > 0){
+  	getTumblog($("#blog").data("tumblr"),"#blog");
+  }
+  // ------------------------------------------------------------------------
+  // RETRIEVES TUMBLR DATA
+  function getTumblog(username, target){
+  	
+  	var tumblrkey = "mhg6b9xFS5pGZr9inve9sSsa0Zl2zy4ojb3K7Ta3aWswFqqSU8";
+    var tumblruser = username + ".tumblr.com";
+    var endpoint = "http://api.tumblr.com/v2/blog/" + tumblruser + "/posts/";
+    var data = {
+        api_key: tumblrkey
+      };
+      
+    setTimeout(function() {
+    
+        $.ajax({
+          type: "GET",
+          url: endpoint,
+          dataType: "jsonp",
+          data: data
+        })
+        .done(function(returnData) {
+  			 	processTumblog(returnData, username, target);
+  			});
+        
+      }, 500);
+  }
+  // ------------------------------------------------------------------------
+  // PARSES TUMBLR DATA INTO ARRAY
+  function processTumblog(data, username, target){
+  	var limit = $("#blog").data("tumblr-limit");
+    var usernamesafe = username.replace(/-/g,'');
+  	var html = '<div class="rssBody" id="tumblr_'+usernamesafe+'"><ul id="blog-entries"></ul></div>';
+    $(target).html(html);
+    
+    if (data.meta.status == 200) {
+        var feed = {
+          url: 'http://' + username + '.tumblr.com',
+          posts: []
+        };
+  
+        $(data.response.posts).each(function(i, post) {
+  
+          switch (post.type){
+            case "text":
+              feed.posts.push({
+                text: {
+                  title: post.title,
+                  body: post.body
+                }
+              });
+              break;
+  
+            case "photo":
+              var photos = [];
+              $(post.photos).each(function(i, obj){
+                photos.push({
+                  photo_url: obj.alt_sizes[1].url // 500px wide
+                })
+              });
+  
+              feed.posts.push({
+                photo: {
+                  caption: post.caption,
+                  photos: photos
+                }
+              });
+              break;
+  
+            case "quote":
+              feed.posts.push({
+                quote: {
+                  type: post.type,
+                  tags: post.tags,
+                  text: post.text,
+                  source: post.source
+                }
+              });
+              break;
+  
+            case "link":
+              feed.posts.push({
+                link: {
+                  linkURL: post.url,
+                  title: post.title,
+                  description: post.description
+                }
+              });
+              break;
+  
+            case "chat":
+              var chat_log = post.body.split("\n");
+              feed.posts.push({
+                chat: {
+                  title: post.title,
+                  body: post.body,
+                  chat: chat_log,
+                  dialogue: post.dialogue
+                }
+              });
+              break;
+  
+            case "audio":
+              feed.posts.push({
+                audio: {
+                  source_title: post.source_title,
+                  source_url: post.source_url,
+                  id3_title: post.id3_title,
+                  caption: post.caption,
+                  audio_player: post.player,
+                  audio_plays: post.plays,
+                  artist: post.artist,
+                  album: post.album,
+                  track_name: post.track_name,
+                  track_num: post.track_num,
+                  year: post.year
+                }
+              });
+              break;
+  
+            case "video":
+              feed.posts.push({
+                video: {
+                  source_title: post.source_title,
+                  caption: post.caption,
+                  video_embed: post.player[2].embed_code
+                }
+              });
+              break;
+  
+            case "answer":
+              feed.posts.push({
+                answer: {
+                  asking_name: post.asking_name,
+                  asking_url: post.asking_url,
+                  question: post.question,
+                  answer: post.answer
+                }
+              });
+              break;
+  					
+  
+            default:
+              feed.posts.push({
+                title: post.title,
+                body: post.body
+              });
+          } // end switch
+  			       
+          feed.posts[feed.posts.length - 1].date = post.date.substr(0,10);
+          feed.posts[feed.posts.length - 1].tags = post.tags;
+          feed.posts[feed.posts.length - 1].timestamp = post.timestamp;
+          feed.posts[feed.posts.length - 1].url = post.post_url;
+          feed.posts[feed.posts.length - 1].type = post.type;
+        }); // end each
+        
+        // make sure we don't display too many
+        if (feed.posts.length > limit){
+        	feed.posts = feed.posts.slice(0,limit);
+        }
+        // make the output
+        createTumblrHTML(feed, username);
+       
+  	} // end if
+  } // end function
+  // ------------------------------------------------------------------------
+  // PARSES ARRAY OUT INTO STANDARD HTML
+  function createTumblrHTML(data, username){
+  	var thehtml ="";
+    
+    $(data.posts).each(function(i, post) {
+      
+      switch (post.type){
+      	case "text":
+        	 thehtml +='<div class="entry text">';
+           thehtml +='   <h2><a href="'+post.url+'">'+post.text.title+'</a></h2>';
+           thehtml +=			post.text.body;
+           thehtml +='   <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+           thehtml +=' </div>';
+        	break;
+      
+        case "photo":
+         	 
+           thehtml +='<div class="entry photo">';
+           thehtml += '   <div class="photos">';
+  				 $(post.photo.photos).each(function(j, thephoto){
+           	thehtml += ' <img src="'+thephoto.photo_url+'" />';
+           });
+           thehtml += '  </div>';
+           thehtml += 	 post.photo.caption;
+           thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+           thehtml += '</div>';
+          break;
+        
+        
+   			case "quote":
+        	 thehtml +='<div class="entry quote">';
+           thehtml +='   <h2>'+post.quote.text+'</h2>';
+           thehtml +='   <p class="source">'+post.quote.source+'</p>';
+           thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+           thehtml +=' </div>';
+        	break;
+          
+        case "link":
+        	thehtml +='<div class="entry link">';
+          thehtml +='    <h2><a href="'+post.link.linkURL+'">'+post.link.title+'</a></h2>';
+          thehtml +=		post.link.description;
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+          thehtml +='</div>';
+        	break;
+        
+        case "chat":
+        	thehtml +=' <div class="entry chat">';
+          thehtml +='    <h2><a href="'+post.url+'">'+post.chat.title+'</a></h2>';
+          thehtml +='    <ul>';
+          $(post.chat.chat).each(function(k, chatter){
+          thehtml +='        <li>'+chatter+'</li>';
+          });
+          thehtml +='    </ul>';
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+          thehtml +='  </div>';
+        	break;
+       	
+        case "audio":
+        	thehtml +=' <div class="entry audio">';
+          thehtml +='    <div class="player">'+post.audio.audio_player+'</div>';
+          thehtml +=			post.audio.caption;
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+          thehtml +='  </div>';
+        	break;
+          
+        case "video":
+        	thehtml +=' <div class="entry video">';
+          thehtml +='    <div class="thevideo">'+post.video.video_embed+'</div>';
+          thehtml +=			post.video.caption;
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+          thehtml +='  </div>';
+  	      break;
+        
+        case "answer":
+        	thehtml += ' <div class="entry answer">';
+          thehtml += '    <div class="query"><h3>'+post.answer.question+'<h3>';
+          thehtml += '		&mdash; '+post.answer.asking_name+'</div>';
+          thehtml += '		<div class="response"><p>'+post.answer.answer+'</p></div>';
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+          thehtml += '  </div>';
+        	break;             
+          
+        default:
+       	  thehtml +='<div class="entry text">';
+           thehtml +='   <h2><a href="'+post.url+'">'+post.title+'</a></h2>';
+           thehtml +=			post.body;
+           thehtml +='   <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+           thehtml +=' </div>';
+  		} // end switch
+  	});// end each
+   
+   thehtml += '<a class="readmore button" href="http://'+username+'.tumblr.com/page/2" target="_blank">Read More</a>';
+   
+   var usernamesafe = username.replace(/-/g,'');
+   
+   $('#tumblr_' + usernamesafe).hide();
+   $('#tumblr_' + usernamesafe).html(thehtml);
+   $('#tumblr_' + usernamesafe).fadeIn(500);
+        
+  } // end createTumblrHTML
+  
+  
+  var THM = {
+    bindTrailerEvents: function() {
+    
+    	var image = $('.feature .feature-poster').find('img'),
+        	poster = $('.feature .feature-poster'),
+  				initTrailer = $('a[href=#trailer]'),
+          trailer = $('#trailer');
+      
+  		initTrailer.on('click', function(event) {
+          $('html,body').animate({scrollTop:0},300);
+  		    loadVideo($(this));
+       })
+       
+  		trailer.on('video:load', function() {
+  				
+       })
+       
+       trailer.on('video:stop', function() {
+  				stopVideo($(".controls a.trailer"));
+       })
+      
+      
+      function loadVideo(el) {
+        if (el.hasClass('playing')) {
+          stopVideo(el);        
+        }
+        else {
+  				startVideo(el);
+        }
+      }
+      
+      function startVideo(el) {
+        image.fadeOut(1);
+        trailer.fadeIn(500);
+        el.addClass('playing').html('<span><i class="icon-stop"></i><br>Stop Trailer</span>');
+      }
+      
+      function stopVideo(el){
+     	 	trailer.empty().fadeOut();
+        image.fadeIn(500);
+  			el.removeClass('playing').html('<span><i class="icon-play"></i><br>Watch the trailer</span>');
+      }
+      
+       
+    },
+    
+    init: function() {
+  		this.bindTrailerEvents();
+    }
+  }
+  THM.init();
+      });
+    </script>
+
+<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+
+
+    <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="americanweightlifting.vhx.tv"></script>
+</body>
+</html>
+```
