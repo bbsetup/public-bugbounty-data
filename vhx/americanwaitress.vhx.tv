@@ -1,0 +1,2379 @@
+```<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>American Waitress</title>
+
+  <meta name="title" content="American Waitress">
+  <meta name="description" content="A documentary featuring American Waitresses, made by Vanessa Vassar featuring music by Phonoroid, produced by Anna Darrah, shot by Gabriel Shaw, edited by Grant Taylor. Interviews with Karen Webb, Hooters and Route 66 Diner, Nicolas Ballas at The Cowgirl Hall of Fame in Santa Fe, NM.">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://americanwaitress.vhx.tv&format=json" title="American Waitress" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://americanwaitress.vhx.tv&format=xml" title="American Waitress" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://americanwaitress.vhx.tv">
+  
+  <link href='http://fonts.googleapis.com/css?family=Orbitron:500,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://dr56wvhu2c8zo.cloudfront.net/beforeoblivion/assets/0c625259-0a3d-4a6c-8dc5-8ac328830760/before-oblivion.zurb.min.css">
+  <style>
+  html, body {
+  	height: 100%;
+  }
+  body {
+  	font-family: sans-serif;
+    font-weight: 500;
+    background: #000;
+    color: #FFF;
+  }
+  
+  
+  /* VHX */
+  .fullwidth {
+  	max-width: 100%;
+  }
+  .fullheight,
+  .fullheight > .columns {
+  	height: 100%;
+  }
+  .flush-right {
+  	padding-right: 0;
+  }
+  .flush-left {
+  	padding-left: 0;
+  }
+  .right {
+  	float: right;
+  }
+  .clear { clear: both; font-size: 1px; line-height: 1px; }
+  
+  h1, h2, h3, h4, h5, h6, .orbitron {
+  	font-family: 'Orbitron', sans-serif;
+    font-weight: 300;
+  }
+  .text-center { text-align: center; }
+  .uppercase { text-transform: uppercase; }
+  .hidden { display: none !important; }
+  .relative { position: relative; }
+  
+  .padding-bottom { padding-bottom: 2em; }
+  .padding-bottom-small { padding-bottom: 1em; }
+  .padding-bottom-large { padding-bottom: 3em; }
+  
+  .padding-top { padding-top: 2em; }
+  .padding-top-small { padding-top: 1em; }
+  .padding-top-large { padding-top: 3em; }
+  
+  .padding-left { padding-left: 2em; }
+  .padding-left-small {  padding-left: 1em; }
+  .padding-left-large { padding-left: 3em; }
+  
+  .padding-right { padding-right: 2em; }
+  .padding-right-small {  padding-right: 1em; }
+  .padding-right-large { padding-right: 3em; }
+  
+  .border-right { border-right: 1px solid rgba(255, 255, 255, 0.2); }
+  .border-left { border-left: 1px solid rgba(255, 255, 255, 0.2); }
+  .border-top { border-top: 1px solid rgba(255, 255, 255, 0.2); }
+  .border-bottom { border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+  
+  .white { color: #FFF; }
+  a, a:active {
+  	color: ;
+    color: inherit;
+    transition: 0.2s ease;
+  	-moz-transition: 0.2s ease;
+  	-webkit-transition: 0.2s ease;
+  	-o-transition: 0.2s ease;
+    opacity: 0.9;
+  }
+  a:hover {
+  		color: #ffffff;
+    opacity: 1;
+  }
+  
+  h1, h2 {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.02em; 
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  
+  h2 {
+  	font-size: 38px;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  .dark-bg {
+  	background: rgba(0,0,0,.5); 
+  }
+  .button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    text-align: center;
+  }
+  .button .price-text {
+    text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+  .button .price {
+   text-transform: uppercase;
+    opacity: 1;
+    font-family: "Helvetica", sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-left: 6px;
+  }
+  
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+  
+  }
+  @media only screen and (max-width: 40em) { 
+  
+  }
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* SLIDESHOW */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .slides-normal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index:0;
+  }
+  .slides-normal .slide {
+  	background-repeat: no-repeat;
+  	background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+  }
+  .slides-normal .slide.is-active {
+  	opacity: 1;
+  }
+  
+  @media only screen and (max-width: 40em) { 
+  	.slides-normal {
+    	position: relative;
+      height: 0;
+      padding-top: 56.25%;
+    }
+    .slides-normal .slide {
+    	
+    }
+    .slides-normal .purchasing {
+    	position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .slides-normal .purchasing {
+      padding-top: 25%;
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      width: 300px;
+      margin-left: -150px;
+    }
+    .slides-normal .purchasing a {
+    	display: inline-block;
+      padding: 10px 10px;
+      width: 150px;
+      text-align: center;
+    	background: rgba(0,0,0,.5);
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+    }
+    .slides-normal .purchasing .top,
+    .slides-normal .purchasing .bottom {
+    	display: block;
+      float: left;
+    }
+    .slides-normal .purchasing .top a {
+    	border-right: 1px solid #FFF;
+      -webkit-border-radius: 5px 0px 0px 5px;
+      border-radius: 5px 0px 0px 5px;
+    }
+    .slides-normal .purchasing .bottom a {
+    	-webkit-border-radius: 0px 5px 5px 0px;
+      border-radius: 0px 5px 5px 0px;
+    }
+  }
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* MAIN ACTION */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .main-action .buy {
+  	width: 300px;
+    margin: 0 auto;
+    text-align: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+  	-moz-transform: translateX(-50%) translateY(-50%);
+  	-o-transform: translateX(-50%) translateY(-50%);
+  	-ms-transform: translateX(-50%) translateY(-50%);
+  	transform: translateX(-50%) translateY(-50%);
+  }
+  .main-action .buy a {
+  	display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+  }
+  .main-action .top {
+  	border-bottom: 1px solid #FFF;
+  }
+  .main-action .icon {
+  
+  }
+  .main-action .large {
+  	display: block;
+    font-size: 30px;
+  }
+  .main-action .text {
+  	font-family: "Orbitron", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 16px;
+    opacity: .6;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  .main-action .circular.buy .top a  {
+  	-webkit-border-radius: 150px 150px 0 0;
+    border-radius: 150px 150px 0 0;
+    width: 300px;
+    height: 150px;
+    padding-top: 50px;
+    background: rgba(0,0,0,.5);
+  }
+  .main-action .circular.buy .bottom a  {
+  	-webkit-border-radius: 0 0 150px 150px;
+    border-radius: 0 0 150px 150px;
+    width: 300px;
+    height: 150px;
+    padding-top: 30px;
+    background: rgba(0,0,0,.5);
+  }
+  
+  
+  
+  .main-action .triangular.buy .top,
+  .main-action .triangular.buy .bottom {
+  	width: 300px;
+    height: 150px;
+    position: relative;
+  }
+  .main-action .triangular.buy .top .triangle {
+  	position: absolute;
+    bottom: 0;
+    left: 0;
+  	width: 0; 
+  	height: 0; 
+    z-index: 0;
+  	border-left: 150px solid transparent;
+  	border-right: 150px solid transparent;
+  	border-bottom: 150px solid rgba(0,0,0,.5);
+  }
+  .main-action .triangular.buy .top:hover .triangle {
+  	border-bottom: 150px solid rgba(0,0,0,1);
+  }
+  	
+  .main-action .triangular.buy .bottom .triangle {
+  	position: absolute;
+    bottom: 0;
+    left: 0;
+  	width: 0; 
+  	height: 0; 
+    z-index: 0;
+  	border-left: 150px solid transparent;
+  	border-right: 150px solid transparent;
+  	border-top: 150px solid rgba(0,0,0,.5);
+  }
+  .main-action .triangular.buy .bottom:hover .triangle {
+  	border-top: 150px solid rgba(0,0,0,1);
+  }
+  .main-action .triangular.buy .top a {
+  	padding-top: 70px;
+  }
+  .main-action .triangular.buy .bottom a {
+  	padding-top: 20px;
+  }
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* HEADER */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 133px;
+    width: 100%;
+    overflow: hidden;
+  }
+  header .padding {
+  	padding: 20px;
+  }
+  header h1 {
+    font-size: 23px;
+    text-align: left;
+    /*letter-spacing: 2.5px;*/
+    letter-spacing: 5px;
+    color: #ffffff;
+  }
+  header ul {
+  	margin: 0;
+    padding: 0;
+  }
+  header nav a:link,
+  header nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  header nav a:hover,
+  header nav a:active {
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 5px;
+  }
+  header nav {
+   position: relative;
+  }
+  header nav li {
+    float: left;
+    display: inline;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin-top: -5px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgba(255, 255, 255, 0);
+  
+  }
+  header nav li a.on {
+    padding: 5px 11px 0px 11px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+  }
+  header nav li a {
+    padding: 5px 11px 0px 11px;
+  }
+  
+  @media only screen and (max-width: 40em) { 
+  	.navigation {
+    	display: none;
+      background: #000;
+      padding-bottom: 10px;
+      z-index: 100;
+      position: relative;
+    }
+    .navigation.is-active {
+    	display: block;
+    }
+    .mobile-navigation-trigger {
+    	padding: 5px 0;
+    }
+    header {
+      overflow: visible;
+    }
+    header nav li {
+    	display: block;
+      float: none;
+    }
+    header nav li a.on {
+     border: none;
+     opacity: .5;
+    }
+    header nav li a {
+    	display: block;
+      font-size: 16px;
+      font-family: 'Orbitron', sans-serif;
+      padding-left: 11px;
+    }
+  }
+   /*............................................
+    newsletter
+  ..............................................*/
+  .newsletter {
+    color: #ffffff;
+    margin: 0;
+  }
+  .newsletter form {
+    margin-top: 3px;
+    padding-top: 3px;
+    border: 2px solid rgb(250, 250, 250);
+    border: 2px solid rgba(250,250,250,0.5);
+  	position: relative;
+  }
+  .newsletter label {
+    font-size: 12px;
+    text-align: left;
+  }
+  
+  .newsletter input.required {
+    font-family: "Helvetica", sans-serif;
+    margin: 0;
+    color: #ffffff;
+    background-color: transparent;
+    opacity: 1;
+  	width: 100%;
+    height: 25px;
+    border: none;
+    opacity: 0.7;
+    margin-left: 3px;
+    font-size: 13px;
+  }
+  
+  .newsletter ::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+  .newsletter :-moz-placeholder {
+    color: #ffffff;
+  }
+  .newsletter ::-moz-placeholder {
+    color: #ffffff;
+  }
+  .newsletter :-ms-input-placeholder {
+    color: #ffffff;
+  }
+  .newsletter input:focus {
+      outline: none;
+  }
+  .newsletter input[type="submit"] {
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    text-transform: uppercase;
+    padding: 6px 25px 6px 6px;
+    background: rgba(255,255,255,.3) url('https://dr56wvhu2c8zo.cloudfront.net/theginbin/assets/7ecb15ab-832b-4ffa-8563-595a960ca9d6/submit-arrow.png') no-repeat top right;
+    opacity: 1;
+  }
+  
+  .newsletter input[type="submit"]:hover {
+    opacity: 0.5;
+  }
+  
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* INNER CONTENT */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .inner-content {
+  	/* margin = height of header, height of footer */
+  	margin-top: 130px;
+    margin-bottom: 140px;
+    overflow-y: scroll;
+  }
+  .inner-content .padding {
+  	padding:	0 50px 50px 49px;
+  }
+  .pages {
+  
+  }
+  
+  .page {
+  	display: none;
+  }
+  .page.is-active {
+  	display: block;
+  }
+  .page .col.half {
+  	width: 50%;
+    float: left;
+  }
+  .package-image {
+  	position: relative;
+  }
+  .package-image i {
+  	position: absolute;
+    z-index: 10;
+    font-size: 60px;
+    opacity: .5;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+  .package-image a:hover i {
+  	opacity: .8;
+  }
+  
+  
+  
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+  
+  }
+  @media only screen and (max-width: 40em) { 
+  	.page .col.half {
+    	width: auto;
+      float: none;
+    }
+    .package-text {
+    	padding-top: 20px;
+    }
+    .package-text.padding-left {
+    	padding-left: 0;
+    }
+  }
+  
+  
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* about page */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .page.about .package-image {
+  	  border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, .5);
+  }
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* director page */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .page.director .text {
+  	font-size: 22px;
+    line-height: 30px;
+  }
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* blog page */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .page.blog .entry {
+    margin-bottom: 3em;
+  }
+  .page.blog  .entry .timestamp a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1.7px;
+    opacity: 0.6;
+    padding-bottom: 10px;
+   /* border-bottom: 1px solid #FFFFFF;*/
+  }
+  .page.blog h1,
+  .page.blog h2 {
+  	color: #ffffff;
+  }
+  .page.blog h1 {
+  	font-size: 24px;
+  }	
+  .page.blog h2 {
+  	font-size: 18px;
+  }
+  .page.blog  .entry p {
+    text-align: left;
+    opacity: .8;
+  }
+  .page.blog  .photo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .page.blog  .link h2 a {
+    text-decoration: none;
+  }
+  .page.blog  .video .thevideo {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 0px;
+    height: 0;
+  }
+  .page.blog  .video .thevideo iframe,
+  .page.blog  .video .thevideo object,
+  .page.blog  .video .thevideo embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .page.blog  .readmore {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 12px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration:none;
+    font-family: "Orbitron", sans-serif;
+  }
+  .page.blog  .readmore:hover {
+  
+  }
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* twitter page */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  
+  .page.twitter .tweets li {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+  .page.twitter .tweets li:last-child {
+    border-bottom: none;
+  }
+  
+  .page.twitter .tweets li .avatar {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  .page.twitter .tweets li .text {
+    line-height: 1.3;
+  }
+  .page.twitter .tweets li .meta a {
+    text-decoration: none;
+    font-size: 11px;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1.7px;
+    opacity: 0.6;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* gallery page */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  
+  .thegallery .item a {
+  	display: block;
+    border: 1px solid rgba(255,255,255,.5);
+  }
+  .thegallery .item a:hover {
+    opacity: .8;
+  }
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* updates page */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .page.updates .entry {
+  
+  }
+  .page.updates .entry h1 a {
+    text-decoration:none;
+    opacity: 0.9;
+    color: #ffffff;
+    font-size: 22px;
+  }
+  .page.updates .entry h1 a:hover {
+    opacity: 1;
+  }
+  .page.updates .entry .timestamp a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1.7px;
+    opacity: 0.6;
+    padding-bottom: 10px;
+   /* border-bottom: 1px solid #FFFFFF;*/
+  }
+  .page.updates .entry p {
+    text-align: left;
+    opacity: .8;
+  }
+  .page.updates .photo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .page.updates .meta {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration:none;
+  
+    opacity: 0.9;
+  }
+  .page.updates .readmore:hover {
+  
+  }
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* FOOTER */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 140px;
+    width: 100%;
+    overflow: hidden;
+  }
+  footer .padding {
+  	padding: 20px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  footer a:link,
+  footer a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+  }
+  footer .vhx-logo {
+    opacity: 0.8;
+  }
+  footer .vhx-logo:hover {
+    opacity:1;
+  }
+  footer .menu {
+    padding-top: 10px;
+  }
+  footer .social {
+  	margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  footer .social .entry {
+  	width: 100px;
+    float: left;
+    margin-right: 15px;
+  }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+  
+  }
+  @media only screen and (max-width: 40em) { 
+  	footer {
+    	position: relative;
+      padding-bottom: 30px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </style>
+  
+  
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  html, body {
+  	height: 100%;
+  }
+  body {
+  	font-family: sans-serif;
+    font-weight: 500;
+    background: #000;
+    color: #FFF;
+  }
+  
+  
+  /* VHX */
+  .fullwidth {
+  	max-width: 100%;
+  }
+  .fullheight,
+  .fullheight > .columns {
+  	height: 100%;
+  }
+  .flush-right {
+  	padding-right: 0;
+  }
+  .flush-left {
+  	padding-left: 0;
+  }
+  .right {
+  	float: right;
+  }
+  .clear { clear: both; font-size: 1px; line-height: 1px; }
+  
+  h1, h2, h3, h4, h5, h6, .orbitron {
+  	font-family: 'Orbitron', sans-serif;
+    font-weight: 300;
+  }
+  .text-center { text-align: center; }
+  .uppercase { text-transform: uppercase; }
+  .hidden { display: none !important; }
+  .relative { position: relative; }
+  
+  .padding-bottom { padding-bottom: 2em; }
+  .padding-bottom-small { padding-bottom: 1em; }
+  .padding-bottom-large { padding-bottom: 3em; }
+  
+  .padding-top { padding-top: 2em; }
+  .padding-top-small { padding-top: 1em; }
+  .padding-top-large { padding-top: 3em; }
+  
+  .padding-left { padding-left: 2em; }
+  .padding-left-small {  padding-left: 1em; }
+  .padding-left-large { padding-left: 3em; }
+  
+  .padding-right { padding-right: 2em; }
+  .padding-right-small {  padding-right: 1em; }
+  .padding-right-large { padding-right: 3em; }
+  
+  .border-right { border-right: 1px solid rgba(255, 255, 255, 0.2); }
+  .border-left { border-left: 1px solid rgba(255, 255, 255, 0.2); }
+  .border-top { border-top: 1px solid rgba(255, 255, 255, 0.2); }
+  .border-bottom { border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+  
+  .white { color: #FFF; }
+  a, a:active {
+  	color: ;
+    color: inherit;
+    transition: 0.2s ease;
+  	-moz-transition: 0.2s ease;
+  	-webkit-transition: 0.2s ease;
+  	-o-transition: 0.2s ease;
+    opacity: 0.9;
+  }
+  a:hover {
+  		color: #ffffff;
+    opacity: 1;
+  }
+  
+  h1, h2 {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.02em; 
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  
+  h2 {
+  	font-size: 38px;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  .dark-bg {
+  	background: rgba(0,0,0,.5); 
+  }
+  .button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    text-align: center;
+  }
+  .button .price-text {
+    text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+  .button .price {
+   text-transform: uppercase;
+    opacity: 1;
+    font-family: "Helvetica", sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-left: 6px;
+  }
+  
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+  
+  }
+  @media only screen and (max-width: 40em) { 
+  
+  }
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* SLIDESHOW */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .slides-normal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index:0;
+  }
+  .slides-normal .slide {
+  	background-repeat: no-repeat;
+  	background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+  }
+  .slides-normal .slide.is-active {
+  	opacity: 1;
+  }
+  
+  @media only screen and (max-width: 40em) { 
+  	.slides-normal {
+    	position: relative;
+      height: 0;
+      padding-top: 56.25%;
+    }
+    .slides-normal .slide {
+    	
+    }
+    .slides-normal .purchasing {
+    	position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .slides-normal .purchasing {
+      padding-top: 25%;
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      width: 300px;
+      margin-left: -150px;
+    }
+    .slides-normal .purchasing a {
+    	display: inline-block;
+      padding: 10px 10px;
+      width: 150px;
+      text-align: center;
+    	background: rgba(0,0,0,.5);
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+    }
+    .slides-normal .purchasing .top,
+    .slides-normal .purchasing .bottom {
+    	display: block;
+      float: left;
+    }
+    .slides-normal .purchasing .top a {
+    	border-right: 1px solid #FFF;
+      -webkit-border-radius: 5px 0px 0px 5px;
+      border-radius: 5px 0px 0px 5px;
+    }
+    .slides-normal .purchasing .bottom a {
+    	-webkit-border-radius: 0px 5px 5px 0px;
+      border-radius: 0px 5px 5px 0px;
+    }
+  }
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* MAIN ACTION */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .main-action .buy {
+  	width: 300px;
+    margin: 0 auto;
+    text-align: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+  	-moz-transform: translateX(-50%) translateY(-50%);
+  	-o-transform: translateX(-50%) translateY(-50%);
+  	-ms-transform: translateX(-50%) translateY(-50%);
+  	transform: translateX(-50%) translateY(-50%);
+  }
+  .main-action .buy a {
+  	display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+  }
+  .main-action .top {
+  	border-bottom: 1px solid #FFF;
+  }
+  .main-action .icon {
+  
+  }
+  .main-action .large {
+  	display: block;
+    font-size: 30px;
+  }
+  .main-action .text {
+  	font-family: "Orbitron", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 16px;
+    opacity: .6;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  .main-action .circular.buy .top a  {
+  	-webkit-border-radius: 150px 150px 0 0;
+    border-radius: 150px 150px 0 0;
+    width: 300px;
+    height: 150px;
+    padding-top: 50px;
+    background: rgba(0,0,0,.5);
+  }
+  .main-action .circular.buy .bottom a  {
+  	-webkit-border-radius: 0 0 150px 150px;
+    border-radius: 0 0 150px 150px;
+    width: 300px;
+    height: 150px;
+    padding-top: 30px;
+    background: rgba(0,0,0,.5);
+  }
+  
+  
+  
+  .main-action .triangular.buy .top,
+  .main-action .triangular.buy .bottom {
+  	width: 300px;
+    height: 150px;
+    position: relative;
+  }
+  .main-action .triangular.buy .top .triangle {
+  	position: absolute;
+    bottom: 0;
+    left: 0;
+  	width: 0; 
+  	height: 0; 
+    z-index: 0;
+  	border-left: 150px solid transparent;
+  	border-right: 150px solid transparent;
+  	border-bottom: 150px solid rgba(0,0,0,.5);
+  }
+  .main-action .triangular.buy .top:hover .triangle {
+  	border-bottom: 150px solid rgba(0,0,0,1);
+  }
+  	
+  .main-action .triangular.buy .bottom .triangle {
+  	position: absolute;
+    bottom: 0;
+    left: 0;
+  	width: 0; 
+  	height: 0; 
+    z-index: 0;
+  	border-left: 150px solid transparent;
+  	border-right: 150px solid transparent;
+  	border-top: 150px solid rgba(0,0,0,.5);
+  }
+  .main-action .triangular.buy .bottom:hover .triangle {
+  	border-top: 150px solid rgba(0,0,0,1);
+  }
+  .main-action .triangular.buy .top a {
+  	padding-top: 70px;
+  }
+  .main-action .triangular.buy .bottom a {
+  	padding-top: 20px;
+  }
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* HEADER */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 133px;
+    width: 100%;
+    overflow: hidden;
+  }
+  header .padding {
+  	padding: 20px;
+  }
+  header h1 {
+    font-size: 23px;
+    text-align: left;
+    /*letter-spacing: 2.5px;*/
+    letter-spacing: 5px;
+    color: #ffffff;
+  }
+  header ul {
+  	margin: 0;
+    padding: 0;
+  }
+  header nav a:link,
+  header nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  header nav a:hover,
+  header nav a:active {
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 5px;
+  }
+  header nav {
+   position: relative;
+  }
+  header nav li {
+    float: left;
+    display: inline;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin-top: -5px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgba(255, 255, 255, 0);
+  
+  }
+  header nav li a.on {
+    padding: 5px 11px 0px 11px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+  }
+  header nav li a {
+    padding: 5px 11px 0px 11px;
+  }
+  
+  @media only screen and (max-width: 40em) { 
+  	.navigation {
+    	display: none;
+      background: #000;
+      padding-bottom: 10px;
+      z-index: 100;
+      position: relative;
+    }
+    .navigation.is-active {
+    	display: block;
+    }
+    .mobile-navigation-trigger {
+    	padding: 5px 0;
+    }
+    header {
+      overflow: visible;
+    }
+    header nav li {
+    	display: block;
+      float: none;
+    }
+    header nav li a.on {
+     border: none;
+     opacity: .5;
+    }
+    header nav li a {
+    	display: block;
+      font-size: 16px;
+      font-family: 'Orbitron', sans-serif;
+      padding-left: 11px;
+    }
+  }
+   /*............................................
+    newsletter
+  ..............................................*/
+  .newsletter {
+    color: #ffffff;
+    margin: 0;
+  }
+  .newsletter form {
+    margin-top: 3px;
+    padding-top: 3px;
+    border: 2px solid rgb(250, 250, 250);
+    border: 2px solid rgba(250,250,250,0.5);
+  	position: relative;
+  }
+  .newsletter label {
+    font-size: 12px;
+    text-align: left;
+  }
+  
+  .newsletter input.required {
+    font-family: "Helvetica", sans-serif;
+    margin: 0;
+    color: #ffffff;
+    background-color: transparent;
+    opacity: 1;
+  	width: 100%;
+    height: 25px;
+    border: none;
+    opacity: 0.7;
+    margin-left: 3px;
+    font-size: 13px;
+  }
+  
+  .newsletter ::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+  .newsletter :-moz-placeholder {
+    color: #ffffff;
+  }
+  .newsletter ::-moz-placeholder {
+    color: #ffffff;
+  }
+  .newsletter :-ms-input-placeholder {
+    color: #ffffff;
+  }
+  .newsletter input:focus {
+      outline: none;
+  }
+  .newsletter input[type="submit"] {
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    text-transform: uppercase;
+    padding: 6px 25px 6px 6px;
+    background: rgba(255,255,255,.3) url('https://dr56wvhu2c8zo.cloudfront.net/theginbin/assets/7ecb15ab-832b-4ffa-8563-595a960ca9d6/submit-arrow.png') no-repeat top right;
+    opacity: 1;
+  }
+  
+  .newsletter input[type="submit"]:hover {
+    opacity: 0.5;
+  }
+  
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* INNER CONTENT */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .inner-content {
+  	/* margin = height of header, height of footer */
+  	margin-top: 130px;
+    margin-bottom: 140px;
+    overflow-y: scroll;
+  }
+  .inner-content .padding {
+  	padding:	0 50px 50px 49px;
+  }
+  .pages {
+  
+  }
+  
+  .page {
+  	display: none;
+  }
+  .page.is-active {
+  	display: block;
+  }
+  .page .col.half {
+  	width: 50%;
+    float: left;
+  }
+  .package-image {
+  	position: relative;
+  }
+  .package-image i {
+  	position: absolute;
+    z-index: 10;
+    font-size: 60px;
+    opacity: .5;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+  .package-image a:hover i {
+  	opacity: .8;
+  }
+  
+  
+  
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+  
+  }
+  @media only screen and (max-width: 40em) { 
+  	.page .col.half {
+    	width: auto;
+      float: none;
+    }
+    .package-text {
+    	padding-top: 20px;
+    }
+    .package-text.padding-left {
+    	padding-left: 0;
+    }
+  }
+  
+  
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* about page */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .page.about .package-image {
+  	  border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, .5);
+  }
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* director page */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .page.director .text {
+  	font-size: 22px;
+    line-height: 30px;
+  }
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* blog page */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .page.blog .entry {
+    margin-bottom: 3em;
+  }
+  .page.blog  .entry .timestamp a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1.7px;
+    opacity: 0.6;
+    padding-bottom: 10px;
+   /* border-bottom: 1px solid #FFFFFF;*/
+  }
+  .page.blog h1,
+  .page.blog h2 {
+  	color: #ffffff;
+  }
+  .page.blog h1 {
+  	font-size: 24px;
+  }	
+  .page.blog h2 {
+  	font-size: 18px;
+  }
+  .page.blog  .entry p {
+    text-align: left;
+    opacity: .8;
+  }
+  .page.blog  .photo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .page.blog  .link h2 a {
+    text-decoration: none;
+  }
+  .page.blog  .video .thevideo {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 0px;
+    height: 0;
+  }
+  .page.blog  .video .thevideo iframe,
+  .page.blog  .video .thevideo object,
+  .page.blog  .video .thevideo embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .page.blog  .readmore {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 12px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration:none;
+    font-family: "Orbitron", sans-serif;
+  }
+  .page.blog  .readmore:hover {
+  
+  }
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* twitter page */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  
+  .page.twitter .tweets li {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+  .page.twitter .tweets li:last-child {
+    border-bottom: none;
+  }
+  
+  .page.twitter .tweets li .avatar {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  .page.twitter .tweets li .text {
+    line-height: 1.3;
+  }
+  .page.twitter .tweets li .meta a {
+    text-decoration: none;
+    font-size: 11px;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1.7px;
+    opacity: 0.6;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* gallery page */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  
+  .thegallery .item a {
+  	display: block;
+    border: 1px solid rgba(255,255,255,.5);
+  }
+  .thegallery .item a:hover {
+    opacity: .8;
+  }
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* updates page */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  .page.updates .entry {
+  
+  }
+  .page.updates .entry h1 a {
+    text-decoration:none;
+    opacity: 0.9;
+    color: #ffffff;
+    font-size: 22px;
+  }
+  .page.updates .entry h1 a:hover {
+    opacity: 1;
+  }
+  .page.updates .entry .timestamp a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1.7px;
+    opacity: 0.6;
+    padding-bottom: 10px;
+   /* border-bottom: 1px solid #FFFFFF;*/
+  }
+  .page.updates .entry p {
+    text-align: left;
+    opacity: .8;
+  }
+  .page.updates .photo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .page.updates .meta {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration:none;
+  
+    opacity: 0.9;
+  }
+  .page.updates .readmore:hover {
+  
+  }
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* FOOTER */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */ 
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 140px;
+    width: 100%;
+    overflow: hidden;
+  }
+  footer .padding {
+  	padding: 20px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  footer a:link,
+  footer a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+  }
+  footer .vhx-logo {
+    opacity: 0.8;
+  }
+  footer .vhx-logo:hover {
+    opacity:1;
+  }
+  footer .menu {
+    padding-top: 10px;
+  }
+  footer .social {
+  	margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  footer .social .entry {
+  	width: 100px;
+    float: left;
+    margin-right: 15px;
+  }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+  
+  }
+  @media only screen and (max-width: 40em) { 
+  	footer {
+    	position: relative;
+      padding-bottom: 30px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </style>
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      var _gaq = _gaq || [];
+  
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+        ga('create', 'UA-19540423-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'americanwaitress');
+      ga('send', 'pageview');
+  
+      var Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_SENT_FREE_COPIES":"admin_sent_free_copies","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_SIGNUP_COMPLETE":"authentication","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_LOADEDDATA":"Video Content Loaded","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_FULLSCREEN":"Fullscreen Enabled/ Disabled","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD_TRIGGER":"addwatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE_TRIGGER":"removewatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List ","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_CURRENT_USER_ID":"current_user_id","PROPERTY_CURRENT_USER_EMAIL":"current_user_email","PROPERTY_CURRENT_SITE_ID":"current_site_id","PROPERTY_CURRENT_SITE_KEY":"current_site_key","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+        SITE_GANALYTICS_ENABLED: false
+      };
+  
+        Tracking.SITE_GANALYTICS_ENABLED = true;
+          ga('create', '', 'auto', { 'name': 'site' });
+  
+        ga('site.require', 'displayfeatures');
+        ga('site.set', 'dimension1', 'americanwaitress');
+        ga('site.send', 'pageview');
+  
+        var _vhx = {
+          environment: 'production',
+          site: { id: '29464', domain: 'americanwaitress.vhx.tv', host: 'americanwaitress.vhx.tv' },
+          geo:  { country: 'us' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      var _current_user = {"id":null,"email":null,"name":null},
+          _current_site = {"id":29464,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"americanwaitress"};
+    </script>
+  
+  
+</head>
+<body class="sites sites-show">
+<header style="display: none;">
+	<h1 class="title">American Waitress</h1>
+  
+ 	
+</header>
+<div class="clear"></div>
+
+
+
+<div class="slides-normal" data-carousel>
+     <div class="slide" style="background-image: url('https://dr56wvhu2c8zo.cloudfront.net/americanwaitress/assets/f16b47da-7d14-4c41-8349-8355f5f04879.jpg')"></div>
+     <div class="slide" style="background-image: url('https://dr56wvhu2c8zo.cloudfront.net/americanwaitress/assets/e6342d0f-bbac-4fdf-8f2e-c315da5a8258.jpg')"></div>
+     <div class="slide" style="background-image: url('https://dr56wvhu2c8zo.cloudfront.net/americanwaitress/assets/77c64162-dcf6-452d-8886-f4f5cf2d7806.jpg')"></div>
+  <div class="purchasing show-for-small-only orbitron"></div>
+</div>
+
+
+
+<div class="row fullwidth fullheight main-content">
+	<div class="small-16 medium-10 large-8 columns dark-bg border-right flush-left flush-right relative">
+  	
+    <!-- HEADER & NAV --->
+    <header>
+    	<div class="padding">
+        <h1 class="title">American Waitress</h1>
+        <nav class="border-top">
+        	<div class="show-for-small-only mobile-navigation-trigger">
+          	<a href="#navigation" class="uppercase orbitron"><i class="fa fa-bars"></i> Menu</a>
+          </div>
+          <ul class="toggle navigation">
+            <li><a href="#" rel="about" class="on">The Film</a></li>
+            <li><a href="#" rel="director" class="off">The Director</a></li>
+            
+            
+            <li><a href="#" rel="gallery" class="off">Gallery</a></li>
+                	
+          </ul>
+        </nav> 
+      </div> <!-- .padding -->
+     </header> <!-- header -->
+     
+  
+     
+     <!--- MAIN CONTENTS!!! --->
+     <div class="inner-content resize-height">
+      <div class="padding">
+        
+        <div class="pages">
+        
+        
+        
+        
+        
+        
+        	<!-- SINGLE PAGE, ABOUT THE FILM -->
+        	<div class="page is-active about" rel="about">
+          	<div class="text">AMERICAN WAITRESS is a documentary feature film that examines the lives, attitudes, perceptions and experiences of waitresses. But it is not just a film about waitresses. It is a film about life, about social structures, about human nature. The film reveals the human side of this service industry through interviews with waitresses, restaurant employees and customers, and explores in-depth the personal lives of four of these waitresses. We go home with them and out with them -- to tattoo parlors, bars, motorcycle shops, mountaintops, welding classes and even hunting. AMERICAN WAITRESS uncovers a very human dimension to these individual and by inference, to all those among us who while in uniform, practice the art of service with a smile. Will we ever perceive our friendly food server in the same way again? Not likely. director/producer: Vanessa Vassar; executive producers: Richard Becker / Nicholas Ballas; camera: Gabriel Shaw; edit/associate producer: Grant Taylor; co-producer: Sula Miller; associate producer: Anna Darrah; supervising producer: Alton Walpole; music: PHONOROID; music producer: Axel Manrico Heilhecker.</div>
+            <div class="packages padding-top-large">
+                <div class="item padding-bottom-large">
+                  <div class="col half">
+                    <div class="package-image">
+                      <a href="26477" data-preview-url="26477"><i class="fa fa-play"></i><img class="img" src="https://vhx.imgix.net/americanwaitress/assets/8a290927-6885-4515-98d5-f36acdd5a60d.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                    </div>
+                    <div class="price-area padding-top-small">
+                      <a href="/buy/american-waitress-complete-film?purchase=1" class="button"><span class="price-text">Buy Now</span><span class="price">$9.99</span></a>
+                      <a href="/buy/american-waitress-complete-film" class="button"><span class="price-text">Rent</span><span class="price">$3.99</span></a>
+                    </div>
+                  </div> <!-- left -->
+
+                 <div class="col half">
+                    <div class="package-text padding-left"><span class="title orbitron uppercase"><a href="/buy/american-waitress-complete-film">AMERICAN WAITRESS (complete film)</a></span><span class="desc"><p>Watch Complete Film (66 mins.)</p>
+
+<p></p></span></div>
+                  </div> <!-- right -->
+
+                  <div class="clearfix"></div>
+                </div> <!-- item -->
+                <div class="item padding-bottom-large">
+                  <div class="col half">
+                    <div class="package-image">
+                      <a href="26479" data-preview-url="26479"><i class="fa fa-play"></i><img class="img" src="https://vhx.imgix.net/americanwaitress/assets/23182e50-1f46-4e70-ade7-20aceddb2eda.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                    </div>
+                    <div class="price-area padding-top-small">
+                      <a href="/buy/american-waitress-new-mexico-complete-film-bonus-material?purchase=1" class="button"><span class="price-text">Buy Now</span><span class="price">$12.99</span></a>
+                      <a href="/buy/american-waitress-new-mexico-complete-film-bonus-material" class="button"><span class="price-text">Rent</span><span class="price">$6.99</span></a>
+                    </div>
+                  </div> <!-- left -->
+
+                 <div class="col half">
+                    <div class="package-text padding-left"><span class="title orbitron uppercase"><a href="/buy/american-waitress-new-mexico-complete-film-bonus-material">AMERICAN WAITRESS + BONUS MATERIAL</a></span><span class="desc"><p>Watch Film (66 mins.)
+<br />PLUS BONUS Materials:</p>
+
+<p>1) Interview with Director Vanessa Vassar
+<br />2) Music Video from soundtrack artist Phonoroid
+<br />3) Music Video from Phonoroid
+</p></span></div>
+                  </div> <!-- right -->
+
+                  <div class="clearfix"></div>
+                </div> <!-- item -->
+            </div> <!-- packages -->
+          </div> <!-- page -->
+          
+          
+          
+          
+          
+          
+          <!-- SINGLE PAGE, ABOUT THE DIRECTOR -->
+        	<div class="page director" rel="director">
+          	<div class="text">Vanessa's Bio</div>
+          </div> <!-- page -->
+          
+          
+          
+          
+          
+          
+          
+          <!-- SINGLE PAGE, BLOG -->
+        	<div class="page blog" rel="blog">
+            <div id="blog" data-tumblr="vhxtv" data-tumblr-limit="5"></div>
+          </div> <!-- page -->
+          
+          
+          
+          
+          
+          
+          <!-- SINGLE PAGE, TWITTER  -->
+        	<div class="page twitter" rel="twitter">
+          </div> <!-- page -->
+          
+          
+          
+          
+          
+          
+          <!-- SINGLE PAGE, GALLERY -->
+        	<div class="page" rel="gallery">
+          	<ul class="thegallery small-block-grid-1 medium-block-grid-4" data-gallery>
+              <li class="item"><a href="#"><img src="https://dr56wvhu2c8zo.cloudfront.net/americanwaitress/assets/1cf63605-2152-42cf-bee6-801d5eae8637.jpg"></a></li>
+              <li class="item"><a href="#"><img src="https://dr56wvhu2c8zo.cloudfront.net/americanwaitress/assets/61fe6ced-e6e1-4863-b221-ed6bcdc0c88d.jpg"></a></li>
+              <li class="item"><a href="#"><img src="https://dr56wvhu2c8zo.cloudfront.net/americanwaitress/assets/1dc02e1e-44ba-4255-a2d5-6018e72506a2.jpg"></a></li>
+              <li class="item"><a href="#"><img src="https://dr56wvhu2c8zo.cloudfront.net/americanwaitress/assets/93998fa9-0bfc-49e0-9248-6d71519541fa.jpg"></a></li>
+              <li class="item"><a href="#"><img src="https://dr56wvhu2c8zo.cloudfront.net/americanwaitress/assets/f087b526-3ade-4b65-9c83-a7251129f555.jpg"></a></li>
+              <li class="item"><a href="#"><img src="https://dr56wvhu2c8zo.cloudfront.net/americanwaitress/assets/47401d7e-196c-4089-bf69-61ef71788946.jpg"></a></li>
+              <li class="item"><a href="#"><img src="https://dr56wvhu2c8zo.cloudfront.net/americanwaitress/assets/cc774783-8aec-4dc8-be68-b9e3dee64d74.jpg"></a></li>
+            </ul>
+          </div> <!-- page -->
+          
+          
+          
+          
+          
+          
+          <!-- SINGLE PAGE, UPDATES -->
+        	<div class="page updates" rel="updates">
+          </div> <!-- page -->
+          
+          
+        
+        
+        </div>
+          
+          
+      </div> <!-- padding -->
+     </div> <!-- .inner-content -->
+     
+     
+     
+     <!--- END MAIN CONTENT -->
+     
+     
+     <!-- FOOTER & NAV --->
+    <footer>
+      <div class="row">
+      
+				<div class="small-16 medium-12 columns">
+        	<div class="padding">
+            <div class="newsletter" data-contact-form>
+              <label>GET UPDATES</label>
+            </div> <!-- newsletter -->
+            
+            <div class="menu">
+              <a href="/">Home</a>
+              <a href="/faq">FAQ</a>
+              <a href="/privacy">Privacy Policy</a>
+              <a href="/tos">Terms of Use</a>
+            </div> <!-- menu -->
+            
+             <!-- SOCIAL MODULE -->
+             <div class="social">
+	             <div class="entry">
+                <a href="https://twitter.com/share" class="twitter-share-button" 
+                 data-via="" 
+                 data-text="American Waitress, the Movie!" 
+                 data-counturl="http://americanwaitress.vhx.tv"
+                 data-url="http://americanwaitress.vhx.tv">Tweet</a>
+                </div>
+                <div class="entry">
+                  <div class="fb-like" 
+                        data-href="http://americanwaitress.vhx.tv" 
+                        data-send="false" 
+                        data-layout="button_count" 
+                        data-show-faces="false"></div>
+                    <div id="fb-root"></div>
+                </div>
+                <div class="clear"></div>
+             </div> <!-- social -->
+             
+          </div> <!-- padding -->
+        </div> <!-- columns -->
+        
+        <div class="small-16 medium-4 columns text-right">
+        	<div class="padding">
+             <a class="vhx-logo" href="http://vhx.tv" title="Powered by VHX" target="_blank">
+              <img src="https://dr56wvhu2c8zo.cloudfront.net/theginbin/assets/d4f3ac7d-cfee-4f9c-ae6c-3e64a938b835/vhx-logo-smaller.png" alt="Powered by VHX">
+            </a>
+          </div> <!-- padding -->
+        </div> <!-- columns -->
+        
+      </div> <!-- .row -->
+    </footer>
+     
+     
+  </div> <!-- columns -->
+  
+  
+  <div class="hide-for-small-only medium-6 large-8 columns main-action relative">
+  	
+    
+    
+      <div class="circular buy">
+      	<div class="play top">
+        	<a href="#trailer" class="trailer" title="Play Trailer" data-preview-url="26477">
+          	<span class='large icon'><i class="fa fa-play"></i></span> 
+            <span class='text'>Play Trailer</span>
+          </a>
+        </div> <!-- play -->
+        <div class="purchase bottom">
+           <a href="/buy" class="buynow" title="Buy Now">
+              <span class='text'>Buy</span>
+              <span class='large price'>$9.99</span>
+           </a>
+          </div> <!-- purchase -->
+        </div> <!-- .circular.buy -->
+       
+       
+   
+
+
+  </div>
+</div>
+
+
+
+
+<div class="clear"></div>
+  
+  <script>
+    var _site = {
+      color:        '#22b9b0',
+      key:          'americanwaitress',
+      facebook_url: '',
+      twitter_name: ''
+    };
+  
+    var _config = {
+      country_code: 'us'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+	<script>
+	  var _flash = {
+	    alert:  "",
+	    notice: ""
+	  };
+	
+	  ///////////-----------
+	  
+	  /*! RESPONSIVE HEADER FONT SIZE
+	  * FitText.js 1.1
+	  *
+	  * Copyright 2011, Dave Rupert http://daverupert.com
+	  * Released under the WTFPL license
+	  * http://sam.zoy.org/wtfpl/
+	  *
+	  * Date: Thu May 05 14:23:00 2011 -0600
+	  */
+	  (function(e){e.fn.fitText=function(t,n){var r=t||1,i=e.extend({minFontSize:Number.NEGATIVE_INFINITY,maxFontSize:Number.POSITIVE_INFINITY},n);return this.each(function(){var t=e(this);var n=function(){t.css("font-size",Math.max(Math.min(t.width()/(r*10),parseFloat(i.maxFontSize)),parseFloat(i.minFontSize)))};n();e(window).on("resize.fittext orientationchange.fittext",n)})}})(jQuery)
+	  
+	  
+	  
+	  function CSVToArray(r,e){e=e||",";for(var n=new RegExp("(\\"+e+'|\\r?\\n|\\r|^)(?:"([^"]*(?:""[^"]*)*)"|([^"\\'+e+"\\r\\n]*))","gi"),g=[[]],a=null;a=n.exec(r);){var l=a[1];l.length&&l!==e&&g.push([]);var p;p=a[2]?a[2].replace(new RegExp('""',"g"),'"'):a[3],g[g.length-1].push(p)}return g}
+	  /*
+	  data-vhx-gallery
+	  */
+	  (function(e){var t=function(t,n){var r=e(t).find("img");var i=[];var s=this;var o=e.extend({param:"defaultValue"},n||{});var u="vhx_gallery_";var a=e(document.createElement("div")).addClass(u+"bg");var f=e(document.createElement("div")).addClass(u+"container");var l=e(document.createElement("div")).addClass(u+"viewport");var c=e(document.createElement("div")).addClass(u+"close");var h=e(document.createElement("div")).addClass(u+"next");var p=e(document.createElement("div")).addClass(u+"prev");var d=0;var v=function(t){e(document.body).addClass("slideshow-mode");d=t;c.show();h.show();p.show();l.fadeIn(500);a.fadeIn(200);E();if(d==0){p.hide()}if(d==total_img){h.hide()}m(d)};var m=function(e){var t=i[e];if(t&&t.attr("src")!=t.data("hd")&&t.data("hd")){t.attr("src",t.data("hd"))}};var g=function(){e(document.body).removeClass("slideshow-mode");l.hide();a.hide();c.hide();p.hide();h.hide()};var y=function(t){if(t<0)t=r.length-1;if(t==d){d+=1;if(d>=r.length){d=0;p.hide()}}else{d=t;p.show();h.show()}if(t==0){p.hide()}if(t==r.length-1){h.hide()}m(d);m(d+1);E();ga("site.send","event","gallery",e(r[t]).attr("src"))};var b=function(){p.hide()};var w=function(){h.hide()};var E=function(){var t=e(window)[0].innerHeight;if(!t)t=e(window).height();l.width(e(window).width());l.height(t);f.width(e(window).width()*r.length);a.width(e(window).width());a.height(t);e(i).each(function(n,r){var r=e(r);if(!r.data("width")&&r.width()>0&&r.height()>0){r.data("width",r.width());r.data("height",r.height())}var i=r.data("height")/r.data("width");var s=r.data("width")/r.data("height");var o=e(window).width()*.8;var u=t*.9;if(o*i>u){r.height(u);r.width(u*s)}else{r.width(o);r.height(o*i)}var a=e(window).width()/2-r.width()/2;var f=100;if(a-f<40){f=a-f+40}if(n==d){r.css("left",a);r.css("top",t/2-r.height()/2)}else if(n==d+1){r.css("top",t/2-r.height()/2);r.css("left",e(window).width()-f)}else if(n==d-1){r.css("top",t/2-r.height()/2);r.css("left",-r.width()+f)}else{r.css("left",e(window).width()+30)}})};var S=function(e){if(e.keyCode==27){g()}if(e.keyCode==37){y(d-1)}if(e.keyCode==39){y(d)}};var x=function(){e(document.body).append(l.append(f)).append(p).append(h).append(c).append(a);c.html("&times;");p.html("&#10094;");h.html("&#10095;");var t="."+u;var n="body.slideshow-mode { overflow:hidden; } "+t+"bg { background-color: #000; background: rgba(0,0,0,0.85); position: fixed; top: 0; left: 0; width: 100%; z-index: 999997; cursor: pointer; }"+t+"viewport { cursor: pointer; position: fixed; top: 0; left: 0; overflow: hidden; z-index: 999998;}"+t+"close { cursor: pointer; position: fixed; top: 10px; right: 10px; z-index: 999999; font: bold 24px Helvetica, Arial; color: #fff; }"+t+"prev { cursor: pointer; position: fixed; top: 50%; left: 20px; z-index: 999999; font: bold 24px sans-serif; color: #fff; }"+t+"next { cursor: pointer; position: fixed; top: 50%; right: 20px; z-index: 999999; font: bold 24px sans-serif; color: #fff; }"+t+"viewport "+t+"container img { position: absolute; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }";var s=document.getElementsByTagName("head")[0];var o=document.createElement("style");o.type="text/css";if(o.styleSheet)o.styleSheet.cssText=n;else o.appendChild(document.createTextNode(n));s.appendChild(o);l.hide();a.hide();c.hide();p.hide();h.hide();l.click(g);a.click(g);c.click(g);total_img=r.length-1;r.each(function(t,n){e(this).click(function(e){e.preventDefault();v(t)});var r=e(document.createElement("img")).attr("src",e(this).attr("src"));r.addClass("img");r.data("hd",e(this).data("hd"));f.append(r);r.click(function(e){y(t);e.stopPropagation()});i.push(r)});h.click(function(e){e.preventDefault();y(d+1)});p.click(function(e){y(d-1)});e(window).keydown(S);e(window).resize(E);E()};x()};if(e("[data-vhx-gallery]").length){var n=new t(e("[data-vhx-gallery]"))}})(jQuery)
+	  
+	  
+	  /*
+	  get tumblr
+	  */
+	  function getTumblog(t,e){var s="mhg6b9xFS5pGZr9inve9sSsa0Zl2zy4ojb3K7Ta3aWswFqqSU8",a=t+".tumblr.com",i="http://api.tumblr.com/v2/blog/"+a+"/posts/",o={api_key:s};setTimeout(function(){$.ajax({type:"GET",url:i,dataType:"jsonp",data:o}).done(function(s){processTumblog(s,t,e)})},500)}function processTumblog(t,e,s){var a=$("#blog").data("tumblr-limit"),i=e.replace(/-/g,""),o='<div class="rssBody" id="tumblr_'+i+'"><ul id="blog-entries"></ul></div>';if($(s).html(o),200==t.meta.status){var r={url:"http://"+e+".tumblr.com",posts:[]};$(t.response.posts).each(function(t,e){switch(e.type){case"text":r.posts.push({text:{title:e.title,body:e.body}});break;case"photo":var s=[];$(e.photos).each(function(t,e){s.push({photo_url:e.alt_sizes[1].url})}),r.posts.push({photo:{caption:e.caption,photos:s}});break;case"quote":r.posts.push({quote:{type:e.type,tags:e.tags,text:e.text,source:e.source}});break;case"link":r.posts.push({link:{linkURL:e.url,title:e.title,description:e.description}});break;case"chat":var a=e.body.split("\n");r.posts.push({chat:{title:e.title,body:e.body,chat:a,dialogue:e.dialogue}});break;case"audio":r.posts.push({audio:{source_title:e.source_title,source_url:e.source_url,id3_title:e.id3_title,caption:e.caption,audio_player:e.player,audio_plays:e.plays,artist:e.artist,album:e.album,track_name:e.track_name,track_num:e.track_num,year:e.year}});break;case"video":r.posts.push({video:{source_title:e.source_title,caption:e.caption,video_embed:e.player[2].embed_code}});break;case"answer":r.posts.push({answer:{asking_name:e.asking_name,asking_url:e.asking_url,question:e.question,answer:e.answer}});break;default:r.posts.push({title:e.title,body:e.body})}r.posts[r.posts.length-1].date=e.date.substr(0,10),r.posts[r.posts.length-1].tags=e.tags,r.posts[r.posts.length-1].timestamp=e.timestamp,r.posts[r.posts.length-1].url=e.post_url,r.posts[r.posts.length-1].type=e.type}),r.posts.length>a&&(r.posts=r.posts.slice(0,a)),createTumblrHTML(r,e)}}function createTumblrHTML(t,e){var s="";$(t.posts).each(function(t,e){switch(e.type){case"text":s+='<div class="entry text">',s+='   <h2><a href="'+e.url+'">'+e.text.title+"</a></h2>",s+=e.text.body,s+='   <div class="timestamp"><a href="'+e.url+'">Posted '+e.date+"</a></div>",s+=" </div>";break;case"photo":s+='<div class="entry photo">',s+='   <div class="photos">',$(e.photo.photos).each(function(t,e){s+=' <img src="'+e.photo_url+'" />'}),s+="  </div>",s+=e.photo.caption,s+='  <div class="timestamp"><a href="'+e.url+'">Posted '+e.date+"</a></div>",s+="</div>";break;case"quote":s+='<div class="entry quote">',s+="   <h2>"+e.quote.text+"</h2>",s+='   <p class="source">'+e.quote.source+"</p>",s+='  <div class="timestamp"><a href="'+e.url+'">Posted '+e.date+"</a></div>",s+=" </div>";break;case"link":s+='<div class="entry link">',s+='    <h2><a href="'+e.link.linkURL+'">'+e.link.title+"</a></h2>",s+=e.link.description,s+='  <div class="timestamp"><a href="'+e.url+'">Posted '+e.date+"</a></div>",s+="</div>";break;case"chat":s+=' <div class="entry chat">',s+='    <h2><a href="'+e.url+'">'+e.chat.title+"</a></h2>",s+="    <ul>",$(e.chat.chat).each(function(t,e){s+="        <li>"+e+"</li>"}),s+="    </ul>",s+='  <div class="timestamp"><a href="'+e.url+'">Posted '+e.date+"</a></div>",s+="  </div>";break;case"audio":s+=' <div class="entry audio">',s+='    <div class="player">'+e.audio.audio_player+"</div>",s+=e.audio.caption,s+='  <div class="timestamp"><a href="'+e.url+'">Posted '+e.date+"</a></div>",s+="  </div>";break;case"video":s+=' <div class="entry video">',s+='    <div class="thevideo">'+e.video.video_embed+"</div>",s+=e.video.caption,s+='  <div class="timestamp"><a href="'+e.url+'">Posted '+e.date+"</a></div>",s+="  </div>";break;case"answer":s+=' <div class="entry answer">',s+='    <div class="query"><h3>'+e.answer.question+"<h3>",s+="    &mdash; "+e.answer.asking_name+"</div>",s+='    <div class="response"><p>'+e.answer.answer+"</p></div>",s+='  <div class="timestamp"><a href="'+e.url+'">Posted '+e.date+"</a></div>",s+="  </div>";break;default:s+='<div class="entry text">',s+='   <h2><a href="'+e.url+'">'+e.title+"</a></h2>",s+=e.body,s+='   <div class="timestamp"><a href="'+e.url+'">Posted '+e.date+"</a></div>",s+=" </div>"}}),s+='<a class="readmore button" href="http://'+e+'.tumblr.com/page/2" target="_blank">Read More</a>';var a=e.replace(/-/g,"");$("#tumblr_"+a).hide(),$("#tumblr_"+a).html(s),$("#tumblr_"+a).fadeIn(500)}
+	  
+	  
+	  /* ------------------------------------------------------------------------
+	  /* VHX BUY FRAME
+	  /* ------------------------------------------------------------------------ */
+	  $(document).on('vhx:ready', function(event, data) {
+	    var api = data;
+	    var widget = api.getWidget();
+	  });
+	  
+	  
+	  
+	  /* ------------------------------------------------------------------------
+	  /* DOC READY
+	  /* ------------------------------------------------------------------------ */
+	  var featurearea = "";
+	  
+	  
+	  $(document).ready(function() {
+	  
+	    $("a[data-track-event]").on('click', function(){
+	        // vhx ga('send',      'event', category, action);
+	        var bits = $(this).data("track-event");
+	        var pieces = bits.split(" ");
+	        ga('site.send', 'event', pieces[0], pieces[1]);
+	    });
+	    
+	    $('.newsletter').find('.required').prop('placeholder','your@email.com');
+	    $('.newsletter input[type="submit"]').prop('value','');
+	  	
+	    if ($("#blog").length > 0){
+	      getTumblog($("#blog").data("tumblr"),"#blog");
+	    }
+	   
+	    
+	  }); // end doc.ready
+	  
+	  
+	  
+	  /* ------------------------------------------------------------------------
+	  VHX OBJ
+	  /* ------------------------------------------------------------------------ */
+	  
+	  var VHXJS = VHXJS || {};
+	  
+	  /* theme js object
+	  ---------------------------------------------*/
+	  VHXJS = {
+	    fadebg: 0,
+	     slideshowTimer: 0,
+	      slideshowActive: 0,
+	      slideshowTimeBetweenSlides: 3500,
+	      slideshowTotalSlides: 0,
+	  
+	    
+	    // https://docs.google.com/spreadsheets/d/1iG8p0TySybEbqGuq7qXfUIDyG9yfq5gghEOmAhtarmo/pubhtml
+	    google_sheet_id: "1iG8p0TySybEbqGuq7qXfUIDyG9yfq5gghEOmAhtarmo",
+	    google_doc: "https://spreadsheets.google.com/feeds/list/DOCUMENT_KEY/od6/public/values?alt=json",
+	    
+	    /* initiate
+	    ---------------------------------------------*/
+	    init: function() {
+	    	//this._fitText();
+	      this._setupPages();
+	      this._slideshow.init();
+	      this._fixContentHeight();
+	      this._setupMobile();
+	      $(window).resize(function() { VHXJS._fixContentHeight(); });
+	     /*this._setupMailingList();
+	     this._setupReadMore();
+	  
+	      if (VHXJS.google_sheet_id != ""){
+	     	VHXJS.google_doc = VHXJS.google_doc.replace("DOCUMENT_KEY",VHXJS.google_sheet_id);
+	      VHXJS._theaters.init(VHXJS.google_doc);
+	     }*/
+	    },
+	    _setupMobile: function() {
+	    	// copy trailer / buy options to header area
+	    	$(".purchasing").html( $(".main-action").html() );
+	      // setup mobile nav
+	      $(".mobile-navigation-trigger a").on('click', function(ev){
+	      	ev.preventDefault();
+	        if ($("header .navigation").hasClass("is-active")){
+	        	$("header .navigation").removeClass("is-active");
+	        } else {
+	  	      $("header .navigation").addClass("is-active");
+	        }
+	      });
+	    },
+	    _slideshow: {
+	    	init: function(){
+	          var $carousel = $("[data-carousel]");
+	  
+	          if ($carousel.find(".slide").length >= 1){
+	            $carousel.find(".slide:eq(0)").addClass("is-active");
+	            VHXJS.slideshowTotalSlides = $carousel.find(".slide").length;
+	  					VHXJS.slideshowActive = 0;
+	            
+	            VHXJS._slideshow.setTimer();
+	          }
+	        },
+	        setTimer: function() {
+	        	VHXJS.slideshowTimer = setTimeout(function(){ VHXJS._slideshow.showNext(); }, VHXJS.slideshowTimeBetweenSlides);
+	        },
+	        showNext: function() {
+	        	var thenext = VHXJS.slideshowActive + 1;
+	          if (thenext > (VHXJS.slideshowTotalSlides - 1)){
+	          	thenext = 0;
+	          }
+	          $("[data-carousel] .slide:eq("+VHXJS.slideshowActive+")").removeClass("is-active");
+	          $("[data-carousel] .slide:eq("+thenext+")").addClass("is-active");
+	          VHXJS.slideshowActive = thenext;
+	          VHXJS._slideshow.setTimer();
+	        }    
+	      },
+	    _fixContentHeight: function(){
+	    	var headerHeight = $("header").outerHeight();
+	      var footerHeight = $("footer").outerHeight();
+	      if( $(".purchasing.show-for-small-only").css("display") != "block"){
+	  	    $(".inner-content").height($(window).height() - (headerHeight + footerHeight));
+	      } else {
+	      	$(".inner-content").attr("style","");
+	      }
+	    },
+	    _fitText: function(){
+	    	$("header h1").fitText(1.4, { minFontSize: '20px', maxFontSize: '80px' });
+	    },
+	    _setupPages: function(){
+	    	 $("nav .toggle a").click(function(e){
+	          e.preventDefault();
+	  
+	          $("nav .toggle a").removeClass("on").addClass("off");
+	          $(this).addClass("on");
+	  
+	          var rel = $(this).attr("rel");
+	          var $targ = $(".pages .page[rel='"+rel+"']");
+	  
+	          $targ.addClass('is-active');
+	          $(".pages .page").not("[rel='"+rel+"']").removeClass('is-active');
+	          $('.inner-content').scrollTop(0);
+	          
+	        	$("header .navigation").removeClass("is-active");
+	        });
+	  
+	    },
+	    _setupMailingList: function(){
+	    	// set source to this location
+	      $(".mailing-list input[name='subscription[source]']").val(location.href);
+	  		// vars
+	      var $all_forms = $('.mailing-list form');
+	      var $all_form_titles = $('.mailing-list .form-title');
+	  
+	  		// email focus
+	      $('.mailing-list input[type="email"]').focus(function(){
+	        $all_forms.removeClass("error");
+	        $all_forms.find("input[type='submit']").prop('disabled',false);
+	      });
+	  
+	       // setup submit button
+	       $(".submit-on-click").click(function(ev){
+	         ev.preventDefault();
+	         $(this).parent("form").trigger('submit');
+	       });
+	  
+	       $all_forms.on('submit', function(ev){
+	        ev.preventDefault();
+	  
+	        var email = $(this).find(".email").val();
+	        
+	        // very rudimentary email checking
+	        if (!email){
+	          $(this).addClass("error");
+	          $(this).find('input[type="email"]').attr("placeholder","Enter a valid email");
+	        } else {
+	          var at_location = email.indexOf("@");
+	          var dot_location = email.indexOf(".",at_location);
+	          if (at_location < 0 && dot_location < 0){
+	            $all_forms.addClass("error");
+	            $(this).find('input[type="email"]').attr("placeholder","Enter a valid email");
+	          }
+	        }
+	  
+	        // no errors, proceed to submit data
+	        if (!$(this).hasClass("error")){
+	  
+	          $(this).find('input[type="submit"]').prop('disabled', true);
+	          $.ajax({
+	            type: "POST",
+	            url: $(this).prop('action'),
+	            crossDomain: true,
+	            xhrFields: { withCredentials: true },
+	            data: $(this).serialize(),
+	            dataType: 'json',
+	            success: function(){
+	              $all_forms.fadeOut();
+	              $all_form_titles.html("Thank you!");
+	            },
+	            error: function(){
+	              $(this).parents(".form").addClass("error");
+	              $(this).find('input[type="email"]').attr("placeholder","Please try again");
+	            }
+	          });
+	  
+	        } // no error
+	  
+	       }); // FORM SUBMITS
+	      // submit form
+	    },
+	    _setupReadMore: function(){
+	      $('.packages .desc').readmore({
+	        speed: 75,
+	        maxHeight: 129
+	      });
+	    },
+	    _setupTrailers: function(){
+	    	// TOP TRAILER AREA PLAY BUTTONS
+	    	$(".opentrailer").click(function(ev){
+	    	 ev.preventDefault();
+	        if ($("body").hasClass("trailer-playing")){
+	  				VHXJS.__hideTrailer();
+	        } else {
+	          VHXJS.__showTrailer($(this));
+	        }
+	   	 });
+	     
+	     // MULTIPLE PACKAGES PLAY BUTTON
+	     $(".showtrailer").click(function(ev){
+	    		var package_id = $(this).data("package-id");
+	        var embed_code = VHXJS.__generateEmbed(package_id, 1, 1);
+	        $(".modal").addClass("is-active").find(".trailer").html(embed_code);
+	     	  VHXJS.__showBlanket();
+	     });
+	    
+	    },
+	    __hideTrailer: function() {
+	    	$(".feature .video-embed").html("").hide();;
+	      // hide stuff
+	      $("body").removeClass("trailer-playing");
+	      $(".feature .video-blanket").removeClass("active");
+	      $(".hide-while-playing").fadeIn();
+	      document.getElementById("bgvideo").play();
+	    },
+	    __showTrailer: function(elem) {
+	    	var package_id = $(elem).data("package-id");
+	      var embedcode = VHXJS.__generateEmbed(package_id, 1, 0);
+	      $(".feature .video-embed").html(embedcode).show();
+	  
+	      // style stuff
+	      $("body").addClass("trailer-playing");
+	      $(".feature .video-blanket").addClass("active").on('click', function(){ VHXJS.__hideTrailer(); });
+	      $(".hide-while-playing").fadeOut();
+	      document.getElementById("bgvideo").pause();
+	    },
+	    __generateEmbed: function(package_id, autoplay, enable_buy){
+	    	return '<iframe src="https://embed.vhx.tv/packages/'+package_id+'/?autoplay='+autoplay+'&buy_btn='+enable_buy+'" width="640" height="360" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+	    },
+	    __showBlanket: function(){
+	    	$("#blanket").css({"opacity":0,"display":"block"}).animate({"opacity":.8}, 400, function(){
+	      	$("#blanket").click(function(ev){
+	        	VHXJS.__hideModals();
+	        });
+	      });
+	    },
+	    __hideModals: function(){
+	    	$("#blanket").hide().css({"opacity":0,"display":"none"});
+	      $(".modal").removeClass("is-active").find(".trailer").html("");
+	    },
+	    
+	    _setupStickyHeader: function(){
+	    	 // sticky, retracting, header
+	      var myElement = document.querySelector("header");
+	      if ($("header").length > 0){
+	        var headroom = new Headroom(myElement, {
+	          "offset": 205,
+	          "tolerance": 5,
+	          "classes": {
+	            "initial": "headroom",
+	            "pinned": "headroom--pinned",
+	            "unpinned": "headroom--unpinned"
+	          }
+	        });
+	        headroom.init();
+	      }
+	    },
+	    _slideToAnchors: function(){
+	    	// slide to anchors
+	       $('a[href*=#]:not([href=#])').click(function() {
+	        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	          var target = $(this.hash);
+	          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	          if (target.length) {
+	            $('html,body').animate({
+	              scrollTop: target.offset().top - 40
+	            }, 1000);
+	            return false;
+	          }
+	        }
+	      });
+	  
+	    },
+	    _adaptBackground: function(){
+	    	// safety check to fade in the bg
+	  		this.fadebg = setTimeout(function(){ VHXJS._fadeInBG(); }, 3000);
+	    
+	    	$.adaptiveBackground.run({
+	        selector: '#adaptive-bg',
+	        parent: null,
+	        normalizeTextColor: false,
+	        success: function($img, data) {
+	          $(".coloroverlay").css("background-color",data.color);
+	          $(".image").addClass("is-active");
+	        }
+	  		});
+	    },
+	    inArray: function(needle, haystack) {
+	      var length = haystack.length;
+	      for(var i = 0; i < length; i++) {
+	          if(haystack[i] == needle) return true;
+	      }
+	      return false;
+	  	},
+	    _fadeInBG: function() {
+	    	$(".image").addClass("is-active");
+	    },
+	   	 _theaters: {
+	        init: function(theList) {
+	          var jqxhr = $.get(theList, function(data) {
+	            VHXJS._theaters.process(data);
+	          });
+	        },
+	        extractEntry: function(dataEntry){
+	          var item = Array();
+	          item['date'] = dataEntry['gsx$date']['$t'];
+	          item['cityst'] = dataEntry['gsx$cityst']['$t'];
+	          item['venue'] = dataEntry['gsx$venue']['$t'];
+	          item['info'] = dataEntry['gsx$info']['$t'];
+	          item['buy'] = dataEntry['gsx$buylink']['$t'];
+	          item['fb'] = dataEntry['gsx$facebookeventlink']['$t'];
+	          
+	          return item;
+	        },
+	        process: function(data){
+	        	thedata = data.feed.entry;
+	          var dataChunk = Array();
+	          
+	          if (data.feed.entry){
+	          
+	            if (thedata.length >= 1){
+	                   
+	              $(thedata).each(function(ind){
+	                dataChunk.push( VHXJS._theaters.extractEntry(thedata[ind]) );
+	              });
+	              VHXJS._theaters.display(dataChunk);
+	  
+	            } else {
+	              VHXJS._theaters.noShows();
+	            }
+	            
+	          } else {
+	          	VHXJS._theaters.noShows();
+	            
+	          }
+	        },
+	        display: function(data){
+	          
+	          var thehtml = "";        
+	  				var comparedate = "";
+	          var displaydate = "";
+	          
+	          for (var i=0;i<=data.length-1; i++){
+	           // 0 = date
+	           // 1 = City, St
+	           // 2 = Venue
+	           // 3 = Info
+	           // 4 = Ticket Link
+	           // 5 = Fcebook Link         
+	           var thedate = data[i]['date'];
+	           /*if (comparedate != thedate){
+	           		displaydate = thedate;
+	              comparedate = thedate;
+	           } else {
+	           		displaydate=  "&nbsp;"
+	           }*/
+	           displaydate = thedate;
+	           comparedate = thedate;
+	           var location = data[i]['cityst'];
+	           location = location.replace(/\"/g,"");
+	           
+	           var venue = data[i]['venue'].replace("\"","");
+	           if (venue == ""){ venue = "&nbsp;"; }
+	           
+	           var info = data[i]['info'].replace(/\n/g, "<br />");
+	           var ticketlink = data[i]['buy'];
+	           var facebooklink = data[i]['fb'];
+	           
+	           if (ticketlink){ ticketlink = "<a href='"+ticketlink+"' class='button' target='_blank'>Tickets</a> "; } else { ticketlink = ""; }
+	           if (facebooklink){ facebooklink = "<a href='"+facebooklink+"' class='button' target='_blank'><i class='fa fa-facebook-square'></i></a>"; } else { facebooklink = " "; }
+	  				
+	  					// CREATE THE ROW OF HTML
+	            thehtml += '<div class="row single-listing">';
+	            thehtml += '  <div class="small-16 medium-4 large-4 columns date"><span>'+displaydate+'</span></div>';
+	            thehtml += '  <div class="small-16 medium-4 large-3 columns cityst"><span>'+location+'</span></div>';
+	            thehtml += '	<div class="small-16 medium-4 large-7 columns venue"><span>'+venue+'</span><span class="info"> '+info+'</span></div>';
+	            thehtml += '  <div class="small-16 medium-4 large-2 columns links"><span>'+ticketlink+'</span><span class="fb">'+facebooklink+'</span></div>';
+	            thehtml += '</div>';
+	           
+	          }
+	          //thehtml += "</div>";
+	         $("#nowplaying").html(thehtml).find(".row:last-child").addClass("last");
+	        },
+	        noShows: function(){
+	          $("#nowplaying").html('<div class="row"><div class="small-16 text-center">Sorry, no screenings at this time.</div></div>');
+	        }
+	     },
+	     _cleanupVOD: function(){
+	     	$(".vod a").each(function(ind){
+	      	if ($(this).attr("href") == "#"){
+	        	$(this).addClass("disabled").on('click',function(ev){ ev.preventDefault(); });
+	          
+	        }
+	      });
+	     }
+	  };
+	  
+	  (function(window,document,$,VHXJS) {
+	    VHXJS.init();
+	  })(window,document,jQuery,VHXJS);
+	  
+	  
+	    	</script>
+	
+	<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+	  <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="americanwaitress.vhx.tv"></script>
+  
+</body>
+</html>
+```
