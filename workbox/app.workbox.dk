@@ -1,0 +1,295 @@
+```
+
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="IE=Edge" />
+    <title>Dinero</title>
+
+        <link rel="icon" type="image/x-icon" href="https://app.dinero.dk/content/img/favicon.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="https://app.dinero.dk/content/img/favicon.ico" />
+        <link rel="icon" type="image/png" href="https://app.dinero.dk/content/img/favicon.ico" sizes="16x16">
+        <link rel="icon" type="image/png" href="https://app.dinero.dk/content/img/favicon.ico" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://app.dinero.dk/content/img/favicon.ico" sizes="96x96">
+        <link rel="icon" type="image/png" href="https://app.dinero.dk/content/img/favicon.ico" sizes="192x192">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://app.dinero.dk/content/img/favicon.ico">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://app.dinero.dk/content/img/favicon.ico">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://app.dinero.dk/content/img/favicon.ico">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://app.dinero.dk/content/img/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://app.dinero.dk/content/img/favicon.ico">
+
+    <meta name="theme-color" content="#0079bf">
+
+        <link rel="stylesheet" href="/dist/libs.min.css" />
+        <link rel="stylesheet" href="/dist/shared/css/themes-common.min.css?v=G25lRnrI3i-VCvQ-Gh4zx9EdsuHP4MnxVIcUc9nfGBI" />
+            <link rel="stylesheet" href="https://static.dinero.dk/frontend/content/login/dinero.css" />
+</head>
+<body>
+        <div class="main-container">
+            
+    <div class="cookie-overlay">
+        <div class="cookie-outer">
+            <div class="cookie-inner">
+                <div class="cookie-overlay-wrapper">
+                    Visma Connect gemmer visse data for at forbedre brugeroplevelsen. Du accepterer dette, n&#xE5;r du bruger Visma Connect.
+                    <a href="/info?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Ddinero%26redirect_uri%3Dhttps%253A%252F%252Fapp.workbox.dk%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520email%2520roles%26state%3DOpenIdConnect.AuthenticationProperties%253D5yeJ8IIQ_xrPuaN55JudiEoa52jUSvniPTImdqhrIj2PZ9vKYgkkHxvNNpjh7HBgPdrzn0UU7M7IZ2DddnN8bSt0aLgu5PspTBNm7XlSOpbgTyO0AeC-XvpSKA9UGjQcMgnDFQGTnSkEM4SzYGG0NdhW9fdlcbT_jMwq-JEALJ_B8UyI2SmoNv5miCX1X5vdqiSpM1eeIBp3QQStUxd5oA%26response_mode%3Dform_post%26nonce%3D637469874271363211.ZWZjYjhlMmQtNWIyNi00ZjAyLWE3NzgtYmUzMzY1YjIzYjIzZGUxYzAwMzYtYzg1My00NjdmLTgyY2MtZTM5ZTFlYWJkNTVm%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0" class="cookie-about">Mere information</a>
+                    <button class="btn btn-default cookie-hide" id="CookieHideButton">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+            <div class="side-image"></div>
+            <div class="inner-container">
+                <div class="logo-container">
+                    <div class="theme-icon theme-logo"></div>
+                </div>
+                <div class="body-content">
+                    
+
+
+
+
+
+<div class="form-box form-box-login" id="page-login-index">
+
+    <div id="login-form-container" class="form-content padding-bottom-0">
+        <div class="text-center">
+            <div id="application-logo-container">
+                
+
+<img src="https://static-odp.stag.visma.net/commoncomponents/vismaSkin/images/services/dinero/large.png" alt="" class="logo-width-medium application-logo " /><br />
+            </div>
+            <div id="application-header-container">
+                
+<h1 class="client-name-header no-bottom-margin">Dinero</h1>
+            </div>
+        </div>
+        <div>
+    <div id="major-outage-alert" class="hidden outage-alert margin-top alert alert-danger" role="alert">
+        <div>
+            <span class="vismaicon vismaicon-filled vismaicon-error" aria-hidden="true"></span>
+            <a href="https://status.visma.com" class="outage-header" target="_blank" rel="noopener noreferrer">Større systemudfald</a>
+            <p class="major-outage-text">Systemet har problemer og virker ikke efter hensigten. Vi arbejder på at løse problemet. I mellemtiden kan du <a href="https://status.visma.com/" target="_blank" rel="noopener noreferrer">læse mere</a> om, hvorfor du får vist denne besked. Tak for din tålmodighed.</p>
+        </div>
+    </div>
+    <div id="partial-outage-alert" class="hidden outage-alert margin-top alert alert-warning" role="alert">
+        <div>
+            <span class="vismaicon vismaicon-filled vismaicon-warning" aria-hidden="true"></span>
+            <a href="https://status.visma.com" class="outage-header" target="_blank" rel="noopener noreferrer">Delvist systemudfald</a>
+        </div>
+    </div>
+    <div id="degraded-performance-alert" class="hidden outage-alert margin-top alert alert-warning" role="alert">
+        <div>
+            <img src="/img/icons/24_degraded.svg" alt="Info" class="vismaicon outage-icon padding-right" />
+            <a href="https://status.visma.com" class="outage-header" target="_blank" rel="noopener noreferrer">Nedsat ydelse</a>
+        </div>
+    </div>
+    <div id="under-maintenance-alert" class="hidden outage-alert margin-top alert alert-info" role="alert">
+        <div>
+            <span class="vismaicon vismaicon-filled vismaicon-info" aria-hidden="true"></span>
+            <a href="https://status.visma.com" class="outage-header" target="_blank" rel="noopener noreferrer">Under vedligeholdelse</a>
+        </div>
+    </div>
+    <div id="information-alert" class="hidden outage-alert margin-top alert alert-info" role="alert">
+        <div>
+            <span class="vismaicon vismaicon-filled vismaicon-info" aria-hidden="true"></span>
+            <a href="https://status.visma.com" class="outage-header" target="_blank" rel="noopener noreferrer">Information</a>
+            <p class="hidden major-outage-text">Vi har identificeret et problem, der påvirker visse brugere. Hvis du oplever problemer med at logge ind, skal du <a href="https://status.visma.com" target="_blank" rel="noopener noreferrer">for mere information</a></p>
+        </div>
+    </div>
+</div>
+
+
+<div id="page-login-connect">
+
+    <form class="form-horizontal form-connect-login margin-top-10" action="/" method="post">
+        <div class="form-group theme-economic theme-header-container">
+            <h3 class="theme-header">Log ind med</h3>
+            <span class="theme-subheader">Visma Connect for at fortsætte til </span>
+        </div>
+
+        
+
+
+        <div class="form-group form-error-container no-left-padding-xs padding-left-sm padding-left-md padding-left-lg no-bottom-margin hidden" id="form-connect-login-error-username">
+            <div class="col-xs-12 message-element">
+                <div class="message-box">
+                    <div>
+                        <span class="vismaicon vismaicon-filled vismaicon-error"></span>
+                        <span class="text-error" id="ErrorMessage">Ugyldig e-mailadresse</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group form-group-login form-group-login-username padding-top-15">
+            <div class="col-sm-offset-1 col-sm-10 no-side-padding">
+                <div class="input-login-animated">
+                    <input type="email" class="form-control label-animated" autocomplete="username" required placeholder=" " id="Username" name="Username" value="">
+                    <label class="label-animated">E-mailadresse</label>
+                </div>
+                <input type="password" class="hidden" autocomplete="current-password" id="Password" name="Password" />
+            </div>
+        </div>
+        <div class="form-group form-group-login form-group-login-button">
+            <div class="col-sm-offset-1 col-sm-10 no-side-padding">
+                <input type="submit" class="btn btn-primary btn-block form-login-button-email" id="LoginButton" value="Næste" formnovalidate />
+            </div>
+        </div>
+        <div class="form-group form-group-rememberusername">
+            <div class="col-sm-offset-1 col-sm-10 no-side-padding">
+                <div class="checkbox">
+                    <label for="RememberUsername">
+                        <input id="login-remember-user-checkbox" type="checkbox" data-val="true" data-val-required="The RememberUsername field is required." name="RememberUsername" value="true"> Gem min e-mailadresse til næste gang
+                        <p class="text-disabled"><small>Anbefales ikke til offentlige eller delte computere</small></p>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group form-group-login-links">
+            
+
+
+        </div>
+
+        <input type="hidden" id="shared-domain" value=".connect.identity.stagaws.visma.com">
+        <input type="hidden" id="email-regex" value="(?!^\.)(?!(?:.*?)\.{2,}(?:.*?))(?!(?:.*?)[\/\\&quot;(),:;&lt;&gt;\[\] ](?:.*?))(?!^(?:.*?)@(?:.*)@(?:.*)$)(^.{1,64}?)@(.&#x2B;?)\.(.&#x2B;)$" />
+        
+<input type="hidden" id="ClientId" name="ClientId" value="dinero" />
+<input type="hidden" id="ReturnUrl" name="ReturnUrl" value="/connect/authorize/callback?client_id=dinero&amp;redirect_uri=https%3A%2F%2Fapp.workbox.dk&amp;response_type=code%20id_token&amp;scope=openid%20profile%20email%20roles&amp;state=OpenIdConnect.AuthenticationProperties%3D5yeJ8IIQ_xrPuaN55JudiEoa52jUSvniPTImdqhrIj2PZ9vKYgkkHxvNNpjh7HBgPdrzn0UU7M7IZ2DddnN8bSt0aLgu5PspTBNm7XlSOpbgTyO0AeC-XvpSKA9UGjQcMgnDFQGTnSkEM4SzYGG0NdhW9fdlcbT_jMwq-JEALJ_B8UyI2SmoNv5miCX1X5vdqiSpM1eeIBp3QQStUxd5oA&amp;response_mode=form_post&amp;nonce=637469874271363211.ZWZjYjhlMmQtNWIyNi00ZjAyLWE3NzgtYmUzMzY1YjIzYjIzZGUxYzAwMzYtYzg1My00NjdmLTgyY2MtZTM5ZTFlYWJkNTVm&amp;x-client-SKU=ID_NET461&amp;x-client-ver=5.3.0.0" />
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8PZ75dZnaIhNrUQaRDcXQTqp6OEHj0IpmIF9x8gTzfw6ixGaSV9dEcKUnpGAD5wnyQou2meDyA_8ADqCWxOtyaSpYSkwG4pxiPygISlVb3UPpULcKyG2maBT4lIXM2Zs2wNta5lbGA_-iplQnBc97rs" /><input name="RememberUsername" type="hidden" value="false"></form>
+</div>
+
+    <script src='https://www.google.com/recaptcha/api.js?hl=da' async defer></script>
+
+
+            <div class="form-footer external-providers">
+                    <div class="circleContainer">
+                        <div class="circle">
+                            <p>Eller</p>
+                        </div>
+                    </div>
+
+                <div class="padding-top"></div>
+
+
+
+<form class="form-horizontal form-external-provider" id="form-provider-google" action="/external/activate" method="post">
+    <div class="form-group" id="page-login-external-google">
+        <div class="col-xs-12 no-side-padding-xs side-padding-sm">
+            <div class="external-provider-but external-provider-but-v2" id="google-external-auth-button">
+                <img src="/img/external/google_logo.png" alt="" />
+                <span>Log ind med Google</span>
+            </div>
+        </div>
+
+        <input id="authentication-scheme-google" type="hidden" value="GoogleOIDC" readonly name="AuthenticationScheme" />
+        <input id="provider-name-google" type="hidden" value="Google" readonly name="ProviderName" />
+        <input id="action-google" type="hidden" value="Login" readonly data-val="true" data-val-required="The Action field is required." name="Action" />
+        <input id="return-url-google" type="hidden" readonly name="ReturnUrl" value="/connect/authorize/callback?client_id=dinero&amp;redirect_uri=https%3A%2F%2Fapp.workbox.dk&amp;response_type=code%20id_token&amp;scope=openid%20profile%20email%20roles&amp;state=OpenIdConnect.AuthenticationProperties%3D5yeJ8IIQ_xrPuaN55JudiEoa52jUSvniPTImdqhrIj2PZ9vKYgkkHxvNNpjh7HBgPdrzn0UU7M7IZ2DddnN8bSt0aLgu5PspTBNm7XlSOpbgTyO0AeC-XvpSKA9UGjQcMgnDFQGTnSkEM4SzYGG0NdhW9fdlcbT_jMwq-JEALJ_B8UyI2SmoNv5miCX1X5vdqiSpM1eeIBp3QQStUxd5oA&amp;response_mode=form_post&amp;nonce=637469874271363211.ZWZjYjhlMmQtNWIyNi00ZjAyLWE3NzgtYmUzMzY1YjIzYjIzZGUxYzAwMzYtYzg1My00NjdmLTgyY2MtZTM5ZTFlYWJkNTVm&amp;x-client-SKU=ID_NET461&amp;x-client-ver=5.3.0.0" />
+        <input id="client-id-google" type="hidden" readonly name="ClientId" value="dinero" />
+        <input id="remember-username-google" type="hidden" readonly data-val="true" data-val-required="The RememberUsername field is required." name="RememberUsername" value="False" />
+        <input id="login-hint-google" type="hidden" readonly name="Username" value="" />
+    </div>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8PZ75dZnaIhNrUQaRDcXQTqp6OEHj0IpmIF9x8gTzfw6ixGaSV9dEcKUnpGAD5wnyQou2meDyA_8ADqCWxOtyaSpYSkwG4pxiPygISlVb3UPpULcKyG2maBT4lIXM2Zs2wNta5lbGA_-iplQnBc97rs" /></form>
+            </div>
+            <span class="hidden" id="encoded-return-url">%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Ddinero%26redirect_uri%3Dhttps%253A%252F%252Fapp.workbox.dk%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520email%2520roles%26state%3DOpenIdConnect.AuthenticationProperties%253D5yeJ8IIQ_xrPuaN55JudiEoa52jUSvniPTImdqhrIj2PZ9vKYgkkHxvNNpjh7HBgPdrzn0UU7M7IZ2DddnN8bSt0aLgu5PspTBNm7XlSOpbgTyO0AeC-XvpSKA9UGjQcMgnDFQGTnSkEM4SzYGG0NdhW9fdlcbT_jMwq-JEALJ_B8UyI2SmoNv5miCX1X5vdqiSpM1eeIBp3QQStUxd5oA%26response_mode%3Dform_post%26nonce%3D637469874271363211.ZWZjYjhlMmQtNWIyNi00ZjAyLWE3NzgtYmUzMzY1YjIzYjIzZGUxYzAwMzYtYzg1My00NjdmLTgyY2MtZTM5ZTFlYWJkNTVm%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0</span>
+            <span class="hidden" id="single-external-provider-redirect">False</span>
+    </div>
+    <div class="form-footer">
+        <img class="visma-logo" src="/img/visma-logo.svg" alt="">
+    </div>
+</div>
+
+
+                </div>
+                <div class="clear"></div>
+                
+
+
+<footer class="footer-container">
+    <div class="footer-bg"></div>
+
+    <div class="footer-inner">
+
+
+        <div class="float-left" id="copyright">
+            <ul class="footer-list">
+                <li>
+                    &copy;
+                </li>
+                <li>
+                    <div id="copyright-text">
+                        Visma
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <ul class="footer-list">
+
+            <li>
+                <a href="/info?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Ddinero%26redirect_uri%3Dhttps%253A%252F%252Fapp.workbox.dk%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520email%2520roles%26state%3DOpenIdConnect.AuthenticationProperties%253D5yeJ8IIQ_xrPuaN55JudiEoa52jUSvniPTImdqhrIj2PZ9vKYgkkHxvNNpjh7HBgPdrzn0UU7M7IZ2DddnN8bSt0aLgu5PspTBNm7XlSOpbgTyO0AeC-XvpSKA9UGjQcMgnDFQGTnSkEM4SzYGG0NdhW9fdlcbT_jMwq-JEALJ_B8UyI2SmoNv5miCX1X5vdqiSpM1eeIBp3QQStUxd5oA%26response_mode%3Dform_post%26nonce%3D637469874271363211.ZWZjYjhlMmQtNWIyNi00ZjAyLWE3NzgtYmUzMzY1YjIzYjIzZGUxYzAwMzYtYzg1My00NjdmLTgyY2MtZTM5ZTFlYWJkNTVm%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0">Om cookies</a>
+            </li>
+
+                <li class="dropup" id="language-selector">
+                    <div>
+                        <img class="da-DK" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" />
+                        <a class="dropdown-toggle" id="language-dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dansk
+                        </a>
+
+                        <ul class="dropdown-menu poz-compensate" id="language-dropdown-menu"
+                            role="menu" aria-labelledby="language-dropdown-toggle">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#"
+                                       class="lang-active "
+                                       data-footer-lang-code="da-DK">
+                                        <div class="language-img-container">
+                                            <img class="da-DK" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" />
+                                        </div>
+
+                                        Dansk
+                                    </a>
+                                </li>
+                        </ul>
+                    </div>
+                </li>
+        </ul>
+    </div>
+</footer>
+
+        <script type="text/javascript" src="/dist/pages/footer.min.js?v=zJCAOwWyFNxIwcTDz_H9nte7TuLUGZCk7rHNebpdfRI"></script>
+
+            </div>
+        </div>
+    <span class="hidden" id="is-device-mobile">false</span>
+        <script type="text/javascript" src="/dist/connect.min.js?v=404ZwjONFARdB-5Shp8BTz-nKk_cMBLdycJFQl0Fon8"></script>
+            <script type="text/javascript" src="https://static.dinero.dk/frontend/content/login/dinero.js"></script>
+    
+        <script src="/dist/pages/login.min.js?v=rwGCF_83h_AWPnzm3dexQUFMz1L7_6kK8pANEdt5NoM"></script>
+        <script src="/dist/pages/ios-ui-fix.min.js?v=fwJvcCRakXAu6xGKibog6yuk-lA759r21CKW0U2qLjo"></script>
+        <script src="/dist/pages/passwordless.min.js?v=KAcW0HN1whcG20ec4QSvsZblxNWk3ple5nORR9pv5KM"></script>
+
+
+<div id="statusPageWidget">
+    <span class="hidden" id="statuspagewidget-components-to-check">["w0669xftwcy2"]</span>
+    <span class="hidden" id="statuspagewidget-translations">{"none":"Alle systemer kører","minor":"Nedsat ydelse","major":"Delvist systemudfald","critical":"Større systemudfald"}</span>
+    <span class="hidden" id="statuspagewidget-notification-translation">{"notificationTranslationTitle":"Information"}</span>
+    <span class="hidden" id="statuspagewidget-configuration">{"json_url":"https://zvpknzcr6znl.statuspage.io/api/v2/components.json","status_url":"https://status.visma.com/","page_id":"zvpknzcr6znl"}</span>
+</div>
+
+    <script src="/dist/pages/status-module.min.js?v=HjsweZnifCV6ROzND6hEaccyuhV1k8GbcYG3JYPkPsE"></script>
+
+<span class="hidden" id="google-analytics-id">UA-85900299-3</span>
+
+    <script src="/dist/pages/googleanalytics.min.js?v=W5hUNwF48AUoeo2fHhAx4ruZ9JpSSIxXrPNFTfRYXbc"></script>
+
+</body>
+</html>```
