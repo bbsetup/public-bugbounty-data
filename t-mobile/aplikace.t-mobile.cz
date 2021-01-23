@@ -1,0 +1,646 @@
+```
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Apky, hry a vychytávky</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <link rel="stylesheet" type="text/css" href="https://www.applikace.cz/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.applikace.cz/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.applikace.cz/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://www.applikace.cz/css/responsive.css">
+    
+    <link rel="shortcut icon" href="img/favicons/favicon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.applikace.cz/img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.applikace.cz/img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.applikace.cz/img/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.applikace.cz/img/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.applikace.cz/img/favicons/apple-touch-icon-72x72.png" />
+    <script type="text/javascript" src="https://www.applikace.cz/js/package/jquery-1.7.1.min-slimbox-wolf-sharethis-package.js"></script>
+    <script type="text/javascript" src="https://www.applikace.cz/admin/scripts/frontend.js"></script>
+    	
+    
+    
+    
+  </head>
+  <body>
+  	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+  ga('create', 'UA-46735900-1', 'applikace.cz');
+  ga('send', 'pageview');
+
+</script>    <!--Navigation bar-->
+    <nav class="top-nav">
+    	<div class="container">
+    		<a class="navbar-brand" href="https://www.applikace.cz">
+            	<img src="https://www.applikace.cz/img/logo.png" alt="Applikace.cz">
+            </a>
+            <a href="https://www.t-mobile.cz" target="_blank"><div class="partner-top"></div></a>
+        </div>
+    </nav>
+    <nav id="sticky" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        </div>
+        
+        
+        
+        <div class="sb-search-box">
+        <div id="sb-search" class="sb-search">
+			<form action="https://www.applikace.cz/vyhledavani">
+				<input class="sb-search-input" placeholder="Napište, co hledáte..." type="text" value="" name="q" id="search">
+				<input class="sb-search-submit" type="submit" value="">
+				<span class="sb-icon-search"><i class="fa fa-search"></i></span>
+			</form>
+		</div>
+        </div>
+        <div class="pull-left">Ty nejlepší aplikace, hry a technologie</div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-left">
+          <li ><a href="https://www.applikace.cz/novinky">Novinky</a></li>
+          <li ><a  href="https://www.applikace.cz/aplikace">Aplikace</a></li>
+          <li ><a href="https://www.applikace.cz/katalog-aplikaci">Katalog aplikací</a></li>
+          <li ><a href="https://www.applikace.cz/hry">Hry</a></li>
+          <li ><a href="https://www.applikace.cz/tv-archiv">TV pořad</a></li>
+          <!-- <li  ><a href="https://www.applikace.cz/soutez">Soutěž</a></li>-->
+          <li><a href="https://www.applikace.cz/bezpecnaplatba" target="_blank">Bezpečná platba</a></li>
+           <!--<li ><a href="https://www.applikace.cz/pro-zacatecniky">Pro začátečníky</a></li>-->
+          <!--<li ><a href="https://www.applikace.cz/aktualni-tema">Aktuální téma</a></li>-->
+        </ul>
+        </div>
+      </div>
+    </nav>
+    <!--/ Navigation bar-->
+    <!--Feature-->
+    <section class="section-feature">
+      <div class="container">
+        <div class="row-feature">
+  
+                <div class="feature feature-article-first">
+                    <div class="feature-image">
+						<a href="https://www.applikace.cz/novinka-5399-android-12-dokaze-zmensit-velikost-nepouzivanych-aplikaci"><img src="https://www.applikace.cz/upload/articles/5399_aplikace_th.jpg" class="img-responsive" alt="Android 12 dokáže zmenšit velikost nepoužívaných aplikací">
+                        <span class="overlay"></span></a>
+                    </div>
+					<div class="feature-title-big">
+                    	<div class="feature-info">
+                            <a href="https://www.applikace.cz/novinky/ruzne"><span class="category">Různé</span></a>                         	<span class="date">19. 1. 2021</span>
+                        </div>
+						<h3><a href="https://www.applikace.cz/novinka-5399-android-12-dokaze-zmensit-velikost-nepouzivanych-aplikaci">Android 12 dokáže zmenšit velikost nepoužívaných aplikací</a></h3>
+					</div>
+              	</div>
+
+                <div class="feature feature-article-second">
+                    <div class="feature-image">
+						<a href="https://www.applikace.cz/novinka-5398-huawei-appgallery-v-novem-redesign-pripomina-app-store"><img src="https://www.applikace.cz/upload/articles/5398_hua_1200_th.jpg" class="img-responsive" alt="Huawei AppGallery v novém. Redesign připomíná App Store">
+                        <span class="overlay"></span></a>
+                    </div>
+					<div class="feature-title-big">
+                    	<div class="feature-info">
+                            <a href="https://www.applikace.cz/novinky/aplikace"><span class="category">Aplikace</span></a>                         	<span class="date">19. 1. 2021</span>
+                        </div>
+						<h3><a href="https://www.applikace.cz/novinka-5398-huawei-appgallery-v-novem-redesign-pripomina-app-store">Huawei AppGallery v novém. Redesign připomíná App Store</a></h3>
+					</div>
+              	</div>
+                
+                <!--<div class="clearfix"></div>-->
+            
+                             	<div class="feature feature-article-next">
+                        <div class="feature-image">
+						<a href="https://www.applikace.cz/novinka-5397-rok-2020-jako-hra-vtipnou-skakacku-spustite-na-mobilu-i-na-pc"><img src="https://www.applikace.cz/upload/articles/5397_covid_1200_th.jpg" class="img-responsive" alt="Rok 2020 jako hra? Vtipnou skákačku spustíte na mobilu i na PC">
+                        <span class="overlay"></span></a>
+                    </div>
+					<div class="feature-title-big">
+                    	<div class="feature-info">
+                            <a href="https://www.applikace.cz/novinky/hra"><span class="category"> Hra</span></a>                         	<span class="date">19. 1. 2021</span>
+                        </div>
+						<h3><a href="https://www.applikace.cz/novinka-5397-rok-2020-jako-hra-vtipnou-skakacku-spustite-na-mobilu-i-na-pc">Rok 2020 jako hra? Vtipnou skákačku spustíte na mobilu i na PC</a></h3>
+					</div>
+              	</div>
+              	               	<div class="feature feature-article-next">
+                        <div class="feature-image">
+						<a href="https://www.applikace.cz/novinka-5395-signal-je-po-celodennim-vypadku-zpatky-online-jak-nacist-poskozene-zpravy"><img src="https://www.applikace.cz/upload/articles/5395_Novy-projekt-72_th.jpg" class="img-responsive" alt="Signal je po celodenním výpadku zpátky online. Jak načíst poškozené zprávy?">
+                        <span class="overlay"></span></a>
+                    </div>
+					<div class="feature-title-big">
+                    	<div class="feature-info">
+                            <a href="https://www.applikace.cz/novinky/aplikace"><span class="category">Aplikace</span></a>                         	<span class="date">17. 1. 2021</span>
+                        </div>
+						<h3><a href="https://www.applikace.cz/novinka-5395-signal-je-po-celodennim-vypadku-zpatky-online-jak-nacist-poskozene-zpravy">Signal je po celodenním výpadku zpátky online. Jak načíst poškozené zprávy?</a></h3>
+					</div>
+              	</div>
+              	               	<div class="feature feature-article-next">
+                        <div class="feature-image">
+						<a href="https://www.applikace.cz/novinka-5396-placene-podcasty-apple-uvazuje-o-nove-sluzbe"><img src="https://www.applikace.cz/upload/articles/5396_apple-podcasts_th.jpg" class="img-responsive" alt="Placené podcasty? Apple uvažuje o nové službě">
+                        <span class="overlay"></span></a>
+                    </div>
+					<div class="feature-title-big">
+                    	<div class="feature-info">
+                            <a href="https://www.applikace.cz/novinky/aplikace"><span class="category">Aplikace</span></a>                         	<span class="date">15. 1. 2021</span>
+                        </div>
+						<h3><a href="https://www.applikace.cz/novinka-5396-placene-podcasty-apple-uvazuje-o-nove-sluzbe">Placené podcasty? Apple uvažuje o nové službě</a></h3>
+					</div>
+              	</div>
+              	              	
+           
+            
+      </div>
+    </section>
+    <!--/ feature-->
+    
+    
+    
+    
+    
+    <!--App-->
+    <section class="section-apps">
+      <div class="container">
+        <div class="row-appbox">
+          	
+            <div class="appbox-col-md-4">
+				<div class="title"><h2>TOP5 <span class="blue">Android</span></h2><a href="https://play.google.com/store/apps/collection/topselling_free" class="appbox-title-next" target="_blank"><i class="fa fa-long-arrow-right"></i> Zobrazit další</a></div>
+                <div class="appbox-side">
+                
+                <a href="https://play.google.com/store/apps/details?id=com.contextlogic.wish" target="_blank"><div class="appbox" onmouseover="this.setAttribute('class', 'appbox-hover')" onmouseout="this.setAttribute('class', 'appbox')">
+                    <div class="appbox-image">
+						<img src="https://play-lh.googleusercontent.com/GmR6jFq7tooOB3ocGmNQLoIPAGuGDZzyYtlz4PIWXDCRDvnqBSmqNpaZmaKdAOFZM2aW" alt="Wish - Shopping Made Fun" width="43">
+					</div>
+					<div class="appbox-title">
+						<h3>Wish - Shopping Made Fun</h3>
+						<span class="category">Aplikace</span>
+					</div>
+					<div class="clearfix"></div>
+                </div></a><a href="https://play.google.com/store/apps/details?id=com.hit.master" target="_blank"><div class="appbox" onmouseover="this.setAttribute('class', 'appbox-hover')" onmouseout="this.setAttribute('class', 'appbox')">
+                    <div class="appbox-image">
+						<img src="https://play-lh.googleusercontent.com/C564oFYhhCCqbuCzqBltGyLwyHkg8Jinj49gxh5qmZRRdRVvZOUhv9aZNP4VskjUPts" alt="Hit Master 3D: Knife Assassin" width="43">
+					</div>
+					<div class="appbox-title">
+						<h3>Hit Master 3D: Knife Assassin</h3>
+						<span class="category">Aplikace</span>
+					</div>
+					<div class="clearfix"></div>
+                </div></a><a href="https://play.google.com/store/apps/details?id=com.melesta.coffeeshop" target="_blank"><div class="appbox" onmouseover="this.setAttribute('class', 'appbox-hover')" onmouseout="this.setAttribute('class', 'appbox')">
+                    <div class="appbox-image">
+						<img src="https://play-lh.googleusercontent.com/uebjoIhQVSj0poCg331B72yWYOXaloEaNfeK49_qeWdcbh39lj94fJ2H1ZEQMIUW5Ukg" alt="My Cafe — Restaurant game" width="43">
+					</div>
+					<div class="appbox-title">
+						<h3>My Cafe — Restaurant game</h3>
+						<span class="category">Hry</span>
+					</div>
+					<div class="clearfix"></div>
+                </div></a><a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms" target="_blank"><div class="appbox" onmouseover="this.setAttribute('class', 'appbox-hover')" onmouseout="this.setAttribute('class', 'appbox')">
+                    <div class="appbox-image">
+						<img src="https://lh3.googleusercontent.com/jCln_XT8Ruzp7loH1S6yM-ZzzpLP1kZ3CCdXVEo0tP2w5HNtWQds6lo6aLxLIjiW_X8" alt="Signal Private Messenger" width="43">
+					</div>
+					<div class="appbox-title">
+						<h3>Signal Private Messenger</h3>
+						<span class="category">Aplikace</span>
+					</div>
+					<div class="clearfix"></div>
+                </div></a><a href="https://play.google.com/store/apps/details?id=com.platogo.gmp" target="_blank"><div class="appbox" onmouseover="this.setAttribute('class', 'appbox-hover')" onmouseout="this.setAttribute('class', 'appbox')">
+                    <div class="appbox-image">
+						<img src="https://lh3.googleusercontent.com/lRCwRKD1X-QaCnE81CC0aiaOkW17Dm9_aXbM48RA8QjYH1BOvGV5d4-kAC3fJdfspPY" alt="Gaminator Casino Slots - Play Slot Machines 777" width="43">
+					</div>
+					<div class="appbox-title">
+						<h3>Gaminator Casino Slots - Play...</h3>
+						<span class="category">Hry</span>
+					</div>
+					<div class="clearfix"></div>
+                </div></a>                
+                              
+                </div>
+			</div>
+            
+           <div class="appbox-col-md-4">
+				<div class="title"><h2>TOP5 <span class="blue">iPhone</span></h2><a href="https://www.apple.com/itunes/charts/free-apps/" class="appbox-title-next"><i class="fa fa-long-arrow-right"></i> Zobrazit další</a></div>
+                <div class="appbox-side">
+                
+                <a href="https://itunes.apple.com/cz/app/id556886960?mt=8&ls=1" target="_blank"><div class="appbox" onmouseover="this.setAttribute('class', 'appbox-hover')" onmouseout="this.setAttribute('class', 'appbox')">
+                    <div class="appbox-image">
+						<img src="https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/f4/37/99/f43799be-2771-4961-d3de-29edc32f3a6d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1024x1024bb.j" alt="Shakes and Fidget" width="43">
+					</div>
+					<div class="appbox-title">
+						<h3>Shakes and Fidget</h3>
+						<span class="category">Hry</span>
+					</div>
+					<div class="clearfix"></div>
+                </div></a><a href="https://itunes.apple.com/cz/app/id556886960?mt=8&ls=1" target="_blank"><div class="appbox" onmouseover="this.setAttribute('class', 'appbox-hover')" onmouseout="this.setAttribute('class', 'appbox')">
+                    <div class="appbox-image">
+						<img src="https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/f4/37/99/f43799be-2771-4961-d3de-29edc32f3a6d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1024x1024bb.j" alt="Shakes and Fidget" width="43">
+					</div>
+					<div class="appbox-title">
+						<h3>Shakes and Fidget</h3>
+						<span class="category">Aplikace</span>
+					</div>
+					<div class="clearfix"></div>
+                </div></a><a href="https://itunes.apple.com/cz/app/id1117841866?mt=8&ls=1" target="_blank"><div class="appbox" onmouseover="this.setAttribute('class', 'appbox-hover')" onmouseout="this.setAttribute('class', 'appbox')">
+                    <div class="appbox-image">
+						<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/86/9a/6c/869a6cc5-3d71-1370-1c8c-d8154fd60731/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1024x1024bb.jpg" alt="Empires & Puzzles Epic Match 3" width="43">
+					</div>
+					<div class="appbox-title">
+						<h3>Empires & Puzzles Epic Match 3</h3>
+						<span class="category">Hry</span>
+					</div>
+					<div class="clearfix"></div>
+                </div></a><a href="https://itunes.apple.com/cz/app/id544007664?mt=8&ls=1" target="_blank"><div class="appbox" onmouseover="this.setAttribute('class', 'appbox-hover')" onmouseout="this.setAttribute('class', 'appbox')">
+                    <div class="appbox-image">
+						<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/b9/58/d8/b958d83b-f5d2-b746-df90-d0a0a244d6ad/logo_youtube_color-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/10" alt="YouTube: Watch, Listen, Stream" width="43">
+					</div>
+					<div class="appbox-title">
+						<h3>YouTube: Watch, Listen, Stream</h3>
+						<span class="category">Aplikace</span>
+					</div>
+					<div class="clearfix"></div>
+                </div></a><a href="https://itunes.apple.com/cz/app/id1068204657?mt=8&ls=1" target="_blank"><div class="appbox" onmouseover="this.setAttribute('class', 'appbox-hover')" onmouseout="this.setAttribute('class', 'appbox')">
+                    <div class="appbox-image">
+						<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/d1/70/31/d17031d5-4f98-7e47-fb0e-4b762cac6c5f/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1024x1024bb.j" alt="My Cafe — Restaurant game" width="43">
+					</div>
+					<div class="appbox-title">
+						<h3>My Cafe — Restaurant game</h3>
+						<span class="category">Hry</span>
+					</div>
+					<div class="clearfix"></div>
+                </div></a>                
+                </div>
+			</div>
+            
+            <div class="appbox-adv-col-md-4">
+				                    		<div class="appbox-adv">
+                    	<div class="title-adv2">inzerce</div>
+                    		                    				<a href="https://www.youtube.com/watch?v=w3P4I_Bjzz8" target="_self"><img src="https://www.applikace.cz/upload/banners/10_CN_CZ_BeABuddy2019_Competition_promo_300x300_01.jpg"></a>
+                    				                    		</div>
+                    					</div>
+            
+        </div>
+      </div>
+    </section>
+    <!--/ App-->
+    <!--Newest-->
+    <section class="section-newest">
+      <div class="container">
+        <div class="row">
+          	
+            <div class="post-articles">
+			  	<div class="title"><h2><span class="blue">Další</span> články</h2></div>
+                
+                        		
+                <div class="post">
+                    <div class="post-image">
+						<a href="https://www.applikace.cz/novinka-5394-novy-iphone-by-mohl-mit-ctecku-otisku-v-displeji"><img src="https://www.applikace.cz/upload/articles/5394_apple_otisk_th.jpg" class="img-responsive" alt="Nový iPhone by mohl mít čtečku otisků v displeji"></a>
+                    </div>
+					<div class="post-title txt-right">
+						<h3><a href="https://www.applikace.cz/novinka-5394-novy-iphone-by-mohl-mit-ctecku-otisku-v-displeji">Nový iPhone by mohl mít čtečku otisků v displeji</a></h3>
+                        <a href="https://www.applikace.cz/novinky/ruzne"><span class="category">Různé</span></a> 						<span class="date">15. 1. 2021</span>
+                        <p>Pokud čekáte na nějaký revoluční iPhone, letos se ho nedočkáte. Po radikální změně designu telefonu v&nbsp;roce 2020 bude Apple spíš jen...</p>
+					</div>
+              	<div class="clearfix"></div>
+                </div>
+            	            		
+                <div class="post">
+                    <div class="post-image-right">
+						<a href="https://www.applikace.cz/novinka-5393-diablovka-titan-quest-vychazi-na-mobilech-uz-zase-u-"><img src="https://www.applikace.cz/upload/articles/5393_ezgif-3-f474fa2593fa_th.jpg" class="img-responsive" alt="Diablovka Titan Quest vychází na mobilech. Už zase…"></a>
+                    </div>
+					<div class="post-title txt-left">
+						<h3><a href="https://www.applikace.cz/novinka-5393-diablovka-titan-quest-vychazi-na-mobilech-uz-zase-u-">Diablovka Titan Quest vychází na mobilech. Už zase…</a></h3>
+                        <a href="https://www.applikace.cz/novinky/hra"><span class="category"> Hra</span></a> 						<span class="date">14. 1. 2021</span>
+                        <p>Titan Quest je celkem povedené akční RPG zasazené do&nbsp;kulis antického Řecka, které vyšlo poprvé v&nbsp;roce 2006 na PC. Následovaly...</p>
+					</div>
+              	<div class="clearfix"></div>
+                </div>
+            	            		
+                <div class="post">
+                    <div class="post-image">
+						<a href="https://www.applikace.cz/novinka-5392-prvni-zarizeni-s-kamerou-pod-displejem-od-samsungu-neni-mobil-ale-notebook"><img src="https://www.applikace.cz/upload/articles/5392_samsung_1200_th.jpg" class="img-responsive" alt="První zařízení s kamerou pod displejem od Samsungu není mobil, ale notebook"></a>
+                    </div>
+					<div class="post-title txt-right">
+						<h3><a href="https://www.applikace.cz/novinka-5392-prvni-zarizeni-s-kamerou-pod-displejem-od-samsungu-neni-mobil-ale-notebook">První zařízení s kamerou pod displejem od Samsungu není mobil, ale notebook</a></h3>
+                        <a href="https://www.applikace.cz/novinky/vychytavka"><span class="category">Vychytávka</span></a> 						<span class="date">14. 1. 2021</span>
+                        <p>Nápadný výřez na displejích mobilů se brzy ztratí a selfie kamera se přesune pod displej. První mobily s&nbsp;neviditelnou kamerou jsou...</p>
+					</div>
+              	<div class="clearfix"></div>
+                </div>
+            	            		
+                <div class="post">
+                    <div class="post-image-right">
+						<a href="https://www.applikace.cz/novinka-5391-pres-500-soucastek-a-30-dni-prace-podivejte-se-na-sochu-vytvorenou-z-xiaomi-mi-11-"><img src="https://www.applikace.cz/upload/articles/5391_xiaomi-1200_th.jpg" class="img-responsive" alt="Přes 500 součástek a 30 dní práce. Podívejte se na sochu vytvořenou z Xiaomi Mi 11!"></a>
+                    </div>
+					<div class="post-title txt-left">
+						<h3><a href="https://www.applikace.cz/novinka-5391-pres-500-soucastek-a-30-dni-prace-podivejte-se-na-sochu-vytvorenou-z-xiaomi-mi-11-">Přes 500 součástek a 30 dní práce. Podívejte se na sochu vytvořenou z Xiaomi Mi 11!</a></h3>
+                        <a href="https://www.applikace.cz/novinky/ruzne"><span class="category">Různé</span></a> 						<span class="date">14. 1. 2021</span>
+                        <p>Vždycky, když se na trhu objeví nový mobil, youtubeři se předhánějí v&nbsp;tom, kdo telefon rozebere nebo rovnou zničí jako první....</p>
+					</div>
+              	<div class="clearfix"></div>
+                </div>
+            	            		
+                <div class="post">
+                    <div class="post-image">
+						<a href="https://www.applikace.cz/novinka-5390-novy-u-levny-u-ipad-bude-predevsim-lehci-a-tenci-zadne-radikalni-zmeny-necekejte"><img src="https://www.applikace.cz/upload/articles/5390_ipad_1200_th.jpg" class="img-responsive" alt="Nový „levný“ iPad bude především lehčí a tenčí. Žádné radikální změny nečekejte"></a>
+                    </div>
+					<div class="post-title txt-right">
+						<h3><a href="https://www.applikace.cz/novinka-5390-novy-u-levny-u-ipad-bude-predevsim-lehci-a-tenci-zadne-radikalni-zmeny-necekejte">Nový „levný“ iPad bude především lehčí a tenčí. Žádné radikální změny nečekejte</a></h3>
+                        <a href="https://www.applikace.cz/novinky/ruzne"><span class="category">Různé</span></a> 						<span class="date">11. 1. 2021</span>
+                        <p>Nejprve si japonští blogeři z&nbsp;webu Mac Otokara rozpovídali o nadcházející generaci iPhonu a teď se zaměřili pro změnu na iPad....</p>
+					</div>
+              	<div class="clearfix"></div>
+                </div>
+            		    
+              
+                <div id="moreArea"></div>
+                <div class="paginator"><a href="javascript:void(0)" onclick="moreArticles()" class="btn btn-default center-block">Zobrazit další</a></div>
+                
+			</div>
+            
+            <div class="popular-article">
+            	<div class="right-side">
+                
+					<div class="title"><h2><span class="blue">Applikace</span> na Facebooku</h2></div>
+                    <div class="wide-fb"><div class="fb-page" data-href="https://www.facebook.com/applikace" data-width="300" data-height="300" data-small-header="true" data-adapt-container-width="true" data-show-posts="false" data-hide-cover="true" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"></div></div></div>
+
+                                      
+                	
+                    
+                                        		<div class="appbox-adv">
+                    	<div class="title-adv2">inzerce</div>
+                    		                    				<a href="https://www.applikace.cz/novinka-4944-pubg-clash-royale-raid-a-dalsi-google-spousti-slevovou-akci-na-vybrane-hry" target="_self"><img src="https://www.applikace.cz/upload/banners/12_ad_square.jpg"></a>
+                    				                    		</div>
+                    			 			
+                    
+                    
+                    	<div class="post-popular-side">
+                        <div class="title"><h2><span class="blue">Populární</span> články</h2></div>
+                        
+                                                <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5395-signal-je-po-celodennim-vypadku-zpatky-online-jak-nacist-poskozene-zpravy"><img src="https://www.applikace.cz/upload/articles/5395_Novy-projekt-72_th.jpg" class="img-responsive" alt="Signal je po celodenním výpadku zpátky online. Jak načíst poškozené zprávy?"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5395-signal-je-po-celodennim-vypadku-zpatky-online-jak-nacist-poskozene-zpravy">Signal je po celodenním výpadku zpátky online. Jak načíst...</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5397-rok-2020-jako-hra-vtipnou-skakacku-spustite-na-mobilu-i-na-pc"><img src="https://www.applikace.cz/upload/articles/5397_covid_1200_th.jpg" class="img-responsive" alt="Rok 2020 jako hra? Vtipnou skákačku spustíte na mobilu i na PC"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5397-rok-2020-jako-hra-vtipnou-skakacku-spustite-na-mobilu-i-na-pc">Rok 2020 jako hra? Vtipnou skákačku spustíte na mobilu i na PC</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5398-huawei-appgallery-v-novem-redesign-pripomina-app-store"><img src="https://www.applikace.cz/upload/articles/5398_hua_1200_th.jpg" class="img-responsive" alt="Huawei AppGallery v novém. Redesign připomíná App Store"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5398-huawei-appgallery-v-novem-redesign-pripomina-app-store">Huawei AppGallery v novém. Redesign připomíná App Store</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5399-android-12-dokaze-zmensit-velikost-nepouzivanych-aplikaci"><img src="https://www.applikace.cz/upload/articles/5399_aplikace_th.jpg" class="img-responsive" alt="Android 12 dokáže zmenšit velikost nepoužívaných aplikací"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5399-android-12-dokaze-zmensit-velikost-nepouzivanych-aplikaci">Android 12 dokáže zmenšit velikost nepoužívaných aplikací</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                					
+                                                                  
+                       
+                        
+                        </div>
+                
+               	                
+                <!-- promo -->
+                                    
+                        
+                                                		<div class="post-popular-side">
+                        <div class="title"><h2><span class="blue">Redakce</span> doporučuje</h2></div>
+                                                <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5031-odbornici-varuji-pred-novym-virem-ktery-dokaze-podpalit-mobil"><img src="https://www.applikace.cz/upload/articles/5031_nabijecka_th.jpg" class="img-responsive" alt="Odborníci varují před novým virem, který dokáže podpálit mobil"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5031-odbornici-varuji-pred-novym-virem-ktery-dokaze-podpalit-mobil">Odborníci varují před novým virem, který dokáže podpálit mobil</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5048-elite-squad-od-ubisoftu-konecne-venku-stoji-vubec-za-stazeni"><img src="https://www.applikace.cz/upload/articles/5048_blbost_th.jpg" class="img-responsive" alt="Elite Squad od Ubisoftu konečně venku. Stojí vůbec za stažení?"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5048-elite-squad-od-ubisoftu-konecne-venku-stoji-vubec-za-stazeni">Elite Squad od Ubisoftu konečně venku. Stojí vůbec za stažení?</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5049-novy-mobilni-zaklinac-se-inspiroval-u-pokemon-go"><img src="https://www.applikace.cz/upload/articles/5049_zaklinac_mobil_th.jpg" class="img-responsive" alt="Nový mobilní Zaklínač se inspiroval u Pokémon GO"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5049-novy-mobilni-zaklinac-se-inspiroval-u-pokemon-go">Nový mobilní Zaklínač se inspiroval u Pokémon GO</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5051-dockame-se-konecne-apple-storu-v-praze-neradujte-se-predcasne"><img src="https://www.applikace.cz/upload/articles/5051_apple_1200_th.jpg" class="img-responsive" alt="Dočkáme se konečně Apple Storu v Praze? Neradujte se předčasně"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5051-dockame-se-konecne-apple-storu-v-praze-neradujte-se-predcasne">Dočkáme se konečně Apple Storu v Praze? Neradujte se předčasně</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-3811-kovy-cartoon-network-a-linka-bezpeci-se-spojili-v-boji-proti-sikane"><img src="https://www.applikace.cz/upload/articles/3811_kovy-sikana_th.jpg" class="img-responsive" alt="Kovy, Cartoon Network a Linka bezpečí se spojili v boji proti šikaně"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-3811-kovy-cartoon-network-a-linka-bezpeci-se-spojili-v-boji-proti-sikane">Kovy, Cartoon Network a Linka bezpečí se spojili v boji proti...</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                					
+                                                                  
+                       
+                        
+                       
+                
+                </div>
+                              
+              
+              
+                             
+              
+			</div>            
+        </div>
+      </div>
+    </section>
+    <!--/ Newest-->
+    <script>
+    	var wpd=5;
+    function moreArticles()
+    	{
+    			 
+    			wpd+=5;
+    			
+    			startRight = (wpd & 1) ? 0:1;	 
+    			   				
+    			 $("#itemData").html('<div class="loader-ajax"><img src="https://www.applikace.cz/img/loading.gif"></div>');
+    			 $("#pager").html('');
+    			 
+    			 var ajaxUrl = 'https://www.applikace.cz/ajax/getArticles.php?startRight='+startRight+'&wpd='+wpd;
+    			 
+    			      			
+		 
+		 $.get(ajaxUrl,function(data)
+		 {
+                       	
+       	var jsonData = JSON.parse(data, true);
+
+       	document.getElementById('moreArea').innerHTML+=jsonData.items;
+       	
+       		//$("#moreArticles").html(jsonData.items);
+         // $("#pager").html(jsonData.pagination);
+                
+            });
+
+    	}	
+    </script>    
+    <!--Subscribe-->
+    <section class="section-subscribe">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+              <h2 class="text-center">Chci posílat výběr<br>nejlepších článků na e-mail</h2>
+             <div class="cta-2-form text-center" id="mailing_area">
+             
+                    <input name="mailing_address" id="mailing_address" placeholder="Zadejte Vaši e-mailovou adresu" type="email">
+                    <input class="cta-2-form-submit-btn" value="Potvrdit" type="button" onclick="addEmail()">
+               
+             </div>   
+            </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Subscribe-->
+    <!--Footer-->
+    <footer class="footer">
+      	<div class="container">
+      		<div class="row">
+            	<div class="col-lg-10-footer">
+                <div class="row" align="center">
+					<a href="https://www.applikace.cz/o-nas">O nás</a>
+                	<a href="https://www.applikace.cz/casopis">Časopis</a>
+                	<a href="https://www.applikace.cz/reklama">Reklama</a>
+                	<a href="https://www.applikace.cz/kontakt">Kontakt</a>
+                	<a href="https://www.applikace.cz/cookies">Cookies a ochrana soukromí</a>
+                </div>
+                </div>
+   		  </div>
+
+      </div>
+      
+      <div class="credits">
+      <div class="container">
+        Copyright © 2012-2021  T-Mobile Czech Republic a.s. 
+        <ul class="social-links">
+        <!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
+        <li><a href="https://www.youtube.com/channel/UCtg4AJuyT8GtOqaTGQs2kDQ" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+        <li><a href="https://www.facebook.com/applikace/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+      </ul>
+        
+        </div>
+        </div>
+    </footer>
+    <!--/ Footer-->
+    
+    <script src="https://www.applikace.cz/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.applikace.cz/js/jquery.sticky.js"></script>
+    <script src="https://www.applikace.cz/js/jquery.easing.min.js"></script>
+    <script src="https://www.applikace.cz/js/bootstrap.min.js"></script>
+    <script src="https://www.applikace.cz/js/custom.js"></script>
+    <script src="https://www.applikace.cz/js/classie.js"></script>
+    <script src="https://www.applikace.cz/js/uisearch.js"></script>
+    
+    
+        	<script>
+		
+		
+		new UISearch( document.getElementById( 'sb-search' ) );
+	</script>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.9&appId=155828927840956";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+ <script>
+    	
+    function addEmail()
+    	{
+    		
+    			
+    			 var eml = El('mailing_address').value;
+    			 if (!validateEmail(eml))
+    			 	return;
+    			 else 
+    			 {		
+    		   			 
+    			 var ajaxUrl = 'https://www.applikace.cz/ajax/addEmail.php?eml='+eml;
+    			 
+    			     			
+		 
+							 $.get(ajaxUrl,function(data)
+							 {
+					                      	
+					       	var jsonData = JSON.parse(data, true);
+									
+					       	document.getElementById('mailing_area').innerHTML=jsonData.items;
+					       	
+					       	
+					                
+					            });
+					}
+			}	
+    	
+    	function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}
+
+    </script>
+    
+    <!-- Nivo-Lightbox-master -->
+    <link href="https://www.applikace.cz/js/nivo-lightbox-master/nivo-lightbox.css" media="screen" rel="stylesheet" type="text/css" >
+    <link href="https://www.applikace.cz/js/nivo-lightbox-master/nivo-default.css" media="screen" rel="stylesheet" type="text/css" >
+   
+	<script type="text/javascript" src="https://www.applikace.cz/js/nivo-lightbox-master/nivo-lightbox.min.js"></script>
+    <script>
+$(document).ready(function(){
+    $('a').nivoLightbox();
+});
+	</script>
+
+    
+  </body>
+</html>```
