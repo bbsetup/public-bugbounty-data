@@ -1,0 +1,1 @@
+```{"status":"healthy","shards":[{"uri":"api-directions-bike-productionA-1707944830.us-east-1.elb.amazonaws.com","status":"healthy"},{"uri":"api-directions-bike-productionB-187656297.us-east-1.elb.amazonaws.com","status":"healthy"},{"uri":"api-directions-bike-productionC-718408105.us-east-1.elb.amazonaws.com","status":"healthy"}]}```
