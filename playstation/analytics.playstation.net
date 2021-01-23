@@ -1,0 +1,40 @@
+```<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="shortcut icon" href="https://partners.playstation.net/public/favicon.png" />
+    <title>PlayStation&#174; Partners Analytics</title>
+  </head>
+  <body>
+    <div class="gui-site-container">
+      <div id="header"></div>
+      <div class="gui-content-container">
+        <iframe class="embedFrame" src="https://playstationpartners-passthrough.domo.com"></iframe>
+      </div>
+      <div id="footer"></div>
+    </div>
+
+    <script src="https://partners.playstation.net/global-session/prod/widget.js"></script>
+    <script src="https://partners.playstation.net/global-user-interface/prod/global-user-interface.bundle.js"></script>
+
+    <script>
+      var globalSession = window.globalSessionWidget.init({
+        clientId: '0oacxm47ccqCKvGYN1t7',
+        signoutCallback: function() { return Promise.resolve() },
+        env: 'prod'
+      });
+
+      window.GUI = window.PartnerGlobalUserInterface.init({
+          headerSelector: '#header',
+          footerSelector: '#footer',
+          env: 'prod',
+          userLanguage: 'en-us',
+          globalSession: globalSession,
+          helpLinkUrl: '',
+          showProfile: true,
+          applicationId: '0oacxm47ccqCKvGYN1t7'
+        });
+    </script>
+  </body>
+</html>```
