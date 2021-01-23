@@ -1,0 +1,100 @@
+```
+
+<!doctype html>
+<html lang="en" class="gc-auth-page">
+<head>
+    <title>Welcome</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://store.my.games/hotbox/gem_static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://store.my.games/hotbox/gem_static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://store.my.games/hotbox/gem_static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://store.my.games/hotbox/gem_static/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://store.my.games/hotbox/gem_static/favicon/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=Intl.~locale.en%2CSymbol%2CArray.prototype.%40%40iterator"></script>
+</head>
+<body>
+    <script>
+        window.__GEMS = {
+            'no_header': 1,
+            'gc_auth': 1,
+            'gc_migrate': 1,
+            'continue': 'https://account.my.games/oauth2/login/?continue=https%3A%2F%2Faccount.my.games%2Foauth2%2F%3Fredirect_uri%3Dhttps%253A%252F%252Faocreation.com%252Fgw%252Foauth%252Fmygames%253Fdestination%253D%25252F%26lang%3Den_US%26client_id%3Daoc.my.com%26response_type%3Dcode%26signup_method%3Demail%252Cphone&amp;client_id=aoc.my.com&amp;lang=en_US&amp;signup_method=email%2Cphone',
+            'failure': 'https://account.my.games/oauth2/login/?continue=https%3A%2F%2Faccount.my.games%2Foauth2%2Flogin%2F%3Fcontinue%3Dhttps%253A%252F%252Faccount.my.games%252Foauth2%252F%253Fredirect_uri%253Dhttps%25253A%25252F%25252Faocreation.com%25252Fgw%25252Foauth%25252Fmygames%25253Fdestination%25253D%2525252F%2526lang%253Den_US%2526client_id%253Daoc.my.com%2526response_type%253Dcode%2526signup_method%253Demail%25252Cphone%26client_id%3Daoc.my.com%26lang%3Den_US%26signup_method%3Demail%252Cphone&amp;client_id=aoc.my.com&amp;lang=en_US&amp;signup_method=email%2Cphone',
+            'auth': 1,
+            'lang': 'en_US',
+            'langs_available': ['ru_RU', 'en_US', 'de_DE', 'fr_FR', 'pl_PL', 'tr_TR', 'es_ES'],
+            
+            'client_name': '',
+            
+            'client_id': 'aoc.my.com',
+            'toolbar': { },
+            'onFormChange': function (type) {
+                switch (type) {
+                    case 'signup':
+                        window.history.pushState({}, 'Signup page', '/oauth2/signup/' + window.location.search);
+                        break;
+                    case 'login':
+                        window.history.pushState({}, 'Login page', '/oauth2/login/' + window.location.search);
+                        break;
+                    case 'migrateAccount':
+                    case 'migrateAccountOauth':
+                    case 'migrateAccountAuth':
+                        window.history.pushState({}, 'Migrate account', '/oauth2/migrate/' + window.location.search);
+                        break;
+                    default: // do nothing
+                        break;
+                }
+            },
+            'onUpdateWindowSize': function () {
+                setPopupSize();
+            }
+        };
+
+        function setPopupSize(params) {
+            params = params || {};
+
+            var $elem = document.querySelector('.js-embed'),
+                clientWidth = document.documentElement.clientWidth,
+                addressBarHeight = 94,
+                initialWidth = params.width || 500,
+                initialHeight = ($elem ? $elem.offsetHeight : 500),
+                ratio = window.gemRatio;
+
+            if (!ratio) {
+                ratio = window.outerWidth / window.innerWidth;
+                window.gemRatio = ratio;
+            }
+
+            if (ratio < 1) {
+                ratio = 1;
+            }
+
+            var scrollbarWidth = (window.innerWidth - clientWidth) * ratio,
+                newWidth = initialWidth * ratio,
+                newHeight = initialHeight * ratio,
+                width = (newWidth < initialWidth ? initialWidth : newWidth) + scrollbarWidth,
+                height = (newHeight < initialHeight ? initialHeight : newHeight) + addressBarHeight;
+
+            window.resizeTo(width, height);
+        }
+    </script>
+    <script src="https://store.my.games/hotbox/gem_static/leela/header.js"></script>
+    <script src="https://store.my.games/hotbox/gem_static/account/release/main.js"></script>
+    <div class="ph-form-embed js-embed">
+        
+            
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.__GEM.embedLogin('.js-embed');
+        });
+    </script>
+
+        
+    </div>
+</body>
+</html>
+```
