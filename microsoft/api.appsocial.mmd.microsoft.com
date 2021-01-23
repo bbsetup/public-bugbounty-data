@@ -1,0 +1,4 @@
+```{
+    "ResultCode": "NotSupportedClientVersion"
+}
+```
