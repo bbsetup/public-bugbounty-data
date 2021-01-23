@@ -1,0 +1,103 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <title>::: Apollon -- The Ultimate File-Sharing App for Linux :::</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="StyleSheet" type="text/css" href="apollon.css"/> 
+  <link rel="SHORTCUT ICON" href="apollon16x16.png"/>
+</head>
+
+<body>
+  <div id="head">
+    <div id="top">
+      <div class="right_top" style="float: left;"></div>
+      <div class="left_top" style="float: right;"></div>
+      The Ultimate FileSharing App For Linux
+    </div>
+    <div id="banner"></div>
+    <div id="bottom">
+      <div class="right_bottom" style="float: left;"></div>
+      <div class="left_bottom" style="float: right;"></div>
+    </div>
+  </div>
+  
+  <div id="left">
+    <div class="left_top"></div>
+    <a href="index.html"><img src="images/menu_about.png" alt="About"/></a>
+    <a href="shots.html"><img src="images/menu_shots.png" alt=" Shots"/></a>
+    <a href="faq.html">  <img src="images/menu_faq.png"   alt="FAQ"/></a>
+    <a href="news.html"> <img src="images/menu_news.png"  alt="News"/></a>
+    <a href="files.html"><img src="images/menu_files.png" alt="Files"/></a>
+    <a href="contact.html"><img src="images/menu_contact.png" alt="Contact"/></a>
+    <a href="links.html"><img src="images/menu_links.png" alt="Links"/></a>
+    <div class="left_bottom"></div>
+  </div>
+
+  <div id="right">
+    <div class="right_top"></div>
+    <div class="right_body" style="text-align: right;">
+      <a href="http://sourceforge.net/projects/apollon">
+        <img src="http://sourceforge.net/sflogo.php?group_id=873&amp;type=2"
+             alt="SourceForge" width="135" height="38"/>
+      </a>
+      <a href="http://validator.w3.org/check/referer">
+        <img src="http://www.w3.org/Icons/valid-xhtml11"
+             alt="Valid XHTML 1.1!" height="31" width="88"/></a>
+    </div>
+    <div class="right_bottom"></div>
+    
+    <div class="right_top"></div>
+    <div class="right_body">
+      design by: <br/>Klastek Timrak<br/><br/>
+      XHTML/CSS by: <br/>Arend van Beelen jr.
+    </div>
+    <div class="right_bottom"></div>
+  </div>
+    
+  <div id="body">
+    <h1>:: Welcome! ::</h1>
+    <p class="highlight">Apollon -- The Ultimate File-Sharing App for Linux</p>
+    <p>Apollon is a Peer-to-Peer File-Sharing Program written for Linux.</p>
+    <p>Apollon uses the <a href="http://gift.sourceforge.net">giFT</a> core to
+      connect to various networks, including OpenFT, Gnutella, FastTrack</p>
+    <p>OpenFT is the homegrown giFT network, Gnutella is the network used by
+      BearShare, LimeWire and others and FastTrack is the popular network used
+      by KaZaA.</p>
+    <p>Apollon uses a plugin system which allows you to choose which network or
+      multiple networks you wish to use. Finally, plugins for the OpenNap and
+      SoulSeek networks are under development.</p>
+    <p class="highlight">Features</p>
+    <p>
+	<ul>
+	<li>Searching and downloading from several networks at the same time</li>
+	<li>Tabbed searching</li>
+	<li>Preview of mp3 and videos (you need kde-multimedia installed)</li>
+	<li>Configure giFT and your plugins with Apollon's settings dialog</li>
+	<li>FirstRun wizard to get started easily</li>
+	<li>systemtray docking</li>
+	<li>Download in the background</li>
+	<li>Apollon can connect to a remote giFT daemon</li>
+	<li>Chat for Apollon users</li>
+	<li>Comes in several languages. So far:
+	   <ul>
+		<li>Brazilian (pt_br)</li>
+		<li>Danish</li>
+		<li>Dutch</li>
+		<li>English</li>
+		<li>Finnish</li>
+		<li>French</li>
+		<li>German</li>
+		<li>Greek</li>
+		<li>Hebrew</li>
+		<li>Italian</li>
+		<li>Norwegian</li>
+		<li>Polish</li>
+		<li>Russian</li>
+		<li>Serbian</li>
+		<li>Spanish</li>
+	   </ul></li>
+	</ul>
+    </p>
+  </div>
+</body>
+</html>
+```
