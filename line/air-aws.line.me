@@ -1,0 +1,506 @@
+```<!DOCTYPE html>
+
+<html>
+<head>
+	<title>AIR</title>
+    <meta charset="utf-8" />
+    <meta name="_csrf" content="2d057c05-409f-44ed-8d5f-d8dbae2e8633" />
+    <meta name="_csrf_header" content="X-XSRF-TOKEN" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="AIR is a one-stop security platform service to respond to active mobile app issues." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AIR" />
+    <meta property="og:description" content="AIR is a one-stop security platform service to respond to active mobile app issues." />
+    <meta property="og:url" content="https://air.line.me" />
+    <meta property="og:image" content="https://air.line.me/assert/images/favicon_air.png" />
+    <meta name="google-site-verification" content="5ON1kLM1A9ANuUuc44qv5juRMKSzhpcxkIP_lhV4uqk" />
+    
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assert/images/favicon_air_16.ico" />
+    <link rel="stylesheet" type="text/css" href="/assert/css/common.css?t=2012180814" />
+
+    <!-- temporary for nts work -->
+    <link rel="stylesheet" type="text/css" href="/assert/css/nts_common.css?t=2012180814" />
+    <link rel="stylesheet" type="text/css" href="/assert/css/nts_style_guide.css?t=2012180814" />
+    <link rel="stylesheet" type="text/css" href="/assert/css/nts_nav_foot.css?t=2012180814" />
+
+    
+    <link rel="stylesheet" type="text/css" href="/assert/css/nts_main.css?t=2012180814" />
+    <link rel="stylesheet" type="text/css" href="/src/app/article/article.css?t=2012180814" />
+    <link rel="stylesheet" type="text/css" href="/src/app/index/gps.css?t=2012180814" />
+    <link rel="stylesheet" type="text/css" href="/src/app/index/index.css?t=2012180814" />
+
+    <script type="text/javascript" src="/bower_components/jquery/jquery-3.2.1.min.js?t=2012180814"></script>
+    <script type="text/javascript" src="/bower_components/jquery/jquery.cookie-1.4.1.min.js?t=2012180814"></script>
+    <script type="text/javascript" src="/bower_components/angularjs/angular.min.js?t=2012180814"></script>
+    <script type="text/javascript" src="/bower_components/angularjs/angular-translate.min.js?t=2012180814"></script>
+    <script type="text/javascript" src="/bower_components/is-js/is.min.js?t=2012180814"></script>
+    
+    
+        <script type="text/javascript" src="/assert/js/common_obfuscated.js?t=2012180814"></script>
+        <script type="text/javascript" src="/assert/js/authapi_obfuscated.js?t=2012180814"></script>
+    
+    <script type="text/javascript" src="/assert/js/nav.js?t=2012180814"></script>
+    <script type="text/javascript" src="/assert/js/default_app.js?t=2012180814"></script>
+    <script type="text/javascript" src="/assert/js/air_translate.js?t=2012180814"></script>
+
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        var productKeyPhase='';
+        {
+            var info = {'airarmor_url':'https://airarmor.line.me','aireye_url':'https://aireye.line.me','airgo_url':'https://air-aws.line.me/airgo','product_key':'air-real'};
+            productKeyPhase = info.product_key;
+        }
+        (function(g,d){
+            var v='release/stable';
+            g._trmq=g._trmq||[];g._trm=g._trm||function(){g._trmq.push(arguments)};
+            g.onerror=function(m,f,l,c){g._trm('send','exception',m,f,l,c)};
+            var h=location.protocol==='https:'?'https://d.line-scdn.net':'http://d.line-cdn.net';
+            var s=d.createElement('script');s.async=1;
+            s.src=h+'/n/_4/torimochi.js/public/v1/'+v+'/min/torimochi.js';
+            var t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);
+        })(window, document);
+        _trm('enable', {productKey: productKeyPhase});
+        _trm('send', 'pageview');
+        /*]]>*/
+    </script>
+    
+    <script type="text/javascript" src="/src/app/article/notice.js?t=2012180814"></script>
+    <script type="text/javascript" src="/src/app/article/press.js?t=2012180814"></script>
+    <script type="text/javascript" src="/src/app/index/gps.js?t=2012180814"></script>
+    <script type="text/javascript" src="/src/app/index/product.js?t=2012180814"></script>
+    <script type="text/javascript">
+        var isMainPage = true;
+    </script>
+
+</head>
+<body ng-app="App" ng-controller="appController as app" ng-cloak="" data-ng-init="init()">
+
+
+    <div class="main-bg">
+        
+<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave1">
+    <path id="feel-the-wave" d=""></path>
+    <image x="50%" y="180" width="1856" height="918" transform="translate(-900,0)" xlink:href="/assert/images/nts-main/visual_main_all.png"></image>
+    <path id="feel-the-wave-two" d=""></path>
+</svg>
+<style>
+    .wave1 {
+        min-width: 1280px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -2;
+        opacity: 1;
+    }
+</style>
+
+<script type="text/javascript" src="/bower_components/jquery/TweenMax.min.js?t=2012180814"></script>
+<script type="text/javascript" src="/bower_components/jquery/jquery.wavify.js?t=2012180814"></script>
+<script>
+    $(document).ready(function() {
+        $('#feel-the-wave').wavify({
+            container: '.main-bg',
+            height: 760,
+            bones: 3,
+            amplitude: 50,
+            color: '#c3e0ff',
+            speed: .08
+        });
+
+        $('#feel-the-wave-two').wavify({
+            container: '.main-bg',
+            height: 800,
+            bones: 2,
+            amplitude: 50,
+            color: '#fff',
+            speed: .08
+        });
+    });
+</script>
+
+    </div>
+
+
+<!-- main 화면 : start -->
+
+<div ng-app="App" ng-controller="navController as app" data-ng-init="init(true)">
+<nav class="nav" ng-class="{announce: app.noticeBarFlag, navbg: app.activeBg}">
+    <div ng-if="app.noticeBarFlag" class="announcement-bar" ng-class="{active: app.noticeBarFlag}">
+        <div class="announcement-bar-text">
+            <p class="announcement-bar-text-title truncate dib">{{app.announces[0].id==0 ? (app.announces[0].message|translate) : (app.announces[0].message)}}</p>
+            <a ng-if="app.announces[0].link_type!='none'" href="#" class="link-default dib" ng-click="app.readAnnounce()" style="vertical-align:top">{{'air_btn_learn_more'|translate}}</a>
+        </div>
+        <a href="#" class="announcement-bar-close" ng-click="app.closeAnnounce()"><img src="/assert/images/nts-nav/clear.png" /></a>
+    </div>
+
+    <div class="nav-pannel">
+        <div class="nav-left">
+            <a href="/"><img src="/assert/images/nts-nav/air_logo.png" /></a>
+        </div>
+
+        <div class="nav-right">
+            
+                <span class="nav-link what-air-btn">{{'air_footer_what_air'|translate}}</span>
+                <span class="nav-link product-btn">{{'air_nav_product'|translate}}</span>
+                <span class="nav-link contact-btn">{{'air_nav_contact'|translate}}</span>
+
+                
+                    <span class="nav-link login-btn">{{'air_btn_sign_in'|translate}}</span>
+                    <span class="nav-link"></span>
+                    <button class="btn sign-up-btn">{{'air_btn_get_started'|translate}}</button>
+                
+
+                
+            
+
+            
+        </div>
+    </div>
+    <nav ng-show="app.activeBg" class="nav-line"></nav>
+</nav>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    var user = null;
+    /*]]>*/
+</script>
+
+
+<section class="content-layout" style="position:relative">
+    <div>
+    <section class="section">
+        <div class="air-main-subsection">
+            <div class="air-main-title">Active Incident Response</div>
+            <div class="air-main-subtitle">{{'air_main_subtitle'|translate}}</div>
+            <button class="get-started-btn">{{'air_btn_get_started'|translate}}</button>
+        </div>
+        <div class="ca-button-group">
+            <!-- preload mouseover img -->
+            <button class="button-preload button-ca-airgo"></button>
+            <button class="button-preload button-ca-airarmor"></button>
+            <button class="button-preload button-ca-aireye"></button>
+
+            <a smooth="yes" href="#section_airgo">
+                <button class="button-ca button-ca-airgo"></button>
+            </a>
+            <a smooth="yes" href="#section_airarmor">
+                <button class="button-ca button-ca-airarmor"></button>
+            </a>
+            <a smooth="yes" href="#section_aireye">
+                <button class="button-ca button-ca-aireye"></button>
+            </a>
+        </div>
+        <div id="section_airgo"></div>
+    </section>
+    <section class="section airgo">
+        <div class="about-title">AIR GO</div>
+        <div class="product-desc">{{'air_airgo_product_desc'|translate}}</div>
+        <button class="learn-airgo-btn">{{'air_btn_learn_more'|translate}}</button>
+        <button ng-if="!app.hasActiveSubscription" class="new-airgo-btn">{{'air_btn_try_free'|translate}}</button>
+        <button ng-if="app.hasActiveSubscription" class="new-airgo-btn">{{'air_btn_get_started'|translate}}</button>
+        <div class="product-feature-main">
+            
+    <div class="product-feature-group">
+        <div class="product-feature">
+            <div class="feature-name">
+                <img src="/assert/images/nts-main/icon_obfuscation.png" />
+                <span>{{'air_airgo_feature_obfuscation'|translate}}</span>
+            </div>
+            <div class="feature-desc">{{'air_airgo_feature_obfuscation_desc'|translate}}</div>
+        </div>
+        <div class="product-feature">
+            <div class="feature-name">
+                <img src="/assert/images/nts-main/icon_vulnerability.png" />
+                <span>{{'air_airgo_feature_vulnerability'|translate}}</span>
+            </div>
+            <div class="feature-desc">{{'air_airgo_feature_vulnerability_desc'|translate}}</div>
+        </div>
+        <div class="product-feature last">
+            <div class="feature-name">
+                <img src="/assert/images/nts-main/icon_opensource.png" />
+                <span>{{'air_airgo_feature_opensource'|translate}}</span>
+            </div>
+            <div class="feature-desc">{{'air_airgo_feature_opensource_desc'|translate}}</div>
+        </div>
+        <div class="product-feature">
+            <div class="feature-name">
+                <img src="/assert/images/nts-main/icon_malicious.png" />
+                <span>{{'air_airgo_feature_url'|translate}}</span>
+            </div>
+            <div class="feature-desc">{{'air_airgo_feature_url_desc'|translate}}</div>
+        </div>
+        <div class="product-feature">
+            <div class="feature-name">
+                <img src="/assert/images/nts-main/icon_malware.png" />
+                <span>{{'air_airgo_feature_malware'|translate}}</span>
+            </div>
+            <div class="feature-desc">{{'air_airgo_feature_malware_desc'|translate}}</div>
+        </div>
+        <div class="product-feature last">
+            <div class="feature-name">
+                <img src="/assert/images/nts-main/icon_structure.png" />
+                <span>{{'air_airgo_feature_structure'|translate}}</span>
+            </div>
+            <div class="feature-desc">{{'air_airgo_feature_structure_desc'|translate}}</div>
+        </div>
+    </div>
+
+        </div>
+        <div id="section_airarmor"></div>
+    </section>
+
+    <section class="section airarmor">
+        <div class="about-title">AIR ARMOR</div>
+        <div class="product-desc">{{'air_airarmor_product_desc'|translate}}</div>
+        <button class="learn-airarmor-btn">{{'air_btn_learn_more'|translate}}</button>
+        <button ng-if="!app.hasLicense" class="new-business-btn">{{'air_btn_register'|translate}}</button>
+        <button ng-if="app.hasLicense" class="new-airarmor-btn">{{'air_btn_go_harden'|translate}}</button>
+        <div class="product-feature-main">
+            
+    <div class="product-feature-group">
+        <div class="product-feature">
+            <div class="feature-name">
+                <img src="/assert/images/nts-main/icon_sdk.png" />
+                <span>{{'air_airarmor_feature_sdk'|translate}}</span>
+            </div>
+            <div class="feature-desc">{{'air_airarmor_feature_sdk_desc'|translate}}</div>
+        </div>
+        <div class="product-feature">
+            <div class="feature-name">
+                <img src="/assert/images/nts-main/icon_obfuscation.png" />
+                <span>{{'air_airarmor_feature_obfuscation'|translate}}</span>
+            </div>
+            <div class="feature-desc">{{'air_airarmor_feature_obfuscation_desc'|translate}}</div>
+        </div>
+        <div class="product-feature last">
+            <div class="feature-name">
+                <img src="/assert/images/nts-main/icon_monitoring.png" />
+                <span>{{'air_airarmor_feature_monitoring'|translate}}</span>
+            </div>
+            <div class="feature-desc">{{'air_airarmor_feature_monitoring_desc'|translate}}</div>
+        </div>
+    </div>
+
+        </div>
+        <div id="section_aireye"></div>
+    </section>
+
+    <section class="section aireye">
+        <div class="about-title">AIR EYE</div>
+        <div class="product-desc">{{'air_aireye_product_desc'|translate}}</div>
+        <button class="learn-aireye-btn">{{'air_btn_learn_more'|translate}}</button>
+        <button ng-if="!app.hasLicense" class="new-business-btn">{{'air_btn_register'|translate}}</button>
+        <button ng-if="app.hasLicense" class="new-aireye-btn">{{'air_btn_go_monitoring'|translate}}</button>
+        <div class="product-feature-main">
+            
+    <div class="product-feature-group">
+        <div class="product-feature">
+            <div class="feature-name">
+                <img src="/assert/images/nts-main/icon_statistics.png" />
+                <span>{{'air_aireye_feature_statistics'|translate}}</span>
+            </div>
+            <div class="feature-desc">{{'air_aireye_feature_statistics_desc'|translate}}</div>
+        </div>
+        <div class="product-feature">
+            <div class="feature-name">
+                <img src="/assert/images/nts-main/icon_forgery.png" />
+                <span>{{'air_aireye_feature_forgery'|translate}}</span>
+            </div>
+            <div class="feature-desc">{{'air_aireye_feature_forgery_desc'|translate}}</div>
+        </div>
+        <div class="product-feature last">
+            <div class="feature-name">
+                <img src="/assert/images/nts-main/icon_abeser.png" />
+                <span>{{'air_aireye_feature_abuser'|translate}}</span>
+            </div>
+            <div class="feature-desc">{{'air_aireye_feature_abuser_desc'|translate}}</div>
+        </div>
+    </div>
+
+        </div>
+    </section>
+
+    <section class="section gpsmain" ng-app="App" ng-controller="gpsController as app" data-ng-init="init(true)">
+        <section class="section">
+            <div class="section-title gps-main-title" ng-bind-html="app.maintitleHtml('air_gps_main_title'|translate)"></div>
+            <div class="gps-desc gps-main-desc">
+                <span ng-bind-html="app.desc1Html('air_gps_msg1'|translate)"></span><br />
+                <span ng-bind-html="app.desc2Html('air_gps_msg2'|translate)"></span>
+                <div class="gps-warning">
+                    <img src="/assert/images/nts-gps/error.png" />
+                    <span>{{'air_gps_msg3'|translate}}</span>
+                </div>
+            </div>
+            <div class="gps-main-date">{{app.dateobj|airdate:'ym'}}</div>
+            <nav class="date-line"></nav>
+            <div ng-if="app.data.length>0">
+                <div class="gps-nation-layout">
+                    <div ng-repeat="n in app.data" class="gps-nation" ng-class="{last:$last, active:app.naIndex == $index}" ng-click="app.openNation($index)">
+                        <div class="gps-nation-title">
+                            <img ng-src="/assert/images/nts-gps/flag_{{n.na_code}}.png" /><span>{{n.nation}}</span>
+                        </div>
+                        <div class="gps-nation-desc">
+                            <div class="gps-nation-desc-s">{{n.cnt_google_reject}}</div>
+                            <div class="gps-nation-desc-t" ng-bind-html="app.reasonHtml('air_gps_reason'|translate)"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gps-reason-top">
+                    <div class="gps-reason-triangle" ng-class="{active0:app.naIndex==0,active1:app.naIndex==1,active2:app.naIndex==2}"></div>
+                </div>
+                <div class="gps-reason">
+                    <div class="gps-reason-title" ng-bind-html="app.reason2Html('air_gps_reason'|translate)"></div>
+                    <div class="gps-reason-header">
+                        <div class="gps-column1">{{'air_gps_field1'|translate}}</div>
+                        <div class="gps-column2">{{'air_gps_field2'|translate}}</div>
+                        <div class="gps-column3">{{'air_gps_field3'|translate}}</div>
+                    </div>
+                    <div class="gps-reason-list" ng-click-outside="app.openDetail(-1)">
+                        <div ng-repeat="p in app.data[app.naIndex].patterns" class="gps-reason-row">
+                            <div>
+                                <div class="gps-column1 content-mainpage" ng-class="{active:app.patternIndex == $index}" ng-click="app.openDetail($index)">
+                                    {{p.grp_name}}<img class="content-mainpage-plus" src="/assert/images/nts-gps/icon_plus.png" />
+                                </div>
+                                <div class="gps-column2 content">
+                                    <span ng-if="p.priority==3" class="gps-priority-3">{{'air_gps_level_3'|translate}}</span>
+                                    <span ng-if="p.priority==2" class="gps-priority-2">{{'air_gps_level_2'|translate}}</span>
+                                    <span ng-if="p.priority==1" class="gps-priority-1">{{'air_gps_level_1'|translate}}</span>
+                                </div>
+                                <div class="gps-column3 content">{{p.cnt_apps}}</div>
+                                <div ng-if="app.patternIndex == $index" class="gps-content-popup">
+                                    <div class="gps-content-title">{{'air_gps_desc'|translate}}</div>
+                                    <div class="gps-content-desc" ng-bind-html="app.getDescription(p)"></div>
+                                    <div class="gps-content-title">{{'air_gps_guide'|translate}}</div>
+                                    <div class="gps-content-desc" ng-bind-html="app.getGuide(p)"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <a href="/air/gps">
+                        <button class="more-button">{{'air_btn_view_all'|translate}}</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="section notice" ng-app="App" ng-controller="noticeController as app" data-ng-init="init(true)">
+        <section class="section">
+            <div class="section-title">{{'air_main_notice'|translate}}</div>
+            <nav class="list_line"></nav>
+            <div class="main-articles">
+                <div ng-repeat="a in app.articles" class="article">
+                    <nav class="article_line"></nav>
+                    <div ng-click="app.go(a.id)" class="article-title">{{a.title}}</div>
+                    <div class="article-content notice-summary">{{a.content | htmlToPlaintext}}</div>
+                    <div class="article-info">
+                        <span class="article-category">{{a.category | category_string}}</span>
+                        <span class="article-date">{{a.create_date | airdate}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="button-group">
+                <a href="/notice">
+                    <button class="more-button">{{'air_btn_view_all'|translate}}</button>
+                </a>
+            </div>
+        </section>
+    </section>
+
+    <section class="section press" ng-app="App" ng-controller="pressController as app" data-ng-init="init(true)">
+        <section class="section">
+            <div class="section-title">{{'air_main_press'|translate}}</div>
+            <nav class="list_line"></nav>
+            <div class="main-articles">
+                <div ng-repeat="a in app.articles" class="article">
+                    <nav class="article_line"></nav>
+                    <div class="article-img">
+                        <img ng-click="app.go(a.link)" class="press-img" ng-src="{{a.thumbnail_link}}" />
+                    </div>
+                    <div ng-click="app.go(a.link)" class="article-title">{{a.title}}</div>
+                    <div class="article-content press-summary">{{a.content | htmlToPlaintext}}</div>
+                    <div class="article-info">
+                        <span class="article-category">{{a.category | category_string}}</span>
+                        <span class="article-date">{{a.create_date | airdate}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="button-group">
+                <a href="/press">
+                    <button class="more-button">{{'air_btn_view_all'|translate}}</button>
+                </a>
+            </div>
+        </section>
+    </section>
+
+    <section class="touch">
+        <div class="touch-left"></div>
+        <div class="touch-right"></div>
+        <div class="touch-main">
+            <div class="section-title">{{'air_get_touch'|translate}}</div>
+            <div class="get_touch_desc">{{'air_get_touch_desc'|translate}}</div>
+            <div class="button-group">
+                <button class="get-started-btn">{{'air_btn_get_started'|translate}}</button>
+                <button class="download-brochure-btn">{{'air_btn_download_brochure'|translate}}</button>
+            </div>
+        </div>
+    </section>
+</div>
+</section>
+
+
+
+
+
+<div ng-app="App" ng-controller="commonController as app">
+    <div class="footer disableselect">
+        <div class="wrapper">
+            <div class="footer-left">
+                <div class="footer-left-logo">© LINE Corporation</div>
+                <ul class="footer-left-menu inline">
+                    <li><a href="" class="terms-btn">{{'air_footer_terms'|translate}}</a></li>
+                    <li><s class="breaker"></s></li>
+                    <li><a href="" class="privacy-btn">{{'air_footer_privacy'|translate}}</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-right-menu inline">
+                    <li><a href="" class="what-air-btn">{{'air_footer_what_air'|translate}}</a></li>
+                    <li><s class="breaker"></s></li>
+                    <li><a href="" class="press-btn">{{'air_footer_press'|translate}}</a></li>
+                    <li><s class="breaker"></s></li>
+                    <li><a href="" class="notice-btn">{{'air_footer_notice'|translate}}</a></li>
+                    <li><s class="breaker"></s></li>
+                    <li><a href="" class="help-btn">{{'air_footer_help'|translate}}</a></li>
+                    <li><s class="breaker"></s></li>
+                    <li><a href="" class="contact-btn">{{'air_footer_contact'|translate}}</a></li>
+                </ul>
+                <div class="footer-right-lang-sel dib" ng-click-outside="languageSelectPopFlag = false">
+                    <div class="footer-right-lang-sel-title" ng-click="languageSelectPopFlag = !languageSelectPopFlag">
+                        {{app.languageTitle}}
+                        <img class="footer-right-lang-sel-title-img vertical-center" ng-class="{active: languageSelectPopFlag}" src="/assert/images/nts-nav/trig-1.png" />
+                    </div>
+                    <ul class="footer-right-lang-sel-list" ng-class="{active: languageSelectPopFlag}">
+                        <li ng-click="app.selectLan('ja'); languageSelectPopFlag=false" ng-class="{active: select.abbr == 'ja'}">日本語</li>
+                        <li ng-click="app.selectLan('en'); languageSelectPopFlag=false" ng-class="{active: select.abbr == 'en'}">English</li>
+                        <li ng-click="app.selectLan('ko'); languageSelectPopFlag=false" ng-class="{active: select.abbr == 'ko'}">한국어</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
+
+```
