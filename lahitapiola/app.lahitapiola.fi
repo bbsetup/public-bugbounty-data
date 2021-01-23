@@ -1,0 +1,53 @@
+```<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="L채hiTapiola virhesivu">
+<meta name="author" content="L채hiTapiola">
+<link rel="icon" href="/favicon.ico">
+<title>L채hiTapiola - virhe</title>
+<style>
+a {
+	color: #2fa4e7;
+	text-decoration: none;
+}
+body, .container{
+	background-color:white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+}
+.alert-danger {
+	background-color: #f2dede;
+	border-color: #eed3d7;
+	color: #b94a48;
+}
+.alert-danger {
+	background-color: #f2dede;
+	border-color: #eed3d7;
+	color: #b94a48;
+}
+.alert {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+	<a href="https://www.lahitapiola.fi">
+	<img src="https://verkkopalvelu.tapiola.fi/otp/kuvat/LahiTapiola_Logo.png" alt="L채hiTapiola" />
+	</a>
+        <div>&nbsp;</div>
+        <div class="alert alert-dismissible alert-danger">
+            Palvelussa tapahtui virhe. <br />Siirry <a href="//www.lahitapiola.fi">www.lahitapiola.fi</a> etusivulle.<br>
+        </div>
+    </div>
+</body>
+</html>
+```
