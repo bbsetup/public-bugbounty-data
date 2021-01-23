@@ -1,0 +1,85 @@
+```<style type="text/css">
+  body {
+    margin: 0;
+  }
+
+  .seek-apply-btn:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .seek-apply-btn {
+    display: block;
+
+    height: 100%;
+    line-height: 100%;
+
+    background: #e60278;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(64, 64, 64, 0.5);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Helvetica, Arial;
+  }
+
+  .seek-apply-btn:hover {
+    background: #fd0585;
+    box-shadow: 0 1px 2px 0 rgba(64, 64, 64, 0.4);
+  }
+
+  .seek-apply-btn:active {
+    background: #cd026b;
+    box-shadow: 0 1px 2px 0 rgba(64, 64, 64, 0.7);
+  }
+
+  .seek-apply-btn__image {
+    display: inline-block;
+    height: 60%;
+    width: 76px;
+    margin: -1px 0 0 2px;
+    vertical-align: middle;
+    background: url(seek-apply-with-logo.svg) no-repeat;
+    background-size: 100% 100%;
+  }
+
+  @media(max-width: 200px) {
+    .seek-apply-btn {
+      font-size: 16px;
+    }
+
+    .seek-apply-btn__image {
+      height: 50%;
+      width: 70px;
+      margin: -1px 0 0 0px;
+    }
+  }
+</style>
+
+<!--[if lte IE 8]>
+  <style type="text/css">
+    .seek-apply-btn__image {
+      background-image: url(seek-apply-with-logo.png);
+    }
+  </style>
+<![endif]-->
+
+<a id="applyWithSeekLink" class="seek-apply-btn" href="https://www.seek.com.au/api/iam/oauth2/authorize"
+  target="_parent">
+  Apply with<span class="seek-apply-btn__image" aria-label="SEEK"></span>
+</a>
+
+<script>
+  const baseAuthUrl = 'https://www.seek.com.au/api/iam/oauth2/authorize';
+
+  const anchor = document.getElementById('applyWithSeekLink');
+  const inputParams = window.location.search.replace(/^\?/, '')
+
+  const authUrlParams = inputParams.concat('&scope=r_profile_apply&response_type=code')
+  const authUrl = baseAuthUrl.concat('?', authUrlParams)
+
+  anchor.href = authUrl
+</script>```
