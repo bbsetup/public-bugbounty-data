@@ -1,0 +1,53 @@
+```<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="apt-mirror : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>apt-mirror</title>
+  </head>
+  <body>
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/apt-mirror/apt-mirror">View on GitHub</a>
+          <h1 id="project_title">apt-mirror</h1>
+          <h2 id="project_tagline"></h2>
+        </header>
+    </div>
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Thanks for using apt-mirror.</h3>
+        <p>
+          A small tool that provides ability to mirror any parts (or
+          even all) of Debian and Ubuntu GNU/Linux distributions or any other
+          apt sources which typically provided by open source developers.
+        </p>
+        <p>
+          On Debian or Ubuntu simply:
+        </p>
+<pre><code>$ apt-get install apt-mirror
+$ nano /etc/apt/mirror.list
+$ sudo apt-mirror
+</code></pre>
+        <p>
+          This can then easily be set to run via cron or continued to run manually when you would like to update the mirror.
+        </p>
+        <h3>About</h3>
+        <p>
+          apt-mirror was originally written by <a href="http://www.highdn.com/">Dmitriy Khramtsov</a> to create his university's debian mirror and is currently Developed and Maintained by <a href="http://www.brandonholtsclaw.com">Brandon Holtsclaw</a> ( <a href="http://github.com/bholtsclaw">@imbrandon</a> ).
+        </p>
+      </section>
+    </div>
+
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+  </body>
+</html>
+```
