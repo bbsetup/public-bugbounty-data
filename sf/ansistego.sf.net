@@ -1,0 +1,25 @@
+```<html><head><title>ansistego.py</title></head><body>
+<font face=courier size=6>
+<b>ansistego.py</b><br><br>
+<font size=3>
+ansistego is a tool for terminal-level steganography of ASCII files, using
+comments to allow a script in the hidden stream to execute normally. Viewed
+with 'cat', only the front stream will be visible. Interpreted as a script,
+it will be ignored.<br><br>
+<b><pre>[p2] bt ansistego-0.9 # cat evil.py | ./ansistego.py harmless.txt > stego.py.txt 
+
+[p2] bt ansistego-0.9 # cat stego.py.txt
+This is a harmless text file.
+Get outta my home directory!
+D:<
+
+[p2] bt ansistego-0.9 # python stego.py.txt
+This is the evil.py!!!
+pwned?!
+
+[p2] bt ansistego-0.9 # </b></pre><br>
+<i>this site is a stub. please proceed to the <a href="http://www.sourceforge.net/projects/ansistego">project
+page</a>, or get yours <a href="ansistego-0.9.tgz">here</a>.</i><br>
+
+</font></font>
+</body></html>```
