@@ -1,0 +1,1 @@
+```Authorization Error: Invalid authorization token type```
