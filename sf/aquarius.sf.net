@@ -1,0 +1,22 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>WordPress &rsaquo; Error</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="wp-admin/install.css" type="text/css" />
+</head>
+<body>
+	<h1 id="logo"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></h1>
+	<p>
+<h1>Error establishing a database connection</h1>
+<p>This either means that the username and password information in your <code>wp-config.php</code> file is incorrect or we can't contact the database server at <code>mysql4-a</code>. This could mean your host's database server is down.</p>
+<ul>
+	<li>Are you sure you have the correct username and password?</li>
+	<li>Are you sure that you have typed the correct hostname?</li>
+	<li>Are you sure that the database server is running?</li>
+</ul>
+<p>If you're unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href='http://wordpress.org/support/'>WordPress Support Forums</a>.</p>
+</p>
+</body>
+</html>
+```
