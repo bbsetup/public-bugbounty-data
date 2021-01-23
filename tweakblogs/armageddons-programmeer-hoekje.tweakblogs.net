@@ -1,0 +1,355 @@
+```<!doctype html><!-- © 1998 - 2021 DPG Online Services B.V. -->
+<html lang="NL"><head>
+        
+                            <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                                                <meta name="referrer" content="origin-when-cross-origin">
+                                                <meta name="description" content="In 2010 ben ik afgestudeerd als Aerospace Engineer aan de TUDelft en nu werkzaam bij Philips Healthcare. Ik heb altijd een gezonde interesse in natuurkunde en wiskunde en sinds ik afgestudeerd ben wellicht nog wel meer. Daarnaast ben ik altijd geintresseerd in het simuleren van natuurkundige processen in verschillende programmeertalen. Dit doe ik voornamelijk om meer bedreven te raken in zowel de talen als het fysische proces. In de afgelopen 2 jaar ben ik al verschillende dingen tegengekomen die ik interessant vind en waar ik dus ook hobbymatig mee bezig ben geweest. Uiteraard is het interessant die te delen, zowel voor mijzelf als wel om een discussie erover te krijgen. Daarnaast heb ik een muzikale hobby welke af en toe de wetenschap en het programmeerwerk raken. Ook hier de bedoeling om mijn hersenspinsels en programmeerfrutsels te delen om een discussie te krijgen.">
+                            
+                    <title>Neuzelen over Wetenschap, IT en Muziek - Tweakers</title>
+        <link rel="navigator" title="Spring voorbij navigatie" href="https://armageddons-programmeer-hoekje.tweakblogs.net/#contentArea">
+
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-Regular.woff2" as="font" type="font/woff2" crossorigin>
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+
+                                            <link rel="shortcut icon" href="https://tweakers.net/favicon.ico" type="image/x-icon">
+                            <link rel="alternate" title="Neuzelen over Wetenschap, IT en Muziek - Reacties" type="application/rss+xml" href="https://armageddons-programmeer-hoekje.tweakblogs.net/feed/comments">
+                            <link rel="alternate" title="Neuzelen over Wetenschap, IT en Muziek" type="application/rss+xml" href="https://armageddons-programmeer-hoekje.tweakblogs.net/feed/">
+            
+        <script>
+                var relaxedDomain  = 'tweakers.net',
+                    tweakersConfig = {"BaseURL":"https:\/\/armageddons-programmeer-hoekje.tweakblogs.net\/","TnetBaseURL":"https:\/\/tweakers.net\/","ForumBaseURL":"https:\/\/gathering.tweakers.net\/","ImgURL":"https:\/\/tweakers.net\/","sidName":"__Secure-TnetID","UserID":0,"requestId":"Twk-eun-web2_200.1.0_8850_600bebec0ac3a0.22647450","abStatsPath":"\/ajax\/6rTU6NZ5yTpSlRK5irpKngeRMt\/","loginJs":"https:\/\/tweakers.net\/x\/scripts\/min\/login.js?1605690650","loginCss":"https:\/\/tweakers.net\/x\/styles\/profiles\/login.css?1583238942","clickToLoad":false};
+
+                try
+                {
+                    document.domain = relaxedDomain;
+                }
+                catch (e)
+                {
+                    relaxedDomain = '';
+                }
+                document.documentElement.className = 'js';
+            </script>
+        <link rel="stylesheet" href="https://tweakers.net/x/styles/tweakblogs/weblogs.css?1608112821" type="text/css">
+                                                    <style type="text/css">#banner h1, #banner .subtitle {
+	display: none;
+}
+#reacties .ownreply {
+	background-color: #D7FAD7;
+	border: 1px solid #00cc00;
+	padding: 3px;
+}
+
+                        </style>
+                        <script src="https://tweakers.net/x/build/runtime.36cbb21e.js"></script><script src="https://tweakers.net/x/build/0.3c968efc.js"></script><script src="https://tweakers.net/x/build/1.fe0b8bdd.js"></script><script src="https://tweakers.net/x/build/frontpage.e631087f.js"></script>
+
+                    <script src="https://tweakers.net/x/scripts/min/general.js?1605696722"></script>
+            <script src="https://tweakers.net/x/scripts/min/weblogs.js?1604565751"></script>
+            <script src="https://tweakers.net/x/scripts/min/rml_toolbar.js?1605522743"></script>
+                    <script>
+            var _wtq=[['_init',{"randomId":"764904397049378","trackId":"318816705845986","trackDomain":"tweakers.net","domain":"tweakers.net;gathering.tweakers.net","cookie":"1","mediaCode":"wt_mc","contentId":"","contentGroup":{"1":"tweakers.net","2":"Tweakblogs"},"executePluginFunction":"wt_urlCampaignMapper;wt_stats_plugin","requestObfuscation":true,"customParameter":{"1":"LG"}}],['_trackPage']];
+			loadJS('https://tweakers.net/x/scripts/min/160huGp.js',AbStats.wtCallBack);
+
+        </script>
+    
+    </head>
+    <body>
+
+    <div id="container">    <div id="tweakblogsNav">
+        <div class="logo"><a href="https://tweakblogs.net/"><img src="https://tweakers.net/g/if/weblogs/tweakblogs.png" width=131 height=20 alt="Tweakblogs"></a></div>
+        <ul>
+            <li><a href="https://tweakblogs.net/">Tweakblogs Home</a></li>
+            <li><a href="https://tweakers.net/">Tweakers</a></li>
+                            <li>
+                    <a href="https://tweakers.net/nieuws/">Nieuws</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/reviews/">Reviews</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/pricewatch/">Pricewatch</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/aanbod/">Vraag &amp; Aanbod</a>
+                </li>
+                            <li>
+                    <a href="https://gathering.tweakers.net/">Forum</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/carriere/">Carri&egrave;re</a>
+                </li>
+                            <li>
+                    <a href="#">Meer</a>
+                </li>
+                    </ul>
+    </div>
+    <div id="banner">
+    
+        
+    <h1><a href="https://armageddons-programmeer-hoekje.tweakblogs.net">Neuzelen over Wetenschap, IT en Muziek</a></h1>
+            <span class="subtitle">Programmeerwerk en hersenspinsels op het snijvlak van Wetenschap en IT (met een vleugje muziek)</span>
+    </div>
+            <p class="breadCrumb">
+                <a href="https://armageddons-programmeer-hoekje.tweakblogs.net/feed/" title="Neuzelen over Wetenschap, IT en Muziek" rel="nofollow">
+            <img src="https://tweakers.net/g/if/v2/icons/rss_small.png" width=12 height=12 alt="[RSS]">
+        </a>
+                                <a href="https://armageddons-programmeer-hoekje.tweakblogs.net">            Home            </a>
+            </p>
+<div id="pagebody">
+                <div class="columnwrapper normal">    <div class="content">
+			<div class="blogpost">
+				<h2><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/17882/de-warmste-%24datum-ooit%21%21%211%21">De warmste $datum ooit!!!1!</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/36083/" rel="nofollow">armageddon_2k1</a> op donderdag  1 augustus 2019 16:34 - <a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/17882/de-warmste-%24datum-ooit%21%21%211%21#reacties">Reacties (15)</a><br>Categorie: -, Views: 3.435
+				</p>
+				<div class="article"><b>Disclaimer:<br>
+Het lijkt erop dat wat mensen niet begrijpen dat ik klimaatverandering niet ontken, maar dat ik puur geinteresseerd was naar het random component ervan in een verveeld momentje in de trein. Dus bij deze, je hoeft me niet te overtuigen van het feit dat klimaatverandering echt is <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+</b><br>
+<br>
+Regelmatig lees ik op Nu.nl een bericht in de trant van:<blockquote><div class="quote">Vandaag was de warmste $datum ooit gemeten.....</div></blockquote>Met ooit gemeten bedoelen ze dan natuurlijk sinds de metingen begonnen zijn, of in ieder geval betrouwbaar te noemen zijn.<br>
+<br>
+Nou ben ik geen klimaatveranderingsscepticus (3x woordwaarde), verre van, maar ik krijg hier wel altijd jeuk van. Dat komt omdat het een sensatiebericht over een enkele meting van een specifieke datum, wat voor mijn gevoel heel weinig zegt over het totale klimaat. Als het weer zich perfect willekeurig, per specifieke datum, zou gedragen volgens de heerlijke perfecte normaalverdeling, is het dan niet zo dat je sowieso elk jaar een paar keer het maximum haalt? Na vele jaren zal dit niet meer gebeuren, indien het volledig normaal random is,<br>
+<br>
+Maar wanneer ga je over van een nieuwsbericht over een totaal random fenomeen naar een nieuwsbericht over klimaatverandering?<br>
+<br>
+Stel, de metingen beginnen in 1900, tot 2019. Je hebt dan 119 datapunten van elke dag van het jaar (we nemen schrikkeljaar eventjes niet mee. Aangezien we alleen maar de dagen met elkaar willen vergelijken (dus, als voorbeeld 13 januari 1900 met 13 januari 2019) interesseert ons het niet wat de echte temperatuur is. We zijn ook alleen maar geïnteresseerd in de waarde van die dag van een jaar met de hoogste waarde gemeten tot die tijd. De grootte van de afwijking is ook niet van belang.<br>
+<br>
+Zodoende heb ik even een simpele simulatie in Python gemaakt met de volgende uitgangspunten:<br>
+- het klimaar is constant<br>
+- we simuleren een dag als een random sample van een normaalverdeling met een gemiddelde van 0 en een standaard deviatie van 1<br>
+- elk jaar simuleren we 365 dagen en vergelijken we elke dag met de heersende maxima van die dagen<br>
+- elk jaar kijken hoeveel dagen de maxima overschreden<br>
+<br>
+Dit leidt tot het volgende extreem ingewikkelde algoritme:<br>
+<div class="code">Python:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_k">def</span> <span class="code_nf">warmest_day</span><span class="code_p">(</span><span class="code_n">from_year</span><span class="code_p">,</span> <span class="code_n">to_year</span><span class="code_p">,</span> <span class="code_n">verbose</span><span class="code_o">=</span><span class="code_bp">False</span><span class="code_p">):</span>
+    <span class="code_n">max_temps</span> <span class="code_o">=</span> <span class="code_p">[</span><span class="code_n">random</span><span class="code_o">.</span><span class="code_n">gauss</span><span class="code_p">(</span><span class="code_mi">0</span><span class="code_p">,</span> <span class="code_mi">1</span><span class="code_p">)</span> <span class="code_k">for</span> <span class="code_n">_</span> <span class="code_ow">in</span> <span class="code_nb">range</span><span class="code_p">(</span><span class="code_mi">365</span><span class="code_p">)]</span>
+    <span class="code_k">for</span> <span class="code_n">y</span> <span class="code_ow">in</span> <span class="code_nb">range</span><span class="code_p">(</span><span class="code_n">from_year</span><span class="code_p">,</span> <span class="code_n">to_year</span><span class="code_p">):</span>
+        <span class="code_n">temps</span> <span class="code_o">=</span> <span class="code_p">[</span><span class="code_n">random</span><span class="code_o">.</span><span class="code_n">gauss</span><span class="code_p">(</span><span class="code_mi">0</span><span class="code_p">,</span> <span class="code_mi">1</span><span class="code_p">)</span> <span class="code_k">for</span> <span class="code_n">_</span> <span class="code_ow">in</span> <span class="code_nb">range</span><span class="code_p">(</span><span class="code_mi">365</span><span class="code_p">)]</span>
+        <span class="code_n">hotter</span> <span class="code_o">=</span> <span class="code_p">[</span><span class="code_n">temp</span> <span class="code_o">&gt;</span> <span class="code_n">temp_max</span> <span class="code_k">for</span> <span class="code_p">(</span><span class="code_n">temp_max</span><span class="code_p">,</span> <span class="code_n">temp</span><span class="code_p">)</span> <span class="code_ow">in</span> <span class="code_nb">zip</span><span class="code_p">(</span><span class="code_n">max_temps</span><span class="code_p">,</span> <span class="code_n">temps</span><span class="code_p">)]</span>
+        <span class="code_n">max_temps</span> <span class="code_o">=</span> <span class="code_p">[</span><span class="code_n">old_temp</span> <span class="code_k">if</span> <span class="code_n">old_temp</span> <span class="code_o">&gt;</span> <span class="code_n">new_temp</span> <span class="code_k">else</span> <span class="code_n">new_temp</span> <span class="code_k">for</span> <span class="code_p">(</span><span class="code_n">old_temp</span><span class="code_p">,</span> <span class="code_n">new_temp</span><span class="code_p">)</span> <span class="code_ow">in</span> <span class="code_nb">zip</span><span class="code_p">(</span><span class="code_n">max_temps</span><span class="code_p">,</span> <span class="code_n">temps</span><span class="code_p">)]</span>
+
+        <span class="code_k">if</span> <span class="code_n">verbose</span><span class="code_p">:</span>
+            <span class="code_k">print</span><span class="code_p">(</span><span class="code_s2">&quot;{year} -&gt; Hottest days: {hottest_days}&quot;</span><span class="code_o">.</span><span class="code_n">format</span><span class="code_p">(</span><span class="code_n">year</span><span class="code_o">=</span><span class="code_n">y</span> <span class="code_o">+</span> <span class="code_mi">1</span><span class="code_p">,</span> <span class="code_n">hottest_days</span><span class="code_o">=</span><span class="code_n">hotter</span><span class="code_o">.</span><span class="code_n">count</span><span class="code_p">(</span><span class="code_bp">True</span><span class="code_p">)))</span>
+    <span class="code_k">return</span> <span class="code_n">hotter</span></pre></div></td></tr></table></div><br>
+<br>
+Welnu, *tromgeroffel*. Als we nu eens kijken wat er gebeurt als we sinds 1900 zouden meten:<br>
+<div class="code">Python:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_n">warmest_day</span><span class="code_p">(</span><span class="code_mi">1900</span><span class="code_p">,</span> <span class="code_mi">2019</span><span class="code_p">,</span> <span class="code_n">verbose</span><span class="code_o">=</span><span class="code_bp">True</span><span class="code_p">)</span></pre></div></td></tr></table></div><br>
+<br>
+Wat resulteert in:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td><td class="phphighlightcode"><div><pre>1901 -&gt; Hottest days: 185
+1902 -&gt; Hottest days: 127
+1903 -&gt; Hottest days: 68
+.....
+2012 -&gt; Hottest days: 5
+2013 -&gt; Hottest days: 2
+2014 -&gt; Hottest days: 1
+2015 -&gt; Hottest days: 1
+2016 -&gt; Hottest days: 6
+2017 -&gt; Hottest days: 2
+2018 -&gt; Hottest days: 1
+2019 -&gt; Hottest days: 2</pre></div></td></tr></table></div><br>
+<br>
+Okee, dus na 119 jaar heb je dus, puur door normale kans, al zeker een enkele maximale warme dag &quot;ooit&quot; gemeten.<br>
+<br>
+Echter, het KNMI meet in de Bilt volgens 1735 (<a href="https://www.knmi.nl/kennis-en-datacentrum/uitleg/geschiedenis-van-weermetingen)." rel="external nofollow" title="https://www.knmi.nl/kennis-en-datacentrum/uitleg/geschiedenis-van-weermetingen).">https://www.knmi.nl/kenni...edenis-van-weermetingen).</a><br>
+Als we dat invullen, krijgen we:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="phphighlightcode"><div><pre>1736 -&gt; Hottest days: 191
+1737 -&gt; Hottest days: 112
+1738 -&gt; Hottest days: 91
+...
+2015 -&gt; Hottest days: 2
+2016 -&gt; Hottest days: 1
+2017 -&gt; Hottest days: 3
+2018 -&gt; Hottest days: 1
+2019 -&gt; Hottest days: 3</pre></div></td></tr></table></div><br>
+<br>
+Okee okee, beetje zelfde gedrag dus.<br>
+Maar elke keer als ik de simulatie opnieuw draai krijg ik, vanwege de kansen, andere antwoorden. Dus als ik nou gewoon de hele simulatie 1000x draai en alleen het aantal heetste dagen van 2019 registreer kan ik het gemiddelde aantal heetste dagen in 2019, sinds 1735, berekenen.<br>
+<div class="code">Python:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_n">hotter_dist</span> <span class="code_o">=</span> <span class="code_p">[</span><span class="code_n">warmest_day</span><span class="code_p">(</span><span class="code_mi">1735</span><span class="code_p">,</span> <span class="code_mi">2019</span><span class="code_p">)</span><span class="code_o">.</span><span class="code_n">count</span><span class="code_p">(</span><span class="code_bp">True</span><span class="code_p">)</span> <span class="code_k">for</span> <span class="code_n">_</span> <span class="code_ow">in</span> <span class="code_nb">range</span><span class="code_p">(</span><span class="code_mi">1000</span><span class="code_p">)]</span>
+<span class="code_n">mean</span> <span class="code_o">=</span> <span class="code_n">numpy</span><span class="code_o">.</span><span class="code_n">mean</span><span class="code_p">(</span><span class="code_n">hotter_dist</span><span class="code_p">)</span>
+<span class="code_k">print</span><span class="code_p">(</span><span class="code_n">mean</span><span class="code_p">)</span></pre></div></td></tr></table></div><br>
+<br>
+Wat resulteert in:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>1.254</pre></div></td></tr></table></div><br>
+<br>
+Ter vergelijking doe ik ook een simulatie vanaf 1900:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>3.121</pre></div></td></tr></table></div><br>
+<br>
+Wat is nou de conclusie van dit alles?<br>
+Puur door kans, in een klimaat dat perfect neutraal blijft, zich normaal verdeeld gedraagd en er metingen zijn sinds 1735, kan je verwachten dat je gemiddeld 1.254x per jaar de allerheetste dag kan verwachten. Oftewel, de nieuwsberichten die er zijn om elke warmste dag ooit in de schijnwerpers te plaatsen kunnen enigsinds genuanceerd worden. Het neemt natuurlijk niet weg dat tegenwoordig elk jaar het gemiddeld aantal heetste dagen een stuk hoger ligt dan 1.254, dus er is uiteraard iets aan de hand, maar dat wisten we ook wel zonder mijn extreem wetenschappelijk verantwoorde analyse. Echter, gemiddeld 1.254x per jaar is het gewoon de natuur die z'n normale gangetje gaat.<br>
+<br>
+Mijn trein rijdt bijna mijn station binnen, dus tijd om de laptop dicht te klappen. Ik heb me weer vermaakt <img src="https://tweakers.net/g/s/wink.gif" width="15" height="15" alt=";)"><br>
+<br>
+<b>Edit</b><br>
+Naar aanleiding van @Goku33 heb ik even een histogram geplot van alle 1000 simulaties hoeveel warmste dagen je dan in 2019 zou moeten hebben, beginnende met de metingen in 1735:<br>
+<noscript class="lazycontent"><img src="https://tweakers.net/ext/f/iVE3ITeNbO8r7jly4jTwPcB9/full.png" class="rml" width="585" height="439" alt="Aantal theoretische hitterecords" title="Aantal theoretische hitterecords"></noscript><br>
+<br>
+Voor 2019 zitten we dit jaar al op 10 warmterecords..... oftewel, statistisch totaal onmogelijk volgens mijn model en dus, wederom een duidelijke aanwijzing van opwarming.<br>
+<br>
+@MAZZA kwam met de onderstaande link:<br>
+<noscript class="lazycontent"><img src="https://tweakers.net/camo/e5ff01dbe82050f89b3e020fab8bd65ba780a77e/?url=http%3A%2F%2Fcdn.knmi.nl%2Fsystem%2Fupdates%2Fimage3s%2F000%2F002%2F879%2Fxlarge%2FFig3_aantal_dagrecords_per_jaar_De_Bilt_KNMI.png%3F1564401368" class="rml" width="585" height="358" alt="http://cdn.knmi.nl/system/updates/image3s/000/002/879/xlarge/Fig3_aantal_dagrecords_per_jaar_De_Bilt_KNMI.png?1564401368" title="http://cdn.knmi.nl/system/updates/image3s/000/002/879/xlarge/Fig3_aantal_dagrecords_per_jaar_De_Bilt_KNMI.png?1564401368"></noscript><br>
+<br>
+Feitelijk hetzelfde wat ik heb gedaan, maar dan met de echte data en je ziet hier ook mooi dat mijn simulatie afwijkt.</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/14319/verhuizingen-anno-2016-hoe-moeilijk-kan-het-zijn">Verhuizingen anno 2016, hoe moeilijk kan het zijn</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/36083/" rel="nofollow">armageddon_2k1</a> op woensdag 28 december 2016 10:42 - <a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/14319/verhuizingen-anno-2016-hoe-moeilijk-kan-het-zijn#reacties">Reacties (31)</a><br>Categorie: -, Views: 6.510
+				</p>
+				<div class="article">Even een rant-blog, want ik word er helemaal kriegel van.<br>
+<br>
+1 Augustus hebben we een huis gekocht en per 1 December hebben we de sleutel. Ontzettend spannend natuurlijk en ontzettend leuk. Per 16 December zijn we verhuisd en met een verhuizing komen altijd de nodige verhuizingen die je door moet geven, afgezien van de verschillende abonnementen die je moet eindigen en opnieuw moet aanvragen.<br>
+<br>
+Het valt me echter op dat het in 2016 blijkbaar ontzettend moeilijk is voor bedrijven om het digitaal geregeld te krijgen dat er <i>iemand verhuist</i> danwel <i>opzegt</i>.<br>
+<br>
+Wij zijn niet de meest slordige types dus we hadden een heel lijstje klaar met alle dingen die we op moesten zeggen en hadden dat allemaal eind Oktober al aangevraagd, inclusief de aanvragen voor nieuwe abonnementen.<br>
+<br>
+Nou, hier dan de scorekaart....<br>
+<br>
+<b>Ziggo - Opgezegd per 16 december</b><ul><li>Internet was op 10 december al weg</li><li>Termijn voor Januari 2017 wordt gewoon afgeschreven</li><li>Volgens WebCare team moet ik storneren want de twee systemen zijn niet gekoppeld van oud UPC klanten</li></ul><b>Qurrent - Opgezegd per 31 december</b><ul><li>Termijn voor Januari 2017 wordt gewoon afgeschreven</li><li>Webcare team zegt dat ik <i>ook</i> moet storneren</li><li>Mijn meterstanden zijn ook niet goed doorgekomen omdat ik dat blijkbaar bij Mijn Energie had ingevuld in het Dashboard van hun en dat is alleen voor eigen boekhouding. Ondanks dat dit de link was die ze zelf stuurden/</li><li>Na stornering hebben ze het zelf ook nog een keer teruggestort</li><li>Betalingsherinnering al weer binnen gekregen</li><li>Wordt vervolgd....</li></ul><b>Bol.com</b><ul><li>In mijn Account heb ik het adres aangepast</li><li>GoPro Hero 5 Black besteld en dubbel gecheckt dat het adres klopte</li><li>Afgeleverd bij buren oude huis</li><li>Volgens WebCare team had ik mijn cookies moeten wissen</li></ul><b>Fiber Nederland</b><ul><li>Aangevraagd per 1 december in oktober omdat er geen Ziggo is in mijn nieuwe regio</li><li>Termijn voor November wordt afgeschreven</li><li>Webcare team zegt dat dat een foutje is en het teruggeboekt wordt, wat ook gebeurt.</li><li>Eind november wordt 2x een termijn bedrag afgeschreven vanwege onbetaalde termijn daarvoor....</li><li>Webcare team zegt dat dat een foutje is en het teruggeboekt wordt, wat ook gebeurt.</li><li>1 december geen internet omdat ik mijn rekeningen niet betaal</li><li>Webcare team zegt dat dat een foutje is en dat ik per 27 december internet zal hebben</li><li>27 december: Internet!</li><li>28 december wordt er 3x een termijn bedrag afgeschreven vanwege onbetaalde termijnen daarvoor...</li><li>Webcare team zegt dat dat een foutje is en het teruggeboekt wordt....</li></ul><b>Vitens Nederland</b><ul><li>Opgezegd <i>en</i> aangevraagd op oude en nieuwe adres in Oktober</li><li>Moet voor oude adres de termijn van Januari t/m Maart betalen</li><li>Webcare team zegt dat dat een foutje is en ik het niet hoef te betalen</li></ul><b>Gemeente Heumen</b><ul><li>Inschrijving per 16 december gedaan op 1 oktober</li><li>Worden gebeld dat dat niet kan want er wonen nu mensen. Aangegeven dat dat klopt, omdat dat de vorige bewoners zijn die er op 1 december uit gaan en wij er op 16 december in gaan.</li><li>Krijgen een brief dat we de vorige bewoners als huurders aan moeten merken omdat ie nu op ons adres wonen</li><li>Opgebeld om aan te geven dat er inderdaad nu mensen wonen, maar dat <i>wij</i> er op 16 december in gaan als zij er uit gaan. Dit was wel een heel moeilijk concept. Kon ik niet gewoon op 16 december me inschrijven, dat is een stuk logischer</li><li>2 december worden we gebeld dat onze huurders eruit zijn..... welke huurders? Aangegeven dat dat de vorige bewoners zijn en dat wij vanaf nu daar ingeschreven willen zijn. Dat is toch wel moeilijk, want in het systeem staat dat we op 16 december erin gaan..... RAAAAAH!</li></ul>Echt... hoe kan het? Aan onbedoelde afschrijvingen alleen al is het een kleine 300 euro. Maar zowel mijn Gas, Water, Licht, Internet <i>en</i> inschrijving waren blijkbaar ingewikkeld. De laatste keer dat ik verhuisde (in 2011) ging het allemaal een stuk makkelijker. Vooral het Bol.com verhaal ben ik verbaasd over. In mijn gegevens staat serieus mijn nieuwe adres, maar volgens Bol.com staat daar het oude.... en dan moet <i>ik</i> mijn cookies verwijderen. Ik snap er geen hol meer van.<br>
+<br>
+[/rant]</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/13537/fajita%21">Fajita!</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/36083/" rel="nofollow">armageddon_2k1</a> op dinsdag 19 juli 2016 15:27 - <a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/13537/fajita%21#reacties">Reacties (11)</a><br>Categorie: <a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/cat/2927">Muziek</a>, Views: 4.008
+				</p>
+				<div class="article">Ik heb jaren in een band gespeeld, een moderne nu-metal band zoals we onszelf graag noemden <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"> Oftewel, een paar gasten die met weemoed terug wilden naar hun 16e levensjaren toen Papa Roach, Limp Bizkit, SOAD en Rammstein ons leven domineerden. We hadden redelijk succes met de band (keertje in de Melkweg gespeeld, festivalletje op mooi groot podium in Delft, etc.) en daar hoorde natuurlijk ook stricte band-afspraken bij! Elke vrijdag oefenen, en natuurlijk thuis zoveel mogelijk voorbereiden of werken aan nieuwe nummers.<br>
+<br>
+Nu al 3 jaar niet meer in de band, maar één van de uitwerpselen van die tijd is nogal populair geworden in mijn vriendengroep en daarom is het nooit een slecht idee om dit te delen, helemaal gezien het zomer  is! Voor mij is dit nummer speciaal omdat ik met tranen rollend over mijn wangen van de meligheid dit nummer gemaakt heb met onze drummer. Voor mij is de herinnering heel speciaal. Voor de volledigheid is het leuk om het hele verhaal erbij te vertellen namelijk.<br>
+<br>
+Mijn goede vriend, de drummer, en ik besloten om op vrijdag, in plaats van oefenen in het hok, aan nieuwe nummers te werken. Heel serieus hadden we allemaal plannen, maar eerst was het belangrijk dat we avondeten zouden regelen. Zodoende liepen wij in De Coop en we hadden eigenlijk wel zin in wraps. Als snel kom je dan bij de pakjes met kruiden uit en daar viel mijn oog op de Fajita-kruiden. Al grappend zei mijn vriend &quot;Fajita!&quot; op een 'Mexicaanse toon'. Daarnaast stond een pakje Guacamole-mix en met mijn wat meer bas-stem volgde ik daarop met &quot;Guacamole!&quot;. Er ontstond een vonk en een idee was geboren! Vol inspiratie renden we naar huis en zijn we aan het opnemen geslagen. Na 1,5 uur was het resultaat daar. Een zomerhit was geboren. De reacties van onze lieftallige vriendinnen waren:<blockquote><div class="quote">Zijn jullie <i>hier</i> de hele avond mee bezig geweest?</div></blockquote><blockquote><div class="quote">Don't quit your day job....</div></blockquote>Bij de band waren ze er ook niet heel blij mee. Zodoende hebben we dit maar ondergebracht in ons eigen samenwerkingsverband, <b>The Nacho Brothers</b><br>
+<br>
+Enfin, wij hebben in de maanden daarop volgend elke keer dit nummer in een playlist geplakt tijdens een feestje ergens en zodoende is het daadwerkelijk een hitje geworden in mijn sociale kring(etje).<br>
+<br>
+Voel de zomer, voel het geluk, voel de vrijheid. Pak een biertje, bak de mais en bonen, rooster wat kip. Maal een avocadootje met wat peper, tomaat en ui en geniet. Tijd voor Fajita's met Guacamole!<br>
+<br>
+<div class="video-wrapper"><div class="video-container"><noscript class="lazycontent"><iframe width="100%" height="166" scrolling="no" src="https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F218334003&amp;show_artwork=true&amp;maxheight=166"></iframe></noscript></div></div><br>
+Voor de volledigheid. Geen kant en klare loops gebruikt. Alles met synths, gitaar, handen, mond, whatever. Vooral de 'spaanse handjeklap' was interessant om te doen.</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/12313/tijd-om-te-rocken">Tijd om te rocken</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/36083/" rel="nofollow">armageddon_2k1</a> op maandag 26 oktober 2015 13:43 - <a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/12313/tijd-om-te-rocken#reacties">Reacties (14)</a><br>Categorie: <a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/cat/2927">Muziek</a>, Views: 3.759
+				</p>
+				<div class="article">Alweer een half jaar geleden heb ik hier op Tweakblogs een nummer van mij geplaatst dat ik gemaakt had. Ik vond het erg leerzaam om daar de commentaren van te krijgen en ik vind het ook gewoon leuk iets te plaatsen natuurlijk <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+<br>
+De afgelopen maand me weer hard gemaakt voor een nummer en het valt me toch elke keer weer viest tegen om helemaal zelf een nummer te maken en verantwoordelijk te zijn voor alle instrumenten. En dan heb ik zang nog weg gelaten ook! Ik heb zelf 9 jaar in een band gespeeld en daar jamden we er altijd op los. Dit vind ik een stuk moeilijker!<br>
+<br>
+Misschien wel interessant om te weten welke apparatuur ik gebruik:<br>
+- Cubase 8 Pro <br>
+- Addictive Drums 2<br>
+- Line 6 Pod HD500<br>
+- PRS Singlecut<br>
+- Fender Jazz Bass<br>
+- Event 20/30 monitoren<br>
+- Mac Mini 2011 i5<br>
+<br>
+Wat betreft de commentaren van vorige keer met betrekking tot het platdrukken van de muziek. Ik herken het wel, maar ik moet toegeven dat het ook wel een beetje de stijl is (nu-metal) waar het nog erg prominent in is. Ik probeer het zo min mogelijk te doen, maar dat is natuurlijk ook iets wat ontzettend moeilijk is en echt te maken heeft met goeie mix-skills. <br>
+Daarnaast heb ik het gevoel dat Soundcloud ook nog het e.e.a. doet kwa platdrukken, dus ik heb hem nu ook even op Dropbox gezet.<br>
+<br>
+Het nummer dat ik nu gemaakt heb heeft iets weg van Ghinzu, Biffy Clyro en misschien nog wat Muse.<br>
+Laat aub weten wat je ervan vind en dan ga ik kijken wat ik met mijn volgende nummer nog meer kan leren!<br>
+<br>
+<div class="video-wrapper"><div class="video-container"><noscript class="lazycontent"><iframe width="100%" height="166" scrolling="no" src="https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F228814800&amp;show_artwork=true&amp;maxheight=166"></iframe></noscript></div></div><br>
+Directe SoundCloud link: <a href="https://soundcloud.com/arjan-van-wieringen/firewall" rel="external nofollow">Hier</a><br>
+En de Dropbox link: <a href="https://dl.dropboxusercontent.com/u/18317366/Firewall.mp3" rel="external nofollow">Hier</a></div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/11631/mijn-eerste-nummer-sinds-lange-tijd">Mijn eerste nummer sinds lange tijd</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/36083/" rel="nofollow">armageddon_2k1</a> op donderdag  2 april 2015 21:11 - <a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/11631/mijn-eerste-nummer-sinds-lange-tijd#reacties">Reacties (16)</a><br>Categorie: <a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/cat/2927">Muziek</a>, Views: 3.570
+				</p>
+				<div class="article">Ik heb een jaar of 7 in een nu-metal / rock bandje gezet, maar zoals het altijd gaat moet je op gegeven moment ook werken, verhuizen, trouwen (en later kinderen krijgen) en dan heb je niet zoveel tijd meer om 2x per week met een paar gasten in een muf hok te zitten jammen, stonen en algeheel chillen (good times).<br>
+<br>
+Nu ben ik pas 2 jaar gestopt met de band maar het viel me op hoeveel moeite het me kosten om toch een beetje muziek te maken thuis. Laatst toch maar een mooi set monitors gekocht, de zolder opgeknapt, Cubase 8 Pro gekocht en weer aan de slag gegaan.<br>
+<br>
+Without much further ado, het volgende subtiele en gevoelige chanson:<br>
+<br>
+<div class="video-wrapper"><div class="video-container"><noscript class="lazycontent"><iframe width="100%" height="166" scrolling="no" src="https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F198947656&amp;show_artwork=true&amp;maxheight=166"></iframe></noscript></div></div><br>
+<br>
+Laat me weten wat je ervan vind <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"> Ik ben nog op zoek naar een zanger.</div>
+			</div><div class="pageIndex"><div class="floatright"><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/page/2">Oudere posts</a> &raquo;</div></div></div><div class="sidebar">
+        <div id="loginFrame">
+            <h2 class="top">Inloggen</h2>
+            <p>Login met je  <a href="https://tweakblogs.net/login/?location=https%3A%2F%2Farmageddons-programmeer-hoekje.tweakblogs.net%2F">Tweakers profiel</a>.</p>
+        </div>
+		<div class="recentPosts">
+			<h4>Recente posts</h4><ul class="ellipsis"><li><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/17882/de-warmste-%24datum-ooit%21%21%211%21" title="De warmste $datum ooit!!!1! (15)">De warmste $datum ooit!!!1! (15)</a></li><li><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/14319/verhuizingen-anno-2016-hoe-moeilijk-kan-het-zijn" title="Verhuizingen anno 2016, hoe moeilijk kan het zijn (31)">Verhuizingen anno 2016, hoe moeilijk kan het zijn (31)</a></li><li><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/13537/fajita%21" title="Fajita! (11)">Fajita! (11)</a></li></ul>
+		</div>
+		<div class="categories">
+			<h4>Categorieën</h4><ul><li><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/cat/2301">Dev (1)</a></li><li><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/cat/2927">Muziek (3)</a></li></ul>
+		</div>
+		<div class="archives">
+			<h4>Archieven</h4><ul id="archiveList"><li class="open"><b>2019</b> (1)<ul class="ulChild"><li><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/archief/2019/08/">aug 2019</a> (1)</li></ul></li><li><b>2016</b> (2)<ul class="ulChild"><li><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/archief/2016/12/">dec 2016</a> (1)</li><li><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/archief/2016/07/">jul 2016</a> (1)</li></ul></li><li><b>2015</b> (2)<ul class="ulChild"><li><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/archief/2015/10/">okt 2015</a> (1)</li><li><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/archief/2015/04/">apr 2015</a> (1)</li></ul></li><li><b>2013</b> (1)<ul class="ulChild"><li><a href="https://armageddons-programmeer-hoekje.tweakblogs.net/blog/archief/2013/01/">jan 2013</a> (1)</li></ul></li></ul><script type="text/javascript">weblogFolderTree('archiveList');</script>
+		</div>
+		<div class="about">
+			<h4>About</h4>
+			<p>In 2010 ben ik afgestudeerd als Aerospace Engineer aan de TUDelft en nu werkzaam bij Philips Healthcare. Ik heb altijd een gezonde interesse in natuurkunde en wiskunde en sinds ik afgestudeerd ben wellicht nog wel meer. Daarnaast ben ik altijd geintresseerd in het simuleren van natuurkundige processen in verschillende programmeertalen. Dit doe ik voornamelijk om meer bedreven te raken in zowel de talen als het fysische proces.<br>
+<br>
+In de afgelopen 2 jaar ben ik al verschillende dingen tegengekomen die ik interessant vind en waar ik dus ook hobbymatig mee bezig ben geweest. Uiteraard is het interessant die te delen, zowel voor mijzelf als wel om een discussie erover te krijgen.<br>
+<br>
+Daarnaast heb ik een muzikale hobby welke af en toe de wetenschap en het programmeerwerk raken. Ook hier de bedoeling om mijn hersenspinsels en programmeerfrutsels te delen om een discussie te krijgen.</p>
+			<ul>
+				<li class="user"><a href="https://tweakers.net/gallery/36083/" rel="nofollow">Profiel op Tweakers</a></li>
+			</ul>
+		</div></div>
+</div>
+            </div>
+
+        </div>    <script>
+                if(window.BehaviourManager)BehaviourManager.exec();
+            </script>
+    <noscript>
+                    <img src="https://tweakers.net/318816705845986/wt?p=328,&amp;cg1=tweakers.net&amp;cg2=Tweakblogs&amp;cp1=LG" width="1" height="1" alt="" style="display:none">
+            </noscript>
+
+<!--
+Request ID: Twk-eun-web2_200.1.0_8850_600bebec0ac3a0.22647450
+Env: frontpage-production
+Server time: 0,0173 s (C: 0,0113 s, Q: 5; 0,0058 s, E: 1; 0,0151 s, M: 2; 0,0033 s, A: 0; 0,0000 s)
+Mem: 4644 KB
+
+Engines: (S) twk-eun-nosql2 (1)
+-->
+        
+    </body>
+</html>
+```
