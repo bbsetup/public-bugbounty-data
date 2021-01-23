@@ -1,0 +1,415 @@
+```<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+ 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-56J7JTD');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="RSK technology, building on Bitcoin to create the Internet of Value">
+    <meta name="author" content="RSK">
+    <title>RSK - Home</title>
+    <meta property="og:title" content="RSK - Home">
+    <meta property="og:description" content="RSK technology, building on Bitcoin to create the Internet of Value">
+    <meta property="og:image" content="https://rsk.co/img/og/rsk.jpg">
+    <meta property="og:url" content="https://rsk.co">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="RSK - Home">
+    <meta name="twitter:description" content="RSK technology, building on Bitcoin to create the Internet of Value">
+    <meta name="twitter:image" content="https://rsk.co/img/og/rsk.jpg">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,800&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body class="homepage">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56J7JTD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://rsk.co"><img id="logo" src="img/rsk_logo_reverse.svg" class="logo" alt="RSK"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Platforms
+                        </a>
+                        <div class="dropdown-menu bold" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="rsk-blockchain/">RSK Blockchain</a>
+                            <a class="dropdown-item" href="powpeg/">Powpeg</a>
+                            <a class="dropdown-item" href="https://www.rifos.org/" target="_blank" rel="noopener noreferrer">RSK Infrastructure Framework (RIF)</a>
+                            <a class="dropdown-item" href="enterprise/">RSK Enterprise Cloud</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lang_nav" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Build
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="https://developers.rsk.co/the-stack/" target="_blank" rel="noopener noreferrer">The Stack</a>
+                            <a class="dropdown-item" href="https://developers.rsk.co/" target="_blank" rel="noopener noreferrer">Dev Portal</a>
+                            <a class="dropdown-item" href="development-roadmap">Roadmap</a>
+                            <a class="dropdown-item" href="https://explorer.rsk.co/" target="_blank" rel="noopener noreferrer">Explorer</a>
+                            <a class="dropdown-item" href="https://stats.rsk.co/" target="_blank" rel="noopener noreferrer">Stats</a>
+                            <a class="dropdown-item" href="http://rskgasstation.info" target="_blank" rel="noopener noreferrer">Gas Station</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lang_nav" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Learn
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="https://developers.rsk.co/webinars/" target="_blank" rel="noopener noreferrer">Webinars</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lang_nav" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Use
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="https://rsk.co/defi">Open Finance</a>
+                            <a class="dropdown-item" href="https://developers.rsk.co/wallet/rwallet/" target="_blank" rel="noopener noreferrer">rWallet</a>
+                            <a class="dropdown-item" href="https://www.rifos.org/nameservice/index" target="_blank" rel="noopener noreferrer">RIF Name Service</a>
+                            <a class="dropdown-item" href="https://marketplace.rifos.org/" target="_blank" rel="noopener noreferrer">RIF Marketplace</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lang_nav" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Community
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="https://open-rsk-dev.slack.com/join/shared_invite/zt-kk3yfuc6-qn~DrpMLvADkAUu1pbAcZA#/" target="_blank" rel="noopener noreferrer">Slack</a>
+                            <a class="dropdown-item" href="https://github.com/rsksmart" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a class="dropdown-item" href="https://research.rsk.dev/" target="_blank" rel="noopener noreferrer">Forum</a>
+                            <a class="dropdown-item" href="https://fund.rsk.co/">Ecosystem Fund</a>
+                            <a class="dropdown-item" href="https://developers.rsk.co/grants/" target="_blank" rel="nofollow noopener noreferrer">Grants</a>
+                            <a class="dropdown-item" href="bounty-program/">Bounty Program</a>
+                            <a class="dropdown-item" href="https://medium.com/iovlabs-innovation-stories" target="_blank" rel="noopener noreferrer">Medium</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://blog.rsk.co/" target="_blank" rel="noopener noreferrer">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle lang_nav bold" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            English
+                        </a>
+                        <div class="dropdown-menu Objective_bold" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="ko/index.html">íêµ­ì´</a>
+                            <a class="dropdown-item" href="zh-Hans/index.html">ç®ä½ä¸­æ</a>
+                            <a class="dropdown-item" href="ja/index.html">æ¥æ¬èª</a>
+                            <a class="dropdown-item" href="es/index.html">espaÃ±ol</a>
+                            <a class="dropdown-item" href="pt-pt/index.html">portuguÃªs</a>
+                            <a class="dropdown-item" href="ru/index.html">pÑÑÑÐºÐ¸Ð¹</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Content -->
+    <!-- home -->
+    <section id="home">
+        <div class="container-fluid h-100 p-0">
+            <div id="home-content" class="row m-0">
+                <div class="container h-100">
+                    <div class="row h-100">
+                        <div id="home-text" class="col-lg-7 my-auto">
+                            <p class="home-title mb-5 mb-lg-3"><span class="bold rsk_green">Building on Bitcoin</span></br> to plant the seeds for <br>a new global <br>financial system</p>
+                        </div>
+                        <div class="col-lg-5 d-lg-none mb-5 mb-lg-3">
+                            <img src="img/pictures/home-illustration.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-open-finance">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="body-title col-lg-7 my-auto">
+                            <h2 class=" bold rsk_blue">Open Finance</h2>
+                            <h3>Trustless and transparent finance on Bitcoin.</h3>
+                            <p class="bajada">Bitcoin is the greatest DeFi opportunity and fully enabled on RSK, <span class="falsebreak-dos"><br></span>the most secure smart contract platform in the world.</p>
+                            <p class="bajada">Bitcoin users now can lend, borrow, trade and earn interest on <span class="falsebreak-dos"><br></span>their Bitcoin. <span class="bold">The future of finance is decentralized.</span></p>
+                            <p class="mt-5"><a href="https://rsk.co/openfinance/" class="blue-button pointer">Learn more</a></p>
+                        </div>
+                        <div class="col-lg-5 my-auto">
+                            <img src="img/pictures/home-openfinance-illustration.svg" class="img-fluid home-illustration float-none float-lg-right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-rsk-blockchain">
+        <img class="semi-circle-right" src="img/circles/semi-circle-right.png">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="body-title col-lg-7 my-auto text-lg-right order-lg-2">
+                            <h2><span class="bold rsk_green">RSK Blockchain <br>Smart Contracts</span> for Bitcoin</h2>
+                            <p class="bajada">RSK is the most secure contract platform in the world. RSKâs <span class="falsebreak-dos"><br></span>Contracts goal is to add value and functionality to the bitcoin <span class="falsebreak-dos"><br></span>Contracts ecosystem by enabling smart contracts, near instant <span class="falsebreak-dos"><br></span>Contracts payments, and higher scalabiity.</p>
+                            <p class="bajada"><span class="bold">RSK Blockchain is connected to Bitcoin through Merged <span class="falsebreak-dos"><br></span>Contracts Mining and the two-way peg also known as the bridge.</span></p>
+                            <p class="mt-5"><a href="https://rsk.co/rsk-blockchain/" class="green-button pointer">Learn more</a></p>
+                        </div>
+                        <div class="col-lg-5 my-auto order-lg-1">
+                            <img src="img/pictures/home-rskblockchain-illustration.svg" class="img-fluid home-illustration float-none float-lg-right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-rif">
+        <img class="circle-green" src="img/circles/circle-green.png">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="body-title col-lg-8 my-auto">
+                            <h2 class="bold rsk_blue">RSK Infrastructure <span class="falsebreak-dos"><br></span>Framework</h2>
+                            <p class="bajada">Built on top of RSK, RIF aims to create the building blocks to construct a fully <span class="falsebreak-dos"><br></span>decentralized internet to enable Decentralized Sharing Economies in order <span class="falsebreak-dos"><br></span>to empower and protect the value of individuals through identity, payments, <span class="falsebreak-dos"><br></span>storage, communications, gateways services and the marketplace.</p>
+                            <p class="bajada"><span class="bold">All RIF services are designed to facilitate the <span class="falsebreak-dos"><br></span>interaction of the global community of developers <span class="falsebreak-dos"><br></span>and the blockchain technology.</span></p>
+                            <p class="mt-5 d-block d-lg-none"><a target="_blank" rel="noopener noreferrer" href="https://rifos.org" class="blue-button pointer">Learn more</a></p>
+                        </div>
+                        <div class="col-lg-4 p-lg-0 my-auto d-none d-lg-block">
+                            <img src="img/pictures/home-rif-illustration.svg" class="img-fluid home-illustration float-none float-lg-right">
+                        </div>
+                    </div>
+                    <div class="home-rif-icons row mt-5 d-flex align-items-end d-lg-none ">
+                        <div class="col-12 col-sm-6 col-md-4 offset-md-2 text-center mb-5">
+                            <a href="https://www.rifos.org/directory" target="_blank" rel="noopener noreferrer">
+                                <img src="img/pictures/rif-identity.svg" style="width: 100px">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 text-center mb-5">
+                            <a href="https://www.rifos.org/storage" target="_blank" rel="noopener noreferrer">
+                                <img src="img/pictures/rif-storage.svg" style="width: 104px">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 text-center mb-5">
+                            <a href="https://www.rifos.org/communications" target="_blank" rel="noopener noreferrer">
+                                <img src="img/pictures/rif-communications.svg" style="width: 187.6px">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 text-center mb-5">
+                            <a href="https://www.rifos.org/marketplace" target="_blank" rel="noopener noreferrer">
+                                <img src="img/pictures/rif-marketplace.svg" style="width: 139.1px">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 offset-sm-3 offset-md-0 text-center mb-5">
+                            <a href="https://www.rifos.org/gateways" target="_blank" rel="noopener noreferrer">
+                                <img src="img/pictures/rif-gateways.svg" style="width: 117.9px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row mt-5 d-none d-lg-block">
+                        <div class="home-rif-icons col-12 d-none d-lg-flex justify-content-between align-items-end">
+                            <a href="https://www.rifos.org/directory" target="_blank" rel="noopener noreferrer">
+                                <img src="img/pictures/rif-identity.svg" style="width: 100px">
+                            </a>
+                            <a href="https://www.rifos.org/storage" target="_blank" rel="noopener noreferrer">
+                                <img src="img/pictures/rif-storage.svg" style="width: 104px">
+                            </a>
+                            <a href="https://www.rifos.org/communications" target="_blank" rel="noopener noreferrer">
+                                <img src="img/pictures/rif-communications.svg" style="width: 187.6px">
+                            </a>
+                            <a href="https://www.rifos.org/marketplace" target="_blank" rel="noopener noreferrer">
+                                <img src="img/pictures/rif-marketplace.svg" style="width: 139.1px">
+                            </a>
+                            <a href="https://www.rifos.org/gateways" target="_blank" rel="noopener noreferrer">
+                                <img src="img/pictures/rif-gateways.svg" style="width: 117.9px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row mt-lg-5 d-none d-lg-block">
+                        <div class="col-lg-12 my-auto">
+                            <p class="mt-5"><a target="_blank" rel="noopener noreferrer" href="https://rifos.org" class="blue-button pointer">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-enterprise">
+        <img class="circle-green" src="img/circles/circle-blue.png">
+        <img class="semi-circle-right" src="img/circles/semi-circle-right.png">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="body-title col-lg-7 my-auto text-lg-right order-lg-2">
+                            <img src="img/rsk_enterprise_logo.svg" class="home-enterprise-logo">
+                            <h2 class="bold rsk_green">RSK Enterprise<br>Unlocking the power <br>of value networks.</h2>
+                            <h3>Platform + Ecosystem</h3>
+                            <p class="bajada"><span class="bold">RSK Enterprise Cloud, is a platform that aims at <span class="falsebreak-dos"><br></span>enabling organizations embrace the benefits of <span class="falsebreak-dos"><br></span>blockchain technology:</span> high level of security, <span class="falsebreak-dos"><br></span>immutability - that are central to the transparency <span class="falsebreak-dos"><br></span>and data validation-, traceability amongst others.</p>
+                            <p class="mt-5"><a href="https://rsk.co/enterprise/" class="green-button pointer">Learn more</a></p>
+                        </div>
+                        <div class="col-lg-5 my-auto order-lg-1">
+                            <img src="img/pictures/home-enterprise-illustration.svg" class="img-fluid home-illustration float-none">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--newsletter-->
+    <section class="mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="body-title col-md-8 text-center">
+                    <h2><span class="bold rsk_green">Subscribe</span> to our Newsletter</h2>
+                    <!-- Begin Mailchimp Signup Form -->
+                    <div id="mc_embed_signup">
+                        <form action="https://rifos.us15.list-manage.com/subscribe/post?u=f52247d792ffe22c6f7be1379&amp;id=a7030f092b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <div class="input-group mb-3">
+                                    <input type="email" value="" name="EMAIL" class="required email form-control email-suscribe" id="mce-EMAIL" placeholder="E-mail adress">
+                                    <div class="input-group-append">
+                                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-suscribe">
+                                    </div>
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f52247d792ffe22c6f7be1379_a7030f092b" tabindex="-1" value=""></div>
+                            </div>
+                        </form>
+                    </div>
+                    <!--End mc_embed_signup-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer" class="section-bg">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img src="img/powered_by_iov.svg" class="img-fluid powered_by">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer-info">
+                            <p>Rsk is the most secure smart contract network in the world and enables decentralized applications secured by the Bitcoin Network to empower people and improve the quality of life of millions.</p>
+                            <br>
+                            <a href="https://developers.rsk.co/" rel="nofollow noopener noreferrer" target="_blank" class="footer-button rounded" title="Start now">Start now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-6">
+                                <div class="footer-links">
+                                    <ul>
+                                        <li class="negbottom">Whitepapers</li>
+                                        <li class="sub-item-footer"><a href="Whitepapers/RSK_White_Paper-ORIGINAL.pdf" rel="nofollow noopener noreferrer" target="_blank">Original</a></li>
+                                        <li class="sub-item-footer"><a href="Whitepapers/RSK-White-Paper-Updated.pdf" rel="nofollow noopener noreferrer" target="_blank">Updated</a></li>
+                                        <li class="sub-item-footer"><a href="https://docs.rifos.org/rif-whitepaper-en.pdf" rel="nofollow noopener noreferrer" target="_blank">RIF</a></li>
+                                        <li><a href="development-roadmap">Roadmap</a></li>
+                                        <li><a href="https://explorer.rsk.co/" rel="nofollow noopener noreferrer" target="_blank">Explorer</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6">
+                                <div class="footer-links">
+                                    <ul>
+                                        <li><a href="https://mining.rsk.co/" rel="nofollow noopener noreferrer" target="_blank">Merged Mining</a></li>
+                                        <li><a href="bounty-program/index.html">Bounty Program</a></li>
+                                        <li><a href="https://grants.rsk.co" rel="nofollow noopener noreferrer" target="_blank">Grants Program</a></li>
+                                        <li><a href="https://fund.rsk.co">Ecosystem Fund</a></li>
+                                        <li><a href="https://studio.rsk.co">Innovation Studio</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6">
+                                <div class="footer-links">
+                                    <ul>
+                                        <li><a href="https://rsk.co/defi">Open Finance</a></li>
+                                        <li><a href="Use-cases">Use cases</a></li>
+                                        <li><a href="faqs">Faqs</a></li>
+                                        <li><a href="https://blog.rsk.co/" rel="nofollow noopener noreferrer" target="_blank">Blog</a></li>
+                                        <li><a href="Brand_Guidelines/RSK_BrandManual_V6.pdf" rel="nofollow noopener noreferrer" target="_blank">Brand Guidelines</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6">
+                                <div class="footer-links lastcol">
+                                    <ul>
+                                        <li><a class="bold" href="terms-conditions">Terms & Conditions</a></li>
+                                        <li><a class="bold" href="privacy-policy">Privacy Policy</a></li>
+                                        <li><a class="bold" href="https://www.iovlabs.org" rel="nofollow noopener noreferrer" target="_blank">About IOVlabs</a></li>
+                                        <li><a class="bold lastcol-lastitem" href="https://www.iovlabs.org/contact.html" rel="nofollow noopener noreferrer" target="_blank">Contact IOVlabs</a></li>
+                                        <a href="https://developers.doc.rsk.co/docs" rel="nofollow noopener noreferrer" target="_blank" class="footer-button" title="Documentation">Documentation</a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://twitter.com/rsksmart" rel="nofollow noopener noreferrer" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/rsksmart" rel="nofollow noopener noreferrer" target="_blank" class="facebook"><i class="fab fa-youtube"></i></a>
+                            <a href=" https://www.facebook.com/RSKsmart/" rel="nofollow noopener noreferrer" target="_blank" class="linkedin"><i class="fab fa-facebook"></i></a>
+                            <a href="https://gitter.im/rsksmart" rel="nofollow noopener noreferrer" target="_blank" class="instagram"><i class="fab fa-gitter"></i></a>
+                            <a href="https://www.reddit.com/r/rootstock/" rel="nofollow noopener noreferrer" target="_blank" class="instagram"><i class="fab fa-reddit"></i></a>
+                            <a href="https://t.me/rskofficialcommunity" rel="nofollow noopener noreferrer" target="_blank" class="instagram"><i class="fab fa-telegram"></i></a>
+                            <a href="https://medium.com/@RSKNews" rel="nofollow noopener noreferrer" target="_blank" class="instagram"><i class="fab fa-medium"></i></a>
+                            <a href="https://www.instagram.com/rsksmart/" rel="nofollow noopener noreferrer" target="_blank" class=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12 pl-0-mobile">
+                            <p class="copyright">Copyright Â© 2015 - 2020 RSK Labs. All rights reserved.</p>
+                        </div>
+                        <div class="col-md-6 col-xs-12 pl-0-mobile">
+                            <p class="credits"> RSK Public Key (2ED3 E888 0384 D3D9 70B6 A612 BEBC A6A9 63F6 1479)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>```
