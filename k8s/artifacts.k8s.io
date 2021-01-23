@@ -1,0 +1,6 @@
+```<html>
+  <body>
+    artifacts.k8s.io
+  </body>
+</html>
+```
