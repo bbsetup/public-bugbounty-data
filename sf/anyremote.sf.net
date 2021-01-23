@@ -1,0 +1,127 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>anyRemote &middot; Control your computer with your phone</title>
+
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="anyRemote project page - Bluetooth remote control tool" />
+
+	<link rel="stylesheet" href="data/master.css" type="text/css" media="all" title="Default Style" charset="utf-8" />
+	<script src="data/effects.js" type="text/javascript" charset="utf-8"></script>
+
+	<link rel="alternate" title="Feed" href="data/feed.xml" type="application/rss+xml" />
+
+	<link rel="icon" href="data/logo-favicon.png" type="image/png" />
+	<link rel="shortcut icon" href="data/logo-favicon.png" type="image/png" />
+
+</head>
+
+<body>
+
+	<a class="skip" name="top">&nbsp;</a>
+	<a class="skip" href="#content">Skip to content</a>
+
+	<div id="head">
+		<div id="logo">
+			<h1><a href="index.html"><img src="data/logo-head.png" alt="logo" /> anyRemote</a></h1>
+		</div>
+		<div id="navigation"><div class="padding">
+			<a href="index.html" class="active"><span>About</span></a>
+			<a href="frontend.html"><span>Screenshots</span></a>
+			<a href="dload.html"><span>Download</span></a>
+			<a href="docs.html"><span>Documentation</span></a>
+			<a href="faq.html"><span>FAQ</span></a>
+			<a href="contacts.html"><span>Contact</span></a>
+			<a href="thanks.html"><span>Special Thanks</span></a>
+		</div></div>
+	</div>
+
+	<div id="sidebar"><div class="padding">
+		<dl class="info">
+			<dt>Information</dt>
+			<dd>
+				<p>The overall goal of anyRemote is to provide remote control service on Linux through Wi-Fi, 
+                                   Bluetooth or just TCP/IP connection.</p>
+				<p>anyRemote is console application, but in addition there are GUI front ends for Gnome and KDE.</p>
+
+                                <p><a href="privacy.html">Privacy policy</a></p>
+
+			</dd>
+		</dl>
+		<dl class="contact">
+			<dt>Contact</dt>
+			<dd>
+				<p>We will be pleased for any questions, suggestions, patches and examples of configuration files!</p>
+				<ul>
+					<li>Post in the <a href="http://sourceforge.net/forum/?group_id=162923">Forum</a></li>
+					<li>Please, send e-mails to  <a href="mailto:anyremote&#64;mail&#46;ru">anyremote&#64;mail&#46;ru</a></li>
+				</ul> 
+			</dd>
+		</dl>
+		<dl class="help">
+			<dt>Project needs help!</dt>
+			<dd>Help us to test anyRemote on any available cell phone. Send Your results to <a href="mailto:anyremote&#64;mail&#46;ru">anyremote@mail.ru</a></dd>
+		</dl>
+		
+				<dl class="contact"><dt></dt><dd><a href="http://sourceforge.net" title="Hosted by SourceForge"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=162923&amp;type=5" width="210" height="62" border="0" alt="Hosted by SourceForge.net" /></a></dd></dl>
+		
+		
+	</div></div> <!-- sidebar -->
+
+	<div id="content"><div class="padding">
+
+		<a class="skip" name="content">&nbsp;</a>
+
+		<h1>What is anyRemote?</h1>
+
+		<p><img src="data/logo-detail.png" alt="anyRemote logo" align="right" />
+		The overall goal of this project is to provide remote control service on Linux through Bluetooth, Wi-Fi or just TCP/IP connection.</p>
+		<p>anyRemote supports wide range of modern cell phones like Nokia, SonyEricsson, HTC, Motorola and others.</p>
+		<p>It was developed as thin communication layer between Bluetooth (or IR, Wi-Fi) capabled phone and Linux, and in principle could be configured to manage almost any software.</p>
+		<p>anyRemote is console application, but in addition there are GUI front ends for Gnome and KDE.</p>
+
+		<h1>Features</h1>
+
+		<h2>Plenty of connection variants</h2>
+		<p>anyRemote can be used by:</p>
+		<ul>
+			<li>bluetooth connection with <a href="android-client.html">Android</a> or <a href="use-jc.html">J2ME</a> (if cell phone is <a href="http://jcp.org/en/jsr/detail?id=82">JSR82</a> compatible) clients </li>
+			<li>Wi-Fi connection with <a href="android-client.html">Android</a> or <a href="use-jc.html">J2ME</a> clients if phone supports Wi-Fi</li>
+			<li>IR connection with <a href="use-jc.html">J2ME</a> client if java realization in phone supports access to IR port</li>
+			<li>ordinary TCP/IP connection with <a href="android-client.html">Android</a> or <a href="use-jc.html">J2ME</a> clients, if PC is connectable from internet</li>
+			<li>bluetooth, infrared or cable connection using <a href="http://wiki.openezx.org/AT_commands">AT</a> "modem" commands</li>
+			<li><a href="web.html">Web interface</a></li>
+			<li>it has limited <a href="bemused.html">support</a> for <a href="http://bemused.sourceforge.net/">Bemused</a> clients</li>
+			<li>experimental support for iPhone/iPod Touch with <a href="http://www.commandfusion.com/">Command Fusion</a>'s <a href="http://www.commandfusion.com/products/view/iviewer">iViewer</a> <a href="iviewer.html">installed</a></li>
+		</ul>
+
+		<h2>Plenty of compatible phones</h2>
+		<p>anyRemote should work with the following phones:</p>
+		<ul>
+		        <li><a href="android-client.html">Android</a> devices</li>
+			<li>Nokia Series40 and Series60</li>
+			<li>Sony Ericsson</li>
+			<li>Motorola</li>
+		</ul>
+		<p>You can find complete list of phones and other devices which were tested with anyRemote on the <a href="devices.html">Devices List</a></p>
+		<p>Some phone-specific details described <a href="phones.html">here</a>.</p>
+
+		<h2>Front-ends</h2>
+		<p>There are <a href="k-shots.html">KDE</a> and <a href="g-shots.html">Gnome</a> GUI frontends. In addition to this it is possible to control anyRemote with a <a href="web.html">web interface</a>.</p>
+
+		<h2>Free as in Freedom</h2>
+		<p>anyRemote is <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software</a> and released under the <a href="http://www.gnu.org/licenses/gpl-3.0.html">GNU GPL 3+</a> license.
+        </p>
+
+	</div></div> <!-- content -->
+
+	<div id="foot">
+		<p>Maintained by <a href="mailto:anyremote&#64;mail&#46;ru">anyRemote</a>. Website by <a href="http://www.martinlettner.info">m.lettner</a>.</p>
+	</div>
+
+</body>
+</html>
+```
