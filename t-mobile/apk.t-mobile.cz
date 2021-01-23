@@ -1,0 +1,8087 @@
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+		
+		
+	
+	
+		
+	
+	
+	
+	
+	
+
+	
+	
+	
+
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+	<!DOCTYPE html>
+<html class="ltr no-js no-svg no-fonts" lang="cs-CZ">
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="msapplication-tap-highlight" content="no" />
+		
+		
+			
+		
+					<title>Spolehlivý operátor pro mobilní i pevné služby - T-Mobile.cz</title>
+<script id="gdpr-script" type="text/javascript">
+	var gcConfig = {
+	cocosDelegate: '/delegate/cocos',
+	dataLayer: true,
+	
+			cookieName: "cocos",
+		texts: {
+		'quickbar-heading': 'Využíváme <span class="gc-highlight">soubory cookie.</span>',
+		'quickbar-text': 'Na našem webu získáváme, ukládáme a zpracováváme informace o jeho uživatelích (např. síťové identifikátory, údaje o tom, jak procházíte naše stránky, nebo jaký obsah vás zajímá). K tomuto účelu využíváme <a href="/ochrana-udaju/zpracovani-cookies">soubory cookies</a>, které nám pomáhají zkvalitnit naše služby a personalizovat nabídky. Pro některé účely zpracování je vyžadován Váš souhlas, který vyjádříte volbou „Přijmout“. Nastavení cookies můžete změnit volbou „Nastavení“.',
+		'quickbar-text-mobile': 'Spravovat jejich povolení můžete v&nbsp;<a href="#gdpr-settings-block" onclick="gcOpenComponent()">Nastavení</a>.',
+		'quickbar-button-settings': 'Nastavení',
+		'quickbar-button-accept-all': 'Přijmout',
+		'settings-heading': 'Nastavení cookies',
+		'settings-text-1': 'Využíváme soubory cookies, a další technologie pro lepší uživatelský zážitek na webu. Existuje několik druhů souborů cookies, které využíváme ke sběru dat. Kliknutím na přijmout vše udělujete souhlas využívat všechny typy těchto souborů pomocí kterých můžeme naplno využívat nástroje pro personalizaci nabídky služeb.',
+		'settings-text-2': 'Více informací získáte na <a href="/ochrana-udaju/zpracovani-cookies">stránce o souborech cookies</a>. Své preference nastavení cookies vyjádříte kliknutím na přepínač (přepínač v poloze vpravo vyjadřuje souhlas).',
+		'settings-label-1-heading': 'Nezbytné cookies',
+		'settings-label-1-text': 'Tyto cookies jsou <strong>nezbytné</strong> pro zajištění základní funkčnosti webových stránek a nelze bez nich realizovat požadovanou funkcionalitu (např. správné zobrazení stránky, session id, nastavení souhlasů).',
+		'settings-label-2-heading': 'Funkční cookies',
+		'settings-label-2-text': 'Trvalé cookies používáme pro zapamatování vašeho nastavení preferencí pro příští návštěvu našeho webu a umožňují zapamatování vašich předvoleb (např. uživatelské jméno, jazyk).',
+		'settings-label-3-heading': 'Výkonnostní cookies',
+		'settings-label-3-text': 'Výkonnostní cookies shromažďují anonymní informace o navštívených stránkách a o způsobu využití webu. Tyto cookies slouží ke zlepšení fungování webových stránek a umožňují nám zejména provádět relevantní úpravy za účelem lepší zákaznické zkušenosti.',
+		'settings-label-4-heading': 'Reklamní cookies',
+		'settings-label-4-text': 'Reklamní cookies se využívají k zobrazování cílené reklamy. Bez těchto cookies se vám reklamy budou nadále zobrazovat (počet zobrazení reklam nebude nižší), budou však pro vás méně relevantní.',
+		'settings-button-submit': 'Uložit vybrané',
+		'settings-button-accept-all': 'Přijmout vše',
+		'always-allowed': 'Vždy povoleno',
+		'allowed': 'povoleno',
+		'not-allowed': 'zakázáno'
+	},
+	styles: {
+		'bgr-color': '#FFFFFF',
+		'color': '#666666',
+		'heading-color': '#666666',
+		'border': '1px solid #FFFFFF',
+		'box-padding': '15px',
+		'border-radius': '6px',
+		'box-shadow': '30px 0px 30px rgba(75,17,47,0.2)',
+		'btn-fs': '16px',
+		'btn-padding': '10px 15px',
+		'btn-radius': '2px',
+		'btn-border-width': '2px',
+		'btn-white-space': 'nowrap',
+		'link': '#e20074',
+		'switch-color': "#E20000",
+		'switch-active-color': "#BFCB44",
+		'btn-highlight': '#e20074',
+		'btn-primary': 'color: #fff; background-color: #e20074; border-color: #e20074;',
+		'btn-primary-active': 'color: #fff; border-color: #b0005a; background-color: #b0005a;',
+		'btn-invisible': 'color: #e20074; background-color: transparent; border-color: transparent;',
+		'btn-outline': 'color: #000000; background-color: transparent; border-color: #000000;',
+		'custom-style': '.custom-selector { display: none; }'
+	}
+};
+		var styleString="<style>";
+styleString+=".gdpr-component-holder { font-family: arial; font-size: 16px; line-height: 28px; position: fixed; z-index: 9999; color: {{color}}; }";
+styleString+=".gdpr-component-holder .like-checkbox {	display: none; }";
+styleString+=".gdpr-component-holder * { box-sizing: border-box; }";
+styleString+=".gdpr-component-holder p { line-height: 28px; font-size: 16px; }";
+styleString+=".gdpr-component-holder a { color: {{link}}; }";
+styleString+=".gdpr-component-holder .gdpr-settings-block,";
+styleString+=".gdpr-component-holder .gdpr-quick-bar { position: fixed; bottom: 30px; left: 50%; width: 100%; max-width: 1280px; z-index: 999999; -moz-transform: translate(-50%,0); -ms-transform: translate(-50%,0); transform: translate(-50%,0); }";
+styleString+=".gdpr-component-holder .gdpr-quick-bar .gc-box { padding: 30px 40px; }";
+styleString+=".gdpr-component-holder.settings .gdpr-quick-bar.gc-box { display: none; }";
+styleString+=".gdpr-component-holder.settings .gc-backdrop { display: block; position: fixed; top: 0; left: 0; content: ''; width: 100%; height: 100%; background: #000000; background: rgba(0,0,0,0.5); z-index: 999998; }";
+styleString+=".gdpr-component-holder .gdpr-settings-block { display: none; }";
+styleString+=".gdpr-component-holder.settings .gdpr-settings-block { display: block; }";
+styleString+=".gdpr-component-holder .gdpr-settings-block { height: 85%; }";
+styleString+=".gdpr-component-holder .gdpr-settings-block .gc-box { height: 100%; padding: 0; }";
+styleString+=".gdpr-component-holder.settings .gdpr-settings-block { display: block; }";
+styleString+=".gdpr-settings-block .gc-close-settings { position: absolute; right: 15px; top: 15px; border: 0; background: transparent; font-size: 30px; }";
+styleString+=".gdpr-component-holder .gdpr-settings-block-rel { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }";
+styleString+=".gdpr-component-holder .gdpr-settings-block-inner { max-width: 950px; margin: 0 auto; padding-top: 50px; padding-left: 15px; padding-right: 15px; }";
+styleString+=".gdpr-component-holder .gdpr-component-holder p { margin: 0; margin-bottom: 15px; }";
+styleString+=".gdpr-component-holder .gc-box { background: {{bgr-color}}; border: {{border}}; padding: {{box-padding}}; border-radius: {{border-radius}}; -webkit-box-shadow: {{box-shadow}}; -moz-box-shadow: {{box-shadow}}; box-shadow: {{box-shadow}}; }";
+styleString+=".gdpr-component-holder .gc-heading { font-size: 24px; font-weight: bold; line-height: 28px; margin: 0; margin-bottom: 20px; color: {{heading-color}}; }";
+styleString+=".gdpr-component-holder .gc-heading-small { font-size: 16px; line-height: 28px; margin: 0; color: {{heading-color}}; }";
+styleString+=".gdpr-component-holder .gc-heading-big { font-size: 20px; line-height: 30px; margin: 0; margin-bottom: 15px; color: {{heading-color}}; }";
+styleString+=".gdpr-component-holder .gc-row { }";
+styleString+=".gdpr-component-holder .gc-col { float: left; padding: 0; }";
+styleString+=".gdpr-component-holder .gc-col-left { padding-right: 15px; }";
+styleString+=".gdpr-component-holder .gc-col-right { padding-left: 15px; float: right; }";
+styleString+=".gdpr-component-holder .gc-col-text { width: 70%; }";
+styleString+=".gdpr-component-holder .gc-col-buttons { width: 30%; text-align: right; padding-top: 10px; }";
+styleString+=".gdpr-component-holder .gc-settings-buttons { padding-bottom: 15px; position: absolute; width: 100%; left: 0; bottom: 0; }";
+styleString+=".gdpr-component-holder .gc-settings-buttons .gc-left-col { padding-right: 7px; }";
+styleString+=".gdpr-component-holder .gc-settings-buttons .gc-right-col { padding-left: 7px; float: right; }";
+styleString+=".gdpr-component-holder .gc-settings-buttons { padding-left: 15px; padding-right: 15px; }";
+styleString+=".gdpr-component-holder .gc-settings-buttons .gc-row { width: 500px; margin: 0 auto; }";
+styleString+=".gdpr-component-holder .gc-settings-buttons .gc-col { width: 48%; }";
+styleString+=".gdpr-component-holder .gc-settings-buttons .gc-btn { }";
+styleString+=".gdpr-component-holder .gc-form-items { margin-top: 35px; }";
+styleString+=".gdpr-component-holder .gc-col-label { width: 95%; margin-bottom: 35px; }";
+styleString+=".gdpr-component-holder .gc-col-input { position: absolute; width: 100px; top: 10px; right: 0px; }";
+styleString+=".gdpr-component-holder .gc-fancy-input { position: absolute; background: {{bgr-color}}; width: 30px; height: 25px; top: 0; right: 0; cursor: pointer; }";
+styleString+=".gdpr-component-holder .gc-fancy-track { position: absolute; width: 30px; height: 10px; top: 0px; right: 10px; display: block; border: 1px solid #CBC9C9; border-radius: 5px; background: {{switch-color}}; }";
+styleString+=".gdpr-component-holder .active .gc-fancy-track { background: {{switch-active-color}}; }";
+styleString+=".gdpr-component-holder .disabled .gc-fancy-track { background: #EDEDEF; }";
+styleString+=".gdpr-component-holder .gc-fancy-switch { position: absolute; width: 16px; height: 16px; top: -3px; right: 25px; display: block; border: 1px solid #CBC9C9; border-radius: 50%; background: #ffffff; }";
+styleString+=".gdpr-component-holder .active .gc-fancy-switch { right: 10px; }";
+styleString+=".gdpr-component-holder .disabled .gc-fancy-switch { background: #EDEDEF; }";
+styleString+=".gdpr-component-holder .gc-form { display: block; }";
+styleString+=".gdpr-component-holder .gc-text-left { text-align: left; }";
+styleString+=".gdpr-component-holder .gc-text-right { text-align: right; }";
+styleString+=".gdpr-component-holder .gc-text-center { text-align: right; }";
+styleString+=".gdpr-component-holder .gc-btn {";
+styleString+="font-size: {{btn-fs}};";
+styleString+="padding: {{btn-padding}};";
+styleString+="white-space: normal;";
+styleString+="border-width: {{btn-border-width}};";
+styleString+="transition-property: color, border-color, background;";
+styleString+="transition-duration: 0.5s;";
+styleString+="display: inline-block;";
+styleString+="margin-bottom: 0;";
+styleString+="font-weight: 700;";
+styleString+="text-align: center;";
+styleString+="vertical-align: middle;";
+styleString+="touch-action: manipulation;";
+styleString+="cursor: pointer;";
+styleString+="background-image: none;";
+styleString+="border: 1px solid transparent;";
+styleString+="white-space: {{btn-white-space}};";
+styleString+="line-height: 1.6;";
+styleString+="border-radius: {{btn-radius}};";
+styleString+="-webkit-user-select: none;";
+styleString+="-moz-user-select: none;";
+styleString+="-ms-user-select: none;";
+styleString+="user-select: none;";
+styleString+="min-width: 160px;";
+styleString+="}";
+styleString+=".gdpr-component-holder .gc-relative { position: relative; }";
+styleString+=".gdpr-component-holder .gc-highlight { color: {{btn-highlight}}; }";
+styleString+=".gdpr-component-holder .gc-btn-primary { {{btn-primary}} }";
+styleString+=".gdpr-component-holder .gc-btn-invisible { {{btn-invisible}} }";
+styleString+=".gdpr-component-holder .gc-btn-outline { {{btn-outline}} }";
+styleString+=".gdpr-component-holder .gc-btn-primary:hover,";
+styleString+=".gdpr-component-holder .gc-btn-primary:focus,";
+styleString+=".gdpr-component-holder .gc-btn-primary:active { {{btn-primary-active}} }";
+styleString+=".gdpr-component-holder .gc-overflow-block {	padding: 0; overflow: auto; }";
+styleString+=".clearfix { clear: both; }";
+styleString+=".gdpr-component-holder .gdpr-quick-bar { display: none; }";
+styleString+=".gdpr-component-holder.active .gdpr-quick-bar { display: block; }";
+styleString+=".gdpr-component-holder .gc-mobile-quick-text { display: none; }";
+styleString+="@media only screen and (max-width: 600px) {";
+styleString+=".gdpr-component-holder { font-size: 14px; }";
+styleString+=".gdpr-component-holder .gc-col-text { width: 70%; }";
+styleString+=".gdpr-component-holder .gc-col-buttons { width: 30%; }";
+styleString+=".gdpr-component-holder .gc-col-buttons .gc-btn { width: 100%; display: block; min-width: 10px; float: left; }";
+styleString+=".gdpr-component-holder .gc-btn { padding-top: 5px; padding-bottom: 5px; font-size: 16px; }";
+styleString+=".gdpr-component-holder .gc-col-buttons .gc-btn-invisible { display: none; }";
+styleString+=".gdpr-component-holder .gdpr-quick-bar .gc-box { padding: 15px; }";
+styleString+=".gdpr-component-holder .gdpr-quick-bar .gc-heading { font-size: 16px; margin: 0; display: inline; font-weight: normal; }";
+styleString+=".gdpr-component-holder .gc-heading .gc-highlight { font-weight: bold; }";
+styleString+=".gdpr-component-holder .gdpr-settings-block,";
+styleString+=".gdpr-component-holder .gdpr-quick-bar { bottom: 0; }";
+styleString+=".gdpr-component-holder .gc-settings-buttons { padding-left: 0; padding-right: 0; }";
+styleString+=".gdpr-component-holder .gc-settings-buttons .gc-row { width: 100%; position: relative; padding: 0 15px; }";
+styleString+=".gdpr-component-holder .gc-settings-buttons .gc-btn { width: 100%; min-width: 100px; }";
+styleString+=".gdpr-component-holder .gc-col-buttons.gc-col-right { padding-left: 0; }";
+styleString+=".gdpr-component-holder .gc-desk-quick-text { display: none; }";
+styleString+=".gdpr-component-holder .gc-mobile-quick-text { display: block; }";
+styleString+="}";
+styleString+=".gc-input-info { position: absolute; position: absolute; top: -5px; right: 50px; font-size: 14px; white-space: nowrap; } .gc-allowed { display: none; } .gc-not-allowed { display: block; } .gc-input-holder.active .gc-allowed { display: block; } .gc-input-holder.active .gc-not-allowed { display: none; }";
+styleString+="{{custom-style}}";
+styleString+="</style>";
+var htmlString='<div class="gdpr-component-holder" id="gdpr-component"><div class="gc-backdrop"></div><div class="gdpr-quick-bar"><div class="gc-box"><div class="gc-row"><div class="gc-col gc-col-left gc-col-text"><h2 class="gc-heading">{{quickbar-heading}}</h2><p class="gc-m0 gc-desk-quick-text">{{quickbar-text}}</p><p class="gc-m0 gc-mobile-quick-text">{{quickbar-text-mobile}}</p></div><div class="gc-col gc-col-right gc-col-buttons"><a href="#gdpr-settings-block" class="gc-btn gc-btn-invisible" id="settingsOpen">{{quickbar-button-settings}}</a><button class="gc-btn gc-btn-primary" id="gc-accept-all">{{quickbar-button-accept-all}}</button></div></div><div class="clearfix"></div></div></div><div class="gdpr-settings-block" id="gdpr-settings-block"><div class="gc-box"><div class="gdpr-settings-block-rel"><button type="button" class="gc-close-settings" id="gc-close-settings" aria-label="Close"><span aria-hidden="true">&times;</span></button><div class="gdpr-settings-block-inner"><form method="POST" class="gc-form" id="gc-form" name="gcForm"><h2 class="gc-heading text-center">{{settings-heading}}</h2><div class="gc-overflow-block gc-relative" id="gc-overflow-block"><div class="gc-overflow-block-inner"><p>{{settings-text-1}}</p><p>{{settings-text-2}}</p><div class="gc-form-items"><div class="gc-row gc-relative"><div class="gc-col gc-col-label"><h3 class="gc-heading-big">{{settings-label-1-heading}}</h3><p>{{settings-label-1-text}}</p></div><div class="gc-col gc-col-input"><div class="gc-text-right gc-input-holder"><div class="gc-input-info">{{always-allowed}}</div><input type="checkbox" name="mandatory" class="gc-input" disabled="disabled" checked="checked" value="true"><div class="gc-fancy-input"><div class="gc-fancy-track"></div><div class="gc-fancy-switch"></div></div></div></div></div><div class="gc-row gc-relative clearfix"><div class="gc-col gc-col-label"><h3 class="gc-heading-big">{{settings-label-2-heading}}</h3><p>{{settings-label-2-text}}</p></div><div class="gc-col gc-col-input"><div class="gc-text-right gc-input-holder"><div class="gc-input-info"><span class="gc-allowed">{{allowed}}</span><span class="gc-not-allowed">{{not-allowed}}</span></div><input type="checkbox" name="funkcni" class="gc-input" value="true"><div class="gc-fancy-input"><div class="gc-fancy-track"></div><div class="gc-fancy-switch"></div></div></div></div></div><div class="gc-row gc-relative clearfix"><div class="gc-col gc-col-label"><h3 class="gc-heading-big">{{settings-label-3-heading}}</h3><p>{{settings-label-3-text}}</p></div><div class="gc-col gc-col-input"><div class="gc-text-right gc-input-holder"><div class="gc-input-info"><span class="gc-allowed">{{allowed}}</span><span class="gc-not-allowed">{{not-allowed}}</span></div><input type="checkbox" name="statisticke" class="gc-input" value="true"><div class="gc-fancy-input"><div class="gc-fancy-track"></div><div class="gc-fancy-switch"></div></div></div></div></div><div class="gc-row gc-relative clearfix"><div class="gc-col gc-col-label"><h3 class="gc-heading-big">{{settings-label-4-heading}}</h3><p>{{settings-label-4-text}}</p></div><div class="gc-col gc-col-input"><div class="gc-text-right gc-input-holder"><div class="gc-input-info"><span class="gc-allowed">{{allowed}}</span><span class="gc-not-allowed">{{not-allowed}}</span></div><input type="checkbox" name="reklamni" class="gc-input" value="true"><div class="gc-fancy-input"><div class="gc-fancy-track"></div><div class="gc-fancy-switch"></div></div></div></div></div></div></div></div><div class="gc-settings-buttons"><div class="gc-row"><div class="gc-col gc-left-col"><button type="submit" id="gc-save-button" class="gc-btn gc-btn-primary">{{settings-button-submit}}</button></div><div class="gc-col gc-right-col"><button class="gc-btn gc-btn-invisible" id="gc-select-all" type="button">{{settings-button-accept-all}}</button></div></div></div></form></div><div class="clearfix"></div></div></div></div></div>';
+if(!Array.prototype.indexOf){Array.prototype.indexOf=function(c,d){for(var b=(d||0),a=this.length;
+b<a;
+b++){if(this[b]===c){return b
+}}return -1
+}
+}if(!document.getElementsByClassName){document.getElementsByClassName=function(c){var g=document,f,e,b,a=[];
+if(g.querySelectorAll){return g.querySelectorAll("."+c)
+}if(g.evaluate){e=".//*[contains(concat(' ', @class, ' '), ' "+c+" ')]";
+f=g.evaluate(e,g,null,0,null);
+while((b=f.iterateNext())){a.push(b)
+}}else{f=g.getElementsByTagName("*");
+e=new RegExp("(^|\\s)"+c+"(\\s|$)");
+for(b=0;
+b<f.length;
+b++){if(e.test(f[b].className)){a.push(f[b])
+}}}return a
+}
+}(function(f,a){f=f||"docReady";
+a=a||window;
+var g=[];
+var b=false;
+var e=false;
+function d(){if(!b){b=true;
+for(var h=0;
+h<g.length;
+h++){g[h].fn.call(window,g[h].ctx)
+}g=[]
+}}function c(){if(document.readyState==="complete"){d()
+}}a[f]=function(j,h){if(typeof j!=="function"){throw new TypeError("callback for docReady(fn) must be a function")
+}if(b){setTimeout(function(){j(h)
+},1);
+return
+}else{g.push({fn:j,ctx:h})
+}if(document.readyState==="complete"||(!document.attachEvent&&document.readyState==="interactive")){setTimeout(d,1)
+}else{if(!e){if(document.addEventListener){document.addEventListener("DOMContentLoaded",d,false);
+window.addEventListener("load",d,false)
+}else{document.attachEvent("onreadystatechange",c);
+window.attachEvent("onload",d)
+}e=true
+}}}
+})("docReady",window);
+function getCookieByName(b){var a=document.cookie.match(new RegExp("(^| )"+b+"=([^;]+)"));
+var c;
+if(a){c=unescape(a[2])
+}else{c=null
+}return c
+}function setCookie(b,f,c){var e=new Date();
+e.setTime(e.getTime()+(c*24*60*60*1000));
+var a="expires="+e.toUTCString();
+document.cookie=b+"="+f+";"+a+";path=/"
+}function deleteCookie(a){document.cookie=a+"=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+}function addEvent(c,b,a){if(b.addEventListener){b.addEventListener(c,a,false)
+}else{if(b.attachEvent){b.attachEvent("on"+c,a)
+}else{b["on"+c]=a
+}}}function addClass(a,b){a.className+=" "+b
+}function removeClass(b,a){b.className=b.className.replace(a,"")
+}function b64DecodeUnicode(a){return decodeURIComponent(atob(a).split("").map(function(b){return"%"+("00"+b.charCodeAt(0).toString(16)).slice(-2)
+}).join(""))
+}function isScriptAllowed(b){var a=false;
+if(consentCookie!=null){Object.keys(consentCookie).forEach(function(c){if(c==b){a=this[c]
+}},consentCookie)
+}return a
+}function gcOpenComponent(){var a=document.getElementById("gdpr-component");
+addClass(a,"active");
+addClass(a,"settings");
+componentEditMode=true
+}function replaceInTemplate(e,d){var f=Object.keys(d);
+var a=Object.keys(d).map(function(h){return d[h]
+});
+var g=f.length;
+for(i=0;
+i<g;
+i++){var b=f[i];
+var c=a[i];
+e=e.split("{{"+b+"}}").join(c)
+}return e
+}function sendForm(){if(!sending){sending=true;
+var d=document.getElementsByClassName("gc-input");
+var e="";
+for(var b=0;
+b<d.length;
+b++){var c="false";
+if(d[b].checked){c="true"
+}e+=d[b].name+"="+c;
+if(b!=d.length-1){e+="&"
+}}var a=new XMLHttpRequest();
+a.onreadystatechange=function(){if(a.readyState==4&&a.status==200){removeClass(document.getElementById("gdpr-component"),"active");
+removeClass(document.getElementById("gdpr-component"),"settings");
+pushToDataLayer(consentCookie,e);
+sending=false
+}};
+a.open("post",gcConfig.cocosDelegate);
+a.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+a.send(e)
+}}function connectCocos(){var a=new XMLHttpRequest();
+a.onreadystatechange=function(){if(this.readyState==4&&this.status==200){compareCookieCocos(a.responseText)
+}};
+a.open("GET",gcConfig.cocosDelegate,true);
+a.send()
+}function compareCookieCocos(b){var a=getCookieByName(gcConfig.cookieName);
+if(a==null){console.log("compare cookie neexistuje")
+}else{console.log("compare cookie existuje!!!");
+a=JSON.parse(JSON.parse(getCookieByName(gcConfig.cookieName)));
+console.log(a);
+console.log(b);
+if(JSON.stringify(a)===JSON.stringify(b)){console.log("souhlasi")
+}else{console.log("nesouhlasi")
+}}}function pushToDataLayer(g,f){console.log("pushing to datalayer");
+window.dataLayer=window.dataLayer||[];
+if(g=="none"){window.dataLayer.push({fnCookie:g,statCookie:g,adCookie:g})
+}else{if(f){var e=f.split("&");
+var a={};
+for(var c=0;
+c<e.length;
+c++){var d=e[c].split("=");
+var b=(d[1]==="true");
+a[d[0]]=b
+}window.dataLayer.push({event:"consentChanged",fnCookie:a.funkcni,statCookie:a.statisticke,adCookie:a.reklamni})
+}else{window.dataLayer.push({fnCookie:g.funkcni,statCookie:g.statisticke,adCookie:g.reklamni})
+}}}var componentEditMode=false;
+var consentCookie;
+var sending=false;
+consentCookie=getCookieByName(gcConfig.cookieName);
+if(consentCookie==null){console.log("cookie neexistuje");
+if(gcConfig.dataLayer){pushToDataLayer("none")
+}}else{console.log("cookie existuje!!!");
+consentCookie=JSON.parse(decodeURI(getCookieByName(gcConfig.cookieName)));
+if(gcConfig.dataLayer){pushToDataLayer(consentCookie)
+}}function gcComponent(){console.log("gdpr component inited");
+var d=replaceInTemplate(htmlString,gcConfig.texts);
+var g=replaceInTemplate(styleString,gcConfig.styles);
+var m=document.head||document.getElementsByTagName("head")[0];
+var j=document.body||document.getElementsByTagName("body")[0];
+var c=document.createElement("style");
+m.appendChild(c);
+c.type="text/css";
+if(c.styleSheet){c.styleSheet.cssText=g
+}else{c.appendChild(document.createTextNode(g))
+}var l=document.createElement("div");
+l.setAttribute("id","gdpr-component");
+addClass(l,"gdpr-component-holder");
+addClass(l,"attached");
+j.appendChild(l);
+l.innerHTML=d;
+document.gcForm.action=gcConfig.cocosDelegate;
+var b=document.getElementById("settingsOpen");
+b.onclick=function(q){q.preventDefault();
+addClass(l,"settings");
+componentEditMode=false
+};
+var p=document.getElementById("gc-close-settings");
+p.onclick=function(q){q.preventDefault();
+removeClass(l,"settings");
+if(componentEditMode){removeClass(l,"active")
+}};
+var e=document.getElementById("gc-select-all");
+e.onclick=function(){var r=document.getElementById("gc-form");
+var s=r.querySelectorAll('input[type="checkbox"]');
+for(var q=0;
+q<s.length;
+q++){if(!s[q].checked){n[q].onclick()
+}}sendForm();
+return false
+};
+var o=document.getElementById("gc-accept-all");
+o.onclick=function(){e.onclick();
+return false
+};
+var k=document.getElementById("gc-save-button");
+k.onclick=function(){sendForm();
+return false
+};
+var n=document.getElementsByClassName("gc-input-holder");
+var h=document.getElementsByClassName("gc-input");
+if(consentCookie==null){addClass(l,"active")
+}else{removeClass(l,"active");
+for(i=0;
+i<h.length;
+i++){if(isScriptAllowed(h[i].name)){h[i].checked=true
+}else{if(i!=0){h[i].checked=false
+}}}}for(i=0;
+i<n.length;
+i++){if(h[i].checked==true){addClass(n[i],"active")
+}else{removeClass(n[i],"active")
+}if(h[i].disabled==true){addClass(n[i],"disabled")
+}n[i].setAttribute("index",i);
+n[i].onclick=function(){var q=this.getAttribute("index");
+if(h[q].checked==true){if(h[q].disabled!=true){removeClass(n[q],"active");
+h[q].checked=false
+}}else{if(h[q].disabled!=true){addClass(n[q],"active");
+h[q].checked=true
+}}}
+}var f=document.getElementById("gc-overflow-block");
+var a=Math.round(document.documentElement.clientHeight*0.55);
+f.style.css=a+"px";
+window.onresize=function(){a=Math.round(document.documentElement.clientHeight*0.55);
+f.style.height=a+"px"
+};
+window.onresize()
+}function loadScript(b,c,a){if(isScriptAllowed(c)){Object.keys(consentCookie).forEach(function(e){if(e==c&&this[e]==true){var d=document.createElement("script");
+if(a.indexOf("#")===0){var d=document.createElement("script");
+document.getElementById(a.substring(1)).append(d)
+}else{switch(a){case"head":document.head.append(d);
+break;
+case"body-start":document.body.prepend(d);
+break;
+case"body-end":document.body.append(d);
+break;
+default:document.head.append(d)
+}}d.onload=function(){};
+d.setAttribute("src",b)
+}else{}},consentCookie)
+}};
+		
+		docReady(function() {
+			gcComponent();
+		});
+</script>
+	<script id="criticaljs" type="text/javascript">
+		/*! EnhanceJS: a progressive enhancement boilerplate. Copyright 2014 @scottjehl, Filament Group, Inc. Licensed MIT */
+(function(i,c){var g=i.setTimeout;
+var f={};
+var l=i.document,b=l.documentElement,k=l.head||l.getElementsByTagName("head")[0],e="fullcss",j="fulljs",h="fonts",a=["enhanced"];
+function d(m,q,s){var o=i.document.createElement("link");
+var p=q||i.document.getElementsByTagName("script")[0];
+var r=i.document.styleSheets;
+o.rel="stylesheet";
+o.href=m;
+o.media="only x";
+p.parentNode.insertBefore(o,p);
+function n(){var u;
+for(var t=0;
+t<r.length;
+t++){if(r[t].href&&r[t].href.indexOf(m)>-1){u=true
+}}if(u){o.media=s||"all"
+}else{g(n)
+}}n();
+return o
+}f.loadCSS=d;
+if(!("querySelector" in l)){return
+}b.className+=" "+a.join(" ");
+i.enhance=f
+}(this));
+var className="no-js",el=document.documentElement;
+if(el.classList){el.classList.remove(className)
+}else{el.className=el.className.replace(new RegExp("(^|\\b)"+className.split(" ").join("|")+"(\\b|$)","gi")," ")
+}document.documentElement.className+=" js";	</script>
+
+	<link id="criticalcss" rel="stylesheet" href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;tmcz-theme&#x2f;css&#x2f;critical&#x2f;critical&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611136240000" />
+
+	<script id="jquery" src="https://static2.t-mobile.cz/shared-libs-theme/js/jquery/jquery-1.11.2.js"></script>
+	<script src="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;tmcz-theme&#x2f;js&#x2f;libs&#x2e;js&#x3f;browserId&#x3d;other&#x26;minifierType&#x3d;js&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611136240000"></script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+		<meta content="U nás pořídíte tarifní řešení pro celou domácnost - neomezené volání, mobilní data, domácí internet i digitální TV. Výhodně v Magentě 1." lang="cs-CZ" name="description" />
+	
+
+	
+
+	
+		<meta content="t-mobile, tmobile, telefony, tarify, internet, předplacená karta, můj t-mobile, mobilní, telekomunikační, spolehlivý, operátor" lang="cs-CZ" name="keywords" />
+	
+
+
+
+<link href="https://static2.t-mobile.cz/tmcz-theme/images/favicon.ico" rel="Shortcut Icon" />
+
+
+
+
+
+	<link href="https&#x3a;&#x2f;&#x2f;www&#x2e;t-mobile&#x2e;cz&#x2f;osobni" rel="canonical" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	if (window.enhance && typeof window.enhance.loadCSS === 'function') {
+		var jQueryNode = document.getElementById('jquery');
+		enhance.loadCSS('https://static2.t-mobile.cz/tmcz-theme/css/aui.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611136240000', jQueryNode);
+	} else {
+			var ss = window.document.createElement('link');
+			ss.type = 'text/css';
+			ss.rel = 'stylesheet';
+			ss.media = 'screen';
+			ss.href = 'https://static2.t-mobile.cz/tmcz-theme/css/aui.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611136240000';
+			document.getElementsByTagName('head')[0].appendChild(ss);
+	}
+</script>
+<noscript>
+	<link href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;tmcz-theme&#x2f;css&#x2f;aui&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611136240000" rel="stylesheet" media="screen" />
+</noscript>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	if (window.enhance && typeof window.enhance.loadCSS === 'function') {
+		var jQueryNode = document.getElementById('jquery');
+		enhance.loadCSS('https://static2.t-mobile.cz/html/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611136240000', jQueryNode);
+	} else {
+			var ss = window.document.createElement('link');
+			ss.type = 'text/css';
+			ss.rel = 'stylesheet';
+			ss.media = 'screen';
+			ss.href = 'https://static2.t-mobile.cz/html/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611136240000';
+			document.getElementsByTagName('head')[0].appendChild(ss);
+	}
+</script>
+<noscript>
+	<link href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;html&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611136240000" rel="stylesheet" media="screen" />
+</noscript>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	if (window.enhance && typeof window.enhance.loadCSS === 'function') {
+		var jQueryNode = document.getElementById('jquery');
+		enhance.loadCSS('https://static2.t-mobile.cz/lwe-eshop-portlet/css/vue.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611136290000', jQueryNode);
+	} else {
+			var ss = window.document.createElement('link');
+			ss.type = 'text/css';
+			ss.rel = 'stylesheet';
+			ss.media = 'screen';
+			ss.href = 'https://static2.t-mobile.cz/lwe-eshop-portlet/css/vue.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611136290000';
+			document.getElementsByTagName('head')[0].appendChild(ss);
+	}
+</script>
+<noscript>
+	<link href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;lwe-eshop-portlet&#x2f;css&#x2f;vue&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611136290000" rel="stylesheet" media="screen" />
+</noscript>
+
+	
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	if (window.enhance && typeof window.enhance.loadCSS === 'function') {
+		var jQueryNode = document.getElementById('jquery');
+		enhance.loadCSS('https://static2.t-mobile.cz/html/portlet/journal_content/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000', jQueryNode);
+	} else {
+			var ss = window.document.createElement('link');
+			ss.type = 'text/css';
+			ss.rel = 'stylesheet';
+			ss.media = 'screen';
+			ss.href = 'https://static2.t-mobile.cz/html/portlet/journal_content/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000';
+			document.getElementsByTagName('head')[0].appendChild(ss);
+	}
+</script>
+<noscript>
+	<link href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;html&#x2f;portlet&#x2f;journal_content&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611174037000" rel="stylesheet" media="screen" />
+</noscript>
+
+	
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	if (window.enhance && typeof window.enhance.loadCSS === 'function') {
+		var jQueryNode = document.getElementById('jquery');
+		enhance.loadCSS('https://static2.t-mobile.cz/service-catalog-portlet/resources/css/ext.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611136272000', jQueryNode);
+	} else {
+			var ss = window.document.createElement('link');
+			ss.type = 'text/css';
+			ss.rel = 'stylesheet';
+			ss.media = 'screen';
+			ss.href = 'https://static2.t-mobile.cz/service-catalog-portlet/resources/css/ext.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611136272000';
+			document.getElementsByTagName('head')[0].appendChild(ss);
+	}
+</script>
+<noscript>
+	<link href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;service-catalog-portlet&#x2f;resources&#x2f;css&#x2f;ext&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611136272000" rel="stylesheet" media="screen" />
+</noscript>
+
+	
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	if (window.enhance && typeof window.enhance.loadCSS === 'function') {
+		var jQueryNode = document.getElementById('jquery');
+		enhance.loadCSS('https://static2.t-mobile.cz/html/portlet/login/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000', jQueryNode);
+	} else {
+			var ss = window.document.createElement('link');
+			ss.type = 'text/css';
+			ss.rel = 'stylesheet';
+			ss.media = 'screen';
+			ss.href = 'https://static2.t-mobile.cz/html/portlet/login/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000';
+			document.getElementsByTagName('head')[0].appendChild(ss);
+	}
+</script>
+<noscript>
+	<link href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;html&#x2f;portlet&#x2f;login&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611174037000" rel="stylesheet" media="screen" />
+</noscript>
+
+	
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	if (window.enhance && typeof window.enhance.loadCSS === 'function') {
+		var jQueryNode = document.getElementById('jquery');
+		enhance.loadCSS('https://static2.t-mobile.cz/html/portlet/staging_bar/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000', jQueryNode);
+	} else {
+			var ss = window.document.createElement('link');
+			ss.type = 'text/css';
+			ss.rel = 'stylesheet';
+			ss.media = 'screen';
+			ss.href = 'https://static2.t-mobile.cz/html/portlet/staging_bar/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000';
+			document.getElementsByTagName('head')[0].appendChild(ss);
+	}
+</script>
+<noscript>
+	<link href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;html&#x2f;portlet&#x2f;staging_bar&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611174037000" rel="stylesheet" media="screen" />
+</noscript>
+
+	
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	if (window.enhance && typeof window.enhance.loadCSS === 'function') {
+		var jQueryNode = document.getElementById('jquery');
+		enhance.loadCSS('https://static2.t-mobile.cz/html/portlet/document_library/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000', jQueryNode);
+	} else {
+			var ss = window.document.createElement('link');
+			ss.type = 'text/css';
+			ss.rel = 'stylesheet';
+			ss.media = 'screen';
+			ss.href = 'https://static2.t-mobile.cz/html/portlet/document_library/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000';
+			document.getElementsByTagName('head')[0].appendChild(ss);
+	}
+</script>
+<noscript>
+	<link href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;html&#x2f;portlet&#x2f;document_library&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611174037000" rel="stylesheet" media="screen" />
+</noscript>
+
+	
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	if (window.enhance && typeof window.enhance.loadCSS === 'function') {
+		var jQueryNode = document.getElementById('jquery');
+		enhance.loadCSS('https://static2.t-mobile.cz/html/portlet/dynamic_data_mapping/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000', jQueryNode);
+	} else {
+			var ss = window.document.createElement('link');
+			ss.type = 'text/css';
+			ss.rel = 'stylesheet';
+			ss.media = 'screen';
+			ss.href = 'https://static2.t-mobile.cz/html/portlet/dynamic_data_mapping/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000';
+			document.getElementsByTagName('head')[0].appendChild(ss);
+	}
+</script>
+<noscript>
+	<link href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;html&#x2f;portlet&#x2f;dynamic_data_mapping&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611174037000" rel="stylesheet" media="screen" />
+</noscript>
+
+	
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	if (window.enhance && typeof window.enhance.loadCSS === 'function') {
+		var jQueryNode = document.getElementById('jquery');
+		enhance.loadCSS('https://static2.t-mobile.cz/html/portlet/journal/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000', jQueryNode);
+	} else {
+			var ss = window.document.createElement('link');
+			ss.type = 'text/css';
+			ss.rel = 'stylesheet';
+			ss.media = 'screen';
+			ss.href = 'https://static2.t-mobile.cz/html/portlet/journal/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000';
+			document.getElementsByTagName('head')[0].appendChild(ss);
+	}
+</script>
+<noscript>
+	<link href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;html&#x2f;portlet&#x2f;journal&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611174037000" rel="stylesheet" media="screen" />
+</noscript>
+
+	
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	if (window.enhance && typeof window.enhance.loadCSS === 'function') {
+		var jQueryNode = document.getElementById('jquery');
+		enhance.loadCSS('https://static2.t-mobile.cz/html/portlet/blogs/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000', jQueryNode);
+	} else {
+			var ss = window.document.createElement('link');
+			ss.type = 'text/css';
+			ss.rel = 'stylesheet';
+			ss.media = 'screen';
+			ss.href = 'https://static2.t-mobile.cz/html/portlet/blogs/css/main.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611174037000';
+			document.getElementsByTagName('head')[0].appendChild(ss);
+	}
+</script>
+<noscript>
+	<link href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;html&#x2f;portlet&#x2f;blogs&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611174037000" rel="stylesheet" media="screen" />
+</noscript>
+
+	
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+		var Liferay = {
+			Browser: {
+				acceptsGzip: function() {
+					return true;
+				},
+				getMajorVersion: function() {
+					return 0.0;
+				},
+				getRevision: function() {
+					return "";
+				},
+				getVersion: function() {
+					return "";
+				},
+				isAir: function() {
+					return false;
+				},
+				isChrome: function() {
+					return false;
+				},
+				isFirefox: function() {
+					return false;
+				},
+				isGecko: function() {
+					return false;
+				},
+				isIe: function() {
+					return false;
+				},
+				isIphone: function() {
+					return false;
+				},
+				isLinux: function() {
+					return false;
+				},
+				isMac: function() {
+					return false;
+				},
+				isMobile: function() {
+					return false;
+				},
+				isMozilla: function() {
+					return false;
+				},
+				isOpera: function() {
+					return false;
+				},
+				isRtf: function() {
+					return false;
+				},
+				isSafari: function() {
+					return false;
+				},
+				isSun: function() {
+					return false;
+				},
+				isWap: function() {
+					return false;
+				},
+				isWapXhtml: function() {
+					return false;
+				},
+				isWebKit: function() {
+					return false;
+				},
+				isWindows: function() {
+					return false;
+				},
+				isWml: function() {
+					return false;
+				}
+			},
+
+			Data: {
+				NAV_SELECTOR: '#navigation',
+
+				isCustomizationView: function() {
+					return false;
+				},
+
+				notices: [
+					null
+
+					
+
+					
+				]
+			},
+
+			ThemeDisplay: {
+				
+					getLayoutId: function() {
+						return "1";
+					},
+					getLayoutURL: function() {
+						return "https://www.t-mobile.cz/osobni";
+					},
+					getParentLayoutId: function() {
+						return "0";
+					},
+					isPrivateLayout: function() {
+						return "false";
+					},
+					isVirtualLayout: function() {
+						return false;
+					},
+				
+
+				getBCP47LanguageId: function() {
+					return "cs-CZ";
+				},
+				getCDNBaseURL: function() {
+					return "https://static2.t-mobile.cz";
+				},
+				getCDNDynamicResourcesHost: function() {
+					return "https://static2.t-mobile.cz";
+				},
+				getCDNHost: function() {
+					return "https://static2.t-mobile.cz";
+				},
+				getCompanyId: function() {
+					return "10703";
+				},
+				getCompanyGroupId: function() {
+					return "10741";
+				},
+				getDefaultLanguageId: function() {
+					return "cs_CZ";
+				},
+				getDoAsUserIdEncoded: function() {
+					return "";
+				},
+				getLanguageId: function() {
+					return "cs_CZ";
+				},
+				getParentGroupId: function() {
+					return "63037020";
+				},
+				getPathContext: function() {
+					return "";
+				},
+				getPathImage: function() {
+					return "https://static2.t-mobile.cz/image";
+				},
+				getPathJavaScript: function() {
+					return "/html/js";
+				},
+				getPathMain: function() {
+					return "/c";
+				},
+				getPathThemeImages: function() {
+					return "https://static2.t-mobile.cz/tmcz-theme/images";
+				},
+				getPathThemeRoot: function() {
+					return "/tmcz-theme";
+				},
+				getPlid: function() {
+					return "63078851";
+				},
+				getPortalURL: function() {
+					return "https://www.t-mobile.cz";
+				},
+				getPortletSetupShowBordersDefault: function() {
+					return false;
+				},
+				getScopeGroupId: function() {
+					return "63037020";
+				},
+				getScopeGroupIdOrLiveGroupId: function() {
+					return "63037020";
+				},
+				getSessionId: function() {
+					
+						
+						
+							return "";
+						
+					
+				},
+				getSiteGroupId: function() {
+					return "63037020";
+				},
+				getURLControlPanel: function() {
+					return "/group/control_panel?refererPlid=63078851";
+				},
+				getURLHome: function() {
+					return "https\x3a\x2f\x2fwww\x2et-mobile\x2ecz\x2fweb\x2fguest";
+				},
+				getUserId: function() {
+					return "10706";
+				},
+				getUserName: function() {
+					
+						
+						
+							return "";
+						
+					
+				},
+				isAddSessionIdToURL: function() {
+					return false;
+				},
+				isFreeformLayout: function() {
+					return false;
+				},
+				isImpersonated: function() {
+					return false;
+				},
+				isSignedIn: function() {
+					return false;
+				},
+				isStateExclusive: function() {
+					return false;
+				},
+				isStateMaximized: function() {
+					return false;
+				},
+				isStatePopUp: function() {
+					return false;
+				}
+			},
+
+			PropsValues: {
+				NTLM_AUTH_ENABLED: false
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		
+
+		Liferay.AUI = {
+			getAvailableLangPath: function() {
+				return 'available_languages.jsp?browserId=other&themeId=tmcz_WAR_tmcztheme&colorSchemeId=01&minifierType=js&companyId=10703&languageId=cs_CZ&b=6201&t=1611174577000';
+			},
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return 'https://static2.t-mobile.cz/combo/?browserId=other&minifierType=&languageId=cs_CZ&b=6201&t=1611174577000&';
+			},
+			getFilter: function() {
+				
+					
+						return 'min';
+					
+					
+					
+				
+			},
+			getJavaScriptRootPath: function() {
+				return '/html/js';
+			},
+			getLangPath: function() {
+				return 'aui_lang.jsp?browserId=other&themeId=tmcz_WAR_tmcztheme&colorSchemeId=01&minifierType=js&languageId=cs_CZ&b=6201&t=1611174577000';
+			}
+		};
+
+		Liferay.authToken = 'SiagtDES';
+
+		
+
+		Liferay.currentURL = '\x2fosobni';
+		Liferay.currentURLEncoded = '%2Fosobni';
+	// ]]>
+</script>
+
+
+	
+		
+			
+				<script src="https://static2.t-mobile.cz/html/js/barebone.jsp?browserId=other&amp;themeId=tmcz_WAR_tmcztheme&amp;colorSchemeId=01&amp;minifierType=js&amp;minifierBundleId=javascript.barebone.files&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611174577000" type="text/javascript"></script>
+			
+			
+		
+	
+	
+
+
+<script type="text/javascript">
+	// <![CDATA[
+		
+
+			
+
+			
+				Liferay.Portlet.list = ['56_INSTANCE_mt6Oul2q2OXA', '56_INSTANCE_E1dFL49DLJTd', '56_INSTANCE_90PkjgU7txxU', '56_INSTANCE_WwWGrKbglpEG', 'leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J', '56_INSTANCE_BcbdFzGNbCdB', 'leadcollector_WAR_leadcollectorportlet_INSTANCE_7946TJm3dhcw', 'serviceCatalog_WAR_servicecatalogportlet', 'welcomeportlet_WAR_navigationportlet', '58', 'corporatebreadcrumbs_WAR_breadcrumbsportlet', 'lweminicart_WAR_lweeshopportlet', 'navigationportlet_WAR_navigationportlet', 'footerportlet_WAR_navigationportlet', '20', '164', '15', '161', '183', 'searchsmallcorporateportlet_WAR_searchcorporateportlet_INSTANCE_0g0budeGj6ON'];
+			
+		
+
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+	
+		
+
+			
+
+			
+		
+		
+	
+
+
+
+	
+		
+		
+
+			
+
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+				<script src="https://static.t-mobile.cz/cdn/js/vue-axios/v1/vue-axios.min.js" type="text/javascript"></script>
+
+	
+
+				<script src="https://static2.t-mobile.cz/lwe-eshop-portlet/js/polyfill-functions.js?browserId=other&amp;minifierType=js&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611136290000" type="text/javascript"></script>
+
+	
+
+				<script src="https://static2.t-mobile.cz/lwe-eshop-portlet/js/ajaxUI.js?browserId=other&amp;minifierType=js&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611136290000" type="text/javascript"></script>
+
+	
+
+				<script src="https://static2.t-mobile.cz/html/portlet/journal/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611174037000" type="text/javascript"></script>
+
+	
+
+				<script src="https://static2.t-mobile.cz/html/portlet/journal/js/navigation.js?browserId=other&amp;minifierType=js&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611174037000" type="text/javascript"></script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	if (window.enhance && typeof window.enhance.loadCSS === 'function') {
+		var jQueryNode = document.getElementById('jquery');
+		enhance.loadCSS('https://static2.t-mobile.cz/tmcz-theme/css/custom.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611136240000', jQueryNode);
+	} else {
+			var ss = window.document.createElement('link');
+			ss.type = 'text/css';
+			ss.rel = 'stylesheet';
+			ss.media = 'screen';
+			ss.href = 'https://static2.t-mobile.cz/tmcz-theme/css/custom.css?browserId=other&themeId=tmcz_WAR_tmcztheme&minifierType=css&languageId=cs_CZ&b=6201&t=1611136240000';
+			document.getElementsByTagName('head')[0].appendChild(ss);
+	}
+</script>
+<noscript>
+	<link href="https&#x3a;&#x2f;&#x2f;static2&#x2e;t-mobile&#x2e;cz&#x2f;tmcz-theme&#x2f;css&#x2f;custom&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;tmcz_WAR_tmcztheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;cs_CZ&#x26;b&#x3d;6201&#x26;t&#x3d;1611136240000" rel="stylesheet" media="screen" />
+</noscript>
+
+
+
+
+  <style type="text/css">
+    /*-------------------------------------------------
+ COMMON
+--------------------------------------------------*/
+
+#wizardMobileBox .cleaned:after {
+	content: " ";
+	clear: both;
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	height: 0;
+}
+
+* html #wizardMobileBox .cleaned             { zoom: 1; } /* IE6 */
+*:first-child+html #wizardMobileBox .cleaned { zoom: 1; } /* IE7 */
+
+.forBlind {
+	position: absolute;
+	left: -10000px;
+	top: -10000px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+/*-------------------------------------------------
+ WRAPPER
+--------------------------------------------------*/
+
+#wizardMobileBox {
+}
+
+/*-------------------------------------------------
+ WIZARD
+--------------------------------------------------*/
+
+#wizardMobileBox ul {
+  margin: 0;
+  padding: 0;
+}
+#wizardMobileBox li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#wizardMobileBox li ul {
+  display: none;
+}
+#wizardMobileBox .wMBRound {
+  padding: 6px 15px;
+  border: 1px solid #8d8d8d;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  color: #ffffff;
+  background: #929292 url('/images/6823b385-bd22-4298-a8c1-b7a648e383aa.png') no-repeat 0 0;
+  cursor: pointer;
+}
+#wizardMobileBox .wMBSecondLevel .wMBRound {
+  float: left;
+  width: 192px;
+}
+#wizardMobileBox .wMBOpen > .wMBRound, #wizardMobileBox .wMBOpen h3.wMBRound {
+  border-color: #e30175;
+  background-color: #ea127d;
+  background-position: -500px 0;
+}
+#wizardMobileBox h3.wMBRound {
+  width: 120px;
+  margin: 0 auto !important;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 107%;
+  font-weight: bold;
+}
+#wizardMobileBox .wMBOpen h3.wMBRound {
+  background-position: -1000px 0;
+}
+#wizardMobileBox .wMBResult {
+  display: none;
+}
+#wizardMobileBox #lineMBE .item {
+  left: 20px;
+}
+#wizardMobileBox #lineMB .item {
+  left: 240px;
+}
+#wizardMobileBox ul.wMBFirstLevel {
+  min-height: 70px;
+	padding: 10px 0;
+}
+#wizardMobileBox li.wMBFirstLevelItem {
+  float: left;
+  width: 50%;
+}
+#wizardMobileBox ul.wMBSecondLevel {
+  clear: both;
+  padding-top: 40px;
+}
+#wizardMobileBox .wMBOpen ul.wMBSecondLevel {
+  background: url('/images/1c72ae27-be99-4e9c-afea-9f2c1c287a16.png') no-repeat 0 0;
+  =width: 568px;
+}
+#wizardMobileBox #lineMBE ul.wMBSecondLevel {
+  margin-right: -100%;
+  background-position: 0 0;
+}
+#wizardMobileBox #lineMB ul.wMBSecondLevel {
+  margin-left: -100%;
+  background-position: -600px 0;
+}
+#wizardMobileBox li.wMBSecondLevelItem {
+  position: relative;
+  padding: 5px 0 5px 40px;
+  background: url('/images/1c72ae27-be99-4e9c-afea-9f2c1c287a16.png') no-repeat -1200px 50%;
+  =float: left;
+  =width: 528px;
+}
+#wizardMobileBox li.wMBSecondLevelItem.wMBOpen.wMBChildren {
+  background-position: -1800px 50%;
+}
+#wizardMobileBox li.wMBSecondLevelItem.last {
+  background-position: -3600px 50%;
+}
+#wizardMobileBox li.wMBSecondLevelItem.last.wMBOpen.wMBChildren {
+  background-position: -4200px 50%;
+}
+#wizardMobileBox li.wMBSecondLevelItem.last {
+}
+#wizardMobileBox ul.wMBThirdLevel {
+  position: absolute;
+  top: -50%;
+  left: 264px;
+  z-index: 10;
+  =width: 264px;
+}
+#wizardMobileBox .first ul.wMBThirdLevel {
+  top: 0;
+}
+#wizardMobileBox .last ul.wMBThirdLevel {
+  top: auto;
+  bottom: 0;
+}
+#wizardMobileBox li.wMBThirdLevelItem {
+  padding: 5px 0 5px 40px;
+  background: url('/images/1c72ae27-be99-4e9c-afea-9f2c1c287a16.png') no-repeat -1200px 50%;
+  =float: left;
+  =width: 224px;
+}
+#wizardMobileBox li.wMBThirdLevelItem.first {
+  background-position: -2400px 50%;
+}
+#wizardMobileBox li.wMBThirdLevelItem.last {
+  background-position: -3600px 50%;
+}
+#wizardMobileBox ul.wMBThirdLevel .wMBRound {
+}
+#wizardMobileBox #wMBResult {
+  margin: 0 40px 20px;
+}
+#wizardMobileBox #wMBResult .wMBRTitle {
+  margin: 0 0 5px 15px;
+}
+#wizardMobileBox #wMBResult .wMBRPrint {
+  min-height: 1.4em;
+  padding: 10px 15px;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  line-height: 1.4;
+  color: #ffffff;
+  background: #78aa51;
+}
+  </style>
+
+
+
+
+
+  <style type="text/css">
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_56_INSTANCE_90PkjgU7txxU_ .portlet {
+border-width:;
+border-style:
+}
+.slick-dots {
+	display: flex !important;
+}
+
+
+
+        
+
+      
+
+    
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J_ .portlet {
+border-width:;
+border-style:
+}
+#hp-block-4 .form-error {
+	color: #fff;
+}
+
+
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+
+#p_p_id_56_INSTANCE_BcbdFzGNbCdB_ .portlet {
+border-width:;
+border-style:
+}
+
+
+
+
+        
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+      
+
+    
+
+  </style>
+
+
+
+
+	
+	<script type="text/javascript">
+		var is_tmcz_authenticated = false;
+	</script>
+
+	
+<!-- bottom-ext.jsp  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			    <style>
+/* Hiding old surveys (parent fb remarketing pagescript) */
+#exponea_survey {
+  display:none;
+}
+</style>		  
+
+			    <script>
+var dataLayer = dataLayer || []; // Google Tag Manager
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WXF57L');</script>
+<!-- End Google Tag Manager -->		  
+
+			    <script>(function(d,b){if(!d.infinario){var a=function(a,g){function k(c){return function(){var e=arguments;""==a&&"initialize"==c&&e&&e[0].modify&&e[0].modify.overlay&&"loading"==b.readyState&&(b.write('<div id="__inf__overlay__" style="position:absolute;background:#fff;left:0;top:0;width:100%;height:100%;z-index:1000000"></div>'),setTimeout(function(){var a=b.getElementById("__inf__overlay__");a&&b.body.removeChild(a);res.__=!0},e[0].modify.delay||500));d.infinario._.push([a+c,arguments])}}var h=g.split(" "),f,c;res={_:[]};for(c=0;c<h.length;c++)f=h[c],res[f]=k(f);return res};d.infinario=a("","initialize identify update track trackLink trackEnhancedEcommerce getHtml showHtml showBanner showForm ping getAbTest");d.infinario.notifications=a("notifications.","isAvailable isSubscribed subscribe unsubscribe");var a=b.createElement("script"),g="https:"===b.location.protocol?"https:":"http:";a.type="text/javascript";a.async=!0;a.src="https://api-analytics.t-mobile.cz/js/infinario.min.js";b.getElementsByTagName("head")[0].appendChild(a)}})(window,document);</script>
+<script type="text/javascript">
+var cookieTrackingId = jQuery.cookie ? jQuery.cookie("gftCookie") : "";
+var TRACKING_ID = cookieTrackingId != null ? cookieTrackingId.toString().slice(0, 10) : "0";
+var tracking_login = is_tmcz_authenticated;
+var tracking_login_page = jQuery.cookie ? jQuery.cookie("Loginpagecookie-referrer") : null;
+
+//inicializace
+infinario.initialize({
+    "target": "//api-analytics.t-mobile.cz",
+    "token": "f4f33564-e4ab-11e6-9d36-5a5952174db1",
+    "track": {
+        "visits": true,
+        "default_properties": {
+            "registered": TRACKING_ID,
+            "login": tracking_login,
+            "login_page": tracking_login_page,
+            "source": "legacy_shop"
+        }
+    },
+    "ping":{
+        "properties":{
+            "utm_campaign_mine": document.location.href.split("campaign=")[1] ? document.location.href.split("campaign=")[1].split("&")[0].split('#')[0] : ""
+        }
+    }   
+});
+</script>
+
+<!-- Exponea initialize -->
+<script type="text/javascript" src="/dcpublic/exponea-loader.js"></script>
+<!-- odkaz na ridici skript (BASE DEFINITION) -->		  
+
+			    <meta name="google-site-verification" content="mv9F1yYD3cANnQ3-87yrTlyukLN-rkF7P7x0H514Ks8" />		  
+
+
+
+
+
+</head>
+
+	<body class=" yui3-skin-sam controls-visible signed-out public-page site logged-out" data-theme-images-folder="https://static2.t-mobile.cz/tmcz-theme/images">
+
+
+
+<!-- bottom-ext.jsp  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WXF57L"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>		  
+
+			    <!-- Facebook Pixel Code -->
+<script>
+if(isScriptAllowed("reklamni")) {
+!function(f,b,e,v,n,t,s) {
+ if(f.fbq) return;
+  n=f.fbq=function() {
+   n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments)
+  };
+  if(!f._fbq) f._fbq=n;
+  n.push=n;
+  n.loaded=!0;
+  n.version='2.0';
+  n.queue=[];
+  t=b.createElement(e);
+  t.async=!0;
+  t.src=v;
+  s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)
+ }(window, document,'script','//connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1703904506520456');
+fbq('track', 'PageView');
+}
+</script>
+<noscript>
+ <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1703904506520456&amp;ev=PageView&amp;noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="header">
+					<div class="navbar navbar-transparent">
+					<div class="container">
+				<div class="navbar-header">
+					<a href="https://www.t-mobile.cz/osobni?p_p_auth=L3lWhNKX&amp;p_p_id=49&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_49_struts_action=%2Fmy_sites%2Fview&amp;_49_groupId=63037020&amp;_49_privateLayout=false" class="logo" accesskey="2" title="T-Mobile">
+						<svg class="icon">
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+						</svg>
+						<noscript>
+															<img src="https://static2.t-mobile.cz/tmcz-theme/images/custom/logo-white.svg" class="logo-white" alt="T-Mobile" />
+													</noscript>
+					</a>
+					<button type="button" class="toggle js-toggle">
+						<span></span>
+						<span></span>
+						<span>Menu</span>
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" preserveAspectRatio="none">
+							<circle cx="8" cy="8" r="6.29" transform="rotate(90 8 8)"/>
+						</svg>
+					</button>
+				</div>
+				<div class="nav-wrapper">
+					<div class="nav-group">
+						<!--	WELCOME PORTLET	-->
+													
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_welcomeportlet_WAR_navigationportlet_  portlet-static portlet-static-end portlet-borderless  " id="p_p_id_welcomeportlet_WAR_navigationportlet_" >
+		<span id="p_welcomeportlet_WAR_navigationportlet"></span>
+
+
+
+	
+	
+	
+
+		
+
+			
+				
+					
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<noscript>
+	
+		
+		
+			<a href="https://www.t-mobile.cz/.gang/login-url/portal" class="user-info lightbox" data-lightbox-size="large"><i class="ico-user-15px" data-mtm='Přihlásit'></i> <span>Přihlásit</span></a>
+		
+	
+</noscript>
+
+
+
+
+<div id="_welcomeportlet_WAR_navigationportlet_viewTarget">
+</div>
+
+<script type="text/javascript">
+	jQuery.ajax("https://www.t-mobile.cz/osobni?p_p_id=welcomeportlet_WAR_navigationportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=ajaxViewRes&p_p_cacheability=cacheLevelPage",{
+		contentType: 'text/html; charset=UTF-8',
+		success: function( data ) {
+			jQuery('#_welcomeportlet_WAR_navigationportlet_viewTarget').append(data);
+			jQuery('body').tmInit(['essential']);
+		}
+	});
+</script>
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+				
+				
+			
+
+		
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+																			<!--	/WELCOME PORTLET	-->
+
+												<!--	NAVIGATION PORTLET	-->
+														
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_navigationportlet_WAR_navigationportlet_  portlet-static portlet-static-end portlet-borderless  " id="p_p_id_navigationportlet_WAR_navigationportlet_" >
+		<span id="p_navigationportlet_WAR_navigationportlet"></span>
+
+
+
+	
+	
+	
+
+		
+
+			
+				
+					
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="nav">
+	<div id="navsettings"
+	    data-ajax-mega-menu-url="https://www.t-mobile.cz/osobni?p_p_id=navigationportlet_WAR_navigationportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=ajax23levelNavigationData&p_p_cacheability=cacheLevelPage"
+	    data-ajax-quick-links-url="https://www.t-mobile.cz/osobni?p_p_id=navigationportlet_WAR_navigationportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=ajaxBookmarksUrl&p_p_cacheability=cacheLevelPage"
+	    data-ajax-proxy-url="%AJAX_PROXY_URL_PLACEHOLDER%">
+	<ul id="navsecondlel" class="nav navbar-nav" role="navigation"><li><a href="/volani" tabindex="4" class="ajax-load-34level dropdown-toggle" data-toggle="dropdown" data-plid="63079085" onclick="navPushInfo(this)">Volání<i class="ico-chevron-down"></i></a><ul class="dropdown-menu level-34-placeholder" role="menu"></ul></li><li><a href="/internet" tabindex="5" class="ajax-load-34level dropdown-toggle" data-toggle="dropdown" data-plid="63079099" onclick="navPushInfo(this)">Internet<i class="ico-chevron-down"></i></a><ul class="dropdown-menu level-34-placeholder" role="menu"></ul></li><li><a href="/televize" tabindex="6" class="ajax-load-34level dropdown-toggle" data-toggle="dropdown" data-plid="63079129" onclick="navPushInfo(this)">Televize<i class="ico-chevron-down"></i></a><ul class="dropdown-menu level-34-placeholder" role="menu"></ul></li><li><a href="/telefony-a-zarizeni" tabindex="7" class="ajax-load-34level dropdown-toggle" data-toggle="dropdown" data-plid="63079143" onclick="navPushInfo(this)">Zařízení<i class="ico-chevron-down"></i></a><ul class="dropdown-menu level-34-placeholder" role="menu"></ul></li><li><a href="/magenta" class="dropdown-toggle" tabindex="8">Magenta 1</a></li><li><a href="/osobni/podpora" tabindex="9" class="ajax-load-34level dropdown-toggle" data-toggle="dropdown" data-plid="63079187" onclick="navPushInfo(this)">Podpora<i class="ico-chevron-down"></i></a><ul class="dropdown-menu level-34-placeholder" role="menu"></ul></li><li><a tabindex="10" href="/muj-t-mobile" data-toggle="dropdown" onclick="navPushInfo(this)" class="ajax-load-quick-bookmark dropdown-toggle">Můj T-Mobile<i class="ico-chevron-down"></i></a><ul class="dropdown-menu " role="menu"><li class=""><a href="/aplikace-do-mobilu" onclick="navPushInfo(this)"><i class="ico-logo-square"></i>Aplikace do mobilu</a></li><li class=""><a href="/prehled-uctu" onclick="navPushInfo(this)"><i class="ico-overview-2"></i>Bleskový přehled</a></li><li class=""><a href="/online-vyuctovani" onclick="navPushInfo(this)"><i class="ico-invoice-2"></i>Online vyúčtování</a></li><li class=""><a href="/internet-v-mobilu" onclick="navPushInfo(this)"><i class="ico-mobile-internet-4"></i>Mobilní internet</a></li><li class="custom-item"><div class="tile"><div class="bold">Vstupte do světa T-Mobile</div><a href="https://www.t-mobile.cz/.gang/login-url/portal?nexturl=https%3A%2F%2Fwww.t-mobile.cz%2Fs-prihlaseni#gang-login" class="btn btn-primary btn-lg lightbox" data-lightbox-size="large">Přihlásit se</a></div></li></ul></li></ul><script type="text/javascript">function navPushInfo(object) {if (typeof dataLayer !== 'undefined') {dataLayer.push({eventCategory: 'Megamenu',eventAction: $('.nav-active:first').text(),eventLabel: $(object).text()});}}</script><a href="https://www.t-mobile.cz/sms/closed.jsp" class="sms">Poslat SMS</a><ul class="nav-segments" role="navigation"><li id="nav-osobni" class="active"><a href="/osobni" tabindex="1">Osobní</a></li><li><a href="/podnikatele-firmy" tabindex="2">Podnikatelé a firmy</a></li></ul>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery.cookie("NAVIGATION_SECTION_INDICATOR", "SECTION1_SPLIT_null", {domain:"t-mobile.cz",path:"/",expires:30});
+    });
+</script>
+
+<!-- Status:Navigation-portlet:OK -->
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+				
+				
+			
+
+		
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+													<!--	/NAVIGATION PORTLET	-->
+						
+						<!--	LWE MINI CART PORTLET	-->
+												
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_lweminicart_WAR_lweeshopportlet_  portlet-static portlet-static-end portlet-borderless  " id="p_p_id_lweminicart_WAR_lweeshopportlet_" >
+		<span id="p_lweminicart_WAR_lweeshopportlet"></span>
+
+
+
+	
+	
+	
+
+		
+
+			
+				
+					
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		<script>
+	/*<![CDATA[*/
+	var expr = "lwePortletName=\"null\"";
+	eval(expr);
+
+	var jsErrors = {
+		'genericAjaxErrorTitle': "Chyba",
+		'genericAjaxErrorText': "Po\u017Eadovan\u00E1 akce nemohla b\u00FDt provedena z d\u016Fvodu chyby syst\u00E9mu.<br\/><br\/>Zkuste pros\u00EDm po\u017Eadavek opakovat pozd\u011Bji. Pokud probl\u00E9m p\u0159etrv\u00E1v\u00E1, kontaktujte na\u0161i z\u00E1kaznickou linku."
+	}
+	/*]]>*/
+
+	var lwePortletVariables = lwePortletVariables || {};
+	var portletId = "lweminicart_WAR_lweeshopportlet";
+	lwePortletVariables[portletId] = {
+		currentUrl: "\/osobni\/-\/mc\/",
+		currentUrlWithoutFriendlyUrlMapping: "\/osobni",
+		formFieldNamePrefix: "_lweminicart_WAR_lweeshopportlet_"
+	}
+</script>
+
+<div id="lwe-minicart-root">
+	<a class="cart" :href="shoppingCartUrl">
+		<i class="icon ico-cart-15px-full"></i>Nákupní košík
+		<template v-if="numberOfItems > 0">
+			<span class="sr-only">Položek:</span>
+			<span class="count">{{numberOfItems}}</span>
+		</template>
+	</a>
+</div>
+
+
+<span style="display: none; visibility: hidden;" id="formFieldNamePrefix" value="_lweminicart_WAR_lweeshopportlet_"></span>
+
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+				
+				
+			
+
+		
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+												<!--	/LWE MINI CART PORTLET	-->
+
+						<!--	SMALL SEARCH PORTLET	-->
+													
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_searchsmallcorporateportlet_WAR_searchcorporateportlet_  portlet-static portlet-static-end portlet-borderless  " id="p_p_id_searchsmallcorporateportlet_WAR_searchcorporateportlet_INSTANCE_0g0budeGj6ON_" >
+		<span id="p_searchsmallcorporateportlet_WAR_searchcorporateportlet_INSTANCE_0g0budeGj6ON"></span>
+
+
+
+	
+	
+	
+
+		
+
+			
+				
+					
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="/podpora/vyhledavani" class="search-toggle" data-toggle="collapse" data-target="#search"><i class="ico-magnifier"></i>Hledat</a>
+<div id="search" class="collapse search-collapse">
+  <form action="/podpora/vyhledavani" method="post" role="search">
+    <fieldset>
+      <div class="form-group searchbox">
+        <i class="ico-magnifier search-icon"></i>
+        <label for="q" class="sr-only">Napište, co hledáte...</label>
+        <input type="search" id="q" name="query" placeholder="Napište, co hledáte..." accesskey="4" class="form-control input-lg autocomplete" data-source-url="https://www.t-mobile.cz/osobni?p_p_id=searchsmallcorporateportlet_WAR_searchcorporateportlet_INSTANCE_0g0budeGj6ON&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage" />
+        <button type="submit" class="btn btn-link btn-lg">Vyhledat</button>
+      </div>
+    </fieldset>
+  </form>
+  <i class="ico-remove search-close" data-toggle="collapse" data-target="#search"></i>
+</div>
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+				
+				
+			
+
+		
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+																			<!--	/SMALL SEARCH PORTLET	-->
+
+						<!--  LANGUAGE SWITCHER	-->
+												<!-- 
+						else
+							<a href="/web/en" class="language"><i class="ico-earth" aria-hidden="true"></i> English</a>
+						end
+						/LANGUAGE SWITCHER	-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="main-content" role="main" class="bs3-grid-1-1">
+	<div class="container">
+		<div class="row portlet-layout">
+			<div id="column-1" class="portlet-column portlet-column-only" data-column-info="Placeholder for first column">
+				<div class="portlet-dropzone empty portlet-column-content portlet-column-content-only" id="layout-column_column-1"></div>
+			</div>
+		</div>
+	</div>
+	<div class="portlet-layout">
+		<div id="column-2" class="portlet-column portlet-column-only" data-column-info="Drop your portlet here (second column)">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_mt6Oul2q2OXA_" >
+		<span id="p_56_INSTANCE_mt6Oul2q2OXA"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							<!-- ARTICLE CONTENT MultiBanner -->
+<div id="multibanner-wrapper"><noscript>
+  <div class="multibanner carousel slide js-touch-swipe" data-interval="5000" data-ride="carousel" id="multibanner">
+      <div class="carousel-inner" role="listbox">
+
+
+        <!-- <div class="item item1 js-clickable active">
+          <a href="/vanoce?pers_position=HPMB1&pers_content=Vanoce"><div class="image">&nbsp;</div></a>
+          <div class="carousel-caption">
+              <div class="container">
+                  <h1>Šťastné a neomezené!</h1>
+                  <p class="h3">Prožijte nezapomenutelné Vánoce s neomezenými daty</p>
+                  <a class="btn btn-lg btn-secondary" href="/vanoce?pers_position=HPMB1&pers_content=Vanoce">Zjistit více <i class="ico-chevron-right"></i></a>
+              </div>
+          </div>
+          </div> -->
+
+          <div class="item item1 js-clickable active">
+            <a href="/vyhodny-tarif?pers_position=HPMB1&pers_content=VyhodnyTarif"><div class="image">&nbsp;</div></a>
+            <div class="carousel-caption">
+                <div class="container">
+                    <h1>Užijte si tarif plný dat </h1>
+
+                    <p class="h3">Neomezená data na první měsíc a poté porce 11 GB jen za 494 Kč</p>
+                    <a class="btn btn-lg btn-secondary" href="/vyhodny-tarif?pers_position=HPMB1&pers_content=VyhodnyTarif">Zjistit více<i class="ico-chevron-right"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <div class="item item2 js-clickable">
+            <a href="/telefony?pers_position=HPMB2&pers_content=HWbenefit"><div class="image">&nbsp;</div></a>
+            <div class="carousel-caption">
+                <div class="container">
+                    <h1>24 GB dat navíc</h1>
+
+                    <p class="h3">K novému telefonu s tarifem na webu</p>
+                    <a class="btn btn-lg btn-secondary" href="/telefony?pers_position=HPMB2&pers_content=HWbenefit">Zjistit více<i class="ico-chevron-right"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <div class="item item3 js-clickable">
+            <a href="/5g?pers_position=HPMB2&pers_content=5Gsit"><div class="image">&nbsp;</div></a>
+            <div class="carousel-caption">
+                <div class="container">
+                    <h1>Zítřek začíná již dnes</h1>
+
+                    <p class="h3">USpouštíme naši nejvyspělejší síť</p>
+                    <a class="btn btn-lg btn-secondary" href="/5g?pers_position=HPMB3&pers_content=5Gsit">Zjistit více<i class="ico-chevron-right"></i></a>
+                </div>
+            </div>
+          </div>
+
+
+          <!-- <div class="item item4 js-clickable">
+            <a href="/telefony/detail-zarizeni/--/xiaomi-mi-10t-pro-256gb-cerny?pers_position=HPMB4&pers_content=PredprodejXiaomi"><div class="image">&nbsp;</div></a>
+            <div class="carousel-caption">
+                <div class="container">
+                    <h1>Novinka od Xiaomi Mi 10T Pro</h1>
+                    <p class="h3">K předobjednávkám robotický vysavač jako dárek zdarma</p>
+                    <a class="btn btn-lg btn-secondary" href="/telefony/detail-zarizeni/--/xiaomi-mi-10t-pro-256gb-cerny?pers_position=HPMB4&pers_content=PredprodejXiaomi">Zjistit více <i class="ico-chevron-right"></i></a>
+                </div>
+            </div>
+          </div> -->
+
+          <!--
+
+          <div class="item item5 js-clickable">
+            <a href="/telefony/detail-zarizeni/--/samsung-galaxy-note20-ultra-5g-n986b-cerny?pers_position=HPMB4&pers_content=predprodejNote20"><div class="image">&nbsp;</div></a>
+            <div class="carousel-caption">
+                <div class="container">
+                    <h1>Galaxy Note20 Ultra&nbsp;5G</h1>
+
+                    <p class="h3">Předobjednejte nyní a&nbsp;získejte příslušenství navíc</p>
+                    <a class="btn btn-lg btn-secondary" href="/telefony/detail-zarizeni/--/samsung-galaxy-note20-ultra-5g-n986b-cerny?pers_position=HPMB4&pers_content=predprodejNote20">Mám zájem <i class="ico-chevron-right"></i></a>
+                </div>
+            </div>
+          </div>   -->
+
+
+          <style type="text/css">.navbar {
+              position: absolute;
+          }
+
+          /* IMAGE 1 */
+          @media screen and (max-width: 1199px) {
+            .multibanner .item.item1 .image {
+              background: url("/dcpublic/hero-akvizicni-tarif-1200x420.jpg") no-repeat;
+              background-size: cover;
+              background-position: center;
+            }
+          }
+          @media screen and (max-width: 767px) {
+            .multibanner .item.item1 .image {
+              background: url("/dcpublic/hero-akvizicni-tarif-800x420.jpg") no-repeat;
+              background-size: cover;
+              background-position: center;
+            }
+          }
+          @media screen and (min-width: 1199px) {
+            .multibanner .item.item1 .image {
+              background: url("/dcpublic/hero-akvizicni-tarif-2500x480.jpg") no-repeat;
+              background-size: cover;
+              background-position: center;
+            }
+          }
+          /* /IMAGE 1 */
+
+          /* IMAGE 2 */
+          @media screen and (max-width: 1199px) {
+           .multibanner .item.item2 .image {
+              background: url("/dcpublic/hero_hw_benefit-1200x420.jpg") no-repeat;
+              background-size: cover;
+              background-position: center;
+           }
+         }
+         @media screen and (max-width: 767px) {
+           .multibanner .item.item2 .image {
+              background: url("/dcpublic/hero_hw_benefit-800x420.jpg") no-repeat;
+              background-size: cover;
+              background-position: center;
+           }
+         }
+         @media screen and (min-width: 1199px) {
+           .multibanner .item.item2 .image {
+              background: url("/dcpublic/hero_hw_benefit-2500x480.jpg") no-repeat;
+              background-size: cover;
+              background-position: center;
+           }
+         }
+          /* /IMAGE 2 */
+
+          /* IMAGE 3 */
+          @media screen and (max-width: 1199px) {
+          .multibanner .item.item3 .image {
+            background: url("/dcpublic/hero-5g-1200x420.jpg") no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+        }
+        @media screen and (max-width: 767px) {
+          .multibanner .item.item3 .image {
+            background: url("/dcpublic/hero-5g-800x420.jpg") no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+        }
+        @media screen and (min-width: 1199px) {
+          .multibanner .item.item3 .image {
+            background: url("/dcpublic/hero-5g-2500x480.jpg") no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+        }
+          /* /IMAGE 3 */
+
+         /* IMAGE 4 */
+         /* @media screen and (max-width: 1199px) {
+          .multibanner .item.item4 .image {
+            background: url("/dcpublic/TMO_hero_banner_xiaomi-predprodej-1200x420.jpg") no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+        }
+        @media screen and (max-width: 767px) {
+          .multibanner .item.item4 .image {
+            background: url("/dcpublic/TMO_hero_banner_xiaomi-predprodej-800x420.jpg") no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+        }
+        @media screen and (min-width: 1199px) {
+          .multibanner .item.item4 .image {
+            background: url("/dcpublic/TMO_hero_banner_xiaomi-predprodej-2500x480.jpg") no-repeat;
+            background-size: cover;
+            background-position: center;
+          }
+        } */
+        /* /IMAGE 4 */
+
+        /* IMAGE 5
+        @media screen and (max-width: 1199px) {
+            .multibanner .item.item5 .image {
+              background: url("/dcpublic/TMO_hero_galaxy_note_20-1200x420.jpg") no-repeat;
+              background-size: cover;
+              background-position: center;
+            }
+          }
+          @media screen and (max-width: 767px) {
+            .multibanner .item.item5 .image {
+              background: url("/dcpublic/TMO_hero_galaxy_note_20-800x420.jpg") no-repeat;
+              background-size: cover;
+              background-position: center;
+            }
+          }
+          @media screen and (min-width: 1199px) {
+            .multibanner .item.item5 .image {
+              background: url("/dcpublic/TMO_hero_galaxy_note_20-2500x480.jpg") no-repeat;
+              background-size: cover;
+              background-position: center;
+            }
+          }
+
+        /* /IMAGE 5 */
+
+
+          </style>
+      </div>
+
+      <div class="carousel-controls"><a class="left carousel-control" data-slide="prev" href="#multibanner" role="button"></a>
+
+          <ul class="carousel-indicators">
+              <li class="active" data-slide-to="0" data-target="#multibanner">Výhodný tarif</li>
+              <li data-slide-to="1" data-target="#multibanner">24 GB dat navíc</li>
+              <li data-slide-to="2" data-target="#multibanner">5G síť</li>
+              <!-- <li data-slide-to="3" data-target="#multibanner">Xiaomi Mi 10T Pro</li> -->
+              <!-- <li data-slide-to="4" data-target="#multibanner">Internet se slevou</li> -->
+          </ul>
+          <a class="right carousel-control" data-slide="next" href="#multibanner" role="button"></a>
+      </div>
+  </div>
+</noscript>
+</div>
+
+
+<!-- /ARTICLE CONTENT MultiBanner -->
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_E1dFL49DLJTd_" >
+		<span id="p_56_INSTANCE_E1dFL49DLJTd"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							<!-- /QUICK LINKS -->
+
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-xs-12" style="margin: 35px 0px 5px 0px; !important;">
+      <div class="alert alert-warning" role="alert" style="margin-bottom:0px !important;">
+        <div class="alert-content text-center" style="flex-grow:1;">
+          <h3 style="font-size:18px;font-weight: 600;margin-top:0;margin-bottom:6px;color:#eda95a !important;">Plánovaná odstávka systémů</h3>
+          <p><span class="bold">Od pátečního večera, tedy <span class="nowrap">14. 8.</span> <span class="nowrap">od 21:00</span>, <span class="nowrap">do nedělního rána</span> potřebují některé stránky <span class="nowrap">a systémy</span> odpočívat. Zjistěte <a href="/odstavka" class="bold">více o odstávce</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div id="hp-block-1"><noscript>
+  <div class="container">
+      <div class="tiles">
+          <div class="row">
+              <div class="col-md-3 col-xs-6">
+                  <div class="tile js-clickable">
+                    <i class="ico-logo" data-ico-width="50" data-ico-height="50"></i>
+                    <a href="/prejdete?pers_position=MM1&pers_content=prejdete" id="hp-quicklink1">Přejít k&nbsp;T&#8209;Mobile</a>
+                  </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                  <div class="tile js-clickable">
+                    <i class="ico-device-for-1" data-ico-width="50" data-ico-height="50"></i>
+                    <a href="https://eshop.t-mobile.cz/category/Devices-Mobile/list/product_listing/product/xiaomi_redmi_9at?variantId=POI105&tariffId=POF918&instalmentId=0&deviceList=device+list+section&agreementId=agreement24?pers_position=MM2&pers_content=9ATeZaKorunu15GB" id="hp-quicklink2">Telefon za korunu</a>
+                  </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                  <div class="tile js-clickable">
+                    <i class="ico-logo-heart" data-ico-width="50" data-ico-height="50"></i>
+                    <a href="https://www.t-mobile.cz/Srdcovky?pers_position=MM3&pers_content=Srdcovky">Srdcovky</a>
+                  </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                  <div class="tile js-clickable">
+                    <i class="ico-coins-in-hand" data-ico-width="50" data-ico-height="50"></i>
+                    <a href="/podpora/smlouva/prechod-z-twistu-na-tarif/d/chci-prejit-na-tarif?pers_position=MM4&pers_content=migrace" id="hp-quicklink4">Přejděte na&nbsp;tarif</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</noscript>
+</div>
+
+
+<!-- /QUICK LINKS -->
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_90PkjgU7txxU_" >
+		<span id="p_56_INSTANCE_90PkjgU7txxU"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							<div id="hp-block-2">
+    <div class="caption">
+        <div class="container">
+            <h2 class="h1">Vyberte si nový telefon</h2>
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                    <div class="media-group row media-accordion-3 js-accordion" id="vyhody" role="tablist" aria-multiselectable="true">
+                        <div class="col-xxs-12 col-xs-4 col-md-">
+                            <div class="media">
+                                <div class="media-figure">
+                                    <i class="ico-shipping-box" data-ico-width="40" data-ico-height="40"></i>
+                                </div>
+                                <p class="media-body">
+                                    <a href="#vyhoda1" data-toggle="collapse" data-parent="#vyhody" class="collapse-link collapsed">
+                    <span id="popis-vyhody1">S dopravou zdarma
+                      <span class="nowrap">a k
+                      </span> vyzvednutí
+                      <span class="nowrap">na 150
+                      </span> místech.
+                    </span>
+                                        <i class="ico-chevron-down collapse-icon"></i>                              </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xxs-12 col-xs-4 col-md-">
+                            <div class="media">
+                                <div class="media-figure">
+                                    <i class="ico-goods-in-stock" data-ico-width="40" data-ico-height="40"></i>
+                                </div>
+                                <p class="media-body">
+                                    <a href="#vyhoda2" data-toggle="collapse" data-parent="#vyhody" class="collapse-link collapsed">
+                    <span id="popis-vyhody2">Telefony vždy skladem
+                      <span class="nowrap">a ihned
+                      </span>
+                      <span class="nowrap">k odeslání.
+                      </span>
+                    </span>
+                                        <i class="ico-chevron-down collapse-icon"></i>                              </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xxs-12 col-xs-4 col-md-">
+                            <div class="media">
+                                <div class="media-figure">
+                                    <i class="ico-arrow-back" data-ico-width="40" data-ico-height="40"></i>
+                                </div>
+                                <p class="media-body">
+                                    <a href="#vyhoda3" data-toggle="collapse" data-parent="#vyhody" class="collapse-link collapsed">
+                    <span id="popis-vyhody3">Se zárukou vrácení
+                      <span class="nowrap">do 14
+                      </span> dnů.
+                    </span>
+                                        <i class="ico-chevron-down collapse-icon"></i>                              </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="vyhoda1" class="col-xs-12 collapse-content collapse" role="tabpanel" aria-labelledby="popis-vyhody1">
+                            <div class="well">
+                                <p>Objednávku doručíme zdarma tam, kam si řeknete. Pošleme vám ji domů, do práce nebo na poštu do&nbsp;2&nbsp;pracovních dní po celé ČR. A i u kurýrů můžete zaplatit kartou. Přečtěte si <a href="/vyhody-nakupu">o výhodách nákupu online</a>.
+                                </p>
+                                <p><strong>Vyzvedněte si svůj nákup na více než 150 místech po celé ČR!</strong>
+                                </p>
+                                <p>Když budete chtít, objednávku si vyzvednete v některé z našich prodejen. Až ji pro vás budeme mít, napíšeme vám, ať se pro ni zastavíte. A když u nás budete, rádi vám tam pomůžeme s nastavením telefonu i vašich služeb v
+                                    <a href="/mtm">Můj T-Mobile</a>.
+                                </p>
+                                <button class="collapse-close" title="Zavřít" aria-label="Zavřít">
+                                    <i class="ico-remove" data-ico-width="16" data-ico-height="16"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="vyhoda2" class="col-xs-12 collapse-content collapse" role="tabpanel" aria-labelledby="popis-vyhody2">
+                            <div class="well">
+                                <p>Vše, co najdete na našich stránkách, máme vždy dostupné skladem. Při nákupu v našem eShopu vám nikdy neřekneme, že musíte počkat, protože máme vyprodáno.
+                                </p>
+                                <button class="collapse-close" title="Zavřít" aria-label="Zavřít">
+                                    <i class="ico-remove" data-ico-width="16" data-ico-height="16"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="vyhoda3" class="col-xs-12 collapse-content collapse" role="tabpanel" aria-labelledby="popis-vyhody3">
+                            <div class="well">
+                                <p>Co koupíte online, to můžete do 14 dnů zdarma vrátit. U tarifů zaplatíte jen poměrnou část za služby, které do té doby využijete. Kvůli kontrole nebo změně na svém účtu nemusíte nutně do prodejny. Své smlouvy najdete v Můj T-Mobile a poradit se s námi můžete i po telefonu.
+                                </p>
+                                <button class="collapse-close" title="Zavřít" aria-label="Zavřít">
+                                    <i class="ico-remove" data-ico-width="16" data-ico-height="16"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="container">
+    <ul class="device-listing-promo js-swipe" data-infinite="false" data-scroll="2" data-show-dots="true" data-slides="2" data-swipe-before="md" style="">
+        <li class="device js-clickable" title="Xiaomi Redmi 9AT">
+            <div class="eyecatchers">
+                                          <div class="eyecatcher eyecatcher-magenta">
+                                          <p class="text-center" style="margin-bottom:0px;">
+                                             -3&nbsp;000&nbsp;Kč pro Můj&nbsp;tarif&nbsp;M a 15 GB
+                                          </p>
+                                          </div>
+                                        </div>
+            <img alt="Xiaomi Redmi 9AT" class="center-block device-image" src="/dcpublic/Xiaomi-Redmi-9AT-sedy-listing.jpg">
+            <a class="device-name" href="/telefony/detail-zarizeni/--/xiaomi-redmi-9at-32gb-sedy" id="hp-promo-device2">Xiaomi Redmi 9AT</a>
+            <strong class="device-price">1&nbsp;
+                <span>Kč
+                </span></strong>
+        </li>
+        <li class="device js-clickable" title="Xiaomi Redmi 9 64GB">
+            <div class="eyecatchers">
+                                          <div class="eyecatcher eyecatcher-magenta">
+                                          <p class="text-center" style="margin-bottom:0px;">
+                                              -4&nbsp;798&nbsp;Kč pro Můj&nbsp;tarif&nbsp;M a Neomezeně SD
+                                          </p>
+                                          </div>
+                                        </div>
+            <img alt="Xiaomi Redmi 9 64GB" class="center-block device-image" src="/dcpublic/Xiaomi-9-zeleny-listing.jpg">
+            <a class="device-name" href="/telefony/detail-zarizeni/--/xiaomi-redmi-9-64gb-zeleny" id="hp-promo-device2">Xiaomi Redmi 9 64GB</a>
+            <strong class="device-price">1
+                <span>Kč
+                </span></strong>
+        </li>
+        <li class="device js-clickable" title="Xiaomi Mi 10T 128GB">
+            <div class="eyecatchers">
+                                          <div class="eyecatcher eyecatcher-magenta">
+                                          <p class="text-center" style="margin-bottom:0px;">
+                                              -5&nbsp;000&nbsp;Kč pro Můj&nbsp;tarif&nbsp;M a Neomezeně HD
+                                          </p>
+                                          </div>
+                                        </div>
+            <img alt="Xiaomi Mi 10T 128GB" class="center-block device-image" src="/dcpublic/Xiaomi-Mi-10T-black-listing.jpg">
+            <a class="device-name" href="/telefony/detail-zarizeni/--/xiaomi-mi-10t-128gb-cerny" id="hp-promo-device1">Xiaomi Mi 10T 128GB</a>
+            <strong class="device-price">5&nbsp;499
+                <span>Kč
+                </span></strong>
+        </li>
+        <li class="device js-clickable" title="Apple iPhone 12 mini 64GB">
+            <div class="eyecatchers">
+                                          <div class="eyecatcher eyecatcher-magenta">
+                                          <p class="text-center" style="margin-bottom:0px;">
+                                           -5&nbsp;000&nbsp;Kč pro Můj&nbsp;tarif&nbsp;M a Neomezeně MAX
+                                          </p>
+                                          </div>
+                                        </div>
+            <img alt="Apple iPhone 12 mini 64GB" class="center-block device-image" src="/dcpublic/iPhone-12-mini-white-listing.jpg">
+            <a class="device-name" href="/telefony/detail-zarizeni/--/apple-iphone-12-mini-128gb-bily" id="hp-promo-device5">Apple iPhone 12 mini 64GB</a>
+            <!--<del class="device-original-price">10&nbsp;989 Kč
+                                        </del>-->
+            <strong class="device-price">16&nbsp;999
+                <span>Kč
+                </span></strong>
+        </li>
+        <li class="device js-clickable" title="Apple iPhone SE 128GB">
+            <div class="eyecatchers">
+                                          <div class="eyecatcher eyecatcher-magenta">
+                                          <p class="text-center" style="margin-bottom:0px;">
+                                              -5&nbsp;000&nbsp;Kč pro Můj&nbsp;tarif&nbsp;M a Neomezeně MAX
+                                          </p>
+                                          </div>
+                                        </div>
+            <img alt="Apple iPhone SE 128GB" class="center-block device-image" src="/dcpublic/iPhone_SE-cierny-listing.jpg">
+            <a class="device-name" href="/telefony-5/detail-telefonu/--/apple-iphone-se-128gb-cerny" id="hp-promo-device4">Apple iPhone SE 128GB</a>
+            <!--<del class="device-original-price">18&nbsp;989 Kč
+                                        </del>-->
+            <strong class="device-price">9&nbsp;499
+                <span>Kč
+                </span></strong>
+        </li>
+    </ul>
+    <!--<p class="text-center text-xlarge"><strong>Uvedené ceny s tarifem:
+                    <a href="/tarify">Mobil M</a></strong> a při nákupu přes eShop
+                </p>-->
+    <p class="text-center margin-base">
+        <a class="btn btn-lg btn-primary btn-block-xxs" href="/telefony">Více telefonů</a>
+    </p>
+</div>
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_WwWGrKbglpEG_" >
+		<span id="p_56_INSTANCE_WwWGrKbglpEG"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							<!-- BOXÍKY -->
+
+<div id="hp-block-3">
+  <noscript>
+      <div class="background-tiles inner">
+          <div class="container">
+              <div class="tiles tiles-slim">
+                  <div class="row center-sm">
+                      <!--<div class="col-xxs-12 col-xs-12 col-sm-6 col-md-4">
+                          <div class="tile js-clickable"><h3>2&nbsp;GB dat navíc k&nbsp;vybraným tarifům</h3>
+                              <img alt="" class="img-responsive" src="/dcpublic/Boxik_380x190-2-GB.jpg" />
+                              <a class="btn btn-default btn-block" href="/tarify?pers_position=HPB1&pers_content=2GBnavic" id="hp-box-link1">Exkluzivně online </a>
+                          </div>
+                      </div>-->
+                      <div class="col-xxs-12 col-xs-12 col-sm-6 col-md-4">
+                          <div class="tile js-clickable"><h3>Superrychlý optický internet</h3>
+                              <img alt="" class="img-responsive" src="https://www.t-mobile.cz/dcpublic/box-optika-380x190.jpg"/>
+                              <a class="btn btn-default btn-block" href="/optika?pers_position=HPB1&pers_content=Optika" id="hp-box-link1">Nyní za 299 Kč</a>
+                          </div>
+                      </div>
+                      <div class="col-xxs-12 col-xs-12 col-sm-6 col-md-4">
+                          <div class="tile js-clickable"><h3>Pevný internet až 1000 Mb/s</h3>
+                              <img alt="" class="img-responsive" src="https://www.t-mobile.cz/dcpublic/DSL-box-380x190.jpg"/>
+                              <a class="btn btn-default btn-block" href="/pevny-internet?pers_position=HPB2&pers_content=boxPevnyInternet" id="hp-box-link2">Pouze nyní za 299 Kč</a>
+                          </div>
+                      </div>
+                      <div class="col-xxs-12 col-xs-12 col-sm-6 col-md-4">
+                          <div class="tile js-clickable"><h3>Data navíc k novému telefonu</h3>
+                              <img alt="" class="img-responsive" src="https://www.t-mobile.cz/dcpublic/box-HW-benefit-380x190.jpg"/>
+                              <a class="btn btn-default btn-block" href="/srdcovky?pers_position=HPB3&pers_content=HWbenefit"  id="hp-box-link3">Zjistit více</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </noscript>
+</div>
+
+<!-- BOXÍKY -->
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_leadcollector_WAR_leadcollectorportlet_  portlet-static portlet-static-end portlet-borderless  " id="p_p_id_leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J_" >
+		<span id="p_leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J"></span>
+
+
+
+	
+	
+	
+
+		
+
+			
+				
+					
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+			
+				
+	<div id="hp-block-4" class="hidden">	
+		<div class="background-magenta text-white inner">
+			<div class="container">
+				<h2 class="h1 text-center margin-large">Přejděte do nejlepší sítě</h2>
+				<div class="row margin-base">
+					<div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+						<div class="row">
+							<div class="col-xxs-12 col-xs-12 col-sm-4">
+								<ul class="list-custom-bullets text-xlarge bold">
+									<li style="margin-top:0px;"><i class="ico-ok-sign bullet-icon"></i> Neomezené volání, SMS a spousta dat</li>
+									<li><i class="ico-ok-sign bullet-icon"></i> Stabilní pokrytí a LTE internet</li>
+									<li><i class="ico-ok-sign bullet-icon"></i> Můj T-Mobile na webu i v mobilní aplikaci</li>
+								</ul>
+							</div>
+							<div class="col-xxs-12 col-xs-12 col-sm-8">
+								<p class="text-xlarge bold">Pomůžeme vám přejít k T-Mobilu i s vaším číslem. Vše vyřídíme po telefonu a do pár minut.</p>
+								
+								<form action="https://www.t-mobile.cz/osobni?p_auth=SiagtDES&p_p_id=leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_pos=4&p_p_col_count=6#_leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J_form" method="post" id="_leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J_form" class="margin-base">
+									
+							        									<div class="row">
+										<div class="col-xxs-12 col-xs-12 col-md-7">
+											<div class="form-group">
+												<label for="_leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J_msisdn" class="sr-only">Zadejte telefonní číslo ve formátu 123 456 789</label>
+												<div class="input-prefix-text input-prefix-text-lg">
+													<span aria-hidden="true">+420</span>
+													<input type="tel" name="_leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J_msisdn" id="_leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J_msisdn" class="form-control form-control-secondary input-lg" />
+												</div>
+											</div>
+										</div>
+										<div class="col-xxs-12 col-xs-12 col-md-5">
+											<div class="form-group">
+												<button type="submit" class="btn btn-secondary btn-lg btn-block">Zavolejte mi</button>
+											</div>
+										</div>
+									</div>
+								    																										</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+		<script>
+			jQuery("#_leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J_form").parent().bind("submit", function(event) {
+		
+				jQuery('body').tmAddLoader();
+		
+				try {
+					dataLayer.push({
+						event: "CMB",
+						form: "formSent",
+						formType: "standard",
+						formUrl: window.location.href,
+						product: "Prejdete HP"
+					});
+				} catch (e) {
+					console.log("dataLayer.push failed");
+				}
+			});
+		</script>
+
+    
+    
+
+
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+				
+				
+			
+
+		
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_56_  portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_BcbdFzGNbCdB_" >
+		<span id="p_56_INSTANCE_BcbdFzGNbCdB"></span>
+
+
+
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				
+					
+
+						
+
+						
+
+						<div class="journal-content-article">
+							<div id="hp-block-5">
+    <a href="https://www.t-mobile.cz/telefony/samsung/galaxy-s21-5g" style="text-decoration: none !important;">
+        <div class="billboard">
+        </div>
+    </a>
+
+    <style>
+        .billboard {
+            background-image: url("/dcpublic/S21-2500x580.jpg");
+            background-position: center;
+            height: 580px;
+        }
+
+        @media screen and (max-width: 1199px) {
+            .billboard {
+                background-image: url("/dcpublic/S21-1200x400.jpg");
+                background-position: center;
+                height: 400px;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .billboard {
+                background-image: url("/dcpublic/S21-800x500.jpg");
+                background-position: center;
+                height: 500px;
+            }
+        }
+    </style>
+</div>
+						</div>
+
+						
+					
+					
+				
+			
+		
+	
+
+
+
+
+
+
+
+	
+		<div class="entry-links">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+	
+
+	
+
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+<form action="#" id="hrefFm" method="post" name="hrefFm">
+	<span></span>
+</form>
+
+<!--	FOOTER PORTLET	-->
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_footerportlet_WAR_navigationportlet_  portlet-static portlet-static-end portlet-borderless  " id="p_p_id_footerportlet_WAR_navigationportlet_" >
+		<span id="p_footerportlet_WAR_navigationportlet"></span>
+
+
+
+	
+	
+	
+
+		
+
+			
+				
+					
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer" role="contentinfo"><div class="container"><div class="row"><div class="col-xs-12 col-sm-12 col-md-3"><i class="ico-logo logo"></i></div><div class="col-xxs-12 col-xs-4 col-md-3 js-collapsible"><h6><a href="/co-nejvic-chcete">Co nejvíc chcete</a></h6><ul class="collapse" id="navfooterservices-0"><li><a href="/dulezite/volani">Volání</a></li><li><a href="https://www.t-mobile.cz/telefony">Telefony</a></li><li><a href="/dulezite/internet">Internet</a></li><li><a href="/t-mobile-tv">Televize</a></li><li><a href="https://www.t-mobile.cz/sms/open.jsp">Poslat SMS</a></li><li><a href="https://www.t-mobile.cz/mms-vyzvednuti-na-webu">Vyzvednout MMS</a></li></ul></div><div class="col-xxs-12 col-xs-4 col-md-3 js-collapsible"><h6><a href="/co-potrebujete">Co potřebujete</a></h6><ul class="collapse" id="navfooterservices-1"><li><a href="/kariera-hledame">Kariéra v T-Mobile</a></li><li><a href="/kontakty-t-mobile">Kontakty &amp; prodejny</a></li><li><a href="http://t-press.cz/">Pro média</a></li><li><a href="/microsites/pomahame/index.html">Pomáháme</a></li><li><a href="/dulezite/katalog-sluzeb">Katalog služeb</a></li><li><a href="/ochrana-udaju">Ochrana soukromí</a></li></ul></div><div class="col-xxs-12 col-xs-4 col-md-3 js-collapsible"><h6><a href="/co-se-muze-hodit">Co se může hodit</a></h6><ul class="collapse" id="navfooterservices-2"><li><a href="/dulezite/podpora">Podpora</a></li><li><a href="/presmerovani/vyhody-nakupu">Výhody eShopu</a></li><li><a href="/mapapokryti">Mapa pokrytí</a></li><li><a href="/aplikace-muj-t-mobile">Aplikace Můj T-Mobile</a></li><li><a href="/podpora/ke-stazeni">Podmínky a dokumenty</a></li><li><a href="/podpora/vyuctovani-a-platby">Vyúčtování a platby</a></li></ul></div></div><div class="footer-divider"></div><div class="row reverse"><div class="col-xs-12 col-sm-3 social-links"><ul class="list-inline"><li><a href="https://www.facebook.com/TmobileCz/" class="ico-facebook-square" target="_blank"><span class="sr-only">Facebook</span></a></li><li><a href="https://www.instagram.com/tmobile_cze/" class="ico-instagram-square" target="_blank"><span class="sr-only">Instagram</span></a></li><li><a href="http://www.youtube.com/user/tmobilecz" class="ico-youtube-square" target="_blank"><span class="sr-only">Youtube</span></a></li><li><a href="https://twitter.com/TMobile_CZE" class="ico-twitter-square" target="_blank"><span class="sr-only">Twitter</span></a></li><li><a href="http://www.charger.cz/" class="ico-charger-square" target="_blank"><span class="sr-only">Charger</span></a></li></ul></div><div class="col-xs-12 col-sm-9"><p class="copyright">&copy; 2004-2021 T-Mobile Czech Republic a.s.</p><p class="legal-statement">Podle zákona o evidenci tržeb je prodávající povinen vystavit kupujícímu účtenku. Zároveň je povinen zaevidovat přijatou tržbu u správce daně on-line; v případě technického výpadku pak nejpozději do 48 hodin.</p></div></div></div></div>
+
+<!-- Status:Footer-portlet:OK -->
+
+	
+	
+
+					
+				
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+				
+				
+			
+
+		
+
+	
+
+
+
+
+
+		
+	</div>
+
+
+
+
+
+	<!--	/FOOTER PORTLET	-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+				<script src="https://static2.t-mobile.cz/lwe-eshop-portlet/js/vuejs/stores/portletStore.js?browserId=other&amp;minifierType=js&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611136290000" type="text/javascript"></script>
+
+	
+
+				<script src="https://static2.t-mobile.cz/lwe-eshop-portlet/js/minicart.js?browserId=other&amp;minifierType=js&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611136290000" type="text/javascript"></script>
+
+	
+
+				<script src="https://static2.t-mobile.cz/service-catalog-portlet/resources/js/ext.js?browserId=other&amp;minifierType=js&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611136272000" type="text/javascript"></script>
+
+	
+
+				<script src="https://static2.t-mobile.cz/html/portlet/dynamic_data_lists/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611174037000" type="text/javascript"></script>
+
+	
+
+				<script src="https://static2.t-mobile.cz/html/portlet/dynamic_data_mapping/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611174037000" type="text/javascript"></script>
+
+	
+
+				<script src="https://static2.t-mobile.cz/html/portlet/document_library/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611174037000" type="text/javascript"></script>
+
+	
+
+				<script src="https://static2.t-mobile.cz/html/portlet/document_library/js/upload.js?browserId=other&amp;minifierType=js&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611174037000" type="text/javascript"></script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+	Liferay.Util.addInputFocus();
+
+	
+
+	
+		
+		
+
+			
+
+			
+		
+	
+
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_searchsmallcorporateportlet_WAR_searchcorporateportlet_INSTANCE_0g0budeGj6ON_',
+					portletId: 'searchsmallcorporateportlet_WAR_searchcorporateportlet_INSTANCE_0g0budeGj6ON',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d63078851\x26p_p_id\x3dsearchsmallcorporateportlet_WAR_searchcorporateportlet_INSTANCE_0g0budeGj6ON\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26MONITORING-ID\x3dc1130048-e82a-486d-aaad-6ac2536df1e6\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fosobni'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 4,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J_',
+					portletId: 'leadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d63078851\x26p_p_id\x3dleadcollector_WAR_leadcollectorportlet_INSTANCE_VpTtqiBebb0J\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d4\x26p_p_col_count\x3d6\x26MONITORING-ID\x3dc1130048-e82a-486d-aaad-6ac2536df1e6\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fosobni'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 2,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_90PkjgU7txxU_',
+					portletId: '56_INSTANCE_90PkjgU7txxU',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d63078851\x26p_p_id\x3d56_INSTANCE_90PkjgU7txxU\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d6\x26MONITORING-ID\x3dc1130048-e82a-486d-aaad-6ac2536df1e6\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fosobni'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_welcomeportlet_WAR_navigationportlet_',
+					portletId: 'welcomeportlet_WAR_navigationportlet',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d63078851\x26p_p_id\x3dwelcomeportlet_WAR_navigationportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26MONITORING-ID\x3dc1130048-e82a-486d-aaad-6ac2536df1e6\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fosobni'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 3,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_WwWGrKbglpEG_',
+					portletId: '56_INSTANCE_WwWGrKbglpEG',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d63078851\x26p_p_id\x3d56_INSTANCE_WwWGrKbglpEG\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d3\x26p_p_col_count\x3d6\x26MONITORING-ID\x3dc1130048-e82a-486d-aaad-6ac2536df1e6\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fosobni'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_footerportlet_WAR_navigationportlet_',
+					portletId: 'footerportlet_WAR_navigationportlet',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d63078851\x26p_p_id\x3dfooterportlet_WAR_navigationportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26MONITORING-ID\x3dc1130048-e82a-486d-aaad-6ac2536df1e6\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fosobni'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_mt6Oul2q2OXA_',
+					portletId: '56_INSTANCE_mt6Oul2q2OXA',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d63078851\x26p_p_id\x3d56_INSTANCE_mt6Oul2q2OXA\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d6\x26MONITORING-ID\x3dc1130048-e82a-486d-aaad-6ac2536df1e6\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fosobni'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 1,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_E1dFL49DLJTd_',
+					portletId: '56_INSTANCE_E1dFL49DLJTd',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d63078851\x26p_p_id\x3d56_INSTANCE_E1dFL49DLJTd\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d6\x26MONITORING-ID\x3dc1130048-e82a-486d-aaad-6ac2536df1e6\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fosobni'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 5,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_56_INSTANCE_BcbdFzGNbCdB_',
+					portletId: '56_INSTANCE_BcbdFzGNbCdB',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d63078851\x26p_p_id\x3d56_INSTANCE_BcbdFzGNbCdB\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d5\x26p_p_col_count\x3d6\x26MONITORING-ID\x3dc1130048-e82a-486d-aaad-6ac2536df1e6\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fosobni'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_lweminicart_WAR_lweeshopportlet_',
+					portletId: 'lweminicart_WAR_lweeshopportlet',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d63078851\x26p_p_id\x3dlweminicart_WAR_lweeshopportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26MONITORING-ID\x3dc1130048-e82a-486d-aaad-6ac2536df1e6\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fosobni'
+				}
+			);
+		
+			Liferay.Portlet.onLoad(
+				{
+					canEditTitle: false,
+					columnPos: 0,
+					isStatic: 'end',
+					namespacedId: 'p_p_id_navigationportlet_WAR_navigationportlet_',
+					portletId: 'navigationportlet_WAR_navigationportlet',
+					refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d63078851\x26p_p_id\x3dnavigationportlet_WAR_navigationportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26MONITORING-ID\x3dc1130048-e82a-486d-aaad-6ac2536df1e6\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fosobni'
+				}
+			);
+		AUI().use('aui-base', 'liferay-menu', 'liferay-notice', 'liferay-poller', function(A) {(function() {
+	Liferay.Util.addInputType();
+
+	Liferay.Portlet.ready(
+		function(portletId, node) {
+			Liferay.Util.addInputType(node);
+		}
+	);
+
+	if (A.UA.mobile) {
+		Liferay.Util.addInputCancel();
+	}
+})();(function() {
+	new Liferay.Menu();
+
+	var liferayNotices = Liferay.Data.notices;
+
+	for (var i = 1; i < liferayNotices.length; i++) {
+		new Liferay.Notice(liferayNotices[i]);
+	}
+
+	
+})();});
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://static2.t-mobile.cz/tmcz-theme/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=cs_CZ&amp;b=6201&amp;t=1611136240000" type="text/javascript"></script>
+
+
+
+	
+
+	
+
+	<script type="text/javascript">
+		// <![CDATA[
+			
+
+			
+		// ]]>
+	</script>
+
+
+
+
+
+
+<script type="text/javascript">
+	document.cookie = 'AJAXIBLE_JAVASCRIPT_ENABLED=true';
+</script>
+
+
+<!-- bottom-ext.jsp  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			    <script type="text/javascript">
+                if(is_tmcz_authenticated == true) {
+                               dataLayer.push({'user.LoggedIn':'yes'});
+                }
+</script>		  
+
+			    <script>
+jQuery.fn.addScoreData = function(){
+  var obj = jQuery(this);
+  var fullPrefix = obj.find("input[name*='leadcollector']").attr("name");
+  var namePrefix = fullPrefix.substr(0, fullPrefix.lastIndexOf("_"))
+  
+  if(!jQuery("#exponeaCounter").length){
+    obj.append('<input type="hidden" name="'+namePrefix+'_counter" id="exponeaCounter" value="" />');
+  }
+  
+  if(typeof window.exponeaObject !== 'undefined' && typeof window.exponeaObject.Counter !== 'undefined'){
+    jQuery("#exponeaCounter").val(""+window.exponeaObject.Counter+"")
+  }
+  else{
+    jQuery("#exponeaCounter").val("0");
+  }
+
+}
+  
+window.exponeaObjectUpdatedCallback = function () {
+  jQuery("div[id*='leadcollector']").find("form").addScoreData(); 
+}
+</script>		  
+
+			    <script type="text/javascript">
+$('.nav-login form').submit(function(){
+dataLayer.push(
+{event:"mtm.login",form:"formSent",formType:"standard",formUrl:document.URL,product:"Zelený pruh"}
+)
+});
+</script>		  
+
+
+
+
+
+</body>
+
+</html>
+
+```
