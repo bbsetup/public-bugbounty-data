@@ -1,0 +1,186 @@
+```<html>
+<head>
+	<title>Apple Emulator</title>
+	<meta name="author" content="Alexis Wilke"/>
+	<meta name="copyright" content="Copyright (c) 2005-2006 Alexis Wilke"/>
+	<meta name="keywords" content="apple,ii,II,][,2,][e,][+,//e,//c,emulator,6502,6502A,cpu,processor,BASIC,ProDOS,C030"/>
+	<meta name="description" content="The Apple Emulator: yet another version of the famous Apple ][ emulator."/>
+</head>
+<body background="images/background.jpg">
+
+<table align="center">
+	<tr>
+		<td>
+			<table align="center" style="border-top: #e2e2e2 solid; border-left: #e2e2e2 solid; border-right: #b8b8b8 solid; border-bottom: #b8b8b8 solid;" bgcolor="#f0f0f0">
+				<tr>
+					<td valign="middle">
+						<img src="images/ApplesSmall.png">
+					</td>
+					<td valign="middle">
+						<h1 align="center">&nbsp;Apple&nbsp;Emulator&nbsp;</h1>
+						<hr width="50%">
+						<center>
+						<i>Version&nbsp;0.8</i>
+						<br/>
+						<br/>
+						<a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=136299&amp;type=3" width="125" height="37" border="0" alt="SourceForge.net Logo"/></a>
+						</center>
+					</td>
+				</tr>
+			</table>
+    
+			<p style="background-color: #ffcccc; color: #0088ff; border-width: 1px; border-style: solid; border-color: black; padding: 2px;" align="center"><i>Best viewed with
+			Mozilla, Firefox or Netscape (since they understand the PNG
+			alpha channel)</i></p>
+    
+			<table cellpadding="10" cellspacing="0">
+				<tr>
+					<td bgcolor="#e0e8f4" style="border-top: #e2e2e2 solid; border-left: #e2e2e2 solid; border-right: #b8b8b8 solid; border-bottom: #b8b8b8 solid;" valign="top" height="100%">
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td>
+									<img src="images/GrannySmithSmall.png">
+								</td>
+								<td width="100%">
+									<center><b>Project</b></center>
+								</td>
+							</tr>
+						</table>
+						<p>
+							<a href="https://sourceforge.net/project/showfiles.php?group_id=136299">Download</a><br>
+							<a href="license.html">AppleEmulator&nbsp;License</a><br>
+							<a href="changes.html">Release&nbsp;Notes</a><br>
+							<a href="screenshots.html">Screenshots</a><br>
+							<a href="emu65xx.html">Processor&nbsp;Reference</a><br>
+						</p>
+						<hr>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td>
+									<img src="images/StrawberrySmall.png">
+								</td>
+								<td width="100%">
+									<center><b>Links</b></center>
+									<center><small><i>(in whatever order)</i></small></center>
+								</td>
+							</tr>
+						</table>
+						<p>
+							<a href="http://apple2history.org/index.html">Apple II History</a><br>
+							<a href="http://www.faqs.org/faqs/apple2/emulators-faq/part1/">Apple2&nbsp;Emulators&nbsp;FAQ</a><br>
+							<a href="http://home.swbell.net/rubywand/csa2pfaq.html">Apple ][ Programming</a><br>
+							<a href="ftp://ftp.apple.asimov.net/pub/apple_II/">Asimov&nbsp;FTP&nbsp;site</a><br>
+							<a href="http://www.apple2clones.com./">Apple2&nbsp;Clones</a><br>
+							<a href="http://ccore.sourceforge.net">Cray&nbsp;Emulator</a><br>
+							<a href="http://catakig.sourceforge.net/">Catakig</a><br>
+							<a href="http://kegs-sdl.sourceforge.net">KEGS</a><br>
+							<a href="http://applecommander.sourceforge.net">Apple&nbsp;Commander</a><br>
+							<a href="http://sourceforge.net/projects/openapple/">OpenApple</a><br>
+							<a href="http://sourceforge.net/projects/psiapple/">PsiApple</a><br>
+							<a href="http://sourceforge.net/projects/dapple/">Dapple</a><br>
+							<a href="http://www.wbwip.com/a2web/a2emul.html">Apple Emulators</a><br>
+							<a href="http://www.lassie.demon.co.uk/microlab/assembler.html">Microlab Assembler</a><br>
+						</p>
+						<hr>
+						<center><b>From&nbsp;the&nbsp;same&nbsp;Author</b></center>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td>
+									<p>
+										<a href="http://sswf.m2osw.com/">SSWF</a><br>
+										<a href="http://libx3d.sf.net/">libx3d</a><br>
+										<a href="http://edll.sf.net/">EDLL</a><br>
+										<a href="http://solitaire.m2osw.com/">solitaire</a><br>
+										<a href="http://amake.m2osw.com/">amake</a><br>
+										<a href="http://aftp.m2osw.com/">aftp</a><br>
+									</p>
+								</td>
+								<td width="100%" align="right">
+									<img src="images/BananaSmall.png">
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td width="20" height="100%">
+						&nbsp;
+					</td>
+					<td bgcolor="#f9f9f9" style="border: 1px solid #707c74" valign="top" height="100%">
+						<table width="500" height="100%">
+							<tr>
+								<td>
+									<img src="images/LemonSmall.png" align="right">
+									<p style="margin-left: 20px;">
+										Welcome to <b>Apple Emulator</b>, a GPL project.
+									</p>
+									<p>
+										I finally spent a little time on this emulator to fix the
+										timing (CPU &amp; screen refresh) and offer a few more
+										options in the menu (that is, a few more of the menu options
+										now work.) So you have more load/save features and the
+										statistics screen is also functional!
+									</p>
+									<p>
+										Now you can load &amp; save:
+									</p>
+									<ul>
+										<li>A Basic Program</li>
+										<li>Memory to/from a Binary File</li>
+									</ul>
+									<p>
+										Sorry... no diskette yet!
+									</p>
+									<p>
+										The processor is a standalone C++ object that you can
+										use for other purposes than this Apple emulator.
+										It includes support for the 6502, 65C02 and 65C02S.
+										It now includes a cycle versus realtime loop. So whenever
+										the execution goes too fast, the loop will slow down the
+										system automatically.
+									</p>
+									<p>
+										Find the source files on SourceForge here:
+										<a href="https://sourceforge.net/project/showfiles.php?group_id=136299">Files</a>
+									</p>
+									<p align="right">
+										Alexis<br>
+										<small>June 24, 2006</small>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td valign="bottom" align="right" height="100%">
+									<table>
+										<tr>
+											<td align="right" valign="bottom">
+												File:<br/>
+												md5:
+											</td>
+											<td align="left" valign="bottom">
+												apple_emulator-0.8-src.tar.gz<br/>
+												358c292f3dffca7cf9bd7d9806517e08
+											</td>
+											<td width="99%" align="right" valign="bottom">
+												<img src="images/FruitsSmall.png">
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center">
+						<b>Copyright (c) 2005-2006 by Alexis Wilke &#151; All Rights Reserved</b>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+<!-- vim: ts=2
+-->
+</html>
+```
