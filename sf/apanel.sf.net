@@ -1,0 +1,58 @@
+```<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Fujitsu lifebook application panel - Home</title>
+<meta name="keywords" content="fujitsu c-series applicationpanel lifebook ff80 freebsd unix linux source programming">
+<link rel="stylesheet" href="fujmain.css">
+</head>
+<body><table class="title"><tr>
+<td><h1>Fujitsu lifebook application panel<br />
+<span class="subtitle">Technical information and drivers for *n*x platforms</span></h1></td><td id="logo"><a href="http://sourceforge.net/"><img src="http://sourceforge.net/sflogo.php?group_id=75115&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo" /></a></td></tr></table>
+
+<table border="0" class="lay"><tr>
+<td class="nav">
+<p class="l1"><a href="index.php">Home</a></p>
+<p class="l1"><a href="tech.php">Tech. Details</a></p>
+<p class="l1"><a href="download.php">Download</a></p>
+<p class="l1"><a href="faq.php">FAQ</a></p>
+<p class="l1"><a href="scripts.php">Fjkeyd scripts</a></p>
+<p class="l1"><a href="links.php">Links</a></p>
+<p class="l1"><a href="http://sourceforge.net/projects/apanel/">SF Project</a></p>
+</td>
+<td class="contents">
+<h1>Home</h1>
+
+<p>The notebook Fujitsu C-4110 lifebook has an application panel (if you
+want to know what it is, look at
+<a href="http://www.fujitsu-pc.com/www/support.shtml?support/techspecs/notebooks/cseriessum99_info">Fujitsu C-4110 description</a>).
+This works in windows, but what if you want to use it from another operating
+system? Since Fujitsu wasn't very helpful in this respect, I had to find it
+out myself.</p>
+
+<p>I found out some i/o sequences that could be implemented in drivers
+for other platforms. After some time, the i/o sequences appeared
+looked a lot like smbus commands and after trying it out on my laptop, 
+the new <a href="tech.php">technical details</a> were written, as well as a new
+driver which should support most models. After that specs for some of
+the ic's used were found, wich enabled the creation of an interrupt-driven
+driver. A <a href="stuff/">pre-alpha test version</a> showed, however,
+that this was too unreliable to use because of ghost keystrokes.</p>
+
+<p>Go to the <a href="download.php">download page</a> to download the
+drivers. Currently, FreeBSD and linux are supported. Of course it's all
+open-source.</p>
+<p>I want to thank Martijn Coenen en Leon Schrijvers for their 
+<a href="http://kyathos.penguinpowered.com/tlp/index.html">TLP Project</a>
+(site dead) with which it all started, and Jochen Eisinger for writing the
+linux driver.</p>
+
+<p><strong>Note</strong>: this project has been silent for a couple of years
+already and isn't likely to be revived since the hardware has become too old to
+be widely used. The drivers and documentation remain available on this
+website.</p>
+
+</td></tr>
+</table>
+<p class="footer">Copyleft by the apanel developers. Revision date: December 08 2008 13:18:50.</p>
+</body>
+</html>```
