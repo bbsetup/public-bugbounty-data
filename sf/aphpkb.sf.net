@@ -1,0 +1,122 @@
+```
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Official Site Of Andy's PHP Knowledgebase Project</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="rap">
+			<div id="header">
+				<h1><a href="#">Andy's PHP Knowledgebase Project</a></h1>
+				<h2>aphpkb.org</h2>
+			</div>
+			<!-- Navigation Start -->
+			<ul id="nav">
+				<li><a id="home" href="#">Home</a></li>
+				<li><a id="download" href="http://prdownloads.sourceforge.net/aphpkb/aphpkb-0.96.2.tgz?download">Download</a></li>
+				<li><a id="install" href="install.php">Install Guide</a></li>
+				<li><a id="blog" href="http://aphpkb.blogspot.com">Blog</a></li>
+				<li><a id="credits" href="credits.php">Credits and Links</a></li>
+				<li><a id="donate" href="http://sourceforge.net/donate/index.php?group_id=113755">Donate</a></li>
+			</ul>
+			<!-- Navigation Stop -->
+			<!-- sidebar start -->
+			<p></p>
+			<div id="sidebar">
+				 <div id="search">
+					<form method="get" action="http://www.google.com/custom" />
+			 			<input name="q"  class="find" size="20" maxlength="255" value="" type="text" />
+			  			  <input name="sa" value="search" class="tombol" type="submit" />
+			   				<input name="cof" value="" type="hidden" />
+					</div>
+				<div>
+				  	<h3>Download</h3>
+				  	
+					Latest Version: 0.96.2<br />Download: <a href="http://prdownloads.sourceforge.net/aphpkb/aphpkb-0.96.2.tgz?download">Download aphpkb-0.96.2.tgz </a><br />
+				</div>
+				<div>
+							
+					
+					<h3>Latest News</h3>
+						<p><b><i>31 January 2017</i></b></p>
+<p>New Release</p>	
+
+<p>This release updates support email contact and version and copyright details
+<p>					</div>	
+				<div>
+					<A href="http://sourceforge.net">
+<IMG src="http://sourceforge.net/sflogo.php?group_id=113755&amp;type=5" width="120" height="35" border="0" alt="SourceForge.net Logo" /></A>
+				
+				<br />
+				<a href="http://www.php.net"><img src="./imgs/php-power-white.png" border="0" /><br />
+				<br />
+				<a href="http://www.mysql.com"><img src="./imgs/powered-by-mysql-125x64.png" border="0"  /></a><br />
+				<br />
+				
+				
+				</div>	
+			</div>
+			<!-- sidebar Stop here -->
+			
+		<!-- content begin -->
+		<div id="content">
+			<div>
+<p>Andy's PHP Knowledgebase using MySQL is a database driven knowledgebase management system.
+It includes bookmark friendly URLs, Q&A, easy search with browsing by article tags, article submission,
+a powerful administrator interface and a professional and attractive interface.</p>
+
+<p>Features include:</p>
+<ul>
+<li>Bookmark friendly URLs</li>
+<li>Streamlined Install</li>
+<li>Question and Answer functions</li>
+<li>Keyword Search</li>
+<li>Article Submission</li>
+<li>Comment Submission</li>
+</ul>
+<p>Knowledgebase Admin features include:</p>
+
+<ul>
+<li>Statistics</li>
+<li>Article and Comment Approval</li>
+<li>Approve, Edit and Delete Articles</li>
+<li>Approve, Edit and Delete Comments</li>
+<li>Answer and Delete Questions</li>
+<li>View All Articles</li>
+</ul>
+<p>Screenshots:</p>
+
+
+
+<table>
+<tr>
+<td><a href="./imgs/mainpage.jpg"><img src="./imgs/smallmainpage.jpg" alt="screenshot of main page" /></a>     </td>                
+<td><a href="./imgs/submitquestion.jpg"><img src="./imgs/smallsubmitquestion.jpg" alt="screenshot of submit question" /></a></td></tr><tr>
+<td><a href="./imgs/kbadminviewallarticles.jpg"><img src="./imgs/smallkbadminviewallarticles.jpg"  alt="screenshot of kbadmin view all articles" /></a></td> 
+<td><a href="./imgs/kbadminstatistics.jpg"><img src="./imgs/smallkbadminstatistics.jpg"  alt="screenshot of kbadmin statistics" /></a></td>
+</tr></table>
+
+
+
+
+
+
+
+
+			</div>
+		<!-- stop Content -->
+			
+		<!-- Footer start -->
+		<div id="line"></div>
+		<div id="footer">
+			Copyright &copy; 2016 <a href="#">Andy's PHP Knowledgebase Development Team</a>.
+			<br />Site based on Smooth_K0d0k_2 By <a href="http://kodokhunt.blogsome.com">Kodokhunt</a>
+		</div>
+		<!-- Footer Stop -->
+	</div>
+	<!-- Rap Stop -->
+</body>
+</html>
+```
