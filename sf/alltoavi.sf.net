@@ -1,0 +1,110 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="keywords" content="mkv to avi, ogm to avi, wmv to avi, mov to avi, all to avi, alltoavi, vob to avi" />
+<meta http-equiv="description" content="AllToAvi converts all video to avi. mkv to avi, ogm to avi, wmv to avi, mov to avi, all to avi, alltoavi, vob to avi"
+<title>AllToAvi Home</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="AllToAvi RSS" href="rss.php" />
+</head>
+
+<body>
+<!-- Header Image and Logo-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="120"><a href="index.php"><img src="images/allToAviLogo.jpg" alt="AllToAvi" border="0" /></a></td><td bgcolor="#66FF99"><img src="images/fadeout.png" alt="FadeOut" align="right" /></td>
+  </tr>
+</table>
+<!-- Menu goes here -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="menu">
+	<tr>
+		<td width="24" height="29"><img src="images/menus.png" alt="Menustart" width="24" height="29" /> </td>
+		<td><a href="features.php" class="menutxt">Features</a></td>
+		<td><a href="download.php" class="menutxt">Download</a></td>
+		<td><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=156812&amp;atid=801286" class="menutxt" target="_blank">Support</a></td>
+		<td><a href="tutorial/" class="menutxt">Tutorials</a></td>
+		<td><a href="index.php#help" class="menutxt">Help with this project</a></td>
+		<td><a href="admin/index.php" class="menutxt">Admin</a></td>
+		<td width="24"><img src="images/menue.png" alt="Menustart" width="24" height="29" /></td>
+	</tr>
+</table>
+<!-- Header ends -->
+<h1>What is alltoavi?</h1>
+<a href="images/AlltoAvi GUI v3.png" title="AllToAvi main GUI version 3"><img src="images/AlltoAvi GUI v3 th.png" hspace="10" alt="GUI version 3" align="right" border="0" /></a>
+<p>This project is a tool to convert especially ogm and mkv files to avi, with subtitle and audio track selection, video resizing,  bitrate selection and codec selection. It is centered around mencoder,  with a commandline tool as well as a GUI for Windows.</p>
+<p>I first decided to do this after countless of animes became backlogs on my server' HDD simply because i cannot get bothered converting it using tools like virtualdubmod, it simply take way too much time and  HDD Space.</p>
+<h2>News</h2>
+<ul>
+  <li>New Website coming still</li>
+  <li><b>v4 Beta 6.1 preview! See <a href="http://sourceforge.net/projects/alltoavi/">http://sourceforge.net/projects/alltoavi/</a></b></li>
+</ul>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+	<h2>Features</h2>
+	<ul>
+	  <li><a href="http://sourceforge.net/project/screenshots.php?group_id=156812&ssid=51732" target="_blank">XP Style Status window</a></li>
+	  <li><a href="http://sourceforge.net/project/screenshots.php?group_id=156812&ssid=51730" target="_blank">Drag n Drop</a></li>
+	  <li><a href="http://sourceforge.net/project/screenshots.php?group_id=156812&ssid=51733" target="_blank">Mouse over Tips, user friendly</a></li>
+	  <li><a href="http://sourceforge.net/project/screenshots.php?group_id=156812&ssid=51732" target="_blank">Pause, stop conversion anytime</a></li>
+	  <li><a href="http://sourceforge.net/project/screenshots.php?group_id=156812&ssid=51729" target="_blank">very fun to read and helpful manual</a></li>
+	  <li><a href="http://sourceforge.net/project/screenshots.php?group_id=156812&ssid=51731" target="_blank">Right click to convert folder/file</a></li>
+	  <li>Can now encode to avi with PCM(wave) audio, this means all audio formats can be encoded no matter what!</li>
+	  <li>Less error prone, more checks are added</li>
+	  <li>More codecs, you can now encode to Mpeg as well</li>
+	  <li>Brand new <acronym title="Graphical User Interface">GUI</acronym></li>
+	  <li>100% <acronym title="OGG Media File">OGM</acronym>/<acronym title="Matroska Video">MKV</acronym> support</li>
+	  <li>Any format, as long as you can watch, you can convert</li>
+	  <li>Subtitle track selection</li>
+	  <li>Audio track selection</li>
+	  <li>Resizing</li>
+	  <li>Custom Bitrate</li>
+	  <li>Custom Codec encoding</li>
+	  <li>External Audio files (any format)</li>
+	  <li>External Subtitle files (any format)</li>
+	  <li>Stream information is given, ie language of the stream is in the selection box instead of numbers</li>
+	</ul>
+	</td>
+    <td valign="top"><br />&nbsp;
+	<h2>Supported conversions</h2>
+	<ul>
+	  <li>OGM to avi with subtitle and audio</li>
+	  <li>MKV to avi with subtitle and audio</li>
+	  <li>VOB to avi with audio [SUB not tested, please post to let me know if it works]</li>
+	  <li>AVI to avi</li>
+	  <li>WMV to avi</li>
+	  <li>RM/RMVB to avi</li>
+	  <li>MOV to avi</li>
+	  <li>MPEG (all) to avi</li>
+	  <li>H.264</li>
+	  <li>AAC audio<br />
+	  <li><a href="http://genesis-kiith.com/alltoavi/doc/manual/misc/codecs.html" target="_blank">Full list</a></li>
+		<br />
+	  </li>
+	  <li>...? Did you found more supported conversions, please let me now! </li>
+	</ul>
+	</td>
+  </tr>
+</table>
+<h2>Help with this project<a name="Help" id="Help"></a></h2>
+<p>If you want to help with this project, here are some suggestions:</p>
+<ul>
+  <li>Publicity, publicity, publicity, we want people to use our application..</li>
+  <li>Cash is always welcome XD <a href="https://sourceforge.net/donate/index.php?group_id=156812" target="_blank"> Donate</a></li>
+  <li>A logo &amp; icon, suggestions can goto the <a href="http://sourceforge.net/forum/index.php?group_id=156812" target="_blank">forum</a></li>
+  <li>DVD ripping functions</li>
+</ul>
+<p>&nbsp;</p>
+<!-- Footer starts -->
+<p>&nbsp;</p>
+<p align="center"><a href="http://sourceforge.net/"><img src="images/sflogo.png" alt="SourceForge.net Logo" border="0" height="31" width="88" /></a>
+  <a href="http://sourceforge.net/donate/index.php?group_id=156812"><img src="images/donatelogo.jpg" alt="Support This Project" border="0" height="32" width="88" /></a><br />
+  <em>Webdesign version 1.0, <a href="http://www.hirvine.com">Hirvine</a><br />
+AllToAvi created by <a href="http://sourceforge.net/tracker/?func=add&amp;group_id=156812&amp;atid=801286">Sakuya</a>, <br>Progress GUI: <a href="http://sourceforge.net/tracker/?func=add&amp;group_id=156812&amp;atid=801286">DataChild</a></em>
+</p>
+<!-- Footer ends -->
+</body>
+</html>
+```
