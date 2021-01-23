@@ -1,0 +1,242 @@
+```<HTML>
+
+<HEAD>
+	<TITLE>AMake's Home Page (2.10.20)</TITLE>
+	<META NAME="description" CONTENT="Brief description of the AMake 2.10.20 utility">
+	<META NAME="keywords" CONTENT="amake, make, file maker, makefile, amakefile">
+	<META NAME="author" CONTENT="Alexis Wilke">
+	<META NAME="copyright" CONTENT="Alexis Wilke (c) 1999-2005">
+	<META NAME="generator" CONTENT="Pffffffffff!!! I typed it by hand, what do you think?!?">
+</HEAD>
+
+<BODY BGCOLOR="WHITE">
+<P>
+<CENTER>
+	<TABLE CELLPADDING="5" BORDER="0" CELLSPACING="5">
+	<TR>
+	<TD ALIGN="CENTER">
+	<DIV STYLE="color: #227711"><FONT SIZE="+2"><B>AMake 2.10.20 Home Page</B></FONT></DIV>
+	<SMALL>by Alexis Wilke</SMALL>
+	<BR>
+	<SMALL><I>1999-2005</I></SMALL>
+	</TD>
+	<TD ALIGN="RIGHT">
+
+<A href="http://sourceforge.net"><IMG src="http://sourceforge.net/sflogo.php?group_id=54484&amp;type=5" width="210" height="62" border="0" alt="SourceForge Logo"></A>
+	</TD>
+	</TR>
+	</TABLE>
+</CENTER>
+</P>
+
+<BR>
+
+<P>
+<CENTER>
+	<TABLE CELLPADDING="5" BORDER="0" CELLSPACING="0">
+	<TR>
+	<TD ALIGN="CENTER" WIDTH="350">
+	<B>Summary</B>
+	</TD>
+	<TD STYLE="background: #88CC55" ALIGN="CENTER">
+	<B>Compiles Under</B>
+	</TD>
+	</TR>
+	<TR>
+	<TD ALIGN="LEFT">
+		<A HREF="#what">What is AMake 2.10.20?</A>
+		<BR>
+		<A HREF="#why">Why another file maker tool?</A>
+		<BR>
+		<A HREF="#use">Why use AMake 2.10.20?</A>
+		<BR>
+		<A HREF="#copyright">Copyright</A>
+		<BR>
+		<A HREF="#download">Download for Free</A>
+		<BR>
+		<A HREF="amake-options.html">Quick Reference</A>
+		<BR>
+		<A HREF="#other_projects">My other Projects</A>
+		<BR>
+		<A HREF="#contact">Contact</A>
+	</TD>
+	<TD STYLE="background: #4477EE; color: #FFFFFF" ALIGN="CENTER">
+		Linux 2.x (RedHat, Debian, ...)
+		<BR>
+		SGI IRIX 5.2 to 6.5
+		<BR>
+		Sun OS 5.x
+		<BR>
+		FreeBSD
+		<BR>
+		MS-DOS/MS-Windows
+		<BR>
+		Mac OS/X 10.3.x
+	</TD>
+	</TR>
+	</TABLE>
+</CENTER>
+</P>
+
+
+<HR>
+
+<A NAME="what">
+<P><UL><H4 STYLE="color: #775511">
+	What is AMake 2.10.20?
+</H4></UL></P>
+
+<P STYLE="text-align: justify">
+<B>AMake 2.10.20</B> is a file maker tool of its own. It also supports
+modes to be compatible to <I>GNUmake</I>, <I>smake</I> and <I>pmake</I>
+by <I>SGI</I>, <I>smake</I> by <I>Joerg Shilling</I>, SUN make,
+WatcomMake, and the POSIX make (called ANSII by
+mistake). All of that to the best of my knowledge.
+It has no <I>BSD make</I> compatible mode, however it will compile
+under FreeBSD as well.
+</P>
+
+
+<HR>
+
+<A NAME="why">
+</H4></UL></P>
+<P><UL><H4 STYLE="color: #775511">
+	Why another file maker tool?
+</H4></UL></P>
+
+<P>
+<B>AMake 2.10.20</B> wasn't created to replace any file maker, I started on this
+project because I didn't have any file maker on my <I>Amiga</I>. Only later
+<I>GNUmake</I> became available and worked pretty well.
+</P>
+
+
+<HR>
+
+<A NAME="use">
+<P><UL><H4 STYLE="color: #775511">
+	Why use AMake 2.10.20?
+</H4></UL></P>
+
+<P>
+The result is a file maker which includes many options (some of which
+are redondant) so it can be made compatible to many other file makers.
+Many of the options come from other file makers. However, a large number are specific
+to <B>AMake 2.10.20</B>. These offer a way to create incredibly small makefile scripts; scripts
+that are more powerful than script written for any other make tool.
+Two among the strongest are the extended
+<B>AMake 2.10.20</B> patterns and the very large amount of special targets (or flags).
+The pattern rules and preprocessors are available in many other file
+maker. <B>AMake 2.10.20</B> integrates many preprocessor options to enable system
+specific selections and to ease debugging (just check out the #echo command and
+enjoy the easiness with which you can check what you have in a variable without
+printing 1000+ pages of unreadable output first!).
+</P>
+
+<P>
+A quick <A HREF="amake-options.html">reference of options</A> is available for
+those who want to know more about <B>AMake 2.10.20</B> before to download the
+complete software.
+</P>
+
+
+
+<HR>
+
+<A NAME="copyright">
+<P><UL><H4 STYLE="color: #775511">
+	Copyright
+</H4></UL></P>
+
+<P>
+<B>AMake 2.10.20</B> is a copyright by its author Alexis Wilke.
+</P>
+
+<P>
+<B>AMake 2.10.20</B> is offered under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2, or
+any later version. <B>AMake 2.10.20</B> is free software and can't be sold nor
+published in whole or in part. <B>AMake 2.10.20</B> can be copied as long as all of
+the files in the original package remain present and the copyright
+notices are kept. A full copy of the license is available
+in the offered package in the file <U>COPYING</U>.
+</P>
+
+
+<HR>
+
+<A NAME="download">
+<P><UL><H4 STYLE="color: #775511">
+	Download for Free
+</H4></UL></P>
+
+<P>
+At this time, you can download a version which will compile under Linux,
+MS-DOS, and IRIX. It should also compile under SunOS and FreeBSD with
+minor changes. <B>AMake 2.10.20</B> was written in ANSII C and
+should also compile under many other unix systems without much
+modifications.
+</P>
+
+<P>
+<B>AMake 2.10.20</B> can now be uploaded from SourceForge at the following
+address:
+<A HREF="http://sourceforge.net/projects/amake/">http://sourceforge.net/projects/amake/</A>.
+</P>
+
+<HR>
+
+<A NAME="other_projects">
+<P><UL><H4 STYLE="color: #775511">
+	My other Projects
+</H4></UL></P>
+
+<P>
+I have created some other projects that you can check out &amp; download if you wish. These
+are listed below:
+</P>
+
+<BLOCKQUOTE>
+<TABLE BORDER="0" CELLPADDING="5" CELLSPACING="5" WIDTH="80%">
+  <TR>
+    <TD>
+      <A HREF="http://sswf.m2osw.com">SSWF - a scripting utility used to create Flash movies in the background</A>
+    </TD>
+  </TR>
+  <TR>
+    <TD>
+      <A HREF="http://solitaire.m2osw.com">Solitaire - a solitary game played by the computer to find out all the solutions</A>
+    </TD>
+  </TR>
+</TABLE>
+</BLOCKQUOTE>
+
+<HR>
+
+<A NAME ="contact">
+<P><UL><H4 STYLE="color: #775511">
+	Contact
+</H4></UL></P>
+
+<P>
+<ADDRESS>
+If you have any question, suggestion, comments, bug report, etc. please feel
+free to email me at <A HREF="mailto:alexis@m2osw.com">alexis@m2osw.com</A>
+</ADDRESS>
+</P>
+
+
+<P ALIGN="RIGHT"><FONT SIZE=-5>
+	This page done by Alexis Wilke (c) 1999-2005.
+	<BR>
+	Last update on Feb 08 2005.
+</FONT></P>
+
+
+
+
+</BODY>
+
+</HTML>
+```
