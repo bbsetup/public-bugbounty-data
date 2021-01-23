@@ -1,0 +1,66 @@
+```<html>
+        <head>
+                <title>amaroK</title>
+                <link rel="stylesheet" type="text/css" href="include/style.css">
+	</head>
+	<body>
+		<table border='0' class='normal' width='100%' cellpadding='3' cellspacing='0' class='normal'>
+        <tr>
+                <td>
+                </td>
+                <td align='right' valign='center'>
+                        <a href='http://amarokweb.sourceforge.net'>amaroK Web 0.2</a>
+                </td>
+        </tr>
+</table>
+<hr color='black' width='100%'>
+		<table border='0' cellpadding='3' cellspacing='0' class='normal' width='100%'>
+			<tr>
+				<td valign='top' width=300>
+					<b>Main</b><br>
+					<a href='screenshots.php'>Screenshots</a><br>
+					<a href='readme.php'>README</a><br>
+					<a href='todo.php'>TODO</a><br>
+					<a href='https://sourceforge.net/project/showfiles.php?group_id=137701&package_id=151366'>Download</a>
+				</td>
+				<td>
+					<h3>Summary</h3>
+					<blockquote>&nbsp;&nbsp;&nbsp;amaroK Web is a web frontend to amaroK, the KDE Multimedia Player.  It provides a jukebox functionality.  It allows basic controls over the amaroK player, including adding/removing songs from the playist.</blockquote>
+					<h3>Version 0.2</h3>
+						<ul>
+							<li>Displays utf-8 characters</li>
+							<li>Better filter of cmd line argument to dcop.  all my songs now properly add.  how bout yours?</li>
+							<li>smaller images are no longer stretched.  Bigger images are still shrunk to 300x300</li>
+							<li>/var/www/localhost/htdocs/amaroK is no longer hardcoded</li>
+							<li>Sometimes my dcop interface is "amarok-2" instead of "amarok".  Now checks for that</li>
+							<li>Ability to reset all stats</li>
+							<li>Fixed bug in THEFILTER where it'd filter out "THE" in the word "THEY"</li>
+							<li>Better filter of download links</li>
+							<li>Volume control</li>
+						</ul>
+
+					<h3>Version 0.1.1</h3>
+						<ul>
+							<li> Important changes to the supplemental scripts that were left out of 0.1.  Users table was missing a field, create/edit user scripts didn't update that field.  All fixed.</li>
+						</ul>
+
+					<h3>Version 0.1</h3>
+						<ul>
+							<li> Add songs/albums to playlist</li>
+							<li> Clear/remove songs from playlist</li>
+							<li> start/stop/pause player</li>
+							<li> Go to next/prev song</li>
+							<li> Jump to song in playlist</li>
+							<li> Option to filter "The" out of the begining of Artists/Albums</li>
+							<li> "Read-only" accounts.  Users who can't modify amaroK player</li>
+							<li> Option to append suggested song to playlist if playlist is about to end</li>
+							<li> Option to allow downloads</li>
+							<li> Shows album covers if available</li>
+							<li> Shows information about currently playing track</li>
+						</ul>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
+```
