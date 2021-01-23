@@ -1,0 +1,1 @@
+```<html><body><h1>Use <pre>http://api.binaryai.tencent.com/v1/endpoint</pre> as endpoint</h1></body></html>```
