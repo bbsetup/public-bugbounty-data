@@ -1,0 +1,316 @@
+```<!DOCTYPE HTML>
+<!--
+	Fractal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The ARAS Radio Automation System</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="content">
+					<h1><a href="#">The ARAS Radio Automation System</a></h1>
+					<p>A broadcast automation system for the cloud or your desktop</p>
+					<ul class="actions">
+						<li><a href="https://sourceforge.net/projects/aras/files/aras/ARAS-4.6" target="_blank" class="button primary icon solid fa-download">Download</a></li>
+						<li><a href="https://github.com/erasvigo/aras" target="_blank" class="button primary icon solid fa-code-branch">Clone</a></li>
+						<li><a href="#one" class="button icon solid fa-chevron-down scrolly">Learn More</a></li>
+					</ul>
+				</div>
+                <div class="image"><div class="inner"><img src="images/aras-logo-alpha.png" alt="" /></div></div>
+			</header>
+
+		<!-- One -->
+			<section id="one" class="wrapper style2 special">
+				<header class="major">
+					<h2>Set up a broadcast station in minutes</h2>
+				</header>
+				<ul class="icons major">
+					<li><span class="icon solid fa-laptop"><span class="label">Desktop</span></span></li>
+					<li><span class="icon solid fa-cloud"><span class="label">Cloud</span></span></li>
+					<li><span class="icon solid fa-broadcast-tower"><span class="label">Broadcast</span></span></li>
+				</ul>
+
+				<div class="content inner" align="left">
+					<p><a href="#two" class="solid scrolly">ARAS</a> is a free broadcast automation system designed to be reliable and flexible. Source code, binaries and deb packages for x86-64 GNU/Linux are available under GPL license. These are some ARAS features:</p>
+					<ul>
+					<li>Playback of lots of media formats</li>
+    				<li>Supports ALSA, Pulseaudio and JACK for professional audio processing</li>
+					<li>Playback of files or media streams over internet, allowing automatic links</li>
+					<li>Several types of blocks: single file, playlist, random files, a single random file or interleaved</li>
+					<li>Highly configurable</li>
+					<li>Automagic radio rotation</li>
+					<li>Time signal</li>
+					<li>Log file</li>
+					<li>Crossfade capability</li>
+					<li>Flexible scheduling: wait for the current media to finish, or not</li>
+					<li>Engineered with both small and big radio stations in mind</li>
+					<li><a href="#aras_web_service" class="solid scrolly">Web service</a> available</li>
+					</ul>
+					
+					<ul class="actions special">
+					<li><a href="#two" class="button icon solid scrolly fa-cube small">Parts</a></li>
+					<li><a href="#aras_web_service" class="button icon solid scrolly fa-server small">ARAS web service</a></li>
+					<li><a href="#three" class="button icon solid scrolly fa-file small">Documentation</a></li>
+					<li><a href="#screenshots" class="button icon solid scrolly fa-photo-video small">Screenshots</a></li>
+					<li><a href="#contact" class="button icon solid scrolly fa-photo-video small">Get involved</a></li>
+					</ul>
+					
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper">
+				<div class="inner alt">
+				
+					<section class="spotlight">
+						<div class="image"><img src="images/aras-logo-daemon.png" alt="" /></div>
+						<div class="content">
+							<h3>ARAS daemon</h3>
+							<p>ARAS daemon is a powerful scheduler with a full featured integrated media player ideal to use in cloud applications.</p>
+						</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="images/aras-logo-player.png" alt="" /></div>
+						<div class="content">
+							<h3>ARAS player</h3>
+							<p>ARAS player is the desktop flavour of the ARAS Radio Automation System featuring a simple graphical inteface.</p>
+						</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="images/aras-logo-recorder.png" alt="" /></div>
+						<div class="content">
+							<h3>ARAS recorder</h3>
+							<p>ARAS recorder is an audio recorder that can be used to record configured blocks.</p>
+						</div>
+					</section>
+					
+					<ul class="actions special">
+					<li><a href="#one" class="button icon solid fa-home small">Top</a></li>
+					</ul>
+					
+				</div>
+			</section>
+
+			<!-- ARAS web service -->
+			<section id="aras_web_service" class="wrapper style2 special">
+				<header class="major">
+					<h2>ARAS web service</h2>
+				</header>
+				<ul class="icons major">
+					<li><span class="icon solid fa-server"><span class="label">Desktop</span></span></li>
+					<li><span class="icon solid fa-tools"><span class="label">Broadcast</span></span></li>
+				</ul>
+
+				<div class="inner alt">
+					<section class="special">
+					<div class="content inner" align="left">
+					<p>The ARAS web service allows you to manage the ARAS configuration remotely in a simple way: change application parameters, block descriptions and schedule from your browser.</p>
+						<ul class="actions special">
+						<li><a href="https://github.com/erasvigo/aras-web-service" class="button primary icon solid fa-laptop-code" target="_blank">Clone or download</a></li>
+						</ul>
+					</div>
+					</section>
+					
+					<ul class="actions special">
+					<li><a href="#one" class="button icon solid fa-home small">Top</a></li>
+					</ul>
+					
+				</div>
+				
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper special">
+				
+				<div class="content inner" align="left">
+				
+	    			<header class="major">
+					<h2>Documentation</h2>
+    				</header>
+
+					<h3>Getting started</h3>
+
+					<h4>Audio broadcast</h4>
+
+					<p>If you want to process your audio stream before broadcasting using <a href="https://jackaudio.org/" target="_blank">JACK Audio Connection Kit</a>, run a stack of audio effects like <a href="https://calf-studio-gear.org/" target="_blank">Calf Studio Gear</a>, <a href="http://jack-rack.sourceforge.net/" target="_blank">JACK Rack</a> or similar with your set of <a href="https://www.ladspa.org/" target="_blank">LADSPA</a> or <a href="https://lv2plug.in/" target="_blank">LV2</a> plugins.</p>
+
+					<p>You have two options to automate the management of the JACK patchbay:
+					<ul>
+					<li>Run <a href="https://qjackctl.sourceforge.io/" target="_blank">QjackCtl</a> with a proper <a href="files/patchbay.xml" target="_blank">patchbay</a> profile.</li>
+					<li>Run <a href="http://rohandrape.net/?t=rju" target="_blank">jack-plumbing</a> with a proper <a href="files/rule-file" target="_blank">rule file</a>. In this case, be careful with the elapsed time to ensure patchbay is updated correctly.</li>
+					</ul>
+					</p>
+
+					<p>An example:
+					<pre><code>$ /usr/bin/jackd -ddummy -r48000 -p2048 &
+$ aras-daemon /etc/aras/<a href="files/aras.conf" target="_blank">aras.conf</a> &
+$ calfjackhost --load <a href="files/session" target="_blank">session</a> &
+$ jack-plumbing -q -u 100000 <a href="files/rule-file" target="_blank">rule-file</a> &</code></pre>
+					</p>
+
+					<h4>Internet radio</h4>
+
+					<p>If you want to feed a streaming server with ARAS using JACK Audio Connection Kit, do the following:
+                    <pre><code>$ icecast2 -c <a href="files/icecast.xml" target="_blank">icecast.xml</a> &
+$ ffmpeg -f jack -i ffmpeg -y -f s16le - 2>/dev/null | ices2 <a href="files/ices-stdinpcm.xml" target="_blank">ices-stdinpcm.xml</a></code></pre>
+                    </p>
+
+					<p>Customize your configuration files and configure your JACK patchbay to feed ffmpeg properly.</p>
+
+					<h4>Video broadcast</h4>
+
+					<p>Since ARAS is based on <a href="https://gstreamer.freedesktop.org/" target="_blank">GStreamer</a> it can play a variety of multimedia formats, including video files. So if you want to automate a TV station with ARAS, set up your configuration files and do the following:
+
+<pre><code>$ DISPLAY=:1.0 aras-daemon /etc/aras/aras_1.conf &
+$ DISPLAY=:2.0 aras-daemon /etc/aras/aras_2.conf &</code></pre>
+Two ARAS processes working on different displays allows you to generate video and on-screen graphics for further mixing.
+					</p>
+					
+					<h3>Man pages</h3>
+
+					<p>The full documentation for the binaries is in the following manual pages:
+
+					<ul>
+					<li><a href="man/aras-daemon.1">Manual page for aras-daemon</a></li>
+					<li><a href="man/aras-player.1">Manual page for aras-player</a></li>
+					<li><a href="man/aras-recorder.1">Manual page for aras-recorder</a></li>
+					</ul>
+					</p>
+
+					<p>The full documentation for the configuration files is in the following manual pages:
+					<ul>
+					<li><a href="man/aras.conf.5">Manual page for aras.conf</a></li>
+					<li><a href="man/aras.schedule.5">Manual page for aras.schedule</a></li>
+					<li><a href="man/aras.block.5">Manual page for aras.block</a></li>
+					</ul>
+					</p>
+
+					<p>The full documentation for the log file is in the following manual pages:
+					<ul>
+					<li><a href="man/aras.log.5">Manual page for aras.log</a></li>
+					</ul>
+					</p>
+					
+					<h3>Known bugs</h3>
+
+					<p>Some users reported system crashes after a certain time due to an increasingly number of open files.
+					ARAS code has been reviewed to prevent this condition, but two fixes have been proposed if this remains:
+
+					<ul>
+					<li>On the startup script or in the terminal:
+<pre><code>$ prlimit -n=65535 -u=16384 -p $(pidof aras-daemon)</code></pre>
+                    </li>
+					<li>On the systemd entry:
+<pre><code>[Unit]
+Description=ARAS Daemon
+ConditionPathExists=/etc/aras/aras.conf
+
+[Service]
+ExecStartPre=/usr/bin/jack-plumbing -q -u 110000 /etc/aras/jack-plumbing-rules
+ExecStartPre=+/usr/local/bin/aras-env.sh
+ExecStart=/usr/bin/aras-daemon /etc/aras/aras.conf
+User=aras
+Group=aras
+Restart=on-failure
+RestartSec=5s
+LimitNOFILE=65535
+LimitNPROC=16384
+
+[Install]
+WantedBy=multi-user.target
+...
+</code></pre>
+                    </li>
+					</ul>
+					Thank a lot <a href="http://radiobronka.info/" target="_blank">Radio Bronka</a> crew for contributing these fixes!
+					</p>
+					
+					<ul class="actions special">
+					<li><a href="#one" class="button icon solid fa-home small">Top</a></li>
+					</ul>
+
+				</div>
+			</section>
+
+			<!-- Screenshots -->
+			<section id="screenshots" class="wrapper style2 special">
+				<header class="major">
+					<h2>Screenshots</h2>
+				</header>
+			
+				<div class="inner alt">
+				<div class="box alt">
+					<div class="row gtr-uniform">
+						<div class="col-6"><span class="image fit"><a href="images/screenshot-aras4-player.png" target="_blank"><img src="images/screenshot-aras4-player.png" alt="" /></a></span></div>
+						<div class="col-6"><span class="image fit"><a href="images/screenshot-aras4-recorder.png" target="_blank"><img src="images/screenshot-aras4-recorder.png" alt="" /></a></span></div>
+					</div>
+				</div>
+				
+					<ul class="actions special">
+					<li><a href="#one" class="button icon solid fa-home small">Top</a></li>
+					</ul>
+					
+				</div>
+			</section>
+			
+			<section id="yeah" class="wrapper special">
+				<div class="content inner" align="left">
+	    		<header class="major">
+				<h2>Yeah!</h2>
+				</header>
+    			</div>
+    			<center>
+				<p>
+				<ul class="icons labeled">
+					<li><a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank"><div class="inner"><img src="images/gplv3-logo.png"></div></a></li>
+					<li><a href="https://sourceforge.net/p/aras/" target="_blank"><div class="inner"><img src="https://sourceforge.net/sflogo.php?type=16&group_id=218248"></div></a></li>
+					<li><a href="https://gstreamer.freedesktop.org/" target="_blank"><div class="inner"><img src="https://gstreamer.freedesktop.org/data/images/artwork/gstreamer-logo-50.png"></div></a></li>
+					<li><a href="https://jackaudio.org/" target="_blank"><div class="inner"><img src="images/jack_logo.png"></div></a></li>
+					<li><a href="https://svaade.com/" target="_blank"><div class="inner"><img src="images/svaade.png"></div></a></li>
+				</ul>
+				</p>
+				</center>
+			</section>
+
+			<!-- Contact -->
+			<section id="contact" class="wrapper special">
+				<div class="content inner" align="left">
+	    			<header class="major">
+					<h2>Getting involved</h2>
+    				</header>
+					<p>ARAS is used in a number of radio stations that pull its development. Feel free to write questions, comments and suggestions the <a href="mailto:erasmo1982@users.sourceforge.net">maintainer</a>.</p>
+					
+					<ul class="actions special">
+					<li><a href="#one" class="button icon solid fa-home small">Top</a></li>
+					</ul>
+					
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<p class="copyright">&copy; The ARAS Radio Automation System</p>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+```
