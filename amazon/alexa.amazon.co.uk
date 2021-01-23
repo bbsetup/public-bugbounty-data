@@ -1,0 +1,550 @@
+```
+
+
+
+
+
+
+<!doctype html><html class="a-no-js a-touch a-mobile" data-19ax5a9jf="mongoose">
+  <head><script>var aPageStart = (new Date()).getTime();</script><meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, initial-scale=1, user-scalable=no, shrink-to-fit=no"/><meta charset="utf-8"/>
+    <title dir="ltr">Amazon Sign In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+    
+      
+        <link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/71X4hWW4aVL.css?AUIClients/AuthenticationPortalAlexaSkin#mobile.gb.not-trident" />
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/01SdjaY0ZsL._RC|419sIPk+mYL.css,41RlqABFP+L.css_.css?AUIClients/AuthenticationPortalAssets#mobile.194821-T1" />
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/11sZCT69GEL.css?AUIClients/CVFAssets#mobile" />
+
+        <script>
+(function(f,h,Q,A){function G(a){v&&v.tag&&v.tag(q(":","aui",a))}function x(a,b){v&&v.count&&v.count("aui:"+a,0===b?0:b||(v.count("aui:"+a)||0)+1)}function l(a){try{return a.test(navigator.userAgent)}catch(b){return!1}}function y(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function q(a,b,c,e){b=b&&c?b+a+c:b||c;return e?q(a,b,e):b}function H(a,b,c){try{Object.defineProperty(a,b,{value:c,writable:!1})}catch(e){a[b]=c}return c}function ta(a,b){var c=a.length,
+e=c,g=function(){e--||(R.push(b),S||(setTimeout(T,0),S=!0))};for(g();c--;)ca[a[c]]?g():(B[a[c]]=B[a[c]]||[]).push(g)}function ua(a,b,c,e,g){var d=h.createElement(a?"script":"link");y(d,"error",e);g&&y(d,"load",g);a?(d.type="text/javascript",d.async=!0,c&&/AUIClients|images[/]I/.test(b)&&d.setAttribute("crossorigin","anonymous"),d.src=b):(d.rel="stylesheet",d.href=b);h.getElementsByTagName("head")[0].appendChild(d)}function da(a,b){function c(c,e){function g(){ua(b,c,h,function(b){!I&&h?(h=!1,x("resource_retry"),
+g()):(x("resource_error"),a.log("Asset failed to load: "+c,I?"WARN":A));b&&b.stopPropagation?b.stopPropagation():f.event&&(f.event.cancelBubble=!0)},e)}if(ea[c])return!1;ea[c]=!0;x("resource_count");var h=!0;return!g()}if(b){var e=0,g=0;c.andConfirm=function(a,b){return c(a,function(){e++;b&&b.apply(this,arguments)})};c.confirm=function(){g++};c.getCsriCounters=function(){return{reqs:e,full:g}}}return c}function va(a,b,c){for(var e={name:a,guard:function(c){return b.guardFatal(a,c)},logError:function(c,
+d,e){b.logError(c,d,e,a)}},g=[],d=0;d<c.length;d++)J.hasOwnProperty(c[d])&&(g[d]=U.hasOwnProperty(c[d])?U[c[d]](J[c[d]],e):J[c[d]]);return g}function C(a,b,c,e,g){return function(d,h){function m(){var a=null;e?a=h:"function"===typeof h&&(p.start=D(),a=h.apply(f,va(d,k,l)),p.end=D());if(b){J[d]=a;a=d;for(ca[a]=!0;(B[a]||[]).length;)B[a].shift()();delete B[a]}p.done=!0}var k=g||this;"function"===typeof d&&(h=d,d=A);b&&(d=d?d.replace(fa,""):"__NONAME__",V.hasOwnProperty(d)&&k.error(q(", reregistered by ",
+q(" by ",d+" already registered",V[d]),k.attribution),d),V[d]=k.attribution);for(var l=[],n=0;n<a.length;n++)l[n]=a[n].replace(fa,"");var p=ga[d||"anon"+ ++wa]={depend:l,registered:D(),namespace:k.namespace};c?m():ta(l,k.guardFatal(d,m));return{decorate:function(a){U[d]=k.guardFatal(d,a)}}}}function ha(a){return function(){var b=Array.prototype.slice.call(arguments);return{execute:C(b,!1,a,!1,this),register:C(b,!0,a,!1,this)}}}function W(a,b){return function(c,e){e||(e=c,c=A);var g=this.attribution;
+return function(){z.push(b||{attribution:g,name:c,logLevel:a});var d=e.apply(this,arguments);z.pop();return d}}}function K(a,b){this.load={js:da(this,!0),css:da(this)};H(this,"namespace",b);H(this,"attribution",a)}function ia(){h.body?p.trigger("a-bodyBegin"):setTimeout(ia,20)}function E(a,b){a.className=X(a,b)+" "+b}function X(a,b){return(" "+a.className+" ").split(" "+b+" ").join(" ").replace(/^ | $/g,"")}function ja(a){try{return a()}catch(b){return!1}}function L(){if(M){var a={w:f.innerWidth||
+m.clientWidth,h:f.innerHeight||m.clientHeight};5<Math.abs(a.w-Y.w)||50<a.h-Y.h?(Y=a,N=4,(a=k.mobile||k.tablet?450<a.w&&a.w>a.h:1250<=a.w)?E(m,"a-ws"):m.className=X(m,"a-ws")):0<N&&(N--,ka=setTimeout(L,16))}}function xa(a){(M=a===A?!M:!!a)&&L()}function ya(){return M}function r(a,b){return"sw:"+(b||"")+":"+a+":"}function la(){ma.forEach(function(a){G(a)})}function n(a){ma.push(a)}function na(a,b,c,e){if(c){b=l(/Chrome/i)&&!l(/Edge/i)&&!l(/OPR/i)&&!a.capabilities.isAmazonApp&&!l(new RegExp(Z+"bwv"+
+Z+"b"));var g=r(e,"browser"),d=r(e,"prod_mshop"),f=r(e,"beta_mshop");!a.capabilities.isAmazonApp&&c.browser&&b&&(n(g+"supported"),c.browser.action(g,e));!b&&c.browser&&n(g+"unsupported");c.prodMshop&&n(d+"unsupported");c.betaMshop&&n(f+"unsupported")}}"use strict";var O=Q.now=Q.now||function(){return+new Q},D=function(a){return a&&a.now?a.now.bind(a):O}(f.performance),za=D(),t=f.AmazonUIPageJS||f.P;if(t&&t.when&&t.register)throw Error("A copy of P has already been loaded on this page.");var v=f.ue;
+G();G("aui_build_date:3.19.8-2020-12-30");var R=[],S=!1,T;T=function(){for(var a=setTimeout(T,0),b=O();R.length;)if(R.shift()(),50<O()-b)return;clearTimeout(a);S=!1};var ca={},B={},ea={},I=!1;y(f,"beforeunload",function(){I=!0;setTimeout(function(){I=!1},1E4)});var fa=/^prv:/,V={},J={},U={},ga={},wa=0,Z=String.fromCharCode(92),F,z=[],oa=f.onerror;f.onerror=function(a,b,c,e,g){g&&"object"===typeof g||(g=Error(a,b,c),g.columnNumber=e,g.stack=b||c||e?q(Z,g.message,"at "+q(":",b,c,e)):A);var d=z.pop()||
+{};g.attribution=q(":",g.attribution||d.attribution,d.name);g.logLevel=d.logLevel;g.attribution&&console&&console.log&&console.log([g.logLevel||"ERROR",a,"thrown by",g.attribution].join(" "));z=[];oa&&(d=[].slice.call(arguments),d[4]=g,oa.apply(f,d))};K.prototype={logError:function(a,b,c,e){b={message:b,logLevel:c||"ERROR",attribution:q(":",this.attribution,e)};if(f.ueLogError)return f.ueLogError(a||b,a?b:null),!0;console&&console.error&&(console.log(b),console.error(a));return!1},error:function(a,
+b,c,e){a=Error(q(":",e,a,c));a.attribution=q(":",this.attribution,b);throw a;},guardError:W(),guardFatal:W("FATAL"),guardCurrent:function(a){var b=z[z.length-1];return b?W(b.logLevel,b).call(this,a):a},log:function(a,b,c){return this.logError(null,a,b,c)},declare:C([],!0,!0,!0),register:C([],!0),execute:C([]),AUI_BUILD_DATE:"3.19.8-2020-12-30",when:ha(),now:ha(!0),trigger:function(a,b,c){var e=O();this.declare(a,{data:b,pageElapsedTime:e-(f.aPageStart||NaN),triggerTime:e});c&&c.instrument&&F.when("prv:a-logTrigger").execute(function(b){b(a)})},
+handleTriggers:function(){this.log("handleTriggers deprecated")},attributeErrors:function(a){return new K(a)},_namespace:function(a,b){return new K(a,b)}};var p=H(f,"AmazonUIPageJS",new K);F=p._namespace("PageJS","AmazonUI");F.declare("prv:p-debug",ga);p.declare("p-recorder-events",[]);p.declare("p-recorder-stop",function(){});H(f,"P",p);ia();if(h.addEventListener){var pa;h.addEventListener("DOMContentLoaded",pa=function(){p.trigger("a-domready");h.removeEventListener("DOMContentLoaded",pa,!1)},!1)}var m=
+h.documentElement,aa=function(){var a=["O","ms","Moz","Webkit"],b=h.createElement("div");return{testGradients:function(){b.style.cssText="background-image:-webkit-gradient(linear,left top,right bottom,from(#1E4),to(white));background-image:-webkit-linear-gradient(left top,#1E4,white);background-image:linear-gradient(left top,#1E4,white);";return~b.style.backgroundImage.indexOf("gradient")},test:function(c){var e=c.charAt(0).toUpperCase()+c.substr(1);c=(a.join(e+" ")+e+" "+c).split(" ");for(e=c.length;e--;)if(""===
+b.style[c[e]])return!0;return!1},testTransform3d:function(){var a=!1;f.matchMedia&&(a=f.matchMedia("(-webkit-transform-3d)").matches);return a}}}(),t=m.className,qa=/(^| )a-mobile( |$)/.test(t),ra=/(^| )a-tablet( |$)/.test(t),k={audio:function(){return!!h.createElement("audio").canPlayType},video:function(){return!!h.createElement("video").canPlayType},canvas:function(){return!!h.createElement("canvas").getContext},svg:function(){return!!h.createElementNS&&!!h.createElementNS("http://www.w3.org/2000/svg",
+"svg").createSVGRect},offline:function(){return navigator.hasOwnProperty&&navigator.hasOwnProperty("onLine")&&navigator.onLine},dragDrop:function(){return"draggable"in h.createElement("span")},geolocation:function(){return!!navigator.geolocation},history:function(){return!(!f.history||!f.history.pushState)},webworker:function(){return!!f.Worker},autofocus:function(){return"autofocus"in h.createElement("input")},inputPlaceholder:function(){return"placeholder"in h.createElement("input")},textareaPlaceholder:function(){return"placeholder"in
+h.createElement("textarea")},localStorage:function(){return"localStorage"in f&&null!==f.localStorage},orientation:function(){return"orientation"in f},touch:function(){return"ontouchend"in h},gradients:function(){return aa.testGradients()},hires:function(){var a=f.devicePixelRatio&&1.5<=f.devicePixelRatio||f.matchMedia&&f.matchMedia("(min-resolution:144dpi)").matches;x("hiRes"+(qa?"Mobile":ra?"Tablet":"Desktop"),a?1:0);return a},transform3d:function(){return aa.testTransform3d()},touchScrolling:function(){return l(/Windowshop|android|OS ([5-9]|[1-9][0-9]+)(_[0-9]{1,2})+ like Mac OS X|Chrome|Silk|Firefox|Trident.+?; Touch/i)},
+ios:function(){return l(/OS [1-9][0-9]*(_[0-9]*)+ like Mac OS X/i)&&!l(/trident|Edge/i)},android:function(){return l(/android.([1-9]|[L-Z])/i)&&!l(/trident|Edge/i)},mobile:function(){return qa},tablet:function(){return ra},rtl:function(){return"rtl"===m.dir}},u;for(u in k)k.hasOwnProperty(u)&&(k[u]=ja(k[u]));for(var ba="textShadow textStroke boxShadow borderRadius borderImage opacity transform transition".split(" "),P=0;P<ba.length;P++)k[ba[P]]=ja(function(){return aa.test(ba[P])});var M=!0,ka=0,
+Y={w:0,h:0},N=4;L();y(f,"resize",function(){clearTimeout(ka);N=4;L()});var sa={getItem:function(a){try{return f.localStorage.getItem(a)}catch(b){}},setItem:function(a,b){try{return f.localStorage.setItem(a,b)}catch(c){}}};m.className=X(m,"a-no-js");E(m,"a-js");!l(/OS [1-8](_[0-9]*)+ like Mac OS X/i)||f.navigator.standalone||l(/safari/i)||E(m,"a-ember");t=[];for(u in k)k.hasOwnProperty(u)&&k[u]&&t.push("a-"+u.replace(/([A-Z])/g,function(a){return"-"+a.toLowerCase()}));E(m,t.join(" "));m.setAttribute("data-aui-build-date",
+"3.19.8-2020-12-30");p.register("p-detect",function(){return{capabilities:k,localStorage:k.localStorage&&sa,toggleResponsiveGrid:xa,responsiveGridEnabled:ya}});l(/UCBrowser/i)||k.localStorage&&E(m,sa.getItem("a-font-class"));p.declare("a-event-revised-handling",!1);var w;try{w=navigator.serviceWorker}catch(a){G("sw:nav_err")}w&&(y(w,"message",function(a){a&&a.data&&x(a.data.k,a.data.v)}),w.controller&&w.controller.postMessage("MSG-RDY"));var ma=[];(function(a){var b=a.reg,c=a.unreg;w&&w.getRegistrations?
+(F.when("A","a-util").execute(function(a,b){na(a,b,c,"unregister")}),y(f,"load",function(){F.when("A","a-util").execute(function(a,c){na(a,c,b,"register");la()})})):(b&&(b.browser&&n(r("register","browser")+"unsupported"),b.prodMshop&&n(r("register","prod_mshop")+"unsupported"),b.betaMshop&&n(r("register","beta_mshop")+"unsupported")),c&&(c.browser&&n(r("unregister","browser")+"unsupported"),c.prodMshop&&n(r("unregister","prod_mshop")+"unsupported"),c.betaMshop&&n(r("unregister","beta_mshop")+"unsupported")),
+la())})({reg:{},unreg:{}});p.declare("a-fix-event-off",!1);x("pagejs:pkgExecTime",D()-za)})(window,document,Date);
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/61-6nKPKyWL._RC|11-BZEJ8lnL.js,01qkmZhGmAL.js,71bKxjCVKYL.js_.js?AUIClients/AuthenticationPortalAlexaSkin#mobile');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/21G215oqvfL._RC|21OJDARBhQL.js,218GJg15I8L.js,31lucpmF4CL.js,21juQdw6GzL.js,21zp0xRcpuL.js,01MobMUud8L.js,51OIWtLdR2L.js_.js?AUIClients/AuthenticationPortalAssets#mobile.194821-T1');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/01dTJcsqFWL.js?AUIClients/AuthenticationPortalInlineAssets');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/31crZaOVIqL.js?AUIClients/CVFAssets');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/81JZFvi7+TL.js?AUIClients/SiegeClientSideEncryptionAUI');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/71mA1KjzpaL.js?AUIClients/FWCIMAssets');
+</script>
+
+      
+
+      
+    
+
+    
+    
+
+    
+  </head>
+
+  <body class="a-color-offset-background auth-alexa ap-locale-en_GB a-m-us a-aui_157141-c a-aui_158613-c a-aui_72554-c a-aui_dropdown_187959-c a-aui_pci_risk_banner_210084-c a-aui_perf_130093-c a-aui_tnr_v2_180836-c a-aui_ux_145937-c"><div id="a-page"><script type="a-state" data-a-state="{&quot;key&quot;:&quot;a-wlab-states&quot;}">{}</script>
+    
+      
+
+      
+        <div class="a-section a-spacing-none">
+          
+
+<div class="a-container a-global-nav-wrapper">
+  
+
+
+
+
+  
+
+
+<div class="a-section a-spacing-none a-text-center">
+  
+    
+      
+        
+
+        
+          
+            
+              <img src="https://images-na.ssl-images-amazon.com/images/G/02/authportal/dee/prod/alexa_logo_stacked_light._CB485943096_.png" alt="Amazon Alexa"/>
+            
+
+            
+          
+        
+      
+    
+
+    
+  
+</div>
+
+</div>
+
+        </div>
+      
+    
+
+    <div class="a-container">
+      <div class="a-section a-spacing-none">
+        
+      </div>
+
+      
+
+      <div class="a-section a-spacing-none auth-pagelet-mobile-container">
+        
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+
+      </div>
+
+      <div class="a-section auth-pagelet-mobile-container">
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+<script type="a-state" data-a-state="{&quot;key&quot;:&quot;auth-prepopulate-credential-state&quot;}">{"isPrepopulateEnabled":true}</script>
+
+<!-- Set cross domain sso variables to be used for making Ajax calls to central Identity domain -->
+
+
+<!-- Set cross domain sso variables to be used for making Ajax calls to central Identity domain -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="auth-alert-window" class="a-box a-alert a-alert-error" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><h4 class="a-alert-heading">There was a problem</h4><div class="a-alert-content">
+  <ul class="a-unordered-list a-vertical auth-error-messages" role="alert">
+    <li id="auth-email-missing-alert"><span class="a-list-item">
+      Please provide your e-mail address or mobile phone number
+    </span></li>
+
+    <li id="auth-email-invalid-email-alert"><span class="a-list-item">
+      Invalid e-mail address or mobile phone number
+    </span></li>
+
+    <li id="auth-password-missing-alert"><span class="a-list-item">
+      Please enter your password
+    </span></li>
+
+    <li id="auth-guess-missing-alert"><span class="a-list-item">
+      Enter the characters as they are shown in the image.
+    </span></li>
+  </ul>
+</div></div></div>
+
+
+
+
+
+<!-- show a warning modal dialog when the third party account is connected with Amazon -->
+
+
+<form name="signIn" method="post" novalidate action="https://www.amazon.co.uk/ap/signin" class="auth-validate-form auth-clearable-form">
+  
+    
+
+    
+      <input type="hidden" name="appActionToken" value="scIhj2FOCtxr39z7eUIj2FWeNOWxtIwj3D" /><input type="hidden" name="appAction" value="SIGNIN" />
+    
+  
+
+  
+
+
+
+
+  
+    <input type="hidden" name="openid.return_to" value="ape:aHR0cHM6Ly9hbGV4YS5hbWF6b24uY28udWsv" />
+  
+    <input type="hidden" name="prevRID" value="ape:QUZOM1YySDBFSFRTRkFXMDRGQkU=" />
+  
+    <input type="hidden" name="workflowState" value="eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.6BW96z7Ltdylc_d20F3RkgonH8Uh6wt80a5E4LxeLxi1gjmhLPLngw.U06jUx8YwCNaZnC2.HjE27rvAEuHnE07IL_kGyxSVtaYq_bMQN5DEDcpuZvTUcynlEF1ZxGbC9z16QaBKb-ajOBXpY6DTycVjN55GIhlFYy1oHGdTYqWmihOSyFsvZZHE1sm-nt7y5ONbD4iJtuHCtDbFRyyHaI7wuU8xzq2DObA1mIg64Bb_zJAT8yZlrBMKVOR1XFpmAK1t9EGY5_Ow0kwlFJmxgZ-Kx5Cqk2yWsJRs-ezjo04C3-3z4X0DethuZAr2etJNt8xKrUx64os7D0q0mwEEmfavfDUYhkEGvjl9Eg.LFoIyfp2zQoJqOhWDj0M_g" />
+  
+
+
+
+  
+
+
+
+
+<h1 class="a-spacing-micro a-spacing-top-small a-text-left">
+  Sign-In
+</h1>
+
+
+
+
+  <div class="a-section a-spacing-base a-text-right">
+    
+
+
+
+
+<a id="auth-fpp-link-bottom" class="a-link-normal" target="_top" rel="noopener" tabindex="9" href="https://www.amazon.co.uk/ap/forgotpassword?showRmrMe=1&amp;openid.return_to=https%3A%2F%2Falexa.amazon.co.uk%2F&amp;prevRID=AFN3V2H0EHTSFAW04FBE&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=amzn_dp_project_dee_uk&amp;openid.mode=checkid_setup&amp;prepopulatedLoginId=&amp;failedSignInCount=0&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;pageId=amzn_dp_project_dee_uk&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">
+  Forgot password?
+</a>
+  </div>
+
+
+  
+
+  <div class="a-input-text-group a-spacing-medium a-spacing-top-micro">
+    
+
+    <label for="ap_email" class="a-form-label auth-mobile-label">
+      Email (phone for mobile accounts)
+    </label>
+
+    
+
+    <div class="a-input-text-wrapper auth-required-field auth-fill-claim"><input type="email" maxlength="128" id="ap_email" placeholder="Email (phone for mobile accounts)" name="email" tabindex="1" autocorrect="off" autocapitalize="off"/></div>
+    
+
+<div id="ap_email_icon" class="auth-clear-icons">
+  <i class="a-icon a-icon-close" role="img"></i>
+</div>
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+<script type="a-state" data-a-state="{&quot;key&quot;:&quot;auth-show-password&quot;}">{"isShowPasswordEnabled":true,"showPasswordChecked":false}</script>
+
+
+
+
+  
+  
+    
+  
+
+
+  
+  
+    
+  
+
+
+<label for="ap_password" class="a-form-label auth-mobile-label">
+  Amazon password
+</label>
+
+<div id="auth-password-container" class="a-input-text-wrapper auth-required-field auth-password-container auth-password auth-fill-password"><input type="password" maxlength="1024" id="ap_password" placeholder="Amazon password" name="password" tabindex="2"/></div>
+
+
+
+<div id="ap_password_icon" class="auth-clear-icons">
+  <i class="a-icon a-icon-close" role="img"></i>
+</div>
+
+
+
+
+<div id="auth-password-missing-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+  Enter your password
+</div></div></div>
+
+
+
+  
+  <div class="a-row auth-visible-password-container auth-show-password-empty">
+    <span class="a-size-small a-color-secondary auth-visible-password"></span>
+  </div>
+
+  <input type="hidden" name="showPasswordChecked" value="false" id="ap_show_password_checked"/>
+
+
+
+  
+
+<input type="hidden" name="encryptedPasswordExpected"/>
+<script type="a-state" data-a-state="{&quot;key&quot;:&quot;sif-encryption-profile&quot;}">{"sifProfile":"AuthenticationPortalSigninEU"}</script>
+
+<script type="text/javascript" async
+  src="https://static.siege-amazon.com/prod/profiles/AuthenticationPortalSigninEU.js">
+</script>
+
+
+  </div>
+
+  <div class="a-row">   
+    
+      <div class="a-column a-span12 a-spacing-medium">
+        <div id="auth-show-password-checkbox-container" class="a-checkbox a-checkbox-fancy a-control-row a-touch-checkbox auth-show-password-checkbox"><label for="auth-show-password-checkbox"><input id="auth-show-password-checkbox" type="checkbox" name="" value="" tabindex="3"/><i class="a-icon a-icon-checkbox"></i><span class="a-label a-checkbox-label">
+          Show password
+        </span></label></div>
+      </div>
+    
+  </div>
+
+  <div class="a-row a-spacing-base">
+    
+
+
+
+
+
+
+
+  </div>
+
+  <div class="a-row">
+    
+
+
+
+
+
+
+
+  </div>
+  
+  <div class="a-section">
+    <div class="a-button-stack">
+      
+        
+          <span id="auth-signin-button" class="a-button a-button-span12 a-button-primary auth-share-credential-off auth-disable-button-on-submit"><span class="a-button-inner"><input id="signInSubmit" tabindex="6" class="a-button-input" type="submit" aria-labelledby="auth-signin-button-announce"/><span id="auth-signin-button-announce" class="a-button-text" aria-hidden="true">
+            Sign-In
+          </span></span></span>
+          
+          
+            
+            <div class="a-section a-spacing-medium">
+              
+
+
+
+<div id="legalTextRow" class="a-row a-spacing-top-medium a-size-small">
+  By signing-in you agree to Amazon's <a href="/conditions_of_use_mobile">Conditions of Use & Sale</a>. Please see our <a href="/privacy_policy_mobile">Privacy Notice</a>, our <a href="/gp/help/customer/display.html/?nodeId=201890250">Cookies Notice</a> and our <a href="/cookiesandinternetadvertising">Interest-Based Ads Notice</a>.
+
+</div> 
+
+            </div>
+          
+        
+        
+      
+      
+<script>
+  function cf() {
+    if (typeof window.uet === 'function') {
+      uet('cf');
+    }
+    if (window.embedNotification &&
+      typeof window.embedNotification.onCF === 'function') {
+      embedNotification.onCF();
+    }
+  }
+</script>
+
+<script type="text/javascript">cf()</script>
+
+      
+      
+
+      
+        
+
+
+
+
+  
+  
+  
+    
+      
+      
+      
+        
+        
+      
+    
+  
+
+      
+
+      
+
+
+
+
+
+
+<div class="a-section a-spacing-medium a-text-center">
+  
+    
+    
+      
+        
+        <div class="a-divider a-divider-break"><h5>New to Amazon?</h5></div>
+        <span id="auth-create-account-link" class="a-button a-button-span12 a-button-base"><span class="a-button-inner"><a id="createAccountSubmit" tabindex="7" href="https://www.amazon.co.uk/ap/register?showRmrMe=1&amp;openid.return_to=https%3A%2F%2Falexa.amazon.co.uk%2F&amp;prevRID=AFN3V2H0EHTSFAW04FBE&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=amzn_dp_project_dee_uk&amp;openid.mode=checkid_setup&amp;prepopulatedLoginId=&amp;failedSignInCount=0&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;pageId=amzn_dp_project_dee_uk&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" class="a-button-text" role="button">
+          Create a new Amazon account
+        </a></span></span>
+      
+    
+  
+</div>
+
+      
+      
+
+      
+      
+
+      
+    </div>
+  </div>
+</form>
+
+
+      </div>
+    </div>
+
+    
+
+<script type="text/javascript">
+  try {
+    var metadataList = document.getElementsByName('metadata1');
+    if (metadataList.length == 0) {
+      var input = document.createElement('input');
+      input.name = 'metadata1';
+      input.type = 'hidden';
+      input.value = 'true';
+
+      var authenticationFormList = document.getElementsByName('signIn');
+      for (var index = 0; index < authenticationFormList.length; index++) {
+        authenticationFormList[index].appendChild(input);
+      }
+    } else {
+      for (var index = 0; index < metadataList.length; index++) {
+        metadataList[index].value = 'true';
+      }
+    }
+  } catch (e) {
+    if (typeof window.ueLogError === 'function') {
+      window.ueLogError(e, {
+        message: 'Failed to populate default metadata value',
+        logLevel: 'warn',
+        attribution: 'FWCIMAssets'
+      });
+    }
+  }
+</script>
+<script type="text/javascript">
+    window.fwcimCmd = [
+        
+            ['profile', 'signIn']
+            
+        
+    ];
+</script>
+
+    
+      
+
+      
+        <div class="a-section a-spacing-none">
+          
+
+
+
+  <div class="a-row auth-footer">
+    
+
+
+
+<div class="a-divider a-divider-section"><div class="a-divider-inner"></div></div>
+
+<div class="a-section a-spacing-small a-text-center">
+  <span class="auth-footer-seperator"></span>
+
+  
+
+  
+</div>
+
+
+    
+
+<div class="a-row a-spacing-none a-size-mini a-color-secondary a-text-center">
+  
+
+
+
+
+
+<span>
+  &copy; 1996-2020, Amazon.com, Inc. or its affiliates
+</span>
+
+</div>
+
+  </div>
+
+
+        </div>
+      
+    
+
+    
+    <!-- cache slot rendered -->
+    
+  </div></body>
+</html>
+```
