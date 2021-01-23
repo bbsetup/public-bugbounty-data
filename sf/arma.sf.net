@@ -1,0 +1,136 @@
+```<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html;" http-equiv="Content-Type">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="img/armadillo_icon.png" type="image/png">
+  <link type="text/css" rel="stylesheet" href="style2.css">  
+  <title>Armadillo: C++ library for linear algebra &amp; scientific computing</title>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20358374-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+<body>
+
+<div id="arma_header">
+<div id="arma_header_row">
+  <div id="arma_header_cell_logo_img"><a href="http://arma.sourceforge.net"><img id="arma_logo_img" src="img/armadillo_logo2.png" alt="armadillo" align="top" border="0"></a></div>
+  <div id="arma_header_spacer"></div>
+  <div id="arma_header_cell_logo_txt"><div id="arma_logo_img2"></div><big><big><b>Armadillo</b></big><br>C++ library for linear algebra &amp; scientific computing</big></div>
+</div>
+</div>
+
+<div id="arma_menu">
+  <ul class="arma_menu">
+  <li class="arma_menu"><a class="arma_menu_selected" href="./">About</a></li>
+  <li class="arma_menu"><a class="arma_menu" href="faq.html">Questions</a></li>
+  <li class="arma_menu"><a class="arma_menu" href="license.html">License</a></li>
+  <li class="arma_menu"><a class="arma_menu" href="docs.html">Documentation</a></li>
+  <li class="arma_menu"><a class="arma_menu" href="speed.html">Speed</a></li>
+  <li class="arma_menu"><a class="arma_menu" href="contact.html">Contact</a></li>
+  <li class="arma_menu"><a class="arma_menu" href="download.html">Download</a></li>
+  </ul>
+</div>
+
+<div id="arma_content">
+
+<!-- CONTENT BEGIN -->
+
+<ul class="noindent">
+<li>
+Armadillo is a high quality linear algebra library (matrix maths) for the C++ language, aiming towards a good balance between speed and ease of use
+<br>&nbsp;
+</li>
+<li>
+Provides high-level syntax and <a href="docs.html">functionality</a> deliberately similar to Matlab
+<br>&nbsp;
+</li>
+<li>
+Useful for algorithm development directly in C++, or quick conversion of research code into production environments
+<br>&nbsp;
+</li>
+<li>
+Provides efficient classes for vectors, matrices and cubes; dense and sparse matrices are supported
+<br>&nbsp;
+</li>
+<li>
+Integer, floating point and complex numbers are supported
+<br>&nbsp;
+</li>
+<li>
+A sophisticated expression evaluator (based on template meta-programming) automatically combines several operations to increase speed and efficiency
+<br>&nbsp;
+</li>
+<li>
+Various matrix decompositions (eigen, SVD, QR, etc) are provided through
+integration with <a href="http://www.netlib.org/lapack/">LAPACK</a>,
+or one of its high performance drop-in replacements
+(eg. <a href="http://software.intel.com/en-us/intel-mkl/">MKL</a> or <a href="https://github.com/xianyi/OpenBLAS/releases">OpenBLAS</a>)
+<br>&nbsp;
+</li>
+<li>
+Can automatically use OpenMP multi-threading (parallelisation) to speed up computationally expensive operations
+<br>&nbsp;
+</li>
+<li>
+Available under a <a href="license.html">permissive license</a>, useful for both open-source and proprietary (closed-source) software
+<br>&nbsp;
+</li>
+<li>
+Can be used for machine learning, pattern recognition, computer vision, signal processing, bioinformatics, statistics, finance, etc
+<br>&nbsp;
+</li>
+<li>
+<b><a href="download.html">download latest version</a></b> &nbsp;|&nbsp; <b><a href="https://gitlab.com/conradsnicta/armadillo-code">git repo</a></b> &nbsp;|&nbsp; <b><a href="docs.html">browse documentation</a></b>
+<br>&nbsp;
+</li>
+</ul>
+
+<!-- CONTENT END -->
+
+<br>
+<!-- <br> -->
+
+<div id="arma_sf_line"></div>
+
+<br>
+<br>
+Supported by:
+<br>
+<br>
+<table>
+<tbody>
+<tr>
+<td><a href="http://data61.csiro.au/"><img src="img/data61_logo_2_scaled.png" alt="Data61 / CSIRO" align="top" border="0"></a></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><a href="https://www.griffith.edu.au/research"><img src="img/griffith_logo_2_scaled.png" alt="Griffith University" align="top" border="0"></a></td>
+<!--
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><a href="https://www.uq.edu.au/about/"><img src="img/uq_logo_scaled_4.png" alt="University of Queensland" align="top" border="0"></a></td>  
+-->
+</tr>
+</tbody>
+</table>
+
+<br>
+<br>
+<br>
+
+<div id="arma_sf_line"><a href="http://sourceforge.net/projects/arma"><img style="opacity: 0.05; filter: alpha(opacity=5);" src="http://sflogo.sourceforge.net/sflogo.php?group_id=217303&amp;type=9" alt="sourceforge" height="15" width="80"></a></div>
+
+</div>
+
+</body>
+</html>
+
+```
