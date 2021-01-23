@@ -1,0 +1,2 @@
+```<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>argos-test/index.html</Key><RequestId>B2BB73116E65008C</RequestId><HostId>1H9StQ34qOWd6wP72+fg7GNk8w+QFZoN7LW8ZTezGUQG0XTdwsSaMxCFcCYNHas89Xl/Ox3dCXk=</HostId></Error>```
