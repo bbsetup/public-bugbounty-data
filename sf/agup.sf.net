@@ -1,0 +1,139 @@
+```<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>AGUP</title>
+<style type="text/css">
+body { background-color: #fffff0; color: #000000; }
+h1 { text-align: center; }
+h2 { text-align: center; }
+p.topic { text-align: center; font-family: monospace; }
+table.space { width: 100%; border-collapse: separate;
+               border-spacing: 0px}
+td.space { width: auto; }
+td.row { height: 20px; }
+td.main { width: 750px; background-color: #ffffff; border: solid #ff0000 1px;
+    padding: 5px;  }
+img { border: none; }
+
+table.pics { border-collapse: collapse; width: auto; margin: 10px;
+            padding: 10px; background-color: #fffff0 }
+table.pics td { padding: 10px; border: solid #ff0000 1px; text-align: center;
+            vertical-align: middle }
+</style>
+
+
+</head>
+<body>
+
+<table class="space"><tr><td class="space"></td><td class="main">
+<h1>Allegro GUI Un-uglification Project</h1>
+<p class="topic">version 1.0</p>
+
+<h2>Description</h2>
+
+  <p> The purpose of the Allegro GUI Un-uglification Project is to
+  make Allegro dialogs look good.  Right now it emulates GTK, Win95,
+  QNX, Photon MicroGUI, BeOS and NeXTStep widget sets. And it has a bitmap
+  theme allowing to create your own themes, with some example themes
+  provided. See the <a href="readme.html">README</a> for more information. </p>
+
+  <p> See also: <a href='ChangeLog'>ChangeLog</a> </p>
+
+</td><td class="space"></td></tr><tr><td class="row" colspan="3"></td></tr><tr><td class="space"></td><td class="main">
+<h2>Download</h2>
+
+  Latest version 1.0  <ul>
+    <li>
+    <a href='http://prdownloads.sourceforge.net/agup/agup1.0.zip?download'>agup1.0.zip</a> (145k) </li>
+    <li>
+    <a href='http://prdownloads.sourceforge.net/agup/agup1.0.tgz?download'>agup1.0.tgz</a> (119k) </li>
+  </ul>
+  Old version 0.11
+  <ul>
+    <li> <a href='http://prdownloads.sourceforge.net/agup/agup011.zip?download'>agup011.zip</a> (46.1k) </li>
+    <li> <a href='http://prdownloads.sourceforge.net/agup/agup-0.11.tar.gz?download'>agup-0.11.tar.gz</a> (36.8k) </li>
+  </ul>
+
+  <p> If you would like to make grabber use AGUP for its interface,
+  download this <a href='grabber-agup.diff'>patch</a> (21.6k) and read the
+  instructions at the top. </p>
+
+</td><td class="space"></td></tr><tr><td class="row" colspan="3"></td></tr><tr><td class="space"></td><td class="main">
+<h2>Screenshots</h2>
+
+Click on a picture to view it 1:1.
+
+  <p> Here are some screenshots of the example program. </p>
+
+ <table class="pics">
+    <tr>
+    <td>
+    <a href='exampallegro.png'><img src="exampallegro_s.png" alt="allegro" /></a>
+    </td><td colspan = "3">The stock Allegro theme<br />
+    by Shawn <b>"The Master"</b> Hargreaves</td>
+    </tr>
+    <tr>
+    <td><a href='exampgtk.png'><img src="exampgtk_s.png" alt="gtk" /></a></td><td>
+    GTK-alike set<br />
+    by Peter <b>"tjaden"</b> Wang</td>
+    <td><a href='exampwin95.png'><img src="exampwin95_s.png" alt="win95" /></a></td><td>
+    Win95-alike set<br />
+    by Robert <b>"Bob"</b> Ohannessian</td>
+    </tr>
+    <tr>
+    <td><a href='exampphoton.png'><img src="exampphoton_s.png" alt="photon" /></a></td><td>
+    Photon-alike set<br />
+    by Eric Botcazou</td>
+    <td><a href='exampbeos.png'><img src="exampbeos_s.png" alt="beos" /></a></td><td>
+    BeOS-alike set<br />
+    by Elias Pschernig</td>
+    </tr>
+    <tr>
+    <td><a href='exampns.png'><img src="exampns_s.png" alt="nextstep" /></a></td><td>
+    NeXTStep-alike set<br />
+    by Joao Neves</td>
+    <td><a href='exampase.png'><img src="exampase_s.png" alt="ase" /></a></td><td>
+    Unfinished theme<br />
+    by David A. Capello</td>
+    </tr>
+    <tr>
+    <td><a href='exampblue.png'><img src="exampblue_s.png" alt="blue" /></a></td><td>
+    Blue<br />
+    Bitmap theme<br />
+    by Elias Pschernig</td>
+    <td><a href='exampfdl.png'><img src="exampfdl_s.png" alt="fleur de lis" /></a></td><td>
+    Fleur de Lis<br />
+    Bitmap theme<br />
+    by Elias Pschernig</td>
+    </tr>
+    <tr>
+    <td><a href='exampmud.png'><img src="exampmud_s.png" alt="mud" /></a></td><td>
+    Mud<br />
+    Bitmap theme<br />
+    by Elias Pschernig</td>
+    <td>your theme here</td>
+	<td>your name here</td>
+	</tr>
+</table>
+
+</td><td class="space"></td></tr><tr><td class="row" colspan="3"></td></tr><tr><td class="space"></td><td class="main">
+<p class="topic">
+ <a href="http://sourceforge.net/projects/agup"><img
+ src="http://sourceforge.net/sflogo.php?group_id=108116&amp;type=5"
+ style="width:210px; height:62px; border:none" alt="SourceForge.net Logo" /></a>
+</p>
+
+</td><td class="space"></td></tr></table><p>
+<a href="http://validator.w3.org/check/referer"><img
+	src="http://www.w3.org/Icons/valid-xhtml11"
+	alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/">
+	<img style="border:0;width:88px;height:31px"
+	src="http://jigsaw.w3.org/css-validator/images/vcss" 
+	alt="Valid CSS!" /></a>
+</p>
+</body>
+</html>
+```
