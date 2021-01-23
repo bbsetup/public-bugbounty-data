@@ -1,0 +1,128 @@
+```<html>
+<head>
+<title>AmigaOne Linux Kernel Project - Home Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" background="images/page_bg.jpg" onLoad="MM_preloadImages('images/pulsante_home_2.gif','images/pulsante_download_2.gif','images/pulsante_pictures_2.gif','images/pulsante_links_2.gif','images/pulsante_docs_2.gif')" >
+<table width="758" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td width="10" height="68">&nbsp;</td>
+    <td height="68" colspan="3" valign="top"><img src="images/title.gif" width="315" height="66" alt="AMIGAONE LINUX KERNEL PROJECT"></td>
+    <td height="150" rowspan="3"><img src="images/boing_logo.gif" width="150" height="150" alt="AMIGAONE"></td>
+    <td height="68" width="105">&nbsp;</td>
+    <td height="68" colspan="2"> 
+      <div align="right"><a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=68751&amp;type=2" width="125" height="37" border="0" alt="SourceForge.net Logo"></a> 
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="10" height="42">&nbsp;</td>
+    <td height="42" width="105"><a href="index.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','images/pulsante_home_2.gif',1)"><img name="Image2" border="0" src="images/pulsante_home.gif" width="105" height="42" alt="HOME"></a></td>
+    <td height="42" width="105"><a href="docs.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','images/pulsante_docs_2.gif',1)"><img name="Image12" border="0" src="images/pulsante_docs.gif" width="105" height="42" alt="DOCS"></a></td>
+    <td height="42" width="105"><a href="download.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','images/pulsante_download_2.gif',1)"><img name="Image8" border="0" src="images/pulsante_download.gif" width="105" height="42" alt="DOWNLOAD"></a></td>
+    <td height="42" width="105"><a href="pictures.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','images/pulsante_pictures_2.gif',1)"><img name="Image10" border="0" src="images/pulsante_pictures.gif" width="105" height="42" alt="PICTURES"></a></td>
+    <td height="42" width="105"><a href="links.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','images/pulsante_links_2.gif',1)"><img name="Image11" border="0" src="images/pulsante_links.gif" width="105" height="42" alt="LINKS"></a></td>
+    <td height="42" width="73"><img src="images/pulsante_null.gif" width="73" height="42" alt="SPACE"></td>
+  </tr>
+  <tr> 
+    <td width="10" height="40">&nbsp;</td>
+    <td height="40" width="105">&nbsp;</td>
+    <td height="40" width="105">&nbsp;</td>
+    <td height="40" width="105">&nbsp;</td>
+    <td height="40" width="105">&nbsp;</td>
+    <td height="40" width="105">&nbsp;</td>
+    <td height="40" width="73">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="10" height="10"></td>
+    <td height="10" colspan="7"></td>
+  </tr>
+  <tr> 
+    <td width="10" height="10">&nbsp;</td>
+    <td height="10" colspan="7"> 
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Linux support 
+        for the AmigaOne/MAI Teron CX/MAI Teron PX consumer PowerPC motherboards.<br>
+        </font></p>
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">The AmigaOne 
+        is a PowerPC ATX mainboard aimed at the consumer market. It is based on the
+        MAI Logic Teron CX/PX boards.<br>
+        <!--The &quot;Terrasoft&quot; board is also based on the MAI Logic Teron CX 
+        board.--></font></p>
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">The board 
+        is not like other PPC machines e.g PowerMacs, it is similar to a PC ATX 
+        board, e.g it uses a VIA Southbridge, except it has a PowerPC CPU and 
+        PowerPC specific Northbridge (MAI Logic Articia S). It also has standard
+        PCI/AGP, DIMM, IDE, PS/2, USB ports.</font></p>
+      <!--<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">The board's 
+        web site is: <a href="http://www.eyetech.co.uk/amigaone">http://www.eyetech.co.uk/amigaone</a></font></p>-->
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">The firmware 
+        of the board is not OpenFirmware (like PowerMacs), it is a modified version 
+        of &quot;u-boot&quot; 
+        (<a href="http://www.denx.de/wiki/U-Boot">http://www.denx.de/wiki/U-Boot</a>),
+        which is open source.</font></p>
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">The aim of 
+        this project initially was to port the Linux kernel to the AmigaOne board.
+        Now that basic support for the AmigaOne is included in the Linux kernel
+        (since v2.6.30), the focus of this project has shifted a little bit towards
+        distribution support (mainly Debian). However there are still some things
+        to fix in the kernel port.</font></p>
+      <!--<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Work on this 
+        has already started, and we are already running Linux 2.4.19 and Linux 
+        2.4.21 on the board, but the kernel port is still in an early stage, and 
+        is in need of further work and help.</font><br>
+        <br>-->
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>Note that this
+        website is not maintained actively anymore. Thus please find further
+        information on the SourceForge project page at: <a href="http://www.sourceforge.net/projects/amigaone-linux">http://www.sourceforge.net/projects/amigaone-linux</a><b></font></p>
+      </td>
+  </tr>
+  <tr>
+    <td width="10" height="10"></td>
+    <td colspan="7" height="10"></td>
+  </tr>
+  <tr> 
+    <td width="10"></td>
+    <td colspan="7"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="50%" valign="bottom"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Site 
+            Contents: <b>Ross Vumbaca, Gerhard Pircher</b></font> </td>
+          <td width="50%"> 
+            <div align="right"><!--<a href="http://www.soft3.net">--><img src="images/mini_anim_gear_2.gif" width="117" height="45" border="0" alt="SOFT3"><!--</a>--></div>
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+```
