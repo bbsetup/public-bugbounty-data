@@ -1,0 +1,355 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en_US" />
+		<title>ajaxWM</title>
+		<link rel="stylesheet" type="text/css" href="css.css" />
+	</head>
+	<body>
+		<div class="menu">
+			<ul>
+				<li><a href="#about">about</a></li>
+				<li><a href="#comparison">comparison</a></li>
+				<li><a href="#features">features</a></li>
+				<li><a href="#download">download</a></li>
+				<li><a href="#news">news</a></li>
+				<li><a href="#installation">installation</a></li>
+				<li><a href="#issues">known issues</a></li>
+				<li><a href="#faq">faq</a></li>
+				<li><a href="#screenshots">screenshots</a></li>
+				<li><a href="#mlists">mailing lists</a></li>
+				<li><a href="#authors">authors</a></li>
+			</ul>
+		</div>
+		<div class="logo">
+			<h1><img src="img/logo.png" alt="ajaxWM" /></h1>
+		</div>
+		<div class="ctnt">
+			<div class="blck">
+				<h2 id="about">about</h2>
+				<div class="text">
+				<p>
+				<span class="hghl">ajaxWM</span> is a window manager in a web
+				browser, a terminal emulator and an SSH proxy. It allows remote
+				controlling a computer even when there is a firewall and
+				packet analyzer between, blocking everything else than
+				HTTP(S)-connections. Because the <span
+				class="hghl">ajaxWM</span> client runs in any
+				javascript-capable web browser, you can even use it when you
+				are not allowed to install any software, for example in an
+				internet caf&eacute;, at school, or at work.
+				</p>
+				</div>
+			</div>
+			<div class="blck">
+				<h2 id="comparison">comparison</h2>
+				<div class="text">
+				<p>
+				A comparison of some remote controlling tools:
+				</p>
+				<table>
+				<tr class="top">
+				<th />
+				<th>SSH</th>
+				<th>Mindterm</th>
+				<th>ajaxterm</th>
+				<th>ajaxWM</th>
+				</tr>
+				<tr>
+				<th>client-to-go</th>
+				<td class="bad">No</td>
+				<td class="good">Yes</td>
+				<td class="good">Yes</td>
+				<td class="good">Yes</td>
+				</tr>
+				<tr>
+				<th>tunnelling SSH through HTTP(S)</th>
+				<td class="bad">No</td>
+				<td class="bad">No</td>
+				<td class="good">Yes</td>
+				<td class="good">Yes</td>
+				</tr>
+				<tr>
+				<th>multiple windows in one session</th>
+				<td class="bad">No</td>
+				<td class="bad">No</td>
+				<td class="bad">No</td>
+				<td class="good">Yes</td>
+				</tr>
+				<tr>
+				<th>unicode support</th>
+				<td class="good">Yes</td>
+				<td>?</td>
+				<td class="bad">No</td>
+				<td class="good">Yes</td>
+				</tr>
+				</table>
+				</div>
+			</div>
+			<div class="blck">
+				<h2 id="features">features</h2>
+				<div class="text">
+					<dl>
+						<dt>window manager</dt>
+						<dd>Simulates a desktop environment</dd>
+
+						<dt>terminal emulator</dt>
+						<dd>The windows of the client are usable like most
+						other terminals in a "normal" window manager</dd>
+
+						<dt>platform-independent</dt>
+						<dd>Runs in any modern javascript-capable graphical
+						browser. Supports the most common SSH clients (OpenSSH
+						and Dropbear).<br />Note that
+						<span class="hghl">ajaxWM</span> is currently alpha
+						and supports only firefox by now</dd>
+
+						<dt>profiling</dt>
+						<dd>Three different profilers (profile, cProfile, and
+						hotshot) and two output modes (KCacheGrind and
+						pStats)</dd>
+
+						<dt>themes</dt>
+						<dd>The theme-engine was written with flexibility in
+						mind.  You can create themes that draw fancy borders
+						(images) around the windows, display the titlebar below
+						the windows content and much more. Theres almost no
+						limitation!</dd>
+
+						<dt>it's fast</dt>
+						<dd><span class="hghl">ajaxWM</span> uses <a
+						href="http://psyco.sourceforge.net/">psyco</a> (if
+						available) which compiles python-code</dd>
+
+						<dt>resource management</dt>
+						<dd>The server supports limiting the amount of sessions
+						and windows</dd>
+
+						<dt>parsing</dt>
+						<dd>Parses the code of the client to reduce its size
+						and enable/disable and remove debuging routines which
+						speeds up transfer time.  Responses are gzip-compressed
+						but can also be send uncompressed.</dd>
+					</dl> 
+				</div>
+			</div>
+			<div class="blck">
+				<h2 id="download">download</h2>
+				<div class="text">
+				<p>
+				<a
+				href="http://downloads.sourceforge.net/ajaxwm/ajaxwm-0.2.6.tar.gz">ajaxwm-0.2.6.tar.gz</a>
+				</p>
+				</div>
+			</div>
+			<div class="blck">
+				<h2 id="news">news</h2>
+				<div class="text">
+				<dl>
+				<dt>2008-02-28: Version 0.2.6 released</dt>
+				<dd class="news">
+				<ul>
+				<li>Change: Parameter layout, see "ajaxwm -h" or ajaxwm.rc.example</li>
+				<li>Change: Increased performance by using compiled code (including Makefile)</li>
+				<li>Add: Parameters for default ssh host and whether to only allow this one</li>
+				<li>Add: Parameter for time to wait until session timeout</li>
+				<li>Add: Parameter for time to sleep between a keypress and the generation of the html to give back (useful for slow computers)</li>
+				<li>Add: Parameters for time to wait until logins to localhost and remote hosts timeout (useful for slow computers and network connections)</li>
+				<li>Add: Examplary config file, see: ajaxwm.rc.example</li>
+				<li>Fix: Don't generate html file from window content if there was no change (increases performance)</li>
+				<li>Fix: Uncompressed network transfer</li>
+				<li>Fix: Session timeouting</li>
+				</ul>
+				</dd>
+				<dt>2008-02-07: Website goes online</dt>
+				<dt>2008-02-07: Version 0.2.5-r1 released</dt>
+				<dd class="news">
+				<ul>
+				<li>Fix: Ignore unknown characters in escape sequences</li>
+				<li>Fix: Compatibility for Python &lt; 2.5</li>
+				</ul>
+				</dd>
+				<dt>2008-02-04: Version 0.2.5 released</dt>
+				<dd class="news">
+				<ul>
+				<li>Initial official release</li>
+				</ul>
+				</dd>
+				</dl>
+				</div>
+			</div>
+			<div class="blck">
+				<h2 id="installation">installation</h2>
+				<div class="text">
+				<p>
+				If you are having any problems with <span
+				class="hghl">ajaxWM</span> please contact us using the <a
+				href="#mlists">users mailing list</a> or per <a
+				href="#authors">e-mail</a>.
+				</p>
+				<p>
+				An SSH daemon has to be running. If that already is the case,
+				you can skip this step. You can run the SSH daemon like this in
+				gentoo:
+				</p>
+				<pre class="code">
+$ su
+# /etc/init.d/sshd start</pre>
+				<p>
+				Now you are able install and run <span
+				class="hghl">ajaxWM</span> like this:
+				</p>
+				<pre class="code">
+$ wget "http://downloads.sourceforge.net/ajaxwm/ajaxwm-0.2.6.tar.gz"
+$ tar xfz ajaxwm-0.2.6.tar.gz
+$ cd ajaxwm-0.2.6/src
+$ ./ajaxwm.py
+$ firefox localhost:8022</pre>
+				<p>
+				You can now login to your local pc using the firefox (or
+				whatever browser you are using) window, which just showed up.
+				If your login doesn't work, have a look at your SSHd config.
+				When you are logged in, you can create new windows by pressing
+				CTRL + ALT + W and close them with a CTRL + ALT + C.
+				</p>
+				<p>
+				When everything is running locally you probably want to make
+				<span class="hghl">ajaxWM</span> accessible on some network
+				(like the internet). In order to do this you have to setup a
+				web server (locally), which proxies incoming HTTPS-connections
+				to <span class="hghl">ajaxWM</span> and vice versa. If you
+				don't have an SSL certificate you have to create one first:
+				</p>
+				<pre class="code">
+$ su
+# openssl req -new -x509 -nodes -out /etc/apache2/ssl/apache.pem \
+-keyout /etc/apache2/ssl/apache.pem
+# chmod 600 /etc/apache2/ssl/apache.pem</pre>
+				<p>
+				You can create a htpasswd file for Apache to secure the access
+				with a username and password:
+				</p>
+				<pre class="code">
+# htpasswd2 -c /etc/apache2/htpasswd bob</pre>
+				<p>
+				Here is an exemplary apache configuration you can use to proxy
+				<span class="hghl">ajaxWM</span>:
+				</p>
+				<pre class="code">
+Listen 443
+NameVirtualHost *:443
+
+&lt;VirtualHost *:443&gt;
+    ServerName ajaxwm.yourdomain.org
+
+    SSLEngine On
+    SSLCertificateKeyFile ssl/apache.pem
+    SSLCertificateFile ssl/apache.pem
+    
+    ProxyRequests Off
+
+    &lt;Proxy *&gt;
+        AuthType Basic
+        AuthName "remote Shell Access"
+        AuthUserFile /etc/apache2/htpasswd
+        Require user tom
+        Order deny,allow
+        Allow from all
+    &lt;/Proxy&gt;
+    
+    ProxyPass / http://localhost:8022/
+    ProxyPassReverse / http://localhost:8022/
+&lt;/VirtualHost&gt;</pre>
+				<p>
+				Now after restarting Apache ajaxWM should be reachable on the
+				set address.
+				</p>
+				</div>
+			</div>
+			<div class="blck">
+				<h2 id="issues">known issues</h2>
+				<div class="text">
+				<ul class="issues">
+					<li>
+						<p class="issue">
+							<span class="hghl">ajaxWM</span> does not work in $BROWSER.
+						</p>
+						<p class="fix">
+							<span class="hghl">ajaxWM</span> is in alpha-state and
+							does only run in firefox by now. The client will be rewritten in
+							proper &quot;JS-OOP&quot; using <a
+							href="http://www.prototypejs.org/">prototype.js</a> and <a
+							href="http://programmers.at/work/on/dev-js/hasslichscript"
+							>HasslichScript</a>.
+						</p>
+					</li>
+					<li>
+						<p class="issue">
+							Failing login with passwords containing ampersands
+							(&quot;&amp;&quot;) and some other special characters.
+						</p>
+						<p class="fix">
+							Fixed in the development branch (svn) and in all versions
+							above 0.2.6. There is also a <a href="patch/0.2.6-ampersand.patch"
+							title="ampersand-patch">patch</a> available. 
+						</p>
+					</li>
+				</ul>
+				</div>
+			</div>
+			<div class="blck">
+				<h2 id="faq">faq</h2>
+				<div class="text">
+				<p class="qstn">Why is there no question?</p>
+				<p class="aswr">Because no one asked anything.</p>
+				<p>If you have a question, which is not answered here, don't
+				hesitate to ask us!</p>
+				</div>
+			</div>
+			<div class="blck">
+				<h2 id="screenshots">screenshots</h2>
+				<div class="text">
+				<a href="img/screen1.png"><img src="img/screen1.thumb.png"
+				alt="Screenshot 1" /></a>
+				<a href="img/screen2.png"><img src="img/screen2.thumb.png"
+				alt="Screenshot 1" /></a>
+				<a href="img/screen3.png"><img src="img/screen3.thumb.png"
+				alt="Screenshot 1" /></a>
+				</div>
+			</div>
+			<div class="blck">
+				<h2 id="mlists">mailing lists</h2>
+				<div class="text">
+				<dl>
+				<dt class="hghl">ajaxwm-announce@lists.sourceforge.net</dt>
+				<dd>announcements about releases, bugs, and fixes</dd>
+				<dt class="hghl">ajaxwm-development@lists.sourceforge.net</dt>
+				<dd>develeoper discussion</dd>
+				<dt class="hghl">ajaxwm-user@lists.sourceforge.net</dt>
+				<dd>discussion and support for users</dd>
+				</dl>
+				</div>
+			</div>
+			<div class="blck">
+				<h2 id="authors">authors</h2>
+				<div class="text">
+				<dl>
+				<dt>server</dt>
+				<dd><span class="hghl">Dennis Felsing</span> (r0q)</dd>
+				<dd>&lt; $NICKNAME * at * users * dot * sourceforge * dot * net
+				&gt;</dd>
+				<dt>client</dt>
+				<dd><span class="hghl">Andreas Waidler</span> (pwnd)</dd>
+				<dd>&lt; $NICKNAME * at * users * dot * sourceforge * dot * net
+				&gt;</dd>
+				</dl>
+				</div>
+			</div>
+		</div>
+		<div class="sflogo">
+      <a href="http://sourceforge.net/projects/ajaxwm"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=207408&type=14" width="150" height="40" border="0" alt="Get ajaxWM at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
+		</div>
+    </body>
+</html>
+```
