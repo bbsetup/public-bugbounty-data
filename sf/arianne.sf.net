@@ -1,0 +1,116 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<LINK REL="SHORTCUT ICON" HREF="/favicon.ico">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="/css/cssdef.css?1"><meta name="viewport" content="width=device-width, initial-scale=1" /><title>A Multiplayer Online Role Playing Framework to develop games &ndash; The Arianne Project</title><meta name="keywords" content="arianne, java, python, jython, multiplayer, play, online, game, engine, framework, content creation, free, open source, gpl, MySQL, documentation, design, MMORPG"><meta name="description" content="Arianne is a multiplayer online games framework and engine to develop turn based and real time games. It provides a simple way of creating games on a portable and robust server architecture. The server is coded in Java and you may use Python for your game description, provides a MySQL or H2 database backend and uses an TCP transport channel to communicate with hundreds of players."><link rel="alternate" type="application/rss+xml" title="Arianne News" href="https://arianne-project.org/rss/news.rss" >
+
+</head>
+
+<body>
+
+
+	<div id="main_contain">
+		<div id="pageheader">
+			<div id="title_section">
+				<a href="/">
+					<span class="left-title-image"></span>
+					<span class="right-title-image"></span>
+				</a>
+				<p>Arianne is an open source multiplayer online framework to easily create games!</p>
+			</div>
+
+			<div id="menubarcontainer">
+				<a href="/">News</a>
+				<a href="/about.html">About</a>
+				<a href="/game/stendhal.html">Stendhal MORPG</a>
+				<a href="/tool/marboard.html">Marboard</a>
+				<a href="/engine/marauroa.html">Marauroa Engine</a>
+				<a href="/contact.html">Contact</a>
+				<div class="clear"></div>
+			</div>
+
+
+		</div>
+		<div id="pagemain">
+			<div id="left_menu">
+				<ul><li class="menu_title"><div id="game-menu-image">Games</div></li><li class="text"><a href="/game/stendhal.html" class="naviLight">Stendhal</a><img src="/images/updated.gif" class="update_image" alt="Recently Updated"></li><li><a href="/game/stendhal.html"><img src="/images/navigation/stendhal.png" alt="Screenshot"></a></li></ul><ul><li class="menu_title"><div id="tool-menu-image">Tools</div></li><li class="text"><a href="/tool/marboard.html" class="naviLight">Marboard</a></li><li><a href="/tool/marboard.html"><img src="/images/navigation/marboard.png" alt="Screenshot"></a></li></ul>
+				<ul>
+					<li class="menu_title"><div id="pw-menu-image">Powered By...</div></li>
+					<li><a href="https://sourceforge.net/projects/arianne"><IMG SRC="https://sourceforge.net/sflogo.php?group_id=1111&amp;type=1" ALT="SourceForge Logo"></a></li>
+					<li><a href="https://www.java.com"><IMG SRC="/images/partners/get_java_green_button.gif" ALT="Java Logo" ></a></li>
+					<li><a href="https://www.mysql.com"><IMG SRC="/images/partners/MySQLPowered.gif" ALT="MySQL Logo"></a></li>
+				</ul>
+				<ul>
+					<li class="menu_title"><div id="rate-menu-image">Rate Us</div></li>
+					<li><a href="http://sourceforge.net/projects/arianne/reviews/"><IMG SRC="https://sourceforge.net/sflogo.php?group_id=1111&amp;type=1" ALT="SourceForge Logo"></a></li>
+					<!-- <li><a href="http://happypenguin.org/show?Stendhal"><img src="http://happypenguin.org/rateomatic?Stendhal" alt="Happy Penguin Rate"></a></li>-->
+				</ul>
+			
+			</div>
+			
+			<div id="pagecontent"><a href="https://arianne-project.org/rss/news.rss" class="rss"><img src="/images/buttons/feed-icon-28x28.png" width="28px" height="28px" alt="" title="News Feed" class="borderless"></a><ul class="newslist"><li class="clearright"><div class="newsitem"><div class="newstitle"><h2 class="newsitemtitle"><a class="newsitemtitle" name="%E2%9D%84%EF%B8%8F-happy-holidays-%E2%9D%84%EF%B8%8F" href="/news/%E2%9D%84%EF%B8%8F-happy-holidays-%E2%9D%84%EF%B8%8F.html">❄️ Happy Holidays ❄️</a></h2></div><p class="itemdate">2020-12-24</p><img class="news_image" src="/screens/stendhal/christmas136.gif" alt="Game screenshot">
+<a href="https://stendhalgame.org/account/mycharacters.html" class="playnow"><img class="news_image playnow" src="/images/playbutton.png" alt="" title="Play now"></a>
+<div class="newscontent_image">
+      
+<p>Happy holidays and a healthy new year from the Stendhal Community!
+
+<p>Keep your eyes open and you might meet Santa for a nice present and a pointy hat.
+      </div></div><div class="social_buttons"></div></li><li class="clearright"><div class="newsitem"><div class="newstitle"><h2 class="newsitemtitle"><a class="newsitemtitle" name="stendhal-1-36-construction" href="/news/stendhal-1-36-construction.html">Stendhal 1.36: Construction</a></h2></div><p class="itemdate">2020-10-10</p><img class="news_image" src="/screens/stendhal/construction136.png" alt="Game screenshot">
+<a href="https://stendhalgame.org/account/mycharacters.html" class="playnow"><img class="news_image playnow" src="/images/playbutton.png" alt="" title="Play now"></a>
+<div class="newscontent_image">
+      
+<p>Oh no, the construction of this years Mine Town Revival Weeks is running late.
+
+<p>But with a bit of combined help by players, the festival will still be able to take place.
+
+<p>We have a <a href="https://discord.gg/sw7kKgu">Discord server</a> now.
+
+<p>There are more changes, which you can find in the <a href="/game/stendhal.html#changes">change log</a> for this release.
+      </div></div><div class="social_buttons"></div></li><li class="clearright"><div class="newsitem"><div class="newstitle"><h2 class="newsitemtitle"><a class="newsitemtitle" name="stendhal-1-35-appreciating-helpers" href="/news/stendhal-1-35-appreciating-helpers.html">Stendhal 1.35: Appreciating Helpers</a></h2></div><p class="itemdate">2020-07-15</p><img class="news_image" src="/screens/stendhal/deathmatch135.png" alt="Game screenshot">
+<img class="news_image" src="/screens/stendhal/contributors135.png" alt="Game screenshot">
+<img class="news_image" src="/screens/stendhal/login135.png" alt="Game screenshot">
+<a href="https://stendhalgame.org/account/mycharacters.html" class="playnow"><img class="news_image playnow" src="/images/playbutton.png" alt="" title="Play now"></a>
+<div class="newscontent_image">
+      
+<p>When you are in the arena, fighting for life and death, help from a friend is very much appreciated. Starting with Stendhal 1.35 such heroic deeds will be rewarded with an achievement.
+
+<p>But not everything is a matter of life and death: Stendhal is a spare time project, which completely depends on contributions by volunteers. While it is easy to credit contributors of program code and art, it is more difficult to keep track of other kinds of contributions such as: informal bug reports and ideas, help with testing and community building. In the past, we felt overwhelmed by that task and feared that people might get upset for being forgotten. We even added a little easter egg on the login screen: The “credits” button will lead to a list of NPCs.
+
+<p>Now, on Stendhal’s 15th anniversary, we want to <a href="https://github.com/arianne/stendhal/blob/master/doc/contributors.md#contributors">credit every contributor properly</a>. At this point, the list is just a start, listing only 219 contributors, and some of them with a placeholder image only. We need your help to complete it. 
+
+<p>In other news, we significantly improved interactions with the database. This should completely eliminate delays on login because all database actions that have an impact on logins are prioritized and moved to the front of the queue.
+
+<p>There are more changes, which you can find in the <a href="/game/stendhal.html#changes">change log</a> for this release.
+      </div></div><div class="social_buttons"></div></li><li class="clearright"><div class="newsitem"><div class="newstitle"><h2 class="newsitemtitle"><a class="newsitemtitle" name="stendhal-1-34-dojo" href="/news/stendhal-1-34-dojo.html">Stendhal 1.34: Dojo</a></h2></div><p class="itemdate">2020-05-02</p><img class="news_image" src="/screens/stendhal/dojo134.png" alt="Game screenshot">
+<img class="news_image" src="/screens/stendhal/rengard134.png" alt="Game screenshot">
+<a href="https://stendhalgame.org/account/mycharacters.html" class="playnow"><img class="news_image playnow" src="/images/playbutton.png" alt="" title="Play now"></a>
+<div class="newscontent_image">
+      
+<p>Don't have a friend to train with? The assassins have built a hidden dojo to train their warriors.
+
+<p> A wandering adventurer is seeking to compile information on all the creatures found in the world. If you hear whistling, be sure to investigate. That could be his cheerful tune.
+
+<p> Pawn some of your old items in Deniran. Sawyer has set up shop for business with the aid of his assistant.
+
+<p> Tired of the same old outfits? Meet Pierre for some new flair to show off. Super heroes and cute and cuddly are his theme.
+
+<p> If you are curious about Atlantis, look for Ryla. She is tasked with introducing visitors to the hidden world.
+
+<p> Baby pegasi have grown shy due to the increasing number of poachers.
+
+<p> See the complete <a href="/game/stendhal.html#changes">change log</a> for this release.
+      </div></div><div class="social_buttons"></div></li><li class="clearright"><div class="newsitem"><div class="newstitle"><h2 class="newsitemtitle"><a class="newsitemtitle" name="stendhal-1-33-1-exploit-fix" href="/news/stendhal-1-33-1-exploit-fix.html">Stendhal 1.33.1: Exploit fix</a></h2></div><p class="itemdate">2020-04-24</p><a href="https://stendhalgame.org/account/mycharacters.html" class="playnow"><img class="news_image playnow" src="/images/playbutton.png" alt="" title="Play now"></a>
+<div class="newscontent_image">
+      Stendhal version 1.33.1 is a server only release. It fixes an exploit around the drop and selling of kokuda (<a href="https://github.com/arianne/stendhal/commit/9e571f2682776a46ac48460fb02fdeedf3360508">Patch</a>).
+      <p> Some boss creatures have the ability to drop a certain item, which may be used in the quest. 
+      The original creature to make use of this feature was the green dragon guarding a key in the dungeon below Orril Castle. 
+      In order to prevent players from getting lots of useless keys, the drop will only happen, if the player does not have the same key in his or her inventory already.
+      The same logic was used for the quest related item "kokuda" by the Minotaur King. Recently an NPC called Wanda was introcuded who bought such an item for a sizeable amount of money.   
+<p>This release also includes a tiny fix to the webclient buddy list.
+      </div></div><div class="social_buttons"></div></li></ul><p><a href="/news/all.html">Read all the news items</a></p><div class="clear"></div></div>		</div>
+	</div>
+</body>
+</html>
+
+```
