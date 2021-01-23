@@ -1,0 +1,31 @@
+```<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>OneDrive - Error</title>
+    <link href="/Content/error.css" rel="stylesheet"/>
+
+</head>
+<body>
+<div class="header">
+    <a href="/">OneDrive</a>
+</div>
+<div class="content">
+
+
+
+
+<hgroup>
+    <h1>Sorry, something went wrong</h1>
+</hgroup>
+<p>An error occurred while processing your request.</p>
+<!--<form action="/" method="GET">
+    <button type="submit">
+        <span></span>
+    </button>
+</form>-->
+
+</div>
+</body>
+</html>
+```
