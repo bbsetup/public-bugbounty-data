@@ -1,0 +1,433 @@
+```<!doctype html><!-- © 1998 - 2021 DPG Online Services B.V. -->
+<html lang="NL"><head>
+        
+                            <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                                                <meta name="referrer" content="origin-when-cross-origin">
+                            
+                    <title>Any-blog - Tweakers</title>
+        <link rel="navigator" title="Spring voorbij navigatie" href="https://anteros.tweakblogs.net/#contentArea">
+
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-Regular.woff2" as="font" type="font/woff2" crossorigin>
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+
+                                            <link rel="shortcut icon" href="https://tweakers.net/favicon.ico" type="image/x-icon">
+                            <link rel="alternate" title="Any-blog - Reacties" type="application/rss+xml" href="https://anteros.tweakblogs.net/feed/comments">
+                            <link rel="alternate" title="Any-blog" type="application/rss+xml" href="https://anteros.tweakblogs.net/feed/">
+            
+        <script>
+                var relaxedDomain  = 'tweakers.net',
+                    tweakersConfig = {"BaseURL":"https:\/\/anteros.tweakblogs.net\/","TnetBaseURL":"https:\/\/tweakers.net\/","ForumBaseURL":"https:\/\/gathering.tweakers.net\/","ImgURL":"https:\/\/tweakers.net\/","sidName":"__Secure-TnetID","UserID":0,"requestId":"Twk-eun-web2_200.1.0_31754_600bafc27b6740.81876645","abStatsPath":"\/ajax\/6rTU6NZ5yTpSlRK5irpKngeRMt\/","loginJs":"https:\/\/tweakers.net\/x\/scripts\/min\/login.js?1605690650","loginCss":"https:\/\/tweakers.net\/x\/styles\/profiles\/login.css?1583238942","clickToLoad":false};
+
+                try
+                {
+                    document.domain = relaxedDomain;
+                }
+                catch (e)
+                {
+                    relaxedDomain = '';
+                }
+                document.documentElement.className = 'js';
+            </script>
+        <link rel="stylesheet" href="https://tweakers.net/x/styles/tweakblogs/weblogs.css?1608112821" type="text/css">
+                                        <script src="https://tweakers.net/x/build/runtime.36cbb21e.js"></script><script src="https://tweakers.net/x/build/0.3c968efc.js"></script><script src="https://tweakers.net/x/build/1.fe0b8bdd.js"></script><script src="https://tweakers.net/x/build/frontpage.e631087f.js"></script>
+
+                    <script src="https://tweakers.net/x/scripts/min/general.js?1605696722"></script>
+            <script src="https://tweakers.net/x/scripts/min/weblogs.js?1604565751"></script>
+            <script src="https://tweakers.net/x/scripts/min/rml_toolbar.js?1605522743"></script>
+                    <script>
+            var _wtq=[['_init',{"randomId":"419222499702227","trackId":"318816705845986","trackDomain":"tweakers.net","domain":"tweakers.net;gathering.tweakers.net","cookie":"1","mediaCode":"wt_mc","contentId":"","contentGroup":{"1":"tweakers.net","2":"Tweakblogs"},"executePluginFunction":"wt_urlCampaignMapper;wt_stats_plugin","requestObfuscation":true,"customParameter":{"1":"LG"}}],['_trackPage']];
+			loadJS('https://tweakers.net/x/scripts/min/160huGp.js',AbStats.wtCallBack);
+
+        </script>
+    
+    </head>
+    <body>
+
+    <div id="container">    <div id="tweakblogsNav">
+        <div class="logo"><a href="https://tweakblogs.net/"><img src="https://tweakers.net/g/if/weblogs/tweakblogs.png" width=131 height=20 alt="Tweakblogs"></a></div>
+        <ul>
+            <li><a href="https://tweakblogs.net/">Tweakblogs Home</a></li>
+            <li><a href="https://tweakers.net/">Tweakers</a></li>
+                            <li>
+                    <a href="https://tweakers.net/nieuws/">Nieuws</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/reviews/">Reviews</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/pricewatch/">Pricewatch</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/aanbod/">Vraag &amp; Aanbod</a>
+                </li>
+                            <li>
+                    <a href="https://gathering.tweakers.net/">Forum</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/carriere/">Carri&egrave;re</a>
+                </li>
+                            <li>
+                    <a href="#">Meer</a>
+                </li>
+                    </ul>
+    </div>
+    <div id="banner">
+    
+        
+    <h1><a href="https://anteros.tweakblogs.net">Any-blog</a></h1>
+            <span class="subtitle"></span>
+    </div>
+            <p class="breadCrumb">
+                <a href="https://anteros.tweakblogs.net/feed/" title="Any-blog" rel="nofollow">
+            <img src="https://tweakers.net/g/if/v2/icons/rss_small.png" width=12 height=12 alt="[RSS]">
+        </a>
+                                <a href="https://anteros.tweakblogs.net">            Home            </a>
+            </p>
+<div id="pagebody">
+                <div class="columnwrapper normal">    <div class="content">
+			<div class="blogpost">
+				<h2><a href="https://anteros.tweakblogs.net/blog/12012/firmware-dev-gps-fietscomputer-cmake-build-systeem">[Firmware dev] GPS fietscomputer: CMake build systeem</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/287744/" rel="nofollow">Anteros</a> op maandag 20 juli 2015 16:59 - <a href="https://anteros.tweakblogs.net/blog/12012/firmware-dev-gps-fietscomputer-cmake-build-systeem#reacties">Reacties (7)</a><br>Categorie: <a href="https://anteros.tweakblogs.net/blog/cat/2990">Technisch</a>, Views: 3.091
+				</p>
+				<div class="article">Een goed onderhoudbaar softwareproject begint bij een begrijpbare opzet van de projectstructuur en het build systeem. Er zijn diverse manieren om dit te bewerkstelligen en ik heb de volgende structuur gekozen:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/LZbHAmixhNBYJOtn8K03YFBX/full.png" class="rml" width="585" height="538" alt="http://static.tweakers.net/ext/f/LZbHAmixhNBYJOtn8K03YFBX/full.png" title="http://static.tweakers.net/ext/f/LZbHAmixhNBYJOtn8K03YFBX/full.png"></noscript> <br>
+<br>
+De root van het project bestaat uit diverse subdirectory&#8217;s:<ul><li><b>buildtools</b> : Hierin staat de cross-compiler voor het compileren en linken van de sources<ul><li>Voor zowel Linux als Windows is een aparte cross-compiler gebruikt en afhankelijk van de host wordt de relevante cross-compiler aangeroepen</li></ul></li><li><b>firmware</b> : Hierin staan alle sub-systemen en sub-componenten, inclusief de twee executables (boot loader en de applicatie)<ul><li>Sub-systemen behoren tot het project en zijn in principe niet 1:1 herbruikbaar</li><li>Sub-systemen bestaan uit een <i>inc</i> en <i>src</i> directory. De <i>inc</i> directory bevat alle openbare header-files die de API-functies beschrijven. De <i>src</i> directory bevat een of meerdere source-files <b>en</b> lokale header-files.</li><li>Sub-componenten behoren ook tot het project maar zijn wel 1:1 herbruik- en configureerbaar. De <b>cfg</b> directory in de <i>./firmware/</i> directory bevat daarom een subdirectory voor elk sub-component wat een zogenaamde &#8216;config&#8217; header-file bevat &#8211; bv een <i>vcp_cfg.h</i> file - <br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/T4JoJLqL9I1XxNEwm1klc7nB/full.png" class="rml" width="264" height="244" alt="http://static.tweakers.net/ext/f/T4JoJLqL9I1XxNEwm1klc7nB/full.png" title="http://static.tweakers.net/ext/f/T4JoJLqL9I1XxNEwm1klc7nB/full.png"></noscript></li><li>Sub-componenten bestaan verder ook uit een <i>inc</i> en een <i>src</i> directory.</li><li>Hieronder de huidige directory-structuur van mijn project en zoals te zien is, zijn <i>cmdLine, configman, eventlog, stm32f2cube, ubicom</i> en <i>vcp</i> herbruikbare componenten.<br>
+ <br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/QQ3Im8Jbq2kpNg5ON1w1AYak/full.png" class="rml" width="443" height="815" alt="http://static.tweakers.net/ext/f/QQ3Im8Jbq2kpNg5ON1w1AYak/full.png" title="http://static.tweakers.net/ext/f/QQ3Im8Jbq2kpNg5ON1w1AYak/full.png"></noscript></li></ul></li><li><b>build</b> : Deze subdirectory wordt gebruikt voor het bouwen en linken van de executable(s)</li><li><b>refInfo</b> : Hierin staat allerlei documentatie, voorbeeldcode, etc. wat gebruikt kan worden voor naslag tijdens de ontwikkeling <br>
+ <br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/5HDmiXxAg98MblkX5j9HVjjw/full.png" class="rml" width="375" height="120" alt="http://static.tweakers.net/ext/f/5HDmiXxAg98MblkX5j9HVjjw/full.png" title="http://static.tweakers.net/ext/f/5HDmiXxAg98MblkX5j9HVjjw/full.png"></noscript></li><li><b>.git</b> : De standaard <i>GIT</i> subdirectory</li></ul>Voor het build systeem maak ik gebruik van Makefiles in combinatie met <b><a href="http://www.cmake.org/" rel="external nofollow">CMake</a></b>. CMake parsed speciale <i>CmakeLists.txt</i> bestanden en genereert daaruit de Makefiles. Deze Makefiles kunnen vervolgens afgetrapt worden voor het daadwerkelijk bouwen van de executable(s).<br>
+<br>
+Omdat er relatief weinig informatie beschikbaar is voor het gebruik van CMake in combinatie met een cross-compiler, wil ik graag het een en ander samenvatten om hiermee hopelijk wat mensen op weg te helpen met CMake.<br>
+<br>
+<b>CMake in embedded development</b><br>
+CMake werkt met het concept van executables en libraries. Een executable is een applicatie en in mijn geval zijn dat de <i>boot loader (boot)</i> en de <i>hoofdapplicatie (applic)</i>. <b>Alle</b> sub-systemen en sub-componenten in mijn project zijn gedefinieerd als statische libraries. Ze worden dus gelinkt als <i>.a</i> bestanden om later weer gelinkt te worden met de executable(s). <br>
+<br>
+Mijn CMake-configuratiebestanden staan als volgt in mijn project &#8211; overigens hebben nog niet alle libraries <i>CMakeLists.txt</i> bestanden - :<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/1opnA59zjKXGa0gB2g05w3pk/full.png" class="rml" width="284" height="995" alt="http://static.tweakers.net/ext/f/1opnA59zjKXGa0gB2g05w3pk/full.png" title="http://static.tweakers.net/ext/f/1opnA59zjKXGa0gB2g05w3pk/full.png"></noscript><br>
+ <br>
+Omdat CMake er normaliter vanuit gaat dat de software gecompileerd gaat worden voor de local-host, moet je CMake nu vertellen dat je wilt compileren voor een embedded target. Dit kan middels een zogenaamd <i>toolchain</i>-bestand.<br>
+<br>
+En <i>toolchain</i> CMake bestand wordt aangemaakt en daarin staat vermeldt welke compiler en linker CMake moet gebruiken. Dit bestand wordt geplaatst in de <i>root</i> van het CMake project (<i>./firmware/</i> in mijn geval). <br>
+<br>
+<img src="https://static.tweakers.net/ext/f/evUG6fbw2kJdYwqTvyt9wlT5/full.png" class="rml" width="277" height="74" alt="http://static.tweakers.net/ext/f/evUG6fbw2kJdYwqTvyt9wlT5/full.png" title="http://static.tweakers.net/ext/f/evUG6fbw2kJdYwqTvyt9wlT5/full.png"><br>
+ <br>
+De inhoud van mijn toolchain file <i>arm.toolchain.cmake</i> is als volgt:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/hvm3cEaeOSdjj6RTEup379n3/full.png" class="rml" width="576" height="621" alt="http://static.tweakers.net/ext/f/hvm3cEaeOSdjj6RTEup379n3/full.png" title="http://static.tweakers.net/ext/f/hvm3cEaeOSdjj6RTEup379n3/full.png"></noscript><br>
+<br>
+Korte uitleg:<ul><li><b>${PROJECT_SOURCE_DIR}</b> : Is het absolute pad waar, in dit geval, <i>arm.toolchain.cmake</i> staat.</li><li><b>CMAKE_FORCE_C_COMPILER</b> : Vertelt CMake dat CMake geen compiler check moet uitvoeren en dat de aangegeven compiler gebruikt <b>moet</b> worden.</li></ul>Nu CMake weet welke compiler te gebruiken, is het ook nodig om CMake te vertellen wat de compiler- en linkeropties zijn. Die opties zijn nodig om de compiler o.a. te vertellen wat het optimalisatieniveau is, welke warnings en errors deze moet genereren, enz. De linker moet o.a. weten welke linker-file gebruikt moet worden om de objecten en libraries te linken, of de linker standaard libraries zoals <i>libc</i> mee moet nemen, enz. <br>
+<br>
+Deze compiler- en linkeropties worden gezet in de <i>root</i> <b>CMakeLists.txt</b> en in een <i>executable - &#8216;boot&#8217; of &#8216;applic&#8217; in mijn geval -</i> <b>CMakeLists.txt</b>. <br>
+<br>
+De inhoud van de root <b>CmakeLists.txt</b> is in mijn geval als volgt:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/pdnjPwDL3SpAzZS7jzRiu3qD/full.png" class="rml" width="585" height="500" alt="http://static.tweakers.net/ext/f/pdnjPwDL3SpAzZS7jzRiu3qD/full.png" title="http://static.tweakers.net/ext/f/pdnjPwDL3SpAzZS7jzRiu3qD/full.png"></noscript><br>
+<br>
+Korte uitleg:<ul><li><b>set(LIBS &#8230;)</b> : Dit zijn <i>alle</i> project libraries en executables die CMake moet gebruiken</li><li><b>add_definitions(&#8230;)</b>  : Hiermee kan je definities toevoegen die je vervolgens kan gebruiken in de code &#8211; <i> #ifdef &lt;MIJN_DEFINITIE&gt; &#8230; #endif</i> &#8211;</li><li><b>set(C_MAKE_C_FLAGS &#8230;)</b> : Dit zijn de compiler opties die CMake meegeeft aan de compiler</li><li><b>include_directories(&#8230;)</b> : Hiermee vertel je CMake waar deze de verschillende <i>header</i>-files kan vinden</li><li><b>add_subdirectory(&#8230;)</b> : Hiermee vertel je CMake dat een library of executable toegevoegd moet worden aan het project. CMake gaat dan de <i>CMakeLists.txt</i>-file in die subdirectory parsen en uitvoeren</li></ul>&#8195;<br>
+Zoals hierboven beschreven staat, worden de linkeropties gedefinieerd in een <i>executable</i>. In mijn boot loader geval staat deze <i>CMakeListst.txt</i> dus in de <i>./firmware/boot/</i> directory en ziet er als volgt uit:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/cuoYe5eARDVOMqXlwS0zYU0f/full.png" class="rml" width="585" height="414" alt="http://static.tweakers.net/ext/f/cuoYe5eARDVOMqXlwS0zYU0f/full.png" title="http://static.tweakers.net/ext/f/cuoYe5eARDVOMqXlwS0zYU0f/full.png"></noscript> <br>
+<br>
+Korte uitleg:<ul><li><b>set(FILE_MEMORY_LAYOUT &#8230;)</b> : Deze CMake variabele bevat een absoluut pad naar de boot loader linker-file</li><li><b>set(CMAKE_EXE_LINKER_FLAGS &#8230;)</b> : De linker opties die CMake meegeeft wanneer de linker aangeroepen wordt</li><li><b>add_custom_command(&#8230;)</b> : Hiermee vertel je CMake dat dit commando uitgevoegd moet worden als de bestanden <i>vectors.c</i> en/of <i>vectors.h</i> benodigd zijn. Deze bestanden worden dynamisch door <i>AWK</i> gegeneerd om de Interrupt Vector Tabel te definiëren</li><li><b>set(LIBDEPENDS &#8230;)</b> : Hierin staan libraries die benodigd zijn om de boot loader executable te kunnen linken</li></ul><b>Laatste stap</b><br>
+Nu alles klaar is kan CMake afgetrapt worden om de <i>Makefiles</i> te genereren. Dit wordt gedaan in de <i>./build/</i> directory met het volgende commando:<br>
+<br>
+<img src="https://static.tweakers.net/ext/f/FgK2ghRUoScHgrOdSlxsiyjt/full.png" class="rml" width="585" height="35" alt="http://static.tweakers.net/ext/f/FgK2ghRUoScHgrOdSlxsiyjt/full.png" title="http://static.tweakers.net/ext/f/FgK2ghRUoScHgrOdSlxsiyjt/full.png"> <br>
+<br>
+De output ziet er als volgt uit:<br>
+<br>
+<img src="https://static.tweakers.net/ext/f/1Q87U2hF5R6tFeyUNcylMg8o/full.png" class="rml" width="555" height="47" alt="http://static.tweakers.net/ext/f/1Q87U2hF5R6tFeyUNcylMg8o/full.png" title="http://static.tweakers.net/ext/f/1Q87U2hF5R6tFeyUNcylMg8o/full.png"><br>
+<br>
+Nu kunnen we het project bouwen met <i>make</i>:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/kOGUNPh6iNzeqOlnB5onL6zW/full.png" class="rml" width="585" height="486" alt="http://static.tweakers.net/ext/f/kOGUNPh6iNzeqOlnB5onL6zW/full.png" title="http://static.tweakers.net/ext/f/kOGUNPh6iNzeqOlnB5onL6zW/full.png"></noscript><br>
+<br>
+Als alles goed gaat staat er nu een <i>.elf</i> executable in <i>./build/boot/</i>. Met het commando <b>readelf &lt;executable&gt; -h</b> kan je wat informatie opvragen:<br>
+<br>
+<img src="https://static.tweakers.net/ext/f/3RTCU3wT3S9e3yWwe3XHt9k5/full.png" class="rml" width="353" height="22" alt="http://static.tweakers.net/ext/f/3RTCU3wT3S9e3yWwe3XHt9k5/full.png" title="http://static.tweakers.net/ext/f/3RTCU3wT3S9e3yWwe3XHt9k5/full.png"><br>
+<br>
+En de output:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/4zuMlW2EFGrvIP2lbRVPCxHz/full.png" class="rml" width="585" height="267" alt="http://static.tweakers.net/ext/f/4zuMlW2EFGrvIP2lbRVPCxHz/full.png" title="http://static.tweakers.net/ext/f/4zuMlW2EFGrvIP2lbRVPCxHz/full.png"></noscript><br>
+<br>
+<b>Slotwoord</b><br>
+CMake maakt het (voor mij) makkelijker om een build systeem op te zetten wat leesbaar en goed onderhoudbaar is. Niet alleen dat, het is nu een fluitje van een cent om een nieuwe library toe te voegen of speciale varianten van de software te bouwen. Deze en nog enkele andere voordelen maken het voor mij in ieder geval een perfecte keus!<br>
+<br>
+Ik hoop dat het met deze blog-post nu wat duidelijker is hoe je CMake kan gebruiken in embedded softwareprojecten. Wellicht een overweging waard voor jouw (embedded) softwareproject?<br>
+<br>
+<b>Referenties</b><ul><li><b>CMake</b><ul><li><a href="http://www.cmake.org/" rel="external nofollow">Cmake</a></li><li><a href="https://en.wikipedia.org/wiki/CMake" rel="external nofollow">Wikipedia</a></li></ul></li><li><b><a href="https://anteros.tweakblogs.net/blog/12006/elek-punt-gps-fietscomputer-linker-hal-en-huidige-boot-loader-status" rel="external">Vorige blog-post: Linker files, HAL en huidige status boot loader</a></b></li></ul></div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://anteros.tweakblogs.net/blog/12006/elek-punt-gps-fietscomputer-linker-hal-en-huidige-boot-loader-status">[Elek. GPS fietscomputer] Linker, HAL en huidige boot loader status</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/287744/" rel="nofollow">Anteros</a> op donderdag 16 juli 2015 13:08 - <a href="https://anteros.tweakblogs.net/blog/12006/elek-punt-gps-fietscomputer-linker-hal-en-huidige-boot-loader-status#reacties">Reacties (6)</a><br>Categorie: <a href="https://anteros.tweakblogs.net/blog/cat/2990">Technisch</a>, Views: 3.082
+				</p>
+				<div class="article">Zoals beschreven in mijn <b><a href="https://anteros.tweakblogs.net/blog/11938/elek-ontwikkeling-van-een-gps-fietscomputer-en-8211-intro-en-de-boot-loader-%28fase-1%29" rel="external">introductie blog post</a></b> ga ik het in deze blog post hebben over o.a. de linker en het gebruik van linker files. Verder wil ik graag een kort stukje schrijven over hardware abstractie om uiteindelijk te eindigen met een overzicht van de huidige boot loader status.<br>
+<br>
+<b>Linker files</b><br>
+Voordat software uitgevoerd kan worden op een target moeten de gecompileerde source-files &#8211; genaamd object-files (<i>.o</i>) - gelinkt worden door de linker. Dit linken is nodig om de objecten op de juiste plek in het geheugen van de target te plaatsen en om alle referenties naar functies en datastructuren in te vullen. <br>
+<br>
+Omdat software op verschillende processoren en platformen kan draaien, moet de linker o.a. informatie hebben over de relevante geheugenlocaties <b>en</b> het soort geheugen van de target. Deze informatie verkrijgt de linker doormiddel van een linker-file. <br>
+<br>
+Hieronder een korte omschrijving van wat er nu zoal in een linker-file staat. De voorbeelden geven (stukjes) van de boot loader linker-file weer.<br>
+<br>
+<b>Linker files: geheugen definities</b><br>
+Zoals hierboven al beschreven moet de linker weten wat voor type geheugens er beschikbaar zijn op de target, waar deze beginnen, hoe groot deze zijn en welke toegangsmogelijkheden ze hebben.<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/CtedGJhnFvoyY9Y0siIfvSiu/full.png" class="rml" width="585" height="127" alt="http://static.tweakers.net/ext/f/CtedGJhnFvoyY9Y0siIfvSiu/full.png" title="http://static.tweakers.net/ext/f/CtedGJhnFvoyY9Y0siIfvSiu/full.png"></noscript><br>
+<br>
+Met de tag <b>MEMORY { &#8230; }</b> kan men geheugensecties definiëren in de linker-file. De definities die hierboven te zien zijn, komen van de beschreven geheugenindeling in mijn vorige blog-post. Zo begint de boot loader op adres <i>0x0800 0000</i> en is <i>64KB</i> groot. De applicatie begint op adres <i>0x0800 0000 + 64K + 256B = 0x087B 1300</i> en omvat de rest van het FLASH geheugen. Men is helemaal vrij om deze adressen en secties te definiëren, zolang het maar past in de gebruikte processor.<br>
+<br>
+<b>Linker files: Linker variabelen</b><br>
+De linker kan ook variabelen definiëren die dan weer in de code gebruikt kunnen worden. Dit is af en toe handig, maar soms ook nodig. Ik kom later terug op wanneer het nodig is, maar hieronder alvast een paar voorbeelden:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/MjSmZwoyQnLiFmvObLFnBO69/full.png" class="rml" width="585" height="210" alt="http://static.tweakers.net/ext/f/MjSmZwoyQnLiFmvObLFnBO69/full.png" title="http://static.tweakers.net/ext/f/MjSmZwoyQnLiFmvObLFnBO69/full.png"></noscript><br>
+<br>
+De variabele <i>__appRomStart</i> en consorten kunnen dus gebruikt worden in de code mocht dat nodig zijn. Wat goed is om te onthouden is dat de variabele <b>NIET</b> de waarde van <i>ORIGIN(APPROM)</i> krijgt, maar dat de variabele geplaatst wordt op adres <i>ORIGIN(APPROM)</i>! Als men dus in de code de pointer &#8216;opvraagt&#8217; van de <i>__appRomStart</i> variabele &#8211; <i>middels &amp;__appRomStart</i> -, krijgt men een pointer met het adres van <i>ORIGIN(APPROM)</i>. Dit is belangrijk om te weten.<br>
+<br>
+Dit maakt het geheel erg krachtig. Je kunt hiermee namelijk in de linker definiëren waar bepaalde stukken geheugen liggen om deze vervolgens te gebruiken in de code. In mijn geval plaats ik de &#8220;boot loader API&#8221; in een stuk geheugen en de code kan vervolgens de variabele <i>__bootApiStart</i> gebruiken om de boot loader API functie-tabel erop te mappen. Ook is het mogelijk om bijvoorbeeld het base-adres van externe periferie zoals een FPGA te declareren in de linker, om deze vervolgens met <i>&amp;&#8230;.</i> aan te spreken in de code. Mocht het base-adres dan een keer veranderen, dan hoeft de code niet aangepast te worden; de linker hoeft alleen maar opnieuw de boel aan elkaar te linken.<br>
+<br>
+Zoals ik al eerder aangaf is het soms ook <i>nodig</i> om linker variabelen te gebruiken in de code. In mijn geval maak ik geen gebruik van de standaard startup-code en moet ik deze dus zelf schrijven. Het doel van de startup-code is om globale &#8216;initialized variables&#8217; &#8211; zoals <i>uint32_t variable = 0xdeadbeef;</i> - te initialiseren en om de overige globale variabelen een default-waarde te geven (0 in mijn geval). <br>
+<br>
+De &#8216;initialized variables&#8217; zijn opgeslagen in FLASH en kunnen daarom niet veranderd worden door de code. Dit is uiteraard niet de bedoeling en daarom moeten deze variabelen eerst gekopieerd worden naar RAM voordat ze gebruikt kunnen worden. <br>
+<br>
+Hieronder een stukje C-code die de &#8216;initialized variables&#8217; kopieert van FLASH naar RAM met behulp van linker variabelen:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/hbocT9ILYj3irIueH7a9RfDF/full.png" class="rml" width="585" height="346" alt="http://static.tweakers.net/ext/f/hbocT9ILYj3irIueH7a9RfDF/full.png" title="http://static.tweakers.net/ext/f/hbocT9ILYj3irIueH7a9RfDF/full.png"></noscript><br>
+<br>
+De <i>resetHandler</i> is de functie die aangeroepen wordt als de processor opstart. Dit is dus de allereerste code die uitgevoerd wordt op de processor. Deze functie wordt aangeroepen via de reset-entry in de Interrupt Vector Tabel &#8211; in de <i>.isr_vector</i>-sectie; zie verder -.<br>
+<br>
+Met &#8216;extern &#8230;&#8217; wordt aan de compiler doorgegeven dat de variabelen <i>ergens</i> gedefinieerd zijn maar nog niet bekend is waar. Deze variabelen zijn (in dit geval) linker variabelen en zijn dus gedefinieerd in de linker:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/ChnmceB9T5G19pytoaq1GgGn/full.png" class="rml" width="585" height="280" alt="http://static.tweakers.net/ext/f/ChnmceB9T5G19pytoaq1GgGn/full.png" title="http://static.tweakers.net/ext/f/ChnmceB9T5G19pytoaq1GgGn/full.png"></noscript><br>
+<br>
+De twee FOR-loops gebruiken dus het start- en eind-adres van de twee relevante secties om de &#8216;initialized variables&#8217; te kopiëren van <i>BOOTROM</i> naar <i>BOOT_RAMVAR</i> en om de &#8216;non-initialized variables&#8217; in <i>BOOT_RAMVAR</i> te initialiseren met 0U.<br>
+<br>
+<br>
+<b>Linker files: Linker secties</b><br>
+Hierboven zijn al enkele voorbeelden te zien van linker secties, maar hoe werken die secties nu precies?<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/ESdmqtK18c5sKGAMLAU0bYvv/full.png" class="rml" width="585" height="100" alt="http://static.tweakers.net/ext/f/ESdmqtK18c5sKGAMLAU0bYvv/full.png" title="http://static.tweakers.net/ext/f/ESdmqtK18c5sKGAMLAU0bYvv/full.png"></noscript><br>
+<br>
+De <b>SECTIONS { &#8230; }</b> tag wordt gebruikt om bepaalde code en/of data toe te wijzen aan vooraf gedefinieerde geheugensecties &#8211; met de eerder beschreven <b>MEMORY { &#8230; }</b> tag -.<br>
+<br>
+De linker parsed de linker-file van boven naar beneden en komt dus eerst de <b>.isr_vector</b> sectie tegen. Het eind van deze sectie laat <b>} &gt;MIRROR AT&gt;BOOTROM</b> zien. Dit betekent dat de inhoud van deze <i>.isr_vector</i>-sectie geplaatst gaat worden in de <b>MIRROR</b> geheugensectie. Alle referenties naar de <i>.isr_vector</i>-sectie gaan dus verwijzen naar adressen in het <i>MIRROR</i> geheugen. De <b>AT&gt;BOOTROM</b> vertelt de linker dat de inhoud van <i>.isr_vector</i> echter opgeslagen moet worden in <b>BOOTROM</b>. De uiteindelijk gegenereerde binary zal dus vanaf adres <i>BOOTROM</i> data bevatten van <i>.isr_vector</i>. Echter zal de code in deze binary referenties hebben naar <i>MIRROR</i>-adressen. Ik weet het, het kan erg verwarrend zijn.<br>
+<br>
+Overigens is de sectie <i>.isr_vector</i>, wat de interrupt-vectoren bevat, gedefinieerd in code:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/VikngvHufCnxZGjZdiRLVpPK/full.png" class="rml" width="585" height="122" alt="http://static.tweakers.net/ext/f/VikngvHufCnxZGjZdiRLVpPK/full.png" title="http://static.tweakers.net/ext/f/VikngvHufCnxZGjZdiRLVpPK/full.png"></noscript><br>
+<br>
+Het is dus mogelijk om zelf secties te definiëren in code om vervolgens de linker te vertellen waar die secties in het geheugen geplaatst moeten worden. De boot loader API is nog een dergelijk voorbeeld:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/IzVTIpJNL4mUvHSkaHTdPf5q/full.png" class="rml" width="492" height="129" alt="http://static.tweakers.net/ext/f/IzVTIpJNL4mUvHSkaHTdPf5q/full.png" title="http://static.tweakers.net/ext/f/IzVTIpJNL4mUvHSkaHTdPf5q/full.png"></noscript><br>
+<br>
+De linker plaatst vervolgens deze <i>struct</i> met functiepointers vanaf adres <b>BOOTROM_API</b>:<br>
+<br>
+<img src="https://static.tweakers.net/ext/f/veGmbdz9qWFoVteyi8wTNEk7/full.png" class="rml" width="585" height="60" alt="http://static.tweakers.net/ext/f/veGmbdz9qWFoVteyi8wTNEk7/full.png" title="http://static.tweakers.net/ext/f/veGmbdz9qWFoVteyi8wTNEk7/full.png"><br>
+<br>
+Om het nog complexer te maken is het ook mogelijk een linker variabele toe te wijzen aan een sectiepointer. Zie onderstaand voorbeeld:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/1uU9tE2ksqct6A6ohpp3Jlps/full.png" class="rml" width="585" height="140" alt="http://static.tweakers.net/ext/f/1uU9tE2ksqct6A6ohpp3Jlps/full.png" title="http://static.tweakers.net/ext/f/1uU9tE2ksqct6A6ohpp3Jlps/full.png"></noscript> <br>
+<br>
+De sectie <b>.stack</b> beschrijft een stuk geheugen waarin de stack geplaatst wordt en bevindt zich in het <b>BOOT_RAMVAR</b> geheugen. Zoals te zien is staan daar wat interessante statements in:<ul><li><b>__stack_start__ = . ;</b> : De linker variabele <i>__stack_start__</i> wordt geplaatst op het huidige adres van de <i>BOOT_RAMVAR</i>-pointer. Deze pointer begint op adres <i>ORIGIN(BOOT_RAMVAR)</i> en wordt met n-bytes vermeerderd bij elke <i> BOOT_RAMVAR </i>-sectie. Het is dus van te voren niet bekend waar <i>__stack_start__</i> zich bevindt in het geheugen.</li><li><b>. = . + STACK_SIZE;</b> : De <i>BOOT_RAMVAR</i>-pointer wordt vermeerderd met <i>STACK_SIZE</i> bytes. De <i>BOOT_RAMVAR</i>-pointer staat nu dus <i>STACK_SIZE</i> bytes verder.</li><li><b>. = ALIGN(4);</b> : Mocht de <i>BOOT_RAMVAR</i>-pointer nu op een adres staan wat niet ge-aligned is met een 4-bytes boundry adres, dan wordt de <i>BOOT_RAMVAR</i>-pointer dusdanig vermeerderd zodat deze weer op een 4-bytes boundry adres staat.</li></ul>De code kan nu dus het adres van <i>__c_stack_top__</i> gebruiken om te weten waar in het geheugen de <i>stack</i> begint. In dit geval verwacht de STM32F207 microcontroller de <i>TOP-OF-STACK</i>-pointer op adres 0x0000 0000 zodat het zijn SP-register kan initialiseren:<br>
+<br>
+<img src="https://static.tweakers.net/ext/f/F5rthZXeiBq2Paw9HTl6u0fa/full.png" class="rml" width="373" height="92" alt="http://static.tweakers.net/ext/f/F5rthZXeiBq2Paw9HTl6u0fa/full.png" title="http://static.tweakers.net/ext/f/F5rthZXeiBq2Paw9HTl6u0fa/full.png"><br>
+<br>
+<b>Linker files: Conclusie</b><br>
+Linker files kunnen van heel eenvoudig tot erg complex gaan. Zeker als je er niet dagelijks mee te maken hebt kan het lastig zijn. Ik ben me er van bewust dat bovenstaande incompleet, gefragmenteerd en niet geschikt is om goed te begrijpen hoe linker files werken. Echter kan via een search-engine genoeg informatie gevonden worden om zelf linker files te schrijven en toe te passen. In ieder geval hoop ik dat ik voldoende aanknopingspunten gegeven heb om zelf te gaan spelen met linker files. <br>
+<br>
+<b>Hardware Abstraction Layer</b><br>
+Op dit moment gebruik ik een STM32F207 microcontroller van ST. Dit is een Cortex M3 met diverse leuke periferie. In mijn vorige blog-post kan men lezen waarom ik (voorlopig) voor deze controller kies.<br>
+<br>
+Het is echter waarschijnlijk dat ik op een later tijdstip ga kiezen voor een krachtigere controller. Mocht het zover komen dan wil ik niet de diverse source-files modificeren om de nieuwe controller te ondersteunen. Tevens wil ik later snel kunnen schakelen tussen diverse type controllers en daarom moet er dus een vorm van hardware abstractie komen; de applicatie mag geen kennis hebben van de gekozen controller.<br>
+<br>
+Nu heeft ST wel een soort van hardware abstractie library genaamd <b>STM32F2cube</b> maar deze is helaas niet voldoende. Deze library abstraheert de onderliggende registers van de controller wel, maar de library is nog steeds controller-range/merk specifiek. Het is waarschijnlijk relatief eenvoudig om te switchen van een STM32F2xx naar een STM32F7xx door deze library te vervangen, maar je hebt dan alsnog ST kennis in je applicatie. <br>
+<br>
+Daarom heb ik een echte hardware abstractie laag geïmplementeerd. Een laag die de applicatie kan gebruiken om controller-periferie aan te sturen <i>zonder</i> kennis te hebben van de gebruikte controller.<br>
+<br>
+Hoe ziet dit er conceptueel uit? <br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/XfQfEVj3d8Zbyelhomaj1IFV/full.png" class="rml" width="585" height="415" alt="http://static.tweakers.net/ext/f/XfQfEVj3d8Zbyelhomaj1IFV/full.png" title="http://static.tweakers.net/ext/f/XfQfEVj3d8Zbyelhomaj1IFV/full.png"></noscript><br>
+<br>
+En de directorystructuur:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/5zllFpPqpkaY0sqASRtjubzx/full.png" class="rml" width="390" height="481" alt="http://static.tweakers.net/ext/f/5zllFpPqpkaY0sqASRtjubzx/full.png" title="http://static.tweakers.net/ext/f/5zllFpPqpkaY0sqASRtjubzx/full.png"></noscript><br>
+<br>
+De HAL definieert API-functies die voor elk type controller apart geïmplementeerd moeten worden. Door nu op linker-niveau de juiste HAL-implementatie te linken met de applicatie, kan eenvoudig geschakeld worden van een controller naar een andere. En zoals hierboven te zien is, gebruikt de applicatie alleen nog de API-functies van de HAL i.p.v. die van de ST32Fxxx-library. Er zijn geen applicatie-dependencies meer voor de STM32Fxxx-library. <br>
+<br>
+Op dit moment heb ik de HAL-implementatie af voor de GPIO, System clock configuratie en de UART. Gaandeweg ga ik meer HAL-componenten voor de STM32F2xx implementeren om uiteindelijk te eindigen met een volledige abstractie van deze controller.<br>
+<br>
+<b>Huidige status van de boot loader</b><br>
+Ten eerste wil ik melden dat mijn &#8220;hello world&#8221;-applicatie draait op mijn target. Deze applicatie doet niks anders dan enkele LED-jes laten knipperen maar toch geeft dat nog steeds een kick <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)">. De boot loader bouwt en linkt dus goed, mijn HAL werkt en mijn <b>build systeem</b> is ook op orde - <i>binnenkort meer over mijn build systeem in een aparte blog-post</i> -.<br>
+<br>
+Omdat dit een embedded target is heb ik geen standaard <i>console</i>, <i>printf</i> en dergelijke tot mijn beschikking. Omdat deze wel erg handig zijn, zowel met debuggen als configureren/testen, ben ik dus begonnen met het ontwikkelen en implementeren van enkele generieke componenten. Hieronder een korte omschrijving van enkele componenten.<br>
+&#8195;<br>
+<b>Status BL: UBICOM en VCP</b><br>
+Deze communicatiestack heb ik ontwikkeld om eenvoudig meerdere communicatieadapters en protocollen te kunnen registeren en gebruiken. <br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/5Mf8Z4IDwM1B3eq3v9iaOgYo/full.png" class="rml" width="585" height="391" alt="http://static.tweakers.net/ext/f/5Mf8Z4IDwM1B3eq3v9iaOgYo/full.png" title="http://static.tweakers.net/ext/f/5Mf8Z4IDwM1B3eq3v9iaOgYo/full.png"></noscript><br>
+<br>
+Het bestaat uit twee delen. <br>
+<br>
+<b>Ubicom</b> implementeert o.a. de mogelijkheid om communicatieadapters te registeren. De ubicom-drivers voor de specifieke adapters/periferie &#8211; zoals UART, Bluetooth, WIFI, etc - moet men wel zelf schrijven maar in veel gevallen is dit erg eenvoudig. Men hoeft alleen maar enkele <i>open/close/send/etc</i> callback-functies te implementeren zodat de driver geregistreerd kan worden bij <b>ubicom</b>. Vervolgens kan <b>ubicom</b> data versturen en ontvangen via de geregistreerde adapters. Bovenop deze adapter-manager draait een protocol-manager. Deze is verantwoordelijk om arbitraire protocollen te registreren en om ontvangen data te dispatchen naar de relevante geregistreerde protocol-handlers. <br>
+<br>
+<b>VCP</b> is een dergelijk protocol wat zich registreert bij de protocol-manager. <b>VCP</b> staat voor Virtual Communication Ports en implementeert het concept van poorten. De applicatie kan een poort openen bij VCP en deze &#8216;binden&#8217; aan een geregistreerde adapter. Vervolgens kan de applicatie data ontvangen en versturen via deze poort. <br>
+<br>
+Het voordeel van deze stack is dat meerdere applicatiecomponenten/-services gescheiden kunnen communiceren met een host via één of meerdere adapters. Ik ga hier gebruik van maken om via mijn Mac met een command-line interpreter op de target te communiceren én om tegelijkertijd de target LOG-data via een andere poort te ontvangen op mijn Mac. Alle data gaat dan bi-directioneel via één enkele RS232 verbinding terwijl alles toch netjes gescheiden aankomt op zowel mijn Mac als mijn embedded target. <br>
+<br>
+<b>Status BL: Command-line console</b><br>
+Deze component heb ik ontwikkeld om een command-line console mogelijk te maken op de target, om zo dynamisch commando&#8217;s uit te voeren. Deze command-line kan er als volgt gebruikt worden:<ul><li>&gt;&gt; show_version bl;</li><li>&gt;&gt; enable_encryption;</li><li>&gt;&gt; show_errorlog -10 -5; clear_errorlog; clr_screen;</li><li>Etc.</li></ul>De command-line console is generiek en de applicatie/componenten kunnen zelf extra command-line commando&#8217;s registeren. Sterker nog, er kunnen meerdere consoles draaien op de target met ieder hun eigen range van commando&#8217;s. De mogelijkheden zijn &#8216;eindeloos&#8217; <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)">.<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/u5h8wCYoj4EP6R1Be5AXdrjR/full.png" class="rml" width="585" height="341" alt="http://static.tweakers.net/ext/f/u5h8wCYoj4EP6R1Be5AXdrjR/full.png" title="http://static.tweakers.net/ext/f/u5h8wCYoj4EP6R1Be5AXdrjR/full.png"></noscript><br>
+<br>
+<b>Slotwoord</b><br>
+Linker files kunnen soms wat cryptisch zijn en daardoor af en toe wat moeilijker te lezen. Toch zijn ze cruciaal en enige kennis erover is zeker wel handig; vooral als je speciale wensen hebt v.w.b. geheugenindeling op je target.<br>
+<br>
+In ieder geval hoop ik dat het een interessante blog-post was en dat het wellicht nieuwe inzichten heeft gegeven. Mocht je vragen, opmerkingen of kanttekeningen hebben dan hoor ik dat graag. Mijn volgende blog-post is in ieder geval al klaar en gaat over het (CMake) build-systeem.<br>
+<br>
+Tot dan!</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://anteros.tweakblogs.net/blog/11938/elek-ontwikkeling-van-een-gps-fietscomputer-en-8211-intro-en-de-boot-loader-%28fase-1%29">[Elek.]: Ontwikkeling van een GPS fietscomputer &#8211; Intro en  de boot loader (fase 1)</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/287744/" rel="nofollow">Anteros</a> op zaterdag 27 juni 2015 18:20 - <a href="https://anteros.tweakblogs.net/blog/11938/elek-ontwikkeling-van-een-gps-fietscomputer-en-8211-intro-en-de-boot-loader-%28fase-1%29#reacties">Reacties (20)</a><br>Categorie: <a href="https://anteros.tweakblogs.net/blog/cat/2990">Technisch</a>, Views: 4.978
+				</p>
+				<div class="article"><b>Introductie</b><br>
+<br>
+Mijn eerste blog op Tweakers. Een probeersel om te zien of het wat voor mij is. Op zich ben ik niet zo'n schrijver maar het leek me leuk om het eens te proberen.<br>
+<br>
+Anyway, waarom een blog over het ontwikkelen van een GPS fietscomputer? Wel, in mijn vrije tijd pak ik regelmatig mijn racefiets om er op uit te trekken. Het is voor mij een stuk ontspanning en ik kan erg genieten van de snelheid en de vrijheid die het me geeft. Omdat ik regelmatig op nieuwe plekken kom die niet (erg) bekend zijn voor mij, gebruik ik een Garmin Edge 810 GPS fietscomputer met navigatie. Ideaal om thuis een route uit te stippelen en deze vervolgens te volgen met behulp van de fietscomputer.<br>
+<br>
+Maar helaas, het ding doet niet alles wat Garmin beweerd. Althans, niet stabiel. Als datalogger of als map-viewer werkt deze prima, maar de echte navigatiemogelijkheden zoals actieve begeleiding laten het vaak afweten. Sterker nog, soms laat heel de Edge 810 het afweten. Wat er ook nog eens bij moet komen is dat Garmin erg, erg slecht omgaat met klachten en softwareproblemen. De laatste firmware versie voelt nog steeds aan als BETA terwijl de 810 al ruim 1,5 jaar op de markt is.<br>
+<br>
+<img src="https://static.tweakers.net/ext/f/U1VNtvSmNxm40umnrdKo4URv/full.png" class="rml" alt="http://static.tweakers.net/ext/f/U1VNtvSmNxm40umnrdKo4URv/full.png" title="http://static.tweakers.net/ext/f/U1VNtvSmNxm40umnrdKo4URv/full.png"><br>
+<br>
+Dat heeft mijn o.a. doen besluiten om zelf iets te gaan ontwikkelen. De discutabele software is echter niet de enige reden. Een andere reden is dat er diverse (motiverende) features niet, of niet goed geïmplementeerd zijn. In mijn ogen kan dat (veel) beter en ik heb enkele features in mijn hoofd zitten die het fietsen &#8211; en sporten in het algemeen &#8211; extra kunnen stimuleren en nog leuker kunnen maken. Een laatste reden is dat ik graag embedded software ontwerp/ontwikkel en graag met elektronica bezig ben. De stap om het zelf te proberen was daarom snel gemaakt.<br>
+<br>
+Ik werk ruim tien jaar als professioneel embedded software engineer en kreeg meteen kriebels om enkele interessante concepten verder uit te werken. Niet alleen op functioneel niveau, maar ook op architectuur niveau. Ook de bijbehorende hardwareontwikkeling lijkt me een leuke uitdaging.<br>
+<br>
+Nu weet ik (van mezelf) dat vele (hobby-)projecten vroegtijdig stranden. En om eerlijk te zijn, vind ik dat helemaal niet erg. Je leert er altijd van en het houdt je scherp. Het is in mijn ogen dus nooit een nutteloze exercitie. Mocht het echter wel zover komen dat er een werkend prototype is, dan ben ik voornemens om serieuze stappen te maken voor een vervolgtraject. Dit zou dan een soort van kickstarter-traject kunnen zijn met als eerste doel een echt produceerbaar product te maken. Het tweede (voor mij utopisch) doel zou zijn om te groeien tot een bedrijfje wat meer onderscheidende producten voor de sportwereld gaat maken.<br>
+<br>
+Overigens weet ik heel goed wat er allemaal bij komt kijken als je een product wilt maken vanuit een prototype: verificatietesten, schok-/vibratie-/emc-/IP67-/etc-testen, normeringen, maakbaarheid, re-designs, issues, lead-time, fine-tunen, handleidingen, reduceren van component-costs, (design-)documentatie, backend, support, etc, etc. Teveel om op te noemen. Het is in ieder geval een grote, moeizame en kostbare stap om van prototype naar product te gaan. Maar goed, zover is het nog (lang) niet <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)">.<br>
+<br>
+<b>Wat kan je verwachten van deze blogs?</b><br>
+<br>
+In het kort, niks <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)">. Ik ga het traject in zonder bestaande code of architectuur en ik wil dus alles zelf ontwerpen, programmeren en testen. Uiteraard ga ik ook gebruik maken van bestaande, open-source, free-to-use software. Dit gehele ontwikkelproces wil ik af en toe delen middels enkele blog-posts om anderen wellicht te inspireren. Het kan ook zijn dat ik juist een blog-post schrijf om mijn frustratie weg te typen of om advies te vragen (je bent nooit te oud om te leren <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)">). Omdat ik de meeste tijd wil besteden aan het project, heb ik niet de tijd om de gehele context met alle ins en outs te beschrijven. Het kan dus goed mogelijk zijn dat er bepaalde informatie afwezig is, welke cruciaal is voor de context of het begrip voor de gemaakte keuzes. In dat geval, op voorhand mijn excuses. Uiteraard kan ik later het een en ander nader toelichten mocht dat nodig zijn.<br>
+<br>
+Dus: verwacht niks, maar mocht er een blog-post verschijnen dan hoop ik dat het interessant genoeg is om te lezen of vragen te stellen.<br>
+<br>
+Tot zover de introductie, op naar het interessante gedeelte  <img src="https://tweakers.net/g/s/puh2.gif" width="15" height="15" alt=":P"> <br>
+<br>
+<b>Projectinformatie en huidige status</b><br>
+<br>
+Een lijstje met hardware eigenschappen welke ik voor ogen heb voor dit project:<ul><li>GPS voor snelheid, locatie, logging en navigatie</li><li>BT voor communicatie met sensoren (BLE) en een telefoon</li><li>ANT+ ondersteuning voor sensoren</li><li>Transflective color LCD met een nog onbekende resolutie</li><li>Micro SD-card interface voor kaarten, opgeslagen ritten en statistieken, etc</li><li>WiFi</li><li>Diverse interne sensoren zoals luchtdruk, temperatuur, etc</li><li>Er is nog meer maar dit schiet me zo ff te binnen</li></ul>Omdat hardwareontwikkeling tijdrovend en duur is, ga ik eerst gebruikmaken van een ontwikkelbord in combinatie met externe modules zoals WIFI, BT (LE), ANT+, GPS en een LCD. Zo'n ontwikkelbord bevat verder vaak een RS232 poort, USB, EEPROM, I2C, GPIO, SDCARD, etc. en is dus ideaal om te gebruiken voor het ontwikkelen van een prototype.<br>
+<br>
+Gezien de toepassing, een GPS fietscomputer met navigatie mogelijkheid, is een energiezuinige maar relatief krachtige microcontroller vereist. Omdat zo'n fietscomputer normaliter klein moet zijn, is het niet handig om een grote print met diverse externe componenten te hebben. Integratie is key en daarom kies ik voor een microcontroller met geïntegreerde FLASH, RAM en diverse periferie. Daarvan zijn er tig op de markt, maar aangezien ik de meeste ervaring heb met ARM én omdat ik toevallig al een ARM ontwikkelbord heb liggen, valt voorlopig mijn keuze op een Cortex M3 van ST.  Een STM32F207 om precies te zijn. Deze microcontroller heeft de mogelijkheid om extern geheugen aan te spreken mocht de hoeveelheid interne RAM niet voldoende zijn.<br>
+<br>
+<img src="https://static.tweakers.net/ext/f/NoAhPcgCqMQADktACRCq7KZk/full.png" class="rml" alt="http://static.tweakers.net/ext/f/NoAhPcgCqMQADktACRCq7KZk/full.png" title="http://static.tweakers.net/ext/f/NoAhPcgCqMQADktACRCq7KZk/full.png"><br>
+<br>
+De software, volledig geschreven in C, wordt gelaagd ontwikkeld met diverse abstracties. Dit werkt hergebruik van software componenten in de hand en maakt het relatief eenvoudig om later voor een meer performante microcontroller te kiezen, mocht dat nodig zijn.<br>
+<br>
+De eerste stap was het inrichten van de ontwikkelomgeving waar ik nu bijna klaar mee ben. De gebruikte tooling is allemaal freeware: Gevirtualiseerde Linux als ontwikkel-host, Eclipse voor de IDE, ARM cross compiler voor compilatie en linken, MAKE/MAKEFILE voor de build environment en GIT als VCS. Voor code documentatie maak ik gebruik van Doxygen terwijl ik LibreOffice gebruik voor mijn design documentatie. <br>
+<br>
+Omdat ik bottom-up ga ontwikkelen is de volgende stap het ontwerpen en programmeren van de boot loader. Dit is een cruciaal stukje software welke diverse verantwoordelijkheden en mogelijkheden krijgt. De boot loader maakt het tevens voor mij mogelijk om snel nieuwe firmware te flashen zonder gebruik te maken van speciale apparatuur.<br>
+<br>
+<b>Boot loader &#8211; High Level</b><br>
+<br>
+De boot loader is het eerste stukje software wat uitgevoerd gaat worden als de microcontroller spanning krijgt. Deze heeft daarom een primaire taak om de microcontroller en eventuele andere componenten zoals het externe geheugen te initialiseren. Na deze initialisatie geeft de boot loader de controle over aan de applicatie. <br>
+<br>
+In veel deep-embedded applicaties wordt de boven genoemde initialisatie uitgevoerd door de applicatie zelf en is er geen boot loader. Dat is een ontwerpkeuze maar in mijn ogen niet altijd de juiste. Waarom? Wel, een boot loader biedt namelijk vele mogelijkheden:<ul><li>Het voorkomen van het bricken van een product als er een firmware update uitgevoerd wordt</li><li>Hardware en platform abstractie van een of meerdere componenten en periferie</li><li>Eenvoudige manier om een nieuwe applicatie firmware te flashen</li><li>Een applicatie interface beschikbaar stellen voor primaire functies (soort van BIOS)</li><li>Data 'hiding' door bepaalde data alleen via een interface beschikbaar te stellen aan de applicatie (secure firmware update, device profile data, key management, hardware revisie,  etc)</li><li>Etc.</li></ul>Het is eerlijk om ook enkele nadelen te noemen:<ul><li>Start proces is wat complexer</li><li>Boot loader neemt wellicht kostbare FLASH ruimte in</li><li>Opstarttijd kan wat langer zijn (maar scheelt vaak maar enkele ms)</li><li>Build systeem is wat complexer (aparte linker files, makefiles, etc)</li><li>Van tevoren goed nadenken over de geheugenindeling</li><li style="list-style:none">lli] Etc.</li></ul>Doordat het hebben van een boot loader echter zoveel meer mogelijkheden biedt, wegen de nadelen niet op tegen de voordelen. Een boot loader gaat er dus komen :-)<br>
+<br>
+Omdat de boot loader en applicatie apart gelinkt worden zijn het twee aparte entiteiten &#8211; ze delen geen object code &#8211;. Om ervoor te zorgen dat ze elkaar niet in de weg gaan zitten wanneer ze gedeelde resources zoals het geheugen aanspreken, moet van tevoren goed nagedacht worden hoe de boot loader en applicatie gebruik gaan maken van deze resources. Ook moet duidelijk zijn hoe beide images opgeslagen worden in het FLASH geheugen.<br>
+<br>
+Voor mijn ontwikkelplatform gaat die geheugenindeling er voorlopig als volgt uitzien:<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/tQgbXSf2HQVPWlRbBw9GGaI9/full.png" class="rml" width="585" height="347" alt="http://static.tweakers.net/ext/f/tQgbXSf2HQVPWlRbBw9GGaI9/full.png" title="http://static.tweakers.net/ext/f/tQgbXSf2HQVPWlRbBw9GGaI9/full.png"></noscript><br>
+<br>
+Ik begrijp dat het bovenstaande plaatje wellicht enige uitleg behoeft. <br>
+<br>
+De boot loader en applicatie hebben ieder een aparte sectie gereserveerd gekregen in het interne FLASH geheugen van de microcontroller. Deze secties liggen vast en zijn gedefineerd in de twee zelfgeschreven linker files. Omdat de boot loader in principe nooit geüpdatet wordt in het veld, moet goed nagedacht worden over deze secties. Een te grote boot loader sectie zorgt ervoor dat er minder over blijft voor de applicatie sectie. Omgekeerd hetzelfde. Een goede balans vinden is dus cruciaal om eventuele problemen in de toekomst te voorkomen.<br>
+<br>
+De boot loader heeft een klein gedeelte genaamd &#8220;BL API&#8221;. Dit is tabel met functie-pointers welke verwijzen naar functies in de boot loader code. Dit gedeelte staat altijd aan het eind van de boot loader sectie, ongeacht de lengte van de boot loader code. De ruimte tussen de &#8220;BL API&#8221; en de boot loader code wordt opgevuld met filler bytes zoals 0xFF. Door het op deze manier te implementeren 'weet' de applicatie altijd de &#8220;BL API&#8221; te vinden ongeacht de werkelijke grote van de boot loader code. De applicatie hoeft dan ook niet geüpdatet te worden als de boot loader geüpdatet wordt. <br>
+<br>
+<img src="https://static.tweakers.net/ext/f/PwbRtSRKBjMhgaDVdyepFdsO/full.png" class="rml" alt="http://static.tweakers.net/ext/f/PwbRtSRKBjMhgaDVdyepFdsO/full.png" title="http://static.tweakers.net/ext/f/PwbRtSRKBjMhgaDVdyepFdsO/full.png"><br>
+<br>
+De applicatie kan gebruik maken van de &#8220;BL API&#8221; om bepaalde services van de boot loader aan te spreken. Denk dan b.v. aan asymmetrische decryptie (handtekening verificatie), toegang tot (gedeelde) externe permanente opslag zoals een EEPROM &#8211; hardware abstractie voor de applicatie &#8211;, uitlezen van de hardwarerevisie, producttype, het uitvoeren van een firmware update (FWU), toekennen van boot loader extensies, etc. Deze tabel is opgeslagen in de boot loader sectie maar zowel de boot loader linker file als de applicatie linker file bevatten verwijzingen er naartoe.<br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/O6LiStbUUohIzj0tUA7OYog5/full.png" class="rml" width="320" height="197" alt="http://static.tweakers.net/ext/f/O6LiStbUUohIzj0tUA7OYog5/full.png" title="http://static.tweakers.net/ext/f/O6LiStbUUohIzj0tUA7OYog5/full.png"></noscript><br>
+<br>
+Wat nog opvalt aan de boot loader en applicatie images zijn de IVT's (Interrupt Vector Tabellen). Elk image heeft zo'n tabel. In deze tabel staan functie-pointers naar ISR (Interrupt Service Routine) functies voor de relevante (externe) interrupts. Ook de reset-vector staat erin. Omdat zowel de boot loader als de applicatie hun eigen interrupt handlers hebben, krijgen ze dus ook ieder een eigen IVT. Voordat de boot loader de applicatie image aanroept, wordt de microcontroller eerst geherconfigureerd zodat deze de applicatie IVT gebruikt als er zich een (externe) interrupt voordoet. <br>
+<br>
+Als laatste de check-sums. Zowel de applicatie image als de boot loader image hebben een check-sum veld. Deze check-sums worden berekend na het genereren van de binaries door het build systeem om vervolgens eraan toegevoegd te worden.  Het doel ervan is om tijdens het booten te kunnen bepalen of er code-corruptie is ontstaan in één of beide images. Het kan namelijk voorkomen dat er door b.v. straling één of meerdere bits omvallen in het flash geheugen. Dit kan zich dan uiten in willekeurig gedrag van de microcontroller of zelfs een complete crash. De boot loader berekent run-time de check-sums van zichzelf en de applicatie image om deze vervolgens te vergelijken met de opgeslagen check-sums. Zijn ze hetzelfde dan gaat boot proces verder. Zijn ze niet hetzelfde, dan stopt het boot proces en wordt er een error gegenereerd. Mocht de applicatie image corrupt zijn dan kan de gebruiker deze opnieuw flashen. Is de boot loader echter corrupt, dan houdt het op.<br>
+<br>
+<img src="https://static.tweakers.net/ext/f/slENhojRSh0Qahh5eFf8auAi/full.png" class="rml" alt="http://static.tweakers.net/ext/f/slENhojRSh0Qahh5eFf8auAi/full.png" title="http://static.tweakers.net/ext/f/slENhojRSh0Qahh5eFf8auAi/full.png"><br>
+<br>
+Nu het RAM gedeelte. Bovenaan is een stukje &#8220;exclusief BL&#8221; te zien. Dit is een gedeelte van het RAM geheugen wat exclusief gereserveerd is voor de boot loader. Het is de bedoeling dat de applicatie hier niet van leest of in schrijft &#8211; echter kan de gekozen microcontroller dit niet hardwarematig voorkomen (geen MMU) &#8211;. Dit stukje RAM geheugen wordt middels een linker file geconfigureerd. De boot loader gebruikt dit om tijdelijke runtime data in op te slaan als de applicatie gebruik maakt van de BL API &#8211; de zogenaamde 'statische'-variabelen &#8211;. <br>
+<br>
+Als laatste het mirrored RAM gedeelte. Normaliter is deze 'mirror' mode niet nodig, ook niet voor een standaard applicatie firmware update (FWU). Moet echter de boot loader geüpdatet worden, dan moet deze speciale mogelijkheid wel aangesproken worden. Het is een optie van de STM32F2xx en deze maakt het mogelijk om het interne RAM geheugen te mappen op dezelfde adressen als het interne FLASH geheugen &#8211; dit ligt iets genuanceerder maar voor deze blog is het voldoende &#8211;. Dit maakt het mogelijk voor de boot loader om eerst zichzelf te kopiëren naar het interne RAM geheugen om vervolgens de mirror-mode aan te zetten. Executie van de boot loader gaan dan onverstoord vanuit het RAM geheugen verder. Hiermee komt het interne FLASH beschikbaar om gewist en opnieuw geprogrammeerd te worden. Op deze manier kan je dus zowel de boot loader als de applicatie opnieuw flashen. Merk op dat wanneer de boot loader opnieuw geflashed wordt, er wel een kans op bricken bestaat.<br>
+<br>
+<b>Wat verder&#8230;.</b><br>
+<br>
+Zoals ik al eerder aangegeven heb, is mijn ontwikkelomgeving en build systeem op orde en kan de volgende stap genomen worden. Deze stap behelst het creëren van de linker-files en het opzetten van de boot loader architectuur. Mijn volgende blog gaat dan ook wat dieper in op de linker-files en hoe deze gebruikt worden in zowel code als de linker. Tevens zal ik wat dieper ingaan op de boot loader architectuur en de eerste resultaten van de implementatie.<br>
+<br>
+<b>Slot</b><br>
+<br>
+Uiteindelijk is het toch meer type-werk geworden dan gedacht maar desalniettemin hoop ik dat het (een beetje) interessant was. Mijn streven is om de volgende keer meer plaatjes en minder tekst te plaatsen <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"> <br>
+<br>
+Anyway, bedankt voor het lezen.<br>
+<br>
+<b>References en links:</b><br>
+&#8211; <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/marsr" rel="external nofollow">Eclipse C/C++</a><br>
+&#8211; <a href="https://launchpad.net/gcc-arm-embedded" rel="external nofollow">ARM cross compiler</a><br>
+&#8211; <a href="https://git-scm.com/downloads" rel="external nofollow">GIT</a><br>
+&#8211; <a href="http://www.st.com/web/en/catalog/tools/PF260266" rel="external nofollow">STM32F2xx BSP+FreeRTOS+CMSIS (STM cube)</a><br>
+&#8211; <a href="https://www.google.nl/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CCEQFjAA&amp;url=http%3A%2F%2Fwww.st.com%2Fweb%2Fen%2Fresource%2Ftechnical%2Fdocument%2Freference_manual%2FCD00225773.pdf&amp;ei=1c2OVfWSIuPR7AabzJ_gAg&amp;usg=AFQjCNHKnpewg3CPB1D00FBqd_I73wjkkw&amp;sig2=g_YZYeIoxvhVXZJEa05szA&amp;bvm=bv.96783405" rel="external nofollow" title="d.bGQ">STM32F2xx reference manual
+&#8211; Cortex M3 reference manual</a></div>
+			</div></div><div class="sidebar">
+        <div id="loginFrame">
+            <h2 class="top">Inloggen</h2>
+            <p>Login met je  <a href="https://tweakblogs.net/login/?location=https%3A%2F%2Fanteros.tweakblogs.net%2F">Tweakers profiel</a>.</p>
+        </div>
+		<div class="recentPosts">
+			<h4>Recente posts</h4><ul class="ellipsis"><li><a href="https://anteros.tweakblogs.net/blog/12012/firmware-dev-gps-fietscomputer-cmake-build-systeem" title="[Firmware dev] GPS fietscomputer: CMake build systeem (7)">[Firmware dev] GPS fietscomputer: CMake build systeem (7)</a></li><li><a href="https://anteros.tweakblogs.net/blog/12006/elek-punt-gps-fietscomputer-linker-hal-en-huidige-boot-loader-status" title="[Elek. GPS fietscomputer] Linker, HAL en huidige boot loader status (6)">[Elek. GPS fietscomputer] Linker, HAL en huidige boot loader status (6)</a></li><li><a href="https://anteros.tweakblogs.net/blog/11938/elek-ontwikkeling-van-een-gps-fietscomputer-en-8211-intro-en-de-boot-loader-%28fase-1%29" title="[Elek.]: Ontwikkeling van een GPS fietscomputer &#8211; Intro en  de boot loader (fase 1) (20)">[Elek.]: Ontwikkeling van een GPS fietscomputer &#8211; Intro en  de boot loader (fase 1) (20)</a></li></ul>
+		</div>
+		<div class="categories">
+			<h4>Categorieën</h4><ul><li><a href="https://anteros.tweakblogs.net/blog/cat/2989">Ontwikkeling GPS fietscomputer (3)</a><ul class="ulChild"><li><a href="https://anteros.tweakblogs.net/blog/cat/2990">Technisch (3)</a></li></ul></li></ul>
+		</div>
+		<div class="archives">
+			<h4>Archieven</h4><ul id="archiveList"><li class="open"><b>2015</b> (3)<ul class="ulChild"><li><a href="https://anteros.tweakblogs.net/blog/archief/2015/07/">jul 2015</a> (2)</li><li><a href="https://anteros.tweakblogs.net/blog/archief/2015/06/">jun 2015</a> (1)</li></ul></li></ul><script type="text/javascript">weblogFolderTree('archiveList');</script>
+		</div>
+		<div class="about">
+			<h4>About</h4>
+			<p></p>
+			<ul>
+				<li class="user"><a href="https://tweakers.net/gallery/287744/" rel="nofollow">Profiel op Tweakers</a></li>
+			</ul>
+		</div></div>
+</div>
+            </div>
+
+        </div>    <script>
+                if(window.BehaviourManager)BehaviourManager.exec();
+            </script>
+    <noscript>
+                    <img src="https://tweakers.net/318816705845986/wt?p=328,&amp;cg1=tweakers.net&amp;cg2=Tweakblogs&amp;cp1=LG" width="1" height="1" alt="" style="display:none">
+            </noscript>
+
+<!--
+Request ID: Twk-eun-web2_200.1.0_31754_600bafc27b6740.81876645
+Env: frontpage-production
+Server time: 0,0183 s (C: 0,0140 s, Q: 5; 0,0075 s, E: 1; 0,0164 s, M: 2; 0,0029 s, A: 0; 0,0000 s)
+Mem: 4761 KB
+
+Engines: (S) twk-eun-web3 (1)
+-->
+        
+    </body>
+</html>
+```
