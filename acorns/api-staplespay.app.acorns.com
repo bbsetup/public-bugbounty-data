@@ -1,0 +1,2 @@
+```<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>api-staplespay/index.html</Key><RequestId>CF65BECC32D6D959</RequestId><HostId>PTGgy9KZamiI3mi6jfaAy7RVVGtiOBND3GZoseRN6irBmXlxxaYbvPh0pnoER//h8i4WMaQTzL4=</HostId></Error>```
