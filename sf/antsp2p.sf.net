@@ -1,0 +1,171 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>
+    ANts P2P
+    </title>
+    <style type="text/css">
+    <!--
+    body, td, a, p, .h{font-family:arial,sans-serif;}
+    .h{font-size: 20px;}
+    .q{color:#0000cc;}
+    //-->
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="Generator" content="Roberto Rossi">
+    <meta name="description" content="ANts P2P realizes a third generation P2P net.
+									  It protects your privacy while you are connected and makes you not trackable,
+									  hiding your identity (ip) and crypting everything you are sending/receiving from others.">
+    <meta name="keywords" content="ANtsP2P;Anonymous;P2P;DH;RSA;Decentralized P2P">
+    <meta name="verify-v1" content="Jmvcf2b8tevmjcR6JSjlyba1anWAFFazzc3V9ZBpdzU=">
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-5801036-4");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</head>
+<body>
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-5801036-4";
+</script>
+<table width="60%">
+<tr>
+<td><h1>ANts P2P</h1></td>
+</tr>
+<tr>
+<td>
+<table width="100%">
+<tr>
+<td valign="top"><img src="http://antsp2p.sourceforge.net/img/antsLogo.jpg" alt="ANts Logo">
+<br><br>
+ANts P2P realizes a third generation P2P net.
+It protects your privacy while you are connected and it makes you not trackable,
+hiding your identity (ip) and crypting everything you are sending/receiving from others.
+</td>
+<td>
+
+</td>
+</tr></table>
+</td></tr>
+<tr>
+<td>
+<h3>Features</h3>
+<p>
+      <ul>
+      <li>Open Source Java implementation (GNU-GPL license)
+      <li>Multiple sources download
+      <li>Swarming from partial files
+      <li>Automatic resume and sources research over the net
+      <li>Search by hash, string and structured query
+      <li>Completely Object-Oriented routing protocol
+      <li>Point to Point secured comunication: DH(512)-AES(128)
+      <li>EndPoint to EndPoint secured comunication: DH(512)-AES(128)
+      <li>Serverless GWebCache-based peer dicovery procedure
+      <li>IRC based peer discovery system
+      <li>IRC embeded chat system
+      <li>Full text search of indexed documents (pdf, html, txt, doc  etc)
+      <li>Distributed/Decentralized Search engine
+      <li>HTTP tunneling
+      <li>ANts allow P2P communications through any kind of HTTP Proxy
+      <li>ANts allow P2P communications through any kind of NAT or traffic filtering system
+      </ul>
+</td>
+</tr>
+<tr>
+<td>
+End users MUST AGREE THEY ARE USING A TOOL DEVELOPED FOR UNIVERSITY RESEARCH PURPOUSES that comes with NO WARRANTY.
+</td>
+</tr>
+
+<tr>
+<td>
+<h3>Resources</h3>
+<p>
+<ul>
+<li><A href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Runtime Environment</A>, this must be installed on your machine in order to run ANts P2P</li>
+<li><A href="http://www.sf.net/projects/antsp2p">ANts P2P SourceForge Page</A>, here you can find installers for several different platforms and the source code</li>
+<li><A href="http://antsp2p.altervista.org/">Tutorial</A>, a complete overview on ANts</li>
+<li><A href="http://antsp2p.sourceforge.net/antsp2phelp/Default.htm">An older tutorial by myself</A>, this was developed at a very early stage</li>
+<li><A href="http://antsp2p.sourceforge.net/antsp2phelp/How to HACK ANts queries.txt">A tutorial for queries - IMPORTANT! READ THIS TUTORIAL BEFORE YOU START!</a></li>
+<li><A href="http://en.wikipedia.org/wiki/ANts_P2P">ANts P2P on Wikipedia</A></li>
+<li><A href="http://antsp2p.sourceforge.net/javadoc/">ANts P2P javadoc</A>, the javadoc for the project source code</li>
+<li><A href="http://antsp2p.sourceforge.net/resources.html">Additional Resources</A>, tutorials, tech reports, etc. (some links may be broken down here...)</li>
+</ul>
+<h3>Developers</h3>
+<p>
+<ul>
+<li><A href="http://antsp2p.sourceforge.net/antsp2phelp/Getting started Using ANts to build up p2p software.pdf">Getting started Using ANts to build up p2p software</A>.</li>
+<li><A href="http://antsp2p.sourceforge.net/antsp2phelp/ANtsP2P.pdf">ANts P2P project description (in Italian)</A>.</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+<i>"I worry about my child and the Internet all the time, even though she's too young to have logged on yet.
+Here's what I worry about. I worry that 10 or 15 years from now, she will come to me and say 'Daddy, where
+were you when they took freedom of the press away from the Internet?'"<br>
+--Mike Godwin, Electronic Frontier Foundation</i>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+<h3>Donations</h3>
+<p>
+<table width="700">
+<tr>
+<td width="300">If you like ANts P2P and you want to<br> support this project follow the link.</td>
+<td><A href="http://sourceforge.net/donate/index.php?group_id=106782"><IMG src="http://sourceforge.net/images/project-support.jpg" alt="Donations"></A></td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td>
+<h3>Credits</h3>
+<p>
+ANts has been developed by <a href="https://gwr3n.github.io/">Roberto Rossi</a> 
+(aka Gwren) in between 2004 and 2008. If you are interested in contributing 
+to the project or if you have a smart idea about ANts, please contact me!</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<table width="100%">
+<tr><td>
+<p>
+<a
+		    href="http://sourceforge.net"><img
+		    src="http://sourceforge.net/sflogo.php?group_id=100075&amp;type=6"
+		    width="210" height="62" border="0" alt="SourceForge.net Logo"></a>
+</td>
+<td>
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-html401-blue"
+        alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</td>
+<td>
+<a href="http://www.prchecker.info/" target="_blank">
+<img src="http://pr.prchecker.info/getpr.php?codex=aHR0cDovL2FudHNwMnAuc291cmNlZm9yZ2UubmV0Lw==&amp;tag=1" alt="Google PageRank Checker" border="0"></a>
+</td></tr></table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+```
