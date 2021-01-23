@@ -1,0 +1,1 @@
+```{"Versions":[{"rel":"http://actsoft.com/CabWebApi/rels/v1/home","href":"https://api-workforcemanager.att.com/api/v1"}],"LinkToSelf":{"rel":"http://actsoft.com/CabWebApi/rels/self","href":"https://api-workforcemanager.att.com/"},"ProductVersion":"111.2.201214.02"}```
