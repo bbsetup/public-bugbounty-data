@@ -1,0 +1,84 @@
+```<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta name="author" content="Almara developers">
+   <meta name="generator" content="vi">
+   <meta name="robots" content="all,follow">
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <title>Almara project home pages</title>
+<!--
+   <link rel="SHORTCUT ICON" href="../images/yinyang.ico">
+   <link rel=stylesheet href="almara.css" type="text/css">
+-->
+</head>
+<body>
+<h1>Almara Photo Editor</h1>
+
+<p><b>What is Almara?</b></p>
+<ul>
+   <li>a quick photo album viewer</li>
+   <li>a tool for quick image manipulation (zoom, crop, rotate, scale, ... - lossless if possible)</li>
+   <li>a tool to quickly add descriptions to pictures and export them to
+   the Web</li>
+   <li>... and all that is done preserving your original pictures
+   untouched</li>
+   <br/>
+   <li>Almara started as a school project at Charles University in Prague - Faculty of
+   Mathematics and Physics (specifications <a
+   href="http://ksvi.mff.cuni.cz/~holan/SWP/zadani/fotoal.htm">in Czech
+   only</a>).</li>
+</ul>
+
+<p><b>What is still missing (but planned)?</b></p>
+<ul>
+	<li>undo of operations recorded in the album file</li>
+	<li>quick catalog by groups (who is on the photo, who is the
+	photo for)</li>
+   	<li>automatic image quality recognition, image grouping,
+	automatic image rotation</li>
+</ul>
+<p><b>What it is not?</b></p>
+<ul>
+   <li>just another picture viewer</li>
+   <li>complex picture and video editor</li>
+</ul>
+
+<p><b>I want to use Almara!</b></p>
+<ul>
+       <li><i>Quickstart for the impatient: <a
+       href="http://sourceforge.net/project/showfiles.php?group_id=93396&package_id=99075">Download the sources</a>,
+       ./configure, make, make install, then launch it on a directory full of photos by
+       <tt>almara_dir &lt;directory&gt;</tt>. If you want
+       to save modifications to the individual pictures, do
+       Album|Commit.</i></li>
+	<br/>	
+	<li><b>Download</b> the sources at <a href="http://sourceforge.net/project/showfiles.php?group_id=93396&package_id=99075">Source Forge</a>.</li>
+	<li><b>Install</b>, according to instructions in the <a href="INSTALL">INSTALL</a> file.</li>
+	<li><b>Read the Users' Guide</b> (<a href="doc/users_guide.html">online
+		HTML</a>, <a href="doc/users_guide.pdf">PDF</a>).</li>
+	<li>Please, <b>report bugs</b> through the <a
+	href="http://sourceforge.net/tracker/?group_id=93396&atid=604158">Source
+	Forge bugtracking system</a>.</li>
+</ul>
+
+<p><b>I want to help with the development of Almara!</b></p>
+<ul>
+	<li>See the <a href="doc/prg_guide.html">Developers'
+	Documentation</a> (not really maintained).</li>
+	<li>Browse the developers' <a href="http://almara.sf.net/cgi-bin/archzoom.cgi">archive
+	repository</a>.
+	</li>
+</ul>
+
+
+<br><br>
+
+<a href="http://sourceforge.net"> <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=93396&amp;type=2" width="125" height="37" border="0" alt="SourceForge.net Logo" /></a>
+
+
+
+
+</body>
+</html>
+
+```
