@@ -1,0 +1,102 @@
+```<html>
+<head>
+<title>Arbaro - tree generation for povray</title>
+</head>
+<body>
+<A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=87393&amp;type=5" width="210" height="62" border="0" alt="SourceForge.net Logo" /></A>
+
+<h1>Arbaro - tree generation for povray</h1>
+
+<p>
+Arbaro is an implementation of the tree generating algorithm described
+in <a href="http://www.cs.duke.edu/courses/cps124/spring08/assign/07_papers/p119-weber.pdf">
+Jason Weber & Joseph Penn: "Creation and Rendering of Realistic Trees"</a>.
+</p>
+<p>
+It's written in Java, so you can use it with any OS, wich is supported
+by Java. You can download the Arbaro software from the 
+<a href="http://sourceforge.net/projects/arbaro/">project site</a> at
+SourceForge.
+<p>
+It reads in an XML file with the tree parameters and writes out
+Povray, DXF or Wavefront OBJ files. 
+
+<h2>Screenshot</h2>
+
+<img src="arbaro_sc1.png" alt="Screenshot of the Arbaro main window"/>
+
+<h2>Galerie</h2>
+
+<table>
+<tr><td>
+<img src="quaking_aspen.jpg" alt="Quaking Aspen"><br/>
+Quaking Aspen</td>
+<td>
+<img src="black_tupelo.jpg" alt="Black Tupelo"><br/>
+Black Tupelo</td>
+</tr>
+
+<tr><td colspan=2>
+<img src="ca_black_oak.jpg" alt="CA Black Oak"><br/>
+CA Black Oak</td>
+</tr>
+
+<tr><td>
+<img src="lombardy_poplar.jpg" alt="Lombardy Poplar"><br/>
+Lombardy Poplar</td>
+<td>
+<img src="eastern_cottonwood.jpg" alt="Eastern Cottonwood"><br/>
+Eastern Cottonwood</td>
+</tr>
+
+<tr><td>
+<img src="sassafras.jpg" alt="Sassafras"><br/>
+Sassafras</td>
+<td>
+<img src="tamarack.jpg" alt="Tamarack"><br/>
+Tamarack</td>
+</tr>
+
+<tr><td colspan=2>
+<img src="weeping_willow.jpg" alt="Weeping Willow"><br/>
+Weeping Willow</td>
+
+<tr><td>
+<img src="palm.jpg" alt="palm"><br/>
+palm</td>
+<td>
+<img src="european_larch.jpg" alt="European Larch"><br/>
+European Larch</td>
+</tr>
+
+<td>
+<img src="shave_grass.jpg" alt="shave grass"><br/>
+shave grass</td>
+<td>
+<img src="rush.jpg" alt="rush"><br/>
+rush</td>
+</tr>
+
+<tr><td>
+<img src="wheat.jpg" alt="wheat"><br/>
+wheat
+</td>
+
+<td>
+<img src="barley.jpg" alt="barley"><br/>
+barley
+</td>
+</tr>
+
+<tr><td colspan=2>
+<img src="desert.jpg" alt="desert plants"><br/>
+some desert trees: palms, fan palm and a bush</td>
+</tr>
+</table>
+
+
+</body>
+</html>
+
+
+```
