@@ -1,0 +1,2441 @@
+```<!-- html-header type=current begin -->
+	
+	<!DOCTYPE html>
+	
+	
+	<html lang="en">
+	<head>
+	<!-- Render IE9 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	
+
+	<script id="before-content" type="text/javascript">
+(function () {
+    if (typeof window.sdmedia !== 'object') {
+         window.sdmedia = {};
+    }
+    if (typeof window.sdmedia.site !== 'object') {
+        window.sdmedia.site = {};
+    }
+
+    var site = window.sdmedia.site;
+    site.rootdir = "//14.xb.sf.net";
+}());
+
+var pageload = {
+	pagemark: '252703147222493900',
+	before_content: (new Date).getTime()
+};
+function pageload_done( $, console, maybe ){
+	pageload.after_readycode	= (new Date).getTime();
+	pageload.content_ready_time	= pageload.content_ready - pageload.before_content;
+	pageload.script_ready_time	= pageload.after_readycode - pageload.content_ready;
+	pageload.ready_time		= pageload.after_readycode - pageload.before_content;
+	// Only report 1% of cases.
+	maybe || (Math.random()>0.01) || $.ajax({ data: {
+		op: 'page_profile',
+		pagemark: pageload.pagemark,
+		dom: pageload.content_ready_time,
+		js: pageload.script_ready_time
+	} });
+}
+</script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	
+		<title>Slashdot: News for nerds, stuff that matters</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	  
+		<meta name="description" content="Slashdot: News for nerds, stuff that matters. Timely news source for technology related news with a heavy slant towards Linux and Open Source issues.">
+	    
+		<meta property="og:title" content="Slashdot: News for nerds, stuff that matters">
+		<meta property="og:description" content="Slashdot: News for nerds, stuff that matters. Timely news source for technology related news with a heavy slant towards Linux and Open Source issues.">
+	  
+	
+	
+		<meta property="fb:admins" content="100000696822412">
+		<meta property="fb:page_id" content="267995220856">
+	
+		<meta name="viewport" content="width=1000, user-scalable=yes, minimum-scale=0, maximum-scale=10.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		
+
+		<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images-ssl.14.xb.sf.net/ie8-classic.ssl.css?B-1611348213" ><![endif]-->
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="//images-ssl.14.xb.sf.net/classic.ssl.css?B-1611348213" >
+		<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images-ssl.14.xb.sf.net/ie7-classic.ssl.css?B-1611348213" ><![endif]-->
+	
+	
+	
+
+
+
+	
+	<!--  -->
+
+	
+	
+
+	
+	<!-- SMACKS: NEW CSS -->
+	<link rel="stylesheet" href="//images-ssl.14.xb.sf.net/css/app.css?B-1611348213">
+
+	<script src="//a.fsdn.com/con/js/sftheme/cmp5.js"></script>
+	<script src="https://slashdot.org/country.js"></script>
+	<script>
+		if (window.is_euro_union === 1 || (window.region == 'CA' && window.country_code2 == 'US')) {
+			window.bizx.cmp.init({cmp_id: 12126}, 'consentmanager.net');
+		}
+	</script>
+	<script src="https://a.fsdn.com/con/js/sftheme/vendor/promise.polyfill.min.js"></script>
+	<link rel="stylesheet" href="//a.fsdn.com/con/css/sftheme/sandiego/cmp.css?2020-06-11" type="text/css">
+
+	<script type='text/javascript'>
+var _gaq = _gaq || [];
+</script>
+
+
+
+
+
+   
+   
+   
+
+<script type="text/javascript" id="pbjs_script" data-dom="https://d3tglifpd8whs6.cloudfront.net"  src="https://d3tglifpd8whs6.cloudfront.net/js/prebid/slash-homepage/slash-homepage.min.js"></script>
+<script type='text/javascript'>
+    /*global performance */
+    var googletag = window.googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    	window.SD = {};
+		window.SD.Ads = {};
+
+		window.SD.Ads.slotsById = {};
+		window.SD.Ads.idsByPath = {};
+
+		window.SD.Ads.visibleTime = {};
+		window.SD.Ads.Helpers = {};
+
+		//window.SD = SD;
+
+    bizx.cmp.ifConsent('', ['all','google-ads'], function(){
+        window.bizxPrebid.Ads.initPrebid(window.bizxPrebid.adUnits);
+    });
+</script>
+
+<!-- prep GPT ads -->
+<script type='text/javascript'>
+(function() {
+	function page_type (loc) {
+		/*
+		only four page types:
+		- Story
+		- Poll
+		- Homepage (/ only)
+		- Other (but AdOps wants 'Homepage' again)
+		*/
+		var path = loc.pathname;
+		var just_the_root = /^\/?$/.test(path);
+		var story_or_poll = /^\/(story(?=\/)|submission(?=\/)|poll(?=\/|Booth|s\b))/i.exec(path);
+
+		var page_type = just_the_root ? 'homepage'
+			: story_or_poll ? story_or_poll[1]
+				: 'other'
+
+		// exceptions
+		if (page_type.toLowerCase() === 'submission')
+			page_type = 'story'; // submissions are like stories, right?
+		else if (page_type.toLowerCase() === 'other')
+			page_type = 'homepage'; // this one might move out of here
+
+		return page_type;
+	}
+
+	function page_section(loc) {
+		//var greek = ['alpha', 'beta', 'gamma', 'delta'].join('|');
+		//var hostwise = '^([a-z]+)(?:-(?:'+greek+'))?\\.(?:slashdot\\.org|\\.xb\\.sf\\.net)$';
+		var pathwise = '^/(?:(recent|popular|blog)|stories/([^/]+))';
+		var rootwise = '^\/?$';
+
+		//var hostwisely = new RegExp(hostwise,'i').exec(loc.hostname);
+		var pathwisely = new RegExp(pathwise, 'i').exec(loc.pathname);
+		var rootwisely = new RegExp(rootwise, 'i').exec(loc.pathname);
+
+		var section = (rootwisely && 'homepage')
+			|| (pathwisely && (pathwisely[1] || pathwisely[2]))
+			|| ''
+		;
+
+		return section.replace(/[^_a-z]/ig, '');
+	}
+
+	function single_size(size) {
+		return '' + size[0] + 'x' + size[1];
+	}
+
+	function sz_sz(sz) {
+		var str = '';
+		var sizes = [];
+		if (sz[0] instanceof Array) {
+			for (size in sz) {
+				sizes.push(single_size(sz[size]));
+			}
+			return sizes.join(',');
+		} else {
+			return single_size(sz);
+		}
+	}
+
+	function unique_tpc_array(array1, array2) {
+		var j = array1.concat(array2);
+		j.forEach(function (v, i, a) {
+			a[i] = v.replace(/[^_a-z]/ig, '');
+		});
+		return j.filter(function (v, i, a) {
+			return v != '' && a.indexOf(v) === i;
+		});
+	}
+
+	/* LEGEND:
+		- 'sz' = "size"
+		- 'npt' = "no page type" in ad unit name
+	*/
+	var tags = {
+		'728x90_A': {'sz': [[728, 90], [970, 90], [970, 250], [980, 66]]},
+		'728x90_B': {'sz': [728, 90]},
+		'728x90_C': {'sz': [728, 90], 'skip': {'homepage': 1}},
+		'HubIcon_200x90_A': {'sz': [[200, 90], [220, 90]]},
+		'PowerSwitch_980x66_A': {'sz': [980, 66], 'skip': {'homepage': 1}},
+		'PollPeel': {'sz': [200, 90], 'skip': {'homepage': 1}},
+		//'VideoWidget_300x250': { 'sz': [300, 250], 'npt': 1 },
+		'300x250_A': {'sz': [[300, 250], [300, 600], [300, 1050]]},
+		'300x250_B': {'sz': [[300, 250], [300, 600]]},
+		'300x250_C': {'sz': [[300, 250], [300, 600]]},
+		'300x250_D': {'sz': [[300, 250], [300, 600]]},
+		'Pulse_300x600_A': {'sz': [300, 600]},
+		//'Polls_Detail_300x250_A': { 'sz': [[300, 250], [300, 600]], 'npt': 1 },
+		//'Poll_300x250_A': { 'sz': [[300, 250], [300, 600]], 'npt': 1 },
+		//'SD_Story_1x1': { 'sz': [1, 1] },
+		'1x1': {'sz': [1, 1]}
+	};
+
+	//var network_path = '/4140/ostg.slashdot/';
+	var network_path = '/41014381/Slashdot/';
+	var tag_name_prefix = 'SD';
+	var tag_name_linkage = '_';
+	var tag_name_pagetype = page_type(location);
+	var tag_topic = page_section(location);
+	if (tag_name_pagetype == 'poll') {
+		tag_name_pagetype = 'Poll';
+	}
+	var before_tag_pagetyped = network_path
+		+ tag_name_prefix
+		+ tag_name_linkage
+		+ tag_name_pagetype
+		+ tag_name_linkage
+	;
+	var before_tag_pagetypeless = network_path
+		+ tag_name_prefix
+		+ tag_name_linkage
+		/* + tag_name_pagetype */
+		/* + tag_name_linkage */
+	;
+
+		//can be safely called
+		googletag.cmd.push(function () {
+
+			function remove_sticky_top() {
+				setTimeout(function () {
+					$('#div-gpt-ad-728x90_a').parent('div').addClass('adwrap-viewed-banner');
+					$('#div-gpt-ad-728x90_a').addClass('viewableImpression');
+				}, 1000);
+			}
+
+			function remove_sticky_railad() {
+				setTimeout(function () {
+					$('#slashboxes .adwrap-unviewed').addClass('adwrap-viewed-railad');
+					$('.railad').addClass('viewableImpression');
+				}, 1000);
+			}
+
+			function viewable_imp(slot) {
+				for (var i in slot) {
+					remove_sticky_top();
+					remove_sticky_railad();
+					if (typeof slot[i] !== 'string') continue;
+					switch (slot[i]) {
+						//case "/41014381/Slashdot/SD_homepage_728x90_A":
+						//case "/41014381/Slashdot/SD_story_728x90_A":
+						//case "/41014381/Slashdot/SD_Poll_728x90_A":
+						//case "/41014381/Slashdot/SD_homepage_728x90_Ref_A":
+						//case "/41014381/Slashdot/SD_story_728x90_Ref_A":
+						//case "/41014381/Slashdot/SD_Poll_728x90_Ref_A":
+						//remove_sticky_top();
+						//break;
+						//case "/41014381/Slashdot/SD_homepage_300x250_A":
+						//case "/41014381/Slashdot/SD_story_300x250_A":
+						//case "/41014381/Slashdot/SD_Poll_300x250_A":
+						//case "/41014381/Slashdot/SD_homepage_300x250_Ref_A":
+						//case "/41014381/Slashdot/SD_story_300x250_Ref_A":
+						//case "/41014381/Slashdot/SD_Poll_300x250_Ref_A":
+						//remove_sticky_railad();
+						//break;
+					}
+					//if(slot[i] === "/41014381/Slashdot/SD_homepage_728x90_A") remove_sticky_top();
+					//if(slot[i] === "/41014381/Slashdot/SD_homepage_300x250_A") remove_sticky_railad();
+				}
+			}
+
+			function define_me_a_slot(tag) {
+				if (tags[tag].skip && tags[tag].skip[tag_name_pagetype])
+					return;
+				var sandbox_regex = /\.xb\.sf\.net$/i;
+				var full_name = tags[tag].npt  // "no page type"
+					? before_tag_pagetypeless + tag
+					: before_tag_pagetyped + tag
+				;
+				var div_id = 'div-gpt-ad-' + tag.toLowerCase();
+				// extend jQuery and get URL query params
+				jQuery.extend({
+					getQueryParameters: function (str) {
+						return (str || document.location.search).replace(/(^\?)/, '').split("&").map(function (n) {
+							return n = n.split("="), this[n[0]] = n[1], this
+						}.bind({}))[0];
+					}
+				});
+
+				var queryParams = $.getQueryParameters();
+
+				if (queryParams.source === 'autorefresh') {
+					full_name = full_name.replace(/(\d+x\d+)/, '$1_Ref');
+					//console.log('TAG NAME: ', full_name);
+				}
+
+				var slot = googletag.defineSlot(
+					full_name,
+					tags[tag].sz,
+					div_id
+				);
+
+				service = slot.addService(googletag.pubads());
+
+				window.SD.Ads.slotsById[div_id] = slot;
+				window.SD.Ads.idsByPath[full_name] = div_id;
+
+				service.setTargeting('sz', tags[tag].sz);
+
+				
+				var frontend_tpc = tag_topic.split(",");
+				var backend_tpc = [  ];
+
+				var tpc_final = unique_tpc_array(frontend_tpc, backend_tpc);
+				service.setTargeting('tpc', tpc_final);
+				if (location.hostname.match(sandbox_regex)) {
+					service.setTargeting('test', 'adops');
+				}
+
+			}
+
+		for (tag in tags) {
+			define_me_a_slot(tag, false);
+		}
+
+
+			googletag.pubads().addEventListener('slotVisibilityChanged', window.SD.Ads.visibilityChangedTracker);
+
+
+		googletag.pubads().addEventListener('impressionViewable', function(event) {
+			viewable_imp(event.slot);
+		    });
+
+                googletag.pubads().setTargeting('requestSource', 'GPT');
+		googletag.pubads().enableAsyncRendering();
+		
+
+		googletag.pubads().collapseEmptyDivs();
+		window.bizxPrebid.SAFEFRAMES = true;
+		window.SD.Ads.setupAdRefresh();
+		bizxPrebid.Ads.pushToGoogle();
+		googletag.enableServices();
+	});
+})();
+
+
+/* Ad-Refresh code */
+window.SD.Ads.visibilityChangedTracker = function(event) {
+	var id = event.slot.getSlotElementId();
+	if (!window.SD.Ads.visibleTime.hasOwnProperty(id)) {
+		window.SD.Ads.visibleTime[id] = {
+			visible: false,
+			prevVisibleTotal: 0,
+			wasVisibleBeforePageBgd: false,
+			reloadCount: 0
+		};
+	}
+	var timeinfo = window.SD.Ads.visibleTime[id];
+	if (event.inViewPercentage >= 50 && !document.hidden) {
+		if (!timeinfo.visible) {
+			timeinfo.visible = performance.now();
+		}
+	} else {
+		if (timeinfo.visible) {
+			timeinfo.prevVisibleTotal += performance.now() - timeinfo.visible;
+			timeinfo.visible = false;
+		}
+	}
+};
+
+window.SD.Ads.setupAdRefresh = function() {
+	document.addEventListener('visibilitychange', function () {
+		for (var id in window.SD.Ads.visibleTime) {
+			if (window.SD.Ads.visibleTime.hasOwnProperty(id)) {
+				var timeinfo = window.SD.Ads.visibleTime[id];
+				if (document.hidden) {
+					timeinfo.wasVisibleBeforePageBgd = !!timeinfo.visible;
+					if (timeinfo.visible) {
+						timeinfo.prevVisibleTotal += performance.now() - timeinfo.visible;
+						timeinfo.visible = false;
+					}
+				} else if (!document.hidden && timeinfo.wasVisibleBeforePageBgd) {
+					timeinfo.visible = performance.now();
+				}
+			}
+		}
+	}, false);
+
+	// after 30 sec, start checking every second for reload
+	var LIMIT_MS = 30000;
+	setTimeout(function () {
+		//
+		setInterval(function () {
+			if (document.hidden) {
+				return;
+			}
+			for (var id in window.SD.Ads.visibleTime) {
+				if (window.SD.Ads.visibleTime.hasOwnProperty(id)) {
+					var timeinfo = window.SD.Ads.visibleTime[id];
+					if (timeinfo.visible &&
+						timeinfo.prevVisibleTotal + (performance.now() - timeinfo.visible) >= LIMIT_MS &&
+						timeinfo.reloadCount < 50
+					) {
+						timeinfo.reloadCount++;
+						timeinfo.visible = false;
+						timeinfo.prevVisibleTotal = 0;
+						window.SD.Ads.Helpers.refreshBids([id]);
+					}
+				}
+			}
+		}, 1000);
+	}, LIMIT_MS);
+};
+
+window.SD.Ads.Helpers.refreshBids = function (reloadIds) {
+		console.log('AD REFRESH: refreshBids', reloadIds);
+		pbjs.que.push(function () {
+			for (var i = reloadIds.length-1; i >= 0; i--) {
+				var id = reloadIds[i];
+				// clear out winner status from earlier auctions
+				if (bizxPrebid.Ads.prebidWinners[id]) {
+					delete bizxPrebid.Ads.prebidWinners[id];
+				}
+				// if has complement (hubicon), remove it since they are just house ads and can cause funky layouts if this leaderboard is refreshed to a different size
+				var path = window.SD.Ads.slotsById[id].getAdUnitPath();
+				/*var complement = gptadComplements[path];
+				if (complement) {
+					var complement_shortname = complement[0];
+					var complement_path = "/41014381/SD/" + complement_shortname;
+					var slot = window.SD.Ads.slotsById[window.SD.Ads.idsByPath[complement_path]];
+					if (slot) {
+						googletag.destroySlots([slot]);
+						var $wrappedAd = $(window.SD.Ads.Helpers.getContainerIDFromPath(complement_path));
+						$wrappedAd.remove();
+						delete gptadComplements[path];
+					}
+				}*/
+
+			}
+
+			pbjs.requestBids({
+				timeout: window.bizxPrebid.PREBID_TIMEOUT,
+				adUnitCodes: reloadIds,
+				bidsBackHandler: function () {
+					var reloadSlots = reloadIds.map(function(id) { return window.SD.Ads.slotsById[id]; });
+
+					// clear out previous sizing attrs, as they may change after refresh
+/*
+					for (var i = 0; i < reloadSlots.length; i++) {
+						var $wrappedAd = $(window.SD.Ads.Helpers.getContainerIDFromPath(reloadSlots[i].getAdUnitPath()));
+						var classes = $wrappedAd.attr('class').split(' ');
+						for (var j = 0; j < classes.length; j++) {
+							if (classes[j].indexOf('sz_') >= 0) {
+								$wrappedAd.removeClass(classes[j]);
+							}
+						}
+					}
+*/
+					pbjs.setTargetingForGPTAsync(reloadIds);
+					googletag.pubads().refresh(reloadSlots);
+				}
+			});
+		});
+	}
+</script>
+
+<!-- CrossPixel -->
+<script type="text/javascript">
+if (window.is_euro_union === 0) {
+    bizx.cmp.ifConsent('', ['all'], function(){
+        try{(function(){ var cb = new Date().getTime(); var s = document.createElement("script"); s.defer = true; s.src = "//tag.crsspxl.com/s1.js?d=2397&cb="+cb; var s0 = document.getElementsByTagName('script')[0]; s0.parentNode.insertBefore(s, s0); })();}catch(e){}
+    });
+}
+</script>
+
+
+
+
+<!-- AdBlock Check -->
+<script>
+var isAdBlockActive = true;
+</script>
+<script async src="//images-ssl.14.xb.sf.net/js/scripts/ad.js?B-1611348213"></script>
+</head>
+
+<body class="anon index2 ">
+
+	
+	<script src="//images-ssl.14.xb.sf.net/all-minified.js?B-1611348213" type="text/javascript"></script>
+	
+	
+	<script type="text/javascript">
+(function(){
+var regexp=/\s*(?:\d+|many)\s+more\s*/i;
+
+	
+	var auto_more_count = 1;
+
+	function auto_more(){
+		var $more_link = $('#more-experiment a');
+		$more_link.each(function(){
+			var $lastitem = $('#firehoselist>article.fhitem:visible:last');
+			if ( Bounds.intersect(window, $lastitem) ) {
+			
+			
+				!--auto_more_count && (auto_more=undefined);
+				// don't allow a call till the next paginate gets built and |more_possible|
+				$(document).unbind('scroll', call_auto_more);
+			}
+		});
+	};
+
+	function call_auto_more(){ auto_more && auto_more(); }
+	
+
+$('#more-experiment a').
+	live('more-possible', function( event ){
+		var $more_link=$(this);
+		if ( regexp.test($more_link.text()) ) {
+		
+			$(document).bind('scroll', call_auto_more);
+		} else {
+			$(document).unbind('scroll', call_auto_more);
+		
+		}
+	});
+})();
+</script>
+	<!--[if lt IE 9]><script src="//images-ssl.14.xb.sf.net/html5.js"></script><![endif]-->
+	
+	
+	<!-- index2_variant |A|-->
+	
+	<!-- TABOOLA -->
+	<script type="text/javascript">
+	if (window.is_euro_union === 0) {
+	  window._taboola = window._taboola || [];
+	  _taboola.push({home:'auto'});
+	  !function (e, f, u) {
+		e.async = 1;
+		e.src = u;
+		f.parentNode.insertBefore(e, f);
+	  }(document.createElement('script'),
+	  document.getElementsByTagName('script')[0],
+	  '//cdn.taboola.com/libtrc/slashdot/loader.js');
+	}
+	</script>
+	
+		<script>
+	if (window.is_euro_union === 0) {
+	(function (s,o,n,a,r,i,z,e) {s['StackSonarObject']=r;s[r]=s[r]||function(){
+	 (s[r].q=s[r].q||[]).push(arguments)},s[r].l=1*new Date();i=o.createElement(n),
+	 z=o.getElementsByTagName(n)[0];i.async=1;i.src=a;z.parentNode.insertBefore(i,z)
+	 })(window,document,'script','https://www.stack-sonar.com/ping.js','stackSonar');
+	 stackSonar('stack-connect', '66');
+	}
+	</script>
+	
+	<!-- html-header type=current end --><!-- header type=current begin -->
+	
+	
+	
+	<link rel="top"       title="News for nerds, stuff that matters" href="//14.xb.sf.net/" >
+<link rel="search"    title="Search Slashdot" href="//news.14.xb.sf.net/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdotMain" type="application/rss+xml">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+		<div id="top_parent"></div>
+		<a name="topothepage"></a>
+		
+		<div class="container">
+			<div class="nav-wrap">
+				<nav class="nav-primary" role="navigation" aria-label="Global Navigation">
+					<h1 class="logo">
+	<a href="//14.xb.sf.net"><span>Slashdot</span></a>
+</h1>
+
+<ul class="nav-site">
+	<li><a href="//14.xb.sf.net"><i class="icon-book" title="Stories"></i><span>Stories</span></a></li>
+	<li>
+		<ul class="filter-firehose">
+			<li class="nav-label">Firehose <i class="icon-angle-right"></i></li>
+			<li><a href="//14.xb.sf.net/recent">All</a></li>
+			<li><a href="//14.xb.sf.net/popular">Popular</a></li>
+		</ul>
+	</li>
+	<li><a href="//14.xb.sf.net/polls"><i class="icon-chart-bar" title="Polls"></i><span>Polls</span></a></li>
+
+	<!--
+	<li><a href="//ask.14.xb.sf.net"><i class="icon-question-circle"></i><span>Ask</span></a></li>
+	
+	<li><a href="//events.14.xb.sf.net"><i class="icon-calendar"></i><span>Events</span></a></li>
+	-->
+	<li><a href="http://deals.slashdot.org/?utm_source=slashdot&amp;utm_medium=navbar&amp;utm_campaign=dealshp_1" target="_blank"><i class="sd-mini" title="Deals"></i> <span>Deals</span></a></li>
+        <li><a href="https://www.slashdotstore.com" rel="nofollow"><span>Apparel</span></a></li>
+</ul>
+<a href="//14.xb.sf.net/submission" class="btn btn-success">Submit</a>
+				</nav>
+				<nav class="nav-user" role="navigation" aria-label="user access and account controls">
+					<form id="search" class="form-inline nav-search-form" method="get" action="//14.xb.sf.net/index2.pl">
+<!-- //news.14.xb.sf.net/index2.pl" -->
+	<div class="form-group">
+		<label class="sr-only" for="sitesearch">Search Slashdot</label>
+		<div class="input-group">
+			<input type="text" id="" class="" name="fhfilter" value="" placeholder="Search">
+		</div>
+	</div>
+	<button type="submit" class="btn icon-search"></button>
+</form>
+<ul class="user-access">
+	
+		
+			<li >
+				<a href="//14.xb.sf.net/my/login"  onclick="show_login_box(); return false;"><i class="icon-login"></i><span> Login</span></a>
+				
+			</li>
+		
+	
+		
+			<li class="nav-label">or</li>
+		
+	
+		
+			<li >
+				<a href="//14.xb.sf.net/my/newuser"  ><i class="icon-user-add"></i><span> Sign up</span></a>
+				
+			</li>
+		
+	
+</ul>
+				</nav>
+			</div>
+			<div class="nav-secondary-wrap">
+				<nav class="nav-secondary" role="secondary-navigation">
+	<ul>
+		<li class="nav-label">Topics: </li>
+		<li><a href="//devices.14.xb.sf.net">Devices</a></li>
+		<li><a href="//build.14.xb.sf.net">Build</a></li>
+		<li><a href="//entertainment.14.xb.sf.net">Entertainment</a></li>
+		<li><a href="//technology.14.xb.sf.net">Technology</a></li>
+		<li><a href="//14.xb.sf.net/?fhfilter=opensource">Open Source</a></li>
+		<li><a href="//science.14.xb.sf.net">Science</a></li>
+		<li><a href="//yro.14.xb.sf.net">YRO</a></li>
+		<!-- <li><a href="//14.xb.sf.net/topics.pl">more...</a></li> -->
+	</ul>
+</nav>
+<nav class="nav-social" role="social navigation">
+	<ul>
+		<li class="nav-label">Follow us:</li>
+		<li><a href="http://rss.slashdot.org/Slashdot/slashdotMain" target="_blank" rel="nofollow"><i class="icon-rss-squared"></i><span class="sr-only">RSS</span></a></li>
+		<li><a href="http://www.facebook.com/slashdot" target="_blank" rel="nofollow"><i class="icon-facebook-squared"></i><span class="sr-only">Facebook</span></a></li>
+		<li><a href="https://www.linkedin.com/company/slashdot" target="_blank" rel="nofollow"><i class="icon-linkedin-squared"></i><span class="sr-only">Google+</span></a></li>
+		<li><a href="http://twitter.com/slashdot" target="_blank" rel="nofollow"><i class="icon-twitter-squared"></i><span class="sr-only">Twitter</span></a></li>
+		<li><a href="https://www.youtube.com/channel/UCsW36751Gy-EAbHQwe9WBNw" target="_blank" rel="nofollow"><i class="icon-youtube-squared">
+                    <!-- width="1792" height="1792" -->
+                    <svg viewBox="0 260 1792 1260" xmlns="http://www.w3.org/2000/svg"><path d="M711 1128l484-250-484-253v503zm185-862q168 0 324.5 4.5t229.5 9.5l73 4q1 0 17 1.5t23 3 23.5 4.5 28.5 8 28 13 31 19.5 29 26.5q6 6 15.5 18.5t29 58.5 26.5 101q8 64 12.5 136.5t5.5 113.5v176q1 145-18 290-7 55-25 99.5t-32 61.5l-14 17q-14 15-29 26.5t-31 19-28 12.5-28.5 8-24 4.5-23 3-16.5 1.5q-251 19-627 19-207-2-359.5-6.5t-200.5-7.5l-49-4-36-4q-36-5-54.5-10t-51-21-56.5-41q-6-6-15.5-18.5t-29-58.5-26.5-101q-8-64-12.5-136.5t-5.5-113.5v-176q-1-145 18-290 7-55 25-99.5t32-61.5l14-17q14-15 29-26.5t31-19.5 28-13 28.5-8 23.5-4.5 23-3 17-1.5q251-18 627-18z"/></svg>
+                </i><span class="sr-only">Youtube</span></a></li>
+		<li><a href="//14.xb.sf.net/newsletter" target="_blank" rel="nofollow"><i class="icon-mail-squared"></i><span class="sr-only">Newsletter</span></a></li>
+	</ul>
+</nav>
+			</div>
+		</div>
+
+		<section>
+		
+			<div class="message-bar" id="firehose-message-tray">
+				<span class="icon-quote-left"></span>
+				<p>
+					
+						
+						Become a fan of Slashdot on <a href="http://www.facebook.com/pages/Slashdotorg/267995220856">Facebook</a>
+					
+				</p>
+			</div>
+		
+		
+			<div id='embbeded_login_modal' class="hide">
+<form action="https://14.xb.sf.net/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//14.xb.sf.net/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+		
+		
+			<div class="banner-wrapper">
+				<div class="adwrap adwrap-unviewed banner-contain">
+					
+					<div id='div-gpt-ad-728x90_a'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-728x90_a');});</script></div>
+					<div id='div-gpt-ad-hubicon_200x90_a'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-hubicon_200x90_a');});</script></div>
+				</div>
+			</div>
+		
+		<a name="main-articles"></a>
+	
+	<!-- header type=current end --><!--body begin -->
+
+
+
+
+
+
+
+
+	<style type="text/css">
+menu, menu * {
+	text-decoration:none;
+}
+
+menu[type=context] {
+	display:none;
+	position:absolute;
+	z-index:10000;
+}
+
+menu[type=context]:not(.brief) {
+	background-color:#dfdfdf;
+	margin:0;
+	padding:2px 0.5em;
+	border-style:solid;
+	border-width:1px;
+	border-color:#eeeeee #aaaaaa #aaaaaa #eeeeee;
+	-moz-border-radius-topright:.7em;
+	-webkit-border-top-right-radius: 0.7em 0.7em;
+}
+
+menu.full[type=context] > a.slash-hover:first-child {
+	-moz-border-radius-topright:.6em;
+	-webkit-border-top-right-radius: 0.6em 0.6em;
+}
+
+
+
+menu.brief[type=context] > a {
+	-moz-border-radius:.6em;
+	-webkit-border-radius: 0.6em;
+	color:#ffffff;
+	background-color:#000000;
+}
+
+/*
+span.briefmenu a.tag:not(.datatype) {
+    padding-left:.5em;
+}
+*/
+
+
+
+
+/* #tag-menu a, #feedback-menu a  { */
+menu.tag-menu-admin a {
+	display:list-item;
+	list-style:none;
+	text-align:left;
+	font-weight:bold;
+	color:black;
+	padding:0.1em 0.5em;
+	margin:-0.1em -0.5em;
+	cursor:pointer;
+}
+
+
+.tags .edit-bar { position:relative; }
+article aside .share .addthis_toolbox { display:block; width:60px; float:left; }
+article aside.view_mode .share { min-width:120px; padding-top:.5em; }
+#firehose.list article header h2 {padding-left: 20px; !important}
+.novote .vote { display:none; }
+
+.vote > a, .votedup > a, .voteddown > a {
+	display:inline-block;
+	height:22px;
+	width:22px;
+	margin: 2px 10px 0 0;
+	color:rgb(255,255,255);
+	text-decoration:none;
+	line-height:22px;
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+	border-width:1px;
+	border-style:solid;
+	border-color:rgba(0,0,0,0.5);
+}
+
+.vote > a, .votedup > a, .voteddown > a {color:rgb(0,0,0);}
+
+article.fhitem-submission h2 .vote > a, article.fhitem-submission h2 .votedup > a, article.fhitem-submission h2 .voteddown > a { border-color:rgba(0,0,0,0.15); }
+.vote .up, .vote .down, .votedup .up, .votedup .down, .voteddown .up, .voteddown .down { border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; /* text-shadow:0 0 2px #000000; }*/}
+article:not(.fhitem-story) .vote .up,article:not(.fhitem-story) .vote .down,article:not(.fhitem-story) .votedup .up,article:not(.fhitem-story) .votedup .down,article:not(.fhitem-story) .voteddown .up,article:not(.fhitem-story) .voteddown .down { /*text-shadow:none !important; */}
+.voteddown .down, .votedup .up { margin-right: 10px; text-indent:2px; line-height:24px; }
+article:not(.fhitem-story) .votedup .up,article:not(.fhitem-story) .voteddown .down {background: rgb(174,174,174);background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(174,174,174)), to(rgb(193,193,193)));background-image: -moz-linear-gradient(100% 100% 90deg,rgb(193,193,193), rgb(174,174,174) 100%);color:rgb(0,0,0);}
+article.fhitem-story .votedup .up,article.fhitem-story .voteddown .down {background: rgb(0,66,66);background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0,53,53)), to(rgb(0,102,102)));background-image: -moz-linear-gradient(100% 100% 90deg,rgb(0,102,102), rgb(0,53,53) 100%);}
+
+
+
+
+#tag-menu span.var-tag {
+font-weight:normal;
+color:#444444;
+}
+
+menu.reasons-menu a {
+padding:0 .25em 0 .25em;
+font-size:80%;
+-moz-border-radius:.5em;
+-webkit-border-radius:.5em;
+cursor:pointer;
+}
+
+menu.reasons-menu a:hover {
+background:rgb(153,153,153);
+background:-moz-linear-gradient(100% 100% 90deg, rgb(102,102,102), rgb(153,153,153) 70%) repeat scroll 0 0 rgb(102,102,102);
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(153,153,153)), to(rgb(102,102,102)));
+color:#fff;
+text-decoration:none;
+font-weignt:normal;
+}
+
+article.fhitem-story menu.reasons-menu a:hover {
+background:#002323 !important;
+background:-moz-linear-gradient(100% 100% 90deg, #002323, #005353 70%) repeat scroll 0 0 #002323 !important;
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#005353), to(#002323)) !important;
+}
+
+
+menu.reasons-menu {
+	display:none;
+	margin:0;
+	padding:0;
+}
+
+div.fhitem h3 menu.reasons-menu {
+margin:0.25em 0 0;
+}
+
+div.fhitem h3 menu.reasons-menu a.tag {
+font-size:.8em;
+}
+
+#tag-menu a.slash-hover,
+#feedback-menu a.slash-hover,
+
+.tag-display span.tag:hover,
+.tag-display span.tag.trigger {
+	color:white;
+	background-color:rgb(0, 85, 85);
+}
+
+#tag-menu a.slash-hover span.var-tag {
+	color:#eee;
+}
+
+.tag-entry.default {
+        color:#ccc;
+}
+
+.brief .nix {
+	margin-top:-1.35em;
+	margin-left:0px;
+	margin-top:-1.15em;
+	text-decoration:none;
+	line-height:1.35em;
+	padding:0 2px;
+	-moz-border-radius:.6em 0 0 .6em;
+	-webkit-border-radius:.6em 0 0 .6em;
+	-o-border-radius:.6em 0 0 .6em;
+	border-radius:.6em 0 0 .6em;
+    color:#fff !important;
+    background:transparent !important;
+}
+
+.brief .nix:hover {
+    background:rgb(153,153,153) !important;
+    background:-moz-linear-gradient(100% 100% 90deg, rgb(102,102,102), rgb(153,153,153) 70%) repeat scroll 0 0 rgb(102,102,102) !important;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(153,153,153)), to(rgb(102,102,102))) !important;
+}
+
+</style>
+
+<menu id="nix-reasons" style="display:none">
+	<a class="tag">binspam</a><a class="tag">dupe</a><a class="tag">notthebest</a><a class="tag">offtopic</a><a class="tag">slownewsday</a><a class="tag">stale</a><a class="tag">stupid</a>
+</menu>
+<menu id="nod-reasons" style="display:none">
+	<a class="tag">fresh</a><a class="tag">funny</a><a class="tag">insightful</a><a class="tag">interesting</a><a class="tag">maybe</a>
+</menu>
+<menu id="comment-nix-reasons" style="display:none">
+	<a class="tag">offtopic</a><a class="tag">flamebait</a><a class="tag">troll</a><a class="tag">redundant</a><a class="tag">overrated</a>
+</menu>
+<menu id="comment-nod-reasons" style="display:none">
+	<a class="tag">insightful</a><a class="tag">interesting</a><a class="tag">informative</a><a class="tag">funny</a><a class="tag">underrated</a>
+</menu>
+
+<menu id="tag-nod-reasons" style="display:none">
+	<a class="tag">descriptive</a>
+</menu>
+<menu id="feedback-menu" class="tag-menu-admin" type="context">
+	<a class="tag">typo</a><a class="tag">dupe</a><a class="tag">error</a>
+</menu>
+<menu id="tag-menu" class="tag-menu-admin none" type="context">
+
+<!--	<a data-op="!" class="nix">!<span class="var-tag hide"></span></a>-->
+
+</menu>
+
+<script type="text/javascript">
+$(function(){
+var $CURRENT_MENU, $TAG_MENU=$('#tag-menu'), NOTNOT=/^!!/, IE7=/^7\.0/, TAG_PREFIX=/^\/tag\//;
+
+function get_tag_name( $tag ){
+	return ($tag.attr('href') || '').replace(TAG_PREFIX, '') || $tag.text().toLowerCase();
+}
+
+function trigger_menu( e, selector, $menu, menu_content ){
+	var $target=$(original_target(e, selector)), in_use=$target.is('.trigger');
+	if ( $CURRENT_MENU ) {
+		$CURRENT_MENU.menu('cancel', e);
+		$CURRENT_MENU = null;
+	}
+
+	if ( !in_use ) {
+		menu_content && $menu.stop(true, true).hide().html(menu_content);
+		($CURRENT_MENU=$menu).menu('context', e);
+	}
+	return !in_use;
+}
+
+function open_menu( trigger, $menu ){
+	var $trigger=$(trigger), $fhitem=$trigger.closest('.fhitem');
+	$fhitem.length && user_intent('interest', $fhitem[0]);
+
+	$menu.appendTo(document.body).css({ opacity:0 }).show();
+
+	var 	right	= $fhitem.offset().left + $fhitem.width(),
+		global	= $trigger.offset(),
+		local	= $menu.offsetParent().offset();
+
+	// Ugly IE position hack required:
+	$.browser.msie && IE7.test($.browser.version) && (local.top = 0);
+
+	// pin the menu (horizontally) on-screen
+	global.left = Math.min(global.left, right-$menu.width());
+
+	$trigger.addClass('trigger');
+	$menu.css({
+		position:	'absolute',
+		top:		global.top - local.top + $trigger.height(),
+		left:		global.left - local.left,
+		opacity:	1
+	});
+}
+
+function close_menu( trigger, $menu ){
+	$menu.hide();
+	$(trigger).removeClass('trigger');
+	($CURRENT_MENU===$menu) && ($CURRENT_MENU=false);
+}
+
+/* T2 tag context-menu */
+var $TAG_MENU=$('#tag-menu'), NOTNOT=/^!!/;
+
+
+    var user_is_admin = 0;
+
+
+
+$('a[rel=tag]').live('mousedown',function(ea){
+    window.open(this.href);
+    return false;
+})
+
+$('.tag-bar .disagree').live('mousedown',function(ee){
+	var fhitem = $(original_target(ee)).closest('.fhitem')[0],
+		command = ('!' + $(original_target(ee)).attr("data-tag")).replace(NOTNOT, '');
+    try { Tags.submit(fhitem, command); } catch ( err ) {  }
+    return false;
+})
+
+
+
+$('a[rel=tag]').
+	live('mousedown', function( e ){
+        
+            return true;
+        
+
+	}).
+	live('click', function( e ){
+		if ( !logged_in ) {
+			var	target	= original_target(e),
+				tag	= $(target).text();
+			addfhfilter(tag);
+		}
+		e.preventDefault();
+		return false;
+	});
+
+$TAG_MENU.menu({
+	cssNamespace: 'slash',
+	liveTriggers: true,
+	clickDuration: 300,
+
+	start: function( e, ui ){
+		var	$tag	= $(ui.trigger),
+			tag	= get_tag_name($tag),
+			context	= firehose_settings && firehose_settings.viewtitle;
+
+		// Insert the tagname into the menu items where needed.
+		$TAG_MENU.find('span.var-tag').text(tag);
+		$TAG_MENU.find('a.nix').attr('title','not ' + tag);
+
+
+			// non-admins may only delete their own tags
+		$TAG_MENU.find('a:[data-op="-"]').toggle($tag.is('.my'));
+	
+
+		// *tagname* in *viewtitle*
+		$TAG_MENU.find('a:[data-op="="]').toggle(!!context);
+		context && $TAG_MENU.find('span.var-view').text(context);
+
+		open_menu($tag, $TAG_MENU);
+	},
+
+	select: function( e, ui ){
+		var	$tag	= $(ui.trigger),
+			tag	= get_tag_name($tag),
+			op	= $(ui.select).attr('data-op'),
+			fhitem,
+			command;
+
+		// Global for positioning other things.
+		$related_trigger = $tag;
+
+		switch ( op ) {
+			case '=':
+				addfhfilter(tag);
+				break;
+
+			default:
+				fhitem = $tag.closest('.fhitem')[0];
+				command = (op + tag).replace(NOTNOT, '');
+				try { Tags.submit(fhitem, command); } catch ( err ) {  }
+				break;
+		}
+	},
+
+	stop: function( e, ui ){ close_menu(ui.trigger, $TAG_MENU); }
+});
+
+
+
+
+/* T2 feedback context-menu */
+
+
+
+/* T2 datatype context-menu (admin-only) */
+
+
+
+
+
+
+});
+</script>
+	
+
+
+
+<div class="container">
+	<div class="main-wrap  has-rail-right">
+		<div class="main-content">
+			<div id="firehose" class="nothumbs ">
+				<!-- WIT -->
+				<a name="articles"></a>
+
+
+				
+					
+				
+
+
+				<div id="firehoselist" class="fhroot row ">
+					<div id="announcement">
+  <div id="announcementText" style="display: none;"> WE HEAR YOU We did tell you we wanted feedback. <a href="https://meta.SANDBOX_SHORT_HOSTNAME/story/14/02/06/2329227/slashdot-tries-something-new-audience-responds">Here's our response</a>.</div>
+  <a href="" class="btn-close" title="don't show me this again" onclick="closeAnnouncement(); return false;">&times;</a>
+</div>
+
+
+<script type="text/javascript">
+
+if (!$.cookie('hide_sitenotice_1')) {
+	$('#announcement').fadeIn(300);
+}
+
+function closeAnnouncement() {
+	$('#announcement').fadeOut(300);
+	$.cookie('hide_sitenotice_1', 'true', { path: '/', domain: '14.xb.sf.net', expires: 1 });
+}
+</script>
+					<article id="firehose-63192979" data-fhid="63192979" data-fhtype="story" class="fhitem fhitem-story article usermode thumbs grid_24">
+		<span class="sd-info-block" style="display: none">
+			<span class="sd-key-firehose-id">63192979</span>
+			<span class="type">story</span>
+			
+		</span>
+
+
+
+
+
+
+
+	
+	
+
+<header>
+	
+		<span class="topic" id="topic-63192979">
+			<a href="//apache.14.xb.sf.net/index2.pl?fhfilter=opensource" onclick="return addfhfilter('opensource');">
+			
+				<img src="//images-ssl.14.xb.sf.net/topics/opensource_64.png" width="64" height="64" alt="Open Source" title="Open Source">
+			
+		</a>
+		</span>
+	
+
+	<h2 class="story">
+		
+
+		
+
+		
+		    <span class="article-ribbon video-ribbon">Video</span>
+		
+
+		
+
+		
+
+		
+
+		<span id="title-63192979" class="story-title"> <a onclick="return toggle_fh_body_wrap_return(this);"  href="//news.14.xb.sf.net/story/14/07/30/1835234/meet-apache-software-foundation-vp-rich-bowen-video">Meet Apache Software Foundation VP Rich Bowen (Video)</a></span>
+
+		
+		
+		<!--<span class="comments commentcnt-63192979" >14</span>-->
+		
+
+		
+		<!-- comment bubble -->
+		
+			<span class="comment-bubble"><a href="//news.14.xb.sf.net/story/14/07/30/1835234/meet-apache-software-foundation-vp-rich-bowen-video#comments" title="">14</a></span>
+		
+	</h2>
+	<div class="details" id="details-63192979">
+		<span class="story-details">
+		<span class="story-views">
+			<span class="sodify" onclick="firehose_set_options('color', 'red')" title="Filter Firehose to entries rated red or better"></span><span class="icon-beaker pop1 " alt="Popularity" title="Filter Firehose to entries rated red or better" onclick="firehose_set_options('color', 'red')"><span></span></span> 
+		</span>
+		</span>
+		<span class="story-byline">
+	
+				
+			Posted
+				by 
+		
+		
+			
+				  <a href="http://itknowledgeexchange.techtarget.com/cheap-computing/" rel="nofollow">Roblimo</a>
+			
+		
+		
+
+		
+		
+		<time id="fhtime-63192979" datetime="on Monday September 14, 2020 @03:05PM">on Monday September 14, 2020 @03:05PM</time>
+		
+		
+			 from the <span class="dept-text">a-patchy-server-rules-the-online-world</span> dept.
+		
+		</span>
+	</div>
+</header>
+
+<div class="body" id="fhbody-63192979">
+	
+
+	
+		
+		<div id="text-63192979" class="p">
+			
+				<div class="video-thumb">
+					<a href="//news.14.xb.sf.net/story/14/07/30/1835234/meet-apache-software-foundation-vp-rich-bowen-video">
+						<i class="video-thumb-overlay icon-play"></i>
+						
+							<img src="//images-ssl.14.xb.sf.net/articles/14/07/30/1835234-1.jpg">
+					</a>
+					
+				</div>
+			
+		 	
+				Apache is behind a huge percentage of the world's websites, and the <a href="http://en.wikipedia.org/wiki/Apache_foundation">Apache Software Foundation</a> is the umbrella organization that provides licensing and stucture for open source projects ranging from the Apache Web server to Apache OpenOffice to small utilities that aren't household names but are often important  to a surprising number of people and companies. Most of us never get to meet the people behind groups like the Apache Software Foundation -- except today we tag along with Tim Lord at OSCON and chat with Apache Software Foundation Executive Vice President <a href="http://www.rcbowen.com/">Rich Bowen</a> -- who is also Red Hat's OpenStack Community Liason. (<a href="http://tv.slashdot.org/video/?embed=A5bXdibzrdnFvktArNp73QqsNT5bwo2v">Alternate Video Link</a>) <b>Update: 07/30 22:23 GMT</b> by <b> <a href="http://www.monkey.org/~timothy/">T</a> </b>: Note that Bowen formerly served as Slashdot sister site SourceForge's Community Manager, too.
+		 	
+		</div>
+
+		
+
+		
+
+		
+	</div>
+	<aside class="novote">
+		
+	</aside>
+	
+	  	
+
+		
+		<footer class="clearfix meta article-foot">
+			<div class="story-controls">
+				
+                    
+					
+				
+			</div>
+			
+				
+				<div class="story-tags">
+					<span class="tright tags"><menu type="toolbar" class="edit-bar">
+		<span id="tagbar-63192979" class="tag-bar none">
+			<a  class="topic tag" rel="statictag" href="//14.xb.sf.net/tag/" target="_blank"></a>
+
+		</span>
+		
+		<!--
+			<a class="edit-toggle" href="/my/login/" onclick="show_login_box();return false;">
+				<span class="icon-tag btn collapse"></span>
+			</a>
+			-->
+		
+		
+		<div class="tag-menu">
+			<input class="tag-entry default" type="text" value="apply tags">
+		</div>
+		
+
+		
+		
+
+	</menu></span>
+				</div>
+				
+			
+		</footer>
+	
+
+
+
+	</article><article id="firehose-63144335" data-fhid="63144335" data-fhtype="story" class="fhitem fhitem-story article usermode thumbs grid_24">
+		<span class="sd-info-block" style="display: none">
+			<span class="sd-key-firehose-id">63144335</span>
+			<span class="type">story</span>
+			
+		</span>
+
+
+
+
+
+
+
+	
+	
+
+<header>
+	
+		<span class="topic" id="topic-63144335">
+			<a href="//apache.14.xb.sf.net/index2.pl?fhfilter=android" onclick="return addfhfilter('android');">
+			
+				<img src="//images-ssl.14.xb.sf.net/topics/android_64.png" width="64" height="64" alt="Android" title="Android">
+			
+		</a>
+		</span>
+	
+
+	<h2 class="story">
+		
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+		<span id="title-63144335" class="story-title"> <a onclick="return toggle_fh_body_wrap_return(this);"  href="//news.14.xb.sf.net/story/14/07/29/2230242/old-apache-code-at-root-of-android-fakeid-mess">Old Apache Code At Root of Android FakeID Mess</a></span>
+
+		
+		
+		<!--<span class="comments commentcnt-63144335" >127</span>-->
+		
+
+		
+		<!-- comment bubble -->
+		
+			<span class="comment-bubble"><a href="//news.14.xb.sf.net/story/14/07/29/2230242/old-apache-code-at-root-of-android-fakeid-mess#comments" title="">127</a></span>
+		
+	</h2>
+	<div class="details" id="details-63144335">
+		<span class="story-details">
+		<span class="story-views">
+			<span class="sodify" onclick="firehose_set_options('color', 'red')" title="Filter Firehose to entries rated red or better"></span><span class="icon-beaker pop1 " alt="Popularity" title="Filter Firehose to entries rated red or better" onclick="firehose_set_options('color', 'red')"><span></span></span> 
+		</span>
+		</span>
+		<span class="story-byline">
+	
+				
+			Posted
+				by 
+		
+		
+			
+				  <a href="mailto:soulskill@slashdot.org" rel="nofollow">Soulskill</a>
+			
+		
+		
+
+		
+		
+		<time id="fhtime-63144335" datetime="on Sunday September 13, 2020 @06:58PM">on Sunday September 13, 2020 @06:58PM</time>
+		
+		
+			 from the <span class="dept-text">write-once-run-anywhere</span> dept.
+		
+		</span>
+	</div>
+</header>
+
+<div class="body" id="fhbody-63144335">
+	
+
+	
+		
+		<div id="text-63144335" class="p">
+			
+		 	
+				<a href="/~chicksdaddy">chicksdaddy</a> writes: <i>A four-year-old vulnerability in an open source component that is a critical part of Android <a href="https://securityledger.com/2014/07/old-apache-code-at-root-of-android-fakeid-mess/">leaves hundreds of millions of mobile devices susceptible to silent malware infections</a>. The vulnerability <a href="http://bluebox.com/news/">affects devices running Android versions 2.1 to 4.4</a> ("KitKat"), according to a statement released by Bluebox. The vulnerability was found in a package installer in affected versions of Android. The installer doesn't attempt to determine the authenticity of certificate chains that are used to vouch for new digital identity certificates. In short, Bluebox writes, "an identity can claim to be issued by another identity, and the Android cryptographic code will not verify the claim."<br> <br>The security implications of this are vast. Malicious actors could create a malicious mobile application with a digital identity certificate that claims to be issued by Adobe Systems. Once installed, vulnerable versions of Android will treat the application as if it was actually signed by Adobe and give it access to local resources, like the special webview plugin privilege, that can be used to sidestep security controls and virtual 'sandbox' environments that keep malicious programs from accessing sensitive data and other applications running on the Android device. The flaw appears to have been introduced to Android through an open source component, <a href="http://harmony.apache.org/">Apache Harmony</a>. Google turned to Harmony as an alternative means of supporting Java in the absence of a deal with Oracle to license Java directly.<br> <br>Work on Harmony was discontinued in November, 2011. However, Google has continued using native Android libraries that are based on Harmony code. The vulnerability concerning certificate validation in the package installer module persisted even as the two codebases diverged.</i>
+		 	
+		</div>
+
+		
+
+		
+
+		
+	</div>
+	<aside class="novote">
+		
+	</aside>
+	
+	  	
+
+		
+		<footer class="clearfix meta article-foot">
+			<div class="story-controls">
+				
+                    
+					
+				
+			</div>
+			
+				
+				<div class="story-tags">
+					<span class="tright tags"><menu type="toolbar" class="edit-bar">
+		<span id="tagbar-63144335" class="tag-bar none">
+			<a  class="topic tag" rel="statictag" href="//14.xb.sf.net/tag/" target="_blank"></a>
+
+		</span>
+		
+		<!--
+			<a class="edit-toggle" href="/my/login/" onclick="show_login_box();return false;">
+				<span class="icon-tag btn collapse"></span>
+			</a>
+			-->
+		
+		
+		<div class="tag-menu">
+			<input class="tag-entry default" type="text" value="apply tags">
+		</div>
+		
+
+		
+		
+
+	</menu></span>
+				</div>
+				
+			
+		</footer>
+	
+
+
+
+	</article>
+				</div>
+
+				<!-- LOWER PAGINATION -->
+				<div class="row">
+					<div class="paginate" id="fh-pag-div">
+<div class="menu2" id="fh-paginate">
+
+
+
+
+
+	 
+	 <a class="prevnextbutdis" href="#" onclick="return false;">&laquo; Newer</a>
+
+	
+		<a class="prevnextbutdis" href="#" onclick="return false;">Older &raquo;</a>
+
+	<span class="inactive more">
+		
+	</span>
+
+
+
+
+
+</div>
+</div>
+				</div>
+
+				<!-- WIT -->
+				<span id="itemsreturned" class="row">
+					
+				</span>
+				
+
+				<div class="row">
+				</div>
+
+				
+
+				<!-- Taboola: below articles widget -->
+<div class="row">
+	<div id="taboola-below-article-thumbnails-2nd"></div>
+	<script type="text/javascript">
+		window._taboola = window._taboola || [];
+		_taboola.push({
+			mode: 'thumbnails-b',
+			container: 'taboola-below-article-thumbnails-2nd',
+			placement: 'Below Article Thumbnails 2nd',
+			target_type: 'mix'
+		});
+	</script>
+</div>
+
+				<!-- Slashdot Deals 6 Best Sellers -->
+				<div class="row">
+					<div class="deals-wrapper">
+					  <div class="deals-header"><h1>Slashdot Top Deals</h1></div>
+					  <div id="deals-output">
+						<script id="deals-template" type="text/x-handlebars-template">
+						  {{#each deal}}
+							<div class="deal">
+							  <a href="{{urlPath permalink}}?&utm_source=slashdot.org&utm_medium=dealfeed-footerfeed&utm_campaign={{slug}}" target="_blank">
+							  	<img src="{{main_image}}" alt="" />
+							  </a>
+							  <p class="title"><a href="{{urlPath permalink}}?&utm_source=slashdot.org&utm_medium=dealfeed-footerfeed&utm_campaign={{slug}}" target="_blank">{{title}}</a></p>
+							  <p class="deal-price">{{centConversion price_in_cents}}</p>
+							</div>
+						  {{/each}}
+						</script>
+					  </div>
+					</div>
+				</div>
+				<script>
+					if ( isAdBlockActive && window.is_euro_union === 0) {
+						$.getScript( "//images-ssl.14.xb.sf.net/js/scripts/min/deals-min.js", function(){
+							runDealsWidget();
+						});
+					}
+				</script>
+
+			<!-- End Slashdot Deals 6 Best Sellers -->
+
+				<!-- SLASH-4560 NEW AD HERE (dhand) -->
+				<div id="bottomadspace">
+					<table id="bottomadtable">
+						<tr>
+							<td><div id='div-gpt-ad-728x90_b'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-728x90_b');});</script></div></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		
+	<aside id="slashboxes" class="rail-right scroll-fixable">
+
+	   
+		   <div class="advertisement railad adwrap-unviewed">
+<div id='div-gpt-ad-300x250_a'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-300x250_a');});</script></div>
+</div>
+	   
+		<article class="deals-rail">
+		  <header id="slashdot_deals-title"><h2>Slashdot Top Deals</h2></header>
+		  <div id="deals-rail-output">
+			<script id="deals-rail-template" type="text/x-handlebars-template">
+				{{#each deal}}
+					<div class="">
+					  <a href="{{urlPath permalink}}?&utm_source=slashdot.org&utm_medium=dealfeed-righthand&utm_campaign={{slug}}" target="_blank">
+					  	<img src="{{main_image}}" alt="" />
+					  </a>
+					  <div class="deal-overlay">
+						  <div class="title"><a href="{{urlPath permalink}}?&utm_source=slashdot.org&utm_medium=dealfeed-righthand&utm_campaign={{slug}}" target="_blank">{{title}}</a></div>
+						  <div class="deal-price">{{centConversion price_in_cents}}</div>
+						</div>
+					</div>
+				{{/each}}
+			</script>
+		  </div>
+		</article>
+
+		<!-- Newsletter image -->
+		<div class="ad-blocked-newsletter">
+			<a href="//slashdot.org/newsletter" target="_blank"><img src="//images-ssl.14.xb.sf.net/NewsletterSubscription.png" alt="" /></a>
+		</div>
+
+
+		
+
+
+			<script type="text/javascript">
+				$(function() {
+					// Poll/Pulse
+					(function(){
+						var sd_poll = $('#poll'),
+								pulsead = $('#div-gpt-ad-pulse_300x600_a');
+
+						sd_poll.hide();
+
+						function showSdPoll(){
+							if( pulsead.closest('.advertisement').height() < 250 ) {
+								sd_poll.fadeIn();
+								pulsead.closest('.advertisement').hide();
+							}
+						}
+						//this function will display the Slashdot Poll if the Pulse Ad is not delivered
+						setTimeout(function() { showSdPoll(); }, 2000);
+					})();
+				});
+			</script>
+			<div id='my_forgebox'>
+				 <article class="mq" id="user_bio">
+  <header class="title" id="forge-downloads-block">
+    <h2><a href="http://sourceforge.net/top/" style="text-decoration:none;">SourceForge Top Downloads</a></h2>
+  </header>
+  <section class="content">
+    <ul id="sfsyndc">
+    
+      <li class="mingw"><a href="https://sourceforge.net/projects/mingw/?source=slashdot" onClick="pageTracker._trackPageview("/forgerefferal/mingw");"><img src="https://a.fsdn.com/con/img/project_default.png">MinGW - Minimalist GNU for Windows</a></li>
+    
+      <li class="sapnweclipse"><a href="https://sourceforge.net/projects/sapnweclipse/?source=slashdot" onClick="pageTracker._trackPageview("/forgerefferal/sapnweclipse");"><img src="https://a.fsdn.com/allura/p/sapnweclipse/icon">SAP NetWeaver Server Adapter for Eclipse</a></li>
+    
+      <li class="corefonts"><a href="https://sourceforge.net/projects/corefonts/?source=slashdot" onClick="pageTracker._trackPageview("/forgerefferal/corefonts");"><img src="https://a.fsdn.com/con/img/project_default.png">Microsoft's TrueType core fonts</a></li>
+    
+      <li class="msys2"><a href="https://sourceforge.net/projects/msys2/?source=slashdot" onClick="pageTracker._trackPageview("/forgerefferal/msys2");"><img src="https://a.fsdn.com/allura/p/msys2/icon">MSYS2</a></li>
+    
+      <li class="orphamielautoclicker"><a href="https://sourceforge.net/projects/orphamielautoclicker/?source=slashdot" onClick="pageTracker._trackPageview("/forgerefferal/orphamielautoclicker");"><img src="https://a.fsdn.com/allura/p/orphamielautoclicker/icon">AutoClicker</a></li>
+    
+    </ul>
+  </section>
+</article>
+			</div>
+
+			
+
+					<article id="slashdot_deals" class="nosort">
+		<header id="slashdot_deals-title">
+			<h2><a href="http://deals.slashdot.org/">Slashdot Deals</a></h2>
+		</header>
+		<section class="b" id="slashdot_deals-content">
+			<script type='text/javascript'>
+googletag.cmd.push(function()
+{ googletag.defineSlot('/7346874/sld-300x250', [300, 250], 'div-gpt-ad-1435005138111-0').addService(googletag.pubads()); googletag.pubads().enableSingleRequest(); googletag.enableServices(); }
+);
+</script>
+<div id='div-gpt-ad-1435005138111-0' style='height:250px; width:300px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function()
+{ googletag.display('div-gpt-ad-1435005138111-0'); }
+);
+</script>
+</div>
+			
+		</section>
+	</article><div class="railad advertisement">
+<div id='div-gpt-ad-300x250_b'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-300x250_b');});</script></div>
+</div><div class="railad advertisement">
+<div id='div-gpt-ad-300x250_c'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-300x250_c');});</script></div>
+</div><div id="taboola-below-main-column-thumbnails"></div>
+<script type="text/javascript">
+  if ( 1 || isAdBlockActive ) {
+    if (window.is_euro_union === 0) {
+      window._taboola = window._taboola || [];
+      _taboola.push({
+        mode: 'thumbnails-rr3',
+        container: 'taboola-below-main-column-thumbnails',
+        placement: 'Below Main Column Thumbnails',
+        target_type: 'mix'
+      });
+    }
+  };
+</script><article id="mostdiscussed" class="nosort">
+		<header id="mostdiscussed-title">
+			<h2><a href="">Most Discussed</a></h2>
+		</header>
+		<section class="b" id="mostdiscussed-content">
+			<ul id="mostdiscussed">
+
+
+<li>
+<span class="cmntcnt"><span class="slant"></span><span >329<span class="hide"> comments</span></span></span>
+ <a href="//developers.slashdot.org/story/14/08/08/157218/oracle-hasnt-killed-java----but-theres-still-time?sbsrc=md">Oracle Hasn't Killed Java -- But There's Still Time</a>
+</li>
+
+
+<li>
+<span class="cmntcnt"><span class="slant"></span><span >322<span class="hide"> comments</span></span></span>
+ <a href="//hardware.slashdot.org/story/14/08/08/1934201/ask-slashdot-life-beyond-the-wrt54g-series?sbsrc=md">Ask Slashdot: Life Beyond the WRT54G Series?</a>
+</li>
+
+
+<li>
+<span class="cmntcnt"><span class="slant"></span><span >315<span class="hide"> comments</span></span></span>
+ <a href="//tech.slashdot.org/story/14/08/07/1644209/with-chinese-investment-nicaraguan-passage-could-dwarf-panama-canal?sbsrc=md">With Chinese Investment, Nicaraguan Passage Could Dwarf Panama Canal</a>
+</li>
+
+
+<li>
+<span class="cmntcnt"><span class="slant"></span><span >279<span class="hide"> comments</span></span></span>
+ <a href="//games.slashdot.org/story/14/08/07/1613212/california-man-sues-sony-because-killzone-shadowfall-isnt-really-1080?sbsrc=md">California Man Sues Sony Because <em>Killzone: Shadowfall</em> Isn't Really 1080p</a>
+</li>
+
+
+<li>
+<span class="cmntcnt"><span class="slant"></span><span >272<span class="hide"> comments</span></span></span>
+ <a href="//science.slashdot.org/story/14/08/07/2231212/why-the-nasa-tested-space-drive-is-bad-science?sbsrc=md">Why the "NASA Tested Space Drive" Is Bad Science</a>
+</li>
+
+</ul>
+			
+		</section>
+	</article><article class="nosort">
+	<header id="srandblock-title">
+		<h2>Developers</h2>
+	</header>
+	<section class="b" id="srandblock-content">
+		<ul>
+<li>
+
+	
+	<a href="//politics.14.xb.sf.net/story/14/08/08/1852203/russia-cracks-down-on-public-wi-fi-oracle-blocks-java-downloads-in-russia?utm_source=rss0.9mainlinkanon&amp;utm_medium=feed&amp;sbsrc=developers">
+		Russia Cracks Down On Public Wi-Fi; Oracle Blocks Java Downloads In Russia
+	</a>
+</li><li>
+
+	
+	<a href="//developers.14.xb.sf.net/story/14/08/08/157218/oracle-hasnt-killed-java----but-theres-still-time?utm_source=rss0.9mainlinkanon&amp;utm_medium=feed&amp;sbsrc=developers">
+		Oracle Hasn't Killed Java -- But There's Still Time
+	</a>
+</li><li>
+
+	
+	<a href="//developers.14.xb.sf.net/story/14/08/07/2153221/google-fit-preview-sdk-arrives-for-android-developers?utm_source=rss0.9mainlinkanon&amp;utm_medium=feed&amp;sbsrc=developers">
+		Google Fit Preview SDK Arrives For Android Developers
+	</a>
+</li><li>
+
+	
+	<a href="//games.14.xb.sf.net/story/14/08/07/227259/valve-discloses-source-2-engine-in-recent-dota-2-update?utm_source=rss0.9mainlinkanon&amp;utm_medium=feed&amp;sbsrc=developers">
+		Valve Discloses Source 2 Engine In Recent DOTA 2 Update
+	</a>
+</li><li>
+
+	
+	<a href="//developers.14.xb.sf.net/story/14/08/07/1345237/oracle-database-redaction-trivial-to-bypass-says-david-litchfield?utm_source=rss0.9mainlinkanon&amp;utm_medium=feed&amp;sbsrc=developers">
+		Oracle Database Redaction Trivial To Bypass, Says David Litchfield
+	</a>
+</li>
+</ul>
+	</section>
+</article><article id="thisday" class="nosort">
+		<header id="thisday-title">
+			<h2><a href="">This Day on Slashdot</a></h2>
+		</header>
+		<section class="b" id="thisday-content">
+			<style type="text/css">
+.thisday-yr {
+     background: none repeat scroll 0% 0% #333333;
+     color: #FFFFFF;
+     font-size: 105%;
+     font-weight: bold;
+}
+
+.thisday-tb tr td {
+     background: none repeat scroll 0% 0% #E6E6E6;
+}
+
+.thisday-tb tr td.thisday-yr {
+     background: none repeat scroll 0% 0% #006666;
+}
+
+.thisday-tb {
+	background: #333333;
+}
+
+
+.thisday-tb tbody tr:first-child td, tbody tr:first-child th {
+  border-top: 0px solid #BEBEBE;
+}
+</style>
+
+<table bgcolor="333333" class="thisday-tb"><tbody>
+
+
+<tr>
+	<td class="thisday-yr">
+		2012
+	</td>
+	<td>
+		<a href="//ask.slashdot.org/story/12/08/09/1549240/ask-slashdot-how-many-of-you-actually-use-math?sbsrc=thisday">Ask Slashdot: How Many of You Actually Use Math?</a>
+	</td>
+	<td>
+	<span style="" class="cmntcnt"><span style="background:#333" class="slant"></span><span style="background: #333; color:#fff; font-weight:bold; font-size:.85em">1086<span class="hide"> comments</span></span></span>
+	</td>
+</tr>
+
+
+<tr>
+	<td class="thisday-yr">
+		2010
+	</td>
+	<td>
+		<a href="//news.slashdot.org/story/10/08/09/1327251/abandon-earth-or-die-warns-hawking?sbsrc=thisday">Abandon Earth Or Die, Warns Hawking</a>
+	</td>
+	<td>
+	<span style="" class="cmntcnt"><span style="background:#333" class="slant"></span><span style="background: #333; color:#fff; font-weight:bold; font-size:.85em">973<span class="hide"> comments</span></span></span>
+	</td>
+</tr>
+
+
+<tr>
+	<td class="thisday-yr">
+		2008
+	</td>
+	<td>
+		<a href="//news.slashdot.org/story/08/08/09/2231231/did-nbc-alter-the-olympics-opening-ceremony?sbsrc=thisday">Did NBC Alter the Olympics' Opening Ceremony?</a>
+	</td>
+	<td>
+	<span style="" class="cmntcnt"><span style="background:#333" class="slant"></span><span style="background: #333; color:#fff; font-weight:bold; font-size:.85em">499<span class="hide"> comments</span></span></span>
+	</td>
+</tr>
+
+
+<tr>
+	<td class="thisday-yr">
+		2005
+	</td>
+	<td>
+		<a href="//hardware.slashdot.org/story/05/08/09/1326221/when-should-you-buy-your-kid-a-laptop?sbsrc=thisday">When Should You Buy Your Kid A Laptop?</a>
+	</td>
+	<td>
+	<span style="" class="cmntcnt"><span style="background:#333" class="slant"></span><span style="background: #333; color:#fff; font-weight:bold; font-size:.85em">856<span class="hide"> comments</span></span></span>
+	</td>
+</tr>
+
+
+<tr>
+	<td class="thisday-yr">
+		2001
+	</td>
+	<td>
+		<a href="//slashdot.org/story/01/08/09/0323208/broadband-crackdown?sbsrc=thisday">Broadband Crackdown</a>
+	</td>
+	<td>
+	<span style="" class="cmntcnt"><span style="background:#333" class="slant"></span><span style="background: #333; color:#fff; font-weight:bold; font-size:.85em">790<span class="hide"> comments</span></span></span>
+	</td>
+</tr>
+
+</tbody></table>
+			
+		</section>
+	</article><article id="sourceforge2" class="nosort">
+		<header id="sourceforge2-title">
+			<h2><a href="">Sourceforge Top Downloads</a></h2>
+		</header>
+		<section class="b" id="sourceforge2-content">
+			<ul class="sf_widget">
+    <li>
+                <a onclick="trackLink(this, 'sfSlashboxDownloadLink', 'http://sourceforge.net/projects/vlc/?source=sd_slashbox');return false;" href="http://sourceforge.net/projects/vlc/?source=sd_slashbox">VLC Media Player<span class="sf-size">822M Downloads</span></a>
+</li>
+   <li>
+                <a onclick="trackLink(this, 'sfSlashboxDownloadLink', 'http://sourceforge.net/projects/emule/?source=sd_slashbox');return false;" href="http://sourceforge.net/projects/emule/?source=sd_slashbox">eMule<span class="sf-size">683M Downloads</span></a>
+   </li>
+       <li>
+                <a onclick="trackLink(this, 'sfSlashboxDownloadLink', 'http://sourceforge.net/projects/azureus/?source=sd_slashbox');return false;" href="http://sourceforge.net/projects/azureus/?source=sd_slashbox">Azureus/vuze<span class="sf-size">539M Downloads</span></a>
+       </li>
+        <li>
+                <a onclick="trackLink(this, 'sfSlashboxDownloadLink', 'http://sourceforge.net/projects/aresgalaxy/?source=sd_slashbox');return false;" href="http://sourceforge.net/projects/aresgalaxy/?source=sd_slashbox">Ares Galaxy<span class="sf-size">338M Downloads</span></a>
+   </li>
+       <li>
+                <a onclick="trackLink(this, 'sfSlashboxDownloadLink', 'href=" http:="" sourceforge.net="" projects="" corefonts="" ');return="" false;"="" href="http://sourceforge.net/projects/corefonts/?source=sd_slashbox">Microsoft core fonts<span class="sf-size">300M Downloads</span></a>
+     </li>
+</ul>
+<div id="sf-logo">
+       <p>Powered By</p>
+      <a onclick="trackLink(this, 'sfSlashboxHomeLink', 'http://sourceforge.net/?source=sd_slashbox');return false;" href="http://sourceforge.net/?source=sd_slashbox">sf</a>
+</div>
+			
+		</section>
+	</article>
+					<div class="advertisement railad">
+<div id='div-gpt-ad-300x250_d'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-300x250_d');});</script></div>
+</div>
+					
+						
+						
+					
+				
+			
+	</aside>
+</div>
+
+<script type="text/javascript">
+	firehose_exists = 1;
+	$(function(){
+	$('#firehose-filter').focus(function(event){ gFocusedText = this; })
+	.blur(function(event){
+		if ( gFocusedText === this ) {
+			gFocusedText = null;
+		}
+	});
+
+	
+	apply_updates_when(		'at-end', true);
+});
+
+			
+					firehose_settings.startdate = "";
+					firehose_settings.mode = "full";
+					firehose_settings.fhfilter = "apache";
+					firehose_settings.orderdir = "DESC";
+					firehose_settings.orderby = "createtime";
+					firehose_settings.duration = -1;
+					firehose_settings.color = "green";
+					firehose_settings.view = "stories";
+					firehose_settings.viewtitle = "";
+					firehose_settings.tab = "";
+					firehose_settings.base_filter = "apache";
+					firehose_settings.user_view_uid = "";
+					firehose_settings.sectionname = "Apache";
+	
+	firehose_settings.issue = "";
+	firehose_settings.section = 11;
+	$('#searchquery').val(firehose_settings.fhfilter);
+
+	
+
+    fh_is_admin = 0;
+
+	firehose_sitename = "Slashdot";
+	firehose_slogan = "News for nerds, stuff that matters";
+    if (fh_is_admin) {
+	   firehose_update_title_count();
+    }
+	firehose_smallscreen = 0;
+
+	
+
+	
+	
+		firehose_settings.index = 1;
+	
+
+	
+
+	var firehose_action_time = 0;
+	var firehose_user_class = 0;
+	
+	
+	
+	var fh_color = "green";
+	fh_colors = [ "red", "orange", "yellow", "green", "blue", "indigo", "violet", "black" ];
+	var fh_colors_hash = new Array(0);
+	for (var i=0; i< fh_colors.length; i++) {
+		fh_colors_hash[fh_colors[i]] = i;
+	}
+
+	var fh_view_mode = "full";
+	firehose_settings.page = 0;
+	
+	fh_is_admin = 0;
+	var updateIntervalType = 2;
+	var inactivity_timeout = 3600;
+	setFirehoseAction();
+	var update_time = "2021-01-23 06:19:46";
+
+	var maxtime = "2021-01-23 06:19:46";
+	var insert_new_at = "top";
+
+	
+
+fh_ticksize = 15;
+sitename = 'idle.slashdot.org';
+
+
+
+
+
+</script><!-- footer type=current begin -->
+
+	
+	</section>
+	
+	
+
+
+	<footer id="fhft" class="grid_24 nf">
+		<div id="logo_nf" class="fleft">
+			<a href="//14.xb.sf.net"><span>Slashdot</span></a>
+		</div>
+		<nav role="firehose footer">
+			
+
+			
+				<ul id="pagination-controls">
+					
+						
+						<li class="fleft">
+							<a href="//apache.14.xb.sf.net/?issue=20210123">Today</a>
+						</li>
+					
+						
+						<li class="fleft">
+							<a href="//apache.14.xb.sf.net/?issue=20210122">Friday</a>
+						</li>
+					
+						
+						<li class="fleft">
+							<a href="//apache.14.xb.sf.net/?issue=20210121">Thursday</a>
+						</li>
+					
+						
+						<li class="fleft">
+							<a href="//apache.14.xb.sf.net/?issue=20210120">Wednesday</a>
+						</li>
+					
+						
+						<li class="fleft">
+							<a href="//apache.14.xb.sf.net/?issue=20210119">Tuesday</a>
+						</li>
+					
+						
+						<li class="fleft">
+							<a href="//apache.14.xb.sf.net/?issue=20210118">Monday</a>
+						</li>
+					
+						
+						<li class="fleft">
+							<a href="//apache.14.xb.sf.net/?issue=20210117">Sunday</a>
+						</li>
+					
+						
+						<li class="fleft">
+							<a href="//apache.14.xb.sf.net/?issue=20210116">Saturday</a>
+						</li>
+					
+				</ul>
+				<script> /* fh_pag_update() */</script>
+			
+			<ul class="fright submitstory">
+					<li class="fright">
+						<a href="/submit">Submit<span class="opt"> Story</span></a>
+					</li>
+			</ul>
+		</nav>
+		
+		<!-- <meta httpxequiv="refresh" content="1200000"> -->
+		<script src="//images-ssl.14.xb.sf.net/autorefresh-query.js?B-1611348213"></script>
+		<script>
+			// Set Timeout to reload the page and trigger the manageQueryStringParam function
+			setTimeout(function(){
+				window.location = manageQueryStringParam('source', 'autorefresh');
+			}, 1200000);
+		</script>
+		
+
+
+	</footer>
+	<section class="bq">
+		<blockquote class="msg grid_24" cite="https://slashdot.org">
+			<p><<<<< EVACUATION ROUTE <<<<<</p>
+			<span class="slant"></span>
+		</blockquote>
+	</section>
+	<footer id="ft" class="grid_24">
+		<nav class="grid_10" role="footer">
+			<ul>
+				<li><a href="//14.xb.sf.net/faq">FAQ</a></li>
+				<li><a href="//14.xb.sf.net/archive.pl">Story Archive</a></li>
+				<li><a href="//14.xb.sf.net/hof.shtml">Hall of Fame</a></li>
+				<li><a href="http://slashdotmedia.com/advertising-and-marketing-services/" rel="nofollow">Advertising</a></li>
+				<li><a href="http://slashdotmedia.com/terms-of-use/" rel="nofollow">Terms</a></li>
+				<li><a href="http://slashdotmedia.com/privacy-statement/" rel="nofollow">Privacy Statement</a></li>
+				<li><a href="//14.xb.sf.net/faq/slashmeta.shtml">About</a></li>
+				<li><a href="mailto:feedback@slashdot.org">Feedback</a></li>
+				<li><a href="#" onclick="set_mobile_pref('mobile',1);return false;">Mobile View</a></li>
+				<li><a href="//14.xb.sf.net/blog">Blog</a></li>
+				<li><a href="#" id="opt-out-link"></a></li>
+				<li><button class="btn opt-out" id="opt-out-button" style="display:none">
+					<img src="//images-ssl.14.xb.sf.net/ccpa-optout.png" alt="Icon">
+					Do Not Sell My Personal Information</button></li>
+
+			</ul>
+		</nav>
+		<br>
+		
+		<div class="grid_14 tright tm">Trademarks property of their respective owners. Comments owned by the poster. <span class="nobr">Copyright &copy; 2021 SlashdotMedia. All Rights Reserved.</span></div>
+
+	<div class="modal-custom overlay-custom" id="ccpa-modal" style="max-width:100%">
+		<div class="modal-content modal-content-ccpa">
+	    	<span class="close" id="modal-close">&times;</span>
+			<div class="modal-header" id="ccpa-modal-content-destination"></div>
+		</div>
+	</div>
+
+	</footer>
+	
+	<div class="overlay"></div>
+<div class="modal-box">
+    <a href="#" id="close-modal">Close</a>
+    <article class="modal-content">
+    </article>
+    <footer>
+</div>
+
+
+
+
+<div id="modal_cover" class="hide" onclick="hide_modal_box(); return false;"></div>
+<div id="modal_box" class="hide">
+      <div id="modal_box_content"></div>
+      <header class="n">
+                  <span class="fadeout"></span>
+                  <span class="fadeoutfade"></span>
+		  <span class="pf"><a class="ico close" onclick="hide_modal_box(); return false;" href="#"><span>Close</span></a></span>
+		  <h3 class="pf"><div id="logo"><a href="//14.xb.sf.net">Slashdot</a></div><span id="preference_title"></span></h3>
+      </header>
+</div>
+	
+	<!-- CCM Tag -->
+<script type="text/javascript">
+bizx.cmp.ifConsent('', ['all','bombora'], function() {
+        /*global _ml:true, window */
+        _ml = window._ml || {};
+        _ml.eid = '771';
+
+        var s = document.getElementsByTagName('script')[0], cd = new Date(), mltag = document.createElement('script');
+        mltag.type = 'text/javascript'; mltag.async = true;
+        mltag.src = '//ml314.com/tag.aspx?' + cd.getDate() + cd.getMonth() + cd.getFullYear();
+        s.parentNode.insertBefore(mltag, s);
+});
+</script>
+<!-- End CCM Tag -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-32013-5";
+
+var _gaq = _gaq || [];
+
+
+
+
+
+  _gaq.push(['_setAccount', 'UA-36136016-1']);
+  _gaq.push(['b._setAccount', 'UA-32013-5']);
+  _gaq.push(['_setDomainName', '.slashdot.org']);
+  _gaq.push(['b._setDomainName', '.slashdot.org']);
+
+	
+		_gaq.push(['_addIgnoredRef', 'slashdot.org']);
+		_gaq.push(['b._addIgnoredRef', 'slashdot.org']);
+	
+
+
+  _gaq.push(['_setCustomVar', 1, 'User Type',  'Anon', 3]);
+  _gaq.push(['b._setCustomVar', 1, 'User Type',  'Anon', 3]);
+	
+	_gaq.push(['_setCustomVar', 2, 'Page','index2', 3]);
+	_gaq.push(['b._setCustomVar', 2, 'Page','index2', 3]);
+
+	
+
+
+
+// track beta behavior for user
+var betamatches = document.cookie.match(/betagroup=(-?\d+)/);
+
+if(betamatches && betamatches[1]) {
+  if(betamatches[1] == -1) {
+    _gaq.push(['_setCustomVar', 3, 'Beta-Usage','opt-out', 3]);
+  } else {
+    _gaq.push(['_setCustomVar', 3, 'Beta-Usage','unredirected', 3]);
+  }
+}
+
+
+
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['b._trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['b._trackPageLoadTime']);
+
+
+if (window.is_euro_union === 0) {
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+}
+</script>
+
+<!-- CCM GA Push -->
+<script>
+    if (typeof _ml !== 'undefined' && _ml.us) {
+        if (_ml.us.tp && _ml.us.tp.length > 0) {
+            ga('set', 'dimension2', _ml.us.tp[0]);
+        }
+        if (_ml.us.pc && _ml.us.pc.length > 0) {
+            ga('set', 'dimension7', _ml.us.pc[0]);
+        }
+        ga('set', 'dimension3', _ml.us.ind);
+        ga('set', 'dimension4', _ml.us.cr);
+        ga('set', 'dimension5', _ml.us.cs);
+        ga('set', 'dimension6', _ml.us.dm);
+        ga('set', 'dimension8', _ml.us.sn);
+    }
+</script>
+
+<!-- Sticky Ads -->
+<script type="text/javascript">
+var topBannerViewed = false;
+if($('#div-gpt-ad-728x90_a').length > 0 && $('#div-gpt-ad-300x250_a').length > 0 && window.outerWidth >= 1070 && !isAdBlockActive){
+    $(window).scroll(function(){
+        var y = $(document).scrollTop();
+        var z =  y + window.outerHeight;
+        var navOffset = 0;
+        var offset = [
+            $('.nav-wrap').outerHeight(true),
+            $('.nav-secondary-wrap').outerHeight(true)
+        ];
+        for(row in offset){
+            if(offset[row]) navOffset = navOffset + parseInt(offset[row]);
+        }
+        $('.adwrap-unviewed').each(function(){
+            var cls = 'adwrap-sticky';
+            var toggleCls = 'adwrap';
+			//$('.banner-wrapper').css('height', $('.banner-contain').outerHeight());
+            if($(this).hasClass('railad')) {
+                if(topBannerViewed){
+                    var topPixels = $(this).offset().top;
+                    navOffset += $('.adwrap').outerHeight();
+                    if(y >= topPixels && y >= navOffset){
+                        $('#slashboxes').css('top', 0).css('position','fixed').css('right',13);
+                    } else {
+                        $('#slashboxes').removeAttr('style');
+                    }
+                }
+                return;
+            }
+            var topPixels = $(this).offset().top;
+        if(y >= topPixels && y >= navOffset){
+                $(this).addClass(cls);
+                $(this).removeClass('adwrap');
+				if(cls == 'adwrap-sticky') { //top banner
+                    topBannerViewed = false;
+					$('#slashboxes').css('top',$(this).outerHeight() || 0).css('position','fixed').css('right',13);
+				}
+        if(topBannerViewed) {
+                    //console.log('hereeee');
+					$('#slashboxes').css('top', 0).css('position','fixed').css('right',13);
+				}
+            }else{
+								//console.log('topBannerViewed', topBannerViewed);
+                $(this).removeClass(cls);
+                $(this).addClass(toggleCls);
+                $('#slashboxes').removeAttr('style');
+            }
+        });
+		if($('.adwrap-viewed-banner').length > 0){
+		  //console.log('ads topBanner displayed');
+			topBannerViewed = true;
+			$('.adwrap-viewed-banner').removeClass('adwrap-unviewed').removeClass('adwrap-sticky').addClass('adwrap');
+		}
+    if($('.adwrap-viewed-railad').length > 0){
+						//console.log('ads sidebar displayed');
+            $('.adwrap-viewed-railad').removeClass('adwrap-unviewed').removeClass('adwrap-railad-sticky');
+			$('#slashboxes').removeAttr('style');
+		}
+    });
+}
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setCookieDomain", "*.slashdot.org"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+function initPiwikAndNels() {
+  (function() {
+    var u="//analytics.slashdotmedia.com/";
+    _paq.push(['setTrackerUrl', u+'sd.php']);
+    _paq.push(['setSiteId', 40]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'sd.js'; s.parentNode.insertBefore(g,s);
+  })();
+
+    if(window.location.pathname == '/'){
+        var nelId = (location.search.split('nel_id=')[1] || '').split('&')[0];
+        var url = '/ajax.pl?op=nel';
+        if(nelId){
+            url += '&nel_id='+nelId;
+        }
+        $.ajax({
+            url: url,
+            success: function(html){
+                $('#firehoselist article').eq(1).after(html);
+            }
+        });
+    }
+    //announcement NEL
+    if(document.getElementById('announcementText')){
+      $('#announcementText').hide();
+      var hlUrl = '/ajax.pl?op=hl_nel';
+      if(nelId){
+        hlUrl += '&nel_id='+nelId;
+      }
+      $.ajax({
+        url: hlUrl,
+        success: function(html){
+          if(html.length < 10){
+            $('#announcementText').show();
+            return;
+          }
+          $('#announcementText').html(html).show();
+        },
+        error: function () {
+          $('#announcementText').show();
+        }
+      });
+    }
+}
+bizx.cmp.ifConsent('', ['storage', 'measurement'], initPiwikAndNels);
+</script>
+
+
+<script type="text/javascript">
+_linkedin_data_partner_id = "113712";
+</script><script type="text/javascript">
+if (window.is_euro_union === 0) {
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+}
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=113712&fmt=gif" />
+</noscript>
+
+<!-- Datonics -->
+<script type="text/javascript">
+if (window.is_euro_union === 0) {
+    bizx.cmp.embedScript("//ads.pro-market.net/ads/scripts/site-143573.js", true);
+}
+</script>
+	<script id="after-content" type="text/javascript">
+(function( $, fn, console ){
+	$ && fn && $(function(){ fn($, console); });
+})(window.jQuery, window.pageload_done, window.console);
+</script>
+	
+	<script type='text/javascript'>
+	if(!document.location.href.match(/source=autorefresh/)) {
+		document.write('<img src="//14.xb.sf.net/images/js.gif?544">');
+	}
+</script>
+<noscript>
+	<img src="//14.xb.sf.net/images/njs.gif?397">
+</noscript>
+	<div class="busy genericspinner hide"><span>Working...</span></div>
+
+	    <script>
+            var regular_opt_out_link = true;
+
+            if (window.region == 'CA' && window.country_code2 == 'US') {
+                regular_opt_out_link = false;
+                 document.getElementById('opt-out-button').setAttribute('style', 'display:inline');
+            }
+
+            if (window.is_euro_union === 1) {
+                regular_opt_out_link = false;
+                var elem = '<a href="#" title="Privacy Choices" onclick="bizx.cmp.promptConsent(); return false;">Privacy Choices</a>';
+                document.getElementById('opt-out-link').innerHTML = elem;
+            }
+
+            if (regular_opt_out_link == true) {
+                var elem = '<a href="http://slashdotmedia.com/opt-out-choices" title="Opt Out" rel="nofollow">Opt Out</a>';
+                document.getElementById('opt-out-link').innerHTML = elem;
+            }
+            var cmp_modal = document.getElementById('ccpa-modal');
+            var btn = document.getElementById('opt-out-button');
+            var span = document.getElementById('modal-close');
+
+            btn.onclick = function() {
+            	cmp_modal.style.display = 'block';
+            };
+
+            span.onclick = function() {
+            	cmp_modal.style.display = 'none';
+            };
+
+         </script>
+
+	<script>
+		if(typeof(Storage)!=="undefined"){
+			window.scrollTo(0,sessionStorage.scrollPos);
+				$(window).scroll(function () {
+				//You've scrolled this much:
+				sessionStorage.scrollPos = $(window).scrollTop();
+			});
+		}
+		$(function(){
+			$('a').click(function(){
+				delete sessionStorage.scrollPos;
+			})
+		});
+		// window.onbeforeunload = function () {
+		// 	console.log('bakc button clicked');
+		// 	delete sessionStorage.scrollPos;
+		// }
+		window.onpopstate=function() {
+			delete sessionStorage.scrollPos;
+		}
+	</script>
+	
+
+	
+		<!-- 1x1 home page -->
+		<div id='div-gpt-ad-1x1'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-1x1');});</script></div>
+	
+
+	<script type="text/javascript">
+	if (window.is_euro_union === 0) {
+			window._taboola = window._taboola || [];
+			_taboola.push({flush: true});
+	}
+	</script>
+        <script>
+            if (window.is_euro_union === 0) {
+                document.querySelectorAll('body')[0].classList.add('no-cmp');
+            }
+
+        </script>
+	</body>
+	</html>
+
+
+	<!-- footer type=current end -->```
