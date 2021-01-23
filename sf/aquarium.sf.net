@@ -1,0 +1,91 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+
+<html>
+<head>
+  <title>Aquarium</title>
+  <style type="text/css">
+    body {
+      background: white;
+      font-family: halvetica,arial,sans-serif;
+      font-size: 10pt;
+      width: 600px;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+<p>
+  <img src="images/aquarium.png" width="250" height="74" alt="Aquarium"
+    border="0">
+
+<p>
+  Aquarium is a Web application 
+  
+  <a href="http://aquarium.sourceforge.net/api/public/aquarium-module.html#webapp">[1]</a>
+  framework 
+  <a href="http://aquarium.sourceforge.net/api/public/aquarium-module.html#framework">[2]</a>,
+  written in
+  <a href="http://python.org">Python</a>.  It provides an approach to producing
+  a Web application without duplication of effort by reducing the amount of
+  code you need to write.  It offers convenient libraries and extensible APIs
+  for items such as session management and Web server integration (including
+  CGI, 
+  <a href="http://www.modpython.org">mod_python</a>, FastCGI, or its own Web 
+  server, 
+  <a href="http://aquarium.sf.net/glass">Glass</a>).  It provides tight 
+  integration with 
+  <a href="http://cheetahtemplate.sf.net">Cheetah</a>, including
+  autocompilation of Cheetah templates.  Last of all, it offers a convenient
+  approach to Web development.  As a developer, you just &quot;plug in&quot;
+  modules; Aquarium ties them all together.
+</p>
+
+<p>
+  Aquarium's features were inspired by a broad range of Web technologies such
+  as PHP's 
+  <a href="http://share.whichever.com/index.php?SCREEN=freetrade">FreeTrade</a>,
+  Java's 
+  <a href="http://struts.apache.org">Struts</a>, Perl's 
+  <a href="http://www.masonhq.com">Mason</a>, and Python's 
+  <a href="http://www.zope.org">Zope</a>.  It is
+  Open Source software, available under a BSD-style license.  Aquarium is
+  compact--just a few thousand lines of code--and extremely well documented.
+  It's a useful tool for creating any highly-dynamic, custom Web application
+  written in Python.
+</p>
+
+<ul>
+  <li>
+    <a href="http://aquarium.sf.net/api">Comprehensive API documentation</a>
+  </li>
+  <li><a href="http://aquarium.sf.net/glass">Glass API documentation</a></li>
+  <li>
+    <a href="http://aquarium.sf.net/tutorial">Tutorial under development</a>
+    (<a href="http://aquarium.sf.net/tutorial/tutorial.tar.gz"
+      >download</a>)
+  </li>
+  <li>
+    <a href="http://sf.net/projects/aquarium">Sourceforge project page</a>
+  </li>
+  <li>
+    <a href="http://sourceforge.net/project/showfiles.php?group_id=5453">
+      Download Aquarium</a>
+  </li>
+  <li>
+    <a href="http://lists.sf.net/lists/listinfo/aquarium-discussion">Mailing 
+    list</a>
+  </li>
+  <li>
+    <a href="http://aquarium.cvs.sourceforge.net/aquarium/aquarium/demo/seamstress_exchange/"
+      >Seamstress Exchange demo</a>
+  </li>
+</ul>
+
+<p align="right">
+  <a href="http://sourceforge.net"><img 
+    src="http://sflogo.sourceforge.net/sflogo.php?group_id=83832&amp;type=1" 
+    width="88" height="31" border="0" alt="SourceForge.net Logo"></a>
+</body>
+</html>
+```
