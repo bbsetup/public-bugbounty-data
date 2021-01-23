@@ -1,0 +1,1 @@
+```{"Message":"No HTTP resource was found that matches the request URI 'https://apis.skype.com/'."}```
