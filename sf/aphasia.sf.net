@@ -1,0 +1,56 @@
+```<HTML>
+<HEAD>
+<TITLE>aphasia at sourceforge</TITLE>
+</HEAD>
+<BODY bgcolor=#FFFFFF>
+
+<p> <A href="http://sourceforge.net/"><IMG
+src="http://sourceforge.net/images/sflogo2-steel.png" vspace="0"
+border=0 width="143" height="70"></A>
+&nbsp;&nbsp;&nbsp;
+<font face="Verdana, Arial, Helvetica" size=+6><i>aphasia</i></font>
+
+<font face="Verdana, Arial, Helvetica" size=-1>
+<p>Aphasia is an advanced scripting language for the web. It features a
+type-safe core, C++ modules with signatures, an optimizing "compiler",
+higher-order functions, built-in database support, garbage collection, and
+more. 
+
+<p>Aphasia uses FastCGI to talk to an apache web server, and only
+cooperates with mySQL.  The compiler is written in <b><a
+href="http://en.wikipedia.org/wiki/Standard_ML">Standard ML</a></b>.
+Because of these dependencies, installation is pretty complicated.  I
+don't recommend installing it unless you're really interested in
+development. I've only ever compiled it on linux, but it would
+probably work on other systems with apache/fastcgi/mysql with a little
+tweaking.  Plans for the future include streamlining the installation
+procedure and removing as many dependencies as possible.
+
+<p>There are two versions of Aphasia.  First was a prototype that is
+about 6 years old ("<b><a
+href="http://aphasia.cvs.sourceforge.net/aphasia/aphasia-proto1/">Aphasia
+1 Prototype</a></b>"). Many applications were written for Aphasia 1,
+but it is now deprecated.  As of 31 Dec 2005, <b><a
+href="http://aphasia.cvs.sourceforge.net/aphasia/aphasia2/">Aphasia
+2</a></b> is the preferred version of the language.  It is
+"sideways-compatible" with Aphasia 1 code, so that applications can be
+ported in a piecemeal fashion (also, both versions still use the
+Aphasia 1 apache plugin).  Aphasia 2 syntax closely resembles Standard
+ML.
+
+
+<p>Please see <b><a
+href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/aphasia/">CVS</a></b>
+for code. For examples of sites built with aphasia, see <b><a
+href=http://spacebar.org/>spacebar</a></b> and <b><a
+href=http://snoot.org/>snoot.org</a></b>. If you'd like to get
+involved with the project, please <b><a
+href=https://sourceforge.net/developer/?form_dev=18190>contact
+me</a></b>.
+
+
+<p> - <b><a href="http://tom7.org/">Tom 7 </a></b>
+
+</BODY>
+</HTML>
+```
