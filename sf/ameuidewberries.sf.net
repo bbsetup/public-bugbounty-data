@@ -1,0 +1,103 @@
+```<!--
+  ~ Copyright (C) 2009 - 2012  Andrii Ayanami ( andrii.ayanami@gmail.com )
+  ~
+  ~       This program is free software: you can redistribute it and/or modify
+  ~       it under the terms of the GNU General Public License as published by
+  ~       the Free Software Foundation, either version 3 of the License, or
+  ~       (at your option) any later version.
+  ~
+  ~       This program is distributed in the hope that it will be useful,
+  ~       but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~       GNU General Public License for more details.
+  ~
+  ~       You should have received a copy of the GNU General Public License
+  ~       along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<html>
+<head>
+    <title>Ame UI Dewberries ~ Project Home</title>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link rel="shortcut icon" href="/images/logo_icon.png"/>
+    <link rel="icon" href="/images/logo_icon.png" type="image/x-icon"/>
+</head>
+<body>
+<div id="layout">
+
+    <div id="header">
+        <div class="logo"></div>
+        <div class="logo-bg-cont">
+            <p style="color: white; text-align: center; font-size: 16pt;"><b>Ame UI Dewberries</b></p>
+            <p style="color: white; text-align: right;"><b style="position: relative; top: -15px;">Tiny enhancements for development with Java Swing</b></p>
+        </div>
+        <div class="logo-corner"></div>
+        <br clear="all"/>
+
+        <div class="menu_container">
+            <ul class="menu">
+                <li><a href="/" style="color: #3465a4">Home</a></li>
+                <li><a href="/ui-components">Components</a></li>
+                <li><a href="/ui-notifications">Notifications</a></li>
+                <li><a href="/community">Community</a></li>
+            </ul>
+        </div>
+    </div>
+    <br clear="all"/>
+
+    <div id="data">
+        <div id="data-right-column">
+            <p style="text-align: justify;">
+                Set of libraries, components and utilities for development with Java Swing.
+                <ul>
+                    <li><b style="color: #3465a4">UI Notifications:</b> Library of multiple notification windows</li>
+                    <li><b style="color: #3465a4">UI Components:</b> Library of Swing UI components</li>
+                </ul>
+            </p>
+
+            <p>
+            <ul>
+                <li><b>Current suite version:</b> 0.1</li>
+                <li><b>Requirements: </b><a href="http://www.java.com/en/download/manual.jsp">JRE 1.6</a> or later</li>
+                <li><b>Programming language:</b> Java</li>
+                <li><b>Licence: </b><a href="http://www.gnu.org/licenses/gpl.html">GPL 3</a></li>
+            </ul>
+            </p>
+        </div>
+        <div id="data-left-column">
+
+            <div class="logo-small"></div>
+            <div class="logo-bg-cont-small" align="center">
+                <p style="color: white;"><b>Download</b></p>
+                <a href="http://downloads.sourceforge.net/project/ameuidewberries/Version%200.1/AmeUIDewberries-0.1.zip?use_mirror=master"
+                   style="color: white; font-size: 8pt;">AmeUIDewberries-0.1.zip</a>
+                <br/>
+                <br/>
+                <span style="color: white; font-size: 10pt;">Released 04.11.2012</span>
+            </div>
+            <div class="logo-corner-small"></div>
+            <div class="footer-corner-left"></div>
+            <div class="footer-bg-cont-small"></div>
+            <div class="footer-corner-right"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-corner-left"></div>
+        <div class="footer-bg-cont"></div>
+        <div class="footer-corner-right"></div>
+        <div class="divRelLeft" align="center" style="width: 95%;">
+            <div class="divRelLeft" align="center" style="width: 50%;">
+                <span class="greetings">Copyright&nbsp;&copy&nbsp;2009 - 2012&nbsp;Andrii&nbsp;Ayanami&nbsp;[andrii.ayanami&#64;gmail.com]</span>
+            </div>
+            <div class="divRelLeft" align="right" style="width: 50%;">
+                <a href="http://sourceforge.net/projects/ameuidewberries">
+                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=296693&amp;type=10" width="80" height="15" alt="Get Ame UI Dewberries at SourceForge.net. Fast, secure and Free Open Source software downloads" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>```
