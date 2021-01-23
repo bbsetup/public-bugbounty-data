@@ -1,0 +1,542 @@
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="icon" href="https://allefant.com/pics/allefant.gif" /><title>
+Allefant Games</title><style>
+body {    display: flex;
+    margin: 0;
+    padding: 1em;
+}ul.box {    width: 10em;
+    overflow: hidden;
+    padding: 1em;
+    margin: 1em 1em 0 0;
+    border: 1px solid black;
+    list-style: none;
+    white-space: nowrap;
+}ul.box:first-child {    margin-top: 0;
+}ul.box img {    width: 16px;
+}h1 img {    width: 32px;
+}body > div + div {    width: 80em;
+    padding: 1em;
+    border: 1px solid black;
+}</style></head><body>
+<div>
+<ul class="box">
+<li>
+<a href="/page/abps.html">
+<img alt="icon" src="https://allefant.com/pics/ABPS.gif" />ABPS</a></li><li>
+<a href="/page/allefant1.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Allefant1</a></li><li>
+<a href="/page/allefant2.html">
+<img alt="icon" src="https://allefant.com/pics/allefant2.gif" />Allefant2</a></li><li>
+<a href="/page/allefant3.html">
+<img alt="icon" src="https://allefant.com/pics/allefant3/allefant3.gif" />Allefant3</a></li><li>
+<a href="/page/allefant4.html">
+<img alt="icon" src="https://allefant.com/pics/allefant4.gif" />Allefant4</a></li><li>
+<a href="/page/allefant5.html">
+<img alt="icon" src="https://allefant.com/pics/allefant5.gif" />Allefant5</a></li><li>
+<a href="/page/allefant7.html">
+<img alt="icon" src="https://allefant.com/pics/a7.gif" />Allefant7</a></li><li>
+<a href="/page/antarctica.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Antarctica</a></li><li>
+<a href="/page/battery.html">
+<img alt="icon" src="https://allefant.com/pics/battery.gif" />Battery</a></li><li>
+<a href="/page/blitzhack.html">
+<img alt="icon" src="https://allefant.com/pics/blitzhack.gif" />BlitzHack</a></li><li>
+<a href="/page/blobotron.html">
+<img alt="icon" src="https://allefant.com/pics/blobotron.gif" />BloboTron</a></li><li>
+<a href="/page/bob27n27rob.html">
+<img alt="icon" src="https://allefant.com/pics/bobnrob.gif" />Bob&#039;n&#039;Rob</a></li><li>
+<a href="/page/command-code.html">
+<img alt="icon" src="https://allefant.com/pics/commandcode.gif" />Command Code</a></li><li>
+<a href="/page/donkey.html">
+<img alt="icon" src="https://allefant.com/pics/donkey.gif" />Donkey</a></li><li>
+<a href="/page/doomed.html">
+<img alt="icon" src="https://allefant.com/pics/doomed.gif" />Doomed</a></li><li>
+<a href="/page/dragonfly.html">
+<img alt="icon" src="https://allefant.com/pics/dragonfly.gif" />Dragonfly</a></li><li>
+<a href="/page/egghack.html">
+<img alt="icon" src="https://allefant.com/pics/egghack.gif" />EggHack</a></li><li>
+<a href="/page/evil.html">
+<img alt="icon" src="https://allefant.com/pics/evil.gif" />Evil</a></li><li>
+<a href="/page/feud.html">
+<img alt="icon" src="https://allefant.com/pics/feud.gif" />Feud</a></li><li>
+<a href="/page/flowers.html">
+<img alt="icon" src="https://allefant.com/pics/flowers.gif" />Flowers</a></li><li>
+<a href="/page/forest.html">
+<img alt="icon" src="https://allefant.com/pics/forest.png" />Forest</a></li><li>
+<a href="/page/fruitworm.html">
+<img alt="icon" src="https://allefant.com/pics/fruitworm.gif" />FruitWorm</a></li><li>
+<a href="/page/garbage.html">
+<img alt="icon" src="https://allefant.com/pics/garbage.gif" />Garbage</a></li><li>
+<a href="/page/gnomeguard.html">
+<img alt="icon" src="https://allefant.com/pics/gnomeguard.gif" />GnomeGuard</a></li><li>
+<a href="/page/hare.html">
+<img alt="icon" src="https://allefant.com/pics/hare.gif" />Hare</a></li><li>
+<a href="/page/hydra.html">
+<img alt="icon" src="https://allefant.com/pics/hydra.gif" />Hydra</a></li><li>
+<a href="/page/insanity.html">
+<img alt="icon" src="https://allefant.com/pics/insanity.gif" />Insanity</a></li><li>
+<a href="/page/jetfighters.html">
+<img alt="icon" src="https://allefant.com/pics/jetfighters.gif" />JetFighters</a></li><li>
+<a href="/page/kaos.html">
+<img alt="icon" src="https://allefant.com/pics/kaos.gif" />Kaos</a></li><li>
+<a href="/page/kings.html">
+<img alt="icon" src="https://allefant.com/pics/kings.gif" />Kings</a></li><li>
+<a href="/page/krampus18page.html">
+<img alt="icon" src="https://allefant.com/pics/krampus18.png" />Krampus18</a></li><li>
+<a href="/page/lawn.html">
+<img alt="icon" src="https://allefant.com/pics/lawn.gif" />Lawn</a></li><li>
+<a href="/page/lunte.html">
+<img alt="icon" src="https://allefant.com/pics/santa.gif" />Lunte</a></li><li>
+<a href="/page/magnetotron.html">
+<img alt="icon" src="https://allefant.com/pics/magnetotron.gif" />Magnetotron</a></li><li>
+<a href="/page/marsfight.html">
+<img alt="icon" src="https://allefant.com/pics/marsfight.gif" />MarsFight</a></li><li>
+<a href="/page/nefertem.html">
+<img alt="icon" src="https://allefant.com/pics/nefertem.gif" />Nefertem</a></li><li>
+<a href="/page/owl_.html">
+<img alt="icon" src="https://allefant.com/pics/owl.gif" />Owl</a></li><li>
+<a href="/page/photon.html">
+<img alt="icon" src="https://allefant.com/pics/photon.gif" />Photon</a></li><li>
+<a href="/page/pi.html">
+<img alt="icon" src="https://allefant.com/pics/pi.gif" />PI</a></li><li>
+<a href="/page/pumpkinforest.html">
+<img alt="icon" src="https://allefant.com/pics/pumpkinforest.gif" />PumpkinForest</a></li><li>
+<a href="/page/quest.html">
+<img alt="icon" src="https://allefant.com/pics/quest.gif" />Quest</a></li><li>
+<a href="/page/red-white-you.html">
+<img alt="icon" src="https://allefant.com/pics/redwhiteyou.gif" />Red, White & You</a></li><li>
+<a href="/page/santaexpress.html">
+<img alt="icon" src="https://allefant.com/pics/santaexpress.gif" />Santa Express</a></li><li>
+<a href="/page/shopkeeper.html">
+<img alt="icon" src="https://allefant.com/pics/shopkeeper.gif" />Shopkeeper</a></li><li>
+<a href="/page/sic.html">
+<img alt="icon" src="https://allefant.com/pics/SIC.gif" />SIC</a></li><li>
+<a href="/page/sleighrace.html">
+<img alt="icon" src="https://allefant.com/pics/santa.gif" />Sleigh Race</a></li><li>
+<a href="/page/snowhill.html">
+<img alt="icon" src="https://allefant.com/pics/snowhill.gif" />Snow Hill</a></li><li>
+<a href="/page/sof.html">
+<img alt="icon" src="https://allefant.com/pics/sword.gif" />SoF</a></li><li>
+<a href="/page/squiddle.html">
+<img alt="icon" src="https://allefant.com/pics/squiddle.gif" />Squiddle</a></li><li>
+<a href="/page/swarm.html">
+<img alt="icon" src="https://allefant.com/pics/swarm.gif" />Swarm</a></li><li>
+<a href="/page/teacher.html">
+<img alt="icon" src="https://allefant.com/pics/teacher.gif" />Teacher</a></li><li>
+<a href="/page/tom.html">
+<img alt="icon" src="https://allefant.com/pics/tom.gif" />Tom</a></li><li>
+<a href="/page/troll.html">
+<img alt="icon" src="https://allefant.com/pics/troll.gif" />Troll</a></li><li>
+<a href="/page/twentythousand.html">
+<img alt="icon" src="https://allefant.com/pics/20000.gif" />20000</a></li><li>
+<a href="/page/ultimatum.html">
+<img alt="icon" src="https://allefant.com/pics/ultimatum.gif" />Ultimatum</a></li><li>
+<a href="/page/velocity.html">
+<img alt="icon" src="https://allefant.com/pics/velocity.gif" />Velocity</a></li><li>
+<a href="/page/waverider.html">
+<img alt="icon" src="https://allefant.com/pics/thewave.gif" />Wave Rider</a></li><li>
+<a href="/page/x.html">
+<img alt="icon" src="https://allefant.com/pics/x.gif" />X</a></li><li>
+<a href="/page/xmas.html">
+<img alt="icon" src="https://allefant.com/pics/xmas.gif" />xmas</a></li><li>
+<a href="/page/yellow-and-dangerous.html">
+<img alt="icon" src="https://allefant.com/pics/yellowanddangerous.gif" />Yellow and Dangerous</a></li><li>
+<a href="/page/zombie-master.html">
+<img alt="icon" src="https://allefant.com/pics/zombiemaster.gif" />Zombie Master</a></li></ul><ul class="box">
+<li>
+<a href="/page/_.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />advent mockup</a></li><li>
+<a href="/page/about.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />About</a></li><li>
+<a href="/page/algif.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />algif</a></li><li>
+<a href="/page/allefant.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Allefant</a></li><li>
+<a href="/page/allegro-5-faq.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />allegro 5 faq</a></li><li>
+<a href="/page/allegro.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Allegro</a></li><li>
+<a href="/page/allegrogl.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />AllegroGL</a></li><li>
+<a href="/page/articles.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Articles</a></li><li>
+<a href="/page/ballroom.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Ballroom</a></li><li>
+<a href="/page/chachacha.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Chachacha</a></li><li>
+<a href="/page/discofox.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Discofox</a></li><li>
+<a href="/page/egghackgui.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />EggHackGUI</a></li><li>
+<a href="/page/elephant.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Elephant</a></li><li>
+<a href="/page/f4.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />f4</a></li><li>
+<a href="/page/fudgefont.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />FudgeFont</a></li><li>
+<a href="/page/galaxy.html">
+<img alt="icon" src="https://allefant.com/pics/galaxy.gif" />Galaxy</a></li><li>
+<a href="/page/games.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Games</a></li><li>
+<a href="/page/hartlauer-glasses.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />hartlauer glasses</a></li><li>
+<a href="/page/hexmap.html">
+<img alt="icon" src="https://allefant.com/pics/misc/hexagon.png" />HexMap</a></li><li>
+<a href="/page/icejunk.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />IceJunk</a></li><li>
+<a href="/page/icejunkc.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />icejunk.c</a></li><li>
+<a href="/page/isometricprojection.html">
+<img alt="icon" src="https://allefant.com/pics/misc/devils3cubes.png" />IsometricProjection</a></li><li>
+<a href="/page/javaallefant.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />JavaAllefant</a></li><li>
+<a href="/page/javaapplettest.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />JavaAppletTest</a></li><li>
+<a href="/page/jive.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Jive</a></li><li>
+<a href="/page/land.html">
+<img alt="icon" src="https://allefant.com/pics/land/logo.png" />Land</a></li><li>
+<a href="/page/ld48_logs.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />LD48_Logs</a></li><li>
+<a href="/page/lua.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Lua</a></li><li>
+<a href="/page/ludumdare.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />LudumDare</a></li><li>
+<a href="/page/mambo.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Mambo</a></li><li>
+<a href="/page/miscellaneous.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Miscellaneous</a></li><li>
+<a href="/page/objectorientedc.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />ObjectOrientedC</a></li><li>
+<a href="/page/optimization.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Optimization</a></li><li>
+<a href="/page/options_are_good.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Options_are_Good</a></li><li>
+<a href="/page/presentation.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Presentation</a></li><li>
+<a href="/page/python.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Python</a></li><li>
+<a href="/page/quickstep.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Quickstep</a></li><li>
+<a href="/page/remakes.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Remakes</a></li><li>
+<a href="/page/rumba.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Rumba</a></li><li>
+<a href="/page/samba.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Samba</a></li><li>
+<a href="/page/scratch_book.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Scratch_Book</a></li><li>
+<a href="/page/spacenomads.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />SpaceNomads</a></li><li>
+<a href="/page/speedhack.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />SpeedHack</a></li><li>
+<a href="/page/speedhackguide.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />SpeedHackGuide</a></li><li>
+<a href="/page/static-linking.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />static linking</a></li><li>
+<a href="/page/syntax.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Syntax</a></li><li>
+<a href="/page/tango.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Tango</a></li><li>
+<a href="/page/templates.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Templates</a></li><li>
+<a href="/page/todo.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />TODO</a></li><li>
+<a href="/page/tools.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Tools</a></li><li>
+<a href="/page/tshirt.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />tshirt</a></li><li>
+<a href="/page/veggiepasta.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Veggie Pasta</a></li><li>
+<a href="/page/viennese-waltz.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Viennese Waltz</a></li><li>
+<a href="/page/vsync.html">
+<img alt="icon" src="https://allefant.com/pics/misc/vsync.gif" />VSync</a></li><li>
+<a href="/page/waltz.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Waltz</a></li><li>
+<a href="/page/wesnoth.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Wesnoth</a></li><li>
+<a href="/page/why-reverse-polish-notation-is-bad.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Why reverse polish notation is bad</a></li><li>
+<a href="/page/wip.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />WIP</a></li><li>
+<a href="/page/woosls.html">
+<img alt="icon" src="https://allefant.com/pics/woosls.gif" />Woosls</a></li><li>
+<a href="/page/woosls2.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Woosls2</a></li></ul><ul class="box">
+<li>
+<a href="/page/tins2020.html">
+<img alt="icon" src="https://allefant.com/pics/flowers.gif" />TINS 2020</a></li><li>
+<a href="/page/krampus19.html">
+<img alt="icon" src="https://allefant.com/pics/santaexpress.gif" />Krampus Hack 2019</a></li><li>
+<a href="/page/krampus18.html">
+<img alt="icon" src="https://allefant.com/pics/krampus18.png" />Krampus Hack 2018</a></li><li>
+<a href="/page/pyweek2018.html">
+<img alt="icon" src="https://allefant.com/pics/snowhill.gif" />PyWeek 26</a></li><li>
+<a href="/page/resuhack18.html">
+<img alt="icon" src="https://allefant.com/pics/doomed.gif" />Resurrection Hack 2018</a></li><li>
+<a href="/page/tins2017.html">
+<img alt="icon" src="https://allefant.com/pics/forest.png" />TINS 2017</a></li><li>
+<a href="/page/easterhack17.html">
+<img alt="icon" src="https://allefant.com/pics/doomed.gif" />Easter Hack 2017</a></li><li>
+<a href="/page/krampushack.html">
+<img alt="icon" src="https://allefant.com/pics/kings.gif" />Krampus Hack 2016</a></li><li>
+<a href="/page/blog-2016.html">
+<img alt="icon" src="https://allefant.com/pics/wordpress.png" />rm -rf wordpress</a></li><li>
+<a href="/page/speedhack-2015.html">
+<img alt="icon" src="https://allefant.com/pics/teacher.gif" />Speedhack 2015</a></li><li>
+<a href="/page/speedhack-2014.html">
+<img alt="icon" src="https://allefant.com/pics/shopkeeper.gif" />Speedhack 2014</a></li><li>
+<a href="/page/my-santahack-entry.html">
+<img alt="icon" src="https://allefant.com/pics/santa.gif" />My SantaHack entry</a></li><li>
+<a href="/page/my-abc-of-compo-entries.html">
+<img alt="icon" src="https://allefant.com/pics/allefant5.gif" />my ABC of compo entries</a></li><li>
+<a href="/page/kaospyweek.html">
+<img alt="icon" src="https://allefant.com/pics/kaos.gif" />Kaos</a></li><li>
+<a href="/page/tins-2012.html">
+<img alt="icon" src="https://allefant.com/pics/quest.gif" />TINS 2012</a></li><li>
+<a href="/page/pyweek-14.html">
+<img alt="icon" src="https://allefant.com/pics/yellowanddangerous.gif" />Pyweek #14</a></li><li>
+<a href="/page/moosader.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Moosader compo 7</a></li><li>
+<a href="/page/fosdem-2012-in-brussels.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />FOSDEM 2012 in Brussels</a></li><li>
+<a href="/page/global-game-jam-2012.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Global Game Jam 2012</a></li><li>
+<a href="/page/santahack-2011.html">
+<img alt="icon" src="https://allefant.com/pics/xmas.gif" />SantaHack 2011</a></li><li>
+<a href="/page/the-coke-diet.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />The Coke diet</a></li><li>
+<a href="/page/speedhack-2011.html">
+<img alt="icon" src="https://allefant.com/pics/redwhiteyou.gif" />Speedhack 2011</a></li><li>
+<a href="/page/ld48-2011-20.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />LD48 2011 (#20)</a></li><li>
+<a href="/page/ludumdare_.html">
+<img alt="icon" src="https://allefant.com/pics/wordpress.png" />fosdem picture</a></li><li>
+<a href="/page/fosdem.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />fosdem</a></li><li>
+<a href="/page/global-game-jam-2011.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Global Game Jam 2011</a></li><li>
+<a href="/page/google-app-engine.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Google App Engine</a></li><li>
+<a href="/page/apple-has-no-idea-of-user-interface-design.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Apple has no idea of user interface design</a></li><li>
+<a href="/page/wordpress-theme-updated.html">
+<img alt="icon" src="https://allefant.com/pics/wordpress.png" />wordpress theme updated</a></li><li>
+<a href="/page/tins-2010.html">
+<img alt="icon" src="https://allefant.com/pics/commandcode.gif" />TINS 2010</a></li><li>
+<a href="/page/allegro-5-regression-testing.html">
+<img alt="icon" src="https://allefant.com/pics/alex.gif" />Allegro 5 regression testing</a></li><li>
+<a href="/page/took-part-in-ludumdare-18.html">
+<img alt="icon" src="https://allefant.com/pics/zombiemaster.gif" />took part in ludumdare #18</a></li><li>
+<a href="/page/new-host-again.html">
+<img alt="icon" src="https://allefant.com/pics/wordpress.png" />new host again</a></li><li>
+<a href="/page/testing-new-host.html">
+<img alt="icon" src="https://allefant.com/pics/wordpress.png" />testing new host</a></li><li>
+<a href="/page/343.html">
+<img alt="icon" src="https://allefant.com/pics/wordpress.png" />wordpress 3.0</a></li><li>
+<a href="/page/godaddy-com.html">
+<img alt="icon" src="https://allefant.com/pics/wordpress.png" />godaddy.com</a></li><li>
+<a href="/page/ludum-dare-17.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Ludum Dare #17</a></li><li>
+<a href="/page/wordpress-2-9-2.html">
+<img alt="icon" src="https://allefant.com/pics/wordpress.png" />wordpress 2.9.2</a></li><li>
+<a href="/page/the-end-of-end_of_main.html">
+<img alt="icon" src="https://allefant.com/pics/allegro.gif" />the end of END_OF_MAIN</a></li><li>
+<a href="/page/allefant-com.html">
+<img alt="icon" src="https://allefant.com/pics/wordpress.png" />allefant.com</a></li><li>
+<a href="/page/time-for-an-update.html">
+<img alt="icon" src="https://allefant.com/pics/lawn.gif" />time for an update</a></li><li>
+<a href="/page/wordpress-upgrade.html">
+<img alt="icon" src="https://allefant.com/pics/wordpress.png" />wordpress upgrade</a></li><li>
+<a href="/page/owl.html">
+<img alt="icon" src="https://allefant.com/pics/owl.gif" />LD48 #12</a></li><li>
+<a href="/page/mini-lds.html">
+<img alt="icon" src="https://allefant.com/pics/versus.gif" />Mini LDs</a></li><li>
+<a href="/page/wordpress.html">
+<img alt="icon" src="https://allefant.com/pics/wordpress.png" />WordPress</a></li><li>
+<a href="/page/new-year.html">
+<img alt="icon" src="https://allefant.com/pics/santa.gif" />New Year</a></li><li>
+<a href="/page/shedskin.html">
+<img alt="icon" src="https://allefant.com/pics/python.gif" />Shedskin</a></li><li>
+<a href="/page/retrohack.html">
+<img alt="icon" src="https://allefant.com/pics/allefant2/allefantaniml.gif" />Retrohack</a></li><li>
+<a href="/page/pyweek-and-speedhack.html">
+<img alt="icon" src="https://allefant.com/pics/allefant2/allefantaniml.gif" />Pyweek and Speedhack</a></li><li>
+<a href="/page/pyweek.html">
+<img alt="icon" src="https://allefant.com/pics/allefant5.gif" />PyWeek</a></li><li>
+<a href="/page/worst-software-of-the-year-award.html">
+<img alt="icon" src="https://allefant.com/pics/allefant2/allefantaniml.gif" />Worst software of the year award</a></li><li>
+<a href="/page/nothing-much.html">
+<img alt="icon" src="https://allefant.com/pics/battery.gif" />Nothing much</a></li><li>
+<a href="/page/tins-and-pyweek-entries.html">
+<img alt="icon" src="https://allefant.com/pics/20000.gif" />TINS and pyweek entries</a></li><li>
+<a href="/page/moin-update.html">
+<img alt="icon" src="https://allefant.com/pics/wordpress.png" />moin update</a></li><li>
+<a href="/page/2007.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2007</a></li><li>
+<a href="/page/allegro_.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Allegro</a></li><li>
+<a href="/page/72-hour-game-development-contest.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />72 Hour Game Development Contest</a></li><li>
+<a href="/page/got-new-cellphone.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Got new cellphone</a></li><li>
+<a href="/page/moin-upgrade-to-155.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Moin upgrade to 1.5.5</a></li><li>
+<a href="/page/speedhack-is-over.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Speedhack is over</a></li><li>
+<a href="/page/72hrgdc-results-are-in-speedhack-is-looming.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />72hrgdc results are in, Speedhack is looming</a></li><li>
+<a href="/page/lots-of-compos-going-on.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Lots of compos going on</a></li><li>
+<a href="/page/upgrade-to-moinmoin-153.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Upgrade to MoinMoin 1.5.3</a></li><li>
+<a href="/page/ludumdare-8.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />LudumDare #8</a></li><li>
+<a href="/page/velocity-the-bee.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Velocity the Bee</a></li><li>
+<a href="/page/shmup-compo.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />SHMUP Compo</a></li><li>
+<a href="/page/tins-2006.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />TINS 2006</a></li><li>
+<a href="/page/fudgefont_.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />FudgeFont</a></li><li>
+<a href="/page/happy-new-year.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Happy new Year!</a></li><li>
+<a href="/page/merry-christmas.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Merry Christmas</a></li><li>
+<a href="/page/wiki.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Wiki</a></li><li>
+<a href="/page/allegro-420.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Allegro 4.2.0</a></li><li>
+<a href="/page/woosls_.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Woosls</a></li><li>
+<a href="/page/scripting-forth-lua-python-perl-pygame-and-land.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Scripting, Forth, Lua, Python, perl, pygame and Land</a></li><li>
+<a href="/page/new-news-posting-interface.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />New news posting interface</a></li><li>
+<a href="/page/2005-09-01.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2005-09-01</a></li><li>
+<a href="/page/2005-08-16.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2005-08-16</a></li><li>
+<a href="/page/2005-08-12.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2005-08-12</a></li><li>
+<a href="/page/2005-08-06.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2005-08-06</a></li><li>
+<a href="/page/2005-07-27.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2005-07-27</a></li><li>
+<a href="/page/2005-03-09.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2005-03-09</a></li><li>
+<a href="/page/2005-03-09b.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2005-03-09b</a></li><li>
+<a href="/page/2004-04-16.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2004-04-16</a></li><li>
+<a href="/page/2004-03-27.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2004-03-27</a></li><li>
+<a href="/page/2003-10-18.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2003-10-18</a></li><li>
+<a href="/page/2003-07-31.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2003-07-31</a></li><li>
+<a href="/page/2003-07-10.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2003-07-10</a></li><li>
+<a href="/page/2003-07-08.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2003-07-08</a></li><li>
+<a href="/page/2003-06-28.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2003-06-28</a></li><li>
+<a href="/page/2003-03-07.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2003-03-07</a></li><li>
+<a href="/page/2002-12-31.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2002-12-31</a></li><li>
+<a href="/page/2002-08-01.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2002-08-01</a></li><li>
+<a href="/page/2002-04-12.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2002-04-12</a></li><li>
+<a href="/page/2002-04-05.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2002-04-05</a></li><li>
+<a href="/page/2002-03-31.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2002-03-31</a></li><li>
+<a href="/page/2002-02-15.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2002-02-15</a></li><li>
+<a href="/page/2002-02-11.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2002-02-11</a></li><li>
+<a href="/page/2002-02-05.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2002-02-05</a></li><li>
+<a href="/page/2002-01-01.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2002-01-01</a></li><li>
+<a href="/page/2001-12-24.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2001-12-24</a></li><li>
+<a href="/page/2001-12-22.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2001-12-22</a></li><li>
+<a href="/page/2001-12-07.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2001-12-07</a></li><li>
+<a href="/page/2001-12-01.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2001-12-01</a></li><li>
+<a href="/page/2001-10-01.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2001-10-01</a></li><li>
+<a href="/page/2001-09-01.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2001-09-01</a></li><li>
+<a href="/page/2001-07-01.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2001-07-01</a></li><li>
+<a href="/page/2001-04-01.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2001-04-01</a></li><li>
+<a href="/page/2000-04-01.html">
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />2000-04-01</a></li></ul></div><div>
+<h1>
+<img alt="icon" src="https://allefant.com/pics/allefant.gif" />Allefant Games</h1><h2>About</h2>
+This is the website for my Allefant project which for many years was hosted on SourceForge. It is a collection of various games I wrote over the years for short game programming competitions, such competitions usually taking about 2 days to create the complete game (code as well as art). The first such game I made was Allefant back in the year 2000. Some of the games also were worked on afterwards and polished a bit, so they are actually playable. Most are little more than a tech demo though. They are all open source.<h1>TINS 2020<img alt = "icon" src = https://allefant.com/pics/flowers.gif /></h1><p>2020-05-10</p>
+Took part in the TINS 2020 competition. 
+<p/>
+<p>Screenshot:</p>
+<p/>
+<a href="/pics/flowers/Screenshot from 2020-05-11 23-12-54.png"><img src="/pics/flowers/Screenshot from 2020-05-11 23-12-54.png" width="50%" /></a>
+<h1>Krampus Hack 2019<img alt = "icon" src = https://allefant.com/pics/santaexpress.gif /></h1><p>2019-12-30</p>
+Took part in the allegro.cc Krampus Hack 2019. 
+<p/>
+<p>Screenshot:</p>
+<p/>
+<a href="/pics/santaexpress/Screenshot from 2019-12-24 15-16-38.png"><img src="/pics/santaexpress/Screenshot from 2019-12-24 15-16-38.png" width="50%" /></a>
+<h1>Krampus Hack 2018<img alt = "icon" src = https://allefant.com/pics/krampus18.png /></h1><p>2018-12-31</p>
+Took part in the allegro.cc Krampus Hack 2018. 
+<p/>
+<p>Screenshot:</p>
+<p/>
+<a href="/pics/Screenshot4.jpg"><img src="/pics/Screenshot4.jpg" width="50%" /></a>
+<h1>PyWeek 26<img alt = "icon" src = https://allefant.com/pics/snowhill.gif /></h1><p>2018-10-27</p>
+Took part in the <a href="https://pyweek.org/26/">PyWeek 26</a> competition. 
+<p/>
+<p>Screenshot:</p>
+<p/>
+<a href="/pics/snowhill/Screenshot from 2018-10-27 16-26-27.png"
+><img src="/pics/snowhill/Screenshot from 2018-10-27 16-26-27.png" width="50%" /></a>
+<h1>Resurrection Hack 2018<img alt = "icon" src = https://allefant.com/pics/doomed.gif /></h1><p>2018-04-02</p>
+Took part in the allegro.cc Resurrection Hack 2018. I resumed working on <a href="/page/doomed">Doomed</a>, like last year's easter hack.
+<p/>
+<p>Screenshot:</p>
+<p/>
+<a href="/pics/doomed/Screenshot%207.png"><img src="/pics/doomed/Screenshot%207.png" width="50%" /></a>
+<h1>TINS 2017<img alt = "icon" src = https://allefant.com/pics/forest.png /></h1><p>2017-10-23</p>
+Took part in the allegro.cc TINS 2017. 
+<p/>
+<p>Screenshot:</p>
+<p/>
+<a href="/pics/Screenshot from 2017-10-22 01-06-38.jpg"><img src="/pics/Screenshot from 2017-10-22 01-06-38.jpg" width="50%" /></a>
+<h1>Easter Hack 2017<img alt = "icon" src = https://allefant.com/pics/doomed.gif /></h1><p>2017-04-17</p>
+Took part in the allegro.cc Easter Hack 2017. I worked on one of my very old unfinished games, <a href="/pages/doomed">Doomed</a>.
+<h1>Krampus Hack 2016<img alt = "icon" src = https://allefant.com/pics/kings.gif /></h1><p>2016-12-27</p>
+Took part in the allegro.cc Krampus Hack 2016. Everyone in this game
+programming challenge is a secret santa and assigned another participant
+they are writing the game as a gift for.
+<p/>
+<p>Screenshot:</p>
+<p/>
+<a href="/pics/kings_screenshot.png"><img src="/pics/kings_screenshot.png" width="50%" /></a>
+<h1>rm -rf wordpress<img alt = "icon" src = https://allefant.com/pics/wordpress.png /></h1><p>2016-02-29</p><p>
+Wordpress is no more. Someone managed to hack into my wordpress... and instead of trying to figure out how to pest-exterminate the database so I could run it again I decided to just rm -rf wordpress. I hacked up a quick script to dump out some of the old blog entries from the wordpress database. Maybe I'll restore the theme and some other stuff as well. But probably not :P</p>
+<p>
+I really like that this website is now just static .html and nothing else. No PHP, no server side includes, no nothing. I might as well uninstall Apache now. I should have done that 10 years ago, so should be thankful to whoever demonstrated to me just how bad Wordpress really is by hacking into it. Unfortunately I don't know if they broke out of the Wordpress database and also control the rest of my server now. I probably should set it up anew when I find the time. Anyway, this is how a website should be done, and maybe some CSS and Javascript to make it look a bit more slick :)
+</p>
+<h1>Speedhack 2015<img alt = "icon" src = https://allefant.com/pics/teacher.gif /></h1><p>2015-07-01</p><a href="http://speedhack.allegro.cc/blog/view/358">http://speedhack.allegro.cc/blog/view/358</a>
+
+<iframe src="https://www.youtube.com/embed/PCj4NPUlteI" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></body></html>```
