@@ -1,0 +1,372 @@
+```<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml11-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+ <head>
+  <title>- = [ AMPLE - An MP3 LEnder ] = -</title>
+  <link href="css/index.css" rel="stylesheet" type="text/css"/>
+  <link rel="SHORTCUT ICON" href="favicon.ico"/>
+ </head>
+    
+ <body>
+
+<table width="90%" cellspacing="10" align="center">
+ 
+ <tr>
+  <td width="0">
+   <img src="http://ample.sourceforge.net/images/logo.gif" alt="SourceForge Logo"/>
+  </td>
+  <td width="*">
+   <p align="right">
+    <font face="verdana, helvetica, sans-serif">
+     [ 
+     index |
+     <a href="http://sourceforge.net/project/showfiles.php?group_id=32371">download</a> |
+     <a href="howto.shtml"> howto</a> |
+     <a href="todo.shtml">todo</a> |
+     <a href="developers.shtml">developers</a> |
+     <a href="http://sourceforge.net/projects/ample/">sf project</a> |
+     <a href="mailto:david@2gen.com">author</a>
+     ]
+    </font>
+   </p>
+  </td>
+ </tr>
+
+ <tr>
+  <td width="*" valign="top" colspan="2">
+   <fieldset>
+    <legend align="left">
+     <font face="verdana, helvetica, sans-serif" size="-1">
+      <b>
+       NEWS
+      </b>
+     </font>
+    </legend>
+
+    <p>
+     &nbsp;
+    </p>
+
+    <table width="95%" cellpadding="0" cellspacing="0" border="0" align="center">
+
+     <tr>
+      <td bgcolor="#000000">
+       <table width="100%" cellpadding="1" cellspacing="1" border="0">
+        <tr>
+         <td width="50%" align="right" valign="middle" bgcolor="#efefef">
+          2003-11-25&nbsp;&nbsp;&nbsp;
+	 </td>
+	 <td width="50%" align="left" valign="middle" bgcolor="#efefef">
+	    &nbsp;&nbsp;&nbsp;Security update
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+
+     <tr>
+      <td align="left">
+       <p>
+	Version 0.5.7 was released today. There are only two fixes in this
+	release. One is a compilation fix for Solaris and the other one
+	is a security fix. Turns out a buffer used for local communication
+	didn't have sufficient checks. User data isn't written without checks
+	though so the worst that can happen is that huge amounts of memory
+	is allocated. The socket was also bound to the loopback device so
+	it should only be locally abuseable.
+       </p>
+
+       <p>
+        &nbsp;
+       </p>
+
+     <tr>
+      <td bgcolor="#000000">
+       <table width="100%" cellpadding="1" cellspacing="1" border="0">
+        <tr>
+         <td width="50%" align="right" valign="middle" bgcolor="#efefef">
+          2002-06-11&nbsp;&nbsp;&nbsp;
+	 </td>
+	 <td width="50%" align="left" valign="middle" bgcolor="#efefef">
+	    &nbsp;&nbsp;&nbsp;I'm *still* not dead
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+
+     <tr>
+      <td align="left">
+       <p>
+        Well...I spoke to hastly...the problems haven't been fixed yet,
+        Adaptec are still trying to track them down but there doesn't seem
+        to be much effort going into it. I get at most one mail every two
+        weeks with some information. In the meantime I can do stuff like
+	update this page and send email via SSH to my server, but not much
+	else. Development *will* continue once the problems are solved, I just
+        won't try to predict when it will be :-)
+       </p>
+
+       <p>
+        &nbsp;
+       </p>
+      </td>
+     </tr>
+
+     <tr>
+      <td bgcolor="#000000">
+       <table width="100%" cellpadding="1" cellspacing="1" border="0">
+        <tr>
+         <td width="50%" align="right" valign="middle" bgcolor="#efefef">
+          2002-03-11&nbsp;&nbsp;&nbsp;
+	 </td>
+	 <td width="50%" align="left" valign="middle" bgcolor="#efefef">
+	    &nbsp;&nbsp;&nbsp;I'm not dead
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+
+     <tr>
+      <td align="left">
+       <p>
+        Some of the emails that I've recieved seems to indicate that some 
+        are worried that I'm dead. Well, I'm not but I'm having the weirdest
+        computer hardware problems I've ever experienced (and I've worked with
+        tech support). My newly bought Adaptec 2400A IDE-RAID card refuses to
+        work due to a combination of reasons (most of them not due to 
+        Adaptec). On the bright side though, I seem to have ironed out 
+        most of them and I'm just waiting for some final feedback from
+        Adaptec before I can reinstall Debian and continue hacking away 
+        at Ample.
+       </p>
+
+       <p>
+        &nbsp;
+       </p>
+      </td>
+     </tr>
+
+     <tr>
+      <td bgcolor="#000000">
+       <table width="100%" cellpadding="1" cellspacing="1" border="0">
+        <tr>
+         <td width="50%" align="right" valign="middle" bgcolor="#efefef">
+          2002-02-13&nbsp;&nbsp;&nbsp;
+	 </td>
+	 <td width="50%" align="left" valign="middle" bgcolor="#efefef">
+	    &nbsp;&nbsp;&nbsp;New Design
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+
+     <tr>
+      <td align="left">
+       <p>
+        What better way to celebrate that 0.6.0 is coming closer, than to
+        change the design of the web pages? I hope you like the new look,
+        if it looks goofy you probably have an ancient browser. Target
+        browsers are Mozilla (Netscape 6.x) and Internet Explorer (recent
+        version) since they both understand what CSS is etc. Writing for
+        older browsers isn't funny.
+       </p>
+
+       <p>
+        &nbsp;
+       </p>
+      </td>
+     </tr>
+
+     <tr>
+      <td bgcolor="#000000">
+       <table width="100%" cellpadding="1" cellspacing="1" border="0">
+        <tr>
+         <td width="50%" align="right" valign="middle" bgcolor="#efefef">
+          2002-02-13&nbsp;&nbsp;&nbsp;
+	 </td>
+	 <td width="50%" align="left" valign="middle" bgcolor="#efefef">
+	    &nbsp;&nbsp;&nbsp;0.5.3 Released
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+
+     <tr>
+      <td align="left">
+       <p>
+        0.5.3 will be released soon. New features is HTML templates (for custom
+	HTML output, see included man page for details) and SysV IPC support
+	(allows server processes to share the file information stored in memory 
+	which saves physical memory). Of course a slew of buf fixes and a couple of
+	new bugs should be expected :-)
+       </p>
+
+       <p>
+        &nbsp;
+       </p>
+      </td>
+     </tr>
+
+    </table>
+   </fieldset>
+  </td>
+ </tr>
+
+ <tr>
+  <td width="*" valign="top" colspan="2">
+
+   <fieldset>
+    <legend align="left">
+     <font face="verdana, helvetica, sans-serif" size="-1">
+      <b>WHAT IS AMPLE</b>
+     </font>
+    </legend>
+
+    <table width="100%" cellpadding="20" cellspacing="0" border="0">
+     <tr>
+      <td>
+
+       <p>
+        AMPLE is short for &quot;A MP3 LEnder&quot;
+        <br/>
+        <font size="2">
+         (interesting name just to make a good abbreviation?)
+        </font>
+       </p>
+
+       <p>
+        I wrote AMPLE one summer when I
+        was coding for a company and got fed up with having to FTP over
+        all my MP3 files from my home server to the computer at work just
+        to listen to them. And the other &quot;MP3 servers&quot; I could
+        find didn't fit my needs for one of the following reasons:
+       </p>
+
+       <ul>
+        <li>
+         <p>
+          Depended on libfoo, libbar, python, perl,
+          php3, Apache, libssl, etc, etc, etc...I just wanted to listen
+          to the files
+         </p>
+        </li>
+        <li>
+	 <p>
+          Had a lot of features for &quot;DJ:ing&quot;
+	  etc that I really didn't need
+         </p>
+        </li>
+        <li>
+         <p>
+          Well....it was fun to write too :)
+         </p>
+        </li>
+       </ul>
+
+       <p>So what's good with AMPLE?</p>
+
+       <ul>
+        <li>
+         <p>
+          Small, standalone (written in C using no
+          external libraries)
+         </p>
+        </li>
+        <li>
+	 <p>
+          Portable (I think), I often try to compile it
+	  on the SourceForge compile farms
+         </p>
+        </li>
+        <li>
+	 <p>
+          Allows you to listen to your own MP3's away
+	  from home, nothing more, nothing less
+         </p>
+        </li>
+       </ul>
+
+       <p>
+        This is beginning to sound like marketing cr*p so
+        I'll just stop right there, check out the links on the left for
+        more info.
+       </p>
+
+       <p>
+        &nbsp;
+       </p>
+
+       <p>
+        Regards,
+        <br/>
+        David Härdeman &lt;<a href="mailto:david@2gen.com">david@2gen.com</a>&gt;
+       </p>
+
+      </td>
+     </tr>
+    </table>
+   </fieldset>
+  </td>
+ </tr>
+</table>
+
+  <p>
+   &nbsp;
+  </p>
+
+  <table align="center" border="0" cellpadding="10">
+   <tr>
+
+    <td align="center" valign="top">
+     <font size="1">
+      Valid XHTML
+     </font>
+     <br/>
+     <a href="http://validator.w3.org/check/referer">
+      <img src="images/valid-xhtml10.gif" alt="Valid XHTML 1.0!" height="31" width="88"/>
+     </a>
+    </td>
+
+    <td align="center" valign="top">
+     <font size="1">
+      Valid CSS
+     </font>
+     <br/>
+      <a href="http://jigsaw.w3.org/css-validator/">
+       <img src="images/vcss.gif" alt="Valid CSS!" height="31" width="88"/>
+      </a>
+    </td>
+
+    <td align="center" valign="top">
+     <font size="1">
+      Hosting by
+     </font>
+     <br/>
+     <a href="http://sourceforge.net"> 
+      <img src="http://sourceforge.net/sflogo.php?group_id=32371" width="88" height="31" border="0" alt="SourceForge Logo"/>
+     </a>
+    </td>
+
+    <td align="center" valign="top">
+     <font size="1">
+      GPL:ed program
+     </font>
+     <br/>
+     <a href="http://www.gnu.org/">
+      <img src="images/gnuhead.gif" alt="This program is GPLed"/>
+     </a>
+    </td>
+
+   </tr>
+  </table>
+ 
+ </body>
+</html>
+
+
+```
