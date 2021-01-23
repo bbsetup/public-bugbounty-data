@@ -1,0 +1,63 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <!-- $Id: index.html,v 1.3 2005/07/28 12:45:02 maetl_ Exp $ -->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>[Arbiter] Agile Requirements and Acceptance Testing Tool</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+<body id="arbiter-doc">
+  <div id="layout">
+    <div id="header">
+	  <ul id="menu">
+	    <li>arbiter</li>
+		<li><a href="overview.html" title="What is Arbiter?">overview</a></li>
+		<li><a href="roadmap.html" title="Roadmap">roadmap</a></li>
+		<li><a href="resources.html" title="Resources and Links">resources</a></li>
+		<li><a href="http://sourceforge.net/projects/arbiter" title="Sourceforge Project Site...">
+			download</a></li>
+	  </ul>
+	</div>
+	<div id="content">
+	   <h1>Welcome to Arbiter</h1>
+	   <p>Arbiter is a requirements gathering and acceptance testing tool 
+          for project managers and web developers, to help ease client interaction.</p>
+       
+       <p>Read an <a href="overview.html" title="What is Arbiter?">overview of the 
+         design goals of Arbiter</a>.</p>
+       
+       <p>See the <a href="roadmap.html" title="Roadmap">current Arbiter release 
+         plan</a>.</p>
+
+       <hr />
+	   
+	   <h2>What is it?</h2>
+
+       <p>Arbiter is a requirements gathering and project sign off tool. It was
+       first described at <a href="http://www.sitepoint.com/forums/showthread.php?t=193797" title="Gathering Volunteers for Development Tool">SitePoint Forums</a>.</p>
+
+       <h2>How does it work?</h2>
+
+       <p>The project specification can be defined in word processor format as
+       you would normally. By adding some special items, such as titled
+       bulleted lists and highlighted text items, both a test suite and
+       glossary can be written right into the spec. The Arbiter server will
+       parse these documents and run the tests, reporting the results into
+       the documents themselves. This allows the client to see project process.</p>
+
+       <p>It also allows the developers, sitting next to the client, to add
+       concrete executable examples of the use cases. This adds clarity and
+       helps to settle disputes over required functionality. Using the glossary,
+       developers can signal to the client that concepts are not well understood.
+       Tests can be marked pending if a document contains unexplained glossary
+       items.</p>
+
+	</div>
+	<div id="footer">
+	   <hr />
+	   <a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=118914&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net" /></a>
+	</div>
+  </div>
+</body>
+</html>```
