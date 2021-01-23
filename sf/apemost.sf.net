@@ -1,0 +1,175 @@
+```
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" value="MCMC, Bayesian inference, statistics software, APEMoST, parameter estimation, model selection, Bayes" /><meta name="description" value="APEMoST is a free, fast MCMC engine that allows the user to apply Bayesian inference for parameter estimation and model selection." />
+    <title>APEMoST documentation â Bayesian inference using MCMC &mdash; APEMoST documentation</title>
+    <link rel="stylesheet" href="_static/index.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.3HEAD',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="APEMoST documentation" href="#" />
+    <link rel="next" title="Automated Parameter Estimation and Model Selection Toolkit (APEMoST)" href="general.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="general.html" title="Automated Parameter Estimation and Model Selection Toolkit (APEMoST)"
+             accesskey="N">next</a> |</li>
+        <li><a href="#">APEMoST documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="apemost-documentation-bayesian-inference-using-mcmc">
+<h1>APEMoST documentation &#8211; Bayesian inference using MCMC<a class="headerlink" href="#apemost-documentation-bayesian-inference-using-mcmc" title="Permalink to this headline">Â¶</a></h1>
+<div class="section" id="automated-parameter-estimation-and-model-selection-toolkit">
+<h2>Automated Parameter Estimation and Model Selection Toolkit<a class="headerlink" href="#automated-parameter-estimation-and-model-selection-toolkit" title="Permalink to this headline">Â¶</a></h2>
+<blockquote>
+<div><strong>APEMoST is a free, fast MCMC engine that allows the user to apply
+Bayesian inference for parameter estimation and model selection.</strong></div></blockquote>
+<div class="section" id="quick-links">
+<h3>Quick links:<a class="headerlink" href="#quick-links" title="Permalink to this headline">Â¶</a></h3>
+<blockquote>
+<div><ol class="arabic">
+<li><dl class="first docutils">
+<dt><a class="reference internal" href="general.html"><em>General information</em></a></dt>
+<dd><p class="first last">What is APEMoST? What is Bayesian Inference?</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><a class="reference internal" href="manual.html"><em>User manual</em></a></dt>
+<dd><p class="first last">Includes <a class="reference internal" href="manual.html#getit"><em>how to get APEMoST</em></a>.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first"><a class="reference internal" href="faq.html"><em>FAQ</em></a>. Also see here for contact details.</p>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="full-table-of-contents">
+<h3>Full Table of Contents:<a class="headerlink" href="#full-table-of-contents" title="Permalink to this headline">Â¶</a></h3>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="general.html">Automated Parameter Estimation and Model Selection Toolkit (APEMoST)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="general.html#specification">Specification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="general.html#fundamentals">Fundamentals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="general.html#features">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="manual.html">User Manual</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#getting-apemost">Getting APEMoST</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#the-general-concept">The general concept</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#phase-0-preparation">Phase 0 - Preparation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#phase-1-calibration-first-chain-beta-1">Phase 1 - Calibration, first chain (beta = 1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#phase-1-calibration-other-chains-beta-1">Phase 1 - Calibration, other chains (beta &lt;= 1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#phase-2-running">Phase 2 - Running</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#phase-3-analyse">Phase 3 - Analyse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#hacking-apemost">Hacking APEMoST</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#other-topics">Other topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual.html#concluding-remarks">Concluding remarks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ - Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="others.html">Links and other software</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="others.html#introduction-to-mcmc-and-bayesian-inference">Introduction to MCMC and Bayesian inference</a></li>
+<li class="toctree-l2"><a class="reference internal" href="others.html#differences-and-other-programs">Differences and other programs</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>You can download the <a class="reference external" href="book.pdf">full documentation (PDF)</a>. Also
+available is the <a class="reference external" href="api/index.html">API reference (HTML)</a> or <a class="reference external" href="api.pdf">(PDF)</a>.</p>
+<div class="section" id="news">
+<h4>News:<a class="headerlink" href="#news" title="Permalink to this headline">Â¶</a></h4>
+<a class="reference external image-reference" href="https://sourceforge.net/projects/apemost/"><img alt="Sourceforge project page of APEMoST" class="align-right" src="http://sflogo.sourceforge.net/sflogo.php?group_id=275812&amp;type=5" style="width: 210px; height: 62px;" /></a>
+<p>You can now access and write your likelihood functions in C, C++ and <em>Python</em>!</p>
+<ul class="simple">
+<li>Check out the <a class="reference external" href="http://johannesbuchner.github.com/PyMultiNest">PyAPEMoST project</a> hosted together with PyMultiNest.</li>
+</ul>
+<p>New Publication using APEMoST:</p>
+<ul class="simple">
+<li>&#8220;Gamma-ray bursts as cosmological probes: LambdaCDM vs. conformal gravity&#8221; <a class="reference external" href="http://arxiv.org/abs/1103.5501">Antonaldo Diaferio et al, 2011</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="general.html" title="Automated Parameter Estimation and Model Selection Toolkit (APEMoST)"
+             >next</a> |</li>
+        <li><a href="#">APEMoST documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+  <div class="navigationfooter">
+     <div>
+<h3><a href="#">Table Of Contents</a></h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="general.html">Automated Parameter Estimation and Model Selection Toolkit (APEMoST)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="manual.html">User Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ - Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="others.html">Links and other software</a></li>
+</ul>
+</div>
+     <div>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script></div>
+     <div class="clearer"></div>
+  </div>
+  <div class="footer">
+        &copy; Copyright 2007-2012, Johannes Buchner.
+This work is licensed under a <a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a> and the <a class="reference external" href="license.html">GPLv3</a>.
+    </div>
+
+  </body>
+</html>```
