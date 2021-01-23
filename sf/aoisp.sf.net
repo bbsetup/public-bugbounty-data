@@ -1,0 +1,80 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+	<head>
+<!-- Flux Header Custom Code Start--><!-- Flux Header Custom Code End-->		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<meta name="keywords" content="art of illusion script plugin" />
+		<meta name="description" content="This the home page of the website dedicated to art of illusion scripts and plugins hosting and development" />
+		<meta name="author" content="Francois Guillet" />
+		<meta name="generator" content="Flux 1.0.14" />
+		<!-- Start of StyleSheet Definitions -->
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<!-- End of StyleSheet Definitions -->
+		<title>AoI scripts and plugins</title>
+	</head>
+	<body>
+
+		<div  style="height:59px ; width:100% ; position:absolute; top:53px; left:0px; background-image:none; background-repeat:; background-position:; background-color:#FFFFFF; opacity:100; filter:alpha(opacity=100); border-top:1px #000000 solid; border-bottom:1px #000000 solid; border-left:0px #000000 solid; border-right:0px #000000 solid; ">
+			<div  style="height:38px ; width:678px ; position:absolute; top:15px; left:152px; background-image:url(title.png); background-repeat: no-repeat; background-position:top left; background-color:transparent; opacity:100; filter:alpha(opacity=100); ">
+
+			</div>
+
+		</div>
+		<div  style="height:64px ; width:64px ; position:absolute; top:26px; left:24px; background-image:url(appIcon.png); background-repeat: no-repeat; background-position:top left; background-color:transparent; opacity:100; filter:alpha(opacity=100); ">
+
+		</div>
+		<div  style="height:190px ; width:171px ; position:absolute; top:140px; left:10px; border-top:0px #000000 solid; border-bottom:0px #000000 solid; border-left:0px #000000 solid; border-right:1px #000000 solid; ">
+			<div  style="height:24px ; width:150px ; position:absolute; top:75px; left:0px; border-top:0px #000000 solid; border-bottom:1px #FFFFFF solid; border-left:0px #000000 solid; border-right:0px #FFFFFF solid; ">
+<a class="button" href="documentation.html" >Documentation</a>
+			</div>
+			<div  style="height:24px ; width:150px ; position:absolute; top:50px; left:0px; border-top:0px #000000 solid; border-bottom:1px #FFFFFF solid; border-left:0px #000000 solid; border-right:0px #FFFFFF solid; ">
+<a class="button" href="spmanagement.html" >Management</a>
+			</div>
+			<div  style="height:24px ; width:150px ; position:absolute; top:100px; left:0px; border-top:0px #000000 solid; border-bottom:1px #FFFFFF solid; border-left:0px #000000 solid; border-right:0px #FFFFFF solid; ">
+<a class="button" href="codecamp.html" >Code Camp</a>
+			</div>
+			<div  style="height:24px ; width:150px ; position:absolute; top:125px; left:0px; border-top:0px #000000 solid; border-bottom:1px #FFFFFF solid; border-left:0px #000000 solid; border-right:0px #FFFFFF solid; ">
+<a class="button" href="links.html" >Links</a>
+			</div>
+			<div  style="height:24px ; width:150px ; position:absolute; top:150px; left:0px; border-top:0px #000000 solid; border-bottom:1px #FFFFFF solid; border-left:0px #000000 solid; border-right:0px #FFFFFF solid; ">
+<a class="button" href="AoIRepository/" >Browse Repository</a>
+			</div>
+			<div  style="height:24px ; width:150px ; position:absolute; top:0px; left:0px; border-top:0px #000000 solid; border-bottom:1px #FFFFFF solid; border-left:0px #000000 solid; border-right:0px #FFFFFF solid; ">
+<a class="button" href="index.html" >Home</a>
+			</div>
+			<div  style="height:24px ; width:150px ; position:absolute; top:25px; left:0px; border-top:0px #000000 solid; border-bottom:1px #FFFFFF solid; border-left:0px #000000 solid; border-right:0px #FFFFFF solid; ">
+<a class="button" href="about.html" >About</a>
+			</div>
+
+		</div>
+		<div class="Text"  style="height:782px ; width:700px ; position:absolute; top:125px; left:200px; ">
+
+			<h2>What is the AoI scripts/plugins repository?</h2>
+			<p><a href="http://aoi.sourceforge.net/" >Art of Illusion</a> can be extended in many ways using scripts and plugins. Actually, some important features, like importing text into 3D shapes, are available through this mechanism. However, these extensions are provided by different contributors and are inherently scattered over the net. The purpose of this project is then to:</p>
+			<p>-Provide a place where all scripts and plugins available for AoI can be gathered;</p>
+			<p>-Ease management of scripts and plugins (install and update) through the Scripts and Plugins Manager and a repository on the web;</p>
+			<p>-Release sources under the GPL licence for every plugin available;</p>
+			<p>-Promote writing of scripts/plugins through tutorials and help.</p>
+			<h3>What next?</h3>
+			<p>if you're new to AoI, we suggest you read what <a href="about.html" >scripts and plugins</a> are about. Then read <a href="spmanagement.html" >how to install and manage extensions</a> using the scripts and plugins manager. Just browse the scripts and plugins available and pick up those you're interested in. Here are a few notable plugins:</p>
+			<p>-TelefishAoI plugin has a number of format importers and an interesting height field feature;</p>
+			<p>-The Advanced Renderer brings background preview rendering, a zoom feature and much more;</p>
+			<p>-The PolyMesh plugin adds polygonal mesh modeling to AoI.</p>
+			<p>-The Help plugin which allows to browse the manual from within AoI and offers a connection to AoI IRC channel</p>
+			<p>The <a href="doucmentation.html" >Documentation</a> page links to the documentation available for the extensions we host. To be honest, there is not much information available. The good news, however, is that you can ask for help on IRC as well as the firendlyskies forum.</p>
+			<h3>Need help for writing a script or a plugin?</h3>
+			<p>Look at the Code Camp section. We have articles on how to write scripts or plugins (ok, there is not much at the moment. Let's say we'll have something to show in the near future).</p>
+			<h3>Sourceforge stuff</h3>
+			<p>You can pay a visit to the <a href="http://sourceforge.net/projects/aoisp" >SourceForge project</a> site. Even if the extensions are available through the sscripts and plugins manager, sources are published there so everyone has access to our work in case we're overrun by a bus. Or a wallaby, depending on where you&nbsp;live.</p>
+			<p>You can also post a message at the <a href="http://sourceforge.net/forum/forum.php?forum_id=457423" >discussion forum</a>, although generally discussion takes place either at the scripting AoI forum or at <a href="http://www.friendlyskies.net/aoiforum" >friendlyskies</a>.</p>
+			<h3>Who are we?</h3>
+			<p>The AoI scripts and plugins &#34;staff&#34;:</p>
+			<p>-Fran&ccedil;ois Guillet</p>
+			<p>-Nik Travellyn-Jones</p>
+			<p>-Peter Eastman</p>
+			<p>-Julian MacDonald</p>
+			<p>-Kevin Lynn</p>
+			<p></p><!-- <p><img   src="image.png" alt="Sourceforge Logo" ></img></p> -->
+		</div>
+	</body>
+</html>
+```
