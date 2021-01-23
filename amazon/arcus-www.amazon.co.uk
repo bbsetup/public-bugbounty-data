@@ -1,0 +1,92 @@
+```<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en-us" class="a-no-js a-lt-ie9 a-lt-ie8 a-lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="a-no-js a-lt-ie9 a-lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="a-no-js a-lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="a-no-js" lang="en-us"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title dir="ltr">Server Busy</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-3c913031596ca78a3768f4e934b1cc02ce238101.secure.min._V1_.css">
+</head>
+<body>
+
+<!--
+Correios.DoNotSend
+-->
+
+<div class="a-container a-padding-double-large" style="min-width:350px;padding:44px 0 !important">
+
+    <div class="a-row a-spacing-double-large" style="width: 350px; margin: 0 auto">
+
+        <div class="a-row a-spacing-medium a-text-center"><i class="a-icon a-logo"></i></div>
+
+        <div class="a-box a-alert a-alert-info a-spacing-base">
+            <div class="a-box-inner">
+                <i class="a-icon a-icon-alert"></i>
+                <h4>Server Busy</h4>
+                <p class="a-last">Our servers are getting hit pretty hard right now. To continue shopping, enter the characters as they are shown 
+                    in the image below.</p>
+                </div>
+            </div>
+
+            <div class="a-section">
+
+                <div class="a-box a-color-offset-background">
+                    <div class="a-box-inner a-padding-extra-large">
+
+                        <form method="get" action="/errors/validateCaptcha" name="">
+                            <input type=hidden name="amzn" value="XVqucG0b15mMFvX8jVR4YA==" /><input type=hidden name="amzn-r" value="&#047;" />
+                            <div class="a-row a-spacing-large">
+                                <div class="a-box">
+                                    <div class="a-box-inner">
+                                        <h4>Type the characters you see in this image:</h4>
+                                        <div class="a-row a-text-center">
+                                            <img src="https://images-na.ssl-images-amazon.com/captcha/cucusdhr/Captcha_vbzybuolze.jpg">
+                                        </div>
+                                        <div class="a-row a-spacing-base">
+                                            <div class="a-row">
+                                                <div class="a-column a-span6">
+                                                    <label for="captchacharacters">Type characters</label>
+                                                </div>
+                                                <div class="a-column a-span6 a-span-last a-text-right">
+                                                    <a onclick="window.location.reload()">Try different image</a>
+                                                </div>
+                                            </div>
+                                            <input autocomplete="off" spellcheck="false" id="captchacharacters" name="field-keywords" class="a-span12" autocapitalize="off" autocorrect="off" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="a-section a-spacing-extra-large">
+
+                                <div class="a-row">
+                                    <span class="a-button a-button-primary a-span12">
+                                        <span class="a-button-inner">
+                                            <button type="submit" class="a-button-text">Continue shopping</button>
+                                        </span>
+                                    </span>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="a-divider a-divider-section"><div class="a-divider-inner"></div></div>
+
+        <div class="a-text-center a-size-mini a-color-secondary">&copy; 1996-2013, Amazon.com, Inc. or its affiliates</div>
+
+    </div>
+
+
+</body></html>
+```
