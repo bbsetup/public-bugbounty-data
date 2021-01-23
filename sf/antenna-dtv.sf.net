@@ -1,0 +1,86 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Antenna DTV</title>
+<meta name="author" content="antonio" >
+<meta name="date" content="2011-01-19T19:59:47+0100" >
+<meta name="copyright" content="(C) 2011 by Antonio Passamani">
+<meta name="keywords" content="Antenna DTV Digital Television Viewer for Ubuntu Linux/Debian available with open source code in tar.gz format, deb and rpm package">
+<meta name="description" content="Welcome to Antenna, a free and open-source dvb-t tuner for linux desktops. Antenna is a full featured tool to see what's going on in the sky.">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5485865-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+<div class="holder">
+<div class="collaborate">
+<a href="developers.html">Collaborate! Improve Antenna DTV with code, suggestions, and bug fixing!
+Visit the developers section!</a>
+</div>
+<h1>
+Antenna DTV</h1><h2 class="heading">
+"got signal!!!"</h2>
+<p><img src="antenna-dtv-logo.png" alt="Antenna DTV Logo" class="logo" >
+Welcome to Antenna, a free and open-source dvb-t tuner for linux desktops. Antenna is a full featured tool to see what's going on in the sky. Antenna can:
+</p><ul><li>
+Scan the sky for new services</li><li>
+Continuosly monitor signal status</li><li>
+Search through known channels and tune</li><li>
+Search and manage favorite channels</li><li>
+See what's on (i.e. listen to radios and watch tvs)</li><li>
+Record streams while watching</li><li>
+Read teletext
+</li></ul>
+<h2>Screenshots</h2>
+<div class="screenshots">
+<a href="antenna4.png" ><img src="antenna4.png" alt="Antenna Screenshot"></a>
+<a href="antenna-better-epg.png" ><img src="antenna-better-epg.png" alt="Antenna Screenshot"></a>
+<a href="antenna2.png" ><img src="antenna2.png" alt="Antenna Screenshot"></a>
+<div class="clearer"></div>
+</div>
+<h2>Download</h2>
+Since Antenna DTV is free software, you might download Antenna directly from its sourceforge repository. Prebuild packages and source code are both available for free.
+<div class="download"><a href="http://sourceforge.net/projects/antenna-dtv/files/">
+<img src="download.gif" alt="download">
+Download now</a>
+<p class="description">English, Latest Stable Version,<br>available in
+precompiled deb packages for Ubuntu/Debian, rpm, and tar.gz sourcecode tarball
+</p>
+</div><div class="clearer"></div>
+<br>
+or alternatively, you'll might get the latest development version (which might be unstable) <a href="https://code.launchpad.net/~iltony/antenna-dtv/trunk" > from antenna dtv's bazaar repository</a>
+<h2>Contacts</h2>
+Please visit the <a href="developers.html">developer section</a>.
+<h2>Credits</h2>
+<div class="credits">
+Antenna DTV is possible thanks to the great work of the whole open source community. Id ex: python, gtk, glade, the whole set of gnu commandline utilities, linux kernel, asyncproc.py, xdg, w_scan, xine-ui (and all that sits behind), alevt, tv_grab_dvb and, more than all, the dvb suite by linuxTV expert group. 
+<div class="clearer"></div>
+<a href="http://www.sourceforge.net" ><img src="hosted-by-sourceforge.png" alt="Hosted by Sourceforge" ></a>
+<a href="http://www.ubuntu.com" ><img src="built-for-ubuntu.png" alt="Built for Ubuntu" ></a>
+<div class="clearer"></div>
+<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Strict" height="31" width="88"></a>
+<div class="clearer"></div>
+</div>
+<div class="footer">
+Copyright (C) 2011 by Antonio Passamani<br>
+powered by:<a href="http://www.my-lab.it"><img src="http://www.ntoni.altervista.org/_altervista_ht/my-lab.png" alt="my-lab logo" ></a>
+</div>
+</div>
+</body>
+</html>```
