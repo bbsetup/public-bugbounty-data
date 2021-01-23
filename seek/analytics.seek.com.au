@@ -1,0 +1,169 @@
+```
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="expires" content="Thu Jan 01 10:00:00 AEST 1970" />
+    <meta http-equiv="no-cache" />
+    <!-- <base href="https://analytics.seek.com.au/"> -->
+    <title>SEEK Analytics</title>
+    <link href="css/ie.css" rel="styleSheet" type="text/css" />
+    <link href="customcss/seeklogin.css" rel="styleSheet" type="text/css" />
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+    <script type="text/javascript">
+        !function(a,b,c,d,e,f,g,h){a.RaygunObject=e,a[e]=a[e]||function(){
+        (a[e].o=a[e].o||[]).push(arguments)},f=b.createElement(c),g=b.getElementsByTagName(c)[0],
+        f.async=1,f.src=d,g.parentNode.insertBefore(f,g),h=a.onerror,a.onerror=function(b,c,d,f,g){
+        h&&h(b,c,d,f,g),g||(g=new Error(b)),a[e].q=a[e].q||[],a[e].q.push({
+        e:g})}}(window,document,"script","//cdn.raygun.io/raygun4js/raygun.min.js","rg4js");
+    </script>
+    <script src="js/js.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script src="https://cdn.auth0.com/js/auth0/9.3.3/auth0.min.js"></script>
+    <script src="js/promise.min.js"></script>
+    <script src="js/onlineauth/sso.js?v=42"></script>
+    <script src="js/window.js"></script>
+    <script src="js/EventObj.js"></script>
+    <script language="JavaScript">
+
+        function yf_submit(dest) {
+            var strMissingInfo = "";
+            var objForm = document.LogonForm;
+
+            //Do the old auth stuff
+            if (dest == 'Logon') {
+                if (objForm.email.value == "") {
+                    strMissingInfo += "\n  - Enter a User Id";
+                }
+                else if (objForm.email.value.search("@") <= 0 || objForm.email.value.search("[.*]") == -1) {
+                    strMissingInfo += "\n  - Enter a valid email address";
+                }
+                // password validation
+
+                if (objForm.password.value == "") {
+                    strMissingInfo += "\n  - Enter a Password";
+                }
+                if (strMissingInfo != "") {
+                    strMissingInfo =
+                        "\n\nThe following details are incorrect:\n" +
+                        "__________________________________________\n" + strMissingInfo + 
+                        "\n__________________________________________\n" +
+                        "\nPlease update these details and re-submit.\n";
+                        alert(strMissingInfo);
+                }
+            }
+            else {
+                objForm.action.value = dest;
+                objForm.submit();
+            }
+        }
+    </script>
+
+    <!-- Include custom css here. This should be after any other css includes. -->
+    <link rel="stylesheet" type="text/css" href="css/CustomCSS.i4" />
+</head>
+<body onKeyPress="checkKey(event)">
+<div class="loginHeader">
+	<div style="margin: 0px auto; width:835px;">
+	
+	<div class="loginLogoContainer">
+		<a href="/" title="SEEK" class="loginLogo"></a>
+
+	</div>
+  <div class="loginForm">
+  <form name="LogonForm" method="post" action="/logon.i4;jsessionid=5DC37C6388E895C45BA182245D486728">
+    <input type="hidden" name="org" value="1" />
+    <input type="hidden" name="INDEX_PAGE" value="/login_seek.jsp" />
+    <input type="hidden" name="action" />
+    
+    
+      <input type="hidden" name="clientReferenceId" value="" />
+      <div style="display:none">
+        <div class="loginContainer username-container">
+          <span id="email-label" class="usernamePasswordLabel">Email address</span>
+           <input type="text" name="email" tabindex="1" value="" class="loginBox">
+        </div>
+        <div class="loginContainer password-container">
+          <span id="password-label" class="usernamePasswordLabel">Password</span>
+          <input type="password" tabindex="2" name="password" value="" onkeypress="keypress(event, 'logon');" class="loginBox" />
+        </div>
+      </div>
+      <div id="loginBoxOutline" style="float:right" >
+        <div id="logonButton" onclick="webAuth.authorize();" class="loginButton">
+          <a style="color:white;text-decoration:none;outline:0px;" onfocus="logonFocus(true)" tabindex="3" >
+            Sign in
+          </a>
+        </div>
+      </div>
+      <div style="text-align: left;clear:right;" id="errorMsgBox">
+      
+            </div>
+      <div style="text-align: right;">
+         
+            <div style="display:none"><a class="i4bodytext" href="javascript:forgotPassword();">Forgotten your password?</a></div>
+        
+        
+        
+
+        
+      </div>
+  </form>
+  </div>
+	</div>
+</div>
+
+<div style="background:#EEEEEE;clear: both;">
+	<img src="customimages/SEEK_Welcome.png" style="margin: 0px auto; display:block"/>
+</div>
+<div style="margin: 0px auto;display:block;width:835px">
+    <!-- Start Custom Footer -->
+<div id="stdFooter" class="i4greyfooter">
+    <div style="float:left">
+    <a class="i4footertext" href="http://www.seek.com.au/investor/about-us" target="_blank">
+	About SEEK
+	</a>
+	<text class="i4footertext"> | </text>
+	<a class="i4footertext" href="https://talent.seek.com.au/Support/PrivacyPolicy" target="_blank">
+	Privacy
+	</a>
+	<text class="i4footertext"> | </text>
+	<a class="i4footertext" href="https://www.seek.com.au/terms/?tracking=BLG-SAU-EDT-SEEK-Terms-6449" target="_blank">
+	Terms &amp; Conditions
+	</a>
+	<text class="i4footertext"> | </text>
+	<a class="i4footertext" href="https://talent.seek.com.au/support/adwritingtips" target="_blank">
+	Training
+	</a>
+	<text class="i4footertext"> | </text>
+	<a class="i4footertext" href="mailto:analyticssupport@seek.com.au?Subject=Seek%20analytics%20enquiry">
+	Contact Us
+	</a>
+    <text class="i4footertext">  </text>
+	
+	
+    </div>
+	<div style="float:right">
+		<text class="i4footertext">&copy; SEEK 2017. All rights reserved.</text>
+	</div>
+</div>
+
+</div>
+</body>
+</html>
+```
