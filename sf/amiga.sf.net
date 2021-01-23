@@ -1,0 +1,734 @@
+```<!----><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+ <head>
+<title>:: Amiga.sf :: </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR" content="CED v4.20 (Amiga plain text editor :)">
+  <meta NAME="keywords" CONTENT="Amiga,AmigaOS,Pegasos,MorphOS,ixemul,GeekGadgets,Open Source,Free Software,GNU,GPL,Development,">
+  <meta NAME="description" CONTENT="Compendium of Open Source precompiled binaries for the AmigaOS platform and compatible systems. ">
+  <meta NAME="author" CONTENT="Diego Casorran">
+  <meta NAME="Robots" CONTENT="NOARCHIVE, INDEX, FOLLOW">
+  <meta name="REVISIT-AFTER" content="12 DAYS">
+  <meta name="resource-type" content="document">
+  <meta name="distribution" content="global">
+  <meta name="URL" content="http://Amiga.sourceforge.net/">
+  <meta http-equiv="refresh" content="666">
+  
+  
+<script type="text/javascript"><!--
+function QuickDL(targ,selObj,restore){ //v3.0
+  
+  if(selObj.options[selObj.selectedIndex].value)
+  	eval(targ+".location='phps/logger.php?download="+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function GoToShowPackage(targ,selObj,restore){ //v3.0
+  
+  if(selObj.options[selObj.selectedIndex].value)
+  	eval(targ+".location='?showpackage="+selObj.options[selObj.selectedIndex].value+"'");
+  
+  if (restore) selObj.selectedIndex=0;
+}
+function PKGInfo(targ,selObj) { //v3.0
+	if(selObj.options[selObj.selectedIndex].value)
+	{
+		var prgn = selObj.options[selObj.selectedIndex].text;
+		var desc = selObj.options[selObj.selectedIndex].value;
+		
+		var text = "\n\n\nneed more info?, click on accept to go to its website.\n";
+		
+		if(confirm(prgn + "'s short description:\n\n\"" + desc + "\"" + text))
+		{
+			var url = eval("document.pkgsinfo."+prgn+".value");
+			
+			eval(targ+".location='"+url+"'");
+		}
+		
+//		selObj.selectedIndex=0;
+	}
+}
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  
+  if(selObj.options[selObj.selectedIndex].value)
+  	eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  
+  if (restore) selObj.selectedIndex=0;
+}
+function MM_findObj(n, d) { //v4.0
+
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+
+}
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+
+  var selObj = MM_findObj(selName);
+  
+  if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+//-->
+</script>
+</head>
+<body background="images/background.png" text="black" link="silver" vlink="#393939">
+
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" ALIGN="center">
+	<TR><TD BGCOLOR="#999999">
+		<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 width="100%">
+			<TR><TD BGCOLOR="#000000" COLSPAN="2">
+				<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 width="100%">
+					<TR><TD BGCOLOR="#d9d9d9" ROWSPAN=2>
+						<TABLE WIDTH=444 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD>
+			<IMG SRC="images/logo/AmigaSF_01.png" WIDTH=78 HEIGHT=36 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/logo/AmigaSF_02.png" WIDTH=144 HEIGHT=36 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/logo/AmigaSF_03.png" WIDTH=99 HEIGHT=36 ALT=""></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/logo/AmigaSF_04.png" WIDTH=55 HEIGHT=72 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/logo/AmigaSF_05.png" WIDTH=68 HEIGHT=36 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG SRC="images/logo/AmigaSF_06.png" WIDTH=78 HEIGHT=36 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/logo/AmigaSF_07.png" WIDTH=144 HEIGHT=36 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/logo/AmigaSF_08.png" WIDTH=99 HEIGHT=36 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/logo/AmigaSF_09.png" WIDTH=68 HEIGHT=36 ALT=""></TD>
+	</TR>
+</TABLE>
+					</TD>
+					<TD BGCOLOR="#d9d9d9" align=right valign=top>
+						  <IMG SRC="images/flags.png" USEMAP="#flags" BORDER="0" alt="flags"><MAP NAME="flags"><AREA SHAPE="rect" COORDS="4,4,28,18" HREF="?translate=zh&amp;trpage=/" alt=""><AREA SHAPE="rect" COORDS="33,4,59,18" HREF="?translate=de&amp;trpage=/" alt=""><AREA SHAPE="rect" COORDS="65,4,91,18" HREF="?translate=ja&amp;trpage=/" alt=""><AREA SHAPE="rect" COORDS="93,4,120,18" HREF="?translate=ko&amp;trpage=/" alt=""><AREA SHAPE="rect" COORDS="1,22,28,39" HREF="?translate=fr&amp;trpage=/" alt=""><AREA SHAPE="rect" COORDS="33,22,60,39" HREF="?translate=it&amp;trpage=/" alt=""><AREA SHAPE="rect" COORDS="63,21,90,38" HREF="?translate=pt&amp;trpage=/" alt=""><AREA SHAPE="rect" COORDS="93,21,120,38" HREF="?translate=es&amp;trpage=/" alt=""></MAP><BR>					</TD></TR><TR>
+					<TD BGCOLOR="#d9d9d9" align=right valign=bottom>
+						  <!-- SiteSearch Google -->
+							<FORM method=GET action="/index.php">
+								<INPUT type=submit name=search VALUE="Search">
+								<INPUT TYPE=text name=searchquery size=11 maxlength=255 value="">
+							</FORM>
+						  <!-- SiteSearch Google -->
+					</TD></TR>
+				</TABLE>
+			</TD></TR>
+			<TR VALIGN=MIDDLE><TD BGCOLOR="#536789">
+				&nbsp; <a href="http://amiga.sourceforge.net/"><b>Home</b></a> 
+				| <a href="?sfcontent=/projects/amiga/">Project</a> 
+				| <a href="?sfcontent=/forum/?group_id=48010">Forums</a> 
+				| <a href="?sfcontent=/tracker/?group_id=48010">Tracker</a> 
+				| <a href="?sfcontent=/project/showfiles.php?group_id=48010">Files</a> 
+				| <a href="?sfcontent=/export/rss2_project.php?group_id=48010">RSS feeds</a> 
+				| <a href="sources.php">Sources</a> 
+			</TD>
+			<TD BGCOLOR="#536789" ALIGN="right">
+				<FORM name="pkgsinfo" action="javascript:void(0)"><select name="pkgsnfo" onChange="PKGInfo('parent',this)"><option value="">- pkgsinfo -</option><option value="Any to PostScript filter.">a2ps</option><option value="converts ABC to music sheet in PostScript">abcm2ps</option><option value="Mame rom manager.">advscan</option><option value="performs optimisations to reduce the length...">aggregate</option><option value="outgoing mail processor.">anubis</option><option value="convert bitmaps to vector graphics">autotrace</option><option value="ASCII art creator.">aview</option><option value="Barcode generator for PCL">barkix</option><option value="editor for BibTeX bibliography files">bibcursed</option><option value="Battle.net Client">bnclient</option><option value="Bayesian spam filter.">bogofilter</option><option value="high-quality data compressor.">bzip2</option><option value="ascii animation viewer">cave</option><option value="Records audio or data CD-Rs in DAO mode.">cdrdao</option><option value="Utilities collection to CD Burners.">cdrtools</option><option value="ChanServ IRC Services">chanserv</option><option value="encrypt IRC queries without changing the client">coridoras</option><option value="generates an index (or tag) file of language objects">ctags</option><option value="transferring files with URL syntax">curl</option><option value="A CVS/RCS repository grapher">cvsgraph</option><option value="text to morse code converter.">cwtext</option><option value="IRC bot">dancer</option><option value="digramic Bayesian text classifier.">dbacl</option><option value="Direct Connect FileSharing Text Client">dctc</option><option value="irc bot">dekadent</option><option value="Distributed Server Boycott List">dsbl_testers</option><option value="Open Source IRC bot">eggdrop</option><option value="AudioCoding.com tools...">faac</option><option value="FAGS was a Free AudioGalaxy Satellite client">fags</option><option value="powerful video and audio converter">ffmpeg</option><option value="implementation of the Unix File(1) command.">file</option><option value="Free Lossless Audio Codec">flac</option><option value="Portable High Availability system">freeha</option><option value="Generates your geek code">geekcode</option><option value="twaddles GIF image files in a variety of ways.">gifsicle</option><option value="messenger for Yahoo!">gnuyahoo</option><option value="simple gopher/web server.">gofish</option><option value="reads your IRC logs and turns them into a web page">gruftistats</option><option value="A Distributed Search System (3458580 Bytes">harvest</option><option value="converts sourcecode to (x)html, RTF or TEX files.">highlight</option><option value="Hotmail POP3 gateway">hotwayd</option><option value="takes mail msgs and generates HTML documents.">hypermail</option><option value="tools to manipulate an image in many image formats">imagemagick</option><option value="determine if an intruder has modified a system.">integrit</option><option value="unix emulation library">ixemul.library</option><option value="bot for AOL's Instant Messenger">jasip</option><option value=" source java file to html source with syntax highlighting">java2html</option><option value="convert calendar dates to astronomical julian dates.">jday</option><option value="Kodak's DC120 digital camera image converter">kdc2tiff</option><option value="LAME Ain't an Mp3 Encoder.">lame</option><option value="auto-scrolls files in movie credit fashion">lazyread</option><option value="NNTP server for small sites.">leafnode</option><option value="C/C++ deformattor/decommentor.">mangle</option><option value="advanced HTTP/1.1 proxy server.">middleman</option><option value="media indexing tool">mindex</option><option value="Utilities collection for video editing.">mjpegtools</option><option value="bounce to IRC servers from open proxies...">muhstik</option><option value="AIM, IRC, and Lily client.">naim</option><option value="Server on a IRC network instead of a Client.">neobopm</option><option value="toolkit for manipulation of graphic images.">netpbm</option><option value="usenet binary autoposter">newspost</option><option value="Open-Source server for the Internet Relay Chat (IRC)">ngircd</option><option value="network exploration or security auditing.">nmap</option><option value="FREE version of the SSH protocol suite of network tools.">openssh</option><option value="Open Socket Secure Layer">openssl</option><option value="7-Zip is a file archiver with high compression ratio">p7zip</option><option value="monitoring the progress of data through a pipeline.">pipeviewer</option><option value="utility for creating graphs and plots.">ploticus</option><option value="utility for optimizing the compression of PNG files.">pngcrush</option><option value="console based pop3 mail checker.">pop3check</option><option value="mobile tones converter">ringtonetools</option><option value="handle all I/O of Siemens mobile phones.">scmxx</option><option value="file encryption program.">secure</option><option value="souececode to document with syntax highlighting.">shighlight</option><option value="Shorten is a fast, low complexity waveform coder.">shorten</option><option value="SIP proxy/masquerading daemon.">siproxd</option><option value="convert various audio files in to other formats.">sox</option><option value="open-source (LGPL) patent-free voice codec.">speex</option><option value="encrypt arbitrary TCP connections inside SSL.">stunnel</option><option value="SWF manipulation and generation utilities">swftools</option><option value="Web Site Indexing software">swish-e</option><option value="Web Site Indexing software">swishe</option><option value="TCL Interpreter.">tclsh</option><option value="compatible Berkeley UNIX C shell (csh).">tcsh</option><option value="backup all kind of video game media">ucon64</option><option value="set of programs for finding out what is in a Unicode file">unidesc</option><option value="utility to extract RAR archives">unrar</option><option value="full-featured mastering suite for Video CD's.">vcdimager</option><option value="client/server allowing remote network access">vncsnapshot</option><option value="great text-only webbrowser.">w3m</option><option value="web server log file analysis program.">webalizer</option><option value="network utility to retrieve files from the WWW.">wget</option><option value="Windows Metafile convert tools">wmftools</option><option value="Library providing XML and HTML support">xml2.library</option><option value="xml cli tools.....">xmlclitools</option><option value="utilities to manipulate PDF Documents.">xpdftools</option><option value="powerful ftp client.">yafc</option></select><input type=hidden name="a2ps" value="http://www.inf.enst.fr/~demaille/a2ps/"><input type=hidden name="abcm2ps" value="http://moinejf.free.fr/"><input type=hidden name="advscan" value="http://advancemame.sourceforge.net/scan-readme.html"><input type=hidden name="aggregate" value=""><input type=hidden name="anubis" value="http://www.gnu.org/software/anubis/"><input type=hidden name="autotrace" value="http://autotrace.sourceforge.net/"><input type=hidden name="aview" value="http://aa-project.sourceforge.net/aview"><input type=hidden name="barkix" value="http://www.atbas.org/barkix/"><input type=hidden name="bibcursed" value="http://sourceforge.net/projects/bibcursed/"><input type=hidden name="bnclient" value="http://www.zotteljedi.de/bnet/"><input type=hidden name="bogofilter" value="http://bogofilter.sourceforge.net/"><input type=hidden name="bzip2" value="http://sources.redhat.com/bzip2/"><input type=hidden name="cave" value="http://cave.sourceforge.net/"><input type=hidden name="cdrdao" value="http://cdrdao.sourceforge.net/index.html"><input type=hidden name="cdrtools" value="http://www.fokus.fraunhofer.de/research/cc/glone/employees/joerg.schilling/private/cdrecord.html"><input type=hidden name="chanserv" value="http://sourceforge.net/projects/chanserv"><input type=hidden name="coridoras" value="http://ijuz.uugrn.org/dev/coridoras.html"><input type=hidden name="ctags" value="http://ctags.sourceforge.net/"><input type=hidden name="curl" value="http://curl.haxx.se/"><input type=hidden name="cvsgraph" value="http://www.akhphd.au.dk/~bertho/cvsgraph/"><input type=hidden name="cwtext" value="http://cwtext.sourceforge.net/"><input type=hidden name="dancer" value="http://sourceforge.net/docman/display_doc.php?docid=1034&amp;group_id=1975"><input type=hidden name="dbacl" value="http://www.lbreyer.com/dbaclman.html"><input type=hidden name="dctc" value="http://ac2i.tzo.com/dctc/"><input type=hidden name="dekadent" value="http://www.bubix.net/~coolmaster/dbot/changelog.txt"><input type=hidden name="dsbl_testers" value=""><input type=hidden name="eggdrop" value="http://www.eggheads.org/"><input type=hidden name="faac" value="http://www.audiocoding.com/"><input type=hidden name="fags" value="http://www.tty0.org/page/fags/"><input type=hidden name="ffmpeg" value="http://ffmpeg.sourceforge.net/"><input type=hidden name="file" value="ftp://ftp.astron.com/pub/file/"><input type=hidden name="flac" value="http://flac.sourceforge.net/"><input type=hidden name="freeha" value="http://www.bolthole.com/freeha/"><input type=hidden name="geekcode" value="http://geekcode.sourceforge.net/"><input type=hidden name="gifsicle" value="http://www.lcdf.org/gifsicle/"><input type=hidden name="gnuyahoo" value="http://gnuyahoo.sourceforge.net/"><input type=hidden name="gofish" value="http://gofish.sourceforge.net/"><input type=hidden name="gruftistats" value="http://gruftistats.sourceforge.net/"><input type=hidden name="harvest" value="http://harvest.sourceforge.net/"><input type=hidden name="highlight" value="http://highlight.sourceforge.net/"><input type=hidden name="hotwayd" value="http://hotwayd.sourceforge.net/"><input type=hidden name="hypermail" value="http://www.hypermail.org/source/docs/hypermail.html"><input type=hidden name="imagemagick" value="http://www.imagemagick.org/"><input type=hidden name="integrit" value="http://integrit.sourceforge.net/"><input type=hidden name="ixemul.library" value="http://zapek.com/software/ixemul/"><input type=hidden name="jasip" value="http://sourceforge.net/projects/jasip"><input type=hidden name="java2html" value="http://www.gnu.org/software/java2html"><input type=hidden name="jday" value="http://jday.sourceforge.net/"><input type=hidden name="kdc2tiff" value="http://kdc2tiff.sourceforge.net/"><input type=hidden name="lame" value="http://lame.sourceforge.net/"><input type=hidden name="lazyread" value="http://www.seekrut.com/rk/lazyread.html"><input type=hidden name="leafnode" value="http://www.leafnode.org/"><input type=hidden name="mangle" value="http://biz0r.biz/index.php?action=ViewProject&amp;id=1"><input type=hidden name="middleman" value="http://sourceforge.net/projects/middle-man/"><input type=hidden name="mindex" value="http://fake.by-infonet.de"><input type=hidden name="mjpegtools" value="http://mjpeg.sourceforge.net/"><input type=hidden name="muhstik" value="http://muhstik.sourceforge.net/about.html"><input type=hidden name="naim" value="http://site.rpi-acm.org/info/naim/"><input type=hidden name="neobopm" value="http://fish.irc-chat.org/xf/project/?neobopm"><input type=hidden name="netpbm" value="http://netpbm.sourceforge.net/"><input type=hidden name="newspost" value="http://newspost.unixcab.org/"><input type=hidden name="ngircd" value="http://arthur.ath.cx/~alex/ngircd/"><input type=hidden name="nmap" value="http://www.insecure.org/nmap/"><input type=hidden name="openssh" value="http://www.openssh.org/"><input type=hidden name="openssl" value="http://www.openssl.org/"><input type=hidden name="p7zip" value="http://www.7-zip.org/"><input type=hidden name="pipeviewer" value="http://www.ivarch.com/programs/pv.shtml"><input type=hidden name="ploticus" value="http://ploticus.sourceforge.net/"><input type=hidden name="pngcrush" value="http://pmt.sourceforge.net/pngcrush/index.html"><input type=hidden name="pop3check" value="http://pop3check.sourceforge.net/"><input type=hidden name="ringtonetools" value="http://nakentone.naken.cc/tools.php"><input type=hidden name="scmxx" value="http://www.hendrik-sattler.de/scmxx"><input type=hidden name="secure" value="http://secure.sourceforge.net/secure.html"><input type=hidden name="shighlight" value="http://www.gnu.org/software/src-highlite/"><input type=hidden name="shorten" value="http://www.etree.org/shnutils/shorten/"><input type=hidden name="siproxd" value="http://sourceforge.net/projects/siproxd/"><input type=hidden name="sox" value="http://sox.sourceforge.net/"><input type=hidden name="speex" value="http://speex.sourceforge.net/"><input type=hidden name="stunnel" value="http://www.stunnel.org/"><input type=hidden name="swftools" value="http://www.quiss.org/swftools/"><input type=hidden name="swish-e" value="http://www.swish-e.org/features.html"><input type=hidden name="swishe" value=""><input type=hidden name="tclsh" value="http://www.tcl.tk/"><input type=hidden name="tcsh" value="http://www.tcsh.org/"><input type=hidden name="ucon64" value="http://ucon64.sourceforge.net/index2.html"><input type=hidden name="unidesc" value="http://www.cis.upenn.edu/~wjposer/unidesc.html"><input type=hidden name="unrar" value="http://www.rarlab.com/rarnew.htm"><input type=hidden name="vcdimager" value="http://www.vcdimager.org/"><input type=hidden name="vncsnapshot" value="http://vncsnapshot.sourceforge.net/"><input type=hidden name="w3m" value="http://www.w3m.org/"><input type=hidden name="webalizer" value="http://www.mrunix.net/webalizer/"><input type=hidden name="wget" value="http://www.wget.org/"><input type=hidden name="wmftools" value="http://wvWare.sourceforge.net/libwmf.html"><input type=hidden name="xml2.library" value="http://xmlsoft.org/"><input type=hidden name="xmlclitools" value="http://robur.slu.se/jensl/xmlclitools/"><input type=hidden name="xpdftools" value="http://www.foolabs.com/xpdf/home.html"><input type=hidden name="yafc" value="http://yafc.sourceforge.net/manual_1.html#SEC1">				<select name="subsites" onChange="MM_jumpMenu('parent',this,1)">
+					<option value="">subsites</option>
+					<option value="amigadevhelp/">AmiDev Help</option>
+					<option value="OpenSSL/">OpenSSL</option>
+					<option value="ImageMagick/">ImageMagick</option>
+				</select>
+				</FORM>			</TD></TR>
+		</TABLE>
+	</TD></TR>
+</TABLE>
+	
+<BR><center><script type="text/javascript"><!--
+		google_ad_client = "pub-6561722939950358";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		google_ad_format = "728x90_as";
+		google_ad_type = "image";
+		google_ad_channel ="";
+		google_color_border = "CCCCCC";
+		google_color_bg = "FFFFFF";
+		google_color_link = "000000";
+		google_color_url = "666666";
+		google_color_text = "333333";
+		//--></script>
+		<script type="text/javascript"
+		  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script></center><br><div align="center"> <a href="http://www.amigaos.net/"><img src="images/os4banner.png" alt="Discover what AmigaOS[4] could do for you" border="1"></a></div><br><br><TABLE BORDER="0" CELLPADDING="3" CELLSPACING="2" WIDTH="98%" ALIGN="center">
+<TR><TD WIDTH="66%" VALIGN="top">
+	
+	
+		<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0" WIDTH="100%"><TR BGCOLOR="#000000">
+		<TD VALIGN="middle">
+	<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0" WIDTH="100%"><TR BGCOLOR="#748292">
+		<TD VALIGN="middle">
+			<font color="#C3C9DA"> &nbsp; <big><b>Latest News/Releases</b></big> </font>
+		</TD><TD ALIGN="right" VALIGN="bottom">
+					<form name="Dform1" action="">
+			<select name="show">
+				<option value="10">Display 10</option>
+				<option value="30">Display 30</option>
+				<option value="50">Display 50</option>
+				<option value="2000">Display All</option>
+			</select>
+			<input type="submit" value="Change">
+			<input type=hidden name=start value=0>
+		</form>		<form name="Dform2" action="">
+			<input type="text" name="relsrch" value="" size="30">
+			<select name="where">
+				<option value="1">Titles</option>
+				<option value="2">Contents</option>
+				<option value="3">Comments</option>
+			</select>
+			<input type="submit" value="Search ">
+		</form>
+		</TD></TR>
+	</TABLE>
+		</TD></TR>
+	</TABLE><BR><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 width="100%">
+	<TR><TD BGCOLOR="#536273">
+		<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 width="100%">
+			<TR><TD BGCOLOR="#536273">
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%"><tr>
+					<td><font color="#C3C9DA"> <B>Wget 1.12 (Rev#2)</B><img src="images/pkgupd.png" alt="upd" hspace="22" border="0"> </font> </td>
+					<td align=right> <strong> 13.07.2010 </strong></td></tr>
+				</TABLE>
+			</TD></TR>
+			<TR><TD BGCOLOR="#748292">
+			 GNU Wget is a <a href="http://www.gnu.org/philosophy/free-sw.html">free software</a> package for retrieving files using HTTP, HTTPS and FTP, the most widely-used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, etc... <p> GNU Wget has many features to make retrieving large files or mirroring entire web or FTP sites easy, including: </p> <ul> <li>Can resume aborted downloads, using <tt>REST</tt> and <tt>RANGE</tt></li> <li>Can use filename wild cards and recursively mirror directories</li> <li> Optionally converts absolute links in downloaded documents to relative, so that downloaded documents may link to each other locally </li> <li>Supports HTTP and SOCKS proxies</li> <li>Supports HTTP cookies</li> <li>Supports persistent HTTP connections</li> <li>Unattended / background operation</li> <li>Uses local file timestamps to determine whether documents need to be re-downloaded when mirroring</li> <li>GNU Wget is distributed under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</a>.</li> <li>As well it supports Amiga-only features like file comments, writing long filenames names to FFS partitions, restrict chars which could make trouble on amiga filesystems, etc... </ul> 
+			</TD></TR><TR><TD BGCOLOR="#748292"><a href="phps/logger.php?download=wget-1.12r2.lha">wget-1.12r2.lha (1464Kb)</a></TD></TR>		</TABLE>
+	</TD></TR>
+	<TR valign="middle"><TD valign="middle" height="19">
+		<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" width="100%" align="center">
+			<TR BGCOLOR="#839296" valign="middle"><TD colspan="2" height="1" style="height:1px"></TD></TR><TR BGCOLOR="#839296" valign="middle"><TD valign="middle"><a href="http://www.wget.org/" target="_blank"><img src="images/reqs/www.png" hspace="4" border="0" width="48" alt="visit this package website"></a><img src="images/reqs/68K.png" hspace="4" border="0" width="48" alt="This package optimized/requires 68K"><img src="images/reqs/OS4.png" hspace="4" border="0" width="48" alt="This package optimized/requires OS4">			<TD ALIGN="right" VALIGN="middle">&nbsp; <a href="?comment=20100712.1279052027&amp;rel=Wget+1.12+%28Rev%232%29">comments?</a>&nbsp;&nbsp;			</TD></TR>
+		</TABLE>
+	</TD></TR>
+</TABLE><P><BR><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 width="100%">
+	<TR><TD BGCOLOR="#536273">
+		<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 width="100%">
+			<TR><TD BGCOLOR="#536273">
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%"><tr>
+					<td><font color="#C3C9DA"> <B>OpenSSL 1.0.0a</B><img src="images/pkgupd.png" alt="upd" hspace="22" border="0"> </font> </td>
+					<td align=right> <strong> 27.06.2010 </strong></td></tr>
+				</TABLE>
+			</TD></TR>
+			<TR><TD BGCOLOR="#748292">
+			The OpenSSL Project is a collaborative effort to develop a robust, commercial-grade, full-featured, and <a href="http://www.opensource.org/">Open Source</a> toolkit implementing the <a href="http://www.netscape.com/eng/ssl3/">Secure Sockets Layer</a> (SSL v2/v3) and <a href="http://www.ietf.org/html.charters/tls-charter.html">Transport Layer Security</a> (TLS v1) protocols as well as a full-strength general purpose cryptography library. The project is managed by a worldwide community of volunteers that use the Internet to communicate, plan, and develop the OpenSSL toolkit and its related documentation. <p> For further details and downloads go to <a href="http://amiga.sourceforge.net/OpenSSL/">http://amiga.sourceforge.net/OpenSSL/</a> </p> 
+			</TD></TR>		</TABLE>
+	</TD></TR>
+	<TR valign="middle"><TD valign="middle" height="19">
+		<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" width="100%" align="center">
+			<TR BGCOLOR="#839296" valign="middle"><TD colspan="2" height="1" style="height:1px"></TD></TR><TR BGCOLOR="#839296" valign="middle"><TD valign="middle"><a href="http://amiga.sourceforge.net/OpenSSL/" target="_blank"><img src="images/reqs/www.png" hspace="4" border="0" width="48" alt="visit this package website"></a><img src="images/reqs/68K.png" hspace="4" border="0" width="48" alt="This package optimized/requires 68K">			<TD ALIGN="right" VALIGN="middle">&nbsp; <a href="?comment=20100627.1277636582&amp;rel=OpenSSL+1.0.0a">comments?</a>&nbsp;&nbsp;			</TD></TR>
+		</TABLE>
+	</TD></TR>
+</TABLE><P><BR><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 width="100%">
+	<TR><TD BGCOLOR="#536273">
+		<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 width="100%">
+			<TR><TD BGCOLOR="#536273">
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%"><tr>
+					<td><font color="#C3C9DA"> <B>VorbisTools 1.4.0</B><img src="images/pkgupd.png" alt="upd" hspace="22" border="0"> </font> </td>
+					<td align=right> <strong> 23.06.2010 </strong></td></tr>
+				</TABLE>
+			</TD></TR>
+			<TR><TD BGCOLOR="#748292">
+			vorbis-tools 1.4.0 is the first official release of vorbis-tools since 1.2.x. 1.3.x was never offered as an official snapshot, though various versions were widely deployed as patch-sets by distributions. <ul> <li> Implement corrected channel mappings for all input and playback file types <li> Correct an possible infinite loop in WAV input reading code when header is corrupt <li> Implement "disable_coupling" option for oggenc <li><strike> Fix Ctrl-C lockup bug in ogg123</strike> <li><strike> ogg123 directory playback in sorted order</strike> <li> Add WAVEFORMATEXTENSIBLE support <li><strike> More translations</strike> <li> Add '-' as stdin/out filename in vcut <li> Add -lnetwork check for socket in configure <li> Remove 'extra' F parameter from ogg123 remote output <li> Numerous code and build fixes </ul> <p>Thanks to Michel 'DMX' Bagmeijer for this submission </p> 
+			</TD></TR><TR><TD BGCOLOR="#748292"><a href="phps/logger.php?download=vorbistools-1.40.lha">vorbistools-1.40.lha (806Kb)</a></TD></TR>		</TABLE>
+	</TD></TR>
+	<TR valign="middle"><TD valign="middle" height="19">
+		<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" width="100%" align="center">
+			<TR BGCOLOR="#839296" valign="middle"><TD colspan="2" height="1" style="height:1px"></TD></TR><TR BGCOLOR="#839296" valign="middle"><TD valign="middle"><a href="http://www.xiph.org/press/2010/vorbis-surround/" target="_blank"><img src="images/reqs/www.png" hspace="4" border="0" width="48" alt="visit this package website"></a><img src="images/reqs/WOS.png" hspace="4" border="0" width="48" alt="This package optimized/requires WOS">			<TD ALIGN="right" VALIGN="middle">&nbsp; <a href="?comment=20100623.1277315054&amp;rel=VorbisTools+1.4.0">comments?</a>&nbsp;&nbsp;			</TD></TR>
+		</TABLE>
+	</TD></TR>
+</TABLE><P><BR><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 width="100%">
+	<TR><TD BGCOLOR="#536273">
+		<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 width="100%">
+			<TR><TD BGCOLOR="#536273">
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%"><tr>
+					<td><font color="#C3C9DA"> <B>Normalize 0.7.7</B><img src="images/pkgnew.png" alt="new" hspace="22" border="0"> </font> </td>
+					<td align=right> <strong> 23.06.2010 </strong></td></tr>
+				</TABLE>
+			</TD></TR>
+			<TR><TD BGCOLOR="#748292">
+			<p> normalize is a tool for adjusting the volume of audio files to a standard level. This is useful for things like creating mixed CD's and mp3 collections, where different recording levels on different albums can cause the volume to vary greatly from song to song. </p> <p>This build is compiled with libmad &amp; audofile, so mp3, aiff, next and iff (8bit, mono) and some more can be normalized too.</p> <p>Thanks to Michel 'DMX' Bagmeijer for this submission </p> 
+			</TD></TR><TR><TD BGCOLOR="#748292"><a href="phps/logger.php?download=normalize-0.7.7.lha">normalize-0.7.7.lha (223Kb)</a></TD></TR>		</TABLE>
+	</TD></TR>
+	<TR valign="middle"><TD valign="middle" height="19">
+		<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" width="100%" align="center">
+			<TR BGCOLOR="#839296" valign="middle"><TD colspan="2" height="1" style="height:1px"></TD></TR><TR BGCOLOR="#839296" valign="middle"><TD valign="middle"><a href="http://normalize.nongnu.org/" target="_blank"><img src="images/reqs/www.png" hspace="4" border="0" width="48" alt="visit this package website"></a><img src="images/reqs/68K.png" hspace="4" border="0" width="48" alt="This package optimized/requires 68K"><img src="images/reqs/WOS.png" hspace="4" border="0" width="48" alt="This package optimized/requires WOS">			<TD ALIGN="right" VALIGN="middle">&nbsp; <a href="?comment=20100623.1277315074&amp;rel=Normalize+0.7.7">7&nbsp;comments</a>&nbsp;&nbsp;			</TD></TR>
+		</TABLE>
+	</TD></TR>
+</TABLE><P><BR><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 width="100%">
+	<TR><TD BGCOLOR="#536273">
+		<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 width="100%">
+			<TR><TD BGCOLOR="#536273">
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%"><tr>
+					<td><font color="#C3C9DA"> <B>mp3gain 1.5.1</B><img src="images/pkgnew.png" alt="new" hspace="22" border="0"> </font> </td>
+					<td align=right> <strong> 23.06.2010 </strong></td></tr>
+				</TABLE>
+			</TD></TR>
+			<TR><TD BGCOLOR="#748292">
+			<p> <strong>Tired of reaching for your volume knob every time your mp3 player changes to a new song?</strong><br > MP3Gain analyzes and adjusts mp3 files so that they have the same volume.</p> <p> MP3Gain does <i>not</i> just do <a HREF="http://replaygain.hydrogenaudio.org/faq_norm.html">peak normalization</a>, as many normalizers do. Instead, it does some <a HREF="http://replaygain.hydrogenaudio.org">statistical analysis</a> to determine how loud the file actually <i>sounds</i> to the human ear.<br > Also, the changes MP3Gain makes are completely lossless. There is no quality lost in the change because the program adjusts the mp3 file directly, without decoding and re-encoding.</p> <p>Thanks to Michel 'DMX' Bagmeijer for this submission </p> 
+			</TD></TR><TR><TD BGCOLOR="#748292"><a href="phps/logger.php?download=mp3gain-1.5.1.lha">mp3gain-1.5.1.lha (151Kb)</a></TD></TR>		</TABLE>
+	</TD></TR>
+	<TR valign="middle"><TD valign="middle" height="19">
+		<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" width="100%" align="center">
+			<TR BGCOLOR="#839296" valign="middle"><TD colspan="2" height="1" style="height:1px"></TD></TR><TR BGCOLOR="#839296" valign="middle"><TD valign="middle"><a href="http://mp3gain.sourceforge.net/" target="_blank"><img src="images/reqs/www.png" hspace="4" border="0" width="48" alt="visit this package website"></a><img src="images/reqs/68K.png" hspace="4" border="0" width="48" alt="This package optimized/requires 68K"><img src="images/reqs/WOS.png" hspace="4" border="0" width="48" alt="This package optimized/requires WOS">			<TD ALIGN="right" VALIGN="middle">&nbsp; <a href="?comment=20100623.1277315064&amp;rel=mp3gain+1.5.1">13&nbsp;comments</a>&nbsp;&nbsp;			</TD></TR>
+		</TABLE>
+	</TD></TR>
+</TABLE><P><BR><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 width="100%">
+	<TR><TD BGCOLOR="#536273">
+		<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 width="100%">
+			<TR><TD BGCOLOR="#536273">
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%"><tr>
+					<td><font color="#C3C9DA"> <B>OptiPNG 0.6.4</B><img src="images/pkgupd.png" alt="upd" hspace="22" border="0"> </font> </td>
+					<td align=right> <strong> 23.05.2010 </strong></td></tr>
+				</TABLE>
+			</TD></TR>
+			<TR><TD BGCOLOR="#748292">
+			<b>OptiPNG</b> is a PNG optimizer that recompresses image files to a smaller size, without losing any information. This program also converts external formats (BMP, GIF, PNM and TIFF) to optimized PNG, and performs PNG integrity checks and corrections. <br> If you wish to learn how PNG optimization is done, or to know about other similar tools, read the PNG-Tech article <i>&quot;<a href="http://optipng.sourceforge.net/pngtech/optipng.html">A guide to PNG optimization</a>&quot;</i>. 
+			</TD></TR><TR><TD BGCOLOR="#748292"><a href="phps/logger.php?download=OptiPNG-0.6.4.lha">OptiPNG-0.6.4.lha (245Kb)</a></TD></TR>		</TABLE>
+	</TD></TR>
+	<TR valign="middle"><TD valign="middle" height="19">
+		<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" width="100%" align="center">
+			<TR BGCOLOR="#839296" valign="middle"><TD colspan="2" height="1" style="height:1px"></TD></TR><TR BGCOLOR="#839296" valign="middle"><TD valign="middle"><a href="http://optipng.sourceforge.net/" target="_blank"><img src="images/reqs/www.png" hspace="4" border="0" width="48" alt="visit this package website"></a><img src="images/reqs/020.png" hspace="4" border="0" width="48" alt="This package optimized/requires 020"><img src="images/reqs/WOS.png" hspace="4" border="0" width="48" alt="This package optimized/requires WOS">			<TD ALIGN="right" VALIGN="middle">&nbsp; <a href="?comment=20100523.1274631004&amp;rel=OptiPNG+0.6.4">comments?</a>&nbsp;&nbsp;			</TD></TR>
+		</TABLE>
+	</TD></TR>
+</TABLE><P><BR><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 width="100%">
+	<TR><TD BGCOLOR="#536273">
+		<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 width="100%">
+			<TR><TD BGCOLOR="#536273">
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%"><tr>
+					<td><font color="#C3C9DA"> <B>GCC 4.5 for Amiga m68k (Cygwin Hosted)</B><img src="images/pkgupd.png" alt="upd" hspace="22" border="0"> </font> </td>
+					<td align=right> <strong> 10.05.2010 </strong></td></tr>
+				</TABLE>
+			</TD></TR>
+			<TR><TD BGCOLOR="#748292">
+			<p> Bernd Roesch bring us this time its CYGWIN-Hosted GCC Version 4.5 compiler to build Amiga m68k programs. C++ include files and related archives can be found <a href="http://amiga.sourceforge.net/?showpackage=Compilers">here</a>. </p> 
+			</TD></TR><TR><TD BGCOLOR="#748292"><a href="phps/logger.php?download=GCC-4.5.0-m68k-amigaos-cygwin.7z">GCC-4.5.0-m68k-amigaos-cygwin.7z (7000Kb)</a></TD></TR>		</TABLE>
+	</TD></TR>
+	<TR valign="middle"><TD valign="middle" height="19">
+		<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" width="100%" align="center">
+			<TR BGCOLOR="#839296" valign="middle"><TD colspan="2" height="1" style="height:1px"></TD></TR><TR BGCOLOR="#839296" valign="middle"><TD valign="middle"><a href="http://amiga.sourceforge.net/?showpackage=Compilers" target="_blank"><img src="images/reqs/www.png" hspace="4" border="0" width="48" alt="visit this package website"></a>			<TD ALIGN="right" VALIGN="middle">&nbsp; <a href="?comment=20100509.1273061588&amp;rel=GCC+4.5+for+Amiga+m68k+%28Cygwin+Hosted%29">1&nbsp;comments</a>&nbsp;&nbsp;			</TD></TR>
+		</TABLE>
+	</TD></TR>
+</TABLE><P><BR><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 width="100%">
+	<TR><TD BGCOLOR="#536273">
+		<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 width="100%">
+			<TR><TD BGCOLOR="#536273">
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%"><tr>
+					<td><font color="#C3C9DA"> <B>Ixemul library 63.1</B><img src="images/pkgupd.png" alt="upd" hspace="22" border="0"> </font> </td>
+					<td align=right> <strong> 05.05.2010 </strong></td></tr>
+				</TABLE>
+			</TD></TR>
+			<TR><TD BGCOLOR="#748292">
+			<p>A new version of the popular ixemul library is now available for inmediate download.</p> <p> Please check the changelog by clicking <a href="http://amiga.svn.sourceforge.net/viewvc/amiga/ixemul/changelog.txt" target="_blank">here</a>, Source code can be found at the <a href="http://amiga.svn.sourceforge.net/" target="_blank">SVN Repositoire</a>.</p> 
+			</TD></TR><TR><TD BGCOLOR="#748292"><a href="phps/logger.php?download=ixemul-63.1-m68k.lha">ixemul-63.1-m68k.lha (2840Kb)</a></TD></TR>		</TABLE>
+	</TD></TR>
+	<TR valign="middle"><TD valign="middle" height="19">
+		<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" width="100%" align="center">
+			<TR BGCOLOR="#839296" valign="middle"><TD colspan="2" height="1" style="height:1px"></TD></TR><TR BGCOLOR="#839296" valign="middle"><TD valign="middle"><a href="http://amiga.sourceforge.net/?showpackage=ixemul.library" target="_blank"><img src="images/reqs/www.png" hspace="4" border="0" width="48" alt="visit this package website"></a><img src="images/reqs/68K.png" hspace="4" border="0" width="48" alt="This package optimized/requires 68K">			<TD ALIGN="right" VALIGN="middle">&nbsp; <a href="?comment=20100505.1273061587&amp;rel=Ixemul+library+63.1">comments?</a>&nbsp;&nbsp;			</TD></TR>
+		</TABLE>
+	</TD></TR>
+</TABLE><P><BR><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 width="100%">
+	<TR><TD BGCOLOR="#536273">
+		<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 width="100%">
+			<TR><TD BGCOLOR="#536273">
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%"><tr>
+					<td><font color="#C3C9DA"> <B>LAME 3.98.4</B><img src="images/pkgupd.png" alt="upd" hspace="22" border="0"> </font> </td>
+					<td align=right> <strong> 02.04.2010 </strong></td></tr>
+				</TABLE>
+			</TD></TR>
+			<TR><TD BGCOLOR="#748292">
+			LAME is an LGPL MP3 encoder. The Open source development model allowed to improve its quality and speed since 1999. It is now an highly evolved MP3 encoder, with quality and speed able to rival state of the art commercial encoders. <h3>LAME features:</h3> <ul> <li> Many improvements in quality in speed over ISO reference software. See <a href="http://lame.cvs.sourceforge.net/*checkout*/lame/lame/doc/html/history.html"> history</a>. </li> <li> MPEG1,2 and 2.5 layer III encoding. </li> <li> CBR (constant bitrate) and two types of variable bitrate, <a href="http://lame.sourceforge.net/gpsycho.php">VBR and ABR</a>. </li> <li> Free format encoding and decoding. </li> <li> <a href="http://lame.sourceforge.net/gpsycho.php">GPSYCHO:</a> a GPL'd psycho acoustic and noise shaping model. </li> <li> Powerfull and easy to use presets. </li> <li> Quality better than all other encoders at most bitrates. </li> <li> Fast! Encodes faster than real time on a PII 266 at highest quality mode. </li> </ul> <P> Thanks to Michel 'DMX' Bagmeijer for this submission </P> 
+			</TD></TR><TR><TD BGCOLOR="#748292"><a href="phps/logger.php?download=lame-3.98.4.lha">lame-3.98.4.lha (458Kb)</a><BR><a href="phps/logger.php?download=lamewos-3.98.4.lha">lamewos-3.98.4.lha (526Kb)</a></TD></TR>		</TABLE>
+	</TD></TR>
+	<TR valign="middle"><TD valign="middle" height="19">
+		<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" width="100%" align="center">
+			<TR BGCOLOR="#839296" valign="middle"><TD colspan="2" height="1" style="height:1px"></TD></TR><TR BGCOLOR="#839296" valign="middle"><TD valign="middle"><a href="http://lame.sourceforge.net/" target="_blank"><img src="images/reqs/www.png" hspace="4" border="0" width="48" alt="visit this package website"></a><img src="images/reqs/68K.png" hspace="4" border="0" width="48" alt="This package optimized/requires 68K"><img src="images/reqs/WOS.png" hspace="4" border="0" width="48" alt="This package optimized/requires WOS">			<TD ALIGN="right" VALIGN="middle">&nbsp; <a href="?comment=20100402.1270239145&amp;rel=LAME+3.98.4">2&nbsp;comments</a>&nbsp;&nbsp;			</TD></TR>
+		</TABLE>
+	</TD></TR>
+</TABLE><P><BR><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 width="100%">
+	<TR><TD BGCOLOR="#536273">
+		<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 width="100%">
+			<TR><TD BGCOLOR="#536273">
+				<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%"><tr>
+					<td><font color="#C3C9DA"> <B>SDL 1.2.14</B><img src="images/pkgupd.png" alt="upd" hspace="22" border="0"> </font> </td>
+					<td align=right> <strong> 19.02.2010 </strong></td></tr>
+				</TABLE>
+			</TD></TR>
+			<TR><TD BGCOLOR="#748292">
+			<img src="http://www.libsdl.org/images/SDL_logo.png" border="0" alt="SDL Logo" width="228" align="right"> <p>Simple DirectMedia Layer is a cross-platform multimedia library designed to provide low level access to audio, keyboard, mouse, joystick, 3D hardware via OpenGL, and 2D video framebuffer. It is used by MPEG playback software, emulators, and many popular games, including the award winning Linux port of "Civilization: Call To Power."</p> <p> For further details and Release Notes please check out the svn <a href="http://amiga.svn.sourceforge.net/viewvc/amiga/sdl/trunk/readme-amiga.txt">HERE</a>. </p> 
+			</TD></TR><TR><TD BGCOLOR="#748292"><a href="phps/logger.php?download=LibSDL-1.2.14dev.lha">LibSDL-1.2.14dev.lha (1328Kb)</a></TD></TR>		</TABLE>
+	</TD></TR>
+	<TR valign="middle"><TD valign="middle" height="19">
+		<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" width="100%" align="center">
+			<TR BGCOLOR="#839296" valign="middle"><TD colspan="2" height="1" style="height:1px"></TD></TR><TR BGCOLOR="#839296" valign="middle"><TD valign="middle"><a href="http://www.libsdl.org/" target="_blank"><img src="images/reqs/www.png" hspace="4" border="0" width="48" alt="visit this package website"></a><img src="images/reqs/020.png" hspace="4" border="0" width="48" alt="This package optimized/requires 020">			<TD ALIGN="right" VALIGN="middle">&nbsp; <a href="?comment=20100219.1266614317&amp;rel=SDL+1.2.14">2&nbsp;comments</a>&nbsp;&nbsp;			</TD></TR>
+		</TABLE>
+	</TD></TR>
+</TABLE><P><BR><BR> &nbsp;&nbsp; <a href="?start=10">More news</a><!----><hr><P><BR><TABLE BORDER="1" CELLPADDING="2" CELLSPACING="0" width="100%"><TR><TD BGCOLOR="#425162"><TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" width="100%"><TR><TD BGCOLOR="#425162" ALIGN="center"><small><B><font color="#e1f3fc">Project's Related Articles</font></B></small></TD></TR><TR><TD align="left" BGCOLOR="#748292"><ul> <li><a href="http://slashdot.org/article.pl?sid=09/07/03/0143233" target="_blank">IBM Releases Open Source Machine Learning Compiler</a></li> <li><a href="http://slashdot.org/article.pl?sid=08/11/13/1312207" target="_blank">How Long Should an Open Source Project Support Users?</a></li> <li><a href="http://slashdot.org/article.pl?sid=07/12/08/1350258" target="_blank">Open Source 'Sage' Takes Aim at High End Math Software</a></li> <li><a href="http://slashdot.org/article.pl?sid=08/11/23/1447251" target="_blank">Is Open Source Software a Race To Zero?</a></li> <li><a href="http://slashdot.org/article.pl?sid=09/06/01/1311206" target="_blank">Should Enterprise IT Give Back To Open Source?</a></li> </ul>
+</TD></TR></TABLE></TD></TR></TABLE>	
+	
+</TD><TD WIDTH="2%"></TD>
+<TD VALIGN="top" WIDTH="30%">
+	
+	<P><BR>
+	<div align=right><small>Sat, 23 Jan, 04:28 PDT</small> &nbsp; </div>	<noscript>You <b>NEED</b> to enable <b>JavaScript</b> or the site will NOT work properly!</noscript>
+	
+	<TABLE BORDER="1" CELLPADDING="6" CELLSPACING="0" width="100%" align="center" style="background-image : url(images/background.gif);"><TR><TD ALIGN="center"><h3><B>Quick downloads</B></h3>	<FORM name="quick downloads" action="javascript:void(0)">
+<select name="latests archives" onChange="QuickDL('parent',this,0)">
+<option value=""></option>
+<option value="a2ps-4.13.lha">a2ps-4.13.lha</option>
+<option value="abcm2ps-4.11.3.lha">abcm2ps-4.11.3.lha</option>
+<option value="advancescan-1.4.lha">advancescan-1.4.lha</option>
+<option value="aggregate-1.6.lha">aggregate-1.6.lha</option>
+<option value="aisstbc-0.2.lha">aisstbc-0.2.lha</option>
+<option value="anubis-3.6.2.lha">anubis-3.6.2.lha</option>
+<option value="autotrace-0.31.1.lha">autotrace-0.31.1.lha</option>
+<option value="aview-1.3.0.lha">aview-1.3.0.lha</option>
+<option value="barkix-1.0.2.lha">barkix-1.0.2.lha</option>
+<option value="bibcursed-2.0.0.lha">bibcursed-2.0.0.lha</option>
+<option value="bnclient-0.1.lha">bnclient-0.1.lha</option>
+<option value="bogofilter-0.9.1.2.lha">bogofilter-0.9.1.2.lha</option>
+<option value="bzip2-1.0.2.lha">bzip2-1.0.2.lha</option>
+<option value="cave-1.0a.lha">cave-1.0a.lha</option>
+<option value="cdrdao-1.1.7.lha">cdrdao-1.1.7.lha</option>
+<option value="cdrtools-2.01.lha">cdrtools-2.01.lha</option>
+<option value="ChanServ-5.1.lha">ChanServ-5.1.lha</option>
+<option value="GCC-4.5.0-m68k-amigaos-cygwin.7z">GCC-4.5.0-m68k-amigaos-cygwin.7z</option>
+<option value="coridoras-0.0.13.lha">coridoras-0.0.13.lha</option>
+<option value="ctags-5.3.lha">ctags-5.3.lha</option>
+<option value="curl-7.14.0.lha">curl-7.14.0.lha</option>
+<option value="cvsgraph-1.3.0.lha">cvsgraph-1.3.0.lha</option>
+<option value="cwtext-0.90.lha">cwtext-0.90.lha</option>
+<option value="dancer-4.16.lha">dancer-4.16.lha</option>
+<option value="dbacl-1.5.lha">dbacl-1.5.lha</option>
+<option value="dctc-0.84.1.lha">dctc-0.84.1.lha</option>
+<option value="dekadent-0.94.1.lha">dekadent-0.94.1.lha</option>
+<option value="make3_81b1.lha">make3_81b1.lha</option>
+<option value="dicci-upd.lha">dicci-upd.lha</option>
+<option value="dsbl_testers-0.9.4.lha">dsbl_testers-0.9.4.lha</option>
+<option value="eggdrop-1.6.15.lha">eggdrop-1.6.15.lha</option>
+<option value="faac1.2.4_68k.lha">faac1.2.4_68k.lha</option>
+<option value="faad2_68k.lha">faad2_68k.lha</option>
+<option value="fags-0.2.2devel3.lha">fags-0.2.2devel3.lha</option>
+<option value="ffstuff.lzx">ffstuff.lzx</option>
+<option value="file-4.03.lha">file-4.03.lha</option>
+<option value="flac-1.1.4.lha">flac-1.1.4.lha</option>
+<option value="freeha-0.9.1.lha">freeha-0.9.1.lha</option>
+<option value="geekcode-1.7.lha">geekcode-1.7.lha</option>
+<option value="gifsicle-1.42.lha">gifsicle-1.42.lha</option>
+<option value="gnuyahoo-0.3.pre0.lha">gnuyahoo-0.3.pre0.lha</option>
+<option value="gofish-0.27.lha">gofish-0.27.lha</option>
+<option value="gruftistats-0.2.4.lha">gruftistats-0.2.4.lha</option>
+<option value="Harvest-1.7.36.lha">Harvest-1.7.36.lha</option>
+<option value="highlight-2.7.lha">highlight-2.7.lha</option>
+<option value="hotwayd-0.8.2.lha">hotwayd-0.8.2.lha</option>
+<option value="hypermail-2.1.7.lha">hypermail-2.1.7.lha</option>
+<option value="ImageMagick-6.2.0.lha">ImageMagick-6.2.0.lha</option>
+<option value="integrit-3.02.lha">integrit-3.02.lha</option>
+<option value="ixemul-63.1-m68k.lha">ixemul-63.1-m68k.lha</option>
+<option value="jasip-0.21.lha">jasip-0.21.lha</option>
+<option value="java2html-1.7.lha">java2html-1.7.lha</option>
+<option value="jday-1.2.lha">jday-1.2.lha</option>
+<option value="kdc2tiff-0.33.lha">kdc2tiff-0.33.lha</option>
+<option value="lamewos-3.98.4.lha">lamewos-3.98.4.lha</option>
+<option value="lazyread-1.7.lha">lazyread-1.7.lha</option>
+<option value="leafnode-1.9.32.rel.lha">leafnode-1.9.32.rel.lha</option>
+<option value="lzip-1.5.lha">lzip-1.5.lha</option>
+<option value="Mail.comForward-0.5.beta.lha">Mail.comForward-0.5.beta.lha</option>
+<option value="mangle-3.0.6.lha">mangle-3.0.6.lha</option>
+<option value="middleman-1.3.lha">middleman-1.3.lha</option>
+<option value="mindex-0.2.lha">mindex-0.2.lha</option>
+<option value="mjpegtools-1.6.2.lha">mjpegtools-1.6.2.lha</option>
+<option value="mp3gain-1.5.1.lha">mp3gain-1.5.1.lha</option>
+<option value="MRea.lha">MRea.lha</option>
+<option value="muhstik-4.2.0.lha">muhstik-4.2.0.lha</option>
+<option value="naim-0.11.5.lha">naim-0.11.5.lha</option>
+<option value="neoBOPM-1.1.lha">neoBOPM-1.1.lha</option>
+<option value="netpbm-10.26.3.lha">netpbm-10.26.3.lha</option>
+<option value="newspost-2.0.lha">newspost-2.0.lha</option>
+<option value="ngircd-0.9.0.lha">ngircd-0.9.0.lha</option>
+<option value="nmap-3.27.lha">nmap-3.27.lha</option>
+<option value="YAM25060210704.lha">YAM25060210704.lha</option>
+<option value="normalize-0.7.7.lha">normalize-0.7.7.lha</option>
+<option value="NZBGet-0.5.1.lha">NZBGet-0.5.1.lha</option>
+<option value="openssh-3.9p1.lha">openssh-3.9p1.lha</option>
+<option value="openssl-1.0.0a.lha">openssl-1.0.0a.lha</option>
+<option value="OptiPNG-0.6.4.lha">OptiPNG-0.6.4.lha</option>
+<option value="p7zip-4.65-OS4.lha">p7zip-4.65-OS4.lha</option>
+<option value="pv-0.4.5.lha">pv-0.4.5.lha</option>
+<option value="ploticus-2.10.FPUpd.lha">ploticus-2.10.FPUpd.lha</option>
+<option value="pngcrush-1.5.10_1.2.8_1.2.2.lha">pngcrush-1.5.10_1.2.8_1.2.2.lha</option>
+<option value="pop3check-0.100.3.lha">pop3check-0.100.3.lha</option>
+<option value="ringtonetools-2.25.lha">ringtonetools-2.25.lha</option>
+<option value="scmxx-0.6.4.lha">scmxx-0.6.4.lha</option>
+<option value="LibSDL-1.2.14dev.lha">LibSDL-1.2.14dev.lha</option>
+<option value="secure-0.34.lha">secure-0.34.lha</option>
+<option value="xml2.library-4.0.lha">xml2.library-4.0.lha</option>
+<option value="shorten-3.6.1.lha">shorten-3.6.1.lha</option>
+<option value="siproxd-0.2.5.lha">siproxd-0.2.5.lha</option>
+<option value="sox-13.0.0.lha">sox-13.0.0.lha</option>
+<option value="speex-1.0.3.lha">speex-1.0.3.lha</option>
+<option value="SHighlight-1.6.2.lha">SHighlight-1.6.2.lha</option>
+<option value="SubNewS.readme">SubNewS.readme</option>
+<option value="swftools-0.6.3.lha">swftools-0.6.3.lha</option>
+<option value="SwishE-2.2.1.lha">SwishE-2.2.1.lha</option>
+<option value="TclTk-8.4.2.lha">TclTk-8.4.2.lha</option>
+<option value="tcsh-6.12.00.lha">tcsh-6.12.00.lha</option>
+<option value="unidesc-2.13.lha">unidesc-2.13.lha</option>
+<option value="UnRAR-3.80.lha">UnRAR-3.80.lha</option>
+<option value="vcdimager-0.7.20.lha">vcdimager-0.7.20.lha</option>
+<option value="vncsnapshot-1.0beta2.lha">vncsnapshot-1.0beta2.lha</option>
+<option value="vorbisgain-0.36.lha">vorbisgain-0.36.lha</option>
+<option value="vorbistools-1.40.lha">vorbistools-1.40.lha</option>
+<option value="w3m-0.3.2.2.lha">w3m-0.3.2.2.lha</option>
+<option value="WBRSS-1.0.lha">WBRSS-1.0.lha</option>
+<option value="webalizer-2.01.10-040.lha">webalizer-2.01.10-040.lha</option>
+<option value="wget-1.12r2.lha">wget-1.12r2.lha</option>
+<option value="WMFTools-0.2.8.3.lha">WMFTools-0.2.8.3.lha</option>
+<option value="xmlclitools-1.25.lha">xmlclitools-1.25.lha</option>
+<option value="xpdftools-3.02-WOS.lha">xpdftools-3.02-WOS.lha</option>
+<option value="yafc-1.0.lha">yafc-1.0.lha</option>
+</select>	</FORM><small><i>only latest packages (and package groups with version number) are listed, click <a href="?sfcontent=/project/showfiles.php?group_id=48010">here</a> to view all.</i></small></TD></TR></TABLE><P><TABLE BORDER="1" CELLPADDING="6" CELLSPACING="0" width="100%" align="center" style="background-image : url(images/background.gif);"><TR><TD ALIGN="center"><h3><B>Released Packages</B></h3>	<FORM name="packages" action="javascript:void(0)">
+<select name="packagesids" onChange="GoToShowPackage('parent',this,0)">
+<option value=""></option>
+<option value="a2ps">a2ps</option>
+<option value="abcm2ps">abcm2ps</option>
+<option value="advscan">advscan</option>
+<option value="aggregate">aggregate</option>
+<option value="AISSTBC">AISSTBC</option>
+<option value="Anubis">Anubis</option>
+<option value="autotrace">autotrace</option>
+<option value="aview">aview</option>
+<option value="barkix">barkix</option>
+<option value="bibcursed">bibcursed</option>
+<option value="bnclient">bnclient</option>
+<option value="bogofilter">bogofilter</option>
+<option value="bzip2">bzip2</option>
+<option value="cave">cave</option>
+<option value="cdrdao">cdrdao</option>
+<option value="cdrtools">cdrtools</option>
+<option value="chanserv">chanserv</option>
+<option value="Compilers">Compilers</option>
+<option value="coridoras">coridoras</option>
+<option value="ctags">ctags</option>
+<option value="cURL">cURL</option>
+<option value="cvsgraph">cvsgraph</option>
+<option value="cwtext">cwtext</option>
+<option value="Dancer">Dancer</option>
+<option value="dbacl">dbacl</option>
+<option value="dctc">dctc</option>
+<option value="dekadent">dekadent</option>
+<option value="Development">Development</option>
+<option value="Dicci">Dicci</option>
+<option value="dsbl">dsbl</option>
+<option value="eggdrop">eggdrop</option>
+<option value="faac">faac</option>
+<option value="faad">faad</option>
+<option value="FAGS">FAGS</option>
+<option value="ffmpeg">ffmpeg</option>
+<option value="File">File</option>
+<option value="FLAC">FLAC</option>
+<option value="freeha">freeha</option>
+<option value="geekcode">geekcode</option>
+<option value="gifsicle">gifsicle</option>
+<option value="gnuyahoo">gnuyahoo</option>
+<option value="gofish">gofish</option>
+<option value="gruftistats">gruftistats</option>
+<option value="harvest">harvest</option>
+<option value="highlight">highlight</option>
+<option value="hotway">hotway</option>
+<option value="HyperMail">HyperMail</option>
+<option value="ImageMagick">ImageMagick</option>
+<option value="integrit">integrit</option>
+<option value="ixemul.library">ixemul.library</option>
+<option value="jasip">jasip</option>
+<option value="java2html">java2html</option>
+<option value="jday">jday</option>
+<option value="kdc2tiff">kdc2tiff</option>
+<option value="LAME">LAME</option>
+<option value="lazyread">lazyread</option>
+<option value="leafnode">leafnode</option>
+<option value="Lzip">Lzip</option>
+<option value="Mail.comForward">Mail.comForward</option>
+<option value="mangle">mangle</option>
+<option value="middleman">middleman</option>
+<option value="mindex">mindex</option>
+<option value="mjpegtools">mjpegtools</option>
+<option value="mp3gain">mp3gain</option>
+<option value="MRea">MRea</option>
+<option value="muhstik">muhstik</option>
+<option value="naim">naim</option>
+<option value="neobopm">neobopm</option>
+<option value="NetPBM">NetPBM</option>
+<option value="newspost">newspost</option>
+<option value="ngIRCd">ngIRCd</option>
+<option value="nmap">nmap</option>
+<option value="nonunix-or-3rdpart">nonunix-or-3rdpart</option>
+<option value="Normalize">Normalize</option>
+<option value="NZBGet">NZBGet</option>
+<option value="OpenSSH">OpenSSH</option>
+<option value="OpenSSL">OpenSSL</option>
+<option value="OptiPNG">OptiPNG</option>
+<option value="p7zip">p7zip</option>
+<option value="pipeviewer">pipeviewer</option>
+<option value="ploticus">ploticus</option>
+<option value="pngcrush">pngcrush</option>
+<option value="pop3check">pop3check</option>
+<option value="ringtonetools">ringtonetools</option>
+<option value="scmxx">scmxx</option>
+<option value="SDL">SDL</option>
+<option value="secure">secure</option>
+<option value="shared-libs">shared-libs</option>
+<option value="shorten">shorten</option>
+<option value="siproxd">siproxd</option>
+<option value="sox">sox</option>
+<option value="speex">speex</option>
+<option value="src-highlite">src-highlite</option>
+<option value="SubNewS">SubNewS</option>
+<option value="swftools">swftools</option>
+<option value="swish-e">swish-e</option>
+<option value="TclTk">TclTk</option>
+<option value="tcsh">tcsh</option>
+<option value="unidesc">unidesc</option>
+<option value="unrar">unrar</option>
+<option value="vcdimager">vcdimager</option>
+<option value="vncsnapshot">vncsnapshot</option>
+<option value="vorbisgain">vorbisgain</option>
+<option value="vorbistools">vorbistools</option>
+<option value="w3m">w3m</option>
+<option value="WBRSS">WBRSS</option>
+<option value="webalizer">webalizer</option>
+<option value="wget">wget</option>
+<option value="WMFTools">WMFTools</option>
+<option value="xmlclitools">xmlclitools</option>
+<option value="xpdf">xpdf</option>
+<option value="yafc">yafc</option>
+</select>	</FORM><small><i>select a package to show all files released on that package.</i></small></TD></TR></TABLE><P><BR><TABLE BORDER="1" CELLPADDING="6" CELLSPACING="0" width="100%" align="center">
+		<TR><TD ALIGN="center" bgcolor="#cccccc"><!-- SiteSearch Google -->
+<form method="get" action="http://www.google.com/custom" target="_top">
+<table border="0" bgcolor="#cccccc">
+<tr><td nowrap="nowrap" valign="top" align="left" height="32">
+<a href="http://www.google.com/">
+<img src="http://www.google.com/logos/Logo_25gry.gif" border="0" alt="Google"></a>
+<br>
+<input type="hidden" name="domains" value="amiga.sourceforge.net">
+<input type="text" name="q" size="29" maxlength="255" value="">
+</td></tr>
+<tr>
+<td nowrap="nowrap">
+<table>
+<tr>
+<td>
+<input type="radio" name="sitesearch" value="" checked="checked">
+<font size="-1" color="#000000">Web</font>
+</td>
+<td>
+<input type="radio" name="sitesearch" value="amiga.sourceforge.net">
+<font size="-1" color="#000000">This Site</font>
+</td>
+</tr>
+</table>
+<input type="submit" name="sa" value="Search">
+<input type="hidden" name="client" value="pub-6561722939950358">
+<input type="hidden" name="forid" value="1">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input type="hidden" name="oe" value="ISO-8859-1">
+<input type="hidden" name="safe" value="active">
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;">
+<input type="hidden" name="hl" value="en">
+
+</td></tr></table>
+</form>
+<!-- SiteSearch Google --></TD></TR></TABLE><P><BR><TABLE BORDER="1" CELLPADDING="2" CELLSPACING="0" width="100%" ALIGN="center"><TR><TD BGCOLOR="#425162"><TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" width="100%"><TR><TD BGCOLOR="#425162" ALIGN="center"><small><B><font color="#e1f3fc">TOP DOWNLOADS</font></B></small></TD></TR><TR><TD align="left" BGCOLOR="#748292"><table border="0" width="99%" cellpadding="3" cellspacing="2" align="center">	<TR bgcolor="#627182"><td>&nbsp;&nbsp;<b>1</b>&nbsp;&nbsp;<a href="?showpackage=ixemul.library">ixemul.library</a></TD><TD align="right"><b><tt>12037&nbsp;</tt></b></TD></TR>	<TR bgcolor="#728192"><td>&nbsp;&nbsp;<b>2</b>&nbsp;&nbsp;<a href="?showpackage=unrar">unrar</a></TD><TD align="right"><b><tt>11149&nbsp;</tt></b></TD></TR>	<TR bgcolor="#627182"><td>&nbsp;&nbsp;<b>3</b>&nbsp;&nbsp;<a href="?showpackage=cURL">cURL</a></TD><TD align="right"><b><tt>9435&nbsp;</tt></b></TD></TR>	<TR bgcolor="#728192"><td>&nbsp;&nbsp;<b>4</b>&nbsp;&nbsp;<a href="?showpackage=LAME">LAME</a></TD><TD align="right"><b><tt>8995&nbsp;</tt></b></TD></TR>	<TR bgcolor="#627182"><td>&nbsp;&nbsp;<b>5</b>&nbsp;&nbsp;<a href="?showpackage=ImageMagick">ImageMagick</a></TD><TD align="right"><b><tt>7681&nbsp;</tt></b></TD></TR>	<TR bgcolor="#728192"><td>&nbsp;&nbsp;<b>6</b>&nbsp;&nbsp;<a href="?showpackage=FLAC">FLAC</a></TD><TD align="right"><b><tt>6466&nbsp;</tt></b></TD></TR>	<TR bgcolor="#627182"><td>&nbsp;&nbsp;<b>7</b>&nbsp;&nbsp;<a href="?showpackage=muhstik">muhstik</a></TD><TD align="right"><b><tt>6353&nbsp;</tt></b></TD></TR>	<TR bgcolor="#728192"><td>&nbsp;&nbsp;<b>8</b>&nbsp;&nbsp;<a href="?showpackage=swftools">swftools</a></TD><TD align="right"><b><tt>5660&nbsp;</tt></b></TD></TR>	<TR bgcolor="#627182"><td>&nbsp;&nbsp;<b>9</b>&nbsp;&nbsp;<a href="?showpackage=p7zip">p7zip</a></TD><TD align="right"><b><tt>5467&nbsp;</tt></b></TD></TR>	<TR bgcolor="#728192"><td><b>10</b>&nbsp;&nbsp;<a href="?showpackage=wget">wget</a></TD><TD align="right"><b><tt>4715&nbsp;</tt></b></TD></TR>	<TR><td>&nbsp;<br><i>By last updated package:</i></TD><TD align="right"><b><tt>&nbsp;</tt></b></TD></TR>	<TR bgcolor="#728192"><td>&nbsp;&nbsp;<b>1</b>&nbsp;&nbsp;<a href="?showpackage=cURL">cURL</a></TD><TD align="right"><b><tt>2997&nbsp;</tt></b></TD></TR>	<TR bgcolor="#627182"><td>&nbsp;&nbsp;<b>2</b>&nbsp;&nbsp;<a href="?showpackage=FLAC">FLAC</a></TD><TD align="right"><b><tt>2792&nbsp;</tt></b></TD></TR>	<TR bgcolor="#728192"><td>&nbsp;&nbsp;<b>3</b>&nbsp;&nbsp;<a href="?showpackage=muhstik">muhstik</a></TD><TD align="right"><b><tt>2059&nbsp;</tt></b></TD></TR>	<TR bgcolor="#627182"><td>&nbsp;&nbsp;<b>4</b>&nbsp;&nbsp;<a href="?showpackage=sox">sox</a></TD><TD align="right"><b><tt>1649&nbsp;</tt></b></TD></TR>	<TR bgcolor="#728192"><td>&nbsp;&nbsp;<b>5</b>&nbsp;&nbsp;<a href="?showpackage=cdrtools">cdrtools</a></TD><TD align="right"><b><tt>1559&nbsp;</tt></b></TD></TR>	<TR bgcolor="#627182"><td>&nbsp;&nbsp;<b>6</b>&nbsp;&nbsp;<a href="?showpackage=dctc">dctc</a></TD><TD align="right"><b><tt>1436&nbsp;</tt></b></TD></TR>	<TR bgcolor="#728192"><td>&nbsp;&nbsp;<b>7</b>&nbsp;&nbsp;<a href="?showpackage=shared-libs">shared-libs</a></TD><TD align="right"><b><tt>1113&nbsp;</tt></b></TD></TR>	<TR bgcolor="#627182"><td>&nbsp;&nbsp;<b>8</b>&nbsp;&nbsp;<a href="?showpackage=OpenSSH">OpenSSH</a></TD><TD align="right"><b><tt>1087&nbsp;</tt></b></TD></TR>	<TR bgcolor="#728192"><td>&nbsp;&nbsp;<b>9</b>&nbsp;&nbsp;<a href="?showpackage=unrar">unrar</a></TD><TD align="right"><b><tt>1015&nbsp;</tt></b></TD></TR>	<TR bgcolor="#627182"><td><b>10</b>&nbsp;&nbsp;<a href="?showpackage=eggdrop">eggdrop</a></TD><TD align="right"><b><tt>1005&nbsp;</tt></b></TD></TR>	<TR bgcolor="#728192"><td>&nbsp;<a href="index.php?details"><i><small><tt>DETAILS</tt></small></i></a></TD><TD align="right"><b><tt>&nbsp;</tt></b></TD></TR></table></TD></TR></TABLE></TD></TR></TABLE><P><BR><TABLE BORDER="1" CELLPADDING="2" CELLSPACING="0" width="100%" ALIGN="center"><TR><TD BGCOLOR="#425162"><TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" width="100%"><TR><TD BGCOLOR="#425162" ALIGN="center"><small><B><font color="#e1f3fc">STATISTICS</font></B></small></TD></TR><TR><TD align="left" BGCOLOR="#748292"><table border="0" width="99%" cellpadding="3" cellspacing="2" align="center">	<TR bgcolor="#627789"><TD><font size="2"> Archives: </font></TD>
+	<TD align="right"><small> 387 </small></TD></TR>
+
+	<TR bgcolor="#728799"><TD><font size="2"> Size(<small>bytes</small>): </font></TD>
+	<TD align="right"><small> 520478367 </small></TD></TR>
+
+	<TR bgcolor="#627789"><TD><font size="2"> <small>Avg size by<br>archive(bytes)</small>: </font></TD>
+	<TD align="right"><small> 1344906 </small></TD></TR>
+
+<!---->	<TR bgcolor="#728799"><TD><font size="2"> Page Views: </font></TD>
+	<TD align="right"><small> -err- </small></TD></TR>
+
+	<TR bgcolor="#627789"><TD><font size="2"> Downloads: </font></TD>
+	<TD align="right"><small> ~193956 </small></TD></TR>
+
+	<TR bgcolor="#728799"><TD><font size="2"> Project Hits: </font></TD>
+	<TD align="right"><small> 0 </small></TD></TR>
+
+	<TR bgcolor="#627789"><TD><font size="2"> Project Rank: </font></TD>
+	<TD align="right"><small> 10000-0 </small></TD></TR>
+
+	<TR bgcolor="#728799"><TD><font size="2"> DateStamp: </font></TD>
+	<TD align="right"><small>  </small></TD></TR>
+
+</table></TD></TR></TABLE></TD></TR></TABLE><P><BR><TABLE BORDER="1" CELLPADDING="2" CELLSPACING="0" width="100%" ALIGN="center"><TR><TD BGCOLOR="#425162"><TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" width="100%"><TR><TD BGCOLOR="#425162" ALIGN="center"><small><B><font color="#e1f3fc">Project's Public Areas</font></B></small></TD></TR><TR><TD align="left" BGCOLOR="#748292"><table border="0" width="99%" cellpadding="3" cellspacing="2" align="center"><tr><td>  <b>&middot;</b> <a href="/index.php?sfcontent=/tracker/?atid=451659&amp;group_id=48010&amp;func=browse">Bugs</a> : (0 open / 8 total) <br > Bug Tracking System <br> <b>&middot;</b> <a href="/index.php?sfcontent=/tracker/?atid=451660&amp;group_id=48010&amp;func=browse">Support Requests</a> : (0 open / 0 total) <br > Tech Support Tracking System <br> <b>&middot;</b> <a href="/index.php?sfcontent=/tracker/?atid=451661&amp;group_id=48010&amp;func=browse">Patches</a> : (0 open / 1 total) <br > Patch Tracking System <br> <b>&middot;</b> <a href="/index.php?sfcontent=/tracker/?atid=451662&amp;group_id=48010&amp;func=browse">Feature Requests</a> : (0 open / 4 total) <br > Feature Request Tracking System <br> <b>&middot;</b> <a href="/index.php?sfcontent=/tracker/?atid=489090&amp;group_id=48010&amp;func=browse">GUI Requests</a> : (0 open / 2 total) <br > Tell us what program you'd like with gui <br> <b>&middot;</b> <a href="/index.php?sfcontent=/forum/?group_id=48010">Public Forums</a> : (69 messages in 2 forums) <br> <b>&middot;</b> <a href="/index.php?sfcontent=/cvs/?group_id=48010">CVS Repository</a> : (0 commits, 86 reads) <br > <a href="http://amiga.cvs.sourceforge.net/amiga">Browse CVS</a> <br> <b>&middot;</b> <a href="/index.php?sfcontent=/svn/?group_id=48010">SVN Repository</a> : (44 commits, 29 reads) <br > <a href="http://amiga.svn.sourceforge.net/">Browse SVN</a> <br>  
+</td></tr></table></TD></TR></TABLE></TD></TR></TABLE><P><BR><TABLE BORDER="1" CELLPADDING="2" CELLSPACING="0" width="100%" ALIGN="center"><TR><TD BGCOLOR="#425162"><TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" width="100%"><TR><TD BGCOLOR="#425162" ALIGN="center"><small><B><font color="#e1f3fc">Project's Details</font></B></small></TD></TR><TR><TD align="left" BGCOLOR="#748292"><table border="0" width="99%" cellpadding="3" cellspacing="2" align="center"><tr><td>  <b>&middot;</b> Project Admins : <a href="/index.php?sfcontent=/users/diegocr/">diegocr</a>, <a href="/index.php?sfcontent=/users/synco/">synco</a> <br> <b>&middot;</b> Developers : <a href="/index.php?sfcontent=/project/memberlist.php?group_id=48010">7</a> <br> <b>&middot;</b> Development Status : <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=10">4 - Beta</a>, <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=11">5 - Production/Stable</a> <br> <b>&middot;</b> Intended Audience : <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=2">End Users/Desktop</a> <br> <b>&middot;</b> License : <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=187">BSD License</a>, <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=15">GNU General Public License (GPL)</a>, <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=16">GNU Library or Lesser General Public License (LGPL)</a>, <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=188">MIT License</a>, <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=197">Public Domain</a> <br> <b>&middot;</b> Operating System : <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=434">AmigaOS</a> <br> <b>&middot;</b> Programming Language : <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=164">C</a>, <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=179">Rexx</a> <br> <b>&middot;</b> Topic : <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=234">Other/Nonlisted Topic</a> <br> <b>&middot;</b> Translations : <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=275">English</a>, <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=277">Spanish</a> <br> <b>&middot;</b> User Interface : <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=238">Non-interactive (Daemon)</a>, <a href="/index.php?sfcontent=/softwaremap/trove_list.php?form_cat=459">Command-line</a> <br> <b>&middot;</b> Donors : <a href="/index.php?sfcontent=/users/Anonymous">Anonymous donor(s)</a> <br> <b>&middot;</b> Project UNIX name : amiga <br> <b>&middot;</b> Registered : 2002-03-02 04:41 <br> <b>&middot;</b> Activity Percentile (last week) : 98.27 <br> <b>&middot;</b> View project activity <a href="/index.php?sfcontent=/project/stats/?group_id=48010&amp;ugn=amiga">statistics</a> <br> <b>&middot;</b> View list of <a href="/index.php?sfcontent=/export/rss2_project.php?group_id=48010">RSS feeds</a> available for this project <br>  
+</td></tr></table></TD></TR></TABLE></TD></TR></TABLE><P><BR> <!-- link to us -->	<TABLE BORDER=1 CELLPADDING=2 CELLSPACING=0 width="100%" ALIGN="center">
+		<TR><TD BGCOLOR="#425162">
+			<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 width="100%">
+				<TR><TD BGCOLOR="#425162" ALIGN="center">
+					<B><font color="#e1f3fc"> Link To Us! </font></B>
+				</TD></TR>
+				<TR><TD align=left BGCOLOR="#748292">
+					<table border="0" width="100%" cellpadding="2" cellspacing="1" align="center">
+						<tr><td><img src="http://amiga.sourceforge.net/images/banner.png" border="0" width="88" height="31" alt="Amiga.sf"><BR><br><form action="javascript:void(0)"><textarea rows="3" cols="20">&lt;a href=&quot;http://amiga.sourceforge.net/&quot;&gt;&lt;img src=&quot;http://amiga.sourceforge.net/images/banner.png&quot; border=&quot;0&quot; width=&quot;88&quot; height=&quot;31&quot; alt=&quot;&quot; title=&quot;Amiga.sf&quot;&gt;&lt;/a&gt;</textarea></form></td></tr>
+					</table>
+				</TD></TR>
+			</TABLE>
+		</TD></TR>
+	</TABLE>	
+	<P><BR><P><BR> <!-- banners/Links -->
+		<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0  width="100%"><TR><TD ALIGN="center">
+		<a href="phps/logger.php?url=/cgi-bin/awstats.pl"><img src="images/awstats_logo3.png" border="0" alt=""></a>
+		<BR><P>
+		<a href="http://sourceforge.net/projects/amiga"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=48010&amp;type=12" width="120" height="30" alt="Get Amiga at SourceForge.net. Fast, secure and Free Open Source software downloads" ></a>
+		<!--<BR><P>-->
+		<a href="?donate"><img src="http://images.sourceforge.net/images/project-support.jpg" border="0" alt=""></a>
+		<BR><P>
+		<BR><P>
+		<a href="phps/logger.php?url=http://www.anybrowser.org/campaign/"><img src="images/any-browser.gif" border="0" width="88" height="31" alt=""></a>
+		<BR><P>
+		<a href="phps/logger.php?url=http://www.amiga.com/"><img src="images/icoa_now.gif" border="0" width="88" height="31" alt=""></a>
+		<!--<BR><P>-->
+		<a href="phps/logger.php?url=http://amigift.sourceforge.net/"><img src="images/AMIGIFT_88x31.png" border="0" alt="" width="88" height="31"></a>
+		<BR><P>
+		<a href="http://www2.clustrmaps.com/counter/maps.php?url=http://amiga.sourceforge.net" id="clustrMapsLink"><img src="http://www2.clustrmaps.com/counter/index2.php?url=http://amiga.sourceforge.net" style="border:1px solid;" alt="Locations of visitors to this page" title="Locations of visitors to this page" id="clustrMapsImg"></a>
+	</TD></TR></TABLE>
+	
+	<P><BR>	
+	
+</TD></TR>
+<TR><TD COLSPAN="3" HEIGHT="64" valign=bottom>&nbsp;</TD></TR>
+<TR><TD COLSPAN="3" VALIGN="top">
+</TD></TR>
+<TR><TD COLSPAN="3" HEIGHT="32" valign=bottom>&nbsp;</TD></TR>
+<TR><TD COLSPAN="3" VALIGN="bottom">
+<center>
+	<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="4" ALIGN="center" WIDTH="100%">
+		<TR VALIGN="middle">
+			<TD BGCOLOR="#536789" ALIGN="center">
+				<small>
+					<font color="#C3C9DA">
+					
+ Amiga.sf is Copyright &copy; 2002-2011 By Diego Casorran &nbsp; &lt;diegocr <tt>at</tt> users <tt>dot</tt> sourceforge <tt>dot</tt> net.&gt;
+					
+					</font>
+				</small>
+			</TD>
+		</TR>
+	</TABLE>
+</center>
+<div align="right" id="pagetook">
+	<P><small> page took 9.223761 seconds to load </small> &nbsp; </P> &nbsp; </div>
+</body>
+</html></TD></TR></TABLE>
+<script type="text/javascript" src="awstats/js/awstats_misc_tracker.js"></script>
+<noscript><img src="awstats/js/awstats_misc_tracker.js?nojs=y" height=0 width=0 border=0 alt="" style="display: none"></noscript>
+</body></html>
+```
