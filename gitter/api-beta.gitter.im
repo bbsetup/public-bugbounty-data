@@ -1,0 +1,31 @@
+```<!DOCTYPE html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><link href="/img/favicon.png" rel="shortcut icon"><link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"><link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css" rel="stylesheet"><link href="/css/developer.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet"><title>Welcome | Gitter Developer Program</title></head><body><header class="topbar"><nav role="navigation" class="navbar navbar-default"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><p href="#" class="navbar-logo"><a href="/docs"> <i class="logo"></i></a></p></div><div id="navbar-collapse" class="collapse navbar-collapse"><ul class="nav navbar-nav navbar-right"><li><a href="https://github.com/gitterhq/docs">Contribute</a></li><li><a href="/login">Sign in</a></li></ul></div></div></nav><div class="container"></div></header><div class="container content"> <div class="demo-api-access-block js-is-global"><ul class="demo-api-method-switcher top-bar-demo-api-method-switcher"><li class="demo-api-method-switcher-item is-active">curl</li><li class="demo-api-method-switcher-item">http</li></ul></div><div class="row"><div class="col-md-3"><div class="sidebar"><ul class="nav"><li><a href="/docs/welcome">Welcome</a></li><li><a href="/docs/rest-api">REST API</a></li><li><a href="/docs/authentication">Authentication</a></li><li><a href="/docs/groups-resource">Groups resource</a></li><li><a href="/docs/rooms-resource">Rooms resource</a></li><li><a href="/docs/messages-resource">Messages resource</a></li><li><a href="/docs/user-resource">User resource</a></li><li><a href="/docs/faye-endpoint">Faye endpoint</a></li><li><a href="/docs/streaming-api">Streaming API</a></li><li><a href="/docs/third-party-api-wrappers">Third party API wrappers</a></li><li><a href="/docs/services">Services</a></li></ul></div></div><div class="col-md-9"><h1 id="welcome">Welcome</h1>
+<p><strong>Please note this is an early release of our API and should be considered to be in beta at the moment.</strong></p>
+<p>This is the official documentation for the Gitter API. The API documentation source is <a href="https://gitlab.com/gitlab-org/gitter/docs">available on GitLab</a>.</p>
+<p>If you have any problems or questions, contact us at <a href="mailto:support@gitter.im">support@gitter.im</a> or join the conversation at:</p>
+<p><a href="https://gitter.im/gitterHQ/developers?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/gitterHQ/developers.svg" alt="Gitter"></a></p>
+<h2 id="getting-started">Getting Started</h2>
+<p>If you haven&#39;t already, please sign in. This will create a developer token, which you can easily use to test the API. Once you&#39;ve signed in, you can also create Apps where you&#39;ll be provided with keys and secrets. For more information on this, please take a look at the <a href="authentication">Authentication documentation</a>.</p>
+<h2 id="rest-api">REST API</h2>
+<p>Interact with rooms, users and messages in a restful way.</p>
+<p><a href="rest-api">Documentation</a></p>
+<h2 id="streaming-api">Streaming API</h2>
+<p>A simple way to listen to messages in rooms in real-time.</p>
+<p><a href="streaming-api">Documentation</a></p>
+<h2 id="faye">Faye</h2>
+<p>Listen to detailed activity in real-time.</p>
+<p><a href="faye-endpoint">Documentation</a></p>
+<h2 id="services">Services</h2>
+<p>The things that power your Gitter activity feed. These are open source and can be found on <a href="https://gitlab.com/gitlab-org/gitter/services">GitLab</a>.</p>
+<p><a href="services">Documentation</a></p>
+<h2 id="activity-api">Activity API</h2>
+<p>The ability to write to the Activity feed will be coming soon in an open source format.</p>
+<h2 id="3rd-party-api-wrappers">3rd Party API Wrappers</h2>
+<p>There are also third party wrappers created by our awesome users, that allow you to interface with the Gitter API in a variety of environments.</p>
+<p><a href="third-party-api-wrappers">List of packages</a></p>
+</div></div></div><script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script><script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script><script>hljs.initHighlightingOnLoad()</script><script src="/js/index.js"></script><script src="/js/api-access-code-block.js"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-45918290-5', 'gitter.im');
+ga('send', 'pageview');</script></body>```
