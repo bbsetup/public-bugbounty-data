@@ -1,0 +1,2219 @@
+```
+
+    <!DOCTYPE html>
+    <html lang="de-DE">
+    <head>
+        <title>BMW Leinetal</title>
+        <meta name="keywords" content="Autohaus,Leinetal, BMW, BMW Motorrad, Leasing, Neuwagen, Gebrauchtwagen, Service"/>
+        <meta name="description" content="Jetzt vorbeikommen! Große BMW Vielfalt an Neu- oder Gebrauchtwagen im Autohaus Leinetal. Ihr BMW und Mini Partner für Göttingen, Kassel, Hannover, Braunschweig, Salzgitter und Goslar. "/>
+        <meta charset="utf-8">
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="/thirdParties/w3pro/w3pro.css">
+        <link rel="stylesheet" href="/thirdParties/fontawesome/css/all.css">
+        <link rel="stylesheet" href="/thirdParties/swiper/css/swiper.css">
+        <link rel="stylesheet" href="/thirdParties/highslide/highslide.css">
+        <link rel="stylesheet" href="/thirdParties/jquery-ui/jquery-ui.css">
+        <link rel="stylesheet" href="/css/base.css?v=0.15">
+        <link rel="stylesheet" href="/css/style.css?v=0.15">
+        <link rel="stylesheet" href="/css/style_response.css?v=0.15">
+
+        <style>
+            #Gefundene_Fahrzeuge .w3-col.l3.m6.s12 {
+                min-height: 625px;
+            }
+        </style>
+
+        <script src="/thirdParties/jQuery/jQuery-3.2.1.js"></script>
+        <script src="/thirdParties/jquery-ui/jquery-ui.js"></script>
+        <script src="/thirdParties/jquery-ui/jquery.ui.touch-punch.min.js"></script>
+        <script src="/thirdParties/swiper/js/swiper.js"></script>
+        <script src="/js/scripts.js?v=0.15"></script>
+
+        <script src="https://www.google.com/recaptcha/api.js?render=6LeCLsAUAAAAAGe3UGSZ2H1oMKSgKc0MJeeBjxA1"></script>
+
+                        <style>
+    span.swiper-bullet-filled {
+        background-color: rgb(0, 102, 175);
+    }
+    </style>
+        <style>
+            .location-frontpage {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+            .location-frontpage > div:last-child {
+                text-align: right;
+            }
+            @media screen and (max-width:992px) {
+                .location-frontpage > div:last-child {
+                    text-align: left;
+                }
+            }
+            @media screen and (max-width:759px) {
+                //.location-frontpage > div:last-child {
+                //    padding-top: 1.1428rem;
+                //}
+            }
+        </style>
+    <script src="/js/car_search.js?v=0.10"></script>    <script>
+    var searchParams = {
+        "Fahrzeug_kategorie" : "Gebrauchtwagen",
+        "Marke" : "beliebig",
+        "Kraftstoff" : "beliebig",
+        "Modell" : "beliebig",
+        "Aussenfarbe_Grundfarbe" : "beliebig",
+        "Karosserieform" : "beliebig",
+        "Getriebe" : "beliebig",
+        "Endpreis_lower" : 10000,
+        "Endpreis_upper" : 200000,
+        "Leistung_kW_lower" : 50,
+        "Leistung_kW_upper" : 500,
+        "Erstzulassung_lower" : 2009,
+        "Erstzulassung_upper" : 2019,
+        "Kilometerstand_lower" : 0,
+        "Kilometerstand_upper" : 200000,
+    };
+    </script>
+        <style>
+            .startbox-text {
+                padding-bottom: 32px !important;
+            }
+            .startbox-image img {
+                display: block;
+                margin: 0 auto;
+            }
+            .small-startbox {
+                height: calc(100% - 16px);
+            }
+            .small-startbox-image {
+                padding: 0.85rem;
+            }
+            .small-startbox-image img {
+                display: block;
+                margin: 0 auto;
+            }
+            .small-startbox .startbox-text {
+                padding-left: 1.0rem;
+                padding-right: 1.0rem;
+            }
+            .small-startbox .startbox-text > p.normal {
+                min-height: 5rem;
+            }
+        </style>
+        <script>
+            $(document).ready(function() {
+                $(".startbox").on("mouseenter", function(event) {
+                   $(this).addClass("w3-card-4");
+                });
+                $(".startbox").on("mouseleave", function(event) {
+                    $(this).removeClass("w3-card-4");
+                });
+                $(".small-startbox").on("mouseenter", function(event) {
+                   $(this).addClass("w3-card-4");
+                });
+                $(".small-startbox").on("mouseleave", function(event) {
+                    $(this).removeClass("w3-card-4");
+                });
+                $(window).on("resize", function(event) {
+                    var height = -1000000;
+                    $(".startbox").each(function() {
+                        $(this).css("min-height", "0");
+                        if ($(this).height() > height) {
+                            height = $(this).height();
+                        }
+                        $(".startbox").css("min-height", height + "px");
+                    });
+                    height = -1000000;
+                    $(".startbox-image").each(function() {
+                        $(this).css("min-height", "0");
+                        if ($(this).height() > height) {
+                            height = $(this).height();
+                        }
+                        $(".startbox-image").css("min-height", height + "px");
+                    });
+                });
+            });
+            $(window).on("load", function(event) {
+                var height = -1000000;
+                $(".startbox").each(function() {
+                    if ($(this).height() > height) {
+                        height = $(this).height();
+                    }
+                    $(".startbox").css("min-height", height + "px");
+                });
+                height = -1000000;
+                $(".startbox-image").each(function() {
+                    if ($(this).height() > height) {
+                        height = $(this).height();
+                    }
+                    $(".startbox-image").css("min-height", height + "px");
+                });
+            });
+        </script>
+    
+        <style>
+            .startbox-text {
+                padding-bottom: 32px !important;
+            }
+            .startbox-image img {
+                display: block;
+                margin: 0 auto;
+            }
+            .small-startbox {
+                height: calc(100% - 16px);
+            }
+            .small-startbox-image {
+                padding: 0.85rem;
+            }
+            .small-startbox-image img {
+                display: block;
+                margin: 0 auto;
+            }
+            .small-startbox .startbox-text {
+                padding-left: 1.0rem;
+                padding-right: 1.0rem;
+            }
+            .small-startbox .startbox-text > p.normal {
+                min-height: 5rem;
+            }
+        </style>
+        <script>
+            $(document).ready(function() {
+                $(".startbox").on("mouseenter", function(event) {
+                   $(this).addClass("w3-card-4");
+                });
+                $(".startbox").on("mouseleave", function(event) {
+                    $(this).removeClass("w3-card-4");
+                });
+                $(".small-startbox").on("mouseenter", function(event) {
+                   $(this).addClass("w3-card-4");
+                });
+                $(".small-startbox").on("mouseleave", function(event) {
+                    $(this).removeClass("w3-card-4");
+                });
+                $(window).on("resize", function(event) {
+                    var height = -1000000;
+                    $(".startbox").each(function() {
+                        $(this).css("min-height", "0");
+                        if ($(this).height() > height) {
+                            height = $(this).height();
+                        }
+                        $(".startbox").css("min-height", height + "px");
+                    });
+                    height = -1000000;
+                    $(".startbox-image").each(function() {
+                        $(this).css("min-height", "0");
+                        if ($(this).height() > height) {
+                            height = $(this).height();
+                        }
+                        $(".startbox-image").css("min-height", height + "px");
+                    });
+                });
+            });
+            $(window).on("load", function(event) {
+                var height = -1000000;
+                $(".startbox").each(function() {
+                    if ($(this).height() > height) {
+                        height = $(this).height();
+                    }
+                    $(".startbox").css("min-height", height + "px");
+                });
+                height = -1000000;
+                $(".startbox-image").each(function() {
+                    if ($(this).height() > height) {
+                        height = $(this).height();
+                    }
+                    $(".startbox-image").css("min-height", height + "px");
+                });
+            });
+        </script>
+            
+        
+        <script src="/js/cookie-consent-newest/js/js.cookie.min.js" type="text/javascript"></script>
+        <script src="/js/cookie-consent-newest/cookie-consent.tmpl.js" type="text/javascript"></script>
+        <script src="/js/cookie-consent-newest/js/cookie-consent.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="/js/cookie-consent-newest/css/cookie-consent.css">
+
+        <!-- Favicons - Start -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/files/images/favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/files/images/favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/files/images/favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/files/images/favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/files/images/favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/files/images/favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/files/images/favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/files/images/favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/files/images/favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/files/images/favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/files/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/files/images/favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/files/images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#1c69d4">
+        <meta name="msapplication-TileImage" content="/files/images/favicons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#1c69d4">
+        <!-- Favicons - End -->
+    </head>
+    <body>
+        <div id="body_outer">
+            <div id="body">
+                <div id="header_placeholder">
+                    <div id="header_fixed" class="header-top">
+                        <div id="header_fixed_content" class="w3-row">
+                            <div id="header" class="w3-display-container w3-row">
+                                <div id="header-wrapper" class="w3-col l11 m11 s11 w3-row">
+                                    <div id="mainmenu" class="w3-col l9 m8 s6 mainbgcolor">
+                                        <div class="close button" onclick="toggleMobilemenu()"></div>
+                                        <ul class="mainbgcolor"><li class="w3-display-container first current-link"><a class="w3-button"  href="/">Startseite</a></li><li class="w3-display-container"><a class="w3-button"  href="/aktuelles/">Aktuelles</a></li><li class="w3-display-container has-children"><a class="w3-button"  href="/angebote/">Angebote</a><ul class="mainbgcolor"><li class="w3-display-container first"><a class="w3-button"  href="/angebote/wow-angebote.html">WOW-Angebote</a></li><li class="w3-display-container"><a class="w3-button"  href="/angebote/bamaka.html">WOW-Angebote Bamaka</a></li><li class="w3-display-container"><a class="w3-button"  href="/angebote/maschinenring.html">WOW-Angebote Maschinenring</a></li><li class="w3-display-container"><a class="w3-button"  href="/angebote/deutscher-mittelstandsbund.html">WOW-Angebote Deutscher Mittelstandsbund</a></li><li class="w3-display-container"><a class="w3-button"  target="_blank"  href="/angebote/motorrad-angebote.html">Motorrad Angebote</a></li></ul></li><li class="w3-display-container has-children"><a class="w3-button"  href="/fahrzeuge/">Fahrzeuge</a><ul class="mainbgcolor"><li class="w3-display-container first"><a class="w3-button"  href="/fahrzeuge/fahrzeugsuche.html">Fahrzeugsuche</a></li><li class="w3-display-container"><a class="w3-button"  href="/fahrzeuge/fahrzeug-ankauf.html">Fahrzeug-Ankauf</a></li><li class="w3-display-container"><a class="w3-button"  target="_blank"  href="/fahrzeuge/motorraeder.html">Motorräder</a></li></ul></li><li class="w3-display-container"><a class="w3-button"  href="/service.html">Service</a></li><li class="w3-display-container has-children"><a class="w3-button"  href="/unternehmen/">Unternehmen</a><ul class="mainbgcolor"><li class="w3-display-container first has-children"><a class="w3-button"  href="/unternehmen/standorte/">Standorte</a><ul class="mainbgcolor"><li class="w3-display-container first"><a class="w3-button"  href="/unternehmen/standorte/northeim.html">Northeim</a></li><li class="w3-display-container"><a class="w3-button"  href="/unternehmen/standorte/einbeck.html">Einbeck</a></li></ul></li><li class="w3-display-container"><a class="w3-button"  href="/unternehmen/team.html">Team</a></li></ul></li><li class="w3-display-container"><a class="w3-button"  href="/karriere.html">Karriere</a></li><li class="w3-display-container"><a class="w3-button"  href="/kontakt.html">Kontakt</a></li></ul>                                    </div>
+                                    <div class="m-i-large">
+                                        <a href="/fahrzeuge/M_Modell_Suche" title="Suche nach M Modellen">
+                                            <img src="/files/images/logo/bmw-leinetal-m-logo.png">
+                                        </a>
+                                        <a target="_blank"  title="BMW Service" href="https://bmw-autohaus-leinetal.de/de/neuwagen/bmw-i/">
+                                            <img src="/files/images/logo/bmw-leinetal-i-logo.png">
+                                        </a>
+                                    </div>
+                                    <div id="mobilemenu" class="w3-display-topleft">
+                                        <a href="#" title="Navigation öffnen" onclick='toggleMobilemenu();'>
+                                            <i class="fas fa-bars"></i>
+                                        </a>
+                                    </div>
+                                    <div class="menu-icons">
+                                        <div class="icons icons-social">
+                                            <a class="facebook navi" href="https://www.facebook.com/AutohausLeinetal/" target="_blank">
+                                                <img src="/files/images/socialmedia/facebook.svg">
+                                            </a>
+                                            <a class="instagram navi" href="https://www.instagram.com/autohausleinetal/" target="_blank">
+                                                <img src="/files/images/socialmedia/instagram.svg">
+                                            </a>
+                                            <a class="youtube navi" href="https://www.youtube.com/channel/UCZjigoRLCfcGssWZ1LW42QA" target="_blank">
+                                                <img src="/files/images/socialmedia/youtube.svg">
+                                            </a>
+                                        </div>
+                                        <div id="s-moto-guy" style="background-image: url('/files/images/navi/Motorrad_gray.svg');cursor:pointer;" class="s-icons" onclick="window.open('http://www.motorrad-leinetal.de/','_blank')"></div>
+                                        <div id="s-smart-repair" style="background-image: url('/files/images/navi/smartrepair-gray.svg');cursor:pointer;" class="s-icons" onclick="window.open('https://www.sr-leinetal.de/','_blank')"></div>
+                                        <img class="header-m-img-link" src="/files/images/navi/Motorrad_gray.svg" onclick="window.open('//www.motorrad-leinetal.de','_blank');">
+                                        <img class="header-m-img-link" src="/files/images/navi/smartrepair-gray.svg" onclick="window.open('//www.sr-leinetal.de/','_blank');">
+                                    </div>
+                                    <div id="logo" class="w3-col l3 m4 s6 mainbgcolor">
+                                        <a class="mainbgcolor" href="/" title="Zur Startseite">
+                                            <div class="mainlogo">
+                                                <div></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="header-fill" class="w3-col l1 m1 s1 mainbgcolor"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="main">
+                    <div id="content">
+                        <div class="contentitem  Startseite_Slider"><div class="swiper-container-container"><div class="swiper-container s1"><div class="swiper-wrapper"><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/bmw-leinetal-mobil-bleiben_2.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1 style="color:black;">WERKSTATTLEISTUNGEN & SERVICE UNTER HYGIENEBEDINGUNGEN</h1>
+        <h5 style="color:black;">BERATUNG & VERKAUF UNTER 055 51 - 98 10 0 UND  INFO@BMW-LEINETAL.DE</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Mobil bleiben!" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button">
+        <h1 style="color:black;">WERKSTATTLEISTUNGEN & SERVICE UNTER HYGIENEBEDINGUNGEN</h1>
+        <h5 style="color:black;">BERATUNG & VERKAUF UNTER 055 51 - 98 10 0 UND  INFO@BMW-LEINETAL.DE</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Mobil bleiben!" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=0,0&file=../files/images/Startseite_Slider/cq5dam.resized.img.1680.large.time1578992716042_1.jpg');background-position: left top;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1>118i Aktionsmodell Connect</h1>
+        <h5>WOW-ANGBOT: ab 199 € / Monat (Abbildung zeigt Sonderausstattung)</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/angebote/118i_aktionsmodell_connect" target="_self">Jetzt anschauen!</a>
+        </div>            <p class="Kraftstoffverbrauch w3-display-bottomleft">
+            Kraftstoffverbrauch in l/100 km (kombiniert): 5,7 | CO2-Emissionen in g/km: 129            </p></div></div>        <div class="cta-text-and-button">
+        <h1>118i Aktionsmodell Connect</h1>
+        <h5>WOW-ANGBOT: ab 199 € / Monat (Abbildung zeigt Sonderausstattung)</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/angebote/118i_aktionsmodell_connect" target="_self">Jetzt anschauen!</a>
+        </div>            <p class="Kraftstoffverbrauch w3-display-bottomleft">
+            Kraftstoffverbrauch in l/100 km (kombiniert): 5,7 | CO2-Emissionen in g/km: 129            </p></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/bmw-leinetal-vision-next.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1></h1>
+        <h5></h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Vision Next" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button">
+        <h1></h1>
+        <h5></h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Vision Next" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=0,0&file=../files/images/newsroom/bmw-leinetal-walz-i10.jpg');background-position: left top;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1>Christoph Waltz und Oliver Zipse im BMW iX</h1>
+        <h5>Auf der Suche nach Inspiration und einem herausfordernden Austausch</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=christoph-waltz-ix" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button">
+        <h1>Christoph Waltz und Oliver Zipse im BMW iX</h1>
+        <h5>Auf der Suche nach Inspiration und einem herausfordernden Austausch</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=christoph-waltz-ix" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/Startseite_Slider/hndShowDBFile.ashx.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1>THE 2</h1>
+        <h5>DAS BMW 2er GRAN COUPÈ. AUCH ALS MODELL M SPORT¹ ZU ATTRAKTIVEN KONDITIONEN.</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/angebote/the_2_-_218d_gran_coupe" target="_self">Mehr erfahren</a>
+        </div>            <p class="Kraftstoffverbrauch w3-display-bottomleft">
+            Kraftstoffverbrauch in l/100 km (kombiniert): 4,2 | CO2-Emissionen in g/km: 109            </p></div></div>        <div class="cta-text-and-button">
+        <h1>THE 2</h1>
+        <h5>DAS BMW 2er GRAN COUPÈ. AUCH ALS MODELL M SPORT¹ ZU ATTRAKTIVEN KONDITIONEN.</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/angebote/the_2_-_218d_gran_coupe" target="_self">Mehr erfahren</a>
+        </div>            <p class="Kraftstoffverbrauch w3-display-bottomleft">
+            Kraftstoffverbrauch in l/100 km (kombiniert): 4,2 | CO2-Emissionen in g/km: 109            </p></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/bmwi_motiv1.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/cq5dam.resized.img.1680.large.time1598262256171.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1>Mehr Leistung, Dynamik und Performance!</h1>
+        <h5>DER NEUE M3/M4: JETZT BEI UNS</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=VORFREUDE AUF 510 PS" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button">
+        <h1>Mehr Leistung, Dynamik und Performance!</h1>
+        <h5>DER NEUE M3/M4: JETZT BEI UNS</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=VORFREUDE AUF 510 PS" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/bmwi_motiv1.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=0,0&file=../files/images/newsroom/the4.jpg');background-position: left top;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1>The 4</h1>
+        <h5>Das neue BMW 4er Coupé ab jetzt bei uns!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=The 4" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button">
+        <h1>The 4</h1>
+        <h5>Das neue BMW 4er Coupé ab jetzt bei uns!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=The 4" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/bmwi_motiv1.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/Startseite_Slider/A0245127.JPG');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1 style="color:black;">FINDEN SIE MIT UNS IHREN BMW.</h1>
+        <h5 style="color:black;">Große Auswahl an Neu- oder Gebrauchtfahrzeug entdecken.</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="http://bmw-leinetal.de/fahrzeuge/fahrzeugsuche.html" target="_self">Mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button">
+        <h1 style="color:black;">FINDEN SIE MIT UNS IHREN BMW.</h1>
+        <h5 style="color:black;">Große Auswahl an Neu- oder Gebrauchtfahrzeug entdecken.</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="http://bmw-leinetal.de/fahrzeuge/fahrzeugsuche.html" target="_self">Mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/bmwi_motiv1.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=50,100&file=../files/images/newsroom/bmw-leinetaler-waldprojekt-slider.jpg');background-position: center bottom;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1>LEINETALER WALDPROJEKT.</h1>
+        <h5>Jetzt Partner werden.</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Leinetaler Waldprojekt" target="_blank">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button">
+        <h1>LEINETALER WALDPROJEKT.</h1>
+        <h5>Jetzt Partner werden.</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Leinetaler Waldprojekt" target="_blank">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/bmwi_motiv1.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/2020-bmw-3er-vkf-stage-1680x756px.jpg_135530156.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1>The 3</h1>
+        <h5>DER BMW 3er. OPTIONAL MIT LEASINGRATENVERSICHERUNG*** UND DEM SERVICEPAKET<br>WARTUNG UND REPARATUR****.</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=The 3" target="_blank">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button">
+        <h1>The 3</h1>
+        <h5>DER BMW 3er. OPTIONAL MIT LEASINGRATENVERSICHERUNG*** UND DEM SERVICEPAKET<br>WARTUNG UND REPARATUR****.</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=The 3" target="_blank">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/bmwi_motiv1.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=0,0&file=../files/images/Startseite_Slider/bmw-header-terminvereinbarung-ret_6.jpg');background-position: left top;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1>ONLINE TERMINVEREINBARUNG</h1>
+        <h5>Schnell, Einfach, Jederzeit. BMW Online Terminvereinbarung.</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="https://plan.soft-nrg.com/group/mw0O74QlOMWPZFiycvCoGJM5P6KN3TcdR4xiAUWSYijvmxMsZYDAjw/dashboard/about" target="_blank">Mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button">
+        <h1>ONLINE TERMINVEREINBARUNG</h1>
+        <h5>Schnell, Einfach, Jederzeit. BMW Online Terminvereinbarung.</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="https://plan.soft-nrg.com/group/mw0O74QlOMWPZFiycvCoGJM5P6KN3TcdR4xiAUWSYijvmxMsZYDAjw/dashboard/about" target="_blank">Mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/bmwi_motiv1.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=0,0&file=../files/images/Startseite_Slider/bmw-leinetal-slider-vermietung1680x756_1.jpg');background-position: left top;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1>Leinetal Vermietung.</h1>
+        <h5>Wohnmobile. Wohnwagen. Motorräder. Zubehör.</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="http://bmw-leinetal.de/vermietung.html" target="_self">Mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button">
+        <h1>Leinetal Vermietung.</h1>
+        <h5>Wohnmobile. Wohnwagen. Motorräder. Zubehör.</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="http://bmw-leinetal.de/vermietung.html" target="_self">Mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/bmwi_motiv1.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=50,0&file=../files/images/Startseite_Slider/bmw-header-wow.jpg');background-position: center top;"></div><div class="slider-content-sm">        <div class="cta-text-and-button">
+        <h1>WOW Angebote</h1>
+        <h5>Beste Kondition und exklusiv für Sie!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/angebote/wow-angebote" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button">
+        <h1>WOW Angebote</h1>
+        <h5>Beste Kondition und exklusiv für Sie!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/angebote/wow-angebote" target="_self">mehr erfahren</a>
+        </div></div><div class="swiper-slide"><div class="img" ><div class="newsimg" style="background-image: url('/scripts/resize.php?height=542&width=1234&size=c&position=&file=../files/images/newsroom/bmwi_motiv1.jpg');background-position: center;"></div><div class="slider-content-sm">        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div></div>        <div class="cta-text-and-button elektro">
+        <h1>ELEKTROMOBILITÄT = 9.000 € PREISVORTEIL</h1>
+        <h5>Profitieren Sie jetzt von nur 0,25 % bzw. 0,5 % Dienstwagenversteuerung. Egal, ob<br>Vollelektrisch oder Plug-in-Hybrid, erleben Sie die Zukunft jetzt! Sprechen Sie uns an!</h5>
+        <a class="w3-button w3-blue call-to-action Verlinkung" href="/aktuelles/newsroomDetails?news_id=Elektromobilität" target="_self">mehr erfahren</a>
+        </div></div></div><div class="locations-s-m-below"><div class="w3-row location-frontpage"><div class="w3-col l6 m6 s12">Hirschberger Str. 2 | 37154 Northeim | <a href="tel:+49555198100"><img src="/files/images/logo/bmw-leinetal-telefonhörer.svg"></a> <span>|</span> <a href="https://plan.soft-nrg.com/group/mw0O74QlOMWPZFiycvCoGJM5P6KN3TcdR4xiAUWSYijvmxMsZYDAjw" target="_blank">TERMIN</a></div><div class="w3-col l6 m6 s12">Altendorfer Tor 26 | 37574 Einbeck | <a href="tel:+49556193000"><img src="/files/images/logo/bmw-leinetal-telefonhörer.svg"></a> <span>|</span> <a href="https://plan.soft-nrg.com/group/7zbQRgR0hmJBbxiBJdD9Tgc5xPbmbWMyTWuEzbJSJaQAbZ6Cwg1bng" target="_blank">TERMIN</a></div></div></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"><svg width="40" height="40" viewBox="0 0 40 40"><path fill="#4d4d4d" d="M17 28l-2-2 6-6-6-6 2-2 8 8z"/></svg></div>
+        <div class="swiper-button-prev"><svg width="40" height="40" viewBox="0 0 40 40"><path fill="#4d4d4d" d="M17 28l-2-2 6-6-6-6 2-2 8 8z"/></svg></div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"><div></div></span>
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"><i></i></span>
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"><i></i></span>
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"><i></i></span>
+        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"><i></i></span>
+
+        </div><div class="Motorrad_SR"><a  style="float:left" href="//www.motorrad-leinetal.de/" target="_blank"><img src="/files/images/newsroom/icons/bmw-logo-leinetal-motorrad.svg"></a><a style="float:right" href="https://www.sr-leinetal.de/" target="_blank"><img src="/files/images/navi/smartrepair.svg"></a></div><div class="icons"><a class="facebook slider" href="https://www.facebook.com/AutohausLeinetal/" target="_blank"><img src="/files/images/socialmedia/facebook.png"></a><a class="instagram slider" href="https://www.instagram.com/autohausleinetal/" target="_blank"><img src="/files/images/socialmedia/instagram.png"></a><a class="youtube slider" href="https://www.youtube.com/channel/UCZjigoRLCfcGssWZ1LW42QA" target="_blank"><img src="/files/images/socialmedia/youtube.png"></a></div></div></div></div><div class="contentitem  location-frontpage"><div class="w3-row location-frontpage"><div class="w3-col l6 m6 s12"><a href="/unternehmen/standorte/northeim.html" class="location"><strong><span>STANDORT</span><span>NORTHEIM</span></strong></a> | Hirschberger Str. 2 | 37154 Northeim | <a href="tel:+49555198100"><img src="/files/images/logo/bmw-leinetal-telefonhörer.svg"></a> <span>|</span> <a href="https://plan.soft-nrg.com/group/mw0O74QlOMWPZFiycvCoGJM5P6KN3TcdR4xiAUWSYijvmxMsZYDAjw" target="_blank">TERMIN</a></div><div class="w3-col l6 m6 s12"><a href="/unternehmen/standorte/einbeck.html" class="location"><strong><span>STANDORT</span><span>EINBECK</span></strong></a> | Altendorfer Tor 26 | 37574 Einbeck | <a href="tel:+49556193000"><img src="/files/images/logo/bmw-leinetal-telefonhörer.svg"></a> <span>|</span> <a href="https://plan.soft-nrg.com/group/7zbQRgR0hmJBbxiBJdD9Tgc5xPbmbWMyTWuEzbJSJaQAbZ6Cwg1bng" target="_blank">TERMIN</a></div></div><div class="locations-s-m-below"><div class="w3-row location-frontpage"><div class="w3-col l6 m6 s12">Hirschberger Str. 2 | 37154 Northeim | <a href="tel:+49555198100"><img src="/files/images/logo/bmw-leinetal-telefonhörer.svg"></a> <span>|</span> <a href="https://plan.soft-nrg.com/group/mw0O74QlOMWPZFiycvCoGJM5P6KN3TcdR4xiAUWSYijvmxMsZYDAjw" target="_blank">TERMIN</a></div><div class="w3-col l6 m6 s12">Altendorfer Tor 26 | 37574 Einbeck | <a href="tel:+49556193000"><img src="/files/images/logo/bmw-leinetal-telefonhörer.svg"></a> <span>|</span> <a href="https://plan.soft-nrg.com/group/7zbQRgR0hmJBbxiBJdD9Tgc5xPbmbWMyTWuEzbJSJaQAbZ6Cwg1bng" target="_blank">TERMIN</a></div></div></div></div><div class="contentitem  auto_search_and_two_boxes"><div class="w3-row w3-section"><!-- auto search --><div class="w3-col l4 m12 s12"><div class="w3-border w3-display-container w3-margin-8"><h3 class="auto-search">Fahrzeugsuche.</h3><form class="auto-search small" action="/fahrzeuge/fahrzeugsuche.html#Gefundene_Fahrzeuge" id="carform" method="post">
+    <div class="pick">
+        <label class="left">
+            <input type="radio" class="auto-search" name="Fahrzeug_kategorie" value="Neuwagen" form="carform"
+            >
+            <span>Neuwagen</span>
+        </label>
+        <label class="right">
+            <input type="radio" class="auto-search" name="Fahrzeug_kategorie" value="Gebrauchtwagen" form="carform"
+            checked="checked">
+            <span>Gebrauchtwagen</span>
+        </label>
+    </div>
+    <div class="pick">
+        <select class="auto-search" name="Marke" form="carform">
+            <option value="beliebig">Hersteller</option>
+                                                                        <option value="BMW" >BMW</option>                                                            <option value="MINI" >MINI</option>                                                            <option value="Alpina" >Alpina</option>                    </select>
+    </div>
+    <div class="pick">
+        <p>
+            <label>Preis <span>(brutto in €)</span></label>
+            <input type="hidden" id="Preis-lower" name="Endpreis_lower" form="carform">
+            <input type="hidden" id="Preis-upper" name="Endpreis_upper" form="carform">
+        </p>
+        <div id="Preis-slider">
+            <div id="custom-handle" class="ui-slider-handle ui-corner-all"></div>
+            <div id="custom-handle" class="ui-slider-handle ui-corner-all"></div>
+        </div>
+        <div>
+            <div id="Preis-left">10.000 €</div>
+            <div id="Preis-right">200.000 €</div>
+        </div>
+    </div>
+    <div class="pick">
+        <select class="auto-search" id="ModellSelect" name="Modell" form="carform">
+            <option value="beliebig">Modell</option>
+            
+            
+                <optgroup class="BMW" label="Elektrifizierte Fahrzeuge">
+                    <option value="Elektrifizierte Fahrzeuge" >Alle - Elektrifizierte Fahrzeuge</option>
+
+                    
+
+                                                
+                        
+
+                    
+
+                                                
+                        <option value="i3,Elektrifizierte Fahrzeuge" >i3</option>
+
+                    
+
+                                                
+                        <option value="iX3,Elektrifizierte Fahrzeuge" >iX3</option>
+
+                    
+
+                                                
+                        <option value="i8,Elektrifizierte Fahrzeuge" >i8</option>
+
+                    
+
+                                                
+                        <option value="225,Elektrifizierte Fahrzeuge" >225xe</option>
+
+                    
+
+                                                
+                        <option value="330,Elektrifizierte Fahrzeuge" >330e</option>
+
+                    
+
+                                                
+                        <option value="330,Elektrifizierte Fahrzeuge" >330xe</option>
+
+                    
+
+                                                
+                        <option value="530,Elektrifizierte Fahrzeuge" >530e</option>
+
+                    
+
+                                                
+                        <option value="530,Elektrifizierte Fahrzeuge" >530xe</option>
+
+                    
+
+                                                
+                        <option value="745,Elektrifizierte Fahrzeuge" >745e</option>
+
+                    
+
+                                                
+                        <option value="745,Elektrifizierte Fahrzeuge" >745Le</option>
+
+                    
+
+                                                
+                        <option value="X1,Elektrifizierte Fahrzeuge" >X1 25e</option>
+
+                    
+
+                                                
+                        <option value="X2,Elektrifizierte Fahrzeuge" >X2 25e</option>
+
+                    
+
+                                                
+                        <option value="X3,Elektrifizierte Fahrzeuge" >X3 30e</option>
+
+                    
+
+                                                
+                        <option value="X5,Elektrifizierte Fahrzeuge" >X5 45e</option>
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="Plug-in-Hybrid-Reihe">
+                    <option value="Plug-in-Hybrid-Reihe" >Alle - Plug-in-Hybrid-Reihe</option>
+
+                    
+
+                                                
+                        
+
+                    
+
+                                                
+                        <option value="225,Plug-in-Hybrid-Reihe" >225xe</option>
+
+                    
+
+                                                
+                        <option value="330,Plug-in-Hybrid-Reihe" >330e</option>
+
+                    
+
+                                                
+                        <option value="330,Plug-in-Hybrid-Reihe" >330xe</option>
+
+                    
+
+                                                
+                        <option value="530,Plug-in-Hybrid-Reihe" >530e</option>
+
+                    
+
+                                                
+                        <option value="530,Plug-in-Hybrid-Reihe" >530xe</option>
+
+                    
+
+                                                
+                        <option value="745,Plug-in-Hybrid-Reihe" >745e</option>
+
+                    
+
+                                                
+                        <option value="745,Plug-in-Hybrid-Reihe" >745Le</option>
+
+                    
+
+                                                
+                        <option value="X1,Plug-in-Hybrid-Reihe" >X1 25e</option>
+
+                    
+
+                                                
+                        <option value="X2,Plug-in-Hybrid-Reihe" >X2 25e</option>
+
+                    
+
+                                                
+                        <option value="X3,Plug-in-Hybrid-Reihe" >X3 30e</option>
+
+                    
+
+                                                
+                        <option value="X5,Plug-in-Hybrid-Reihe" >X5 45e</option>
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="1er-Reihe">
+                    <option value="1er-Reihe" >Alle - 1er-Reihe</option>
+
+                    
+
+                                                
+                        <option value="116" >116</option>
+
+                    
+
+                                                
+                        <option value="118" >118</option>
+
+                    
+
+                                                
+                        <option value="120" >120</option>
+
+                    
+
+                                                
+                        <option value="125" >125</option>
+
+                    
+
+                                                
+                        <option value="130" >130</option>
+
+                    
+
+                                                
+                        <option value="135" >135</option>
+
+                    
+
+                                                
+                        <option value="140" >140</option>
+
+                    
+
+                                                
+                        <option value="1er M-Coupe" >1er M-Coupe</option>
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="2er-Reihe">
+                    <option value="2er-Reihe" >Alle - 2er-Reihe</option>
+
+                    
+
+                                                
+                        <option value="216" >216</option>
+
+                    
+
+                                                
+                        <option value="218" >218</option>
+
+                    
+
+                                                
+                        <option value="218 Active Tourer" >218 Active Tourer</option>
+
+                    
+
+                                                
+                        <option value="218 Gran Tourer" >218 Gran Tourer</option>
+
+                    
+
+                                                
+                        <option value="220" >220</option>
+
+                    
+
+                                                
+                        <option value="220 Active Tourer" >220 Active Tourer</option>
+
+                    
+
+                                                
+                        <option value="220 Gran Tourer" >220 Gran Tourer</option>
+
+                    
+
+                                                
+                        <option value="225" >225</option>
+
+                    
+
+                                                
+                        <option value="230" >230</option>
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="3er-Reihe">
+                    <option value="3er-Reihe" >Alle - 3er-Reihe</option>
+
+                    
+
+                                                
+                        <option value="316" >316</option>
+
+                    
+
+                                                
+                        <option value="318" >318</option>
+
+                    
+
+                                                
+                        <option value="320" >320</option>
+
+                    
+
+                                                
+                        <option value="330" >330</option>
+
+                    
+
+                                                
+                        <option value="335" >335</option>
+
+                    
+
+                                                
+                        <option value="340" >340</option>
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="4er-Reihe">
+                    <option value="4er-Reihe" >Alle - 4er-Reihe</option>
+
+                    
+
+                                                
+                        <option value="420" >420</option>
+
+                    
+
+                                                
+                        <option value="425" >425</option>
+
+                    
+
+                                                
+                        <option value="430" >430</option>
+
+                    
+
+                                                
+                        <option value="440" >440</option>
+
+                    
+
+                                                
+                        <option value="430 Gran Coupe" >430 Gran Coupe</option>
+
+                    
+
+                                                
+                        <option value="435" >435</option>
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="5er-Reihe">
+                    <option value="5er-Reihe" >Alle - 5er-Reihe</option>
+
+                    
+
+                                                
+                        <option value="520" >520</option>
+
+                    
+
+                                                
+                        <option value="525" >525</option>
+
+                    
+
+                                                
+                        <option value="530" >530</option>
+
+                    
+
+                                                
+                        <option value="535" >535</option>
+
+                    
+
+                                                
+                        <option value="535 Gran Turismo" >535 Gran Turismo</option>
+
+                    
+
+                                                
+                        <option value="540" >540</option>
+
+                    
+
+                                                
+                        <option value="M5" >M5</option>
+
+                    
+
+                                                
+                        
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="6er-Reihe">
+                    <option value="6er-Reihe" >Alle - 6er-Reihe</option>
+
+                    
+
+                                                
+                        <option value="650 Gran Coupe" >650 Gran Coupe</option>
+
+                    
+
+                                                
+                        <option value="M6" >M6</option>
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="7er-Reihe">
+                    <option value="7er-Reihe" >Alle - 7er-Reihe</option>
+
+                    
+
+                                                
+                        <option value="730" >730</option>
+
+                    
+
+                                                
+                        <option value="740" >740</option>
+
+                    
+
+                                                
+                        <option value="750" >750</option>
+
+                    
+
+                                                
+                        <option value="760" >760</option>
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="8er-Reihe">
+                    <option value="8er-Reihe" >Alle - 8er-Reihe</option>
+
+                    
+
+                                                
+                        <option value="840" >840</option>
+
+                    
+
+                                                
+                        <option value="850" >850</option>
+
+                    
+
+                                                
+                        <option value="M8" >M8</option>
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="i-Reihe">
+                    <option value="i-Reihe" >Alle - i-Reihe</option>
+
+                    
+
+                                                
+                        <option value="i3" >i3</option>
+
+                    
+
+                                                
+                        <option value="iX3" >iX3</option>
+
+                    
+
+                                                
+                        <option value="i8" >i8</option>
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="M-Reihe">
+                    <option value="M-Reihe" >Alle - M-Reihe</option>
+
+                    
+
+                                                
+                        <option value="M1,M140" >M1</option>
+
+                    
+
+                                                
+                        
+
+                    
+
+                                                
+                        <option value="M2,M235,M240i" >M2</option>
+
+                    
+
+                                                
+                        
+
+                    
+
+                                                
+                        
+
+                    
+
+                                                
+                        <option value="M3" >M3</option>
+
+                    
+
+                                                
+                        <option value="M4" >M4</option>
+
+                    
+
+                                                
+                        <option value="M5,M550, X5 M,X5 M 550" >M5</option>
+
+                    
+
+                                                
+                        
+
+                    
+
+                                                
+                        <option value="M6,X5 M" >M6</option>
+
+                    
+
+                                                
+                        <option value="M8" >M8</option>
+
+                    
+
+                                                
+                        <option value="X5 M" >X5 M</option>
+
+                    
+
+                                                
+                        <option value="X6 M,X6 M 550" >X6 M</option>
+
+                    
+
+                                                
+                        <option value="X7 M" >X7 M</option>
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="X-Reihe">
+                    <option value="X-Reihe" >Alle - X-Reihe</option>
+
+                    
+
+                                                
+                        <option value="X1" >X1</option>
+
+                    
+
+                                                
+                        <option value="X2" >X2</option>
+
+                    
+
+                                                
+                        <option value="X3,iX3" >X3</option>
+
+                    
+
+                                                
+                        <option value="X4" >X4</option>
+
+                    
+
+                                                
+                        <option value="X5" >X5</option>
+
+                    
+
+                                                
+                        
+
+                    
+
+                                                
+                        
+
+                    
+
+                                                
+                        <option value="X6" >X6</option>
+
+                    
+
+                                                
+                        
+
+                    
+
+                                                
+                        
+
+                    
+
+                                                
+                        <option value="X7" >X7</option>
+
+                                    </optgroup>
+
+            
+                <optgroup class="BMW" label="Z-Reihe">
+                    <option value="Z-Reihe" >Alle - Z-Reihe</option>
+
+                    
+
+                                                
+                        <option value="Z4" >Z4</option>
+
+                                    </optgroup>
+
+            
+
+
+
+            <option class="MINI" value="One"
+            >One</option>
+            <option class="Alpina" value="XD3"
+            >XD3</option>
+        </select>
+    </div>
+    <div class="pick">
+        <p>
+            <label>Leistung</label>
+            <input type="hidden" id="Leistung-lower" name="Leistung_kW_lower" form="carform">
+            <input type="hidden" id="Leistung-upper" name="Leistung_kW_upper" form="carform">
+        </p>
+        <div id="Leistung-slider">
+            <div id="custom-handle" class="ui-slider-handle ui-corner-all"></div>
+            <div id="custom-handle" class="ui-slider-handle ui-corner-all"></div>
+        </div>
+        <div>
+            <div id="Leistung-left">50 kW</div>
+            <div id="Leistung-right">500 kW</div>
+        </div>
+    </div>
+    <div class="pick">
+        <select class="auto-search" name="Karosserieform" form="carform">
+            <option value="beliebig">Fahrzeugtyp</option>
+                                                                        <option value="Cabrio/Roadster" >Cabrio/Roadster</option>                                                            <option value="Kleinwagen" >Kleinwagen</option>                                                            <option value="Kombi" >Kombi</option>                                                            <option value="Limousine" >Limousine</option>                                                            <option value="Sportwagen/Coupé" >Sportwagen/Coupé</option>                                                            <option value="SUV/Geländewagen" >SUV/Geländewagen</option>                                                            <option value="Van/Kleinbus" >Van/Kleinbus</option>                    </select>
+    </div>
+    <div class="pick">
+        <p>
+            <label>Erstzulassung <span>(Jahr)</span></label>
+            <input type="hidden" id="Erstzulassung-lower" name="Erstzulassung_lower" form="carform">
+            <input type="hidden" id="Erstzulassung-upper" name="Erstzulassung_upper" form="carform">
+        </p>
+        <div id="Erstzulassung-slider">
+            <div id="custom-handle" class="ui-slider-handle ui-corner-all"></div>
+            <div id="custom-handle" class="ui-slider-handle ui-corner-all"></div>
+        </div>
+        <div>
+            <div id="Erstzulassung-left">2009</div>
+            <div id="Erstzulassung-right">2019</div>
+        </div>
+    </div>
+    <div class="pick">
+        <select class="auto-search" name="Kraftstoff" form="carform">
+            <option value="beliebig">Kraftstoffart</option>
+                                                                        <option value="Benzin" >Benzin</option>                                                            <option value="Diesel" >Diesel</option>                                                            <option value="Elektro" >Elektro</option>                    </select>
+    </div>
+    <div class="pick">
+        <p>
+            <label>Kilometerstand</label>
+            <input type="hidden" id="Kilometerstand-lower" name="Kilometerstand_lower" form="carform">
+            <input type="hidden" id="Kilometerstand-upper" name="Kilometerstand_upper" form="carform">
+        </p>
+        <div id="Kilometerstand-slider">
+            <div id="custom-handle" class="ui-slider-handle ui-corner-all"></div>
+            <div id="custom-handle" class="ui-slider-handle ui-corner-all"></div>
+        </div>
+        <div>
+            <div id="Kilometerstand-left">0 km</div>
+            <div id="Kilometerstand-right">200.000 km</div>
+        </div>
+    </div>
+    <div class="pick">
+        <select class="auto-search" name="Aussenfarbe_Grundfarbe" form="carform">
+            <option value="beliebig">Außenfarbe</option>
+                                                                        <option value="Blau" >Blau</option>                                                            <option value="Braun" >Braun</option>                                                            <option value="Gold" >Gold</option>                                                            <option value="Grau" >Grau</option>                                                            <option value="Orange" >Orange</option>                                                            <option value="Rot" >Rot</option>                                                            <option value="Schwarz" >Schwarz</option>                                                            <option value="Silber" >Silber</option>                                                            <option value="Weiß" >Weiß</option>                    </select>
+    </div>
+    <div class="pick">
+        <label>Varianten <span>(Sondermodelle oder Extras)</span>
+            <input type="text" name="Beschreibung" placeholder="Geben Sie einen Suchbegriff ein ...">
+        </label>
+    </div>
+    <div class="pick">
+        <select class="auto-search" name="Getriebe" form="carform">
+            <option value="beliebig">Getriebeart</option>
+                                                                        <option value="Automatik" >Automatik</option>                                                            <option value="Handschaltung" >Handschaltung</option>                    </select>
+    </div>
+    <button id="Fahrzeuge-anzeigen" class="pick w3-button" type="submit" form="carform" value="(###count### Passende Angebote)">
+        <div>Jetzt Fahrzeuge anzeigen</div>
+        <div>(###count### passende Angebote)</div>
+    </button>
+</form>
+</div></div>
+<div class="w3-col l4 m6 s12">
+    <div class="w3-border w3-display-container w3-margin-8">
+        <a class="w3-block" href="/fahrzeuge/g613253-bmw-m760-li-a-xdrive-led-w-lan-acc-b&w-laser-eu6" target="_self">
+            <div>
+                <div class="neu-gebraucht">Gebrauchtwagen</div>
+                <img src="/scripts/resize.php?width=373&height=151&size=c&position=0,30&file=../cars/G613253_01.jpg" alt="BMW-M760">
+            </div>
+            <h4>BMW-M760</h4>
+            <p class="normal">Li A xDrive LED W-LAN ACC B&W LASER EU6</p>
+            <h4><span>ab</span> 69.964 EUR</h4>
+            <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,6 | CO2-Emissionen in g/km: 120 | Abbildung zeigt Sonderausstattung.</p>
+</div>
+        </a>
+    </div>
+</div>
+
+<div class="w3-col l4 m6 s12">
+    <div class="w3-border w3-display-container w3-margin-8">
+        <a class="w3-block" href="/fahrzeuge/7g89493-bmw-m2-competition-leder-kamera-navi-led-w-lan" target="_self">
+            <div>
+                <div class="neu-gebraucht">Neuwagen</div>
+                <img src="/scripts/resize.php?width=373&height=151&size=c&position=0,30&file=../cars/7G89493_01.jpg" alt="BMW-M2">
+            </div>
+            <h4>BMW-M2</h4>
+            <p class="normal">Competition LEDER KAMERA NAVI LED W-LAN</p>
+            <h4><span>ab</span> 73.347 EUR</h4>
+            <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 9,2 | CO2-Emissionen in g/km: 209 | Effizienzklasse: F | Abbildung zeigt Sonderausstattung.</p>
+</div>
+        </a>
+    </div>
+</div>
+</div></div><div class="contentitem "><div class="w3-row w3-section"><div class="w3-col l3 m6 s12"><div class="w3-border w3-display-container w3-margin-8 small-startbox"><a class="w3-block" href="/angebote/wow-angebote" target="_self" title="WOW-Angebote" alt="WOW-Angebote"><div class="small-startbox-image"><img src="/scripts/resize.php?width=316&height=159&size=c&file=../files/images/boxen-startseite/angebote.jpg" alt="WOW-Angebote"/></div><div class="startbox-text"><h4>WOW-Angebote</h4><p class="normal">Neufahrzeuge zum Bestpreis. Stellen Sie sich Ihren neuen Traumwagen zusammen.</p><p class="w3-display-bottomleft startbox-link"><i class="fas fa-angle-right"></i> Mehr erfahren</p></div></div></div></a><div class="w3-col l3 m6 s12"><div class="w3-border w3-display-container w3-margin-8 small-startbox"><a class="w3-block" href="/angebote/bmw_440i_xdrive_gran_coupe" target="_self" title="Gewerbekunden" alt="Gewerbekunden"><div class="small-startbox-image"><img src="/scripts/resize.php?width=316&height=159&size=c&file=../files/images/boxen-startseite/gewerbekunden.jpg" alt="Gewerbekunden"/></div><div class="startbox-text"><h4>Gewerbekunden</h4><p class="normal">Neufahrzeuge zum Bestpreis. Profitieren Sie von unseren WOW-Angeboten für Gewerbekunden.</p><p class="w3-display-bottomleft startbox-link"><i class="fas fa-angle-right"></i> Mehr erfahren</p></div></div></div></a><div class="w3-col l3 m6 s12"><div class="w3-border w3-display-container w3-margin-8 small-startbox"><a class="w3-block" href="/angebote/wow-angebote" target="_self" title="Leasing" alt="Leasing"><div class="small-startbox-image"><img src="/scripts/resize.php?width=316&height=159&size=c&file=../files/images/boxen-startseite/leasing.jpg" alt="Leasing"/></div><div class="startbox-text"><h4>Leasing</h4><p class="normal">Unsere Leasingangebote für Privat- und Gewerbkunden.</p><p class="w3-display-bottomleft startbox-link"><i class="fas fa-angle-right"></i> Mehr erfahren</p></div></div></div></a><div class="w3-col l3 m6 s12"><div class="w3-border w3-display-container w3-margin-8 small-startbox"><a class="w3-block" href="https://motorrad-leinetal.de/" target="_blank" title="Motorrad" alt="Motorrad"><div class="small-startbox-image"><img src="/scripts/resize.php?width=316&height=159&size=c&file=../files/images/boxen-startseite/bmw-motorrad.jpg" alt="Motorrad"/></div><div class="startbox-text"><h4>Motorrad</h4><p class="normal">Der Sommer kommt und Sie lieben es auf zwei Rädern unterwegs zu sein?</p><p class="w3-display-bottomleft startbox-link"><i class="fas fa-angle-right"></i> Mehr erfahren</p></div></div></div></a></div></div><div class="contentitem "><div class="w3-row w3-section">
+    <!-- Swiper -->
+    <div class="swiper-container s2">
+    <div class="swiper-wrapper"><div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Neuwagen</span>
+                </div>
+                <a href="/fahrzeuge/7e94269-bmw-218-active-tourer-">
+                    <img alt="BMW 218 Active Tourer " src="/scripts/resize.php?width=373&file=../cars/7E94269_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/7e94269-bmw-218-active-tourer-">
+                            <span>BMW</span>
+                            <span>218 Active Tourer</span>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span></span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>0</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>103 kW (140 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Handschaltung</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Stoff Schwarz</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Benzin</span>
+                    </div>
+                </div>
+                <div>36.377 EUR</div>
+                <a href="/fahrzeuge/7e94269-bmw-218-active-tourer-" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,8 | CO2-Emissionen in g/km: 132 | Effizienzklasse: B | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Gebrauchtwagen</span>
+                </div>
+                <a href="/fahrzeuge/g487208-bmw-520-da-touring-ahk-shz-leder-xenon-navi-eu6">
+                    <img alt="BMW 520 dA Touring AHK SHZ LEDER XENON NAVI EU6" src="/scripts/resize.php?width=373&file=../cars/G487208_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/g487208-bmw-520-da-touring-ahk-shz-leder-xenon-navi-eu6">
+                            <span>BMW</span>
+                            <span>520</span>
+                            <span>dA Touring AHK SHZ LEDER XENON NAVI EU6</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>10-2016</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>131542</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>140 kW (190 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Automatik</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Vollleder Braun</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Diesel</span>
+                    </div>
+                </div>
+                <div>20.415 EUR</div>
+                <a href="/fahrzeuge/g487208-bmw-520-da-touring-ahk-shz-leder-xenon-navi-eu6" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,6 | CO2-Emissionen in g/km: 120 | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Gebrauchtwagen</span>
+                </div>
+                <a href="/fahrzeuge/ww14778-bmw-520-da-sport-line-354,-eur-mon-w-lan-acc-eu6">
+                    <img alt="BMW 520 dA Sport Line 354,- EUR Mon W-LAN ACC EU6" src="/scripts/resize.php?width=373&file=../cars/WW14778_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/ww14778-bmw-520-da-sport-line-354,-eur-mon-w-lan-acc-eu6">
+                            <span>BMW</span>
+                            <span>520</span>
+                            <span>dA Sport Line 354,- EUR Mon W-LAN ACC EU6</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>01-2019</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>29800</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>140 kW (190 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Automatik</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Vollleder Schwarz</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Diesel</span>
+                    </div>
+                </div>
+                <div>42.317 EUR</div>
+                <a href="/fahrzeuge/ww14778-bmw-520-da-sport-line-354,-eur-mon-w-lan-acc-eu6" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 4,3 | CO2-Emissionen in g/km: 114 | Effizienzklasse: A+ | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Gebrauchtwagen</span>
+                </div>
+                <a href="/fahrzeuge/v796234-bmw-m2-coupe-shz-leder-kamera-xenon-hgsd-navi-eu6">
+                    <img alt="BMW M2 Coupe SHZ LEDER KAMERA XENON HGSD NAVI EU6" src="/scripts/resize.php?width=373&file=../cars/V796234_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/v796234-bmw-m2-coupe-shz-leder-kamera-xenon-hgsd-navi-eu6">
+                            <span>BMW</span>
+                            <span>M2</span>
+                            <span>Coupe SHZ LEDER KAMERA XENON HGSD NAVI EU6</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>05-2016</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>39590</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>272 kW (370 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Automatik</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Vollleder Schwarz</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Benzin</span>
+                    </div>
+                </div>
+                <div>43.399 EUR</div>
+                <a href="/fahrzeuge/v796234-bmw-m2-coupe-shz-leder-kamera-xenon-hgsd-navi-eu6" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,6 | CO2-Emissionen in g/km: 120 | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Gebrauchtwagen</span>
+                </div>
+                <a href="/fahrzeuge/j495467-mercedes-benz-a-200-amg-line-kamera-navi-led-standhz-eu6">
+                    <img alt="Mercedes-Benz A 200 AMG Line KAMERA NAVI LED STANDHZ EU6" src="/scripts/resize.php?width=373&file=../cars/J495467_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/j495467-mercedes-benz-a-200-amg-line-kamera-navi-led-standhz-eu6">
+                            <span>Mercedes-Benz</span>
+                            <span>A 200</span>
+                            <span>AMG Line KAMERA NAVI LED STANDHZ EU6</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>06-2016</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>31600</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>115 kW (156 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Automatik</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Vollleder Schwarz</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Benzin</span>
+                    </div>
+                </div>
+                <div>21.490 EUR</div>
+                <a href="/fahrzeuge/j495467-mercedes-benz-a-200-amg-line-kamera-navi-led-standhz-eu6" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,6 | CO2-Emissionen in g/km: 120 | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Gebrauchtwagen</span>
+                </div>
+                <a href="/fahrzeuge/g613253-bmw-m760-li-a-xdrive-led-w-lan-acc-b&w-laser-eu6">
+                    <img alt="BMW M760 Li A xDrive LED W-LAN ACC B&W LASER EU6" src="/scripts/resize.php?width=373&file=../cars/G613253_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/g613253-bmw-m760-li-a-xdrive-led-w-lan-acc-b&w-laser-eu6">
+                            <span>BMW</span>
+                            <span>M760</span>
+                            <span>Li A xDrive LED W-LAN ACC B&W LASER EU6</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>04-2017</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>63144</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>448 kW (609 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Automatik</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Vollleder Beige</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Benzin</span>
+                    </div>
+                </div>
+                <div>69.964 EUR</div>
+                <a href="/fahrzeuge/g613253-bmw-m760-li-a-xdrive-led-w-lan-acc-b&w-laser-eu6" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,6 | CO2-Emissionen in g/km: 120 | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Neuwagen</span>
+                </div>
+                <a href="/fahrzeuge/9d70086-bmw-x4-xdrive-30da-m-sportpaket-standhz-w-lan-acc">
+                    <img alt="BMW X4 xDrive 30dA M-Sportpaket STANDHZ W-LAN ACC" src="/scripts/resize.php?width=373&file=../cars/9D70086_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/9d70086-bmw-x4-xdrive-30da-m-sportpaket-standhz-w-lan-acc">
+                            <span>BMW</span>
+                            <span>X4</span>
+                            <span>xDrive 30dA M-Sportpaket STANDHZ W-LAN ACC</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span></span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>11</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>195 kW (265 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Automatik</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Vollleder Braun</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Diesel</span>
+                    </div>
+                </div>
+                <div>83.880 EUR</div>
+                <a href="/fahrzeuge/9d70086-bmw-x4-xdrive-30da-m-sportpaket-standhz-w-lan-acc" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 6,0 | CO2-Emissionen in g/km: 158 | Effizienzklasse: B | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Gebrauchtwagen</span>
+                </div>
+                <a href="/fahrzeuge/pp10854-alpina-d3-biturbo-x-shz-kamera-hud-navi-led-w-lan-eu6">
+                    <img alt="Alpina D3 BITURBO X SHZ KAMERA HUD NAVI LED W-LAN EU6" src="/scripts/resize.php?width=373&file=../cars/PP10854_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/pp10854-alpina-d3-biturbo-x-shz-kamera-hud-navi-led-w-lan-eu6">
+                            <span>Alpina</span>
+                            <span>D3 BITURBO</span>
+                            <span>X SHZ KAMERA HUD NAVI LED W-LAN EU6</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>08-2017</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>72430</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>257 kW (349 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Automatik</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Vollleder Beige</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Diesel</span>
+                    </div>
+                </div>
+                <div>37.844 EUR</div>
+                <a href="/fahrzeuge/pp10854-alpina-d3-biturbo-x-shz-kamera-hud-navi-led-w-lan-eu6" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,6 | CO2-Emissionen in g/km: 120 | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Gebrauchtwagen</span>
+                </div>
+                <a href="/fahrzeuge/2e19773-mini-cooper-fse-usb-klima-led-scheinwerfer-euro6">
+                    <img alt="MINI Cooper FSE USB KLIMA LED SCHEINWERFER EURO6" src="/scripts/resize.php?width=373&file=../cars/2E19773_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/2e19773-mini-cooper-fse-usb-klima-led-scheinwerfer-euro6">
+                            <span>MINI</span>
+                            <span>Cooper</span>
+                            <span>FSE USB KLIMA LED SCHEINWERFER EURO6</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>08-2016</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>41503</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>100 kW (136 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Handschaltung</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Stoff Schwarz</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Benzin</span>
+                    </div>
+                </div>
+                <div>15.285 EUR</div>
+                <a href="/fahrzeuge/2e19773-mini-cooper-fse-usb-klima-led-scheinwerfer-euro6" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,6 | CO2-Emissionen in g/km: 120 | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Gebrauchtwagen</span>
+                </div>
+                <a href="/fahrzeuge/a088131-bmw-320-da-touring-pdc-shz-navi-led-3,99-eff-eu6">
+                    <img alt="BMW 320 dA Touring PDC SHZ NAVI LED 3,99% EFF* EU6" src="/scripts/resize.php?width=373&file=../cars/A088131_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/a088131-bmw-320-da-touring-pdc-shz-navi-led-3,99-eff-eu6">
+                            <span>BMW</span>
+                            <span>320</span>
+                            <span>dA Touring PDC SHZ NAVI LED 3,99% EFF* EU6</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>06-2017</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>71629</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>140 kW (190 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Automatik</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Stoff Schwarz</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Diesel</span>
+                    </div>
+                </div>
+                <div>24.857 EUR</div>
+                <a href="/fahrzeuge/a088131-bmw-320-da-touring-pdc-shz-navi-led-3,99-eff-eu6" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,6 | CO2-Emissionen in g/km: 120 | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Vorführwagen</span>
+                </div>
+                <a href="/fahrzeuge/5p15384-bmw-x2-sdrive-18ia-pdc-shz-kamera-hud-navi-led">
+                    <img alt="BMW X2 sDrive 18iA PDC SHZ KAMERA HUD NAVI LED" src="/scripts/resize.php?width=373&file=../cars/5P15384_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/5p15384-bmw-x2-sdrive-18ia-pdc-shz-kamera-hud-navi-led">
+                            <span>BMW</span>
+                            <span>X2</span>
+                            <span>sDrive 18iA PDC SHZ KAMERA HUD NAVI LED</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>06-2020</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>5058</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>103 kW (140 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Automatik</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Stoff Schwarz</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Benzin</span>
+                    </div>
+                </div>
+                <div>43.568 EUR</div>
+                <a href="/fahrzeuge/5p15384-bmw-x2-sdrive-18ia-pdc-shz-kamera-hud-navi-led" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,8 | CO2-Emissionen in g/km: 133 | Effizienzklasse: B | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Gebrauchtwagen</span>
+                </div>
+                <a href="/fahrzeuge/5a67107-bmw-116-d-fse-usb-klima-pdc-shz-navi-led-euro6">
+                    <img alt="BMW 116 d FSE USB KLIMA PDC SHZ NAVI LED EURO6" src="/scripts/resize.php?width=373&file=../cars/5A67107_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/5a67107-bmw-116-d-fse-usb-klima-pdc-shz-navi-led-euro6">
+                            <span>BMW</span>
+                            <span>116</span>
+                            <span>d FSE USB KLIMA PDC SHZ NAVI LED EURO6</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>12-2017</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>34697</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>85 kW (116 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Handschaltung</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Stoff Schwarz</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Diesel</span>
+                    </div>
+                </div>
+                <div>16.619 EUR</div>
+                <a href="/fahrzeuge/5a67107-bmw-116-d-fse-usb-klima-pdc-shz-navi-led-euro6" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,6 | CO2-Emissionen in g/km: 120 | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Gebrauchtwagen</span>
+                </div>
+                <a href="/fahrzeuge/0l98308-bmw-x4-xdrive-20da-pdc-ahk-kamera-xenon-navi-eu6">
+                    <img alt="BMW X4 xDrive 20dA PDC AHK KAMERA XENON NAVI EU6" src="/scripts/resize.php?width=373&file=../cars/0L98308_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/0l98308-bmw-x4-xdrive-20da-pdc-ahk-kamera-xenon-navi-eu6">
+                            <span>BMW</span>
+                            <span>X4</span>
+                            <span>xDrive 20dA PDC AHK KAMERA XENON NAVI EU6</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>06-2015</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>58433</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>140 kW (190 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Automatik</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Stoff Schwarz</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Diesel</span>
+                    </div>
+                </div>
+                <div>26.150 EUR</div>
+                <a href="/fahrzeuge/0l98308-bmw-x4-xdrive-20da-pdc-ahk-kamera-xenon-navi-eu6" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,6 | CO2-Emissionen in g/km: 120 | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Gebrauchtwagen</span>
+                </div>
+                <a href="/fahrzeuge/vg25958-bmw-225-active-tourer-">
+                    <img alt="BMW 225 Active Tourer " src="/scripts/resize.php?width=373&file=../cars/VG25958_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/vg25958-bmw-225-active-tourer-">
+                            <span>BMW</span>
+                            <span>225 Active Tourer</span>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>10-2018</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>30469</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>165 kW (224 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Automatik</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Stoff Schwarz</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Hybrid Benzin</span>
+                    </div>
+                </div>
+                <div>21.851 EUR</div>
+                <a href="/fahrzeuge/vg25958-bmw-225-active-tourer-" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,6 | CO2-Emissionen in g/km: 120 | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="w3-col l12 m12 s12">
+    <div class="w3-display-container w3-border w3-margin-8">
+        <div class="w3-block">
+            <div class="auto-slide">
+                <div><!--test-->
+                    <span>Gebrauchtwagen</span>
+                </div>
+                <a href="/fahrzeuge/k733240-bmw-320-d-m-sportpaket-pdc-shz-hgsd-navi-led-eu6">
+                    <img alt="BMW 320 d M-Sportpaket PDC SHZ HGSD NAVI LED EU6" src="/scripts/resize.php?width=373&file=../cars/K733240_01.jpg">
+                </a>
+                <div>
+                    <div>
+                        <a href="/fahrzeuge/k733240-bmw-320-d-m-sportpaket-pdc-shz-hgsd-navi-led-eu6">
+                            <span>BMW</span>
+                            <span>320</span>
+                            <span>d M-Sportpaket PDC SHZ HGSD NAVI LED EU6</span>
+                        </a>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Erstzulassung"></span>
+                        <span>Erstzulassung</span>
+                        <span>03-2017</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kilometerstand"></span>
+                        <span>Kilometerstand</span>
+                        <span>90016</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Leistung(kW)"></span>
+                        <span>Leistung kW(PS)</span>
+                        <span>140 kW (190 PS)</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Getriebe"></span>
+                        <span>Getriebeart</span>
+                        <span>Handschaltung</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Innenausstattung"></span>
+                        <span>Bezüge</span>
+                        <span>Alcantara Schwarz</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="myspan Kraftstoff"></span>
+                        <span>Kraftstoff</span>
+                        <span>Diesel</span>
+                    </div>
+                </div>
+                <div>22.518 EUR</div>
+                <a href="/fahrzeuge/k733240-bmw-320-d-m-sportpaket-pdc-shz-hgsd-navi-led-eu6" class="w3-button">Fahrzeug ansehen</a>
+                                <div class="Kraftstoffverbrauch">
+    <span>*&nbsp;</span>
+    <p>Kraftstoffverbrauch in l/100 km (kombiniert): 5,6 | CO2-Emissionen in g/km: 120 | Effizienzklasse: A | Abbildung zeigt Sonderausstattung.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div></div></div></div><div class="contentitem "><div class="w3-row w3-section"><div class="w3-col l3 m6 s12"><div class="w3-border w3-display-container w3-margin-8 small-startbox"><a class="w3-block" href="http://www.sr-leinetal.de/" target="_blank" title="Smart Repair" alt="Smart Repair"><div class="small-startbox-image"><img src="/scripts/resize.php?width=316&height=159&size=c&file=../files/images/boxen-startseite/smart-repair.jpg" alt="Smart Repair"/></div><div class="startbox-text"><h4>Smart Repair</h4><p class="normal">Wir beseitigen Ihre Kratzer, Beulen, Hagel- und Lackschaden.</p><p class="w3-display-bottomleft startbox-link"><i class="fas fa-angle-right"></i> Mehr erfahren</p></div></div></div></a><div class="w3-col l3 m6 s12"><div class="w3-border w3-display-container w3-margin-8 small-startbox"><a class="w3-block" href="/vermietung.html" target="_self" title="Vermietung" alt="Vermietung"><div class="small-startbox-image"><img src="/scripts/resize.php?width=316&height=159&size=c&file=../files/images/boxen-startseite/vermietung-wohnmobil_1.jpg" alt="Vermietung"/></div><div class="startbox-text"><h4>Vermietung</h4><p class="normal">Mieten Sie im Autohaus Leinetal ein Wohnmobil oder Zubehör für Ihren Urlaub.</p><p class="w3-display-bottomleft startbox-link"><i class="fas fa-angle-right"></i> Mehr erfahren</p></div></div></div></a><div class="w3-col l3 m6 s12"><div class="w3-border w3-display-container w3-margin-8 small-startbox"><a class="w3-block" href="/service.html" target="_self" title="Service" alt="Service"><div class="small-startbox-image"><img src="/scripts/resize.php?width=316&height=159&size=c&file=../files/images/boxen-startseite/service.jpg" alt="Service"/></div><div class="startbox-text"><h4>Service</h4><p class="normal">Vereinbaren Sie ganz einfach online einen Termin mit uns.</p><p class="w3-display-bottomleft startbox-link"><i class="fas fa-angle-right"></i> Mehr erfahren</p></div></div></div></a><div class="w3-col l3 m6 s12"><div class="w3-border w3-display-container w3-margin-8 small-startbox"><a class="w3-block" href="https://www.ebay.de/str/bmw37154" target="_blank" title="Teile & Zubehör" alt="Teile & Zubehör"><div class="small-startbox-image"><img src="/scripts/resize.php?width=316&height=159&size=c&file=../files/images/boxen-startseite/teile-zubehoer.jpg" alt="Teile & Zubehör"/></div><div class="startbox-text"><h4>Teile & Zubehör</h4><p class="normal">Suchen Sie nach günstigen Original BMW Ersatzteilen und Zubehör?</p><p class="w3-display-bottomleft startbox-link"><i class="fas fa-angle-right"></i> Mehr erfahren</p></div></div></div></a></div></div><div class="contentitem "><div class="newsletter-subscribe-wrapper">
+    <div class="newsletter-subscribe-image-wrapper">
+        <img src="/files/images/newsletter/subscribe/subscribe.jpg">
+    </div>
+
+    <div class="newsletter-subscribe-text">
+        <h2>Der BMW Leinetal Newsletter</h2>
+        <p>
+            Bleiben Sie immer up to date und lassen Sie sich über die neusten Modelle, unsere aktuellen
+            WOW-Angebote und Events ganz bequem per E-Mail informieren. Jetzt E-Mail Adresse eingeben und den
+            Anmelde-Button klicken und nichts mehr verpassen.
+        </p>
+<div class="newsletter-subscribe-inputs-wrapper">
+        <input placeholder="Ihre E-Mail Adresse" type="email" name="email" id="newsletter-subscribe-email" class="newsletter-subscribe-email">
+        <a class="w3-button newsletter-subscribe-button">Jetzt anmelden</a>
+    </div>
+</div>
+
+    <div class="newsletter-subscribe-text-success" style="display: none;">
+<h2>Vielen Dank für Ihre Anmeldung zum Newsletter</h2>
+</div>
+</div></div>                    </div>
+                </div>
+                <div id="footer">
+                    <div id="footer_outer">
+                        <div id="footer_content">
+                            <div id="footertext" class="mainbgcolor">
+                                <div id="footer-links"><a href="/impressum.html" title="Impressum">Impressum</a><a href="/datenschutz.html" title="Datenschutz">Datenschutz</a><a href="/sitemap.html" title="Sitemap">Sitemap</a><a href="/kontakt.html" title="Kontakt">Kontakt</a></div><div id="footer-locations" style=""><div class="single_location"><div>STANDORT NORTHEIM</div><div>Hirschberger Str. 2</div><div>37154 Northeim</div><div>+49 (5551) 9810-0</div><div>Mo - Fr  08:00 - 17:00 Uhr</div></div><div class="single_location"><div>STANDORT EINBECK</div><div>Altendorfer Tor 26</div><div>37574 Einbeck</div><div>+49 (5561) 9300-0</div><div>Mo - Fr  08:00 - 17:00 Uhr</div><div>Samstag 09:00 - 13:00 Uhr</div></div></div><hr class='footer_divider'/><p id="footer-date" class="w3-right-align">© 2021</p>                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-hide arrow-wrapper">
+            <div class="arrow-parts">
+                <div class="arrow-left-part"></div>
+                <div class="arrow-right-part"></div>
+            </div>
+        </div>
+
+            </body>
+    </html>
+```
