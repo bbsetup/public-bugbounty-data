@@ -1,0 +1,155 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>ANTLR plugin for Eclipse</title>
+	<meta name="Keywords" content="ANTLR, Eclipse, Plugin, Java, Parser, Recognizer, Generator, IDE, Open, Source">
+</head>
+
+<body>
+<h1>ANTLR plugin for Eclipse</h1>
+
+This project leverages the
+<a href="http://www.eclipse.org/" target="_blank">Eclipse platform</a>
+(v3.02 and v3.1) by adding support for the parser generator
+<a href="http://www.antlr.org/" target="_blank">ANTLR</a>.
+<p>
+It provides the following plugins:
+<dl>
+	<dt><b>org.antlr</b></dt>
+	<dd>ANTLR 2.7.6 (official) library</dd>
+
+	<dt><b>org.antlr.doc</b></dt>
+	<dd>ANTLR 2.7.6 (official) documentation</dd>
+
+	<dt><b>org.antlr.eclipse.core</b></dt>
+	<dd>ANTLR project nature with builder</dd>
+
+	<dt><b>org.antlr.eclipse.ui</b></dt>
+	<dd>ANTLR-aware text editor (associated to files with extension '*.g')</dd>
+</dl>
+
+<p>
+<img src="images/editor.png" alt="ANTLR-Eclipse Editor" border="0">
+
+<p>
+<h2>Features</h2>
+<ul>
+	<li>Project nature:
+		<ul>
+			<li>ANTLR grammar builder translates files into Java source and JSR-45 SMAPs</li>
+			<li>Installs SMAPs into compiled generated classes</li>
+			<li>Optionallly cleans compiler warnings from generated code</li>
+			<li>"Antlers" icon represents ANTLR projects</li>			
+		</ul>
+	</li>
+	<li>Problem markers for errors and warnings in grammar files</li>
+	<li>ANTLR-aware multi-page text editor with syntax highlighting</li>
+	<li>Editor overview page, showing ANTLR grammar (only terminals and
+		non-terminals are displayed) without actions and comments</li>
+	<li>Outline view which shows sections of ANTLR grammar files</li>
+	<li>Action in navigator context menu to compile ANTLR grammar files manually</li>
+	<li>Action in navigator context menu to add/remove ANTLR project nature
+		to/from the currently selected project</li>
+	<li>Editor context menu 'Goto Rule' to navigate to rule under cursor
+		(keyboard shortcut 'F3' or context menu)</li>
+	<li>Annotation hover for errors (<a href="images/error-hover.png">Screenshot</a>)</li>
+	<li>Text annotations for rules (first 10  lines of the rule's source code)
+		-&gt; <a href="images/rule-hover.png">Screenshot</a></li>
+	<li>Commenting and uncommenting text (Ctrl+/ and Ctrl+\)</li>
+	<li>Content assist for rules (Ctrl+Space)
+		-&gt; <a href="images/content-assist.png">Screenshot</a></li>
+	<li>Leverage customizable keybinding facility of Eclipse
+	<li>Preferences page for editor's syntax highlight
+		(<a href="images/prefs-color.png">Screenshot</a>)</li>
+	<li>Resource label decoration of ANTLR generated files with name of according
+		grammar file (<a href="images/label-decoration.png">Screenshot</a>)</li>
+	<li>Property page for grammar files which allows specification of ANTLR
+	    command-line options <a href="images/grammar-properties.png">Screenshot</a></li>
+	<li>Property page for generated files which displays the related grammar file
+		(<a href="images/generated-file-properties.png">Screenshot</a>)</li>
+	<li>Breakpoints can be set in grammar files for debugging. (Note: A late change in Eclipse
+	    3.1 broke support for adding breakpoints via the editor ruler. You can still add 
+	    breakpoints by choosing "Toggle Line Breakpoint" from the Run menu. In Eclipse
+	    3.02, breakpoint setting works properly. We'll be fixing this as soon.)</li>
+	<li>Automatically adds antlr.jar to your classpath when you toggle on the ANTLR nature.
+	    Note that you may want to copy the antlr.jar to your project if you want to build
+	    without eclipse.
+	</li>
+</ul>
+
+
+<p>
+<h2>Installation</h2>
+
+<h3>Via Eclipse Update Manager</h3>
+
+Online updates are available on
+<a href="http://antlreclipse.sourceforge.net/updates/">http://antlreclipse.sourceforge.net/updates/</a>.
+Define a site bookmark in Eclipse's Update Manager view as follows. (This description is for Eclipse 3.1; Eclipse 3.02 installation is similar, but the dialogs are slightly different)
+
+<ol>
+<li>Choose <b>Software Updates->Find and Install</b> from the <b>Help</b> menu.<br /><br />
+<img src="images/install-1.png" /><br /><br /><br />
+</li>
+<li>Select <b>Search for new features to install</b> and press <b>Next</b>.<br /><br />
+<img src="images/install-2.png" /><br /><br /><br />
+</li>
+<li>Press <b>New Remote Site...</b><br /><br />
+<img src="images/install-3.png" /><br /><br /><br />
+</li>
+<li>Enter "ANTLR Eclipse" (or whatever you would like) as the name, and "http://antlreclipse.sourceforge.net/updates/" for the URL.<br /><br />
+<img src="images/install-4.png" /><br /><br /><br />
+</li>
+<li>Press <b>Finish</b><br /><br />
+<img src="images/install-5.png" /><br /><br /><br />
+</li>
+<li>Check the boxes next to the version you would like to install and press <b>Next</b>.<br /><br />
+<img src="images/install-6.png" /><br /><br /><br />
+</li>
+<li>Accept the license agreement and press <b>Next</b>.<br /><br />
+<img src="images/install-7.png" /><br /><br /><br />
+</li>
+<li>Press <b>Finish</b>.<br /><br />
+<img src="images/install-8.png" /><br /><br /><br />
+</li>
+</ol>
+
+<p>Eclipse may ask if you want to restart. We recommend that you do.
+
+<p>
+The update site can also be downloaded from
+<a href="http://sourceforge.net/project/showfiles.php?group_id=55477" target="_blank">SourceForge</a>
+and used locally. This is a good option for company-wide use.
+
+
+<p>
+<h2>Usage</h2>
+
+<p>
+To add/remove the ANTLR project nature to/from a project select a project in Eclipse's
+navigator view and select from the context menu <b>Toggle ANTLR project nature</b>.
+<p>
+<img src="images/toggle-nature.png" alt="" border="0">
+<br /><br />
+When you build your project, the ANTLR builder will be executed. If you have automatic build turned on,
+ANTLR will be run against your grammar file whenever it has been modified.
+
+<p>You can set breakpoints in your grammar file by double-clicking in the ruler area (the same way you
+set breakpoints for java debugging.) A few notes on debugging:
+
+<ul>
+<li>Ruler breakpoint management doesn't work in Eclipse 3.1.0. You need to use the <b>Run->Toggle Line Breakpoints</b> option or upgrade to Eclipse 3.1.1.</li>
+<li>Sometimes you may want to debug the generated java source instead of the grammar. To do this, right-click the grammar file and uncheck the "Install JSR-45 SMAP" option.</li>
+<li>The editor will currently allow you to set breakpoings <i>anywhere</i> in your grammar. However, breakpoints will only be respected inside rules and action code.</li>
+</ul>
+
+<p>Please use the sourceforge forums for antlreclipse comments, suggestions and bug reports.</p>
+
+
+<p>
+<hr>
+<A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=55477&amp;type=1" width="88" height="31" border="0" alt="SourceForge Logo"></A>
+</body>
+</html>
+```
