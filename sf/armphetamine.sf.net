@@ -1,0 +1,182 @@
+```<html><head><title>ARMphetamine</title></head>
+<body text="#ffffff" bgcolor="#000080" link="#00ffff" vlink="#ffffff" alink="#00ffff">
+<h2><center><img alt="ARMphetamine" src="images/ap.png"></center></h2>
+
+<p align=center>[ <a
+href="#overview">overview</a> | <a href="#news">news</a> | <a href="#status">status</a> | <a
+href="#documentation">documentation</a> | <a
+href="#download">download</a> | <a href="#feedback">feedback</a> 
+| <a href="#links">links</a> ]
+
+<h1><a name="overview">Overview</a></h1>
+
+<p>ARMphetamine is a project to create a fast and accurate ARM processor emulator. A technique known as "dynamic recompilation" will be used so that the highest possible speed can be achieved for emulated code - ARM code programs are translated into native code as they are being emulated. The current development platform is Linux/x86.
+
+<p>It is possible to configure ARMphetamine at compile time to support different processor revisions and hardware models. Check out the CVS source to find out more. ARMphetamine is currently not being written very much.
+
+<p>There is currently no projected release date. It would be a foolish thing to try to guess. If you'd be interested in building an emulator around ARMphetamine or incorporating it in an existing project, feel free to get in touch.
+
+<hr>
+
+<h1><a name="news">News</a></h1>
+
+<h3>Early 2003</h3>
+
+<p>You may have noticed the dynarec.com site is dead and gone. Cheers Neil, I've said it before, but thanks for hosting my site for all that time.
+
+<p>As for the code, I think some of the dependency problems which crept in after reorganisation have mostly gone away now. Update your CVS tree if you haven't already.
+
+<h3>22 November 2002</h3>
+
+<p>There's very much internal reorganisation of the ARMphetamine sources, so that now all the parts of it are separated into nice logical units. There are multiple makefiles for the different "personalities" that the emulator is capable of assuming (LART emulation, Riscose backend, etc.). There are even some basic instructions, in the README file.
+
+<h3>21 September 2002</h3>
+
+<p>You might have noticed there hasn't been much news about ARMphetamine
+recently. I've been busy doing other things. In the small amount of time
+I've dedicated to the project, the focus has been attempting to boot
+a Linux kernel - this means quite a lot of fiddly code needs to be
+written and bugfixed. If I get it going, this will be the place I
+report it. If you have in-depth knowledge of ARM Linux or the
+SA-1100 chip, maybe you'd be interested in grabbing the code
+from CVS and hacking it a bit, I'd be grateful for help (in
+the form of patches, preferably). I'm using blob, kernels and ramdisk
+from the <a href="http://www.lart.tudelft.nl">LART</a> project.
+
+<p>The furthest it's got so far is (failing) to mount a root
+filesystem under interpretive emulation. To try it, obtain the right
+versions of blob, a kernel and ramdisk image from the LART page, name them
+appropriately and type "make lartrun" in a suitable environment. Enjoy!
+
+<p><a href="oldnews.html"><i>Old news</i></a>
+
+<hr>
+
+<h1><a name="status">Status</a></h1>
+
+<p>Some preliminary (very old!) comparative benchmarks are available:
+
+<p><table align=center>
+<tr>
+<td><b>Processor [recomp]</b></td>
+<td><b>Compiler/OS</b></td>
+<td><b>Platform</b></td>
+<td><b>Dhrystones/sec</b></td>
+</tr>
+ 
+<tr>
+<td>ARMphetamine [off]</td>
+<td>GCC/NetBSD</td>
+<td>Linux/x86</td>
+<td>5527</td>
+</tr>
+ 
+<tr>
+<td>12MHz ARM250</td>
+<td>Norcroft/RISC OS</td>
+<td>RISC OS/arm26</td>
+<td>6169</td>
+</tr>
+ 
+<tr>
+<td>ARMphetamine [on]</td>
+<td>GCC/NetBSD</td>
+<td>Linux/x86</td>
+<td>34843</td>
+</tr>
+
+<tr>
+<td>233MHz StrongARM</td>
+<td>GCC/NetBSD</td>
+<td>NetBSD/arm32</td>
+<td>275482</td>
+</tr>
+ 
+<tr>
+<td>450MHz AMD K6-2</td>
+<td>GCC/Linux</td>
+<td>Linux/x86</td>
+<td>823045</td>
+</tr>
+</table>
+
+<p>These benchmarks were obtained using the standard (if aging) "Dhrystone" program (higher numbers are better). As you may infer, the emulator currently runs somewhere around the speed of an ARM610 on my development machine. Performance increases are expected.
+
+<hr>
+
+<h1><a name="documentation">Documentation</a></h1>
+
+<p>There are two main documents describing ARMphetamine. The first is older and
+more likely to be out-of-date, the second is the dissertation I wrote as part
+of the university project ARMphetamine was written for.
+
+<ul>
+<li>View the older HTML document <a href="oldinfo.html">here</a>.
+<li>Download the postscript dissertation <a href="diss.ps">here</a>.
+<li>My thoughts on further work to be done on the project <a href="further.html">here</a>.
+<li>The <a href="pheta2.html">new intermediate representation</a>.
+<li><a href="design2.html">ARMphetamine 2</a> information.
+<li>Pheta3 information (soon - 4 March '03... pheta2 is good 'til I want to support more architectures I think)
+</ul>
+
+<hr>
+
+<h1><a name="download">Download</a></h1>
+
+<p>The preferred way of getting hold of ARMphetamine now is by anonymous CVS from <a href="http://www.sourceforge.net/">Sourceforge</a>. Follow <a href="http://sourceforge.net/cvs/?group_id=18506">this link</a> for instructions. The <i>modulename</i> is "armphetamine".
+
+<p>You can download a tarball of the ARMphetamine source code here, but it might not be the absolute latest version (in fact it's a very, very old version).
+
+<p>Download <a href="bin/armphetamine-0.2.tar.gz">armphetamine-0.2.tar.gz</a>.
+
+<p>Enjoy...
+
+<hr>
+
+<h1><a name="feedback">Feedback</a></h1>
+
+<p>You can get in contact with me about ARMphetamine at <a
+href="mailto:brown@cs.bris.ac.uk">brown@cs.bris.ac.uk</a>. If that doesn't work for whatever reason, you could try <a href="mailto:julesb@btinternet.com">julesb@btinternet.com</a> instead. I'd appreciate it if you didn't send mail in HTML format.
+
+<hr>
+
+<h1><a name="links">Links</a></h1>
+
+<p>A few links relating to dynamic recompilation and ARM emulation in
+general...
+
+<ul>
+
+<li>David Sharp's <a href="http://www.davidsharp.com/tarmac">tARMac</a> dynarec project page
+
+<li>Dave Gilbert's <a href="http://www.treblig.org">home page</a>,
+featuring ArcEm
+
+<li>Dynamic recompilation resources page at <a
+href="http://www.dynarec.com/">dynarec.com</a>
+
+<li><a href="http://www.dcs.gla.ac.uk/~michael/phd">SWARM</a> (software
+ARM) emulator
+
+<li><a href="http://www.redsquirrel.fsnet.co.uk/">Red Squirrel</a>
+
+<li><a href="http://www.geocities.com/chris-o/">Archie</a>
+
+<li>Personal <a href="http://www.sickpuppy.net/">home page</a>
+
+<li>University <a href="http://www.cs.bris.ac.uk/~brown">home page</a>
+
+</ul>
+
+<hr>
+
+<center><a href="http://www.sourceforge.net"><img
+src="http://www.sourceforge.net/images/sflogo2-steel.png"></center></a>
+
+<hr>
+
+<font size=-1>&copy; <a href="mailto:jules@dynarec.com">Julian Brown</a>, 1999-2002</font>
+
+</body>
+</html>
+```
