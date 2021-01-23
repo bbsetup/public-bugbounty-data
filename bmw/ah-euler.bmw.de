@@ -1,0 +1,1072 @@
+```<!DOCTYPE html> 
+<html lang="de" class="no-js" data-ng-app="Carzilla"> 
+  <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="IE_RM_OFF" content="true"> 
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/fileadmin/bmw/templates/assets/appicon/bmw/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/fileadmin/bmw/templates/assets/appicon/bmw/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/fileadmin/bmw/templates/assets/appicon/bmw/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/fileadmin/bmw/templates/assets/appicon/bmw/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/fileadmin/bmw/templates/assets/appicon/bmw/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/fileadmin/bmw/templates/assets/appicon/bmw/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/fileadmin/bmw/templates/assets/appicon/bmw/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/fileadmin/bmw/templates/assets/appicon/bmw/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/fileadmin/bmw/templates/assets/appicon/bmw/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/fileadmin/bmw/templates/assets/appicon/bmw/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/fileadmin/bmw/templates/assets/appicon/bmw/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/fileadmin/bmw/templates/assets/appicon/bmw/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/fileadmin/bmw/templates/assets/appicon/bmw/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/> 
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/fileadmin/bmw/templates/assets/appicon/bmw/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/fileadmin/bmw/templates/assets/appicon/bmw/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/fileadmin/bmw/templates/assets/appicon/bmw/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/fileadmin/bmw/templates/assets/appicon/bmw/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/fileadmin/bmw/templates/assets/appicon/bmw/mstile-310x310.png" />
+    <meta charset="utf-8"> 
+    <!--
+	Integration and development - http://www.dotzilla.de/
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2018 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+    <base href="https://www.bmw-euler.de/"> 
+    <link rel="shortcut icon" href="/fileadmin/bmw/templates/assets/appicon/bmw/favicon.ico" type="image/x-icon"> 
+    <title>BMW Euler Group </title>
+    <link rel="stylesheet" type="text/css" href="/typo3conf/ext/femanager/Resources/Public/Css/Main.css" media="all"> 
+    <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init', '309574610394490');fbq('track', 'PageView');
+        </script>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="7b47e2dd-5a81-4672-b40b-37dd75a81028" data-blockingmode="auto" type="text/javascript"></script>
+    <meta name="keywords" content="bmw euler, euler group, bmw händler, bmw händler rhein main gebiet, bmw händler pfalz, bmw gebrauchtwagen, bmw hybrid modelle, bmw modelle, bmw service, bmw werkstatt, bmw angebote, bmw service angebote, bmw leasing, bmw privatleasing, bmw gewerbeleasing"> 
+    <meta name="copyright" content="© AUTOHAUS EULER GMBH 2021"> 
+    <link rev="made" href="mailto:info@euler-group.de"> 
+    <meta http-equiv="reply-to" content="info@euler-group.de"> 
+    <meta name="author" content="AUTOHAUS EULER GMBH"> 
+    <meta name="rating" content="General"> 
+    <meta name="date" content="2021-01-21T16:14:06+01:00"> 
+    <meta name="robots" content="index,follow"> 
+    <meta name="revisit-after" content="7"> 
+    <meta name="ICBM" content="50.147834, 8.681126"> 
+    <meta name="geo.position" content="50.147834;8.681126"> 
+    <meta name="geo.region" content="DE-HE"> 
+    <meta name="geo.placename" content="Frankfurt am Main"> 
+    <meta name="google-site-verification" content="m-qb9icoK_Wh7dZOddecCOGwlpfN8NvoxLm0LTXRrtY"> 
+    <link rel="start" href="https://www.bmw-euler.de/"> 
+    <meta property="og:title" content="bmw-euler.de"> 
+    <meta property="og:type" content="article"> 
+    <meta property="og:email" content="info@euler-group.de"> 
+    <meta property="og:latitude" content="50.147834"> 
+    <meta property="og:longitude" content="8.681126"> 
+    <meta property="og:locality" content="Frankfurt am Main"> 
+    <meta property="og:region" content="DE-HE"> 
+    <link rel="stylesheet" href="/typo3temp/vhs-assets-7f49e64c1922341fa989f01364d70b78.css" />
+    <link rel="stylesheet" href="/typo3temp/vhs-assets-cf809a5bd230ceede84a06cb50c51ea4.css" />
+    <style type="text/css">
+
+			#footer .social-media__list a{
+			color:#fff;}
+
+			.social-media {
+			float:right;
+			}
+
+			.social-media--mini{
+			float:none;
+			text-align:center;
+			}
+
+			.social-media__list a {
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			overflow: hidden;
+			text-align: center;
+			position: relative;
+			background: #333;
+			color: #fff;
+			margin: 2px;
+			-webkit-transition: all 0.3s ease-in-out;
+			-moz-transition: all 0.3s ease-in-out;
+			-ms-transition: all 0.3s ease-in-out;
+			-o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+			}
+
+			.social-media__list a i {
+			display: block;
+			position: absolute;
+			line-height: 32px !important;
+			width: 30px;
+			height: 30px;
+			text-align: center;
+			font-size: 18px;
+			top: 0;
+			left: 0;
+			-webkit-transition: all 0.3s ease-in-out;
+			-moz-transition: all 0.3s ease-in-out;
+			-ms-transition: all 0.3s ease-in-out;
+			-o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+			}
+
+			.social-media__list a i:last-child {
+			top: 40px;
+			color: #FFF !important;
+			}
+
+			.social-media__list a:hover i {
+			top: -40px;
+			}
+
+			.social-media__list a:hover i:last-child {
+			top: 0;
+			}
+
+			.social-media__list a[class*="facebook"]:hover {
+			background: #3b5998;
+			}
+
+			.social-media__list a[class*="instagram"]:hover {
+			background: #c32aa3;
+			}
+
+			.social-media__list a[class*="youtube"]:hover {
+			background: #ff0000;
+			}
+
+			.social-media__list a[class*="twitter"]:hover {
+			background: #1da1f2;
+			}
+
+			.social-media__list a[class*="pinterest"]:hover {
+			background: #bd081c;
+			}
+
+			.social-media__list a[class*="google"]:hover {
+			background: #DD4B39;
+			}
+
+			.social-media__list a[class*="rss"]:hover {
+			background: #EE802F;
+			}
+
+			.social-media__list a[class*="mail"]:hover {
+			background: #6567A5;
+			}
+			.social-media__list a[class*="paper-plane"]:hover {
+			background: #696969;
+			}
+
+		</style>
+    <link rel="stylesheet" href="/typo3temp/vhs-assets-85198c35093dde6a4039875da138f339.css" />
+    <link rel="stylesheet" href="/typo3temp/vhs-assets-3b3e9c09e9b15aa9f3eacb23b711e1b3.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/typo3conf/ext/pageconfig/Resources/Public/Js/modernizr-2.8.3.min.js"></script>
+    </head>
+  <body class="page-772 home bmw">
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=309574610394490&ev=PageView&noscript=1"/></noscript>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38077959-7"></script>
+    <script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-38077959-7');
+		</script>
+    <div id="mainwrapper"> 
+      <header id="header"> 
+        <div id="header-main"> 
+          <div class="container"> 
+            <div class="col-md-12 col-lg-10 padding-none"> 
+              <nav id="main-navigation"> 
+                <div class="navbar navbar-euler-bmw"> 
+                  <div class="navbar-header"> <a href="#mmenu" id="mm-trigger" class="navbar-toggle"> 
+                      <div class="navbar-toggle-hamburger"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </div>
+                       </a> <a class="navbar-brand visible-xs-inline-block visible-sm-inline-block" href="#mmenu"> Menü </a> </div>
+                  <div class="navbar-collapse collapse hidden-xs"> 
+                    <ul class="nav navbar-nav"> 
+                      <li class=""> <a tabindex="11" href="http://www.euler-group.de/" title="Euler Group" target="_self" class=""> Euler Group </a> </li>
+                      <li class=""> <a tabindex="12" href="/" title="Home" target="_self" class=""> Home </a> </li>
+                      <li class="sub dropdown"> <a tabindex="13" href="/fahrzeuge/unsere-angebote/" title="Angebote" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Angebote </a> 
+                        <ul class="dropdown-menu multi-level level-2"> 
+                          <li class="sub dropdown-submenu"> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/" title="Alle BMW Privatkundenangebote" target="_self" class="sub"> Alle BMW Privatkundenangebote </a> 
+                            <ul class="dropdown-menu multi-level level-3"> 
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-m135i-xdrive/" title="BMW M135i xDrive" target="_self" class=""> BMW M135i xDrive </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-2er-gran-coupe/" title="BMW 2er Gran Coupé" target="_self" class=""> BMW 2er Gran Coupé </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-m235i-xdrive-gran-coupe/" title="BMW M235i xDrive Gran Coupé" target="_self" class=""> BMW M235i xDrive Gran Coupé </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-225xe/" title="BMW 225xe iPerformance Active Tourer" target="_self" class=""> BMW 225xe iPerformance Active Tourer </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-318i-limousine-touring/" title="BMW 318i Limousine / Touring" target="_self" class=""> BMW 318i Limousine / Touring </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-420i-coupe/" title="BMW 420i Coupé" target="_self" class=""> BMW 420i Coupé </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-520d-limousine/" title="BMW 520d Limousine" target="_self" class=""> BMW 520d Limousine </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-520d-touring/" title="BMW 520d Touring" target="_self" class=""> BMW 520d Touring </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-x1-xdrive25e/" title="BMW X1 xDrive25e" target="_self" class=""> BMW X1 xDrive25e </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-x2-xdrive25e/" title="BMW X2 xDrive25e" target="_self" class=""> BMW X2 xDrive25e </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-z4-sdrive20i/" title="BMW Z4 sDrive20i" target="_self" class=""> BMW Z4 sDrive20i </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-i3/" title="BMW i3" target="_self" class=""> BMW i3 </a> </li>
+                               </ul>
+                             </li>
+                          <li class="sub dropdown-submenu"> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/" title="Alle BMW Gewerbekundenangebote" target="_self" class="sub"> Alle BMW Gewerbekundenangebote </a> 
+                            <ul class="dropdown-menu multi-level level-3"> 
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-m135i-xdrive/" title="BMW M135i xDrive" target="_self" class=""> BMW M135i xDrive </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-2er-gran-coupe/" title="BMW 2er Gran Coupé" target="_self" class=""> BMW 2er Gran Coupé </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-m235i-xdrive-gran-coupe/" title="BMW M235i xDrive Gran Coupé" target="_self" class=""> BMW M235i xDrive Gran Coupé </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-225xe-iperformance-active-tourer/" title="BMW 225xe iPerformance Active Tourer" target="_self" class=""> BMW 225xe iPerformance Active Tourer </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-330e-limousine/" title="BMW 330e Limousine" target="_self" class=""> BMW 330e Limousine </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-330e-touring/" title="BMW 330e Touring" target="_self" class=""> BMW 330e Touring </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-530e-iperformance-limousine/" title="BMW 530e iPerformance Limousine" target="_self" class=""> BMW 530e iPerformance Limousine </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-545e-xdrive-limousine/" title="BMW 545e xDrive Limousine" target="_self" class=""> BMW 545e xDrive Limousine </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-745e-iperformance-limousine/" title="BMW 745e iPerformance Limousine" target="_self" class=""> BMW 745e iPerformance Limousine </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-x5-xdrive45e-iperformance/" title="BMW X5 xDrive45e iPerformance" target="_self" class=""> BMW X5 xDrive45e iPerformance </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-x7-xdrive40d/" title="BMW X7 xDrive40d" target="_self" class=""> BMW X7 xDrive40d </a> </li>
+                              <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-i3/" title="BMW i3" target="_self" class=""> BMW i3 </a> </li>
+                               </ul>
+                             </li>
+                           </ul>
+                         </li>
+                      <li class="sub dropdown"> <a tabindex="14" href="/fahrzeuge/" title="Fahrzeuge" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Fahrzeuge </a> 
+                        <ul class="dropdown-menu multi-level level-2"> 
+                          <li class=""> <a tabindex="14" href="/fahrzeuge/fahrzeugsuche/" title="Fahrzeugsuche" target="_self" class=""> Fahrzeugsuche </a> </li>
+                          <li class=""> <a tabindex="14" href="/fahrzeuge/alle-bmw-modelle/" title="Alle BMW Modelle" target="_self" class=""> Alle BMW Modelle </a> </li>
+                          <li class=""> <a tabindex="14" href="/fahrzeuge/neuwagen/bmw-i/" title="BMW i" target="_self" class=""> BMW i </a> </li>
+                          <li class=""> <a tabindex="14" href="/fahrzeuge/neuwagen/bmw-m/" title="BMW M" target="_self" class=""> BMW M </a> </li>
+                          <li class=""> <a tabindex="14" href="http://www.euler-group.de/fahrzeuge/bmw/neuwagen/alpina/" title="BMW ALPINA" target="_self" class=""> BMW ALPINA </a> </li>
+                          <li class=""> <a tabindex="14" href="/fahrzeuge/bmw-umweltpraemie/" title="BMW Umweltprämie" target="_self" class=""> BMW Umweltprämie </a> </li>
+                          <li class=""> <a tabindex="14" href="/fahrzeuge/elektromobilitaet/" title="Elektromobilität" target="_self" class=""> Elektromobilität </a> </li>
+                          <li class=""> <a tabindex="14" href="/fahrzeuge/dienstwagenbesteuerung/" title="Dienstwagenbesteuerung" target="_self" class=""> Dienstwagenbesteuerung </a> </li>
+                          <li class="sub dropdown-submenu"> <a tabindex="14" href="/fahrzeuge/gebrauchtwagen/" title="Gebrauchtwagen" target="_self" class="sub"> Gebrauchtwagen </a> 
+                            <ul class="dropdown-menu multi-level level-3"> 
+                              <li class=""> <a tabindex="14" href="/fahrzeuge/fahrzeugsuche/" title="Gebrauchtwagensuche" target="_self" class=""> Gebrauchtwagensuche </a> </li>
+                              <li class=""> <a tabindex="14" href="/jungegebrauchte/bmw-mini/" title="Junge Gebrauchte" target="_self" class=""> Junge Gebrauchte </a> </li>
+                              <li class="sub dropdown-submenu def"> <a tabindex="14" href="/fahrzeuge/gebrauchtwagen/bmw-premium-selection/" title="BMW Premium Selection" target="_self" class="sub"> BMW Premium Selection </a> 
+                                <ul class="dropdown-menu multi-level level-4"> 
+                                  <li class=""> <a tabindex="14" href="/fahrzeuge/gebrauchtwagen/bmw-premium-selection/vorteile/" title="Vorteile" target="_self" class=""> Vorteile </a> </li>
+                                  <li class=""> <a tabindex="14" href="/fahrzeuge/gebrauchtwagen/bmw-premium-selection/bmw-premium-selection-garantie/" title="BMW Premium Selection Garantie" target="_self" class=""> BMW Premium Selection Garantie </a> </li>
+                                   </ul>
+                                 </li>
+                               </ul>
+                             </li>
+                          <li class="sub dropdown-submenu"> <a tabindex="14" href="#" title="Finanzierung &amp; Leasing" target="_self" class="sub disabled"> Finanzierung &amp; Leasing </a> 
+                            <ul class="dropdown-menu multi-level level-3"> 
+                              <li class=""> <a tabindex="14" href="/fahrzeuge/finanzierung-leasing/bmw-leasing/" title="BMW Leasing" target="_self" class=""> BMW Leasing </a> </li>
+                              <li class=""> <a tabindex="14" href="/fahrzeuge/finanzierung-leasing/bmw-finanzierung/" title="BMW Finanzierung" target="_self" class=""> BMW Finanzierung </a> </li>
+                              <li class=""> <a tabindex="14" href="/fahrzeuge/finanzierung-leasing/bmw-ratenschutzversicherung/" title="BMW Ratenschutzversicherung" target="_self" class=""> BMW Ratenschutzversicherung </a> </li>
+                               </ul>
+                             </li>
+                          <li class=""> <a tabindex="14" href="/fahrzeuge/inzahlungnahme/" title="Inzahlungnahme" target="_self" class=""> Inzahlungnahme </a> </li>
+                          <li class=""> <a tabindex="14" href="/fahrzeuge/leasingruecknahme/" title="Leasingrücknahme" target="_self" class=""> Leasingrücknahme </a> </li>
+                          <li class=""> <a tabindex="14" href="/fahrzeuge/fahrzeugankauf/" title="Fahrzeugankauf" target="_self" class=""> Fahrzeugankauf </a> </li>
+                          <li class=""> <a tabindex="14" href="/fahrzeuge/probefahrt-vereinbaren/" title="Probefahrt vereinbaren" target="_self" class=""> Probefahrt vereinbaren </a> </li>
+                          <li class=""> <a tabindex="14" href="/fahrzeuge/onlineverkaufsteam/" title="Onlineverkaufsteam" target="_self" class=""> Onlineverkaufsteam </a> </li>
+                           </ul>
+                         </li>
+                      <li class="sub dropdown"> <a tabindex="15" href="/service-zubehoer/" title="Service &amp; Zubehör" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Service &amp; Zubehör </a> 
+                        <ul class="dropdown-menu multi-level level-2"> 
+                          <li class=""> <a tabindex="15" href="/service-zubehoer/service-angebote/" title="Service Angebote" target="_self" class=""> Service Angebote </a> </li>
+                          <li class=""> <a tabindex="15" href="/service-zubehoer/unsere-leistungen/" title="Unsere Leistungen" target="_self" class=""> Unsere Leistungen </a> </li>
+                          <li class=""> <a tabindex="15" href="/service-zubehoer/fuer-eintracht-fans/" title="Für Eintracht-Fans" target="_self" class=""> Für Eintracht-Fans </a> </li>
+                          <li class="sub dropdown-submenu"> <a tabindex="15" href="/service-zubehoer/servicetermin-vereinbaren/" title="Servicetermin vereinbaren" target="_self" class="sub"> Servicetermin vereinbaren </a> 
+                            <ul class="dropdown-menu multi-level level-3"> 
+                              <li class=""> <a tabindex="15" href="https://plan.soft-nrg.com/group/Gv-wkGi4vdux9Dt6soCL0t2FrXxRtxqgVTUUxTLnmUUu12LLpintzg/express" title="Frankfurt-Eckenheim" target="_blank" class=""> Frankfurt-Eckenheim </a> </li>
+                              <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/bd3oskvLYt6kmvYDQ7d0MFrveFbHmVTRGV1rZHKuH4GDysmqmk5yDw/express" title="Frankfurt-Höchst" target="_blank" class=""> Frankfurt-Höchst </a> </li>
+                              <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/-djwBLhB0WuxkTYPSBKG2HCf9Gm9hMFiDUA-Xfr_yAPHnD0naoYJbQ/express" title="Hofheim" target="_blank" class=""> Hofheim </a> </li>
+                              <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/PgKW4pUbZL3YYr5Wcv-puok_QhR-X1PkmIJDSrM6Y37xjSoKvj7S7A/express" title="Kaiserslautern" target="_blank" class=""> Kaiserslautern </a> </li>
+                              <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/LTxXPs7KReIX1cyNcZ9iKZZvHI_8m5GfiRiYJsMUOA1CyWuCBKP1hQ/express" title="Landstuhl" target="_blank" class=""> Landstuhl </a> </li>
+                              <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/bM1QC7cMFTgJj3nD26LMk5fqIo-FHQHKns5nqGUhBejWPR-584uPSQ/express" title="Pirmasens" target="_blank" class=""> Pirmasens </a> </li>
+                              <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/AtxzF9JkpvDJ6NWN6miKiHz3fkZMpNxw7cRmsk1oci5zwsFEow5kpA/express" title="Kirchheimbolanden" target="_blank" class=""> Kirchheimbolanden </a> </li>
+                              <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/xooo_U6-ixfAQivp-D0CQQBmVu5Nl6zKjBLslUaeU_mY-zuhHWHsXA/express" title="Bad Bergzabern" target="_blank" class=""> Bad Bergzabern </a> </li>
+                              <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/4yPkGqQtH3ymjdQnB4LQ7oHCop_gJwlTYsK4gfFjxgHN0Hgbm0TfoA" title="Mühlheim" target="_blank" class=""> Mühlheim </a> </li>
+                              <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/8XRRpKba_WUYqSbz1UqounUWuFdPuixX5IH_EMN8E0slqAZXr6Gkxw" title="Hainburg" target="_blank" class=""> Hainburg </a> </li>
+                              <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/bKVEY5lAZUlg06by8FstzEVLepQMn6AO2Uh4pCy0z1q82_jwVc5L3w" title="Rödermark" target="_blank" class=""> Rödermark </a> </li>
+                              <li class=""> <a tabindex="15" href="http://www.euler-mini.de/service-zubehoer/servicetermin-vereinbaren/" title="MINI Servicetermin" target="_blank" class=""> MINI Servicetermin </a> </li>
+                               </ul>
+                             </li>
+                          <li class=""> <a tabindex="15" href="/service-zubehoer/bmw-service-inclusive/" title="BMW Service Inclusive" target="_self" class=""> BMW Service Inclusive </a> </li>
+                          <li class=""> <a tabindex="15" href="/service-zubehoer/reifengarantieversicherung/" title="Reifengarantieversicherung" target="_self" class=""> Reifengarantieversicherung </a> </li>
+                          <li class=""> <a tabindex="15" href="/service-zubehoer/teile-zubehoer-anfrage/" title="Teile &amp; Zubehör Anfrage" target="_self" class=""> Teile &amp; Zubehör Anfrage </a> </li>
+                           </ul>
+                         </li>
+                      <li class="sub dropdown"> <a tabindex="16" href="/sonderkunden/uebersicht-sonderkunden/" title="Sonderkunden" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Sonderkunden </a> 
+                        <ul class="dropdown-menu multi-level level-2"> 
+                          <li class=""> <a tabindex="16" href="/sonderkunden/grosskunden/" title="Großkunden" target="_self" class=""> Großkunden </a> </li>
+                          <li class=""> <a tabindex="16" href="/sonderkunden/businesskunden/" title="Businesskunden" target="_self" class=""> Businesskunden </a> </li>
+                          <li class=""> <a tabindex="16" href="/sonderkunden/geschaeftskunden/" title="Geschäftskunden" target="_self" class=""> Geschäftskunden </a> </li>
+                          <li class=""> <a tabindex="16" href="/sonderkunden/journalisten/" title="Journalisten" target="_self" class=""> Journalisten </a> </li>
+                          <li class=""> <a tabindex="16" href="/sonderkunden/mobilitaetseingeschraenkte-personen/" title="Mobilitätseingeschränkte Personen" target="_self" class=""> Mobilitätseingeschränkte Personen </a> </li>
+                          <li class=""> <a tabindex="16" href="/sonderkunden/fahrschulen/" title="Fahrschulen" target="_self" class=""> Fahrschulen </a> </li>
+                          <li class=""> <a tabindex="16" href="/sonderkunden/einkaufsverbaende/" title="Einkaufsverbände" target="_self" class=""> Einkaufsverbände </a> </li>
+                           </ul>
+                         </li>
+                      <li class="sub dropdown"> <a tabindex="17" href="/standorte/" title="Standorte" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Standorte </a> 
+                        <ul class="dropdown-menu multi-level level-2"> 
+                          <li class=""> <a tabindex="17" href="/standorte/standortuebersicht/" title="Standortübersicht" target="_self" class=""> Standortübersicht </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/frankfurt-eckenheim/" title="Frankfurt-Eckenheim" target="_self" class=""> Frankfurt-Eckenheim </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/frankfurt-hoechst/" title="Frankfurt-Höchst" target="_self" class=""> Frankfurt-Höchst </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/frankfurt-nordweststadt/" title="Frankfurt-Nordweststadt" target="_self" class=""> Frankfurt-Nordweststadt </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/hofheim/" title="Hofheim" target="_self" class=""> Hofheim </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/kaiserslautern/" title="Kaiserslautern" target="_self" class=""> Kaiserslautern </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/kaiserslautern-gebrauchtwagenzentrum/" title="Kaiserslautern Gebrauchtwagenzentrum" target="_self" class=""> Kaiserslautern Gebrauchtwagenzentrum </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/pirmasens/" title="Pirmasens" target="_self" class=""> Pirmasens </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/landstuhl/" title="Landstuhl" target="_self" class=""> Landstuhl </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/kirchheimbolanden/" title="Kirchheimbolanden" target="_self" class=""> Kirchheimbolanden </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/bad-bergzabern/" title="Bad Bergzabern" target="_self" class=""> Bad Bergzabern </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/muehlheim/" title="Mühlheim" target="_self" class=""> Mühlheim </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/hainburg/" title="Hainburg" target="_self" class=""> Hainburg </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/roedermark/" title="Rödermark" target="_self" class=""> Rödermark </a> </li>
+                          <li class=""> <a tabindex="17" href="/standorte/euler-mobility-service/" title="Euler Mobility Service" target="_self" class=""> Euler Mobility Service </a> </li>
+                           </ul>
+                         </li>
+                      <li class="sub dropdown"> <a tabindex="18" href="/unternehmen/" title="Unternehmen" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Unternehmen </a> 
+                        <ul class="dropdown-menu multi-level level-2"> 
+                          <li class=""> <a tabindex="18" href="/unternehmen/ueber-uns/" title="Über uns" target="_self" class=""> Über uns </a> </li>
+                          <li class=""> <a tabindex="18" href="/news/" title="News" target="_self" class=""> News </a> </li>
+                          <li class=""> <a tabindex="18" href="/unternehmen/sponsoring-kooperationen/" title="Sponsoring &amp; Kooperationen" target="_self" class=""> Sponsoring &amp; Kooperationen </a> </li>
+                          <li class=""> <a tabindex="18" href="/unternehmen/online-auftritt/" title="Online Auftritt" target="_self" class=""> Online Auftritt </a> </li>
+                          <li class=""> <a tabindex="18" href="/unternehmen/karriere/" title="Karriere" target="_self" class=""> Karriere </a> </li>
+                           </ul>
+                         </li>
+                      <li class="sub dropdown"> <a tabindex="19" href="/kontakt/allgemeiner-kontakt/" title="Kontakt" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Kontakt </a> 
+                        <ul class="dropdown-menu multi-level level-2"> 
+                          <li class=""> <a tabindex="19" href="/kontakt/allgemeiner-kontakt/" title="Allgemeiner Kontakt" target="_self" class=""> Allgemeiner Kontakt </a> </li>
+                          <li class=""> <a tabindex="19" href="/service-zubehoer/servicetermin-vereinbaren/" title="Servicetermin vereinbaren" target="_self" class=""> Servicetermin vereinbaren </a> </li>
+                          <li class=""> <a tabindex="19" href="/fahrzeuge/probefahrt-vereinbaren/" title="Probefahrt vereinbaren" target="_self" class=""> Probefahrt vereinbaren </a> </li>
+                          <li class=""> <a tabindex="19" href="/kontakt/einwilligung-zum-datenschutz/" title="Einwilligung zum Datenschutz" target="_self" class=""> Einwilligung zum Datenschutz </a> </li>
+                          <li class=""> <a tabindex="19" href="/kontakt/feedback/" title="Feedback" target="_self" class=""> Feedback </a> </li>
+                          <li class=""> <a tabindex="19" href="/kontakt/rueckruf-wunsch/" title="Rückruf-Wunsch" target="_self" class=""> Rückruf-Wunsch </a> </li>
+                           </ul>
+                         </li>
+                       </ul>
+                     </div>
+                   </div>
+                 </nav>
+               </div>
+            <div id="logo" class="hidden-xs hidden-sm hidden-md"> <a href="/" title="zurück zur Startseite"> </a> </div>
+             </div>
+           </div>
+        <div id="header-pre" class="hidden-xs hidden-sm"> 
+          <div class="container"> 
+            <div class="row margin-vertical-10"> 
+              <div class="col-md-6"> 
+                <div> <a href="http://www.euler-group.de/" class="brand-link"> <img src="/fileadmin/bmw/media/content/Logo/EULER_GROUP_schwarz.svg" alt="Euler Group" class="img-responsive img-inline" /> </a> <a href="/" class="brand-link"> <img src="/fileadmin/bmw/media/content/Logo/2020-09/BMW_Logo_grey_colour-2020.png" alt="BMW_Logo_grey_colour-2020.png" class="img-responsive img-inline" /> </a> <a href="/fahrzeuge/neuwagen/bmw-i/"> <img src="/fileadmin/bmw/media/content/Logo/2020-09/i_Logo_grey_colour_2020.png" alt="i_Logo_grey_colour_2020.png" class="img-responsive img-inline" /> </a> <a href="/fahrzeuge/neuwagen/bmw-m/"> <img src="/fileadmin/bmw/media/content/Logo/2020-09/m_Logo_grey_colour_2020.png" alt="m_Logo_grey_colour_2020.png" class="img-responsive img-inline" /> </a> <a href="http://www.euler-group.de/fahrzeuge/bmw/neuwagen/alpina/" class="brand-link"> <img src="/fileadmin/bmw/media/content/Logo/2020-09/alpina_header-2020.png" alt="alpina_header-2020.png" class="img-responsive img-inline" /> </a> </div>
+                 </div>
+              <div class="col-md-6"> 
+                <div class="header-location-navigation"> 
+                  <p class="margin-bottom-none"> Willkommen bei der <strong>EULER GROUP</strong> </p>
+                  <ul class="list-unstyled list-inline margin-bottom-none"> 
+                    <li class=""> <a title="Frankfurt-Eckenheim" href="/standorte/frankfurt-eckenheim/"> Frankfurt-Eckenheim </a> </li>
+                    <li class=""> <a title="Frankfurt-Höchst" href="/standorte/frankfurt-hoechst/"> Frankfurt-Höchst </a> </li>
+                    <li class=""> <a title="Frankfurt-Nordweststadt" href="/standorte/frankfurt-nordweststadt/"> Frankfurt-Nordweststadt </a> </li>
+                    <li class=""> <a title="Hofheim" href="/standorte/hofheim/"> Hofheim </a> </li>
+                    <li class=""> <a title="Kaiserslautern" href="/standorte/kaiserslautern/"> Kaiserslautern </a> </li>
+                    <li class=""> <a title="Kaiserslautern Gebrauchtwagenzentrum" href="/standorte/kaiserslautern-gebrauchtwagenzentrum/"> Kaiserslautern Gebrauchtwagenzentrum </a> </li>
+                    <li class=""> <a title="Pirmasens" href="/standorte/pirmasens/"> Pirmasens </a> </li>
+                    <li class=""> <a title="Landstuhl" href="/standorte/landstuhl/"> Landstuhl </a> </li>
+                    <li class=""> <a title="Kirchheimbolanden" href="/standorte/kirchheimbolanden/"> Kirchheimbolanden </a> </li>
+                    <li class=""> <a title="Bad Bergzabern" href="/standorte/bad-bergzabern/"> Bad Bergzabern </a> </li>
+                    <li class=""> <a title="Mühlheim" href="/standorte/muehlheim/"> Mühlheim </a> </li>
+                    <li class=""> <a title="Hainburg" href="/standorte/hainburg/"> Hainburg </a> </li>
+                    <li class=""> <a title="Rödermark" href="/standorte/roedermark/"> Rödermark </a> </li>
+                    <li class=""> <a title="Euler Mobility Service" href="/standorte/euler-mobility-service/"> Euler Mobility Service </a> </li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </header>
+      <section id="slideshow" class="main"> 
+        <div class="owl-carousel owl-theme owl-bmw-slideshow"> 
+          <div class="item "> 
+            <div class="owl-image"> <a href="http://www.euler-group.de/landingpages/allgemeine-informationen/" title="Corona News Januar |"> <img data-src="/typo3temp/_processed_/6/9/csm_21-01-19_BMW_Slider_Neu-01_b6e934934c.gif" class="owl-lazy" alt="Corona News Januar" /> </a> </div>
+             </div>
+          <div class="item "> 
+            <div class="owl-image"> <a href="/angebote/alle-bmw-privatkundenangebote/bmw-318i-limousine-touring/" title="BMW 318i |"> <img data-src="/typo3temp/_processed_/3/e/csm_21-01-01_Slider_3er_Limousine_0ffbe5dc76.gif" class="owl-lazy" alt="BMW 318i" /> </a> </div>
+            <div class="owl-layer-stoerer">BMW 318i Limousine: Kraftstoffverbrauch nach WLTP kombiniert: 5,3 l / 100 km, CO2-Emissionen nach WLTP kombiniert: 120 g / km, CO2-Effizienz: A – BMW 318i Touring: Kraftstoffverbrauch nach WLTP kombiniert: 5,7 l / 100 km, CO2-Emissionen nach WLTP kombiniert: 130 g / km, CO2-Effizienz: A</div>
+             </div>
+          <div class="item "> 
+            <div class="owl-image"> <a href="/fahrzeuge/neuwagen/bmw-i/bmw-i8-roadster/" title="|"> <img data-src="/typo3temp/_processed_/2/6/csm_21-01-20_Slider_i8Roadster_01_ab70becf89.gif" class="owl-lazy" /> </a> </div>
+             </div>
+          <div class="item "> 
+            <div class="owl-image"> <a href="http://www.bmw-euler.de/fahrzeuge/fahrzeugsuche/trefferliste/?ca=91" title="Über 500 Fahrzeuge |"> <img data-src="/uploads/pics/20-07-09_Slider_500-Fahrzeuge_01.png" class="owl-lazy" alt="Über 500 Fahrzeuge" /> </a> </div>
+             </div>
+          <div class="item "> 
+            <div class="owl-image"> <a href="http://www.bmw-euler.de/service-zubehoer/servicetermin-vereinbaren/" title="|"> <img data-src="/uploads/pics/19-07-142_Slider_BMW_OTV.jpg" class="owl-lazy" /> </a> </div>
+             </div>
+          <div class="item "> 
+            <div class="owl-image"> <a href="/fahrzeuge/bmw-umweltpraemie/" title="Umweltprämie |"> <img data-src="/uploads/pics/20-03-20_Slider_Umweltpra__mie_02.jpg" class="owl-lazy" alt="Umweltprämie" /> </a> </div>
+            <div class="owl-layer-stoerer">BMW i3: Stromverbrauch in kWh/100 km (kombiniert): 13,1, CO2-Emission in g/km (kombiniert): 0 – BMW 530e Touring: Kraftstoffverbrauch in l/100 km (kombiniert): 2,1-1,9 CO2-Emissionen in g/km (kombiniert): 47-43 Stromverbrauch in kWh/100 km (kombiniert): 15,9-14,9</div>
+             </div>
+          <div class="item "> 
+            <div class="owl-image"> <a href="/fahrzeuge/dienstwagenbesteuerung/" title="Steuertipp fährt elektrisch |"> <img data-src="/uploads/pics/20-04-22_Slider_Dienstwagen.jpg" class="owl-lazy" alt="Steuertipp fährt elektrisch" /> </a> </div>
+            <div class="owl-layer-stoerer">BMW 530e Limousine: Kraftstoffverbrauch in l/100 km (kombiniert): 1,8-1,7 CO2-Emissionen in g/km (kombiniert): 42-39 Stromverbrauch in kWh/100 km (kombiniert): 14,8-13,7</div>
+             </div>
+           </div>
+         </section>
+      <section id="content"> 
+        <div class="container"> 
+          <div class="row"> 
+            <div class="col-md-6 col-sm-12"> 
+              <div class="tx-carzilla"> 
+                <div id="cc6018" class="cc-quicksearch cc-search well well-shadow eq-height"> 
+                  <div data-ng-controller="SearchController as vm" data-ng-init="vm.init(6018)"> 
+                    <div class="row"> 
+                      <div class="col-sm-12"> 
+                        <h2 class="cc-quicksearch-title bmw-bold">Fahrzeugsuche</h2>
+                         </div>
+                       </div>
+                    <div class="row"> 
+                      <div class="col-sm-3"> 
+                        <div class="checkbox"> <label class="ng-binding" for="cc6018-make-1"> <input type="checkbox" id="cc6018-make-1" data-ng-model="vm.Statuses[1]" data-ng-checked="vm.hasElement(vm.SearchParams[0].Statuses, status.Id)" class="ng-pristine ng-valid styled"/> Neuwagen </label> </div>
+                         </div>
+                      <div class="col-sm-3"> 
+                        <div class="checkbox"> <label class="ng-binding" for="cc6018-make-2"> <input type="checkbox" id="cc6018-make-2" data-ng-model="vm.Statuses[2]" data-ng-checked="vm.hasElement(vm.SearchParams[0].Statuses, status.Id)" class="ng-pristine ng-valid styled"/> Gebrauchtfahrzeug </label> </div>
+                         </div>
+                       </div>
+                    <div class="row"> 
+                      <div class="col-sm-6"> 
+                        <div class="form-group"> <label for="cc6018-make" class="sr-only"> Hersteller </label> <select id="cc6018-make" class="form-control cc-search-select" title="Hersteller" data-ng-class="{reduced: vm.SearchParams[0].Statuses.length === 1 && vm.SearchParams[0].Statuses[0] === 1}" data-ng-model="vm.SearchParams[0].MakeId" data-ng-options="make.Id as make.Name group by make.group disable when vm.isDisabled(make.Id) for make in vm.SortedMakes | filter:{Name:'!!'} "> <option value="">Hersteller</option> </select> </div>
+                         </div>
+                      <div class="col-sm-6"> 
+                        <div class="form-group"> <label for="cc6018-model" class="sr-only"> Modell </label> <select id="cc6018-model" class="form-control cc-search-select" title="Modell" data-ng-model="vm.SearchParams[0].ModelId" data-ng-options="model.Id as model.Name group by vm.getModelLine(vm.SearchParams[0].MakeId, model.Id, model.ModelLineId) for model in vm.Catalog.MakeMap[vm.SearchParams[0].MakeId].Models | filter:{Name:'!!'}" data-ng-disabled="!(vm.SearchParams[0].MakeId &gt; 0)"> <option value="" class="cc-model-caption"> Modell </option> </select> </div>
+                         </div>
+                      <div class="col-sm-6"> 
+                        <div class="form-group"> <label for="cc6018-price-to" class="sr-only"> Preis bis </label> <select id="cc6018-price-to" class="form-control cc-search-select" title="Preis bis" data-ng-model="vm.SearchParams[0].SalePrice.MaxValue" data-ng-options="price.To as (price.To | currency) for price in vm.Catalog.PriceRanges"> <option value=""> Preis bis </option> </select> </div>
+                         </div>
+                      <div class="col-sm-6"> 
+                        <div class="form-group"> <label for="cc6018-initial-registration-from" class="sr-only"> Erstzulassung von </label> <select id="cc6018-initial-registration-from" class="form-control cc-search-select" title="Erstzulassung von" data-ng-model="vm.SearchParams[0].InitialRegistration.MinValue" data-ng-options="year for year in vm.Catalog.Registration.From.slice(0).reverse()"> <option value=""> Erstzulassung von </option> </select> </div>
+                         </div>
+                      <div class="col-sm-6"> 
+                        <div class="form-group"> <label for="cc6018-mileage-to" class="sr-only"> Kilometer bis </label> <select id="cc6018-mileage-to" class="form-control cc-search-select" title="Kilometer bis" data-ng-disabled="vm.SearchParams[0].Statuses.length === 1 && vm.SearchParams[0].Statuses[0] === 1" data-ng-model="vm.SearchParams[0].Mileage.MaxValue" data-ng-options="mileage as ((mileage | number) + ' km') for mileage in vm.Catalog.Mileage.To"> <option value=""> Kilometer bis </option> </select> </div>
+                         </div>
+                      <div class="col-sm-6"> 
+                        <div class="form-group"> <label for="cc6018-motortype" class="sr-only"> Kraftstoff </label> <select id="cc6018-motortype" class="form-control cc-search-select" title="Kraftstoff" data-ng-model="vm.SearchParams[0].MotorTypes[0]" data-ng-options="motor.Id as motor.Name for motor in vm.Catalog.Motortypes | filter:{Name:'!!'} | orderBy:'Name'"> <option value=""> Kraftstoff </option> </select> </div>
+                         </div>
+                       </div>
+                    <div class="row"> 
+                      <div class="col-sm-6"> 
+                        <div class="form-group"> <a class="cc-link-advancedsearch btn btn-bmw-gray btn-block" href="/fahrzeuge/fahrzeugsuche/?searchparams=%7B%7Bvm.QueryStringDetailSearch%7D%7D"> Detailsuche </a> </div>
+                         </div>
+                      <div class="col-sm-6"> 
+                        <div class="form-group" ng-cloak=""> <a data-ng-class="{disabled: vm.SearchInfo.CountVehicles == 0 || vm.isLoading }" data-ng-cloak="" class="cc-link-result btn btn-bmw-blue btn-block" href="/fahrzeuge/fahrzeugsuche/trefferliste/?searchparams=%7B%7Bvm.QueryString%7D%7D"> <span ng-show="vm.isLoading"> <i class="fa fa-fw fa-spinner fa-spin" ng-show="vm.isLoading"></i> Lade&hellip; </span> <span ng-hide="vm.isLoading"> <span ng-bind="vm.SearchInfo.CountVehicles"></span> {{ SearchInfo.CountVehicles }} Treffer </span> </a> </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+            <div class="col-md-6 col-sm-12"> 
+              <div class="news"> 
+                <div class="news-list-view row"> 
+                  <div class="col-sm-12"> 
+                    <div class="bmw-home"> 
+                      <div class="row"> 
+                        <div class="col-sm-6 article news-list-item articletype-1 topnews" itemscope="itemscope" itemtype="http://schema.org/Article" data-uid="187"> 
+                          <div class="well well-shadow animate-grow eq-height"> 
+                            <div class="news-img-wrap"> <a title="Neuer Showroom in Frankfurt-Eckenheim" href="/standorte/frankfurt-eckenheim/"> <img class="img-responsive" alt="Neuer Showroom in Frankfurt-Eckenheim" src="/fileadmin/_processed_/9/d/csm_Showroom_Eckenheim_3977fbb383.jpg" width="770" height="410" /> </a> </div>
+                            <div class="news-body"> 
+                              <div class="news-header"> 
+                                <h3> <a title="Neuer Showroom in Frankfurt-Eckenheim" href="/standorte/frankfurt-eckenheim/"> <span itemprop="headline">Neuer Showroom in Frankfurt-Eckenheim</span> </a> </h3>
+                                 </div>
+                              <div class="news-teaser"> 
+                                <p itemprop="description"> In unserem neuen Gebäude finden Sie nun auch unser Service-Team. Zudem können Sie unsere Fahrzeuge auch ganz bequem Sonntags besichtigen! </p>
+                                 <a class="more" title="Neuer Showroom in Frankfurt-Eckenheim" href="/standorte/frankfurt-eckenheim/"> Weiterlesen </a> </div>
+                               </div>
+                            <div class="clearfix"></div>
+                             </div>
+                           </div>
+                        <div class="col-sm-6 article news-list-item articletype-1 topnews" itemscope="itemscope" itemtype="http://schema.org/Article" data-uid="185"> 
+                          <div class="well well-shadow animate-grow eq-height"> 
+                            <div class="news-img-wrap"> <a title="Service First" href="/service-zubehoer/unsere-leistungen/"> <img class="img-responsive" alt="Service First" src="/fileadmin/_processed_/9/f/csm_Service_Flyer_News_cf23b6a04c.jpg" width="770" height="410" /> </a> </div>
+                            <div class="news-body"> 
+                              <div class="news-header"> 
+                                <h3> <a title="Service First" href="/service-zubehoer/unsere-leistungen/"> <span itemprop="headline">Service First</span> </a> </h3>
+                                 </div>
+                              <div class="news-teaser"> 
+                                <p itemprop="description"> Entdecken Sie unsere Service Leistungen auf einen Blick.Abgabe Service (24h), Hol &amp; Bring Service, Ersatzwagen Service und vieles mehr. </p>
+                                 <a class="more" title="Service First" href="/service-zubehoer/unsere-leistungen/"> Weiterlesen </a> </div>
+                               </div>
+                            <div class="clearfix"></div>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+          <div> 
+            <div class="acs-commons-resp-colctrl-col gridComponent small-12 medium-12 large-6 columns ds2-component-bottom ">
+              <div class="ds2-quote ds2-component ds2-tracking-aware ">
+                <div>
+                  <blockquote class="ds2-quote--quote-container">
+                    <div class="ds2-quote--text-container ">
+                      <div class="ds2-cms-output ds2-quote--text ds2-font-xl ds2-no-uppercase ">
+                        <h2> <span style="font-weight: normal;"><strong>10 gute Gründe,</strong> </span></h2>
+                        <h4><span style="font-weight: normal;">warum die Euler Group Ihr zuverlässiger Partner für BMW und MINI Fahrzeuge ist: </span></h4>
+                        <p>&nbsp;</p>
+                        <p>✓ Seit über 44 Jahren BMW und MINI Vertragspartner<br /><br />✓ Kompetente und persönliche Beratung im Verkauf und Service <br /><br />✓ Professionell geschulte Mitarbeiter<br /><br />✓ Kundenorientierter Service mit hoher Kundenzufriedenheit <br /><br />✓ Wir finden maßgeschneiderte Lösungen für unsere Kunden – privat sowie geschäftlich<br /><br />✓ Mehr als 1.000 Dienst- und Gebrauchtfahrzeuge mit BMW Gütesiegel Premium Selection dauerhaft auf Lager<br /><br />✓ Flexible Finanzierungskonzepte und Leasinglösungen<br /><br />✓ Gute Vernetzung mit allen Standorten im Rhein Main Gebiet und in der Pfalz sowie unseren BMW und MINI Military Sales<br /><br />✓ Langfristige Kundenbeziehung mit 100 Prozent Weiterempfehlung<br /><br />✓ Weitreichende original BMW und MINI Ersatzteilangebote</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+             </div>
+          <div> 
+            <hr />
+             </div>
+          <div class="row"> 
+            <div class="col-sm-6 "> 
+              <div> 
+                <h3>FAQ zur aktuellen Lage.<br /><br /> </h3>
+                 </div>
+              <div class="panel-group" id="accordion-38133"> 
+                <div class="panel panel-bmw-clone"> 
+                  <div class="panel-heading linked"> 
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-38133" href="#panel-38133-0"> 
+                        <div class="panel-iconwrapper panel-icon-bmw pull-left"> <i class="fa fa-plus"></i> </div>
+                         Bleiben unsere Filialen weiterhin geöffnet? </a> </h4>
+                     </div>
+                  <div class="clearfix"></div>
+                  <div id="panel-38133-0" class="panel-collapse collapse "> 
+                    <div class="panel-body"> 
+                      <div> 
+                        <p>Außer unsere MINI Verkaufsräume in Frankfurt Eckenheim und Mühlheim, bleiben alle Filialen zu den für Sie gewohnten Zeiten geöffnet. Der Service- und Werkstattbetrieb für Ihren BMW oder MINI läuft uneingeschränkt weiter. Der Vor-Ort-Verkauf von Fahrzeugen ist ab den 16.12.2020 untersagt. Unser Verkaufsteam steht Ihnen gerne telefonisch, per E-Mail, per Videocall oder per Chatfunktion zur Verfügung.</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                <div class="panel panel-bmw-clone"> 
+                  <div class="panel-heading linked"> 
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-38133" href="#panel-38133-1"> 
+                        <div class="panel-iconwrapper panel-icon-bmw pull-left"> <i class="fa fa-plus"></i> </div>
+                         Kann ich meinen Werkstatttermin weiterhin wahrnehmen? </a> </h4>
+                     </div>
+                  <div class="clearfix"></div>
+                  <div id="panel-38133-1" class="panel-collapse collapse "> 
+                    <div class="panel-body"> 
+                      <div> 
+                        <p>Ja, alle vereinbarten Werkstatttermine werden uneingeschränkt durchgeführt.</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                <div class="panel panel-bmw-clone"> 
+                  <div class="panel-heading linked"> 
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-38133" href="#panel-38133-2"> 
+                        <div class="panel-iconwrapper panel-icon-bmw pull-left"> <i class="fa fa-plus"></i> </div>
+                         Darf ich meinen BMW trotz Ausgangsbeschränkungen und Hotspot-Regelung noch zu einem Service-Termin in die Werkstatt bringen? </a> </h4>
+                     </div>
+                  <div class="clearfix"></div>
+                  <div id="panel-38133-2" class="panel-collapse collapse "> 
+                    <div class="panel-body"> 
+                      <div> 
+                        <p> Da der Servicetermin zur Erhaltung der Fahrtauglichkeit Ihres Fahrzeuges dient, dürfen Sie auch trotz erhöhter Inzidenzwerte an Ihrem Wohnort Ihren Servicetermin wahrnehmen. Dieser Termin stellt einen triftigen Grund im Sinne der Infektionsschutzregeln dar.<br /> </p>
+                        <p>Nutzen Sie auch gerne die <a href="/service-zubehoer/servicetermin-vereinbaren/" title="Opens internal link in current window" class="internal-link">Online-Terminvereinbarung.</a></p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                <div class="panel panel-bmw-clone"> 
+                  <div class="panel-heading linked"> 
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-38133" href="#panel-38133-3"> 
+                        <div class="panel-iconwrapper panel-icon-bmw pull-left"> <i class="fa fa-plus"></i> </div>
+                         Dürfen weiterhin Ersatzteile oder Zubehör verkauft werden? </a> </h4>
+                     </div>
+                  <div class="clearfix"></div>
+                  <div id="panel-38133-3" class="panel-collapse collapse "> 
+                    <div class="panel-body"> 
+                      <div> 
+                        <p>Ja, Kfz-Werkstätten inkl. Verkauf von Ersatzteilen, sind von den Schließungsanforderungen ausgenommen, weshalb die Versorgung mit Ersatzteilen wie z. B. Scheibenwischer oder Batterien weiterhin gewährleistet ist.</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                <div class="panel panel-bmw-clone"> 
+                  <div class="panel-heading linked"> 
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-38133" href="#panel-38133-4"> 
+                        <div class="panel-iconwrapper panel-icon-bmw pull-left"> <i class="fa fa-plus"></i> </div>
+                         Kann ich auch momentan einen Mietwagen/Ersatzwagen in Anspruch nehmen? </a> </h4>
+                     </div>
+                  <div class="clearfix"></div>
+                  <div id="panel-38133-4" class="panel-collapse collapse "> 
+                    <div class="panel-body"> 
+                      <div> 
+                        <p> Ja, die Vermietung von Autos ist weiterhin erlaubt. Jedes Fahrzeug wird vor Herausgabe und nach Benutzung gereinigt und desinfiziert.</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                <div class="panel panel-bmw-clone"> 
+                  <div class="panel-heading linked"> 
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-38133" href="#panel-38133-5"> 
+                        <div class="panel-iconwrapper panel-icon-bmw pull-left"> <i class="fa fa-plus"></i> </div>
+                         Bekomme ich meinen neu erworbenen BMW ausgeliefert? </a> </h4>
+                     </div>
+                  <div class="clearfix"></div>
+                  <div id="panel-38133-5" class="panel-collapse collapse "> 
+                    <div class="panel-body"> 
+                      <div> 
+                        <p> Ja, Ihr Fahrzeug können Sie wie geplant in Empfang nehmen. Bitte haben Sie allerdings Verständnis dafür, dass unsere Fahrzeugeinweisung und Übergabeberatung nur unter Einhaltung von strengen Sicherheitsmaßnahmen stattfindet, wie z. B. das Tragen einer Mund-Nasen-Bedeckung, ausreichend Abstand u.a. Natürlich steht Ihnen Ihr Verkaufsberater auch nach der Auslieferung telefonisch für Ihre Fragen zur Verfügung.</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                <div class="panel panel-bmw-clone"> 
+                  <div class="panel-heading linked"> 
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-38133" href="#panel-38133-6"> 
+                        <div class="panel-iconwrapper panel-icon-bmw pull-left"> <i class="fa fa-plus"></i> </div>
+                         Kann mein Fahrzeug zugelassen werden? </a> </h4>
+                     </div>
+                  <div class="clearfix"></div>
+                  <div id="panel-38133-6" class="panel-collapse collapse "> 
+                    <div class="panel-body"> 
+                      <div> 
+                        <p> Aktuell haben alle Zulassungsstellen im Stadt- und Landkreis während des Lockdowns geöffnet. Wir bitten jedoch um Verständnis, wenn es, auf Grund der momentanen Situation zu Verzögerungen seitens der Zulassungsstelle kommen kann.</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                <div class="panel panel-bmw-clone"> 
+                  <div class="panel-heading linked"> 
+                    <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-38133" href="#panel-38133-7"> 
+                        <div class="panel-iconwrapper panel-icon-bmw pull-left"> <i class="fa fa-plus"></i> </div>
+                         Wer berät mich bei Interesse an einem Fahrzeug? </a> </h4>
+                     </div>
+                  <div class="clearfix"></div>
+                  <div id="panel-38133-7" class="panel-collapse collapse "> 
+                    <div class="panel-body"> 
+                      <div> 
+                        <p> Unsere Verkaufsräume haben bis zum 14.02.2021 geschlossen! Ihre Anfragen beantwortet unser Verkaufsteam gerne telefonisch, per E-Mail, per Videocall oder per Chatfunktion. Bei Interesse an einem Fahrzeug ist die Abwicklung komplett online und somit kontaktlos möglich.</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+            <div class="col-sm-6 "> 
+              <div> <a href="http://www.euler-group.de/landingpages/allgemeine-informationen/"> <img class="img-responsive margin-top-60" alt="21-01-19_Slider_Neu-Hyundai.jpg" width="1171" height="581" src="/fileadmin/_processed_/2/4/csm_21-01-19_Slider_Neu-Hyundai_1f355535ad.gif" title="21-01-19_Slider_Neu-Hyundai.jpg" /> </a> </div>
+               </div>
+            <div class="col-sm-3 "> </div>
+             </div>
+          <div> 
+            <hr />
+             </div>
+          <div class="row"> 
+            <div class="col-md-3 col-sm-6"> 
+              <div class="hometeaser bmw-coloured margin-vertical-20 eq-height"> <a href="/standorte/standortuebersicht/" class="service-link"> 
+                  <div class="teaser-icon"> <i class="fa fa-map-marker" aria-hidden="true"></i> </div>
+                  <h4 class="teaser-title"> Standorte </h4>
+                   </a> 
+                <div class="clearfix"></div>
+                 </div>
+               </div>
+            <div class="col-md-3 col-sm-6"> 
+              <div class="hometeaser bmw-coloured margin-vertical-20 eq-height"> <a href="/service-zubehoer/servicetermin-vereinbaren/" class="service-link"> 
+                  <div class="teaser-icon"> <i class="fa fa-calendar" aria-hidden="true"></i> </div>
+                  <h4 class="teaser-title"> Online Terminvereinbarung </h4>
+                   </a> 
+                <div class="clearfix"></div>
+                 </div>
+               </div>
+            <div class="col-md-3 col-sm-6"> 
+              <div class="hometeaser bmw-coloured margin-vertical-20 eq-height"> <a href="/kontakt/allgemeiner-kontakt/" class="service-link"> 
+                  <div class="teaser-icon"> <i class="fa fa-commenting" aria-hidden="true"></i> </div>
+                  <h4 class="teaser-title"> Allgemeiner Kontakt </h4>
+                   </a> 
+                <div class="clearfix"></div>
+                 </div>
+               </div>
+            <div class="col-md-3 col-sm-6"> 
+              <div class="hometeaser bmw-coloured margin-vertical-20 eq-height"> <a href="/unternehmen/karriere/" class="service-link"> 
+                  <div class="teaser-icon"> <i class="fa fa-group" aria-hidden="true"></i> </div>
+                  <h4 class="teaser-title"> Karriere </h4>
+                   </a> 
+                <div class="clearfix"></div>
+                 </div>
+               </div>
+             </div>
+          <div> 
+            <hr />
+             </div>
+          <div> 
+            <p><sup>*</sup>Gilt nur für ausgewählte Aktionsmodelle. Ein Angebot der BMW Bank GmbH, Lilienthalallee 26, 80939 München. Solange der Vorrat reicht. Druckfehler, Zwischenverkauf, Änderungen und Irrtümer bleiben vorbehalten. </p>
+            <p><sup>5</sup>(Gültig für alle Modelle des neuen BMW 4er Coupé bei Bestellung bis 31.12.2020 und Zulassung bis 31.03.2021 und einer Laufzeit bis max. 36. Monate / max. Laufleistung 100.000 km)</p>
+             </div>
+           </div>
+         </section>
+      <footer id="footer"> 
+        <div id="footer-pre" class="hidden-xs"> 
+          <div class="container"> 
+            <div class="row"> 
+              <div class="col-sm-12"> 
+                <div class="footer-pre-navigation" data-id="166"> 
+                  <div class="btn-group btn-navigation" role="group" aria-label="Footer Button Navigation"> <a class="btn btn-bmw-gray " title="Probefahrt" href="/fahrzeuge/probefahrt-vereinbaren/"> Probefahrt </a> <a class="btn btn-bmw-gray " title="Kooperationen" href="/unternehmen/sponsoring-kooperationen/"> Kooperationen </a> <a class="btn btn-bmw-gray " title="Standorte" href="/standorte/"> Standorte </a> <a class="btn btn-bmw-gray " title="Zur MINI Seite" target="_blank" href="http://www.euler-mini.de/"> Zur MINI Seite </a> <a class="btn btn-bmw-gray hasSubtitle " title="BMW Military Sales" target="_blank" href="http://www.euler-militarysales.de"> <img class="language-flag" src="/typo3conf/ext/cardealermanagement/Resources/Public/Icons/Flags/us.svg" alt="us" width="30"> BMW Military Sales <br/><span class="btn-subtitle small">Authorised Agency</span> </a> <a class="btn btn-bmw-gray " title="Zur HYUNDAI Seite" target="_blank" href="https://www.hyundai-euler.de/"> Zur HYUNDAI Seite </a> <a class="btn btn-bmw-gray " title="Zur Euler-Group.de" href="https://www.euler-group.de/"> Zur Euler-Group.de </a> </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+        <div id="footer-main"> 
+          <div class="container"> 
+            <div class="row"> 
+              <div class="col-md-6 col-sm-8 eq-height"> 
+                <div class="row"> 
+                  <div class="col-sm-4"> 
+                    <div class="footer-main-navigation" data-id="151"> 
+                      <ul class="list-unstyled"> 
+                        <li class=""> <a title="Datenschutz" href="/rechtliches/datenschutz/"> Datenschutz </a> </li>
+                        <li class=""> <a title="Impressum" href="/rechtliches/impressum/"> Impressum </a> </li>
+                        <li class=""> <a title="Cookie Richtlinien" href="/rechtliches/cookie-richtlinien/"> Cookie Richtlinien </a> </li>
+                        <li class=""> <a title="Kontakt" href="/kontakt/allgemeiner-kontakt/"> Kontakt </a> </li>
+                        <li class=""> <a title="Rechtlicher Hinweis" href="/rechtliches/rechtlicher-hinweis/"> Rechtlicher Hinweis </a> </li>
+                        <li> <a href="javascript:CookieConsent.renew();">Cookie Einstellungen ändern</a> </li>
+                         </ul>
+                       </div>
+                     </div>
+                  <div class="col-sm-4"> 
+                    <div class="footer-main-navigation" data-id="152"> 
+                      <ul class="list-unstyled"> 
+                        <li class=""> <a title="Newsletter" href="/newsletter/"> Newsletter </a> </li>
+                         </ul>
+                       </div>
+                     </div>
+                  <div class="col-sm-4"> 
+                    <div class="footer-main-navigation" data-id="153"> 
+                      <ul class="list-unstyled"> 
+                        <li class=""> <a title="Unternehmen" href="/unternehmen/ueber-uns/"> Unternehmen </a> </li>
+                        <li class=""> <a title="Cyril von Recum" href="http://www.cyrilvonrecum.de/"> Cyril von Recum </a> </li>
+                        <li class=""> <a title="Karriere" href="/unternehmen/karriere/"> Karriere </a> </li>
+                        <li class=""> <a title="Sitemap" href="/sitemap/"> Sitemap </a> </li>
+                         </ul>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+              <div class="col-md-6 col-sm-4 eq-height pos-relative"> 
+                <div class="social-media social-media--bmw "> 
+                  <div class="social-media__list social-media__list--bmw "> <a href="https://www.facebook.com/Eulergroup/" title="Folge uns auf facebook!" target="_blank" class="facebook-f"> <i class="fa fa-facebook-f fa-lg " aria-hidden="true"></i> <i class="fa fa-facebook-f fa-lg " aria-hidden="true"></i> </a> <a href="https://www.youtube.com/channel/UChld3nKd98jYJRp0caZUOKg" title="YouTube" target="_blank" class="youtube-square"> <i class="fa fa-youtube-square fa-lg " aria-hidden="true"></i> <i class="fa fa-youtube-square fa-lg " aria-hidden="true"></i> </a> <a href="https://www.instagram.com/eulergroup/" title="Instagram" target="_blank" class="instagram"> <i class="fa fa-instagram fa-lg " aria-hidden="true"></i> <i class="fa fa-instagram fa-lg " aria-hidden="true"></i> </a> <a href="https://www.bmw-euler.de/newsletter/" title="Newsletteranmeldung" target="_blank" class="paper-plane"> <i class="fa fa-paper-plane fa-lg " aria-hidden="true"></i> <i class="fa fa-paper-plane fa-lg " aria-hidden="true"></i> </a> </div>
+                   </div>
+                <p class="copyright-company"> &copy; Euler Group 2021 </p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </footer>
+      <div class="hidden"> 
+        <div id="mmenu"> 
+          <ul> 
+            <li class=""> <a tabindex="11" href="http://www.euler-group.de/" title="Euler Group" target="_self" class=""> Euler Group </a> </li>
+            <li class=""> <a tabindex="12" href="/" title="Home" target="_self" class=""> Home </a> </li>
+            <li class="sub"> <a tabindex="13" href="/fahrzeuge/unsere-angebote/" title="Angebote" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Angebote </a> 
+              <ul class="menu-level-2"> 
+                <li class="sub"> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/" title="Alle BMW Privatkundenangebote" target="_self" class="sub"> Alle BMW Privatkundenangebote </a> 
+                  <ul class="menu-level-3"> 
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-m135i-xdrive/" title="BMW M135i xDrive" target="_self" class=""> BMW M135i xDrive </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-2er-gran-coupe/" title="BMW 2er Gran Coupé" target="_self" class=""> BMW 2er Gran Coupé </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-m235i-xdrive-gran-coupe/" title="BMW M235i xDrive Gran Coupé" target="_self" class=""> BMW M235i xDrive Gran Coupé </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-225xe/" title="BMW 225xe iPerformance Active Tourer" target="_self" class=""> BMW 225xe iPerformance Active Tourer </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-318i-limousine-touring/" title="BMW 318i Limousine / Touring" target="_self" class=""> BMW 318i Limousine / Touring </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-420i-coupe/" title="BMW 420i Coupé" target="_self" class=""> BMW 420i Coupé </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-520d-limousine/" title="BMW 520d Limousine" target="_self" class=""> BMW 520d Limousine </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-520d-touring/" title="BMW 520d Touring" target="_self" class=""> BMW 520d Touring </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-x1-xdrive25e/" title="BMW X1 xDrive25e" target="_self" class=""> BMW X1 xDrive25e </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-x2-xdrive25e/" title="BMW X2 xDrive25e" target="_self" class=""> BMW X2 xDrive25e </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-z4-sdrive20i/" title="BMW Z4 sDrive20i" target="_self" class=""> BMW Z4 sDrive20i </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-privatkundenangebote/bmw-i3/" title="BMW i3" target="_self" class=""> BMW i3 </a> </li>
+                     </ul>
+                   </li>
+                <li class="sub"> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/" title="Alle BMW Gewerbekundenangebote" target="_self" class="sub"> Alle BMW Gewerbekundenangebote </a> 
+                  <ul class="menu-level-3"> 
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-m135i-xdrive/" title="BMW M135i xDrive" target="_self" class=""> BMW M135i xDrive </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-2er-gran-coupe/" title="BMW 2er Gran Coupé" target="_self" class=""> BMW 2er Gran Coupé </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-m235i-xdrive-gran-coupe/" title="BMW M235i xDrive Gran Coupé" target="_self" class=""> BMW M235i xDrive Gran Coupé </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-225xe-iperformance-active-tourer/" title="BMW 225xe iPerformance Active Tourer" target="_self" class=""> BMW 225xe iPerformance Active Tourer </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-330e-limousine/" title="BMW 330e Limousine" target="_self" class=""> BMW 330e Limousine </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-330e-touring/" title="BMW 330e Touring" target="_self" class=""> BMW 330e Touring </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-530e-iperformance-limousine/" title="BMW 530e iPerformance Limousine" target="_self" class=""> BMW 530e iPerformance Limousine </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-545e-xdrive-limousine/" title="BMW 545e xDrive Limousine" target="_self" class=""> BMW 545e xDrive Limousine </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-745e-iperformance-limousine/" title="BMW 745e iPerformance Limousine" target="_self" class=""> BMW 745e iPerformance Limousine </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-x5-xdrive45e-iperformance/" title="BMW X5 xDrive45e iPerformance" target="_self" class=""> BMW X5 xDrive45e iPerformance </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-x7-xdrive40d/" title="BMW X7 xDrive40d" target="_self" class=""> BMW X7 xDrive40d </a> </li>
+                    <li class=""> <a tabindex="13" href="/angebote/alle-bmw-gewerbekundenangebote/bmw-i3/" title="BMW i3" target="_self" class=""> BMW i3 </a> </li>
+                     </ul>
+                   </li>
+                 </ul>
+               </li>
+            <li class="sub"> <a tabindex="14" href="/fahrzeuge/" title="Fahrzeuge" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Fahrzeuge </a> 
+              <ul class="menu-level-2"> 
+                <li class=""> <a tabindex="14" href="/fahrzeuge/fahrzeugsuche/" title="Fahrzeugsuche" target="_self" class=""> Fahrzeugsuche </a> </li>
+                <li class=""> <a tabindex="14" href="/fahrzeuge/alle-bmw-modelle/" title="Alle BMW Modelle" target="_self" class=""> Alle BMW Modelle </a> </li>
+                <li class=""> <a tabindex="14" href="/fahrzeuge/neuwagen/bmw-i/" title="BMW i" target="_self" class=""> BMW i </a> </li>
+                <li class=""> <a tabindex="14" href="/fahrzeuge/neuwagen/bmw-m/" title="BMW M" target="_self" class=""> BMW M </a> </li>
+                <li class=""> <a tabindex="14" href="http://www.euler-group.de/fahrzeuge/bmw/neuwagen/alpina/" title="BMW ALPINA" target="_self" class=""> BMW ALPINA </a> </li>
+                <li class=""> <a tabindex="14" href="/fahrzeuge/bmw-umweltpraemie/" title="BMW Umweltprämie" target="_self" class=""> BMW Umweltprämie </a> </li>
+                <li class=""> <a tabindex="14" href="/fahrzeuge/elektromobilitaet/" title="Elektromobilität" target="_self" class=""> Elektromobilität </a> </li>
+                <li class=""> <a tabindex="14" href="/fahrzeuge/dienstwagenbesteuerung/" title="Dienstwagenbesteuerung" target="_self" class=""> Dienstwagenbesteuerung </a> </li>
+                <li class="sub"> <a tabindex="14" href="/fahrzeuge/gebrauchtwagen/" title="Gebrauchtwagen" target="_self" class="sub"> Gebrauchtwagen </a> 
+                  <ul class="menu-level-3"> 
+                    <li class=""> <a tabindex="14" href="/fahrzeuge/fahrzeugsuche/" title="Gebrauchtwagensuche" target="_self" class=""> Gebrauchtwagensuche </a> </li>
+                    <li class=""> <a tabindex="14" href="/jungegebrauchte/bmw-mini/" title="Junge Gebrauchte" target="_self" class=""> Junge Gebrauchte </a> </li>
+                    <li class="sub def"> <a tabindex="14" href="/fahrzeuge/gebrauchtwagen/bmw-premium-selection/" title="BMW Premium Selection" target="_self" class="sub"> BMW Premium Selection </a> 
+                      <ul class="menu-level-4"> 
+                        <li class=""> <a tabindex="14" href="/fahrzeuge/gebrauchtwagen/bmw-premium-selection/vorteile/" title="Vorteile" target="_self" class=""> Vorteile </a> </li>
+                        <li class=""> <a tabindex="14" href="/fahrzeuge/gebrauchtwagen/bmw-premium-selection/bmw-premium-selection-garantie/" title="BMW Premium Selection Garantie" target="_self" class=""> BMW Premium Selection Garantie </a> </li>
+                         </ul>
+                       </li>
+                     </ul>
+                   </li>
+                <li class="sub"> <a tabindex="14" href="#" title="Finanzierung &amp; Leasing" target="_self" class="sub disabled"> Finanzierung &amp; Leasing </a> 
+                  <ul class="menu-level-3"> 
+                    <li class=""> <a tabindex="14" href="/fahrzeuge/finanzierung-leasing/bmw-leasing/" title="BMW Leasing" target="_self" class=""> BMW Leasing </a> </li>
+                    <li class=""> <a tabindex="14" href="/fahrzeuge/finanzierung-leasing/bmw-finanzierung/" title="BMW Finanzierung" target="_self" class=""> BMW Finanzierung </a> </li>
+                    <li class=""> <a tabindex="14" href="/fahrzeuge/finanzierung-leasing/bmw-ratenschutzversicherung/" title="BMW Ratenschutzversicherung" target="_self" class=""> BMW Ratenschutzversicherung </a> </li>
+                     </ul>
+                   </li>
+                <li class=""> <a tabindex="14" href="/fahrzeuge/inzahlungnahme/" title="Inzahlungnahme" target="_self" class=""> Inzahlungnahme </a> </li>
+                <li class=""> <a tabindex="14" href="/fahrzeuge/leasingruecknahme/" title="Leasingrücknahme" target="_self" class=""> Leasingrücknahme </a> </li>
+                <li class=""> <a tabindex="14" href="/fahrzeuge/fahrzeugankauf/" title="Fahrzeugankauf" target="_self" class=""> Fahrzeugankauf </a> </li>
+                <li class=""> <a tabindex="14" href="/fahrzeuge/probefahrt-vereinbaren/" title="Probefahrt vereinbaren" target="_self" class=""> Probefahrt vereinbaren </a> </li>
+                <li class=""> <a tabindex="14" href="/fahrzeuge/onlineverkaufsteam/" title="Onlineverkaufsteam" target="_self" class=""> Onlineverkaufsteam </a> </li>
+                 </ul>
+               </li>
+            <li class="sub"> <a tabindex="15" href="/service-zubehoer/" title="Service &amp; Zubehör" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Service &amp; Zubehör </a> 
+              <ul class="menu-level-2"> 
+                <li class=""> <a tabindex="15" href="/service-zubehoer/service-angebote/" title="Service Angebote" target="_self" class=""> Service Angebote </a> </li>
+                <li class=""> <a tabindex="15" href="/service-zubehoer/unsere-leistungen/" title="Unsere Leistungen" target="_self" class=""> Unsere Leistungen </a> </li>
+                <li class=""> <a tabindex="15" href="/service-zubehoer/fuer-eintracht-fans/" title="Für Eintracht-Fans" target="_self" class=""> Für Eintracht-Fans </a> </li>
+                <li class="sub"> <a tabindex="15" href="/service-zubehoer/servicetermin-vereinbaren/" title="Servicetermin vereinbaren" target="_self" class="sub"> Servicetermin vereinbaren </a> 
+                  <ul class="menu-level-3"> 
+                    <li class=""> <a tabindex="15" href="https://plan.soft-nrg.com/group/Gv-wkGi4vdux9Dt6soCL0t2FrXxRtxqgVTUUxTLnmUUu12LLpintzg/express" title="Frankfurt-Eckenheim" target="_blank" class=""> Frankfurt-Eckenheim </a> </li>
+                    <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/bd3oskvLYt6kmvYDQ7d0MFrveFbHmVTRGV1rZHKuH4GDysmqmk5yDw/express" title="Frankfurt-Höchst" target="_blank" class=""> Frankfurt-Höchst </a> </li>
+                    <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/-djwBLhB0WuxkTYPSBKG2HCf9Gm9hMFiDUA-Xfr_yAPHnD0naoYJbQ/express" title="Hofheim" target="_blank" class=""> Hofheim </a> </li>
+                    <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/PgKW4pUbZL3YYr5Wcv-puok_QhR-X1PkmIJDSrM6Y37xjSoKvj7S7A/express" title="Kaiserslautern" target="_blank" class=""> Kaiserslautern </a> </li>
+                    <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/LTxXPs7KReIX1cyNcZ9iKZZvHI_8m5GfiRiYJsMUOA1CyWuCBKP1hQ/express" title="Landstuhl" target="_blank" class=""> Landstuhl </a> </li>
+                    <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/bM1QC7cMFTgJj3nD26LMk5fqIo-FHQHKns5nqGUhBejWPR-584uPSQ/express" title="Pirmasens" target="_blank" class=""> Pirmasens </a> </li>
+                    <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/AtxzF9JkpvDJ6NWN6miKiHz3fkZMpNxw7cRmsk1oci5zwsFEow5kpA/express" title="Kirchheimbolanden" target="_blank" class=""> Kirchheimbolanden </a> </li>
+                    <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/xooo_U6-ixfAQivp-D0CQQBmVu5Nl6zKjBLslUaeU_mY-zuhHWHsXA/express" title="Bad Bergzabern" target="_blank" class=""> Bad Bergzabern </a> </li>
+                    <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/4yPkGqQtH3ymjdQnB4LQ7oHCop_gJwlTYsK4gfFjxgHN0Hgbm0TfoA" title="Mühlheim" target="_blank" class=""> Mühlheim </a> </li>
+                    <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/8XRRpKba_WUYqSbz1UqounUWuFdPuixX5IH_EMN8E0slqAZXr6Gkxw" title="Hainburg" target="_blank" class=""> Hainburg </a> </li>
+                    <li class=""> <a tabindex="15" href="http://plan.soft-nrg.com/group/bKVEY5lAZUlg06by8FstzEVLepQMn6AO2Uh4pCy0z1q82_jwVc5L3w" title="Rödermark" target="_blank" class=""> Rödermark </a> </li>
+                    <li class=""> <a tabindex="15" href="http://www.euler-mini.de/service-zubehoer/servicetermin-vereinbaren/" title="MINI Servicetermin" target="_blank" class=""> MINI Servicetermin </a> </li>
+                     </ul>
+                   </li>
+                <li class=""> <a tabindex="15" href="/service-zubehoer/bmw-service-inclusive/" title="BMW Service Inclusive" target="_self" class=""> BMW Service Inclusive </a> </li>
+                <li class=""> <a tabindex="15" href="/service-zubehoer/reifengarantieversicherung/" title="Reifengarantieversicherung" target="_self" class=""> Reifengarantieversicherung </a> </li>
+                <li class=""> <a tabindex="15" href="/service-zubehoer/teile-zubehoer-anfrage/" title="Teile &amp; Zubehör Anfrage" target="_self" class=""> Teile &amp; Zubehör Anfrage </a> </li>
+                 </ul>
+               </li>
+            <li class="sub"> <a tabindex="16" href="/sonderkunden/uebersicht-sonderkunden/" title="Sonderkunden" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Sonderkunden </a> 
+              <ul class="menu-level-2"> 
+                <li class=""> <a tabindex="16" href="/sonderkunden/grosskunden/" title="Großkunden" target="_self" class=""> Großkunden </a> </li>
+                <li class=""> <a tabindex="16" href="/sonderkunden/businesskunden/" title="Businesskunden" target="_self" class=""> Businesskunden </a> </li>
+                <li class=""> <a tabindex="16" href="/sonderkunden/geschaeftskunden/" title="Geschäftskunden" target="_self" class=""> Geschäftskunden </a> </li>
+                <li class=""> <a tabindex="16" href="/sonderkunden/journalisten/" title="Journalisten" target="_self" class=""> Journalisten </a> </li>
+                <li class=""> <a tabindex="16" href="/sonderkunden/mobilitaetseingeschraenkte-personen/" title="Mobilitätseingeschränkte Personen" target="_self" class=""> Mobilitätseingeschränkte Personen </a> </li>
+                <li class=""> <a tabindex="16" href="/sonderkunden/fahrschulen/" title="Fahrschulen" target="_self" class=""> Fahrschulen </a> </li>
+                <li class=""> <a tabindex="16" href="/sonderkunden/einkaufsverbaende/" title="Einkaufsverbände" target="_self" class=""> Einkaufsverbände </a> </li>
+                 </ul>
+               </li>
+            <li class="sub"> <a tabindex="17" href="/standorte/" title="Standorte" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Standorte </a> 
+              <ul class="menu-level-2"> 
+                <li class=""> <a tabindex="17" href="/standorte/standortuebersicht/" title="Standortübersicht" target="_self" class=""> Standortübersicht </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/frankfurt-eckenheim/" title="Frankfurt-Eckenheim" target="_self" class=""> Frankfurt-Eckenheim </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/frankfurt-hoechst/" title="Frankfurt-Höchst" target="_self" class=""> Frankfurt-Höchst </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/frankfurt-nordweststadt/" title="Frankfurt-Nordweststadt" target="_self" class=""> Frankfurt-Nordweststadt </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/hofheim/" title="Hofheim" target="_self" class=""> Hofheim </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/kaiserslautern/" title="Kaiserslautern" target="_self" class=""> Kaiserslautern </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/kaiserslautern-gebrauchtwagenzentrum/" title="Kaiserslautern Gebrauchtwagenzentrum" target="_self" class=""> Kaiserslautern Gebrauchtwagenzentrum </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/pirmasens/" title="Pirmasens" target="_self" class=""> Pirmasens </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/landstuhl/" title="Landstuhl" target="_self" class=""> Landstuhl </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/kirchheimbolanden/" title="Kirchheimbolanden" target="_self" class=""> Kirchheimbolanden </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/bad-bergzabern/" title="Bad Bergzabern" target="_self" class=""> Bad Bergzabern </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/muehlheim/" title="Mühlheim" target="_self" class=""> Mühlheim </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/hainburg/" title="Hainburg" target="_self" class=""> Hainburg </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/roedermark/" title="Rödermark" target="_self" class=""> Rödermark </a> </li>
+                <li class=""> <a tabindex="17" href="/standorte/euler-mobility-service/" title="Euler Mobility Service" target="_self" class=""> Euler Mobility Service </a> </li>
+                 </ul>
+               </li>
+            <li class="sub"> <a tabindex="18" href="/unternehmen/" title="Unternehmen" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Unternehmen </a> 
+              <ul class="menu-level-2"> 
+                <li class=""> <a tabindex="18" href="/unternehmen/ueber-uns/" title="Über uns" target="_self" class=""> Über uns </a> </li>
+                <li class=""> <a tabindex="18" href="/news/" title="News" target="_self" class=""> News </a> </li>
+                <li class=""> <a tabindex="18" href="/unternehmen/sponsoring-kooperationen/" title="Sponsoring &amp; Kooperationen" target="_self" class=""> Sponsoring &amp; Kooperationen </a> </li>
+                <li class=""> <a tabindex="18" href="/unternehmen/online-auftritt/" title="Online Auftritt" target="_self" class=""> Online Auftritt </a> </li>
+                <li class=""> <a tabindex="18" href="/unternehmen/karriere/" title="Karriere" target="_self" class=""> Karriere </a> </li>
+                 </ul>
+               </li>
+            <li class="sub"> <a tabindex="19" href="/kontakt/allgemeiner-kontakt/" title="Kontakt" target="_self" class="sub dropdown-toggle" data-toggle="dropdown"> Kontakt </a> 
+              <ul class="menu-level-2"> 
+                <li class=""> <a tabindex="19" href="/kontakt/allgemeiner-kontakt/" title="Allgemeiner Kontakt" target="_self" class=""> Allgemeiner Kontakt </a> </li>
+                <li class=""> <a tabindex="19" href="/service-zubehoer/servicetermin-vereinbaren/" title="Servicetermin vereinbaren" target="_self" class=""> Servicetermin vereinbaren </a> </li>
+                <li class=""> <a tabindex="19" href="/fahrzeuge/probefahrt-vereinbaren/" title="Probefahrt vereinbaren" target="_self" class=""> Probefahrt vereinbaren </a> </li>
+                <li class=""> <a tabindex="19" href="/kontakt/einwilligung-zum-datenschutz/" title="Einwilligung zum Datenschutz" target="_self" class=""> Einwilligung zum Datenschutz </a> </li>
+                <li class=""> <a tabindex="19" href="/kontakt/feedback/" title="Feedback" target="_self" class=""> Feedback </a> </li>
+                <li class=""> <a tabindex="19" href="/kontakt/rueckruf-wunsch/" title="Rückruf-Wunsch" target="_self" class=""> Rückruf-Wunsch </a> </li>
+                 </ul>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+    <div id="sidebar" class="closed hidden-sm hidden-xs"> <a href="#" class="btn btn-bmw-blue"> <span class="sidebar-text">Ihr Kontakt zu uns</span> <i class="fa fa-angle-left"></i> </a> 
+      <div class="sidebar-container"> 
+        <div class="sidebar-content"> 
+          <div class="row"> 
+            <div class="col-xs-6 grid-1"> 
+              <div class="iconwrapper"> <a href="/standorte/standortuebersicht/" data-toggle="tooltip" data-placement="top" title="Sie möchten uns besuchen? So finden Sie uns."> <i class="fa fa-map-marker"></i> 
+                  <p class="icon-text">Anfahrt</p>
+                   </a> </div>
+               </div>
+            <div class="col-xs-6 grid-2"> 
+              <div class="iconwrapper"> <a href="/kontakt/rueckruf-wunsch/" data-toggle="tooltip" data-placement="top" title="Sie wünschen einen Rückruf? Wir melden uns gerne bei Ihnen."> <i class="fa fa-user"></i> 
+                  <p class="icon-text">Rückruf</p>
+                   </a> </div>
+               </div>
+            <div class="col-xs-6 grid-3"> 
+              <div class="iconwrapper"> <a href="/standorte/standortuebersicht/" data-toggle="tooltip" data-placement="bottom" title="Finden Sie hier Ihren Ansprechpartner und rufen Sie direkt an."> <i class="fa fa-phone"></i> 
+                  <p class="icon-text">Telefon</p>
+                   </a> </div>
+               </div>
+            <div class="col-xs-6 grid-4"> 
+              <div class="iconwrapper"> <a href="/kontakt/allgemeiner-kontakt/" data-toggle="tooltip" data-placement="bottom" title="Teilen Sie uns Ihr Anliegen über unser Kontaktformular mit."> <i class="fa fa-newspaper-o"></i> 
+                  <p class="icon-text">Formular</p>
+                   </a> </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+    <div class="scroll_up"> <i class="fa fa-chevron-up"></i> </div>
+    <script type="text/javascript">
+			var _smartsupp = _smartsupp || {};
+			_smartsupp.key = '0501b9dcef8339f9731e7488c2db7d252b30e29e';
+			window.smartsupp || (function (d) {
+				var s, c, o = smartsupp = function () {
+					o._.push(arguments)
+				};
+				o._ = [];
+				s = d.getElementsByTagName('script')[0];
+				c = d.createElement('script');
+				c.type = 'text/javascript';
+				c.charset = 'utf-8';
+				c.async = true;
+				c.src = 'https://www.smartsuppchat.com/loader.js?';
+				s.parentNode.insertBefore(c, s);
+			})(document);
+		</script>
+    <script id="powermail_conditions_container" data-condition-uri="https://www.bmw-euler.de/?type=3132"></script>
+    <script src="/typo3conf/ext/femanager/Resources/Public/JavaScripts/jquery.fineuploader-3.5.0.min.js" type="text/javascript"></script>
+    <script src="/typo3conf/ext/powermail_cond/Resources/Public/JavaScript/PowermailCondition.js" type="text/javascript"></script>
+    <script src="/typo3conf/ext/femanager/Resources/Public/JavaScripts/Validation.js" type="text/javascript"></script>
+    <script src="/typo3conf/ext/femanager/Resources/Public/JavaScripts/Femanager.js" type="text/javascript"></script>
+    <script type="text/javascript">
+			<!--@formatter:off-->
+            $(document).ready(function() {
+				var countSlideItems = '22',
+					owlSetup_Loop = true,
+					owlSetup_Nav = true,
+					owlSetup_mouseDrag = false;
+
+				if(countSlideItems === 1){
+					owlSetup_Loop = false;
+					owlSetup_Nav = false;
+					owlSetup_mouseDrag = false;
+				}
+
+				var owl = $('.owl-carousel');
+				owl.owlCarousel({
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true,
+					dots: true,
+					mouseDrag: owlSetup_mouseDrag,
+					items: 1,
+					nav: owlSetup_Nav,
+					navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+                	margin: 0,
+                	loop: owlSetup_Loop,
+			 		lazyLoad:true
+				});
+
+				$('.owl-carousel i.fa-angle-left').hover(function(){
+					$(this).toggleClass('fa-angle-double-left fa-angle-left');
+				});
+				$('.owl-carousel i.fa-angle-right').hover(function(){
+					$(this).toggleClass('fa-angle-double-right fa-angle-right');
+				});
+            });
+			<!--@formatter:on-->
+		</script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+    <script type="text/javascript" src="https://cdn.dotzilla.de/vehicleSearch/1.6.1.0/linq.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-i18n/1.6.6/angular-locale_de-de.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.6.6/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.20.0/select.min.js"></script>
+    <script type="text/javascript" src="/typo3temp/vhs-assets-fdfebc2d308011e82472bafe24c55ec8.js"></script>
+    <script type="text/javascript" src="/typo3temp/vhs-assets-80964576a14d73cb45e18eceffdd0610.js"></script>
+    <script type="text/javascript" src="/typo3temp/vhs-assets-cf2d1bebaf8064134f004b38049e336f.js"></script>
+    <script type="text/javascript" src="/typo3temp/vhs-assets-a8c06122701187cf5461d5d8bc97509e.js"></script>
+    <script type="text/javascript" src="/typo3temp/vhs-assets-dea9528ca3fda4691c97141eddac8d57.js"></script>
+    <script type="text/javascript" src="/typo3temp/vhs-assets-35d81b7e42190e7c647d9e9745b6cf8c.js"></script>
+    <script type="text/javascript" src="/typo3temp/vhs-assets-bb458e67f5c997c870a95782682784d1.js"></script>
+    <script type="text/javascript" src="/typo3temp/vhs-assets-691096efd34b5db7efde63605a03a6b1.js"></script>
+    <script type="text/javascript" src="/typo3temp/vhs-assets-83161eff757e9325047d62e883b733d0.js"></script>
+    <script type="text/javascript" src="/typo3temp/vhs-assets-6e6a693f68d47219a33d0d09f8874f0e.js"></script>
+    <script type="text/javascript">
+
+			var carzillaSearch = new CarzillaSearch();
+			carzillaSearch.Config = [];
+
+			function afterTimeout(ccSelector) {}
+			function afterMakeChange() {}
+			function sortSelectOptionsAsc(selectBoxId) {}
+		</script>
+    <script type="text/javascript">
+			var ccSelector = "#cc6018";
+			if( $('a.cc-link-advancedsearch').length ) {
+				$(ccSelector + " a.cc-link-advancedsearch").attr("href", decodeURI($(ccSelector + " a.cc-link-advancedsearch").attr("href").replace("searchparams=", "")));
+			}
+			$(ccSelector + " a.cc-link-result").attr("href", decodeURI($(ccSelector + " a.cc-link-result").attr("href").replace("searchparams=", "")));
+
+			var carzillaSearchInstance6018 = {};
+			carzillaSearchInstance6018.RestServiceUrl = "/?type=17911";
+			carzillaSearchInstance6018.UrlProvider = "queryStringProvider";
+			carzillaSearchInstance6018.CampaignId = "1";
+			carzillaSearchInstance6018.SearchCampaignIds = [];
+			carzillaSearchInstance6018.DefaultSearchParams = [];
+			carzillaSearchInstance6018.SortedLists = [{
+				catalog: 'Makes',
+				property: 'Id',
+				preferredItemsFilter: [9,45,73,26],
+				defaultSortingProperty: 'Name',
+				defaultSortingAscending: true,
+				defaultsGroupLabel: "Weitere Marken",
+				preferredGroupLabel: 'Unsere Marken'
+			}, {
+				catalog: 'BodyTypes',
+				property: 'Identifier',
+				preferredItemsFilter: ['6', '1', '4', '5', '3', '17', '16', '31, 32, 33, 34, 79'],
+				defaultSortingProperty: 'Name',
+				defaultSortingAscending: true
+			}];
+			carzillaSearchInstance6018.callbacks = {
+				appReady: function () {
+					afterTimeout(ccSelector);
+				},
+				afterMakeChange: function (oldMakeId, newMakeId) {
+					afterMakeChange();
+				},
+				afterStatusChange: function(val){
+					//$('.cc-monthly-instalment').selectpicker('refresh');
+				}
+			};
+			carzillaSearch.Config[6018] = carzillaSearchInstance6018;
+		</script>
+    </body>
+   </html>```
