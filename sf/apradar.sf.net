@@ -1,0 +1,206 @@
+```<head>
+<title>AP Radar : Linux/GTK+ Network Stumbler and Wireless Configuration Client</title>
+</head>
+<body>
+
+<center>
+<table>
+<tr>
+<td>
+<img src="logo.png" align=center>
+<td>
+A linux wireless management client<br>
+by Don Park &lt;donp@personaltelco.net&gt;
+<td>
+</tr>
+</table>
+</center>
+
+<table>
+<tr>
+<td>
+
+<!-- <table width=100%>
+<tr bgcolor=green>
+<td> -->
+ <table width=100%>
+ <tr bgcolor=#a03333>
+ <td>
+  <font color=white>
+  Purpose
+  </font>
+ </table>
+<!-- </table> -->
+
+AP Radar is a Linux/GTK+ based graphical netstumbler and wireless 
+ profile manager.
+<!--
+wireless gateway authentication client (stage G), and local node map cache (stage M).
+-->
+ This project 
+makes use of the version 14 wireless extensions in linux 2.4.20 and 
+2.6 to provide access point 
+scanning capabilities for most models of wireless cards. 
+It is meant to replace the manual process of running iwconfig and dhclient. 
+It makes reconfiguring for different 
+APs quick and easy. 
+<br>
+AP Radar was first introduced as a talk on June 26th 2002 at a <a href="http://www.personaltelco.net">
+Personal Telco Project</a> meeting in Portland Oregon.
+<br>
+
+
+
+
+ <table width=100%>
+ <tr bgcolor=#a03333>
+ <td>
+  <font color=white>
+  Media
+  </font>
+ </table>
+Screenshot taken 5-Jul-2004 inside a home in Portland, Or.<br>
+Version 0.52 is the latest release<br>
+<img src="apradar.png">
+<br>
+<li> Slides from the introduction talk in <a href="slides">on-line HTML</a> or OpenOffice <a href="APRadar.sxi">Presenter format</a>
+<li> <a href="http://www.personaltelco.net/download/av/meetings/june-2002-meeting/006-don-park.avi">DIVX video</a> of the presentation.  avi file. 28MB.
+<li> More notes on the <a href="http://www.personaltelco.net/index.cgi/ApRadar">ApRadar wiki page</a>.<br>
+<br>
+
+
+
+
+ <table width=100%>
+ <tr bgcolor=#a03333>
+ <td>
+  <font color=white>
+  Download / Compile
+  </font>
+ </table>
+
+To compile from source you need<br>
+* a 2.6 kernel or a 2.4.20 or newer kernel <br>
+* gtk+ 2.4 header files/static libs (libgtk+2.4_1-devel RPM, libgtk-2.0-dev debian)<br>
+* gtkmm 2.4 header files/static libs (libgtkmm2.4_1-devel RPM, libgtkmm-2.4-dev debian)<br>
+* libiw v27 header files/static libs (libiw27-devel RPM)<br>
+<br>
+Download the source tarball from the <a href="http://sourceforge.net/project/showfiles.php?group_id=57022">Sourceforge File List</a><br>
+<br>
+darcs users can get the source from the read-only darcs repository with:<br>
+darcs get http://apradar.sourceforge.net/darcs/apradar<br>
+<br>
+Here is a quick compatibility test: run 'iwlist eth1 scanning', if that works, ap radar should work too.
+<br>
+
+ <table width=100%>
+ <tr bgcolor=#a03333>
+ <td>
+  <font color=white>
+  ToDo
+  </font>
+ </table>
+
+Next release: "When its ready" -- ID Software <br>
+todo: <br>
+<li> root/user split - dbus daemon
+<li> better dhcp client control 
+<li> update all fields after a scan (only signal strength is updated)
+<li> associate by BSSID, for when two APs have the same ESSID.
+<li> WEP key support
+<li> Profiles 
+<li> Gnome panel docking
+<li> Gnome keyring support
+<br>
+For developers: <a href="design.html">Design Notes</a><br>
+For developers: <a href="testplan.html">Test Plan</a><br>
+
+<br>
+<br>
+
+ <table width=100%>
+ <tr bgcolor=#a03333>
+ <td>
+  <font color=white>
+  Links
+  </font>
+ </table>
+ <li> The <a href="http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html#newapi">Wireless Extensions for Linux</a> page by Jean Tourrilhes 
+ <li> <a href="http://hostap.epitest.fi/">HostAP</a>, a most excellent driver for prism2 cards
+
+<br>
+<br>
+Hosting services graciously provided by SourceForge.net.<br>
+ More information is at the 
+<a href="http://www.sourceforge.net/projects/apradar">AP Radar Source Forge project page</a>
+<br>
+
+<td valign=top width=30%>
+ Download AP Radar 0.52<br>
+ <a href="http://prdownloads.sourceforge.net/apradar/apradar-0.52-1.i586.rpm?download">
+apradar-0.52-1.i586.rpm</a><br>
+ <a href="http://prdownloads.sourceforge.net/apradar/apradar-0.52.tar.gz?download">
+apradar-0.52.tar.gz</a><br><br>
+<!-- or
+ <a href="http://prdownloads.sourceforge.net/apradar/apradar-0.52.ebuild?download">
+gentoo ebuild -->
+ </a>
+ <table>
+ <tr>
+ <td bgcolor=black>
+  <table>
+  <tr bgcolor=white>
+  <td>
+  <table>
+  <tr bgcolor=#3333a0>
+  <td>
+   <font color=white>
+   News
+   </font>
+  </table>
+   May&nbsp;14&nbsp;2004&nbsp;-&nbsp; <a href="http://sourceforge.net/project/showfiles.php?group_id=57022">Version 0.52</a> released, bugfixes <br>
+   Jan&nbsp;10&nbsp;2004&nbsp;-&nbsp; <a href="http://sourceforge.net/project/showfiles.php?group_id=57022">Version 0.50</a> released aka "The Green Doughnut release"<br>
+   Sep&nbsp;18&nbsp;2003&nbsp;-&nbsp; Jason McArthur contributed a gentoo ebuild file. <br>
+   Aug&nbsp;23&nbsp;2003&nbsp;-&nbsp; <a href="http://sourceforge.net/project/showfiles.php?group_id=57022">Version 0.43</a> released <br>
+   Jun&nbsp;14&nbsp;2003&nbsp;-&nbsp; <a href="http://sourceforge.net/project/showfiles.php?group_id=57022">Version 0.41</a> released <br>
+  </table>
+ </table>
+
+ <table>
+ <tr>
+ <td bgcolor=black>
+  <table>
+  <tr bgcolor=white>
+  <td>
+  <table>
+  <tr bgcolor=#3333a0>
+  <td>
+   <font color=white>
+   Mailing List
+   </font>
+  </table>
+	Sign up for the <a href="http://lists.sourceforge.net/lists/listinfo/apradar-devel">developers list here</a>.
+  </table>
+ </table>
+
+<br>
+<a href="http://sourceforge.net/projects/apradar"><img src="http://sourceforge.net/sflogo.php?group_id=57022&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo"></a>
+
+<br>
+Help support AP Radar development.
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="donald.g.park@iname.com">
+<input type="hidden" name="item_name" value="AP Radar Development">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="tax" value="0">
+<input type="hidden" name="lc" value="US">
+<input type="image" src="https://www.paypal.com/images/x-click-but21.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+</form>
+
+ </tr>
+</table>
+</body>
+```
