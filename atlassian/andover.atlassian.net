@@ -1,0 +1,40 @@
+```<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Atlassian Cloud Notifications - Product Unavailable</title>
+        <link rel="stylesheet" href="/_edge/resources/aui-prototyping.css">
+    </head>
+    <body>
+        <div id="page">
+            <section id="content" role="main" class="aui-page-notification aui-page-size-medium">
+                <div id="notifications" class="aui-page-panel">
+                    <div class="aui-page-header-inner">
+                        <section class="aui-page-panel-content">
+                            <h1>Jira has been deactivated</h1>
+                            <div class="aui-page-notification-description">
+                                Your Jira Cloud subscription has been deactivated due to inactivity, and the data will be permanently deleted soon.
+                                <br>
+                                Please <a href="https://www.atlassian.com/company/contact/purchasing-licensing">contact us</a> immediately if you need assistance.
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer">
+                <section class="footer-body">
+                    <ul>
+                        <li><a href="https://status.atlassian.com">Atlassian Status</a></li>
+                        <li><a href="https://confluence.atlassian.com/display/cloud/What's+New">Release Summary</a></li>
+                        <li><a href="https://confluence.atlassian.com/display/Cloud/Atlassian+Cloud+Documentation">Documentation</a></li>
+                        <li><a href="https://answers.atlassian.com">Answers</a></li>
+                    </ul>
+                    <div id="footer-logo"><a href="https://www.atlassian.com/" target="_blank">Atlassian</a></div>
+                </section>
+            </footer>
+        </div>
+    </body>
+</html>
+```
