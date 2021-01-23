@@ -1,0 +1,144 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Arlinux</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body onload="MM_preloadImages('images/home_on.gif','images/pack_on.gif','images/docs_on.gif','images/contact_on.gif')">
+<div id="fixme">
+<div id= "todo">
+<div id= "header"><img src="images/header_1.gif" alt="ARlinux" width="393" height="269" border="0"/><img src="images/header_2.gif" alt="ARlinux" width="391" height="269" border="0"/></div>
+<div id= "botonera"><img src="images/header_3.gif" alt="ARlinux" width="54" height="91"/><a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image9','','images/home_on.gif',1)"><img src="images/home.gif" alt="home" name="Image9" width="75" height="91" border="0" id="Image9" /></a><a href="packages.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','images/pack_on.gif',1)"><img src="images/pack.gif" alt="packages" name="Image6" width="78" height="91" border="0" id="Image6" /></a><a href="documentation.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','images/docs_on.gif',1)"><img src="images/docs.gif" alt="docs" name="Image7" width="79" height="91" border="0" id="Image7" /></a><a href="contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image8','','images/contact_on.gif',1)"><img src="images/contact.gif" alt="contact" name="Image8" width="78" height="91" border="0" id="Image8" /></a><img src="images/header_4.gif" alt="ARlinux" width="420" height="91"/></div>
+<div id="content">
+<h1 class="titulo">What is ARLinux?</h1>
+  <p>Arlinux its for Advanced Router/Recovery Linux in two 1.44MB floppy disk or usb memory.
+    <br />
+    You can use it on olds machines with low RAM (+8MB) and cpu (+486) and can be used for router/firewall/nating/proxy or recovery a system or files.</p>
+  <p>Its based on 2.6 and 2.4 kernels with support for lots of NICs, iptables, filesystems vfat, ntfs, smbfs, solaris, others.., SCSI controllers, IDE, SATA, USB storage, etc, etc...</p>
+  <p>First i recommend you to try usb version (if your bios support booting from usb) its more easy and fast. If your bios is old and dont support usb boot try with floppy disk.</p>
+  <h2>Some features are: </h2>
+<div class="padding">- iptables firewall<br />
+- ssh/telnet remote access<br />
+- httpd sever<br />
+- dhcp client, pppoe client<br />
+- Filesystem tools (e2fsck, fdisk, mkfs.ext2,mkswap, ... )<br />
+- Network tools (telnet,ping,nc,traceroute,ip,tc, tcpdump, ...)<br />
+- inadyn client for dinamic dns updates(dyndns, others)<br />
+- Links for web surfing<br />
+- Others (ntpdate, hexdump, nettoe (multiplayer tic-tac-toe)  )</div>
+<br />
+   <h2>Separate tools and kernel modules:</h2>
+    Also you can download more modules for your hardware(if the kernel dont have support)<br />
+    and install more tools like:
+  <div class="padding"><p> - HONEYD V1.5b<br />
+    - SQUID Version 2.6.STABLE3<br />
+    - BIND 9.3.2-P2<br />
+    - Samba 2.2.8a <br />
+    - Zebra version 0.95a<br />
+    - Nmap 4.20<br />
+    - CentOS 4.6 Base system<br />
+    - debootstrap<br />
+    - netkit-routed-0.17<br />
+    - tcpdump version 3.8.3<br />
+    - IPTraf 3.0.0 <br />
+    - Bandwidth Monitor NG (bmw-ng) v0.5<br />
+    - Links 0.99pre9-no-ssl internet Browser<br />
+    - More tools comming soon....<br />
+    - Kernel Modules</p> </div>
+  <p class="barras">&nbsp;&nbsp;Downloads</p>
+  <div id="download">
+<p>You have to download two files for floppy: boot and root.<br />
+  For Kernel 2.6 have two version one for firewall/routing supporting iptables, most nic and network protocols but basic filesystems (ext2, vfat, swap and you have modules).<br />
+  And the other version is for recovery/rescue
+  supporting lots of filesystem, scsi, sata, etc and basic network but not iptables for example...</p>
+<h3>Kernel 2.6 firewall/routing version: </h3>
+ <div class="divClear"><img src="images/3floppy1.gif" alt="download" width="48" height="48" class="imagen" />
+      <p><a href="http://downloads.sourceforge.net/arlinux/arlinux-firewall-2.0-boot.img.gz">arlinux-firewall-2.0-boot.img.gz</a><br />
+    md5sum   1483c39590c64fef2d2ca56963401166</p>
+ </div>
+ <div class="divClear"><img src="images/3floppy2.gif" alt="download" width="48" height="48" class="imagen" />
+   <p><a href="http://downloads.sourceforge.net/arlinux/arlinux-firewall-2.0-root.img.gz">arlinux-firewall-2.0-root.img.gz</a><br />
+    md5sum   77980706f119b6fced07c14a4385dec2</p>
+	</div>
+<h3>Kernel 2.6 recovery/rescue version:</h3>
+<div class="divClear"><img src="images/3floppy1.gif" alt="download" width="48" height="48" class="imagen" />
+        <p><a href="http://downloads.sourceforge.net/arlinux/arlinux-recovery-2.0-boot.img.gz">arlinux-recovery-2.0-boot.img.gz</a><br />
+    md5sum   1483c39590c64fef2d2ca56963401166 </p></div>
+<div class="divClear"><img src="images/3floppy2.gif" alt="download" width="48" height="48"/>
+<p><a href="http://downloads.sourceforge.net/arlinux/arlinux-recovery-2.0-root.img.gz">arlinux-recovery-2.0-root.img.gz</a><br />
+    md5sum   77980706f119b6fced07c14a4385dec2</p></div>
+<h3>kernel 2.4:</h3>
+<div class="divClear"><img src="images/3floppy1.gif" alt="download" width="48" height="48" class="imagen" />
+      <p><a href="http://downloads.sourceforge.net/arlinux/arlinux-1.1-boot.tar.gz">arlinux-1.1-boot.tar.gz</a><br />
+      md5sum   1483c39590c64fef2d2ca56963401166</p></div>
+<div class="divClear"><img src="images/3floppy2.gif" alt="download" width="48" height="48" class="imagen" />
+    <p><a href="http://downloads.sourceforge.net/arlinux/arlinux-1.1-root.tar.gz">arlinux-1.1-root.tar.gz</a><br />
+    md5sum   77980706f119b6fced07c14a4385dec2</p></div>
+  <h3>USB kernel 2.6:</h3>
+<div class="divClear"><img src="images/usb.gif" alt="download" width="48" height="48" class="imagen" />
+  <p><a href="http://downloads.sourceforge.net/arlinux/arlinux-2.0-usb.tar.gz">arlinux-2.0-usb.tar.gz</a><br />
+    md5sum   dfe5cedd5c12d4876e6570512c0c6c74</p></div>
+   <h3>USB kernel 2.4:</h3>
+<div class="divClear"><img src="images/usb.gif" alt="download" width="48" height="48" class="imagen" />
+  <p><a href="http://downloads.sourceforge.net/arlinux/arlinux-usb-1.1.tar.gz">arlinux-usb-1.1.tar.gz</a><br />
+    md5sum   dfe5cedd5c12d4876e6570512c0c6c74</p>
+</div><div style=" clear:both"></div>
+</div>  
+<h2>FLOPPY INSTALLATION</h2>
+  <p>When finish the downloads you need to uncompress the .gz file and then you can create the two disk image to a differents 1.44 floppy disks with dd in linux or rawrite in windows. Example:</p>
+  <h3>Â» In Linux:</h3>
+<div class="padding"> Uncompress .gz file<br />
+# gunzip arlinux-xxx-boot.img.gz<br />Insert a blank floppy disk without bad cluster and:<br />
+    # dd if=arlinux-xxx-boot.disk of=/dev/fd0<br />
+    Another blank floppy disk and:<br />
+    # dd if=arlinux-xxx-root.disk of=/dev/fd0 </div> 
+<h3>Â» In windows:</h3>
+<div class="padding"><a href="http://en.wikipedia.org/wiki/WinRaWrite" target="_blank"> rawrite.exe</a></div>
+  <p>Then insert the boot floppy disk, reboot the computer and boot from the floppy. When ask for the root filesystem insert the root disk and press enter....if you have luck...in a few minutes, you get a working mini-linux system. <strong>To login use root user with blank password</strong>.</p>
+<h2>USB INSTALLATION </h2>
+  <p>Untar arlinux-usb-xxx.tar.gz copy all files from arlinux directory to your usb memory then execute <a href="http://syslinux.zytor.com/" target="_blank">syslinux</a> pointing to your vfat partition:</p>
+  <h3>Â» In linux:</h3>
+   <div class="padding"><p># syslinux /dev/sda<br />
+    some memory works with<br />
+    # syslinux /dev/sda1</p>
+  <p><a href="http://syslinux.zytor.com/" target="_blank">syslinux</a> runs under windows too.... </p></div>
+  <p>Boot from your USB (if your bios support it) and <strong>login as root with blank password</strong>.<br />
+    Note If arlinux boots fine you can load usb and usb_storage modules in kernel 2.4
+    (in 2.6 you have support on kernel) and then you can mount the usb memory and install
+    arlinux external packages or save config files or recovery data to your usb, etc.</p>
+  <div id="contact"><h3>CONTACT</h3>
+    For help, contacts or bugs use this mail: <a href="mailto: arlinux.distro@gmail.com"><br />
+    arlinux.distro@gmail.com</a><br /> 
+    Section[One]</div>
+  </div>
+</div>
+</div>
+</body>
+</html>
+```
