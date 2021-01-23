@@ -1,0 +1,2 @@
+```<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>akamai-test-origin/index.html</Key><RequestId>C3EAD6A49CF3A86F</RequestId><HostId>9nDiBV91YMkRrTB6L5mOo6PBKRm1uLxTHXdIDS6Ikb8SuO8wGc3W9EtGcLg5uWBecWez87W5uu0=</HostId></Error>```
