@@ -1,0 +1,33 @@
+```<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>ТамТам</title><meta name="description" content="Собери всех друзей в одном мессенджере"><meta name="keywords" content="мессенджер, общение, приятное общение, сообщения, чаты, каналы, друзья, контакты, переписка, написать другу, создать канал, читать, новости, стикеры, бесплатные стикеры, живые стикеры, знаменитости, одноклассники сообщения, общение с семьей, общение с друзьями"><meta property="og:site_name" content="ТамТам"><meta property="og:url" content="https://tamtam.chat/"><meta property="og:type" content="website"><meta property="og:title" content="ТамТам - чаты и каналы"><meta property="og:description" content="Собери всех друзей в одном мессенджере"><meta property="og:image" content="//web.tamtam.chat/-/images/og_logo.1850472185.png"><meta name="google-site-verification" content="Pv3WuoqzAb05NxqHCgZ29Z2jmQ-NiqHSdZYJEKn0r4k"><link rel="icon" type="image/png" href="//web.tamtam.chat/-/images/favicon.1502386409.png" data-unread-url="//web.tamtam.chat/-/images/favicon-unread.834549084.png"><link rel="stylesheet" href="//web.tamtam.chat/-/vendor/mapbox-gl.4162899893.css"><link rel="stylesheet" href="//web.tamtam.chat/-/messenger-app.3521501184.css"></head><body url="wss://ws.tamtam.chat/websocket"><script src="//web.tamtam.chat/-/polyfill.27876267851.js" crossorigin="anonymous" defer="defer"></script><script data-id="model" src="//web.tamtam.chat/-/messenger-model.7842264951.js" crossorigin="anonymous" defer="defer"></script><script data-id="app" src="//web.tamtam.chat/-/messenger-app.16505963361.js" crossorigin="anonymous" defer="defer"></script><script data-src="//web.tamtam.chat/-/vendor/dash.mediaplayer.min.14206977001.js" crossorigin="anonymous" async></script><script data-src="//web.tamtam.chat/-/vendor/hls.light.min.33564252871.js" crossorigin="anonymous" async></script><script data-src="//web.tamtam.chat/-/vendor/mapbox-gl.26324124511.js" crossorigin="anonymous" async></script><script data-id="codec" data-src="//web.tamtam.chat/-/vendor/lame.min.17781063891.js" crossorigin="anonymous" async></script><script>(function() {
+            'use strict';
+            var modelScript = document.querySelector('script[data-id="model"]'),
+                socketUrl = document.body.getAttribute('url'),
+                target = document.querySelector('body'),
+                appScript = document.querySelector('script[data-id="app"]'),
+                modelInstance = null,
+                appInstance = null;
+
+            modelScript.onload = bootstrap;
+            appScript.onload = bootstrap;
+
+            function bootstrap() {
+                if (window.model && !modelInstance) {
+                    modelInstance = window.model.createModel(socketUrl);
+                    window.model.addLegacy(target, model);
+                }
+
+                if (window.app && !appInstance && modelInstance) {
+                    appInstance = window.app.mountUIApp(modelInstance);
+
+                    appInstance.logFirstPaint();
+
+                    if (!appInstance.store.data.auth || appInstance.store.data.auth.state === 'unauthorized') {
+                        appInstance.store.log.screen('WELCOME');
+                    }
+
+                    Array.from(document.querySelectorAll('script[data-src]')).forEach(e => e.src = e.dataset.src);
+                    window.model = null;
+                    window.app = null;
+                }
+            }
+        })();</script></body></html>```
