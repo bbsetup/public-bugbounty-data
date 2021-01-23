@@ -1,0 +1,88 @@
+```<html>
+	<head>
+		<meta name="Author" content="netscanner the real one!">
+		<meta http-equiv="charset" content="iso-8859-1">
+		<meta http-equiv="expires" content="8.3.2000">
+		<meta http-equiv="content-type" content="text/html">
+		<title>Linux Kernel Modul für das AK-Modul-Bus CompuLAB USB</title>
+	</head>
+
+	<body bgcolor="#00AAFF" >
+		<h1 align=center>Das Linux Kernel Modul apclab.o f&uuml;r das <br>AK-Modul-Bus CompuLAB USB </h1>
+		<p>
+		<h4 align=center> written by <a href="mailto:Marcus.Maul@post.rwth-aachen.de">Marcus Maul</a></h4> 
+		<p><p>
+		<table width="100%"> <tr width="100%"> <td width="100%" align=center>
+		<img align="center" valign="center" src="compulab.jpg" alt="Bild des Cypresscontrollers">
+		</td></tr></table>
+		<p>
+		DAs CompuLAB zeichnet sich durch die folgenden Features aus:
+		<ul>
+			<li> Leichter Anschluß an den USB-Bus
+      <li> 8 - Digital - Eing&auml;nge
+      <li> 8 - Digital - Ausg&auml;nge
+      <li> 2 - Analog-Ports
+		</ul>
+		Das Ger&auml;t ist nur über die Frima <a href="http://www.ak-modul-bus.de">AK-Modul-Bus</a> in Deutschland zu beziehen.
+		<p>
+		Mit dem von mir geschriebenen<a href="http://sourceforge.net/projects/apclab/">Linux Kernel Modul</a> ist es möglich, die Portzustände der
+		einzelnen Eingabe-Ports 0 -7, sowie die Ausgabe - Ports 0 - 7, zu setzen bzw. auszulesen.
+		<p>
+		<p>
+		<h2>Das Modul apclab.o </h2>
+		<p>
+		Das erstellen des Moduls
+		Zum kompilieren sind die Kernel-Header bzw. Kernel-Quellen des verwendeten Kerles notwendig, sowie root-Rechte. <br>
+		Man wechselt nach entpacken des Archives (tar -xvzf cyport-XX.tar.gz) in das Verzeichniss modul und ruft dort make und anschließend make install auf.<br>
+		Sollte make erfolgreich kompiliert haben, kann man das Modul mit insmod ./apclab.o installieren und überprüfen, ob das Ger&auml;t erkannt wurde.<br>
+		Nun kann man mit dem Lab arbeiten.
+		<p>
+		<p>
+		<h2>Die API</h2>
+		Um die krüptischen Aufrufe des Treibers zu vereinfachen, habe ich eine API (Advanced Programming Interface) zu diesem Treiber entwickelt. <br>
+		Die einzelnen Zustände eines Port werden dabei über Bool-Variablen in der structure Port dargestelt. Sie ist im Verzeichniss API zu finden
+		<p>
+	<pre>
+	struct Port {
+		bool P0 :1;
+		bool P1 :1;
+		bool P2 :1;
+		bool P3 :1;
+		bool P4 :1;
+		bool P5 :1;
+		bool P6 :1;
+		bool P7 :1;
+	};
+	</pre>
+		<p>
+		Es ist also notwendig, zwei Variablen mit dieser Struktur zu erstellen (Beispiel: Port Port1; Port Port2;)<br>
+		<p>
+		Über die folgenden Funktionen wird dann das Device selber gesteuert:<br>
+		<ul>
+			<li> void  init              (const unsigned short int &Device)
+			Mit dieser Funktion wird das Device initiert, nachdem es an den USB-Bus angeschlossen wurde. <br>
+			Als Argument wird der Funktion die Gerätenummer übergeben. Im Fall des ersten Portbausteins die 0, beim zweiten die 1 usw.
+			<p>
+      <li> Port read_Lab(const Port & Output, double &Ausgang_A, double &Ausgang_B)
+      Der Variable Output übergibt man die Port-Structute, die nachher auf den Ausgängen des Lab abgebildet werden soll.<br>
+      Die Variablen A und B geben die Spannung, die an den beiden Ports A und B anliegt aus.<br>
+      Der Rückgabewert gibt den Zustand der Eing&auml;nge wieder.
+ 			<li>void  deinit            (void);<br>
+			Irgendwann sollte das Programm zu ende sein und damits keine Probleme mit offenen Handels gibt, bitte diese Funktion aufrufen.
+			Sie räumt dann enstrechend auf.
+			<p>
+
+		</ul>
+		
+	Ich <a href="mailto:Marcus.Maul@post.rwth-aachen.de">(Marcus Maul)</a> wünsche allen viel Spaß beim programmieren!!!
+	
+	An dieser Stelle nochmals vielen Dank an den <a href="http://www.aachenprogrammingclub.de">aPc</a>, der mir bei der Programmierung tatkräftig durch Test und Hilfestellungen
+	zur Seite stand, sowie <a href="http://www.MartinHenne.de">Martin Henne</a> und <a href="http://www.BKainka.de">Burkhard Kainka</a>.<br>
+	<p> <P>
+	Ich selber bin Mitglied des <img src="http://www-users.rwth-aachen.de/martin.henne/mh/apc/apc_bunt.gif" alt="aPc-Logo">.
+	<p> <P>
+	Special Thanks to Sourceforge for hosting this project!!!<br>
+	<A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=75026&amp;type=5" width="210" height="62" border="0" alt="SourceForge.net Logo"></A>
+
+</html>
+```
