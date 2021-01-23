@@ -1,0 +1,292 @@
+```
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+
+  <head>
+    <title>Auftragnehmer Portal (Telekom)</title>    
+    <meta http-equiv='X-UA-Compatible' content='IE=Edge' />
+    <meta http-equiv='content-type' content='text/html; charset=UTF-8' />    
+    <meta name="context-path" content=""/>
+    <meta http-equiv="origin-trial" content="AuKzBwpKs3C6C3//sRA79NOWhxkFuGkYMESo8yLaZKIPCjscXVEFV8dCwcoRBtbe17XYTzIC5isRaUZJ38YyHAgAAABZeyJvcmlnaW4iOiJodHRwczovL2FudGstYWJuYWhtZS50ZWxla29tLmRlOjQ0MyIsImZlYXR1cmUiOiJBcHBDYWNoZSIsImV4cGlyeSI6MTYxNzc1MzU5OX0="/>
+    <script type="text/javascript" src="./static/javascript/jquery-3.2.1.min-ver-C9F5AEECA3AD37BF2AA006139B935F0A.js"></script>
+<script type="text/javascript" src="./static/javascript/bootstrap.min-ver-7B148B8CC6332041A191059F7D9BCC15.js"></script>
+<script type="text/javascript" src="./static/javascript/component/navBarPanel-ver-21B4045E6B95F46BD3622065AC4719C5.js"></script>
+<script type="text/javascript" src="./static/javascript/common-ver-2B91B606A681EC0B11562DFA99F53FB1.js"></script>
+<script type="text/javascript" src="./static/javascript/misc/focusOnEntry-ver-BDC93DC27A06DC3579DBDE7A8FAFE5C2.js"></script>
+<link rel="stylesheet" type="text/css" href="./static/css/bootstrap-ver-971612E48636980CBC1D58214ABE6F56.css" />
+<link rel="stylesheet" type="text/css" href="./static/css/bootstrap-antk-ver-1112CF124A9EAAEDE1C76DB5FEB392F2.css" />
+<link rel="stylesheet" type="text/css" href="./static/css/main-ver-C4C63B00C7A13633EC326F9E2CD0ABEF.css" />
+<link rel="stylesheet" type="text/css" href="./static/css/layout-ver-D5BDE0EB4D63879B9FF42B95C651A847.css" />
+<link rel="stylesheet" type="text/css" href="./static/css/component/tagessummenPopUp-ver-B25E5546BD94E642FDF3D71DA2673E61.css" />
+<link rel="stylesheet" type="text/css" href="./static/css/main.bootstrap-ver-E34FC27D7FECD3035C02DF6F0AA2C5DF.css" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="./static/images/favicon/favicon-ver-F7899C8EC5FD641FEF94E615EC5C9A94.ico"/>        
+  </head>
+  
+  <body> 
+    <div id="head" role="banner">
+      <div style="margin-top:0px;margin-left:0px;width: 100%;">
+        <img id="t_home_logo" src="./static/images/t-logo-ver-3B4EA3D273EAE42F924CD0895FC171B5.gif" alt="" width="58" height="48"/>
+        <img id="t_home_slogan" src="./static/images/t-slogan-ver-4AC647E52C8B054CED882A5204D01C9D.gif" alt="" width="170" height="48"/>
+      </div>
+    </div>
+
+	<nav id="navbar" role="navigation" class="navbar navbar-default bootstrap-ready">
+	  <script>
+/*<![CDATA[*/
+
+		$(window).on("load", function () {
+			// [ANTKTIT-2629]: workaround which makes the field service buttons accessible by keyboard
+			$("#divNiederlassungForm div.bootstrap-select div.inner").keydown(function(e) {
+				var lastItem = $(this).find("li").last();
+				// stop further event handling when TAB was pressed on the last item
+				// and switch focus to the next non-disabled button
+				if (e.which === 9 && lastItem.hasClass("active")) {
+					lastItem.removeClass("active");
+					lastItem.find("a.active").removeClass("active");
+					$(this).closest("div.dropdown-menu").find("button:not([disabled])").first().focus();
+					e.stopPropagation(); // prevents bootstrap-select event
+					e.preventDefault(); // prevents default browser event (TAB)
+				}
+			});
+		});
+	  
+/*]]>*/
+</script>
+	  <div>
+        <div class="navbar-header">
+          <div id="details-sm-title"><h1></h1></div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"
+          	tabindex="1" antk-rehabit-focus="antk-rehabit-focus">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+          
+          
+		<a class="navbar-brand" href="./willkommen;jsessionid=48236DB9A862D1C3699F54F269741D98?-1.ILinkListener-navbar-22_StartseiteOffen-menuLink" title="Anmeldeseite aufrufen" antk-rehabit-focus="antk-rehabit-focus" tabindex="2">
+			AN TK
+		</a>
+	
+          <div class="navbar-menu-right">
+	          
+	          
+	          <div style="clear: both;"></div>
+          </div>
+        </div>
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          	<ul class="nav navbar-nav">
+          		
+              		
+      	
+      
+              	
+              		
+      	
+      
+              	
+              		
+      	
+      
+              	
+              		
+      	
+      
+              	
+              		
+      	
+      
+              	
+              		
+      	
+		<li class="active">
+			<a menulink="" id="19_Anmelden" href="./willkommen;jsessionid=48236DB9A862D1C3699F54F269741D98" antk-rehabit-focus="antk-rehabit-focus" tabindex="7"> <!-- added for accessability -->
+				
+				
+				<span>Anmelden</span>
+			</a>
+		</li>
+	
+      
+              	
+              		
+      	
+      
+              	
+              		
+      	
+		<li>
+			<a menulink="" id="15_PasswortVergessen" href="./wicket/bookmarkable/de.telekom.antk.web.presentation.dialogs.KennwortVergessen.KennwortVergessenWebPage;jsessionid=48236DB9A862D1C3699F54F269741D98" antk-rehabit-focus="antk-rehabit-focus" tabindex="9"> <!-- added for accessability -->
+				
+				
+				<span>Kennwort vergessen</span>
+			</a>
+		</li>
+	
+      
+              	
+              		
+      	
+		<li>
+			<a menulink="" id="16_KennungVergessen" href="./wicket/bookmarkable/de.telekom.antk.web.presentation.dialogs.Willkommen.KennungVergessen;jsessionid=48236DB9A862D1C3699F54F269741D98" antk-rehabit-focus="antk-rehabit-focus" tabindex="10"> <!-- added for accessability -->
+				
+				
+				<span>Kennung vergessen</span>
+			</a>
+		</li>
+	
+      
+              	
+              		
+      	
+		<li>
+			<a menulink="" id="17_FAQ" href="./wicket/bookmarkable/de.telekom.antk.web.presentation.dialogs.Willkommen.FAQ;jsessionid=48236DB9A862D1C3699F54F269741D98" antk-rehabit-focus="antk-rehabit-focus" tabindex="11"> <!-- added for accessability -->
+				
+				
+				<span>FAQ</span>
+			</a>
+		</li>
+	
+      
+              	
+              		
+      	
+		<li>
+			<a menulink="" id="18_Kontakt" href="./wicket/bookmarkable/de.telekom.antk.web.presentation.dialogs.Willkommen.Kontakt;jsessionid=48236DB9A862D1C3699F54F269741D98" antk-rehabit-focus="antk-rehabit-focus" tabindex="12"> <!-- added for accessability -->
+				
+				
+				<span>Kontakt</span>
+			</a>
+		</li>
+	
+      
+              	
+		        
+          	</ul>
+        </div>
+      </div>
+      
+	</nav>
+    
+    <div id="content" role="main" class="bootstrap-ready">
+      <div class="container">
+        
+
+	<div class="row">
+		<div class="col-xs-24">
+			
+	
+		<div class="row page-welcome-title">
+			<h1>
+				<span>Herzlich Willkommen</span>
+				<br/>
+				<span class="text-ultra">Auftragnehmer Portal</span>
+				
+					<br/>
+		      		<span class="login-title-enviroment">[ <span>ABNAHME FES2</span> ]</span>
+		    	
+			</h1>
+		</div>
+		<div class="row">
+    		<div class="col-sm-8 col-sm-offset-8 col-xs-12 col-xs-offset-6">
+     			
+  		<script>
+/*<![CDATA[*/
+
+	  		$(document).ready(function () {
+	  			$("ul.feedbackPanel").addClass("alert")
+	  				.addClass("alert-danger")
+	  				.css("padding-left", "30px");
+	  		});
+  		
+/*]]>*/
+</script>
+  		
+  		<div class="panel panel-default">
+		  	<div class="panel-heading">
+		    	<h1 class="panel-title">Anmeldung</h1>
+		 	</div>
+		  	<div class="panel-body">
+		  		<div class="feedbackPanel">
+  
+</div>
+		  		<div>
+			  		<form autocomplete="off" id="id1" method="post" action="./willkommen;jsessionid=48236DB9A862D1C3699F54F269741D98?-1.IFormSubmitListener-loginPanel-loginForm"><div style="width:0px;height:0px;position:absolute;left:-100px;top:-100px;overflow:hidden"><input type="hidden" name="id1_hf_0" id="id1_hf_0" /></div> 
+			  			<div class="form-group">
+			  				<label class="control-label" for="username">Kennung</label>
+			    		    <input id="username" type="text" class="form-control" maxlength="40" autofocus="" value="" name="username">
+			    			<script>
+/*<![CDATA[*/
+
+			    				$(function() {$('[autofocus]').focus()});
+					        
+/*]]>*/
+</script>
+			    		</div>
+			    		<div class="form-group">
+			    			<label class="control-label" for="password">Kennwort</label>
+			    			<input id="password" type="password" class="form-control" maxlength="100" value="" name="password">
+			    			<p class="form-control-static"><a class="pull-right" href="./willkommen;jsessionid=48236DB9A862D1C3699F54F269741D98?-1.ILinkListener-loginPanel-loginForm-kennwortVergessenLink">Kennwort vergessen?</a></p>
+			    		</div>
+			    		<!-- Hinweis: Für den Login müssen Cookies zugelassen sein! -->
+			    		<input name="login" value="Anmelden" type="submit" class="btn btn-lg btn-primary btn-block"/>
+			  		</form>
+			  		
+			  			<hr/>
+			  			<div class="alert alert-warning text-center" role="alert">
+			  				<span>Beachten Sie die aktuellen Informationen nach der Anmeldung!</span>
+			  			</div>
+			  		
+		  		</div>
+		  	</div>
+		</div>
+		
+    
+     		</div>
+     	</div>
+
+      	
+    
+    
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-24">
+			<hr class="hr-large" />
+			<ul class="links-impressum">
+				<li>
+					<a target="_blank" href="http://www.telekom.de/impressum">Impressum</a>
+				</li>
+				<li>
+					<a href="./willkommen;jsessionid=48236DB9A862D1C3699F54F269741D98?-1.ILinkListener-bottomLinksContainer-haftungsausschlussLink">Haftungsausschluss</a>
+				</li>
+				<li>
+					<a target="_blank" href="http://www.telekom.de/datenschutz">Datenschutz</a>
+				</li>
+				<li class="pull-right">
+        			<a href="./willkommen;jsessionid=48236DB9A862D1C3699F54F269741D98?-1.ILinkListener-bottomLinksContainer-fragenZuRechnungenDocLink">Fragen zu Ihren Rechnungen</a>
+        		</li>
+				<li class="pull-right">
+        			<a target="_blank" href="https://www.telekom.com/de/konzern/einkauf">Lieferantenportal</a>
+        		</li>
+			</ul>
+		</div>
+	</div>
+
+
+      </div>
+    </div>
+
+    <div id="foot" role="contentinfo" class="bootstrap-ready">
+      	<span>&copy; Telekom 2020 <span>v16.1 r (2021-01-22T21:19:37Z)</span></span>
+      	
+      		[<span>ABNAHME FES2</span>]
+      	
+      	<span id="orders-loaded"></span>
+    </div>
+
+	
+  </body>
+</html>
+```
