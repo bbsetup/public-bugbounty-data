@@ -1,0 +1,2 @@
+```<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>amicus/index.html</Key><RequestId>BFFBA68CC028E533</RequestId><HostId>2+/taIFi16DtzIdl5SSfw1l40ZDX4cIK7UxStExaJhce1zdI8ElQlBS4NJpP/p+Lr2b8yKe+FhI=</HostId></Error>```
