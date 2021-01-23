@@ -1,0 +1,2177 @@
+```<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>American Wine Story</title>
+
+  <meta name="title" content="American Wine Story">
+  <meta name="description" content="After an upstart winemakers untimely death, his sister steps in to try to save his fledgling winery for his eight-year-old son: American Wine Story blends this with other tales of risk and reward for those who chase their American Dreams with a bottle in one hand and a corkscrew in the other.">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://americanwinestory.vhx.tv&format=json" title="American Wine Story" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://americanwinestory.vhx.tv&format=xml" title="American Wine Story" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://americanwinestory.vhx.tv">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      /* 
+   ____    ____    __       __  __   __   __   ______   __  __     
+  /\  _`\ /\  _`\ /\ \     /\ \/\ \ /\ \ /\ \ /\__  _\ /\ \/\ \    
+  \ \ \/\ \ \ \L\_\ \ \    \ \ \ \ \\ `\`\/'/'\/_/\ \/ \ \ `\\ \   
+   \ \ \ \ \ \  _\L\ \ \  __\ \ \ \ \`\/ > <     \ \ \  \ \ , ` \  
+    \ \ \_\ \ \ \L\ \ \ \L\ \\ \ \_\ \  \/'/\`\   \_\ \__\ \ \`\ \ 
+     \ \____/\ \____/\ \____/ \ \_____\ /\_\\ \_\ /\_____\\ \_\ \_\
+      \/___/  \/___/  \/___/   \/_____/ \/_/ \/_/ \/_____/ \/_/\/_/
+  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* GLOBAL  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  *, *:before, *:after {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+  }
+  
+  .bgone {
+  padding-top:65px;
+  }
+  
+  .updates {
+  background:#432328!important;
+  }
+  
+  .tweets {
+  color:#fff;
+  }
+  
+  .synopsis {
+  line-height:2;
+  font-size:18px;
+  }
+  
+  #instagram_feed p {
+  color:#fff;
+  }
+  
+  #quote {
+  display:block;
+  margin:0 auto;
+  padding-top:100px;
+  }
+  
+  #laurels {
+  display:block;
+  margin:0 auto;
+  width:70%;
+  }
+  
+  #buywrapper {
+  width:750px;
+  margin:10px auto;
+  background:#fdf2ed;
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  position:relative;
+  padding:20px;
+  }
+  
+  #buywrapper2 {
+  width:750px;
+  margin:auto;
+  position:relative;
+  padding:0px;
+  }
+  
+  .buywrapper3 {
+  width:330px;
+  margin:15px; 
+  background:#fdf2ed;
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  position:relative;
+  padding:20px;
+  text-align:center;
+  float:left;
+  }
+  
+  @media only screen and (max-width: 767px) {
+  .buywrapper3 {
+  float:none;
+  }
+  }
+  
+  #trailer {
+  width:500px;
+  height:291px;
+  }
+  
+  #buybtnwrapper {
+  position: absolute;
+  top: 5%;
+  left: 540px;
+  }
+  
+  #buybtnwrapper h5 {
+  font-size:24px;
+  }
+  
+  body .mobile.menu-link {
+  display:none!important;
+  color:blue;
+  }
+  
+  
+  
+  @media (max-width:768px) {
+  .titleimg {
+  width:100%;
+  }
+  
+  #quote {
+  display:none;
+  }
+  
+  #laurels {
+  display:none;
+  }
+  
+  #buywrapper {
+  width:100%;
+  margin:0px auto;
+  }
+  
+  #buybtnwrapper {
+  position:relative;
+  top:0px;
+  left:0px;
+  }
+  
+  #trailer {
+  display:none;
+  }
+  }
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  body {
+  	font-family: 'Open Sans',sans-serif;
+    background: #f7f5f6;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialised;
+  }
+  body.open {
+  	position: fixed;
+  }
+  h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; line-height: 1; }
+  a, a:visited {
+  	color: #ffffff;
+    text-decoration: none;
+  }
+  a:hover, a:visited:hover {
+  
+  }
+  hr {
+  	border: 0;
+    height: 1px;
+    border-bottom: 1px dotted #3aa5dd;  
+  }
+  ul, ol {	list-style: none; margin: 0; padding: 0;  }	
+  .button {
+  	display: inline-block;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px 14px;
+    background-color: #3aa5dd;
+    color: #ffffff;  
+       -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .button:hover, .button:visited:hover {
+  	background-color: #2d80ad;
+  }
+  .bgone { background-color: #b8ab8c; }
+  .bgtwo { background-color: #f7f5f6; }
+  .white, .bgwhite { background-color: #FFF; }
+  .black, .bgblack { background-color: #000; }
+  
+  .contained {
+  	width: 960px;
+    margin: 0 auto;
+  }
+  .padded {
+  	padding: 20px;
+  }
+  .huge {
+  	font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+  }
+  body .mobile {
+  	display: none;
+  }
+  .pane {
+  	position: fixed;
+    display: none;
+    z-index: 15;
+    top: 125px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    padding: 0;
+    overflow-y: scroll;
+    background-color: #b8ab8c;
+  }
+  .pane .padding {
+  	padding: 20px;
+  }
+  .pane li {
+  	margin-bottom: 10px;
+  }
+  .pane a {
+  	color: #FFF;
+    font-weight: 900;
+  }
+  .pane a:hover {
+  	opacity: .8;
+  }
+  .blanket {
+  	position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 14;
+    opacity: 1;
+    background-color: rgba(255,255,255,.8);
+  }
+  @media only screen and (max-width: 767px) { 
+  	body .mobile {
+  		display: block;
+    }
+    body .mobile.menu-link {
+      display: inline-block;
+      min-width: 30px;
+    }
+    .menu-link img {
+    	width: 100%;
+      height: auto;
+    }
+  }
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* HEADER  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .header {
+  	position: relative;
+    background: #432328;
+  }
+  .header.sticky {
+  	position: fixed;
+    background: #432328;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125px;
+    z-index: 50;
+  }
+  .header h1 {
+  	text-align: center;
+    padding-bottom: 20px;
+  }
+  .header.sticky h1 {
+  	text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    width: 100%;
+    padding-bottom: 0px;
+  }
+  .nav { padding-top: 10px; overflow: hidden; }
+  .nav ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
+  .nav li { position: relative; float: left; display: block; right: 50%; margin-right: 20px; }
+  .nav li:last-child { margin-right: 0px; }
+  .nav li a {
+  	color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1em;
+  }
+  .nav li a:hover {
+  	opacity: .5;
+  }
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+  	#vhx-iframe {
+    	display: none !important;
+    }
+  	body {
+    	padding-top: 80px;
+    }
+  	.header {
+    	height: auto;
+      padding: 20px 0;
+    }
+  	.nav {
+    	display: none;
+    }
+    .nav li a {
+    	font-size: 12px;
+    }
+  }
+  
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* CONTENT (generic rules) */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .column {
+  	float: left;
+  }
+  .column.half {
+  	width: 50%;
+  }
+  .column.thirds {
+  	width: 33.333%;
+  }	
+  .column.twothirds {
+  	width: 66.666%;
+  }
+  h1.title {
+  	text-align: center;
+    color: #b8ab8c;
+    font-weight: 900;
+    padding: 20px 0;
+    text-transform: uppercase;
+  }
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	.contained {
+    	width: auto;
+      padding: 0 20px;
+    }
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+    .contained {
+    	width: auto;
+      padding: 0 20px;
+    }
+    
+    h1.huge {
+    	font-size: 30px;
+  		position: relative;
+      left: 0;
+      bottom: 0;
+    }
+  }
+  
+  
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* FEATURE ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .featurezone {
+  	background: url('');
+    padding-top: 40px;
+  }
+  .featurezone.sticky {
+  	margin-top: 125px;
+  }
+  .buyzone {
+  	
+  }
+  .buyzone .contained {
+  	padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .buyzone .contained.nomlist {
+  	padding-bottom: 50px;
+  }
+  .packages { list-style: none; margin: 0; padding: 0; }
+  
+  .package {
+  	background-color: #FFF;
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-box-shadow: 0 0 5px 5px rgba(0,0,0,.05);
+  	box-shadow: 0 0 5px 5px rgba(0,0,0,.05);
+    width: 48%;
+    float: left;
+    height: 200px;
+    overflow: hidden;
+    margin-right: 19px;
+  }
+  .package h1 {
+  	font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 0;
+  }
+  .package .padded {
+  	padding: 0px;
+  }
+  .package .img {
+  	float: left;
+    width: 50%;
+  	height: 100%;
+    min-height: 272px;
+   	overflow: hidden;
+    background-color: #b8ab8c;
+    position: relative;
+  }
+  .package .img .src {
+  	text-align: center;
+    overflow: hidden;
+    height: 200px;
+  }
+  .package .img .src img {
+    height: 100%;
+    width: auto;
+  	display: none;
+  }
+  .package .img .action {
+  	position: absolute;
+    left: 0;
+    top: 138px;
+    width: 100%;
+    text-align: center;
+  }
+  .package .img .action .button {
+  	background-color: #FFF;
+  	background-color: rgba(255,255,255,.8);
+    color: #999;
+    color: rgba(0,0,0,.5);
+    padding-left: 40px;
+    position: relative;
+  }
+  .package .img .action .button:hover {
+  	background-color: #FFF;
+    color: #000;
+  }
+  .package .img .action .button span {
+  	display: block;
+  	font-size: 1.3em;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+     -webkit-border-radius: 3px 0px 0px 3px;
+    border-radius: 3px 0px 0px 3px;
+    overflow: hidden;
+  }
+  .package .txt {
+  	float: left;
+    width: 50%;
+    height: 200px;
+    position: relative;
+  }
+  .package .txt .padder {
+  	padding: 20px;
+  }
+  .package .txt .desc {
+  	font-size: 14px;
+    height: 74px;
+    overflow: hidden;
+  }
+  .package .txt .desc p {
+  	  text-overflow: ellipsis;
+      margin-top: 5px;
+  }
+  .package .txt .buttons {
+  	position: absolute;
+  	bottom: 20px;
+    left: 20px;
+    z-index: 10;
+  }
+  .package .txt .buttons .button {
+  
+  }
+  
+  
+  .package.featured {
+  	width: auto;
+    height: auto;
+    overflow: visible;
+    float: none;
+  }
+  .package.featured .padded {
+  	padding: 20px;
+  }
+  .package.featured .img {
+  	height: auto;
+  }
+  .package.featured .img .src {
+  	height: 100%;
+    overflow: visible;
+  }
+  .package.featured .img .src img {
+  	display: inline;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .package.featured .img .action {
+  	top: 40%;
+    bottom: auto;
+  }
+  .package.featured .img .action .button {
+  	font-size: 23px;
+    background-color: #3aa5dd;
+    color: #ffffff;
+    padding-left: 70px;
+  
+  }
+  .package.featured .img .action .button span { 
+  	left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #f7f5f6;
+  	position: absolute;
+  }
+  .package.featured .img .action .button span i {
+  	color: #3aa5dd;
+    line-height: 1;
+    font-size: 50px;
+  }
+  .package.featured .img .action .button:hover {
+  	-webkit-box-shadow: 0 0 15px 5px rgba(255,255,255,.3);
+  	box-shadow: 0 0 15px 5px rgba(255,255,255,.3);
+    background-color: #2d80ad;
+  }
+  .package.featured .img .action .button:hover span i {
+   	color: #2d80ad;
+  }
+  .package.featured .txt {
+  	height: 272px;
+    position: relative;
+  }
+  .package.featured .txt .padder  {
+  	padding-top: 0;
+  }
+  .package.featured .txt h1 {
+  	font-size: 45px;
+    line-height: 37px;
+  }
+  .package.featured .txt .desc {
+  	height: 120px;
+  }
+  .package.featured .txt .buttons {
+  	position: absolute;
+    bottom: 0;
+  }
+  .package.featured .txt .button {
+  	font-size: 20px;
+    padding: 20px 30px;
+    display: inline-block;
+    width: auto;
+  }
+   
+  /* special use case for only 2 packages */
+  .package.wide {
+  	width: auto;
+    float: none;
+    margin-right: none;
+  }
+  
+  
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	.package {
+    	width: auto;
+      float: none;
+    }
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+  	.package {
+    	width: auto;
+      float: none;
+  	}
+      .featurezone.sticky {
+    	margin-top: 40px;
+    }
+  	.featurezone .contained {
+    	width: auto;
+      padding: 0 10px;
+    }
+   .package {
+    	margin-right: 0px;
+      float: none;
+      width: auto;
+      overflow: visible;
+      height: auto;
+    }
+  	.package .img {
+    	width: auto;
+      float: none;
+      min-height: 200px;
+    }
+   
+    .package .txt,
+    .package.featured .txt {
+    	width: auto;
+      float: none;
+      height: auto;
+    }
+    .package .txt .buttons,
+    .package.featured .txt .buttons {
+    	position: relative;
+      bottom: auto;
+      left: auto;
+    }
+    .package .txt .desc {
+    	height: auto;
+      overflow: visible;
+    }
+    .package.featured .txt .button {
+    	padding: 10px 20px;
+    }
+    .package.featured .padded {
+    	padding: 0;
+    }
+    .package.featured .txt h1, 
+    .package h1 {
+    	font-size: 22px;
+      line-height: 28px;
+    }
+  }	
+  
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* ABOUT ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  
+  .about .column.borderright {
+  	border-right: 1px solid #FFF;
+    margin: 100px 0;
+  }
+  .about .column {
+  	min-height: 400px;
+  }
+  .about .avatar {
+  	width: 210px;
+    height: 210px;
+    -webkit-border-radius: 105px;
+    border-radius: 105px;
+    border: 5px solid #f7f5f6;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: -150px;
+  }
+  .about.topmost .avatar {
+  	margin-top: -60px;
+  }
+  .about .avatar img {
+  	height: 100%;
+    width: auto;
+    display: none;
+  }
+  .about .about h3 { margin: 0; }
+  
+  .about .about .synopsis {
+  	font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	.synopsis {
+    	margin-right: 20px;
+    }
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+  	 .about .column {
+     	min-height: 0px;
+     }
+  	 .about .column.half {
+     	width: auto;
+     }
+     .about .column.borderright {
+     	border-right: none;
+      border-bottom: 1px solid #f7f5f6;
+      margin-bottom: 0px;
+     }
+     .about .synopsis {
+     	padding: 20px;
+     }
+  }
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* MLIST  ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .mlist {
+  	padding: 20px 0 60px 0;
+  }
+  .mlist .formholder {
+    clear: both;
+    position: relative;
+    background: #FFF;
+    display: block;
+    min-height: 50px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #432328;
+  }
+  .mlist h4 {
+  	text-transform: uppercase;
+    color: #b8ab8c;
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+  
+  .mlist form input[type="text"],
+  .mlist form input[type="email"] {
+  	position: absolute;
+    top: 4px;
+    left: 0;
+    padding: 8px 12px;
+    border: none;
+  	width: 100%;
+    font-size: 24px;
+    font-family: sans-serif;
+    outline: 0;
+  }
+  .mlist form input[type="submit"],
+  .mlist form form input[type="button"] {
+    background-color: #432328;
+    border: none;
+    color: #FFF;
+  	position: absolute;
+    right: 2px;
+    top: 2px;
+    display: block;
+    font-weight: 900;
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    height: 92%;
+  	outline: 0;
+    
+    text-transform: uppercase;
+    font-size: 21px;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing:antialiased;
+    
+     -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  .mlist form input[type="submit"]:hover,
+  .mlist form input[type="button"]:hover {
+  	background-color: #2d80ad;
+  }
+  
+  
+  
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* QUOTE  ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .quotes {
+  	color: #ffffff;
+    padding-left: 20px;
+  }
+  .quotes.withavatar {
+  	margin-top: 165px;
+  }
+  .quotes li {
+  	display: none;
+  }
+  .quotes li:first-child {
+  	display: inline;
+  }
+  .quotes li h1 {
+  	font-size: 30px;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-weight: 900;
+  }
+  .quotes li h1:before {
+  	content: open-quote;
+  }
+  .quotes li h1:after {
+  	content: close-quote;
+  }
+  .quotes li h3 {
+  	font-size: 20px;
+    font-weight: 700px;
+    margin-top: 20px;
+  }
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+    .quotes {
+    	margin-bottom: 50px;
+    }
+  	.quotes.withavatar {
+    	margin-top: 0px;
+    }
+    .quotes li h1 {
+    	font-size: 20px;
+    }
+  }
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /*  SOCIAL ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .cast {
+  	padding-bottom: 100px;
+    background: url() top;
+   }
+  .cast.fullbg {
+  	background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cast .contained {
+  
+  }
+  .cast .content  {
+  	width: 680px;
+    margin: 0 auto;
+  }
+  
+  .cast .content h3 {
+  	text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 900;
+  }
+  .cast .content pre {
+  	font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+    white-space: pre-line;
+  }
+  
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+   .cast .content {
+   	width: auto;
+   }
+  }
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /*  UPDATES ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .updates .contained {
+  	min-width: 960px;
+    width: 80%;
+  }
+  .updates .wide {
+    width: 60%;
+  }
+  .updates .skinny {
+    width: 20%;
+  }
+  .updates .padded {
+  	padding: 10px 30px 0 30px;
+  }	
+  .updates .module {
+  	margin-bottom: 40px;
+  }
+  .updates a:hover {
+  	text-decoration: underline;
+  }
+  .updates .meta a:hover {
+  	text-decoration: none;
+    opacity: .5;
+  }
+  .updates .promo {
+  	border-bottom: 1px solid #f7f5f6;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+    height: 157px;
+  }
+  .updates .promo h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #f7f5f6;
+    font-size: 15px;
+  }
+  .updates .topper {
+  	text-align: center;
+    margin-bottom: 25px;
+  }
+  .updates .topper img {
+  	max-height: 30px;
+    width: auto;
+  }
+  .updates .topper a:hover {
+  	opacity: .5;
+  }
+  .updates h1.title {
+  	color: #f7f5f6;
+  }
+  /* TUMBLR */
+  .blog .entry {
+  	margin-bottom: 40px;
+  }
+  .blog .entry a:hover {
+  	text-decoration: underline;
+  }
+  .blog .entry img {
+  	max-width: 100%;
+    height: auto;
+  }
+  .blog .entry.photo img {
+  	width: 100%;
+    height: auto;
+  }
+  .blog .entry .thevideo {
+  	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 */
+  	height: 0;
+  }
+  .blog .entry .thevideo iframe,
+  .blog .entry .thevideo object,
+  .blog .entry .thevideo embed {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  }
+  .blog .timestamp,
+  .blog .timestamp a {
+  	font-weight: 900;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-right: 20px;
+  }
+  .blog .timestamp a:hover {
+  	opacity: .5;
+    text-decoration: none;
+  }
+  .blog .tags {
+  	margin-bottom: 10px;
+  }
+  .blog .tags a {
+  	display: inline-block;
+    font-weight: normal ;
+    text-transform: uppercase;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .blog .tags a:hover {
+  	opacity: .5;
+    text-decoration: none;
+  }
+  .blog .readmore.button {
+  	background-color: #2d80ad;
+  }
+  .blog .readmore.button:hover {
+  	background-color: #000;
+  }
+  /* FACEBOOK */
+  
+  .updates .promo .like-button {
+  	width: 47px;
+    margin: 0 auto;
+  }
+  /* TWEETS */
+  .updates .tweets li {
+  	margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .updates .tweets li a {
+  	color: #f7f5f6;
+  }
+  
+  .updates .tweets li .meta {
+  	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  
+  /* MLIST */
+  .updates .mlist {
+  	padding-bottom: 20px;
+    padding-top: 0px;
+  }
+  .updates .mlist form input[type="text"], 
+  .updates .mlist form input[type="email"] {
+  	position: relative;
+    clear: both;
+    top: auto;
+    left: auto;
+    font-size: 14px;
+  }
+  .updates .mlist form input[type="submit"], 
+  .updates .mlist form input[type="button"] {
+  	position: relative;
+    top: auto;
+    right: auto;
+    clear: both;
+  	width: 100%;
+    font-size: 15px;
+  }
+  .updates .mlist .formholder {
+  	padding: 2px;
+  }
+  /* INSTAGRAM */
+  .instagram .entry {
+  	font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+  .instagram .entry img {
+  	width: 100%;
+    height: auto;
+  }
+  .instagram .entry p {
+  	margin-top: 5px;
+  }
+  .instagram .avatar {
+  	width: 20px;
+    height: 20px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	.updates .contained {
+    	width: auto;
+      min-width: 0px;
+      padding: 0;
+    }
+    .updates .promo {
+    	height: auto;
+      height: 200px;
+    }
+    .updates .skinny {
+    	width: 40%;
+    }	
+    .updates .skinny.lastcol {
+    	float: none;
+      clear: both;
+      width: auto;
+    }
+    .instagram .entry {
+    	width: 50%;
+      float: left;
+      height: auto;
+      min-height: 440px;
+      margin: 0px;
+    }
+    .updates .padded {
+    	padding: 0;
+      margin: 10px 20px 0 20px;
+    }	
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+  	.updates .contained {
+    	width: auto;
+      min-width: 0px;
+    }
+    .updates .wide,
+    .updates .skinny {
+      	width: auto;
+     }
+     /* keep updates shorter */
+     .blog .entry:nth-child(n+3) { 
+     	display: none;
+     }
+     .blog .entry:nth-child(n+3) { 
+     	display: none;
+     }
+     .updates .tweets li:nth-child(n+5) { 
+     	display: none;
+     }
+     .updates .instagram .entry:(n+3) { 
+     	display: none;
+     }
+  }
+  
+  
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* FOOTER  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .footer {
+  	background-color: #432328;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  .footer .helpers {
+  	overflow: hidden;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .footer .helpers ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
+  .footer .helpers li { position: relative; float: left; display: block; right: 50%; margin-right: 20px; }
+  .footer .helpers li:last-child { margin-right: 0px; }
+  .footer .helpers li a:hover { opacity: .5; }
+  .footer .poweredby { text-align: center; margin-top: 20px; }
+  .footer .poweredby img { opacity: .4; max-height: 40px; width: auto; }
+  .footer .poweredby a:hover img { opacity: 1; }
+  
+  </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      var _gaq = _gaq || [];
+  
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+        ga('create', 'UA-19540423-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'americanwinestory');
+      ga('send', 'pageview');
+  
+      var Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_SENT_FREE_COPIES":"admin_sent_free_copies","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_SIGNUP_COMPLETE":"authentication","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_LOADEDDATA":"Video Content Loaded","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_FULLSCREEN":"Fullscreen Enabled/ Disabled","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD_TRIGGER":"addwatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE_TRIGGER":"removewatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List ","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_CURRENT_USER_ID":"current_user_id","PROPERTY_CURRENT_USER_EMAIL":"current_user_email","PROPERTY_CURRENT_SITE_ID":"current_site_id","PROPERTY_CURRENT_SITE_KEY":"current_site_key","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+        SITE_GANALYTICS_ENABLED: false
+      };
+  
+        Tracking.SITE_GANALYTICS_ENABLED = true;
+          ga('create', 'UA-2356917-14', 'auto', { 'name': 'site' });
+  
+        ga('site.require', 'displayfeatures');
+        ga('site.set', 'dimension1', 'americanwinestory');
+        ga('site.send', 'pageview');
+  
+        var _vhx = {
+          environment: 'production',
+          site: { id: '1824', domain: 'americanwinestory.vhx.tv', host: 'americanwinestory.vhx.tv' },
+          geo:  { country: 'us' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      var _current_user = {"id":null,"email":null,"name":null},
+          _current_site = {"id":1824,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"americanwinestory"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,800,700,600' rel='stylesheet' type='text/css'>
+<header class="header sticky">
+	<div class="contained">
+  	<nav class="nav">
+    	<ul>
+      	<li class=""><a href="/#buy" class="scroll">Buy Movie</a></li>
+				<li><a href="/#about" class="scroll">Synopsis</a></li>
+        
+        <li><a href="/#updates" class="scroll">Updates</a></li>
+      </ul>
+    </nav>
+    <h1 class="huge">
+    	<a class="menu-link mobile" href="#"><img src="https://dr56wvhu2c8zo.cloudfront.net/yewknee/assets/76cb1a33-0596-491a-bcce-f1e64abea067/hamburger.svg"></a>
+      <a href="/">American Wine Story</a>
+    </h1>
+  </div>
+  <div class="clear"></div>
+</header>
+
+<div class="mobile pane">
+	<div class="padding"></div>
+</div>
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <!-- Old Header: <article class="featurezone sticky"> -->
+    	<article class="featurezone">
+      <header class="header sticky">
+    	<div class="contained">
+      	<nav class="nav">
+        	<ul>
+          	<li>"><a href="/#buy" class="scroll">Buy Movie</a></li>
+    				<li><a href="/#about" class="scroll">Synopsis</a></li>
+            <li><a href="/#screenings" class="scroll">Screenings</a></li>
+            <li><a href="/#press" class="scroll">Press</a></li>
+            <li><a href="/#winemakers" class="scroll">Winemakers</a></li>
+          </ul>
+        </nav>
+        <div style="text-align:center;">
+        	<a class="menu-link mobile" href="#"><img src="https://dr56wvhu2c8zo.cloudfront.net/yewknee/assets/76cb1a33-0596-491a-bcce-f1e64abea067/hamburger.svg"></a>
+         <a href="/"><img class="titleimg" src="https://dr56wvhu2c8zo.cloudfront.net/americanwinestory/assets/0f3522f8-45a7-4a8d-afa6-6970d3893423/title-final.png" alt="American Wine Story"/></a>
+         </div>
+      </div>
+      <div class="clear"></div>
+      
+    </header>
+    
+       
+       <div id="buywrapper">
+        <div><p>&nbsp;</p>
+      <p>&nbsp;</p> <p>&nbsp;</p></div>
+        <iframe id="trailer" src="//player.vimeo.com/video/75868308?title=0&amp;byline=0&amp;portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div id="buybtnwrapper">
+        
+        <style>
+        #buybtnwrapper li {list-style:disc; font-size:12px; margin-left:20px;}
+        #buybtnwrapper h2, .buywrapper3 h2 {background-color:#432328; color: white; text-align:center;padding:10px;margin:20px;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+        #buybtnwrapper a:hover, .buywrapper3 a:hover {text-decoration:underline;}
+    		</style>
+        
+        <div><p>&nbsp;</p>
+      <p>&nbsp;</p> <p>&nbsp;</p></div>
+        <h5 style="margin-top:25px;">DELUXE EDITION</h5>
+        <p>Contains bonus content, including:</p>
+        <ul>
+        <li>Extended interview with Drew Bledsoe</li>
+        <li>Thomas Jefferson's wines</li>
+        <li>Oregon Pinot Noir</li>
+    		<li>And more</li>
+        </ul>
+        <h2><a href="https://americanwinestory.vhx.tv/buy/american-wine-story-deluxe-edition"><span style="font-size:12px;">Buy for</span> $7.99</a></h2>
+        </div>
+       </div>
+       
+       <div id="buywrapper2">
+       <div class="buywrapper3">
+       <h5>STANDARD EDITION</h5>
+       <h2><a href="https://americanwinestory.vhx.tv/checkout/american-wine-story/purchase"><span style="font-size:12px;">Buy for</span> $6.99 <br /><span style="font-size:12px;">(or rent for $2.99)</span></a></h2>
+       </div>
+       <div class="buywrapper3">
+         <h5>FIND YOUR FAVORITE PLATFORM</h5>
+       <h2><a href="/#buy" class="scroll">&nbsp;<span style="font-size:18px;">More options</span>&nbsp;</a></h2>
+           <p>&nbsp;</p>
+    
+       </div>
+       </div>
+    
+    
+       
+       <img id="laurels" src="https://dr56wvhu2c8zo.cloudfront.net/americanwinestory/assets/85ad1649-e5d4-4bc9-bb1a-0730f1929a58/laurels.jpg" />
+        
+      
+      <section class="mailinglist">
+      
+        <div class="contained">
+            
+            <div class="mlist">
+              <h4>Sign up for news and updates</h4>
+              <div class="formholder" data-contact-form></div>
+              <div class="clear"></div>
+            </div>
+                 
+            
+        </div>
+      </section>
+    
+    </article>
+    
+    <section class="about bgone" style="background-image:URL(https://dr56wvhu2c8zo.cloudfront.net/americanwinestory/assets/4cd7699d-2fb2-44ed-b3d8-9e056aeecb8e/AmercianWineStory-Poster_VOD_v3.jpg); background-size:100%">
+    	<a name="about"></a>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <div class="contained">
+      
+      	<div class="column half borderright">
+        	<div class="avatar backstretch">
+          	<img src="https://dr56wvhu2c8zo.cloudfront.net/americanwinestory/assets/a4f54f4b-73ca-4db8-8bac-d26f0f990f35/aws-photo.jpg">
+          </div>
+          <div class="synopsis">
+          	After an upstart winemaker’s untimely death, his sister steps in to try to save his fledgling winery for his eight-year-old son: American Wine Story blends this with other tales of risk and reinvention for those who are born again into the wine industry.  This feature documentary is about about the transformative power of a humble beverage to fuel passion and reshape lives. Following dozens of winemakers and aficionados from all across the country to learn what drives them, and also trace some American wine history in the process, this is a film that aims to leave all audiences with a dash of inspiration to follow their own American Dreams, or at least pause and consider the story behind the bottle the next time they pull a cork.
+          </div>
+         
+        </div>	<!-- .column -->
+        
+        <div class="column half quotes withavatar">
+        	<ul>
+          	<li>
+            	<div class="padded">
+      	      	<h1>This film may make you want to pull up stakes and follow these winemakers' journeys.</h1>
+    	        	<h3>&mdash; LA Times</h3>
+              </div>
+            </li>
+          </ul>
+        </div> <!-- .column -->
+        
+        <div class="clear"></div>
+      </div> <!-- .contained -->
+    </section> <!-- .about -->
+    
+    <section>
+    <style>
+    .buy {text-align:center;margin:100px;}
+    .buy img {margin:20px;}
+    </style>
+    	<div class="buy">
+    	<a name="buy"></a>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      
+      <p>Find <em>American Wine Story</em> on your favorite platform:</p>
+      <a href="https://itunes.apple.com/us/movie/american-wine-story/id919250396"><img src="https://dr56wvhu2c8zo.cloudfront.net/americanwinestory/assets/1a2adb30-1bc6-4cb2-8a68-aa3ba12f3d08/buy-itunes2.png" alt="iTunes"></a>
+    	<a href="https://www.amazon.com/American-Story-Janie-Brooks-Heuck/dp/B087D6L1Y4"><img src="https://dr56wvhu2c8zo.cloudfront.net/americanwinestory/assets/7aea7e74-dbcf-4c2e-9803-e8f2a4ee4633/buy-amazon2.png"></a>
+      <a href="https://play.google.com/store/movies/details/American_Wine_Story?id=BLFURF5k6Mo"><img src="https://dr56wvhu2c8zo.cloudfront.net/americanwinestory/assets/d11bcc6e-98f9-4652-b100-e573972ab286/buy-googleplay2.png"></a>
+       <div class="buywrapper3">
+       <h5>Purchase from this site:</h5>
+       <h2><a href="https://americanwinestory.vhx.tv/checkout/american-wine-story/purchase"><span style="font-size:12px;">Buy for</span> $6.99 <br /><span style="font-size:12px;">(or rent for $2.99)</span></a></h2>
+       </div>
+      </div>
+    </section>
+    
+    
+    <section class="screenings" style="background-color:black; background-repeat:no-repeat;background-image:URL(https://dr56wvhu2c8zo.cloudfront.net/americanwinestory/assets/adaa8fc6-a313-46b6-955a-bf3ece7b6c93/blur-background.jpg); background-size:100%">
+    <a name="screenings"></a>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    <div class="contained" style="padding:50px;">
+    <style>
+    .screenings table {width:80%}
+    .screenings td {padding:10px}
+    .screenings th {font-size:20px}
+    .screenings tr:nth-child(even) {background-image:URL(https://dr56wvhu2c8zo.cloudfront.net/americanwinestory/assets/6bebfefc-59bc-4604-abc8-86cff788cbb4/red54.png);color:white;}
+    .screenings tr:nth-child(odd) {background-image:URL(https://dr56wvhu2c8zo.cloudfront.net/americanwinestory/assets/4b7baa0d-7e67-4ec9-a451-b4dd32323f05/white54.png);color:black;}
+    .screenings tr:nth-child(odd) a {color:black;}
+    .screenings a {text-decoration:underline;}
+    </style>
+    <table>
+    <th>2015 Screenings</th>
+    <tr><td>January 18, 2015 Moonlight Theater, 7:00 p.m., McMinnville, OR</td></tr>
+    <tr><td>February 10, 2015 <a href="https://loftcinema.com/">Loft Cinema</a>, Tucson, AZ</td></tr>
+    <tr><td>February 11, 2015 Film Bar, Phoenix, AZ</td></tr>
+    <tr><td>March 6-7, 2015 <a href="http://www.worldofpinotnoir.com">World of Pinot Noir</a>, Santa Barbara, CA</td></tr>
+    <tr><td>May 2, 2015 Berkshire Museum (screening &amp; tasting) Pittsfield, MA</td></tr>
+    <tr><td>June 20, 2015 The Dairy Center for the Arts (screening &amp; tasting), Boulder, CO</td></tr>
+    <tr><td>June 26, 2015 Amigoni Urban Winery (screening &amp; tasting), Kansas City, MO</td></tr>
+    <tr><td>July 17, 2015 Elkin Creek Vineyard (screening &amp; tasting), Elkin, NC</td></tr>
+    <tr><td>August 14, 2015 Vine and Dine Festival (screening &amp; tasting), West Yellowstone, MT</td></tr>
+    </table>
+    <p>&nbsp;</p>
+    <table>
+    <th>2014 Screenings</th>
+    <tr><td>Newport Beach Film Festival, April 2014</td></tr>
+    <tr><td>River Bend Film Festival, April 2014</td></tr>
+    <tr><td>Mendocino Film Festival, June 2014</td></tr>
+    <tr><td>International Pinot Noir Celebration, July 2014</td></tr>
+    <tr><td>Prescott Film Festival, July 2014</td></tr>
+    <tr><td>Darkside Cinema, Corvallis, OR, August 2014</td></tr>
+    <tr><td>Clinton Street Theater, Portland, OR, September 2014</td></tr>
+    <tr><td>Raven Film Center, Healdsburg CA, September 2014</td></tr>
+    <tr><td>La Costa Film Festival, September 2014</td></tr>
+    <tr><td>Newport Film, September 2014</td></tr>
+    <tr><td>October 10-11, <a href="http://bendfilm.org">Bend Film Festival</a>, Bend, OR</td></tr>
+    <tr><td>October 11-16, <a href="http://capitolcitycinema.org">Capitol City Cinema</a>, Jeff City, MO</td></tr>
+    <tr><td>October 16, Alabama Theater, Birmingham, AL</td></tr>
+    <tr><td>October 18, Carmel International Film Festival, Carmel, CA</td></tr>
+    <tr><td>November 13, E Street Theater - American Heart Association Benefit, Washington, DC</td></tr>
+    <tr><td>November 19-20, <a href="http://www.cameocinema.com/">Cameo Cinema</a>, St. Helena, CA</td></tr>
+    </table>
+    
+    </div>
+    </section>
+    
+    <section class="press" style="background-color:white;background-image:URL(https://dr56wvhu2c8zo.cloudfront.net/americanwinestory/assets/83a27535-3535-4994-a963-96e3c5209ba9/truck-white.jpg);background-repeat:no-repeat;background-size:100%">
+    <a name="press"></a>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    <div class="contained" style="padding-top:20px;">
+    
+    <style>
+    .press a {color:black;text-decoration:underline;}
+    .press p {padding:4px;}
+    .press h3 {font-family:Georgia, "Times New Roman", Times, serif; margin:0px; padding:10px 0px 0px 0px; font-weight:100; font-size;26px;line-height:30px;}
+    .press h4 {font-family:Verdana, Geneva, sans-serif;text-align:right;font-size:12px;font-weight:normal; margin:0px 20px 0px 0px; padding:0px;}
+    </style>
+    
+    <div style="width:200px; float:right; margin:30px; margin-left:70px;">
+    <p><a href="http://threecrowsproductions.com/live/presskit-american-wine2.pdf"><img src="https://dr56wvhu2c8zo.cloudfront.net/americanwinestory/assets/28528aab-03af-44a7-b6d2-87ba3be80ede/media-kit.jpg"></a>
+    <a href="https://drive.google.com/folderview?id=0B9rW-9LT2mm3Qm1PSTMzOEZ4U1E&usp=sharing" style="text-decoration:underline;color:black;">Download media photos</a> (credit: Three Crows Media, LLC)</p>
+    </div>
+    
+    <h2 style="margin-top:40px;">Press and media</h2>
+    <h3>"Fascinating, gritty and ultimately bittersweet."</h3>
+    <h4>- <a href="http://www.winespectator.com/blogs/show/id/50168">Wine Spectator</a></h4>
+    <h3>"The cinematography is stunning. The energy of those interviews...is inspiring."</h3>
+    <h4>- <a href="http://www.independent.com/news/2014/oct/30/emamerican-wine-storyem/">Santa Barbara Independent</a></h4>
+    <h3>"We highly recommend that you do the following: treat yourself to an Alsatian Riesling and watch American Wine Story"</h3>
+    <h4>- <a href="http://thethirstykitten.com/2014/10/12/american-wine-story/">Thirsty Kitten</a></h4>
+    <h3>"This film may make you want to pull up stakes and follow these winemakers' journeys."</h3>
+    <h4>- <a href="http://www.latimes.com/food/dailydish/la-dd-documentary-american-wine-story,0,6484025.story#axzz2zwH1ztVo">LA Times</a></h4>
+    <h3>"If you aren’t inspired in one way or another by American Wine Story, then you might be going about life the wrong way."</h3>
+    <h4>- <a href="http://www.academicwino.com/2014/10/movie-review-american-wine-story.html/">The Academic Wino</a></h4>
+    <h3>"Energetic, inspirational and modern."</h3>
+    <h4>- <a href="http://tastingrome.blogspot.com/2014/10/achieving-american-dream-through.html?spref=tw">Tasting Rome</a></h4>
+    <h3>"Werd ik gegrepen door de film (I was gripped by the film)."</h3>
+    <h4>- <a href="http://www.wijnkronieken.nl/wijnfilms-american-wine-story/">Wijnkronieken (Wine Chronicles)</a></h4>
+    <p>&nbsp;</p>
+    <h2>Additional coverage:</h2>
+    <p><a href="http://www.washingtonpost.com/lifestyle/food/american-wine-story-captures-the-dedication-and-spirit-of-modern-vintners/2014/10/16/ba21c11e-5306-11e4-ba4b-f6333e2c0453_story.html">Washington Post</a></p>
+    <p><a href="http://bit.ly/1ypH1Af"> Oregonian</a></p>
+    <p><a href="http://www.terroirist.com/2014/09/movie-review-american-wine-story/">Terroirist</a></p>
+    <p><a href="http://www.pressdemocrat.com/lifestyle/2509441-181/giving-it-all-to-make">Santa Rosa Press-Democrat</a></p>
+    <p><a href="http://oregonwinepress.com/article?articleTitle=ldquo-american-wine-story-rdquo--1401491737--1766--">Oregon Wine Press</a></p>
+    <p><a href="http://t.co/QT66STzMtG">KUCI 88.9 FM</a></p>
+    <p>&nbsp;</p>
+    </div>
+    </section>
+    
+    <style>
+    .winemakers p a {text-decoration:underline;}
+    </style>
+    
+    <section class="winemakers" style="background-color:black; color:white">
+    <a name="winemakers"></a>
+    <div class="contained" style="padding:50px;">
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    <h2>Winemakers</h2>
+    <p>Here are the winemakers, wine producers and wine people featured in the film:</p>
+      <p><a href="http://atozwineworks.com">A to Z Wineworks &#8211; Newberg, Oregon</a></p>
+      <p><a href="http://airliewinery.com">Airlie Winery &#8211; Monmouth, Oregon</a></p>
+      <p><a href="http://amigoni.com">Amigoni Urban Winery &#8211; Kansas City, Missouri</a></p>
+      <p><a href="https://www.bbvwine.com">Barboursville Vineyards &#8211; Barboursville, Virginia</a></p>
+      <p><a href="http://boedeckerwines.com">Boedecker Cellars &#8211; Portland, Oregon</a></p>
+      <p><a href="http://brookswine.com">Brooks &#8211; Amity, Oregon</a></p>
+      <p><a href="http://bullrundistillery.com">Bull Run Distilling Company &#8211; Portland, Oregon</a></p>
+      <p><a href="http://carlislewinery.com">Carlisle Winery &amp; Vineyards &#8211; Santa Rosa, California</a></p>
+      <p><a href="http://cartographwines.com">Cartograph &#8211; Healdsburg, California</a></p>
+      <p><a href="http://doscabezaswineworks.com">Dos Cabezas Wineworks &#8211; Sonoita, Arizona</a></p>
+      <p><a href="http://doubleback.com">Doubleback - Walla Walla, Washington</a></p>
+      <p><a href="http://erath.com">Erath &#8211; Dundee, Oregon</a></p>
+      <p><a href="http://francistannahill.com">Francis Tannahill &#8211; Dundee, Oregon</a></p>
+      <p><a href="http://katherinecole.com">Katherine Cole &#8211; Portland, Oregon</a></p>
+      <p><a href="http://keswickvineyards.com">Keswick Vineyards &#8211; Keswick, Virginia</a></p>
+      <p><a href="http://Monticello.org">Monticello &#8211; Charlottesville, Virginia</a></p>
+      <p><a href="http://panachecellars.com">Panache Cellars &#8211; Philomath, Oregon</a></p>
+      <p><a href="http://ransomspirits.com">Ransom Wines and Spirits &#8211; Sheridan, Oregon</a></p>
+      <p><a href="http://rexhill.com">Rex Hill &#8211; Newberg, Oregon</a></p>
+    
+    
+    </div>
+    </section>
+    
+    
+    
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <footer class="footer">
+	<div class="contained">
+  	<div class="helpers" style="visibility:hidden;">
+    	<ul>
+      	<li><a href="/buy">Buy the Film</a></li>
+        <li><a href="/tos">Terms of Service</a></li>
+        <li><a href="/faq">Help</a></li>
+        <li><a href="/login">Watch Now</a></li>
+      </ul>
+    </div>
+    <div class="poweredby">
+    <a href="http://vhx.tv"><img src="http://dr56wvhu2c8zo.cloudfront.net/assets/powered_by_vhx_white.png"></a>
+    </div>
+  </div>
+</footer>
+
+<div class="blanket"></div>
+    <div class="clear"></div>
+  </section>
+
+  <script>
+    var _site = {
+      color:        '#432328',
+      key:          'americanwinestory',
+      facebook_url: 'https://www.facebook.com/threecrowsmedia',
+      twitter_name: 'thewinemovie'
+    };
+  
+    var _config = {
+      country_code: 'us'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  
+<script>
+  var _flash = {
+    alert:  "",
+    notice: ""
+  };
+
+  
+      $(document).ready(function() {
+        var VHXJS = VHXJS || {};
+  
+  /* theme js object
+  ---------------------------------------------*/
+  VHXJS = {
+  	mobilePaneHeight: 0,
+  	/* initiate
+    ---------------------------------------------*/
+    init: function() {
+     // make header scroll to targets
+     this._moveiFrame();
+  	 this._buyzoneAlterations();
+     this._backstretch();
+     this._setupQuotes();
+     this._bindScrollEvents();
+     this._setupInnerNav();
+     this._setupMobileNav();
+     this._fixMailingList();
+    },
+    _moveiFrame: function(){
+    	if (screen.width < 500){
+  	    $("#vhx-iframe").hide();
+    	} else {
+  		  $("#vhx-iframe").css("top","0px");
+      }
+    },
+  	_buyzoneAlterations: function(){
+    	// make sure the "src" div is as tall as it should be
+    	$(".package.featured .src").height($(".package.featured .img").height());
+      
+      // loop through all non-.featured packages, backstretch them
+    	$(".package:not(.featured)").each(function(ind){
+      	var theimg = $(this).find(".img .src img:eq(0)").attr("src");
+        if (theimg){
+      		$(this).find(".img .src").backstretch(theimg);
+        }
+      });
+      
+      // if there are only 2 packages, make the second wide
+      if ($(".package").length == 2){
+      	$(".package:eq(1)").addClass("wide");
+      }
+    },
+    _backstretch: function(){
+    	// backstretch anything that asks for it
+      $(".backstretch").each(function(ind){
+      	var theimg = $(this).find("img:eq(0)").attr("src");
+        if (theimg){
+      		$(this).backstretch(theimg);
+        }
+      });
+    },
+    _setupQuotes: function(){
+    	if ($(".quotes li").length > 1){
+  			$(".quotes ul").cycle();
+      }
+    },
+    _bindScrollEvents: function() {
+       $('.scroll').live('click',function(event) {
+        	event.preventDefault();
+         
+          var target = $(this).attr('href').replace("/#","");
+  				console.log(target);
+          
+  	       VHXJS._scrollToTarget(target);
+           
+           if ($("body").hasClass("open")){
+           	VHXJS.__closeMobileNav();
+           }
+        });
+  	},
+    _scrollToTarget: function(target){
+    	 if (target === 'top') {
+  				pos = 0;
+       }
+       else {
+  	     	pos = $('a[name^='+target+']').offset().top - $(".header").height();            
+  		 }
+              
+  		$('body,html').animate({scrollTop: pos+'px'}, 300, function(){
+  			window.location.hash = "#"+target;
+  		});
+    },
+   	_setupInnerNav: function(){
+   		if ($(".updates .innernav li").length > 1){
+      	var $innernav = $(".updates .innernav li a");
+        
+      	$(".updates .innernav li a").click(function(){
+        	var targ = $(this).prop("rel");
+          
+        	$innernav.removeClass("active");
+          $(this).addClass("active");
+          
+          $(".updates .content .page").addClass("hidden");
+          $(".updates .content .page[rel='"+targ+"']").removeClass("hidden").show();
+          
+          return false;
+        });
+      }
+   	},
+    __closeMobileNav: function(){
+      $("body").stop().removeClass("open");
+      $(".mobile.pane").stop().animate({"top":(VHXJS.mobilePaneHeight * -1)+$(".header").outerHeight()},300);
+      $(".blanket").hide();
+    },
+    _setupMobileNav: function(){
+    	// put the nav into the mobile pane
+      var navhtml = $("header nav").html();
+      $(".mobile.pane .padding").append(navhtml);
+      VHXJS.mobilePaneHeight = $(".mobile.pane").height();
+      
+      if (VHXJS.mobilePaneHeight > 0){
+        $(".mobile.pane").css({"top": (VHXJS.mobilePaneHeight * -1) - $(".header").outerHeight(), "display":"block"});
+        
+         $("header .menu-link").click(function(ev){
+          if (!$("body").hasClass("open")){
+            $("body").stop().addClass("open");
+            $(".mobile.pane").stop().animate({"top":$(".header").outerHeight()},300);
+            $(".blanket").css("display","block");
+          } else {
+            VHXJS.__closeMobileNav();
+          }
+          ev.preventDefault();
+        });
+        $(".blanket").on('click',function(){
+          VHXJS.__closeMobileNav();
+        });
+      } else {
+      	$(".menu-link").remove();
+      }
+    },
+  	_fixMailingList: function(){
+    	$(".mailinglist form").append("<div class='clear'></div>");
+    }
+  };
+  
+  (function(window,document,$,VHXJS) {
+  	VHXJS.init();
+  })(window,document,jQuery,VHXJS);
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* ------------------------------------------------------------------------
+  INSTAGRAM
+  /* ------------------------------------------------------------------------ */
+  var VHXInstagram = {
+  
+    tag: false,
+    username: false,
+    client_id: "7b13b59bd3fd4b0cae2f46598798feee",
+    client_secret: "7f63b6681e00460aab47d26494826dfb",
+    
+    init: function(args) {
+  
+      this.username = args.username;
+      this.usernamesafe = args.username.replace(/-/g,'');
+  		
+      var username = args.username;
+      var usersafe = args.username.replace(/-/g,'');
+  
+      var endpoint = "https://api.instagram.com/v1/users/search?q=" + args.username;
+  
+      var data = {
+        client_id: this.client_id,
+        q: args.username
+      }
+      endpoint = endpoint + "&client_id=" + VHXInstagram.client_id;
+      if (args.limit){
+        data.count = args.limit;
+      }
+  
+      $.ajax({
+        type: "GET",
+        url: endpoint,
+        dataType: "jsonp",
+        data: data
+      })
+      .done(function(returnData) {
+  			 	VHXInstagram.onUser(returnData);
+  		});
+    },
+  	onUser: function(data){
+    	// sadly, we have to ask Instagram what a User ID is - this means we hit them up twice
+      var userid = 0;
+  
+  		if (data.meta.code == 200){
+  	    userid = data.data[0]['id'];
+        var feedendpoint = "https://api.instagram.com/v1/users/"+userid+"/media/recent/?client_id=" + VHXInstagram.client_id;
+  
+  			var feeddata = {
+          client_id: VHXInstagram.client_id
+        }
+        
+        $.ajax({
+          type: "GET",
+          url: feedendpoint,
+          dataType: "jsonp",
+          data: feeddata
+        })
+        .done(function(returnData) {
+        	VHXInstagram.onLoad(returnData);
+        });
+        
+      } else {
+      	VHXInstagram.hideLoader();
+      }
+      
+    },
+    onLoad: function(data) {
+       
+      if (data.meta.code == 200) {
+        var feed = {
+          url: 'http://instagram.com/' + this.username,
+          posts: []
+        };
+  	  var htmlvar = "";
+  	  	
+        
+        $(data.data).each(function(i, post) {
+  
+          /*feed.posts.push({
+            username: (post.caption != null) ? post.caption.from.username : null,
+            caption:  (post.caption != null) ? post.caption.text : null,
+            link: post.link,
+            filter: post.filter,
+            timestamp: post.created_time,
+            image: post.images.standard_resolution.url,
+            thumbnail: post.images.thumbnail.url
+          });*/
+  
+  		 var username = post.user.username;
+  		 var userimg = post.user.profile_picture;
+       var caption = "";
+       if (post.caption != null){
+  		 	var caption = post.caption.text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
+            return '<a href="' + url + '" target="_blank">' + url + '</a>';
+          }).replace(/\B@([_a-z0-9]+)/ig, function(reply) {
+              return '<a href="http://instagram.com/' + reply.substring(1) + '" target="_blank">@' + reply.substring(1) + '</a>';
+            }).replace(/\#([_a-z0-9+\-]+)/ig, function(hash) {
+              return '<span class="tag">' + hash + '</span>';
+            });
+        } 
+       
+  		  
+  		  /* instagram doesn't do public #tags yet
+  		  .replace(/\#([_a-z0-9+\-]+)/ig, function(hash) {
+              return '<a class="tag" href="http://twitter.com/search/%23' + hash.substring(1) + '" target="_blank">' + hash + '</a>';
+            });*/
+  		  
+  		//console.log(post);
+  		htmlvar += '<div class="entry">';
+  		htmlvar += '	<a href="'+post.link+'" target="_blank" class="main"><img src="'+post.images.thumbnail.url+'" /></a>';
+  		htmlvar += '	<div class="avatar hidden"><a target="_blank" href="http://instagram.com/'+username+'"><img src="'+userimg+'"></a><h3><a target="_blank" href="http://instagram.com/'+username+'">@'+username+'</a></h3></div>';
+  		if (post.caption != null){
+  		htmlvar += '	<p>'+caption+'</p>';
+  		} else {
+      htmlvar += '	<p>&nbsp;</p>';
+      }
+  		htmlvar += '</div> <!-- end .entry -->';
+  		
+        });
+  
+        $('#instagram_feed').hide();
+        $('#instagram_feed').html(htmlvar);
+        $('#instagram_feed').fadeIn(500);
+      }
+    },
+    hideLoader: function(){
+    	// this is called if we encounter a failure
+    	$("#instagram_feed").hide();
+    }
+  
+  };
+  if ($("#instagram_feed").length > 0){
+    // https://api.instagram.com/v1/users/search?q=yewknee&client_id=7b13b59bd3fd4b0cae2f46598798feee
+  	// start instagram
+  	VHXInstagram.init({"username":"threecrowsproduction"});
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* ------------------------------------------------------------------------ */
+  /* TUMBLR */
+  /* ------------------------------------------------------------------------ */
+  // RETRIEVES TUMBLR DATA
+  if ($("#blog").length > 0){
+  	getTumblog($("#blog").data("tumblr"),"#blog");
+  }
+  
+  function getTumblog(username, target){
+  	
+  	var tumblrkey = "mhg6b9xFS5pGZr9inve9sSsa0Zl2zy4ojb3K7Ta3aWswFqqSU8";
+    var tumblruser = username + ".tumblr.com";
+    var endpoint = "http://api.tumblr.com/v2/blog/" + tumblruser + "/posts/";
+    var data = {
+        api_key: tumblrkey
+      };
+      
+    setTimeout(function() {
+    
+        $.ajax({
+          type: "GET",
+          url: endpoint,
+          dataType: "jsonp",
+          data: data
+        })
+        .done(function(returnData) {
+  			 	processTumblog(returnData, username, target);
+  			});
+        
+      }, 500);
+  }
+  // ------------------------------------------------------------------------
+  // PARSES TUMBLR DATA INTO ARRAY
+  function processTumblog(data, username, target){
+  	var limit = $("#blog").data("tumblr-limit");
+    var usernamesafe = username.replace(/-/g,'');
+  	var html = '<div class="rssBody" id="tumblr_'+usernamesafe+'"><ul id="blog-entries"></ul></div>';
+    var totalPosts = data.response.total_posts;
+    
+    $(target).html(html);
+    
+    if (data.meta.status == 200) {
+        var feed = {
+          url: 'http://' + username + '.tumblr.com',
+          posts: []
+        };
+  
+        $(data.response.posts).each(function(i, post) {
+  
+          switch (post.type){
+            case "text":
+              feed.posts.push({
+                text: {
+                  title: post.title,
+                  body: post.body
+                }
+              });
+              break;
+  
+            case "photo":
+              var photos = [];
+              $(post.photos).each(function(i, obj){
+                photos.push({
+                  photo_url: obj.alt_sizes[1].url // 500px wide
+                })
+              });
+  
+              feed.posts.push({
+                photo: {
+                  caption: post.caption,
+                  photos: photos
+                }
+              });
+              break;
+  
+            case "quote":
+              feed.posts.push({
+                quote: {
+                  type: post.type,
+                  tags: post.tags,
+                  text: post.text,
+                  source: post.source
+                }
+              });
+              break;
+  
+            case "link":
+              feed.posts.push({
+                link: {
+                  linkURL: post.url,
+                  title: post.title,
+                  description: post.description
+                }
+              });
+              break;
+  
+            case "chat":
+              var chat_log = post.body.split("\n");
+              feed.posts.push({
+                chat: {
+                  title: post.title,
+                  body: post.body,
+                  chat: chat_log,
+                  dialogue: post.dialogue
+                }
+              });
+              break;
+  
+            case "audio":
+              feed.posts.push({
+                audio: {
+                  source_title: post.source_title,
+                  source_url: post.source_url,
+                  id3_title: post.id3_title,
+                  caption: post.caption,
+                  audio_player: post.player,
+                  audio_plays: post.plays,
+                  artist: post.artist,
+                  album: post.album,
+                  track_name: post.track_name,
+                  track_num: post.track_num,
+                  year: post.year
+                }
+              });
+              break;
+  
+            case "video":
+              feed.posts.push({
+                video: {
+                  source_title: post.source_title,
+                  caption: post.caption,
+                  video_embed: post.player[2].embed_code
+                }
+              });
+              break;
+  
+            case "answer":
+              feed.posts.push({
+                answer: {
+                  asking_name: post.asking_name,
+                  asking_url: post.asking_url,
+                  question: post.question,
+                  answer: post.answer
+                }
+              });
+              break;
+  					
+  
+            default:
+              feed.posts.push({
+                title: post.title,
+                body: post.body
+              });
+          } // end switch
+  			       
+          feed.posts[feed.posts.length - 1].date = post.date.substr(0,10);
+          feed.posts[feed.posts.length - 1].tags = post.tags;
+          feed.posts[feed.posts.length - 1].timestamp = post.timestamp;
+          feed.posts[feed.posts.length - 1].url = post.post_url;
+          feed.posts[feed.posts.length - 1].type = post.type;
+          feed.posts[feed.posts.length - 1].note_count = post.note_count;
+        }); // end each
+        
+        // make sure we don't display too many
+        if (feed.posts.length > limit){
+        	feed.posts = feed.posts.slice(0,limit);
+        }
+        // make the output
+        createTumblrHTML(feed, username, totalPosts);
+       
+  	} // end if
+  } // end function
+  // ------------------------------------------------------------------------
+  // PARSES ARRAY OUT INTO STANDARD HTML
+  function createTumblrHTML(data, username, totalPosts){
+  	var thehtml ="";
+    
+    $(data.posts).each(function(i, post) {
+      
+      switch (post.type){
+      	case "text":
+        	 thehtml +='<div class="entry text">';
+           thehtml +='   <h2><a href="'+post.url+'">'+post.text.title+'</a></h2>';
+           thehtml +=			post.text.body;
+           thehtml += 		createTumblrMeta(post, username);
+           thehtml +=' </div>';
+        	break;
+      
+        case "photo":
+         	 
+           thehtml +='<div class="entry photo">';
+           thehtml += '   <div class="photos">';
+  				 $(post.photo.photos).each(function(j, thephoto){
+           	thehtml += ' <img src="'+thephoto.photo_url+'" />';
+           });
+           thehtml += '  </div>';
+           thehtml += 	 post.photo.caption;
+           thehtml += 		createTumblrMeta(post, username);
+           thehtml += '</div>';
+          break;
+        
+        
+   			case "quote":
+        	 thehtml +='<div class="entry quote">';
+           thehtml +='   <h2>'+post.quote.text+'</h2>';
+           thehtml +='   <p class="source">'+post.quote.source+'</p>';
+           thehtml += 		createTumblrMeta(post, username);
+           thehtml +=' </div>';
+        	break;
+          
+        case "link":
+        	thehtml +='<div class="entry link">';
+          thehtml +='    <h2><a href="'+post.link.linkURL+'">'+post.link.title+'</a></h2>';
+          thehtml +=		post.link.description;
+          thehtml += 		createTumblrMeta(post, username);
+          thehtml +='</div>';
+        	break;
+        
+        case "chat":
+        	thehtml +=' <div class="entry chat">';
+          thehtml +='    <h2><a href="'+post.url+'">'+post.chat.title+'</a></h2>';
+          thehtml +='    <ul>';
+          $(post.chat.chat).each(function(k, chatter){
+          thehtml +='        <li>'+chatter+'</li>';
+          });
+          thehtml +='    </ul>';
+          thehtml += 		createTumblrMeta(post, username);
+          thehtml +='  </div>';
+        	break;
+       	
+        case "audio":
+        	thehtml +=' <div class="entry audio">';
+          thehtml +='    <div class="player">'+post.audio.audio_player+'</div>';
+          thehtml +=			post.audio.caption;
+          thehtml += 		createTumblrMeta(post, username);
+          thehtml +='  </div>';
+        	break;
+          
+        case "video":
+        	thehtml +=' <div class="entry video">';
+          thehtml +='    <div class="thevideo">'+post.video.video_embed+'</div>';
+          thehtml +=			post.video.caption;
+          thehtml += 		createTumblrMeta(post, username);
+          thehtml +='  </div>';
+  	      break;
+        
+        case "answer":
+        	thehtml += ' <div class="entry answer">';
+          thehtml += '    <div class="query"><h3>'+post.answer.question+'<h3>';
+          thehtml += '		&mdash; '+post.answer.asking_name+'</div>';
+          thehtml += '		<div class="response"><p>'+post.answer.answer+'</p></div>';
+          thehtml += 		createTumblrMeta(post, username);
+          thehtml += '  </div>';
+        	break;             
+          
+        default:
+       	  thehtml +='<div class="entry text">';
+           thehtml +='   <h2><a href="'+post.url+'">'+post.title+'</a></h2>';
+           thehtml +=			post.body;
+           thehtml += 		createTumblrMeta(post, username);
+           thehtml +=' </div>';
+           
+           
+                              
+  		} // end switch
+  	});// end each
+    
+   if (totalPosts > 10){
+  	 thehtml += '<a class="readmore button" href="http://'+username+'.tumblr.com/page/2/" target="_blank">Read More</a>';
+   } else {
+   	thehtml += '<a class="readmore button" href="http://'+username+'.tumblr.com/#noredirect" target="_blank">Read More</a>';
+   }
+   
+   var usernamesafe = username.replace(/-/g,'');
+   
+   $('#tumblr_' + usernamesafe).hide();
+   $('#tumblr_' + usernamesafe).html(thehtml);
+   $('#tumblr_' + usernamesafe).fadeIn(500);
+        
+  } // end createTumblrHTML
+  
+  // helper function to make the tumblr meta info
+  function createTumblrMeta(post, username){
+  	var thehtml = '';
+    if (post.tags.length >0){  
+    	thehtml += createTumblrTags(post.tags,username);	 
+    }
+  	thehtml += '	<div class="timestamp"><a class="datetime" href="'+post.url+'">';
+    thehtml += '		<i class="icon-time"></i> Posted '+post.date+'</a>';
+    thehtml += '		<a class="likecount" href="'+post.url+'">';
+    thehtml += '		<i class="icon-heart"></i> ';
+    if (post.note_count){
+    thehtml += 			post.note_count;
+    }
+    thehtml += 			'</a>';
+    thehtml += '	</div>';
+    
+    
+    
+    return thehtml;
+  }
+  // helper function to make linked tags
+  function createTumblrTags(tags,tumblrUsername){
+  	var returnhtml = "<div class='tags'>";
+  	for (var i=0;i<=tags.length-1;i++){
+    	returnhtml += "<a href='http://tumblr.com/tagged/"+tags[i]+"'>#"+tags[i]+"</a>";
+    }
+    returnhtml += "</div>";
+    return returnhtml;
+  }
+  
+      });
+    </script>
+
+<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+
+
+    <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="americanwinestory.vhx.tv"></script>
+</body>
+</html>
+```
