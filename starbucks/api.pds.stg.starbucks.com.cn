@@ -1,0 +1,38 @@
+```<!DOCTYPE html><html lang=zh-cn><head><meta charset=utf-8><meta name=description content=""><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>伙伴卡</title><meta name=format-detection content="telephone=no"><meta name=apple-mobile-web-app-capable content=yes><meta http-equiv=cache-control content="no-cache, no-store, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><style>body,html{
+            height:100%;
+            width:100%;
+            padding:0;
+            margin: 0;
+        }
+        div{
+            box-sizing: border-box;
+        }
+        @media only screen and (min-device-width:320px){html{font-size:21px}}@media only screen and (min-device-width:360px){html{font-size:23px}}@media only screen and (min-device-width:400px){html{font-size:25px}}
+        .initial {
+            display: flex;
+            display: -webkit-flex;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            flex-direction: column;
+            -webkit-flex-direction: column;
+            background-color: #CACACA;
+            z-index: 10000030;
+            transition:opacity .8s;
+        }
+        .initial svg{
+            position:relative;
+            transform:initial;
+        }
+        .initial p {
+            position: absolute;
+            font-size: 10px;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+        }</style><link href=/static/css/app.3a9b84922e2e02e49426fb903e60e3df.css rel=stylesheet></head><body><div class=initial><div><svg version=1.1 id=Layer_1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink x=0px y=0px width=50px height=30px viewBox="0 0 40 30" style="enable-background:new 0 0 50 50;" xml:space=preserve><rect x=0 y=13 width=4 height=5 fill=#ffffff><animate attributeName=height attributeType=XML values=5;21;5 begin=0s dur=0.6s repeatCount=indefinite /><animate attributeName=y attributeType=XML values="13; 5; 13" begin=0s dur=0.6s repeatCount=indefinite /></rect><rect x=10 y=13 width=4 height=5 fill=#ffffff><animate attributeName=height attributeType=XML values=5;21;5 begin=0.15s dur=0.6s repeatCount=indefinite /><animate attributeName=y attributeType=XML values="13; 5; 13" begin=0.15s dur=0.6s repeatCount=indefinite /></rect><rect x=20 y=13 width=4 height=5 fill=#ffffff><animate attributeName=height attributeType=XML values=5;21;5 begin=0.3s dur=0.6s repeatCount=indefinite /><animate attributeName=y attributeType=XML values="13; 5; 13" begin=0.3s dur=0.6s repeatCount=indefinite /></rect><rect x=30 y=13 width=4 height=5 fill=#ffffff><animate attributeName=height attributeType=XML values=5;21;5 begin=0.3s dur=0.6s repeatCount=indefinite /><animate attributeName=y attributeType=XML values="13; 5; 13" begin=0.45s dur=0.6s repeatCount=indefinite /></rect></svg></div><p>loading...</p></div><div id=app></div><script type=text/javascript src=static/js/vue.runtime.min.js></script><script type=text/javascript src=static/js/vue-router.min.js></script><script type=text/javascript src=static/js/vue-resource.min.js></script><script type=text/javascript src=/static/js/manifest.d08c8658dcc820962695.js></script><script type=text/javascript src=/static/js/vendor.095ab8e7b295479a7ba4.js></script><script type=text/javascript src=/static/js/app.322b5d325a86ee9e2b57.js></script></body></html>```
