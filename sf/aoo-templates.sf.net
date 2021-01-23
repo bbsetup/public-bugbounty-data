@@ -1,0 +1,578 @@
+```<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://templates.openoffice.org/profiles/aoot/themes/templates/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Apache OpenOffice Templates</title>
+  <style>
+@import url("https://templates.openoffice.org/modules/system/system.base.css?pfzqmp");
+</style>
+<style>
+@import url("https://templates.openoffice.org/profiles/aoot/modules/features/feature_media/feature_media.css?pfzqmp");
+@import url("https://templates.openoffice.org/modules/field/theme/field.css?pfzqmp");
+</style>
+<style media="screen">
+@import url("https://templates.openoffice.org/profiles/aoot/modules/custom/lineage_select/lineage_select.css?pfzqmp");
+</style>
+<style>
+@import url("https://templates.openoffice.org/profiles/aoot/modules/contrib/views/css/views.css?pfzqmp");
+</style>
+<style>
+@import url("https://templates.openoffice.org/profiles/aoot/libraries/chosen/chosen/chosen.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/modules/contrib/chosen/css/chosen-drupal.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/modules/contrib/colorbox/styles/default/colorbox_style.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/modules/contrib/ctools/css/ctools.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/modules/features/feature_pages/feature_pages.css?pfzqmp");
+@import url("https://templates.openoffice.org/modules/locale/locale.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/modules/contrib/search_api_autocomplete/search_api_autocomplete.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/modules/contrib/fivestar/css/fivestar.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/modules/features/aoot_templates/css/fonawesome-star.css?pfzqmp");
+</style>
+<style>
+@import url("https://templates.openoffice.org/profiles/aoot/themes/templates/css/style.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/themes/yang/css/contrib/inline_entity_form.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/themes/yang/css/contrib/commerce-backoffice.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/themes/yang/css/contrib/media.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/themes/yang/css/contrib/flexslider.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/themes/yang/css/contrib/date.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/themes/yang/css/contrib/flexslider_img.css?pfzqmp");
+@import url("https://templates.openoffice.org/profiles/aoot/themes/templates/css/font-awesome.css?pfzqmp");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto&amp;pfzqmp" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400&amp;pfzqmp" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="/profiles/aoot/themes/yang/js/html5.js"></script>  
+    <script src="/profiles/aoot/themes/yang/js/respond.min.js"></script>  
+  <![endif]-->
+  <script src="https://templates.openoffice.org/profiles/aoot/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script src="https://templates.openoffice.org/misc/jquery.once.js?v=1.2"></script>
+<script src="https://templates.openoffice.org/misc/drupal.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/misc/states.js?v=7.59"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/libraries/chosen/chosen/chosen.jquery.min.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/libraries/colorbox/jquery.colorbox-min.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/modules/contrib/colorbox/js/colorbox.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/modules/contrib/colorbox/styles/default/colorbox_style.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/misc/autocomplete.js?v=7.59"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/modules/contrib/search_api_autocomplete/search_api_autocomplete.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/modules/contrib/fivestar/js/fivestar.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/modules/contrib/google_analytics/googleanalytics.js?pfzqmp"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-30193653-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="https://templates.openoffice.org/profiles/aoot/modules/contrib/facetapi/facetapi.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/yang/../bootstrap/bootstrap/js/affix.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/yang/../bootstrap/bootstrap/js/alert.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/yang/../bootstrap/bootstrap/js/button.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/yang/../bootstrap/bootstrap/js/carousel.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/yang/../bootstrap/bootstrap/js/collapse.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/yang/../bootstrap/bootstrap/js/dropdown.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/yang/../bootstrap/bootstrap/js/modal.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/yang/../bootstrap/bootstrap/js/tooltip.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/yang/../bootstrap/bootstrap/js/popover.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/yang/../bootstrap/bootstrap/js/scrollspy.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/yang/../bootstrap/bootstrap/js/tab.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/yang/../bootstrap/bootstrap/js/transition.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/bootstrap/js/misc/autocomplete.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/bootstrap/js/misc/states.js?pfzqmp"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"templates","theme_token":"VKYOuKCIMtglRvFYqmHKPxq4vsz4mpbe5A11D4xt2tU","js":{"profiles\/aoot\/modules\/contrib\/chosen\/chosen.js":1,"profiles\/aoot\/themes\/bootstrap\/js\/bootstrap.js":1,"profiles\/aoot\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/states.js":1,"profiles\/aoot\/libraries\/chosen\/chosen\/chosen.jquery.min.js":1,"profiles\/aoot\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/aoot\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/aoot\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"misc\/autocomplete.js":1,"profiles\/aoot\/modules\/contrib\/search_api_autocomplete\/search_api_autocomplete.js":1,"profiles\/aoot\/modules\/contrib\/fivestar\/js\/fivestar.js":1,"profiles\/aoot\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"profiles\/aoot\/modules\/contrib\/facetapi\/facetapi.js":1,"profiles\/aoot\/themes\/yang\/..\/bootstrap\/bootstrap\/js\/affix.js":1,"profiles\/aoot\/themes\/yang\/..\/bootstrap\/bootstrap\/js\/alert.js":1,"profiles\/aoot\/themes\/yang\/..\/bootstrap\/bootstrap\/js\/button.js":1,"profiles\/aoot\/themes\/yang\/..\/bootstrap\/bootstrap\/js\/carousel.js":1,"profiles\/aoot\/themes\/yang\/..\/bootstrap\/bootstrap\/js\/collapse.js":1,"profiles\/aoot\/themes\/yang\/..\/bootstrap\/bootstrap\/js\/dropdown.js":1,"profiles\/aoot\/themes\/yang\/..\/bootstrap\/bootstrap\/js\/modal.js":1,"profiles\/aoot\/themes\/yang\/..\/bootstrap\/bootstrap\/js\/tooltip.js":1,"profiles\/aoot\/themes\/yang\/..\/bootstrap\/bootstrap\/js\/popover.js":1,"profiles\/aoot\/themes\/yang\/..\/bootstrap\/bootstrap\/js\/scrollspy.js":1,"profiles\/aoot\/themes\/yang\/..\/bootstrap\/bootstrap\/js\/tab.js":1,"profiles\/aoot\/themes\/yang\/..\/bootstrap\/bootstrap\/js\/transition.js":1,"profiles\/aoot\/themes\/bootstrap\/js\/misc\/autocomplete.js":1,"profiles\/aoot\/themes\/bootstrap\/js\/misc\/states.js":1},"css":{"modules\/system\/system.base.css":1,"profiles\/aoot\/modules\/features\/feature_media\/feature_media.css":1,"modules\/field\/theme\/field.css":1,"profiles\/aoot\/modules\/custom\/lineage_select\/lineage_select.css":1,"profiles\/aoot\/modules\/contrib\/views\/css\/views.css":1,"profiles\/aoot\/libraries\/chosen\/chosen\/chosen.css":1,"profiles\/aoot\/modules\/contrib\/chosen\/css\/chosen-drupal.css":1,"profiles\/aoot\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/aoot\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/aoot\/modules\/features\/feature_pages\/feature_pages.css":1,"profiles\/aoot\/modules\/features\/aoot_templates\/theme\/template_teaser.css":1,"modules\/locale\/locale.css":1,"profiles\/aoot\/modules\/contrib\/search_api_autocomplete\/search_api_autocomplete.css":1,"profiles\/aoot\/modules\/contrib\/fivestar\/css\/fivestar.css":1,"profiles\/aoot\/modules\/features\/aoot_templates\/css\/fonawesome-star.css":1,"profiles\/aoot\/themes\/templates\/css\/style.css":1,"profiles\/aoot\/themes\/yang\/css\/contrib\/inline_entity_form.css":1,"profiles\/aoot\/themes\/yang\/css\/contrib\/commerce-backoffice.css":1,"profiles\/aoot\/themes\/yang\/css\/contrib\/media.css":1,"profiles\/aoot\/themes\/yang\/css\/contrib\/flexslider.css":1,"profiles\/aoot\/themes\/yang\/css\/contrib\/date.css":1,"profiles\/aoot\/themes\/yang\/css\/contrib\/flexslider_img.css":1,"profiles\/aoot\/themes\/templates\/css\/font-awesome.css":1,"\/\/fonts.googleapis.com\/css?family=Roboto":1,"\/\/fonts.googleapis.com\/css?family=Montserrat:400":1}},"chosen":{"selector":"select:visible","minimum":20,"minimum_width":200,"search_contains":false,"placeholder_text_multiple":"Choose some options","placeholder_text_single":"Choose an option","no_results_text":"No results match"},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"states":{"#edit-query":{"visible":{":input[name=\u0022options[operator]\u0022],dummy-empty":{"!value":"empty"},":input[name=\u0022options[operator]\u0022],dummy-not-empty":{"!value":"not empty"}}}},"urlIsAjaxTrusted":{"\/en\/search":true},"facetapi":{"facets":[{"limit":"0","id":"facetapi-facet-search-apitemplates-index-block-field-template-application","searcher":"search_api@templates_index","realmName":"block","facetName":"field_template_application","queryType":null,"widget":"facetapi_links"},{"limit":"0","id":"facetapi-facet-search-apitemplates-index-block-field-template-category","searcher":"search_api@templates_index","realmName":"block","facetName":"field_template_category","queryType":null,"widget":"facetapi_links"}]},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","formHasError":1,"popoverEnabled":"0","popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":"1","tooltipOptions":{"animation":1,"html":0,"placement":"auto bottom","selector":"","trigger":"hover focus","delay":150,"container":"body"}}});</script>
+</head>
+<body id="body" class="html front not-logged-in one-sidebar sidebar-first page-node i18n-en navbar-is-static-top" >
+  <!--[if lt IE 9]><script>document.getElementById("body").className += " hidden";</script><![endif]-->
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <header id="navbar" role="banner" class="navbar navbar-static-top navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="logo" href="/en" title="Home">
+        <img src="https://templates.openoffice.org/profiles/aoot/themes/templates/logo.svg" class="img-responsive" alt="Apache OpenOffice Templates" />
+      </a>
+    </div>
+    <div class="navbar-right">
+      <span id="block-menu-block-core-main-menu" class="nav navbar-nav" >
+  <span class="sr-only" class="block-title">Main menu</span>
+  <div class="menu-block-wrapper menu-block-core-main-menu menu-name-main-menu parent-mlid-0 menu-level-0">
+  <ul class="nav navbar-nav"><li class="first leaf menu-mlid-477"><a href="/en/search"><i class="fa fa-search"></i> Search</a></li>
+<li class="leaf menu-mlid-649"><a href="http://extensions.openoffice.org" title=""><i class="fa fa-puzzle-piece"></i> Extensions</a></li>
+<li class="leaf menu-mlid-650"><a href="http://download.openoffice.org/" title=""><i class="fa fa-puzzle-piece"></i> Get Apache OpenOffice</a></li>
+<li class="last leaf menu-mlid-651"><a href="/en/template/guide" title=""><i class="fa fa-puzzle-piece"></i> How to upload templates</a></li>
+</ul></div>
+</span>
+<span id="block-locale-language" class="nav navbar-nav" >
+  <span class="sr-only" class="block-title">Languages</span>
+  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-flag"></i> English <span class="fa fa-angle-down"></span></a><ul role="menu" class="dropdown-menu"><li role="presentation"><a href="/zh-hans">简体中文</a></li>
+<li role="presentation"><a href="/zh-hant">繁體中文</a></li>
+<li role="presentation"><a href="/da">Dansk</a></li>
+<li role="presentation"><a href="/nl">Nederlands</a></li>
+<li role="presentation"><a href="/fr">Français</a></li>
+<li role="presentation"><a href="/de">Deutsch</a></li>
+<li role="presentation"><a href="/el">Ελληνικά</a></li>
+<li role="presentation"><a href="/he">עברית</a></li>
+<li role="presentation"><a href="/hu">Magyar</a></li>
+<li role="presentation"><a href="/it">Italiano</a></li>
+<li role="presentation"><a href="/ja">日本語</a></li>
+<li role="presentation"><a href="/pl">Polski</a></li>
+<li role="presentation"><a href="/pt-br">Português</a></li>
+<li role="presentation"><a href="/ru">Русский</a></li>
+<li role="presentation"><a href="/sl">Slovenščina</a></li>
+<li role="presentation"><a href="/es">Español</a></li>
+<li role="presentation"><a href="/sv">Svenska</a></li>
+</ul></li></span>
+      <div id="login-button" class="nav navbar-nav">
+  <a href="/en/user" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="bottom" title="Log in">
+    <i class="fa fa-sign-in"></i>
+    <span class="sr-only">Log in</span>
+  </a>
+</div>
+    </div>
+  </div>
+</header>
+
+<div id="featured-wrapper">
+  <div class="container">
+          <div class="main-top-container">
+        <div class="row">
+          <div class="col-sm-5 col-lg-6">
+              <div class="region region-main-top-left">
+    <section id="block-aoot-core-about" class="block block-aoot-core clearfix">
+
+      
+  
+<div class="jumbotron">
+  <h2>Enhance Apache OpenOffice. <br>
+    Pick your Template.</h2>
+  <a class="btn btn-primary" href="http://download.openoffice.org/index.html" role="button"><i class="fa fa-download"></i> Get OpenOffice</a>
+  <a class="btn btn-primary" href="/en/search" role="button"><i class="fa fa-search"></i> Search templates</a>
+</div>
+
+</section>
+  </div>
+          </div>
+          <div class="col-sm-7 col-lg-6">
+              <div class="region region-main-top-right">
+    <section id="block-views-exp-templates-search-page" class="block block-views clearfix">
+
+      
+  <form action="/en/search" method="get" id="views-exposed-form-templates-search-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-query-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+                  <label for="edit-query">
+            Text search          </label>
+                        <div class="views-widget">
+          <div class="form-type-textfield form-item-query form-autocomplete form-item form-group">
+ <div class="input-group"><input placeholder="Search..." class="auto_submit form-control form-text" type="text" id="edit-query" name="query" value="" size="30" maxlength="128" /><span class="input-group-addon"><span class="icon glyphicon glyphicon-refresh" aria-hidden="true"></span></span></div><input type="hidden" id="edit-query-autocomplete" value="https://templates.openoffice.org/en/search_api_autocomplete/search_api_views_templates_search/title%20body%3Avalue" disabled="disabled" class="autocomplete" />
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <button id="edit-submit-templates-search" name="" value="&lt;i class=&quot;fa fa-search&quot;&gt;&lt;/i&gt;" type="submit" class="btn btn-primary form-submit"><i class="fa fa-search"></i></button>
+    </div>
+      </div>
+</div>
+</div></form>
+</section>
+  </div>
+          </div>
+        </div>
+      </div> <!-- /.main-top-left-right-wrapper -->
+      </div>
+</div>
+
+<div id="main-top-wrapper">
+  <div class="container">
+    <div class="main-top-container">
+      <div class="row">
+        <div class="col-sm-12">
+            <div class="region region-main-top">
+    <section id="block-aoot-core-templates-menu" class="block block-aoot-core clearfix">
+
+      
+  <ul class="menu nav nav-stacked nav-tabs"><li><a href="/en/search"><i class="fa fa-file"></i>Search templates</a></li>
+<li><a href="/en/search?query=&amp;sort_by=field_template_rating_average_rating&amp;sort_order=DESC"><i class="fa fa-trophy"></i>Highest rated</a></li>
+<li><a href="/en/search?query=&amp;sort_by=field_template_stats_year&amp;sort_order=DESC"><i class="fa fa-star"></i>Most popular</a></li>
+<li><a href="/en/search?query=&amp;sort_by=created&amp;sort_order=DESC"><i class="fa fa-calendar"></i>Most recent</a></li>
+</ul>
+</section>
+  </div>
+        </div>
+      </div>
+    </div> <!-- /.main-top-wrapper -->
+  </div>
+</div>
+
+
+<div id="main-wrapper">
+  <div class="main-container container">
+
+    <div class="row">
+
+              <aside class="col-sm-2" role="complementary">
+            <div class="region region-sidebar-first">
+    <section id="block-facetapi-dpaj9offpw34ocqkiszzflrl2wehiwcj" class="block block-facetapi clearfix">
+
+        <h4  class="block-title">Filter by category</h4>
+    
+  <ul class="facetapi-facetapi-links facetapi-facet-field-template-category" id="facetapi-facet-search-apitemplates-index-block-field-template-category"><li class="collapsed"><a href="/en/search?f%5B0%5D=field_template_category%3A14" rel="nofollow" class="facetapi-inactive facetapi facetapi-business" id="facetapi-link--5"> Business <sup class="facetapi-count">1246</sup><span class="element-invisible"> Apply Business filter </span></a></li>
+<li class="collapsed"><a href="/en/search?f%5B0%5D=field_template_category%3A21" rel="nofollow" class="facetapi-inactive facetapi facetapi-education" id="facetapi-link--6"> Education <sup class="facetapi-count">192</sup><span class="element-invisible"> Apply Education filter </span></a></li>
+<li class="collapsed"><a href="/en/search?f%5B0%5D=field_template_category%3A24" rel="nofollow" class="facetapi-inactive facetapi facetapi-private" id="facetapi-link--7"> Private <sup class="facetapi-count">358</sup><span class="element-invisible"> Apply Private filter </span></a></li>
+</ul>
+</section>
+<section id="block-facetapi-kcxjvpykxznvwrmbwzbqdhjisbsgs6hq" class="block block-facetapi clearfix">
+
+        <h4  class="block-title">Filter by application</h4>
+    
+  <ul class="facetapi-facetapi-links facetapi-facet-field-template-application" id="facetapi-facet-search-apitemplates-index-block-field-template-application"><li class="leaf"><a href="/en/search?f%5B0%5D=field_template_application%3A28" rel="nofollow" class="facetapi-inactive facetapi facetapi-calc" id="facetapi-link"> Calc <sup class="facetapi-count">387</sup><span class="element-invisible"> Apply Calc filter </span></a></li>
+<li class="leaf"><a href="/en/search?f%5B0%5D=field_template_application%3A29" rel="nofollow" class="facetapi-inactive facetapi facetapi-draw" id="facetapi-link--2"> Draw <sup class="facetapi-count">187</sup><span class="element-invisible"> Apply Draw filter </span></a></li>
+<li class="leaf"><a href="/en/search?f%5B0%5D=field_template_application%3A30" rel="nofollow" class="facetapi-inactive facetapi facetapi-impress" id="facetapi-link--3"> Impress <sup class="facetapi-count">245</sup><span class="element-invisible"> Apply Impress filter </span></a></li>
+<li class="leaf"><a href="/en/search?f%5B0%5D=field_template_application%3A27" rel="nofollow" class="facetapi-inactive facetapi facetapi-writer" id="facetapi-link--4"> Writer <sup class="facetapi-count">977</sup><span class="element-invisible"> Apply Writer filter </span></a></li>
+</ul>
+</section>
+  </div>
+        </aside>  <!-- /#sidebar-first -->
+      
+      <section id="content-column-wrapper"  class="col-sm-10">
+                        <a id="main-content"></a>
+                                                                                                                                                            <div class="region region-content">
+    <section id="block-views-templates-blocks-block-1" class="block block-views clearfix">
+
+      
+  <div class="view view-templates-blocks view-id-templates_blocks view-display-id-block_1 view-dom-id-345778230f392cfa45f7f80332f1ac8d">
+        
+  
+  
+      <div class="view-content">
+      <div class="row">
+  <div class="col-xs-6">
+                    
+
+<div   class="template-teaser node node-template node-teaser view-mode-teaser  template-application-draw">
+  
+  <div class="template-teaser-container">
+    <div class="template-teaser-sidebar">
+      <div class="template-teaser-sidebar-inner">
+        <div class="field field-name-field-template-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/en/template/semilog-chart"><img class="img-responsive" src="https://templates.openoffice.org/sites/default/files/styles/template-m/public/template_images/591_thumbnail.png?itok=vqLJH3U9" width="94" height="66" /></a></div></div></div>      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="field field-name-field-template-rating field-type-fivestar field-label-hidden"><div class="field-items"><div class="field-item even"><div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-type-item form-item form-group">
+ <div class="fivestar-fontawesome-star"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">3.914895</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on" style="width: 91.4895%"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div>
+<p class="help-block"><div class="fivestar-summary fivestar-summary-average-count"><span class="average-rating">Average: <span >3.9</span></span> <span class="total-votes">(<span>47</span> votes)</span></div></p>
+</div>
+</div></div></div></div></div><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h4><a href="/en/template/semilog-chart">semilog chart</a></h4></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">semi logarithmic chart</div></div></div>          </div>
+        </div>
+        <div class="template-teaser-stats-container">
+          <div class="row">
+            <div class="col-xs-4 template-teaser-bottom-left">
+              <div class="field field-name-field-template-stats-week field-type-number-integer field-label-above"><div class="field-label">Weekly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-center">
+              <div class="field field-name-field-template-stats-month field-type-number-integer field-label-above"><div class="field-label">Monthly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-right">
+              <div class="field field-name-field-template-stats-year field-type-number-integer field-label-above"><div class="field-label">Yearly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+                    
+
+<div   class="template-teaser node node-template node-teaser view-mode-teaser  template-application-writer">
+  
+  <div class="template-teaser-container">
+    <div class="template-teaser-sidebar">
+      <div class="template-teaser-sidebar-inner">
+        <div class="field field-name-field-template-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/en/template/9s-chart"><img class="img-responsive" src="https://templates.openoffice.org/sites/default/files/styles/template-m/public/template_images/643_thumbnail.png?itok=LKzJhcNo" width="94" height="66" /></a></div></div></div>      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="field field-name-field-template-rating field-type-fivestar field-label-hidden"><div class="field-items"><div class="field-item even"><div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-type-item form-item form-group">
+ <div class="fivestar-fontawesome-star"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">3.761905</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on" style="width: 76.1905%"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div>
+<p class="help-block"><div class="fivestar-summary fivestar-summary-average-count"><span class="average-rating">Average: <span >3.8</span></span> <span class="total-votes">(<span>21</span> votes)</span></div></p>
+</div>
+</div></div></div></div></div><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h4><a href="/en/template/9s-chart">9s chart</a></h4></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">literacy, integrated unit</div></div></div>          </div>
+        </div>
+        <div class="template-teaser-stats-container">
+          <div class="row">
+            <div class="col-xs-4 template-teaser-bottom-left">
+              <div class="field field-name-field-template-stats-week field-type-number-integer field-label-above"><div class="field-label">Weekly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-center">
+              <div class="field field-name-field-template-stats-month field-type-number-integer field-label-above"><div class="field-label">Monthly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-right">
+              <div class="field field-name-field-template-stats-year field-type-number-integer field-label-above"><div class="field-label">Yearly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+                    
+
+<div   class="template-teaser node node-template node-teaser view-mode-teaser  template-application-impress">
+  
+  <div class="template-teaser-container">
+    <div class="template-teaser-sidebar">
+      <div class="template-teaser-sidebar-inner">
+        <div class="field field-name-field-template-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/en/template/presentation-background-oschloe-3"><img class="img-responsive" src="https://templates.openoffice.org/sites/default/files/styles/template-m/public/template_images/647_thumbnail.png?itok=aXGWHftw" width="94" height="71" /></a></div></div></div>      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="field field-name-field-template-rating field-type-fivestar field-label-hidden"><div class="field-items"><div class="field-item even"><div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-type-item form-item form-group">
+ <div class="fivestar-fontawesome-star"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">3.9375</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on" style="width: 93.75%"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div>
+<p class="help-block"><div class="fivestar-summary fivestar-summary-average-count"><span class="average-rating">Average: <span >3.9</span></span> <span class="total-votes">(<span>16</span> votes)</span></div></p>
+</div>
+</div></div></div></div></div><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h4><a href="/en/template/presentation-background-oschloe-3">Presentation Background Oschloe #3</a></h4></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">Presentation Background Phone</div></div></div>          </div>
+        </div>
+        <div class="template-teaser-stats-container">
+          <div class="row">
+            <div class="col-xs-4 template-teaser-bottom-left">
+              <div class="field field-name-field-template-stats-week field-type-number-integer field-label-above"><div class="field-label">Weekly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-center">
+              <div class="field field-name-field-template-stats-month field-type-number-integer field-label-above"><div class="field-label">Monthly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-right">
+              <div class="field field-name-field-template-stats-year field-type-number-integer field-label-above"><div class="field-label">Yearly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+                    
+
+<div   class="template-teaser node node-template node-teaser view-mode-teaser  template-application-writer">
+  
+  <div class="template-teaser-container">
+    <div class="template-teaser-sidebar">
+      <div class="template-teaser-sidebar-inner">
+        <div class="field field-name-field-template-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/en/template/log-log-paper-template"><img class="img-responsive" src="https://templates.openoffice.org/sites/default/files/styles/template-m/public/template_images/693_thumbnail.png?itok=wL95SEN4" width="66" height="94" /></a></div></div></div>      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="field field-name-field-template-rating field-type-fivestar field-label-hidden"><div class="field-items"><div class="field-item even"><div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-type-item form-item form-group">
+ <div class="fivestar-fontawesome-star"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">3.77778</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on" style="width: 77.778%"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div>
+<p class="help-block"><div class="fivestar-summary fivestar-summary-average-count"><span class="average-rating">Average: <span >3.8</span></span> <span class="total-votes">(<span>9</span> votes)</span></div></p>
+</div>
+</div></div></div></div></div><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h4><a href="/en/template/log-log-paper-template">Log-log paper template</a></h4></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">Ready tu use log-log paper for maths and physics</div></div></div>          </div>
+        </div>
+        <div class="template-teaser-stats-container">
+          <div class="row">
+            <div class="col-xs-4 template-teaser-bottom-left">
+              <div class="field field-name-field-template-stats-week field-type-number-integer field-label-above"><div class="field-label">Weekly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-center">
+              <div class="field field-name-field-template-stats-month field-type-number-integer field-label-above"><div class="field-label">Monthly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-right">
+              <div class="field field-name-field-template-stats-year field-type-number-integer field-label-above"><div class="field-label">Yearly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+      </div>
+  <div class="col-xs-6">
+          
+
+<div   class="template-teaser node node-template node-teaser view-mode-teaser  template-application-writer">
+  
+  <div class="template-teaser-container">
+    <div class="template-teaser-sidebar">
+      <div class="template-teaser-sidebar-inner">
+        <div class="field field-name-field-template-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/en/template/multi-chapter-document-table-contents"><img class="img-responsive" src="https://templates.openoffice.org/sites/default/files/styles/template-m/public/template_images/589_thumbnail.png?itok=yTc2XCe7" width="66" height="94" /></a></div></div></div>      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="field field-name-field-template-rating field-type-fivestar field-label-hidden"><div class="field-items"><div class="field-item even"><div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-type-item form-item form-group">
+ <div class="fivestar-fontawesome-star"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">3.641025</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on" style="width: 64.1025%"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div>
+<p class="help-block"><div class="fivestar-summary fivestar-summary-average-count"><span class="average-rating">Average: <span >3.6</span></span> <span class="total-votes">(<span>39</span> votes)</span></div></p>
+</div>
+</div></div></div></div></div><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h4><a href="/en/template/multi-chapter-document-table-contents">Multi-Chapter Document With Table Of Contents</a></h4></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">Document</div></div></div>          </div>
+        </div>
+        <div class="template-teaser-stats-container">
+          <div class="row">
+            <div class="col-xs-4 template-teaser-bottom-left">
+              <div class="field field-name-field-template-stats-week field-type-number-integer field-label-above"><div class="field-label">Weekly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-center">
+              <div class="field field-name-field-template-stats-month field-type-number-integer field-label-above"><div class="field-label">Monthly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-right">
+              <div class="field field-name-field-template-stats-year field-type-number-integer field-label-above"><div class="field-label">Yearly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+                    
+
+<div   class="template-teaser node node-template node-teaser view-mode-teaser  template-application-impress">
+  
+  <div class="template-teaser-container">
+    <div class="template-teaser-sidebar">
+      <div class="template-teaser-sidebar-inner">
+        <div class="field field-name-field-template-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/en/template/presentation-background-oschloe-1"><img class="img-responsive" src="https://templates.openoffice.org/sites/default/files/styles/template-m/public/template_images/635_thumbnail.png?itok=IBocsIVV" width="94" height="71" /></a></div></div></div>      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="field field-name-field-template-rating field-type-fivestar field-label-hidden"><div class="field-items"><div class="field-item even"><div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-type-item form-item form-group">
+ <div class="fivestar-fontawesome-star"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">3.125</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on" style="width: 12.5%"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div>
+<p class="help-block"><div class="fivestar-summary fivestar-summary-average-count"><span class="average-rating">Average: <span >3.1</span></span> <span class="total-votes">(<span>8</span> votes)</span></div></p>
+</div>
+</div></div></div></div></div><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h4><a href="/en/template/presentation-background-oschloe-1">Presentation Background Oschloe #1</a></h4></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">Presentation Background Burgundy with Lens Flare</div></div></div>          </div>
+        </div>
+        <div class="template-teaser-stats-container">
+          <div class="row">
+            <div class="col-xs-4 template-teaser-bottom-left">
+              <div class="field field-name-field-template-stats-week field-type-number-integer field-label-above"><div class="field-label">Weekly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-center">
+              <div class="field field-name-field-template-stats-month field-type-number-integer field-label-above"><div class="field-label">Monthly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-right">
+              <div class="field field-name-field-template-stats-year field-type-number-integer field-label-above"><div class="field-label">Yearly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+                    
+
+<div   class="template-teaser node node-template node-teaser view-mode-teaser  template-application-writer">
+  
+  <div class="template-teaser-container">
+    <div class="template-teaser-sidebar">
+      <div class="template-teaser-sidebar-inner">
+        <div class="field field-name-field-template-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/en/template/auto-repair-invoice-form"><img class="img-responsive" src="https://templates.openoffice.org/sites/default/files/styles/template-m/public/template_images/fid_27840/fid_27840_thumbnail.png?itok=m0yLihPu" width="73" height="94" /></a></div></div></div>      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="field field-name-field-template-rating field-type-fivestar field-label-hidden"><div class="field-items"><div class="field-item even"><div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-type-item form-item form-group">
+ <div class="fivestar-fontawesome-star"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">3</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="off"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div>
+<p class="help-block"><div class="fivestar-summary fivestar-summary-average-count"><span class="average-rating">Average: <span >3</span></span> <span class="total-votes">(<span>2</span> votes)</span></div></p>
+</div>
+</div></div></div></div></div><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h4><a href="/en/template/auto-repair-invoice-form">Auto Repair Invoice Form</a></h4></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">Repair invoice for auto repair shop</div></div></div>          </div>
+        </div>
+        <div class="template-teaser-stats-container">
+          <div class="row">
+            <div class="col-xs-4 template-teaser-bottom-left">
+              <div class="field field-name-field-template-stats-week field-type-number-integer field-label-above"><div class="field-label">Weekly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-center">
+              <div class="field field-name-field-template-stats-month field-type-number-integer field-label-above"><div class="field-label">Monthly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-right">
+              <div class="field field-name-field-template-stats-year field-type-number-integer field-label-above"><div class="field-label">Yearly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+                    
+
+<div   class="template-teaser node node-template node-teaser view-mode-teaser  template-application-writer">
+  
+  <div class="template-teaser-container">
+    <div class="template-teaser-sidebar">
+      <div class="template-teaser-sidebar-inner">
+        <div class="field field-name-field-template-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/en/template/jewel-case-cd-inserts"><img class="img-responsive" src="https://templates.openoffice.org/sites/default/files/styles/template-m/public/template_images/600_thumbnail.png?itok=t_vSeRS6" width="66" height="94" /></a></div></div></div>      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="field field-name-field-template-rating field-type-fivestar field-label-hidden"><div class="field-items"><div class="field-item even"><div class="clearfix fivestar-average-stars fivestar-average-text"><div class="fivestar-static-form-item"><div class="form-type-item form-item form-group">
+ <div class="fivestar-fontawesome-star"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">3.18182</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on" style="width: 18.182%"></span></div><div class="star star-5 star-odd star-last"><span class="off"></span></div></div></div>
+<p class="help-block"><div class="fivestar-summary fivestar-summary-average-count"><span class="average-rating">Average: <span >3.2</span></span> <span class="total-votes">(<span>33</span> votes)</span></div></p>
+</div>
+</div></div></div></div></div><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><h4><a href="/en/template/jewel-case-cd-inserts">Jewel Case cd inserts</a></h4></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">cd inserts jewel case</div></div></div>          </div>
+        </div>
+        <div class="template-teaser-stats-container">
+          <div class="row">
+            <div class="col-xs-4 template-teaser-bottom-left">
+              <div class="field field-name-field-template-stats-week field-type-number-integer field-label-above"><div class="field-label">Weekly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-center">
+              <div class="field field-name-field-template-stats-month field-type-number-integer field-label-above"><div class="field-label">Monthly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+            <div class="col-xs-4 template-teaser-bottom-right">
+              <div class="field field-name-field-template-stats-year field-type-number-integer field-label-above"><div class="field-label">Yearly:&nbsp;</div><div class="field-items"><div class="field-item even">0</div></div></div>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+                </div>
+</div>
+    </div>
+  
+      <div class="text-center"><ul class="pagination"><li class="active"><span>1</span></li>
+<li><a title="Go to page 2" href="/en/node?page=1">2</a></li>
+<li><a title="Go to page 3" href="/en/node?page=2">3</a></li>
+<li><a title="Go to page 4" href="/en/node?page=3">4</a></li>
+<li><a title="Go to page 5" href="/en/node?page=4">5</a></li>
+<li><a title="Go to page 6" href="/en/node?page=5">6</a></li>
+<li><a title="Go to page 7" href="/en/node?page=6">7</a></li>
+<li><a title="Go to page 8" href="/en/node?page=7">8</a></li>
+<li><a title="Go to page 9" href="/en/node?page=8">9</a></li>
+<li class="pager-ellipsis disabled"><span>…</span></li>
+<li class="next"><a title="Go to next page" href="/en/node?page=1">next ›</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>
+</section>
+  </div>
+                                    </section> <!-- /#content-column-wrapper -->
+
+      
+    </div> <!-- /.row -->
+
+    
+    
+  </div> <!-- /.main-container.container -->
+</div>
+
+<footer id="footer-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-3 col-lg-2">
+        <a class="footer-logo" href="http://openoffice.apache.org" target="_blank"><img class="img-responsive" src="https://templates.openoffice.org/profiles/aoot/themes/templates/images/apache.png" alt="" /></a>
+        <a class="footer-logo" href="http://sourceforge.net" target="_blank"><img class="img-responsive" src="https://templates.openoffice.org/profiles/aoot/themes/templates/images/sourceforge.png" alt="" /></a>
+      </div>
+      <div class="col-xs-7 col-lg-8">
+        Apache and the Apache feather logos are trademarks of The Apache Software Foundation. OpenOffice.org and the seagull logo are registered trademarks of The Apache Software Foundation. Other names appearing on the site may be trademarks of their respective owners.
+        <a href="/en/websitecontact">Contact us</a>      </div>
+      <div class="col-xs-2 col-lg-2">
+        <div>Follow us</div>
+        <a href="/en/feed" class="social-icon social-icon-rss" title="RSS"><i class="fa fa-rss"></i></a>
+        <a href="https://twitter.com/aootemplates" class="social-icon social-icon-twitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.facebook.com/ApacheOO" class="social-icon social-icon-facebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>  <!-- /.footer.container -->
+  <script src="https://templates.openoffice.org/profiles/aoot/modules/contrib/chosen/chosen.js?pfzqmp"></script>
+<script src="https://templates.openoffice.org/profiles/aoot/themes/bootstrap/js/bootstrap.js?pfzqmp"></script>
+</body>
+</html>
+```
