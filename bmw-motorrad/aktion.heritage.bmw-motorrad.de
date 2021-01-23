@@ -1,0 +1,183 @@
+```<!DOCTYPE html>
+<html>
+<head>
+    <title>Heritage | BMW Motorrad</title>
+    
+    <script type="text/javascript" src="https://www.bmw.com/etc/clientlibs/wcmp/consentcontroller.fallback/epaas.js" onload="epaas.api.initialize({ tenant: 'aktion_heritage_bmw-motorrad_de', locale: 'de_DE' });"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="description" content="">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/Content/Images/favicons/favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/Content/Images/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="/Content/Images/favicons/android-icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/Content/Images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Content/Images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Content/Images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Content/Images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Content/Images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Content/Images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Content/Images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Content/Images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Content/Images/favicons/apple-icon-180x180.png">
+    <link href="/Content/css-v1?v=MnyD8GgeFJCYYG-zCUHLRU6v652d74ctmX5MSEP0hX41" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=y-wc4Zwb1pqTVWUchSELX9bCZvrMM5N3H0IL8aDh9aU1"></script>
+
+    <script src="/bundles/jquery?v=8Oos0avDZyPg-cbyVzvkIfERIE1DGSe3sRQdCSYrgEQ1"></script>
+
+    <script src="/bundles/jqueryval?v=ewwbEwxCzNIunbw9c2Y5X5_ldbOkIBIkUo-LvchX7I81"></script>
+
+    <script src="/bundles/bootstrap?v=MxPitFP37iZCg-iSBEeTZixMw6gIc1cRr9yofmSfNzE1"></script>
+
+    <script src="/Scripts/js-v1?v=0pxoUDoWgt17a42IPCJbKRQkZHXgfM6NIEI_QUHWxPE1"></script>
+
+    <script src="/bundles/main?v=G2u1f5jPXH1JFVDcww3tDPiR6Xef7Oc_mZo1-uud1Cw1"></script>
+
+</head>
+<body>
+    <!-- Matomo -->
+    <div id="matomoScript"></div>
+
+    <noscript id="matomoCode"></noscript>
+    <!-- End Matomo Code -->
+    
+    <header class="navigationContainer show-header">
+        <div>
+            <a class="logo" href="https://www.bmw-motorrad.de/de/home.html" target="_blank">
+                <img src="/Content/Images/bmw-motorrad-logo.svg" alt="">
+            </a>
+        </div>
+    </header>
+
+    <div id="main">
+        
+<img src="/Content/Images/keyvisual-start-desktop.jpg" class="img-fluid w-100 top-margin-85 img-desktop" alt="">
+<img src="/Content/Images/keyvisual-start-mobile.jpg" class="img-fluid w-100 top-margin-85 img-mobile" alt="">
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="bmw-headline">BMW MOTORRAD HERITAGE QUIZ</h1>
+            <h2 class="bmw-subheadline">DAS GEWINNSPIEL IST BEENDET</h2>
+        </div>
+        <div class="col-12">
+            <p class="mytopp">
+                Wir freuen uns über Dein Interesse an unserem Gewinnspiel zum BMW Motorrad Heritage Quiz. 
+                Der Teilnahmeschluss hierfür war bereits am  5. Oktober 2020 um 11:59 Uhr, somit ist eine Teilnahme leider nicht mehr möglich. 
+            </p>
+            <p class="mytopp">
+                Du möchtest weitere spannende Highlights rund um die <span class="text-nowrap">BMW R 18</span> erfahren? Dann klick auf den nachstehenden Button und tauche ein in die BMW Motorrad Welt.
+            </p>
+            <p class="mytopp">
+                <button onclick="location.href='https://www.bmw-motorrad.de/de/models/heritage/r18.html';" class="btn btn-white" onmouseover="buttonHover(this);" onmouseout="buttonUnhover(this);">
+                    <b>Zur <span class="text-nowrap">BMW R 18</span></b>
+                </button>
+            </p>
+            <p class="mytopp">
+                <br />
+                <b>MAKE LIFE A RIDE</b> <br />
+                Dein BMW Motorrad Heritage Team
+            </p>
+
+        </div>
+                
+    </div>
+</div>
+
+<!-- Matomo post-tracking start -->
+<script type="text/javascript">
+    initMatomo('WIN Closed Seite aufgerufen');
+</script>
+<!-- Matomo post-tracking ende -->
+    </div>
+
+    <div class="totop">
+        <img src="/Content/Images/top.png" />&nbsp;&nbsp;
+        BACK TO TOP
+    </div>
+    <script language="javascript">
+        $(function () {
+            $(".totop").click(function () {
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+            });
+        });
+    </script>
+    
+    <footer>
+        <div class="container-fluid">
+            <div id="layoutFooter" class="row">
+                <div class="footernavigation__wrapperLeft">
+                    <div class="footernavigation__newsletter-disclaimer">
+                        Finde jetzt Dein BMW Motorrad
+                    </div>
+
+                    <div class="footernavigation__newsletter" role="button" tabindex="0" onclick="navigateToAllModels()" href="https://www.bmw-motorrad.de/de/models/modeloverview.html" target="_blank">
+                        <div class="headlineContainer">
+                            <div class="headline">
+                                <div class="icon mail mnm-image-set">
+                                    <img src="/Content/Images/footercta_modeloverview.png" alt="Modelübersicht" />
+                                </div>
+                                ALLE MODELLE
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footernavigation__social" role="navigation">
+                        <a href="https://www.facebook.com/BMW.Motorrad.Deutschland" class="footernavigation__socialitem facebook" data-name="Facebook" data-auto-target="" target="_blank">
+                            <span class="footernavigation__socialLabel">Facebook</span>
+                        </a>
+                        <a href="https://twitter.com/bmwmotorrad" class="footernavigation__socialitem twitter" data-name="Twitter" data-auto-target="" target="_blank">
+                            <span class="footernavigation__socialLabel">Twitter</span>
+                        </a>
+                        <a href="https://www.youtube.com/user/bmwmotorrad" class="footernavigation__socialitem youtube" data-name="Youtube" data-auto-target="" target="_blank">
+                            <span class="footernavigation__socialLabel">Youtube</span>
+                        </a>
+                        <a href="https://www.instagram.com/bmwmotorradde/" class="footernavigation__socialitem instagram" data-name="Instagram" data-auto-target="" target="_blank">
+                            <span class="footernavigation__socialLabel">Instagram</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12 row">
+                    <div class="footernavigation__extern col-md-7" role="navigation">
+                        <a href="http://www.bmw.de/de/home.html" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label externalLink col-md-12" data-auto-target="" data-external-link-class="externalLink" target="_blank" tabindex="0" role="link">BMW Automobil</a>
+                        <a href="http://www.mini.com" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label externalLink col-md-12" data-auto-target="" data-external-link-class="externalLink" target="_blank" tabindex="0" role="link">MINI</a>
+                        <a href="https://www.bmwgroup.com/" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label externalLink col-md-12" data-auto-target="" data-external-link-class="externalLink" target="_blank" tabindex="0" role="link">BMW Group</a>
+                        <a href="https://www.bmw-motorrad-authorities.com/" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label externalLink col-md-12" data-auto-target="" data-external-link-class="externalLink" target="_blank" tabindex="0" role="link">Behördenfahrzeuge</a>
+                        <a href="http://www.bmw-welt.com/" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label externalLink col-md-12" data-auto-target="" data-external-link-class="externalLink" target="_blank" tabindex="0" role="link">BMW Museum</a>
+                        <a href="https://www.bmw-motorrad.de/de/vertragshaendler-werden.html" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label col-md-12" data-auto-target="" data-external-link-class="externalLink" target="_blank">BMW Motorrad Partner werden</a>
+                        <a href="http://www.bmw-werk-berlin.de/index_ie.html" class="footernavigation__externLinkItem externLink mnm-tracking-link mnm-tracking-link-label externalLink col-md-12" data-auto-target="" data-external-link-class="externalLink" target="_blank" tabindex="0" role="link">BMW Werk Berlin</a>
+                    </div>
+
+                    <div class="metamenu footernavigation__meta col-md-5">
+                        <a href="/Cookies" class="infotrack footerlink col-md-12" target="_blank" data-topic="44" data-page="1">Cookies</a>
+                        <a href="https://www.bmw-motorrad.de/de/public-pool/content-pool/privacy.html" class="infotrack footerlink col-md-12" target="_blank" data-topic="45" data-page="1">Datenschutz</a>
+                        <a href="https://www.bmw-motorrad.de/de/public-pool/content-pool/imprint.html" class="infotrack footerlink col-md-12" target="_blank" data-topic="46" data-page="1">Impressum</a>
+                        <a href="https://www.bmw-motorrad.de/de/public-pool/content-pool/legalnotice.html" class="infotrack footerlink col-md-12" target="_blank" data-topic="47" data-page="1">Rechtlicher Hinweis</a>
+                        <a href="https://www.bmw-motorrad.de/de/public-pool/content-pool/contact.html" class="infotrack footerlink col-md-12" target="_blank" data-topic="48" data-page="1">Kontakt</a>
+                        <a href="https://www.global.bmw-motorrad.com/en/reach/reach-de.html" class="infotrack footerlink externalLink col-md-12" target="_blank" data-topic="49" data-page="1">REACH</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer-pre-disclaimer">
+        <div class="col-md-6 col-sm-12 footernavigation__disclaimer_right">
+        </div>
+    </footer>
+    <div class="footer-disclaimer-container">
+        <footer class="container-fluid footer-disclaimer">
+            <div class="footernavigation__disclaimer col-md-8 col-sm-12">
+                © BMW AG 2021
+                <br>Hinweis: Alle Motorräder werden nur mit der gesetzlich vorgeschriebenen Ausstattung (z.B. Reflektoren nach Euro 4 Standard) ausgeliefert. Die Motorräder auf den Bildern und Videos dieser Website können davon gegebenenfalls abweichen. Abbildungen können Sonderzubehör enthalten.
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+```
