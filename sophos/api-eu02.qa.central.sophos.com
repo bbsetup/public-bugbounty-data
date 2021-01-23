@@ -1,0 +1,1 @@
+```{"fault":{"faultstring":"Unable to identify proxy for host: api-eu02 and url: \/","detail":{"errorcode":"messaging.adaptors.http.flow.ApplicationNotFound"}}}```
