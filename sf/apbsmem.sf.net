@@ -1,0 +1,317 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>APBSmem: Poisson-Boltzmann electrostatics in the membrane</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<meta name="verify-v1" content="YJT1CfXN3kzE9cr+jvNB+Q73lTfHrv8eivoY+xjblc0=" />
+</head>
+<body>
+<div id="wrap">
+    <div id="top">
+    <div class="lefts">
+    <table width="100%" cellpadding="2">
+      <tr><td>
+        <a href="index.php"><h1>APBSmem</h1></a>
+        <h2>Poisson-Boltzmann electrostatics in the membrane</h2>
+      </td><td align="right" valign="middle">&nbsp;</td></tr>
+    </table>
+    </div>
+  </div>
+
+  <div id="subheader">
+  <table width="100%"><tr>
+  <td>
+  <strong>APBSmem</strong> is a Java-based graphical interface that enables users to perform electrostatics calculations on biomolecules in an implicit membrane environment. 
+  </td><td align=right valign=middle>&nbsp;
+  </td></tr>
+  </table>
+  </div>
+  <div id="main">
+  	<div id="rightside" style="padding-left: 20px">
+  <h2>Site Map</h2>
+  <div class="box">
+    <ul>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="download.php">Download</a></li>
+      <li><a href="contact.php">Contact</a></li>
+    </ul>
+    <br/>
+    <ul>
+        <li><a href="http://sourceforge.net/apps/mediawiki/apbsmem/">Wiki</a></li>
+        <li><a href="http://www.cvri.ucsf.edu/~grabe/">Grabe Lab Homepage</a></li>
+    </ul>
+  </div>
+  <h2>Publications</h2>
+  <div class="box">
+    <ul>
+      <table width="100%">
+        <tr>
+          <td colspan=2>
+            <li style="font-size: small; line-height: 130%">Marcoline, F.V., Bethel, N., Guerriero, C.J., Brodsky, J.L., Grabe, M., Membrane Protein Properties Revealed through Data-Rich Electrostatics Calculations, Structure (2015), <a href="http://dx.doi.org/10.1016/j.str.2015.05.014">http://dx.doi.org/10.1016/j.str.2015.05.014</a></li>
+            </br>
+            <li style="font-size: small; line-height: 130%">Callenberg, K.M., Choudhary, O.P., De Forest, G., Gohara, D., Baker, N., Grabe, M. (2010). <a href="http://www.plosone.org/article/info:doi/10.1371/journal.pone.0012722">APBSmem: A graphical interface for electrostatics calculations at the membrane</a>. PLoS ONE 5(9): e12722</li>
+          </td>
+        </tr>
+      </table>
+    </ul>
+  </div>
+  <h2>Related Tools</h2>
+  <div class="box">
+    <ul>
+      <table width="100%">
+      <tr>
+        <td>
+          <a href="http://www.poissonboltzmann.org/">APBS</a>: Required to use APBSmem
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="http://www.poissonboltzmann.org/">PDB2PQR</a>: Bundled with APBSmem
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="http://github.com/jensengroup/">PROPKA</a>: Bundled with APBSmem
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="http://mgltools.scripps.edu/packages/MSMS/">MSMS</a>: Recommended for APBSmem
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="http://ant.apache.org/">Apache Ant</a>: For compiling APBSmem
+        </td>
+      </tr>
+      </table>
+    </ul>
+  </div>
+
+  <!-- h2>Other Documentation</h2>
+  <div class="box">
+    <ul>
+      <li>APBSmem poster, Biophysical Society Meeting 2012 (<a href="#">PDF</a>)</li>
+    </ul>
+  </div -->
+
+</div> <!-- End of "rightside" -->
+
+    <div id="leftside">
+
+APBSmem version 2.0.5 released - Mar 02 2020</br>
+<ul>
+    <li>Bug fix for gating charge calculations. Occasionally apbs error messages would interfere with parsing of energy terms. Now apbs stderr messages are redirected to a different file. Additionally, gating charge calcuations, which are done at four membrane voltages, used to overwrite sucessive output files. Now each set of apbs output files is maintained.
+    <li>Previously if APBSmem could not find apbs on the path, it would ask you to locate it manually using a file chooser dialog. This dialog was not capable of looking inside application bundles, so if you installed apbs on MacOS in, for example, /Application/APBS-1.5.app, then you would not be able to point APBSmem to apbs. Now when locating APBS, you can select the app bundle, and APBSmem should find apbs within it.
+</ul>
+
+APBSmem version 2.0.4 released - Nov 08 2018</br>
+<ul>
+    <li>Minor big fix for the DrawMembrane command line tool for adding the membrane to the .dx files.
+</ul>
+
+APBSmem version 2.0.3 released - Aug 10 2017</br>
+<ul>
+    <li>New menu item lets you select which APBS binary to use.</li>
+    <li>Fixed incorrect units in gating charge plot. (Units in log files were correct.)</li>
+</ul>
+
+<h2>macOS fix for missing apbs 1.4 libraries:</h2>
+   If you are using a pre-build APBS.app in the 1.4 series, apbs may not be able to find its libraries when run from APBSmem.  Currently there are two solutions:
+   <ul>
+   <li>Use the newer apbs 1.5.</li>
+   <li>Use the following script to modify your apbs 1.4 binary.
+       If you put APBS.app somewhere other than in /Applications,
+       replace /Applications in APBSPATH below to where you put APBS.app.
+       Then run the following code in a Terminal:</li>
+<pre><code>
+APBSPATH=/Applications/APBS.app/Contents/MacOS
+cd $APBSPATH
+cp apbs apbs.bck
+
+# get a list of libraries with bad paths
+FIXLIBS=$(otool -L apbs | grep d3x923 | awk '{print $1}')
+
+for f in $FIXLIBS; do 
+  install_name_tool -change $f @executable_path/../Frameworks/$(basename $f) apbs;
+done
+</code></pre>
+</ul>
+
+<h2>Updates</h2>
+
+APBSmem version 2.0.2 released - Apr 07 2016</br>
+    <ul>
+    <li>Fixed two ancient bugs in gating charge calculations which
+        resulted in incorrect slope except for an input membrane potential of 2.0.
+        The tooltip for membrane potential now indicates the membrane potential
+        is given in reduced units (units of kT/e), rather than in mV. 
+        Divide the potential in mV by 25.69 to get the reduced potential.</li>
+    </ul>
+
+APBSmem version 2.0.1 released - Jun 17 2015</br>
+    <ul>
+    <li>Bug fix release.</li>
+        <ul>
+        <li> Operations involving pdb2pqr (charge assignment, forcefield
+             changes and pdb conversions) should work now if apbsmem was
+             called from outside apbsmem directory as such:  
+             java -jar path/to/apbsmem.jar
+        </li>
+        </ul>
+    </ul>
+
+APBSmem version 2.0 released - Jan 26 2015</br>
+APBSmem has now been upgraded to handle many other types of calculations
+
+    <ul>
+    <li>NEW FEATURES</li>
+        <ul>
+        <li> PDB2PQR has been integrated into APBSmem. This allows the user to 
+          convert a PDB file to PQR file, alter protonation states and change 
+          forcefield parameters from within APBSmem</li>
+        <li> Delta-pKa button has been added to calculate the membrane induced 
+          pKa shift of a residue sidechain</li>
+        <li> Ligand salvation energy has been added as new calculation type 
+          (ligand must be provided as a mol2 file when converting a pdb to 
+          a pqr file)</li>
+        <li> Representations menu allows the user to change the molecule 
+          representation from the default ball-and-stick representation to 
+          new cartoon representations color coded by side chain protonation 
+          state or protein solvation energy</li>
+        <li> Nonpolar energy is now calculated with protein solvation and gating 
+          charge calculations (Michael Sanner’s MSMS program must be installed 
+          for this function)</li>
+          Different NP models can be selected from the NP models menu. All NP 
+          models are  based the change in solvent accessible surface area, but 
+          these models allow the user to select whether or not to include atoms 
+          in the head group region as solvent excluded.</li>
+        <li> Flooding algorithm to draw the membrane around the protein. By using 
+          a flood fill method, the membrane will not be drawn in regions separate
+          from the bulk membrane area (such as aqueous pores and cavities). This 
+          feature was recently developed and has some limitations. Ensure that 
+          the final focus volume encompasses the protein in the x-y plane, and 
+          make sure that the grid dimensions and lengths are equal in the x y 
+          and z directions.</li>
+        </ul>
+
+    <li>REQUIRED SOFTWARE</li>
+        <ul>
+        <li> APBS 1.4.1, the previous version does not work when the boundary 
+          condition in APBSmem set to "Membrane potential"</li>
+        <li> MSMS (optional). Used to calculate solvent accessible surface areas 
+          for non polar energy calculations. APBSmem will just calculate 
+          electrostatic energies if MSMS is not included.</li>
+        <li> Python 2.7 (optional). Used to run PDB2PQR for PQR creation/modifications. 
+        <li> Numpy 1.9 (optional). Used by PDB2PQR to assign parameters to ligands.</li>
+        </ul>
+
+    <li>KNOWN ISSUES</li>
+        <ul>
+        <li> Ligand option during pdb setup will fail if APBSmem is opened by double 
+          clicking the icon. Open apbsmem from command line when using ligands.
+          (java -jar <path-to-apbsmem.jar>)</li>
+        <li> MSMS will sometimes fail when calculating non polar energy when the 
+          flooding algorithm is used. This can sometimes be fixed by slightly 
+          changing the grid length for the final focus volume.</li>
+        <li> Larger grid dimensions (>129) will cause java to run out of memory
+          open apbsmem from terminal with extra memory allocation when using
+          large grid dimensions. (java -Xms512m -Xmx512m -jar apbsmem.jar)</li>
+        </ul>
+    </ul>
+
+Aug 2014 Update:  APBSmem gating charge calculations work once again with the newest APBS release: apbs 1.4.1. Pre-1.4 versions are no longer needed.</br>
+
+APBSmem version 1.13 released Nov 06 2013
+
+<ul>
+  <li>Version 1.13 is now available. <a href="download.php">Download APBSmem v1.13</a>.</li>
+  <ul>
+  <li>APBSmem can now be run in batch mode from the command line or from script:  Providing an input file and output directory will cause APBSmem to perform the calculation and exit.
+  <li>Usage:  java -jar apbsmem.jar &lt;input-file&gt; &lt;output-directory&gt;</li>
+  <li>Warning:  Gating charge calculations and other calculations with the boundary condition in APBSmem set to "Membrane potential", (or in APBS with the boundary condition set as "bcfl mem",) will not work with APBS 1.4 due to a bug in APBS.  Download an older APBS for gating charge calculations.  Bugged APBS versions will report the following error somewhere (not necessarily at the end) in the output file: VASSERT: ASSERTION FAILURE!  filename /Users/d3x874/apbs/src/generic/vpbe.c, line 200, (thee->param2Flag)</li>
+  </ul>
+</ul>
+<ul>
+  <li>Version 1.12.</li>
+  <ul>
+  <li>Fixes a bug in gating charge calculations introduced in version 1.10.  The membrane potential was not being applied.  Please upgrade if you perform gating charge calculations.</li>
+  <li>Additionally, during a run, the progress bar should accurately reflect the amount of work remaining.</li>
+  </ul>
+</ul>
+<ul>
+  <li>Version 1.11.3, a bug-fix release.</li>
+  <ul>
+  <li>Fixes a problem which could cause APBSmem to hang for a couple minutes at startup before the GUI appears.</li>
+  </ul>
+</ul>
+<ul>
+  <li>Version 1.11.2, a bug-fix release.</li>
+  <ul>
+  <li>Temporary fix for numerous internationalization bugs: The locale is forced to US for now.  This should prevent many errors seen in locales which use a comma (,) for the decimal mark.  Correct internationalization support should be available in a future release.</li>
+  </ul>
+</ul>
+<ul>
+  <li>Version 1.11.1, a bug-fix release.</li>
+  <ul>
+    <li>Fixed a bug with version 1.11 which caused incorrect results when using the "Step Ion" feature.</li>
+    <li>Note to international users:  If in your locale a comma is used to indicate the fractional part of a number, (e.g.: 1/2 = 0,5) you may need to use version 1.10.  Version 1.11 introduced an internationalization bug which we are working to fix.</li>
+  </ul>
+</ul>
+<ul>
+  <li>Version 1.11</li>
+  <ul>
+    <li>The current version adds improved support for protein rotations and translations, some UI tweaks and some warnings to insure that user input is sensical.</li>
+  </ul>
+</ul>
+<ul>
+  <li>Version 1.10 added two tools for ion solvation calculations:</li> 
+    <ul>
+      <li>Menu item <strong>Ion -> Create Ion</strong>.  After specifing a protein (i.e. PQR file 1), you can use the Create Ion tool to place an ion in the system.  This will allow you to quickly create or edit the location of an ion for PQR file 2 without writing your own PQR files.</li>
+      <li>Menu item <strong>Ion -> Step Ion</strong>.  After specifing a protein for PQR file 1 and an ion for PQR file 2 (by browsing or by creating a ion with the Create Ion tool) you can use the Step Ion tool to run a series of ion solvation calculations, stepping the ion over a number of locations.</li>
+    </ul>
+</ul>
+<ul>
+  <li>Version 1.09 added a number of tools under the Orient menu which can be used to display and alter the orientation of the protein in PQR file 1:</li>
+  <ul>
+    <li>Toggle display of the coordinate axes of the membrane or the protein.</li>
+    <li>Rotate and center the protein.</li>
+    <li>Auto-orient the protein.  Auto-orientation is very simplistic and can only work highly symmetric proteins at the moment.  It simply aligns the (unweighted) principal axes of the molecule to the membrane axes.</li>
+  </ul>
+</ul>
+
+
+      <br/>
+
+    </div>
+  </div>
+    <div id="footer">
+  	<table width="100%" cellspacing=15><tr><td>
+    This research was supported in part by NSF grants<br/>XXY XYX.
+    </td><td align=right>
+    Administrator: <a href="mailto:fvmarcoline@gmail.com">Frank Marcoline</a>
+    </td></tr>
+    </table>
+    <center><a href="http://sourceforge.net/projects/apbsmem"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=329551&amp;type=9" width="80" height="15" alt="Get APBSmem at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a></center>
+  </div>
+
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8448017-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
+```
