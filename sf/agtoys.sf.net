@@ -1,0 +1,315 @@
+```<HTML>
+<TITLE>AgToys - Small tools and toys for the Agenda PDA.</TITLE>
+<BODY text="#B5A642" link="#8FFF8F" vlink="#18A515" alink="#20336B"
+      bgcolor="#005000" background="marble.png">
+
+<TABLE>
+<TR>
+<TD>
+<center>
+<FONT SIZE=+2>
+
+<H1> <FONT SIZE=+7> A</FONT>g<FONT SIZE=+7>T</FONT>oys:
+<FONT SIZE=+7> S</FONT>mall<FONT SIZE=+7> T</FONT>ools and
+ <FONT SIZE=+7>T</FONT>oys for the
+ <FONT SIZE=+7>A</FONT>genda(tm) <FONT SIZE=+7>PDA</FONT>.</H1>
+</font></center>
+</TD>
+<TD>
+<TABLE>
+<TR><TD>
+<A href="http://sourceforge.net">
+<IMG src="http://sourceforge.net/sflogo.php?group_id=19324" width="88"
+height="31" border="0" alt="SourceForge Logo"></A>
+</TD></TR>
+<TR><TD>
+<A HREF="http://sourceforge.net/projects/agtoys">AgToys project</a>
+</TD></TR>
+</TABLE>
+</TR>
+</TABLE>
+<H2>Introduction.</H2>
+The <A HREF="http://agendawiki.com/">Agenda</A> is a cool
+palmtop computer/PDA that runs Linux.
+<p>
+As such, a significant number of standard OpenSource applications have
+been ported to it - and some new applications that are well-suited
+to it's small screen size and other limitations have been written.
+Most of these programs will also run on a PC - but in microscopic
+fonts in postage-stamp sized windows!
+<p>
+This site attempts to collect those tools into a single one-stop site
+for free software for your Agenda.
+<P>
+Last change: 2002-02-06
+<p>
+<center>
+<TABLE>
+<TR><TD><b>Name</b></TD><TD><b>Version</b></TD>
+    <TD>Documentation</TD>
+    <TD>Source</TD>
+    <TD>Binaries</TD><TD> for rootdisk</TD><TD> versions<TD>
+</TR>
+<TR><TD>apm-sleep/gbm with awakening events</TD><TD>0.6a/0.31a</TD>
+    <TD>[<A HREF="apmSleep_gbm_awakEvent/description.html">Documentation</A>]</TD>
+    <TD>[<A HREF="apmSleep_gbm_awakEvent/apmSleep_gbm_awakEvent.tgz">Source+1.2,1.4</A>]</TD>
+</TR>
+<TR><TD>aqw - Agenda Quikwrite</TD><TD> V0.1</TD>
+    <TD>[<A HREF="aqw/aqw.html">Documentation</A>]</TD>
+    <TD>[<A HREF="aqw/aqw-0.1.tgz">Source</A>]</TD>
+    <TD>[<A HREF="aqw/aqw-mipsel-0.1.tgz">SVR4</A>]</TD>
+    <TD>[<A HREF="files/aqw-1.0.8S.gz">1.0.8S</A>]</TD>
+    <TD>[<A HREF="files/aqw.120S.gz">1.2.0S</A>]</TD></TR>
+<TR><TD>discoverer - IrDA discovery app</TD><TD> V0.07</TD>
+    <TD>[<A HREF="discoverer/README">Documentation</A>]</TD>
+    <TD>[<A HREF="discoverer/discoverer-0.07.tar.gz">Source</A>]</TD>
+    <TD>[<A HREF="discoverer/discoverer-mips.gz">SVR4</A>]</TD>
+    <TD>[<A HREF="discoverer/discoverer-snow.gz">1.X.0S</A>]</TD></TR>
+<TR><TD>enotes - The Agenda notes app with BlowFish encryption</TD>
+    <TD>V1.0.2e</TD>
+    <TD>[<A HREF="notes/">Documentation</A>]</TD>
+    <TD>[<A HREF="notes/notes-1.0.2.src.tar.gz">Source</A>]</TD>
+    <TD>[<A HREF="notes/notes.mips.gz">SVR4</A>]</TD>
+    <TD>[<A HREF="files/enotes-1.0.8S.gz">1.0.8S*</A>]</TD>
+    <TD>[<A HREF="notes/notes-1.1.1S.gz">1.1.1S</A>]</TD></TR>
+<TR><TD>flbatt - battery monitor and charger controller</TD><TD>V0.3</TD>
+    <TD>[<A HREF="flbatt/description.html">Documentation</A>]</TD>
+    <TD>[<A HREF="flbatt/flbatt-0.3.tgz">Source</A>]</TD>
+    <TD>[<A HREF="flbatt/flbatt">1.2.0S</A>]</TD>
+</TR>
+<TR><TD>flirc IRC client</TD><TD> V0.09d</TD>
+    <TD>[<A HREF="flirc/flirc.html">Documentation</A>]</TD>
+    <TD>[<A HREF="flirc/flirc.tar.gz">Source</A>]</TD>
+    <TD>[<A HREF="flirc/flirc.gz">SVR4</A>]</TD>
+    <TD>[<A HREF="flirc/flirc-1.2.0.gz">1.2.0S</A>]</TD></TR>
+<TR><TD>flmon - The Agenda system resource monitor</TD><TD> V0.4.1</TD>
+    <TD>[<A HREF="flmon/index.html">Documentation</A>]</TD>
+    <TD>[<A HREF="flmon/download/flmon.0.4.1.tar.gz">Source</A>]</TD>
+    <TD>
+		[<A HREF="flmon/download/flmon-1.1.0S.gz">1.1.0S</A>]
+	</TD>
+    <TD>
+		[<A HREF="flmon/download/flmon-1.2.0S.zip">1.2.0S</A>]
+	</TD>	
+</TR>
+<TR><TD>flpad - Folders-based LaunchPAD</TD><TD>V1.8</TD>
+    <TD>[<A HREF="flpad/description.html">Documentation</A>]</TD>
+    <TD>[<A HREF="flpad/flpad_1.8.tgz">Source</A>]</TD>
+    <TD>[<A HREF="flpad/flpad_1.8-snow1.2">1.2.0S</A>]</TD>
+    <TD>[<A HREF="flpad/flpad_1.8-snow1.4">Snow1.4</A>]</TD>
+</TR>
+<TR><TD>FLTK Font Browser</TD><TD> V1.0</TD>
+    <TD>[<A HREF="font_browser/font_browser.html">Documentation</A>]</TD>
+    <TD>[<A HREF="font_browser/font_browser.tar.gz">Source</A>]</TD>
+    <TD>[<A HREF="font_browser/font_browser.gz">SVR4</A>]</TD></TR>
+<TR>
+      <TD>fman - Filemanager + beam-support</TD>
+      <TD>?-latest</TD>
+      <TD>[Documentation]</TD>
+    <TD>[<A HREF="fman/fman-irbeam.zip">Source</A>]</TD>
+    <TD>[<A HREF="fman/1.2.0S/fman_beam_1.2.0S.zip">1.2.0S</A>]</TD>
+</TR>
+<TR><TD>Interactive Word Search Puzzle</TD><TD> V2.2</TD>
+    <TD>[<A HREF="wordsearch/wordsearch-2.2.html">Documentation</A>]</TD>
+    <TD>[<A HREF="wordsearch/wordsearch-2.2.tar.gz">Source</A>]</TD>
+    <TD>[<A HREF="wordsearch/wordsearch-mipsel-2.2.tar.gz">SVR4</A>]</TD></TR>
+<TR><TD>mastermind - A simple MasterMind clone</TD>
+    <TD>v0.0</TD>
+    <TD>[<A HREF="mastermind/index.html">Documentation</A>]</TD>
+    <TD COLSPAN=2>
+         [<A HREF="mastermind/files/MasterMind.tar.gz">
+         Source &amp; SVR4</A>]</TD>
+    </TR>
+<TR>
+    <TD>Minimail</TD>
+    <TD>?-latest</TD>
+    <TD>[Documentation] </TD>
+    <TD>[Source]</TD>
+    <TD>[<A HREF="minimail/1.2.0S/minimail.zip">1.2.0S</A>]</TD>
+</TR>
+<TR><TD>mpuz - game similar to emacs M-x mpuz</TD><TD> V0.51</TD>
+    <TD>[<A HREF="mpuz/README">Documentation</A>]</TD>
+    <TD>[<A HREF="mpuz/mpuz-0.51.src.tar.gz">Source</A>]</TD>
+    <TD>[<A HREF="mpuz/mpuz-0.51.src.tar.gz">Snow</A>]</TD></TR>
+<TR>
+      <TD>Mupo (latest version at 
+               <A HREF="http://kisocd.sourceforge.net/mupo.htm">kisocd</A>)</TD>
+      <TD>0.28</TD>
+      <TD>[<A HREF="http://kisocd.sourceforge.net/mupo.htm">Documentation</A>] 
+      </TD>
+      <TD colspan="4" nowrap>
+          [Old 0.28 <A HREF="mupo/">Source and 1.2.0S binary</A>]</TD>
+<!--  <TD>[<A HREF="mupo/1.2.0S/mupo-0.28.zip">1.2.0S</A>]</TD>
+-->
+</TR>
+<TR><TD>oneko - cat that runs around your X desktop</TD><TD> V1.1b1</TD>
+    <TD>[<A HREF="oneko/">Documentation</A>]</TD>
+    <TD>[<A HREF="oneko/oneko_1.1b.orig.tar.gz">Source</A>]</TD>
+
+    <TD>[<A HREF="oneko/oneko.gz">SVR4</A>]</TD></TR>
+
+<TR><TD>Prescribble - Freehand note-taking app</TD><TD>v0.14</TD>
+    <TD>[<A HREF="prescribble/index.html">Documentation</A>]</TD>
+    <TD>[<A HREF="prescribble/files/prescribble.tar.gz">
+         Source</A>]</TD>
+    <TD>[<A HREF="prescribble/files/pres_svr4.mips">SVR4</A>]</TD>
+    <TD>[<A HREF="prescribble/files/pres_110S.mips">1.1.0S</A>]</TD>
+    <TD>[<A HREF="prescribble/files/experimental/pres_120S.mips">1.2.0S</A>]
+    </TD>
+    </TR>
+<TR><TD>Ruby - the OO scripting language</TD><TD>1.6.5</TD>
+    <TD>[<A HREF="ruby/index.html">Documentation</A>]</TD>
+    <TD></TD>
+    <TD>[<A HREF="ruby/files/binaries/">1.2.0S</A>]</TD>
+</TR>
+<TR><TD>statusbar - Standard statusbar improved</TD><TD>V1.5</TD>
+    <TD>[<A HREF="statusbar/description.html">Documentation</A>]</TD>
+    <TD>[<A HREF="statusbar/vru-statusbar_1.5.tgz">Source</A>]</TD>
+    <TD>[<A HREF="statusbar/statusbarSnow1.2">Snow1.2</A>]</TD>
+    <TD>[<A HREF="statusbar/statusbarSnow1.4">Snow1.4</A>]</TD>
+</TR>
+<TR>
+    <TD>Thumbpad</TD>
+    <TD>0.1</TD>
+    <TD>[Documentation] </TD>
+    <TD>[<A HREF="thumbpad/thumbpad-0.1.tar.gz">Source</A>]</TD>
+    <TD>[<A HREF="thumbpad/1.2.0S/thumbpad-0.1.zip">1.2.0S</A>]</TD>
+</TR>
+<TR><TD>tinyscheme - a tiny Scheme interpreter</TD><TD>1.27</TD>
+    <TD>[<A HREF="tinyscheme/tinyscheme.vr3">Documentation</A>]</TD>
+    <TD>[<A HREF="tinyscheme/tinyscheme.vr3">Source</A>]</TD>
+    <TD>[<A HREF="tinyscheme/1.2.0S/tinyscheme.gz">1.2.0S</A>],</TD>
+    <TD>[<A HREF="tinyscheme/init.scm">init file</A>]</TD>
+</TR>
+<tr>
+  <td>tweb - a tiny web browser</td>
+  <td>0.4</td>
+  <td><a href=tweb/index.html>[Documentation]</a></td>
+  <td><a href=tweb/tweb-0.4.tar.gz>[Source]</a></td>
+  <td>[<a href=tweb/tweb>1.2.0S</a>]</td>
+</tr>
+<TR>
+    <TD>TWReader</TD>
+    <TD>1.2</TD>
+    <TD>[<A HREF="twreader/index.html">Documentation</A>] </TD>
+    <TD>[<A HREF="twreader/twreader-1.2.tar.gz">Source</A>]</TD>
+    <TD>[<A HREF="twreader/1.2.0S/TWReader-1.2.zip">1.2.0S</A>]</TD>
+</TR>
+<TR>
+    <TD>vim - the Vi IMproved (built with minimal features)</TD><TD>6.0</TD>
+    <TD>[<A HREF="vim/vim.vr3">Documentation</A>]</TD>
+    <TD>[<A HREF="vim/vim.vr3">Source</A>]</TD>
+    <TD>[<A HREF="vim/1.2.0S/vim.gz">1.2.0S</A>]</TD>
+</TR>
+<tr>
+  <td>vrjpegs - JPEG image viewer</td>
+  <td>0.4.0</td>
+  <td><a href="/vrjpegs/">[Documentation]</a></td>
+  <td><a href="/vrjpegs/vrjpegs-0.4.0.tgz">[Source]</a></td>
+  <td>[<a href="/vrjpegs/vrjpegs-0.4.0-snow.tgz">1.2.0S</a>]</td>
+</tr>
+<TR><TD>vrsm - A companion of flpad</TD><TD>V1.1</TD>
+    <TD>[<A HREF="vrsm/README">Documentation</A>]</TD>
+    <TD>[<A HREF="vrsm/vrsm_1.1.tgz">Source</A>]</TD>
+    <TD>[<A HREF="vrsm/vrsm_1.1-snow1.2">1.2.0S</A>]</TD>
+    <TD>[<A HREF="vrsm/vrsm_1.1-snow1.4">Snow1.4</A>]</TD>
+</TR>
+</TABLE>
+<p>&nbsp;</p></center>
+<p> *Binaries marked '*' were contributed by other users, 
+  not compiled by agtoys members.<br>
+  SVR4 = original Agenda ABI<br>
+  Snow = unknown snow version<br>
+  Number = snow toolchain version number<br>
+  You can get the snow toolchains from: 
+  <a href=http://agendawiki.com/wiki.pl?SnowToolchain>AgendaWiki 
+  SnowToolchain page</a> <br>
+<p>&nbsp;
+
+<h2>Tools</h2>
+<p>Helper tools that run on the PC or host, 
+  which help you get the most out of your Agenda.
+</p>
+<p>
+
+<table  width="100%">
+<tr> 
+	<th>Name<th>Description</th><th>Author<th>Files
+<tr>
+	<td>vcard2contacts
+	<td>Converts VCard files to the contacts.dat format
+	<td><A HREF="mailto:tamas.bondar@pp.nic.fi"> Tamas Bondar </A> 
+	<td>[<A HREF="tools/vcard2contacts-0.03.tar.gz">0.03</A>|<A
+	HREF="tools/">older</A>]
+<tr>
+        <td>expenses2qif
+	<td>Converts expenses data to QIF for GnuCash import
+	<td><A HREF="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#101;&#110;&#116;&#104;&#97;&#108;&#64;&#117;&#115;&#101;&#114;&#115;&#46;&#115;&#111;&#117;&#114;&#99;&#101;&#102;&#111;&#114;&#103;&#101;&#46;&#110;&#101;&#116;">Kent Dahl</A>
+	<td>[<A HREF="ruby/files/tools/expenses2qif-0.05.tar.gz">0.05</A>|<A 
+	        HREF="ruby/files/tools/">older</A>]
+</table>
+
+<p>
+<h2>Rootdisks </h2>
+<table>
+  <tr>
+    <td width="218"><b>Name</b></td>
+    <td width="83"><b>Version</b></td>
+    <td width="74"><b>Info</b></td>
+    <td width="74"><b>MD5</b></td>	
+    <td width="53"></td>
+    <td width="51"></td>
+  </tr>
+  <tr> 
+    <td>simon_0.1</td>
+    <td>1.2.0S</td>
+    <td>XIP</td>
+    <td>1d0ff1c372afb2a6d2b78811ad519b3d</td>
+    <td>[<a href="rootdisks/1.2.0S/docs/simon_doc.html">Documentation</a>]</td>
+    <td>[<A HREF="rootdisks/1.2.0S/root-1.2.0S_simon_0.1_XIP.cramfs">
+            Download</A>]</td>	
+  </tr>
+  <tr> 
+    <td>simon_tcl_0.1.1</td>
+    <td>1.2.0S</td>
+    <td>XIP + TCL</td>
+    <td>b4aaa71d6883d77e193c456f5fd8b6a2</td>
+    <td>[<a href="rootdisks/1.2.0S/docs/simon_doc.html">Documentation</a>]</td>
+    <td>[<A HREF="rootdisks/1.2.0S/root-1.2.0S_simon_XIP_tcl_0.1.1.cramfs">
+            Download</A>]</td>	
+  </tr>
+</table>
+<p>&nbsp;
+<H2>Support.</H2>
+<p>Programs: There isn't any - if one of these programs breaks, you get to keep 
+  *both* pieces. </p>
+<p>Rootdisks: If you have problems, found bugs, have suggestions, 
+  for any of the simon* rootdisks, feel free to contact 
+  <a href="mailto:georges@norm.lu">Georges</a> 
+  about it ;)</p>
+<p>
+Please send bug reports/enhancements to the programs or AgToys to 
+<a href="mailto:kevinbutler@users.sf.net">kevinbutler@users.sf.net</a>.  
+Or, better yet, join the AgToys project.
+<HR>
+Agenda-related questions should be directed to the
+<A HREF="http://sourceforge.net/mail/?group_id=29693">mailing list</A> at the 
+<A HREF="http://sourceforge.net/projects/agenda-snow">
+Agenda-SNOW</A> Sourceforge project site.  Please don't post them 
+to any of the addresses below because they will NOT be welcome!
+<p> 
+Administratrive requests for this site go to: 
+<A HREF="mailto:agtoys-admin@lists.sourceforge.net"> 
+&lt;agtoys-admin@lists.sourceforge.net&gt; </A>
+<p>
+Announcements about new submissions go to: 
+<A HREF="mailto:agtoys-announce@lists.sourceforge.net"> 
+            &lt;agtoys-announce@lists.sourceforge.net&gt; </A>
+<p>
+To subscribe to these mailing lists, visit 
+<A HREF="http://sourceforge.net/mail/?group_id=19324">
+         http://sourceforge.net/mail/?group_id=19324</A>
+
+</BODY>
+</HTML>
+```
