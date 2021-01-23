@@ -1,0 +1,161 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+		<title>
+			The Analysis &amp; Resynthesis Sound Spectrograph
+		</title>
+	</head>
+<body>
+
+<link rel="alternate" title="ARSS RSS feed" href="http://arss.sourceforge.net/feed/" type="application/rss+xml">
+<center><u><font size="8"><b>The ARSS</b></font></u></center>
+<center><br>
+	<a href="/index.shtml">Main Page</a> | 
+	<a href="/download.shtml">Download</a> | 
+	<a href="/code.shtml">Code</a> | 
+	<a href="/examples.shtml">Examples</a> | 
+	<a href="/doc.shtml">Documentation</a> |
+	<a href="/mfaq.shtml">MFAQ</a> | 
+	<a href="/roadmap.shtml">Roadmap</a></center>
+
+
+<p><br><u><b><font size="5"><a name="About">About</a></font></b></u>
+
+</p><p>The Analysis &amp; Resynthesis Sound Spectrograph (formerly known 
+as the Analysis &amp; Reconstruction Sound Engine), or ARSS, is a
+program that analyses a sound file into a spectrogram and is able to
+synthesise this spectrogram, or any other user-created image, back into
+a sound.
+
+</p><p>ARSS is now superseded by <a href="http://photosounder.com" onclick="pageTracker._trackPageview('http://photosounder.com');">Photosounder</a>, which makes use of most of the techniques offered by ARSS in a simple to use and powerful graphical user interface and built in editor.
+
+<p><br><u><b><font size="5">What it can do</font></b></u>
+
+<ul>
+	<li><a href="examples.shtml#Reconstruction">Store all types of sounds as images and reproduce them as sounds</a></li>
+	<li><a href="examples.shtml#Scatman">Time stretching</a>, pitch shifting, <a href="examples.shtml#Barber">interval stretching</a></li>
+	<li><a href="examples.shtml#Duke">Filter sound features</a> using an image-editing program</li>
+	<li><a href="examples.shtml#Lena">Image transmission over sound</a></li>
+	<li>Create sounds from hand-drawn spectrograms such as <a href="examples.shtml#Hal9000PS">speech</a>, drum beats or even <a href="http://www.lshift.net/blog/2008/07/25/listening-to-your-webcam#comment-6" onclick="pageTracker._trackPageview('lshift.net/tonygs-first-techno-beat');">techno-ish music</a></li>
+	<li><a href="examples.shtml#DnaGel">Create sounds from real-world images</a></li>
+	<li>Synthesise spectrograms created from other spectrographs, such as printed spectrograms of bird calls in books</li>
+	<li>Reproduce traditional sound effects (such as filtering, equalization, echo, flanger, chorus, phaser, wah-wah, noise reduction, pitch correction) or new variants of effects (such as time-frequency compression) with an image-editing program</li>
+	<li>Who knows what else, there's a lot of room for experimentation</li>
+</ul>
+
+<p><br><u><b><font size="5"><a name="News">News</a></font></b></u>
+<br><font size="2"><a href="http://arss.sourceforge.net/feed/" onclick="pageTracker._trackPageview('http://arss.sourceforge.net/feed/');">RSS feed <img src="/rss.png" border="0"></a></font>
+
+</p><p> <i>December 17th, 2008</i> : <a href="http://photosounder.com" onclick="pageTracker._trackPageview('http://photosounder.com');">Photosounder 1.0</a> released. <a href="http://photosounder.com" onclick="pageTracker._trackPageview('http://photosounder.com');">Photosounder</a> is a new program that I've been working on for the last 3 monthes which incorporates the core of the ARSS into an easy-to-use graphical program. It can load any type of image, OGG and WAV sounds, and allows you to experiment with image-sounds quickly and easily thanks to various controls, the spray tools to edit the images and the faster noise synthesis.
+
+</p><p> <i>September 15th, 2008</i> : Alex Ferro made <a href="https://sourceforge.net/project/showfiles.php?group_id=221809&package_id=291396" onclick="pageTracker._trackPageview('https://sourceforge.net/project/download_applescript_gui');">this AppleScript front end</a> for the ARSS on Mac OS X. Also a <a href="http://arss.sourceforge.net/feed/" onclick="pageTracker._trackPageview('http://arss.sourceforge.net/feed/');">RSS feed</a> has been added to this site so you can keep track of future updates.
+
+</p><p> <i>July 29th, 2008</i> : Thank you to Alex Ferro who sent me this <a href="http://downloads.sourceforge.net/arss/arss-0.2.3-macosx-universal.dmg?use_mirror=osdn" onclick="pageTracker._trackPageview('https://sourceforge.net/project/download_arss-0.2.3-macosx-unversal');">Mac OS X Universal Binary</a> of the ARSS 0.2.3! It contains an installer that you just have to doucle-click. Alex also tells me that anyone who wants to compile the ARSS in Mac OS X should run the command 'gcc *.c -o arss -lm -lfftw3 -O2'.
+
+</p><p> <i>May 30th, 2008</i> : The ARSS 0.2.3 released. Changes since version 0.2.2 :
+
+<ul>
+	<li>Fixed the logarithmic base system so that it produces the expected results
+when using a different base than 2</li>
+	<li>Implemented linear frequency scaling</li>
+	<li>Fixed the volume of noise bands in noise synthesis, although it may not be
+perfect and may be way off for logarithmic bases other than 2 and linear frequency scale</li>
+	<li>Implemented bounds checking when reading and writing in the lower and upper frequencies</li>
+	<li>Fixed the brightness setting input which would only take integer values</li>
+	<li>Added a bit more information on the progress display line</li>
+</ul>
+
+</p><p> <i>May 9th, 2008</i> : The ARSS 0.2.2 released. Changed the formula 
+used in the filtering function which reduces the visible time domain ripples 
+which can mainly be seen on the lower part of spectrograms, hence increasing 
+the quality of produced spectrograms.
+
+</p><p> <i>May 5th, 2008</i> : The ARSS version 0.2 (final version) has 
+just been released. It's the first feature-complete version since 0.1, 
+which means noise synthesis is back in a rewritten and faster form, 
+although not yet as fast as I'm working to make it. Here's a list of 
+significant changes since the previous release :
+
+<ul>
+	<li>Noise synthesis has been re-implemented</li>
+
+	<li>Full command-line support, meaning the ARSS can now be 
+	<a href="doc/scripting.shtml">scripted</a>, that you get define 
+	settings you couldn't directly modify before, but also that 
+	front-ends can easily be made for it</li>
+
+	<li>Major reorganisation in the non-DSP code into easing the re-use of 
+	functions and the implementation of image/sound I/O functions by 
+	third-party developers</li>
+
+	<li>Improved various aspects of IO functions, mainly regarding and 
+	few bugs and PowerPC compatibility</li>
+
+	<li>Added brightness correction, a parameter similar to gamma 
+	correction. Makes spectrograms brighter, which allows for a better 
+	visibility when editing a spectrogram but also better sounding 
+	results</li>
+</ul>
+
+</p><p><br><u><b><font size="5"><a name="Description">Technical Description</a></font></b></u>
+
+</p><p>The ARSS consists in two main parts, a spectrograph with a 
+base-2 logarithmic frequency scale, and a spectrogram synthesiser.
+
+</p><p>Unlike most spectrographs which are based on STFTs (which perform 
+the analysis by cutting the signal into small time slices to analyse 
+these slices in the frequency domain), the ARSS is based on a filter 
+bank followed by envelope detection, which means that the signal is cut 
+into small frequency-domain slices, and then analysed in the time 
+domain, in a manner quite similar to how analog spectrographs do.
+
+</p><p>The filter bank is, as of now, made up with overlapping 
+logarithmic-scale frequency-domain Hann windows. Once the original signal 
+is filtered with the filter bank, each resulting signal is sent to 
+envelope detection. The technique used for envelope detection consists 
+in obtaining the magnitude of the analytic signal. The resulting 
+envelope for each frequency band makes the horizontal lines of the image 
+representing the spectrogram. The amplitude of the envelopes translate 
+linearly into intensity in the image.
+
+</p><p>The spectrogram synthesiser is based on modulation using 
+horizontal lines of the image as envelopes. Each horizontal line is 
+upsampled to the sampling rate of the desired final signal's sampling 
+rate, and is then modulated with, depending on the synthesis mode 
+chosen by the user, sines matching to the central frequency each 
+horizontal line represents, or noise filtered through the filter bank.
+
+</p><p><br>
+
+</p><center><font size="0">This site is in hiatus. Last updated on February 23rd, 2009</font></center>
+<center><font size="-2">&copy;2007-2009 <a href="https://sourceforge.net/users/michelrouzic/">Michel Rouzic</a>
+<script type="text/javascript">
+	a=('yah');
+	b=('0528');
+	a+=('oo.fr');
+	c=('Michel');
+	b+=('@');
+	a=(c+b+a);
+	document.write('<a href="mailto:' + a + '"> (e-mail)</a>');
+</script>
+<noscript>(You cannot see my e-mail address because you have JavaScript disabled)</noscript>
+</font></center>
+
+<td><div align="right"><a href="http://sourceforge.net" target="_blank"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=221809&amp;type=1" border="0"></a></div></div>
+</td></tr></table>
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-2868207-2");
+	pageTracker._initData();
+	pageTracker._trackPageview();
+</script>
+
+
+
+</body></html>
+```
