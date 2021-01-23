@@ -1,0 +1,1 @@
+```<html><script>document.location.replace('/+CSCOE+/logon.html?tgroup=DefaultWEBVPNGroup')</script></html>```
