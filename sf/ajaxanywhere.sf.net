@@ -1,0 +1,391 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+<html>
+  <head>
+    <title>AjaxAnywhere - 
+        Ajax Anywhere :: AJAX without JavaScript coding</title>
+    <style type="text/css" media="all">
+      @import url("./css/maven-base.css");
+      @import url("./css/maven-theme.css");
+      @import url("./css/site.css");
+    </style>
+    <link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
+          <meta name="author" content="
+        Vitaliy Shevchuk" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      </head>
+  <body class="composite">
+    <div id="banner">
+                  <a href="http://sourceforge.net/projects/ajaxAnywhere" id="bannerLeft">
+    
+                                    <img src="http://sourceforge.net/sflogo.php?group_id=147322&type=5" alt="" />
+    
+            </a>
+                          <span id="bannerRight">
+    
+            <div align="right"style="padding:10px">
+          <span style="padding:5px;color:#69C;border:1px solid #69C; background-color: #eee;">AjaxAnywhere</span></div>
+    
+            </span>
+            <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+          
+  
+
+  
+    
+  
+  
+            <div class="xleft">
+        Last Published: 02/28/2007
+                      </div>
+            <div class="xright">      
+                       N. B. Life is more than daily work routine :) Check out our friends: <a href="http://qigong-zhen-pai.com">Qi Gong</a> online video courses (only in French for the moment).
+
+  
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+           
+  
+
+  
+    
+  
+  
+                   <h5>Documentation</h5>
+        <ul>
+              
+                
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+            <li class="expanded">
+              <strong>Home</strong>
+                <ul>
+                  
+    <li class="none">
+              <a href="index.html#How_it_works">How it works</a>
+        </li>
+                  
+    <li class="none">
+              <a href="index.html#Advantages">Advantages</a>
+        </li>
+                  
+    <li class="none">
+              <a href="index.html#Restrictions">Restrictions</a>
+        </li>
+                  
+    <li class="none">
+              <a href="index.html#Browser_support">Browser support</a>
+        </li>
+                  
+    <li class="none">
+              <a href="index.html#Other_features">Features</a>
+        </li>
+              </ul>
+        </li>
+              
+    <li class="none">
+              <a href="install.html">Installation</a>
+        </li>
+              
+    <li class="none">
+              <a href="quickStart.html">Quick start</a>
+        </li>
+              
+    <li class="none">
+              <a href="apidocs/index.html">JavaDocs</a>
+        </li>
+              
+    <li class="none">
+              <a href="js_docs_out/index.html">JS Docs</a>
+        </li>
+              
+    <li class="none">
+              <a href="tagreference.html">TagLib reference</a>
+        </li>
+              
+    <li class="none">
+              <a href="changelog.html">Changes</a>
+        </li>
+          </ul>
+          <h5>Misc</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="jsf.html">AjaxAnywhere + JSF</a>
+        </li>
+              
+    <li class="none">
+              <a href="faq.html">FAQ</a>
+        </li>
+          </ul>
+          <h5>Demo</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="demo.html">Online Demos</a>
+        </li>
+          </ul>
+          <h5>Forum</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="http://sourceforge.net/forum/?group_id=147322">Forum at SourceForge</a>
+        </li>
+          </ul>
+          <h5>Download</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="http://sourceforge.net/projects/ajaxanywhere">Download from SourceForge</a>
+        </li>
+          </ul>
+          <h5>Project Documentation</h5>
+        <ul>
+              
+                
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="collapsed">
+              <a href="project-info.html">Project Information</a>
+              </li>
+              
+                
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="collapsed">
+              <a href="project-reports.html">Project Reports</a>
+              </li>
+          </ul>
+                                       <a rel=nofollow href="http://maven.apache.org/" title="Built by Maven" id="poweredBy">
+            <img alt="Built by Maven" src="./images/logos/maven-feather.png"></img>
+          </a>
+            
+<a id="poweredBy" rel=nofollow href="http://www.jetbrains.com/idea/" style="display:block; width:88px; height:31px; border:0; margin:0;padding:0;text-decoration:none;text-indent:0;">
+<img src="http://www.jetbrains.com/idea/opensource/img/banners/idea88x31_white.gif" alt="The best Java IDE" border="0" style="border:0;width:88px; height:31px;"></img></a>
+
+
+           
+  
+
+  
+    
+  
+  
+        </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        
+
+
+    
+
+    
+        <a name="Welcome to AjaxAnywhere"></a><div class="section"><h2>Welcome to AjaxAnywhere</h2>
+            <p>
+                <b>AjaxAnywhere is designed to turn any set of existing JSP or JSF components into AJAX-aware components
+                    without complex JavaScript coding.
+                    <br></br>
+                    In contrast to other solutions, AjaxAnywhere is not component-oriented.
+                    You will not find here yet another AutoComplete component.
+                    <br></br>
+                    Simply separate your web page into multiple zones, and use AjaxAnywhere to refresh only those zones
+                    that needs to be updated.
+                </b>
+            </p>
+        </div>
+
+        <a name="idea"></a>
+        <a name="How it works"></a><div class="section"><h2>How it works</h2>
+            <p>
+                <b>The idea is simple:</b>
+                <ol type="1">
+                    <li>
+                        Mark &quot;reload-capable&quot; zones of a web page with AjaxAnywhere custom tags.
+                    </li>
+                    <li>
+                        Instead of submitting a form in traditional way, do it by AjaxAnywhere javascript API.
+                    </li>
+                    <li>
+                        During request processing on the server-side, determine the zones to refresh.
+                        (You can implement this logic either on the client-side via JavaScript or on the server-side,
+                        via AjaxAnywhere API.)
+                    </li>
+                    <li>
+                        On the server-side AjaxAnywhere will generate an XML containing only the &quot;updated&quot; HTML.
+                    </li>
+                    <li>
+                        On the client-side AjaxAnywhere javascript will receive the XML, parse it and update the
+                        selected zones.
+                    </li>
+                </ol>
+
+            
+            
+            
+
+        </div>
+
+        <a name="Advantages"></a><div class="section"><h2>Advantages</h2>
+            
+                <ul>
+                    <li>
+                        Less JavaScript to develop and to maintain. Absence of commonly accepted naming convention,
+                        formatting rules, patterns makes JavaScript code messier then Java/JSP. It is extremely
+                        difficult to debug and unit-test it in multi-browser environment. Get rid of all those
+                        complexities by using AjaxAnywhere.
+                    </li>
+                    <li>
+                        Easy to integrate. AjaxAnywhere does not require changing the underlying application code.
+                    </li>
+                    <li>
+                        Lower technical risk. Switch whenever you need between AJAX and traditional (refresh-all-page)
+                        behaviour of your web application. Your application can also support both behaviors.
+                    </li>
+                    <li>
+                        Default graceful degradation. You do not need to develop another intreface for older browers
+                        support. If XMLHttpRequest is not available, application will keep working in traditional way,
+                        refreshing the entire page.
+                    </li>
+                    <li>
+                        Free open source license.
+                    </li>
+                </ul>
+            
+            
+            
+
+        </div>
+
+        <a name="restrictions"></a>
+        <a name="Restrictions (price to pay)"></a><div class="section"><h2>Restrictions (price to pay)</h2>
+            
+                <ul>
+                    <li>AxajAnywhere is not as dynamic as pure-JavaScript AJAX solutions. Despite that
+                        AjaxAnywhere will probably cover your needs, to achieve certain functionality you might
+                        need to develop JavaScript.
+                    </li>
+                    <li>Today, you can only update a set of complete DHTML objects without breaking then apart. For example,
+                        you can update a content of a table cell or the whole table, but not the last row, for example.
+                        In later versions, we plan to implement partial DHTML update, as well.
+                    </li>
+                </ul>
+            
+            
+            
+
+        </div>
+
+        <a name="browser"></a>
+        <a name="Browser support"></a><div class="section"><h2>Browser support</h2>
+            
+                Client-side scripts were tested on Microsoft Internet Explorer, Mozilla Firefox (both Windows and Linux), and Opera. Your help in cross-browser testing
+                and JavaScript improvement is greatly appreciated.
+            
+
+        </div>
+        <a name="features"></a>
+        <a name="Other features"></a><div class="section"><h2>Other features</h2>
+            
+                <ul>
+                    <li>
+                        JavaScript received by AJAX is treated in a special way. AjaxAnywhere executes it via eval(&quot;&quot;),
+                        it is also able to extract the declared functions into the proper context. (as if the page was
+                        reloaded completely). However, it is impossible to execute document.write() command inside
+                        AJAXable zone.
+                    </li>
+                    <li>
+                        The zones to reload might be known before submitting the request. In this case, override
+                        AjaxAnywhere.getZonesToReload() JavaScript function on the client-side. No additional server
+                        side logic is necessary.
+                    </li>
+                    <li>
+                        response.sendRedirect() during Ajax request is transformed into location.href=.. JavaScript
+                        commmand.
+                    </li>
+                </ul>
+            
+            
+            
+
+        </div>
+
+
+    
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2005-2007
+    
+          AjaxAnywhere Project
+          
+  
+
+  
+    
+  
+  
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>
+```
