@@ -1,0 +1,202 @@
+```<html>
+  <head>
+    <title>Anygui</title>
+    <style>
+    <!--
+    a {
+        color: #188ebe;
+        text-decoration: none;
+    }
+    //-->
+    </style>
+  </head>
+  <body bgcolor="white">
+    <div align="center"><img src="img/pixel.gif"
+    width="1" height="60" /></div>
+    <div align="center"><img src="img/header.gif"
+    width="627" height="70"/></div>
+
+    <div align="center">
+    <table width="627" cellpadding="0" cellspacing="0" border="0">
+    <tr><td colspan="3"><img src="img/pixel.gif" width="1" height="10" /></td></tr>
+    <tr>
+    <td width="88" valign="top">
+
+    <tr><td valign="top">
+    
+    <table width="88" cellspacing="0" border="0" cellpadding="1" bgcolor="#188ebe">
+    <tr><td>
+    <table width="86" border="0" cellspacing="0" cellpadding="2"
+bgcolor="white">
+    <tr>
+    <td><small>
+    &nbsp;<a href="index.php">Home</a> <br />
+&nbsp;<a href="docs.php">Docs</a> <br />
+&nbsp;<a href="http://www.sf.net/projects/anygui">Project Page</a> <br />
+&nbsp;<a href="download.php">Download</a> <br />
+&nbsp;<a href="platforms.php">Platforms</a> <br />
+&nbsp;<a href="screenshots.php">Pictures</a> <br />
+&nbsp;<a href="links.php">Links</a> <br />
+&nbsp;<a href="faq.php">FAQ</a> <br />
+&nbsp;<a href="contact.php">Contact</a> <br />
+    </small>
+    </td></tr>
+    </table>
+    </td></tr>
+    </table>
+    <div><img src="img/pixel.gif" width="1" height="10" /></div>
+    <a href="http://sourceforge.net"> <img
+          src="http://sourceforge.net/sflogo.php?group_id=30226"
+          width="88" height="31" border="0"
+          alt="SourceForge Logo"></a>
+    </td>
+    <td><img src="img/pixel.gif" height="1" width="10" /></td>
+    <td rowspan="2" width="529" valign="top">
+    <table width="529" cellpadding="0" cellspacing="0" border="0">
+    <tr><td>
+
+    <p style="color:red"><b>Note</b>: Anygui is no longer being actively
+    developed or supported. These pages are not up to date.</p>
+
+<p>The purpose of the Anygui project <!--is--> was to create an easy-to-use,
+simple, and generic module for making graphical user interfaces in
+Python. Its main feature is that it works transparently with many
+different GUI packages on most platforms.
+<!--
+The Anygui project is
+currently hosted by <a
+href="http://www.sourceforge.net">SourceForge</a>.
+-->
+</p>
+
+<!--
+<div align="center">
+<table border="1" cellpadding="0" cellspacing="0"><tr><td>
+<table border="0"><tr>
+<td valign="center"><img
+width="68" 
+height="22"
+src="https://sourceforge.net/images/sf-icon-featured_project.gif"></td>
+<td valign="center">of <a
+href="https://sourceforge.net/about_foundries.php">Foundry</a>: <a
+href="https://sourceforge.net/foundry/python-foundry/">Python
+Foundry</a></td></tr></table>
+</td></tr></table>
+</div>
+-->
+
+<p>There is no active development going on in the Anygui project at the
+moment, and no indication that activity will pick up any time soon. The
+code base is available from CVS, but is not in a release-ready state.</p>
+
+<p>Although the project is no longer active, it was successful as a "proof of
+concept", showing that the idea of a pure-Python layer abstracting away GUI
+details could be realised. For a more practical solution, a GUI toolkit such a
+<a href="http://www.wxpython.org">wxPython</a> could be used. Although wx
+doesn't (at present) cover Jython or plain-text/curses interfaces, it covers
+almost anything else, and has the <a
+href="http://wxpython.org/quotes.php">blessing of the BDFL</a>. (Actually, if you install <a href="http://www.wx4j.org">wx4j</a>, you should be able to use wx with Jython, although the API may not be exactly the same as in wxPython.)</p>
+
+<!--
+<p><b>Q:</b> Why isn't release 0.2 out yet?<br>
+<b>A:</b> 
+The code base which that might at some point become release 0.2 is available in
+CVS. When (and if) there is a new release isn't quite clear at the moment.
+There is no active development going on, and no signs of activity picking up.
+</p>
+-->
+
+<!--
+<p>Latest news:
+</p>
+-->
+
+<p><!--
+<b>[2002-10-15]:</b> We're aiming for a 0.2a0 release in less than a month
+now. This will have the same functionality as 0.1.1, but with the new
+architecture in place.<br>
+-->
+<!--
+<b>[2002-08-13]:</b> Two chapters of <a href="http://hetland.org/writing/practical-python">Practical Python</a> are devoted to Anygui.<br>
+-->
+<!--
+<b>[2002-03-26]:</b> The rewrite is taking some time, but will be well
+worth it <code>:)</code><br>
+<b>[2002-02-08]:</b> Big internal rewrite ahead; use the CVS version
+at your own peril <code>;)</code><br>
+<b>[2002-02-08]:</b> 0.1.1 (a minor bug-fix) released.<br>
+<b>[2002-02-06]:</b> 0.1 final released, and ready for
+<a href="download.php">download</a>.<br>
+<b>[2002-01-04]:</b> A <a href="tutorial.txt">tutorial</a> has been
+added to the distribution.--></p>
+
+<!--
+<p>The release plan is currently as follows:</p>
+
+<dl>
+<dt><b>Release 0.1: January, 2002</b></dt>
+<dd>Basic functionality in place</dd>
+<dt><b>Release 0.2: Fall, 2002</b></dt>
+<dd>Menus, full event system, advanced layout, native dialogs,
+graphics, support for backend-specific enhancements</dd>
+<dt><b>Release 0.3: Late 2002</b></dt>
+<dd>Few API changes. Focus on reliability, stability, and
+robustness</dd>
+</dl>
+-->
+
+<!--
+<p>The latest release can be downloaded <a href="http://sourceforge.net/project/showfiles.php?group_id=30226">here</a>.
+</p>
+-->
+
+<!--
+<p>&nbsp;
+<div align="center">
+<a href="http://sourceforge.net"> <img
+          src="http://sourceforge.net/sflogo.php?group_id=30226"
+          width="88" height="31" border="0"
+          alt="SourceForge Logo"></a>
+</div>
+</p>
+-->
+
+<!--
+<p>&nbsp;
+</p>
+-->
+
+<div align="right"><small>Admin: <a
+href="http://hetland.org">
+Magnus Lie Hetland</a></small></div>
+
+    </td></tr></table></td></tr>
+    <tr>
+    <td valign="bottom">
+    <div><img src="img/pixel.gif" height="10" width="1" /></div>
+    <!-- Change bgcolor to #188ebe for border around image -->
+    <table bgcolor="white" width="88" cellpadding="1"
+cellspacing="0" border="0"><tr><td>
+    <table bgcolor="white" width="86" cellpadding="0"
+cellspacing="0" border="0"><tr><td valign="bottom">
+<!--
+    <div align="center">
+    <a href="http://www.python.org"><img src="img/python.gif" width="80" height="23" border="0" /></a></div>
+    <div><img src="img/pixel.gif" width="1" height="8" /></div>
+-->
+<!--
+<a href="http://sourceforge.net"> <img
+          src="http://sourceforge.net/sflogo.php?group_id=30226"
+          width="88" height="31" border="0"
+          alt="SourceForge Logo"></a>--></td></tr></table>
+    </td></tr></table>
+    </td></tr>
+    <tr><td colspan="3"><img src="img/pixel.gif" width="1"
+height="10" /></td></tr>
+    <tr><td colspan="3" bgcolor="#188ebe"><img src="img/pixel.gif"
+    width="1" height="10" /></td></tr>
+    </table>
+    </div>
+  </body>
+</html>
+```
