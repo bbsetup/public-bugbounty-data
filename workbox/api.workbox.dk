@@ -1,0 +1,1411 @@
+```<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Introduction - Dinero API - Dinero</title>
+    <link type="text/css" href="/Content/prism.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/Content/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/Content/img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/Content/img/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/Content/img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/Content/img/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/Content/img/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/Content/img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/Content/img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/Content/img/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="/Content/img/apple-touch-icon-167x167.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/Content/img/apple-touch-icon-180x180.png" />
+
+    <link rel="icon" type="image/png" href="/Content/img/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/Content/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/Content/img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/Content/img/favicon-128x128.png" sizes="128x128" />
+    <link rel="icon" type="image/png" href="/Content/img/favicon-196x196.png" sizes="196x196" />
+
+    <meta name="application-name" content="Dinero Regnskab" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/Content/img/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/Content/img/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/Content/img/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/Content/img/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/Content/img/mstile-310x310.png" />
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-78820067-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <style>
+        html, body {
+            height: 100%;
+            font-size: 14px;
+            font-family: 'Roboto',helvetica,arial,sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #444;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            background: #fafcfc;
+            overflow-y: scroll;
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #main {
+            display: -ms-grid;
+            display: grid;
+            -ms-grid-columns: 270px 1fr;
+            grid-template-columns: 270px 1fr;
+            -ms-grid-rows: 1fr;
+            grid-template-rows: 1fr;
+            min-height: 100vh;
+        }
+
+        #nav {
+            display: flex;
+            flex-direction: column;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            -ms-grid-column: 1;
+            grid-column: 1;
+            -ms-grid-row: 1;
+            grid-row: 1;
+            z-index: 1;
+        }
+
+        #nav-top {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: #002d41;
+            cursor: pointer;
+        }
+
+        #nav-top-name {
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+            height: 70px;
+            font-size: 1.5em;
+            line-height: 1.3em;
+            font-weight: 300;
+            color: #b3bfc5;
+            padding: 0 30px;
+        }
+
+        #nav-content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background: #fafcfc;
+            max-height: 100%;
+            overflow: auto;
+            flex: 1;
+            border-right: 1px solid #ebebeb;
+            padding-bottom: 40px;
+        }
+
+            #nav-content::-webkit-scrollbar {
+                width: 8px;
+                height: 8px;
+            }
+
+            #nav-content::-webkit-scrollbar-track {
+                background: #fafcfc;
+            }
+
+            #nav-content::-webkit-scrollbar-thumb {
+                background: #d4d6d6;
+                border-radius: 2px;
+            }
+
+                #nav-content::-webkit-scrollbar-thumb:hover {
+                    background: #124861;
+                }
+
+        #wrap {
+            min-height: initial;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 700px 1fr;
+            grid-column: 2;
+            grid-row: 1;
+            margin: 0;
+            background-color: #fff;
+        }
+
+        #code-style {
+            position: fixed;
+            left: 970px;
+            right: 0;
+            z-index: 10;
+            height: 50px;
+            background: #242729;
+            color: #d0d4d7;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            padding: 10px 36px;
+        }
+
+            #code-style a {
+                margin: 0 2px;
+                z-index: 50;
+                display: block;
+                padding: 0 10px;
+                border: 1px solid transparent;
+                border-radius: 4px;
+                color: #d0d4d7;
+                cursor: pointer;
+                font-size: 13px;
+                line-height: 29px;
+            }
+
+                #code-style a:hover {
+                    border-color: #373b3e;
+                }
+
+                #code-style a.active {
+                    background: #006edc;
+                    border-color: transparent;
+                    color: #fff;
+                }
+
+        #code-style.disabled a {
+            cursor: default;
+            color: #4c565a;
+        }
+            #code-style.disabled a:hover {
+                color: #4c565a;
+                border-color: transparent;
+            }
+            #code-style.disabled a.active {
+                color: #777f82;
+                background-color: #3c4446;
+            }
+
+        .wrap-content {
+            padding: 40px;
+            border-top: 1px solid #f0f4f7;
+            position: relative;
+        }
+        .wrap-content small {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+            .wrap-content.no-border {
+                border-top: none;
+            }
+
+        .wrap-examples {
+            padding: 95px 40px 40px 40px;
+            background: #2d3134;
+            border-top: 1px solid #33383b;
+        }
+
+            .wrap-examples.no-border {
+                border-top: none;
+                padding-top: 80px;
+            }
+
+        .wrap-content h2 {
+            margin: 0;
+            color: #292e31;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .wrap-content h2 span {
+            box-sizing: border-box;
+            display: inline-block;
+            padding: 0 5px;
+            background: #fafcfc;
+            border: 1px solid #f0f4f7;
+            border-radius: 4px;
+            color: #b93d6a;
+            font-family: Source Code Pro,Menlo,monospace;
+            font-size: 13px;
+            line-height: 20px;
+            margin: 0 0 10px 0;
+        }
+
+        .wrap-content h3 {
+            margin: 28px 0 14px;
+            color: #8898aa;
+            font-weight: 400;
+            font-size: 1.1em;
+        }
+
+        .wrap-content p {
+            margin-bottom: 0;
+            margin-top: 20px;
+            line-height: 1.6em;
+        }
+
+            .wrap-content p a {
+                color: #006edc;
+                font-size: 1em;
+                text-decoration: none;
+            }
+
+            .wrap-content p code {
+                box-sizing: border-box;
+                display: inline-block;
+                padding: 0 5px;
+                background: #fafcfc;
+                border: 1px solid #f0f4f7;
+                border-radius: 4px;
+                color: #b93d6a;
+                font-family: Source Code Pro,Menlo,monospace;
+                font-size: 13px;
+                line-height: 20px;
+            }
+
+        .wrap-examples .code-example pre {
+            font-size: 12px;
+            max-width: calc(100vw - 1090px);
+        }
+            .wrap-examples .code-example pre.url {
+                display: flex;
+                align-items: flex-start;
+            }
+            .wrap-examples .code-example pre.url code {
+                white-space: initial;
+            }
+            .wrap-examples .code-example pre.url code .token.selector {
+                color: #8fabb5;
+            }
+            .wrap-examples .code-example pre.url::before {
+                content: attr(title);
+                box-sizing: border-box;
+                display: inline-block;
+                padding: 0 5px;
+                border-radius: 4px;
+                color: #ffffff;
+                font-family: Source Code Pro,Menlo,monospace;
+                font-size: 1em;
+                line-height: 20px;
+                margin-right: 1em;
+                background: #44c7f4;
+                text-shadow: none;
+            }
+            .wrap-examples .code-example pre.url.get::before {
+                color: #ffffff;
+                background: #44c7f4;
+            }
+            .wrap-examples .code-example pre.url.post::before {
+                color: #ffffff;
+                background: #01b48f;
+            }
+            .wrap-examples .code-example pre.url.put::before {
+                color: #ffffff;
+                background: #ff9a57;
+            }
+            .wrap-examples .code-example pre.url.delete::before {
+                color: #ffffff;
+                background: red;
+            }
+
+            .wrap-examples .code-example pre::-webkit-scrollbar {
+                width: 8px;
+                height: 8px;
+            }
+            .wrap-examples .code-example pre::-webkit-scrollbar-track {
+                background: #222729;
+            }
+            .wrap-examples .code-example pre::-webkit-scrollbar-thumb {
+                background: #575c5e;
+                border-radius: 2px;
+            }
+            .wrap-examples .code-example pre::-webkit-scrollbar-thumb:hover {
+                background: #555;
+            }
+
+        .wrap-examples .code-example {
+            margin-bottom: 40px;
+        }
+
+            .wrap-examples .code-example h3 {
+                display: inline-block;
+                padding-bottom: 8px;
+                color: #d0d4d7;
+                font-size: 1em;
+                font-weight: 500;
+                margin: 0;
+            }
+
+        .nav-menu-group h3 {
+            font-size: 1em;
+            font-weight: 500;
+            line-height: 18px;
+            text-transform: uppercase;
+            color: #939da3;
+            padding: 0 30px 5px;
+            margin-top: 35px;
+        }
+
+        .nav-menu-group a {
+            display: block;
+            margin: 0;
+            padding: 6px 30px;
+            color: #4c555a;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+            .nav-menu-group a:active,
+            .nav-menu-group a.active {
+                color: #0099e5;
+            }
+
+        .nav-menu-items {
+            display: none;
+        }
+
+            .nav-menu-items.opened {
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            .nav-menu-items a {
+                padding: 6px 30px 6px 40px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                word-break: break-all;
+                font-size: 0.9em;
+            }
+            .nav-menu-items a.active {
+                color: #0099e5;
+            }
+
+                .nav-menu-items a span {
+                    box-sizing: border-box;
+                    display: inline-block;
+                    padding: 0 5px;
+                    background: #fafcfc;
+                    border: 1px solid #f0f4f7;
+                    border-radius: 4px;
+                    color: #b93d6a;
+                    font-family: Source Code Pro,Menlo,monospace;
+                    font-size: 0.9em;
+                    line-height: 20px;
+                }
+
+        .help-page-table {
+            margin: 20px 0 40px 0;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .help-page-table th {
+            border-bottom: 1px solid #e1e8ed;
+            padding: 10px 10px 10px 0;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 18px;
+            text-transform: uppercase;
+            color: #939da3;
+            text-align: left;
+            vertical-align: top;
+        }
+
+            .help-page-table tr td {
+                vertical-align: top;
+                padding: 10px 10px 10px 0;
+                line-height: 1.5em;
+            }
+                .help-page-table tr td p {
+                    margin: 0;
+                    line-height: inherit;
+                }
+                .help-page-table tr td.parameter-documentation {
+                    word-break: break-word;
+                }
+                .help-page-table tr td.parameter-name {
+                    width: 180px;
+                    word-break: break-word;
+                }
+                .help-page-table tr td.parameter-name span {
+                    display: block;
+                    color: #939da3;
+                }
+                .help-page-table tr td.model > div {
+                    padding: 20px;
+                    border: 1px solid #e9edf0;
+                    border-radius: 6px;
+                    margin: 0;
+                }
+                .help-page-table tr td.model > div table {
+                    margin: 0;
+                }
+
+        .show-model {
+            margin-top: 10px;
+            display: block;
+            border: 1px solid #e1e8ed;
+            border-radius: 4px;
+            padding: 5px 8px;
+            font-size: 0.9em;
+            color: #2d3134;
+            width: 80px;
+            text-align: center;
+        }
+
+        .annotations-view {
+            box-sizing: border-box;
+            display: block;
+            padding: 6px;
+            background: #fafcfc;
+            border: 1px solid #f0f4f7;
+            border-radius: 4px;
+            color: #b93d6a;
+            font-size: 13px;
+            line-height: 20px;
+            margin: 10px 0 0 0;
+        }
+    </style>
+
+    <div id="main">
+        <div id="nav">
+            <div id="nav-top">
+                <a id="nav-top-name" href="/">Dinero API</a>
+            </div>
+            <div id="nav-content">
+                <div class="nav-menu-group">
+                    <h3>Introduction</h3>
+                    <a href="/docs">Getting started</a>
+                    <a href="/docs#authentication">Authentication</a>
+                    <a href="/docs#usage">Usage</a>
+                    <a href="/docs#tls">TLS Negotiation</a>
+                    <a href="/docs#glossary">Glossary</a>
+                    <a href="/docs#errorcodes">Error codes</a>
+                    <a href="/docs#contact">Contact</a>
+                    <a href="/docs#apply">Apply</a>
+                </div>
+                <div class="nav-menu-group">
+                    <h3>General</h3>
+                    <a href="/docs#best-practice">Best practice</a>
+                    <a href="/docs#filters">Filters</a>
+                    <a href="/docs#pagination">Pagination</a>
+                    <a href="/docs#throttling">Throttling</a>
+                    <a href="/docs#postingimage">Posting image</a>
+                </div>
+                <div class="nav-menu-group">
+                    <h3>Resources</h3>
+                    <div class="nav-menu-item">
+                            <a href="/openapi"> Endpoints (Open API) </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wrap">
+            <div id="code-style">
+                <a data-type="curl">curl</a>
+                <a data-type="csharp">c#</a>
+                <a data-type="node">node</a>
+                <a data-type="php">php</a>
+                <a data-type="http">http</a>
+            </div>
+            
+<div class="wrap-content no-border" xmlns="http://www.w3.org/1999/html">
+    <h2 id="getting-started">Getting started</h2>
+    <p>The Dinero API is REST based, which is easy to work with and familiar to developers.</p>
+    <p>
+        To use the API, you need to <a href="/docs#apply">apply as a developer</a>. We will send you a <code>Client ID</code> and a <code>client secret</code>,
+        which you should use to authenticate yourself through the API.
+    </p>
+    <p>
+        If you want to use an API key on behalf of your account, you will also need to obtain the key for the organization. Please navigate to the <a href="https://app.dinero.dk/apikeys" target="_blank" rel="noopener noreferrer">API page in Dinero</a> to generate the key.
+        You need an active Dinero Pro subscription for the organization that you need to access. You can upgrade your subscription on the <a href="https://app.dinero.dk/subscribe" target="_blank" rel="noopener noreferrer">subscription page</a>.
+    </p>
+    <p>
+        If the organization does not have an active Dinero Pro subscription, the request will be denied with HTTP 403 (Forbidden) and errorcode 48.
+    </p>
+    <small id="authentication"></small>
+</div>
+<div class="wrap-examples no-border">
+    <div class="code-example">
+        <h3>Base URL</h3>
+        <pre><code class="language-markup">https://api.dinero.dk</code></pre>
+    </div>
+</div>
+
+<div class="wrap-content">
+    <h2>Authentication</h2>
+    <p>
+        Dinero uses token based authentication through OAuth2. This means that you use a token on every request to authorize yourself.<br /><br />Your <a href="#glossary-encodedSecret"><code>EncodedClientIdAndSecret</code></a> and the target <a href="#glossary-organization">organizations</a> <a href="#glossary-api-key">API-key</a> is used with
+        the above endpoint, in exchange for a token, which you then append on every future requests. <br /><br />
+        You'll need a new token for each <a href="#glossary-organization">organization</a> you want to access.
+    </p>
+    <p>If your request was composed correctly, and your credentials were correct, the server will return an access_token in JSON format for you to use</p>
+
+    <small id="usage"></small>
+</div>
+<div class="wrap-examples">
+    <div class="code-example">
+        <h3>Authentication endpoint</h3>
+        <pre><code class="language-markup">https://authz.dinero.dk/dineroapi/oauth/token</code></pre>
+    </div>
+    <div class="code-example">
+        <h3>Example request</h3>
+        <pre data-example="curl"><code class="language-bash">curl -X POST \
+    https://authz.dinero.dk/dineroapi/oauth/token \
+    -H 'authorization: Basic bXljbGllbnRpZDpYZlVXZzRrb1h0TFc5cjNFbGthTzYxQkw2Q2Y3S0Y2Y1NmR2c2ak1FODQ=' \
+    -H 'content-type: application/x-www-form-urlencoded' \
+    -d 'grant_type=password&scope=read%20write&username=yourApiKey&password=yourApiKey'</code></pre>
+        <pre data-example="csharp"><code class="language-csharp">private static async Task&lt;AuthorizationToken&gt; Authenticate(Uri uri, string clientId, string clientSecret, string apiKey)
+{
+    using (var client = new HttpClient())
+    {
+        var content = new FormUrlEncodedContent(new List&lt;KeyValuePair&lt;string, string&gt;&gt;
+        {
+            new KeyValuePair<string, string>("grant_type", "password"),
+            new KeyValuePair<string, string>("scope", "read write"),
+            new KeyValuePair<string, string>("username", apiKey),
+            new KeyValuePair<string, string>("password", apiKey),
+        });
+
+        var request = new HttpRequestMessage
+        {
+            RequestUri = uri,
+            Method = HttpMethod.Post,
+            Content = content,
+            Headers =
+            {
+                { "Authorization", string.Format("Basic {0}", Base64Encode($"{clientId}:{clientSecret}")) }
+            }
+        };
+
+        var result = await client.SendAsync(request).ConfigureAwait(false);
+
+        var response = await result.Content.ReadAsStringAsync().ConfigureAwait(false);
+
+        return JsonConvert.DeserializeObject&lt;AuthorizationToken&gt;(response);
+    }
+}
+
+private static string Base64Encode(string plainText)
+{
+    var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
+
+    return Convert.ToBase64String(plainTextBytes);
+}</code></pre>
+        <pre data-example="node"><code class="language-javascript">const http = require("https");
+const querystring = require('querystring');
+
+const bodyParameters = querystring.stringify({
+    'grant_type': 'password',
+    'scope=': 'read write',
+    'username': 'yourApiKey',
+    'password' 'yourApiKey'
+});
+
+const options = {
+  'method': 'POST',
+  'hostname': 'authz.dinero.dk',
+  'path': '/dineroapi/oauth/token',
+  'headers': {
+    'authorization': 'Basic bXljbGllbnRpZDpYZlVXZzRrb1h0TFc5cjNFbGthTzYxQkw2Q2Y3S0Y2Y1NmR2c2ak1FODQ=',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    'Content-Length': bodyParameters.length
+  }
+};
+
+new Promise((resolve) => {
+    
+    var req = http.request(options, (res) => {
+        const chunks = [];
+
+        res.on("data", (chunk) => {
+            chunks.push(chunk);
+        });
+
+        res.on("end", function () {
+            const body = Buffer.concat(chunks).toString();
+            resolve(JSON.parse(body));
+        });
+    });
+
+    req.write(bodyParameters);
+    req.end();
+
+}).then(tokenResponse => {
+
+    console.log(tokenResponse);
+});</code></pre>
+        <pre data-example="php"><code class="language-php">function authenticate(string $uri, string $clientId, string $clientSecret, string $apiKey) {
+    $data = [
+        'grant_type' => 'password',
+        'scope' => 'read write',
+        'username' => $apiKey,
+        'password' => $apiKey,
+    ];
+
+    $encodedClientAndSecret = base64_encode($clientId . ":" . $clientSecret);
+
+    $options = [
+        'http' => [
+            'header' => "Authorization: Basic $encodedClientAndSecret",
+            'method'  => 'POST',
+            'content' => http_build_query($data)
+        ]
+    ];
+
+    $context  = stream_context_create($options);
+
+    $resultPayload = file_get_contents($uri, false, $context);
+}
+</code></pre>
+        <pre data-example="http"><code class="language-markup">
+    POST /dineroapi/oauth/token HTTP/1.1
+    Host: authz.dinero.dk
+    Authorization: Basic bXljbGllbnRpZDpYZlVXZzRrb1h0TFc5cjNFbGthTzYxQkw2Q2Y3S0Y2Y1NmR2c2ak1FODQ=
+    Content-Type: application/x-www-form-urlencoded
+    grant_type=password&scope=read write&username=yourApiKey&password=yourApiKey</code></pre>
+    </div>
+    <div class="code-example">
+        <h3>Response</h3>
+        <pre data-example="curl"><code class="language-json">{
+    "access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9(...)",
+    "token_type":"Bearer",
+    "expires_in":3600,
+    "refresh_token":null
+}</code></pre>
+        <pre data-example="csharp"><code class="language-csharp">public class AuthorizationToken
+{
+    [JsonProperty(PropertyName = "access_token")]
+    public string AccessToken { get; set; }
+
+    [JsonProperty(PropertyName = "refresh_token")]
+    public string RefreshToken { get; set; }
+
+    [JsonProperty(PropertyName = "expires_in")]
+    public long Expires { get; set; }
+}
+</code></pre>
+        <pre data-example="node"><code class="language-json">{
+    "access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9(...)",
+    "token_type":"Bearer",
+    "expires_in":3600,
+    "refresh_token":null
+}</code></pre>
+        <pre data-example="php"><code class="language-json">{
+    "access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9(...)",
+    "token_type":"Bearer",
+    "expires_in":3600,
+    "refresh_token":null
+}</code></pre>
+        <pre data-example="http"><code class="language-json">{
+    "access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9(...)",
+    "token_type":"Bearer",
+    "expires_in":3600,
+    "refresh_token":null
+}</code></pre>
+    </div>
+</div>
+
+<div class="wrap-content">
+    <h2>Usage</h2>
+    <p>
+        After obtaining an access token, you append it on every request using the following header:
+        <code>Authorization: Bearer [access_token]</code>
+    </p>
+    <p>
+        Where <code>[access_token]</code> should be replaced with the token you just received.
+    </p>
+    <p>
+        Core resources on the left show API and description of all available endpoints
+    </p>
+    <small id="tls"></small>
+</div>
+<div class="wrap-examples">
+    <div class="code-example">
+        <h3>Example to create four new ledger items</h3>
+        <pre data-example="curl"><code class="language-javascript">POST https://api.dinero.dk/v1/:organizationId/ledgeritems HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9(...)
+Host: api.dinero.dk
+Content-Type: application/json
+Content-Length: 821
+[
+    {"VoucherNumber":3,"AccountNumber":1000,"AccountVatCode":"I25","Amount":-500,"BalancingAccountNumber":null,"BalancingAccountVatCode":null,"Description":"produkt, lille","VoucherDate":"2015-05-27"},
+    {"VoucherNumber":3,"AccountNumber":1300,"AccountVatCode":"none","Amount":-25,"BalancingAccountNumber":null,"BalancingAccountVatCode":null,"Description":"Momsfrit fragt","VoucherDate":"2015-05-27"},
+    {"VoucherNumber":3,"AccountNumber":53000,"AccountVatCode":null,"Amount":525,"BalancingAccountNumber":null,"BalancingAccountVatCode":null,"Description":"Faktura 12","VoucherDate":"2015-05-27"},
+    {"VoucherNumber":4,"AccountNumber":2000,"AccountVatCode":"none","Amount":100,"BalancingAccountNumber":52000,"BalancingAccountVatCode":null,"Description":"Vareforbrug ifbm fak 12","VoucherDate":"2015-05-27"},
+]</code></pre>
+    </div>
+</div>
+
+
+<div class="wrap-content">
+    <h2>TLS Negotiation</h2>
+    <p>
+        We have removed support for TLS under 1.2. Therefore trying to create a connection to Dinero with either TLS 1.0 or 1.1 will fail. 
+        If you are running on older frameworks, this means that you will have to implement usage of higher TLS version
+    </p>
+    <p>
+        In .NET this can be accomplised by applying the following:
+    </p>
+        
+    <p>
+        <b>.NET 4.6 or higher</b><br/>
+        TLS 1.2 is supported by default
+    </p>
+    <p>
+        <b>.NET 4.5</b><br>
+        TLS 1.2 is supported, but is deactivated by default. It can be activated by setting: <code>ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;</code>
+    </p>
+    <p>
+        <b>
+        .NET 4.0
+        </b><br>
+        TLS 1.2 is not supported. But if you have .NET 4.5 or higher installed, is can be activated by setting: <code>ServicePointManager.SecurityProtocol = (SecurityProtocolType) 3072;</code>
+    </p>
+    <p>
+        <b>
+        .NET 3.5 or lower
+        </b><br>
+        TLS 1.2 is not supported, and there are no workarounds
+    </p>
+    <small id="glossary"></small>
+</div>
+<div class="wrap-examples">
+</div>
+
+<div class="wrap-content">
+    <h2>Glossary</h2>
+    <h3 id="glossary-client-id-and-secret">ClientId and ClientSecret</h3>
+    <p>
+        You will receive your API credentials on email, when you have been approved as an API partner. If you have not yet applied you can do it  <a href="#apply" >here</a>
+    </p>
+
+    <h3 id="glossary-encodedSecret">Encoded ClientId and ClientSecret</h3>
+    <p>
+        Is your encoded <a href="#glossary-client-id-and-secret">ClientId and ClientSecret</a>. To get the <code>[encodedSecret]</code> you need to <a href="https://www.base64encode.org/" target="_blank" rel="noopener noreferrer">base64 encoded</a> your ClientSecret and ClientId seperated by ':', as shown here: <code>[client_id]:[client_secret]</code> .
+    </p>
+
+    <h3 id="glossary-api-key">API key</h3>
+    <p>
+        The API key of the organization you want to access in Dinero. This will have be provided by your customer/user of you integration. To genereate an API key, you need to be a Dinero-Pro user, as an API partner we can grant you Pro access on your test organization, just contact our support. For a guide how to create an API key, se <a href="https://dinero.dk/support/saadan-opretter-du-en-api-noegle/" target="_blank" rel="noopener noreferrer">here</a>
+    </p>
+
+    <h3 id="glossary-organization">Organization</h3>
+    <p>
+        "Organization" is the term we use for the users "Firma" in Dinero. If you need a test organization, <a href="https://dinero.dk/support/ekstra-firma/" target="_blank" rel="noopener noreferrer">here</a> is a guide to how you can create one.
+    </p>
+
+    <h3 id="glossary-organizationId">Organization id</h3>
+    <p>
+        The organization id of the organization you want to access in Dinero. This will have to be provided by your customer/user of you integration. <a href="https://dinero.dk/support/firma-id/" target="_blank" rel="noopener noreferrer">Here</a> is a guide to where you can find the organization id on a Dinero organization
+    </p>
+
+    <h3 id="glossary-ledger">Ledger items</h3>
+    <p>Equal to the danish "kassekladde linje".</p>
+    <small id="errorcodes"></small>
+</div>
+<div class="wrap-examples">
+</div>
+
+<div class="wrap-content">
+    <h2>Error codes</h2>
+    <table class="help-page-table error-codes">
+        <thead>
+            <tr>
+                <th class="code">Code</th>
+                <th class="message">Message</th>
+                <th class="description">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td><strong>40</strong></td>
+                    <td>Not found</td>
+                    <td>The URI requested is invalid or the resource requested, such as a voucher, does not exists. Also returned when the requested format is not supported by the requested method</td>
+                </tr>
+                <tr>
+                    <td><strong>41</strong></td>
+                    <td>Unauthorized</td>
+                    <td>The user has insufficient permissions to perform the request on the given resource.</td>
+                </tr>
+                <tr>
+                    <td><strong>42</strong></td>
+                    <td>Validation Error</td>
+                    <td>A validation error occurred</td>
+                </tr>
+                <tr>
+                    <td><strong>43</strong></td>
+                    <td>Limit Exceeded</td>
+                    <td>An upper or lower limit was exceeded</td>
+                </tr>
+                <tr>
+                    <td><strong>44</strong></td>
+                    <td>Invalid format</td>
+                    <td>The format of the specified value is incorrect</td>
+                </tr>
+                <tr>
+                    <td><strong>45</strong></td>
+                    <td>Invalid request</td>
+                    <td>The request is invalid</td>
+                </tr>
+                <tr>
+                    <td><strong>46</strong></td>
+                    <td>Invalid filter format</td>
+                    <td>The format of the filters are incorrect</td>
+                </tr>
+                <tr>
+                    <td><strong>47</strong></td>
+                    <td>An accounting year was not found</td>
+                    <td>The organization has not created the requested accounting year</td>
+                </tr>
+                <tr>
+                    <td><strong>48</strong></td>
+                    <td>Not Pro</td>
+                    <td>Cannot access Pro features without a Pro subscription</td>
+                </tr>
+                <tr>
+                    <td><strong>49</strong></td>
+                    <td>Email rejected</td>
+                    <td>The email could not be send.</td>
+                </tr>
+                <tr>
+                    <td><strong>50</strong></td>
+                    <td>Error</td>
+                    <td>A server error occured. No more information about this error could be found.</td>
+                </tr>
+                <tr>
+                    <td><strong>51</strong></td>
+                    <td>EAN problems</td>
+                    <td>Could not send e-invoice.</td>
+                </tr>
+                <tr>
+                    <td><strong>52</strong></td>
+                    <td>No organization owner</td>
+                    <td>The organization don&#x27;t have an owner.</td>
+                </tr>
+                <tr>
+                    <td><strong>53</strong></td>
+                    <td>No organization email</td>
+                    <td>The organization don&#x27;t have an email.</td>
+                </tr>
+                <tr>
+                    <td><strong>54</strong></td>
+                    <td>Missing bank info</td>
+                    <td>The organization don&#x27;t have any bank info.</td>
+                </tr>
+                <tr>
+                    <td><strong>55</strong></td>
+                    <td>No receiver email</td>
+                    <td>Invoice receiver don&#x27;t have an email. Update the contact or supply and email with your request.</td>
+                </tr>
+                <tr>
+                    <td><strong>56</strong></td>
+                    <td>No EAN number</td>
+                    <td>Invoice receiver don&#x27;t have an EAN number. Update the contact before trying to send an e-invoice.</td>
+                </tr>
+                <tr>
+                    <td><strong>57</strong></td>
+                    <td>Invalid EAN number</td>
+                    <td>Invoice receiver&#x27;s EAN number is not valid.</td>
+                </tr>
+                <tr>
+                    <td><strong>58</strong></td>
+                    <td>Timestamp out of date</td>
+                    <td>The supplied timestamp is not the latest version of the entity. Get the latest version and try again.</td>
+                </tr>
+                <tr>
+                    <td><strong>59</strong></td>
+                    <td>Voucher not booked</td>
+                    <td>The voucher is not booked. The requested action requires the voucher to be booked.</td>
+                </tr>
+                <tr>
+                    <td><strong>60</strong></td>
+                    <td>No VAT number</td>
+                    <td>Organization don&#x27;t have a VAT number</td>
+                </tr>
+                <tr>
+                    <td><strong>61</strong></td>
+                    <td>Invalid bank info</td>
+                    <td>The bank info is not valid.</td>
+                </tr>
+                <tr>
+                    <td><strong>62</strong></td>
+                    <td>E-invoice contact missing att. person</td>
+                    <td>The contact of an e-invoice must have an att. person.</td>
+                </tr>
+                <tr>
+                    <td><strong>63</strong></td>
+                    <td>No results</td>
+                    <td>The request gave no results.</td>
+                </tr>
+                <tr>
+                    <td><strong>64</strong></td>
+                    <td>No recepient email</td>
+                    <td>The request uses email, but the contact don&#x27;t have an email.</td>
+                </tr>
+                <tr>
+                    <td><strong>65</strong></td>
+                    <td>Item is deleted</td>
+                    <td>You cannot make changes to a deleted item.</td>
+                </tr>
+                <tr>
+                    <td><strong>66</strong></td>
+                    <td>Ledger limit exceeded</td>
+                    <td>Your ledger has too many lines. There is a cap of 1000 lines per ledger.</td>
+                </tr>
+                <tr>
+                    <td><strong>67</strong></td>
+                    <td>File type not allowed</td>
+                    <td>File type not supported. Acceptable formats: JPEG, JPG, PNG, GIF, PDF</td>
+                </tr>
+                <tr>
+                    <td><strong>68</strong></td>
+                    <td>File type not present</td>
+                    <td>The file type was not found in the file name. Acceptable formats: JPEG, JPG, PNG, GIF, PDF</td>
+                </tr>
+                <tr>
+                    <td><strong>69</strong></td>
+                    <td>Must be MIME multi part content</td>
+                    <td>Must be MIME multi part content</td>
+                </tr>
+                <tr>
+                    <td><strong>70</strong></td>
+                    <td>Ledger items optimistic concurrency</td>
+                    <td>Multiple ledger item post request was send in a short time interval. Due to that we respect the order of the ledger items, this causes a concurrency issue. Ledger items for same organization should not be posted async.</td>
+                </tr>
+                <tr>
+                    <td><strong>71</strong></td>
+                    <td>Update concurrency error</td>
+                    <td>Update concurrency error</td>
+                </tr>
+                <tr>
+                    <td><strong>72</strong></td>
+                    <td>Duplicated entity error</td>
+                    <td>Duplicated entity error</td>
+                </tr>
+                <tr>
+                    <td><strong>73</strong></td>
+                    <td>Something went wrong while sending the email.</td>
+                    <td>Something went wrong while sending the email. The email might or might not have been sent.</td>
+                </tr>
+                <tr>
+                    <td><strong>74</strong></td>
+                    <td>Voucher not overdue. Pre-reminder mailout could not be send.</td>
+                    <td>The voucher is not overdue. The requested action requires the voucher to be overdue.</td>
+                </tr>
+                <tr>
+                    <td><strong>75</strong></td>
+                    <td>Date differs for same voucher number</td>
+                    <td>The date should be the same for items with the same voucher number.</td>
+                </tr>
+                <tr>
+                    <td><strong>76</strong></td>
+                    <td>FileGuid differs for same voucher number</td>
+                    <td>The FileGuid should be the same for items with the same voucher number.</td>
+                </tr>
+                <tr>
+                    <td><strong>77</strong></td>
+                    <td>Account does not exist</td>
+                    <td>The account does not exist for given account id.</td>
+                </tr>
+                <tr>
+                    <td><strong>78</strong></td>
+                    <td>Id differs for same voucher number</td>
+                    <td>The id should be the same for items with the same voucher number.</td>
+                </tr>
+                <tr>
+                    <td><strong>79</strong></td>
+                    <td>Invalid VAT number</td>
+                    <td>Organization don&#x27;t have a valid VAT number</td>
+                </tr>
+                <tr>
+                    <td><strong>80</strong></td>
+                    <td>Can&#x27;t claim free pro</td>
+                    <td>Can&#x27;t claim free pro if already claimed or if already pro</td>
+                </tr>
+                <tr>
+                    <td><strong>81</strong></td>
+                    <td>Cannot create accounting year</td>
+                    <td>Cannot create accounting year</td>
+                </tr>
+                <tr>
+                    <td><strong>82</strong></td>
+                    <td>Dates not in single accounting year</td>
+                    <td>Cannot find a single accounting year from the dates. This means that the dates may be overlappin two accounting years</td>
+                </tr>
+                <tr>
+                    <td><strong>83</strong></td>
+                    <td>The specified end date is before the specified start date</td>
+                    <td>The specified end date is before the specified start date</td>
+                </tr>
+                <tr>
+                    <td><strong>84</strong></td>
+                    <td>The specified to and from dates spans too long time, you can at the most request 31 days at a time</td>
+                    <td>The specified to and from dates spans too long time, you can at the most request 31 days at a time</td>
+                </tr>
+                <tr>
+                    <td><strong>85</strong></td>
+                    <td>The tradeoffer cannot be edited when it is not in the draft status</td>
+                    <td>Tradeoffers cannot be edited when it has been accepected, rejected, or converted into an invoice</td>
+                </tr>
+                <tr>
+                    <td><strong>86</strong></td>
+                    <td>Deposit does not exist</td>
+                    <td>The deposit does not exist for given deposit account id.</td>
+                </tr>
+                <tr>
+                    <td><strong>87</strong></td>
+                    <td>Version differs for same voucher number</td>
+                    <td>The version should be the same for items with the same voucher number.</td>
+                </tr>
+                <tr>
+                    <td><strong>88</strong></td>
+                    <td>No booked reminder</td>
+                    <td>The voucher does not have a booked reminder. Reminder mailout could not be send.</td>
+                </tr>
+                <tr>
+                    <td><strong>89</strong></td>
+                    <td>Forbidden</td>
+                    <td>Can not access Total features without a Dinero Total License.</td>
+                </tr>
+        </tbody>
+    </table>
+
+</div>
+<div class="wrap-examples">
+</div>
+
+<div class="wrap-content" id="contact">
+    <h2>Contact</h2>
+    <p>
+        If you have any technical questions, please email us at <a href="mailto:api@dinero.dk" target="_blank">api@dinero.dk</a>
+    </p>
+</div>
+
+<div class="wrap-examples"></div>
+
+<div class="wrap-content" id="apply">
+    <h2>Apply</h2>
+    <p>
+        We love integrations. Do you have a software that just needs to be integrated with Dinero? Please submit your request below, and we will contact you soon.
+    </p>
+    <h3>Technical Review</h3>
+    <p>
+        Before you launch your integration, you are obligated to setup a technical review of your application. 
+    </p>
+    <p>
+        This means that you need to have either a physical or digital meeting with the development team at Dinero to ensure, your use of the Dinero api is as performant as possible. Also the meeting is set up in order to ensure that any changes can be completed, before the integration is put into production
+    </p>
+    <p>
+        This technical interview is conducted to ensure optimal usage of the api and encourage for a close relation between Dinero and our integration partners.
+    </p>
+    <p>
+    If we recognize usage of your integration outside of the testing organization-id entered in the signup form, we reserve the right to disable the credentials, until the interview has been held. We will try to reach out before any such measures is applied.
+    </p>
+    <p>
+        We retain the opportunity to reject applications:
+    </p>
+    <ul>
+        <li>because of security issues,</li>
+        <li>the service is too close to our business,</li>
+        <li>other political reasons</li>
+    </ul>
+    <br/>
+    <style>
+        ._form_13 form {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        ._form_13 form ._form-thank-you {
+            text-align: left !important;
+        }
+    </style>
+    <div class="_form_13"></div>
+        <h1>Apply form will be visible here, except for when in staging</h1>
+    <small id="best-practice"></small>
+</div>
+<div class="wrap-examples">
+</div>
+
+<div class="wrap-content">
+<small id="best-practicef"></small>
+    <h2>Best practice</h2>
+    <p>
+        Be sure to read the entire documentation for the endpoints you are using, this will make sure that you have a complete overview of all the possibilities of the endpoint
+    </p>
+    <p>
+        <b>Always check the status code</b><br/>
+        Make sure you understand the HTTP Status code specification, how we apply it here at Dinero, and what some of the common issues is with the specific statuscodes
+    </p>
+    <table class="help-page-table">
+        <tr>
+            <th>StatusCode</th>
+            <th>Http status meaning</th>
+            <th>Common mistake</th>
+        </tr>
+        <tr>
+            <td>200</td>
+            <td>Ok</td>
+            <td>Everything is fine</td>
+        </tr>
+        <tr>
+            <td>201</td>
+            <td>Created</td>
+            <td>Everything is fine, and here is an empty body</td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>Bad request</td>
+            <td>This oftens occurs when the required fields are not supplied in the API call. E.g not having a contact on a Invoice when trying to book it, or not suppling the newest timestamp</td>
+        </tr>
+        <tr>
+            <td>401</td>
+            <td>Unauthorized</td>
+            <td>Something is wrong with your token, often it has expired</td>
+        </tr>
+        <tr>
+            <td>403</td>
+            <td>Forbidden</td>
+            <td>You do not have access to the requested resource. We also use this statuscode when the requested organization doesnt have a valid Pro subscription</td>
+        </tr>
+        <tr>
+            <td>429</td>
+            <td>Rate limited</td>
+            <td>You have exceeded the maximum amount of calls for a given timeperiod, wait a couple of minutes and continue</td>
+        </tr>
+        <tr>
+            <td>500</td>
+            <td>Server error</td>
+            <td>This means that something is wrong on our end, and if it doesn't resolve within a couple of days please reach out to us</td>
+        </tr>
+    </table>
+    <p>
+        <b>Use ChangesSince</b><br />
+        We often experience integration partners doing complete syncs, day after day.<br />
+        This is not the correct way to use the API. <br /><br />
+        Instead of fetching everything, most of our list endpoints have a parameter called ChangesSince.<br /> 
+        ChangesSince is a datetime parameter which ensures that everything that have been created or updated since the specified time will be returned.<br />
+    </p>
+    <p>
+        <b>Have a maximum retry policy</b><br />
+        Always implement a maximum of retires, depending on the returned statuscode<br /><br />
+        E.g: if we return 400, check the error response and update your integration to include the correct data. We reserve the right to disable credentials if itegrations misuse our API<br />
+        E.g: if we return 500 for a range of requests, please pause these requests for some time before trying again
+    </p>
+    <p>
+        <b>Try to limit your daily request count</b><br />
+        You should always try to reduce the amount of daily requests to a minimum, we supply our API as a free to use service, we therefore require integrations to use it as efficient as possible.<br /><br />
+        
+        Always make sure that you have read the entire documentation for a specific endpoint, we may meantion good solutions and how to use the endpoints correctly.<br /><br />
+    </p>    
+    <small id="filters"></small>
+</div>
+<div class="wrap-examples">
+</div>
+
+<div class="wrap-content">
+    <h2>Filters</h2>
+    <p>
+        Filters are not available on all properties, so be sure to check the endpoints <code>queryFilter</code> URI parameter description to see which.
+        If the endpoint do not contain a <code>queryFilter</code> URI parameter, then it does not support filtering.
+    </p>
+    <p>
+        Each filter command is built after the structure: <code>[PropertyName] [Operator] '[Value]'</code>
+    </p>
+    <p>
+        Be aware that the <code>[Value]</code> is not case sensitive. And remember the <code>'</code> around it.
+    </p>
+    <p>
+        Each filter command should be separated with: <code>;</code>
+    </p>
+    <table class="help-page-table error-codes">
+        <tr>
+            <th>Name</th>
+            <th>Types</th>
+            <th>Operator</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <td>Equals</td>
+            <td>string, int, bool</td>
+            <td>eq</td>
+            <td>Name eq ’John Doe’</td>
+        </tr>
+        <tr>
+            <td>Contains</td>
+            <td>string</td>
+            <td>contains</td>
+            <td>Name contains ’John D’</td>
+        </tr>
+    </table>
+    <small id="pagination"></small>
+</div>
+<div class="wrap-examples">
+    <div class="code-example">
+        <h3>Example</h3>
+        <pre data-example="curl"><code class="language-bash">https://api.dinero.dk/v1/{organizationId}/contacts?queryFilter=Name+contains+'a';IsPerson+eq+'False'</code></pre>
+    </div>
+</div>
+
+<div class="wrap-content">
+    <h2>Pagination</h2>
+    <p>
+        Get methods that potentially has a very large output implements pagination. It can maximum return 1000 entries per page, if a higher pageSize is given an Exception with error code 43 is thrown.
+        The pagination defaults to a pageSize of 100 entries, and returns the first page if left empty.
+    </p>
+    <p>
+        The pagination URI properties are listed below:
+    </p>
+    <table class="help-page-table error-codes">
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Type</th>
+            <th>Additional information</th>
+        </tr>
+        <tr>
+            <td>page</td>
+            <td>The 0-based page number</td>
+            <td>integer</td>
+            <td>Default value is 0</td>
+        </tr>
+        <tr>
+            <td>pageSize</td>
+            <td>The maximum number of items to include in a page. Max 1000.</td>
+            <td>integer</td>
+            <td>Default value is 100. Max value is 1000.</td>
+        </tr>
+    </table>
+    <small id="throttling"></small>
+</div>
+<div class="wrap-examples">
+</div>
+
+<div class="wrap-content">
+    <h2>Throttling</h2>
+    <p>There are no hard limit on the number of API requests per day but we enforce a fair use limit and requests will be rate-limited if too many calls are made within a short period of time. Rate limiting is considered on a per <code>client_id</code> basis.</p>
+    <p>
+        If you hit the rate limit, this is the body of the HTTP 429 message that you will see:
+        <code>API calls quota exceeded! (...)</code>
+    </p>
+    <p>We constantly monitor the usage of our API to ensure that it is used as efficient as possible. If we detect that the API can be used more efficient or that the API resources are being exhausted by a single client integration and it is evaluated by Dinero to hurt the general service of the API to other customers, <b>Dinero can decide to revoke the access for single clients</b>. Dinero will always strive to solve such issues in dialog with the integrating partner before any counter measures are taken.</p>
+    <small id="postingimage"></small>
+</div>
+<div class="wrap-examples">
+</div>
+
+<div class="wrap-content">
+    <h2>Posting image</h2>
+    <p>An example of how a post call to our files service could look like:</p>
+</div>
+<div class="wrap-examples">
+    <div class="code-example">
+        <h3>Example</h3>
+        <pre data-example="curl"><code class="language-bash">POST https://api.dinero.dk/v1/<a href="#glossary-organizationId">[organization_id]</a>/files/?fileName=sample-invoice.jpg HTTP/1.1
+    Authorization: Bearer eyJ0eXAiOiJKV1QiLC....
+    Accept: application/json
+    Content-Type: multipart/form-data; boundary="-------abcdefg1234"
+    Host: api.dinero.dk
+    Content-Length: 313036
+    Expect: 100-continue
+    Connection: Keep-Alive
+
+    ---------abcdefg1234
+    Content-Type: image/jpeg
+    Content-Disposition: form-data; name=image; filename=sample-invoice.jpg; filename*=utf-8''sample-invoice.jpg
+    [ReplaceWithYourImage]
+    ---------abcdefg1234--</code></pre>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+    <script src="/Scripts/prism.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('.nav-menu-item > a').off('click').on('click', function () {
+
+                var menuItem = $(this).parent();
+
+                $('.nav-menu-item.opened').find('> a').removeClass('active');
+                $('.nav-menu-item.opened').find('.nav-menu-items').removeClass('opened');
+
+                if (menuItem.hasClass('opened')) {
+                    menuItem.removeClass('opened');
+                    return;
+                }
+
+                $('.nav-menu-item.opened').removeClass('opened');
+                menuItem.find('> a').toggleClass('active');
+                menuItem.find('.nav-menu-items').addClass('opened');
+                menuItem.addClass('opened');
+            });
+
+            if ($('pre[data-example]').length === 0) {
+                $('#code-style').addClass('disabled');
+            } else {
+                $('#code-style a').on('click', function () {
+                    var style = $(this);
+                    var type = style.attr('data-type');
+                    $('#code-style a').removeClass('active');
+                    style.addClass('active');
+
+                    $('pre[data-example]').hide();
+                    $('pre[data-example="' + type + '"]').show();
+                });
+
+                $('pre[data-example]').hide();
+                $('#code-style a[data-type="curl"]').click();
+            }
+
+            var activeMenuItem = $('.nav-menu-items a[href="' + window.location.pathname + '"]');
+            if (activeMenuItem) {
+                activeMenuItem.addClass('active');
+                activeMenuItem.closest('.nav-menu-item').find('> a').click();
+            }
+
+            $('.show-model').on('click', function (event) {
+                event.preventDefault();
+
+                var tr = $('<tr>').append(
+                    $('<td>').attr('colspan', '2').addClass('model').append(
+                        $('<div>').html(
+                            $(this).next().html()
+                        )
+                    )
+                );
+
+                tr.find('td > div').show();
+
+                $(this).closest('tr').after(tr);
+
+                $(this).hide();
+            })
+        });
+    </script>
+</body>
+</html>
+```
