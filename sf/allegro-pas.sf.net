@@ -1,0 +1,65 @@
+```<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Allegro.pas</title>
+    <meta name="generator" content="Ãgora 2.3.1-200323" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="allegro, game development, game programming, pascal, delphi, lazarus" />
+    <meta name="description" content="Allegro is a library to make games.  Allegro.pas allows you to use Allegro with Delphi and Free Pascal compilers." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/style/allegro-pas.css" />
+   <link rel="stylesheet" type="text/css" href="/style/index.css" />
+    <link rel="shortcut icon" href="/img/alex.png" />
+    <link type="application/rss+xml" rel="alternate" title="RSS feed" href="/rss" />
+  </head>
+  <body>
+    <header>
+      <p><a href="/" title="Go to the main page">Allegro.pas</a></p>
+    </header>
+    <main>
+      <nav>
+	<header><h4>Menu</h4></header>
+	<ul>
+	  <li class="open">Project<ul>
+	    <li><a href="/">About</a></li>
+	    <li><a href="https://sourceforge.net/p/allegro-pas/news/" title="Read the last news and updates">News</a></li>
+	    <li><a href="/screenshots.php">Screenshots</a></li>
+	    <li><a href="/repositories.php" title="See the latest changes just when they are made">SVN & GIT</a></li>
+	  </ul></li>
+	  <li class="open">Downloads<ul>
+	    <li><a href="/downloads.php" title="Get the appropriate package for your system">Latest version</a></li>
+	    <li><a href="http://sourceforge.net/projects/allegro-pas/files/" title="Download older versions to maintain legacy software, or just see how the project has evolved">All versions</a></li>
+	  </ul></li>
+	  <li class="open">Documentation<ul>
+	    <li><a href="/docs/" title="Read and search full documentation on-line">API documentation</a></li>
+	    <li><a href="/tutorials/" title="Learn how to use Allegro.pas">Tutorials</a></li>
+	  </ul></li>
+	  <li class="open">Support<ul>
+	    <li><a href="/forums.php" title="Forums you should visit if you need help or just if you're interested in game development.">Forums</a></li>
+	    <li><a href="http://sourceforge.net/p/allegro-pas/mailman/" title="Sign-in to the mailing lists to receibe information direct to your mailbox (low-trafic)">Mailing lists</a></li>
+	    <li><a href="http://sourceforge.net/p/allegro-pas/discussion/" title="Ask or made sugestions">Discussions</a></li>
+	    <li><a href="https://sourceforge.net/p/allegro-pas/bugs/" title="Inform about bugs or problems">Bug tracker</a></li>
+
+	  </ul></li>
+	</ul>
+      </nav>
+      <article>
+        <header><h1>Welcome to Allegro.pas</h1></header>
+        <p><strong>Allegro.pas</strong> is a wrapper that allows to use the <a class="external" href="https://liballeg.org">Allegro game programming library</a> with Pascal and Object Pascal compilers as <a class="external" href="https://www.freepascal.org/">Free Pascal</a> and <a class="external" href="https://www.embarcadero.com/es/products/delphi">Delphi</a> (including the <a class="external" href="https://www.embarcadero.com/products/delphi/starter">Community Edition</a>).</p>
+<p><strong>Allegro</strong> is a cross-platform library mainly aimed at video game and multimedia programming.&nbsp; It handles common, low-level tasks such as creating windows, accepting user input, loading data, drawing images, playing sounds, etc. and generally abstracting away the underlying platform.&nbsp; However, Allegro is not a game engine: you are free to design and structure your program as you like.</p>
+<figure><a href="https://sourceforge.net/p/allegro-pas/screenshot/Captura%20de%20pantalla_2020-03-01_19-32-53.png"><img src="https://sourceforge.net/p/allegro-pas/screenshot/Captura%20de%20pantalla_2020-03-01_19-32-53.png" alt="screenshot" /></a><figcaption>Furious Paladin - Allegro.pas 5 demonstration game</figcaption></figure>
+<p>You can download a <a href="https://sourceforge.net/projects/allegro-pas/files/5.2.b.1/furiouspaladin-5.2.b.1-bin-win32.zip/download">Game Demo</a> (Windows and WineHQ), a simple game that shows some of the capabilities of Allegro.pas.&nbsp; Such a simple game isn't enough to show everything that Allegro can offer.&nbsp; If you want to know more about what you can do with Allegro.pas, take a peek to the <a href="http://allegro-pas.sourceforge.net/docs/5.2/">documentation</a>.</p>
+<p class="centered"><a class="download-button" href="downloads.php">Download</a></p>
+
+      </article>
+    </main>
+    <footer>
+      <p>Allegro.pas &copy; 2006-2020 Guillermo MartÃ­nez J.</p>
+      <p>Except where otherwise noted, content on this site is licensed under the following license: <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img class="license" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /> Attribution-NonCommercial 3.0 Unported License</a>.</p>
+      <p><a href="https://sourceforge.net/projects/allegro-pas/" title="Hosted at SourceForge"><img src="/img/sflogo.gif" alt="Hosted at SourceForge" title="Hosted at SourceForge" /></a><a href="https://github.com/niuniomartinez/allegro-pas"><img src="/img/githublogo.png" alt="GitHub mirror" title="GitHub mirror" /></a>	<a href="http://www.burdjia.com/proyectos/agora" target="_blank" title="Driven by Ãgora"><img src="/img/button-ago.png" alt="Driven by Ãgora" height="15" width="80" /></a><a href="http://allegro-pas.SourceForge.net/rss" title="RSS feed"><img src="/img/button-rss.png" alt="News RSS feed" height="15" width="80" /></a><a href="https://anybrowser.org/campaign/" title="Viewable With Any Browser"><img src="/img/button-anybrowser.png" alt="Viewable With Any Browser" height="15" width="80" /></a></p>
+    </footer>
+  </body>
+</html>
+```
