@@ -1,0 +1,2542 @@
+```<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Always Shine</title>
+
+  <meta name="title" content="Always Shine">
+  <meta name="description" content="Two friends, both actresses (Halt and Catch Fire’s Mackenzie Davis and Masters of Sex’s Caitlin FitzGerald), leave Los Angeles for Big Sur embarking on a weekend getaway to reconnect. Once alone, however, the two women&#39;s suppressed jealousies and deep-seated resentments bubble to the surface, causing them to lose grasp not just of the true nature of their relationship, but also of their own identities.">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://alwaysshine.vhx.tv&format=json" title="Always Shine" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://alwaysshine.vhx.tv&format=xml" title="Always Shine" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://alwaysshine.oscilloscope.net">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+  @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+  
+  .cf:before, .cf:after, 
+  .main-nav-list:before, .main-nav-list:after,
+  .gallery-images:before, .gallery-images:after,
+  .social-blocks:before, .social-blocks:after, 
+  .buy-package-options:before, .buy-package-options:after,
+  .section-container:before, .section-container:after,
+  .main-header:before, .main-header:after,
+  .buy-package-options > li:before, .buy-package-options > li:after,
+  .social-block-container:before, .social-block-container:after,
+  .laurels:before, .laurels:after {
+    content: " ";
+    display: table;
+  }
+  
+  .cf:after, 
+  .main-nav-list:after, 
+  .gallery-images:after, 
+  .social-blocks:after, 
+  .buy-package-options:after, 
+  .section-container:after, 
+  .main-header:after, 
+  .buy-package-options > li:after, 
+  .social-block-container:after, 
+  .laurels:after {
+    clear: both;
+  }
+  
+  body, html {
+  	height: 100%;
+  }
+  .hidden { display: none; }
+  
+  
+  .gallery-image-container, .social-block-container {
+    position: relative;
+    height: 0;
+  }
+  
+  .gallery-image, .social-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #666;
+  }
+  
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #367aa8;
+  }
+  
+  .main-nav-list, .gallery-images, .social-blocks, .footer-boilerplate-list, .buy-package-options {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .main-nav-list li, .gallery-images li, .social-blocks li, .footer-boilerplate-list li {
+    float: left;
+  }
+  
+  .float-left {
+    float: left;
+  }
+  
+  .float-right {
+    float: right;
+  }
+  
+  .section-container {
+    width: 100%;
+    position: relative;
+  }
+  .button {
+  	background-color: #367aa8;
+    color: #FFF;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  .button:hover {
+  	background-color: #367aa8;
+  }
+  /**
+   * Standard Styles
+   */
+  .section-title {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  @media only screen and (max-width: 480px) {
+    .section-title {
+    	margin-top: 40px;
+    }
+  }
+  
+  .main-header {
+    width: 100%;
+    background: #fff;
+    font-size: 110%;
+    line-height: 33px;
+    top: 0;
+    z-index: 300;
+    position: fixed;
+    
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .main-header {
+      position: absolute;
+      top: -198px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .main-header {
+      font-size: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .main-header {
+      font-size: 80%;
+    }
+  }
+  
+  .page-nav {
+    width: auto;
+  }
+  
+  @media only screen and (max-width: 1280px) {
+    .page-nav {
+      width: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .page-nav {
+      width: 100%;
+    }
+  }
+  
+  .main-nav-list li {
+    text-align: center;
+    width: auto;
+  }
+  .main-nav-list li a {
+  	padding: 0 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .main-nav-list li {
+      width: 100%;
+      height: 33px;
+    }
+  
+    .main-nav-list li + li {
+      border-top: 1px solid #fff;
+    }
+  }
+  
+  .main-nav-list a {
+    color: #000000;
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .main-nav-list a {
+      display: block;
+    }
+  }
+  
+  @media only screen and (min-width: 820px) {
+    .main-nav-list a {
+      display: block;
+    }
+  
+    .main-nav-list a:hover, 
+    .main-nav-list a.selected {
+      background: #367aa8;
+      color: #ffffff;
+    }
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .main-nav-list {
+      background: #232323;
+    }
+  
+    .main-nav-list li {
+      float: none;
+    }
+     .main-nav-list.has-screenings li {
+    	width: auto;
+    }
+  }
+  
+  .mobile-nav-link {
+    background: url("https://dr56wvhu2c8zo.cloudfront.net/sbone/assets/f5cd67cf-21e2-4870-bff9-17f23ccae248/hamburger-1x.png") no-repeat center center;
+    width: 44px;
+    height: 44px;
+    display: none;
+    float: left;
+    margin-top: 11px;
+  }
+  
+  .mobile-nav-link.open {
+    background-image: url("https://dr56wvhu2c8zo.cloudfront.net/sbone/assets/d15d8693-0d21-475f-911f-7ba49fa03417/close-menu-1x.png");
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .mobile-nav-link {
+      display: block;
+    }
+  }
+  
+  .buy-header {
+    text-transform: uppercase;
+    width: 420px;
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .buy-header {
+      width: 85%;
+    }
+  }
+  
+  .selected-package-container {
+    float: left;
+    width: 66.66667%;
+    padding: 0 30px;
+    position: relative;
+    /* truncate lengthy default package title */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;  
+  }
+  
+  @media only screen and (max-width: 460px) {
+    .selected-package-container {
+      padding: 0 20px 0 0;
+    }
+  }
+  
+  .selected-package {
+    color: #367aa8;
+  }
+  
+  .selected-package.multiple-packages:after {
+    content: ' ';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #367aa8;
+    position: absolute;
+    right: 20px;
+    top: 29px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .selected-package:after {
+      right: 10px;
+    }
+  }
+  
+  .package-options-container {
+    position: absolute;
+    top: 33px;
+    width: 420px;
+    background: #f8f8f8;
+    display: none;
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .package-options-container {
+      top: 264px;
+    }
+  }
+  
+  @media only screen and (max-width: 520px) {
+    .package-options-container {
+      left: 0;
+      right: 0;
+      width: auto;
+    }
+  }
+  
+  .buy-package-options {
+    width: 100%;
+  }
+  
+  .buy-package-options > li {
+    line-height: 3;
+  }
+  
+  .buy-package-options > li a {
+    display: block;
+  }
+  
+  .buy-package-options > li + li {
+    border-top: 1px solid #b8b8b8;
+  }
+  
+  .buy-package-options > li:hover {
+    background: #f1e088;
+  }
+  
+  .buy-package-options > li:hover > a {
+    background: #ecda7c;
+  }
+  
+  .buy-package-options > li a {
+    color: #000;
+    padding: 0 30px;
+  }
+  
+  .option-details {
+    font-size: 70%;
+    text-transform: none;
+    line-height: 2;
+    list-style-type: disc;
+    padding-left: 30px;
+    margin-top: 0;
+    width: 100%;
+    display: none;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .buy-package-options > li a, .option-details {
+      padding: 0 10px;
+    }
+  }
+  
+  .buy-now-link {
+    float: right;
+    color: #fff;
+    width: 33.33333%;
+    background: #367aa8;
+    text-align: center;
+  }
+  
+  /**
+    * Header Social
+    */
+  .social-buttons {
+  
+  }
+  .social-buttons ul {
+  	margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .social-buttons ul li {
+  	width: 90px;
+    overflow: hidden;
+    float: left;
+    line-height: 1;
+    padding-top: 5px;
+  }
+  .social-buttons .fb-icon {
+  	font-size: 21px;
+    padding-top: 2px;
+    color: #000;
+  }
+  .social-buttons .fb-icon:hover {
+  	color: #367aa8;
+  }
+  @media only screen and (max-width: 900px) {
+  	.social-buttons {
+    	display: none;
+    }
+  }
+  
+  /**
+    * CONSIDERATION
+    */
+  .consideration {
+  	padding: 10px; 
+    margin-top: 35px; 
+    text-align: center; 
+    font-size: 24px; 
+    color: #FFF; 
+    background: #b21d02;
+    line-height: 32px;
+    text-transform: uppercase;
+  }
+  
+  
+  /**
+    * Hero Image 
+    */
+  .hero-image {
+    background: #000;
+    background-size: cover;
+    margin-top: 30px;
+    display: table;
+    width: 100%;  
+  }
+  .hero-image.no-margin {
+  	margin-top: 0;
+  }
+  .hero-image .slides {
+  	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-image .slides .slide {
+  	background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+  }
+  .hero-image .slides .slide.is-active {
+  	opacity: 1;
+  }
+  
+  
+  
+  @media only screen and (max-width: 820px) {
+     .hero-image {
+      padding: 20px 0 40px;
+    }
+  }
+  
+  
+  .hero-title-container {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;  
+    position: relative;
+    z-index: 200;
+  }
+  .hero-title-container .padded {
+  	padding-left: 5%;
+  }
+  .trailer-container {
+  	display: none;
+    height: 0;
+    padding: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 100%;
+    margin: 0 auto 20px;
+    background: #000000;
+    z-index: 2;
+  }
+  .trailer {
+  	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .trailer-overlay {
+    display: none;
+  	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    background: rgba(0, 0, 0, .6); 
+    z-index: 1;
+  }
+  .hero-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .hero-title-image-container{
+  
+  }
+  .hero-title-image {
+  	max-height: 420px;
+    width: auto;
+  }
+  .hero-subtitle {
+  	font-weight: 300;
+    letter-spacing: 5px;
+  }
+  .hero-title.no-logo {
+  	font-size: 56px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;  
+    letter-spacing: 20px;
+    text-shadow: 0 0 5px rgba(0,0,0,.4);
+  }
+  .hero-rule {
+    width: 42.96296%;
+    height: 1px;
+    border: 0;
+    margin: 30px auto;
+    font-size: 18px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .hero-rule {
+      width: 70%;
+      margin: 20px auto;
+    }
+    .hero-title.no-logo {
+      font-size: 35px;
+      letter-spacing: 10px;
+    }  
+    .hero-subtitle {
+    	font-size: 18px;
+    }
+    .hero-title-container h3 {
+    
+    }
+  }
+  
+  .hero-trailer-link, .hero-purchase-link {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    margin-right: 20px;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #000000;
+  }
+  .hero-title-container .hero-trailer-link {
+  	margin-right: 14px;
+  }
+  .hero-title-container .hero-trailer-link:hover {
+  	opacity: .7;
+  }
+  .hero-title-container .hero-purchase-desc {
+  	 text-shadow: 1px 1px 1px #000000;
+  }
+  .laurels {
+    width: 50%;
+    margin: 40px 0 0 5%;
+    text-align: left;
+  }
+  
+  .laurels img {
+    margin: 0 0 10px 0;
+    max-width: 200px;
+    height: auto;
+  }
+  .laurels img + img {
+    margin-right: 10px;
+  }
+  .advance-link {
+    display: none;
+    margin: 0 auto;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 50%;
+    margin-left: -18px;
+    bottom: 30px;
+    background: url('https://dr56wvhu2c8zo.cloudfront.net/sbone/assets/8ba662df-e527-4d0e-b10e-e89cb191b132/scroll-down-link.png') no-repeat center center;
+    z-index: 2;
+  }
+  @media only screen and (min-width: 480px) {
+    .advance-link {
+      display: block;
+    }
+  }
+  
+  
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+   * ABOUT 
+   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  .subnav {
+  	text-align: center;
+  }
+  .subnav ul {
+  	margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .subnav ul li {
+  	display: inline;
+    margin-right: 20px;
+  }
+  .subnav ul li:last-child {
+  	margin-right: 0px;
+  }
+  .subnav ul li a {
+  	color: #FFF;
+  }
+  .subnav ul li a.selected {
+  	color: #367aa8;
+  }
+  .about {
+  	background: #000;
+    color: #FFF;
+    padding-top: 100px;
+  }
+  .about h2 {
+  	margin-top: 0px;
+  }
+  .about-bounds {
+    width: 100%;
+    padding: 0 40px;
+    margin-bottom: 140px;
+  }
+  
+  .about .page {
+  	display: none;
+  }
+  .about .hr {
+  	margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border-top: 1px solid #999;
+  }
+  .about .page.selected {
+  	display: block;
+  }
+  
+  
+  .about .page.synopsis .copy {
+  	width: 60%;
+    margin: 0 auto;
+    font-size: 1em;
+    line-height: 2em;
+  }
+  
+  .about .page.cast {
+  	background: #000;
+  }
+  .about .page.cast .copy {
+  	width: 60%;
+    margin: 0 auto;
+    font-size: 1em;
+    line-height: 2em;
+  }
+  
+  .about.sub-the-filmmakers {
+  	background: #000;
+  }
+  .about .page.the-filmmakers {
+  	width: 70%;
+    margin: 0 auto;
+    line-height: 1.8em;
+  }
+  .about .page.the-filmmakers .img {
+  	margin-left: 30px;
+    margin-bottom: 20px;
+    width: 220px;
+  }
+  .about .page.the-filmmakers .img img {
+  	width: 100%;
+    height: auto;
+  }
+  .about.sub-the-filmmakers .page.the-filmmakers .copy {
+    margin-left: 10%;
+    margin-right: 100px;
+     color: #FFF;
+  }
+  
+  .about.sub-the-filmmakers .page.the-filmmakers .copy a {
+  	color: #FFF;
+    text-decoration: underline;
+  }
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+   .about-bounds {
+   	width: 100%
+   }
+  
+  }
+  @media only screen and (max-width: 767px) {
+  	.about-bounds {
+    	width: 100%;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+     .about-bounds p {
+   		font-size: 18px;
+  	  line-height: 22px;
+  	 }
+  }
+  
+  
+  /*
+   * CAST
+   */
+  .cast {
+    background: #acbaf2 url() no-repeat center center;
+    background-size: cover;
+  }
+  .cast-bounds {
+  	width: 100%;
+    padding: 0 40px;
+    margin-bottom: 140px;
+    color: #ffffff;
+  }
+  .cast-bounds h2.section-title {
+  	color: #ffffff;
+  }
+  .cast .col {
+  	width: 50%;
+    float: left;
+  }
+  .cast ul {
+  	list-style: none;
+    margin: 0;
+    padding: 40px;
+  }
+  .cast ul li {
+  	margin: 0 0 20px 0;
+    clear: both;
+    min-height: 240px;
+  }
+  .cast .img {
+  	width: 180px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .cast .img.right {
+  	float: right;
+    padding-left: 20px;
+  }
+  .cast .img.left {
+  	float: left;
+    padding-right: 20px;
+  }
+  .cast .img img {
+  	width: 100%;
+    height: auto;
+  }
+  .cast .txt {
+  	min-height: 80px;
+    clear: both;
+    color: #FFF;
+    font-size: 14px;
+    padding-top: 35px;
+  }
+  .cast .txt.left {
+  }
+  .cast .txt.right {
+    margin-left: 0;
+    text-align: right;
+  }
+  .cast .txt strong {
+  	font-size: 16px;
+    padding-top: 20px;
+  }	
+  .hr {
+  	margin-top: 20px;
+    border-top: 1px solid #999;
+    padding-top: 20px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+  }
+  @media only screen and (max-width: 767px) {
+  	.cast .col {
+    	width: auto;
+      float: none;
+    }
+    .cast .img {
+    	float: none;
+      padding-bottom: 20px;
+    }
+    
+    .cast .txt {
+    
+    }
+  }
+  
+  
+  
+  /*
+   * Gallery 
+   */
+  .gallery {
+    background: #5c308c url() no-repeat center center;
+    background-size: cover;
+  }
+  .gallery h2.section-title {
+  	color: #ffffff;
+  }
+  .gallery-bounds {
+    width: 100%;
+    padding: 0 40px;
+    margin-bottom: 140px;
+    color: #ffffff;
+  }
+  
+  
+  @media only screen and (min-width: 1200px) {
+    .gallery-bounds {
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .gallery-bounds {
+    	margin-bottom: 80px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .gallery-bounds {
+      padding: 0 10px;
+    }
+  }
+  
+  .gallery-image {
+  	overflow: hidden;
+  }
+  
+  .gallery-images img {
+    max-width: 100%;
+  }
+  
+  .gallery-images li {
+    width: 25%;
+  }
+  
+  @media only screen and (max-width: 920px) {
+    .gallery-images li {
+      width: 33.333%;
+    }
+  }
+  
+  @media only screen and (max-width: 580px) {
+    .gallery-images li {
+      width: 50%;
+    }
+  }
+  
+  .gallery-image-container {
+    padding-bottom: 42%;
+  }
+  
+  
+  
+  
+  /*
+   * Screenings 
+   */
+  .screenings {
+    background: #367aa8 url(https://dr56wvhu2c8zo.cloudfront.net/alwaysshine-clip1/assets/70424f99-f39b-4d2e-ab45-13a0f74034c8/ALWAYSSHINE_MARKSCHWARTZBARD_4.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  .screenings-bounds {
+    width: 100%;
+    padding: 0 40px;
+    margin-bottom: 140px;
+  }
+  
+  .screenings .contained {
+  	border-top: 1px solid rgba(0,0,0,.4);
+    min-height: 500px;
+  }
+  .screenings .row {
+  	clear: both;
+    color: #f7ef0f;
+    font-weight: normal;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }	
+  .screenings a {
+  	color: #f7ef0f
+  }
+  .screenings .section-title {
+  	color: ;
+  }
+  .screenings .row span.small {
+  	font-size: .8em;
+  }
+  .screenings .row a {
+  	color: #FFF;
+  }
+  .screenings .row a:hover {
+  	text-decoration: underline;
+  }
+  .screenings .row .clear {
+  	clear: both;
+  }	
+  .screenings .row.even {
+  	background-color: rgba(0,0,0,.4);
+  }
+  .screenings .row .col {
+  	float: left;
+    padding: 20px;
+    border-bottom: 1px dotted rgba(255,255,255,.3);
+  }
+  .screenings .row .col.date {
+  	width: 12%;
+  }
+  .screenings .row .col.cityst {
+  	width: 48%;
+  }
+  .screenings .row .col.venue {
+  	width: 40%;
+  }
+  .screenings .row .col.info {
+  	width: 20%;
+  }	
+  @media only screen and (min-width: 1200px) {
+    .screenings-bounds {
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    .screenings .row {
+    	padding: 20px;
+    }
+     .screenings .row .col {
+    	clear: both;
+      float: none;
+      width: auto;
+      padding: 0;
+    }
+    .screenings .row .col.info {
+    	margin-top: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .screenings-bounds {
+    	margin-bottom: 80px;
+    }
+  
+  }
+  @media only screen and (max-width: 320px) {
+    .screenings-bounds {
+      padding: 0 10px;
+    }
+  }
+  
+  
+  /*
+   * AWARDS 
+   */
+   .awards-badge {
+   	position: absolute;
+    right: 5%;
+    top: 5%;
+    background: #47c3cd;
+    width: 160px;
+    height: 160px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+    overflow: hidden;
+    z-index: 500;
+    border: 3px solid #fff;
+   }
+   .awards-badge a {
+   	display: block;
+    text-align: center;
+    color: #fff;
+    padding: 46px 20px;
+    font-size: 16px;
+   }
+   .text-center {
+   	text-align: center;
+   }
+   .yellow {
+   	color: #333;
+   }
+   .awards {
+   	background: #dbdbdb ;
+    color: #000;
+   }
+   .awards-bounds {
+    width: 100%;
+    padding: 0 40px 80px 40px;
+    margin-bottom: 140px;
+  }
+   .awards a {
+   	color: #000;
+    text-decoration: underline;
+   }
+   .awards a:hover {
+   	opacity: .5;
+   }
+   .awards .section-title {
+   	color: #000;
+   }
+   .awards h3 {
+   	text-align: center;
+   }
+  
+  .awards .screenings {
+  	background: none;
+  }
+  .awards .screenings .row.border-bottom {
+  	
+  }
+  .awards .screenings .row {
+  	color: #000;
+  	width: 640px;
+    margin: 0 auto;
+  }
+  .awards .screenings .col {
+  	border-bottom: none;
+  }	
+  .awards .screenings .row .col.date {
+  	width: 33%;
+  }
+  .awards .screenings .row .col.cityst {
+  	width: 33%;
+  }
+  .awards .screenings .row .col.venue {
+  	width: 33%;
+  }
+  .awards .screenings .row .col.venue span.info {
+  	display: block;
+    clear: both;
+    font-size: 13px;
+    opacity: 0.8;
+  }
+  
+  
+  /*
+   * PRESS 
+   */
+  .press {
+    background: #000 url() no-repeat left center;
+    color: #FFF;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .press-bounds {
+    width: 80%;
+    min-height: 300px;
+  	margin: 0 auto;
+  }
+  .press .button {
+  	text-wrap: nowrap;
+    color: #fff;
+  }
+  .press .grey {
+  	opacity: .6;
+  }
+  .press .col .padding {
+   padding: 0 40px 40px 40px;
+  }
+  .press .col {
+    float: left;
+  }
+  .press .col.first {
+  	width: 30%;
+    padding-top: 30px;
+  }
+  .press .col.first .padding {
+  	padding: 0;
+  }
+  .press .col.second {
+  	width: 70%;
+  	text-shadow: 0 0 2px #000000;
+  }
+  .press .col.wide.second {
+  	margin: 0 auto;
+    width: 60%;
+    float: none;
+  }
+  .press .col.second h2 {
+  	margin-top: 0;
+    padding-left: 40px;
+    text-align: left;
+  }
+  .press ul {
+  	list-style: none;
+    margin: 0;
+    padding: 0 0 0 40px;
+  }
+  .press ul li {
+  	margin: 0 0 20px 0;
+  }
+  .press ul li span {
+  	display: block;
+    color: rgba(255,255,255,.5);
+    
+    font-size: 14px;
+  }	
+  
+  @media only screen and (max-width: 760px) {
+  	.press-bounds {
+    	margin: 0;
+      width: auto;
+    }
+  	.press .col {
+    	width: auto;
+      float: none;
+    }
+    .press .col.first,
+    .press .col.second {
+    	width: auto;
+      margin-bottom: 30px;
+    }
+    .press ul {
+    	padding-left: 0;
+    }
+  }
+  
+  
+  
+  
+  
+  /*
+   * CONTACT 
+   */
+  .contact {
+    background: #000 url() no-repeat center center;
+    background-size: cover;
+  }
+  .contact .section-title {
+  	color: #fff;
+  }
+  .contact-bounds {
+    width: 90%;
+    padding: 120px 40px 120px 40px;
+  	margin: 0 auto;
+    color: #fff;
+    
+  }
+  .contact .col {
+  	width: 33%;
+    float: left;
+    text-align: center;
+  }
+  .contact .col.border-right {
+  	border-right: 1px solid #CCC;
+  }
+  .contact .logo {
+  	max-width: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }	
+  .contact .logo img {
+  	width: 100%;
+    height: auto;
+  }
+  
+  @media only screen and (max-width: 760px) {
+  	.contact .col {
+    	width: auto;
+      float: none;
+      margin-bottom: 25px;
+      text-align: center;
+    }  
+  }
+  
+  
+  
+  
+  
+  
+  
+  .social-blocks li {
+    border-bottom: 1px solid #d7d6d4;
+    width: 20%;
+    border-right: 1px solid #d7d6d4;  
+  }
+  
+  @media only screen and (max-width: 1230px) {
+    .social-blocks li {
+      width: 25%;
+    }
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .social-blocks li {
+      width: 33.333%;
+    }
+  }
+  
+  @media only screen and (max-width: 750px) {
+    .social-blocks li {
+      width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .social-blocks li {
+      width: 100%;
+    }
+  }
+  .mailing-list input[type='email'] {
+  	background: 0;
+  	border: 1px solid #c8c8c8;
+    padding: 8px;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .mailing-list input[type='submit'] {
+  	background: #367aa8;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;  
+  }
+  .social-block-container {
+    text-align: center;
+    background: #f7f5f5;
+    padding: 20px 10px 10px;
+    overflow: hidden;
+  }
+  .tweet-image a {
+  	display: block;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .social-block-container .source-title {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .social-block-container a {
+    color: #367aa8;
+  }
+  
+  .social-block-container {
+    padding-bottom: 85%;
+  }
+  @media only screen and (max-width: 480px) {
+  	.social-block-container {
+    	height: auto;
+      padding-bottom: 20px;
+    }
+    .tweet-image {
+    	padding-bottom: 60%;
+    }
+  }
+  
+  /* Footer */
+  footer {
+    width: 100%;
+    font-size: 14px;
+    padding: 0 2%;
+    background: #fff;
+    position: relative;
+  }
+  @media only screen and (max-width: 1230px) {
+    footer {
+      text-align: center;
+    } 
+  }
+  .footer-right-column {
+    float: right;
+    width: 50%;
+  }
+  footer a {
+    color: #b8b8b8;
+  }
+  .powered-by-vhx-link {
+    line-height: 76px;
+  }
+  .footerfooter {
+  	margin: 30px auto;
+    text-align: center;
+    clear: both;
+  }
+  .footerfooter .logo {
+  	display: block;
+    margin: 0 auto;
+    height: 43px;
+    max-width: 150px;
+  }
+  .footerfooter .logo img {
+  	width: 100%;
+    height: auto;
+  }
+  .footer-boilerplate-list {
+    float: right;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 76px;  
+    color: #b8b8b8; 
+  }
+  .footer-boilerplate-list li {
+    margin: 0 .4em;
+    display: block;
+  }
+  .legal-copy {
+    line-height: 76px;
+    color: #b8b8b8;
+    float: left;
+    margin: 0;
+  }
+  .footer-social-buttons {
+    width: 115px;
+    float: left;
+    margin-right: 10px;
+  }
+  .footer-social-button {
+    height: 20px;
+    margin: 28px 0 0;
+    overflow: hidden;
+    float: left;
+  }
+  .facebook-button {
+    width: 48px;
+    margin-right: 10px;
+  }
+  .twitter-button {
+    width: 57px;
+  }
+  .footer-left-column {
+    float: left;
+    width: 50%;
+  }
+  @media only screen and (max-width: 1200px) {
+    .footer-left-column,
+    .footer-right-column {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .legal-copy {
+      float: none;
+      width: 100%;
+      line-height: 36px
+    }
+    .footer-social-buttons {
+      float: none;
+      margin: 0 auto 14px;
+    }
+    .footer-boilerplate-list {
+      float: none;
+      line-height: 56px;
+      width: 420px;
+      margin: 0 auto;
+    }
+    .powered-by-vhx-link {
+      line-height: 56px;
+    }  
+  }
+  @media only screen and (max-width: 440px) {
+    .footer-boilerplate-list {
+      width: 100%;
+    }
+  }
+  
+  #vhx-iframe {
+  	top: 72px !important;
+  }
+  
+  .blanket {
+  	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.6);
+    z-index: 999;
+  }
+  .modal {
+  	position: fixed;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .modal .stickytrailer {
+  	position: relative;
+  	width: 60%;
+    margin: 0 auto;
+    border: 5px solid #FFF;
+    background-color: #000;
+    height: 0px;
+    padding-top: 33.25%;
+  }
+  .modal .stickytrailer object,
+  .modal .stickytrailer embed,
+  .modal .stickytrailer iframe {
+  	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .modal .close {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 10px 20px;
+      -webkit-border-radius: 20px;
+      border-radius: 20px;
+      background-color: rgba(255,255,255,.5);
+  }
+  .modal .close a {
+  	color: #000;
+    margin-right: 20px;
+  }
+  .modal .close a:hover {
+  	color: #367aa8;
+  }
+    
+    
+     
+    /* ------------------------------------------------------------------------------------------ */
+  /* VOD */
+  /* ------------------------------------------------------------------------------------------ */
+  
+  
+  .vod {
+      overflow: hidden;
+      padding-top: 20px;
+      background-color: #FFF;
+      border-bottom: 1px solid #CCC;
+  }
+  .vod ul {
+      list-style: none;
+      list-style: none; position: relative; float: left; display: block; left: 50%;
+  }
+  .vod ul li {
+      margin-right: 15px;
+      margin-bottom: 15px;
+      position: relative; float: left; display: block; right: 50%;
+  }
+  .vod ul li a {
+      display: block;
+      width: 100px;
+      text-indent: -9999px;
+      opacity: .5;
+      background: url("https://dr56wvhu2c8zo.cloudfront.net/12oclockboys/assets/2dbb310a-67c9-4493-9145-9890a6cb4c54/vod-sprite.png") no-repeat;
+      -webkit-transition: 0.3s ease;
+      -moz-transition: 0.3s ease;
+      -o-transition: 0.3s ease;
+      transition: 0.3s ease;
+  }
+  .vod ul li a:hover {
+      opacity: 1;
+  }
+  .vod ul li a.internet {
+      height: 36px;
+  }
+  .vod ul li.ispacer {
+     /* margin-left: 100px;*/
+  }
+  .vod ul li a.amazon {
+      width: 87px;
+  }
+  .vod ul li a.itunes {
+      width: 86px;
+      background-position: -100px 0px;
+  }
+  .vod ul li a.bittorent {
+      width: 86px;
+      background-image: url('https://dr56wvhu2c8zo.cloudfront.net/embraceoftheserpent/assets/96d6383e-8432-4d5b-8a33-667a00607116/bit-torrent.png');    
+      background-size: contain;
+      background-position: 0px 12px;
+  }
+  .vod ul li a.cinemanow {
+      width: 147px;
+      background-position: -200px 0px;
+  }
+  .vod ul li a.hulu {
+      width: 82px;
+      background-position: -400px 0px;
+  }
+  .vod ul li a.ps3 {
+  		width: 124px;
+      background-image: url('https://dr56wvhu2c8zo.cloudfront.net/embraceoftheserpent/assets/5507a3de-222c-44df-bbb3-2a899f5c5d8d/Sony-network-entertainment.png');    
+      background-size: contain;
+  }
+  .vod ul li a.vudu {
+      width: 52px;
+      background-position: -600px 0px;
+  }
+  .vod ul li a.xbox {
+      width: 54px;
+      background-position: -700px 0px;
+  }
+  .vod ul li a.zune {
+      width: 74px;
+      background-position: -800px 0px;
+  }
+  .vod ul li a.googleplay {
+      width: 99px;
+      background-position: -900px 0px;
+  }
+  .vod ul li a.youtube {
+      width: 50px;
+      background-position: -1000px 0px;
+  }
+  .vod ul li a.vimeo {
+      width: 82px;
+      background-position: -100px -400px;
+  }
+  
+  .vod ul li a.usa {
+      height: 32px;
+  }
+  .vod ul li.uspacer {
+      /*margin-left: 280px;*/
+      clear: both;
+  }
+  .vod ul li a.indemand {
+      width: 94px;
+      background-position: -200px -400px;
+  }
+  .vod ul li a.comcast {
+      width: 96px;
+      background-position: 0px -100px;
+  }
+  .vod ul li a.directtv {
+      width: 38px;
+      background-position: -100px -100px;
+  }
+  .vod ul li a.dish {
+      width: 40px;
+      background-position: -200px -100px;
+  }
+  .vod ul li a.timewarner {
+      width: 100px;
+      background-position: -300px -100px;
+  }
+  .vod ul li a.cox {
+      width: 53px;
+      background-position: -400px -100px;
+  }
+  .vod ul li a.charter {
+      width: 84px;
+      background-position: -500px -100px;
+  }
+  .vod ul li a.cablevision {
+      width: 144px;
+      background-position: -600px -100px;
+  }
+  .vod ul li a.verizon {
+      width: 46px;
+      background-position: -800px -100px;
+  }
+  .vod ul li a.brighthouse {
+      width: 69px;
+      background-position: -900px -100px;
+  }
+  .vod ul li a.att {
+      width: 97px;
+      background-position: -1000px -100px;
+  }
+  .vod ul li a.suddenlink {
+      margin-left: 140px;
+      width: 87px;
+      background-position: 0px -200px;
+  }
+  .vod ul li a.mediacom {
+      width: 112px;
+      background-position: -100px -200px;
+  }
+  .vod ul li a.insight {
+      width: 91px;
+      background-position: -300px -200px;
+  }
+  .vod ul li a.rcn {
+      width: 38px;
+      background-position: -400px -200px;
+  }
+  .vod ul li a.bresnan {
+      width: 125px;
+      background-position: -500px -200px;
+  }
+  .vod ul li a.xfinity {
+      width: 77px;
+      background-position: -700px -200px;
+  }
+  .vod ul li a.armstrong {
+      width: 145px;
+      background-position: -800px -200px;
+  }
+  .vod ul li a.canada {
+      height: 30px;
+  }
+  .vod ul li.cspacer {
+      margin-left: 10px;
+      clear: both;
+  }
+  .vod ul li.row3 {
+      margin-left: 150px;
+      clear: both;
+  }
+  .vod ul li a.rogers {
+      width: 100px;
+      height: 35px;
+      background-position: 0px -300px;
+  }
+  .vod ul li a.cogeco {
+      width: 116px;
+      background-position: -200px -300px;
+  }
+  .vod ul li a.mts {
+      width: 51px;
+      background-position: -400px -300px;
+  }
+  .vod ul li a.sasktel {
+      width: 92px;
+      background-position: -500px -300px;
+  }
+  .vod ul li a.shaw {
+      width: 69px;
+      background-position: -600px -300px;
+  }
+  .vod ul li a.telus {
+      width: 116px;
+      background-position: -700px -300px;
+  }
+  .vod ul li a.videotron {
+      width: 157px;
+      background-position: -900px -300px;
+  }
+  .vod ul li a.eastlink {
+      width: 61px;
+      background-position: 0px -400px;
+  }
+  .vod ul li a.noclick {
+      cursor: default;
+  }
+  .vod ul li a.noclick:hover {
+      opacity: 0.5;
+  }    </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      var _gaq = _gaq || [];
+  
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+        ga('create', 'UA-19540423-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'alwaysshine-clip1');
+      ga('send', 'pageview');
+  
+      var Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_SENT_FREE_COPIES":"admin_sent_free_copies","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_SIGNUP_COMPLETE":"authentication","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_LOADEDDATA":"Video Content Loaded","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_FULLSCREEN":"Fullscreen Enabled/ Disabled","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD_TRIGGER":"addwatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE_TRIGGER":"removewatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List ","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_CURRENT_USER_ID":"current_user_id","PROPERTY_CURRENT_USER_EMAIL":"current_user_email","PROPERTY_CURRENT_SITE_ID":"current_site_id","PROPERTY_CURRENT_SITE_KEY":"current_site_key","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+        SITE_GANALYTICS_ENABLED: false
+      };
+  
+        Tracking.SITE_GANALYTICS_ENABLED = true;
+          ga('create', 'UA-60304104-16', 'auto', { 'name': 'site' });
+  
+        ga('site.require', 'displayfeatures');
+        ga('site.set', 'dimension1', 'alwaysshine-clip1');
+        ga('site.send', 'pageview');
+  
+        var _vhx = {
+          environment: 'production',
+          site: { id: '14886', domain: 'alwaysshine.oscilloscope.net', host: 'alwaysshine.vhx.tv' },
+          geo:  { country: 'us' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      var _current_user = {"id":null,"email":null,"name":null},
+          _current_site = {"id":14886,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"alwaysshine-clip1"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <header class="main-header">
+  
+  
+  <nav class="float-left page-nav">
+    <ul class="main-nav-list has-screenings">
+      <li><a href="#about" class="nav-item-1">About</a></li>
+      <li><a href="#gallery" class="nav-item-2">Gallery</a></li>
+      <li><a href="#screenings" class="nav-item-3">Screenings</a></li>
+      <li><a href="#press" class="nav-item-press">Press</a><li>
+      <li><a href="#contact" class="nav-item-3">Contact</a></li>  
+        
+    </ul>
+  </nav>
+	<a href="#" class="mobile-nav-link"></a>
+  
+
+  
+  
+    <div class="float-right buy-header hidden">
+      <div class="selected-package-container">
+        <a href="#" class="selected-package multiple-packages">Always Shine - A film by Sophia Takal | $3.99</a>
+      </div>
+      <div class="package-options-container">
+        <ul class="float-left buy-package-options">
+          <li class="package-option"><a href="/buy/always-shine-a-film-by-sophia-takal">Always Shine - A film by Sophia Takal | $3.99</a>
+            <div class="option-details"> 
+              <a href="/buy/always-shine-a-film-by-sophia-takal"><p>Two  friends,  both  actresses  (Halt  and  Catch  Fire’sMackenzie  Davis  and Masters  of  Sex’s  Caitlin FitzGerald), leave Los Angeles for Big Sur embarking on a weekend getaway to reconnect. Once alone, however,  the  two  women's  suppressed  jealousies  and  deep-seated  resentments  bubble  to  the  surface, causing  them  to  lose  grasp  not  just  of  the  truenature  of  their  relationship,  but  also oftheir  own identities.</p></a>
+            </div>
+          </li>
+          <li class="package-option"><a href="/buy/olympia-film-society-presents-always-shine">Olympia Film Society Presents: Always Shine | $3.99</a>
+            <div class="option-details"> 
+              <a href="/buy/olympia-film-society-presents-always-shine"><p>Two friends, both actresses (Halt and Catch Fire’s Mackenzie Davis and Masters of Sex’s Caitlin FitzGerald), leave Los Angeles for Big Sur embarking on a weekend getaway to reconnect. Once alone, however, the two women's suppressed jealousies and deep-seated resentments bubble to the surface, causing them to lose grasp not just of the true nature of their relationship, but also of their own identities.</p>
+
+<p><p><i>This film can be watched on your desktop, tablet, smartphone as well as on any devices outfitted with Chromecast or Airplay. There are no native apps for smart TVs, Roku, Amazon Fire Stick, or Apple TV.</i><p>   </p></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <a href="/buy/always-shine-a-film-by-sophia-takal" class="buy-now-link">Buy Now</a>
+    </div>
+
+</header>
+    <div class="clear"></div>
+  </section>
+
+
+  <section>
+    <div class="hero-image section-container " rel="hero">
+    	<a id="one"></a>
+      <div class="slides">
+        <div class="slide" style="background-image: url('https://dr56wvhu2c8zo.cloudfront.net/alwaysshine-clip1/assets/88e6734e-b6e3-46e2-9f2b-345e3502c0a4/AlwaysShine_TT_Laurel2.jpg');"></div>
+      </div>
+      
+      
+      <div class="hero-title-container">
+      	<div class="trailer-container">
+    	  	<div class="trailer" id="trailer" data-hd="1" data-trailer-url="https://www.youtube.com/watch?v=wp4blJoV9h4"></div>
+        </div>
+        <div class="trailer-overlay"></div>
+       
+        <div class="hero-titles">
+        <img src="https://dr56wvhu2c8zo.cloudfront.net/alwaysshine-clip1/assets/5c881f55-7f64-4e6d-8a5b-5a7905657306/AS_title.png" class="hero-title-image" />
+        
+        
+          <hr class="hero-rule" />
+        
+          <a href="#trailer" class="hero-trailer-link play-btn"><i class="icon-play-circle"></i> <span class="trailer-action">Watch</span> Trailer Now</a>
+           
+            <a href="/buy/always-shine-a-film-by-sophia-takal?purchase=1" class="hero-purchase-link play-btn">Buy $9.99</a>
+            <a href="/buy/always-shine-a-film-by-sophia-takal" class="hero-purchase-link play-btn">Rent $3.99</a>
+            				
+          
+          <a target="_blank" class="hero-purchase-link play-btn" href="https://store.oscilloscope.net/search?q=always+shine" data-track-event="buy_physical">Buy BLU-RAY</a>
+    
+        
+            <h4 class="hero-purchase-desc">IN THEATERS DECEMBER 2016</h4>
+    
+        
+       
+            <div class="laurels">
+    
+            </div>
+                
+        </div> <!-- hero-titles -->
+       </div> <!-- hero-title-container -->
+      <a href="#" class="advance-link"></a>
+    </div>
+    
+    <div class="elsewhere section-container" rel="elsewhere">
+    	<a id="buy"></a>
+      <div class="vendor-bounds">
+      	
+        <div class="vod">
+        
+            <ul class="internet">
+            	<!-- INTERNET -->
+              <li><a target="_blank" class="internet itunes" href="https://geo.itunes.apple.com/us/movie/always-shine/id1171277696?mt=6&amp;at=11ldC9">iTunes</a></li>
+              <li><a target="_blank" class="internet amazon" href="https://www.amazon.com/dp/B01N1NF40J/ref=sr_1_10?ie=UTF8&amp;qid=1480695084&amp;sr=8-10&amp;keywords=always+shine">Amazon</a></li>
+              <li><a target="_blank" class="internet vudu" href="http://www.vudu.com/movies/#!content/809057/Always-Shine">Vudu</a></li>
+              <li><a target="_blank" class="internet ps3" href="https://store.playstation.com/#!/en-us/movies/always-shine/cid=UV0127-NPVB29438_CN-0000000000333502?emcid=ps-vi-1132&amp;utm_medium=Paid_Search&amp;utm_campaign=Video&amp;utm_source=Google&amp;utm_term=ps-vi-1132&amp;utm_content=Brand">Playstation</a></li>          
+              <li><a target="_blank" class="internet googleplay" href="">Google Play</a></li>
+              <li><a target="_blank" class="internet xbox" href="https://www.microsoft.com/en-us/store/movies/always-shine/8d6kgx0qbwzk">XBOX</a></li>
+              
+              <li><a target="_blank" class="internet vimeo" href="https://vimeo.com/ondemand/alwaysshine">Vimeo</a></li>
+              
+              <!--
+             </ul>
+           <div class="clear"></div>
+           <ul class="tv">
+        			<!-- USA VOD -->
+               <li class="uspacer"><a class="usa indemand" href="#">InDemand</a></li>
+               <li><a class="usa timewarner" href="#">Time Warner Cable</a></li>
+               <li><a class="usa cablevision" href="#">Cablevision</a></li>
+               <li><a class="usa xfinity" href="#">XFinity</a></li>
+               <li><a class="usa verizon" href="#">Verizon</a></li>
+    
+          <div class="clear"></div>
+          
+        </div> <!-- .vod -->
+      </div>
+    </div>
+    
+    <section class="waypoint about section-container" id="about" data-default="about section-container">
+        <h2 class="section-title">About</h2>
+        <div class="about-bounds">
+          
+          <div class="subnav">
+            <ul>
+              <li><a href="/#about/synopsis" class="selected" rel="synopsis">Synopsis</a></li>
+    					<li><a href="/#about/cast" rel="cast">The Cast</a></li>
+              <li><a href="/#about/the-filmmakers"  rel="the-filmmakers">The Filmmakers</a></li>
+            </ul>
+          </div> <!-- /subnav -->
+          
+          
+          <div class="about-content subpage-content">
+    
+    				<!-- INTERNAL PAGE -->
+            <div class="page synopsis selected">
+              <div class="copy">
+    <p>Two friends, both actresses (Halt and Catch Fire’s Mackenzie Davis and Masters of Sex’s Caitlin FitzGerald), leave Los Angeles for Big Sur embarking on a weekend getaway to reconnect. Once alone, however, the two women's suppressed jealousies and deep-seated resentments bubble to the surface, causing them to lose grasp not just of the true nature of their relationship, but also of their own identities.</p>
+    </div>
+            </div>
+            
+            
+            <!--- INTERNAL PAGE -->
+            <div class="page cast">
+              <div class="copy">
+               
+               
+              	<h3 class="inner-title">Mackenzie Davis - Anna</h3>
+    <p>Mackenzie currently stars in the critically-acclaimed AMC series “Halt & Catch Fire” opposite Lee Pace, Scoot McNairy and Kerry Bishe. Mackenzie also appeared in Ridley Scott’s THE MARTIAN, Drake Doremus’ BREATHE IN opposite Guy Pearce, Amy Ryan and Felicity Jones; WHAT IF opposite Adam Driver and THAT AWKWARD MOMENT opposite Miles Teller. Mackenzie was born and raised in Vancouver, BC and attended McGill University in Montreal.</p>
+    <div class="hr"></div>
+                
+                <h3 class="inner-title">Caitlin FitzGerald - Beth</h3>
+    <p>Caitlin currently appears on the Showtime series MASTERS OF SEX, opposite Michael Sheen and Lizzy Caplan. She just filmed two back to back films: Giancarlo Espositos’ film THIS IS YOUR DEATH opposite, Esposito and Famke Janssen and Chris Sparling's MERCY, opposite James Wolk for Netflix. She will next star opposite Mackenzie Davis in the independent film ALWAYS SHINE, directed by Sophia Takal. Caitlin was last seen in Ross Katz's indie comedy ADULT BEGINNERS opposite Nick Kroll, Rose Byrne and Bobby Cannavale for producer Mark Duplass.</p>
+    <p>Caitlin broke out in Universal's IT'S COMPLICATED opposite Meryl Streep & Alec Baldwin. She also appeared in Whit Stillman's DAMSELS IN DISTRESS for Sony Pictures Classics and Ang Lee's TAKING WOODSTOCK for Focus Features.</p>
+    <div class="hr"></div>
+     
+              </div>
+            </div>
+    				<!--- INTERNAL PAGE -->
+            <div class="page the-cast">
+    	        <div class="copy">
+                <h3 class="inner-title">Jan Bijvoet - Theo</h3>
+    						<p>Jan Bijvoet was born in Antwerp in 1966. He has been one of the artistic directors and actors of the Antarctica Theater since 2005. He has also performed in film and television, guest-starring in a number of series. He has starred in the films AD FUNDUM, THE BROKEN CIRCLE BREAKDOWN (Academy® Award nominee), and BORGMAN (Official Selection – Competition, Cannes 2013). In 2007, he was nominated for the Flemish Culture Award of Scenic Arts. Referring to the German explorer who was the inspiration for his character, he reflects that even though Grünberg tried to integrate with the native people, he could not let go of his white spirit. “He had the western way of thinking, and he wanted to carry hundreds of things to study. Love is possession, too. He is also afraid of death. He doesn’t understand why, but it’s because deep down, he is a materialist since his formation, even though he tries to drift away from it.”</p>
+    						<div class="hr"></div>
+                
+                 <h3 class="inner-title">Brionne Davis - Evan</h3>
+    						<p>Brionne Davis was born in Texas and started acting at a very early age, playing Tom Sawyer. He has starred and taken leading roles in more than 30 independent feature length and short films and television series, including REST STOP: DON’T LOOK BACK (2008), DOROTHY AND THE WITCHES OF OZ (2012), Pandemic (2007), NARCISSIST (2014), SAVAGED (2013), and HOLIDAYS WITH HEATHER (2006). In New York, Brionne starred in the Theatre Row adaptation of Sam Shepard’s “True West.” He has appeared in many theater productions all across the country, including “Wallenburg” at the Soho Playhouse, “A Noble Exile” in Los Angeles and “Nueva York,” a one-man show that he wrote
+    ￼							and produced, inspired by the writings of Tennessee Williams. Davis’ character “Evan” in EMBRACE OF THE SERPENT was inspired by the great botanist and explorer Richard Evans Schultes, and he feels close to him in his love of and search for plants and nature.</p>
+    						<div class="hr"></div>
+                
+                  <h3 class="inner-title">Antonio Bolívar Savador - Old Karamakate</h3>
+    						<p>Antonio Bolívar Salvador is one of the last survivors of the Ocaina people. He resides near Leticia and has had some previous experiences in filmmaking, but he prefers not to speak about them because he feels that they were disrespectful to his culture. Besides playing one of the main characters, he also served as interpreter for the Tikuna, Cubeo, Huitoto languages and even English, as he became the teacher of the international actors. He represents the best of the Amazonian people: willing to trust foreigners, to transmit their knowledge and thankful to be treated respectfully. That’s the most important aspect of the film to him: “It is a film that shows the Amazon, the lungs of the world, the greater purifying filter and the most valuable of indigenous cultures. That is its greatest achievement.”</p>
+    						<div class="hr"></div>
+                
+                <h3 class="inner-title">Nilbio Torres - Young Karamakate</h3>
+    						<p>Nilbio Torres has never set foot in a gym; his amazing physique has been sculpted by the hardships of the jungle and the hard work he’s done since he was little. The 30- year-old has only worked in agriculture and this is his first experience with the cinema. He has a hard time expressing himself in Spanish, as he speaks mostly Cubeo. But he manages to find words to tell what this experience has meant to him. He feels the film is faithful to the story of his ancestors. “What Ciro is doing with this film is an homage to the memory of our elders, in the time before: the way the white men treated the natives, the rubber exploitation. I’ve asked the elders how it was and it is as seen in the film, that’s why we decided to support it. For the elders and myself it is a memory of the ancestors and their knowledge.”</p>
+    						<div class="hr"></div>
+                
+                 <h3 class="inner-title">Yauenkü Miguee - Manduca</h3>
+    						<p>Yauenkü Miguee was born and raised in Nazareth, a Tikuna community of the Amazon, 26 years ago. He is now a student of physical education in Bogotá and is about to achieve his greatest goal: to become a professional. He defines his participation in the film as a new experience in his life, this time from the field of art and corporal expression, which reinforced his thinking and showed him how to see life from different perspectives. He believes this film should be shared not only with the people of the locations, but all across the country, with all the indigenous peoples in Leticia and the Amazon, with the leaders, in schools and universities. He is the voice of many Manducas, a voice that, far away from the so-called civilization, cries out for a more civilized attitude towards Colombia’s indigenous communities.</p>
+    						<div class="hr"></div>
+                
+                </div>
+            </div>
+            
+            
+            <!--- INTERNAL PAGE -->
+            <div class="page the-filmmakers">
+    	        <div class="copy">
+                <h3 class="inner-title">Sophia Takal - Director</h3>
+    <p>Sophia Takal wrote, directed and starred in the critically-acclaimed feature film GREEN (SXSW ‘11), which won the SXSW Emerging Female Director award, was nominated for a Gotham Award and is distributed by Factory 25.</p>
+    <p>Sophia produced and starred in Lawrence Michael Levine’s, WILD CANARIES (SXSW ‘14), opposite Alia Shawkat, Jason Ritter and Kevin Corrigan. WILD CANARIES is distributed by IFC Films. She also produced, edited and starred in Levine’s GABI ON THE ROOF IN JULY opposite Kate Lyn Sheil, Amy Seimetz and Lena Dunham.</p>
+    <p>Other acting credits include Ti West’s V/H/S; Joe Swanberg’s ALL THE LIGHT IN THE SKY; Michael Bilandic’s HELLAWARE; Dan Schechter’s SUPPORTING CHARACTERS and John Slattery’s GOD'S POCKET.</p>
+    <p>Takal attended Vassar College and graduated with a BA in Film Studies from Barnard College.</p>
+    <div class="hr"></div>
+                
+    						<h3 class="inner-title">Lawrence Michael Levine - Writer / Producer</h3>
+    <p>Lawrence's past films include WILD CANARIES (SXSW '14) distributed by IFC Films, GABI ON THE ROOF IN JULY and TERRITORY. He produced and starred in Sophia Takal’s GREEN (SXSW '11) and produced Jay DiPietro's PETER & VANDY (Sundance '09). Levine also acted in V/H/S/2, Joe Swanberg's THE ZONE and Onur Tukel's RICHARD'S WEDDING.</p>
+    <div class="hr"></div>
+    
+    <h3 class="inner-title">Mark Schwartzbard - Cinematographer</h3>
+    <p>Mark Schwartzbard studied film at Ithaca College, then moved to New York and spent a decade working as a camera assistant on films including Woody Allen’s HOLLYWOOD ENDING, and Martin Scorsese’s THE DEPARTED, as well as LITTLE CHILDREN, RENT, HITCH, POLLOCK, and, the most fun of all, BORAT, which led to work as a camera operator on director Larry Charles’ next few projects, including RELIGULOUS and BRÜNO.</p>
+    <p>As DP, Mark has shot fourteen narrative feature films including Sophia Takal's ALWAYS SHINE, Demetri Martin's DEAN, Lawrence Michael Levine’s WILD CANARIES and Rick Alverson’s THE COMEDY. He recently shot Aziz Ansari's Netflix series "Master of None," and the Showtime series “La La Land.”</p>
+    <div class="hr"></div>
+    
+    <h3 class="inner-title">Zach Clark - Editor</h3>
+    <p>Zach Clark is the writer, director, and editor of MODERN LOVE IS AUTOMATIC, VACATION!, WHITE REINDEER, and LITTLE SISTER. Additional credits as editor includes Kris Swanberg's UNEXPECTED and Caroline Golum's A FEAST OF MAN. His work has screened across the world at festivals including Sundance, SXSW, BAMcinemaFest, Outfest, Edinburgh, and Stockholm. He currently lives in Brooklyn, NY.</p>
+    <div class="hr"></div>
+    
+              </div>
+            </div> <!-- /the-filmmakers -->
+            
+            
+          </div> <!-- /about-content -->
+    
+        </div>
+    </section>
+    
+    
+    
+    <section class="gallery waypoint section-container" rel="gallery" id="gallery" data-gallery>
+      <h2 class="section-title">Gallery</h2>
+      <div class="gallery-bounds">
+        <ul class="gallery-images">
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/alwaysshine-clip1/assets/cc944a58-8b6f-4ab9-b42c-e7f6bc997d39/SITE_3.jpg" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/alwaysshine-clip1/assets/71e805c9-435b-41fc-b13f-cdb183c9234a/SITE_4.jpg" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/alwaysshine-clip1/assets/adfe84e5-b42c-460b-8c0f-1381eab36009/SITE_5.jpg" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/alwaysshine-clip1/assets/5e425f11-6723-4a59-9502-649e7cb60ace/SITE_8.jpg" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/alwaysshine-clip1/assets/843224d2-6486-45a8-8a51-0a552ab484ff/Always+Shine+No+Grain+1.78_4.5.1.jpg" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/alwaysshine-clip1/assets/b8eaaec8-1fa7-4fd5-9134-6e1595a302c3/ALWAYSSHINE_MARKSCHWARTZBARD_5.jpg" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/alwaysshine-clip1/assets/f2345d35-2e54-463b-a563-30d812bcb118/SITE_6.jpg" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/alwaysshine-clip1/assets/a2f85ea4-9b29-4e74-8acd-c936db85ab80/SITE_9.jpg" />
+              	</a>
+            	</div>
+          	</li>
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    
+    <section class="screenings waypoint section-container" id="screenings" rel="screenings">
+    	
+      <div class="screenings-bounds">
+    
+    		<div class="currently">
+        	<div class="padding">
+            <h2 class="section-title">Screenings</h2>
+            
+            <div id="nowplaying" class="contained theatrical-container">
+              <div class="row theatrical" data-theatrical-url="http://www.oscilloscope.net/api/index.php?id=147">
+                <div class="col" >No Screenings at this time...</div>
+              </div> <!-- row -->
+            </div> <!-- #nowplaying -->
+            
+          </div> <!-- .padding -->
+        </div> <!-- .currently -->
+        
+        
+        <div class="clear"></div>
+      </div> <!-- screenings-bounds -->
+    </section> <!-- seciton-container -->
+    
+    
+    <section class="press waypoint section-container" id="press" rel="press">
+    	
+      <div class="press-bounds">
+      	<div class="padding">
+        	
+          <h2 class="section-title">Press</h2>
+    	 		
+          <div class="container">
+          
+            <div class="col first">
+              <a href="https://www.dropbox.com/sh/htz1j91x5y8me3n/AACDAvb1ZjX4gSrWnF8Cqsf4a?dl=0" class="button"><i class="fa fa-arrow-down"></i> Download Press Kit</a>
+            </div> <!-- col first -->
+            
+              <div class="col second">
+              <ul>
+              <li>“A highbrow thriller with deep feminist undercurrents.”<span>John DeFore, THE HOLLYWOOD REPORTER</span></li>
+              <li>"An involving thriller about the relationship between performance and emotional reality, probing the chaotic possibilities when those two ingredients collide." <span>Eric Kohn, INDIEWIRE</span></li>
+              <li>"Takal’s movie succeeds from every angle: psychological thriller, classic two-hander, and a feminist exploration of women’s prescribed roles in Hollywood and beyond." <span>Kimber Myers, THE PLAYLIST</span></li>
+              <li>"A dazzlingly confident film, spinning like a wind-up toy, yet slicing with insight on each go-round." <span>Jason Bailey, FLAVORWIRE</span></li>
+              <li>“Richly subversive, deliciously wicked, dangerously sexy, and uniquely thrilling.”<span>Kristy Puchko, PAJIBA</span></li>
+              <li>“A potent statement on gender and femininity, disguised as an avant-garde thriller.”<span>Alex Garofalo, INTERNATIONAL BUSINESS TIMES</span></li>
+              <li>“ALWAYS SHINE is remarkably edited (by White Reindeer director Zach Clark), performed with firehouse ping-pong precision by Davis and FitzGerald and amounts to a searing second feature from Takal.”<span>Brian Formo, COLLIDER</span></li>
+              <li>“Director Sophia Takal employs top grade trapeze artistry in her transition from straightforward thriller to pseudo-surreal head-and-heart trip. The next great entry in a number of cinematic conversations. A horror movie worth getting spooked over, a feminist dialogue deserving all ears, and—simply enough—a damn inventive and entertaining flick in its own right.”<span>Michael Arbeiter, NERDIST</span></li>
+    
+              </ul>
+            </div> <!-- col second -->
+       
+    
+          </div> <!-- .container -->
+          
+          <div class="clear"></div>
+         </div> <!-- .padding -->
+      </div> <!-- /press-bounds -->
+    </section> <!-- section-container -->
+    
+    <section class="contact waypoint section-container" id="contact" rel="contact">
+      <div class="contact-bounds">
+      	<div class="padding">
+          <h2 class="section-title">Contact</h2>
+          
+          <div class="col">
+            <strong>For press inquiries, please contact:</strong><br>
+            Sydney Tanigawa<br>
+            212-219-4029 ext. 41<br>
+            Sydney@Oscilloscope.net
+          </div> <!-- .col -->
+          
+          <div class="col">
+            <strong>For booking inquiries, please contact:</strong><br>
+            Andrew Carlin<br>
+            Oscilloscope Laboratories<br>
+            630-445-1215<br>
+            andrew@oscilloscope.net
+          </div> <!-- .col -->
+          
+          <div class="col">
+            <strong>For all other inquiries, please contact:</strong><br>
+            info@oscilloscope.net
+          </div> <!-- .col -->
+          
+          <div class="clear"></div>
+         </div> <!-- .padding -->
+      </div> <!-- /press-bounds -->
+      <div class="clear"></div>
+    </section>
+    
+    
+    
+    
+    
+    <section class="social waypoint section-container" rel="social" data-twitter-handle="" data-twitter-timeline="mentions">
+    	<a id="four"></a>
+    </section>    <div class="clear"></div>
+  </section>
+
+  <section>
+    <footer class="cf">
+
+  <div class="footer-left-column footer-column cf">
+  	<div class="footer-social-buttons cf">
+     
+    </div>
+  	<p class="legal-copy">COPYRIGHT ©2015, Always Shine</p>
+  </div>
+  
+  <div class="footer-right-column footer-column cf">
+  
+		<ul class="footer-boilerplate-list">
+			<li><a href="/tos">Terms of Service</a></li>
+			<li><a href="/privacy">Privacy Policy</a></li>
+			<li><a href="/faq">FAQ</a></li>
+			<li><a href="http://vhx.tv" class="powered-by-vhx-link"><img src="https://dr56wvhu2c8zo.cloudfront.net/sbone/assets/c9c5b31e-a36e-4762-ad5a-afeb2d4810b2/power-by-vhx-transparent.png"></a></li>
+		</ul>      
+
+	</div>
+  
+  <div class="footerfooter">
+  	<div class="padding">
+			<a href="http://www.oscilloscope.net/" class="logo"><img src="https://dr56wvhu2c8zo.cloudfront.net/coherence/assets/510b218d-8f61-46d8-9abe-b0b06ae8f000/Oscope-Logo-new.png"></a>
+    </div>
+  </div>
+  
+</footer>
+<div class="blanket"></div>
+<div class="modal" >
+	<div class="stickytrailer" id="stickytrailer" data-trailer-url="https://www.youtube.com/embed/wp4blJoV9h4"></div>
+  <div class="close">
+  	<a href="#">&times; Close Trailer</a>
+    <a href="/buy">Buy $3.99</a>
+  </div>
+</div>
+    <div class="clear"></div>
+  </section>
+
+  <script>
+    var _site = {
+      color:        '#b21d02',
+      key:          'alwaysshine-clip1',
+      facebook_url: '',
+      twitter_name: ''
+    };
+  
+    var _config = {
+      country_code: 'us'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+	<script>
+	  var _flash = {
+	    alert:  "",
+	    notice: ""
+	  };
+	
+	  
+	      $(document).ready(function() {
+	        
+	  // set splash image height to that of initial viewport
+	  var $window = $(window),
+	  		viewportHeight = $window.height(),
+	      viewportWidth = $window.width(),
+	  		headerHeight = $('.main-header').outerHeight(),
+	      $mainNavLinks = $('.main-nav-list li a'),
+	  		trailer = $('.trailer-container'),
+	    	overlay = $('.trailer-overlay');    
+	  
+	  if (viewportWidth > 480) {
+	  	$('.hero-image').height(viewportHeight - headerHeight);
+	  };
+	  if (viewportWidth < 820){
+	  	$('.main-header').css({'top': $('.main-header ul').height() * -1});
+	  };
+	  
+	  
+	  function resetMainNav() {
+	  	$mainNavLinks.removeClass('selected');	
+	  };
+	  
+	  // waypoints
+	    $.getScript('https://dr56wvhu2c8zo.cloudfront.net/sbone/assets/a9e37ffe-d06e-407a-81d6-be4656bd5563/waypoints.js', function() {
+	      var useWaypoints = true;
+	      // Header link smooth scrolling
+	      $('.main-nav-list').on('click', 'a', function(){
+	        var target = $(this).attr('href').replace("#","");
+	        // faux-state, so we don't activated waypoints when you click 
+	        // a link and the page scrolls down
+	        useWaypoints = false;
+	  
+	        resetMainNav();
+	  
+	        $(this).addClass('selected');
+	  
+	        $('body, html').stop().animate({
+	          scrollTop: $("#"+target).offset().top - headerHeight
+	        }, 1000, function() {
+	          useWaypoints = true;     
+	        });
+	  
+	        return false;
+	      });
+	  
+	      function updateNav(targ) {
+	        if (useWaypoints === true) {
+	          resetMainNav(); 
+	  
+	          $(".main-nav-list a[href^='#" +targ +"']").addClass('selected');
+	          useWaypoints = true;      
+	        }  
+	      };
+	      
+	      // more global waypoint
+	      $('section.waypoint').waypoint(function(){
+	      
+	      	updateNav($(this).attr("id"));
+	      }, { offset: headerHeight -10 });
+	  
+	      
+	    });
+	   // waypoints end
+	  
+	  
+	  
+	  // packages selector
+	  function closeSubmenus() {
+	    $('.option-details').stop().slideUp();
+	  };
+	  
+	  $('.selected-package-container').click(function() {
+	    closeSubmenus();
+	    $('.package-options-container').stop().slideToggle({
+	    	duration: 200,
+	      easing: 'easeOutQuart'
+	    });
+	  });
+	  
+	  $('.package-options-container').on('mouseenter', '.package-option', function() {
+	    closeSubmenus();
+	    $(this).children('.option-details').stop().slideDown({
+	    	duration: 200,
+	      easing: 'easeOutQuart'  
+	    });
+	  });
+	  
+	  // splash image advance arrow
+	  $('.advance-link').click(function() {
+	    $('body, html').stop().animate({
+	      scrollTop: $('.about').offset().top - headerHeight
+	    }, 1000);
+	    return false;
+	  });
+	  
+	  $('.gallery-image').click(function(){
+	  	return false;
+	  });
+	  
+	  // mobile nav link
+	  var smallMenuOpen = false;
+	  $('.mobile-nav-link').click(function() {
+	    if (smallMenuOpen === false) {
+	      $('.main-header').animate({
+	        'top': 0
+	      }, 200);
+	      $(this).addClass('open');
+	      smallMenuOpen = true;
+	    } else {
+	      $('.main-header').animate({
+	        'top': ($(".main-header").height() * -1) + 55
+	      }, 200);
+	      $(this).removeClass('open');
+	      smallMenuOpen = false;
+	    }
+	  });
+	  
+	   function toggleTrailer() {
+	      var	actionSpan = $('.trailer-action'),
+	          actionText = trailer.is(':visible') ? 'Watch' : 'Stop';
+	  
+	      overlay.toggle({
+	        duration: 200,
+	        easing: 'easeOutQuart'  
+	      }); 
+	  
+	      trailer.toggle({
+	        duration: 200,
+	        easing: 'easeOutQuart'  
+	      });      
+	  
+	      actionSpan.html(actionText);  
+	  		 if (actionText == 'Watch'){
+	    		$("#trailer").html("");
+	   	 }
+	    };
+	  
+	    $('.hero-title-container').on('click', '.hero-trailer-link', function() {
+	      toggleTrailer();
+	    });
+	  
+	    $('.trailer-overlay').click(function() {
+	      toggleTrailer();
+	    });
+	    $("#trailer").on("video:stop",function(){
+	      toggleTrailer();
+	    });
+	  
+	  
+	  var VHXJS = VHXJS || {};
+	  
+	  /* theme js object
+	  ---------------------------------------------*/
+	  VHXJS = {
+	  	// https://docs.google.com/spreadsheets/d/1_wK5TQsuIcg7Vn9rzD7y8sjwbD2RFGdwg2-K7KlONWs/pubhtml
+	    //google_sheet_id: "1_wK5TQsuIcg7Vn9rzD7y8sjwbD2RFGdwg2-K7KlONWs",
+	    //google_doc: "https://spreadsheets.google.com/feeds/list/DOCUMENT_KEY/od6/public/values?alt=json",
+	    //http://oscilloscope.net/theaters_app/json/index.php?id=123
+	  	video: false,
+	    slideshowTimeBetweenSlides: 5,
+	    slideshowTotalSlides: 0,
+	    slideshowCurrentSlide: 0,
+	    slideshowTimer: 0,
+	    
+	    /* initiate
+	    ---------------------------------------------*/
+	    init: function() {
+	     this._theaters.init();
+	     this.slideshow._init();
+	     this._setupSubnav();
+	     
+	     this._showModalVideo( $("#stickytrailer").data('trailer-url') );
+	     this._setupModalTriggers();
+	     this.cleanUpTweets();
+	    },
+	  	 slideshow: {
+	    	_init : function(){
+	      	$(".hero-image .slides .slide:eq(0)").addClass("is-active");
+	        VHXJS.slideshowTotalSlides = $(".hero-image .slides").children().length;
+	  
+	        if (VHXJS.slideshowTotalSlides > 1){
+	      		VHXJS.slideshow._startTimer();
+	    	  }
+	    	},
+	      _startTimer: function(){
+	      	VHXJS.slideshowTimer = setTimeout(function(){ VHXJS.slideshow._nextSlide(); }, VHXJS.slideshowTimeBetweenSlides * 1000);
+	      },
+	      _nextSlide: function(){
+	      	var currentSlide = $(".hero-image .slides .slide.is-active").index();
+	        var nextSlide = currentSlide + 1;
+	  
+	        if (nextSlide > VHXJS.slideshowTotalSlides -1){
+	        	nextSlide = 0;
+	       	}
+	        $(".hero-image .slides .slide:eq("+currentSlide+")").removeClass("is-active");
+	        $(".hero-image .slides .slide:eq("+nextSlide+")").addClass("is-active");
+	        VHXJS.slideshow._startTimer();
+	      }
+	    },
+	     _setupSubnav: function(){
+	      $(".subnav a").click(function(e){
+	        e.preventDefault();
+	        $(this).parents().find("a").removeClass("selected");
+	        $(this).addClass("selected");
+	  
+	        var targ = $(this).attr("rel");
+	        var $content = $(this).parents().siblings(".subpage-content");
+	        var defaultClasses = $content.parents('.section-container').data("default");
+	  
+	        $content.find(".page").hide().end()
+	          .find(".page."+targ).show().end()
+	          .parents('.section-container').removeClass().addClass(defaultClasses).addClass("sub-"+targ);
+	  
+	  
+	  
+	      });
+	     },
+	    _setupModalTriggers: function(){
+	    	$(".modaltrigger").click(function(ev){
+	      	ev.preventDefault();
+	        var targ = $(this).attr("href");
+	        VHXJS._showModalVideo(targ);
+	      });
+	    },
+	    _showModalVideo: function(urlToShow){
+	  	 	if ($(".blanket").length > -1){
+	  
+	        
+	      	/*var video_list = [];
+	        video_list.push({ url : urlToShow });
+	        
+	      	this.video = new Megaplaya();
+	        console.log(urlToShow);
+	        this.video.init({
+	          id: '#stickytrailer',
+	          color: 'ffa200',
+	          onFinish: VHXJS._hideTeaserModal,
+	          mobile_embed_code: '<iframe width="560" height="315" src="' + urlToShow + '" frameborder="0" allowfullscreen></iframe>',
+	          legacy_embed_code: '<iframe width="100%" height="100%" src="' + urlToShow  + '" frameborder="0" allowfullscreen></iframe>'
+	        });
+	  			this.video.api('playQueue', video_list);
+	        */
+	        var mobile_embed_code = '<iframe width="560" height="315" src="' + urlToShow + '?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+	        $("#stickytrailer").html(mobile_embed_code);
+	        $(".blanket, .modal").click(function(){
+	        	VHXJS._hideTeaserModal();
+	        });
+	        $("#stickytrailer, .blanket").show();
+	      }
+	     
+	    },
+	    _hideTeaserModal: function(){
+	    	$(".blanket").fadeOut();
+	      $(".modal").html("").hide();  
+	    },
+	     cleanUpTweets: function(){
+	     	$('.social-blocks li[rel|="CoherenceMovie"]').each(function(ind){
+	      	if ($(this).find("p:contains('@CoherenceMovie')").length > -1){
+	        	$(this).hide();
+	         // console.log($(this).find("p.social-copy").html());
+	        }
+	      });
+	     },
+	     _theaters: {
+	    		init: function(){
+	        	var endpoint = $("[data-theatrical-url]").data("theatrical-url");
+	        	if (endpoint != ""){
+	          	VHXJS._theaters.retrieve(endpoint);
+	          };
+	        },
+	        retrieve: function(endpoint) {
+	          var jqxhr = $.get(endpoint + "?callback=?", function(data) {
+	            VHXJS._theaters.process(data['screenings']);
+	          });
+	        },
+	        process: function(data){
+	        	// make sure we have something
+	          if (data.length > 0){
+	          	VHXJS._theaters.display(data);
+	          } else {
+	          	VHXJS._theaters.noShows();
+	          }
+	  
+	        },
+	        processDate: function(dateStr){
+	        	// format: 2/24/2014
+	          var monthsArray = Array("Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec");
+	          var adate = dateStr.split("/");
+	          var themonth = adate[0] - 1;
+	          var theday = adate[1];
+	          var theyear = adate[2];
+	          
+	          var prettyDisplay = monthsArray[themonth] + " " + theday  + ", " + theyear;
+	          return prettyDisplay;
+	        },
+	        display: function(data){      
+	          var thehtml = "";        
+	  
+	          for (var i = 0; i <= data.length - 1; i++){
+	           // http://oscilloscope.net/theaters_app/json/
+	           var thedate = data[i]['display_date'];
+	           var location = data[i]['city'] + ", " + data[i]['state'];
+	           var venue = data[i]['theater'].replace("\"","");
+	           if (venue == ""){ venue = "&nbsp;"; }
+	           var venuelink = data[i]['theater_url'];
+	           var venueoutput = venue;
+	           
+	           // Make Venue Linked if need be
+	           if (venuelink){ 
+	           	venueoutput = "<a href='"+venuelink+"'target='_blank'>"+venue+"</a> "; 
+	           }
+	  				
+	  					// CREATE THE ROW OF HTML
+	            thehtml += '<div class="row single-listing">';
+	            thehtml += '  <div class="small-16 medium-4 columns col date"><span>'+thedate+'</span></div>';
+	            thehtml += '  <div class="small-16 medium-5 columns col cityst"><span>'+location+'</span></div>';
+	            thehtml += '	<div class="small-16 medium-6 columns col venue"><span>'+venueoutput+'</span></div>';
+	            thehtml += '</div>';
+	          }
+	          //thehtml += "</div>";
+	         $(".theatrical-container").html(thehtml).find(".row:last-child").addClass("last");
+	        },
+	        noShows: function(){
+	           $(".row.theatrical").html("No screenings scheduled at this time");
+	        }
+	     }
+	  };
+	  (function(window,document,$,VHXJS) {
+	    VHXJS.init();
+	  })(window,document,jQuery,VHXJS);
+	    
+	      });
+	    	</script>
+	
+	<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+  
+  
+</body>
+</html>
+```
