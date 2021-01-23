@@ -1,0 +1,138 @@
+```<html>
+<head>
+<title>Anon Proxy Server</title>
+</head>
+	<link rel='stylesheet' href='anon_proxy_server.css' />
+	<body>
+
+<center>
+<img src='img/anon_proxy_server.jpg' />
+<p />
+<h2>
+<a href="anon_proxy_server/index.php">Demo</a> |
+<a href=doc.html>Documentation</a>
+| <a href="http://sourceforge.net/project/screenshots.php?group_id=138780">Screenshots</a>
+| <a href="https://sourceforge.net/project/showfiles.php?group_id=138780">Download</a>
+
+</h2>
+<p />
+A fast http, https, socks caching proxy server.  
+<br />
+Easy web based configuration, optional p2p anonymous mode.
+<p />
+If you don't want to install it,
+there's an online <a href=anon_proxy_server/index.php>demo</a>
+of the access configuration(not much else in the demo works) 
+<p />
+<table border=0 width=500>
+<tr><td class='etd'>
+<center>
+<p />
+
+
+<font color=000000>
+
+
+<p />
+<table class='pps_table'>
+<tr><th colspan=2>Features</th>
+<tr><td class='largef'>Easy Configuration</td><td>Web based, no editing text configuration files.
+</td></tr>
+<tr><td class='largef'>Memory</td><td>
+No big databases are kept in memory, no matter how large the cache is, memory usage will only increase when more users access it at the same time.
+</td></tr>
+<tr><td class='largef'>Speed</td><td>To see how much cpu the proxy uses, run <i>top</i> or <i>task manager</i>. 
+<p />
+Then open multiple windows and hit reload continously, on my computer I usually run out of bandwidth before it goes near 3-5% cpu usage.
+</td></tr>
+<tr><td class='largef'>Shared Cache</td><td>
+Can be used as a general cache for all users of a computer/network instead of one cache per profile.
+</td></tr>
+<tr><td class='largef'>Automatic config</td><td>Auto generates the .pac file for automatic proxy settings, no more updating in the <i>do not use proxy</i> section of individual users' browsers.</td>
+<tr><td class='largef'>Anonymous P2P proxy</td><td>
+Joining the anonymous proxy network will allow you to use other people's
+proxys for browsing and allow them to use yours.
+</td></tr>
+<tr><td class='largef'>SOCKS</td><td>
+Supports enough of SOCKS to run ftp, most Instant messengers, irc, limewire, etc.
+</td></tr>
+<tr><td class='largef'>User authentication</td><td>
+Supports external user authentication.
+</td>
+</table>
+<p />
+
+
+<p />
+<!--
+<table class='pps_table'>
+<tr><th>Why a proxy server?</th></tr>
+<tr><td>
+Even if you only have one computer, a proxy server could be of use to you,
+your web browser normally caches things for you but there is one cache
+per user.  By installing a proxy server you can access pages quicker if
+another user on the same computer has already visited the site, and it
+can save disk space too if you reduce the users' cache sizes.
+<p />
+But always keep some space in the users' cache, it's needed for caching
+https, private data after logins, etc.
+<p />
+Browsers don't cache everything,
+If you've ever downloaded a big file twice you'll notice that an average
+browser doesn't cache everything, a non-browser cache will usually cache these
+files. 
+(for some reason mozilla keeps on sending no-cache for some files, 
+but they're cached ok in IE)
+<p />
+</td></tr>
+</table>
+-->
+<p />
+
+
+<table class='pps_table'>
+<tr><th colspan=2>Other proxy servers</th></tr>
+<tr><td class='largef'><a target='_blank' href="http://www.squid-cache.org/">Squid cache</a></td><td>If you're after fancy features like peering, etc. but it takes up alot of memory.  Doesn't support socks.</td></tr>
+<tr><td class='largef'><a target='_blank' href="http://www.handcraftedsoftware.org/">Freeproxy</a></td><td>Free windows based proxy cache.</td>
+<tr><td colspan=2 class='td2'><font class='largef'><b>Utilities...</b></font><br /></td></tr>
+<tr><td colspan=2></td></tr>
+<tr><td class='largef'><a target='_blank' href="http://mozmonkey.com/">Proxy switcher</a></td><td>Mozilla/firefox automatic proxy switcher.
+</td></tr>
+
+<tr><td colspan=2 class='td2'><font class='largef'><b>Anonymising software... (not cache)</b></font><br /></td></tr>
+<tr><td colspan=2></td></tr>
+<tr><td class='largef'>
+<a target='_blank' href="http://tor.eff.org/">TOR</a> 
+</td><td>
+Funded by various US military depts.
+the <a target='_blank' href="http://tor.eff.org/cvs/doc/FAQ">FAQ</a> says...<br />
+<i>Is there a backdoor in Tor?<br />
+Not right now, but if this answer changes we probably won't be allowed to tell you.
+</i>
+<br />
+</td></tr>
+<tr><td class='largef'>
+<a target='_blank' href="http://anon.inf.tu-dresden.de/index_en.html">JAP</a>
+</td><td>
+This software formerly had a backdoor as requested by a <a target='_blank' href="http://www.theregister.co.uk/2003/08/21/net_anonymity_service_backdoored/">court order</a>)<br />
+</td>
+</tr>
+</table>
+<p />
+
+
+
+
+<tr><td class='largef'></td><td></td></tr>
+</table>
+<p />
+
+</td></table>
+<p />
+<A href="http://sourceforge.net"><IMG src="http://sourceforge.net/sflogo.php?group_id=138780&amp;type=5" width="210" height="62" border="0" alt="SourceForge.net Logo" /></A>
+</center>
+
+
+</body>
+</html>
+```
