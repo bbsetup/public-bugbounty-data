@@ -1,0 +1,217 @@
+```<!--
+  Copyright (C) 2008-2016 Andrea Di Pasquale <spikey.it@gmail.com>
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  1. Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in the
+     documentation and/or other materials provided with the distribution.
+
+  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+  OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+  IN NO EVENT SHALL THE AUTHOR OR HIS RELATIVES BE LIABLE FOR ANY DIRECT,
+  INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+  (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  SERVICES; LOSS OF MIND, USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+  HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+  STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+  IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+  THE POSSIBILITY OF SUCH DAMAGE.
+
+  $ArpON: index.html,v 3.0-ng 01/29/2016 06:03:10 spikey Exp $
+-->
+
+<!--
+    Design by Free CSS Templates (http://www.freecsstemplates.org).
+    Released for free under a Creative Commons Attribution 2.5 License.
+
+    Original design by:
+
+    Name        : Collaboration
+    Description : A two-column, fixed-width design suitable for small websites and blogs.
+    Version     : 1.0
+    Released    : 20080102
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ArpON :: ARP handler inspection</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="arpon, arp handler inspection, static arp inspection, dynamic arp inspection, hybrid arp inspection, arp spoofing, arp poisoning, arp cache poisoning, arp poison routing, man in the middle, mitm, arp secure, arp, arp cache, arp daemon, arp tool, arp utility" />
+    <meta name="description" content="ArpON 'ARP handler inspection' :: Documentation" />
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="menu">
+    <ul>
+        <li class="current_page_item"><a name="TOP"><font color="orange">ABOUT</font></a></li>
+        <li><a href="documentation.html"><font color="white">DOCUMENTATION</a></font></li>
+        <li><a href="https://sourceforge.net/projects/arpon/files/arpon/" target="_blank"><font color="white">DOWNLOAD</a></font></li>
+        <li><a href="http://sourceforge.net/p/arpon/code/ci/master/tree/" target="_blank"><font color="white">DEVELOPMENT</a></font></li>
+        <li><a href="http://sourceforge.net/p/arpon/bugs/" target="_blank"><font color="white">BUGS</a></font></li>
+    </ul>
+</div>
+<div id="logo">
+    <h2><font color="#737373">About</font></h2>
+</div>
+<div id="splash" align="center">
+    <img src="img/logo.jpg" />
+</div>
+<div id="logo2"></div>
+<hr />
+<div id="page">
+    <div id="content">
+        <div class="post">
+            <h2 class="title">Latest release</h2>
+            <div class="entry" align="justify">
+                <p>
+                <center>
+                <h1>01/29/2016 :: the current <i>stable</i> release is the <a href="https://sourceforge.net/projects/arpon/files/arpon/" target="_blank">3.0-ng</a></h1>
+                </center>
+                </p>
+            </div>
+            <p class="meta"><a href="#TOP" class="permalink">Top</a></p>
+        </div>
+
+        <div class="post">
+            <h2 class="title"><font color="#737373">Important notice</font></h2>
+            <div class="entry" align="justify">
+                <p>
+                Since ArpON 3.0-ng (next generation), ArpON has been <b>rewritten from scratch</b>, therefore all the old versions of ArpON (lower of 3.0-ng) are deprecated. Please <b>upgrade</b> all installations of ArpON and <b>read carefully</b> the <a href="documentation.html">documentation</a> and the <a href="documentation.html#11">man page</a> of ArpON.
+                </p>
+            </div>
+            <p class="meta"><a href="#TOP" class="permalink">Top</a></p>
+        </div>
+
+        <div class="post">
+            <h2 class="title"><font color="#737373">What is ArpON?</font></h2>
+            <div class="entry" align="justify">
+                <p>
+                <b>ArpON</b> (<b>ARP handler inspection</b>) is a Host-based solution that make the <a href="documentation.html#29">ARP standardized protocol</a> secure in order to avoid the Man In The Middle (MITM) attack through the ARP spoofing, ARP cache poisoning or ARP poison routing attack.
+                <br><br>
+                This is possible using three kinds of anti ARP spoofing techniques:
+                <br>
+
+                <ol>
+                <li>
+                <b><a href="documentation.html#14">SARPI</a></b> (<b><a href="documentation.html#14">Static ARP Inspection</a></b>) for the statically configured networks without DHCP;
+                </li>
+
+                <li>
+                <b><a href="documentation.html#14">DARPI</a></b> (<b><a href="documentation.html#14">Dynamic ARP Inspection</a></b>) for the dynamically configured networks with DHCP;
+                </li>
+
+                <li>
+                <b><a href="documentation.html#14">HARPI</a></b> (<b><a href="documentation.html#14">Hybrid ARP Inspection</a></b>) for the statically and dynamically configured networks with DHCP.
+                </li>
+                </ol>
+                The <b>goal</b> of ArpON is therefore to provide a secure and efficient <a href="documentation.html#12">network daemon</a> that provides the <a href="documentation.html#14">SARPI</a>, <a href="documentation.html#14">DARPI</a> and <a href="documentation.html#14">HARPI</a> anti ARP spoofing technique, thus making the ARP standardized protocol secure from any foreign intrusion.
+                </p>
+            </div>
+            <p class="meta"><a href="#TOP" class="permalink">Top</a></p>
+        </div>
+
+        <div class="post">
+            <h2 class="title"><font color="#737373">Features</font></a></h2>
+            <div class="entry" align="justify">
+                <p>
+                The features of ArpON are:
+                <br>
+
+                <ul>
+                <li>
+                <b>Free</b>. ArpON is released under the <a href="documentation.html#26">BSD open source license</a>. This means that you have total freedom to modify and use it with your system, even if it's commercial.
+                </li>
+                <br>
+
+                <li>
+                <b>Popular</b>. ArpON is used as the <a href="documentation.html#12">network daemon</a> by many users, both the network managers and academic researchers. ArpON is downloaded several hundred of times every month.
+                </li>
+                <br>
+
+                <li>
+                <b>Tested and reliable</b>. Many users have contributed over the years in testing ArpON on a wide range of Man In The Middle (MITM) attack tools through the ARP spoofing, ARP cache poisoning or ARP poison routing.
+                </li>
+                <br>
+
+                <li>
+                <b>Easy to use</b>. ArpON is distributed as a single <a href="documentation.html#6">tarball</a> that once compiled, runs on every <a href="documentation.html#4">supported Operating System</a>. You launch the <a href="documentation.html#16">executable</a>, and from that moment the Operating System is able to avoid the Man In The Middle (MITM) attack through the ARP spoofing, ARP cache poisoning or ARP poison routing.
+                </li>
+                <br>
+
+                <li>
+                <b>Multi-platform</b>. Many <a href="documentation.html#19">developers</a> have contributed over the years in porting ArpON on a wide range of GNU/Linux distributions.
+                </li>
+                <br>
+
+                <li>
+                <b>Compatible and portable</b>. ArpON is completely compatible with the <a href="documentation.html#29">ARP standardized protocol</a>. ArpON is an <a href="documentation.html#12">network daemon</a> that runs in user space, this also means that ArpON will be easily portable to other Operating Systems.
+                </li>
+                <br>
+
+                <li>
+                <b>Well documented</b>. The <a href="documentation.html#11">documentation</a> of ArpON is easy and complete. The documentation contains the <a href="documentation.html#6">retrieving tutorial</a>; the <a href="documentation.html#9">building tutorial</a>; the <a href="documentation.html#9">installation tutorial</a>; the <a href="documentation.html#11">user tutorial</a> with many <a href="documentation.html#16">examples</a> and <a href="documentation.html#17">scenarios</a>; the <a href="documentation.html#19">development tutorial</a> with the <a href="documentation.html#21">Activity diagrams</a> of the <a href="documentation.html#14">SARPI</a>, <a href="documentation.html#14">DARPI</a> and <a href="documentation.html#14">HARPI</a> anti ARP spoofing technique and with modular <a href="http://sourceforge.net/p/arpon/code/ci/master/tree/" target=â_blankâ>source code</a> well commented; the <a href="documentation.html#22">bug report tutorial</a> that takes you step-by-step through all of the features of ArpON.
+                </li>
+                </ul>
+                </p>
+            </div>
+            <p class="meta"><a href="#TOP" class="permalink">Top</a></p>
+        </div>
+
+        <div class="post">
+            <h2 class="title"><font color="#737373">Support the project</font></h2>
+            <div class="entry" align="justify">
+                <p>
+                We are always happy about <b>donations</b> in any form.
+                <br><br>
+
+                If you are a corporate user, vendor or private user, we would gladly accept any donations, either monetary or in goods (network hardware, etc). We assure you that any donation we receive is very much appreciated and used for further development of ArpON software.
+                <br><br>
+                If you are interested in making a donation, please contact the <a href="documentation.html#25">author</a>.
+                </p>
+            </div>
+            <p class="meta"><a href="#TOP" class="permalink">Top</a></p>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <p>
+    Copyright &copy; 2008-2016 Andrea Di Pasquale &lt;<a href="mailto:spikey.it@gmail.com">spikey.it@gmail.com</a>&gt;
+    <br>
+    Design based on a template by <a href="http://www.freecsstemplates.org/" target=â_blankâ>Free CSS Templates</a>
+    <br>
+
+    <center>
+    <a href="https://sourceforge.net/p/arpon/" rel="nofollow"><img alt="Download ArpON" src="https://sourceforge.net/sflogo.php?type=13&group_id=227281"></a>
+    </center>
+    </p>
+    <br>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5075772-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
+
+<!--
+    EOF
+
+    vim:ts=4:expandtab
+-->
+```
