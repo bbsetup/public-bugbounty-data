@@ -1,0 +1,930 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+
+  xmlns:fb="http://www.facebook.com/2008/fbml"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="Allods Online RSS" href="https://allods.my.games/en/news.rss" />
+<link rel="shortcut icon" href="https://allods.my.games/sites/allods.my.com/files/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>Allods Online</title>
+  <style type="text/css" media="all">
+@import url("https://allods.my.games/modules/system/system.base.css?qmxfe2");
+@import url("https://allods.my.games/modules/system/system.menus.css?qmxfe2");
+@import url("https://allods.my.games/modules/system/system.messages.css?qmxfe2");
+@import url("https://allods.my.games/modules/system/system.theme.css?qmxfe2");
+</style>
+<style type="text/css" media="screen">
+@import url("https://allods.my.games/sites/all/libraries/shadowbox/shadowbox.css?qmxfe2");
+</style>
+<style type="text/css" media="print">
+<!--/*--><![CDATA[/*><!--*/
+#sb-container{position:relative;}#sb-overlay{display:none;}#sb-wrapper{position:relative;top:0;left:0;}#sb-loading{display:none;}
+
+/*]]>*/-->
+</style>
+<style type="text/css" media="all">
+@import url("https://allods.my.games/modules/comment/comment.css?qmxfe2");
+@import url("https://allods.my.games/sites/all/modules/contrib/date/date_api/date.css?qmxfe2");
+@import url("https://allods.my.games/modules/field/theme/field.css?qmxfe2");
+@import url("https://allods.my.games/sites/all/modules/contrib/i18n_menu_overview/css/i18n_menu_overview.css?qmxfe2");
+@import url("https://allods.my.games/modules/node/node.css?qmxfe2");
+@import url("https://allods.my.games/modules/search/search.css?qmxfe2");
+@import url("https://allods.my.games/modules/user/user.css?qmxfe2");
+@import url("https://allods.my.games/sites/all/modules/contrib/video_filter/video_filter.css?qmxfe2");
+@import url("https://allods.my.games/sites/all/modules/contrib/youtube/css/youtube.css?qmxfe2");
+@import url("https://allods.my.games/sites/all/modules/contrib/views/css/views.css?qmxfe2");
+</style>
+<style type="text/css" media="all">
+@import url("https://allods.my.games/sites/all/modules/contrib/ctools/css/ctools.css?qmxfe2");
+@import url("https://allods.my.games/sites/all/modules/mc/mc_spoiler/scripts/spoiler.css?qmxfe2");
+@import url("https://allods.my.games/sites/all/modules/contrib/panels/css/panels.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/layouts/twocol_bar_stacked/twocol_bar_stacked.css?qmxfe2");
+@import url("https://allods.my.games/modules/locale/locale.css?qmxfe2");
+</style>
+<style type="text/css" media="all">
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/reset.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/clearfix.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/main.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/default_layout.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/buttons.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/error_page.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/_user.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/taxonomy_term.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/news.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/promos.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/subscription.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/migration.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/blockpage.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/rich_text.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/forms.css?qmxfe2");
+@import url("https://allods.my.games/sites/allods.my.games/themes/allods/css/fonts.css?qmxfe2");
+</style>
+<link type="text/css" rel="stylesheet" href="https://allods.my.games/sites/allods.my.games/themes/allods/css/main_en.css?qmxfe2" media="all" />
+
+<!--[if IE 7]>
+<link type="text/css" rel="stylesheet" href="https://allods.my.games/sites/allods.my.games/themes/allods/css/ie7.css?qmxfe2" media="all" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://allods.my.games/sites/allods.my.games/themes/allods/css/ie7_8.css?qmxfe2" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]>
+<link type="text/css" rel="stylesheet" href="https://allods.my.games/sites/allods.my.games/themes/allods/css/ie9.css?qmxfe2" media="all" />
+<![endif]-->
+
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" href="https://allods.my.games/sites/allods.my.games/themes/allods/css/ie.css?qmxfe2" media="all" />
+<![endif]-->
+  <script>var myAuthUser = false;
+  </script>
+  <script type="text/javascript" defer="defer" src="https://allods.my.games/sites/allods.my.games/files/google_tag/language/google_tag.en.script.js?qmxfe2"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://allods.my.games/misc/jquery-extend-3.4.0.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://allods.my.games/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://allods.my.games/misc/drupal.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/all/libraries/shadowbox/shadowbox.js?v=3.0.3"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/all/modules/contrib/shadowbox/shadowbox_auto.js?v=3.0.3"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/all/modules/mc/mc_cbt/js/mc_cbt.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/all/modules/mc/mc_dynamic/js/mc_dynamic.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/all/modules/mc/mc_dynamic/js/mc_dynamic_loader.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/all/modules/mc/mc_shadowbox/js/mc_shadowbox.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/all/modules/my/my_auth/js/my_auth.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/all/modules/mc/mc_spoiler/scripts/spoiler.js?qmxfe2"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+  window.__GEMS = window.__GMCS = JSON.parse('{"auth":1,"client_id":"allods.my.com","continue":"https:\/\/allods.my.games\/en\/node","lang":"en_US","no_menu":false,"signup_method":"email,phone","signup_birthday":0,"signup_subscribe":1,"signup_repeat":0,"signup_continue":"https:\/\/allods.my.games\/dynamic\/auth\/?authDestination=https%3A\/\/allods.my.games\/dynamic\/auth\/%3FforceRedirect%3Dhttps%253A\/\/allods.my.games\/dynamic\/user\/%253Fa%253Dprofile_page%2526x_force_lang%253Den%2526forceDestination%253Dhttps%25253A\/\/allods.my.games\/en\/node","signup_social":"mailru,vk,ok,fb,g,steam,twitch,tw","langs_available":["en_US","fr_FR","de_DE","tr_TR"],"set_lang_url":{"en_US":"\/en?multilink=switch","fr_FR":"\/fr?multilink=switch","de_DE":"\/de?multilink=switch","tr_TR":"\/tr?multilink=switch"},"signup_captcha":"recaptcha","gc_download_heading":"My.Com Game Center installation"}');
+  if(typeof myAuthUser != 'undefined' && myAuthUser){
+  window.__GEMS.current_mc_user = myAuthUser
+  }
+  if (typeof window.accountShowLogin === 'undefined') { window.accountShowLogin = function() { __GEM.showLogin(); } }
+  if (typeof window.accountShowSignup === 'undefined') { window.accountShowSignup = function() { __GEM.showSignup(); } }
+  __GEMS.whenLoaded = function () { window.__GMC = window.__GEM; };
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function () {var partnerScript = document.createElement('script');partnerScript.type = 'text/javascript';partnerScript.async = true;partnerScript.src = 'https://allods.my.games/1l/v1/hit/100199.js?r=' + encodeURIComponent(document.referrer) + '&rnd=' + Math.random() + '&u=' + encodeURIComponent(0);var firstScript = document.getElementsByTagName('script')[0];firstScript.parentNode.insertBefore(partnerScript, firstScript);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/modules/my_compendium_allods/js/my_compendium_allods.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/modules/my_panels_allods/js/my_panels_allods.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/all/modules/mc/mc_menu/scripts/mc_menu_helper.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/themes/allods/js/modernizr.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/themes/allods/js/jquery.mousewheel.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/themes/allods/js/jquery.jcarousel-core.min.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/themes/allods/js/my.com-client.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/themes/allods/js/slider.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/themes/allods/js/query-parameters.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/themes/allods/js/behaviors/rotator.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/themes/allods/js/my.scrolling.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/themes/allods/js/my.gototop.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/themes/allods/js/main.js?qmxfe2"></script>
+<script type="text/javascript" src="https://allods.my.games/sites/allods.my.games/themes/allods/js/my_billing_currency.js?qmxfe2"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+          Shadowbox.path = "/sites/all/libraries/shadowbox/";
+        
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"allods","theme_token":"HIti-EvYXs5FXQ1eqRpHe572E7vbokZ1rK1pZnZsBdQ","js":{"public:\/\/google_tag\/language\/google_tag.en.script.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.8.3\/jquery.min.js":1,"0":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/shadowbox\/shadowbox.js":1,"sites\/all\/modules\/contrib\/shadowbox\/shadowbox_auto.js":1,"sites\/all\/modules\/mc\/mc_cbt\/js\/mc_cbt.js":1,"sites\/all\/modules\/mc\/mc_dynamic\/js\/mc_dynamic.js":1,"sites\/all\/modules\/mc\/mc_dynamic\/js\/mc_dynamic_loader.js":1,"sites\/all\/modules\/mc\/mc_shadowbox\/js\/mc_shadowbox.js":1,"sites\/all\/modules\/my\/my_auth\/js\/my_auth.js":1,"sites\/all\/modules\/mc\/mc_spoiler\/scripts\/spoiler.js":1,"1":1,"2":1,"sites\/allods.my.games\/modules\/my_compendium_allods\/js\/my_compendium_allods.js":1,"sites\/allods.my.games\/modules\/my_panels_allods\/js\/my_panels_allods.js":1,"sites\/all\/modules\/mc\/mc_menu\/scripts\/mc_menu_helper.js":1,"sites\/allods.my.games\/themes\/allods\/js\/modernizr.js":1,"sites\/allods.my.games\/themes\/allods\/js\/jquery.mousewheel.js":1,"sites\/allods.my.games\/themes\/allods\/js\/jquery.jcarousel-core.min.js":1,"sites\/allods.my.games\/themes\/allods\/js\/my.com-client.js":1,"sites\/allods.my.games\/themes\/allods\/js\/slider.js":1,"sites\/allods.my.games\/themes\/allods\/js\/query-parameters.js":1,"sites\/allods.my.games\/themes\/allods\/js\/behaviors\/rotator.js":1,"sites\/allods.my.games\/themes\/allods\/js\/my.scrolling.js":1,"sites\/allods.my.games\/themes\/allods\/js\/my.gototop.js":1,"sites\/allods.my.games\/themes\/allods\/js\/main.js":1,"sites\/allods.my.games\/themes\/allods\/js\/my_billing_currency.js":1,"3":1,"4":1,"5":1,"6":1,"7":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/shadowbox\/shadowbox.css":1,"0":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/i18n_menu_overview\/css\/i18n_menu_overview.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/video_filter\/video_filter.css":1,"sites\/all\/modules\/contrib\/youtube\/css\/youtube.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/mc\/mc_spoiler\/scripts\/spoiler.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/allods.my.games\/themes\/allods\/layouts\/twocol_bar_stacked\/twocol_bar_stacked.css":1,"modules\/locale\/locale.css":1,"sites\/allods.my.games\/themes\/allods\/css\/reset.css":1,"sites\/allods.my.games\/themes\/allods\/css\/clearfix.css":1,"sites\/allods.my.games\/themes\/allods\/css\/main.css":1,"sites\/allods.my.games\/themes\/allods\/css\/default_layout.css":1,"sites\/allods.my.games\/themes\/allods\/css\/buttons.css":1,"sites\/allods.my.games\/themes\/allods\/css\/error_page.css":1,"sites\/allods.my.games\/themes\/allods\/css\/_user.css":1,"sites\/allods.my.games\/themes\/allods\/css\/taxonomy_term.css":1,"sites\/allods.my.games\/themes\/allods\/css\/news.css":1,"sites\/allods.my.games\/themes\/allods\/css\/promos.css":1,"sites\/allods.my.games\/themes\/allods\/css\/subscription.css":1,"sites\/allods.my.games\/themes\/allods\/css\/migration.css":1,"sites\/allods.my.games\/themes\/allods\/css\/blockpage.css":1,"sites\/allods.my.games\/themes\/allods\/css\/rich_text.css":1,"sites\/allods.my.games\/themes\/allods\/css\/forms.css":1,"sites\/allods.my.games\/themes\/allods\/css\/fonts.css":1,"sites\/allods.my.games\/themes\/allods\/css\/main_en.css":1,"sites\/allods.my.games\/themes\/allods\/css\/ie7.css":1,"sites\/allods.my.games\/themes\/allods\/css\/ie7_8.css":1,"sites\/allods.my.games\/themes\/allods\/css\/ie9.css":1,"sites\/allods.my.games\/themes\/allods\/css\/ie.css":1}},"heartbeat_language":"en","heartbeat_poll_url":"https:\/\/allods.my.games\/en\/heartbeat\/js\/poll","shadowbox":{"animate":true,"animateFade":true,"animSequence":"wh","auto_enable_all_images":true,"auto_gallery":true,"autoplayMovies":true,"continuous":true,"counterLimit":10,"counterType":"default","displayCounter":true,"displayNav":true,"enableKeys":true,"fadeDuration":0.35,"handleOversize":"resize","handleUnsupported":"link","initialHeight":160,"initialWidth":320,"language":"en","modal":false,"overlayColor":"#000","overlayOpacity":0.8,"resizeDuration":0.55,"showMovieControls":true,"slideshowDelay":0,"viewportPadding":20,"useSizzle":false},"promo_expire":[],"better_exposed_filters":{"views":{"news_list":{"displays":{"panel_pane_1000":{"filters":[]},"panel_pane_5":{"filters":[]},"panel_pane_6":{"filters":[]},"panel_pane_4":{"filters":[]},"panel_pane_7":{"filters":[]},"panel_pane_8":{"filters":[]}}},"media_listing_front":{"displays":{"panel_pane_2":{"filters":[]},"panel_pane_1":{"filters":[]},"panel_pane_3":{"filters":[]}}}}}});
+//--><!]]>
+</script>
+  <meta name="viewport" content="width=1200" />
+<script src="https://store.my.games/hotbox/gem_static/leela/header.js?r=1611368868" charset="utf-8"></script>
+</head>
+<body class="html front not-logged-in no-sidebars page-node summer default_layout i18n-en my-games" >
+    <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>  <div class="panel-2col-bar-stacked clearfix panel-display" id="default_layout">
+
+      <div class="panel-col-headline panel-panel">
+      <div>
+        <div class="panel-pane pane-block pane-locale-language locale-language" >
+              <div class="pane-content">
+        <div class="pane-content-container"><ul class="language-switcher-locale-url"><li class="en first active"><a href="/en?multilink=switch" class="language-link active" xml:lang="en">English</a></li>
+<li class="fr"><a href="/fr?multilink=switch" class="language-link" xml:lang="fr">Français</a></li>
+<li class="de"><a href="/de?multilink=switch" class="language-link" xml:lang="de">Deutsch</a></li>
+<li class="tr last"><a href="/tr?multilink=switch" class="language-link" xml:lang="tr">Türkçe</a></li>
+</ul></div>
+      </div>
+      </div>
+      </div>
+    </div>
+  
+      <div class="panel-col-header panel-panel">
+      <div class="panel-pane pane-custom pane-1 header-logo" >
+              <div class="pane-content">
+        <div class="pane-content-container"><p><a class="logo-overlay" href="/en"></a></p>
+</div>
+      </div>
+      </div>
+<div class="panel-separator"></div><div class="panel-pane pane-my-compendium-allods-bar compendium-allods-bar" >
+              <div class="pane-content">
+        <div class="pane-content-container"><div class="compendium-counter">
+	<div class="compendium-counter__value js-fund-value"></div>
+	<div class="compendium-counter__title">prize fund</div>
+	<a href="/en/compendium" class="compendium-counter__link"></a>
+</div>
+</div>
+      </div>
+      </div>
+<div class="panel-separator"></div><div class="panel-pane pane-mc-allods-header-buttons allods-header-buttons" >
+              <div class="pane-content">
+        <div class="pane-content-container">
+  <div class="allods-header-buttons-item about">
+    <span></span>
+    <div class="button-caption normal-caption"></div>
+    <div class="button-caption hover-caption"></div>
+    <a href="/en/game">About Game</a>  </div>
+  <div class="allods-header-buttons-item download">
+    <span></span>
+    <div class="button-caption normal-caption"></div>
+    <div class="button-caption hover-caption"></div>
+    <a href="/en/download">Download</a>  </div>
+  <div class="allods-header-buttons-item billing">
+    <span></span>
+    <div class="button-caption normal-caption"></div>
+    <div class="button-caption hover-caption"></div>
+    <a href="/en/billing">Top-up account</a>  </div>
+  <div class="allods-header-buttons-item subscription">
+    <span></span>
+    <div class="button-caption normal-caption"></div>
+    <div class="button-caption hover-caption"></div>
+    <a href="/en/subscription">Buy subscription</a>  </div>
+  <div class="allods-header-buttons-item register">
+    <span></span>
+    <div class="button-caption normal-caption"></div>
+    <div class="button-caption hover-caption"></div>
+    <a href="/en" onclick="accountShowLogin(); return false;" id="signin-button-user-block">Sign Up</a>  </div>
+</div>
+      </div>
+      </div>
+<div class="panel-separator"></div><div class="panel-pane pane-mc-main-menu main-menu" >
+              <div class="pane-content">
+        <div class="pane-content-container"><div id="mc_main_menu" class="main_menu"><ul class="menu main"><li class="leaf" id="menu-news" rel="submenu-news"><a href="/en/news">News</a></li><li class="leaf" id="menu-game" rel="submenu-game"><a href="/en/game">Game</a></li><li class="leaf" id="menu-download" rel="submenu-download"><a href="/en/download">Download</a></li><li class="leaf" id="menu-forum" rel="submenu-forum"><a href="https://allods.my.games/forum/index.php?page=Board&amp;boardID=1&amp;l=1?page=Board&amp;boardID=1&amp;l=1?page=Board&amp;boardID=1&amp;l=1?page=Board&amp;boardID=1&amp;l=1">Forum</a></li><li class="leaf" id="menu-shop" rel="submenu-shop"><a href="https://allods.my.games/en/shop">Shop</a></li><li class="leaf" id="menu-subscription" rel="submenu-subscription"><a href="/en/subscription">Subscription</a></li><li class="leaf" id="menu-support" rel="submenu-support"><a href="https://support.my.games/ao_int">Support</a></li></ul></div></div>
+      </div>
+      </div>
+    </div>
+  
+  <div class="center-wrapper">
+    <div>
+      <div class="decor-top"></div>
+      <div class="decor-left-side"><div></div></div>
+      <div class="decor-center"></div>
+      <!--<div class="decor-right-side"><div></div></div>-->
+      <div class="hand"></div>
+      <div class="panel-col-first panel-panel">
+        <div class="inside"><div class="panel-pane pane-mc-promo front-promo-container" >
+              <div class="pane-content">
+        <div class="pane-content-container">
+  <div class="slider_container">
+    <div class="slider ">
+                      <a class="slide" style="display:block" href="https://allods.my.com/en/news/announcements/global-90-awakening-update-has-been-installed">
+          <div class="img"><img src="https://allods.my.games/sites/allods.my.games/files/media/images/5_site_tr900promo_en.jpg" width="626" height="160" /></div>        </a>
+                      <a class="slide" style="display:block" href="https://allods.my.com/en/news/announcements/premium-system">
+          <div class="img"><img src="https://allods.my.games/sites/allods.my.games/files/media/images/site_prem_en.jpg" width="626" height="160" /></div>        </a>
+                      <a class="slide" style="display:block" href="https://allods.my.com/en/news/sales/new-feature-timed-artefacts">
+          <div class="img"><img src="https://allods.my.games/sites/allods.my.games/files/media/images/site_timeitems.jpg" width="626" height="160" /></div>        </a>
+          </div>
+  </div>
+</div>
+      </div>
+      </div>
+<div class="panel-separator"></div><div class="panel-pane pane-mc-allods-news-block" >
+              <div class="pane-content">
+        <div class="pane-content-container">  <div class="news-block-top">
+    <div>
+      <div class="ico"></div>
+      <a href="https://allods.my.games/en/news" class="all_news_link">All news</a>      <span></span>
+    </div>
+  </div>
+
+  <div class="news-block-tabs">
+    <ul>
+              <li><div class="news-block-tab active" rel="new_block_0">Latest news<span></span></div></li>
+              <li><div class="news-block-tab" rel="new_block_1">Announcements<span></span></div></li>
+              <li><div class="news-block-tab" rel="new_block_2">Events<span></span></div></li>
+              <li><div class="news-block-tab" rel="new_block_3">General<span></span></div></li>
+              <li><div class="news-block-tab" rel="new_block_4">Maintenances<span></span></div></li>
+              <li><div class="news-block-tab" rel="new_block_5">Sales<span></span></div></li>
+          </ul>
+  </div>
+
+  <div class="news-block-content">
+          <div class="new_block_0 active"><div class="view view-news-list view-id-news_list view-display-id-panel_pane_1000 view-dom-id-dc3f91c89640853d667422d97c3cfde8">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">22.01.2021</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/sales/sale-radiant-strongbox-devout-pilgrim-220121">Sale: Radiant Strongbox of the Devout Pilgrim - 22/01/21</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/sales.png?itok=QjBgpiEi" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The Great Martyr's share their wisdom with the residents of Sarnaut.</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/sales/sale-radiant-strongbox-devout-pilgrim-220121">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">18.01.2021</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/sales/tournament-heroes-boosters-discount-180121">The Tournament Of Heroes: Boosters at a discount! - 18/01/21</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/sales.png?itok=QjBgpiEi" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Don't miss the chance to purchase the boosters with a discount!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/sales/tournament-heroes-boosters-discount-180121">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">15.01.2021</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/events/plam-event-150121">Plam Event - 15/01/21</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/events.png?itok=evsxMWl9" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Celebrate your patron and gain his blessing for 31 days! Each month we will be celebrating a different Patron – this month, it’s Plam. Remember, you are as heavy as lead.</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/events/plam-event-150121">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">15.01.2021</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/sales/boost-event-10-20-30-150121">Boost event: &quot;10-20-30&quot; - 15/01/21</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/sales.png?itok=QjBgpiEi" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Avail of up to a 30% guaranteed crystal bonus boost with the 10-20-30 event!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/sales/boost-event-10-20-30-150121">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">14.01.2021</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/sales/crystal-chips-sale-140121">Crystal Chips Sale! - 14/01/21</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/sales.png?itok=QjBgpiEi" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Friends! You have an opportunity to purchase Crystal Chips with great discount!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/sales/crystal-chips-sale-140121">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+          <div class="new_block_1"><div class="view view-news-list view-id-news_list view-display-id-panel_pane_5 view-dom-id-e0071217fe008daf69284afd99d28529">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">23.12.2020</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/announcements/new-dawn-opening-new-server-coming">&quot;The New Dawn&quot;: the opening of a new server is coming!</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/announcements.png?itok=9D0oLRlW" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>On Friday, December 25th, the server «The New Dawn» will open its doors for all interested!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/announcements/new-dawn-opening-new-server-coming">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">16.09.2020</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/announcements/111-great-ball-update-waiting-you">The 11.1 «Great Ball» update is waiting for you!</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/announcements.png?itok=9D0oLRlW" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The 11.1 «Great Ball» update is installed</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/announcements/111-great-ball-update-waiting-you">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">27.02.2020</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/announcements/110-soul-darkness-update-installed">11.0 «Soul of Darkness» update installed</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/announcements.png?itok=9D0oLRlW" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The 11.0 «Soul of Darkness» update is installed</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/announcements/110-soul-darkness-update-installed">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">10.02.2020</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/announcements/development-update-110-soul-darkness">In development: Update 11.0: «Soul of Darkness»</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/announcements.png?itok=9D0oLRlW" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>We proudly present the teaser of our global update 11.0 - The Soul of Darkness! And we’d like to give you a short description of the main changes.</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/announcements/development-update-110-soul-darkness">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">06.02.2020</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/announcements/collectors-editions-pre-order-110-soul-darkness-update">Collector&#039;s Editions pre-order for the 11.0 «Soul of Darkness» update!</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/announcements.png?itok=9D0oLRlW" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The 11.0 «Soul of Darkness» update will be released on all game servers soon and special Collector's Editions will appear along with it. Hurry up to prepare for new adventures!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/announcements/collectors-editions-pre-order-110-soul-darkness-update">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+          <div class="new_block_2"><div class="view view-news-list view-id-news_list view-display-id-panel_pane_6 view-dom-id-506e4430cc37e4c7c551fdbc2afcc3d3">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">15.01.2021</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/events/plam-event-150121">Plam Event - 15/01/21</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/events.png?itok=evsxMWl9" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Celebrate your patron and gain his blessing for 31 days! Each month we will be celebrating a different Patron – this month, it’s Plam. Remember, you are as heavy as lead.</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/events/plam-event-150121">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">01.01.2021</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/events/day-wrath-paladin-event-010121">Day of Wrath: Paladin Event - 01/01/21</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/events.png?itok=evsxMWl9" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Don the ceremonial plate and raise your Paladin banner - the Day of Wrath has come!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/events/day-wrath-paladin-event-010121">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">30.12.2020</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/events/lucky-moment-marathon-new-years-edition-30122020">Lucky Moment Marathon - New Year&#039;s Edition! - 30.12.2020</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/events.png?itok=evsxMWl9" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Welcome to the New Year's Edition of the Lucky Moment Marathon!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/events/lucky-moment-marathon-new-years-edition-30122020">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">29.12.2020</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/events/primordial-abundance-new-dawn-server-291220">Primordial Abundance for the New Dawn Server ! - 29/12/20</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/events.png?itok=evsxMWl9" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>We are proud to announce that the first character of level 90 has already appeared on the «New Dawn»!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/events/primordial-abundance-new-dawn-server-291220">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">29.12.2020</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/events/new-dawn-server-rewards-and-trials">New Dawn Server - Rewards and Trials</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/events.png?itok=evsxMWl9" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Now you can take a look at all the important information and look forward to the challenges and the prizes you can win!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/events/new-dawn-server-rewards-and-trials">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+          <div class="new_block_3"><div class="view view-news-list view-id-news_list view-display-id-panel_pane_4 view-dom-id-e2d3ee809e432398eccfe05e088539d5">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">16.10.2018</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/general/discord-qa-07092018-16102018">Discord Q&amp;A (07/09/2018) - 16/10/2018</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/general.png?itok=0LO14iyG" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>On 07.09.2018 we have asked players on Discord to ask the developers their questions. Here is the full list of those questions and our answers.</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/general/discord-qa-07092018-16102018">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">22.08.2018</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/general/compendium-has-reached-5000">Compendium has reached 5000!</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/general.png?itok=0LO14iyG" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Compendium prize fund has reached the 5000 mark!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/general/compendium-has-reached-5000">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">13.08.2018</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/general/compendium-has-reached-3000">Compendium has reached 3000!</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/general.png?itok=0LO14iyG" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Compendium prize fund has reached the 3000 mark!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/general/compendium-has-reached-3000">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">08.08.2018</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/general/compendium-has-reached-2000">Compendium has reached 2000!</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/general.png?itok=0LO14iyG" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Compendium prize fund has reached the 2000 mark!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/general/compendium-has-reached-2000">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">31.07.2018</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/general/blood-tournament-prize-fund">Blood Tournament prize fund</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/general.png?itok=0LO14iyG" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Many have certainly wondered what currency the prize fund for the heroes of the Blood Tournament is displayed in.</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/general/blood-tournament-prize-fund">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+          <div class="new_block_4"><div class="view view-news-list view-id-news_list view-display-id-panel_pane_7 view-dom-id-23e6d668ed907b6966ac52cea362cf6a">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">15.09.2020</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/maintenances/date-111-update-has-been-set">The Date for the 11.1 update has been set!</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/maintenance.png?itok=2m3Lvf6D" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Maintenance news and Downtime for installing the  11.1 Update!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/maintenances/date-111-update-has-been-set">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">26.02.2020</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/maintenances/date-110-soul-darkness-update-has-been-set">Date for the 11.0 «Soul of Darkness» update has been set!</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/maintenance.png?itok=2m3Lvf6D" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Maintenance news and Downtime for installing the  11.0 «Soul of Darkness» Update!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/maintenances/date-110-soul-darkness-update-has-been-set">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">03.12.2019</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/maintenances/migration-mygames-details">Migration to MY.GAMES – Details</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/maintenance.png?itok=2m3Lvf6D" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>All services for these games, including access to servers, online play, and purchases, will be unavailable between <strong>December 4th</strong> at <strong>03:00 CET</strong> and <strong>December 4th</strong> at <strong>11:00 CET</strong> (times and dates may be subject to change).</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/maintenances/migration-mygames-details">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">29.10.2019</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/maintenances/date-102-bastion-hope-update-has-been-set">Date for the 10.2 &quot;Bastion of Hope&quot; update has been set!</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/maintenance.png?itok=2m3Lvf6D" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Maintenance news and Downtime for installing the  10.2 "Bastion of Hope" Update!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/maintenances/date-102-bastion-hope-update-has-been-set">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">12.03.2019</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/maintenances/pre-patch-maintenance-130319">Pre-patch Maintenance: 13/03/19</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/maintenance.png?itok=2m3Lvf6D" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Prolonged Pre-patch Maintenance news.</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/maintenances/pre-patch-maintenance-130319">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+          <div class="new_block_5"><div class="view view-news-list view-id-news_list view-display-id-panel_pane_8 view-dom-id-2b33a7aed037b7a886378dd4577b2acf">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">22.01.2021</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/sales/sale-radiant-strongbox-devout-pilgrim-220121">Sale: Radiant Strongbox of the Devout Pilgrim - 22/01/21</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/sales.png?itok=QjBgpiEi" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The Great Martyr's share their wisdom with the residents of Sarnaut.</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/sales/sale-radiant-strongbox-devout-pilgrim-220121">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">18.01.2021</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/sales/tournament-heroes-boosters-discount-180121">The Tournament Of Heroes: Boosters at a discount! - 18/01/21</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/sales.png?itok=QjBgpiEi" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Don't miss the chance to purchase the boosters with a discount!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/sales/tournament-heroes-boosters-discount-180121">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">15.01.2021</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/sales/boost-event-10-20-30-150121">Boost event: &quot;10-20-30&quot; - 15/01/21</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/sales.png?itok=QjBgpiEi" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Avail of up to a 30% guaranteed crystal bonus boost with the 10-20-30 event!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/sales/boost-event-10-20-30-150121">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">14.01.2021</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/sales/crystal-chips-sale-140121">Crystal Chips Sale! - 14/01/21</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/sales.png?itok=QjBgpiEi" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Friends! You have an opportunity to purchase Crystal Chips with great discount!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/sales/crystal-chips-sale-140121">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    <div class="views-row-top"></div>
+    <div class="views-row-content">  
+  <div class="views-field views-field-created">        <span class="field-content">07.01.2021</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/news/sales/lucky-tickets-boutique-070121">Lucky tickets in the boutique! - 07/01/21</a></span>  </div>  
+  <div class="views-field views-field-news-category-image">        <div class="field-content"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/news_category_image/public/news_categories/sales.png?itok=QjBgpiEi" width="69" height="92" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>A special Free Traders offer starts today!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/en/news/sales/lucky-tickets-boutique-070121">Read more</a></span>  </div></div>
+    <div class="views-row-bottom"></div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+      </div>
+</div>
+      </div>
+      </div>
+<div class="panel-separator"></div><div class="panel-pane pane-mc-allods-media-block" >
+              <div class="pane-content">
+        <div class="pane-content-container">  <div class="media-block-top">
+    <div>
+      <div class="ico"></div>
+      <a href="https://allods.my.games/en/media" class="all_media_link">All media</a>      <span></span>
+    </div>
+  </div>
+
+  <div class="media-block-tabs">
+    <ul>
+              <li><div class="media-block-tab active" rel="screenshots">Screenshots<span></span></div></li>
+              <li><div class="media-block-tab " rel="videos">Videos<span></span></div></li>
+              <li><div class="media-block-tab " rel="concept_arts">Art<span></span></div></li>
+          </ul>
+  </div>
+
+  <div class="media-block-content">
+          <div class="screenshots active"><div class="view view-media-listing-front view-id-media_listing_front view-display-id-panel_pane_2 view-dom-id-5e2ebe75e7772511f57478909bce8ae0">
+        
+  
+  
+      <div class="view-content">
+      <div class="wrapper">
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[screenshots_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/realworld_04.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/realworld_04.jpg?itok=mu2GS3-4" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[screenshots_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/ai48_1.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/ai48_1.jpg?itok=TQXWGNtZ" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[screenshots_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/illusionworld_10.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/illusionworld_10.jpg?itok=X4myL9aR" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[screenshots_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/firegirl1.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/firegirl1.jpg?itok=1Ll9XLGD" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[screenshots_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/skinpirat1.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/skinpirat1.jpg?itok=b0G8SC68" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[screenshots_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/ai63_1.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/ai63_1.jpg?itok=yHP3hjY7" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[screenshots_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/mistress1.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/mistress1.jpg?itok=qCzZio6v" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[screenshots_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/illusionworld_05.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/illusionworld_05.jpg?itok=di5UFB3q" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[screenshots_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/ai68_3.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/ai68_3.jpg?itok=JTGLEYdg" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-10 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[screenshots_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/realworld_07.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/realworld_07.jpg?itok=No7p7QT0" width="307" height="173" /></a></div>  </div>  </div>
+</div>
+<div class="controller">
+  <a class="jcarousel-prev" href="#">Prev</a>
+  <a class="jcarousel-next" href="#">Next</a>
+  <div class="jc-prev-bg"></div>
+  <div class="jc-next-bg"></div>
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+          <div class="videos"><div class="view view-media-listing-front view-id-media_listing_front view-display-id-panel_pane_1 view-dom-id-44841cdf879f2cbff9915a10bdc052b4">
+        
+  
+  
+      <div class="view-content">
+      <div class="wrapper">
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a href="//www.youtube.com/embed/JX3ubG7hd9I" rel="shadowbox[video_gallery]"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/0_9.jpg?itok=ffQaoUoy" width="307" height="173" /><span class="play"></span></a></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a href="//www.youtube.com/embed/66EgW4NneCg" rel="shadowbox[video_gallery]"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/0_4.jpg?itok=V3i42EpF" width="307" height="173" /><span class="play"></span></a></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a href="//www.youtube.com/embed/-ZSrhbhZq3Q" rel="shadowbox[video_gallery]"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/0_2.jpg?itok=SGgrq1hs" width="307" height="173" /><span class="play"></span></a></div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a href="//www.youtube.com/embed/9n8NlNYlPG8" rel="shadowbox[video_gallery]"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/0_3.jpg?itok=HRxLfLbm" width="307" height="173" /><span class="play"></span></a></div>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a href="//www.youtube.com/embed/CZe8ZxJKfvI" rel="shadowbox[video_gallery]"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/0_13.jpg?itok=MTRplM_k" width="307" height="173" /><span class="play"></span></a></div>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a href="//www.youtube.com/embed/3xEG0l_PJHI" rel="shadowbox[video_gallery]"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/0_11.jpg?itok=xcu_4EBC" width="307" height="173" /><span class="play"></span></a></div>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a href="//www.youtube.com/embed/KBq_MSZNd7g" rel="shadowbox[video_gallery]"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/0_7.jpg?itok=zApwIhLW" width="307" height="173" /><span class="play"></span></a></div>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a href="//www.youtube.com/embed/hXSJ8U5V4eI" rel="shadowbox[video_gallery]"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/0_1.jpg?itok=p3GR90aX" width="307" height="173" /><span class="play"></span></a></div>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a href="//www.youtube.com/embed/G65-vOms81Q" rel="shadowbox[video_gallery]"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/0_8.jpg?itok=VG8eEBmI" width="307" height="173" /><span class="play"></span></a></div>  </div>  </div>
+</div>
+<div class="controller">
+  <a class="jcarousel-prev" href="#">Prev</a>
+  <a class="jcarousel-next" href="#">Next</a>
+  <div class="jc-prev-bg"></div>
+  <div class="jc-next-bg"></div>
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+          <div class="concept_arts"><div class="view view-media-listing-front view-id-media_listing_front view-display-id-panel_pane_3 view-dom-id-5c5cfaff0f18cec228a518941acef7e5">
+        
+  
+  
+      <div class="view-content">
+      <div class="wrapper">
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[concept_art_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/033.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/033.jpg?itok=002J50LQ" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[concept_art_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/001.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/001.jpg?itok=Frwe3afD" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[concept_art_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/067.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/067.jpg?itok=XiEnYe77" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[concept_art_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/024.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/024.jpg?itok=KNFuEImH" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[concept_art_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/058.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/058.jpg?itok=FCo5Et3S" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[concept_art_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/015.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/015.jpg?itok=5-cwliHH" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[concept_art_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/047.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/047.jpg?itok=ItnZh28l" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[concept_art_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/038.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/038.jpg?itok=KLtHR_JD" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[concept_art_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/006.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/006.jpg?itok=kE-Enz4Q" width="307" height="173" /></a></div>  </div>  </div>
+  <div class="views-row views-row-10 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-media-image">        <div class="field-content"><a rel="shadowbox[concept_art_gallery]" href="https://allods.my.games/sites/allods.my.games/files/media/images/029.jpg"><img typeof="foaf:Image" src="https://allods.my.games/sites/allods.my.games/files/styles/allods_media_thum/public/media/images/029.jpg?itok=nxzM4Pke" width="307" height="173" /></a></div>  </div>  </div>
+</div>
+<div class="controller">
+  <a class="jcarousel-prev" href="#">Prev</a>
+  <a class="jcarousel-next" href="#">Next</a>
+  <div class="jc-prev-bg"></div>
+  <div class="jc-next-bg"></div>
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+      </div>
+</div>
+      </div>
+      </div>
+</div>
+      </div>
+      <div class="panel-col-last panel-panel">
+        <div class="inside"><div class="panel-pane pane-custom pane-2 allods-auth-block" >
+              <div class="pane-content">
+        <div class="pane-content-container"><div id="user-block" class="dynamic-content" data-url="/dynamic/auth/">
+<div class="dynamic-loader"></div>
+</div>
+</div>
+      </div>
+      </div>
+<div class="panel-separator"></div><div class="panel-pane pane-mc-allods-static-teasers allods-static-teasers" >
+              <div class="pane-content">
+        <div class="pane-content-container">  <div class="static-teasers-content ">
+          <div class="teaser-collection-editions">
+        <a href="/en/collectors-editions11"></a>      </div>
+          <div class="teaser-payment">
+        <a href="/en/billing"></a>      </div>
+          <div class="teaser-buy-crystals">
+        <a href="/en/buy_crystals"></a>      </div>
+          <div class="teaser-subscribe">
+        <a href="/en/subscription"></a>      </div>
+          <div class="teaser-ratings">
+        <a href="/en/ratings"></a>      </div>
+          <div class="teaser-forum">
+        <a href="/en/forum/index.php?page=Board&amp;boardID=1&amp;l=1"></a>      </div>
+          <div class="teaser-customer-support">
+        <a href="https://support.my.games/ao_int?code=en_US"></a>      </div>
+      </div>
+</div>
+      </div>
+      </div>
+<div class="panel-separator"></div><div class="panel-pane pane-my-facebook-page-plugin-pane facebook-page-plugin" >
+            <div class="pane-content">
+    <div class="pane-content-container">
+      <div class="facebook-page-plugin-container">
+        <div class="fb-page"data-tabs=""data-width="277"data-height="230"data-small-header="true"data-adapt-container-width="true"data-hide-cover="false"data-show-facepile="true"data-href="https://www.facebook.com/AllodsOnline"data-show-posts="false"data-hide-cta="false"></div>      </div>
+    </div>
+  </div>
+    </div>
+</div>
+      </div>
+    </div>
+  </div>
+
+      <div class="panel-col-bottom panel-panel">
+      <div class="inside">
+        <div class="decor-bottom"></div>
+        <div class="panel-pane pane-block pane-menu-footer footer-menu" >
+              <div class="pane-content">
+        <div class="pane-content-container"><ul class="menu"><li class="first leaf menu-news"><a href="/en/news">News</a></li>
+<li class="leaf menu-game"><a href="/en/game">Game</a></li>
+<li class="leaf menu-download"><a href="/en/download">Download</a></li>
+<li class="leaf menu-forum"><a href="https://allods.my.games/forum/index.php?page=Board&amp;boardID=1&amp;l=1" title="">Forum</a></li>
+<li class="leaf menu-subscription"><a href="/en/subscription">Subscription</a></li>
+<li class="last leaf menu-support"><a href="https://support.my.games/ao_int" title="">Support</a></li>
+</ul></div>
+      </div>
+      </div>
+<div class="panel-separator"></div><div class="panel-pane pane-copyright" >
+              <div class="pane-content">
+        <div class="pane-content-container"><div class="copyright-container">
+	<a class="mygames_logo_w" href="http://my.games" target="_blank"></a>
+	<span class="blocks">
+      <span class="block1">Your use of the game and this website is subject to <a href="https://documentation.my.games/terms/mygames_eula" target="_blank">EULA</a>, <a href="https://documentation.my.games/terms/mygames_privacy" target="_blank">Privacy Policy</a> and <a href="https://allods.my.games/en/game/forum-rules/generalingamerules" target="_blank">General In Game Rules</a>.</span>
+      <span class="block2">© <script type="text/javascript">document.write(new Date().getFullYear());</script> Mail.Ru LLC. Published by My.com B.V. All rights reserved.</span>
+      <span class="block3">All trademarks are the property of their respective owners.</span>
+    </span>
+</div></div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>  </body>
+</html>
+```
