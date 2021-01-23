@@ -1,0 +1,146 @@
+```<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+  <title>Apcon - Multi Profile Connector</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor="aaaaaa">
+<center>
+<table border="0" cellpadding="0" cellspacing="1" width="80%" bgcolor="444444">
+  <tr>
+    <td bgcolor="ffffff">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+	  <td><img src="img/apcon.png" alt="Apcon"></td>
+	  <td align="right" valign="bottom">
+	    <!-- VERSION -->
+	    <small><b>latest release</b>
+	    &nbsp;<br>
+	    
+	    August 25, 2005&nbsp;&nbsp;<br>
+	    0.2.4
+ build 
+	    68
+&nbsp;</small>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="cccccc">
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+	  <td bgcolor="dddddd">&nbsp;<a href="index.html">Home</a>&nbsp;</td>
+	  <td>&nbsp;<a href="screenshots.html">Screenshots</a>&nbsp;</td>
+	  <td bgcolor="dddddd">&nbsp;<a href="download.html">Download</a>&nbsp;</td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="ffffff">
+      <table border="0" cellspacing="5">
+        <tr>
+          <td>
+
+	    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+	      <tr>
+	        <td><h1>Apcon - The Multi Profile Connector</h1></td>
+		<td align="right">
+		  <A href="http://sourceforge.net">
+	    	  <IMG
+		   src="http://sourceforge.net/sflogo.php?group_id=109250&amp;type=5" 
+		   width="210" height="62" border="0" alt="SourceForge.net
+		   Logo" /></A>
+		</td>
+	      </tr>
+	    </table>
+
+
+	    <h2>What is Apcon?</h2>
+
+            The idea of Apcon is based on IBM's Access Connections tool 
+	    for the Thinkpads. Apcon is a systemtray application for KDE,
+	    that makes it very easy for users to specify and manage different
+	    network/connection profiles and connect/disconnect to/from
+	    them.  Furthermore a user can get several details and
+	    informations about a connection.
+	    <p>
+	    This can be very useful for people using notebooks on
+	    different locations. Under normal circumstances this should
+	    be the expected situation. ;-) If the location will be
+	    changed, Apcon makes it possible to enable and configure the
+	    needed interface (to get a network connection) with just two
+	    clicks.
+	    <p>
+	    A profile can be created easily and quickly in four simple
+	    steps. An integrated wizard leads the user through this
+	    process.
+	    <p>
+	    <a href="http://sourceforge.net/projects/apcon">Here</a> you can go to the Sourceforge Project page.
+
+	    <br>&nbsp;
+
+
+	    <h2>The latest Version</h2>
+
+	    <!-- VERSION -->	    
+	    The latest released version of Apcon is <b>0.2.4
+ build
+            68
+</b>from August 25, 2005. 
+            You can download the latest and older releases <a href="download.html">here</a>.
+	    <br>&nbsp;
+
+	    <h2>Requirements</h2>
+	    
+	    To work properly Apcon needs dhcpcd or dhclient to configure interfaces
+	    using DHCP. Apcon prior to version 0.2.4 only works with dhcpcd.<br>
+            Debian users can just type:
+	    <pre>apt-get install dhcpcd</pre>
+            RedHat/Fedora users usually have dhclient as part of their distribution.
+            <p>
+	    You can get the original dhcpcd sources from 
+	    <a href="http://www.phystech.com/download/dhcpcd.html" target="_blank">here</a>,
+	    or a RPM package from 
+	    <a href="download.html">here</a>.
+	    <br>&nbsp;</p>
+	    
+	    <h2>License</h2>
+	    
+	    Apcon is free software under the GPL and the CPL.
+	    <br>&nbsp;
+
+	    <h2>Developer / Team</h2>	    
+	    
+	    <ul>
+	    <li>Andreas Pohl - The developer of Apcon.
+	    <li>Clemens Nafe - Master of the rpm packages.
+	    <li>Ralf Pohl - Creation of graphics.
+	    </ul>
+	    <br>
+            <a href="http://validator.w3.org/check?uri=referer"><img border="0"
+               src="http://www.w3.org/Icons/valid-html40"
+               alt="Valid HTML 4.0!" height="31" width="88"></a>
+            <a href="http://jigsaw.w3.org/css-validator/">
+            <img style="border:0;width:88px;height:31px"
+                 src="http://jigsaw.w3.org/css-validator/images/vcss" 
+                 alt="Valid CSS!" >
+            </a>
+
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="dddddd" align="center">Copyright &copy; 2004-2005
+    Andreas Pohl</td>
+  </tr>
+</table>
+</center>
+</body>
+</html>
+```
