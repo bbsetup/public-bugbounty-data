@@ -1,0 +1,475 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+    <head>
+        <title>AqMoney :: A console homebanking tool</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- META INFORMATION einfügen -->
+
+<style type="text/css">
+<!--
+
+a { text-decoration: none}
+a {color: #7598c0 }
+a:hover {color: #000000 }
+
+td.release {
+	background: lime;
+	color: black;
+	text-align: left;
+	vertical-align: top;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-right: 0px;
+	border-right: 1px outset;
+	border-left: 1px outset;
+	border-top: 1px outset;
+	border-bottom: 1px outset;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-variant : normal;
+	font-style : normal;
+}
+
+td.bug {
+	background: red;
+	color: black;
+	text-align: left;
+	vertical-align: top;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-right: 0px;
+	border-right: 1px outset;
+	border-left: 1px outset;
+	border-top: 1px outset;
+	border-bottom: 1px outset;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-variant : normal;
+	font-style : normal;
+}
+
+td.news {
+	background: #7598c0;
+	color: black;
+	text-align: left;
+	vertical-align: top;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-right: 0px;
+	border-right: 1px outset;
+	border-left: 1px outset;
+	border-top: 1px outset;
+	border-bottom: 1px outset;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-variant : normal;
+	font-style : normal;
+}
+
+td.newstext {
+	background: #ffffff;
+	color: black;
+	width: 95px;
+	text-align: left;
+	vertical-align: top;
+	margin-top: 0px;
+	margin-right: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	font-variant : normal;
+	font-style : normal;
+}
+
+td.th {
+	color: black;
+	width: 95px;
+	text-align: left;
+	vertical-align: top;
+	margin-top: 0px;
+	margin-right: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-variant : normal;
+	font-style : normal;
+}
+
+td.sidemenu {
+	background: #ffffff;
+	color: black;
+	width: 95px;
+	text-align: left;
+	vertical-align: top;
+	margin-top: 0px;
+	margin-right: 0px;
+	padding-right: 3px;
+	border-right: 1px dotted;
+	border-left: 1px dotted;
+	border-top: 1px dotted;
+	border-bottom: 1px dotted;
+	background-image: url("images/sidebarback.jpg");
+	background-repeat: repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	font-variant : normal;
+	font-style : normal;
+}
+
+.menu {
+	padding: 0.2ex;
+}
+
+.submenu {
+	padding-left: 0.7ex;
+}
+
+.menuEntry, .sf-info {
+	font-weight:bold;
+    font-size: 11px;
+    color: #f0f0f0;
+	padding-left: 0.3ex;
+	padding-right: 0.3ex;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant : normal;
+	font-style : normal;
+}
+.SmallMenuEntry, .sf-info {
+	font-weight:bold;
+    font-size: 11px;
+	border-top: 1px dotted;
+	border-bottom: 1px dotted;
+    color: #f0f0f0;
+	padding-left: 0.3ex;
+	padding-right: 0.3ex;font-family: Arial, Helvetica, sans-serif;
+	font-variant : normal;
+	font-style : normal;
+
+}
+.SmallMenuEntry a { color: #f0f0f0;  }
+
+.BoldMenuEntry, .sf-info {
+	font-weight:bold;
+    font-size: 11px;
+    color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant : normal;
+	font-style : normal;
+}
+
+.submenuEntry {
+	padding-left: 0.3ex;
+	padding-right: 0.3ex;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-variant : normal;
+	font-style : normal;
+}
+.menuEntry a, .submenuEntry a {
+	color: #f0f0f0;
+	text-decoration: none;
+	font-size: 11px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-variant : normal;
+	font-style : normal;
+}
+.submenuEntry a:hover, .menuEntry a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-variant : normal;
+	font-style : normal;
+	background-color: #7598c0;
+	text-decoration: none;
+}
+.active {
+	font-weight:bold;
+	border-style: solid;
+	border-color: #f0f0f0;
+	border-width: 1px;
+	margin-top: 10px;	
+	margin-bottom: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant : normal;
+	font-style : normal;
+}
+
+.right {
+	font-weight:bold;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+	margin-bottom: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant : normal;
+	font-style : normal;
+}
+
+.question {
+	font-weight:bolder;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant : normal;
+	font-style : normal;
+	margin-top: 5px;	
+	margin-bottom: 5px;
+}
+
+.button {
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f0f0;
+    background-color: #cococo;  
+    margin-top: 15px;	
+    margin-bottom: 15px;
+    padding: 10;
+}
+
+body { margin-left:0pt; margin-right:0pt; margin-top:0pt; margin-bottom:0pt}
+table { font-size:11pt }
+div.head {
+position:absolute;
+z-index:-0.5;
+font-family: Arial, Helvetica, sans-serif;
+font-weight : normal;
+font-variant : normal;
+font-style : normal;
+}
+
+div.body {
+margin-top:60pt;
+margin-left:10pt;
+z-index:-1.5;
+font-family: Arial, Helvetica, sans-serif;
+font-weight : normal;
+font-variant : normal;
+font-style : normal;
+}
+
+TABLE {
+    border: grey solid, 1px;
+}
+
+document {
+}
+-->
+</style>
+
+<script language="javascript">
+
+function ChangeField(obj1, obj2)
+{
+if (obj1.checked) 
+	{
+	obj2.disabled=false;
+	}
+else
+	{
+	obj2.disabled=true;
+	}
+}
+ 
+</script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15">
+<meta name="generator" content="Quanta Plus">
+<meta name="author" content="Martin Preuß">
+<meta name="owner"  content="Martin Preuß">
+<meta name="owners address" content="aqmoney@aquamaniac.de">
+<meta name="description" content="Homebanking-Programm auf der Konsole, verwendet openHBCI">
+<meta name="keywords" content="aqmoney, obenhbci, hbci, gpl, banking, online, linux, konsole">
+<meta name="created" content="11.07.2005">
+
+</head>
+
+<body bgcolor="#f0f0f0">
+
+<div class="document">
+ 
+
+<!-- Beginn Seiteninhalt -->
+<div class="body">
+
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%">
+ <tbody><tr>
+  <td width="116"> </td>
+  <td bgcolor="#ffffff" align="center">
+
+   <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+    <tbody><tr><td height="20"> </td></tr>
+    <tr>
+     <td width="60"> </td>
+     <td>
+
+    <div align="center"><h1>AqMoney</h1></div>
+    <div align="left">
+    <p>
+	<!-- -->
+	<h2>Allgemeines</h2>
+	<h3>Was ist AqMoney ?</h3>
+	AqMoney ist ein Homebanking-Programm f&uuml;r die Konsole unter Verwendung von
+	<A HREF="http://openhbci.sf.net" TARGET="_top">openHBCI</A>.<BR>
+	Es erlaubt Ihnen Ihre Bankkonten &uuml;ber HBCI zu verwalten.<br>
+	Inzwischen gibt es zwei Versionen von AqMoney:
+	<ul>
+	<li>Aqmoney (stabil, letzte Version 0.6.3)</li>
+	<li><a href="index2.php">AqMoney-TNG</a> (in der Entwicklung, bereits benutzbar, letzte Version 1.9.3)</li>
+	</ul>
+
+	AqMoney unterst&uuml;tzt alle Gesch&auml;ftsvorf&auml;lle die OpenHBCI anbietet:
+	<ul>
+		<li>Benutzerverwaltung</li>
+		<li>Kontenliste abholen</li>
+		<li>Kontost&auml;nde abrufen</li>
+		<li>elektronische Kontoausz&uuml;ge abrufen</li>
+		<li>Dauerauftr&auml;ge einrichten, betrachten und l&ouml;schen</li>
+		<li>&Uuml;berweisungen t&auml;tigen</li>
+		<li>Lastschriften initiieren</li>
+		<li>Ansicht der Kontoausz&uuml;ge, Institutsmeldungen und Dauerauftr&auml;ge in HTML oder ASCII Text</li>
+		<li>Erstellen von Tages-, Monats- und Jahresreports in HTML oder ASCII Text</li>
+		<li>Schl&uuml;ssel sperren, Schl&uuml;ssel wechseln</li>
+	</ul>
+
+	<h3>Was brauche ich ?</h3>
+	Sie ben&ouml;tigen zun&auml;chst einmal <a href="http://www.openhbci.de" target="_top">OpenHBCI</a>.<br>
+	Möchten Sie eine Chipkarte als Sicherheitsmedium benutzen, ben&ouml;tigen Sie zus&auml;tzlich   
+	<a href="http://www.libchipcard.de" target="_top">Libchipcard</a> und das <a href="http://www.openhbci.de" target="_top">OpenHBCI-Plugin-DDVcard</a>.<br>
+	<br>
+	&Uuml;bersicht &uuml;ber die ben&ouml;tigten Pakete:
+	<br><br>
+	<table border="0" cellpadding="0" cellspacing="5" align="center">
+		<d><td colspan="2" class="news">Sicherheitsmedium<br>Diskette/Datei</td><td colspan="2" class="news">Sicherheitsmedium<br>Chipkarte</td><td class="release">Hinweise zu den Paketen</td></tr>
+		<tr><td class="th">Paket</td><td class="th">Version</td><td class="th">Paket</td><td class="th">Version</td><td class="th">Hinweis</td></tr>
+		<tr><td valign="top" align="left">---</td><td valign="top" align="left">---</td><td valign="top" align="left">Treiber für Chipkartenleser</td><td valign="top" align="left">---</td><td valign="top" align="left">CT-API Implementation, gibt es vom Hersteller, ggf. auch Open-Source (z.B. f&uuml;r Towitoko Chipdrive) </td></tr>
+		<tr><td valign="top" align="left">---</td><td valign="top" align="left">---</td><td valign="top" align="left">libchipcard</td><td valign="top" align="left">&#062;=0.9.1</td><td valign="top" align="left"></td></tr>
+		<tr><td valign="top" align="left">---</td><td valign="top" align="left">---</td><td valign="top" align="left">libchipcard-tools</td><td valign="top" align="left">&#062;=0.9.1</td><td valign="top" align="left">nur bei rpm/deb; tools sind im libchipcard*.tar.gz enthalten</td></tr>
+		<tr><td valign="top" align="left">---</td><td valign="top" align="left">---</td><td valign="top" align="left">libchipcard-kde</td><td valign="top" align="left">&#062;=0.9.1</td><td valign="top" align="left">optional, sehr hilfreich zur Einrichtung des Chipcard-Servers</td></tr>	
+		<tr><td valign="top" align="left">openssl</td><td valign="top" align="left">&#062;=0.9.0</td><td valign="top" align="left">openssl</td><td valign="top" align="left">&#062;=0.9.0</td><td valign="top" align="left">aus Sicherheitsgr&uuml;nden wird Version ab 0.9.6e empfohlen</td></tr>
+		<tr><td valign="top" align="left">openhbci</td><td valign="top" align="left">&#062;=0.9.14</td><td valign="top" align="left">openhbci</td><td valign="top" align="left">&#062;=0.9.14</td><td valign="top" align="left"></td></tr>
+		<tr><td valign="top" align="left">---</td><td valign="top" align="left"></td><td valign="top" align="left">openhbci-plugin-ddvcard</td><td valign="top" align="left">&#062;=0.4.1</td><td valign="top" align="left">empfohlen wird Version 0.4.4</td></tr>		
+		<tr><td valign="top" align="left">AqMoney</td><td valign="top" align="left">0.6.3</td><td valign="top" align="left">AqMoney</td><td valign="top" align="left">0.6.3</td><td valign="top" align="left"></td></tr>
+		<tr><td valign="top" align="left">KtoBlzCheck</td><td valign="top" align="left">&#062;= 0.5</td><td valign="top" align="left">KtoBlzCheck</td><td valign="top" align="left">&#062;= 0.5</td><td valign="top" align="left">optional, wird vom AqMoney-Interface zur automatischen &Uuml;berpr&uuml;fung von Bankverbindungen benutzt </td></tr>
+		<tr><td valign="top" align="left">AqMoney-Interface</td><td valign="top" align="left">&#062;= 1.0</td><td valign="top" align="left">AqMoney-Interface</td><td valign="top" align="left">&#062;= 1.0</td><td valign="top" align="left">optional, Kommandozeilen-Oberfl&auml;che f&uuml;r AqMoney</td></tr>	
+	</table> 
+
+	<h3>Wo finde ich AqMoney ?</h3>
+	Das Programm ist als Tarball-Release und als RPM für SuSE 9.x über die SourceForge-Downloadseite oder per CVS erhältlich. Näheres entnehmen Sie bitte unserer <a href="download.php" target="_top">Download</a>-Info.
+
+	<h3>Wo finde ich weitere Informationen ?</h3>
+	Inzwischen existiert eine <a href="http://www.linuxwiki.de/OpenHBCI" target="_top">WiKi-Seite</a> für OpenHBCI, auf der auch AqMoney und Libchipcard im Rahmen von OpenHBCI
+	angesprochen sind. Dort finden Sie viele Informationen, die von AqMoney- und GNUCash-Benutzern dort hinterlegt
+	wurden. <i>Sie können dort sogar selbst etwas beitragen ;-)</i>
+	
+	<h3>Beispiel-Ausgabe</h3>
+	Wenn Sie <a href="dump_1.php">hier klicken</a>, sehen Sie die HTML-Ausgabe des Kommandos <b>aqmoney dump</b>.
+
+	<!-- -->
+    </p>
+    </div>
+
+    <//tr> 
+     <td width="20"> </td>
+    </tr>
+    <tr><td height="20"> </td></tr>
+   </tbody>
+  </table>
+
+  </td>
+  <td width="30"> </td>
+ </tr>
+ <tr>
+  <td> </td>
+  <td bgcolor="#f0f0f0" height="35" style="">&nbsp;</td>
+ </tr>
+</tbody>
+</table>
+
+<!-- hier endet Body-Tag -->
+</div> 
+
+<div class="head" style="position:fixed; left:0px; top:0px; width:100%">
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%">
+ <tbody><tr>
+  <td bgcolor="#7598c0" height="50"><h1>
+  <span style="letter-spacing: 1pt; font-size: 12pt; color: rgb(0, 0, 0);">
+    &nbsp; aqmoney.sourceforge.net
+  </span></h1></td>
+  <td bgcolor="#7598c0" align="right" >
+
+  <table>
+  <tr>
+   <td align="left">
+	<div class="BoldMenuEntry">Aktuelle Stable:</div> <div class="SmallMenuEntry"><a onmouseout="this.style.background='#7598c0'" onmouseover="this.style.background='#000000'" href="http://sourceforge.net/project/showfiles.php?group_id=42983&package_id=41930">0.6.3</a> | <a onmouseout="this.style.background='#7598c0'" onmouseover="this.style.background='#000000'" href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/aqmoney/aqmoney/ChangeLog?view=markup">Current Status</a></div>
+	<div class="BoldMenuEntry">Aktuelle Beta:</div> <div class="SmallmenuEntry"><a onmouseout="this.style.background='#7598c0'" onmouseover="this.style.background='#000000'" href="http://sourceforge.net/project/showfiles.php?group_id=42983&package_id=99435">1.9.3</a> | <a onmouseout="this.style.background='#7598c0'" onmouseover="this.style.background='#000000'" href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/aqmoney/aqmoney-tng/ChangeLog?view=markup">Current Status</a></div>
+   </td>
+  </tr>
+  </table>
+
+  </td>
+
+ </tr>
+</tbody></table>
+</div>
+
+<div class="sites" style="position: fixed; left:10px; top:100px">
+
+   <table cellspacing="0" cellpadding="2" style="border: 1px solid rgb(#000000);">
+    <tbody><tr>
+     <td class="sidemenu">
+	    <div class="menu">
+	    	<p>
+		<div class="active">
+			<div class="menuEntry">Homepage</div>
+		</div>
+		<div class="menuEntry"><a href="index.php">AqMoney</a></div>
+		<div class="menuEntry"><a href="index2.php">AqMoney-TNG</a></div>
+		<div class="menuEntry"><a href="aqmi.php">AqMoney-Interface</a></div>
+		<div class="menuEntry"><a href="news.php">News</a></div>
+		<div class="menuEntry"><a href="umfrage.php">Umfrage</a></div>
+                
+		<div class="active">
+			<div class="menuEntry">Projektseite</div>
+		</div>
+		<div class="menuEntry"><a href="http://sf.net/projects/aqmoney">&Uuml;bersicht</a></div>
+		<div class="menuEntry"><a href="mlist.php">Mailingliste</a></div>
+		<div class="menuEntry"><a href="download.php">Download</a></div>
+		<div class="menuEntry"><a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/aqmoney/">View CVS</a></div>
+	      
+	       	<div class="active">
+	       		<div class="menuEntry">Stand 11.07.2005</div>
+	        </div>
+		<div class="menuEntry">(c.) <a href="mailto:Martin Preuss<aqmoney@aquamaniac.de>">Martin Preu&szlig;</a></div>
+		<div class="menuEntry"> &nbsp; &nbsp; &nbsp; <a target="_new" href="gpg/martin-at-libchipcard-de.asc">[GPG-Key]</a></div>
+		
+		<div class="active">
+	       		<div class="menuEntry">Hosted by</div>
+	        </div>
+		<div class="menuEntry"><div align="center"><a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=42983" width="88" height="31" border="0" alt="SourceForge Logo"></a></div></div>
+	   	</p>
+	   </div>
+	 </td>
+	</tr></tbody>
+   </table>
+
+</div>
+ 
+
+</body>
+</html>
+```
