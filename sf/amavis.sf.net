@@ -1,0 +1,182 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+  <TITLE>AMaViS - A Mail Virus Scanner</TITLE>
+  <META	NAME="ROBOTS" CONTENT="ALL">
+  <META	NAME="Keywords" 
+  	CONTENT="AMaViS, mail, virus, scanner, linux, unix, sendmail, exim, postfix, qmail">
+  <META	NAME="Description"
+  	CONTENT="AMaViS (A Mail Virus Scanner) scans e-mail attachments for viruses using third-party virus scanners available for UNIX environments. It resides on a UNIX (Linux) machine and looks through the attached files arriving via e-mail, generates reports when a virus is found and sets the delivery on hold.">
+  <META	NAME="Copyright" CONTENT="1997-2001 amavis.org">
+  <META	HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+  <META	NAME="Author" CONTENT="Christian Bricart <christian@bricart.de>">
+  <META NAME="Generator" CONTENT="VIM - Vi IMproved 5.6 (http://www.vim.org/)">
+  <LINK REL="shortcut icon" HREF="/favicon.ico">
+  <LINK REL="alternate" type="application/xml" title="RDF" href="http://www.amavis.org/amavis.rdf" />
+  <LINK REL="alternate" type="application/rss+xml" title="RSS" href="http://www.amavis.org/amavis.rdf" />
+  <LINK REL="StyleSheet" HREF="/amavis.css" TYPE="text/css">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+  
+<TABLE WIDTH="100%" BORDER="0">
+  <TR>
+    <TH><H1>AMaViS - A Mail Virus Scanner</H1></TH>
+  </TR>
+</TABLE>
+
+<TABLE WIDTH="100%" BORDER="0">
+<TR>
+  <TD>
+    <UL>
+      <LI><A HREF="amavis.html">Technical Information and Installation Instructions</A>
+      <LI>Mailinglist archives: (<A HREF="http://sourceforge.net/mail/?group_id=6006">subscription details</A>)
+        <UL>
+          <LI><A HREF="http://marc.theaimsgroup.com/?l=amavis-announce&r=1&w=2">amavis-announce</A> - announcements by the AMaViS Team</LI>
+          <LI><A HREF="http://marc.theaimsgroup.com/?l=amavis-bugs&r=1&w=2">amavis-bugs</A> (currently disabled)</LI>
+          <LI><A HREF="http://marc.theaimsgroup.com/?l=amavis-user&r=1&w=2">amavis-user</A> (<a href="amavis-user-guidelines.php">amavis user ML guidelines</a>!) - general end-user discussion list</LI>
+          <LI><a HREF="http://marc.theaimsgroup.com/?l=amavis-tech&r=1&w=2">amavis-tech</A> - technical discussion, mainly for contributors/developers</LI>
+      </UL>
+      <LI><A HREF="amavis-faq.php">Known Bugs / FAQ for amavis-perl & amavisd</A> (<FONT COLOR=#FF0000>please read</FONT>)</LI>
+      <LI><A HREF="http://cvsweb.amavis.org/">browse current CVS repository</A></LI>
+      <LI><A HREF="security/">Security Announcements</A></LI>
+      <LI><A HREF="http://sourceforge.net/tracker/?func=add&group_id=6006&atid=106006">Report a bug</A> (<a href="http://www.amavis.org/amavis-user-guidelines.php#Technical">please read this first before reporting a bug</a>)</LI>
+      <LI><A HREF="howto/">HowTo's</A></LI>
+      <LI><A HREF="download.php">Download</A></LI>
+	<UL>
+	  <LI><A HREF="download.php">Source Tarball</A></LI>
+	  <LI><A HREF="packages.php">Packages & Ports</A></LI>
+	  <LI><A HREF="contrib/">Contributed Software</A></LI>
+	</UL>
+      <LI><A HREF="donate.php">Donations</A></LI>	
+    </UL>
+  </TD>
+  <TD CLASS="center">
+    <IMG CLASS="center" SRC="images/amavis-2.png" ALT="" WIDTH="409" HEIGHT="222">
+  </TD>
+</TR>
+</TABLE>
+
+<HR>
+
+<A NAME="news"></A>
+<H2>NEWS:</h2>
+<TABLE CELLPADDING="5" BORDER="0">
+<TR>
+  <TH ROWSPAN="2" VALIGN="top"><H4>07/10/04</H4></TH>
+  <TH CLASS="right" ALIGN="right"><SUB>by <A CLASS="thlink" HREF="mailto:reniar@users.sourceforge.net">Rainer Link</A></SUB></TH>
+</TR>
+<TR>
+  <TD><b>Important note for all users of AMaViS 0.2.1 (or below)</b>: This version has been discontinued three years ago. On August, 1st, 2004 the security maintenance will be discontinued as well. Therefore, we urge everyone to switch to AMaViS 0.3.x, amavisd 0.1, amavisd-new or amavis-ng.</TD>
+</TR>
+<TR>
+  <TH ROWSPAN="2" VALIGN="top"><H4>03/11/03</H4></TH>
+  <TH CLASS="right" ALIGN="right"><SUB>by <A CLASS="thlink" HREF="mailto:lhecking@users.sourceforge.net">Lars Hecking</A></SUB></TH>
+</TR>
+<TR>
+  <TD>The first non-snapshot release of amavisd is now available. Please see the <a href="http://sourceforge.net/project/shownotes.php?group_id=6006&release_id=145702">release notes</a> at <a href="http://sourceforge.net">SourceForge</a>. Download it from <a href="http://sourceforge.net/project/showfiles.php?group_id=6006&release_id=145702">SourceForge </a> or <a href="http://www.amavis.org/dist/perl/amavisd-0.1.tar.gz">this server</a>.</TD>
+</TR>
+<TR>
+  <TH ROWSPAN="2" VALIGN="top"><H4>03/07/03</H4></TH>
+  <TH CLASS="right" ALIGN="right"><SUB>by <A CLASS="thlink" HREF="mailto:lhecking@users.sourceforge.net">Lars Hecking</A></SUB></TH>
+</TR>
+<TR>
+  <TD>Amavis-0.3.12, the direct sucessor to amavis-perl-11, is released. There are many, many
+bugfixes and improvements, please see the <a href="http://sourceforge.net/project/shownotes.php?group_id=6006&release_id=144740">
+release notes</a> at <a href="http://sourceforge.net">SourceForge<a/>. Download it from <a href="http://sourceforge.net/project/showfiles.php?group_id=6006&release_id=144740">
+SourceForge<a/> or <a href="http://www.amavis.org/dist/perl/amavis-0.3.12.tar.gz">this server</a>.
+</TD>
+</TR>
+<TR>
+  <TH ROWSPAN="2" VALIGN="top"><H4>01/07/03</H4></TH>
+  <TH CLASS="right" ALIGN="right"><SUB>by <A CLASS="thlink" HREF="mailto:reniar@users.sourceforge.net">Rainer Link</A></SUB></TH>
+</TR>
+<TR>
+  <TD><b>New entry to the <a href="howto/">HowTo section</a></b>. The "Postfix + AMaViS + McAfee VirusScan" howto (in Spanish!) by Carmelo Zubeldia has been added. </TD>
+</TR>
+<TR>
+  <TH ROWSPAN="2" VALIGN="top"><H4>01/07/03</H4></TH>
+  <TH CLASS="right" ALIGN="right"><SUB>by <A CLASS="thlink" HREF="mailto:reniar@users.sourceforge.net">Rainer Link</A></SUB></TH>
+</TR>
+<TR>
+  <TD><b>New email aliases!</b>
+
+The aliases howto at amavis dot org (for submitting an entry to the <a href="howto/">HowTo section</a>) and faq at amavis dot org (for submitting a new <a href="amavis-faq.php3">FAQ entry</a>) are <b>no longer valid!</b>. Please use howto-submit at amavis dot org and faq-submit at amavis dot org instead. Thanks. And, as a reminder, those addresses are <b>not</b> support addresses. Questions, suggestions, feedback and so on must be send to our amavis-user mailing list.
+</TD>
+</TR>
+<TR>
+  <TD COLSPAN=2 CLASS="right"><A HREF="news.php?limit=5,10">older news...</A></TD>
+</TR>
+</TABLE>
+
+
+<A NAME="links"></A>
+<H2>related links</H2>
+<TABLE WIDTH=100%>
+<TR>
+  <TD>
+    <UL>
+      <LI><IMG SRC="images/xeng.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://www.sans.org/infosecFAQ/email/amavis.htm">SMTP Gateway Virus Filtering with Sendmail and AMaViS</A>
+      <LI><IMG SRC="images/xdeu.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://www.linux-magazin.de/ausgabe/2001/06/Amavis/amavis.html">Antiviren-Mailrelay mit Amavis</A>
+      <LI><IMG SRC="images/xeng.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://www.openantivirus.org/">OpenAntiVirus.org</A>
+      <LI><IMG SRC="images/xeng.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://www.icsalabs.com/html/communities/antivirus/index.shtml">ICSA Anti-Virus Lab</A>
+      <LI><IMG SRC="images/xeng.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://www.av-test.org/">AV-Test.org - Tests of Anti-Virus Software</A>
+      <LI><IMG SRC="images/xeng.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://linuxticker.com/artikel/459.html">Feature: Viruses on Unix systems</A>
+      <LI><IMG SRC="images/xdeu.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://av-linux.w3.to/">Antivirus-Software unter Linux</A>
+      <LI><IMG SRC="images/xeng.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://www.virusalerts.net/">Antivirus Portal</A>
+      <LI><IMG SRC="images/xdeu.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://www.tu-berlin.de/www/software/hoax.html">Computer-Viren, die keine sind (sog. "Hoaxes")</A>
+      <LI><IMG SRC="images/xdeu.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://minerva.sozialwiss.uni-hamburg.de/majordomo/hoax.html">email-Viren (HOAXES und gefakte Viren-Warnungen)</A>
+      <LI><IMG SRC="images/xeng.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://www.kumite.com/myths/">Computer Virus Myths home page</A>
+      <LI><IMG SRC="images/xeng.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://www.ncsa.com/services/consortia/anti-virus/alerthoax.html">Alerts And Hoaxes</A>
+      <LI><IMG SRC="images/xeng.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://www.wolfenet.com/~jhardin/procmail-security.html">Enhancing E-Mail Security With Procmail</A>
+      <LI><IMG SRC="images/xeng.gif" WIDTH="16" HEIGHT="10" ALT="">&nbsp;<A HREF="http://home.i.cz/reho//check_virus/">Antivirus for sendmail</A>
+    </UL>
+  </TD>
+</TR>
+</TABLE>
+
+<HR>
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+  <TD CLASS="center" ALIGN="right">
+    <A HREF="http://sourceforge.net/"><IMG aLIGN="abscenter" VALIGN="left" SRC="http://sourceforge.net/sflogo.php?group_id=6006&type=1" WIDTH="88" HEIGHT="31" BORDER="0" ALT="hosted by SourceForge.net"></A>
+  </TD>
+  <TD CLASS="center" ALIGN="center">
+    <A HREF="http://LinuxBerg.com/"><IMG ALIGN="abscenter" BORDER="0" ALT="Rated 5 penguins" SRC="images/5rate.gif"></A>
+  </TD>
+  <TD CLASS="center" ALIGN="left">
+    <A HREF="http://freshmeat.net/"><IMG ALIGN="abscenter" VALIGN="right" BORDER="0" ALT="announced on FreshMeat.net" SRC="images/fm.mini.jpg"></A>
+  </TD>
+</TR>
+</TABLE>
+<hr>
+
+<table align="center" border="0">
+<form method="get" action="http://translate.google.com/translate">
+<tr align="center">
+ <td><a href="http://www.google.com/"><img src="images/poweredby.google.gif" alt="[Powered by Google]" width=135 height=35 border=0></a></td>
+ <td>&nbsp;</td>
+ <td colspan=2><input type=hidden name="sl" value="en">Translate this page to&nbsp;<select name="hl">
+  <option value=zh-CN> Chinese&nbsp;(Simplified)
+  <option value=fr> French
+  <option value=de> German
+  <option value=it> Italian
+  <option value=ja> Japanese
+  <option value=ko> Korean
+  <option value=pt> Portuguese
+  <option value=es> Spanish
+ </select>
+ <input type=hidden name=u value="http://amavis.sourceforge.net/index.php?">
+ </td>
+ <td>&nbsp;</td>
+ <td>&nbsp;<input type=submit value="Go">&nbsp;</td></tr> </form>
+</table>
+<hr>
+<table border="0" width="100%">
+<tr align="center">
+  <td class="center">&copy; 1997-2007 <a href="mailto:webmaster@amavis.org">amavis.org</a></td>
+</tr>
+</table>
+<div align="center" class="hidden">This page uses CSS style sheets</div>
+<center><sub>Sat Jan 23 04:12:42 2021 http://amavis.sourceforge.net/index.php<br>Codebase: Revision: v0.8.2 (Thu Nov 28 07:51:04 2019 by <i>webmaster</i>)</sub></center>
+</body></html>
+```
