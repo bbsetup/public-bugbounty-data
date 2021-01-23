@@ -1,0 +1,1 @@
+```{"error":{"more_info":"https:\/\/developer.dailymotion.com\/api#error-codes","code":501,"message":"Invalid HTTP method: GET","type":"exception"}}```
