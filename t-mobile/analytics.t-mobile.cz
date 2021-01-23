@@ -1,0 +1,74 @@
+```<!DOCTYPE html>
+<html>
+<head>
+    <!-- v1.179.7-0-g2e6290c -->
+    <title>Exponea</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+
+    <base href="/">
+    
+    <link rel="preconnect" href="https://widget.intercom.io">
+    <link rel="dns-prefetch" href="https://cdn.elev.io">
+    <link rel="dns-prefetch" href="https://api.mapbox.com">
+    <link rel="dns-prefetch" href="https://app-rsrc.getbee.io">
+    <link rel="dns-prefetch" href="https://connect.facebook.net">
+    <link rel="dns-prefetch" href="https://www.google.com">
+
+    <link rel="shortcut icon" href="/static/favicon-exponea.ico?retina"/>
+
+    <!-- globals.json file to be loaded as soon as possible, used in AppInitializer -->
+    <script>
+        window.globalsJsonPromise = fetch('/api/globals.json?v=' + Date.now(), {
+            mode: 'same-origin',
+            credentials: 'same-origin',
+        });
+
+        window.permissionsPromise = fetch('/api/iam/v1/users/permissions', {
+            mode: 'same-origin',
+            credentials: 'same-origin',
+        });
+    </script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/static/gen/app-styles-dist-57dd9d8f46.css"/>
+    <link rel="stylesheet" href="/static/gen/app-styles-sass-dist-77d8350fec.css"/>
+
+
+    <!-- Scripts -->
+    <script type="text/javascript">
+        window.globalFrontendConfig = {
+            app_frontend_version: 'v1.179.7-0-g2e6290c',
+            sandboxed_iframe_url: 'http://localhost:4001',
+            sdk_object_name: 'exponea'
+        };
+    </script>
+    <script>
+        window.FileAPI = { staticPath: '/static/js/vendors/fileapi/' };
+    </script>
+    <!--
+        This file is used to detected the AdBlocker extension
+        AdBlockers can turn off certain features of the app, that's why we need to detect them and show warning
+        AdBlockers usually blocks scripts with name like ads.js
+    -->
+    <script type="text/javascript" src="/static/js/ads.js"></script>
+</head>
+<body>
+
+<script>
+    // initialize SDK stub (so that we can track events from first load)
+    !function(i,t,sdk){function e(e){return function(){var n=arguments;if("initialize"==e&&n&&n[0].modify&&n[0].modify.overlay&&"loading"==t.readyState){var a="__inf__overlay__";t.write('<div id="'+a+'" style="position:absolute;background:#fff;left:0;top:0;width:100%;height:100%;z-index:1000000"></div>'),setTimeout(function(){var e=t.getElementById(a);e&&t.body.removeChild(e),i[sdk].__=!0},n[0].modify.delay||500)}this._.push([e,arguments])}}if(!i[sdk]){var n,a,o="initialize identify update track trackLink trackEnhancedEcommerce getHtml showHtml showBanner showForm ping getAbTest getRecommendation".split(" ");for(i[sdk]={_:[]},a=0;a<o.length;a++)n=o[a],i[sdk][n]=e(n);}}(window,document,'exponea');
+
+    // Intercom - part of intercom initialization script that handles intercom API requests before the intercom widget is loaded (see service-integration.js)
+    (function () {
+        var w = window; var i = function () { i.c(arguments) }; i.q = []; i.c = function (args) { i.q.push(args) }; w.Intercom = i;
+    })();
+
+    navigator.serviceWorker.register('service-worker.js');
+</script>
+
+<script>!function(e){var r={};function __webpack_require__(t){if(r[t])return r[t].exports;var _=r[t]={i:t,l:!1,exports:{}};return e[t].call(_.exports,_,_.exports,__webpack_require__),_.l=!0,_.exports}__webpack_require__.m=e,__webpack_require__.c=r,__webpack_require__.d=function(e,r,t){__webpack_require__.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},__webpack_require__.t=function(e,r){if(1&r&&(e=__webpack_require__(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(__webpack_require__.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var _ in e)__webpack_require__.d(t,_,function(r){return e[r]}.bind(null,_));return t},__webpack_require__.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return __webpack_require__.d(r,"a",r),r},__webpack_require__.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},__webpack_require__.p="",__webpack_require__(__webpack_require__.s=756)}({676:function(e,r,t){"use strict";t.d(r,"c",(function(){return _})),t.d(r,"d",(function(){return o})),t.d(r,"a",(function(){return getShowCustomersSessionStorageKey})),t.d(r,"b",(function(){return popShowCustomersToWindow}));const _="showCustomers",o="__showCustomers";function getShowCustomersSessionStorageKey(e){return`showCustomers_${e}`}function popShowCustomersToWindow(e){const r=new URLSearchParams(e.location.search),t=r.get(_);if(!t)return;r.set(_,"1");const n=r.toString(),u=n?`${e.location.pathname}?${n}`:e.location.pathname;e.history.replaceState(null,null,u);const i=getShowCustomersSessionStorageKey(t);e[o]=e.sessionStorage.getItem(i),e.sessionStorage.removeItem(i)}},756:function(e,r,t){"use strict";t.r(r);var _=t(676);Object(_.b)(window)}});</script><script>!function(e){var t={};function __webpack_require__(i){if(t[i])return t[i].exports;var a=t[i]={i:i,l:!1,exports:{}};return e[i].call(a.exports,a,a.exports,__webpack_require__),a.l=!0,a.exports}__webpack_require__.m=e,__webpack_require__.c=t,__webpack_require__.d=function(e,t,i){__webpack_require__.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:i})},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},__webpack_require__.t=function(e,t){if(1&t&&(e=__webpack_require__(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var i=Object.create(null);if(__webpack_require__.r(i),Object.defineProperty(i,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var a in e)__webpack_require__.d(i,a,function(t){return e[t]}.bind(null,a));return i},__webpack_require__.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return __webpack_require__.d(t,"a",t),t},__webpack_require__.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},__webpack_require__.p="",__webpack_require__(__webpack_require__.s=757)}({757:function(e,t,i){e.exports=i(758)},758:function(e,t){const i={duration:3,canvasSize:100,segmentsCount:60,mainRadius:77,stroke:10,yellow:"#fade09",exp:10},a=[],n=createElement("div.exponea-loader",document.body,{position:"absolute",width:`${i.canvasSize}px`,height:`${i.canvasSize}px`,left:"50%",top:"50%",marginLeft:`${-.5*i.canvasSize}px`,marginTop:`${-.5*i.canvasSize}px`,fontSize:`${(i.canvasSize/(100/i.exp)).toFixed(5)}px`,animation:`pulse ${(.5*i.duration).toFixed(4)}s ${i.duration.toFixed(4)}s linear infinite`});createElement("div",n,{position:"absolute",width:`${i.mainRadius}%`,height:`${i.mainRadius}%`,left:"50%",top:"50%",backgroundColor:"white",borderRadius:"50%",transform:"translate3d(-50%,-50%,0)"}),createElement("div",n,{position:"absolute",width:`${i.mainRadius+1.5*i.stroke}%`,height:`${i.mainRadius+1.5*i.stroke}%`,left:`${50-.5*(i.mainRadius+1.5*i.stroke)}%`,top:`${50-.5*(i.mainRadius+1.5*i.stroke)}%`,backgroundColor:i.yellow,borderRadius:"50%",transform:"translate3d(0,0,0) scale(0.7)",opacity:"0",animation:`grow-in ${(.15*i.duration).toFixed(4)}s ${(.66*i.duration).toFixed(4)}s forwards ease-out`});a.push("@keyframes grow-in {"),a.push("0% { transform: translate3d(0,0,0) scale(0.7); opacity: 0; }"),a.push("100% { transform: translate3d(0,0,0) scale(1); opacity: 1; }"),a.push("}");const o=i.stroke/i.exp,r=i.mainRadius/2,s=i.duration/3,u=1+6.5*r/o/i.segmentsCount/i.exp,d={position:"absolute",left:"50%",top:"50%",width:`${u*o}em`,height:o+"em",marginLeft:`${-.5*u*o}em`,marginTop:`${-.5*o}em`,borderRadius:`${o}em`,backgroundColor:i.yellow,opacity:"1"};Math.PI,i.segmentsCount;for(let e=1;e<i.segmentsCount;e++){const t=e/i.segmentsCount,o=.55*t*50,u=1-.65*Math.sin(t*Math.PI/2);createElement("div",n,Object.assign(Object.assign({},d),{animation:`ac${e} ${s.toFixed(4)}s 0s 3 forwards`})),a.push("@keyframes ac"+e+" {"),a.push(`0% { transform: rotate(0deg) translate3d(0,${(-r/i.exp).toFixed(4)}em,0) scaley(${u.toFixed(2)}); }`),a.push(`${o.toFixed(2)}% { transform: rotate(0deg) translate3d(0,${(-r/i.exp).toFixed(4)}em,0) scaley(${u.toFixed(2)}); animation-timing-function: cubic-bezier(0, 0, ${(.3+.7*t).toFixed(2)}, 1); }`),a.push(`100% { transform: rotate(360deg) translate3d(0,${(-r/i.exp).toFixed(4)}em,0) scaley(1); }`),a.push("}")}const c='<div style="position: absolute; background-color: #000; ';createElement("div",n,{position:"absolute",width:"35%",height:"35%",left:"50%",top:"50%",transform:"translate3d(-53%,-53%,0)",animation:`fade-in ${(.33*i.duration).toFixed(4)}s ${(.66*i.duration).toFixed(4)}s forwards ease-out`,opacity:"0"}).innerHTML=c+'width: 93.5%; height: 18%; left: 3.5%; top: 78.5%;"></div>'+c+'width: 75.5%; height: 18%; left: 21.5%; top: 41%;"></div>'+c+'width: 56%; height: 18%; left: 41%; top: 3.5%;"></div>'+c+'width: 19%; height: 48%; left: 21.5%; top: 41%;"></div>'+c+'width: 19%; height: 48%; left: 41%; top: 3.5%;"></div>',a.push("@keyframes fade-in {"),a.push("0% { opacity: 0; }"),a.push("100% { opacity: 1; }"),a.push("}");function createElement(e,t,i){const a=e.split("."),n=document.createElement(a[0]),o=n.style;a[1]&&(n.className=a[1]);for(const e in i)e in o&&(o[e]=i[e]);return t&&t.appendChild(n),n}a.push("@keyframes pulse {"),a.push("0% { transform: translate3d(0, 0, 0) scale(1); }"),a.push(`${79..toFixed(2)}% { transform: translate3d(0, 0, 0) scale(1); transition-timing-function: ease-out; }`),a.push(`${82.5.toFixed(2)}% { transform: translate3d(0, 0, 0) scale(${1.08.toFixed(2)}); transition-timing-function: ease-in-out; }`),a.push(`${89.5.toFixed(2)}% { transform: translate3d(0, 0, 0) scale(${.96.toFixed(2)}); transition-timing-function: ease-in-out; }`),a.push(`${96.5.toFixed(2)}% { transform: translate3d(0, 0, 0) scale(${1.02.toFixed(2)}); transition-timing-function: ease-in-out; }`),a.push("100% { transform: translate3d(0, 0, 0) scale(1); }"),a.push("}"),function(e){const t=document.head||document.getElementsByTagName("head")[0],i=this.styleElement=document.createElement("style");i.type="text/css",i.appendChild(document.createTextNode(e)),t.appendChild(i)}(a.join("\n"))}});</script><script type="text/javascript" src="static/polyfills.bundle.79cfe6757d04bb39acbd.js"></script><script type="text/javascript" src="static/vendor.bundle.79cfe6757d04bb39acbd.js"></script><script type="text/javascript" src="static/app.bundle.79cfe6757d04bb39acbd.js"></script></body>
+
+</html>
+```
