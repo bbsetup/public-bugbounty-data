@@ -1,0 +1,153 @@
+```<html>
+	<head>
+		<title>anyInventory</title>
+		<link rel="stylesheet" type="text/css" href="/includes/style.css" />
+	</head>
+	<body>
+		<div id="menu">
+			<div class="menu_item">
+				<a href="/index.php">News</a>
+			</div>
+			<div class="menu_item">
+				<a href="/testimonials.php">Testimonials</a>
+			</div>
+			<div class="menu_item">
+				<a href="/download.php">Download</a>
+			</div>
+			<div class="menu_item">
+				<a href="http://sourceforge.net/donate/index.php?group_id=110239"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project" /></a>
+			</div>
+			<div class="menu_item">
+				<a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=110239&amp;type=2" width="125" height="37" border="0" alt="SourceForge.net Logo" /></a>
+			</div>
+		</div>
+		<div id="content"><div class="announcement">
+	<h2 class="title">Notice</h2>
+        <span class="date">July 5, 2006</span>
+	<div class="body">
+		<p>anyInventory has a new developer, Mister Ed.  However, new versions and updates will take some time as he gets up to speed on all the current issuesand dynamics of anyInventory </p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory</h2>
+	<div class="body">
+		<p>Welcome to the website for anyInventory, the Web's most flexible and powerful inventory system.</p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 2.0 Released</h2>
+	<span class="date">March 19, 2005</span>
+	<div class="body">
+		<p>anyInventory has been rewritten using the PEAR DB abstraction layer in order to add support for Oracle (oci8) databases. XML export support has been removed, but the barcode/label system has seen a tremendous upgrade thanks to user Steven Ball.</p>
+		<p>The storage for uploaded files has been moved to the database rather than the item_files folder in order to simplify the installation, and all bugs submitted into the SourceForge bug tracker have been fixed.</p>
+		<p>Any users of previous versions of anyInventory with access to PEAR are encouraged to upgrade.</p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 1.9.1 Released</h2>
+	<span class="date">August 17, 2004</span>
+	<div class="body">
+		<p>Version 1.9.1 of anyInventory has been released. This version contains fixes for several serious bugs present in 1.9, some of which made the application unusable for some people. Users of any previous versions are strongly encouraged to upgrade.</p>
+		<p>The code for deletion of files, items, and categories has been completely re-written, which should solve the problem of orphaned files and items. Also, all of the patches listed on the SourceForge patch page have been incorporated as well.</p>
+		<p>Two new features are present in 1.9.1:</p>
+		<ul>
+			<li>Label sheets. You can now generate labels from anyInventory that are ready to print on five different commonly used label sheets. Future versions will allow you to specify your own dimensions for the sheet.</li>
+			<li>Table view vs. list view. You can now view items in either a list view, which has been the default in all previous releases, or a table view, much like a spreadsheet. This option can be toggled on each category page.</li>
+		</ul>
+		<p>A German translation has been added, so anyInventory is now available in English, Spanish, French, and German. There is no German documentation; if you would be willing to translate, contact chris@efinke.com.</p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 1.9 Released</h2>
+	<span class="date">July 31, 2004</span>
+	<div class="body">
+		<p>Version 1.9 of anyInventory has been released. This version has several new features:</p>
+		<ul>
+			<li>Item associations. You can now create a field that is populated by links to all of the items in the inventory.</li>
+			<li>WYSIWYG editor. For text fields longer than 255 characters, a WYSIWYG editor is provided for adding or editing text.</li>
+			<li>Alert expirations. You can now specify an ending date for an alert.</li>
+			<li>Multi-language support. anyInventory is now available in Spanish and French, and can be translated to any other language by translating the single language file, and optionally, the documentation folder. Thanks to Isaac Uribe and Cedric Arrabie for the translations.</li>
+			<li>XML download. You can now download the contents of your inventory as an XML file.</li>
+		</ul>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 1.8 Released</h2>
+	<span class="date">July 10, 2004</span>
+	<div class="body">
+		<p>This is our biggest release yet, with over a week since 1.7.1 was released.  An entirely new user system has been added, allowing for the password-protection of the administration side as well as the entire inventory.</p>
+		<p>The quick-search on each page has been brought back to replace the advanced search, which is undergoing a re-write.   </p>
+		<p>Also added is the auto-incrementing field, which keeps track of a unique id number for each item in the inventory.  This field name, as well as the text on the front page and the "Name" field label can now be customized in the administration section.</p>
+		<p>Another new feature is the addition of more information in the item lisiting in each category.  Now, the first few fields for each item are shown after the item name with their values, allowing for quicker finding of the item you want to view.</p>
+		<p>Field dividers have been added as well, allowing you to separate groups of fields into logical divisions.</p>
+		<p>Users of any previous version are strongly encouraged to upgrade to 1.8, as many bugs have been fixed since the release of 1.7.1.</p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 1.7.1 Released</h2>
+	<span class="date">July 1, 2004</span>
+	<div class="body">
+		<p>Version 1.7.1 of anyInventory has been released.  Brand new user-requested features in this version include the ability to highlight fields, the addition of an auto-incrementing field, automatic hiding of the administration links from unauthorized users, and an improved quick search.</p>
+		<p>Several bugs that made version 1.7 unusable for some users have been fixed.  As version 1.7.1 is the most well-tested and stable release of anyInventory to date, current users of any previous release are encouraged to upgrade.  New users can try out a demo at the <a href="http://anyinventory.sourceforge.net/">anyInventory homepage</a> before downloading.</p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 1.7 Released</h2>
+	<span class="date">June 27, 2004</span>
+	<div class="body">
+		<p>The development team is pleased to announce the release of version 1.7. This release is by far the most stable release yet, as all known major bugs have been fixed. Additionally, four new features have been added: thumbnailing and local storage of images added by URL (when the <a href="http://us2.php.net/curl">libcURL library</a> is installed); built-in password protection of the admin directory (optional); multiple-category alerts; and a brand-new, cleaner, easier-to-use layout. It is strongly recommended that anyone using a previous version of anyInventory upgrade to version 1.7.</p>
+		<p>New users (or current users thinking about upgrading) can <a href="http://www.efinke.com/anyinventory/">test out the newest version before downloading</a>.</p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 1.6 Released</h2>
+	<span class="date">June 21, 2004</span>
+	<div class="body">
+		<p>The team is proud to announce the release of version 1.6. Improvements have been made to the alerts functionality as well as the file upload and remote file functions. Also, many bugs have been found and fixed.</p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 1.5 Released</h2>
+	<span class="date">June 16, 2004</span>
+	<div class="body">
+		<p>The team is proud to announce the release of version 1.5. New in this version is the ability to create barcode labels from the fields of the items in the inventory; also present in this release are several important fixes for bugs present in versions 1.4 and 1.4.1.</p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 1.4.1 Released</h2>
+	<span class="date">June 15, 2004</span>
+	<div class="body">
+		<p>anyInventory 1.4.1 has been released; this release has many fixes for bugs that appeared in version 1.3 and 1.4. Speed and efficiency has been increased due to some changes to the fundamental classes of anyInventory. It is recommended that anyone using a previous version upgrade to anyInventory 1.4.1.</p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 1.4 Released</h2>
+	<span class="date">June 10, 2004</span>
+	<div class="body">
+		<p>anyInventory 1.4 has been released. This release's main new feature is alerts, which allow you to have anyInventory notify you when certain pre-defined conditions arise.</p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 1.3 Released</h2>
+	<span class="date">June 7, 2004</span>
+	<div class="body">
+		<p>anyInventory 1.3 has been released, and now supports multiple-category search. Additionally, this release has a cleaner layout, valid HTML, and some changes to make it more user-friendly.</p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 1.2 Released</h2>
+	<span class="date">June 6, 2004</span>
+	<div class="body">
+		<p>Version 1.2 of anyInventory has been released. New features include an improved search capability and the ability to associate remote files with an inventoried item.</p>
+	</div>
+</div>
+<div class="announcement">
+	<h2 class="title">anyInventory 1.0 Released</h2>
+	<span class="date">June 2, 2004</span>
+	<div class="body">
+		<p>This release marks the first public offering of anyInventory, the Web's most flexible inventory system. Features include categories and subcategories, user-defined fields, file uploads, and advanced search functionality.</p>
+	</div>
+</div>
+		</div>
+	</body>
+</html>```
