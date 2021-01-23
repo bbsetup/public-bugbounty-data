@@ -1,0 +1,606 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Anteater</title>
+<link type="text/css" href="skin/page.css" rel="stylesheet">
+</head>
+<body text="#000000" bgcolor="#FFFFFF">
+<!--================= start Navigation Path ==================-->
+<table summary="navigation path" width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td nowrap="nowrap" valign="middle" bgcolor="#CFDCED" height="20"><img height="1" width="5" alt="" border="0" src="skin/images/spacer.gif"><!--===== breadcrumb trail (javascript-generated) ====--><font size="2" face="Arial, Helvetica, Sans-serif"><script src="skin/breadcrumbs.js" language="JavaScript" type="text/javascript"></script></font></td>
+</tr>
+<tr>
+<td bgcolor="#4C6C8F" height="2"><img height="2" width="2" alt="" border="0" src="skin/images/spacer.gif"></td>
+</tr>
+</table>
+<!--================= end Navigation Path ==================-->
+<!--================= start Banner ==================-->
+<table summary="header with logos" width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<!--================= start Group Logo ==================-->
+<td bgcolor="#294563"></td>
+<!--================= end Group Logo ==================-->
+<!--================= start Project Logo ==================--><td width="100%" align="center" bgcolor="#294563"><a href="http://aft.sourceforge.net/"><img border="0" class="logoImage" alt="Anteater" src="images/logo.png"></a></td>
+<!--================= end Project Logo ==================-->
+<!--================= start Search ==================--><td valign="top" rowspan="2" bgcolor="#294563"></td>
+<!--================= start Search ==================--><td bgcolor="#294563"><img height="10" width="10" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td valign="bottom" bgcolor="#294563" colspan="2">
+<!--================= start Tabs ==================-->
+<div class="tab">
+<table summary="tab bar" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="8"><img alt="" height="8" width="8" src="skin/images/spacer.gif"></td><td valign="bottom">
+<table summary="selected tab" style="height: 1.7em" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" width="5" bgcolor="#4C6C8F"><img height="5" width="5" alt="" src="skin/images/tabSel-left.gif"></td><td valign="middle" bgcolor="#4C6C8F"><font color="#ffffff" size="2" face="Arial, Helvetica, Sans-serif"><b><a href="index.html"><font color="#000000">Home</font></a></b></font></td><td valign="top" width="5" bgcolor="#4C6C8F"><img height="5" width="5" alt="" src="skin/images/tabSel-right.gif"></td>
+</tr>
+</table>
+</td><td width="8"><img alt="" height="8" width="8" src="skin/images/spacer.gif"></td><td valign="bottom">
+<table summary="non selected tab" style="height: 1.6em" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" width="5" bgcolor="#B2C4E0"><img height="5" width="5" alt="" src="skin/images/tab-left.gif"></td><td valign="middle" bgcolor="#B2C4E0"><a href="examples/index.html"><font face="Arial, Helvetica, Sans-serif">Samples</font></a></td><td valign="top" width="5" bgcolor="#B2C4E0"><img height="5" width="5" alt="" src="skin/images/tab-right.gif"></td>
+</tr>
+</table>
+</td><td width="8"><img alt="" height="8" width="8" src="skin/images/spacer.gif"></td><td valign="bottom">
+<table summary="non selected tab" style="height: 1.6em" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" width="5" bgcolor="#B2C4E0"><img height="5" width="5" alt="" src="skin/images/tab-left.gif"></td><td valign="middle" bgcolor="#B2C4E0"><a href="manual"><font face="Arial, Helvetica, Sans-serif">User Manual</font></a></td><td valign="top" width="5" bgcolor="#B2C4E0"><img height="5" width="5" alt="" src="skin/images/tab-right.gif"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<!--================= end Tabs ==================-->
+</td><td bgcolor="#294563"><img alt="" width="1" height="1" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td bgcolor="#4C6C8F" colspan="4"><img width="1" height="10" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+</table>
+<!--================= end Banner ==================-->
+<!--================= start Menu, NavBar, Content ==================-->
+<table summary="page content" bgcolor="#ffffff" width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top">
+<table summary="menu" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<!--================= start left top NavBar ==================-->
+<td rowspan="3" valign="top">
+<table summary="blue line" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td bgcolor="#294563"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td bgcolor="#CFDCED"><font color="#4C6C8F" size="4" face="Arial, Helvetica, Sans-serif">&nbsp;</font></td>
+</tr>
+<tr>
+<td bgcolor="#294563"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+</table>
+</td>
+<!--================= end left top NavBar ==================--><td bgcolor="#294563"><img width="1" height="1" alt="" src="skin/images/spacer.gif"></td><td valign="bottom" bgcolor="#4C6C8F"><img width="10" height="10" alt="" src="skin/images/spacer.gif"></td><td nowrap="nowrap" valign="top" bgcolor="#4C6C8F">
+<!--================= start Menu items ==================-->
+<div class="menu">
+<ul>
+<li>
+<font color="#CFDCED">Anteater</font>
+<ul>
+    
+<li>
+<span class="sel"><font color="#ffcc00">Home</font></span>
+</li>
+    
+    
+<li>
+<a href="download.html">Download</a>
+</li>
+    
+<li>
+<a href="updates.html">Updates</a>
+</li>
+    
+<li>
+<a href="faq.html">FAQ</a>
+</li>
+    
+<li>
+<a href="changes.html">Changes</a>
+</li>
+    
+<li>
+<a href="todo.html">Todo</a>
+</li>
+    
+<li>
+<a href="../javadocs/index.html">Javadocs</a>
+</li>
+  
+</ul>
+</li>
+<li>
+<font color="#CFDCED">Samples</font>
+<ul>
+    
+<li>
+<a href="examples/index.html">Scripts</a>
+</li>
+    
+<li>
+<a href="../example_output/frames/index.html">HTML Reports</a>
+</li>
+  
+</ul>
+</li>
+<li>
+<font color="#CFDCED">Getting Involved</font>
+<ul>
+    
+<li>
+<a href="lists.html">Mailing lists</a>
+</li>
+    
+<li>
+<a target="_blank" href="http://sourceforge.net/tracker/?func=add&group_id=42970&atid=434732">Report a bug</a>
+</li>
+  
+</ul>
+</li>
+<li>
+<font color="#CFDCED">User Manual</font>
+<ul>
+    
+<li>
+<a href="manual/Introduction.html">Introduction</a>
+</li>
+    
+<li>
+<a href="manual/Getting%20started.html">Getting Started</a>
+</li>
+    
+<li>
+<a href="manual/Grouping.html">Grouping</a>
+</li>
+    
+<li>
+<a href="manual/Configuration.html">Configuration</a>
+</li>
+    
+<li>
+<a href="manual/Anteater%20tags.html">Anteater tags</a>
+</li>
+    
+<li>
+<a href="manual/Action%20tasks.html">Action tasks</a>
+</li>
+    
+<li>
+<a href="manual/Match%20task.html">Match task</a>
+</li>
+    
+<li>
+<a href="manual/Test%20tasks.html">Test tasks</a>
+</li>
+    
+<li>
+<a href="manual/Webapp%20tasks.html">Webapp tasks</a>
+</li>
+    
+<li>
+<a href="manual/Auxiliary%20tasks.html">Auxiliary tasks</a>
+</li>
+    
+<li>
+<a href="manual/External%20tasks.html">External tasks</a>
+</li>
+    
+<li>
+<a href="manual/Complete%20examples.html">Complete examples</a>
+</li>
+    
+<li>
+<a href="manual/Invoking%20from%20Ant.html">Invoking from Ant </a>
+</li>
+    
+<li>
+<a href="manual/Related%20projects.html">Related projects</a>
+</li>
+    
+<li>
+<a href="manual/Acknowledgements.html">Acknowledgements</a>
+</li>
+  
+</ul>
+</li>
+<li>
+<font color="#CFDCED">Printable manual</font>
+<ul>
+    
+<li>
+<a href="manual/Anteater.html">Printable HTML</a>
+</li>
+    
+<li>
+<a href="manual/Anteater.pdf">PDF</a>
+</li>
+  
+</ul>
+</li>
+<li>
+<font color="#CFDCED">Sourceforge</font>
+<ul>
+    
+<li>
+<a href="http://www.sourceforge.net/projects/aft">Project page</a>
+</li>
+    
+<li>
+<a target="_blank" href="http://sourceforge.net/tracker/?group_id=42970&atid=434732">Bug list</a>
+</li>
+    
+<li>
+<a target="_blank" href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/aft/Anteater/resources/scripts/updates/">Updates list</a>
+</li>
+    
+<li>
+<a target="_blank" href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/aft/Anteater/">Browse CVS</a>
+</li>
+  
+</ul>
+</li>
+</ul>
+</div>
+<!--================= end Menu items ==================-->
+</td><td valign="bottom" bgcolor="#4C6C8F"><img width="10" height="10" alt="" src="skin/images/spacer.gif"></td><td bgcolor="#294563"><img width="1" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td valign="bottom" align="left" colspan="2" rowspan="2" bgcolor="#4C6C8F"><img height="10" width="10" border="0" alt="" src="skin/images/menu-left.gif"></td><td bgcolor="#4C6C8F"><img height="10" width="10" border="0" alt="" src="skin/images/spacer.gif"></td><td valign="bottom" align="right" colspan="2" rowspan="2" bgcolor="#4C6C8F"><img height="10" width="10" border="0" alt="" src="skin/images/menu-right.gif"></td>
+</tr>
+<tr>
+<td height="1" bgcolor="#294563"><img width="1" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+</table>
+</td><td valign="top" width="100%">
+<table summary="content" width="100%" border="0" cellpadding="0" cellspacing="0">
+<!--================= start middle NavBar ==================-->
+<tr>
+<td colspan="4" bgcolor="#294563"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td align="left" width="10" bgcolor="#CFDCED"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td><td align="left" width="50%" bgcolor="#CFDCED"><font color="#4C6C8F" size="3" face="Arial, Helvetica, Sans-serif">
+                &nbsp;
+                
+                </font><img width="10" height="8" alt="" src="skin/images/spacer.gif"></td><td align="right" width="50%" bgcolor="#CFDCED"><font color="#4C6C8F" size="3" face="Arial, Helvetica, Sans-serif">
+                &nbsp;
+                
+                </font><img width="10" height="8" alt="" src="skin/images/spacer.gif"></td><td width="10" bgcolor="#CFDCED"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<tr>
+<td colspan="4" bgcolor="#294563"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<!--================= end middle NavBar ==================-->
+<!--================= start Content==================-->
+<tr>
+<td align="left" width="10"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td><td align="left" width="100%">
+<div class="content">
+<table class="title" summary="">
+<tr>
+<td valign="middle">
+<h1>Anteater</h1>
+</td><td nowrap="nowrap" width="80" align="center"><a class="dida" href="index.pdf"><img alt="printer" src="skin/images/printer.gif" border="0"><br>
+          print-friendly<br>
+          PDF</a></td>
+</tr>
+</table>
+<h3>Ant-based functional testing</h3>
+<p>
+<font size="-2">by&nbsp;Ovidiu Predescu,&nbsp;Jeff Turner</font>
+</p>
+<ul class="minitoc">
+<li>
+<a href="#Introduction">Introduction</a>
+</li>
+<li>
+<a href="#Features">Features</a>
+</li>
+<li>
+<a href="#What%27s+New">What's New</a>
+<ul class="minitoc">
+<li>
+<a href="#Version+0.9.16+release+%282003-04-12%29.">Version 0.9.16 release (2003-04-12).</a>
+</li>
+<li>
+<a href="#Version+0.9.15+release+%282002-11-16%29.">Version 0.9.15 release (2002-11-16).</a>
+</li>
+<li>
+<a href="#Version+0.9.14+release+%282002-10-25%29.">Version 0.9.14 release (2002-10-25).</a>
+</li>
+<li>
+<a href="#Version+0.9.13+release+%282002-10-11%29.">Version 0.9.13 release (2002-10-11).</a>
+</li>
+<li>
+<a href="#Version+0.9.12+release+%282002-10-6%29.">Version 0.9.12 release (2002-10-6).</a>
+</li>
+<li>
+<a href="#Version+0.9.11+release+%282002-10-5%29.">Version 0.9.11 release (2002-10-5).</a>
+</li>
+<li>
+<a href="#Version+0.9.10+release+%282002-09-28%29.">Version 0.9.10 release (2002-09-28).</a>
+</li>
+<li>
+<a href="#Version+0.9.9.1+bugfix+release+%282002-09-19%29.">Version 0.9.9.1 bugfix release (2002-09-19).</a>
+</li>
+<li>
+<a href="#Version+0.9.9+released%21+%282002-08-22%29">Version 0.9.9 released! (2002-08-22)</a>
+</li>
+</ul>
+</li>
+</ul> 
+    
+<a name="N101CD"></a><a name="Introduction"></a>
+<h3>Introduction</h3>
+<div style="margin-left: 0 ; border: 2px">
+<p>Welcome to Anteater!
+        <s1 element="index" title="Introduction">
+      
+      
+<p>Anteater is a testing framework designed around <a href="http://jakarta.apache.org">Ant</a>, from
+      the Apache Jakarta Project. It provides an easy way to write
+      tests for checking the functionality of a Web application or of
+      an XML Web service.</p>
+      
+      
+<p>The type of tests you can write using Anteater are:</p>
+      
+      
+<ul>
+        
+<li>Send a HTTP/HTTPS request to a Web server. When the response comes
+          back, test that it meets certain criteria. You can check for HTTP
+          headers and response codes, and validate the response body with
+          regexp, XPath, Relax NG, or contentEquals tests, plus some binary
+          formats. New tests can be easily added.
+        </li>
+
+        
+<li>Listen for incoming HTTP requests at an given URL on the
+        local machine. When a request comes on that URL, you can check
+        its parameters and/or content, and send a response
+        accordingly.</li>
+      
+</ul>
+
+      
+<p>The ability to wait for incoming HTTP messages is something
+      unique to Anteater, which makes it especially useful when
+      building tests for applications that use high level SOAP-based
+      communication, like ebXML or BizTalk. Applications written using
+      these protocols usually receive SOAP messages, and send back a
+      meaningless response. It is only later when they inform the
+      client, using an HTTP request on the client, about the results
+      of the processing. These are the so-called <em>asynchronous SOAP
+      messages</em>, and are the heart of many high-level protocols
+      based on SOAP or XML messages.</p>
+
+      
+<p>Here is a simple example written using Anteater:</p>
+      
+      
+<pre class="code">&lt;target name="simple"&gt;
+  &lt;soapRequest description="Post a simple SOAP request"
+               href="http://services.xmethods.net:80/soap"
+               content="test/requests/get-quote"&gt;
+    &lt;namespace prefix="soap" uri="http://schemas.xmlsoap.org/soap/envelope/"/&gt;
+    &lt;namespace prefix="n" uri="urn:xmethods-delayed-quotes"/&gt;
+    &lt;match&gt;
+      &lt;responseCode value="200"/&gt;
+      &lt;xpath select="/soap:Envelope/soap:Body/n:getQuoteResponse/Result"/&gt;
+    &lt;/match&gt;
+  &lt;/soapRequest&gt;
+&lt;/target&gt;</pre>
+   
+    
+<p>Anteater provides XML and text logging support, and the ability
+      to render the logs into HTML reports.</p>
+
+    
+</s1>
+      
+</p>
+</div>
+    
+<a name="N10202"></a><a name="Features"></a>
+<h3>Features</h3>
+<div style="margin-left: 0 ; border: 2px">
+<ul>
+        
+<li>
+          Uses Ant as a technical foundation, taking advantage of Ant's
+          stability, features, widespread deployment and acceptance.
+        </li>
+        
+<li>
+          Built-in webserver allows testing of HTTP requests as well as
+          responses, making Anteater uniquely suitable for testing interactive
+          web services.
+        </li>
+        
+<li>
+          Suitable for non-interactive, cron-driven use in <a href="http://www.martinfowler.com/articles/continuousIntegration.html">Continuous
+            integration</a> environments. Provides one-step deployment,
+          testing and reporting of webapps.
+        </li>
+        
+<li>
+          Provides XML logging and HTML reporting, extending that found in Ant's
+          JUnit tasks. Supports frames and non-frames HTML output. The generated
+          HTML is easily customizable to match your website's look.
+        </li>
+        
+<li>
+          Tests in scripts can be grouped by functionality, or any other
+          classification scheme. Grouped tasks can share common configurations,
+          allowing the user to manage large scripts easily. Groups are
+          hierarchical, with configurations being inherited. The grouping system
+          is fully integrated with the HTML reporting, so test reports are
+          meaningfully classified.
+        </li>
+        
+<li>
+          Anteater updates (new matchers, schemas, bugfixes, even version
+          upgrades) can be automatically downloaded and installed as needed.
+        </li>
+         
+<li>
+          Comes with extensive documentation in the form of a 40-page user
+          manual, available as HTML or PDF, plus numerous example scripts.
+        </li>
+    
+</ul>
+</div>
+  
+<a name="N10225"></a><a name="What%27s+New"></a>
+<h3>What's New</h3>
+<div style="margin-left: 0 ; border: 2px">
+<a name="N10229"></a><a name="Version+0.9.16+release+%282003-04-12%29."></a>
+<h4>Version 0.9.16 release (2003-04-12).</h4>
+<div style="margin-left: 0 ; border: 2px">
+<p>
+      A release containing 4 months of accumulated bug fixes and the occasional
+      new feature.  There are various <span class="codefrag">followRedirects</span> fixes,
+      <span class="codefrag">contentEquals</span> now doesn't always pass, HTTP BASIC
+      authentication works properly, and failing tests now generate a log file.
+      New features include a <span class="codefrag">fileRequest</span> task for querying local
+      files, and more flexible logging.  See the <a href="changes.html">changelog</a> for details.
+    </p>
+<p>
+      One important change: Anteater 0.9.16 <strong>requires JDK 1.4</strong> to
+      run.  This is to support internationalization and HTTPS features.
+    </p>
+</div>
+<a name="N10241"></a><a name="Version+0.9.15+release+%282002-11-16%29."></a>
+<h4>Version 0.9.15 release (2002-11-16).</h4>
+<div style="margin-left: 0 ; border: 2px">
+<p>
+      The primary functional improvement is the addition of code from Ivelin
+      Ivanov, to allow SSL support of unsigned certificates.
+    </p>
+<p>
+      Another significant reporting fix: JTidy errors are now reported properly
+      instead of just on stdout, making HTML reports much more comprehensible.
+      The 'description' attribute is now used in reports.
+    </p>
+</div>
+<a name="N10249"></a><a name="Version+0.9.14+release+%282002-10-25%29."></a>
+<h4>Version 0.9.14 release (2002-10-25).</h4>
+<div style="margin-left: 0 ; border: 2px">
+<p>
+      Some nice new stuff, and lots of bugfixes and tweaks.  Two frequently
+      requested new features are HTTPS support (with proxy tunnelling) and the
+      'followRedirects' attribute, which makes Anteater automatically follow HTTP
+      302 client-side redirects.
+    </p>
+<p>
+      The other major addition is the &lt;uses&gt; tag, which lets a script
+      declare what optional features of Anteater, and Anteater version, it
+      requires.  Whenever a script requires a feature made available through the
+      <a href="updates.html">update system</a>, a corresponding &lt;uses&gt;
+      clause should be added.  Then when a user without that update comes along,
+      they'll get a nice message telling them how to upgrade, rather than an
+      obscure error message.
+    </p>
+<p>
+      I've been writing a pretty extensive <a href="http://xml.apache.org/cocoon">Cocoon</a> test suite of late,
+      during which I made the numerous other small improvements and bugfixes.
+      The Cocoon testsuite is a nice demonstration that Anteater does indeed
+      scale.
+    </p>
+</div>
+<a name="N1025B"></a><a name="Version+0.9.13+release+%282002-10-11%29."></a>
+<h4>Version 0.9.13 release (2002-10-11).</h4>
+<div style="margin-left: 0 ; border: 2px">
+<p>
+      This version fixes a serious bug with the anteater.bat script, and adds an
+      automatic upgrade facility to Anteater. No more waiting for 5mb downloads!
+    </p>
+</div>
+<a name="N10261"></a><a name="Version+0.9.12+release+%282002-10-6%29."></a>
+<h4>Version 0.9.12 release (2002-10-6).</h4>
+<div style="margin-left: 0 ; border: 2px">
+<p>
+      This version adds some conveniences over 0.9.11. It fixes some small
+      reporting bugs, and the 'sendResponse' tag can now have nested
+      'responseCode', 'contentEquals' and 'header' elements.
+    </p>
+</div>
+<a name="N10267"></a><a name="Version+0.9.11+release+%282002-10-5%29."></a>
+<h4>Version 0.9.11 release (2002-10-5).</h4>
+<div style="margin-left: 0 ; border: 2px">
+<p>This version contains a number of important bugfixes (esp. for Windows
+      users), and <a href="http://jakarta.apache.org/commons/sandbox/jelly/">Jelly</a>
+      support.
+    </p>
+</div>
+<a name="N10271"></a><a name="Version+0.9.10+release+%282002-09-28%29."></a>
+<h4>Version 0.9.10 release (2002-09-28).</h4>
+<div style="margin-left: 0 ; border: 2px">
+<p>
+      This version contains an important fix to the HTML frames reporting, plus a
+      number of minor bugfixes and improvements. See the <a href="changes.html">changelog</a> for details.
+    </p>
+</div>
+<a name="N1027B"></a><a name="Version+0.9.9.1+bugfix+release+%282002-09-19%29."></a>
+<h4>Version 0.9.9.1 bugfix release (2002-09-19).</h4>
+<div style="margin-left: 0 ; border: 2px">
+<p>
+      This version fixes a handful of bugs found in the 0.9.9 release.
+    </p>
+</div>
+<a name="N10281"></a><a name="Version+0.9.9+released%21+%282002-08-22%29"></a>
+<h4>Version 0.9.9 released! (2002-08-22)</h4>
+<div style="margin-left: 0 ; border: 2px">
+<p>This version includes significant new functionality over 0.9.3. See the
+      <a href="changes.html">changelog</a> for more details.</p>
+</div>
+</div>
+
+</div>
+</td><td width="10"><img width="10" height="1" alt="" src="skin/images/spacer.gif"></td>
+</tr>
+<!--================= end Content==================-->
+</table>
+</td>
+</tr>
+</table>
+<!--================= end Menu, NavBar, Content ==================-->
+<!--================= start Footer ==================-->
+<table summary="footer" cellspacing="0" cellpadding="0" width="100%" border="0">
+<tr>
+<td colspan="2" height="1" bgcolor="#4C6C8F"><img height="1" width="1" alt="" src="skin/images/spacer.gif"><a href="skin/images/label.gif"></a><a href="skin/images/page.gif"></a><a href="skin/images/chapter.gif"></a><a href="skin/images/chapter_open.gif"></a><a href="skin/images/current.gif"></a><a href="/favicon.ico"></a></td>
+</tr>
+<tr>
+<td colspan="2" bgcolor="#CFDCED" class="copyright" align="center"><font size="2" face="Arial, Helvetica, Sans-Serif">Copyright &copy;
+          2001-2003&nbsp;Ovidiu Predescu and Jeff Turner All rights reserved.<script type="text/javascript" language="JavaScript"><!--
+              document.write(" - "+"Last Published: " + document.lastModified);
+            //  --></script></font></td>
+</tr>
+<tr>
+<td colspan="2" align="left" bgcolor="#CFDCED" class="logos">
+<div>
+<img alt="" height="1" width="10" src="skin/images/spacer.gif"><a href="http://xml.apache.org/forrest"><img border="0" alt="Forrest logo" src="images/project-logo.png" width="88" height="31"><img height="1" width="5" alt="" border="0" src="skin/images/spacer.gif"></a>
+</div>
+<div class="host">
+<img alt="" height="1" width="10" src="skin/images/spacer.gif"><a href=""><img border="0" class="logoImage" alt="" src="http://sourceforge.net/sflogo.php?group_id=42970&type=1"></a>
+</div>
+</td>
+</tr>
+</table>
+<!--================= end Footer ==================-->
+</body>
+</html>
+<!-- Processed by Apache Cocoon 2.1-dev in 5.406 seconds. -->
+```
