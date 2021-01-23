@@ -1,0 +1,920 @@
+```<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>A Hawk Once Told Me</title>
+
+  <meta name="title" content="A Hawk Once Told Me">
+  <meta name="description" content="">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://ahawkoncetoldme.vhx.tv&format=json" title="A Hawk Once Told Me" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://ahawkoncetoldme.vhx.tv&format=xml" title="A Hawk Once Told Me" />
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://ahawkoncetoldme.vhx.tv">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      /* ................................................
+  	global / backgrounds
+  .................................................*/
+  html {
+  	height: 100%;
+  }
+  a:link,
+  a:visited {
+    color: #fff;
+  }
+  
+  a:hover, .sub-page .vhx a:hover {
+    color: #ddd;
+  }
+  body {
+    color: #fff;
+    background: #9a022b url('https://dr56wvhu2c8zo.cloudfront.net/ahawkoncetoldme/assets/a50bdc47-01a2-4afe-b17d-1f8bdad9da85/THEMOON_001.jpg');
+    font-family: 'Average Sans', sans-serif;
+    height: 100%;
+  }
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    z-index: -9999;
+    margin-bottom: 20px;
+    display: none;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* ................................................
+  	header
+  .................................................*/
+  header {
+    width: 705px;
+    margin: 0 auto;
+    display: none;
+  }
+  .headline {
+    margin-bottom: 50px;
+  }
+  .headline h1,
+  .headline h2 {
+  	text-align: center;
+    display: block;
+    width: 705px;
+    margin: 0;
+    padding: 0;
+  }
+  .headline h1 {
+    font-size: 76px;
+    line-height: 1;
+  }
+  .headline h2 {
+    font-size: 28px;
+  }
+  .headline a:link,
+  .headline a:visited {
+    text-decoration: none;
+    color: #fff;
+  }
+  .headline a:hover
+  .headline a:active {
+    text-decoration: none;
+    color: #fff;
+  }
+  .main .headline {
+    position: relative;
+    z-index: 100;
+  }
+  
+  /* ................................................
+    responsive headlines
+   ................................................*/
+  @media screen and (max-width: 700px){
+  	header {
+    	width: 100%;
+    }
+  	.headline h1 {
+  	  padding-top: 50px;
+      font-size: 48px;
+    }
+    .headline h2 {
+      font-size: 18px;
+    }
+   }
+  
+  
+  /* ................................................
+  	slideshow / trailer
+   ................................................*/
+  .main {
+    text-align: center;
+    position: relative;
+    min-height: 500px;
+  }
+  .main .top {
+  	position: relative;
+    height: 100%;
+    min-height: 500px;
+  }
+  .main .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+    -moz-box-shadow: 0px 1px 33px rgba(0,0,0,0.5);
+  	-webkit-box-shadow: 0px 1px 33px rgba(0,0,0,0.5);
+  	box-shadow: 0px 1px 33px rgba(0,0,0,0.5);
+  }
+  .main .thetrailer.container {
+  	-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .main .slides {
+    z-index: 1;
+  }
+  .main .thetrailer {
+  	display: none;
+  }
+  .main .thetrailer.active {
+  	display: block;
+    position: relative;
+  }
+  .main .slides img,
+  .main .thetrailer iframe,
+  .main .thetrailer object,
+  .main .thetrailer embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .main .options {
+    /*padding-top: 24%;*/
+    z-index: 200;
+    width: 705px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .main .options h3 {
+    text-shadow: 0px 0px 8px rgba(0,0,0,.4);
+    margin-bottom: 0px;
+  }
+  .main h1 {
+    text-shadow: 0px 0px 8px rgba(0,0,0,.4);
+    font-weight: normal;
+  }
+  
+  
+  /* ................................................
+  	social
+   ................................................*/
+  .main .social {
+    margin: 40px auto;
+    height: 21px;
+  }
+  .main .facebook {
+  	width: 100px;
+  }
+  .main .twitter {
+  	width: 100px;
+  }
+  .main .facebook.twitter {
+  	width: 200px;
+  }
+  .main .social .item {
+    width: 90px;
+    float: left;
+    margin-left: 10px;
+  }
+  .main p {
+    margin: 0;
+  }
+  
+  /* ................................................
+    responsive main / headline
+   ................................................*/
+  @media screen and (max-height: 400px){
+    .main .social {
+      width: 200px;
+      margin: 5px auto;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .main .options,
+    .main .slides img,
+    .main .thetrailer iframe,
+    .main .thetrailer object,
+    .main .thetrailer embed {
+      position: relative;
+      top: auto;
+      left: auto;
+      bottom: auto;
+      right: auto;
+      width: 100%;
+    }
+    .main .options {
+    	padding-left: 30px;
+      padding-right: 30px;
+      width: auto;
+    }
+    .main,
+    .main .top {
+    	min-height: 200px;
+      position: relative;
+    }
+    .headline h1 {
+    	width: 100%;
+    }
+    .main .thetrailer {
+    	position: relative;
+      width: auto;
+      height: 1px;
+      padding-top: 56.25%;
+      position: relative;
+    }
+    .thetrailer iframe,
+    .thetrailer object,
+    .thetrailer embed {
+    	position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }	
+  }
+  
+  /* ................................................
+     headline buttons
+   ................................................*/
+  a.button {
+    display: inline-block;
+    padding: 10px 24px;
+    font-size: 35px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 50px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+     -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  a.button:hover {
+    background-color: #36a0d9;
+    color: #FFF;
+  }
+  
+  /* ................................................
+    responsive buttons
+   ................................................*/
+  @media screen and (max-width: 700px) {
+  	a.button {
+    	font-size: 24px;
+      height: 40px;
+    }
+  }
+  
+  /* ................................................
+    info (video playing)
+   ................................................*/
+  .main #info {
+  	display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 115px;
+    z-index: 202;
+    padding: 0;
+    background-color: #000;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .main #info:before {
+  	content:'';
+    position: absolute;
+    left: 0;
+    top: -15px;
+    width: 100%;
+    height: 15px;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.25) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.25)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 100%);
+  }
+  .main #info.active {
+    display: block;
+  }
+  .main #info .contained {
+    width: 700px; 
+    margin: 0 auto;
+    padding: 15px 0;
+    font-size: 16px;
+   }
+  .main #info h2 {
+    color: #FFF;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 3px 20px 0 0;
+  }
+  .main #info a {
+    text-decoration: none;
+    line-height: 1;
+  }
+  .main #info a.minibutton {
+    display: inline-block;
+    padding: 8px 18px;
+    font-size: 18px;
+    margin: 0px 10px 0px 0px;
+    background-color: rgba(0,0,0,.3);
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .main #info a.minibutton:hover {
+    background-color: #36a0d9;
+  }
+  /* ................................................
+    responsive info
+   ................................................*/
+  @media screen and (max-width: 767px){
+  	.main #info	{
+  		top: auto;
+      position: relative;
+     }
+  	.main #info	.contained {
+    	width: 100%;
+    }
+   }
+    
+  
+  /* ................................................
+    MLIST
+   ................................................*/
+  .mlist {
+  	margin: 40px auto;
+    max-width: 310px;
+    clear: both;
+    position: relative;
+    background: #FFF;
+    overflow: hidden;
+     -webkit-border-radius: 3px;
+    border-radius: 3px;
+     min-height: 43px;
+  }
+  .mlist form {
+  }
+  .mlist label {
+  	font-size: 13px;
+    display: block;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+  }
+  
+  .mlist form input[type="text"],
+  .mlist form input[type="email"] {
+  	position: absolute;
+    top: 6px;
+    left: 0;
+    padding: 8px 12px;
+    border: none;
+  	width: 100%;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  .mlist form input[type="submit"],
+  .mlist form form input[type="button"] {
+    background-color: #000;
+    background-color: rgba(0,0,0,.6);
+    border: none;
+    color: #FFF;
+  	position: absolute;
+    right: 2px;
+    top: 2px;
+    display: block;
+    font-weight: bold;
+    font-family: 'Average Sans',sans-serif;
+    line-height: 1;
+    padding: 11px 8px 12px 8px;
+    width: 95px;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing:antialiased;
+    
+     -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  .mlist form input[type="submit"]:hover,
+  .mlist form input[type="button"]:hover {
+  	background-color: #36a0d9;
+  }
+  
+  /* ....................................................
+      packages
+  .....................................................*/
+  .packages {
+    width: 960px;
+    margin: 0 auto;
+    z-index: 200;
+    overflow: hidden;
+  }
+  .packages a { text-decoration: none; }
+  .packages h3 {
+    padding: 10px 0;
+    margin-bottom: 15px;
+   }
+  .packages ul, 
+  .packages li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+   }
+  .packages ul {
+  	list-style: none; position: relative; float: left; display: block; left: 50%; 
+  }
+  .packages li {
+    width: 280px;
+    min-height: 300px;
+    margin: 10px 20px;
+    vertical-align: top;
+    position: relative; float: left; display: block; right: 50%; 
+  }
+  .packages .visual {
+    display: block;
+    float: left;
+    width: auto;
+    overflow: hidden;
+    height: 158px;
+  }
+  .packages .visual img,
+  .packages .visual .price {
+    display: block;
+    width: 100%;
+   }
+  .packages .textual {
+  	display: block;
+    width: 90%;
+    margin: 5px auto;
+    text-align: left;
+  }
+  .packages .title {
+    display: block;
+    clear: both;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .packages .desc {
+  	display: block;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .packages .buy {
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    margin: 10px 0;
+  }
+  .packages h3 {
+    margin-bottom: 15px;
+   }
+  .packages .group {
+    margin: 10px 0;
+   }
+  .packages .buy:link,
+  .packages .buy:visited {
+    background: rgba(0,0,0,.3);
+    text-decoration: none;
+  }
+  .packages .buy:hover,
+  .packages .buy:active {
+    background: #36a0d9;
+    text-decoration: none;
+  }
+  /* ................................................
+    responsive packages
+   ................................................*/
+  @media only screen and (min-width: 768px) and (max-width: 991px) { 
+  	.packages {
+    	width: auto;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .packages {  
+    	width: auto;
+     }
+    .packages ul {
+  		float: none;
+      left: auto;
+    }
+    .packages ul li {
+  		float: none;
+      right: auto;
+      width: auto;
+    }
+    .packages ul li .visual {
+    	position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+      float: none;
+      overflow: hidden;
+    }
+    .packages ul li .visual img {
+    	position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* ................................................
+    footer
+   ................................................*/
+  footer {
+  	overflow: hidden;
+  }
+  footer.multi-packages {
+  
+  }
+  footer.fixed {
+    position: fixed;
+    bottom: 0;
+  }
+  footer.relative {
+    position:relative !important;
+  }
+  footer .contained {
+    width: 600px;
+    padding: 40px 0px 100px 0px;
+    margin: 0 auto;
+  }
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    display: block;
+    left: 50%;
+  }
+  footer ul li {
+    font-size: 14px;
+    position: relative;
+    float: left;
+    display: block;
+    right: 50%;
+  }
+  footer li.poweredby img {
+    width: 60px;
+    height: auto;
+    margin-top: 0px;
+  }
+  footer ul li + li {
+    margin-left: 10px;
+  }
+  footer ul.helpers li a {
+    text-decoration: none;
+    padding: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  footer ul.helpers li a:hover {
+    background-color: rgba(0,0,0,.2);
+  }
+  footer ul.helpers {
+    margin-top: 20px;
+    clear: both;
+  }
+  footer .twitter {
+    display: block;
+    position: relative;
+    top: 5px;
+  }
+  footer .facebook {
+    display: block;
+    position: relative;
+    top: 3px;
+  }
+  .sub-page .vhx footer.multi-packages {
+    bottom: -140px;
+  }
+  /* ................................................
+    responsive footer packages
+   ................................................*/
+  @media screen and (max-width: 700px){
+  	footer.multi-packages,,
+    footer {
+      position: relative;
+    	height: auto;
+  	  bottom: auto;
+      left: auto;
+    	width: 100%;
+     }
+     footer .contained {
+  	  width: 100%;
+     }
+  }
+  
+  /* ................................................
+    utilties
+   ................................................*/
+  .group:after,
+  .group-li:after,
+  .group-p:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      var _gaq = _gaq || [];
+  
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+        ga('create', 'UA-19540423-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'ahawkoncetoldme');
+      ga('send', 'pageview');
+  
+      var Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_SENT_FREE_COPIES":"admin_sent_free_copies","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_SIGNUP_COMPLETE":"authentication","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_LOADEDDATA":"Video Content Loaded","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_FULLSCREEN":"Fullscreen Enabled/ Disabled","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD_TRIGGER":"addwatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE_TRIGGER":"removewatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List ","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_CURRENT_USER_ID":"current_user_id","PROPERTY_CURRENT_USER_EMAIL":"current_user_email","PROPERTY_CURRENT_SITE_ID":"current_site_id","PROPERTY_CURRENT_SITE_KEY":"current_site_key","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+        SITE_GANALYTICS_ENABLED: false
+      };
+  
+        Tracking.SITE_GANALYTICS_ENABLED = true;
+          ga('create', '', 'auto', { 'name': 'site' });
+  
+        ga('site.require', 'displayfeatures');
+        ga('site.set', 'dimension1', 'ahawkoncetoldme');
+        ga('site.send', 'pageview');
+  
+        var _vhx = {
+          environment: 'production',
+          site: { id: '4656', domain: 'ahawkoncetoldme.vhx.tv', host: 'ahawkoncetoldme.vhx.tv' },
+          geo:  { country: 'us' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      var _current_user = {"id":null,"email":null,"name":null},
+          _current_site = {"id":4656,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"ahawkoncetoldme"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <link href='http://fonts.googleapis.com/css?family=Average+Sans|Alef' rel='stylesheet' type='text/css'>
+
+<header>
+	<div class="headline">
+		<h1><a href="/">A Hawk Once Told Me</a></h1>
+  </div>
+</header>
+<div style="background-image: url('');" class="background"></div>
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <section class="main">
+      <!-- featured -->
+      <div class="top">
+      
+        <!-- trailer 
+    		<div id="trailer" class="thetrailer container" data-hd="1" data-trailer-url="https://vimeo.com/52980645"></div>-->
+    
+    		<!-- slideshow -->
+      	<div class="slides container" data-slideshow>
+            <img src="https://dr56wvhu2c8zo.cloudfront.net/ahawkoncetoldme/assets/65e20445-9054-4ac4-ab36-a09f3e80af76/AHOTM_STILL_002.jpg">
+            <img src="https://dr56wvhu2c8zo.cloudfront.net/ahawkoncetoldme/assets/da9907b2-8b4e-4cdc-94f9-c2761398c4cb/AHOTM_STILL_006.jpg">
+            <img src="https://dr56wvhu2c8zo.cloudfront.net/ahawkoncetoldme/assets/133caffd-ae5c-4c93-aeb5-3daaa84e8526/AHOTM_STILL_004.jpg">
+    		</div>
+         
+        <!-- feature content -->
+     		<div class="options group">
+    
+    	    <!-- headline -->
+    			<div class="headline">
+            <h1><a href="/">A Hawk Once Told Me</a></h1>
+          </div>
+    
+    			<!-- options -->
+    			<div class="group">
+          	  <a href="https://vimeo.com/52980645" data-preview-url="https://vimeo.com/52980645" class="preview button" title="Play Trailer"><i class="icon-play"></i> Preview</a>
+    			 
+              <a href="/buy" title="Buy A Hawk Once Told Me" class="button">$2 Buy now</a>
+    			</div>
+          
+          
+    
+          
+          
+          
+        </div>  <!-- .options -->
+      </div> <!-- .top .contained -->
+    	
+      
+      <!-- info bar (while video is playing) -->
+      <div id="info">
+    		<div class="contained">
+         	<h2><a href="/">A Hawk Once Told Me</a></h2>
+        	<a href="#" class="stoppreview minibutton" title="Stop Trailer"><i class="icon-stop"></i> Stop</a>
+              <a href="/buy" title="Buy A Hawk Once Told Me"  class="minibutton">$2 Buy now</a>
+        </div>
+      </div> <!-- #info -->
+    </section> <!-- .main -->
+    
+      
+      
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    
+  	<footer>
+
+
+	<div class="contained">
+		
+     
+    <ul class="helpers">
+
+        <li><a href="/buy">Buy now</a></li>
+  
+        <li><a href="/login">Login</a></li>
+        <li><a href="/login">Forgot Password</a></li>
+      
+      <li><a href="/privacy">Privacy Policy</a></li>
+      <li><a href="/tos">Terms of Use</a></li>
+      <li><a href="/faq">Help</a></li>
+    </ul>
+    
+	</div>
+  
+</footer>
+
+    <div class="clear"></div>
+  </section>
+
+  <script>
+    var _site = {
+      color:        '#008CF7',
+      key:          'ahawkoncetoldme',
+      facebook_url: '',
+      twitter_name: 'skywalkerhands'
+    };
+  
+    var _config = {
+      country_code: 'us'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  
+<script>
+  var _flash = {
+    alert:  "",
+    notice: ""
+  };
+
+  
+      $(document).ready(function() {
+        /////////////////// WINDOW RESIZING
+  function _resize() {
+  	if ($(window).width() > 767){
+      var windowHeight = $(window).height();
+      $('.main').height(windowHeight);
+      /*var titleHeight = ($(".main .options.group").height() + parseInt($(".main .options.group").css("padding-top")));
+      if (windowHeight < titleHeight){
+        $(".main .options").css("padding-top","10%");
+      }*/
+      $('#trailer').height($(window).height() - $('#info').height());
+    } 
+    else {
+      $('.main, #trailer, .packages .wrapper').removeAttr('style');
+    }
+    
+    var options = $('.main .options');
+    options.css('padding-top', $('.main').height() / 2 - options.height() / 2);
+  }
+  
+  $(window).resize(_resize);
+  _resize();
+  /////////////////// VIDEO EVENT TRIGGERS
+  $(".preview.button").click(function(){
+   /* $('.options,.slides').fadeOut();
+    $('#info,.thetrailer').addClass('active');
+    //$(".main, .top, .thetrailer").height( $(window).height() - $('#info').height());*/
+  });
+  $('#trailer').on('video:load', function() {
+   
+    
+  });
+  
+  $('#trailer').on('video:stop', function() {
+    /*$(this).empty();
+    $('.options,.slides').fadeIn();
+    $('#info,.thetrailer').removeClass('active');*/
+  });
+  
+  $('.stoppreview').on('click', function() {
+    /*$('#trailer').empty();
+    $('.options,.slides').fadeIn();
+    $('#info,.thetrailer').removeClass('active');*/
+  });
+  
+  // too tall?
+  if ($("body").hasClass("sub-page")){
+    $("footer").addClass("relative");
+  }
+  
+  
+  /////////////////// desc
+  var descHeight = 0;
+  $(".packages .wrapper").each(function(i){
+    if ($(this).height() > descHeight){
+      descHeight = $(this).height();
+      console.log(descHeight);
+    }
+  }).height(descHeight+20);
+      });
+    </script>
+
+<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+
+
+    <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="ahawkoncetoldme.vhx.tv"></script>
+</body>
+</html>
+```
