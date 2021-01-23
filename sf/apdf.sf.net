@@ -1,0 +1,292 @@
+```<HTML> <!-- Hand-Made HTML !--> 
+<head><title>Ada PDF Writer</title> 
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" > 
+<meta name="description" content="PDF Writer - PDF_Out is an open-source Ada package to write easily PDF files with basic formattings" > 
+<meta name="keywords" content="Ada, Write, PDF, source, programming, document, office" > 
+<meta name="robots" content="follow"> 
+<link rel="Shortcut Icon" href=pw.ico> 
+</head> 
+ 
+<BODY text=#000022 link=#449944 vlink=#444499 alink=#990000 bgcolor=#ffffff> 
+ 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Pub APDF -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6959989748402661"
+     data-ad-slot="2620837922"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ 
+<hr noshade />
+
+<font face="Calibri, Arial, Tahoma"> <!-- Set font for the whole page !--> 
+
+<center> <img border=0 align=absmiddle width=444 height=67 src=pw_title.png alt="PDF Writer"> </center> 
+
+<br> 
+<table border=1 cellspacing=5  cellpadding=5><tr><td>
+<font face="Arial, Tahoma"><b>PDF_Out</b> is an Ada package for producing easily and
+automatically PDF files, from an Ada program, with text, vector graphics, images (JPEG).</font>
+</td></tr></table>
+<ul>
+ <li>Ideal for the dynamic production of reports, invoices, tickets, charts, maps etc.
+ <li>Vector graphics
+ <li>Inclusion of JPEG images
+ <li>Object oriented
+ <li>Task safe
+ <li>Endian-neutral
+ <li>Multi-platform, but native code build
+ <li>Standalone (no dependency on other libraires, bindings, etc.; no extra component needed for running)
+ <li>Unconditionally portable code: OS-, CPU-, compiler- independent code <sup>(*)</sup>.
+ <li>Pure Ada 95: this package can be used in projects in
+     Ada 95, Ada 2005, Ada 2012 and later language versions
+ <li>Free, open-source
+</ul>
+<small>(*) within limits of compiler's provided integer types and target architecture capacity.</small>
+<br><br>
+<P>
+<dt><b><font face="Arial, Tahoma">Screenshots:</font></b></dt>
+<dd>
+<br>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td> 
+     <table cellpadding=3 cellspacing=0 border=1>
+      <tr><td> <a target="_blank" href="pw_ari_parcel.png" ><img width=160 height=160 border=2 alt="Parcel label"   title="Parcel label"   src="pw_ari_parcel_m.png" ></a> </td></tr>
+      <tr><td width=160>Parcel label, used in logistics (courtesy of <b><A TARGET=_blank HREF="http://www.ari-srl.it/">Applicazioni Ricerche Informatica Srl</A></b>).<br><font size=-1>Click on image to enlarge it.</font></td></tr>
+     </table>
+    </td>
+    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+    <td> 
+     <table cellpadding=3 cellspacing=0 border=1>
+      <tr><td> <a target="_blank" href="pw_ari_delivery.png" ><img width=160 height=226 border=2 alt="Delivery note"   title="Delivery note"   src="pw_ari_delivery_m.png" ></a> </td></tr>
+      <tr><td width=160>Delivery note, typical document used by transporters (courtesy of <b><A TARGET=_blank HREF="http://www.ari-srl.it/">Applicazioni Ricerche Informatica Srl</A></b>).<br><font size=-1>Click on image to enlarge it.</font></td></tr>
+     </table>
+    </td>
+    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+    <td> 
+     <table cellpadding=3 cellspacing=0 border=1>
+      <tr><td> <a target="_blank" href="pw_bp.png" ><img width=160 height=113 border=2 alt="Boarding pass"   title="Boarding pass"   src="pw_bp_m.png" ></a> </td></tr>
+      <tr><td width=160>PDF_Out Demo (PDF file <a target="_blank" href="Big.pdf">here</a>), p.2 viewed through Adobe Reader X.<br><font size=-1>Click on image to enlarge it.</font></td></tr>
+     </table>
+    </td>
+    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+    <td> 
+     <table cellpadding=3 cellspacing=0 border=1>
+      <tr><td> <a target="_blank" href="pw_vg.png" ><img width=160 height=93  border=2 alt="Vector graphics" title="Vector graphics" src="pw_vg_m.png" ></a> </td></tr>
+      <tr><td width=160>PDF_Out Demo (PDF file <a target="_blank" href="Big.pdf">here</a>), p.5 viewed through Ubuntu document viewer.<br><font size=-1>Click on image to enlarge it.</font></td></tr>
+     </table>
+    </td>
+    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+    <td> 
+     <table cellpadding=3 cellspacing=0 border=1>
+      <tr><td> <a target="_blank" href="pw_pj.png" ><img width=160 height=93  border=2 alt="PDF.js viewer"   title="PDF.js viewer"   src="pw_pj_m.png" ></a> </td></tr>
+      <tr><td width=160>PDF_Out Demo (PDF file <a target="_blank" href="Big.pdf">here</a>), p.3 viewed through PDF.js viewer (Firefox).<br><font size=-1>Click on image to enlarge it.</font></td></tr>
+     </table>
+    </td>
+   </tr> 
+ </table> 
+</dd>
+</P> 
+<P> 
+<dt><B><font face="Arial, Tahoma">Download:</font></B></dt>
+<dd>
+<br>
+<table border=1 cellpadding=4 bgcolor=lightgreen> 
+      <tr><td> 
+  <a href=http://sf.net/projects/apdf><img border=0 align=absmiddle width=29 height=31 src=dl.gif></a> 
+  &nbsp;
+<font face="Arial, Tahoma"><b>Download</b> the package from the <a href=http://sf.net/projects/apdf>SourceForge project page</a>.
+</font>
+  &nbsp;
+  <a href=http://sf.net/projects/apdf><img border=1 align=absmiddle width=40 height=40 src=zip.png></a> 
+      </td></tr> 
+</table> 
+</dd>
+<br>
+</P>
+<P> 
+<dt><B><font face="Arial, Tahoma">A small demo's source (here, in Ada 2005+ syntax):</font></B></dt> 
+<dd>
+<br>
+<table cellpadding=4 cellspacing=0 border=1 bgcolor=white BORDERCOLOR=green> 
+<tr><td><PRE><foNt size="2" face="Consolas, Monaco, Lucida Console, Courier New"><b>with</b> <A HREF="pw_html/pdf_out__ads.htm#66_9">PDF_Out</A>; <b>use</b> <A HREF="pw_html/pdf_out__ads.htm#66_9">PDF_Out</A>;
+
+<b>procedure</b> <A HREF="pw_html/small_demo__adb.htm#3_11">Small_demo</A><FONT COLOR=red><A NAME="3_11"></A></FONT> <b>is</b>
+  pdf: <A HREF="pw_html/pdf_out__ads.htm#365_8">PDF_Out_File</A>;
+<b>begin</b>
+  pdf.<A HREF="pw_html/pdf_out__ads.htm#367_13">Create</A>("Small.pdf");
+  pdf.<A HREF="pw_html/pdf_out__ads.htm#145_13">Put_Line</A>("This is a very small demo for PDF_Out...");
+  pdf.<A HREF="pw_html/pdf_out__ads.htm#373_13">Close</A>;
+<b>end</b> <A HREF="pw_html/small_demo__adb.htm#3_11">Small_demo</A>;</foNt></PRE></td></tr>
+</table><br> 
+</dd>
+<P> 
+<dt><B><font face="Arial, Tahoma">For viewing more sources...</font></B> </dt>
+<br>
+<dd>
+<table cellpadding=4 border=1 bgcolor=white> 
+<TR><TD> 
+  <a href=pw_html/index.htm> 
+  <b>Browse</b> the full source (of version 004) here</a> 
+ 
+  &nbsp;
+  <a href=pw_html/index.htm><img border=1 align=absmiddle width=40 height=40 src=book.png></a> 
+</table> 
+<br>Source web pages automatically generated by <b>gnathtml</b> (GNAT).
+<br><br> 
+</dd> 
+
+<P> 
+  <dt><font face="Arial, Tahoma"><b>Contact:</b></font> </dt>
+  <br>
+  <dd>
+  Mail: &nbsp;
+  <img src="gmgm.png" alt="Gautier de Montmollin, e-mail" height="31" align="absmiddle" border="0" width="290"><br>
+  For a little sponsoring - can be just for a beer... &nbsp;&nbsp;
+<a href="http://sf.net/p/apdf/donate/"><img src=donate.gif width=92 height=26 border="0" align=absmiddle alt="Support This Project" /></a> 
+&nbsp;
+<a href="http://sf.net/p/apdf/donate/"><img src="beer_48x48.png" width=48 height=48 border="0" align=absbottom alt="Support This Project" /></a>
+<br><br>
+For any news, change logs, support requests, update informations: visit the
+<a target=_blank href="http://sf.net/projects/apdf/">project on SourceForge</a> 
+&nbsp;&nbsp;
+<a target=_blank href="http://sf.net/projects/apdf/"><img src="http://sf.net/sflogo.php?type=16&group_id=2191759" width="150" height="40" border=1 ALIGN=absmiddle alt="Download Ada PDF Writer" /></a> 
+<br>
+<br>
+  <img src="blog_16x16.png" border="0" height="16" width="16" align="absmiddle" />
+  The author's blog can be read <a target=_blank href="http://gautiersblog.blogspot.com/search/label/Ada">here</a>.
+</dd>
+<hr NOSHADE> 
+<p>
+<a name=users> 
+<b><font face="Arial, Tahoma">Some people, projects or organizations using the Ada PDF Writer:</font></b>
+<ul> 
+ <li><A TARGET=_blank HREF="http://www.ari-srl.it/">Applicazioni Ricerche Informatica Srl</A>, Bari (Italy) 
+</ul> 
+<br>
+</p>
+
+<hr NOSHADE> 
+<img width=120 height=90 src=bindings_free_120.png>
+
+<hr NOSHADE> 
+<!-- ***** Begin Ada Projects List 2018-08-03 ***** --> 
+<a name=adaproj> 
+Here is a list of other open-source projects I participate to on <b>SourceForge</b>. Click on the links below for details.<br />
+<!-- Column L, Permalink + description -->
+<ul>
+<li><a target=_blank href="http://ada-bar-codes.sourceforge.net">Ada Bar Codes</a></li>
+<li><a target=_blank href="http://azip.sourceforge.net">AZip</a> - a free, portable Zip Archive Manager</li>
+<li><a target=_blank href="http://cbsg.sourceforge.net">Corporate Bullshit Generator</a> - the Corporate Bullshit Generator</li>
+<li><a target=_blank href="http://engine-3d.sourceforge.net">Engine_3D</a></li>
+<li><a target=_blank href="http://excel-writer.sourceforge.net">Excel Writer</a> - a standalone, portable Ada package for producing Excel spreadsheets</li>
+<li><a target=_blank href="http://gen-img-dec.sourceforge.net">GID</a> - Generic Image Decoder</li>
+<li><a target=_blank href="http://globe3d.sourceforge.net">GLOBE_3D</a></li>
+<li><a target=_blank href="http://sourceforge.net/projects/gnavi/">GNAVI: GNU Ada Visual Interface</a> - the GNU Ada Visual Interface</li>
+<li><a target=_blank href="http://gnoga.sourceforge.net">GNOGA</a> - the GNU Omnificent GUI for Ada</li>
+<li><a target=_blank href="http://hacadacompiler.sourceforge.net">HAC</a> - HAC Ada Compiler</li>
+<li><a target=_blank href="http://ini-files.sourceforge.net">Ini file manager</a> - a standalone, portable Ada package for configuration files</li>
+<li><a target=_blank href="http://l-e-a.sourceforge.net">LEA</a> - Lightweight Editor for Ada</li>
+<li><a target=_blank href="http://mathpaqs.sourceforge.net">Mathpaqs </a> - collection of mathematical, 100% portable, packages in Ada</li>
+<li><a target=_blank href="http://p2ada.sourceforge.net">Pascal-to-Ada </a> - Pascal to Ada translator</li>
+<li><a target=_blank href="http://texcad.sourceforge.net">TeXCAD </a> - a program for drawing or retouching {picture}s in LaTeX</li>
+<li><a target=_blank href="http://wasabee.sourceforge.net">Wasabee</a> - a Web browser with safety focus</li>
+<li><a target=_blank href="http://unzip-ada.sourceforge.net">Zip-Ada</a> - a standalone, portable Ada library for Zip archives</li>
+</ul>
+Some projects have <b>GitHub</b> mirrors too.<br />
+<!-- ***** End Ada Projects List ***** --> 
+<hr NOSHADE> 
+<!-- ***** Begin Ada Compilers List 2019-04-09 ***** --> 
+<a name=adacomp> 
+<b>The Get Ada Now site:</b>
+<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://getadanow.com" alt="GetAdaNow.com"><img width="80" height="80" src="http://getadanow.com/getadanow_sm.png"></a>
+<br /><br />
+<b>Some Ada compilers:</b>
+  <ul> 
+<li><a target=_blank href="http://www.adacore.com/">AdaCore GNAT Professional</a>: open-source, commercial support
+<li><a target=_blank href="http://libre.adacore.com/">AdaCore GNAT Public version</a>: <b>free</b>, GPL (restrictive) license
+<li><a target=_blank href="http://www.getadanow.com/">FSF GNAT (e.g. default on Linux, or MinGW for Windows)</a>:
+                                                    <b>free</b>, GMGPL (liberal) license
+<li>
+<a target=_blank href="https://www.ptc.com/en/products/developer-tools/objectada"><img 
+   width="187" height="24" border="1" align="absmiddle"
+   src="ptc-objectada-with-logo-24px.png"
+   alt="PTC ObjectAda compiler"
+   title="PTC ObjectAda compiler"></a>
+<li><a target=_blank href="https://www.ptc.com/en/products/developer-tools/apexada">PTC ApexAda compiler</a> 
+<li><a href="http://www.ghs.com/products/ada_optimizing_compilers.html" TARGET=_blank>Green Hills</a> 
+<li><a href="http://www.ddci.com/" TARGET=_blank>DDC-I</a> 
+<li><a href="http://www.irvine.com/" TARGET=_blank>ICC</a> 
+<li><a href="http://www.xgc.com/" TARGET=_blank>XGC</a> 
+<li><a href="http://www.ocsystems.com/w/index.php/OCS:PowerAda" TARGET=_blank>OC Systems</a> 
+  </ul> 
+<!-- ***** End Ada Compilers List ***** --> 
+
+<br>
+<center>
+ <img src="durada.png" border="0" alt="Powered by Ada" title="Powered by Ada" height="62" width="91" align="absmiddle" />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a target=_blank href="https://github.com/ohenley/awesome-ada">
+  <img src="awesome_ada_40px_v2.png" border="1" alt="Awesome Ada" title="Awesome Ada" height="40" width="100" align="absmiddle" />
+ </a>
+</center>
+
+<br><br>
+    <!-- ***** Begin Asocial media buttons ***** --> 
+    <table cellspacing=0 cellpadding=0 border=0>
+      <tr>
+      <td>
+      <!-- Twitter -->
+       <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+       <a href="https://twitter.com/share"
+       class="twitter-share-button"
+       data-count="horizontal"
+       data-url="http://apdf.sf.net/"
+       data-counturl="http://apdf.sourceforge.net/"
+       data-via="sourceforge"
+       data-text="APDF - Ada PDF Writer"></a>
+      </td>
+      <td>
+      &nbsp;&nbsp;&nbsp;
+      </td>
+      <td>
+      <!-- Google's "+1" button; Asynchronous JavaScript Loading -->
+      <g:plusone></g:plusone>
+      <script type="text/javascript">
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/plusone.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+      </script>
+      </td>
+      <td>
+      &nbsp;&nbsp;&nbsp;
+      </td>
+      <td>
+        <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+        <script type="IN/Share" data-counter="right"></script>
+      </td>
+      <td>
+      &nbsp;&nbsp;&nbsp;
+      </td>
+      <td>
+      <!-- Facebook's "Like" button -->
+      <iframe
+         src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fapdf.sourceforge.net/&amp;send=false&amp;layout=button_count&amp;width=450&amp;height=35&amp;show_faces=false&amp;action=like&amp;colorscheme=light"
+         scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:20px;"
+         allowTransparency="true">
+      </iframe>
+      </td>
+      </tr>
+    </table>
+    <!-- ***** End Asocial media buttons ***** --> 
+      
+</font> 
+
+</BODY></HTML> ```
