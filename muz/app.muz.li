@@ -1,0 +1,282 @@
+```  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <link rel="alternate" href="https://muz.li/" hreflang="x-default" />
+  <link rel="alternate" href="https://muz.li/" hreflang="en" />
+  <link rel="alternate" href="https://muz.li/cn/" hreflang="zh-Hans" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Playfair+Display:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" href="/home_assets/css/style.css?v=2.4">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <title>Muzli Design Inspiration</title>
+  <meta name="keywords" content="design inspiration, design, digital design, trends, inspiration, ,muz,mus, muzly, muz li, chrome extension, muzli app, muzli for safari, muzeli, invision, invisioapp, muzzli, discovery, photography , web design , ui , ux , graphic design, graphic design, design blog, typography, illustration, art, behance, dribbble" />
+  <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/glcipcfhmopcgidicgdociohdoicpdfc">
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Muzli Design Inspiration" />
+	<meta property="og:description" content="Designers' Secret Source: all the design inspiration you need. Served fresh." />
+	<meta property="og:url" content="https://muz.li/" />
+	<meta property="og:image" content="https://muz.li/fb.png" />
+	<meta property="og:site_name" content="Muzli" />
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:title" content="Muzli Design Inspiration - Muzli"/>
+	<meta name="twitter:site" content="@usemuzli"/>
+	<meta name="twitter:domain" content="Muzli"/>
+	<meta name="twitter:creator" content="@usemuzli"/>
+	<link rel="shortcut icon" href="//muz.li/favicon.ico"/>
+	<meta name="description" content="Designers' Secret Source: all the design inspiration you need. Served fresh." />
+  <meta name="p:domain_verify" content="995931dda3622afb19f870744281a957"/>
+  <link rel="canonical" href="https://muz.li/"/>
+
+  <!-- Prefetch DNS for external assets -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//www.google-analytics.com">
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+
+  <!-- <style>.async-hide { opacity: 0 !important} </style> -->
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-NZTNM6F':true});</script>
+
+<script>
+  //GA
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53926383-2', 'auto');
+  ga('create', 'UA-24306919-7', 'auto', 'invision');
+  ga('require', 'GTM-NZTNM6F');
+  ga('send', 'pageview');
+  ga('invision.send', 'pageview');
+</script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+
+  <script type="text/javascript">
+    (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+    ;r.type="text/javascript"
+    ;r.integrity="sha384-RsEu4WZflrqYcEacpfoGSib3qaSvdYwT4D+DrWqeBuDarSzjwUQR1jO8gDiXZd0E"
+    ;r.crossOrigin="anonymous";r.async=true
+    ;r.src="https://cdn.amplitude.com/libs/amplitude-6.2.0-min.gz.js"
+    ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+    console.log("[Amplitude] Error: could not load SDK")}}
+    ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+    ;function s(e,t){e.prototype[t]=function(){
+    this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+    var o=function(){this._q=[];return this}
+    ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+    ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+    ;return this}
+    ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+    ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+    ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId", "enableTracking", "setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+    ;function v(e){function t(t){e[t]=function(){
+    e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+    for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+    e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+    ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+    ;e.amplitude=n})(window,document);
+
+    amplitude.getInstance().init("2860c50ed1518cc02116ed2db2b6d1fd");
+  </script>
+</head>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=149833721774510";
+  fjs.parentNode.insertBefore(js, fjs);js.async=true;
+}(document, 'script', 'facebook-jssdk'));
+var browserName = 'chrome';
+</script>
+
+<body class="">
+
+  <div class="wrapper">
+
+    <header>
+
+      <hamburger>
+        <div class="trigger">
+          <i class="icon-menu"></i>
+        </div>
+        <div class="container">
+          <div class="controls">
+          </div>
+          <ul>
+
+            <li class="large"><a href="https://search.muz.li/">Search</a></li>
+            <li class="large"><a href="https://colors.muz.li/">Colors</a></li>
+            <li class="large"><a href="/inspiration">Collections</a></li>
+
+            <li class="separator"></li>
+
+            <li><a href="https://medium.muz.li/">Blog</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/subscribe/">Subscribe</a></li>
+            <li>
+                              <a href="https://itunes.apple.com/us/app/muzli-for-safari/id1462415100?mt=12" title="Safari" target="_blank" class="safari">Muzli for Safari</a>
+                          </li>
+          </ul>
+
+          <div class="socials">
+            <a href="https://twitter.com/usemuzli"><i class="icon-twitter"></i></a>
+            <a href="https://www.facebook.com/usemuzli/"><i class="icon-facebook"></i></a>
+            <a href="https://www.instagram.com/usemuzli/"><i class="icon-instagram"></i></a>
+          </div>
+
+          <a class="credits" href="https://www.invisionapp.com/">
+            <i class="icon-muzli"></i> by InVision
+          </a>
+        </div>
+        <div class="overlay"></div>
+      </hamburger>
+
+      <div class="dropdown">
+        <i class="icon-play"></i>
+        <ul>
+          <li class="link-search">
+            <a href="https://search.muz.li"><i class="icon-muzli"></i> <span>Search</span></a>
+          </li>
+          <li class="link-colors">
+            <a href="https://colors.muz.li"><i class="icon-muzli colors"></i> <span>Colors</span></a>
+          </li>
+          <li>
+            <a href="https://search.muz.li/inspiration/"><i class="icon-muzli collections"></i> <span>Collections</span></a>
+          </li>
+        </ul>
+      </div>
+
+      <a class="logo" href="/">
+        <i class="icon-muzli"></i>
+        <div class="title">
+          <span>Muzli Inspiration</span>
+          <small>by InVision </small>
+        </div>
+      </a>
+
+      <a class="cta" href="https://muz.li/?utm_source=muzli&utm_medium=search&utm_campaign=search_header" target="_blank">
+        Get Muzli
+      </a>
+
+      <div class="avatar user-meta" style="display: none;">
+        <img alt="">
+      </div>
+
+      <div class="nav-icon user-meta" style="display: none;">
+        <a href="https://search.muz.li/favorites">
+          <span>
+            <i class="icon-fav"></i>
+          </span>
+        </a>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="https://medium.muz.li/">Blog</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/subscribe/">Subscribe</a></li>
+          <li>
+                          <a href="https://itunes.apple.com/us/app/muzli-for-safari/id1462415100?mt=12" title="Safari" target="_blank" class="safari">Muzli for Safari</a>
+                      <li><a href="https://facebook.com/usemuzli" class="facebook-page"><i class="icon-facebook"></i></a></li>
+          <li><a href="https://twitter.com/usemuzli" class="twitter-page"><i class="icon-twitter"></i></a></li>
+        </ul>
+      </nav>
+
+    </header>
+    <div class="container hero">
+      <h1>Designers' Secret Source</h1>
+      <h2>The best design inspiration - expertly curated for you.</h2>
+      <p class="disclaimer">
+        Muzli is a new-tab browser plugin that instantly delivers relevant design stories and inspiration. <a href="/about/" class="learn-more">Learn more</a>
+      </p>
+              <a href="https://chrome.google.com/webstore/detail/glcipcfhmopcgidicgdociohdoicpdfc/?exp=default" class="cta" target="_blank">Get Muzli For Chrome</a>
+            <a href="#" class="video-button"></a>
+    </div>
+    <!-- end hero container -->
+    <section class="feedSlide">
+      <div class="scroll"></div>
+    </section>
+
+
+    <!-- end feed container -->
+
+    <div id="overlay">
+  		<iframe id="player" width="853" height="480" src="https://www.youtube.com/embed/dYSIZ13yS64?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
+              <a href="https://chrome.google.com/webstore/detail/glcipcfhmopcgidicgdociohdoicpdfc/?exp=default" class="cta" target="_blank">Get Muzli For Chrome</a>
+        	</div>
+
+  </div>
+  <footer>
+    <div class="footerlinks">
+      <ul>
+        <li><a href="https://search.muz.li/" target="_blank">Inspiration search</a></li>
+        <li><a href="https://colors.muz.li/" target="_blank">Color search</a></li>
+        <li><a href="https://search.muz.li/inspiration/" target="_blank">Inspiration collections</a></li>
+        <li><a href="https://colors.muz.li/color-names" target="_blank">Color Names</a></li>
+        <li><a href="/about/" target="_blank">About</a></li>
+        <li><a href="/subscribe/" target="_blank">Subscribe</a></li>
+        <li><a href="/contact/" target="_blank">Contact</a></li>
+        <li><a href="https://medium.muz.li/" target="_blank">Blog</a></li>
+        <li><a href="https://muz.li/cn/" target="_blank">中文</a></li>
+      </ul>
+    </div>
+    &copy;2021  Muzli by <a href="https://www.invisionapp.com/" target="_blank">InVision</a> · All Right Reserved. Read InVision's <a target="_blank" href="https://www.invisionapp.com/privacy">Privacy Policy</a> and <a target="_blank" href="https://www.invisionapp.com/terms">Terms of Service</a>&nbsp;&nbsp;&nbsp;&nbsp;<div class="fb-like" data-href="https://www.facebook.com/usemuzli" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+  </footer>
+
+  <script src="/home_assets/js/muzli.min.js?v=2.12"></script>
+  <script src="/home_assets/js/onetrust.js?v=1.0"></script>
+
+
+  <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '609729382476743');
+  fbq('init', '231480983884699');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=609729382476743&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Linkedin Pixel Code -->
+<script type="text/javascript">
+_linkedin_partner_id = "51162";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=51162&fmt=gif" />
+</noscript>
+<!-- End Linkedin Pixel Code -->
+  <div id="consent_blackbar" style="position:fixed; bottom:20px; right:20px; z-index: 2147483638;"></div>
+</body>
+</html>
+```
