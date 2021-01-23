@@ -1,0 +1,115 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0032)http://antlraux.sourceforge.net/ -->
+<HTML><HEAD><TITLE>antlraux official site</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK 
+href="style.css" type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.2800.1170" name=GENERATOR></HEAD>
+<BODY lang=en-US>
+<P>(Long ago, this page was cracked and I lost everything that I had written.
+Kudos to my good friend <FONT color=#ff0000>PACO</FONT> who provided me with a backup he fortunately
+had! Thanks dude!)</P>
+<H1>Welcome!</H1>
+<P>Hello and welcome to antlraux's home page. </P>
+<P>antlraux is a support lib for <A href="http://www.antlr.org/"><IMG 
+alt="ANTLR logo" src="images/antlr-link.gif" width=88 
+border=0 heigth="31"></A>, written in <A href="http://java.sun.com/">java</A>. 
+<P>
+<P>Its structure is a package with subpackages. </P>
+<P>The third public release (v0.2.1) is out. </P>
+<P>This site has been made in half an our. Like <A 
+href="http://www.stroustrup.com/">Bjarne Stroustrup</A> said: </P>
+<BLOCKQUOTE><CITE>I'm a "contents provider" not a website designer. I can use 
+  my time to improve the contents or the looks, but not both.</CITE></BLOCKQUOTE>
+<P>This site is kindly hosted by <A href="http://sourceforge.net/"><IMG 
+height=31 alt="SourceForge.net Logo" 
+src="images/sflogo.png" width=88 align=bottom border=0 
+name=Graphic1></A> (<A href="http://sourceforge.net/projects/antlraux">Browse 
+sourceforge site</A>) </P>
+<H1>Features + Changelog</H1>
+<P>Version v0.2.1 is just a license change; v0.2 is licensed under the <A 
+href="http://www.gnu.org/licenses/gpl.html">GPL license</A>, while v0.2.1 is 
+released under the <A href="http://opensource.org/licenses/bsd-license.php">BSD 
+license</A>. 
+<P>Version v0.2 is just a bug-correction of v0.1, with some changes in the type 
+system classes and some utility classes additions.</P>
+<UL>
+  <LI>
+  <P><A 
+  href="http://antlraux.sourceforge.net/javadoc/antlraux/util/LexInfoToken.html">LexInfoToken</A>, 
+  a token that holds a filename.</P>
+  <LI>
+  <P><A 
+  href="http://antlraux.sourceforge.net/javadoc/antlraux/util/LexInfoAST.html">LexInfoAST</A>, 
+  an implementation of the AST interface featuring lexical information 
+  (filename, line and column)</P>
+  <LI>
+  <P>Other utility classes in <A 
+  href="http://antlraux.sourceforge.net/javadoc/antlraux/util/package-summary.html">package 
+  antlraux.util</A>.</P>
+  <LI>
+  <P>Advanced command-line treatment with <A 
+  href="http://antlraux.sourceforge.net/javadoc/antlraux/clparse/package-summary.html">package 
+  antlraux.clparse</A>. </P>
+  <LI>
+  <P>Contextual information system with <A 
+  href="http://antlraux.sourceforge.net/javadoc/antlraux/context/package-summary.html">package 
+  antlraux.context</A> featuring concepts like <A 
+  href="http://antlraux.sourceforge.net/javadoc/antlraux/context/Context.html">Context</A>, 
+  <A 
+  href="http://antlraux.sourceforge.net/javadoc/antlraux/context/Scope.html">Scope</A>, 
+  <A 
+  href="http://antlraux.sourceforge.net/javadoc/antlraux/context/Declaration.html">Declaration</A> 
+  and <A 
+  href="http://antlraux.sourceforge.net/javadoc/antlraux/context/types/Type.html">Type</A>.</P>
+  <LI>
+  <P>Additional implementations of AST: an AST that stores a Scope (<A 
+  href="http://antlraux.sourceforge.net/javadoc/antlraux/context/asts/ScopeAST.html">ScopeAST</A>), 
+  an AST for expressions (<A 
+  href="http://antlraux.sourceforge.net/javadoc/antlraux/context/asts/ExpressionAST.html">ExpressionAST</A>) 
+  and an AST for type references and definitions (<A 
+  href="http://antlraux.sourceforge.net/javadoc/antlraux/context/asts/TypeAST.html">TypeAST</A>).</P>
+  <LI>
+  <P>Javadoc documentation with some funny orthographic errors!</P></LI></UL>
+<H1>Documentation</H1>
+<P>Right now there's only the javadoc documentation. Browse it <A 
+href="http://antlraux.sourceforge.net/javadoc/index.html">here</A> or download 
+it on the download section.</P>
+<H1>Download</H1>
+<P>Download antlraux v0.2.1 <A 
+href="http://prdownloads.sourceforge.net/antlraux/antlraux-0.2.1.zip?download">here</A> 
+(zip file) .</P>
+<P>Download antlraux v0.2.1 javadoc documentation <A 
+href="http://prdownloads.sourceforge.net/antlraux/javadoc-0.2.1.zip?download">here</A> 
+(zip file).</P>
+<H1>Legal blah blah</H1>
+<P>antlraux is being developed by me, Enrique José García Cota (a.k.a. 
+Kikito).</P>
+<P>I'm not working for a company right now, so I just invented the name "MadDog 
+Software". I'm using it on the license notices of antlraux, since an 
+organization name is required in the BSD. It is not registered by me. If you are 
+the legal owner of this name or you feel that any rights are violated, please 
+send me an email (see the Contact section). </P>
+<P>antlraux is distributed under the <A 
+href="http://opensource.org/licenses/bsd-license.php">BSD license</A>.</P>
+<P>Right now I have no personal site, but I'm planning to. You can even drop me 
+an e-mail if you want (see the Contact section).
+<P>
+<H1>Contact</H1>
+<P>Due to this digital scourge known as spam, I cannot directly write my e-mail 
+address here. Spam bots are getting smarter every day, so let me describe my 
+email address in a very difficult way:</P>
+<BLOCKQUOTE><CITE>The name is my name, enrique followed by the word 
+  informatico. The server is @yahoo.<FONT color=#ff0000>es</FONT> (carefully 
+  here - @yahoo.com will not work).</CITE></BLOCKQUOTE>
+<P>Well, if any bot is capable of retrieving my address from that, I'll accept 
+any spam it sends to me...</P>
+<P 
+style="BORDER-RIGHT: rgb(0,0,0) 1px solid; PADDING-RIGHT: 0.05cm; BORDER-TOP: rgb(0,0,0) 1px solid; PADDING-LEFT: 0.05cm; PADDING-BOTTOM: 0.05cm; BORDER-LEFT: rgb(0,0,0) 1px solid; PADDING-TOP: 0.05cm; BORDER-BOTTOM: rgb(0,0,0) 1px solid">Please 
+put the string antlraux somewhere in your mail's theme. Help me putting some 
+order on my mailbox!</P>
+<P>You can also send a message to the <A 
+href="mailto:antlr-interest@yahoogroups.com">antlr-interest maillist</A> (again, 
+make sure you include the string "antlraux" on the subject). You can browse the 
+list <A href="http://groups.yahoo.com/group/antlr-interest">here</A>. 
+</P></BODY></HTML>
+```
