@@ -1,0 +1,387 @@
+```<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Agile Principles and 18F Practices</title>
+
+
+
+
+
+<link rel="shortcut icon" type="image/ico"
+  href="/assets/img/favicon/favicon.ico">
+
+<link rel="icon" type="image/png"
+  href="/assets/img/favicon/favicon-180x180.png">
+
+<link rel="icon" type="image/png"
+  sizes="192x192"
+  href="/assets/img/favicon/favicon-192x192.png">
+
+<link rel="apple-touch-icon-precomposed" type=""
+  href="/assets/img/favicon/favicon-57x57.png">
+
+<link rel="apple-touch-icon-precomposed" type=""
+  sizes="72x72"
+  href="/assets/img/favicon/favicon-72x72.png">
+
+<link rel="apple-touch-icon-precomposed" type=""
+  sizes="180x180"
+  href="/assets/img/favicon/favicon-180x180.png">
+
+
+
+    
+
+
+
+<link rel="stylesheet"
+  href="/assets/css/main.css"
+  media="screen">
+
+
+    
+      
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48605964-19"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  // `forceSSL` was used for analytics.js (the older Google Analytics script). It isn't documented for gtag.js, but the term occurs in the gtag.js code; figure it doesn't hurt to leave it in. -@afeld, 5/29/19
+  gtag('config', 'UA-48605964-19', { 'anonymize_ip': true, 'forceSSL': true });
+</script>
+
+
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script>
+
+
+    
+  </head>
+  <body class="  ">
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+    
+
+
+  <section class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner-header">
+      <div class="usa-grid usa-banner-inner"> <img src="/assets/uswds/img/favicons/favicon-57.png" alt="U.S. flag">
+        <p>An official website of the United States government</p> <button class="usa-accordion-button usa-banner-button" aria-expanded="false" aria-controls="gov-banner"> <span class="usa-banner-button-text">Here's how you know</span> </button> </div>
+    </header>
+    <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+      <div class="usa-banner-guidance-gov usa-width-one-half"> <img class="usa-banner-icon usa-media_block-img" src="/assets/uswds/img/icon-dot-gov.svg" alt="Dot gov">
+        <div class="usa-media_block-body">
+          <p> <strong>The .gov means it’s official.</strong> <br> Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site. </p>
+        </div>
+      </div>
+      <div class="usa-banner-guidance-ssl usa-width-one-half"> <img class="usa-banner-icon usa-media_block-img" src="/assets/uswds/img/icon-https.svg" alt="Https">
+        <div class="usa-media_block-body">
+          <p> <strong>The site is secure.</strong> <br> The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+  <header class="usa-header usa-header-extended" role="banner">
+
+
+  
+    <div class="usa-navbar">
+      <button class="usa-menu-btn">Menu</button>
+      <div class="usa-logo" id="extended-mega-logo">
+        <a href="/" title="Home">
+          
+          <em class="usa-logo-text">
+            Agile Principles and 18F Practices
+          </em>
+        </a>
+      </div>
+    </div>
+
+    <nav role="navigation" class="usa-nav">
+      <div class="usa-nav-inner">
+        <button class="usa-nav-close">
+          <img src="/assets/uswds/img/close.svg" alt="close">
+        </button>
+
+        
+        
+        
+        <ul class="usa-nav-primary usa-accordion">
+          
+          <li>
+            
+              <a class=" usa-nav-link  " href="">
+                <span></span>
+              </a>
+            
+          </li>
+          
+        </ul>
+        
+
+        
+
+          
+          
+          <div class="usa-nav-secondary">
+            
+            <ul class="usa-unstyled-list usa-nav-secondary-links">
+              
+              
+              
+                <li>
+                  <a href="https://pages.18f.gov/guides/"
+                  >
+                    18F guides
+                  </a>
+                </li>
+              
+            </ul>
+          </div>
+          
+
+
+        </div>
+      </div>
+    </nav>
+  
+  </header>
+  <div class="usa-overlay"></div>
+
+
+
+
+    
+    
+
+
+    
+
+    
+
+    
+      
+      
+
+
+
+
+    
+    
+
+    <main id="main-content" class="usa-grid usa-section usa-content usa-layout-docs">
+          
+
+  <aside class="usa-layout-docs-sidenav sidenav ">
+    <nav>
+  <ul class="usa-sidenav-list">
+    
+      
+      
+      
+    <li>
+      <a href="/"
+          class="usa-current" 
+          >
+         Introduction
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li>
+      <a href="/modern-software-product-development/"
+         
+          >
+         Modern software product development
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li>
+      <a href="/agile-is-a-thing-already/"
+         
+          >
+         Agile is a thing already
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li>
+      <a href="/agile-is-something-you-are/"
+         
+          >
+         Agile is something you are, not something you do
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li>
+      <a href="/18f-agile-approach/"
+         
+          >
+         18f Agile based project approach
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li>
+      <a href="/agile-fundamentals/"
+         
+          >
+         Agile fundamentals
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li>
+      <a href="/agile-lexicon/"
+         
+          >
+         Agile lexicon
+      </a>
+      
+    </li>
+    
+  </ul>
+</nav>
+
+  </aside>
+
+
+<div class="usa-layout-docs-main_content">
+  
+  <p><em>By definition, this agile guide is a work in progress. We welcome community participation.</em></p>
+
+<p>Prior to 2001, a majority of software development products failed to actually be useful to real people or were built over budget with missed deadlines. Early-stage technology coupled with an intuitive but ineffective development approach combined to make the actual delivery of successful, working software extremely difficult. During the 1980s in particular, the growing demands and expectations of the marketplace swamped the ability of the software development industry to build software as it was needed.</p>
+
+<p>In addition, the widely-held belief that development teams could predict customer needs far in advance–sometimes many years in advance–turned out to be incorrect. So even when working software was delivered, it often did not meet the expectations of customers.</p>
+
+<p>Analysis and experimentation conducted during the 1990’s suggested that the <a href="https://en.wikipedia.org/wiki/Winston_W._Royce" target="_blank">so-called waterfall development process</a> was largely responsible for this climate of failure. After ten years of work, the <a href="http://agilemanifesto.org/" target="_blank">Agile Manifesto</a> was published in 2001. The Manifesto ushered in the age of Agile software development by outlining a framework for a different approach to the problem. The (then) new Agile approach featured outreach to potential users of software, decomposition of large software projects into much smaller projects that were much less difficult and risky, and empowerment of development teams to respond to evolving requirements.</p>
+
+<h2 id="open-source-and-contributing">Open Source and Contributing</h2>
+
+<p>This project is <a href="https://github.com/18F/agile">open source</a>, and we welcome contributions from the public.</p>
+
+<h3 id="license">License</h3>
+
+<p>This project is in the public domain within the United States, and copyright
+and related rights in the work worldwide are waived through CC0 1.0 Universal
+public domain dedication.</p>
+
+<p>All contributions to any repositories of this project will be released under
+the CC0 dedication. By submitting a pull request, you are agreeing to comply
+with this waiver of copyright interest.</p>
+
+</div>
+    </main>
+
+    
+
+    
+
+
+  
+<footer class="usa-footer usa-footer-medium" role="contentinfo">
+
+  
+
+  
+    <div class="usa-grid usa-footer-return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+  
+
+
+
+  
+
+  
+  <div class="usa-footer-secondary_section">
+    <div class="usa-grid">
+      <div class="usa-footer-logo usa-width-one-half">
+        
+          
+            <img class="usa-footer-logo-img" src="https://18f.gsa.gov/assets/img/logos/18f-logo.svg" alt="18F">
+            
+          
+        
+
+        
+      </div>
+
+      
+      <div class="usa-footer-contact-links usa-width-one-half">
+        
+        
+        
+          <h3 class="usa-footer-contact-heading">Agile Principles and 18F Practices</h3>
+          
+          
+      
+      
+        
+
+<small><a href="https://github.com/18F/agile/edit/18f-pages/pages/index.md" class="usa-sidenav-edit" target="_blank">Edit this page</a></small>
+      
+      </div>
+    </div>
+  </div>
+  
+
+</footer>
+
+
+
+
+
+    
+
+
+
+
+
+  
+<script src="/assets/uswds/js/uswds.min.js" async></script>
+
+
+
+
+
+
+  </body>
+</html>
+```
