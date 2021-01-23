@@ -1,0 +1,1426 @@
+```<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+        <title>Fire and Smoke Map</title>
+        <link rel="shortcut icon" href='861d65fad47ed53c4b85dcf30d86c608.ico'>
+    <link href="app.css" rel="stylesheet"></head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&amp;l='+l:'';j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-L8ZB');
+    </script>
+    <body>
+        <div id="navbar" class="navbar navbar-static navbar-default navbar-fixed-top usfs-navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+
+                    <span class="navbar-brand">
+                        <a href="https://www.airnow.gov/" target="_blank">
+                            <img alt="Air Now Logo" src='9f7f63f8a33d2121e7c0cf071b51b1f4.png'>
+                        </a>
+                        <span id="navbarTitle"></span>
+                        <span class="hidden-xs">&nbsp;&nbsp;Fire and Smoke Map</span>
+                        <a href="https://wildlandfiresmoke.net/" target="_blank">
+                            <img alt="IWFAQRP Logo" src='fe29b9098856f7eadeca0b851a76154d.png'>
+                        </a>
+                    </span>
+                </div>
+
+                <!-- About/Help Dropdown -->
+                <ul class="nav nav-pills pull-right navbar-ul">
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-question-circle"></i></span></a>
+                        <ul class="dropdown-menu help-legend-ul item-legend-ul">
+                            <li><strong style="padding: 5px;"><a href="#" onclick="showUserGuideModal()">User Guide</a></strong></li>
+                            <li role="separator" class="divider"></li>
+                            <li><strong style="padding: 5px;"><a href="#" onclick="showFAQModal()">FAQ</a></strong></li>
+                            <li role="separator" class="divider"></li>
+                            <li><strong style="padding: 5px;"><a href="#" onclick="showFeedbackModal()">Submit Feedback</a></strong></li>
+                            <li role="separator" class="divider"></li>
+                            <span class="item-legend-ul-title">Air Quality Index</span>
+                            <table cellpadding="0" cellspacing="0" width="95%" class="esriLegendLayer">
+                                <tbody>
+                                    <tr>
+                                        <td width="35" align="center">
+                                            <div class="aqi-legend-div">
+                                                <svg overflow="hidden" width="30" height="30">
+                                                    <defs></defs>
+                                                    <circle fill="rgb(0, 228, 0)" fill-opacity="1" stroke="rgb(26, 26, 26)"
+                                                        stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="4" cx="0" cy="0" r="5" fill-rule="evenodd" stroke-dasharray="none"
+                                                        dojoGfxStrokeStyle="solid" transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,15.00000000,15.00000000)"></circle>
+                                                </svg>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <table width="95%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left">Good</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="35" align="center">
+                                            <div class="aqi-legend-div">
+                                                <svg overflow="hidden" width="30" height="30">
+                                                    <defs></defs>
+                                                    <circle fill="rgb(255, 255, 0)" fill-opacity="1" stroke="rgb(26, 26, 26)"
+                                                        stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="4" cx="0" cy="0" r="5" fill-rule="evenodd" stroke-dasharray="none"
+                                                        dojoGfxStrokeStyle="solid" transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,15.00000000,15.00000000)"></circle>
+                                                </svg>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <table width="95%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left">Moderate</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="35" align="center">
+                                            <div class="aqi-legend-div">
+                                                <svg overflow="hidden" width="30" height="30">
+                                                    <defs></defs>
+                                                    <circle fill="rgb(255, 126, 0)" fill-opacity="1" stroke="rgb(26, 26, 26)"
+                                                        stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="4" cx="0" cy="0" r="5" fill-rule="evenodd" stroke-dasharray="none"
+                                                        dojoGfxStrokeStyle="solid" transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,15.00000000,15.00000000)"></circle>
+                                                </svg>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <table width="95%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left">Unhealthy for Sensitive Groups</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="35" align="center">
+                                            <div class="aqi-legend-div">
+                                                <svg overflow="hidden" width="30" height="30">
+                                                    <defs></defs>
+                                                    <circle fill="rgb(255, 0, 0)" fill-opacity="1" stroke="rgb(26, 26, 26)"
+                                                        stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="4" cx="0" cy="0" r="5" fill-rule="evenodd" stroke-dasharray="none"
+                                                        dojoGfxStrokeStyle="solid" transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,15.00000000,15.00000000)"></circle>
+                                                </svg>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <table width="95%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left">Unhealthy</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="35" align="center">
+                                            <div class="aqi-legend-div">
+                                                <svg overflow="hidden" width="30" height="30">
+                                                    <defs></defs>
+                                                    <circle fill="rgb(143, 63, 151)" fill-opacity="1" stroke="rgb(26, 26, 26)"
+                                                        stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="4" cx="0" cy="0" r="5" fill-rule="evenodd" stroke-dasharray="none"
+                                                        dojoGfxStrokeStyle="solid" transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,15.00000000,15.00000000)"></circle>
+                                                </svg>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <table width="95%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left">Very Unhealthy</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="35" align="center">
+                                            <div class="aqi-legend-div">
+                                                <svg overflow="hidden" width="30" height="30">
+                                                    <defs></defs>
+                                                    <circle fill="rgb(126, 0, 35)" fill-opacity="1" stroke="rgb(26, 26, 26)"
+                                                        stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="4" cx="0" cy="0" r="5" fill-rule="evenodd" stroke-dasharray="none"
+                                                        dojoGfxStrokeStyle="solid" transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,15.00000000,15.00000000)"></circle>
+                                                </svg>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <table width="95%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left">Hazardous</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="35" align="center">
+                                            <div class="aqi-legend-div">
+                                                <svg overflow="hidden" width="30" height="30">
+                                                    <defs></defs>
+                                                    <circle fill="rgb(217, 217, 217)" fill-opacity="1" stroke="rgb(26, 26, 26)"
+                                                        stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="4" cx="0" cy="0" r="5" stroke-dasharray="none" dojoGfxStrokeStyle="solid"
+                                                        transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,15.00000000,15.00000000)"></circle>
+                                                </svg>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <table width="95%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left">No Data</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <li role="separator" class="divider"></li>
+                            <div class="item-legend-footnote">
+                                <span>
+                                    <a href="#" onclick="openAirQualityTabPane()">Learn More & Protective Actions</a>
+                                </span>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Legend Nav Dropdown -->
+                <ul class="nav nav-pills pull-right navbar-ul">
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-layer-group"></i></span></a>
+                        <ul class="dropdown-menu legend-ul">
+                            <span class="legend-title-span">Air Quality (PM<sub>2.5</sub>)</span>
+                            <li id="monitorToggleDiv" class="legend-li">
+                            </li>
+                            <div class="item-legend-footnote">
+                                <span>
+                                    shows only <a href="#" onclick="openAirQualityTabPane()">fine particulates</a>.
+                                </span>
+                            </div>
+
+                            <span class="legend-title-span">Fire Information</span>
+                            <li id="NIFCFirePointsToggleDiv" class="legend-li">
+                            </li>
+                            <li id="HMSFireClusterToggleDiv" class="legend-li">
+                            </li>
+
+                            <span class="legend-title-span">Smoke Plumes</span>
+                            <li id="HMSSmokeToggleDiv" class="legend-li">
+                            </li>
+
+                            <span class="legend-title-span">Special Smoke Statements</span>
+                            <li id="outlookToggleDiv" class="legend-li">
+                            </li>
+
+                            <span class="legend-title-span">Basemaps</span>
+
+                            <label class="radio-inline">
+                                <input type="radio" class="basemapBtn" name="basemap" id="btnSatellite" /><span class="radio-basemap-label">Aerial</span>
+                            </label>
+                            <br/>
+                            <label class="radio-inline">
+                                <input type="radio" class="basemapBtn" name="basemap" id="btnTerrain" checked="true" /><span class="radio-basemap-label">Terrain</span>
+                            </label>
+                            <div class="item-legend-footnote">
+                                <span>
+                                    <a href="#" onclick="openDataLimitationsPane()">Data Sources</a>
+                                </span>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+
+
+
+                <!-- GeoSearch Nav Dropdown -->
+                <button id="geosearchNav" type="button" class="btn btn-primary navbar-btn pull-right">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+
+                <!-- Local Conditions Pulse Nav Icon -->
+                <a id="userIconLink" class="local-conditions-nav-link" href="#" data-toggle="sidebar" data-target=".sidebar-left">
+                    <button id="localConditionsNav" class="btn btn-primary navbar-btn pull-right">
+                        <span class="pulse local-conditions-nav-icon" style=""/>
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Welcome Modal -->
+        <div class="modal fade overflow-y-hidden" id="welcomeModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header welcome-modal-header">
+                        <h4 class="welcome-modal-title">Fire and Smoke Map Service</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="welcomeModalContent">
+                            <h4>Initializing the Map...</h4><br/>
+                            <i class="fas fa-2x fa-spinner fa-spin fa-fw"></i>
+                            <br/>
+                            <br/>
+                            <p>Enable geolocation to view conditions near your location</p>
+                        </div>
+                        <br>
+                        <hr>
+                        <button id="btnWelcomeGeoSearch" class="btn btn-default" type="button" aria-hidden="true" class="btn btn-primary">Search Area</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- GeoSearch Modal -->
+        <div class="modal fade overflow-y-hidden" id="geosearchModal" style="display: none;" aria-hidden="true">
+
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                        <h4 class="modal-title">Search Location</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="search-container">
+                            <input class="form-control" type="text" id="address-search" autocomplete="off" autofocus/>
+                        </div>
+                        <p>Search for Current Fire and Smoke Conditions in a city, state or area.<br/>
+                        <i>(e.g. "Seattle, WA", "Washington", "Smith River, CA")</i></p>
+                        <p><a href="#" onclick="setUserPosition();">Or search for conditions near your current location</a></p>
+                        <div id="searchModalLocalConditionsAlert" class='alert alert-warning localConditionsAlert' role='alert'><strong>Local conditions are not available</strong><hr>Either allow geolocation from your device or search for current conditions.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Disclaimer Modal -->
+        <div id="discModal" class="modal fade"  tabindex="-1" role="dialog" >
+                <div class="modal-dialog  modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header about-modal-header">
+                            <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title about-modal-title">Fire and Smoke Map</h4>
+                        </div>
+                        <div id="discModalBody" class="disc-Modal-Body">
+                            <center>
+                                <h2 class="modal-subheading">Fire and Smoke Map</h2>
+                            </center>
+                            <br>
+                            <p>
+                                    Sensor Data Pilot: EPA and USFS are conducting a pilot project to add data from low-cost sensors to the Fire and Smoke map. While these sensors don’t meet the rigorous standards required for regulatory monitors, they can help you get a picture of air quality nearest you especially when wildfire smoke is in your area. Use the map layer icon <i class="fas fa-layer-group"></i> in the upper righthand corner of the map to turn on information from AirNow monitors, USFS temporary monitors, and sensors. EPA and USFS may update the sensor map layer several times during the pilot project, as we respond to feedback and work to improve the map.
+                            </p>
+                            <h4>Please note:</h4>
+                            <p>
+                                <ul>
+                                    <li>
+                                        The data on the AirNow Fire and Smoke Map are intended to help individuals make decisions to protect their health during fires.
+                                    </li>
+                                    <li>
+                                        If there is a wildfire in your area, please stay tuned to local authorities for the latest information on fire and smoke safety.
+                                    </li>
+                                    <li>
+                                        EPA will not use the data on this map to make regulatory decisions.
+                                    </li>
+                                    <li>
+                                        Mention of trade names or commercial products does not constitute EPA or USFS endorsement or recommendation for use.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!--Service Warning Modal -->
+        <div id="serviceWarningModal" class="modal fade"  tabindex="-1" role="dialog" >
+                <div class="modal-dialog  modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header about-modal-header">
+                            <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title about-modal-title">Fire and Smoke Map</h4>
+                        </div>
+                        <div id="serviceWarningModalBody" class="disc-Modal-Body">
+                            <center>
+                                <h3 class="modal-subheading" style="font-size: 25px;">Service Alert</h3>
+                            </center>
+                            <br>
+                            <p id="serviceWarningText">
+                                <i>No Current Service Alerts</i>
+                            </p>
+                            <hr>
+                            <p>Please see the
+                                <a href="https://wildlandfiresmoke.net/smoke-monitoring/fire-and-smoke-map" target="_blank">current status and changelog</a> for more information.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- About Modal -->
+        <div id="aboutModal" class="modal fade"  tabindex="-1" role="dialog" >
+            <div class="modal-dialog  modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header about-modal-header">
+                        <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title about-modal-title">About the Fire and Smoke Map</h4>
+                    </div>
+                    <div id="aboutModalBody" class="modal-body">
+                        <div id="largeAboutModalNav">
+                            <ul class="nav nav-tabs" id="aboutModalTabs">
+                                <li role="presentation" class="active"><a id="aboutTab" href="#aboutTabPane" data-toggle="tab"></i>About</a></li>
+                                <li role="presentation"><a id="usingTab" href="#usingTabPane" data-toggle="tab"></i>Using the Map</a></li>
+                                <li role="presentation"><a id="airQualityTab" href="#airQualityTabPane" data-toggle="tab">Air Quality Info</a></li>
+                                <li role="presentation"><a id="smokeFireTab" href="#smokeFireTabPane" data-toggle="tab">Fire & Smoke Info</a></li>
+                                <li role="presentation"><a id="disclaimerTab" href="#disclaimerTabPane" data-toggle="tab">Limitations</a></li>
+                                <li role="presentation"><a id="faqTab" href="#faqTabPane" data-toggle="tab">FAQ</a></li>
+                                <li role="presentation"><a id="feedbackTab" href="#feedbackTabPane" data-toggle="tab">Feedback</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="aboutTabPane"></br>
+                                <h3>About This Map</h3>
+                                <strong>Version 1.1.5</strong>
+                                <h4><a href="https://wildlandfiresmoke.net/smoke-monitoring/fire-and-smoke-map" target="_blank">Current Status and Changelog</a></h4>
+                                <hr>
+                                <p><i>
+                                    The Fire and Smoke Map displays information on ground level air quality monitors recording fine particulates (PM<sub>2.5</sub>) from smoke and other sources, as well as information on fires, smoke plume locations, and special statements about smoke issued by various sources.
+                                </i></p>
+                                <p><i>
+                                    This map is designed to:
+                                    <ul>
+                                        <li>Allow the user to browse current conditions</li>
+                                        <li>Show information relevant to the current location or another location of interest</li>
+                                    </ul>
+                                </i></p>
+                                <p>
+                                    A note about the <strong>Sensor Data Pilot:</strong>
+                                    <br/>
+                                    <br/>
+                                    <i>U.S. EPA and U.S. Forest Service are conducting a pilot project to add data from air sensors to the Fire and Smoke Map. The data appear as a map layer called Low-Cost Sensors that users can turn off or on as needed. Sensor technology provides thousands of additional particle pollution data points that can be used to supplement the air monitoring stations operated by official air agencies. The sensor data undergoes QA screening, is averaged to hourly values, is corrected for bias, and has the EPA NowCast algorithm applied. This means that the sensor data can use the AQI color scale when it appears alongside the monitoring data that is already on the AirNow Fire and Smoke map. Sensor data is informational only. It will not be used for regulatory purposes.</i>
+                                </p>
+                                <h3>Acknowledgements</h3>
+                                <p>This map is a collaborative effort between the U.S. Forest Service led Interagency Wildland Fire Air Quality Response Program (IWFAQRP) and the U.S. Environmental Protection Agency. Development work was done through an agreement with the University of Washington’s School of Environmental and Forest Sciences. This site relies on data provided from a number of sources.</p>
+                                <p>
+                                    <strong>Project Lead:</strong> Sim Larkin, USFS</br>
+                                    <strong>Lead Developer:</strong> Stuart Illson, UW</br>
+                                    <strong>Additional Development:</strong> Jonathan Callahan, Mazama Science; Joel Dubowy, UW; Chris Wilkes, EPA</br>
+                                    <strong>Steering Group:</strong>EPA: Phil Dickerson, Ron Evans, Lourdes Morales, Susan Stone, Alison Davis, Lori Tussey, Michelle Wayland, John E. White, Rob Wildermann; USFS: Pete Lahm</br>
+                                    <strong>User Guide:</strong> Gina Wing, USFS; Marlin Martinez, UW<br/>
+                                    <strong>Additional Thanks:</strong> <a href="https://www.usgs.gov/water-resources/wim" target="_blank">WIM</a> Team (USGS); All those who provided feedback.</br>
+                                </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="usingTabPane"><br/>
+                                <h3>How to Use This Map</h3>
+                                <hr/>
+                                <p>Air quality (PM<sub>2.5</sub>) information from official monitors is shown as circles, air quality (PM<sub>2.5</sub>) information from temporary monitors placed by agencies during smoke events is show as triangles, air quality (PM<sub>2.5</sub>) information from low-cost sensors is shown as squares, large fire incidents as fire icons, satellite fire detections as small glowing points, and smoke plume locations as grey polygons. The location currently set is shown as a flashing blue circle.</p>
+                                <p><strong>Please Note:</strong><br/>
+                                    <ul>
+                                        <li>If there is a wildfire in your area, please stay tuned to local authorities for the latest information on fire and smoke safety.</li>
+                                        <li>Data on the map is information only. Data may be incorrect or missing due to a variety of issues. Use of any data provider or system does not constitute endorsement or recommendation of that system.</li>
+                                        <li>See the Air Quality Information and Fire & Smoke Informationn and Data Limitations & Disclaimers sections for more information.</p></li>
+                                    </ul>
+                                </p>
+
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <img class="about-help-image" alt="How to Use the Map Image" src='02a7fb6b6ca00111cc084404949c9e06.png'>
+                                    </div>
+                                </div>
+                                <br/>
+                                <h4>Controls</h4>
+                                <hr/>
+                                <p>
+                                    <strong>Top Menu</strong>
+                                    <ul>
+                                        <li><strong>Location Dot: </strong>Click the icon to center the map on your currently selected location of interest. Also opens the sidebar. If the center dot on this control is white, no location has been set currently. You can search a location or drag the blue dot on the map to change locations.</li>
+                                        <li><strong>Search for a new location: </strong>Use the search function to change the selected location. Search box accepts a variety of types of locations (addresses, landmarks, geographic regions).</li>
+                                        <li><strong>Map layers: </strong> Click the icon to select which map layers to display. This also provides a key for the symbology on the map.</li>
+                                        <li><strong>Help: </strong>Here you will find where to get more information including the User Guide, FAQs, Feedback and AQI color legend.</li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    <strong>Local Conditions Icons</strong>
+                                    <p>Shows information about the currently set location of interest. Clicking on any of the icons will bring out the Location Condition Sidebar.</p>
+                                    <ul>
+                                        <li><strong>Air Quality: </strong> The circle icon shows the NowCast AQI category of the nearest air quality monitor that is currently reporting. If white, no monitor is reporting within 30 mi of the location.</li>
+                                        <li><strong>Fires: </strong>The fire icon shows whether there are large fires or satellite detections within 150 mi of the location. If white, no fires were found.</li>
+                                        <li><strong>Smoke: </strong> The cloud icon shows whether there are smoke plumes detected within 150 mi of the location. If white, no smoke plume was found.</li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    <strong>Refresh</strong>
+                                    <ul>
+                                        <li>The map retrieves the latest available data when first loaded. Due to inconsistent behavior across browsers the map does not automatically refresh this data. However a refresh can be manually triggered by clicking on the icon in the lower left. The time of the last data retrieval is also shown.</li>
+                                        <li>After 15 minutes have passed since the last refresh, the map refresh icon and time will turn red and a banner prompting a refresh will appear on the top of the map.</li>
+                                     </ul>
+                                </p>
+                                <p>
+                                    <strong>Zoom</strong>
+                                    <ul>
+                                        <li>Click the plus to zoom in closer to your location, click the minus to zoom out.</li>
+                                    </ul>
+                                </p>
+                                <h4>Selecting Map Layers</h4>
+                                <hr/>
+                                <p>
+                                    Map layers can be selected on the Map Layer Control in the Top Menu in the upper left of the map.
+                                </p>
+                                <p>
+                                    <strong>Air Quality (PM<sub>2.5</sub>) Layers:</strong><br/>
+                                    Monitors and sensors reporting PM<sub>2.5</sub> data can be turned off or on (all are on by default). Separate controls are given for:<br/>
+                                    <ul>
+                                        <li>
+                                            <strong>Permanent Monitors: </strong>
+                                            (typically owned and maintained by governmental agencies at the local, state, tribal, and federal level).
+                                        </li>
+                                        <li>
+                                            <strong>Temporary Monitors: </strong>
+                                            emplaced for various reasons on a temporary basis. (Typically owned and maintained by various governmental agencies.)
+                                        </li>
+                                        <li>
+                                            <strong>Low Cost Sensors: </strong>
+                                            owned and emplaced by individuals, organizations, and some governmental agencies. Currently from PurpleAir sensor data.
+                                        </li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    <strong>Fire Information Layers:</strong><br/>
+                                    <ul>
+                                        <li>
+                                            <strong>Large Incidents: </strong>
+                                            Information on active large incidents from the National Interagency Fire Center.
+                                        </li>
+                                        <li>
+                                            <strong>Satellite Detections: </strong>
+                                             Aggregated across a number of different satellite sensors by the National Oceanic and Atmospheric Administration's Hazard Mapping System.
+                                        </li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    <strong>Smoke Plume Layers:</strong><br/>
+                                    <ul>
+                                        <li>
+                                            <strong>Smoke Plume Extent: </strong>
+                                            Based on an analysis of satellite data by the National Oceanic and Atmospheric Administration's Hazard Mapping System.
+                                        </li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    <strong>Smoke Plume Layers:</strong><br/>
+                                    <ul>
+                                        <li>
+                                            <strong>Smoke Plume Extent: </strong>
+                                            Based on an analysis of satellite data by the National Oceanic and Atmospheric Administration's Hazard Mapping System.
+                                        </li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    <strong>Special Smoke Statements Layers: </strong><br/>
+                                    <ul>
+                                        <li>
+                                            <strong>Boundaries: </strong>
+                                            Perimeter extent (blue outline) of Smoke Outlooks issued by the Interagency Wildland Fire Air Quality Response Program’s Air Resource Advisors.
+                                        </li>
+                                    </ul>
+                                </p>
+                                <p>
+                                    <strong>Basemaps: </strong><br/>
+                                    <ul>
+                                        <li>
+                                            Two basemaps are provided - aerial and terrain.
+                                        </li>
+                                    </ul>
+                                </p>
+                                <h4>Refreshing the Map</h4>
+                                <hr/>
+                                <p>
+                                    The map will continue to display the data available at the time it was originally loaded. To refresh the data with the latest information press the button in the lower left corner or click on the prompt. Refreshing more frequently than every 15 minutes is  generally not recommended.
+                                </p>
+                                <h4>Sidebar: Conditions Near Location Of Interest</h4>
+                                <hr/>
+                                <p>A pull out sidebar showing conditions will appear when the Location Condition Icons or Location Dot Control are clicked. This sidebar shows the conditions nearby the set location of interest. To change where the location of interest is set click on the Location Dot Control or Search Control in the Top Menu in the upper right, or drag the blue dot on the map to the location of interest. The sidebar shows several different sets of information including air quality (PM<sub>2.5</sub>) conditions, nearby fires, nearby detected smoke plumes, and any special smoke statements issued for this location.</p>
+                                <p><strong>Air Quality (PM<sub>2.5</sub>): </strong>Fine particulate (PM<sub>2.5</sub>) air quality conditions are shown for both monitors (permanent and temporary) as well as low-cost sensors nearest the set location of interest. For monitors and sensors within 30 mi, the closest three monitors and sensors are shown. If no monitors are within 30 mi, the nearest monitor is shown. Click on one of the monitors to see the measurements and conditions at that monitor.</p>
+                                <p><strong>Fires: </strong>Local fire conditions indicate whether there is presence of a potential fire within a 150 mile radius of the user defined position (either set through geolocation or manually). Large fire incidents and satellite fire detections are shown. False detections have been known to occur. Presence as well as spatial measures such as distance and directionality should not be used for tactical decisions.</p>
+                                <p><strong>Smoke Plumes: </strong>Local smoke plume conditions indicate whether there is presence of a satellite detected smoke plume either at the user defined position (either set through geolocation or manually), or within a 150 mile radius. Presence as well as spatial measures such as distance and directionality should not be used for tactical decisions.</p>
+                                <p><strong>Special Smoke Statements: </strong>Smoke Outlooks issued by the Interagency Wildland Fire Air Quality Response Program’s Air Resource Advisors that apply to the location of interest will appear here. Click to view the Smoke Outlook. </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="airQualityTabPane"></br>
+                                <h3>Air Quality Information</h3>
+                                <hr>
+                                <p>The Fire and Smoke Map shows fine particulate (<2.5 micron, PM<sub>2.5</sub>) pollution data obtained from air quality monitors and sensors. Information is shown on both the EPA’s Air Quality Index scale, using the NowCast AQI algorithm, and also as hourly PM<sub>2.5</sub> concentration values. For low-cost sensor data, a correction equation is also applied to mitigate bias in the sensor data.</p>
+                                <h4>Air Quality Index (AQI), NowCast AQI, and PM<sub>2.5</sub> Concentrations</h4>
+                                <hr/>
+                                <p>
+                                    The AQI is EPA’s index for reporting air quality. It tells you how clean or polluted your air is, and what associated health effects might be a concern for you. The AQI can be calculated for five major air pollutants regulated by the Clean Air Act: ground-level ozone, particle pollution (also known as particulate matter), carbon monoxide, sulfur dioxide, and nitrogen dioxide.  See more information about the <a href="https://www.airnow.gov/aqi/aqi-basics/" target="_blank">AQI</a>.
+                                </p>
+                                <p>
+                                    <strong> The AQI used in the Fire and Smoke Map is specifically focused on fine particulate matter (PM) known as PM<sub>2.5</sub>. PM stands for particulate matter (also called particle pollution), the term for a mixture of solid particles and liquid droplets found in the air. PM<sub>2.5</sub> specifically refers to fine inhalable particles, with diameters that are generally 2.5 micrometers and smaller.</strong> See more information about the <a href="https://www.epa.gov/pm-pollution" target="_blank">PM<sub>2.5</sub></a> or the <a href="https://www.airnow.gov/sites/default/files/2019-02/air-quality-guide_pm_2015.pdf" target="_blank">Air Quality Guide for Particle Pollution</a>
+                                </p>
+                                <p>
+                                    It is possible that ozone or PM<sub>10</sub> could drive the local AQI in certain circumstances. To see a map that includes ozone and PM<sub>10</sub> in addition to PM<sub>2.5</sub>, please see the <a href="https://gispub.epa.gov/airnow/" target="_blank" >AirNow Interactive Map</a>.
+                                </p>
+                                <p>
+                                    NowCast refers to an algorithm that is applied to the hourly permanent, temporary, and sensor data when an estimate of the current hourly AQI is needed. The AQI for PM<sub>2.5</sub> is a 24-hour average, so EPA uses an algorithm to estimate the current AQI based on multiple hours of past data. The NowCast uses longer averages during periods of stable air quality and shorter averages when air quality is changing rapidly, such as during a wildfire. However, the NowCast is not designed to react to changes that are shorter than a 3 hr period in duration.
+                                    <br/>
+                                    <br/>
+                                    See more information about the <a href="https://www.airnow.gov/aqi/aqi-basics/using-air-quality-index/#nowcast" target="_blank">NowCast AQI</a>.
+                                </p>
+                                <p>
+                                    PM stands for particulate matter (also called particle pollution), the term for a mixture of solid particles and liquid droplets found in the air. Some particles, such as dust, dirt, soot, or smoke, are large or dark enough to be seen with the naked eye. Others are so small they can only be detected using an electron microscope. PM<sub>2.5</sub> specifically refers to fine inhalable particles, with diameters that are generally 2.5 micrometers and smaller. See more information about <a target="_blank" href="https://www.epa.gov/pm-pollution">PM<sub>2.5</sub></a> or the <a href="https://www.airnow.gov/sites/default/files/2019-02/air-quality-guide_pm_2015.pdf" target="_blank">Air Quality Guide for Particle Pollution</a>
+                                </p>
+                                <h4>AQI Categories and Recommended Actions</h4>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <table class="table table-bordered aqi-table">
+                                            <caption style="text-align:center"><strong>AQI Basics for Ozone and Particle Pollution</strong></caption>
+                                            <thead>
+                                                <tr style="background: rgb(225, 235, 244);">
+                                                    <th scope="col">Daily AQI Color</th>
+                                                    <th scope="col">Levels of Concern</th>
+                                                    <th scope="col">Values of Index</th>
+                                                    <th scope="col">Description of Air Quality</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr style="background: rgb(0, 228, 0)">
+                                                    <td style="text-align:center"><strong>Green</strong></td>
+                                                    <td id="good" style="text-align:center"><strong>Good</strong></td>
+                                                    <td style="text-align:center"><strong>0 to 50</strong></td>
+                                                    <td><strong>Air quality is satisfactory, and air pollution poses little or no risk.</strong></td>
+                                                </tr>
+                                                <tr style="background:yellow;">
+                                                    <td style="text-align:center"><strong>Yellow</strong></td>
+                                                    <td id="mod" style="text-align:center"><strong>Moderate</strong></td>
+                                                    <td style="text-align:center"><strong>51 to 100</strong></td>
+                                                    <td><strong>Air quality is acceptable. However, there may be a risk for some people, particularly those who are unusually sensitive to air pollution.</strong></td>
+                                                </tr>
+                                                <tr style="background: rgb(255, 126, 0);color:white;">
+                                                    <td style="text-align:center"><strong>Orange</strong></td>
+                                                    <td id="sens" style="text-align:center"><strong>Unhealthy for Sensitive Groups</strong></td>
+                                                    <td style="text-align:center"><strong>101 to 150</strong></td>
+                                                    <td><strong>Members of sensitive groups may experience health effects. The general public is less likely to be affected.</strong></td>
+                                                </tr>
+                                                <tr style="background:red;color:white;">
+                                                    <td style="text-align:center"><strong>Red</strong></td>
+                                                    <td id="unh" style="text-align:center"><strong>Unhealthy</strong></td>
+                                                    <td style="text-align:center"><strong>151 to 200</strong></td>
+                                                    <td><strong>Some members of the general public may experience health effects; members of sensitive groups may experience more serious health effects.</strong></td>
+                                                </tr>
+                                                <tr style="background: rgb(143, 63, 151);color:white;">
+                                                    <td style="text-align:center"><strong>Purple</strong></td>
+                                                    <td id="vunh" style="text-align:center"><strong>Very Unhealthy</strong></td>
+                                                    <td style="text-align:center"><strong>201 to 300</strong></td>
+                                                    <td><strong>Health alert: The risk of health effects is increased for everyone.</strong></td>
+                                                </tr>
+                                                <tr style="background: rgb(126, 0, 35 );color:white;">
+                                                    <td style="text-align:center"><strong>Maroon</strong></td>
+                                                    <td id="haz" style="text-align:center"><strong>Hazardous</strong></td>
+                                                    <td style="text-align:center"><strong>301 and higher</strong></td>
+                                                    <td><strong>Health warning of emergency conditions: everyone is more likely to be affected.</strong></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <p>
+                                    <i><strong>Note:</strong> Values above 500 are considered Beyond the AQI. Follow recommendations for the Hazardous category. Additional information on reducing exposure to extremely high levels of particle pollution is available <a href="https://www.airnow.gov/index.cfm?action=aqibasics.pmhilevels" target="_blank">here</a>.</i>
+                                </p>
+                                <p>
+                                    Learn More about the <a href="https://www.airnow.gov/aqi/aqi-basics/" target="_blank">AQI</a>, as well as the <a href="https://www.airnow.gov/sites/default/files/2019-02/air-quality-guide_pm_2015.pdf" target="_blank">Air Quality Guide for Particle Pollution</a>, and how to be <a href="https://www.epa.gov/smoke-ready-toolbox-wildfires" target="_blank">Smoke Ready, including protective actions for wildland fire smoke</a>.
+                                </p>
+                                <h4>Monitoring Information Displayed</h4>
+                                <hr/>
+                                <p>
+                                    The map displays 3 types of air quality monitors:<br/>
+                                    <ul>
+                                        <li>Permanent monitors (as circles)</li>
+                                        <li>Temporary monitors (as triangles)</li>
+                                        <li>Low-cost sensors (as squares)</li>
+                                    </ul>
+                                    <br/>
+                                    The color of the icon on the map reflects that monitors’ latest NowCast AQI category color.
+                                </p>
+                                <p>
+                                    Clicking on any monitor or sensor will bring up a popup box that shows additional information for the unit including its:<br/>
+                                    <ul>
+                                        <li>Type</li>
+                                        <li>Name, ID, and data feed provider</li>
+                                        <li>Current reading and timestamp</li>
+                                        <li>Timeseries of recent past values</li>
+                                    </ul>
+                                    <br/>
+                                    By default the values shown are NowCast AQI values. When the Concentration tab is selected the values shown are hourly PM<sub>2.5 </sub>concentration values.
+                                </p>
+                                <p>
+                                    The historical timeseries of values is shown for the past 10 days (when viewed on desktop displays) or 3 days (on mobile devices). Hovering over any particular hour on the timeseries shows the value. The user can zoom into a portion of the timeseries by clicking and selecting a section of the timeseries.
+                                </p>
+                                <h4>Types of Monitors</h4>
+                                <hr/>
+                                <strong>Permanent Monitors</strong>
+                                <p>
+                                    Permanent particulate monitors are owned and maintained by various entities, including: federal, state, tribal, and local agencies. These monitors are regulatory-grade, and the data they produce is of the highest quality.
+                                </p>
+                                <p>
+                                    Most monitors report out hourly. Data for permanent monitors is obtained through the EPA AirNow system which aggregates data feeds from a large number of agencies and organizations on an hourly basis. Data lag in transmission to AirNow is dependent on the specific monitor data transmission methodology and agency involved. Data is retrieved from AirNow every 3 min.
+                                </p>
+                                <strong>Temporary Monitors</strong>
+                                <p>
+                                    Temporary, portable particulate monitors are deployed near large, active wildfires by the US Forest Service and state and local agencies. Most monitors report out hourly.
+                                </p>
+                                <p>
+                                    Data for temporary monitors is obtained through the AirSis and the Western Regional Climate Center (WRCC) data feeds. Data is retrieved approximately every 15min, but the monitors themselves only report hourly aggregates based on the clock hour (e.g. 2-3pm). Further transmission lags, particularly with the GOES satellite transmissions processed by the WRCC can sometimes take several hours.
+                                </p>
+                                <strong>Low-Cost Sensors</strong>
+                                <p>
+                                    Low-Cost Sensors are portable, generally easier to operate than regulatory-grade monitors, and available on the commercial market. Most sensors report out every few minutes. Most sensors report out every few minutes. Most low-cost sensors do not have data quality that is comparable to the monitoring stations operated by air agencies. For the pilot, sensor data have been averaged to an hour, QA screened, corrected for bias, and NowCast.
+                                </p>
+                                <p>
+                                    Data for low cost sensors is currently obtained through the PurpleAir network with potentially other networks added in the future. The PurpleAir data has undergone QA screening.
+                                </p>
+                                <p>
+                                    PurpleAir data is collected every 2 min, but only displayed after aggregating to a calendar hour (e.g. 2-3pm) and processing through the correction factor and NowCast AQI algorithm. This processing can take up to 15 min. Additionally, the processing and time smoothing of the hourly aggregation and NowCast algorithm means that the PurpleAir data shown here will not respond as rapidly as the 10 min averages and other shorter term time averages available on the PurpleAir website. Work is ongoing to investigate best to include shorter term time averages or data updates on this map.
+                                </p>
+                                <p>See Section 5. Data Limitations and Disclaimers for important limitations on the data shown.</p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="smokeFireTabPane"></br>
+                                <h3>Fire & Smoke Information</h3>
+                                <hr>
+                                <h4>Fire Information</h4>
+                                <hr/>
+                                <p>Two types of fire information are presented on the map: large fire incidents and satellite fire detections.</p>
+                                <strong>Large Fire Incident</strong>
+                                <p>
+                                    Active large fire incidents from the U.S. National Interagency Fire Center’s active incident feed are presented as fire icons. Clicking on a fire displays information about the fire. Note that these incidents may not have updated for several days due to the nature of the reporting systems used. Additional information on these incidents is available through the Inciweb system (<a href="https://inciweb.nwcg.gov" target="_blank">https://inciweb.nwcg.gov</a>). While the information presented by this feed can be several days old, it does present important management information including the fire name, overall fire size, and containment.
+                                    <br/>
+                                    <br/>
+                                    Data is downloaded every 15 min.
+                                </p>
+                                <strong>Satellite Fire Detections</strong>
+                                <p>
+                                    Satellite fire detections are based on information from the National Oceanic and Atmospheric Administration’s (NOAA) Hazard Mapping System (HMS). This is a combination of automated satellite detected “hotspots” from various satellites and human analyzed fire locations based on smoke plumes. Hotspot detections are based on higher than normal temperatures visible to the satellite from a location on the ground. This represents the detection of above normal temperatures, and does not necessarily reflect the presence of an actual wildland fire, as false detections have been known to occur. Additionally, depending on the satellite the specific location covered by the image pixel may be 1 or more kilometers in resolution. Additionally geolocation error can occur due to other reasons. For large fires, multiple satellite detections may occur for the same fire.
+                                    <br/>
+                                    <br/>
+                                    Data is downloaded every 15 minutes from the NOAA Hazard Mapping System (HMS), but HMS updates can sometimes take a few hours to occur.
+                                </p>
+                                <h4>Smoke Plumes</h4>
+                                <hr/>
+                                <p>
+                                    Smoke plume locations are based on information from the NOAA Hazard Mapping System based on polygons drawn around smoke detected in satellite imagery. In general this represents the presence of smoke in the overall column of air at those locations. However, it may not correspond to smoke being present at ground level; the smoke could be aloft instead. Additionally it will not represent smaller smoke plumes or smoke plumes otherwise not detected by the satellite images (e.g. due to cloud cover, or because they have occurred after the satellite image was taken).
+                                    <br/>
+                                    <br/>
+                                    Data is downloaded every 15 minutes from the NOAA Hazard Mapping System (HMS), but HMS updates can sometimes take a few hours to occur.
+                                </p>
+                                <h4>Special Smoke Statements</h4>
+                                <hr/>
+                                <p>
+                                    Whenever the location of interest is within the area of a Special Smoke Statement, a banner is displayed notifying the user and the Special Smoke Statement section of the Sidebar will also display this information. Clicking the link takes the user to the Special Smoke Statement (or to a list if there is more than one). Currently the map only displays as Special Smoke Statements smoke outlooks produced by deployed U.S. <a href="https://wildlandfiresmoke.net/" target="_blank">Interagency Wildland Fire Air Quality Response Program</a> Air Resource Advisors, but the inclusion of additional smoke outlooks and forecasts are being investigated. The boundaries of areas with smoke outlooks can be turned on the Map Layer Control.
+                                    <br/>
+                                    <br/>
+                                    U.S. Interagency Wildland Fire Air Quality Response Program smoke outlooks are retrieved every 5 min.
+                                </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="disclaimerTabPane"></br>
+                                <h3>Data Limitations & Disclaimers</h3>
+                                <hr>
+                                <h4>Sensor Data Pilot</h4>
+                                <hr/>
+                                <p>
+                                    EPA and USFS are conducting a pilot project to add data from low-cost sensors to the Fire and Smoke map. While these sensors don’t meet the rigorous standards required for regulatory monitors, they can help you get a picture of air quality nearest you – especially when wildfire smoke is in your area. Use the map layer icon in the upper righthand corner of the map to turn on information from AirNow monitors, USFS temporary monitors, and sensors. EPA and USFS may update the sensor map layer several times during the pilot project, as we respond to feedback and work to improve the map.
+                                </p>
+                                <p>Please Note:
+                                    <br/>
+                                    <ul>
+                                        <li>
+                                            The data on the AirNow Fire and Smoke Map are intended to help individuals make decisions to protect their health during fires.
+                                        </li>
+                                        <li>
+                                            If there is a wildfire in your area, please stay tuned to local authorities for the latest information on fire and smoke safety.
+                                        </li>
+                                        <li>
+                                            EPA will not use the data on this map to make regulatory decisions.
+                                        </li>
+                                        <li>
+                                            Mention of trade names or commercial products does not constitute EPA or USFS endorsement or recommendation for use.
+                                        </li>
+                                    </ul>
+                                </p>
+                                <h4>Limitations & Disclaimers</h4>
+                                <hr/>
+                                <p>
+                                    <ul>
+                                        <li>
+                                            Data are provisional and are subject to revision until thoroughly reviewed and approved.
+                                        </li>
+                                        <li>
+                                            Data may be delayed, unavailable, or in error due to measurement problems, data transmission issues, and/or data aggregation system timing and issues.
+                                        </li>
+                                        <li>
+                                            Real-time data relayed by satellite or other telemetry are automatically screened by the various systems to not display improbable values until they can be verified.
+                                        </li>
+                                        <li>
+                                            Provisional data may be inaccurate due to instrument malfunctions or physical changes at the measurement site. Subsequent review based on field inspections and measurements may result in significant revisions to the data.
+                                        </li>
+                                        <li>
+                                            Both the satellite fire detections and the smoke plume data generated by the National Oceanic and Atmospheric Administration’s Hazard Mapping System (HMS) systems which notes that <i>"The information on fire position should be used as general guidance and for strategic planning. Tactical decisions, such as the activation of a response to fight these fires and evacuation efforts, should not be made without other information to corroborate the fire's existence and location."</i>
+                                        </li>
+                                        <li>
+                                            Real-time air quality monitoring data is preliminary and should only be used for informational purposes, not for regulatory or attainment decisions.
+                                        </li>
+                                        <li>
+                                            For the Sensor Data Pilot, low-cost sensor data is provided by PurpleAir and is subject to the capabilities and limitations of that system. Data from low-cost sensors does not meet the high quality standards of EPA approved Federal Reference Method (FRM) or Federal Equivalent Method (FEM) monitors that are used for compliance with the National Ambient Air Quality Standards. For the Sensor Data Pilot, the data has been corrected. It should be used for informational purposes only.
+                                        </li>
+                                        <li>
+                                            Data from low-cost sensors is presented with the following notation: <i>This is a low-cost sensor that typically has unknown performance, siting, and maintenance. Data from permanent air monitors is higher quality than data from low-cost air sensors. Data processing includes quality control screening, hourly averaging, and application of EPA correction factor and NowCast algorithm.</i>
+                                        </li>
+                                        <li>
+                                            Use of any data provider or system does not constitute endorsement or recommendation of that system. The data are being provided to meet the need for timely best science and are released on the condition that neither the EPA, USFS, nor the U.S. Government may be held liable for any damages resulting from authorized or unauthorized use of the information. Data users are cautioned to consider carefully the provisional nature of the information before using it for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences.
+                                        </li>
+                                    </ul>
+                                    <br/>
+                                    Information concerning the accuracy and appropriate uses of these data or concerning other air quality data may be obtained through EPA at <a href="mailto:sensordatapilot@epa.gov">sensordatapilot@epa.gov</a>.
+                                </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="faqTabPane"></br>
+                                <h3>Frequently Asked Questions (FAQs)</h3>
+                                <hr>
+                                    <p>
+                                        The AirNow sensor data pilot project is designed to provide the public with additional information on levels of particle pollution (PM<sub>2.5</sub>) in the air, particularly during wildfires. The project adds data from low-cost sensors to the Fire and Smoke Map on the AirNow.gov website. This map was developed through a collaborative effort between the U.S. Forest Service (USFS)-led Interagency Wildland Fire Air Quality Response Program and the U.S. Environmental Protection Agency (EPA). Map development work was conducted through an agreement with the University of Washington’s School of Environmental and Forest Sciences.
+                                    </p>
+                                    <p>
+                                        Notes and disclaimers:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            The data on the AirNow Fire and Smoke Map are intended to help individuals make decisions to protect their health during fires.
+                                        </li>
+                                        <li>
+                                            If there is a wildfire in your area, please stay tuned to local authorities for the latest information on fire and smoke safety.
+                                        </li>
+                                        <li>
+                                            EPA will not use the data on this map to make regulatory decisions.
+                                        </li>
+                                        <li>
+                                            Mention of trade names or commercial products does not constitute EPA or USFS endorsement or recommendation for use.
+                                        </li>
+                                    </ul>
+                                    <h2 class="modal-subheading">Using the Fire and Smoke Map FAQs</h2>
+                                    <h4>What are the various symbols that are shown on the map?</h4>
+                                    <hr/>
+                                    <p>
+                                        The circles represent the permanent, stationary long-term monitoring stations that are used to report outdoor air quality to the public on AirNow.gov. These are generally operated by state, local or tribal air quality agencies and stay in place for many years. Triangles represent temporarily located monitors (such as EBAMS / ESAMPLERS) that agencies have placed to monitor smoke events. These temporary monitors may come and go as smoke conditions warrant. Squares represent low-cost sensors.
+                                    </p>
+                                    <h4>Is there any way to download the sensor data choosing a geographic area and time period?</h4>
+                                    <hr/>
+                                    <p>
+                                        The AirNow Fire and Smoke pilot map does not currently have a feature to allow the user to download sensor data. However, this feature is available for the uncorrected data on PurpleAir.com.
+                                    </p>
+                                    <h4>How can I select a location on the map?</h4>
+                                    <hr/>
+                                    <p>
+                                        If your device has geolocation enabled, the map can automatically use it to set your location of interest, or you can manually select or enter the location you’re interested in. Click on the search button (magnifying glass) on the top right menu to search for a location by city, state or, area. To select your current GPS location, click on the “Search for conditions near your current location” link at the bottom of the search box that opens when you click on the magnifying glass.
+                                    </p>
+                                    <h4>How can I go back to my current map location?</h4>
+                                    <hr/>
+                                    <p>
+                                        Click on the flashing blue dot on the top right menu to re-center the map on your current location.
+                                    </p>
+                                    <h4>What else can I learn about my location?</h4>
+                                    <hr/>
+                                    <p>
+                                        The sidebar on the left side of the map gives you access to more information about conditions near the current map location. Click on the icons to show the closest air quality monitoring stations (color coded by current air quality conditions), fire detections, and smoke plumes. There is a “learn more” link on each of these for access to more information.
+                                    </p>
+                                    <h4>Can I modify my map?</h4>
+                                    <hr/>
+                                    <p>
+                                        Use the “Layer” menu on the top right (<i class="fas fa-layer-group"></i>) to show or hide map features including air quality monitors (permanent, temporary, or both), low-cost sensors, fire locations, smoke plumes, and special smoke statements (if any). You can also choose the base layer for your map.
+                                    </p>
+                                    <h4>How do I know that the latest information is displayed on the map?</h4>
+                                    <hr/>
+                                    <p>
+                                        Use the Refresh button on the bottom left corner of the map to update the data. The map automatically refreshes the data every 15 minutes.
+                                    </p>
+                                    <h4>What do the colors of the monitor/sensor icons mean?</h4>
+                                    <hr/>
+                                    <p>
+                                       The colors show the US. Air Quality Index (AQI) category. The AQI is EPA’s color-coded tool for communicating air quality to the public. To see the AQI legend, tap or click the ? icon on the top right menu. If an icon is gray, that indicates that data is not available (this could occur for several reasons).
+                                    </p>
+                                    <h4>What is the difference between the Concentration tab and the AQI tab on the monitor and sensor pop-ups?</h4>
+                                    <hr/>
+                                    <p>
+                                       The Concentration tab shows the PM<sub>2.5</sub> concentration value for the current hour as well as the trend. For low-cost sensors, the concentrations shown have been corrected using the EPA correction equation. The AQI tab for each monitor or sensor displays the AQI value as well as the AQI color. The EPA See more information about the <a href="https://docs.google.com/document/d/12rcytqC-_WLVjnpmuXJVRw_tBSvQJae8c240hj8GvdM/edit?ts=5f342792#bookmark=kix.jkd8b49g3qtc" target="_blank">NowCast</a> has been applied to monitor and sensor data to estimate the AQI for the current hour as well as the AQI trend.
+                                    </p>
+                                    <h4>Where can I find information about a specific air quality monitor or sensor?</h4>
+                                    <hr/>
+                                    <p>
+                                       Click on the monitor/sensor icon (circle, triangle, or square) to access additional information about air quality conditions at the monitor or sensor. Click on the AQI and concentration tabs to see a time series of AQI values (NowCast) or PM<sub>2.5</sub> hourly concentrations for that monitor.
+                                    </p>
+                                    <h4>How can I save a map image?</h4>
+                                    <hr/>
+                                    <p>
+                                        You can take a screenshot. Use Alt+PrtScn for a PC or Press Command + Control + Shift + 3 for Mac.
+                                    </p>
+                                    <h4>Where does the sensor data on the map come from?</h4>
+                                    <hr/>
+                                    <p>
+                                        The sensor data comes from PurpleAir, which crowdsources data from that company’s particle pollution sensors and shows the data on a map. Before the sensor data appear on the AirNow Fire and Smoke Map, EPA and USFS apply both a scientific correction equation to mitigate bias in the sensor data, and the NowCast, the algorithm to show the data in the context of the Air Quality Index.
+                                    </p>
+                                    <h4>What is the data source for the satellite fire detections on the map?</h4>
+                                    <hr/>
+                                    <p>
+                                        The map uses the <a href="https://www.ospo.noaa.gov/Products/land/hms.html" target="_blank">NOAA Hazard Mapping System</a> fire detections that are made available at this time.
+                                    </p>
+                                    <h4>What is the data source for the large fire incidents on the map?</h4>
+                                    <hr/>
+                                    <p>
+                                        Active large fire incidents from the U.S. National Interagency Fire Center’s active incident feed are presented as fire icons. Clicking on a fire displays information about the fire. Note that these incidents may not have updated for several days due to the nature of the reporting systems used. Additional information on these incidents is available through the Inciweb system (<a href="https://inciweb.nwcg.gov" target="_blank">https://inciweb.nwcg.gov</a>). While the information presented by this feed can be several days old, it does present important management information including the fire name, overall fire size, and containment.
+                                    </p>
+                                    <h2 class="modal-subheading">Sensor Data Pilot FAQs</h2>
+                                    <h4>What is an air sensor?</h4>
+                                    <hr/>
+                                    <p>
+                                        Air sensors, also known as low-cost sensors, are a class of non-regulatory technology for measuring pollutants in the air. This term often describes an integrated set of hardware and software that uses one or more “sensing elements” (also sometimes called sensors) to detect or measure pollutant concentrations. Air sensors are lower in cost, portable, and generally easier to operate than the regulatory monitors widely used in the United States. Learn more at <a href="https://www.epa.gov/air-sensor-toolbox" target="_blank">https://www.epa.gov/air-sensor-toolbox</a>.
+                                    </p>
+                                    <h4>Why is EPA showing low-cost sensor data on the map?</h4>
+                                    <hr/>
+                                    <p>
+                                        Sensor technology provides thousands of additional data points that can be used to supplement data from air monitoring stations operated by official air agencies. USFS and EPA are showing sensor data as part of a pilot project designed to provide the public with additional information that individuals can use to protect their health, particularly during wildfires.
+                                    </p>
+                                    <p>
+                                        When you visit the Fire and Smoke Map on AirNow.gov, you will be able to select “low-cost sensors” from the map layers to see particle pollution (PM<sub>2.5</sub>) information from sensors, along with information from AirNow monitors and temporary monitors deployed during fires. Data from all of these sources is shown in the color-coded Air Quality Index (AQI).
+                                    </p>
+                                    <h4>Should I use the Fire and Smoke Map updates instead of the PurpleAir map?</h4>
+                                    <hr/>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                Both types of maps can help you understand your air quality.
+                                            </li>
+                                            <li>
+                                                The Fire and Smoke Map allows you to compare current air quality from low-cost sensors, the regulatory grade monitors that report to AirNow, and temporary monitors that USFS, states, tribes and local agencies deploy on fires – and to see all of that information in one place. That’s possible because of the steps EPA and USFS take to mitigate bias in sensor data, apply quality assurance measures and apply the NowCast algorithm to show the data in the context of the Air Quality Index.
+                                            </li>
+                                            <li>
+                                                In addition, the Fire and Smoke Map features fire location, basic fire information (if available) and smoke plume information.
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <h4>Is sensor data as good as data from regulatory monitors?</h4>
+                                    <hr/>
+                                    <p>
+                                        While low-cost sensors are useful for providing general information about air quality, sensor data is not comparable to data from the outdoor air quality monitoring station network operating in the U.S., many of which report to AirNow.  EPA does not use sensor data for regulatory purposes.
+                                    </p>
+                                    <p>
+                                        EPA scientists have found that air sensors often overestimate or underestimate pollutant concentrations compared to the regulatory-grade instruments that are operated in the same location.  PurpleAir sensors without use of the EPA correction equation measure the same trends in PM<sub>2.5</sub> concentrations as collocated regulatory monitors and they tend to overestimate the PM<sub>2.5</sub> mass concentrations.
+                                    </p>
+                                    <p>
+                                        For the sensor data used in the Fire and Smoke Map, EPA has applied a national correction equation, developed by EPA scientists, that mitigates the bias in the sensor data. This corrected data will help provide the public with additional air quality information, especially in areas where there are no regulatory monitors.  When corrected sensor data is used to generate the NowCast AQI, the results are in the right NowCast AQI category 93 percent of the time; the other 7 percent of the time, the results are within one category of the correct NowCast AQI. <a href="https://www.epa.gov/sciencematters/study-explores-ways-improve-accuracy-air-sensors" target="_blank">Read about EPA’s research to improve the accuracy of sensors</a>.
+                                    </p>
+                                    <p>
+                                        In addition, regulatory air quality monitoring stations are located according to EPA guidelines, remain in one place for many years, are maintained and operated by trained experts, and follow EPA quality assurance protocols.   For most low-cost air sensors, little is known about the locations, including how close sensors are to any sources of pollution. In addition, a lack of information about the maintenance, or operation of these sensors, adds additional uncertainty.
+                                    </p>
+                                    <h4>Is sensor data used on other maps on AirNow – or just the Fire and Smoke Map?</h4>
+                                    <hr/>
+                                    <p>
+                                        USFS and EPA are providing the data on the Fire and Smoke Map to give the public additional information they can use to make individual decisions to protect their health during fires. Sensor data is not used on other maps on the AirNow website and is not used to generate the current air quality or forecast AQI shown on the “dial” on the AirNow home page or AirNow app. The data on the map is not used for regulatory purposes.
+                                    </p>
+                                    <h4>Why are only PurpleAir sensors displayed on the map?</h4>
+                                    <hr/>
+                                    <p>
+                                        EPA researchers have used a scientific approach to develop a correction equation for PurpleAir sensors. The PurpleAir sensors were assessed, because their use has grown exponentially, resulting in an extensive network of publicly reporting sensors worldwide. EPA and more than 30 state, local, and tribal air agency partners placed these sensors side-by-side with highly robust and accurate regulatory monitors in more than 70 locations throughout the U.S. to evaluate their performance.
+                                    </p>
+                                    <p>
+                                        EPA is in the process of collecting and analyzing data for other sensor models; however, the Agency does not have as significant of a body of data for other sensor technologies since there are fewer deployed across the U.S.
+                                    </p>
+                                    <p>
+                                        <i>
+                                            Note: Low-cost sensor data is being provided by PurpleAir and is subject to the capabilities and limitations of that system. Use of any data provider or system does not constitute endorsement or recommendation of that system. Mention of trade names or commercial products does not constitute EPA or USFS endorsement or recommendation for use.
+                                        </i>
+                                    </p>
+                                    <h4>Does EPA recommend PurpleAir sensors?</h4>
+                                    <hr/>
+                                    <p>
+                                        EPA does not endorse any particular commercial product. Mention of trade names or commercial products does not constitute EPA or USFS endorsement or recommendation for use.
+                                    </p>
+                                    <h4>Where can I send questions about the pilot?</h4>
+                                    <hr/>
+                                    <p>
+                                        Please send your questions to <a href="mailto:sensordatapilot@epa.gov">sensordatapilot@epa.gov</a>.
+                                    </p>
+                                    <h4>Are state, local or tribal air agencies responsible for the sensors?</h4>
+                                    <hr/>
+                                    <p>
+                                        State, local and tribal air agencies are not responsible for the accuracy and performance of the sensor data. The Fire and Smoke Map shows publicly available PM<sub>2.5</sub> (particle pollution) data provided by the PurpleAir data feed. Many PurpleAir sensors are run by community groups and individuals. Little is known about the sensors’ locations, including how close sensors are to any sources of pollution, along with how the sensors are operated or maintained. That’s why you should use the sensor data on the map for informational purposes only.
+                                    </p>
+                                    <h4>Is the sensor data on the Fire and Smoke Map used for official Air Quality Index (AQI) reporting?</h4>
+                                    <hr/>
+                                    <p>
+                                        The sensor data are not meant to be used for official AQI reporting. Although we are quality controlling the data and applying EPA’s correction equation, the data are not comparable to data  from official outdoor air quality monitoring networks. For these reasons, sensor data should only be used to supplement AQI information.
+                                    </p>
+                                    <h4>What pollutants are reported through this pilot?</h4>
+                                    <hr/>
+                                    <p>
+                                        This pilot map is showing only PM<sub>2.5</sub> (particle pollution). It shows particle pollution from AirNow monitors, temporary monitors deployed by agencies for smoke events, and the low-cost sensors. Users can click on the layer icon on the upper right of the map to select map layers showing the different data sources.
+                                    </p>
+                                    <p>
+                                        The <a href= "https://gispub.epa.gov/airnow/" target="_blank">AirNow interactive map</a> shows ozone, PM<sub>2.5</sub>, and PM<sub>10</sub> data that official outdoor air quality air monitoring stations report to AirNow.
+                                    </p>
+                                    <h4>Is EPA planning to use sensor data to determine whether areas are meeting National Ambient Air Quality Standards?</h4>
+                                    <hr/>
+                                    <p>
+                                        No. For compliance with the National Ambient Air Quality Standards (NAAQS) compliance, instruments, including sensors, must meet the applicable requirements in the Code of Federal Regulations (CFR) - Part(s) of Title 40, Protection of Environment or other state environmental regulations (see, e.g. 40 CFR Parts 50, 53, and 58). Technical requirements include detailed sampling, siting, and quality assurance requirements. Data from new air sensor instruments should not be used in a regulatory context at this time unless those instruments meet all applicable regulatory requirements.
+                                    </p>
+                                    <h4>Why does EPA use a national correction equation?</h4>
+                                    <hr/>
+                                    <p>
+                                        Most low-cost sensors do not have data quality that is comparable to the monitoring stations operated by air agencies. EPA scientists have found that low-cost sensors often overestimate or underestimate pollutant concentrations compared to the regulatory-grade instruments that are operated in the same location. In addition, studies and data analysis show that PurpleAir sensors typically have a high bias and overestimate PM<sub>2.5</sub> (particle pollution) concentrations. To effectively utilize the mass amounts of sensor data, EPA developed an equation to correct the sensor data to bring it more in line with data from official monitoring stations. The correction equation is based on 50 collocated PurpleAir sensors located in 16 states and included both comparisons with measurements from federally approved monitors (Federal Reference Method and Federal Equivalent Method) at 24-hour averages. <a href="https://www.epa.gov/sciencematters/study-explores-ways-improve-accuracy-air-sensors" target="_blank">Learn more about EPA’s research to improve air sensor accuracy</a>.
+                                    </p>
+                                    <p>
+                                        The correction equation has been tested on 1-hour averages at concentrations up to 250 micrograms per cubic meter under both typical outdoor air quality conditions as well as during events when smoke is affecting air quality and has reduced bias in both circumstances. The smoke-impacted events include wildfires and prescribed fires in the eastern and western U.S.
+                                    </p>
+                                    <h4>How is the sensor data corrected?</h4>
+                                    <hr/>
+                                    <p>
+                                        Since PurpleAir sensors are biased high, EPA conducted an extensive data analysis with several variables to correct for the bias. The correction equation developed by EPA is:
+                                    </p>
+                                    <p>
+                                        PM<sub>2.5</sub> corrected= 0.52*[PurpleAirCF=1; avgAB] - 0.085*RH + 5.71
+                                        <ul>
+                                            <li>
+                                                PM<sub>2.5</sub> = (µg/m3)
+                                            </li>
+                                            <li>
+                                                RH = Relative Humidity (%)
+
+                                            </li>
+                                            <li>
+                                                PurpleAirCF=1; avgAB = PurpleAir’s higher correction factor data averaged from the A and B channelsϮ
+                                                ϮEach PurpleAir sensor contains 2 Plantower PM sensors (channels A and B) which provide 2 estimations of PM<sub>2.5</sub> mass described by corrections factors (cf=1 or cf=atm).
+
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        The correction equation does include a relative humidity (RH) factor, which uses RH data as reported by the PurpleAir sensor itself. If the RH data is not available or invalid (reported RH value is outside of 0-100), a RH value of 50 will be used in the equation.
+                                    </p>
+                                    <p>
+                                        The RH adjustment to the data is small [a maximum adjustment would be 8 micrograms per cubic meter (μg/m3)]. This adjustment will likely not significantly impact the Air Quality Index that would be reported based on the resulting data. We are working on a future update where we will substitute a 50 percent RH value when RH data is missing from the PurpleAir data feed. This will reduce the potential impact of missing RH data to a maximum of 4 μg/m3
+                                    </p>
+                                    <h4>How confident is EPA in using the national correction equation to adjust sensor data?</h4>
+                                    <hr/>
+                                    <p>
+                                        After applying the correction equation, data from PurpleAir sensors represented the correct AQI category 93 percent of the time and within one AQI category all the time. Most of these discrepancies occurred along the breakpoints between AQI categories where small changes in particle pollution (PM<sub>2.5</sub>) mass concentrations shifted the AQI category.
+                                    </p>
+                                    <p>
+                                        This pilot project provides the opportunity to see the performance of the correction in various situations and geographic locations, EPA may revise the corrections and/or apply additional quality control criteria as more information becomes available during the pilot project.
+                                    </p>
+                                    <h4>Does EPA have plans to incorporate other sensors into this pilot?</h4>
+                                    <hr/>
+                                    <p>
+                                        This AirNow sensor data pilot is designed to develop the processes by which publicly available sensor data can be ingested, stored, managed, adjusted to be comparable to regulatory data, and then communicated to the public.  The results of the pilot will help understand what is needed to incorporate additional sensor data on the Fire and Smoke Map, as resources allow.
+                                    </p>
+                                    <h4>Why are no sensors shown for my area?</h4>
+                                    <hr/>
+                                    <p>
+                                        It is possible that there are no publicly available sensors in your area, that the sensors in your area failed to meet the quality control screening criteria developed for this pilot, or that data from sensors is temporarily unavailable. It also is possible that the state, local or tribal agency responsible for air quality in your area is not currently participating in the pilot, meaning sensor data would not show for your area. At the time of the release of the Pilot, only one state has chosen to remove their PurpleAir data from the program.
+                                    </p>
+                                    <h4>Will all existing PurpleAir sensors automatically show on the sensor layer on the map?</h4>
+                                    <hr/>
+                                    <p>
+                                        The default for the map layer is to show all publicly reporting outdoor PurpleAir sensors. However, EPA’s quality assurance/quality control process will screen out some poorly performing sensors. Sensors identified by state and local agencies as problematic (such as sensors that are strongly influenced by local pollution sources or sensors that have shown erroneous data for a long time compared to other nearby sensors) may be removed from the pilot. Sensors registered as indoor sensors also have been removed.
+                                    </p>
+                                    <h4>Why are the sensor colors and concentrations different on the Fire and Smoke Map than the Purple Air Map?</h4>
+                                    <hr/>
+                                    <p>
+                                       The maps may look different for several reasons:
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                USFS and EPA take several steps before sensor data appear on the Fire and Smoke Map:
+                                                <ul>
+                                                    <li>
+                                                        Remove sensors labeled as “indoors” and sensors that don’t meet data quality assurance/quality control criteria;
+                                                    </li>
+                                                    <li>
+                                                        Aggregate sensor data to an hourly average;
+                                                    </li>
+                                                    <li>
+                                                        Apply a <a href="https://docs.google.com/document/d/12rcytqC-_WLVjnpmuXJVRw_tBSvQJae8c240hj8GvdM/edit?ts=5f342792#bookmark=kix.uuac7t7dabdw" target="_blank">scientific correction equation</a> to the data to mitigate the bias in the sensor data; and
+                                                    </li>
+                                                    <li>
+                                                        Apply the NowCast, the algorithm to show the data in the context of the Air Quality Index, which is a 24-hour index.
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                In addition, the Fire and Smoke Map currently updates hourly, which is less frequent than the Purple Air map. EPA and USFS are working to make changes that will update the map more frequently as the pilot project progresses
+                                            </li>
+                                            <li>
+                                                The PurpleAir map allows users to choose to view the data in different averaging times and to apply several conversions, which also may contribute to the differences in the maps.
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        As a result, there will always be differences in how sensor data is shown on the two websites. Users can use both websites to learn more about air quality in their area. EPA’s approach allows the Agency to make information from sensors, temporary monitors and permanent AirNow monitors comparable for users of the Fire and Smoke Map.
+                                    </p>
+                                    <h4>Why does your map show different concentrations for sensors than the PurpleAir website?</h4>
+                                    <hr/>
+                                    <p>
+                                        Under the concentration tab in the pop-up box, you will find adjusted PurpleAir sensor data for the most recent period. This pilot takes two-minute PurpleAir data and aggregates these data into an hourly averaged concentration at the top of every hour. After applying some quality control checks, the EPA national correction equation is then applied to the hour averaged sensor data. These corrected concentration data will not match the data for the same sensor and time period on the PurpleAir website.
+                                    </p>
+                                    <h4>When will the pilot end?</h4>
+                                    <hr/>
+                                    <p>
+                                        EPA and USFS aim to continually improve the sensor data map layer. The map will undergo several phases of improvements over time, with the goal of having an upgraded version available in time for the 2021 fire season.
+                                    </p>
+                                    <h4>Will the sensor data be displayed only during fire season?</h4>
+                                    <hr/>
+                                    <p>
+                                        While the pilot is focused on fire season, the sensor map layer will remain available as we work with our state, local and tribal air agency partners to improve this tool.
+                                    </p>
+                                    <p>
+                                        Based on what we have learned from previous fires, we expect that the sensor data layer will provide valuable air quality information in areas where data from official air quality monitors are not available, especially in the western U.S. In addition, air quality can change rapidly and can vary significantly over geographic areas during fires, and the addition of sensor data can help show those variations.
+                                    </p>
+                                    <p>
+                                        The sensor map layer can help inform the public about air quality outside of fire season, especially in areas where there are not official air monitoring stations. These gaps in coverage exist year-round.
+                                    </p>
+                                    <h4>Does the pilot distinguish between government- and community- deployed sensors?</h4>
+                                    <hr/>
+                                    <p>
+                                        Currently, the map does not detail the entity or person responsible for the deployment of the PurpleAir sensors. This type of information is not captured in the public PurpleAir data feed that supplies the information for this website.
+                                    </p>
+                                    <h4>What are the uncertainties associated with sensor data?</h4>
+                                    <hr/>
+                                    <p>
+                                        Outside of the known high bias of PurpleAir sensor PM<sub>2.5</sub> measurements, there are other uncertainties in sensor data. EPA and USFS cannot know all the details about the crowdsourced PurpleAir sensors. Examples include: whether the sensor was installed properly, whether the sensor was marked incorrectly as outdoors when it is actually located indoors, whether the sensors are periodically checked and cleaned (insects or debris), and how long have they been in the field, among others.
+                                    </p>
+                                    <p>
+                                        Despite these uncertainties, EPA and USFS find value in this more spatially resolved and higher time resolved crowdsourced data, especially during localized smoke episodes. Experience indicates that data from most crowdsourced sensors will be of value, and a minor fraction may have issues.
+                                    </p>
+                                    <p>
+                                        Sensor failure is often indicated by the sensor not reporting, or a large disagreement between the two channels on the PurpleAir devices. The EPA and USFS quality control steps compare the data from the A and B channels within the sensors. These steps will likely remove data from failed sensors or those that are influenced by inlet debris or insects.
+                                    </p>
+                                    <p>
+                                        Working with our state, local and tribal air agency partners, EPA and USFS plan to explore methodologies over the course of this pilot to address uncertainties in order to provide the most robust information possible over the course of this pilot.
+                                    </p>
+                                    <h2 class="modal-subheading">Understanding the Data FAQs</h2>
+                                    <h4>What is the Air Quality Index?</h4>
+                                    <hr/>
+                                    <p>
+                                        The <a href="https://www.airnow.gov/aqi-and-health/" target="_blank">Air Quality Index (AQI)</a> is EPA’s index for reporting air quality. It tells you how clean or polluted your air is, and what associated health effects might be a concern for you.
+                                    </p>
+                                    <h4>Why is the AQI shown on the Fire and Smoke Map different from other maps?</h4>
+                                    <hr/>
+                                    <p>
+                                        The AQI shown on the Fire and Smoke Map is specifically focused on fine particulate matter, also known as PM<sub>2.5</sub>. It does not include other major air pollutants (i.e. ground-level ozone, carbon monoxide, sulfur dioxide, and nitrogen dioxide) that may be measured by your air agency. Please visit the main AirNow interactive map for more AQI information including ozone, PM<sub>2.5</sub> and PM<sub>10</sub>, or your local air agency website, which may have more information and data.
+                                    </p>
+                                    <h4>What is PM<sub>2.5</sub>?</h4>
+                                    <hr/>
+                                    <p>
+                                        Fine Particulate Matter (PM<sub>2.5</sub>, also known as “particle pollution) is inhalable particles with diameters 2.5 microns and smaller. Numerous scientific studies have linked particle pollution exposure to a variety of health problems, including premature death in people with heart or lung disease, nonfatal heart attacks, irregular heartbeat, aggravated asthma, decreased lung function, increased respiratory symptoms such as irritation of the airways, coughing or difficulty breathing.
+                                    </p>
+                                    <p>
+                                        People with heart or lung disease, children, and older adults are the most likely to be affected by particle pollution exposure. For more information, visit <a href="https:///www.epa.gov/pm" target="_blank">https:///www.epa.gov/pm</a>
+                                    </p>
+                                    <h4>What is the NowCast?</h4>
+                                    <hr/>
+                                    <p>
+                                        The NowCast is the algorithm that EPA uses to relate hourly readings from air quality monitors to the U.S. Air Quality Index (AQI). EPA uses the NowCast to show you current air quality using the AQI colors and scale (the AQI for particle pollution is a 24-hour index). The NowCast for particle pollution shows you air quality for the most current hour available by using a calculation that involves multiple hours of past data. It uses longer averages during periods of stable air quality and shorter averages when air quality is changing rapidly, such as during a wildfire.
+                                    </p>
+                                    <h4>What is the difference between the NowCast AQI and the hourly PM<sub>2.5</sub> concentration?</h4>
+                                    <hr/>
+                                    <p>
+                                        The NowCast AQI shows air quality for the most current hour available by using an algorithm that involves multiple hours of past data. The NowCast uses longer averages during periods of stable air quality and shorter averages when air quality is changing rapidly, such as during a wildfire. The PM<sub>2.5</sub> value is a 1-hour average concentration measured by an air quality monitor.
+                                    </p>
+                                    <h4>How are fire and smoke plumes detected in my area?</h4>
+                                    <hr/>
+                                    <p>
+                                        Fire and smoke plume detections are from the NOAA’s Hazard Mapping System Fire and Smoke Products. Trained analysts manually integrate data from various automated fire detection algorithms with information from satellite instruments, including NASA’s Geostationary Operational Environmental Satellite (GOES) Imager, NOAA’s Advanced Very High Resolution Radiometer (AVHRR) and NASA’s Moderate Resolution Imaging Spectroradiometer (MODIS). The analyst outlines smoke plumes that are detected by the satellites, resulting in a quality-controlled display of fire locations and smoke plumes. The smoke plumes are updated every few hours.
+                                    </p>
+                                    <p>
+                                        Both the fire detections and the smoke plume data generated by the Hazard Mapping System note that the information on fire position should be used as general guidance and for strategic planning, not for tactical decisions, such as the activation of a response to fight these fires and evacuation efforts, without other information to corroborate the fire's existence and location.
+                                    </p>
+                                    <h4>What are Special Smoke Statements?</h4>
+                                    <hr/>
+                                    <p>
+                                        The Interagency Wildland Fire Air Quality Response Programs provides Air Resource Advisors (ARAs) that work with Incident Management Teams responding to large wildfires.  Most large and persistent wildfires have ARAs assigned. ARAs analyze, summarize, and communicate smoke impacts to incident management teams, air quality regulators, public health agencies and the public. ARAs issue these Special Smoke Statements (also known as Smoke Outlooks) for areas where smoke from wildfires may be of concern and they have been deployed. At this time, only Special Smoke Statements issued by ARAs are provided in the map however further information on smoke impacts can be available at your state, tribal or local air quality agency and the Pilot is assessing how to include such information in the map environment. Learn more about <a href="https://sites.google.com/firenet.gov/wfaqrp-external/air-resource-advisors" target="_blank">ARAs</a> and the Interagency Wildland Fire Air Quality Response Program (<a href="https://sites.google.com/firenet.gov/wfaqrp-external/home" targe="_blank">IWFAQRP</a>).
+                                    </p>
+                                    <h4>Where can I find more information about smoke affecting the air quality near me?</h4>
+                                    <hr/>
+                                    <p>If you are concerned about smoke affecting the air quality near you, please contact your state, tribal or local air quality agency and/or local public health agencies for additional air quality information and air quality alerts.</p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="feedbackTabPane"></br>
+                                <h3>Submit Feedback</h3>
+                                <hr/>
+                                <p>
+                                    Thank you for taking the time to provide feedback on the pilot effort by USFS and EPA to add a sensor data layer to the Fire and Smoke Map. Please email feedback and suggestions to
+                                </p>
+                                <p>
+                                    <strong>Please email feedback to:</strong> <a href="mailto:sensordatapilot@epa.gov">sensordatapilot@epa.gov</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>
+                            <a href="https://airfire-data-exports.s3-us-west-2.amazonaws.com/maps/Fire-and-Smoke-Map-User+Guide-LC.pdf" target="_blank">Download a complete PDF Version of the User's Guide</a>
+                        </p>
+                        <br/>
+                        <p>
+                            For more information about the Fire & Smoke Map Service please contact <a href="mailto:sensordatapilot@epa.gov">sensordatapilot@epa.gov</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map Div -->
+        <div class="container-fluid keepit100">
+            <div class="row keepit100">
+
+                <!-- UNSUPPORTED BROWSER INFO -->
+                <div id="unsupportedBrowser" style="display:none;">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-4" style="text-align:left;">
+                            <h1 style="text-align: center;">Unsupported Browser</h1>
+                            <p>
+                                If you are seeing this message, it is because you are not using a modern web-browser. This site utilizes modern web-technologies to
+                                generate the Fire & Smoke Map and give location specific information to the user. Please either update your web-browser, or switch to a more modern solution.
+                                <br/>
+                                An example of a modern web browser is:
+                                <ul>
+                                    <li><a href="https://www.google.com/chrome/">Chrome</a></li>
+                                    <li><a href="https://www.mozilla.org/en-US/firefox/new/">FireFox</a></li>
+                                    <li><a href="https://www.apple.com/safari/">Safari</a></li>
+                                    <li><a href="https://www.microsoft.com/en-us/edge">Edge (>= version 81)</a></li>
+                                </ul>
+                            </p>
+                            <p>
+                                In the event you are unable to update your browser, here are some additonal sites that can provide air quality, fire and smoke information.
+                                <ul>
+                                    <li><a href="https://tools.airfire.org/monitoring/v4/">AirNow</a></li>
+                                    <li><a href="https://tools.airfire.org/monitoring/v4/">PM<sub>2.5</sub> Air Quality Map</a></li>
+                                    <li><a href="https://www.ospo.noaa.gov/Products/land/hms.html">NOAA HMS</a></li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SIDEBAR -->
+                <div id="sidebar" class="col-xs-11 col-sm-9 col-md-5 col-lg-3 sidebar sidebar-left sidebar-animate no-col-padding">
+
+                    <div id="sidebarLocalConditionsAlert" class='alert alert-warning localConditionsAlert' role='alert'>
+                        <strong>Local conditions are not available</strong>
+                        <hr>
+                        Either allow geolocation from your device or use the <a href="#" onclick="showGeosearchModal()">search feature</a> to select a location to see local conditions.
+                    </div>
+
+                    <div class="local-conditions">
+
+                        <div class="conditions-pane">
+                            <h4>Conditions Near Location</h4>
+                            <p id="reverseGeoName"><i>Location Not Set</i></p>
+                        </div>
+                        <div id="smoke-statments-notice" class= "alert alert-danger" style="display: none">
+                            <strong style="font-size: 90%"><a class="force-outlook-link" href="#" target="_blank">Smoke Statement Issued In This Area</a></strong>
+                        </div>
+
+                        <div class="panel panel-default af-sidebar-panel">
+
+                            <div class="conditions-pane monitors-pane">
+                                <div class="panel-heading" id="monitorHeader">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse"  href="#nearestMonitors" aria-expanded="false" aria-controls="nearestMonitors" class="collapsed">
+                                           Air Quality (PM<sub>2.5</sub>)
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="nearestMonitors" class="panel-collapse collapse" role="tabpanel" aria-labelledby="monitorHeader">
+                                    <div class="panel-body collapse in conditions-panel-body">
+                                        <div class="monitors-container">
+                                           <i>Location Not Set</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="conditions-pane fire-pane">
+                                <div class="panel-heading" id="fireHeader">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse"  href="#fireDetects" aria-expanded="false" aria-controls="fireDetects" class="collapsed">
+                                           Fire Information
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="fireDetects" class="panel-collapse collapse" role="tabpanel" aria-labelledby="fireHeader">
+                                    <div class="panel-body collapse in conditions-panel-body">
+                                        <div class="fires-container">
+                                            <i>Location Not Set</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="conditions-pane smoke-pane">
+                                <div class="panel-heading" id="smokeHeader">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse"  href="#smokeDetects" aria-expanded="false" aria-controls="smokeDetects" class="collapsed">
+                                           Smoke Plumes
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="smokeDetects" class="panel-collapse collapse" role="tabpanel" aria-labelledby="smokeHeader">
+                                    <div class="panel-body collapse in conditions-panel-body">
+                                        <div class="smoke-container">
+                                            <i>Location Not Set</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <div class="conditions-pane outlooks-pane">
+                                <div class="panel-heading" id="outlooksHeader">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse"  href="#outlooksPane" aria-expanded="false" aria-controls="outlooksPane" class="collapsed">
+                                           Smoke Statements
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="outlooksPane" class="panel-collapse collapse" role="tabpanel" aria-labelledby="outlooksHeader">
+                                    <div class="panel-body collapse in conditions-panel-body outlooks-panel">
+                                        <div class="outlooks-container">
+                                        </div>
+                                        <span><a href="https://fires.airfire.org/outlooks/" target="_blank">View All Smoke Statements</a></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="close-sidebar">
+                        <button id="sidebarCloseBtn" class="btn" data-toggle="sidebar"  data-target=".sidebar-left">Close Sidebar</button>
+                    </div>
+
+                    <div class="identification pull-right">
+                        <a href="https://www.epa.gov/" target="_blank" style="text-decoration:none">
+                            <img class="epa-logo" alt="EPA logo" src='1799c8acf597a956425947fc3537ffe1.png'>
+                        </a>
+                        <a href="https://www.fs.usda.gov/" target="_blank" style="text-decoration:none">
+                            <img class="usfs-logo" alt="USFS logo" src='97f20c87db122fbd0e54e16eabdb27ae.png'>
+                        </a> and <a href="https://www.airnow.gov/partners" target="_blank">PARTNERS</a>
+                    </div>
+                    <div class="help-links-footer">
+                        <div class="help-links">
+                            <a href="#" onclick="showAboutModal()">About</a>
+                             |
+                            <a href="#" onclick="showFAQModal()">FAQ</a>
+                        </div>
+                    </div>
+                </div> <!-- END SIDEBAR -->
+                <div id='notificationsWindow'>
+                </div>
+                <!-- MAP CONTAINER -->
+                <div id="mapContainer" class="col-lg-12 no-col-padding keepit100">
+                        <div class="conditions-tabs-container">
+                            <ul class="nav nav-tabs conditions-tabs">
+                              <li class="conditions-tab">
+                                <a id="monitorsLink" class="conditions-tab-link" href="#" data-toggle="sidebar" data-target=".sidebar-left">
+                                    <svg height="14" width="14">
+                                        <circle id="tabbed-aqi" cx="8" cy="8" r="6" stroke="grey" stroke-width="1" fill="white" />
+                                    </svg>
+                                </a>
+                                </li>
+                              <li class="conditions-tab"><a id="fireLink" class="conditions-tab-link" href="#" data-toggle="sidebar" data-target=".sidebar-left"><span id="tabbed-fire" class="glyphicon glyphicon-fire"></span></a></li>
+                              <li class="conditions-tab"><a id="smokeLink" class="conditions-tab-link" href="#" data-toggle="sidebar" data-target=".sidebar-left"><span id="tabbed-smoke" class="glyphicon glyphicon-cloud"></span></a></li>
+                              <li style="display:none;" class="conditions-tab"><a id="outlooksLink" class="conditions-tab-link" href="#" data-toggle="sidebar" data-target=".sidebar-left"><span id="tabbed-outlooks" class="glyphicon glyphicon-cloud"></span></a></li>
+                            </ul>
+                        </div>
+                    <div id="mapDiv">
+                        <div id="refreshTime">
+                            <a href="#" onclick="refreshLayers()">
+                                <div class="refreshBtn">
+                                    <i id="refreshIcon" class="fas fa-sync-alt"></i>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div> <!-- END MAP CONTAINER -->
+            </div>
+        </div>
+    <script type="text/javascript" src="app.5ce6257f5786c0ef5d7b.js"></script></body>
+</html>
+<script type="text/javascript">
+    function get_browser() {
+      var ua = navigator.userAgent, tem, M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+      if (/trident/i.test(M[1])) {
+        tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
+        return { name: 'IE', version: (tem[1] || '') };
+      }
+      if (M[1] === 'Chrome') {
+        tem = ua.match(/\bOPR\/(\d+)/)
+        if (tem != null) { return { name: 'Opera', version: tem[1] }; }
+      }
+      if (window.navigator.userAgent.indexOf("Edge") > -1) {
+        tem = ua.match(/\Edge\/(\d+)/)
+        if (tem != null) { return { name: 'Edge', version: tem[1] }; }
+      }
+      M = M[2] ? [M[1], M[2]] : [navigator.appName, navigator.appVersion, '-?'];
+      if ((tem = ua.match(/version\/(\d+)/i)) != null) { M.splice(1, 1, tem[1]); }
+      return {
+        name: M[0],
+        version: +M[1]
+      };
+    }
+
+    var browser = get_browser()
+    var isSupported = isSupported(browser);
+
+    function isSupported(browser) {
+      var supported = true;
+      if ((browser.name === "MSIE" || browser.name === "IE") && browser.version >= 10) {
+        supported = false;
+      } else if (browser.name === "Edge" && browser.version <= 18 ) {
+        supported = false;
+      }
+      return supported;
+    }
+
+    if (!isSupported) {
+      console.log('NOT SUPPORTED!')
+      alert('Your browser is not supported')
+
+      map = document.getElementById('mapContainer');
+      map.style.display = 'none';
+
+      unsupportedBrowser = document.getElementById('unsupportedBrowser');
+      unsupportedBrowser.style.display = 'inline';
+    }
+</script>```
