@@ -1,0 +1,20 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+        <TITLE>Action Quake 2 - The Next Generation</TITLE>
+        <META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<FRAMESET border=0 frameSpacing=0 rows=70,*,63 frameBorder=0>
+        <FRAME name=top marginWidth=8 marginHeight=8 src="top.html" noResize scrolling=no>
+        <FRAMESET cols=130,*>
+                <FRAMESET rows=*,17>
+                        <FRAME name=nav marginWidth=8 marginHeight=8 src="navbar.html" noResize scrolling=no>
+                        <FRAME name=nav2 marginWidth=8 marginHeight=0 src="navbar2.html" noResize scrolling=no>
+                </FRAMESET>
+                <FRAME name=main marginWidth=0 marginHeight=1 src="news.php" noResize>
+        </FRAMESET>
+        <FRAME name=bot marginWidth=0 marginHeight=0 src="bottom.html" noResize scrolling=no>
+</FRAMESET>
+</HTML>
+```
