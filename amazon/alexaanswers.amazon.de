@@ -1,0 +1,659 @@
+```
+ 
+ 
+ 
+ <!DOCTYPE html>
+ <html lang="de" data-locale="de_DE">
+ <head>
+         
+          <title>Alexa Answers</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          
+            
+            
+            
+              <meta name="google-site-verification" content="CgtdBnaRK0zb-rzWDDAhOtTeIwp1x0LwXLlTsiVxPuE" />
+            
+            
+            
+          
+          <meta name="description" content="Alexa Answers ist eine Community von Experten und Enthusiasten die ihr Wissen mit Alexa und der Welt teilen.">
+          <meta name="keywords" content="AlexaAnswers, Alexa, Help, Smarter, Answer, Questions">
+          <link rel="canonical" href="/about">
+          <link rel="alternate" href="https://alexaanswers.amazon.com/about" hreflang="x-default" />
+          <link rel="alternate" href="https://alexaanswers.amazon.com/about" hreflang="en-us" />
+          <link rel="alternate" href="https://alexaanswers.amazon.co.uk/about" hreflang="en-gb" />
+          <link rel="alternate" href="https://alexaanswers.amazon.de/about" hreflang="de-de" />
+          <link rel="alternate" href="https://alexaanswers.amazon.it/about" hreflang="it-it" />
+          <link rel="alternate" href="https://alexaanswers.amazon.com.mx/about" hreflang="es-mx" />
+          <!-- favicons -->
+          <link rel="icon" sizes="16x16" type="image/png" href="https://m.media-amazon.com/images/I/01fIEYtWhrL.png"/>
+          <link rel="icon" sizes="32x32" type="image/png" href="https://m.media-amazon.com/images/I/01Ad5Lj8LIL.png"/>
+  <style>
+         @font-face {
+             font-family: 'AmazonEmber';
+             src: url('https://m.media-amazon.com/images/I/61m0rIzJkqL.ttf'),
+                 url('https://m.media-amazon.com/images/I/61POI1d4YiL.eot');
+         }
+
+         @font-face {
+             font-family: 'AmazonEmber';
+             font-weight: bold;
+             src: url('https://m.media-amazon.com/images/I/616IPb5jvvL.ttf'),
+                 url('https://m.media-amazon.com/images/I/61SGk0WnN0L.eot');
+         }
+
+         @font-face {
+             font-family: 'AmazonEmberDisplay';
+             font-weight: bold;
+             src: url('https://m.media-amazon.com/images/I/71lMYMJjFKL.ttf'),
+                 url('https://m.media-amazon.com/images/I/51BJGf6d+DL.eot');
+         }
+
+         @font-face {
+             font-family: 'AmazonEmber';
+             font-weight: 900;
+             src: url('https://m.media-amazon.com/images/I/61dYU0RFl7L.ttf'),
+                 url('https://m.media-amazon.com/images/I/61SGk0WnN0L.eot');
+         }
+
+         body {
+             margin: 0;
+             position: relative;
+         }
+
+         .header {
+             width: 100%;
+             height: 63px;
+             position: absolute;
+         }
+
+         .footer {
+             width: 100%;
+             height: 124px;
+             position: absolute;
+             bottom: 0;
+         }
+
+         .content {
+             display: flex;
+             justify-content: center;
+             width: 100%;
+             margin-top: 60px;
+             z-index: 6;
+         }
+
+         .container {
+            padding-bottom: 54px;
+         }
+
+         .logo {
+             position: absolute;
+             height: 30px;
+             width: 175px;
+             padding-top: 14px;
+             padding-left: 7px;
+         }
+
+         .text {
+             font-family: AmazonEmberDisplay;
+             text-transform: uppercase;
+             letter-spacing: 1.4px;
+             color: #04ABD7;
+             font-size: 14px;
+             text-decoration: none;
+             font-weight: bold;
+             position: absolute;
+             background-color: none;
+             border: none;
+             background-color: Transparent;
+             cursor: pointer;
+             width: 150px;
+             text-align: right;
+         }
+
+         .header-right {
+             float: right;
+             padding-top: 22px;
+             padding-right: 10px;
+             height: 17px;
+             width: 150px;
+         }
+
+         .header-text {
+             font-family: AmazonEmberDisplay;
+             color: #FFFFFF;
+             vertical-align: middle;
+             text-align: center;
+             font-weight: bold;
+             position: absolute;
+             font-size: 3vw;
+         }
+
+         .subheader-text {
+             font-family: AmazonEmber;
+             color: #FFFFFF;
+             vertical-align: middle;
+             text-align: center;
+             position: absolute;
+             font-size: 1.4vw;
+             line-height: 26px;
+             opacity: 0.7;
+             width: 55%
+         }
+
+         .header-margin {
+            padding-top: 3%;
+         }
+
+         .subheader-margin {
+             padding-top: 10%;
+         }
+
+         .impact-margin {
+            padding-top: 123%;
+         }
+
+         .subimpact-margin {
+             padding-top: 129%;
+         }
+
+         .teach-margin {
+            padding-top: 165%;
+         }
+
+         .subteach-margin {
+             padding-top: 171%;
+         }
+
+         a {
+             font-family: AmazonEmber;
+             font-weight: bold;
+             text-decoration: none;
+             text-align: center;
+         }
+
+         .linkcolor a {
+             color: #163954;
+         }
+
+         .footer-link {
+             text-align: center;
+             padding-top: 2%;
+         }
+
+         .footer-text {
+             font-family: AmazonEmber;
+             color: #FFFFFF;
+             font-size: 14px;
+             text-align: center;
+             position: relative;
+
+         }
+
+         .primary-button {
+             font-family: AmazonEmber;
+             font-size: 27px;
+             padding-top: 11px;
+             letter-spacing: 3px;
+             padding-bottom: 12px;
+             font-weight: bold;
+             font-size: 14px;
+             border-radius: 100px;
+             cursor: pointer;
+             vertical-align: middle;
+             text-align: center;
+             color: #163954;
+             background: #FFA724;
+             border: none;
+             text-transform: uppercase;
+             z-index: 4;
+             width: 220px;
+         }
+
+         .button-container {
+             position: absolute;
+             width: 220px;
+             height: 40px;
+             z-index: 4;
+         }
+
+         .top {
+             margin-top: 16%;
+         }
+
+         .bottom {
+             margin-top: 178%;
+         }
+
+         .navbar {
+             position: fixed;
+             top: 0;
+             width: 100%;
+             z-index: 5;
+             box-shadow: 0px 20px 20px #112c40;
+         }
+
+         .section-one {
+             font-family: AmazonEmber;
+             vertical-align: middle;
+             text-align: center;
+             font-weight: 900;
+             position: absolute;
+             font-size: 3vw;
+             padding-top: 32%;
+
+         }
+
+          .subsection-one {
+             font-family: AmazonEmber;
+             vertical-align: middle;
+             text-align: center;
+             position: absolute;
+             font-size: 1.4vw;
+             padding-top: 39%;
+             line-height: 26px;
+             width: 37%;
+             opacity: 0.7;
+             color: #333333;
+         }
+
+         .steps-left {
+             font-family: AmazonEmber;
+             text-align: left;
+             font-weight: 900;
+             font-size: 2vw;
+             margin-bottom: -5px;
+
+         }
+
+         .steps-right {
+             font-family: AmazonEmber;
+             text-align: right;
+             font-weight: 900;
+             font-size: 2vw;
+             margin-bottom: -5px;
+         }
+
+          .substep-left {
+             font-family: AmazonEmber;
+             text-align: left;
+             font-size: 1.4vw;
+             opacity: 0.7;
+             color: #333333;
+             line-height: 24px;
+          }
+
+          .substep-right {
+             font-family: AmazonEmber;
+             text-align: right;
+             font-size: 1.4vw;
+             opacity: 0.7;
+             color: #333333;
+             line-height: 24px;
+          }
+
+          .content-english .step-one-header {
+              top: 27%;
+              left: 53%;
+              position: absolute;
+              width: 24%;
+          }
+
+          .content-english .step-two-header {
+              top: 37%;
+              left: 23%;
+              position: absolute;
+              width: 24%;
+          }
+
+          .content-english .step-three-header {
+              top: 48%;
+              left: 53%;
+              position: absolute;
+              width: 26%;
+          }
+
+          .content-german .step-one-header {
+              top: 23%;
+              left: 53%;
+              position: absolute;
+              width: 24%;
+          }
+
+           .content-german .step-two-header {
+              top: 31%;
+              left: 23%;
+              position: absolute;
+              width: 24%;
+          }
+
+          .content-german .step-three-header {
+              top: 40%;
+              left: 53%;
+              position: absolute;
+              width: 26%;
+          }
+
+
+         @media (min-width: 1025px) {
+             .show-mobile {
+                 display: none;
+             }
+
+             .show-tablet {
+                 display: none;
+             }
+         }
+
+         @media (min-width: 768px) and (max-width: 1024px) {
+             .background-image {
+                 display: none;
+             }
+
+             .show-mobile {
+                 display: none;
+             }
+
+             .top {
+                 margin-top: 26%;
+             }
+
+             .bottom {
+                 margin-top: 276%;
+             }
+             .header-text {
+                font-size: 36px;
+             }
+
+             .subheader-text {
+                font-size: 17px;
+                padding-top: 14%;
+                width: 80%;
+             }
+
+            .section-one {
+               font-size: 36px;
+               padding-top: 53%;
+             }
+
+            .subsection-one {
+               text-align: center;
+               vertical-align: middle;
+               font-size: 17px;
+               padding-top: 64%;
+               width: 60%
+            }
+
+            .impact-margin {
+               padding-top: 184%;
+            }
+
+            .subimpact-margin {
+               padding-top: 194%;
+               width: 80%
+            }
+
+            .teach-margin {
+               padding-top: 254%;
+            }
+
+            .subteach-margin {
+               padding-top: 264%;
+               width: 80%
+            }
+         }
+
+         @media screen and (max-width: 767px) {
+             .background-image {
+                 display: none;
+             }
+
+             .show-tablet {
+                 display: none;
+             }
+
+             .top {
+                 margin-top: 48%;
+             }
+
+             .bottom {
+                 margin-top: 506%;
+             }
+
+             .logo {
+                 padding-top: 12px;
+                 padding-left: 11px;
+             }
+
+             .header-right {
+                padding-top: 23px;
+                padding-right: 30px;
+             }
+
+             .header-text {
+                font-size: 26px;
+             }
+
+             .subheader-text {
+                font-size: 16px;
+                padding-top: 22%;
+                width: 90%;
+             }
+
+            .section-one {
+               font-size: 24px;
+               padding-top: 78%;
+            }
+
+            .content-german .subsection-one {
+              text-align: center;
+              vertical-align: middle;
+              font-size: 16px;
+              padding-top: 88%;
+              width: 80%
+            }
+
+            .content-english .subsection-one {
+              text-align: center;
+              vertical-align: middle;
+              font-size: 16px;
+              padding-top: 92%;
+              width: 80%
+            }
+
+            .steps-left {
+              font-family: AmazonEmber;
+              font-weight: 900;
+              font-size: 5vw;
+              text-align: center;
+              margin-bottom: -6px;
+            }
+
+            .steps-right {
+              font-family: AmazonEmber;
+              font-weight: 900;
+              font-size: 5vw;
+              text-align: center;
+              margin-bottom: -6px;
+            }
+
+            .substep-left {
+                font-family: AmazonEmber;
+                font-size: 4vw;
+                text-align: center;
+                opacity: 0.7;
+                color: #333333;
+                line-height: 24px;
+            }
+
+            .substep-right {
+                font-family: AmazonEmber;
+                font-size: 4vw;
+                text-align: center;
+                opacity: 0.7;
+                color: #333333;
+                line-height: 24px;
+            }
+
+
+            .content-german .step-one-header {
+                top: 16.5%;
+                left: auto;
+                position: absolute;
+                width: 70%;
+            }
+
+            .content-german .step-two-header {
+                top: 25%;
+                left: auto;
+                position: absolute;
+                width: 70%;
+            }
+
+            .content-german .step-three-header {
+                top: 34%;
+                left: auto;
+                position: absolute;
+                width: 70%;
+            }
+
+            .content-english .step-one-header {
+                top: 23%;
+                left: auto;
+                position: absolute;
+                width: 70%;
+            }
+
+            .content-english .step-two-header {
+                top: 34%;
+                left: auto;
+                position: absolute;
+                width: 70%;
+            }
+
+            .content-english .step-three-header {
+                top: 47%;
+                left: auto;
+                position: absolute;
+                width: 70%;
+            }
+
+          .impact-margin {
+            padding-top: 358%;
+          }
+
+          .subimpact-margin {
+            padding-top: 370%;
+            width: 80%
+          }
+
+          .content-english .teach-margin {
+            padding-top: 458%;
+          }
+
+          .content-german .teach-margin {
+            padding-top: 450%;
+          }
+
+          .subteach-margin {
+            padding-top: 471%;
+            width: 80%
+          }
+
+          .footer-text {
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+         }
+       }
+       </style>
+     
+     </head>
+     <body>
+     
+         <div class="navbar">
+             <img src="https://m.media-amazon.com/images/I/01UZTq2SZdL.png" class="header"></a>
+             <img src="https://m.media-amazon.com/images/I/11vQ2qcXbXL.png" class="logo"></a>
+             <div class="header-right">
+                <form name="login" action="/home">
+                    <button type="submit" class="text" data-test-id="lp-sign-in-button">
+                        Anmelden 
+                    </button>
+                </form>
+             </div>
+         </div>
+
+        
+
+         <div class="content container content-german">
+         <div class="header-text header-margin"><p>Helfen Sie dabei, Alexa schlauer zu machen.</p></div>
+         <div class="subheader-text subheader-margin"><p>Schließen Sie sich der Community von Experten und Enthusiasten an und teilen Sie ihr Wissen mit Alexa und der Welt. </p></div>
+
+         <form name="getStarted" action="/home" class="button-container top">
+                <button data-test-id="lp-getting-started-button" class="primary-button">
+                    Legen Sie los
+                </button>
+         </form>
+
+         <div class="section-one"><p>So funktioniert es</p></div>
+         <div class="subsection-one">
+            <p>Wenn Alexa eine Frage gestellt wird, auf die sie keine Antwort hat, wendet sie sich an die Alexa Answers-Community für Hilfe.</p>
+         </div>
+
+         <div class="step-one-header">
+             <p class="steps-left">Finden Sie eine Frage</p>
+             <p class="substep-left">Suchen Sie nach Fragen, die ihren Interessen oder Ihrer Expertise entsprechen.</p>
+         </div>
+
+         <div class="step-two-header">
+             <p class="steps-right">Verfassen Sie eine Antwort</p>
+             <p class="substep-right">Schreiben Sie eine Antwort für Alexa, um sie mit anderen Kunden zu teilen.</p>
+         </div>
+
+         <div class="step-three-header">
+             <p class="steps-left">Helfen Sie Anderen weiter</p>
+             <p class="substep-left">Alexa wird Ihre Antwort mit Kunden teilen, die die gleiche Frage stellen.</p>
+         </div>
+
+         <div class="header-text impact-margin"><p>Sehen Sie ihren Einfluss</p></div>
+         <div class="subheader-text subimpact-margin"><p>Jedes Mal, wenn Alexa Ihre Antworten teilt, sammeln Sie Punkte. Beantworten Sie weitere Fragen um Erfolge freizuschalten und einen Spitzenplatz im Leaderboard zu erreichen.</p></div>
+
+         <div class="header-text teach-margin"><p>Weitere Fragen? Wir haben Antworten.</p></div>
+         <div class="subheader-text subteach-margin">
+            <p>Woher kommen die Fragen auf Alexa Answers?</p>
+              
+                <p>Die Fragen bei Alexa Answers sind Fakten, die Alexa-Kunden gerne wissen möchten. Stellen genug Kunden Alexa eine Frage, die sie noch nicht beantworten kann, kann diese Frage bei Alexa Answers veröffentlicht werden.</p>
+                <p>Wie funktioniert die Website?</p>
+                <p>Ausgewählte Fragen, die Alexa aktuell nicht beantworten kann, werden auf der Website gepostet. Sobald die Community eine Antwort einreicht wird diese auf ihren Inhalt überprüft. Wird die Antwort akzeptiert steht diese den Alexa Kunden zur Verfügung.</p>
+             
+         </div>
+
+         
+
+         <div class="container">
+             <img width=100% src="https://m.media-amazon.com/images/I/910p-5xuGKL.png" class="background-image" />
+             <img width=100% src="https://m.media-amazon.com/images/I/81lBKh1gfsL.png" class="show-mobile" />
+             <img width=100% src="https://m.media-amazon.com/images/I/91lqFDVeoIL.png" class="show-tablet" />
+         </div>
+
+         <div class="footer">
+             <img src="https://m.media-amazon.com/images/I/01UZTq2SZdL.png" class="footer"></a>
+             <div class="footer-link">
+                 <a class="footer-text" href="/help">
+                    Hilfe-Center&nbsp;
+                 </a>
+                 <a class="footer-text" href="https://www.amazon.de/gp/help/customer/display.html?nodeId=201909000">
+                    Nutzungsbedingungen&nbsp;
+                 </a>
+                 <a class="footer-text" href="https://www.amazon.de/gp/help/customer/display.html?nodeId=201909010">
+                  Datenschutzerklärung
+                 </a>
+             </div>
+             <p class="footer-text">
+                © 2010 - 2020, Amazon.com, Inc. oder Tochtergesellschaften. Alle Rechte vorbehalten.
+             </p>
+         </div>
+     
+     </body>
+   </html>```
