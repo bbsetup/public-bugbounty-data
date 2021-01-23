@@ -1,0 +1,50 @@
+```{
+  "links": {
+    "self": {
+      "href": "https://api.fr-stage.cloud.gov"
+    },
+    "bits_service": null,
+    "cloud_controller_v2": {
+      "href": "https://api.fr-stage.cloud.gov/v2",
+      "meta": {
+        "version": "2.158.0"
+      }
+    },
+    "cloud_controller_v3": {
+      "href": "https://api.fr-stage.cloud.gov/v3",
+      "meta": {
+        "version": "3.93.0"
+      }
+    },
+    "network_policy_v0": {
+      "href": "https://api.fr-stage.cloud.gov/networking/v0/external"
+    },
+    "network_policy_v1": {
+      "href": "https://api.fr-stage.cloud.gov/networking/v1/external"
+    },
+    "login": {
+      "href": "https://login.fr-stage.cloud.gov"
+    },
+    "uaa": {
+      "href": "https://uaa.fr-stage.cloud.gov"
+    },
+    "credhub": null,
+    "routing": null,
+    "logging": {
+      "href": "wss://doppler.fr-stage.cloud.gov:443"
+    },
+    "log_cache": {
+      "href": "https://log-cache.fr-stage.cloud.gov"
+    },
+    "log_stream": {
+      "href": "https://log-stream.fr-stage.cloud.gov"
+    },
+    "app_ssh": {
+      "href": "ssh.fr-stage.cloud.gov:2222",
+      "meta": {
+        "host_key_fingerprint": "l3YVyp6dLZmxE3jx0/ILW4YX2jzlLBixeHZuJBvpFew",
+        "oauth_client": "ssh-proxy"
+      }
+    }
+  }
+}```
