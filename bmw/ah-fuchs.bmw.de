@@ -1,0 +1,2774 @@
+```<!DOCTYPE html>
+<html class="no-js" lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="description" content="Wir bieten Ihnen umfangreiche Leistungen wie beispielsweise BMW Neuwagen, Gebrauchtwagen, Aktionen sowie Service & Zubehör für Ihren BMW. Schauen Sie vorbei!">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index,follow"/>
+    <title>Autohaus Fuchs: BMW Fahrzeuge, Services, Angebote u.v.m.</title>
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content="Wir bieten Ihnen umfangreiche Leistungen wie beispielsweise BMW Neuwagen, Gebrauchtwagen, Aktionen sowie Service & Zubehör für Ihren BMW. Schauen Sie vorbei!"/>
+    <script type="text/javascript">
+            window.consentManagerSettings=window.consentManagerSettings||{};
+            window.consentManagerSettings.currentHash="8D5B01DA77D6C8310F95D3914B7ADD0A";
+            window.consentManagerSettings.config={
+  "optional": [
+    {
+      "operator": "bmwinteractive.de",
+      "purpose": "",
+      "domains": [
+        "bmwinteractive.de"
+      ],
+      "privacyLink": "",
+      "key": ""
+    },
+    {
+      "operator": "BMW AG",
+      "purpose": "",
+      "domains": [
+        "bmw.de",
+        "www.bmw.de",
+        "onlineservices.bmw.de"
+      ],
+      "privacyLink": "https://www.bmw.de/datenschutz",
+      "optOutLink": "https://www.bmw.de/de/footer/footer-section/cookie-policy.html",
+      "key": ""
+    },
+    {
+      "operator": "IUCP Gebrauchtwagenbörse",
+      "purpose": "Diese Datenverarbeitung wird durchgeführt, um ausgewählte Fahrzeug-Suchen zu speichern, damit diese Suchanfragen zu einem späteren Zeitpunkt verfügbar sind und die entsprechenden Funktionen nicht erneut durch den User bedient werden müssen. Darüber hinaus werden die Daten verwendet, um zu dem bisherigen Suchergebnis passende Fahrzeuge vorzuschlagen.",
+      "domains": [
+        "sta-bps.bmw.com",
+        "bps.bmw.com"
+      ],
+      "privacyLink": "https://www.bmw.de/datenschutz",
+      "optOutLink": "https://www.bmw.de/de/footer/footer-section/cookie-policy.html",
+      "key": "",
+      "cookies": [
+        {
+          "name": "CarPark",
+          "purpose": "Dieses Cookie speichert für User, die keinen Login in der Gebrauchtwagenbörse durchgeführt haben, deren ausgewählte Fahrzeuge für den Car-Park.",
+          "scope": "Session",
+          "set_by": "BMW AG",
+          "domains": [
+            "sta-bps.bmw.com",
+            "bps.bmw.com"
+          ]
+        },{
+          "name": "Comparison",
+          "purpose": "Dieses Cookie speichert für nicht eingeloggte User die ausgewählten Fahrzeuge für die Vergleichsseite.",
+          "scope": "Session",
+          "set_by": "BMW AG",
+          "domains": [
+            "sta-bps.bmw.com",
+            "bps.bmw.com"
+          ]
+        },{
+          "name": "SavedSearch",
+          "purpose": "Dieses Cookie speichert die ausgewählten Suchkriterien um die zur Suche passenden Fahrzeuge, sowie ähnlich verfügbare Fahrzeuge anzuzeigen.",
+          "scope": "Session",
+          "set_by": "BMW AG",
+          "domains": [
+            "sta-bps.bmw.com",
+            "bps.bmw.com"
+          ]
+        }
+      ]
+    },
+    {
+      "operator": "BMW Newsletteranmeldung von Atrivio",
+      "purpose": "",
+      "domains": [
+        "bmw-registration.atrivio.de"
+      ],
+      "privacyLink": "https://www.atrivio.de/datenschutz",
+      "key": ""
+    },
+    {
+      "operator": "BMW Group Performance und Statistik unter Nutzung von Psyma",
+      "purpose": "Diese Datenverarbeitung ermöglicht der BMW Group User-Feedback zur Qualität der Website einzusammeln und mit dem anderer Websites zu vergleichen.",
+      "domains": [
+        "DEALERDOMAINS"
+      ],
+      "privacyLink": "https://psyma.com/de/datenschutz/",
+      "optOutLink": "",
+      "key": "",
+      "cookies": [
+        {
+          "name": "psyma_participation",
+          "purpose": "Dieses Cookie dient der Vermeidung von Doppeleinladungen zur User-Befragung (Psyma) bei Mehrfachbesuchen dieser Website.",
+          "scope": "30 Tage",
+          "set_by": "BMW AG",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        }
+      ]
+    },
+    {
+      "operator": "Facebook",
+      "purpose": "",
+      "domains": [
+        "facebook.com",
+        "www.facebook.com",
+        "connect.facebook.net"
+      ],
+      "privacyLink": "https://www.facebook.com/privacy/explanation",
+      "key": "facebookPixel",
+      "cookies": [
+        {
+          "name": "fbq",
+          "purpose": "Dieses Cookie wird genutzt, um Ihren Seiten-Aufruf mit Facebook zu verknüpfen.",
+          "scope": "28 Tage",
+          "set_by": "Facebook",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_fbp",
+          "purpose": "Dieses Cookie wird genutzt, um auf Facebook Werbeprodukte anzuzeigen.",
+          "scope": "28 Tage",
+          "set_by": "Facebook",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "fbq",
+          "purpose": "Dieses Cookie wird genutzt, um Ihren Seiten-Aufruf mit Facebook zu verknüpfen, Werbung anzuzeigen und die Effektivität von Werbeanzeigen über unterschiedliche Browser und Geräte des Nutzers zu erfassen.",
+          "scope": "28 Tage",
+          "set_by": "Facebook",
+          "domains": [
+            "facebook.com"
+          ]
+        }
+      ]
+    },
+    {
+      "operator": "Google Inc (Maps)",
+      "purpose": "",
+      "domains": [
+        "maps.googleapis.com",
+        "maps.google.de"
+      ],
+      "privacyLink": "https://policies.google.com/privacy",
+      "optOutLink": "",
+      "key": "googlemaps"
+    },
+    {
+      "operator": "www.onlinebewerbungsserver.de",
+      "domains": [
+        "www.onlinebewerbungsserver.de"
+      ],
+      "privacyLink": "",
+      "optOutLink": "",
+      "key": "",
+      "cookies": [
+        {
+          "name": "ASP.NET_SessionId",
+          "purpose": "",
+          "scope": "Session",
+          "set_by": "Sage GmbH",
+          "domains": [
+            "www.onlinebewerbungsserver.de"
+          ]
+        }
+      ]
+    },
+    {
+      "operator": "Signalize",
+      "purpose": "Push-Benachrichtigungen\n\nWerden für diese Website Push-Benachrichtigungen durch den Dienst \"Signalize\" von Ihnen aktiviert, wird zur Bereitstellung der Benachrichtigungen für Sie eine Funktion Ihres Internet-Browsers bzw. Ihres mobilen Betriebssystems eingesetzt. Für den Versand von Nachrichten werden ausschließlich anonyme bzw. pseudonyme Daten übertragen. Dies können je nach Konfiguration der Webseite sein:\n\nPseudonyme Nutzer-Kennung: ein zufallsgenerierter Wert (Beispiel: 108bf9a85547edb1108bf9a85547edb1), der in einer Tracking-Cookie ID gespeichert wird\nPseudonyme digitale Fingerprints, pseudonyme mobile Gerätekennziffern und ggf. pseudonyme Cross-Device-Identifier\n\nDiese Daten werden nur verarbeitet, um die von Ihnen abonnierten Benachrichtigungen auszuliefern und benachrichtigungsbezogene Einstellungen vorzunehmen. Für die Speicherung dieser Daten bitten wir Sie um Ihr Einverständnis. Rechtsgrundlage der Datenverarbeitung ist in diesem Fall Art. 6 Abs. 1 lit. a DSGVO. Sie können dem Empfang von Benachrichtigungen jederzeit über die Einstellungen Ihres Browsers bzw. mobilen Endgeräts widersprechen. Informationen über die Abmeldung für Push-Benachrichtigungen finden Sie unter https://signalize.com/docs/sonstiges/opt-out-info/.\nUm die Push-Benachrichtigungen für Sie inhaltlich sinnvoll gestalten zu können, nutzen wir die anhand eines pseudonymen Nutzerprofils mittels Tracking-Pixel und bei Einwilligung auch mittels Cookies gesammelten Präferenzen und führen allein zum Zwecke des personalisierten Nachrichtenversands Ihre Benachrichtigungs-ID mit dem Nutzerprofil der Website zusammen. Die Tracking-Technologie wird ebenfalls zur statistischen Auswertung der Benachrichtigungen in unserem Auftrag verwendet. So kann festgestellt werden, ob eine Benachrichtigung zugestellt und ob sie angeklickt wurde. Die dadurch erzeugten Daten werden in unserem Auftrag von der etracker GmbH aus Hamburg, die den Service von Signalize bereitstellt, ausschließlich in Deutschland verarbeitet und gespeichert und unterliegen damit den strengen deutschen und europäischen Datenschutzgesetzen und -standards. etracker wurde diesbezüglich unabhängig geprüft, zertifiziert und ist berechtigt, das Datenschutz-Gütesiegel ePrivacyseal zu tragen.\nDie Datenverarbeitung zur statistischen Analyse der Benachrichtigungen sowie um künftige Benachrichtigungen besser an die Interessen der Empfänger anzupassen, erfolgt auf Basis unseres berechtigten Interesses an personalisierter Direktwerbung gemäß Art. 6 Abs. 1 lit. f DSGVO. Da uns die Privatsphäre unserer Besucher sehr wichtig ist, werden die Daten, die möglicherweise einen Bezug zu einer einzelnen Person zulassen, wie die IP-Adresse, Anmelde- oder Gerätekennungen, frühestmöglich anonymisiert oder pseudonymisiert. Eine direkte Personenbeziehbarkeit wird dadurch ausgeschlossen. Eine andere Verwendung, Zusammenführung mit anderen Daten oder eine Weitergabe an Dritte erfolgt nicht. \nSie können der vorbeschriebenen Datenverarbeitung jederzeit widersprechen.\n",
+      "domains": [
+        "signalize.com"
+      ],
+      "privacyLink": "",
+      "optOutLink": "",
+      "key": "",
+      "cookies": [
+        {
+          "name": "_et_coid",
+          "purpose": "Cookie-Erkennung",
+          "scope": "2 Jahre",
+          "set_by": "Signalize",
+          "domains": [
+            "signalize.com"
+          ]
+        },
+        {
+          "name": "et_oi_v2",
+          "purpose": "Opt-In-Cookie speichert die Entscheidung des Besuchers, wenn auf der Seite des Kunden das Tracking Opt-In ausgespielt wird. Wird auch für ein eventuelles Opt-Out verwendet.",
+          "scope": "\"no\" - 50 Jahre,  \"yes\" - 480 Tage",
+          "set_by": "Signalize",
+          "domains": [
+            "signalize.com"
+          ]
+        },
+        {
+          "name": "et_oip",
+          "purpose": "OptIn-Cookie für \"signalize\". Wählt der Kunde \"nein\", wird das Cookie mit dem Wert \"no\" und einer Laufzeit von 30 Tagen gesetzt. Wählt der Kunde \"x\" oder drückt die ESC-Taste (keine Entscheidung), wird das Cookie mit dem Wert \"no\" für die Gültigkeit von 1 Tag gesetzt. Ein Wert von \"yes\" wird nicht benötigt, da dieses implizit durch die Zustimmung zum eigentlichen Browser-Push gegeben ist.",
+          "scope": "\"no\" - 30 Tage, \"no\" (Session) 1 Tag",
+          "set_by": "Signalize",
+          "domains": [
+            "signalize.com"
+          ]
+        },
+        {
+          "name": "et_allow_cookies",
+          "purpose": "Bei Verwendung des Parameters \"data-block-cookies\" wird dieses Cookie durch den API Call _etracker.enableCookies() gesetzt, um anzuzeigen, dass etracker Cookies setzen darf",
+          "scope": "16 Monate",
+          "set_by": "Signalize",
+          "domains": [
+            "signalize.com"
+          ]
+        },
+        {
+          "name": "BT_sdc",
+          "purpose": "Enthält Base64-codierte Daten der aktuellen Besuchersitzung (Referrer, Anzahl der Seiten, Anzahl der Sekunden seit Beginn der Sitzung), die für Personalisierungszwecke verwendet werden.",
+          "scope": "Session",
+          "set_by": "Signalize",
+          "domains": [
+            "signalize.com"
+          ]
+        },
+        {
+          "name": "BT_pdc",
+          "purpose": "Enthält Base64-kodierte Daten der Besucherhistorie (ist Kunde, Newsletter-Empfänger etc.) zur Personalisierung.",
+          "scope": "1 Jahr",
+          "set_by": "Signalize",
+          "domains": [
+            "signalize.com"
+          ]
+        }
+      ]
+    },
+    {
+      "operator": "Userlike UG (haftungsbeschränkt)",
+      "domains": [
+        "userlike.com"
+      ],
+      "privacyLink": "https://www.userlike.com/de/terms#privacy-policy",
+      "optoutLink": "",
+      "key": "userlike",
+      "cookies": [
+        {
+          "name": "BMW_USERLIKE_STATE",
+          "purpose": "Dieses Cookie wird verwendet, um während der Sitzung den Status des Userlike-Widgets zu speichern.",
+          "scope": "Session",
+          "set_by": "DEALERNAME",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "uslk_s",
+          "purpose": "Um die Funktionalität der Software zu gewährleisten, speichern wir im Browser des Endnutzers Cookies für den Applikationstatus. Sie enthalten den Persisted State, Machine State, die Session-ID sowie Chat-Statistiken. Diese Cookies werden am Ende der Browser-Session gelöscht.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "uslk_e",
+          "purpose": "Damit Endnutzer bei der Rückkehr auf Ihre Webseite identifiziert werden können, speichern wir im Browser des Endnutzers Cookies mit User-Informationen. Sie können jeweils eine individuelle User-ID, Namen des Endnutzers, E-Mail-Adresse und die Anzahl der Besuche enthalten. Diese Cookies werden standardmäßig für ein Jahr gespeichert.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_widget_config",
+          "purpose": "Enthält technische Konfigurationsdetails zum Widget.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_widget_key",
+          "purpose": "Enthält den Widget Key, ein eindeutiger Kennzeichner des Widgets im Backend.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_state",
+          "purpose": "Enthält den Applikationsstatus (Chat, Offline, Idle...)",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_app_key",
+          "purpose": "Enthält den App Key, welcher für die Nutzung von Userlike mit dem Plugin eines Drittanbieters oder einer Applikation genutzt wird.\n",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_app_state",
+          "purpose": "Enthält den Applikationsstatus (Chat, Offline, Idle...)",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_referrer",
+          "purpose": "Enthält den Referrer, die Webseite, über die der Benutzer zur aktuellen Webseite bzw. Datei gekommen ist.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_chat_meta_id",
+          "purpose": "Enthält die Chat ID, die eindeutige Kennung des Chats im Backend.\n",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_id",
+          "purpose": "Enthält die Chatkennung (= ID)",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_ct",
+          "purpose": "Enthält den Client Termination-Wert, die Anzahl der der Nachrichten zum Messenger.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_co",
+          "purpose": "Enthält den Client Originating-Wert, die Anzahl der vom Messenger stammenden Nachrichten.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_created",
+          "purpose": "Enthält Informationen zur Erstellung eines Slots.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_operator_binding",
+          "purpose": "Enthält Informationen zur Operatorenzuweisung.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_operator_id",
+          "purpose": "Enthält die eindeutige Kennung des Operators im Backend.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_operator_name",
+          "purpose": "Enthält Operatorenname.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_operator_display_name",
+          "purpose": "Enthält den Anzeigenamen des Operators.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_operator",
+          "purpose": "Enthalt Informationen zum Userlike-Operatoren.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_bootstrapped",
+          "purpose": "Enthält Initialisierungsdaten.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_active",
+          "purpose": "Enthält Informationen über den Aktivitätsstatus des Chats.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_page_impressions",
+          "purpose": "Zählt die Anzahl der Seitenansichten.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_email",
+          "purpose": "Enthält die vom Webvisitor angegebene Email-Adresse.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_name",
+          "purpose": "Enthält den vom Webvisitor angegebenen Namen.\n",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_uuid",
+          "purpose": "Enthält den Unique User Identifier zur Identifizierung wiederkehrender Besucher.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_additional01",
+          "purpose": "Enthält Informationen aus dem Zusatzfeld 1",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_additional02",
+          "purpose": "Enthält Informationen aus dem Zusatzfeld 2",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_additional03",
+          "purpose": "Enthält Informationen aus dem Zusatzfeld 3",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_visits",
+          "purpose": "Enthält Informationen zur Anzahl der Seitenbesuche.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_test",
+          "purpose": "Überprüft Cookie-Unterstüzung im Browser",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_drag",
+          "purpose": "Enthält Informationen zur Positionierung des Messengerfensters auf der Seite.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_goal_reached",
+          "purpose": "Enthält Informationen darüber, ob ein Widget Goal erreicht wurde.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_ip",
+          "purpose": "Enthält die IP Adresse des Webvisitors.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_longitude",
+          "purpose": "Enthält den Längengrad des Nutzerstandortes bei Nutzung der Geolocation Browser API.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_latitude",
+          "purpose": "Enthält den Breitengrad des Nutzerstandortes bei Nutzung der Geolocation Browser API.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_in_service_time",
+          "purpose": "Enthält die Information, ob das Widget innerhalb der Servicezeiten aufgerufen wurde.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_chatbutler_start_time",
+          "purpose": "Enthält die Uhrzeit, zu der ein Chat mit Chat Butler gestartet wurde.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_chatbutler_dialog",
+          "purpose": "Enthält die Dialogabfolge aus der Konfiguration des Chat Butlers.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_chatbutler_topic",
+          "purpose": "Enthält das von Webvisitor angegebene Thema eines Chats mit dem Chat Butler.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_chatbutler_extra_info",
+          "purpose": "Enthält vom Webvisitor im Chat Butler gegebene Zusatzinformationen.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_was_proactive",
+          "purpose": "Enthält die Information, ob der Chat über den proaktiven Modus gestartet wurde.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_initial_url",
+          "purpose": "Enthält die URL auf der die Chat-Verbindung initiiert wurde.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_locale",
+          "purpose": "Enthält das \"session locale\", den Einstellungssatz, der die Gebietsschemaparameter (Standortparameter) definiert.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_debug",
+          "purpose": "Enthält die Information darüber, ob das Chat Widget sich im Debug Modus befindet oder nicht.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_inject",
+          "purpose": "Enthält Konfigurationsinformationen zum Widget.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "_uslk_locale",
+          "purpose": "Enthält das \"session locale\", den Einstellungssatz, der die Gebietsschemaparameter (Standortparameter) definiert.",
+          "scope": "Session",
+          "set_by": "Userlike UG (haftungsbeschränkt)",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        }
+      ]
+    },
+    {
+      "operator": "Vimeo",
+      "purpose": "",
+      "domains": [
+        "vimeo.com",
+        "www.vimeo.com"
+      ],
+      "privacyLink": "https://vimeo.com/privacy",
+      "key": ""
+    },
+    {
+      "operator": "Google Ireland Ltd. / Youtube",
+      "purpose": "Diese Datenverarbeitung wird von YouTube durchgeführt, um die Funktionalität des Players zu gewährleisten.",
+      "domains": [
+        "www.youtube.com",
+        "youtube.de",
+        "www.youtube.de",
+        "youtube.com"
+      ],
+      "privacyLink": "https://policies.google.com/privacy",
+      "optOutLink": "https://www.google.com/settings/ads",
+      "key": "youtube",
+      "cookies": [
+        {
+          "name": "yt-player-two-stage-token",
+          "purpose": "Dieses lokale Speicherelement speichert die Einstellungen des Users, wenn ein YouTube-Video eingebettet wurde.",
+          "scope": "Niemals",
+          "set_by": "Google Ireland Ltd.",
+          "domains": [
+            "www.youtube.com",
+            "youtube.de",
+            "www.youtube.de",
+            "youtube.com"
+          ]
+        },{
+          "name": "yt-remote-device-id",
+          "purpose": "Dieses lokale Speicherelement wird vom YouTube-Kanal-Plugin gesetzt, um User-Einstellungen zu speichern.",
+          "scope": "Niemals",
+          "set_by": "Google Ireland Ltd.",
+          "domains": [
+            "www.youtube.com",
+            "youtube.de",
+            "www.youtube.de",
+            "youtube.com"
+          ]
+        },{
+          "name": "yt-remote-connected-devices",
+          "purpose": "Dieses lokale Speicherelement speichert die Einstellungen des Users, wenn ein YouTube-Video eingebettet wurde.",
+          "scope": "Niemals",
+          "set_by": "Google Ireland Ltd.",
+          "domains": [
+            "www.youtube.com",
+            "youtube.de",
+            "www.youtube.de",
+            "youtube.com"
+          ]
+        },{
+          "name": "yt-remote-session-app",
+          "purpose": "Dieses Cookie speichert die Einstellungen des Users, wenn ein YouTube-Video eingebettet wurde.",
+          "scope": "Session",
+          "set_by": "Google Ireland Ltd.",
+          "domains": [
+            "www.youtube.com",
+            "youtube.de",
+            "www.youtube.de",
+            "youtube.com"
+          ]
+        },{
+          "name": "yt-remote-session-name",
+          "purpose": "Dieses Cookie speichert die Einstellungen des Users, wenn ein YouTube-Video eingebettet wurde.",
+          "scope": "Session",
+          "set_by": "Google Ireland Ltd.",
+          "domains": [
+            "www.youtube.com",
+            "youtube.de",
+            "www.youtube.de",
+            "youtube.com"
+          ]
+        },{
+          "name": "yt-remote-fast-check-period",
+          "purpose": "Dieses Cookie speichert die Einstellungen des Users, wenn ein YouTube-Video eingebettet wurde.",
+          "scope": "Session",
+          "set_by": "Google Ireland Ltd.",
+          "domains": [
+            "www.youtube.com",
+            "youtube.de",
+            "www.youtube.de",
+            "youtube.com"
+          ]
+        },{
+          "name": "yt-remote-cast-installed",
+          "purpose": "Dieses Cookie speichert die Einstellungen des Users, wenn ein YouTube-Video eingebettet wurde.",
+          "scope": "Session",
+          "set_by": "Google Ireland Ltd.",
+          "domains": [
+            "www.youtube.com",
+            "youtube.de",
+            "www.youtube.de",
+            "youtube.com"
+          ]
+        },{
+          "name": "yt-remote-cast-available",
+          "purpose": "Mit diesem HTML-Speicherschlüssel wird das Verhalten des integrierten YouTube-Videoplayers gesteuert.",
+          "scope": "Session",
+          "set_by": "Google Ireland Ltd.",
+          "domains": [
+            "www.youtube.com",
+            "youtube.de",
+            "www.youtube.de",
+            "youtube.com"
+          ]
+        },{
+          "name": "yt.innertube::nextId",
+          "purpose": "Dieses lokale Speicherelement speichert die Einstellungen des Users, wenn YouTube-Video eingebettet wurde.",
+          "scope": "Niemals",
+          "set_by": "Google Ireland Ltd.",
+          "domains": [
+            "www.youtube.com",
+            "youtube.de",
+            "www.youtube.de",
+            "youtube.com"
+          ]
+        },{
+          "name": "yt.innertube::requests",
+          "purpose": "Dieses lokale Speicherelement speichert die Einstellungen des Users, wenn YouTube-Video eingebettet wurde.",
+          "scope": "Niemals",
+          "set_by": "Google Ireland Ltd.",
+          "domains": [
+            "www.youtube.com",
+            "youtube.de",
+            "www.youtube.de",
+            "youtube.com"
+          ]
+        },{
+          "name": "VISITOR_INFO1_LIVE",
+          "purpose": "Dieses Cookie wird von YouTube eingesetzt, um die Bandbreite des Users zu messen. Auf Basis dieser Daten wird entweder das alte oder das neue Player-Interface ausgespielt.",
+          "scope": "6 Monate",
+          "set_by": "Google Ireland Ltd.",
+          "domains": [
+            "www.youtube.com",
+            "youtube.de",
+            "www.youtube.de",
+            "youtube.com"
+          ]
+        },{
+          "name": "PREF",
+          "purpose": "Dieses Cookie kann von Google oder Doubleclick gesetzt und von Werbepartnern zum Erstellen von Interessensprofilen genutzt werden, damit auf anderen Seiten relevante Werbung angezeigt wird. Basiert auf der eindeutigen Identifizierung von Browser und Gerät.",
+          "scope": "8 Monate",
+          "set_by": "Google Ireland Ltd.",
+          "domains": [
+            "www.youtube.com",
+            "youtube.de",
+            "www.youtube.de",
+            "youtube.com"
+          ]
+        }
+      ]
+    }
+  ],
+  "required": [
+    {
+      "operator": "DEALERNAME",
+      "domains": [
+        "DEALERDOMAINS"
+      ],
+      "key": "",
+      "cookies": [
+        {
+          "name": "cookiesAllowed",
+          "purpose": "Dieses Cookie wird verwendet um aufzuzeichnen, ob ein Nutzer der Verwendung der verschiedenen Kategorien von Cookies auf der Webseite zugestimmt hat. Das Cookie ist permanent. Es wird jedoch gelöscht, wenn der Nutzer seine Cookie-Einstellungen ändert.",
+          "scope": "2 Jahre",
+          "set_by": "DEALERNAME",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "JSESSIONID",
+          "purpose": "Dieses Session-Cookie zeigt an, dass ein anonymer Nutzer im Moment die Webseite aktiv nutzt; des Weiteren wird damit gezählt, wie viele anonyme Nutzer zur jeweiligen Zeit die Webseite besuchen. Dieses Cookie wird gelöscht, sobald Sie Ihren Browser schließen.",
+          "scope": "Session",
+          "set_by": "DEALERNAME",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "SMSESSION",
+          "purpose": "Dieses Session-Cookie stattet den Nutzer anonymisiert mit einer ID aus, während er auf der Webseite surft, so dass der Web-Server auf die Nutzeraktionen (z. B. durch die Bereitstellung von personalisierten Informationen) reagieren kann.",
+          "scope": "Session",
+          "set_by": "DEALERNAME",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        },
+        {
+          "name": "UqZBPD3n",
+          "purpose": "Dieses Cookie wird vom LoadBalancer gesetzt. Dieser verteilt den Traffic auf die Server und merkt sich im Cookie, auf welchen der Server geroutet wurde. Das Cookie wird mit beenden der Session gelöscht.",
+          "scope": "Session",
+          "set_by": "DEALERNAME",
+          "domains": [
+            "DEALERDOMAINS"
+          ]
+        }
+      ]
+    }
+  ],
+  "requiredOTV": [
+    {
+      "operator": "soft-nrg - Online Terminvereinbarung",
+      "domains": [
+        "plan.soft-nrg.com"
+      ],
+      "key": "",
+      "cookies": [
+        {
+          "name": "BDCID",
+          "purpose": "Wird vom Web-Server als Sitzungskennung verwendet.",
+          "scope": "7 Tage",
+          "set_by": "soft-nrg development GmbH",
+          "domains": [
+            "plan.soft-nrg.com"
+          ]
+        },
+        {
+          "name": "ETCH_ND",
+          "purpose": "Wird vom Web-Server verwendet, um die Anwendung zu identifizieren, die Anforderungen stellt.",
+          "scope": "Session",
+          "set_by": "soft-nrg development GmbH",
+          "domains": [
+            "plan.soft-nrg.com"
+          ]
+        },
+        {
+          "name": "ETCH_NM",
+          "purpose": "Wird vom Web-Server verwendet, um die Anwendung zu identifizieren, die Anforderungen stellt.",
+          "scope": "Session",
+          "set_by": "soft-nrg development GmbH",
+          "domains": [
+            "plan.soft-nrg.com"
+          ]
+        },
+        {
+          "name": "XSRF-TOKEN-ND",
+          "purpose": "Anti-CSRF-Tokens zur Verhinderung von Cross Site Request Forgery (CSRF) Attacken.",
+          "scope": "Session",
+          "set_by": "soft-nrg development GmbH",
+          "domains": [
+            "plan.soft-nrg.com"
+          ]
+        },
+        {
+          "name": "XSRF-TOKEN-NM",
+          "purpose": "Anti-CSRF-Tokens zur Verhinderung von Cross Site Request Forgery (CSRF) Attacken.",
+          "scope": "Session",
+          "set_by": "soft-nrg development GmbH",
+          "domains": [
+            "plan.soft-nrg.com"
+          ]
+        },
+        {
+          "name": "TKN_ND",
+          "purpose": "Wird im Authentifizierungsprozess verwenden, um festzustellen, ob ein Besucher wirklich der ist, für den er sich ausgibt.",
+          "scope": "Session",
+          "set_by": "soft-nrg development GmbH",
+          "domains": [
+            "plan.soft-nrg.com"
+          ]
+        },
+        {
+          "name": "TKN_NM",
+          "purpose": "Wird im Authentifizierungsprozess verwenden, um festzustellen, ob ein Besucher wirklich der ist, für den er sich ausgibt.",
+          "scope": "Session",
+          "set_by": "soft-nrg development GmbH",
+          "domains": [
+            "plan.soft-nrg.com"
+          ]
+        },
+        {
+          "name": "STL or STL_ND",
+          "purpose": "Ermöglicht es der Webseite, den Benutzer in einen Workflow-Prozess zu führen, der vom Benutzer selbst angefordert wird (z.B. Passwort vergessen, Express-Login. usw.",
+          "scope": "Session",
+          "set_by": "soft-nrg development GmbH",
+          "domains": [
+            "plan.soft-nrg.com"
+          ]
+        }
+      ]
+    }
+  ]
+}
+;
+            window.consentManagerSettings.siteName="autohaus-fuchs.de";
+            window.consentManagerSettings.siteAliases=[
+
+                "autohaus-fuchs.de",
+
+                "www.autohaus-fuchs.de",
+
+                "fuchs.bmw",
+
+                "www.fuchs.bmw",
+
+            ];
+            window.consentManagerSettings.additionalDomains=[
+
+                "bmw-registration.atrivio.net",
+
+            ];
+        </script>
+        <script type="text/javascript" src="/export/system/modules/de.bmw.opencms.stagetwo/resources/js/cookie_controller.js?1598363541000"></script>
+    <link rel="stylesheet" type="text/css"
+          href="/export/system/modules/de.bmw.opencms.stagetwo/resources/css/style.css?1607093231000"/>
+    <style>
+        .isEditMode #LayerArea {
+            min-height: 100px;
+            margin-top: 50px;
+        }
+    </style>
+    <script language="javascript">
+        window['bmw.dealer.googleMaps.key'] = "AIzaSyBHY5R97T4yubAKUy5D3rqJpFJrmVQSN2Y";
+        window.digitalData = window.digitalData || {};
+        window.digitalData.userlike={
+            autoOpen: true,
+            autoOpenSeconds: 25,
+            showWithoutOperators: false,
+        };
+    </script>
+    <style type="text/css">
+        body.path--de-cookies:not(.isEditMode) #contentcontainer .bmw_normal {
+display:none;
+        }
+        body.path--de-cookies.isEditMode #contentcontainer .bmw_normal {
+            background-color:rgba(255,0,0,.5);
+        }
+
+    </style>
+    <!-- headincludes begin -->
+    <!-- headincludes end -->
+</head>
+<body class=" path--de-home"
+      data-hyphenator-path="/export/system/modules/de.bmw.opencms.stagetwo/resources/js/hyphenator/Hyphenator.js">
+<div class="main remodal-bg">
+    <div  id="LayerArea" >
+
+
+<div class="row page-padding cookielayer height-only-0">
+                <div class="row bmw-padding-1-top">
+                    <div class="large-9 small-12 columns bmw-padding-1-bottom">
+                        <h5 class="bmw-font-hl-m hyphenate bmw-padding-2-bottom">Cookies auf dieser Webseite</h5>
+                        <div class="bmw-body-copy-xs wysiwyg hyphenate bmw-padding-1-bottom">
+Diese Webseite verwendet Cookies sowie externe Inhalte, um Informationen über die Nutzung der Website durch die Besucher zu sammeln.
+Diese Cookies und externen Inhalte helfen uns dabei, Ihnen das bestmögliche Online-Erlebnis zu bieten, unsere Website ständig zu verbessern und Ihnen Angebote
+zu unterbreiten, die auf Ihre Interessen zugeschnitten sind. Mit dem Klick auf den Button "Zustimmen" erklären Sie sich mit der Verwendung aller Cookies und
+externen Inhalte einverstanden. Für weitere Informationen über die Nutzung von Cookies sowie externe Inhalte oder für die Änderung Ihrer Einstellungen
+klicken Sie bitte auf "Mehr über die Verwendung und Ablehnung von Cookies und externen Inhalte".
+                        </div>
+                        <a href="/de/cookies/index.html"
+                               class="arrow-link"
+                               target="_self">Mehr über die Verwendung und Ablehnung von Cookies und externen Inhalten</a>
+                        </div>
+                    <div class="large-3 medium-6 small-12 columns end bmw-padding-1-bottom">
+                        <a href="#" class="button primary closeCookieLayer">Zustimmen</a>
+                    </div>
+                </div>
+            </div>
+        </div><header class="bmw-header">
+        <div class="bmw-header-bg">
+    <div class="row page-padding">
+        <div class="column-nav">
+            <div  id="topnavicontainer" class="top-nav-container" ><div>
+    <a class="menu-icon js-open-mobile-menu bmw-font-hl-s no-scroll" data-mobile-menu-target="#mainMenu" href="#mainMenu">
+            Menu
+        </a>
+        <a class="title bmw-font-hl-l"  href="/">
+            Autohaus Fuchs</a>
+    </div>
+</div><div class="bmw-main-menu-wrapper">
+                <ul id="mainMenu" class="bmw-main-menu bmw-top-level-menu js-main-menu clearfix" data-menu-state="open">
+                    <li>
+                        <div class="search-mobile">
+                            <label>
+                                <input class="search small-12" type="text" name="search" placeholder="Suche" aria-describedby="" pattern="">
+                                <span class="form-error"></span>
+                            </label>
+                        </div>
+                    </li>
+                    <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/aktionen/">Aktionen</a>
+                                </li>
+                            <li class="has-submenu">
+                                    <a class="bmw-font-hl-s no-scroll js-second-level-menu-trigger" href="#892a3a32-cb2b-4776-a685-57a238857672">Neuwagen</a>
+                                </li>
+                            <li class="has-submenu">
+                                    <a class="bmw-font-hl-s no-scroll js-second-level-menu-trigger" href="#5a8ee92d-9a5e-4b28-b4c8-a75d5f6f1595">Gebrauchtwagen</a>
+                                </li>
+                            <li class="has-submenu">
+                                    <a class="bmw-font-hl-s no-scroll js-second-level-menu-trigger" href="#a557ee21-554d-457e-8e53-d9c28ecd751f">Service & Zubehör</a>
+                                </li>
+                            <li class="has-submenu">
+                                    <a class="bmw-font-hl-s no-scroll js-second-level-menu-trigger" href="#e0d38c5d-6501-4cdf-aa3a-4dd130d42c20">Über uns</a>
+                                </li>
+                            <li>
+                                    <button class="search-button" data-search-path="/de/suche/">
+                                        <span class="icon header-icon search">Suche</span>
+                                    </button>
+                                </li>
+                            </ul>
+            </div>
+            <div id="desktop-search-wrapper" class="search-desktop search-wrapper">
+                <label>
+                    <input type="text" name="search" class="search small-12 medium-8" placeholder="Suche" aria-describedby="" pattern="">
+                    <span class="form-error"></span>
+                </label>
+            </div>
+            <div class="bmw-claim">
+                <img alt="BMW Claim" src="/system/modules/de.bmw.opencms.stagetwo/resources/images/logos/bmw_claim_freude-am-fahren_white.svg?1598363539000">
+            </div>
+        </div>
+        <div class="column-logo">
+            <a class="bmw-identity-module" href="/">
+                <div class="logo-wrapper">
+                        <img alt="BMW Logo" class="logo-on-filled" src="/system/modules/de.bmw.opencms.stagetwo/resources/images/logos/BMW_Grey-Colour_RGB.svg?1607093233000">
+                        <img alt="BMW Logo" class="logo-on-hollow" src="/system/modules/de.bmw.opencms.stagetwo/resources/images/logos/BMW_White-Colour_RGB.svg?1607093231000">
+                    </div>
+                </a>
+        </div>
+    </div>
+</div>
+
+<div class="bmw-sub-menu-wrapper">
+    <div class="row page-padding">
+        <div class="row">
+            <div class="column hide-for-sm-large bmw-top-level-menu-clone"></div>
+
+            <div class="sm-large-4 column">
+                <ul id="5a8637e8-7f0d-4b33-a85d-5cab739da877" class="bmw-sub-menu secondLevel" data-parent-menu="#mainMenu" data-menu-state="closed">
+                        <li class="menu-header hide-for-sm-large">
+                            <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#5a8637e8-7f0d-4b33-a85d-5cab739da877">
+                                <span>Aktionen</span>
+                            </a>
+                        </li>
+                        </ul>
+                <ul id="892a3a32-cb2b-4776-a685-57a238857672" class="bmw-sub-menu secondLevel" data-parent-menu="#mainMenu" data-menu-state="closed">
+                        <li class="menu-header hide-for-sm-large">
+                            <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#892a3a32-cb2b-4776-a685-57a238857672">
+                                <span>Neuwagen</span>
+                            </a>
+                        </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/neuwagen/uebersicht/">
+                                            Übersicht</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/neuwagen/modell-finden/">
+                                            Modell finden</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/neuwagen/bmw-i/">
+                                            BMW i</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/neuwagen/geschaefts-sonderkunden/">
+                                            Geschäfts- & Sonderkunden</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/neuwagen/finanzierung-versicherung/">
+                                            Finanzieren & Versichern</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/neuwagen/inzahlungnahme/">
+                                            Inzahlungnahme</a>
+                                </li>
+                        </ul>
+                <ul id="5a8ee92d-9a5e-4b28-b4c8-a75d5f6f1595" class="bmw-sub-menu secondLevel" data-parent-menu="#mainMenu" data-menu-state="closed">
+                        <li class="menu-header hide-for-sm-large">
+                            <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#5a8ee92d-9a5e-4b28-b4c8-a75d5f6f1595">
+                                <span>Gebrauchtwagen</span>
+                            </a>
+                        </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/gebrauchtwagen/uebersicht/">
+                                            Übersicht</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/gebrauchtwagen/gebrauchtwagenboerse/">
+                                            Gebrauchtwagenbörse</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/gebrauchtwagen/bmw-premium-selection/">
+                                            BMW Premium Selection</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/gebrauchtwagen/junge-gebrauchte/">
+                                            Junge Gebrauchte</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/gebrauchtwagen/garantien/">
+                                            Garantien</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/gebrauchtwagen/finanzierung-versicherung/">
+                                            Finanzieren & Versichern</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/gebrauchtwagen/inzahlungnahme/">
+                                            Inzahlungnahme</a>
+                                </li>
+                        </ul>
+                <ul id="a557ee21-554d-457e-8e53-d9c28ecd751f" class="bmw-sub-menu secondLevel" data-parent-menu="#mainMenu" data-menu-state="closed">
+                        <li class="menu-header hide-for-sm-large">
+                            <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#a557ee21-554d-457e-8e53-d9c28ecd751f">
+                                <span>Service & Zubehör</span>
+                            </a>
+                        </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/service-zubehoer/uebersicht/">
+                                            Übersicht</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/service-zubehoer/onlineterminvereinbarung/">
+                                            Onlineterminvereinbarung</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/service-zubehoer/service-reparatur/">
+                                            Service & Reparatur</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/service-zubehoer/original-bmw-teile-zubehoer/">
+                                            Original BMW Teile & Zubehör</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/service-zubehoer/bmw-lifestyle/">
+                                            BMW Lifestyle</a>
+                                </li>
+                        </ul>
+                <ul id="e0d38c5d-6501-4cdf-aa3a-4dd130d42c20" class="bmw-sub-menu secondLevel" data-parent-menu="#mainMenu" data-menu-state="closed">
+                        <li class="menu-header hide-for-sm-large">
+                            <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#e0d38c5d-6501-4cdf-aa3a-4dd130d42c20">
+                                <span>Über uns</span>
+                            </a>
+                        </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/ueber-uns/standort-team/">
+                                            Standort & Team</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/ueber-uns/news-events/">
+                                            News & Events</a>
+                                </li>
+                        <li class="">
+                                    <a class="bmw-font-hl-s no-scroll" href="/de/ueber-uns/karriere/">
+                                            Karriere</a>
+                                </li>
+                        </ul>
+                <ul id="9f20729c-874a-488b-b409-a469310eaaef" class="bmw-sub-menu secondLevel" data-parent-menu="#mainMenu" data-menu-state="closed">
+                        <li class="menu-header hide-for-sm-large">
+                            <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#9f20729c-874a-488b-b409-a469310eaaef">
+                                <span>Suche</span>
+                            </a>
+                        </li>
+                        </ul>
+                </div>
+
+            <div class="sm-large-8 column">
+                <ul id="7a13df36-7bf0-43c6-ad81-9c6025d60e4e" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#892a3a32-cb2b-4776-a685-57a238857672">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Übersicht</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="c833f4b4-f27a-45a2-ba6d-16e888fdb5b9" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#892a3a32-cb2b-4776-a685-57a238857672">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Modell finden</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="416cbad3-67a0-41c4-8c79-0a2375d54144" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#892a3a32-cb2b-4776-a685-57a238857672">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>BMW i</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="8ba20914-c73b-443d-a5a8-c5d490224b4c" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#892a3a32-cb2b-4776-a685-57a238857672">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Geschäfts- & Sonderkunden</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="73bddb81-5f88-4ea9-909f-d1b7e7609498" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#892a3a32-cb2b-4776-a685-57a238857672">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Finanzieren & Versichern</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="a898ce3e-c03a-4014-b05d-15be807e1884" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#892a3a32-cb2b-4776-a685-57a238857672">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Inzahlungnahme</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="60c8f72b-c9c7-4537-8b13-da93050c4914" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#5a8ee92d-9a5e-4b28-b4c8-a75d5f6f1595">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Übersicht</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="e0094f35-f50c-420d-b057-f2e9e5246d78" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#5a8ee92d-9a5e-4b28-b4c8-a75d5f6f1595">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Gebrauchtwagenbörse</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="6e130b36-b39a-41a1-a274-f3df95e1667f" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#5a8ee92d-9a5e-4b28-b4c8-a75d5f6f1595">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>BMW Premium Selection</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="dbdf3051-6e0f-4bda-900c-471719bddf02" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#5a8ee92d-9a5e-4b28-b4c8-a75d5f6f1595">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Junge Gebrauchte</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="5e4b37fb-4eed-47a0-b7f4-dc9e99e4d734" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#5a8ee92d-9a5e-4b28-b4c8-a75d5f6f1595">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Garantien</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="397fa470-059d-4556-bc67-a5ba93d248a4" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#5a8ee92d-9a5e-4b28-b4c8-a75d5f6f1595">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Finanzieren & Versichern</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="9e21f5d8-178f-4a94-939f-cb12283e7c42" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#5a8ee92d-9a5e-4b28-b4c8-a75d5f6f1595">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Inzahlungnahme</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="986b2c8b-dc0a-4bca-b3d6-f81a26e58fe9" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#a557ee21-554d-457e-8e53-d9c28ecd751f">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Übersicht</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="d9177e82-dffa-40e0-ab1b-32b77e3950f0" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#a557ee21-554d-457e-8e53-d9c28ecd751f">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Onlineterminvereinbarung</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="88be5134-37ad-45a7-9259-9525b1b6d6b8" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#a557ee21-554d-457e-8e53-d9c28ecd751f">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Service & Reparatur</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="2289874e-5ee3-452a-80c1-390301a567a5" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#a557ee21-554d-457e-8e53-d9c28ecd751f">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Original BMW Teile & Zubehör</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="b34d6fbf-b3fb-467d-b3d5-20d2fcebbb9f" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#a557ee21-554d-457e-8e53-d9c28ecd751f">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>BMW Lifestyle</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="c90e1385-2a37-499f-9df7-13c0ba43619f" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#e0d38c5d-6501-4cdf-aa3a-4dd130d42c20">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Standort & Team</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="cf844177-4768-453e-9e33-7157e34457ca" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#e0d38c5d-6501-4cdf-aa3a-4dd130d42c20">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>News & Events</span>
+                                </a>
+                            </li>
+                            </ul>
+                    <ul id="89bc368f-34e1-4811-b670-d208c4565509" class="bmw-sub-menu thirdLevel" data-menu-state="closed" data-parent-menu="#e0d38c5d-6501-4cdf-aa3a-4dd130d42c20">
+                            <li class="menu-header hide-for-sm-large">
+                                <a class="js-parent-menu-trigger bmw-font-hl-s no-scroll" href="#">
+                                    <span>Karriere</span>
+                                </a>
+                            </li>
+                            </ul>
+                    </div>
+
+            <button class="button wraped close-menu js-close-menu">
+                <span class="icon header-icon close">close</span>
+            </button>
+        </div>
+    </div>
+</div>
+</header>
+    <main style="min-height: 10px;">
+        <div  id="contactcontainer" ></div><div  id="headercontainer" ></div><div  id="headercontainerslider" ><div class="slick-slider bmw-padding-6-bottom bmw-component bmw-full-width-container" >
+
+
+<div class="viewport-animate bmw-large-teaser bmw_normal bmw-full-width-container " id="db15cdb9-e413-11e7-9d7f-005056b914d9">
+        
+
+
+
+
+
+
+
+
+    
+
+<img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/home/FuchsHome_Stage.jpg_1357613043.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/home/FuchsHome_Stage.jpg_1535604017.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/home/FuchsHome_Stage.jpg_135530156.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/home/FuchsHome_Stage.jpg_1535604017.jpg"
+         class="" >
+<div class="bmw-large-teaser-content large-teaser-content-page black">
+            <div class="row page-padding bmw-padding-4-top bmw-padding-3-top-large">
+
+                <div class="row bmw-padding-1-bottom">
+                    <div class="small-12 columns bmw_normal">
+                        <h2 class="bmw-font-hl-versal-xxl bmw-padding-6-right-large hyphenate" >Willkommen bei Ihrem<br>Autohaus Fuchs.</h2>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-1-bottom" >
+                    <div class="small-12 columns">
+                        <h3 class="bmw-font-hl-l bmw-padding-6-right" >Ihr Partner für Freude am Fahren.</h3>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-2-3rd-bottom" >
+                    <div class="small-12 medium-6 large-3 columns end">
+                            <a href="/de/ueber-uns/standort-team/"
+        class="button primary"
+         target="_self"
+>Mehr erfahren</a>
+</div>
+                    </div>
+            </div>
+        </div>
+        <div class="row page-padding  bmw-component">
+            <div class="row">
+                </div>
+        </div>
+    </div>
+
+
+
+
+<div class="viewport-animate bmw-large-teaser bmw_normal bmw-full-width-container " id="acb9a63b-2a75-11eb-9d4a-005056b914d9">
+        
+
+
+
+
+
+
+
+
+    
+
+<img alt=""
+         data-interchange="[/export/shared/Images/aktionen/2020_bmw_iX3/2021-bmw-ix3-stage-1680x756px.jpg_1357613043.jpg, small], [/export/shared/Images/aktionen/2020_bmw_iX3/2021-bmw-ix3-stage-1680x756px.jpg_1535604017.jpg, medium], [/export/shared/Images/aktionen/2020_bmw_iX3/2021-bmw-ix3-stage-1680x756px.jpg_135530156.jpg, large]"
+         src="/export/shared/Images/aktionen/2020_bmw_iX3/2021-bmw-ix3-stage-1680x756px.jpg_1535604017.jpg"
+         class="" >
+<div class="bmw-large-teaser-content large-teaser-content-page white">
+            <div class="row page-padding bmw-padding-4-top bmw-padding-3-top-large">
+
+                <div class="row bmw-padding-1-bottom">
+                    <div class="small-12 columns bmw_normal">
+                        <h2 class="bmw-font-hl-versal-xxl bmw-padding-6-right-large hyphenate" >THE iX3</h2>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-1-bottom" >
+                    <div class="small-12 columns">
+                        <h3 class="bmw-font-hl-l bmw-padding-6-right" >DER ERSTE VOLLELEKTRISCHE BMW iX3. <br>AB 30. JANUAR BEI UNS.</h3>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-2-3rd-bottom" >
+                    <div class="small-12 medium-6 large-3 columns end">
+                            <a href="/de/aktionen/alle-aktionen/the-ix3-der-erste-vollelektrische-bmw-ix3/index.html"
+        class="button primary"
+         target="_self"
+>Mehr erfahren</a>
+</div>
+                    </div>
+            </div>
+        </div>
+        <div class="row page-padding bmw-padding-2-top bmw-padding-4-top-large bmw-component">
+            <div class="row">
+                <div class="small-12 end columns">
+                    <div class="wysiwyg small-12" ><p>BMW iX3: Stromverbrauch (NEFZ) in kWh/100 km (kombiniert): 17,8–17,5; elektrische Reichweite&nbsp;(WLTP) in km: 450–458.&nbsp;</p></div>
+                </div>
+                </div>
+        </div>
+    </div>
+
+
+
+
+<div class="viewport-animate bmw-large-teaser bmw_normal bmw-full-width-container " id="9ba5b398-2a75-11eb-9d4a-005056b914d9">
+        
+
+
+
+
+
+
+
+
+    
+
+<img alt=""
+         data-interchange="[/export/shared/Images/aktionen/2020_bmw_the_3_q3/2020-bmw-3er-vkf-stage-1680x756px_klein.jpg_1357613043.jpg, small], [/export/shared/Images/aktionen/2020_bmw_the_3_q3/2020-bmw-3er-vkf-stage-1680x756px_klein.jpg_1535604017.jpg, medium], [/export/shared/Images/aktionen/2020_bmw_the_3_q3/2020-bmw-3er-vkf-stage-1680x756px_klein.jpg_135530156.jpg, large]"
+         src="/export/shared/Images/aktionen/2020_bmw_the_3_q3/2020-bmw-3er-vkf-stage-1680x756px_klein.jpg_1535604017.jpg"
+         class="" >
+<div class="bmw-large-teaser-content large-teaser-content-page white">
+            <div class="row page-padding bmw-padding-4-top bmw-padding-3-top-large">
+
+                <div class="row bmw-padding-1-bottom">
+                    <div class="small-12 columns bmw_normal">
+                        <h2 class="bmw-font-hl-versal-xxl bmw-padding-6-right-large hyphenate" >THE 3</h2>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-1-bottom" >
+                    <div class="small-12 columns">
+                        <h3 class="bmw-font-hl-l bmw-padding-6-right" >DER BMW 3er. OPTIONAL MIT LEASINGRATENVERSICHERUNG<sup>15</sup> <br> UND DEM SERVICEPAKET WARTUNG UND REPARATUR<sup>16</sup>.</h3>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-2-3rd-bottom" >
+                    <div class="small-12 medium-6 large-3 columns end">
+                            <a href="/de/aktionen/alle-aktionen/the-3-optional-mit-leasingratenversicherung/index.html"
+        class="button primary"
+         target="_self"
+>Mehr erfahren</a>
+</div>
+                    </div>
+            </div>
+        </div>
+        <div class="row page-padding  bmw-component">
+            <div class="row">
+                </div>
+        </div>
+    </div>
+
+
+
+
+<div class="viewport-animate bmw-large-teaser bmw_normal bmw-full-width-container " id="c57240b3-fc00-11ea-9c44-005056b914d9">
+        
+
+
+
+
+
+
+
+
+    
+
+<img alt=""
+         data-interchange="[/export/shared/Images/aktionen/2020_bmw_4er_vkf/2020_4er_vkf_BMW_4er_Coupe_430i_Stageteaser_1680x756.jpg_1357613043.jpg, small], [/export/shared/Images/aktionen/2020_bmw_4er_vkf/2020_4er_vkf_BMW_4er_Coupe_430i_Stageteaser_1680x756.jpg_1535604017.jpg, medium], [/export/shared/Images/aktionen/2020_bmw_4er_vkf/2020_4er_vkf_BMW_4er_Coupe_430i_Stageteaser_1680x756.jpg_135530156.jpg, large]"
+         src="/export/shared/Images/aktionen/2020_bmw_4er_vkf/2020_4er_vkf_BMW_4er_Coupe_430i_Stageteaser_1680x756.jpg_1535604017.jpg"
+         class="" >
+<div class="bmw-large-teaser-content large-teaser-content-page white">
+            <div class="row page-padding bmw-padding-4-top bmw-padding-3-top-large">
+
+                <div class="row bmw-padding-1-bottom">
+                    <div class="small-12 columns bmw_normal">
+                        <h2 class="bmw-font-hl-versal-xxl bmw-padding-6-right-large hyphenate" >The 4</h2>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-1-bottom" >
+                    <div class="small-12 columns">
+                        <h3 class="bmw-font-hl-l bmw-padding-6-right" >DAS NEUE BMW 4er COUPÉ. JETZT BEI UNS.</h3>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-2-3rd-bottom" >
+                    <div class="small-12 medium-6 large-3 columns end">
+                            <a href="/de/aktionen/alle-aktionen/das-neue-bmw-4er-coupe/"
+        class="button primary"
+         target="_self"
+>Mehr erfahren</a>
+</div>
+                    </div>
+            </div>
+        </div>
+        <div class="row page-padding  bmw-component">
+            <div class="row">
+                </div>
+        </div>
+    </div>
+
+
+
+
+<div class="viewport-animate bmw-large-teaser bmw_normal bmw-full-width-container " id="7fed39f7-e222-11ea-8c0d-005056b914d9">
+        
+
+
+
+
+
+
+
+
+    
+
+<img alt=""
+         data-interchange="[/export/shared/Images/aktionen/2020-wkr/bmw-wkr-2020-stage-teaser_03_1680x756px.jpg_1357613043.jpg, small], [/export/shared/Images/aktionen/2020-wkr/bmw-wkr-2020-stage-teaser_03_1680x756px.jpg_1535604017.jpg, medium], [/export/shared/Images/aktionen/2020-wkr/bmw-wkr-2020-stage-teaser_03_1680x756px.jpg_135530156.jpg, large]"
+         src="/export/shared/Images/aktionen/2020-wkr/bmw-wkr-2020-stage-teaser_03_1680x756px.jpg_1535604017.jpg"
+         class="" >
+<div class="bmw-large-teaser-content large-teaser-content-page white">
+            <div class="row page-padding bmw-padding-4-top bmw-padding-3-top-large">
+
+                <div class="row bmw-padding-1-bottom">
+                    <div class="small-12 columns bmw_normal">
+                        <h2 class="bmw-font-hl-versal-xxl bmw-padding-6-right-large hyphenate" >WIE GEMACHT FÜR <br>MEINEN WINTER.</h2>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-1-bottom" >
+                    <div class="small-12 columns">
+                        <h3 class="bmw-font-hl-l bmw-padding-6-right" >ORIGINAL BMW WINTERKOMPLETTRÄDER.</h3>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-2-3rd-bottom" >
+                    <div class="small-12 medium-6 large-3 columns end">
+                            <a href="/de/aktionen/alle-aktionen/2020-bmw-winterkomplettraeder/"
+        class="button primary"
+         target="_self"
+>Mehr erfahren</a>
+</div>
+                    </div>
+            </div>
+        </div>
+        <div class="row page-padding  bmw-component">
+            <div class="row">
+                </div>
+        </div>
+    </div>
+
+
+
+
+<div class="viewport-animate bmw-large-teaser bmw_normal bmw-full-width-container " id="794bc7a3-d003-11ea-a078-005056b914d9">
+        
+
+
+
+
+
+
+
+
+    
+
+<img alt=""
+         data-interchange="[/export/shared/Images/aktionen/2020_my_bmw_app/bmw-connected-app-buehne-1680x756px.jpg_1357613043.jpg, small], [/export/shared/Images/aktionen/2020_my_bmw_app/bmw-connected-app-buehne-1680x756px.jpg_1535604017.jpg, medium], [/export/shared/Images/aktionen/2020_my_bmw_app/bmw-connected-app-buehne-1680x756px.jpg_135530156.jpg, large]"
+         src="/export/shared/Images/aktionen/2020_my_bmw_app/bmw-connected-app-buehne-1680x756px.jpg_1535604017.jpg"
+         class="" >
+<div class="bmw-large-teaser-content large-teaser-content-page white">
+            <div class="row page-padding bmw-padding-4-top bmw-padding-3-top-large">
+
+                <div class="row bmw-padding-1-bottom">
+                    <div class="small-12 columns bmw_normal">
+                        <h2 class="bmw-font-hl-versal-xxl bmw-padding-6-right-large hyphenate" ><br>MEIN WICHTIGSTES TO-DO: <br>WENIGER TO-DOS.</h2>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-1-bottom" >
+                    <div class="small-12 columns">
+                        <h3 class="bmw-font-hl-l bmw-padding-6-right" >Vereinfachen Sie Ihren Alltag – <br>Mit BMW Teleservices<sup>20</sup> und der My BMW App<sup>21</sup></h3>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-2-3rd-bottom" >
+                    <div class="small-12 medium-6 large-3 columns end">
+                            <a href="/de/aktionen/alle-aktionen/2020-my-bmw-app/index.html"
+        class="button primary"
+         target="_self"
+>Mehr erfahren</a>
+</div>
+                    </div>
+            </div>
+        </div>
+        <div class="row page-padding  bmw-component">
+            <div class="row">
+                </div>
+        </div>
+    </div>
+
+
+
+
+<div class="viewport-animate bmw-large-teaser bmw_normal bmw-full-width-container " id="a104d13f-58af-11ea-81fd-005056b914d9">
+        
+
+
+
+
+
+
+
+
+    
+
+<img alt=""
+         data-interchange="[/export/shared/Images/aktionen/2020-dw-besteuerung/2020-dw-besteuerung-1680x756_Stage_3er_PHEV.jpg_1357613043.jpg, small], [/export/shared/Images/aktionen/2020-dw-besteuerung/2020-dw-besteuerung-1680x756_Stage_3er_PHEV.jpg_1535604017.jpg, medium], [/export/shared/Images/aktionen/2020-dw-besteuerung/2020-dw-besteuerung-1680x756_Stage_3er_PHEV.jpg_135530156.jpg, large]"
+         src="/export/shared/Images/aktionen/2020-dw-besteuerung/2020-dw-besteuerung-1680x756_Stage_3er_PHEV.jpg_1535604017.jpg"
+         class="" >
+<div class="bmw-large-teaser-content large-teaser-content-page white">
+            <div class="row page-padding bmw-padding-4-top bmw-padding-3-top-large">
+
+                <div class="row bmw-padding-1-bottom">
+                    <div class="small-12 columns bmw_normal">
+                        <h2 class="bmw-font-hl-versal-xxl bmw-padding-6-right-large hyphenate" >UNSER STEUERTIPP FÄHRT ELEKTRISCH.</h2>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-1-bottom" >
+                    <div class="small-12 columns">
+                        <h3 class="bmw-font-hl-l bmw-padding-6-right" >VERGÜNSTIGTE DIENSTWAGENBESTEUERUNG.* JETZT FÜR ALLE ELEKTRIFIZIERTEN BMW.</h3>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-2-3rd-bottom" >
+                    <div class="small-12 medium-6 large-3 columns end">
+                            <a href="/de/aktionen/alle-aktionen/2020-bmw-dienstwagenbesteuerung/index.html"
+        class="button primary"
+         target="_self"
+>Mehr erfahren</a>
+</div>
+                    </div>
+            </div>
+        </div>
+        <div class="row page-padding bmw-padding-2-top bmw-padding-4-top-large bmw-component">
+            <div class="row">
+                <div class="small-12 end columns">
+                    <div class="wysiwyg small-12" ><p>BMW 330e Limousine:<br>Kraftstoffverbrauch in l/100 km (kombiniert): 1,7-1,6; CO<sub>2</sub>-Emissionen in g/km (kombiniert): 38-36<br>Stromverbrauch in kWh/100 km (kombiniert): 15,0-14,8.</p></div>
+                </div>
+                </div>
+        </div>
+    </div>
+
+
+
+
+<div class="viewport-animate bmw-large-teaser bmw_normal bmw-full-width-container " id="9cad0ac9-2183-11ea-a0af-005056b914d9">
+        
+
+
+
+
+
+
+
+
+    
+
+<img alt=""
+         data-interchange="[/export/shared/Images/aktionen/2020_BMW_Service_Jahresstart_Bild_Austausch_Sommer_Motiv/bmw-service-reparatur-jahresstart-sommer-motiv-1680x756px.jpg_1357613043.jpg, small], [/export/shared/Images/aktionen/2020_BMW_Service_Jahresstart_Bild_Austausch_Sommer_Motiv/bmw-service-reparatur-jahresstart-sommer-motiv-1680x756px.jpg_1535604017.jpg, medium], [/export/shared/Images/aktionen/2020_BMW_Service_Jahresstart_Bild_Austausch_Sommer_Motiv/bmw-service-reparatur-jahresstart-sommer-motiv-1680x756px.jpg_135530156.jpg, large]"
+         src="/export/shared/Images/aktionen/2020_BMW_Service_Jahresstart_Bild_Austausch_Sommer_Motiv/bmw-service-reparatur-jahresstart-sommer-motiv-1680x756px.jpg_1535604017.jpg"
+         class="" >
+<div class="bmw-large-teaser-content large-teaser-content-page black">
+            <div class="row page-padding bmw-padding-4-top bmw-padding-3-top-large">
+
+                <div class="row bmw-padding-1-bottom">
+                    <div class="small-12 columns bmw_normal">
+                        <h2 class="bmw-font-hl-versal-xxl bmw-padding-6-right-large hyphenate" >GENIESSEN SIE SORGENFREIE FAHRFREUDE.</h2>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-1-bottom" >
+                    <div class="small-12 columns">
+                        <h3 class="bmw-font-hl-l bmw-padding-6-right" >DIE BMW SERVICE PAKETE ZUM KOMPLETTPREIS.</h3>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-2-3rd-bottom" >
+                    <div class="small-12 medium-6 large-3 columns end">
+                            <a href="/de/service-zubehoer/service-reparatur/index.html"
+        class="button primary"
+         target="_self"
+>Mehr erfahren</a>
+</div>
+                    </div>
+            </div>
+        </div>
+        <div class="row page-padding  bmw-component">
+            <div class="row">
+                </div>
+        </div>
+    </div>
+
+
+
+
+<div class="viewport-animate bmw-large-teaser bmw_normal bmw-full-width-container " id="611a2154-d4a7-11e9-9b1b-005056b914d9">
+        
+
+
+
+
+
+
+
+
+    
+
+<img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-jga-bps/2019-JGA-Teaser-bmw-jga-2019-stage-bps-badge-1680x756px.jpg_1357613043.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-jga-bps/2019-JGA-Teaser-bmw-jga-2019-stage-bps-badge-1680x756px.jpg_1535604017.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-jga-bps/2019-JGA-Teaser-bmw-jga-2019-stage-bps-badge-1680x756px.jpg_135530156.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-jga-bps/2019-JGA-Teaser-bmw-jga-2019-stage-bps-badge-1680x756px.jpg_1535604017.jpg"
+         class="" >
+<div class="bmw-large-teaser-content large-teaser-content-page white">
+            <div class="row page-padding bmw-padding-4-top bmw-padding-3-top-large">
+
+                <div class="row bmw-padding-1-bottom">
+                    <div class="small-12 columns bmw_normal">
+                        <h2 class="bmw-font-hl-versal-xxl bmw-padding-6-right-large hyphenate" >SUCHEN. KLICKEN. FAHREN.</h2>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-1-bottom" >
+                    <div class="small-12 columns">
+                        <h3 class="bmw-font-hl-l bmw-padding-6-right" >DIE GROSSE ONLINE-AUSWAHL UNSERER JUNGEN GEBRAUCHTEN VON BMW <br>ZU ATTRAKTIVEN KONDITIONEN LEASEN ODER KAUFEN.</h3>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-2-3rd-bottom" >
+                    <div class="small-12 medium-6 large-3 columns end">
+                            <a href="/de/gebrauchtwagen/gebrauchtwagenboerse/?bookmark=aHR0cHM6Ly9icHMuYm13LmNvbS9ERS9kZV9ERS8wMDI2OC1kZy9zZWFyY2g/cT0lM0FyZWxldmFuY2UlM0Fjb25kaXRpb24tcHJlbWl1bVNlbGVjdGlvbiUzQXRydWUmc2VhcmNoSWQ9"
+        class="button primary"
+         target="_self"
+>Jetzt suchen</a>
+</div>
+                    </div>
+            </div>
+        </div>
+        <div class="row page-padding  bmw-component">
+            <div class="row">
+                </div>
+        </div>
+    </div>
+
+
+
+
+<div class="viewport-animate bmw-large-teaser bmw_normal bmw-full-width-container " id="f0461f60-b217-11e9-9436-005056b914d9">
+        
+
+
+
+
+
+
+
+
+    
+
+<img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-1er-q3/2019-BMW-1er-Rollout-bmw-1er-2019-stage-1680x756_60-Prozent.jpg_1357613043.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-1er-q3/2019-BMW-1er-Rollout-bmw-1er-2019-stage-1680x756_60-Prozent.jpg_1535604017.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-1er-q3/2019-BMW-1er-Rollout-bmw-1er-2019-stage-1680x756_60-Prozent.jpg_135530156.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-1er-q3/2019-BMW-1er-Rollout-bmw-1er-2019-stage-1680x756_60-Prozent.jpg_1535604017.jpg"
+         class="" >
+<div class="bmw-large-teaser-content large-teaser-content-page white">
+            <div class="row page-padding bmw-padding-4-top bmw-padding-3-top-large">
+
+                <div class="row bmw-padding-1-bottom">
+                    <div class="small-12 columns bmw_normal">
+                        <h2 class="bmw-font-hl-versal-xxl bmw-padding-6-right-large hyphenate" >THE 1</h2>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-1-bottom" >
+                    <div class="small-12 columns">
+                        <h3 class="bmw-font-hl-l bmw-padding-6-right" >Der neue BMW 1er. </h3>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-2-3rd-bottom" >
+                    <div class="small-12 medium-6 large-3 columns end">
+                            <a href="/de/aktionen/alle-aktionen/2019-bmw-1er-q3/"
+        class="button primary"
+         target="_self"
+>Mehr erfahren</a>
+</div>
+                    </div>
+            </div>
+        </div>
+        <div class="row page-padding  bmw-component">
+            <div class="row">
+                </div>
+        </div>
+    </div>
+
+
+
+
+<div class="viewport-animate bmw-large-teaser bmw_normal bmw-full-width-container " id="bbc50873-b20a-11e9-9436-005056b914d9">
+        
+
+
+
+
+
+
+
+
+    
+
+<img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-3er-touring-q3/2019-BMW-3er-Touring-Q3-1680x756_3er_Stage_v1_50-Prozent.jpg_1357613043.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-3er-touring-q3/2019-BMW-3er-Touring-Q3-1680x756_3er_Stage_v1_50-Prozent.jpg_1535604017.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-3er-touring-q3/2019-BMW-3er-Touring-Q3-1680x756_3er_Stage_v1_50-Prozent.jpg_135530156.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-3er-touring-q3/2019-BMW-3er-Touring-Q3-1680x756_3er_Stage_v1_50-Prozent.jpg_1535604017.jpg"
+         class="" >
+<div class="bmw-large-teaser-content large-teaser-content-page white">
+            <div class="row page-padding bmw-padding-4-top bmw-padding-3-top-large">
+
+                <div class="row bmw-padding-1-bottom">
+                    <div class="small-12 columns bmw_normal">
+                        <h2 class="bmw-font-hl-versal-xxl bmw-padding-6-right-large hyphenate" >The 3</h2>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-1-bottom" >
+                    <div class="small-12 columns">
+                        <h3 class="bmw-font-hl-l bmw-padding-6-right" >Der neue BMW 3er Touring. </h3>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-2-3rd-bottom" >
+                    <div class="small-12 medium-6 large-3 columns end">
+                            <a href="/de/aktionen/alle-aktionen/2019-bmw-3er-touring-q3/"
+        class="button primary"
+         target="_self"
+>Mehr erfahren</a>
+</div>
+                    </div>
+            </div>
+        </div>
+        <div class="row page-padding  bmw-component">
+            <div class="row">
+                </div>
+        </div>
+    </div>
+
+
+
+
+<div class="viewport-animate bmw-large-teaser bmw_normal bmw-full-width-container " id="bf8abbdc-a9f2-11e8-b813-005056b914d9">
+        
+
+
+
+
+
+
+
+
+    
+
+<img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/bmw-onlineterminvereinbarung/roc-otv-2018-bmw-onlineterminvereinbarung-stage-1680x756.jpg_1357613043.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/bmw-onlineterminvereinbarung/roc-otv-2018-bmw-onlineterminvereinbarung-stage-1680x756.jpg_1535604017.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/bmw-onlineterminvereinbarung/roc-otv-2018-bmw-onlineterminvereinbarung-stage-1680x756.jpg_135530156.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/bmw-onlineterminvereinbarung/roc-otv-2018-bmw-onlineterminvereinbarung-stage-1680x756.jpg_1535604017.jpg"
+         class="" >
+<div class="bmw-large-teaser-content large-teaser-content-page white">
+            <div class="row page-padding bmw-padding-4-top bmw-padding-3-top-large">
+
+                <div class="row bmw-padding-1-bottom">
+                    <div class="small-12 columns bmw_normal">
+                        <h2 class="bmw-font-hl-versal-xxl bmw-padding-6-right-large hyphenate" >„GUTER SERVICE BEGINNT ONLINE.“</h2>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-1-bottom" >
+                    <div class="small-12 columns">
+                        <h3 class="bmw-font-hl-l bmw-padding-6-right" >SCHNELL, EINFACH, JEDERZEIT. BMW ONLINE TERMINVEREINBARUNG.</h3>
+                    </div>
+                </div>
+
+                <div class="row bmw-padding-2-3rd-bottom" >
+                    <div class="small-12 medium-6 large-3 columns end">
+                            <a href="/de/service-zubehoer/onlineterminvereinbarung/"
+        class="button primary"
+         target="_self"
+>Mehr erfahren</a>
+</div>
+                    </div>
+            </div>
+        </div>
+        <div class="row page-padding  bmw-component">
+            <div class="row">
+                </div>
+        </div>
+    </div>
+
+</div></div><div  id="contentcontainer" >
+
+
+<div class="row page-padding microstory bmw-margin-6-bottom bmw-component bmw_normal" id="77021237-7ff9-11ea-a882-005056b914d9">
+        <div class="row">
+            <div class="small-12 columns">
+                
+
+
+
+
+
+
+
+
+    
+
+<div class="microstory viewport-animate row">
+
+                    <!--microstory image-->
+                    <div class="small-12 medium-12 large-6 columns microstory-image bmw-margin-1-bottom">
+                        <img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/home/Eratzbild-3-microstory.jpg_1694188007.jpg_1758632412.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/home/Eratzbild-3-microstory.jpg_1694188007.jpg_340131214.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/home/Eratzbild-3-microstory.jpg_1694188007.jpg_1694188007.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/home/Eratzbild-3-microstory.jpg_1694188007.jpg_340131214.jpg"
+         class="" >
+</div>
+
+                    <!--microstory text-->
+                    <div class="small-12 medium-12 large-6 columns microstory-info end">
+                        <h2 class="hyphenate bmw-margin-2-bottom bmw-margin-1-right" >WIR SIND FÜR SIE DA!</h2>
+                        <div class="wysiwyg bmw-body-copy-xs bmw-margin-2-bottom small-12" ><p><span>Damit wir auch über einen längeren Zeitraum für Sie einsatzfähig bleiben können haben wir Anpassungen in Personalbesetzung und Betriebsabläufen vorgenommen.</span></p>
+<p><span>Wir sind persönlich für Sie da - reduzieren jedoch persönliche Kontakte auf das Nötigste und bevorzugen die Kommunikation per Telefon oder Mail.</span></p>
+<p><span>Die Sicherstellung Ihrer persönlichen Mobilität hat für uns Priorität: Service, Teilevertrieb und Verwaltung arbeiten im Schichtbetrieb und garantieren die Aufrechterhaltung unserer Services.</span></p>
+<p><span><br>Das Verkaufsteam ist für Sie direkt per Mail -</span>&nbsp;<strong><span>verkauf@autohaus-fuchs.de</span></strong><span>&nbsp;– oder über unsere Telefonzentrale</span>&nbsp;<strong><span>09352/8757-0</span></strong><span>&nbsp;erreichbar.</span></p>
+<p><span>Passen Sie gut auf sich auf und bleiben Sie gesund!</span></p>
+<p><span>Ihr Team vom Autohaus Fuchs</span></p></div>
+                        <div class="row" >
+                        </div>
+                        <div class="row" >
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+<div class="bmw_normal row page-padding
+        bmw-margin-2-bottom viewport-animate" id="bc232665-df2a-11e7-930a-005056b914d9">
+        <div>
+            </div>
+        
+
+
+
+
+
+
+
+
+    
+
+<div class="row">
+            <div class="small-12 columns  end">
+                <div>
+                    <h2 class="hyphenate " >Aktuelle Aktionen.</h2>
+                    <h4 class="hyphenate " ></h4>
+                </div>
+                <div class="wysiwyg  bmw-component   small-12" ></div>
+            </div>
+        </div>
+        <div class="row" >
+            </div>
+        <div class="row" >
+            </div>
+    </div>
+<div id="af241819-49bf-11e9-a6f4-005056b914d9" class="row bmw-margin-6-bottom bmw-component">
+                <div class="viewport-animate bmw-page-padding">
+                    
+
+
+
+
+
+
+
+
+    
+
+<!--tabs-->
+                    <div>
+                        <div data-equalizer>
+                            <ul class="row tabs hide-for-small-only" data-tabs data-tabs-mobile-drop data-deep-link="true" data-update-history="true"
+                                data-deep-link-smudge="true" data-deep-link-smudge-delay="500" id="example-tabs" >
+                                <li data-equalizer-watch class="bmw-margin-1-bottom tabs-title is-active medium-4 large-2 columns "><a
+                                            href="#accordion-tab_1d6996m0n"
+                                            aria-selected="true" class="bmw-font-old-hl-s hyphenate">BMW 1er</a></li>
+                                <li data-equalizer-watch class="bmw-margin-1-bottom tabs-title  medium-4 large-2 columns end"><a
+                                            href="#accordion-tab_1d6996m11"
+                                            aria-selected="true" class="bmw-font-old-hl-s hyphenate">alle Aktionen</a></li>
+                                </ul>
+                        </div>
+                        <!--dropdown-->
+                        <div class="hide-for-medium bmw-margin-1-bottom">
+                            <!--dropdown-->
+<div class="bmw-dropdown">
+    <a type="a" class="secondary js-tab-to-drop hollow button"
+       data-toggle="tab-dd-af241819-49bf-11e9-a6f4-005056b914d9-container">BMW 1er</a>
+    <div class="dropdown-pane"
+         id="tab-dd-af241819-49bf-11e9-a6f4-005056b914d9-container"
+         data-allow-overlap="true" data-close-on-click="true" data-position="bottom" data-alignment="left" data-dropdown>
+        <ul class="vertical menu" data-dropdown-content aria-idden="true" tabindex="-1">
+            <li>
+                                        <a href="#accordion-tab_1d6996m0n" >BMW 1er</a>
+                                    </li>
+                                <li>
+                                        <a href="#accordion-tab_1d6996m11" end>alle Aktionen</a>
+                                    </li>
+                                </ul>
+    </div>
+</div>
+</div>
+                    </div>
+                    <!--content-->
+                    <div class="tabs-content" data-tabs-content="example-tabs">
+                        <div class="bmw-padding-1-top tabs-panel is-active"
+                                 id="accordion-tab_1d6996m0n">
+                                <div >
+
+
+<div class="microstory bmw_normal" id="a1a67328-df2a-11e7-930a-005056b914d9">
+        <div class="row">
+            <div class="small-12 columns">
+                
+
+
+
+
+
+
+
+
+    
+
+<div class="microstory viewport-animate row">
+
+                    <!--microstory image-->
+                    <div class="small-12 medium-12 large-6 columns microstory-image bmw-margin-1-bottom">
+                        <img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-1er-q3/2019-BMW-1er-Rollout-bmw-1er-2019-stage-1680x756_60-Prozent.jpg_1758632412.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-1er-q3/2019-BMW-1er-Rollout-bmw-1er-2019-stage-1680x756_60-Prozent.jpg_340131214.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-1er-q3/2019-BMW-1er-Rollout-bmw-1er-2019-stage-1680x756_60-Prozent.jpg_1694188007.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/aktionen/2019-bmw-1er-q3/2019-BMW-1er-Rollout-bmw-1er-2019-stage-1680x756_60-Prozent.jpg_340131214.jpg"
+         class="" >
+</div>
+
+                    <!--microstory text-->
+                    <div class="small-12 medium-12 large-6 columns microstory-info end">
+                        <h2 class="hyphenate bmw-margin-2-bottom bmw-margin-1-right" >THE 1</h2>
+                        <div class="wysiwyg bmw-body-copy-xs bmw-margin-2-bottom small-12" ><p>Der neue BMW 1er. Am 28. September bei uns.</p></div>
+                        <div class="row" >
+                        <div class="small-12 medium-6 columns  bmw-margin-1-bottom end">
+                                <a href="/de/aktionen/alle-aktionen/2019-bmw-1er-q3/index.html"
+        class="button primary"
+         target="_self"
+>Mehr erfahren</a>
+</div>
+                        </div>
+                        <div class="row" >
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div></div>
+                        <div class="bmw-padding-1-top tabs-panel "
+                                 id="accordion-tab_1d6996m11">
+                                <div >
+
+
+<div class="microstory bmw_normal" id="a17d8e54-df2a-11e7-930a-005056b914d9">
+        <div class="row">
+            <div class="small-12 columns">
+                
+
+
+
+
+
+
+
+
+    
+
+<div class="microstory viewport-animate row">
+
+                    <!--microstory image-->
+                    <div class="small-12 medium-12 large-6 columns microstory-image bmw-margin-1-bottom">
+                        <img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/ueber-uns/5star-rating/verkauf.jpg_1758632412.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/ueber-uns/5star-rating/verkauf.jpg_340131214.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/ueber-uns/5star-rating/verkauf.jpg_1694188007.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/ueber-uns/5star-rating/verkauf.jpg_340131214.jpg"
+         class="" >
+</div>
+
+                    <!--microstory text-->
+                    <div class="small-12 medium-12 large-6 columns microstory-info end">
+                        <h2 class="hyphenate bmw-margin-2-bottom bmw-margin-1-right" >Aktuelle Aktionen.</h2>
+                        <div class="wysiwyg bmw-body-copy-xs bmw-margin-2-bottom small-12" ><p>Entdecken Sie hier unsere aktuellen Aktionen.</p></div>
+                        <div class="row" >
+                        <div class="small-12 medium-6 columns  bmw-margin-1-bottom end">
+                                <a href="/de/aktionen/index.html"
+        class="button primary"
+         target="_self"
+>Zu den Aktionen</a>
+</div>
+                        </div>
+                        <div class="row" >
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div></div>
+                        </div>
+                </div>
+            </div>
+        <div class="row page-padding
+        bmw-margin-6-bottom bmw-component" id="bdcb0d4d-4369-11eb-b8f4-005056b914d9" data-equalizer
+         data-equalize-by-row="true">
+        <div class="grid-x grid-padding-x align-stretch row" >
+
+
+<div id="5aa7fb06-4368-11eb-b8f4-005056b914d9" class="small-12 medium-12 large-6 cell columns bmw-padding-1-bottom bmw_normal end" data-equalizer-watch >
+            <div class="stage2Teaser viewport-animate grid-x">
+                <div class="align-top cell">
+                        <img alt=""
+         data-interchange="[/export/shared/Images/home/home-teaser/2021_MWST_19Prozent_Bild/cq5dam.resized.img.1680.large.time1603463643122-1.jpg_1758632412.jpg, small], [/export/shared/Images/home/home-teaser/2021_MWST_19Prozent_Bild/cq5dam.resized.img.1680.large.time1603463643122-1.jpg_340131214.jpg, medium], [/export/shared/Images/home/home-teaser/2021_MWST_19Prozent_Bild/cq5dam.resized.img.1680.large.time1603463643122-1.jpg_1694188007.jpg, large]"
+         src="/export/shared/Images/home/home-teaser/2021_MWST_19Prozent_Bild/cq5dam.resized.img.1680.large.time1603463643122-1.jpg_340131214.jpg"
+         class="bmw-padding-1-bottom" >
+<h2 class="hyphenate bmw-padding-1-bottom" >NEFZ- UND WLTP-WERTE IM VERGLEICH.</h2>
+                    <div class="bmw-body-copy-xs wysiwyg small-12 bmw-padding-1-bottom" ><p>Kraftstoffverbrauch, CO<sub>2</sub>-Emission und Stromverbrauch aller aktuellen BMW Modelle.</p></div>
+                </div>
+                <div class="align-bottom cell">
+                    <div class="small-12 bmw-padding-1-bottom" >
+                        <a href="https://www.bmw.de/de/topics/faszination-bmw/bmw-efficientdynamics-2020/nefz-wltp-wertetabelle.html"
+   class="arrow-link"
+   target="_blank">Mehr erfahren</a>
+</div>
+                </div>
+            </div>
+        </div>
+    </div></div>
+
+
+
+<div class="bmw_normal row page-padding
+        bmw-margin-2-bottom viewport-animate" id="bc265ab7-df2a-11e7-930a-005056b914d9">
+        <div>
+            </div>
+        
+
+
+
+
+
+
+
+
+    
+
+<div class="row">
+            <div class="small-12 columns  end">
+                <div>
+                    <h2 class="hyphenate " >Der Weg zu Ihrem BMW.</h2>
+                    <h4 class="hyphenate " ></h4>
+                </div>
+                <div class="wysiwyg  bmw-component   small-12" ></div>
+            </div>
+        </div>
+        <div class="row" >
+            </div>
+        <div class="row" >
+            </div>
+    </div>
+
+
+
+<div class="row page-padding microstory bmw-margin-6-bottom bmw-component bmw_normal" id="cc8a6733-ff6d-11e7-8970-005056b914d9">
+        <div class="row">
+            <div class="small-12 columns">
+                
+
+
+
+
+
+
+
+
+    
+
+<div class="microstory viewport-animate row">
+
+                    <!--microstory image-->
+                    <div class="small-12 medium-12 large-6 columns microstory-image bmw-margin-1-bottom">
+                        <img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/gebrauchtwagen/uebersichtsseite/finden-sie-ihren-gebrauchtwagen.jpg_1758632412.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/gebrauchtwagen/uebersichtsseite/finden-sie-ihren-gebrauchtwagen.jpg_340131214.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/gebrauchtwagen/uebersichtsseite/finden-sie-ihren-gebrauchtwagen.jpg_1694188007.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/gebrauchtwagen/uebersichtsseite/finden-sie-ihren-gebrauchtwagen.jpg_340131214.jpg"
+         class="" >
+</div>
+
+                    <!--microstory text-->
+                    <div class="small-12 medium-12 large-6 columns microstory-info end">
+                        <h2 class="hyphenate bmw-margin-2-bottom bmw-margin-1-right" >Gebrauchtwagenbörse.</h2>
+                        <div class="wysiwyg bmw-body-copy-xs bmw-margin-2-bottom small-12" ><p>Hier gelangen Sie direkt zu unseren Gebrauchtwagen.</p></div>
+                        <div class="row" >
+                        </div>
+                        <div class="row" >
+                        <div class="small-12 columns bmw-margin-1-bottom">
+                                <a href="/de/gebrauchtwagen/gebrauchtwagenboerse/"
+   class="arrow-link"
+   target="_self">Zur Gebrauchtwagenbörse</a>
+</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+<div class="bmw_normal row page-padding
+        bmw-margin-2-bottom viewport-animate" id="bc29dd29-df2a-11e7-930a-005056b914d9">
+        <div>
+            </div>
+        
+
+
+
+
+
+
+
+
+    
+
+<div class="row">
+            <div class="small-12 columns  end">
+                <div>
+                    <h2 class="hyphenate " >Erfahren Sie mehr über uns.</h2>
+                    <h4 class="hyphenate " ></h4>
+                </div>
+                <div class="wysiwyg  bmw-component   small-12" ></div>
+            </div>
+        </div>
+        <div class="row" >
+            </div>
+        <div class="row" >
+            </div>
+    </div>
+<div class="row page-padding
+        bmw-margin-6-bottom bmw-component" id="a652bcec-df2a-11e7-930a-005056b914d9" data-equalizer
+         data-equalize-by-row="true">
+        <div class="grid-x grid-padding-x align-stretch row" >
+
+
+<div id="acb8ec6c-df2a-11e7-930a-005056b914d9"
+             class="small-12 medium-6 large-3 cell columns bmw-padding-1-bottom bmw_normal" data-equalizer-watch>
+            <!-- Onlineterminplaner. -->
+            <!--  -->
+            <div class="stage2Teaser hyphenate viewport-animate grid-x ">
+                <div class="align-top cell">
+                    <img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/uebersichtsseite/online-terminvereinbarung.jpg_1758632412.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/uebersichtsseite/online-terminvereinbarung.jpg_320789499.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/uebersichtsseite/online-terminvereinbarung.jpg_1812185863.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/uebersichtsseite/online-terminvereinbarung.jpg_320789499.jpg"
+         class="bmw-padding-1-bottom" >
+<h3 class="hyphenate bmw-font-hl-l bmw-padding-1-bottom" >Onlineterminplaner.</h3>
+                    <div class="bmw-body-copy-xs wysiwyg small-12 bmw-padding-1-bottom" >
+                        <p>Einfach und bequem: Unser Onlineterminplaner.</p></div>
+                </div>
+                <div class="align-bottom cell">
+                    <div class="small-12 bmw-padding-1-bottom" >
+                        <a href="/de/service-zubehoer/onlineterminvereinbarung/index.html"
+   class="arrow-link"
+   target="_self">Jetzt Termin vereinbaren</a>
+</div>
+                    <div class="small-12" >
+                        </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+<div id="aca64ec4-df2a-11e7-930a-005056b914d9"
+             class="small-12 medium-6 large-3 cell columns bmw-padding-1-bottom bmw_normal" data-equalizer-watch>
+            <!-- Online Shop. -->
+            <!--  -->
+            <div class="stage2Teaser hyphenate viewport-animate grid-x ">
+                <div class="align-top cell">
+                    <img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/original-bmw-teile-und-zubehoer/bmw-teile-und-zubehoer-teaser-large.jpg_1758632412.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/original-bmw-teile-und-zubehoer/bmw-teile-und-zubehoer-teaser-large.jpg_320789499.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/original-bmw-teile-und-zubehoer/bmw-teile-und-zubehoer-teaser-large.jpg_1812185863.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/original-bmw-teile-und-zubehoer/bmw-teile-und-zubehoer-teaser-large.jpg_320789499.jpg"
+         class="bmw-padding-1-bottom" >
+<h3 class="hyphenate bmw-font-hl-l bmw-padding-1-bottom" >Online Shop.</h3>
+                    <div class="bmw-body-copy-xs wysiwyg small-12 bmw-padding-1-bottom" >
+                        <p>Original BMW Zubehör, Teile und Lifestyle Produkte.</p></div>
+                </div>
+                <div class="align-bottom cell">
+                    <div class="small-12 bmw-padding-1-bottom" >
+                        <a href="https://shop.bmw.de/autohaus-fuchs"
+   class="arrow-link"
+   target="_blank">Zum Online Shop</a>
+</div>
+                    <div class="small-12" >
+                        </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+<div id="aca95c06-df2a-11e7-930a-005056b914d9"
+             class="small-12 medium-6 large-3 cell columns bmw-padding-1-bottom bmw_normal" data-equalizer-watch>
+            <!-- Service & Zubehör. -->
+            <!--  -->
+            <div class="stage2Teaser hyphenate viewport-animate grid-x ">
+                <div class="align-top cell">
+                    <img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/uebersichtsseite/service-und-reparatur.jpg_1758632412.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/uebersichtsseite/service-und-reparatur.jpg_320789499.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/uebersichtsseite/service-und-reparatur.jpg_1812185863.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/service-und-zubehoer/uebersichtsseite/service-und-reparatur.jpg_320789499.jpg"
+         class="bmw-padding-1-bottom" >
+<h3 class="hyphenate bmw-font-hl-l bmw-padding-1-bottom" >Service & Zubehör.</h3>
+                    <div class="bmw-body-copy-xs wysiwyg small-12 bmw-padding-1-bottom" >
+                        <p>Wir bieten Ihnen eine große Auswahl an Services, Original BMW Teilen und Zubehör für Ihr Fahrzeug.&nbsp;</p></div>
+                </div>
+                <div class="align-bottom cell">
+                    <div class="small-12 bmw-padding-1-bottom" >
+                        <a href="/de/service-zubehoer/uebersicht/index.html"
+   class="arrow-link"
+   target="_self">Mehr erfahren</a>
+</div>
+                    <div class="small-12" >
+                        </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+<div id="acaeb338-df2a-11e7-930a-005056b914d9"
+             class="small-12 medium-6 large-3 cell columns bmw-padding-1-bottom bmw_normal" data-equalizer-watch>
+            <!-- Standort. -->
+            <!--  -->
+            <div class="stage2Teaser hyphenate viewport-animate grid-x ">
+                <div class="align-top cell">
+                    <img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/home/bmw-generisches-haendler-bild.jpg_1758632412.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/home/bmw-generisches-haendler-bild.jpg_320789499.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/home/bmw-generisches-haendler-bild.jpg_1812185863.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/home/bmw-generisches-haendler-bild.jpg_320789499.jpg"
+         class="bmw-padding-1-bottom" >
+<h3 class="hyphenate bmw-font-hl-l bmw-padding-1-bottom" >Standort.</h3>
+                    <div class="bmw-body-copy-xs wysiwyg small-12 bmw-padding-1-bottom" >
+                        <p>Entdecken Sie unseren Standort und unsere Leistungen.</p></div>
+                </div>
+                <div class="align-bottom cell">
+                    <div class="small-12 bmw-padding-1-bottom" >
+                        <a href="/de/ueber-uns/standort-team/index.html"
+   class="arrow-link"
+   target="_self">Zur Übersicht</a>
+</div>
+                    <div class="small-12" >
+                        </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+<div id="b9a6666e-df2a-11e7-930a-005056b914d9"
+             class="small-12 medium-6 large-3 cell columns bmw-padding-1-bottom bmw_normal" data-equalizer-watch>
+            <!-- Facebook. -->
+            <!--  -->
+            <div class="stage2Teaser hyphenate viewport-animate grid-x ">
+                <div class="align-top cell">
+                    <img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/ueber-uns/karriere/image.resource.jpg.D180X101.13843599127221507635011645.jpg_1758632412.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/ueber-uns/karriere/image.resource.jpg.D180X101.13843599127221507635011645.jpg_320789499.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/ueber-uns/karriere/image.resource.jpg.D180X101.13843599127221507635011645.jpg_1812185863.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/ueber-uns/karriere/image.resource.jpg.D180X101.13843599127221507635011645.jpg_320789499.jpg"
+         class="bmw-padding-1-bottom" >
+<h3 class="hyphenate bmw-font-hl-l bmw-padding-1-bottom" >Facebook.</h3>
+                    <div class="bmw-body-copy-xs wysiwyg small-12 bmw-padding-1-bottom" >
+                        <p>Besuchen Sie uns auf Facebook.</p></div>
+                </div>
+                <div class="align-bottom cell">
+                    <div class="small-12 bmw-padding-1-bottom" >
+                        <a href="https://de-de.facebook.com/fuchs.lohr/"
+   class="arrow-link"
+   target="_blank">Jetzt Fan werden</a>
+</div>
+                    <div class="small-12" >
+                        </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+<div id="acbc47ce-df2a-11e7-930a-005056b914d9"
+             class="small-12 medium-6 large-3 cell columns bmw-padding-1-bottom bmw_normal" data-equalizer-watch>
+            <!-- News & Events. -->
+            <!--  -->
+            <div class="stage2Teaser hyphenate viewport-animate grid-x ">
+                <div class="align-top cell">
+                    <img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/home/news-und-events.jpg_1758632412.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/home/news-und-events.jpg_320789499.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/home/news-und-events.jpg_1812185863.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/home/news-und-events.jpg_320789499.jpg"
+         class="bmw-padding-1-bottom" >
+<h3 class="hyphenate bmw-font-hl-l bmw-padding-1-bottom" >News & Events.</h3>
+                    <div class="bmw-body-copy-xs wysiwyg small-12 bmw-padding-1-bottom" >
+                        <p>Erfahren Sie mehr über unsere Events.</p></div>
+                </div>
+                <div class="align-bottom cell">
+                    <div class="small-12 bmw-padding-1-bottom" >
+                        <a href="/de/ueber-uns/news-events/index.html"
+   class="arrow-link"
+   target="_self">Zu News & Events</a>
+</div>
+                    <div class="small-12" >
+                        </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+<div id="acc40f00-df2a-11e7-930a-005056b914d9"
+             class="small-12 medium-6 large-3 cell columns bmw-padding-1-bottom bmw_normal" data-equalizer-watch>
+            <!-- Karriere. -->
+            <!--  -->
+            <div class="stage2Teaser hyphenate viewport-animate grid-x ">
+                <div class="align-top cell">
+                    <img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/ueber-uns/karriere/ihre-zukunft-bei-uns.jpg_1758632412.jpg, small], [/export/sites/autohaus-fuchs.de/assets/images/ueber-uns/karriere/ihre-zukunft-bei-uns.jpg_320789499.jpg, medium], [/export/sites/autohaus-fuchs.de/assets/images/ueber-uns/karriere/ihre-zukunft-bei-uns.jpg_1812185863.jpg, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/ueber-uns/karriere/ihre-zukunft-bei-uns.jpg_320789499.jpg"
+         class="bmw-padding-1-bottom" >
+<h3 class="hyphenate bmw-font-hl-l bmw-padding-1-bottom" >Karriere.</h3>
+                    <div class="bmw-body-copy-xs wysiwyg small-12 bmw-padding-1-bottom" >
+                        <p>Starten Sie Ihren Weg zum Erfolg bei uns.</p></div>
+                </div>
+                <div class="align-bottom cell">
+                    <div class="small-12 bmw-padding-1-bottom" >
+                        <a href="/de/ueber-uns/karriere/index.html"
+   class="arrow-link"
+   target="_self">Unsere Stellenangebote</a>
+</div>
+                    <div class="small-12" >
+                        </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+<div id="b9a1f99c-df2a-11e7-930a-005056b914d9"
+             class="small-12 medium-6 large-3 cell columns bmw-padding-1-bottom bmw_normal end" data-equalizer-watch>
+            <!-- Newsletter. -->
+            <!--  -->
+            <div class="stage2Teaser hyphenate viewport-animate grid-x ">
+                <div class="align-top cell">
+                    <img alt=""
+         data-interchange="[/export/sites/autohaus-fuchs.de/assets/images/home/thumbnail_newsletter.png_1758632412.png, small], [/export/sites/autohaus-fuchs.de/assets/images/home/thumbnail_newsletter.png_320789499.png, medium], [/export/sites/autohaus-fuchs.de/assets/images/home/thumbnail_newsletter.png_1812185863.png, large]"
+         src="/export/sites/autohaus-fuchs.de/assets/images/home/thumbnail_newsletter.png_320789499.png"
+         class="bmw-padding-1-bottom" >
+<h3 class="hyphenate bmw-font-hl-l bmw-padding-1-bottom" >Newsletter.</h3>
+                    <div class="bmw-body-copy-xs wysiwyg small-12 bmw-padding-1-bottom" >
+                        <p>Unsere News, Events und Angebote.</p></div>
+                </div>
+                <div class="align-bottom cell">
+                    <div class="small-12 bmw-padding-1-bottom" >
+                        <a href="/de/Newsletter/"
+   class="arrow-link"
+   target="_self">Jetzt anmelden</a>
+</div>
+                    <div class="small-12" >
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div></div>
+
+
+
+<div class="bmw_normal row page-padding
+        bmw-margin-2-bottom viewport-animate" id="16710d60-8ea0-11e9-8aab-005056b914d9">
+        <div>
+            </div>
+        
+
+
+
+
+
+
+
+
+    
+
+<div class="row">
+            <div class="small-12 columns  end">
+                <div>
+                    <h2 class="hyphenate " ></h2>
+                    <h4 class="hyphenate " ></h4>
+                </div>
+                <div class="wysiwyg  bmw-component   small-12" ><p><sup>1 </sup>Ein unverbindliches Leasingbeispiel der BMW Bank GmbH, Lilienthalallee 26, 80939 München, alle Preise inkl. 19% MwSt., Stand 01/2021. Ist der Leasingnehmer Verbraucher, besteht nach Vertragsschluss ein gesetzliches Widerrufsrecht. Nach den Leasingbedingungen besteht die Verpflichtung, für das Fahrzeug eine Vollkaskoversicherung abzuschließen.</p>
+<p><sup>2</sup> Ein unverbindliches Finanzierungsbeispiel der BMW Bank GmbH, Lilienthalallee 26, 80939 München, alle Preise inkl. 19% MwSt., Stand 01/2021. Ist der Darlehensnehmer Verbraucher, besteht nach Vertragsschluss ein gesetzliches Widerrufsrecht. Nach den Darlehensbedingungen besteht die Verpflichtung, für das Fahrzeug eine Vollkaskoversicherung abzuschließen.</p>
+<p><sup>3</sup> Gebunden für die gesamte Vertragslaufzeit.</p>
+<p><sup>4</sup> Die monatlichen Kosten beim wahlweisen Abschluss eines Versicherungsvertrages für die Ratenschutzversicherung Tod und Arbeitsunfähigkeit mit der Deutsche Lebensversicherungs-AG, An den Treptowers 3 in 12435 Berlin. Einzelheiten ergeben sich aus den allgemeinen Bedingungen für die Versicherung der Deutschen Lebensversicherungs-AG sowie dem Versicherungsantrag.</p>
+<p><sup>5</sup> Wir vermitteln Leasingverträge und Finanzierungsverträge ausschließlich an die BMW Bank GmbH, Lilienthalallee 26, 80939 München.</p>
+<p><sup>6</sup> Wir vermitteln Leasingverträge und Finanzierungsverträge an die BMW Bank GmbH, Lilienthalallee 26, 80939 München und weitere Partner.</p>
+<p><sup>7</sup> Optional erhältlich.</p>
+<p><sup>8</sup> Ein unverbindliches Leasingbeispiel der BMW Bank GmbH, Lilienthalallee 26, 80939 München, alle Preise exkl. 19% MwSt., Stand 01/2021. Ist der Leasingnehmer Verbraucher, besteht nach Vertragsschluss ein gesetzliches Widerrufsrecht. Nach den Leasingbedingungen besteht die Verpflichtung, für das Fahrzeug eine Vollkaskoversicherung abzuschließen.</p>
+<p><sup>9</sup> Ein unverbindliches Finanzierungsbeispiel der BMW Bank GmbH, Lilienthalallee 26, 80939 München, alle Preise exkl. 19% MwSt., Stand 01/2021. Ist der Darlehensnehmer Verbraucher, besteht nach Vertragsschluss ein gesetzliches Widerrufsrecht. Nach den Darlehensbedingungen besteht die Verpflichtung, für das Fahrzeug eine Vollkaskoversicherung abzuschließen.</p>
+<p><sup>10</sup> Der Bruttolistenpreis als Bemessungsgrundlage zur Ermittlung des geldwerten Vorteils im Rahmen der pauschalen 1%-Regelung für Privatnutzung wird halbiert. Dies gilt für die pauschale 1%-Regelung bei Fahrten zwischen Wohnung und der ersten Tätigkeitsstätte (0,03% je Entfernungskilometer) sowie bei Familienfahrten. Die Förderung gilt gemäß Schreiben des Bundesministeriums der Finanzen vom 19. Dezember 2018 (IV C 5 – S 2334/14/10002-07) für vom Arbeitgeber an den Arbeitnehmer zur privaten Nutzung überlassene voll elektrisch betriebene betriebliche Kraftfahrzeuge und extern aufladbare Hybridelektrofahrzeuge, die gemäß § 3 Abs. 2 EmoG weniger als 50 g CO<sub>2</sub>/km ausstoßen oder deren Reichweite unter ausschließlicher Nutzung der elektrischen Antriebsmaschine mindestens 40 km beträgt. Weitere Voraussetzungen für die Förderung sind, dass dem Arbeitnehmer das Kraftfahrzeug erstmals nach dem 31.12.2018 und vor dem 01.01.2022 überlassen wurde und dass dieses Fahrzeug nicht bereits zuvor von dem Arbeitgeber einem Arbeitnehmer zur privaten Nutzung (z. B. für Privatfahrten, Fahrten zwischen Wohnung und erster Tätigkeitsstätte, Fahrten nach § 9 Abs. 1 S. 3 Nr. 4a, S. 3 EStG oder Familienheimfahrten im Rahmen einer doppelten Haushaltsführung) überlassen wurde. Abrundung des Bruttolistenpreises auf volle 100,– EUR gemäß steuerrechtlicher Vorgabe nach R 8.1 Abs. 9 Nr. 1 Satz 6 LStR.</p>
+<p><sup>11</sup> Die Höhe und Berechtigung zur Inanspruchnahme des Umweltbonus ist durch die auf der Webseite des Bundesamts für Wirtschaft und Ausfuhrkontrolle unter <a href="http://www.bafa.de/umweltbonus" target="_blank">www.bafa.de/umweltbonus</a> abrufbare Förderrichtlinie geregelt. Es besteht kein Rechtsanspruch auf Gewährung des Umweltbonus. Der Umweltbonus endet mit Erschöpfung der bereitgestellten Fördermittel, spätestens am 31.12.2025.</p>
+<p><sup>13&nbsp;</sup>Die Förderung beträgt bei einem vollelektrischen Fahrzeug 6.000 EUR (mit „Innovationsprämie“: 9.000 EUR) bei einem Basisfahrzeug mit einem Netto-Listenpreis von unter 40.000 EUR und 5.000 EUR (mit „Innovationsprämie“: 7.500 EUR) bei einem Basisfahrzeug mit einem Netto-Listenpreis von über 40.000 EUR.</p>
+<p>Bei den Plug-in-Hybrid Modellen beträgt die Förderung 4.500 EUR (mit „Innovationsprämie“: 6.750 EUR) bei einem Basisfahrzeug mit einem Netto-Listenpreis von unter 40.000 EUR und 3.750 EUR (mit „Innovationsprämie“: 5.625 EUR) bei einem Basisfahrzeug mit einem Netto-Listenpreis von über 40.000 EUR.</p>
+<p>Die Förderung wird bis zu einem maximalen Netto-Listenpreis des Basisfahrzeugs von 65.000 EUR gewährt. Überschreitet der Netto-Listenpreis des Basisfahrzeugs diesen Betrag, gibt es keine Förderung. Die Förderung leisten Automobilhersteller und Bund jeweils zur Hälfte. Im Zuge der „Innovationsprämie“ wird der Anteil des Bundes an der Förderung zeitlich befristet bis zum 31.12.2021 verdoppelt. Der Anteil des Herstellers wird netto ausgezahlt, der des Bundes brutto für netto (echter Zuschuss).</p>
+<p>Die Höhe und Berechtigung zur Inanspruchnahme des Umweltbonus ist durch die auf der Webseite des Bundesamts für Wirtschaft und Ausfuhrkontrolle unter www.bafa.de/umweltbonus abrufbare Förderrichtlinie geregelt. Es besteht kein Rechtsanspruch auf Gewährung des Umweltbonus. Der Umweltbonus endet mit Erschöpfung der bereitgestellten Fördermittel, spätestens am 31.12.2025.</p>
+<p><sup>14</sup><span>&nbsp;Optionale weitere Leasingvertragsleistung. Die monatlichen Kosten der Versicherungsleistung für Kfz-Haftpflicht und Vollkasko als Teil der monatlichen Gesamtleasingrate sind gültig für BMW Neu- und Vorführwagen bei Abschluss eines BMW Plus Leasing V-Vertrages mit der BMW Bank GmbH bis 31.06.2020. Zulassung bis 30.09.2020. Vertragspartner und Risikoträger ist die Allianz Versicherungs-AG, Königinstraße 28, 80802 München. Selbstbeteiligung: VK 1.000,00/TK 500,00 EUR pro Schadensfall. Einzelheiten ergeben sich aus den Versicherungsunterlagen.</span></p>
+<p><sup>15</sup> Die optionale Leasingratenversicherung Tod oder Arbeitsunfähigkeit (Vertragspartner und Risikoträger für das Risiko des Todesfalls ist die Credit Life AG, Rheinlandplatz, 41460 Neuss; Vertragspartner und Risikoträger für das Risiko der Arbeitsunfähigkeit ist die RheinLand Versicherungs AG, Rheinlandplatz, 41460 Neuss) sichert die Fortzahlung der vereinbarten Leasingraten bei Arbeitsunfähigkeit und bestimmte Zahlungsverpflichtungen im Todesfall ab. Näheres entnehmen Sie bitte den allgemeinen und besonderen Versicherungsbedingungen zur Leasingratenversicherung.</p>
+<p><sup>16</sup> Optionale weitere Leasingvertragsleistung. Alle erforderlichen Inspektionsarbeiten gemäß Herstellervorgaben. Verschleißreparaturen, die bei sach- und vertragsgemäßer Fahrzeugnutzung erforderlich werden. Übernahme der Kosten für die Hauptuntersuchung inkl. Abgasuntersuchung. Einzelheiten ergeben sich aus dem Leasingantrag.</p>
+<p><sup>17</sup>&nbsp;Auf ausgewählte BMW Modelle. Mindestens 20% Rabatt auf die unverbindliche Preisempfehlung inkl. Mehrwertsteuer bei BMW Originalteilen und Bremsflüssigkeit sowie auf den jeweiligen Arbeitswert.</p>
+<p><sup>18</sup>&nbsp;Angebot gültig für Fahrzeuge, die älter als 5 Jahre sind. Keine M Modelle, nur Condition Based Service Fahrzeuge der folgenden Baureihen: BMW 1er (E81, E82, E87, E88, F20, F21), BMW 2er (F22, F23, F45, F46), BMW 3er (E90, E91, E92, E93, F30, F31, F34), BMW 4er (F32, F33, F36), BMW 5er (E60, E61, F10, F11), BMW 6er (E63, E64, F12, F13, F06), BMW 7er (E65, E66, F01, F02, F03, F04, G11, G12), BMW X (E70, E71, E72, E84, F15, F16, F25, F26, F48), BMW Z4 (E85, E86, E89), BMW M (F80, F82, F83, F85, F86, F87), BMW i (I01, I12).</p>
+<p><sup>19</sup>&nbsp;Preisersparnis bei Erwerb des BMW Service Inclusive Pakets für Gebrauchte Automobile 3 Jahre/40.000 km im Vergleich mit den regulären Einzelpreisen der im Paket enthaltenen Einzelleistungen auf Basis der unverbindlichen Preisempfehlung für Original Ersatzteile sowie der durchschnittlichen Servicekosten (Kosten und Dauer der Arbeitsleistung, Kosten der Öle etc.) der BMW Service Partner in der Bundesrepublik Deutschland (Stand Juni 2020). Die tatsächliche Ersparnis variiert je nach Fahrzeugmodell.</p>
+<p><sup>20</sup> BMW Teleservices verursachen keine zusätzlichen Kosten. BMW Teleservices sind jedoch nur verfügbar mit BMW ConnectedDrive Services (Serienausstattung ab 07/2017, davor ab 03/2013 modellabhängig als Serienbestandteil oder Sonderausstattung erhältlich), die in den ersten drei Jahren kostenlos sind. Im aktuellen Leistungsumfang sind die BMW Teleservices verfügbar in Fahrzeugen ab Baujahr 03/2013. Voraussetzung ist die Sonderausstattung BMW Teleservices (SA 6AE): Diese ist bei Fahrzeugen ab Baujahr 03/2015 automatisch vorhanden. Bei Fahrzeugen ab Baujahr 03/2013 ist sie entweder im Serienumfang enthalten oder sie kann in Fahrzeugen ausgerüstet mit der Sonderausstattung Intelligenter Notruf inklusive Teleservices (SA 6AC) aktiviert werden.</p>
+<p><sup>21</sup> My BMW ist optimiert für BMW Fahrzeuge ab Baujahr 2014. Die Features der App hängen von ihrem Vertragszustand und der Ausstattung Ihres Fahrzeugs ab.</p></div>
+            </div>
+        </div>
+        <div class="row" >
+            </div>
+        <div class="row" >
+            </div>
+    </div>
+</div></main>
+
+    <footer class="bmw-margin-4-top bmw-padding-2-top bmw-padding-5-bottom">
+        <div class="row page-padding">
+            <div class="row">
+                <div  id="footernavicontainer" ><div>
+    <div class="small-12 small-collapse medium-2 columns footer-list-title" >
+                <p>Standort & Team</p>
+            </div>
+            <div class="small-12 small-collapse medium-9 columns footer-list-menu end">
+                <ul>
+                    <li>
+                            <a class="bmw-font-old-hl-s" href="/de/ueber-uns/standort-team/" target="_self">Autohaus Fuchs</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+<div>
+    <div class="small-12 small-collapse medium-2 columns footer-list-title" >
+                <p>Marken</p>
+            </div>
+            <div class="small-12 small-collapse medium-9 columns footer-list-menu end">
+                <ul>
+                    <li>
+                            <a class="bmw-font-old-hl-s" href="http://www.bmw.de/de/home.html" target="_self">BMW</a>
+                        </li>
+                    <li>
+                            <a class="bmw-font-old-hl-s" href="http://www.bmw.de/de/neufahrzeuge/bmw-i.html" target="_self">BMW i</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+<div>
+    <div class="small-12 small-collapse medium-2 columns footer-list-title" >
+                <p>Rechtliches</p>
+            </div>
+            <div class="small-12 small-collapse medium-9 columns footer-list-menu end">
+                <ul>
+                    <li>
+                            <a class="bmw-font-old-hl-s" href="/de/rechtlicher-hinweis/index.html" target="_self">Rechtlicher Hinweis</a>
+                        </li>
+                    <li>
+                            <a class="bmw-font-old-hl-s" href="/de/impressum/index.html" target="_self">Impressum</a>
+                        </li>
+                    <li>
+                            <a class="bmw-font-old-hl-s" href="/de/datenschutz/index.html" target="_self">Datenschutz</a>
+                        </li>
+                    <li>
+                            <a class="bmw-font-old-hl-s" href="/de/cookies/" target="_self">Cookies</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+</div><div class="small-12 small-collapse medium-2 columns footer-list-title footer-social-media">
+                    <p>Teilen auf</p>
+                </div>
+                <div class="small-12 small-collapse medium-9 columns footer-list-menu footer-social-media">
+                    <ul>
+                        <li><a class="icon social-media-icon facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fautohaus-fuchs.de%2Fde%2Fhome%2Findex.html&t=Autohaus+Fuchs%3A+BMW+Fahrzeuge%2C+Services%2C+Angebote+u.v.m."
+                               onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+                               title="Share on Facebook" class="icon social-media-icon facebook">facebook</a></li>
+                        <li><a class="icon social-media-icon twitter" href="https://twitter.com/share?url=http%3A%2F%2Fautohaus-fuchs.de%2Fde%2Fhome%2Findex.html>&text=Autohaus+Fuchs%3A+BMW+Fahrzeuge%2C+Services%2C+Angebote+u.v.m."
+                               onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+                               target="_blank" title="Share on Twitter"
+                               class="icon social-media-icon twitter">twitter</a></li>
+                    </ul>
+                </div>
+                <div class="small-12 small-collapse columns footer-copyright text-right">
+                    <div class="copyright">
+                        <hr>
+                        <span>© BMW AG 2021</span>
+                    </div>
+                </div>
+                <div  id="sticky_sales_bar-container" ><div>
+        <section class="sticky-sales-bar">
+            <ul class="sticky-sales-bar-list">
+                <li class="sticky-sales-bar-item">
+                                    <a class="sticky-sales-bar-link" href="tel:+49935287570" target="_self">
+                                        <div class="sticky-sales-bar-icon icon sales-bar-icon phone"></div>
+                                        <span class="sticky-sales-bar-label bmw-font-old-hl-xs">+49 9352 87570</span>
+                                    </a>
+                                </li>
+                            <li class="sticky-sales-bar-item">
+                                    <a class="sticky-sales-bar-link" href="/de/ueber-uns/standort-team/" target="_self">
+                                        <div class="sticky-sales-bar-icon icon sales-bar-icon location-team"></div>
+                                        <span class="sticky-sales-bar-label bmw-font-old-hl-xs">Standort & Team</span>
+                                    </a>
+                                </li>
+                            <li class="sticky-sales-bar-item">
+                                    <a class="sticky-sales-bar-link" href="http://plan.soft-nrg.com/group/NqJc9x7koY3lrHKBMZKKI8iSZGbd-muN7bIBmC0a0XFPj_h3c8Tgfg" target="_blank">
+                                        <div class="sticky-sales-bar-icon icon sales-bar-icon calendar-one"></div>
+                                        <span class="sticky-sales-bar-label bmw-font-old-hl-xs">Online Terminvereinbarung</span>
+                                    </a>
+                                </li>
+                            <li class="sticky-sales-bar-item">
+                                    <a class="sticky-sales-bar-link" href="/de/gebrauchtwagen/gebrauchtwagenboerse/" target="_self">
+                                        <div class="sticky-sales-bar-icon icon sales-bar-icon car-salesbar"></div>
+                                        <span class="sticky-sales-bar-label bmw-font-old-hl-xs">Gebrauchtwagenbörse</span>
+                                    </a>
+                                </li>
+                            </ul>
+        </section>
+    </div>
+</div></div>
+        </div>
+    </footer>
+
+</div>
+<script type="text/javascript">
+window['de.bmw.opencms.stagetwo.brandnames'] = {'BMW I8': 'BMW i8', 'I3´S': 'i3´S', 'BMW X3 XDRIVE30E': 'BMW X3 xDrive30e', 'BMW I': 'BMW i', 'THE I8': 'THE i8', 'BMW 745E': 'BMW 745e', '1ER': '1er', '2ER': '2er', '3ER': '3er', '4ER': '4er', '5ER': '5er', '6ER': '6er', '7ER': '7er', 'AHG AUTOHANDELSGESELLSCHAFT MBH': 'ahg Autohandelsgesellschaft mbH', '8ER': '8er', 'The X7': 'THE X7', 'The 1': 'THE 1', 'The X6': 'THE X6', 'The 2': 'THE 2', 'The X5': 'THE X5', 'The 3': 'THE 3', 'BMW 330E': 'BMW 330e', 'The X4': 'THE X4', 'THE i3': 'THE i3', 'The 4': 'THE 4', 'The X3': 'THE X3', 'The 5': 'THE 5', 'BMW X5 XDRIVE45E': 'BMW X5 xDrive45e', 'The X2': 'THE X2', 'The X1': 'THE X1', 'The 6': 'THE 6', 'The 7': 'THE 7', 'BMW 530E': 'BMW 530e', 'The 8': 'THE 8', 'BMW I3': 'BMW i3', 'BMW 225XE': 'BMW 225xe', '3ER': '3er', '4ER': '4er', '5ER': '5er', '6ER': '6er', 'BMW I': 'BMW i', '7ER': '7er', '8ER': '8er', 'BMW I8': 'BMW i8', 'BMW I3': 'BMW i3', 'I3´S': 'i3´S', '1ER': '1er', '2ER': '2er'}
+</script><script type="text/javascript"
+        src="/export/system/modules/de.bmw.opencms.stagetwo/resources/js/vendor/vendor.js?1598363541000"></script>
+<script type="text/javascript"
+        src="/export/system/modules/de.bmw.opencms.stagetwo/resources/js/foundation.js?1598363540000"></script>
+<script type="text/javascript"
+        src="/export/system/modules/de.bmw.opencms.stagetwo/resources/js/bmw.js?1607093249000"></script>
+
+</body>
+</html>
+```
