@@ -1,0 +1,88 @@
+```<!DOCTYPE html>
+<html>
+  <head>
+    <title>Omise</title>
+    <link rel="apple-touch-icon" type="image/png" href="https://assets2.omise.co/assets/apple-touch-icon-b56ee01e74e3bc2fdb7cc8483bd0edc838b3c8d627ad8f43e524483b3cd8821c.png" sizes="180x180" />
+    <link rel="shortcut icon" type="image/png" href="https://assets2.omise.co/assets/favicon-16x16-b7a040704f1027c8aade08c921f8b25113603d78ae0d8b5ac7c013970638a19e.png" sizes="16x16" />
+    <link rel="shortcut icon" type="image/png" href="https://assets2.omise.co/assets/favicon-32x32-c9f50e6b0bb82b7213254bbbf283155d5732b5f51bbc1fa4109a1328e348f0ac.png" sizes="32x32" />
+    <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="https://assets2.omise.co/assets/favicon-9c5b7d84ff72fcdde70703610fb40cd27adfbce59ba8a773e4f83dbf604028a2.ico" /><![endif]-->
+    <link rel="mask-icon" href="https://assets2.omise.co/assets/maskicon-d1ceabf433f081d793c6fec0d9cea6cbb07f4950028a106b7fbb1147358f165e.svg" color="#63c0de">
+    <link rel="stylesheet" href="https://cdn.omise.co/fonts/circular.css">
+    <link rel="stylesheet" media="all" href="https://assets2.omise.co/assets/application-191601dbd703dfa5a96a08f9e81679b94cc0335fd3972da7d0a8b40c6c9d0b63.css" />
+    <script src="https://assets2.omise.co/assets/application-19300835839e54b329373f4bf481d76c30a7492a24a81bc4202437ae844e7762.js"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="DWnwwtZssAFIooaMowzicxeh5G1LgRfHfYcsfa4Nkcqz5nXDnRVQwa1AoD8/MX7YfPZCEugiyu87DrIo2QWQvg==" />
+  </head>
+  <body class="App">
+
+    <div class="ExternalHeader">
+      <a href="/">
+        <img height="25" width="89" src="https://assets2.omise.co/assets/external-logo-a86debcb438f41aa395a868ff43fe67090e277d44dea080cd2d51baec405ea71.svg" />
+</a>        No account yet? <a href="/signup">Sign up</a>
+
+    </div>
+    <section class="ExternalBox">
+      <div id="flash">
+
+    <div class="FlashAlert"><div class="Wrapper"><div class="Module">
+      Signing in is required to access this page
+    </div></div></div>
+
+</div>
+
+      
+<section class="SigninFormContainer">
+  <form class="SigninForm" id="new_session" action="/sessions" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YQnwW+J5b0LVu4f3NmWgHYTsSg334shqhCobRKxWRQhTpkm73Wr1q/kupJWhyg23GwnIWEYvCOehmR0XcihDFQ==" />
+    <h1>Sign in</h1>
+    <div class="Field">
+      <label class="FieldLabel" for="session_email">Email</label>
+      <input class="TextField" autocomplete="off" type="text" name="session[email]" id="session_email" />
+    </div>
+    <div class="Field">
+      <label class="FieldLabel" for="session_password">Password</label>
+      <input class="TextField" autocomplete="off" type="password" name="session[password]" id="session_password" />
+    </div>
+    <div class="Field">
+      <p class="Footnote">
+        <input type="checkbox" name="mfa" id="mfa" value="true" />
+        <label for="mfa" title="Select this if you have enabled two factor authentication on your account">I have activated 2FA</label>
+      </p>
+    </div>
+    <div class="Field hidden" id="mfa_token_container">
+      <label class="FieldLabel" for="session_Token">Token</label>
+      <input class="TextField" autocomplete="off" type="number" name="session[mfa_token]" id="session_mfa_token" />
+    </div>
+
+    <div class="FormActions">
+      <button name="button" type="submit" class="PrimaryButton" id="signin_button">Sign in</button>
+      or
+      <a title="Click here to request a password reset by email" href="/password/reset/new">Forgot your password?</a>
+    </div>
+</form></section>
+
+
+    </section>
+
+    <div class="ExternalFooter">
+      <footer class="Footer">
+  &copy; Omise
+  <nav>
+    <div class="localeSelector" data-locale-selector>
+      <select name="locale" id="locale"><option url="/signin?locale=en" selected="selected" value="en">English</option>
+<option url="/signin?locale=ja" value="ja">日本語</option>
+<option url="/signin?locale=th" value="th">ไทย</option>
+<option url="/signin?locale=id" value="id">Bahasa Indonesia</option></select>
+    </div>
+    <a href="https://www.omise.co/en/about">About</a>
+    <a href="https://www.omise.co/en/docs">Documentation</a>
+    <a href="/help">Help</a>
+    <a href="https://www.omise.co/en/terms">Terms</a>
+    <a href="https://www.omise.co/en/privacy">Privacy</a>
+  </nav>
+</footer>
+
+    </div>
+
+  </body>
+</html>
+```
