@@ -1,0 +1,724 @@
+```<html>
+<head>
+<title>Atomic Tanks</title>
+<script language="JavaScript" src="extras.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body bgcolor="#ffffff" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" background="images/brn.jpg">
+<script language="javascript">
+<!--
+   Display_Header();
+// -->
+</script>
+
+<div id="navspacers"></div></td>
+
+<td width="504" valign=top align=left><a name="ref051403"></a>
+<table border=0 cellPadding=0 cellSpacing=0 width="100%">
+<tr><td valign=top align=right bgColor="#bbbbbb"><table border="0" cellpadding="5" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="1" cellspacing="0" width="100%"><tr><td>
+<table border=0 cellPadding=1 cellSpacing=0 width=540 bgcolor="#CCCCCC" bordercolor="#a0a0a0" background="images/blank.gif">
+<tr><td nowrap valign=bottom align=left background="images/blank.gif">
+
+<font class=HeaderTitle>&nbsp;Atanks</font></td>
+<td NOWRAP valign=bottom align=right background="images/blank.gif">
+<font class=HeaderDate> a multi-platform Scorched Earth clone similar to the Worms series of games </font>
+</td></tr></table></td></tr><tr><td background="images/blugrad.jpg">
+<img src="images/blank.gif" alt="blank" width="3" height="1" border="0">
+</td></tr></table></td></tr></table><table border="0" cellpadding="3" cellspacing="0" width="90%"><tr><td>
+<p>
+
+Annihilate the other tanks to earn money, then spend it on bigger and better shields and weapons to wipe out the opposition.<BR>
+Features a wide array of weapons, AI players, destructible landscape, weather, parachutes, teleports and a wide range of other features.<BR>
+Runs on any platform <A HREF="http://www.allegro.cc">Allegro</A> runs on, including Linux, Windows and Mac OS X.<BR>
+See the <A HREF="screenshots.html">Screenshots</A> and the <A HREF="items.html">Weapons, Devices and Shields</A> in the latest version.<BR></p><BR>
+
+</table>
+<tr><td valign=top align=right bgColor="#bbbbbb"><table border="0" cellpadding="5" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="1" cellspacing="0" width="100%"><tr><td><table border=0 cellPadding=1 cellSpacing=0 width="100%" bgcolor="#CCCCCC" bordercolor="#a0a0a0" background="images/blank.gif">
+<tr><td nowrap valign=bottom align=left background="images/blank.gif">
+</table>
+</table>
+
+
+<table border="0" cellpadding="1" cellspacing="0" width="100%"><tr><td>
+<table border=0 cellPadding=1 cellSpacing=0 width=540 bgcolor="#CCCCCC" bordercolor="#a0a0a0" background="images/blank.gif">
+<tr><td nowrap valign=bottom align=left background="images/blank.gif">
+
+<font class=HeaderTitle>&nbsp;Suggestions</font></td>
+<td NOWRAP valign=bottom align=right background="images/blank.gif">
+<font class=HeaderDate> for improvements, additions and changes </font>
+</td></tr></table></td></tr><tr><td background="images/blugrad.jpg">
+<img src="images/blank.gif" alt="blank" width="3" height="1" border="0">
+</td></tr></table></td></tr></table><table border="0" cellpadding="3" cellspacing="0" width="90%"><tr><td>
+<p>
+If you have suggestions or there's anything you would like to see implemented you can <A HREF="contact.html">contact us</A>.
+</table>
+<tr><td valign=top align=right bgColor="#bbbbbb"><table border="0" cellpadding="5" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="1" cellspacing="0" width="100%"><tr><td><table border=0 cellPadding=1 cellSpacing=0 width="100%" bgcolor="#CCCCCC" bordercolor="#a0a0a0" background="images/blank.gif">
+<tr><td nowrap valign=bottom align=left background="images/blank.gif">
+</table>
+</table>
+
+<table border="0" cellpadding="1" cellspacing="0" width="100%"><tr><td>
+<table border=0 cellPadding=1 cellSpacing=0 width=540 bgcolor="#CCCCCC" bordercolor="#a0a0a0" background="images/blank.gif">
+<tr><td nowrap valign=bottom align=left background="images/blank.gif">
+
+<font class=HeaderTitle>&nbsp;Bugs</font></td>
+<td NOWRAP valign=bottom align=right background="images/blank.gif">
+<font class=HeaderDate> finding and reporting </font>
+</td></tr></table></td></tr><tr><td background="images/blugrad.jpg">
+<img src="images/blank.gif" alt="blank" width="3" height="1" border="0">
+</td></tr></table></td></tr></table><table border="0" cellpadding="3" cellspacing="0" width="90%"><tr><td>
+<p>
+If you do find a bug, please <A HREF="contact.html">Report it</A>, we can't fix it if we don't know about it.<BR>
+</table>
+<tr><td valign=top align=right bgColor="#bbbbbb"><table border="0" cellpadding="5" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="1" cellspacing="0" width="100%"><tr><td><table border=0 cellPadding=1 cellSpacing=0 width="100%" bgcolor="#CCCCCC" bordercolor="#a0a0a0" background="images/blank.gif">
+<tr><td nowrap valign=bottom align=left background="images/blank.gif">
+</table>
+</table>
+
+
+<table border="0" cellpadding="1" cellspacing="0" width="100%"><tr><td>
+<table border=0 cellPadding=1 cellSpacing=0 width=540 bgcolor="#CCCCCC" bordercolor="#a0a0a0" background="images/blank.gif">
+<tr><td nowrap valign=bottom align=left background="images/blank.gif">
+
+<font class=HeaderTitle>&nbsp;Latest News</font></td>
+<td NOWRAP valign=bottom align=right background="images/blank.gif">
+<font class=HeaderDate> things that happened most recently </font>
+</td></tr></table></td></tr><tr><td background="images/blugrad.jpg">
+<img src="images/blank.gif" alt="blank" width="3" height="1" border="0">
+</td></tr></table></td></tr></table><table border="0" cellpadding="3" cellspacing="0" width="90%"><tr><td>
+<p>
+<div id="navspacers"></div></td><td width="504" valign=top align=left><a name="ref051403"></a><table border=0 cellPadding=0 cellSpacing=0 width="100%">
+<tr><td valign=top align=right bgColor="#bbbbbb"><table border="0" cellpadding="5" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="1" cellspacing="0" width="100%"><tr><td>
+<table border=0 cellPadding=1 cellSpacing=0 width=540 bgcolor="#CCCCCC" bordercolor="#a0a0a0" background="images/blank.gif"><tr><td nowrap valign=bottom align=left background="images/blank.gif">
+</td></tr></table></td></tr></table></td></tr></table><table border="0" cellpadding="3" cellspacing="0" width="100%"><tr><td>
+
+<UL>
+<li><b>11/02/2016</b> - Atomic Tanks 6.5<br>
+We have released a very minor update to Atomic Tanks which addresses
+a number of build issues. This version of Atomic Tanks should work with
+reproducible builds. No game play changes have been made for this release.
+<br><br><br>
+
+<li><b>12/21/2015</b> - Atomic Tanks 6.4<br>
+We are happy to announce a new release of Atomic Tanks is now available for
+download. The new release, version 6.4, carries a number of bug fixes and minor
+improvements. Perhaps the most visual change is more funky behaviour in the funky
+bombs and the AI players handle napalm better.
+<br><br><br>
+
+<li><b>08/01/2015</b> - Atomic Tanks 6.3<br>
+We are pleased to announce the launch of Atomic Tanks 6.3. The new version is a
+major overhaul from past releases. The new version includes a lot of improved
+code and was made with the hard work of developer Sven. The latest release of
+Atanks fixes many stability issues, offers a a snappier menu system and the AI is
+better at buying and aiming. (So be careful out there!)
+<br><br>
+Sven has also improved unicode support, added more in-code documentation and
+explosions make bits of dirt and debris fly around. As a bonus, it should
+now be easier to compile Atanks on Windows. You can get the latest release
+from our download page.
+<br><br><br>
+
+
+<li><b>05/26/2015</b> - Windows build of Atomic Tanks 6.2<br>
+Billy Buerger has kindly put together a Windows build of Atomic Tanks 6.2. It can
+be downloaded directly using <a href="http://sourceforge.net/projects/atanks/files/atanks/atanks-6.2/atanks-6.2-windows.exe/download">this link</a>. Please note Buerger
+reports the Windows version of Atanks may offer poor performance on Windows 10,
+but has been found to work properly on Windows 7 and Windows 8.
+<br><br><br>
+
+<li><b>04/05/2015</b> - Atomic Tanks 6.2<br>
+We are pleased to announce a new version of Atomic Tanks. This release
+mostly contains bug fixes and optimizations. People playing Atanks should
+find the Options screen cleaner and more stable, less prone to displaying
+random characters. A lot of code clean up has happened too, thanks to the
+efforts of Bruno Victal and Daniel Gutson.
+<br><br>
+People building Atanks from source code should find the process produces
+fewer warnings and a reduction in code size should make the process a
+little faster.
+<br><br><br>
+<li><b>12/16/2014</b> - Atomic Tanks 6.1<br>
+Billy Buerger very kindly did some work on Atomic Tanks and we are very happy to
+share his improvements with all of you. The latest version of Atomic Tanks
+now features an in-round scoreboard so you can see who is winning and what
+order the players will take their turns. The scoreboard can be turned on/off
+by using the "~" key. Other improvements include smoother turn switching,
+rollers weapons react properly when hitting steel walls and games where
+the AI is playing itself go on for a full minute instead of just ten seconds.
+Plus, navigating the store/buying screen should work better now when using
+the keyboard.
+<br><br>
+Many thanks to Billy Buerger for all these improvements. Pleasant
+tank commanding and happy holidays, everyone!
+<br><br><br>
+<li><b>06/24/2014</b> - Atomic Tanks 6.0 for Windows<br>
+With many thanks to Daniel Ford for putting in all the hard work, we
+are happy to announce Atomic Tanks 6.0 now runs on Windows. It has been
+a while since we had a native Windows build and we are grateful to
+Daniel for putting together this port of Atomic Tanks for Windows. You
+can find a copy of Atanks for Windows by following the Downloads link
+to the left of this page.
+<br><br><br>
+
+<li><b>06/01/2014</b> - Atomic Tanks release 6.0<br>
+We are happy to announce the availablility of a new version of Atomic Tanks.
+Atanks 6.0 contains a few bug fixes which should improve stability and reduce
+memory leakage. We have also added a new feature. During battle rounds
+the player can press "v" to decrease audio volume and "V" (shift+v) to
+increase volume. Thanks to Sven and Daniel for providing the bulk of
+the work in this release.
+<br><br><br>
+
+
+<li><b>03/29/2014</b> - Atomic Tanks release 5.9<br>
+This latest version of Atomic Tanks patches a few minor issues and should make
+the game more stable, especially when dealing with networked games. The fixes in
+this release are due to the kind contributions of Daniel Gutson.
+
+<br><br><br>
+
+<li><b>01/27/2014</b> - Atomic Tanks release 5.8<br>
+This new version of Atanks is a bug fix release. For the past year we have had reports
+of Atanks crashing at random times or when changing settings in the Options screen. This
+problem has been traced back to the way newer versions of the GNU compiler handle
+optimizations. We have included a work around for this issue and squashed a few other
+bugs in the process. No new features are available in 5.8, this is a bug-fix release only.
+<br><br><br>
+
+<li><b>10/26/2012</b> - Atomic Tanks release 5.7<br>
+This new release features a new tank type, the Mini. This
+little tank and its turrent have a small, classic look to them. This
+version also includes a fix for the Option menu crash. Versions
+of Atanks built with the GNU C++ compiler (version 4.7) would
+crash when accessing the Options screen and this has been corrected.
+<br><br>
+There are some cases where menu items may show the incorrect text
+for the option, but this happens rarely and we are working to fix
+it for the next release, along with some new improvements.
+<br><br><br>
+
+<li><b>09/18/2012</b> - Atomic Tanks release 5.6<br>
+A few minor problems were addressed in this release. A bug
+which could cause Atanks to crash during network play was fixed,
+licensing information was updated. The game should now compile
+properly on Windows (and other platforms where pthreads is not
+supported). A number of compiler warnings were cleaned up so the
+game now builds cleanly using Clang 3.0.<br>
+<br>
+One issue we have not been able to fix is a crash which
+occurs while accessing the Options screen. For some reason
+this only happens with copies of Atanks build on the Fedora Linux
+distribution. We have confirmed Atanks does not build cleanly
+on Fedora. This results in either an error during the build process or
+corrupted memory when running Atanks. However, we are not sure 
+of the exact cause. Atanks continues
+to build properly on every other Linux distribution we have
+tested, FreeBSD and other platforms. If you get Atanks running
+on Fedora, please let us know how so we can apply the fix for everyone.
+<br><br>
+<b>Update:</b> We believe the problem is the way in which some
+variables are declared in Atanks and how the GNU C++ complier
+(version 4.7) handles them. For now, the work around is to either
+build Atanks with an older version of GCC (version 4.6 is known
+to work) or use the Clang compiler. A proper fix for Atanks is
+being tested at the moment and Atomic Tanks 5.7 will include
+this fix to insure the game builds with the latest version of
+the GNU C++ compiler. Special thanks to Jon, Neil, Fabian and
+Ansgar for helping to track down the issue, patch it and run
+tests.
+<br><br><br>
+
+<li><b>05/17/2012</b> - Atomic Tanks release 5.5<br>
+A small bug has been found in the Atomic Tanks makefiles.
+The bug was discovered and fixed by Ville. This is
+the only update to Atanks in 5.5.<br>
+<br><br>
+
+<li><b>04/08/2012</b> - Atomic Tanks release 5.4<br>
+We have a minor update to Atomic Tanks to present. This
+release, 5.4, updates the Portuguese language files and
+corrects some out of date documentation in the Russian
+README file. This release also applies a patch from the
+Gentoo distribution which should correct a few build
+issues. This is a bug-fix release and there are no new
+game features in 5.4.
+<br><br><br>
+<li><b>02/23/2012</b> - Atomic Tanks release 5.3<br>
+A new update is available for Atomic Tanks. This release,
+version 5.3, is mostly a bug-fix release with some performance
+improvements. A number of memory leaks have been fixed, some
+un-needed variables were removed, some performance tuning was
+done. Work has been done to make Atanks more thread safe than
+it was before, which should make future development easier.
+Almost all of this work was volunteered by Nathan Mills who sent
+in many useful (and well documented) patches. Thank you, Nathan!
+<br>
+<br>
+We are still looking for someone to take over development on
+a more full-time basis. If you're interested in getting involved,
+please <a href="mailto:jessefrgsmith@yahoo.ca">e-mail me</a>.
+<br><br><br>
+<li><b>10/06/2011</b> - The forum:<br>
+<br>
+Over the past few months the Atomic Tanks forum has been hit by an
+increasing amount of spam. Since the forum is hardly ever used
+anymore and since we're not getting hit by dozens of spam message
+each day, the forum is being abondoned. We just don't have time to
+keep up with the inflow of garbage anymore.<br>
+<br>
+Should you wish to report a bug, send feedback, submit patches,
+translations or ask for help, please do so by contacting
+<a href="mailto:jessefrgsmith@yahoo.ca">jessefrgsmith@yahoo.ca</a>.
+<br><br><br>
+
+<li><b>10/03/2011</b> - We have another minor update available. This
+release, version 5.2, fixes a few issues with the make/build/install
+process used by Atomic Tanks and improves the desktop icon on Linux
+systems. Game play should not be affected by these changes, so if Atanks
+is working fine for you, there isn't any need to upgrade to 5.2. This
+is a release to help packagers.
+
+<br><br><br>
+
+<li><b>06/30/2011</b> - There is now a minor update available which
+improves upon the close butotn behaviour of the 5.0 release. The 5.1
+version will now close faster (skipping any remaining rounds). The close
+button should now also work properly if it is clicked during Demo Mode.
+<br><br><br>
+
+<li><b>06/04/2011</b> - There is a new version of Atomic Tanks available for
+download. This version, 5.0, is a minor bug fix release. The window's
+close button didn't work on the buying or during rounds and that
+has been fixed.<br>
+<br><br>
+
+<li><b>04/16/2011</b> - The new release of Atomic Tanks, version 4.9, is
+ready for download. This is a minor update from 4.8 and the only major change
+is the inclusion of a new Italian translation, provided by Roby Alice.
+<br><br>
+<br>
+
+<li><b>03/06/2011</b> - Atomic Tanks, version 4.8, is ready for download. This release fixes a few bugs. Specifically SDI lasers now fire in the correct direction, demo mode has been fixed and AI players can no longer buy weapons above their tech level.<br>
+<br>
+You can read the details for this release and an announcement at <a href="http://atanks.forumwise.com/atanks-post-1754.html#1754">the
+forums</a>.
+<br>
+<br>
+Atanks is currently looking for a new maintainer. If you have experience with
+C++ and would like to work on this very fun project, drop me a line at
+<a href="mailto:jessefrgsmith@yahoo.ca">jessefrgsmith@yahoo.ca</a>.<br>
+<br><br>
+<li><b>09/05/2010</b> - The new version of Atomic Tanks, 4.7, is now ready
+for download. This release is focused on fixing bugs and improving cross-platform
+support, specifically for Maemo users and FreeBSD. You can read the details
+on <a href="http://atanks.forumwise.com/atanks-post-1584.html#1584" target="_blank">forum</a>.<br>
+<br><br>
+
+<li><b>08/23/2010</b> - Atomic Tanks recently got some love from the Puppy
+Linux community. Dinosoep and Ttuuxxx put together Puppy packages (pets)
+for Atomic Tanks and our supporting game library, Allegro. You can
+grab these new pet packages from our download page. Thanks to Dinosoep
+and Ttuuxxx for putting these together.<br>
+<br>
+<br>
+
+<li><b>08/20/2010</b> - I am happy to report that Atomic Tanks has been
+officially ported to FreeBSD. Users on FreeBSD (and it's children) can
+access Atanks from the Ports collection.<br>
+<br>
+<br>
+<li><b>07/18/2010</b> - Good news for Maemo users. If you have one of these
+mobile devices, you will be able to play Atomic Tanks on the go! CtHx has
+put together an install package for Atanks on the Maemo device. You can
+grab a copy from our download page.<br>
+<br>
+We have a more detailed announcement here:
+<a href="http://atanks.forumwise.com/atanks-post-1557.html#1557"
+target="_blank">http://atanks.forumwise.com/atanks-post-1557.html#1557</a><br>
+<br>
+<br><br>
+<li><b>05/31/2010</b> - It is my pleasure to announce a new release,
+Atomic Tanks 4.6, is ready for download. This version brings Spanish
+language support, fixes volly weapons and includes a lot of code clean-up.
+Sound should now be fixed on Ubuntu and we've also moved to give OS X and 
+BSD better support. At the moment, this release includes the source
+code and a PBI file for PC-BSD users. We will hopefully have a Windows
+package up soon too.<br>
+<br>
+You can read more details on this release over at
+<a href="http://atanks.forumwise.com/atanks-post-1509.html#1509"
+target="_blank">the forum</a>.<br>
+<br>
+I would like to dedicate this release to Jason, the newest member of
+our family. We're very happy to have him.<br>
+
+<br><br><br>
+<li><b>05/25/2010</b> - I am happy to announce that we are expanding support
+for BSD users, including OS X. It's a work in progress, but I hope to have
+better support the BSD family in the upcoming 4.6 version. Until then, we
+have a token for PC-BSD users, a PBI package which should work on PC-BSD 8.
+You can download and try the package
+<a href="http://atanks.sf.net/downloads/Atanks4.5-PV1.pbi"
+target="_blank">here</a>. Please test it out and let us know what you
+think on the forum.<br>
+<br><br><br>
+<li><b>04/09/2010</b> - Today we release Atomic Tanks 4.5. This new version
+fixes a few bugs, but mostly focuses on networking. People running on
+Linux (and compatible systems) will be able to set up and play network
+games. The process is still a little crude, but we're getting there. Please
+see our Readme file for details on setting up and connecting to network
+games. You can read the detailed changes which went into this release
+on our <a href="http://atanks.forumwise.com/atanks-post-1470.html#1470"
+target="_blank">forum</a>.<br>
+<br>
+This release is dedicated to a very brave tank commander and special lady, 
+Lori Matthews. Wishing you all the best, Lori.<br>
+<br><br><br>
+<li><b>03/04/2010</b> - This note is to announce the availablity of Atomic Tanks version 4.4, which is now ready for download. There are just a few changes in
+4.4 over the previous 4.3 release, all of them bug fixes. To learn
+more about 4.4, please see the 
+<a href="http://atanks.forumwise.com/atanks-post-1421.html#1421"
+target="_blank">release notes</a> on our forum.<br>
+<br>
+<br>
+<br>
+<li><b>01/15/2010</b> - I am happy to annouce Atomic Tanks version 4.3. This is
+mostly a bug fix release to make the game more stable. The title screen
+has received a face lift too.<br>
+<br>
+As usual, you can read the details on
+<a href="http://atanks.forumwise.com/atanks-post-1385.html#1385"
+target="_blank">our forum</a>.<br>
+<br><br>
+<br>
+<li><b>12/02/2009</b> - This note is to announce the arrival of Atomic Tanks, version 4.2. This
+release covers a number of bug fixes, some improved translations, new tank themes and
+some network play. The network play is still very crude, but I'm hoping to improve upon
+that in the near future.<br>
+<br>
+In addition, I'd like to add that this release is dedicated to my brother, Mike. Happy
+birthday!<br><br>
+<br>
+You can read the details about this release
+<a href="http://atanks.forumwise.com/atanks-post-1291.html#1291"
+target="_blank">on the forum</a>.<br>
+<br>
+<br>
+<li><b>11/10/2009</b> - The Windows version of Atomic Tanks 4.1 is now ready for download.<br>
+<br>
+<br>
+<li><b>10/30/2009</b> - Mark O'Neil recently did a review on Portable Apps, a project which
+supplies programs which can be run self-contained from a USB stick. In his review, he covers
+Atomic Tanks, flatteringly calling it 
+<a href="http://www.makeuseof.com/tag/5-portable-apps-games-for-your-usb-stick-to-kill-some-time/"
+target="_blank">"the best of the bunch"</a> in the games section. Thanks Mark!<br>
+<br>
+<br>
+<br>
+<li><b>10/28/2009</b> - I am happy to announce that Atomic Tanks, version 4.1, is ready to download.
+This release is focused on adding new weapons and making it easier to translate the game text.
+We're also making progress on network play, but it's not ready yet.<br>
+You can read more here,
+<a target="_blank" href="http://atanks.forumwise.com/atanks-post-1225.html#1225">on the forum</a>.<br>
+<br>
+<br>
+<br>
+<li><b>10/03/2009</b> - Version 4.0 of Atomic Tanks is now ready for download. This release
+is focused on cleaning up existing bugs and increasing support for Russian and German translations.
+It's advised that everyone upgrade to this version as it runs smoother and fixes a few bugs which
+would causes the game to crash.<br>
+<br>
+You can read more details about this version on our
+<a href="http://atanks.forumwise.com/atanks-post-1183.html#1183"
+target="_blank">forum</a>.<br>
+<br>
+<br>
+<br>
+<li><b>09/05/2009</b> - Atomic Tanks was features on the Source Forge Community Blog. You can read
+the entry <a target="_blank"
+href="http://sourceforge.net/community/atomic-tanks-game-is-a-blast/">here</a>.<br>
+<br>
+<br>
+On another note, the Windows version of Atomic Tanks 3.9 is ready! You can grab a copy
+from our Downloads page.<br>
+<br>
+<br>
+<br>
+<li><b>08/31/2009</b> - The release of Atomic Tanks 3.9 is upon us. There have been a lot
+of changes for this version and I'll just cover a few of them here. Sounds and images have
+been moved out of the data files and are now more accessible. Anyone can change the look
+and sound of Atanks and share their changes with their friends.<br>
+<br>
+Also, a new page has been added to this website. The Add-on section will host links
+to music, sound effects, images and custom backgrounds that people want to share with
+the rest of the Atanks community. Drop the project an e-mail if you have material
+to share.<br>
+<br>
+For a full list of changes, please see <a target="_blank"
+href="http://atanks.forumwise.com/atanks-post-1058.html#1058">this post</a> on the forum.<br>
+<br>
+<br>
+<br>
+<li><b>07/25/2009</b> - I am happy to annouce the release of Atomic Tanks, version 3.8! This
+new stable release is focused on making the game run more efficently and fixing bugs. However,
+we also have three new weapons for your fighting pleasure. You can read more about it
+on <a href="http://atanks.forumwise.com/atanks-post-1003.html#1003"
+target="_blank">our forum</a>. This time around, we're also able to offer the source code
+and a Windows build at the same time. Thanks to BillyBuerger for making this possible.<br>
+<br><br>
+On another note, the project is looking for people who can help make Atomic Tanks even
+better. Can you translate text into another language? Can you draw? How about convert
+Linux code into the Windows equivalent? Do you have a music ear and have better sound
+effects? Have an idea of how we can improve the website? If so, I'd like to hear from you. Please 
+<a href="mailto:jessefrgsmith@yahoo.ca">e-mail me</a>.<br>
+<br><br><br>
+
+<li><b>06/27/2009</b> - Who wants a fresh helping of Atomic Tanks, with chunky new features?
+I know I do! Well, a new Atomic Tanks, 3.7, is ready for download. You can read all about it
+on <a href="http://atanks.forumwise.com/atanks-post-956.html" target="_blank">the forum</a>.<br>
+<br>
+A note to everyone. This is the first version of Atomic Tanks in a long time which will be
+offered to two different flavors, Stable and Experimental. Both have new features and,
+we hope, you find both solid. However, Expeirmental carries more new features and ideas,
+while the Stable branch tries to be more conservative. Enjoy!<br>
+<br>
+<b>Update:</b> There is now a version of this release for Windows on the Dowloads page.<br>
+<br><br><br>
+<li><b>06/02/2009</b> - Today brings a new dawn, or at least a new release. Atomic Tanks,
+version 3.6, is now ready for download. Our previous version, 3.5, added a lot of new and
+interesting features and this release is focused on polishing and bug fixes. The only two new
+features are some smoother menu navigation and Slovak language support. This release also
+restores support for game settings for version of Atanks prior to 3.5. Please grab a
+copy and let us know what you think on the forums.<br>
+<br>
+<br>
+<br>
+<li><b>03/20/2009</b> - Today brings the latest and greatest release of Atomic Tanks
+Version 3.5 contains a whole lot of improvements, bug fixes and pushes to make the
+game its most challenging and fun yet! At the moment we just have the source
+code for download, but that should change shortly. Please grab a copy and
+let us know what you think.<br>
+<br>
+Fire!<br>
+<br>
+<b>Update:</b> A few bugs were found and fixed right after the release of
+Atanks 3.5. These things happen sometimes, though we try our best to avoid them.
+A new package, atanks-3.5-r1.tar.gz has been posted. If you downloaded the
+original, please replace it with the 3.5-r1 package.<br>
+<br>
+<b>Another update:</b> The Windows version of Atomic Tanks is now ready
+for download.<br>
+<br>
+<br>
+<li><b>09/28/2008</b> - Today I am glad to annouce the release of Atomic Tanks
+version 3.2! This release comes with a wide variety of bug fixes and improvements.
+Several volunteers have worked for the past two months to polish Atanks and I
+think everyone will be happy with the result. You are encouraged to grab the latest version
+from our download page, and post feedback on the forum.<br>
+<br>
+Happy tanking!<br>
+<br>
+<br>
+<br>
+<li><b>07/28/2008</b> - I am happy to annouce the arrival of Atomic Tanks
+3.1. This release clears up a number of bugs which were found in 3.0.
+Specifically, some Windows bugs were corrected, issues with firing
+chain missiles were fixed and the game should no longer crash when
+trying to load games. Also, I'm glad to say we intorduced a new feature:
+timed shots. Optionally, you can now decide how long each player gets
+to fire.<br>
+<br>
+As usual, please see the forum for more details and report and
+bugs or make suggestions there.<br>
+<br>
+<br>
+<br>
+<li><b>05/30/2008</b> - Here it is, Atomic Tanks version 3.0 is on its
+way to the download servers. This release is mostly bug fixes, but some
+serious improvements have been made. The game now has better fog, easier
+game loading, an improved satellite and the AI is getting smarter. Vist
+our download page to take a look at this new release. As usual,
+please make any comments or bug reports on the form.<br>
+<br>
+<br>
+<br>
+<li><b>03/26/2008</b> - Today marks the release of Atanks version 2.9.
+There are a lot of small improvements and bug fixes in this release, including
+a new weapon and better targeting sytem. You can grab the latest release
+from our download page, or read about it on the 
+<a href="http://atanks.forumwise.com/atanks-post-462.html"
+target="_blank">forum</a>.<br>
+<br>
+<br>
+<br>
+<li><b>02/17/2008</b> - I am happy to annouce the release of Atomic Tanks
+version 2.8. This release brings a number of new changes, including
+a new weapon, the MIRV; a new experimental targeting system; a optinional
+weapons satellite that takes shots at the battle field; the AI will
+now use items such as teleport; and it's now possible to play a game without
+any dirt on the map. There were also a number of fixes introduced in this
+release. You can read more about the changes to Atomic Tanks on
+<a href="http://atanks.forumwise.com/atanks-post-428.html"
+target="_blank">this forum post</a>.<br>
+<br>
+<br>
+<br>
+<li><b>12/17/2007</b> - It was one year ago <a href="news.html#year">today</a> 
+that I annouced new life coming into Atomic Tanks.
+Since then, Atomic Tanks has gone through eight releases, fixing numberous bugs and adding
+small features. Atomic Tanks has spread to be included in at least two new Linux distributions
+and has been featured in gaming magazines. I call that a success. I am glad to annouce that
+I am happy to continue working on Atomic Tanks and I hope that members of the community
+will continue to aid in the development of this fun little game. I couldn't do this without
+the hard work of artists, packagers, documentation writers and people offering up suggestions
+and bug reports. Thank you all.<br>
+<br>
+I would like to mark this occasion by releasing Atomic Tanks v2.7. At the moment, this is
+just a source and .rpm release, but I hope a Windows version will soon follow. Please see
+this <a href="http://atanks.forumwise.com/atanks-post-338.html">forum post</a> 
+for details of what's changed since the previous release.<br>
+<br>
+<br>
+<b>Update:</b> a package for Windows has now been released. You can grab
+a copy from our download page.<br>
+<br><br><br>
+<li><b>11/08/2007</b> - Today brings the release of Atomic Tanks version 2.6! It's been
+a while in the making, but we have some interesting features to share. The most
+important ones are more Portuguese language support and the ability to save and
+load games. You can get details from the 
+<a href="http://atanks.forumwise.com/atanks-post-278.html#278"
+target="_blank">Atomic Tanks forum</a>.<br>
+<br>
+Please see our <a href="http://sourceforge.net/project/showfiles.php?group_id=72358"
+target="_blank">download page</a> to grab this new release.<br>
+<br><br>
+<br>
+
+<li><b>08/15/2007</b> - I am happy to annouce the arrival of Atomic Tanks version
+2.5! This release brings a few new features, including bright, new colours;
+teams and cartoony gravity. You can read more about the new stuff on
+<a href="http://atanks.forumwise.com/atanks-post-242.html#242" target="_blank">the forum</a>
+or visit our 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=72358"
+target="_blank">download page</a> to see it in action!<br>
+<br><br>
+<br>
+<li><b>06/26/2007</b> - The 2.4 release of Atomic Tanks is finally here!
+This new release fixes a number of bugs, adds a new wall type and also
+includes some important changes which should help future development.
+You can read the full annoucement 
+<a href="http://atanks.forumwise.com/atanks-thread51.html"
+target="_blank">on the forum</a>.<br>
+<br>
+Thank you to everyone who contributed code, reported bugs and
+made suggestions. I'm hoping the next release will add more
+features and be less technical.<br>
+<br>
+<b>Update</b>: The Windows package of Atomic Tanks is now ready for
+<a href="http://sourceforge.net/project/showfiles.php?group_id=72358"
+target="_blank">download</a>.
+<br><br>
+-- Jesse<br>
+<br><br>
+<LI><b>04/07/2007</b> - A new release of Atomic Tanks is even now
+on its way to the download mirrors! Atomic Tanks 2.3 is being released
+in both source code and Windows versions. This new version includes some
+minor cosmetic changes, some bug fixes and a new device. You can read the
+full annoucement
+<a href="http://atanks.forumwise.com/atanks-post-132.html#132"
+target="_blank">on the forums</a>.<br>
+<br>
+-- Jesse<br>
+<br><br>
+
+    <LI><b>03/15/2007</b> - We've made some website changes. A few things have been
+moved, a few pages have been updated. The biggest change is that the Atomic Tanks website no
+longer uses PHP. This is to make updates a little more simple and to avoid any
+problems that result from this being the
+<i><a href="http://developers.slashdot.org/article.pl?sid=07/02/20/0144218"
+target="_blank">month of PHP bugs</a></i>. We expect the transition to
+be smooth. However, if you spot a problem with our web pages, please send
+an <a href="contact.html">e-mail</a>.<br>
+<br>
+-- Jesse<br>
+<br><br>
+
+        <LI><b>03/09/2007</b> - Annoucing the release of Atomic Tanks 2.2!
+There are some exciting new features in this release, a few new devices and
+a handful of bug fixes. You can read the full annoucement here
+<a href="http://atanks.forumwise.com/atanks-thread25.html"
+target="_blank">on the forums</a>. At this time, the release is source-only,
+but a version for Windows is in the works. Many thanks to everyone who
+helped out making this the best release of Atomic Tanks to date!<br>
+<br>
+<b>Update:</b> The Windows version of Atomic Tanks is ready for download.
+Please see the <a href="http://sourceforge.net/project/showfiles.php?group_id=72358" target="_blank">download page</a> for the package. Many thanks to
+Keilaron for providing this package.<br>
+<br>
+--Jesse<br>
+<br><br>
+        <LI><b>02/24/2007</b> - I am happy to annouce Atomic Tanks 2.1
+is now ready for download. You can grab a copy from
+<a href="http://sourceforge.net/project/showfiles.php?group_id=72358">here</a>.
+At this time, Atanks-2.1 is packages for Windows and plain source code.
+This release has some new and interesting features, which I have
+explained on the
+<a href="http://atanks.forumwise.com/atanks-thread21.html">forums</a>.<br>
+<br>
+--Jesse<br>
+<br>
+<b>Update:</b> A review of Atomic Tanks has been posted on Victory Games.
+The review is in Polish and I'm sorry to say I'm unable to read much
+of it. However, for those of you who can read Polish, the review is
+<a href="http://www.victorygames.com.pl/gry.php?nr=1033">here</a>.<br>
+<br>
+<br>
+
+        <LI><b>01/15/2007</b> - Keilaron has kindly supplied a Windows
+binary of Atomic Tanks 2.0. Thank you, Keilaron. Anyone wishing to
+run Atanks on Windows is encouraged to grab the self-extracting file
+from <a href="http://sourceforge.net/project/showfiles.php?group_id=72358">here</a>.<br>
+<br>
+-- Jesse<br>
+<br><br>
+        <LI><b>01/10/2007</b> - M, from the Debian team, found a rather
+nasty bug in Atanks-2.0. To correct this, I have pulled the download
+from this site. A fixed version (Atanks-2.0-final)
+is now making its way to a Sourceforge
+mirror near you. Sorry for the inconvenience.<br>
+<br>
+-- Jesse<br>
+<br><br>
+        <LI><b>01/09/2007</b> - The final release of Atomic Tanks 2.0 is here!
+This release differs just slightly from the beta-2 release, adding some
+minor tweaks and code fixes. Please
+<a href="http://sourceforge.net/project/showfiles.php?group_id=72358">download</a>,
+ test and play!<br>
+<br>
+Special thanks to the Debian team and everyone who contributed to this release.<br>
+<br>
+-- Jesse<br>
+<br>
+</table>
+<tr><td valign=top align=right bgColor="#bbbbbb"><table border="0" cellpadding="5" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="1" cellspacing="0" width="100%"><tr><td><table border=0 cellPadding=1 cellSpacing=0 width="100%" bgcolor="#CCCCCC" bordercolor="#a0a0a0" background="images/blank.gif">
+<tr><td nowrap valign=bottom align=left background="images/blank.gif">
+</td></tr>
+
+</table>
+
+<script language="javascript">
+<!--
+   Display_Footer();
+// -->
+</script>
+
+</body>
+</html>
+```
