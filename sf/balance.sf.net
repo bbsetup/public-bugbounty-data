@@ -1,0 +1,580 @@
+```<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="description" content="Balance is our well known open source load balancing solution being a simple but powerful generic tcp proxy with round robin load balancing and failover capabilities. Its behaviour can be easily controlled at runtime using a simple command line syntax">
+
+    <meta name="keywords" content="load balancer, tcp proxy, balance, load balancing, failover, linux, macos">
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    <title>Balance :: Balance by Inlab Networks</title>
+
+    
+    <link href="/css/nucleus.css?1609515564" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1609515564" rel="stylesheet">
+    <link href="/css/hybrid.css?1609515564" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1609515564" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1609515564" rel="stylesheet">
+    <link href="/css/auto-complete.css?1609515564" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1609515564" rel="stylesheet">
+    <link href="/css/theme.css?1609515564" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1609515564" rel="stylesheet">
+    
+      <link href="/css/theme-inlab.css?1609515564" rel="stylesheet">
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1609515564"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <p><a href="/"><img alt="Balance Home" src="/images/BalanceLogoCC.png" width=80%></a></p>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1609515564"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1609515564"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/balance.inlab.net\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1609515564"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/overview/" title="Overview" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/overview/">
+          Overview
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/download/" title="Download" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/download/">
+          Download
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/aboutus/" title="About Us" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/aboutus/">
+          About Us
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/aboutus/contact/" title="Contact" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/aboutus/contact/">
+          Contact
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/aboutus/privacy-policy/" title="Privacy Policy" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/aboutus/privacy-policy/">
+          Privacy Policy
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/aboutus/datenschutz/" title="DatenschutzerklÃ¤rung" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/aboutus/datenschutz/">
+          DatenschutzerklÃ¤rung
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/aboutus/widerrufsrecht/" title="Widerrufsrecht" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/aboutus/widerrufsrecht/">
+          Widerrufsrecht
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/aboutus/impressum/" title="Impressum (Imprint)" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/aboutus/impressum/">
+          Impressum (Imprint)
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" href="https://www.inlab.net/"><i class='fas fa-home'></i> Inlab Networks Home</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://load-balancer.inlab.net/"><i class='far fa-arrow-alt-circle-right'></i> BalanceNG</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://rbridge.inlab.net/"><i class='far fa-arrow-alt-circle-right'></i> RBridge</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://balance.inlab.net/"><i class='far fa-arrow-alt-circle-right'></i> Balance</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://scheme.inlab.net/"><i class='far fa-arrow-alt-circle-right'></i> Inlab Scheme</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <center>
+
+  <p style="color:black">Inlab Networks Newsletter</p>
+  <form method="POST" action="https://balance.inlab.net/cgi-bin/subscribe.cgi">
+    <input type="text" name="name" style="display: none;">
+    <input class="form-element-input" type="email" name="email" required="required" placeholder="Your email address">
+    <input class="form-element-hidden" type="hidden" name="redirect" value="https://balance.inlab.net/thanks_subscribe/">
+    <input class="form-element-hidden" type="hidden" name="s" value="2">
+    <input class="btn btn-default" type="submit" value="Subscribe">
+  </form>
+  &nbsp;<p>
+
+<p>&nbsp;</p>
+<a href="https://www.inlab.net"><img alt="Inlab Networks" src="/images/InlabNetworksLogo.png" width=90%></a>
+<p style="color:black">&copy; 2021 by Inlab Networks GmbH<br>All Rights Reserved</p>
+&nbsp;<p>
+<a href="/aboutus/contact/"><p style="color:#1f0f75">Contact</p></a>
+<a href="/aboutus/privacy-policy/"><p style="color:#1f0f75">Privacy Policy</p></a>
+<a href="/aboutus/datenschutz/"><p style="color:#1f0f75">Datenschutzerkl&auml;rung</p></a>
+<a href="/aboutus/widerrufsrecht/"><p style="color:#1f0f75">Widerrufsrecht</p></a>
+<a href="/aboutus/impressum/"><p style="color:#1f0f75">Impressum / Imprint</p></a><br>
+</p>
+<p>&nbsp;</p>
+<img alt="redhat Technology Partner" src="/images/RHTPLogo.png" width=90%>
+<p>&nbsp;</p>
+<img alt="IT Security made in Germany" src="/images/ITSLogo.jpg" width=90%>
+</center>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+        <div id="head-tags">
+        
+        </div>
+        
+          <div id="chapter">
+        
+        <div id="body-inner">
+          
+
+        
+
+
+<span id="sidebar-toggle-span">
+<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
+</span>
+
+ 
+<p><img src="/images/BalanceLogoCC.png?width=25pc" alt="Balance" /></p>
+
+<hr />
+
+<p>Balance is our well known open source load balancing solution being a simple but powerful generic tcp proxy with round robin load balancing and failover capabilities.</p>
+
+<p>Its behaviour can be easily controlled at runtime using a simple command line syntax.</p>
+
+<p><p>&nbsp;</p>
+
+<p><center>
+<a  href="/overview/" class="btn btn-default">Read More</a>
+</center></p>
+	
+  
+        
+            </div> 
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+		
+			<a class="nav nav-next" href="/overview/" title="Overview" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1609515564"></script>
+    <script src="/js/perfect-scrollbar.min.js?1609515564"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1609515564"></script>
+    <script src="/js/jquery.sticky.js?1609515564"></script>
+    <script src="/js/featherlight.min.js?1609515564"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1609515564"></script>
+    <script src="/js/learn.js?1609515564"></script>
+    <script src="/js/hugo-learn.js?1609515564"></script>
+
+    <link href="/mermaid/mermaid.css?1609515564" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1609515564"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+
+```
