@@ -1,0 +1,127 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="refresh" content="0; URL='https://asmeta.github.io/'" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="default.css" charset="utf-8" type="text/css">
+  <title>Asmeta - Overview</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120364030-1"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-120364030-1');
+   </script>
+</head>
+
+<body>
+
+<table cellspacing="0" cellpadding="0" border="0" style="width:100%%;">
+<tr>
+  <td style="padding:5px 10px 5px 10px;font-size:16pt;font-weight:bold;color:#000066;background-color:f7f7f7;border:1px solid #a5b6c6;">
+    Asmeta
+   </td>
+  <td style="padding:5px 10px 5px 10px;font-size:16pt;font-weight:bold;color:#8998a5;border-bottom:1px solid #a5b6c6;">
+    Overview
+  </td>
+ </tr>
+<tr><td style="vertical-align:top;padding:20px 10px 80px 10px;background-color:f7f7f7;border-left:1px solid #a5b6c6;border-right:1px solid #a5b6c6;border-bottom:1px solid #a5b6c6;">
+<div id="sidebar">
+  <ul><li class="webgen-menu-level1 webgen-menu-item-selected"><a href="index.html" hreflang="en">Overview</a></li><li class="webgen-menu-level1 webgen-menu-submenu"><a href="download/index.html" hreflang="en">Asmeta toolset</a><ul><li class="webgen-menu-level2"><a href="download/asmee.html" hreflang="en">Editor</a></li><li class="webgen-menu-level2"><a href="download/asmetas.html" hreflang="en">Simulator</a></li><li class="webgen-menu-level2"><a href="download/asmetav.html" hreflang="en">Validator</a></li><li class="webgen-menu-level2"><a href="download/asmetaA.html" hreflang="en">Animator</a></li><li class="webgen-menu-level2"><a href="download/asmetasmv.html" hreflang="en">Model checker</a></li><li class="webgen-menu-level2"><a href="download/asmetama.html" hreflang="en">Model advisor</a></li><li class="webgen-menu-level2"><a href="download/asmetavis.html" hreflang="en">Visualizer</a></li><li class="webgen-menu-level2"><a href="download/asmscenref.html" hreflang="en">Scenario refiner</a></li><li class="webgen-menu-level2"><a href="download/asmrefprover.html" hreflang="en">Refinement prover</a></li><li class="webgen-menu-level2"><a href="download/asm2SMT.html" hreflang="en">Asm2SMT</a></li><li class="webgen-menu-level2"><a href="download/asm2c++.html" hreflang="en">Asm2C++</a></li></ul></li><li class="webgen-menu-level1 webgen-menu-submenu"><a href="papers/index.html" hreflang="en">Papers</a><ul><li class="webgen-menu-level2"><a href="papers/index.html" hreflang="en">Our papers</a></li><li class="webgen-menu-level2"><a href="papers/others.html" hreflang="en">Papers written by others</a></li></ul></li><li class="webgen-menu-level1"><a href="people.html" hreflang="en">People</a></li><li class="webgen-menu-level1"><a href="support.html" hreflang="en">Support</a></li><li class="webgen-menu-level1 webgen-menu-submenu"><a href="userdoc/index.html" hreflang="en">User documentation</a><ul><li class="webgen-menu-level2"><a href="userdoc/index.html" hreflang="en">Documentation for users</a></li><li class="webgen-menu-level2"><a href="userdoc/language.html" hreflang="en">Asmeta language</a></li><li class="webgen-menu-level2"><a href="userdoc/asmm.html" hreflang="en">The Abstract State Machines Metamodel</a></li></ul></li><li class="webgen-menu-level1 webgen-menu-submenu"><a href="userdocdev/index.html" hreflang="en">Developer documentation</a><ul><li class="webgen-menu-level2"><a href="userdocdev/index.html" hreflang="en">Developer information</a></li><li class="webgen-menu-level2"><a href="userdocdev/repository.html" hreflang="en">Source repository</a></li></ul></li><li class="webgen-menu-level1"><a href="webresources.html" hreflang="en">Web resources</a></li></ul>
+ <ul>
+   <li><a href="http://sourceforge.net/projects/asmeta/">SourceForge Project Page</a></li>
+   <ul>
+    <li>
+    <a href="http://sourceforge.net/p/asmeta/bugs/">Issue Trackers</a>
+  </li>
+  <li>
+    <a href="http://sourceforge.net/p/asmeta/discussion/">Discussion Forums</a>
+  </li>
+  <li>
+    <a href="http://sourceforge.net/p/asmeta/code/">SVN Repository</a>
+  </li>
+  </ul>
+<!--li><a href="">Thanks to:</a></li>
+  <li>
+   <a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=155949&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo"/></a>
+  </li>
+ <li>
+<a href="http://stan4j.com"> <img src="http://logo.stan4j.com/stan4j-88x31-t0.png" target="_blank"
+alt="stan4j.com" title="stan4j.com" border="0" height="31" width="88"></a>
+<a href="http://structure101.com"> <img src="http://structure101.com/images/s101_170.png" target="_blank"
+alt="structure101" title="structure101.com" border="0" height="31" width="88"></a>
+ </li-->
+ </ul>
+</div>
+</td><td style="vertical-align:top;padding:10px 0px 5px 20px;width:80%;border-bottom:1px solid #a5b6c6;" colspan="2">
+
+ <p>Asmeta is a framework for the Abstract State Machines (ASMs) formal method. It is composed of different <a href="download/index.html">tools</a> for performing different validation and verification activities.</p>
+
+<p>It is based on the definition of a <a href="metaapproach.html">metamodel</a> for ASMs. For the <strong>metamodel semantics</strong>, we adopt the ASMs semantics given in the <a href="http://www.di.unipi.it/~boerger/AsmBook/">ASM book</a>.
+<!--p>A standard <strong>AsmM Library</strong> containing predefined ASM domains and functions is also provided.</p--></p>
+
+<!--p>Around the AsmM we have developed and we are developing a <a href="download/index.html">set of tools</a>.</p-->
+
+<!--h2>Asmeta tool set</h2>
+
+Around the AsmM we have developed and we are developing a <a href="download/index.html">set of tools</a>:
+
+<ul>
+  <li>(available) the AsmetaL compiler: to compile an ASM specification written in AsmetaL to xmi</li>
+  <li>(available) the AsmetaS simulator: to simulate an ASM specification</li>
+  <li>(available) Asmee: a plugin for eclipse for AsmetaL and AsmetaS</li>
+  <li>(available) ATGT: a test generator for Asms</li>
+  <li>(available) the AsmetaV validator: to test/validate an ASM specification</li>
+  <li>(available) the AsmetaSMV model checker: to model check an Asm specification</li>
+  <li>(available) the AsmetaMA model advisor: to check for common defects of AsmetaL models</li>
+  <li>(available) the AsmetaRE: to generate executable ASMs from Use Case models</li>
+  <li>(available) the SCA-ASM: a language and an engine for service oriented components</li>
+  <li>(available) AsmRefProver: a prover of refinement correctness</li>
+  <li>(available) AsmetaVis: a graphical visualizer for ASMs</li>
+  <li>(work in progress) a graphical editor</li>
+  <li>(work in progress) Asmeta animator</li>
+</ul-->
+
+<h2 id="news">News</h2>
+<p><strong>Oct 19:</strong> moved to https://asmeta.github.io/ <br />
+<p><strong>Oct 19:</strong> we present the usability aspects of Asmeta at AFFORD 2019<br />
+<strong>Apr 19:</strong> we present the Asmeta scenario refiner at A-MOST 2019<br />
+<strong>Oct 18:</strong> we present the generation of Behavior-Driven Development C++ Tests from ASM Scenarios at IWCFS 2018<br />
+<strong>Oct 18:</strong> we present the validation of the translation of ASMs to C++ at ICTSS 2018<br />
+<strong>Jul 18:</strong> we present the Asmeta flattener at F-IDE 2018<br />
+<strong>Jun 18:</strong> we present the Asmeta animator at ABZ 2018<br />
+<strong>Apr 18:</strong> we present the Generation of C++ Unit Tests from Abstract State Machines Specifications at A-MOST 2018<br />
+<strong>May 17:</strong> we present our experience in using the ASM symbolic representation (as SMT context) at AFM 2017<br />
+<strong>May 17:</strong> we present the code generator at NFM 2017<br />
+<strong>Jul 16:</strong> we present the Asmeta refinement correctness prover at SEFM 2016<br />
+<strong>Jul 16:</strong> we present the Asmeta visualizer at HOFM 2016<br />
+<strong>May 16:</strong> we present the modeling and analysis of the hemodialysis machine case study at ABZ 2016<br />
+<strong>May 15:</strong> we present the ASM formalization and verification of self-adaptive systems at SEAMS 2015<br />
+<strong>Jun 14:</strong> we present the modeling, analysis, and testing of the landing gear system case study at ABZ 2014<br />
+<strong>Jul 12:</strong> we present the use of ASMs for testing web applications at ICWE 2012<br />
+<strong>Jun 12:</strong> we present the test generation for sequential nets of ASMs at ABZ 2012<br />
+<strong>Jul 11:</strong> we present the SCA-ASM modeling language at the EUROMICRO SEAA 2011<br />
+<strong>Apr 10:</strong> we present AsmetaMA (the Asmeta model advisor) at NFM 2010<br />
+<strong>Dec 09:</strong> we present AsmetaSMV (the Asmeta model checker) at ABZ 2010<br />
+<strong>Oct 08:</strong> we present Asmeta at ICSEA 08<br />
+<strong>Sept 08:</strong> we present Avalla and AsmetaV at ABZ 2008<br />
+<strong>Jun 08:</strong> we have almost completed the porting of Asmeta to EMF<br />
+<strong>Oct 07:</strong> Asmee has been presented at Eclipse-IT 07<br /></p>
+
+<!--## Acknowledgments
+
+Thanks to stan4j to provide us with their valuable tool. We use stan4j to analyze and improve Asmeta.<br/><br/>
+<a href="http://stan4j.com" target="_blank"> <img src="http://logo.stan4j.com/stan4j-88x31-t0.png" target="_blank" alt="stan4j.com" title="stan4j.com" border="0" height="31" width="88"/></a-->
+
+
+</td></tr>
+</table>
+
+<div id="footer">
+  Copyright &copy; 2006-2020 <a href="http://fmse.di.unimi.it/" target="_blank">Formal Methods and SE Laboratory - University of Milan</a>(FM&SE LAB). All rights reserved. 
+        | Lastchange : 2020-04-23 22:30:41 +0900 | Generated by <a href="http://webgen.rubyforge.org" target="_blank">webgen</a></p>
+</div>
+</body>
+</html>
+```
