@@ -1,0 +1,118 @@
+```<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>パスワード認証</title>
+<link rel="stylesheet" href="https://parts.blog.livedoor.jp/css/template.css?v=20130404" type="text/css">
+<link rel="stylesheet" href="https://parts.blog.livedoor.jp/css/template_6thgen.css" type="text/css">
+<!--[if lt IE 9]>
+<script src="https://parts.blog.livedoor.jp/js/html5.js"></script>
+<![endif]-->
+<script src="https://parts.blog.livedoor.jp/js/jquery-1.7.1.min.js"></script>
+<script src="https://parts.blog.livedoor.jp/js/jquery.placeholder.js"></script>
+<script>
+$(function(){
+  $(".password input").placeholder();
+});
+</script>
+<style>
+body {
+  background: #f9f9f9;
+}
+#auth-blog-private {
+  width: 550px;
+  margin: 100px auto;
+}
+#auth-blog-private .auth-blog-title {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 45px;
+  padding: 0 0 45px;
+}
+#auth-blog-private .auth-blog-title h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-weight: normal;
+}
+#auth-blog-private .auth-blog-title p {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #666;
+  margin-top: 20px;
+  text-align: center;
+}
+#auth-blog-private .auth-blog-message {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+  padding-bottom: 45px;
+  text-align: center;
+}
+#auth-blog-private form {
+  width: 340px;
+  margin: 0 auto;
+  padding: 0;
+}
+#auth-blog-private .password {
+  margin-bottom: 20px;
+}
+#auth-blog-private .password input {
+  padding: 15px 10px;
+  margin: 0;
+  font: 18px/1.4 Helvetica,Arial,sans-serif;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 318px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear .2s,-webkit-box-shadow linear .2s;
+     -moz-transition: border linear .2s,   -moz-box-shadow linear .2s;
+          transition: border linear .2s,        box-shadow linear .2s;
+}
+#auth-blog-private .button input {
+  height: 56px;
+  width: 340px;
+  font-size: 21px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+  -webkit-appearance: button;
+  border: 1px solid #007fb4;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+  background-color: #0c91ea;
+  background-image: -webkit-linear-gradient(top, #0c91ea, #008ae7);
+  background-image:    -moz-linear-gradient(top, #0c91ea, #008ae7);
+  background-image:      -o-linear-gradient(top, #0c91ea, #008ae7);
+  background-image:         linear-gradient(top, #0c91ea, #008ae7);
+}
+.placeholder {
+	color: #999 !important;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript" src="http://baito-biz-manual-blog.line.me/settings/header.js"></script>
+<div id="auth-blog-private">
+  <div class="auth-blog-title">
+    <h1>LINEバイト 法人向けサイト～マニュアル&amp;FAQ～</h1>
+    <p>LINE応募のマニュアルとFAQです！</p>
+  </div>
+  <div class="auth-blog-message">
+現在マニュアルを編集中です。<br>
+2018年8月以降、順次公開予定です。
+  </div>
+  <form action="" method="post" class="auth-blog-form">
+    <p class="password"><input type="text" name="password" size="30" placeholder="パスワード"></p>
+    <p class="button"><input value="ブログを見る" type="submit"></p>
+  </form>
+</div>
+</body>
+</html>
+```
