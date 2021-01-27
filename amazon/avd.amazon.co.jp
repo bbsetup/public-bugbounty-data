@@ -1,0 +1,843 @@
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html><html class="a-no-js" data-19ax5a9jf="dingo">
+   <head><script>var aPageStart = (new Date()).getTime();</script><meta charset="utf-8"/>
+      
+         <meta http-equiv="content-language" content="en-us">
+      
+
+      
+         
+      
+
+      
+         
+            <link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/11EIQ5IGqaL._RC|012LjolmrML.css,41P+XaWjFxL.css,21qPwhPKAAL.css,01Vctty9pOL.css,017DsKjNQJL.css,01g+zsr+gVL.css,41EWOOlBJ9L.css,11UoGyLuXoL.css,01ElnPiDxWL.css,11QxHU4QYaL.css,01Sp8sB1HiL.css,01IdKcBuAdL.css,01y-XAlI+2L.css,01evdoiemkL.css,01oDR3IULNL.css,31zpKVx8wkL.css,01XPHJk60-L.css,01Jb-VvL4uL.css,21LK7jaicML.css,11L58Qpo0GL.css,21kyTi1FabL.css,01ruG+gDPFL.css,01CFUgsA-YL.css,21GwE3cR-yL.css,11zGrJZ9D2L.css,11nWWh1kQdL.css,11fAvWr3jVL.css,11WgRxUdJRL.css,01-fWz3sOQL.css,11ocrgKoE-L.css,11k89RclloL.css,11cm-8W5AzL.css,01QrWuRrZ-L.css,21pIv-yKhaL.css,01M3ZzSySfL.css,01gAR5pB+IL.css,119dKrtBoVL.css,01piEq-AdwL.css,11Z1a0FxSIL.css,01cbS3UK11L.css,21F85am0yFL.css,01giMEP+djL.css_.css?AUIClients/AmazonUI&BUIiWFOU#us.not-trident" />
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/01TAspl4CQL._RC|01SdjaY0ZsL.css,113arn8LFyL.css,41R-b8GXCLL.css,01QF+-98vcL.css,01yrViCR0ML.css,41CiKjuWxyL.css,51nx+vBGLGL.css_.css?AUIClients/CooperWebsiteUI&wmT7unlZ#not-trident" />
+
+            <script>
+(function(f,h,Q,E){function F(a){v&&v.tag&&v.tag(q(":","aui",a))}function w(a,b){v&&v.count&&v.count("aui:"+a,0===b?0:b||(v.count("aui:"+a)||0)+1)}function m(a){try{return a.test(navigator.userAgent)}catch(b){return!1}}function x(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function q(a,b,c,e){b=b&&c?b+a+c:b||c;return e?q(a,b,e):b}function G(a,b,c){try{Object.defineProperty(a,b,{value:c,writable:!1})}catch(e){a[b]=c}return c}function va(a,b){var c=a.length,
+e=c,g=function(){e--||(R.push(b),S||(setTimeout(ca,0),S=!0))};for(g();c--;)da[a[c]]?g():(A[a[c]]=A[a[c]]||[]).push(g)}function wa(a,b,c,e,g){var d=h.createElement(a?"script":"link");x(d,"error",e);g&&x(d,"load",g);a?(d.type="text/javascript",d.async=!0,c&&/AUIClients|images[/]I/.test(b)&&d.setAttribute("crossorigin","anonymous"),d.src=b):(d.rel="stylesheet",d.href=b);h.getElementsByTagName("head")[0].appendChild(d)}function ea(a,b){return function(c,e){function g(){wa(b,c,d,function(b){T?w("resource_unload"):
+d?(d=!1,w("resource_retry"),g()):(w("resource_error"),a.log("Asset failed to load: "+c));b&&b.stopPropagation?b.stopPropagation():f.event&&(f.event.cancelBubble=!0)},e)}if(fa[c])return!1;fa[c]=!0;w("resource_count");var d=!0;return!g()}}function xa(a,b,c){for(var e={name:a,guard:function(c){return b.guardFatal(a,c)},logError:function(c,d,e){b.logError(c,d,e,a)}},g=[],d=0;d<c.length;d++)H.hasOwnProperty(c[d])&&(g[d]=U.hasOwnProperty(c[d])?U[c[d]](H[c[d]],e):H[c[d]]);return g}function B(a,b,c,e,g){return function(d,
+h){function n(){var a=null;e?a=h:"function"===typeof h&&(p.start=C(),a=h.apply(f,xa(d,k,l)),p.end=C());if(b){H[d]=a;a=d;for(da[a]=!0;(A[a]||[]).length;)A[a].shift()();delete A[a]}p.done=!0}var k=g||this;"function"===typeof d&&(h=d,d=E);b&&(d=d?d.replace(ha,""):"__NONAME__",V.hasOwnProperty(d)&&k.error(q(", reregistered by ",q(" by ",d+" already registered",V[d]),k.attribution),d),V[d]=k.attribution);for(var l=[],m=0;m<a.length;m++)l[m]=a[m].replace(ha,"");var p=ia[d||"anon"+ ++ya]={depend:l,registered:C(),
+namespace:k.namespace};c?n():va(l,k.guardFatal(d,n));return{decorate:function(a){U[d]=k.guardFatal(d,a)}}}}function ja(a){return function(){var b=Array.prototype.slice.call(arguments);return{execute:B(b,!1,a,!1,this),register:B(b,!0,a,!1,this)}}}function W(a,b){return function(c,e){e||(e=c,c=E);var g=this.attribution;return function(){y.push(b||{attribution:g,name:c,logLevel:a});var d=e.apply(this,arguments);y.pop();return d}}}function I(a,b){this.load={js:ea(this,!0),css:ea(this)};G(this,"namespace",
+b);G(this,"attribution",a)}function ka(){h.body?t.trigger("a-bodyBegin"):setTimeout(ka,20)}function D(a,b){a.className=X(a,b)+" "+b}function X(a,b){return(" "+a.className+" ").split(" "+b+" ").join(" ").replace(/^ | $/g,"")}function la(a){try{return a()}catch(b){return!1}}function J(){if(K){var a={w:f.innerWidth||n.clientWidth,h:f.innerHeight||n.clientHeight};5<Math.abs(a.w-Y.w)||50<a.h-Y.h?(Y=a,L=4,(a=k.mobile||k.tablet?450<a.w&&a.w>a.h:1250<=a.w)?D(n,"a-ws"):n.className=X(n,"a-ws")):0<L&&(L--,ma=
+setTimeout(J,16))}}function za(a){(K=a===E?!K:!!a)&&J()}function Aa(){return K}function u(a,b){return"sw:"+(b||"")+":"+a+":"}function na(){oa.forEach(function(a){F(a)})}function p(a){oa.push(a)}function pa(a,b,c,e){if(c){b=m(/Chrome/i)&&!m(/Edge/i)&&!m(/OPR/i)&&!a.capabilities.isAmazonApp&&!m(new RegExp(Z+"bwv"+Z+"b"));var g=u(e,"browser"),d=u(e,"prod_mshop"),f=u(e,"beta_mshop");!a.capabilities.isAmazonApp&&c.browser&&b&&(p(g+"supported"),c.browser.action(g,e));!b&&c.browser&&p(g+"unsupported");c.prodMshop&&
+p(d+"unsupported");c.betaMshop&&p(f+"unsupported")}}"use strict";var M=Q.now=Q.now||function(){return+new Q},C=function(a){return a&&a.now?a.now.bind(a):M}(f.performance),N=C(),r=f.AmazonUIPageJS||f.P;if(r&&r.when&&r.register){N=[];for(var l=h.currentScript;l;l=l.parentElement)l.id&&N.push(l.id);return r.log("A copy of P has already been loaded on this page.","FATAL",N.join(" "))}var v=f.ue;F();F("aui_build_date:3.20.8-2021-01-11");var R=[],S=!1;var ca=function(){for(var a=setTimeout(ca,0),b=M();R.length;)if(R.shift()(),
+50<M()-b)return;clearTimeout(a);S=!1};var da={},A={},fa={},T=!1;x(f,"beforeunload",function(){T=!0;setTimeout(function(){T=!1},1E4)});var ha=/^prv:/,V={},H={},U={},ia={},ya=0,Z=String.fromCharCode(92),y=[],qa=f.onerror;f.onerror=function(a,b,c,e,g){g&&"object"===typeof g||(g=Error(a,b,c),g.columnNumber=e,g.stack=b||c||e?q(Z,g.message,"at "+q(":",b,c,e)):E);var d=y.pop()||{};g.attribution=q(":",g.attribution||d.attribution,d.name);g.logLevel=d.logLevel;g.attribution&&console&&console.log&&console.log([g.logLevel||
+"ERROR",a,"thrown by",g.attribution].join(" "));y=[];qa&&(d=[].slice.call(arguments),d[4]=g,qa.apply(f,d))};I.prototype={logError:function(a,b,c,e){b={message:b,logLevel:c||"ERROR",attribution:q(":",this.attribution,e)};if(f.ueLogError)return f.ueLogError(a||b,a?b:null),!0;console&&console.error&&(console.log(b),console.error(a));return!1},error:function(a,b,c,e){a=Error(q(":",e,a,c));a.attribution=q(":",this.attribution,b);throw a;},guardError:W(),guardFatal:W("FATAL"),guardCurrent:function(a){var b=
+y[y.length-1];return b?W(b.logLevel,b).call(this,a):a},log:function(a,b,c){return this.logError(null,a,b,c)},declare:B([],!0,!0,!0),register:B([],!0),execute:B([]),AUI_BUILD_DATE:"3.20.8-2021-01-11",when:ja(),now:ja(!0),trigger:function(a,b,c){var e=M();this.declare(a,{data:b,pageElapsedTime:e-(f.aPageStart||NaN),triggerTime:e});c&&c.instrument&&O.when("prv:a-logTrigger").execute(function(b){b(a)})},handleTriggers:function(){this.log("handleTriggers deprecated")},attributeErrors:function(a){return new I(a)},
+_namespace:function(a,b){return new I(a,b)}};var t=G(f,"AmazonUIPageJS",new I);var O=t._namespace("PageJS","AmazonUI");O.declare("prv:p-debug",ia);t.declare("p-recorder-events",[]);t.declare("p-recorder-stop",function(){});G(f,"P",t);ka();if(h.addEventListener){var ra;h.addEventListener("DOMContentLoaded",ra=function(){t.trigger("a-domready");h.removeEventListener("DOMContentLoaded",ra,!1)},!1)}var n=h.documentElement,aa=function(){var a=["O","ms","Moz","Webkit"],b=h.createElement("div");return{testGradients:function(){b.style.cssText=
+"background-image:-webkit-gradient(linear,left top,right bottom,from(#1E4),to(white));background-image:-webkit-linear-gradient(left top,#1E4,white);background-image:linear-gradient(left top,#1E4,white);";return~b.style.backgroundImage.indexOf("gradient")},test:function(c){var e=c.charAt(0).toUpperCase()+c.substr(1);c=(a.join(e+" ")+e+" "+c).split(" ");for(e=c.length;e--;)if(""===b.style[c[e]])return!0;return!1},testTransform3d:function(){var a=!1;f.matchMedia&&(a=f.matchMedia("(-webkit-transform-3d)").matches);
+return a}}}();r=n.className;var sa=/(^| )a-mobile( |$)/.test(r),ta=/(^| )a-tablet( |$)/.test(r),k={audio:function(){return!!h.createElement("audio").canPlayType},video:function(){return!!h.createElement("video").canPlayType},canvas:function(){return!!h.createElement("canvas").getContext},svg:function(){return!!h.createElementNS&&!!h.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect},offline:function(){return navigator.hasOwnProperty&&navigator.hasOwnProperty("onLine")&&navigator.onLine},
+dragDrop:function(){return"draggable"in h.createElement("span")},geolocation:function(){return!!navigator.geolocation},history:function(){return!(!f.history||!f.history.pushState)},webworker:function(){return!!f.Worker},autofocus:function(){return"autofocus"in h.createElement("input")},inputPlaceholder:function(){return"placeholder"in h.createElement("input")},textareaPlaceholder:function(){return"placeholder"in h.createElement("textarea")},localStorage:function(){return"localStorage"in f&&null!==
+f.localStorage},orientation:function(){return"orientation"in f},touch:function(){return"ontouchend"in h},gradients:function(){return aa.testGradients()},hires:function(){var a=f.devicePixelRatio&&1.5<=f.devicePixelRatio||f.matchMedia&&f.matchMedia("(min-resolution:144dpi)").matches;w("hiRes"+(sa?"Mobile":ta?"Tablet":"Desktop"),a?1:0);return a},transform3d:function(){return aa.testTransform3d()},touchScrolling:function(){return m(/Windowshop|android|OS ([5-9]|[1-9][0-9]+)(_[0-9]{1,2})+ like Mac OS X|Chrome|Silk|Firefox|Trident.+?; Touch/i)},
+ios:function(){return m(/OS [1-9][0-9]*(_[0-9]*)+ like Mac OS X/i)&&!m(/trident|Edge/i)},android:function(){return m(/android.([1-9]|[L-Z])/i)&&!m(/trident|Edge/i)},mobile:function(){return sa},tablet:function(){return ta},rtl:function(){return"rtl"===n.dir}};for(l in k)k.hasOwnProperty(l)&&(k[l]=la(k[l]));for(var ba="textShadow textStroke boxShadow borderRadius borderImage opacity transform transition".split(" "),P=0;P<ba.length;P++)k[ba[P]]=la(function(){return aa.test(ba[P])});var K=!0,ma=0,Y=
+{w:0,h:0},L=4;J();x(f,"resize",function(){clearTimeout(ma);L=4;J()});var ua={getItem:function(a){try{return f.localStorage.getItem(a)}catch(b){}},setItem:function(a,b){try{return f.localStorage.setItem(a,b)}catch(c){}}};n.className=X(n,"a-no-js");D(n,"a-js");!m(/OS [1-8](_[0-9]*)+ like Mac OS X/i)||f.navigator.standalone||m(/safari/i)||D(n,"a-ember");r=[];for(l in k)k.hasOwnProperty(l)&&k[l]&&r.push("a-"+l.replace(/([A-Z])/g,function(a){return"-"+a.toLowerCase()}));D(n,r.join(" "));n.setAttribute("data-aui-build-date",
+"3.20.8-2021-01-11");t.register("p-detect",function(){return{capabilities:k,localStorage:k.localStorage&&ua,toggleResponsiveGrid:za,responsiveGridEnabled:Aa}});m(/UCBrowser/i)||k.localStorage&&D(n,ua.getItem("a-font-class"));t.declare("a-event-revised-handling",!1);try{var z=navigator.serviceWorker}catch(a){F("sw:nav_err")}z&&(x(z,"message",function(a){a&&a.data&&w(a.data.k,a.data.v)}),z.controller&&z.controller.postMessage("MSG-RDY"));var oa=[];(function(a){var b=a.reg,c=a.unreg;z&&z.getRegistrations?
+(O.when("A","a-util").execute(function(a,b){pa(a,b,c,"unregister")}),x(f,"load",function(){O.when("A","a-util").execute(function(a,c){pa(a,c,b,"register");na()})})):(b&&(b.browser&&p(u("register","browser")+"unsupported"),b.prodMshop&&p(u("register","prod_mshop")+"unsupported"),b.betaMshop&&p(u("register","beta_mshop")+"unsupported")),c&&(c.browser&&p(u("unregister","browser")+"unsupported"),c.prodMshop&&p(u("unregister","prod_mshop")+"unsupported"),c.betaMshop&&p(u("unregister","beta_mshop")+"unsupported")),
+na())})({reg:{},unreg:{}});t.declare("a-fix-event-off",!1);w("pagejs:pkgExecTime",C()-N)})(window,document,Date);
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/61-6nKPKyWL._RC|11Y+5x+kkTL.js,510-DqpHv3L.js,11HZwqTrxmL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014VApivrFL.js,21NNXfMitSL.js,11GXfd3+z+L.js,513Ys2IkKiL.js,11AHlQhPRjL.js,01Gpt4sPPhL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,51A3Le4wx8L.js,3139553HcbL.js,015c-6CIP9L.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,016o2mNzRuL.js_.js?AUIClients/AmazonUI');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/31s4bLv314L._RC|21G215oqvfL.js,517BxxVSpbL.js,01R8r6JC4OL.js,41BHSS6dnyL.js,31LyIpRGJTL.js,51TBNtXm8DL.js,11AXlAWzdGL.js,31fm9gz-ucL.js,71il7IZKSpL.js,61L3s3gOhrL.js,315TWtHhLlL.js_.js?AUIClients/CooperWebsiteUI');
+</script>
+
+         
+         
+      
+
+      
+      
+
+      
+
+      
+         
+            <title>Prime Video Direct</title>
+         
+         
+      
+
+      
+         
+           
+           <meta name="keywords" content="video, self-publishing, Prime Video direct, vdp, indie, distribution, self-service, prime, royalties" />
+         
+         
+      
+
+      
+         
+            
+            <meta name="description" content="Prime Video Direct helps content creators and visual storytellers reach millions of Prime Video customers worldwide." />
+         
+         
+      
+
+      
+
+      
+
+
+
+
+   
+<link rel="icon"
+    href="https://images-na.ssl-images-amazon.com/images/G/01/CooperWebsite/dvp/favicon.ico"
+    type="image/x-icon">
+<link rel="shortcut icon"
+    href="https://images-na.ssl-images-amazon.com/images/G/01/CooperWebsite/dvp/favicon.ico"
+    type="image/x-icon">
+
+
+   
+
+
+      
+         
+      
+   </head>
+   <body class="landing-body a-m-us a-aui_72554-c a-aui_mm_desktop_exp_291916-c a-aui_mm_desktop_launch_291918-c a-aui_mm_desktop_targeted_exp_291928-c a-aui_mm_desktop_targeted_launch_291922-c a-aui_pci_risk_banner_210084-c a-aui_perf_130093-c a-aui_preload_261698-c a-aui_rel_noreferrer_noopener_309527-c a-aui_tnr_v2_180836-c"><div id="a-page"><script type="a-state" data-a-state="{&quot;key&quot;:&quot;a-wlab-states&quot;}">{}</script>
+      
+         
+            <div id="page-container" class="a-section a-spacing-none">
+               
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="dvp-header" class="">
+    
+
+    <div class="header-container">
+    <div class="header-nav-belt " >
+
+        <div class="header-brand">
+            
+                
+                
+                
+                
+                    <a class="a-link-normal" href="https://videodirect.amazon.co.jp/home?ref_=avd_hm_logo">
+                        <div class="header-amazon-icon dvp-sprite-prime">Prime Video Direct</div>
+                    </a>
+                
+            
+        </div>
+
+        <div class="header-utility">
+            
+
+            
+                
+                
+                <div class="a-popover-preload" id="a-popover-languagesPopoverList">
+                     <ul id="dvp-languages-popover-list" class="a-unordered-list a-nostyle a-vertical">
+                         
+                            <li><span class="a-list-item">
+                                
+                                    
+                                        <a class="a-link-normal header-popover-link" href="?language=it_IT&amp;ref_=avd_hm_lan_it_IT">Italiano</a>
+                                    
+                                    
+                                
+                            </span></li>
+                        
+                            <li><span class="a-list-item">
+                                
+                                    
+                                    
+                                        <a class="a-link-normal aok-hidden header-popover-link" href="?language=en_US&amp;ref_=avd_hm_lan_en_US">English</a>
+                                        
+                                    
+                                
+                            </span></li>
+                        
+                            <li><span class="a-list-item">
+                                
+                                    
+                                        <a class="a-link-normal header-popover-link" href="?language=pt_BR&amp;ref_=avd_hm_lan_pt_BR">Português (Brasil)</a>
+                                    
+                                    
+                                
+                            </span></li>
+                        
+                            <li><span class="a-list-item">
+                                
+                                    
+                                        <a class="a-link-normal header-popover-link" href="?language=es_ES&amp;ref_=avd_hm_lan_es_ES">Español</a>
+                                    
+                                    
+                                
+                            </span></li>
+                        
+                            <li><span class="a-list-item">
+                                
+                                    
+                                        <a class="a-link-normal header-popover-link" href="?language=fr_FR&amp;ref_=avd_hm_lan_fr_FR">Français</a>
+                                    
+                                    
+                                
+                            </span></li>
+                        
+                            <li><span class="a-list-item">
+                                
+                                    
+                                        <a class="a-link-normal header-popover-link" href="?language=ja_JP&amp;ref_=avd_hm_lan_ja_JP">日本語</a>
+                                    
+                                    
+                                
+                            </span></li>
+                        
+                            <li><span class="a-list-item">
+                                
+                                    
+                                        <a class="a-link-normal header-popover-link" href="?language=de_DE&amp;ref_=avd_hm_lan_de_DE">Deutsch</a>
+                                    
+                                    
+                                
+                            </span></li>
+                        
+                    </ul>
+                </div>
+            
+
+            <ul class="a-horizontal a-size-mini">
+                
+                
+                
+                
+                    <li>
+                        <a class="a-link-normal" href="https://videodirect.amazon.co.jp/home/help?ref_=avd_hm_hd_sup">
+                            <span class="header-capitalize-text">
+                                <span>Support</span>
+                            </span>
+                        </a>
+                    </li>
+                
+                
+                    <li>
+                        <span>
+                            <span class="a-declarative" data-action="a-popover" data-a-popover="{&quot;closeButton&quot;:&quot;false&quot;,&quot;activate&quot;:&quot;onclick&quot;,&quot;name&quot;:&quot;languagesPopoverList&quot;,&quot;position&quot;:&quot;triggerBottom&quot;}">
+                                <a class="a-link-normal" href="javascript:void(0)">
+                                    <span class="header-utility-button user-account-button">
+                                        <span class="a-size-mini">English</span>
+                                    </span>
+                                    <span class="dvp-sprite header-icon-popover">
+                                    </span>
+                                </a>
+                            </span>
+                        </span>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+
+    
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+<div style="margin: 0 auto; min-width: 880px; max-width: 100%; padding: 0;">
+   
+
+
+
+
+   <div class="slot" id="main-0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="dvp-landing">
+	<div id="dvp-landing-main">
+		<div class="a-container dvp-landing-container">
+			<div class="dvp-landing-intro a-padding-extra-large a-text-center">
+				<h1 class="a-spacing-extra-large dvp-landing-heading">
+					Helping studios, distributors, and independent filmmakers reach audiences worldwide.
+				</h1>
+				
+				
+					
+					
+					
+					
+						<span class="a-button a-spacing-large a-button-primary dvp-landing-button-large"><span class="a-button-inner"><a href="https://videodirect.amazon.co.jp/home/sign-in?ref_=avd_hm_cr_acc" class="a-button-text" role="button">
+							Create your free account
+						</a></span></span>
+						<p class="a-size-small dvp-landing-registered">
+							Already have an account?
+							<a class="a-link-normal" href="https://videodirect.amazon.co.jp/home/sign-in?ref_=avd_hm_si">
+								Sign in
+							</a>
+						</p>
+					
+				
+				<hr aria-hidden="true" class="a-spacing-double-large a-divider-normal a-spacing-top-double-large dvp-landing-intro-divider"/>
+				<h2 class="a-size-large">
+					What makes Prime Video Direct different?
+				</h2>
+                <video controls
+                    src="https://m.media-amazon.com/images/I/D1UGJZPQjKS.mp4"
+                    poster="https://m.media-amazon.com/images/G/01/CooperWebsite/dvp/sizzle-reel-thumbnail._CB1534538866_.png"
+                    width="620"
+                    preload="metadata"
+                />
+			</div>
+		</div>
+	</div>
+
+	<div class="a-container dvp-landing-container dvp-landing-description">
+		<div class="a-row a-padding-double-large">
+			<div class="a-column a-span6 a-text-center">
+				<div class="a-row">
+					
+					<img alt="Prime Video on a variety of devices" src="https://m.media-amazon.com/images/G/01/CooperWebsite/dvp/avdp-devices-2.png" class="dvp-landing-full-width"/>
+				</div>
+			</div>
+			<div class="a-column a-span6 a-text-left a-span-last">
+				<ul class="a-unordered-list a-nostyle a-vertical">
+				<li><span class="a-list-item">
+					<h2 class="a-size-medium">Flexibility</h2>
+					<p class="a-spacing-large a-color-secondary">For each title, you can choose to earn royalties based on hours streamed by Prime members, a revenue share for rentals, purchases, monthly channels, or ad impressions—or any combination of these options.</p>
+				</span></li>
+				<li><span class="a-list-item">
+					<h2 class="a-size-medium">Reach</h2>
+					<p class="a-spacing-large a-color-secondary">Make your titles available through Prime Video in the U.S. and other locations—on all supported devices—Fire TV, phones, tablets, game consoles, Smart TVs and from the Web.</p>
+				</span></li>
+				<li><span class="a-list-item">
+					<h2 class="a-size-medium">Optimization</h2>
+					<p class="a-spacing-large a-color-secondary">With performance metrics such as minutes streamed, number of subscribers, projected revenue, and payment history, you can optimize the way you offer and promote your titles.</p>
+				</span></li>
+				</ul>
+			</div>
+		</div>
+		<hr aria-hidden="true" class="a-divider-normal"/>
+		<div class="a-row a-spacing-large a-padding-double-large">
+			<div class="dvp-landing-quote">
+				<div class="a-column a-span4">
+					
+
+
+
+
+
+
+<blockquote>
+	<p class="a-color-tertiary">
+		"PVD provides us with the flexibility to easily revise metadata ensuring audiences see our content at its absolute best."
+	</p>
+</blockquote>
+<p class="a-size-small a-color-secondary">
+	<img alt="Michael Madison" src="https://m.media-amazon.com/images/G/01/CooperWebsite/dvp/quote-madison.png" class="dvp-landing-headshot"/>
+	<strong>Michael Madison</strong>
+	<br>
+	Co-Founder
+	<br>
+	Indie Rights
+</p>
+
+				</div>
+				<div class="a-column a-span4">
+					
+
+
+
+
+
+
+<blockquote>
+	<p class="a-color-tertiary">
+		“We have the control to create unique distribution strategies that reflect the changing ways in which our audiences discover our films.”
+	</p>
+</blockquote>
+<p class="a-size-small a-color-secondary">
+	<img alt="Peter Goldwyn" src="https://m.media-amazon.com/images/G/01/CooperWebsite/dvp/quote-peter-goldwyn.png" class="dvp-landing-headshot"/>
+	<strong>Peter Goldwyn</strong>
+	<br>
+	President
+	<br>
+	Samuel Goldwyn Films
+</p>
+
+				</div>
+				<div class="a-column a-span4 a-span-last">
+					
+
+
+
+
+
+
+<blockquote>
+	<p class="a-color-tertiary">
+		"With PVD we are bringing content from our deep library of world-class shows to Prime Video’s global audience."
+	</p>
+</blockquote>
+<p class="a-size-small a-color-secondary">
+	<img alt="Wim Ponnet" src="https://m.media-amazon.com/images/G/01/CooperWebsite/dvp/quote-ponnet.png" class="dvp-landing-headshot"/>
+	<strong>Wim Ponnet</strong>
+	<br>
+	Chief Strategy &amp; Commercial Officer
+	<br>
+	Endemol Shine Group
+</p>
+
+				</div>
+			</div>
+		</div>
+		<hr aria-hidden="true" class="a-divider-normal"/>
+	</div>
+</div>
+
+</div>
+
+   <div class="slot empty" id="main-1"></div>
+
+   <div class="slot empty" id="main-2"></div>
+
+   <div class="slot empty" id="main-3"></div>
+
+   <div class="slot empty" id="main-4"></div>
+
+
+</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="dvp-footer" class="a-color-tertiary">
+    <div class="a-container dvp-footer-container">
+        <div class="a-row a-spacing-medium">
+            <div class="a-column a-span3 dvp-footer-logo">
+                <div class="dvp-sprite-prime dvp-logo">Prime Video Direct</div>
+            </div>
+
+            <div class="a-column a-span6 dvp-footer-about">
+                <p>Helping rights holders, from independent filmmakers to major studios, reach Amazon global audiences across hundreds of devices with the same distribution options and delivery quality available to major motion picture and television studios.</p>
+
+                
+                    <ul class="a-unordered-list a-nostyle a-horizontal dvp-footer-list a-size-mini"></ul>
+                
+                <ul class="a-unordered-list a-nostyle a-horizontal">
+                    <li><span class="a-list-item">
+                        <a class="a-link-normal" href="https://www.facebook.com/PrimeVideoDirect">
+                        <div class="dvp-sprite dvp-icon-facebook" ></div>
+                            Find us on Facebook
+                        </a>
+                    </span></li>
+                    <li><span class="a-list-item">
+                        <a class="a-link-normal" href="https://www.linkedin.com/company/prime-video-direct">
+                        <div class="dvp-sprite dvp-icon-linkedin" ></div>
+                            Follow us on LinkedIn
+                        </a>
+                    </span></li>
+                    <li><span class="a-list-item">
+                        <a class="a-link-normal" href="https://videodirect.amazon.co.jp/home/help?ref_=avd_hm_ft_sup">Support</a>
+                    </span></li>
+                    <li><span class="a-list-item">
+                        <a class="a-link-normal" href="https://videodirect.amazon.co.jp/home/agreement?ref_=avd_hm_ft_la">Digital License Agreement</a>
+                    </span></li>
+                </ul>
+
+                <span class="a-size-mini">&#169; 2021 Amazon.com, Inc. or its affiliates</span>
+            </div>
+
+            <div class="a-column a-span3 dvp-affiliates a-span-last">
+                <ul class="a-unordered-list a-nostyle a-vertical">
+                    <li><span class="a-list-item">
+                        <a class="a-link-normal a-text-normal" href="http://pro.imdb.com/">
+                            <div class="dvp-sprite dvp-logo-imdbpro">imdbpro.com</div>
+                            <span class="a-size-small a-color-tertiary">Cast and promote your film</span>
+                        </a>
+                    </span></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+   
+            </div>
+         
+         
+      
+
+      <div class="a-popover-preload" id="a-popover-element">
+         
+
+
+
+
+   <div class="slot empty" id="popover-0"></div>
+
+   <div class="slot empty" id="popover-1"></div>
+
+   <div class="slot empty" id="popover-2"></div>
+
+   <div class="slot empty" id="popover-3"></div>
+
+   <div class="slot empty" id="popover-4"></div>
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+      <div id="progress-popover" data-jele-preferences="{&quot;enableClose&quot;:true,&quot;currentWidthCss&quot;:&quot;system-popover-width&quot;,&quot;width&quot;:&quot;400px&quot;}" class="a-section a-spacing-none aok-hidden element-popover">
+
+      
+      <div>
+         
+      <div id="progress-popover-working" class="a-section progress-state">
+         <div class="a-section">
+            <span id="progress-popover-working-text"></span><br/>
+            <img id="loading-image" src="https://images-na.ssl-images-amazon.com/images/G/01/tyler-website/spinner._V375598020_.gif" />
+          </div>
+      </div>
+      <div id="progress-popover-uploading" class="a-section progress-state">
+         <div id="progress-popover-uploading-text" class="a-section"></div>
+         <img src="https://images-na.ssl-images-amazon.com/images/G/01/tyler-website/spinner._V375598020_.gif" />
+         <div id="progress-popover-uploading-bar-container" class="a-section">
+            <div id="progress-popover-uploading-bar" class="a-section"></div>
+         </div>
+      </div>
+      <div id="progress-popover-success" class="a-section progress-state">
+         <div class="a-section"><span id="progress-popover-success-text"></span></div>
+      </div>
+   
+      </div>
+
+      
+   </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+      <div id="error-popover" data-jele-preferences="{&quot;enableClose&quot;:false,&quot;currentWidthCss&quot;:&quot;system-popover-width&quot;,&quot;width&quot;:&quot;400px&quot;}" class="a-section a-spacing-none aok-hidden element-popover jele-modal-popover-final">
+
+      
+      <div>
+         
+      Internal Server error! Please try again
+      
+   
+      </div>
+
+      
+   </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+      <div id="expired-popover" data-jele-preferences="{&quot;enableClose&quot;:false,&quot;currentWidthCss&quot;:&quot;system-popover-width&quot;,&quot;width&quot;:&quot;400px&quot;}" class="a-section a-spacing-none aok-hidden element-popover jele-modal-popover-final">
+
+      
+         
+         <span class="aok-hidden jele-modal-header">
+            Your session has expired
+         </span>
+      
+      <div>
+         
+      <p>Please sign in to continue</p>
+      <a data-action="expire-page jele-expire-page" class="a-link-normal a-link-child a-declarative" href="#">
+         Sign In
+      </a>
+   
+      </div>
+
+      
+   </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+      <div id="flash-popover" data-jele-preferences="{&quot;enableClose&quot;:false,&quot;currentWidthCss&quot;:&quot;system-popover-width&quot;,&quot;width&quot;:&quot;400px&quot;}" class="a-section a-spacing-none aok-hidden element-popover jele-modal-popover-final">
+
+      
+      <div>
+         
+      <p></p>
+      <a class="a-link-normal" target="_blank" rel="noopener noreferrer noopener" href="http://www.adobe.com/support/flashplayer/downloads.html">
+         
+      </a>
+   
+      </div>
+
+      
+   </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+      <div id="slot-edit-popover" data-jele-preferences="{&quot;enableClose&quot;:true,&quot;currentWidthCss&quot;:&quot;application-popover-width&quot;,&quot;width&quot;:&quot;600px&quot;}" class="a-section a-spacing-none aok-hidden element-popover">
+
+      
+         
+         <span class="aok-hidden jele-modal-header">
+            edit
+         </span>
+      
+      <div>
+         
+      </div>
+
+      
+   </div>
+   
+
+
+         
+      </div>
+
+      
+         <input type="hidden" name="page-type" value="dv-cooper-landing" id="page-type"/>
+         <input type="hidden" name="page-ident" value="landing" id="page-ident"/>
+      
+
+      
+
+      
+      
+      
+      <script>
+P.when('A', 'Jele', 'JeleScripterReady', 'ready').execute(function(A, Jele, JeleScripterReady){
+P.register('JeleScripterComplete');
+Jele.Scripter.handle([{"lookup":["Jele"],"actions":[{"invokee":"extendAppConfig","args":[{"devMode":false,"richClientSideLogReporting":true}]}]},{"lookup":["Jele","Log"],"actions":[{"invokee":"init","args":[]}]},{"lookup":["Jele","Scripter","ErrorHandling"],"actions":[{"invokee":"init","args":[]}]},{"lookup":["A"],"actions":[{"invokee":"trigger","args":["jele:value","JelePageProperties",{"pageType":"dv-cooper-landing","pageId":"landing","locale":"en_US"}]}]},{"lookup":["Jele","SlotHandler"],"actions":[{"invokee":"slotComplete","args":["main-0",true]}]}]);
+});
+</script>
+      
+         
+      
+
+      
+      
+
+   </div></body>
+</html>
+
+
+```
