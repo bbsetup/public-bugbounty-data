@@ -1,0 +1,131 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>AutoGraf Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body bgcolor="white" text="#333333"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td rowspan="5" align="center">&nbsp;</td>
+    <td colspan="3" align="center"><img src="img/agtitle.jpg" alt="AutoGraf" width="455" height="176" /><br /></td>
+    <td rowspan="5" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="496" valign="top"><p class="header">Introducing AutoGraf, a whole new metaphor for Cocoa with automatic, self-updating diagrams of your classes, and intelligent, visual browsing of code documentation.</p>
+		<p class="header"><img src="img/info_icon.gif" alt="New" width="16" height="16" align="top" /> Side-by-side Comparison with Xcode 2 (AutoGraf came first)</p>
+		<table width="90%" border="0" cellpadding="1" cellspacing="1" bgcolor="#999999">
+  <tr bgcolor="white">
+    <td width="200" align="center" bgcolor="white"><img src="img/ag_vs_xcode/ag_t.jpg" alt="AutoGraf screen versus..." width="178" height="150" /></td>
+    <td width="200" align="center"><img src="img/ag_vs_xcode/xcode2_t.jpg" alt="Xcode 2 screen" width="178" height="150" /></td>
+  </tr>
+  <tr bgcolor="white">
+    <td valign="top">AutoGraf is an <font color="#FF0000">automatic</font> class diagram (UML) generator for Objective-C. Generated diagrams are rendered using Quartz with transparency, suitable for presentations or print. On recent systems, class <font color="#FF0000">diagrams update</font> automatically <font color="#FF0000">as you code</font>... (AutoGraf Readme)</td>
+    <td valign="top">Then the modeling and design system <font color="#FF0000">automatically</font> creates class diagrams that not only let you view, but also navigate your code. Xcode can even <font color="#FF0000">update the diagrams as your code changes</font>... (Xcode 2 homepage)</td>
+  </tr>
+  <tr bgcolor="white">
+    <td align="center" valign="top"><b>AutoGraf</b></td>
+    <td align="center" valign="top"><b>Xcode</b></td>
+  </tr>
+</table>
+<br />
+		<p class="header">The AutoGraf Advantage</p>
+      <a href="img/agbigshot1.jpg"><img src="img/agshot1.jpg" alt="Browsing an AutoGraf diagram" width="244" height="200" border="0" align="right" /></a>
+      <p>Think of AutoGraf as the best way to understand your code. Using the AutoDoc code parser that is optimized for Objective-C, AutoGraf reads your existing Cocoa code and generates UML class diagrams rendered beautifully using Quartz and the <a href="http://www.research.att.com/sw/tools/graphviz/">AT&amp;T Graphviz</a> engine. But AutoGraf is hardly a glorified PDF generator.</p>
+      <p class="header">Live Diagrams</p>
+    <p>All text on your diagrams are &quot;live.&quot; Already feeling lost in the Foundation toolkit with just over 100 classes? Begin typing <code>NSAttributed</code> and Find-As-You-Type scrolls to <code>NSAttributedString</code>. Click on a class or method name to take you to the API docs for the class. Integrated doc browsing is powered by AutoGraf's sister app, <a href="http://docoabrowser.sourceforge.net/">DocoaBrowser</a>.</p>
+    <p class="header">Time is Gold</p>
+    <img src="img/agbolt.gif" alt="Bolt" width="56" height="48" align="left" />
+    <p>Face it, you are spoiled with Xcode's go-go-go features like fix-and-continue, and predictive compile. Now with AutoGraf, a new feature called Bolt keeps your diagrams synchronized with your code so you don't have to press a button every time you edit or add a file.</p>
+    <p class="header">The Simple answer is the right one</p>
+    <p>You'll find AutoGraf's interface surprisingly simple, almost like a web browser for your code. That's because no developer wants to waste thought and screen space on several dozen buttons, however pretty they may be. But AutoGraf is no toddler's toy. All Cocoa developers and project managers will appreciate the configurable file exclusion list, contextual menus, printable class comments, export in Keynote-friendly transparent images, and easy navigation via grab scrolling, keyboard shortcuts, or Find-As-You-Type.</p></td>
+    <td width="16" rowspan="4">&nbsp;</td>
+    <td width="188" rowspan="4" valign="top"><table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#C8E8EE">
+      <tr>
+        <td class="header">&nbsp;Download AutoGraf</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#EEFDFF"><p><a href="http://prdownloads.sourceforge.net/autograf/AutoGraf1.0.1.dmg?download"><img src="img/agicnbig.gif" alt="AutoGraf Download Icon" width="64" height="64" border="0" /></a><br />
+            <small><a href="http://prdownloads.sourceforge.net/autograf/AutoGraf1.0.1.dmg?download">Version 1.0.1 for<br />
+            Mac OS X 10.3</a><br />
+<a href="http://prdownloads.sourceforge.net/autograf/AutoGraf1.0.2b.dmg?download">Try 1.0.2b</a></small></p></td>
+      </tr>
+      <tr>
+        <td class="header">&nbsp;AutoGraf Features</td>
+      </tr>
+      <tr>
+        <td bgcolor="#EEFDFF"><table width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tr>
+    <td width="16" valign="top"><img src="img/bullet.gif" width="14" height="16" alt="*" /></td>
+    <td valign="top">Xcode/Project Builder Integration (1.0.2b)</td>
+  </tr>
+  <tr>
+    <td width="16" valign="top"><img src="img/bullet.gif" width="14" height="16" alt="*" /></td>
+    <td valign="top">UML class diagrams update as you code</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="img/bullet.gif" width="14" height="16" alt="*" /></td>
+    <td valign="top">Optimized for Objective-C</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="img/bullet.gif" width="14" height="16" alt="*" /></td>
+    <td valign="top">Attractive and automatic laying out of classes</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="img/bullet.gif" width="14" height="16" alt="*" /></td>
+    <td valign="top">Smooth zooming from 10% to 1000%</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="img/bullet.gif" width="14" height="16" alt="*" /></td>
+    <td valign="top">Click on class or method names for integrated API browsing. Full AppKit, Foundation, WebKit support</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="img/bullet.gif" width="14" height="16" alt="*" /></td>
+    <td valign="top">Developer Friendly - 
+    Extensible plugin architecture, GPL Open Source</td>
+  </tr>
+</table>
+</td>
+      </tr>
+      <tr>
+        <td class="header">&nbsp;Support</td>
+      </tr>
+      <tr>
+        <td bgcolor="#EEFDFF"><table width="100%" border="0" cellspacing="3" cellpadding="0">
+          <tr>
+            <td width="16" valign="top">&nbsp;</td>
+            <td valign="top">Support as well as full source code is available at the SourceForge <a href="http://sourceforge.net/projects/autograf/">project home</a>.</td>
+      </tr></table></td>
+    </tr>
+    <tr>
+        <td class="header">&nbsp;Contact</td>
+      </tr>
+      <tr>
+        <td bgcolor="#EEFDFF"><table width="100%" border="0" cellspacing="3" cellpadding="0">
+          <tr>
+            <td width="16" valign="top">&nbsp;</td>
+            <td valign="top"><small>dirkpitt2050 at users&#46;sf&#46;net</small></td>
+          </tr>
+          <tr>
+            <td valign="top">&nbsp;</td>
+            <td valign="top"><small>ilja_iwas at users&#46;sf&#46;net</small></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p><hr size="1" noshade="noshade" /></td>
+  </tr>
+  <tr>
+    <td><div align="center"><a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=autograf&amp;type=4" alt="SourceForge.net Logo" width="125" height="37" border="0" align="middle" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://validator.w3.org/check/referer"><img src="img/valid-xhtml10.gif" alt="Valid XHTML 1.0" width="88" height="31" border="0" align="middle" /></a><br /><br />
+<small>Copyright 2004-5 Ilja Iwas, Da Woon Jung</small></div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
+```
