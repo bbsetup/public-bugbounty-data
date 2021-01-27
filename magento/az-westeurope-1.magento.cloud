@@ -1,0 +1,41 @@
+```<!DOCTYPE html>
+<!--[if lte IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="platformApp" ng-controller="MetaCtrl"> <!--<![endif]-->
+  <head>
+      <meta charset="utf-8">
+      <base href="/">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title ng-bind="PageMeta.title()"></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+      <link rel="shortcut icon" ng-href="{{ PageMeta.favicon() }}" type="image/ico">
+      <link rel="stylesheet" href="styles/all.css">
+
+      <link rel="stylesheet" type="text/css" ng-href="{{ PageMeta.styles()}}">
+      <link rel="stylesheet" href="styles/user-widget.css">
+  </head>
+  <body gtm>
+  <noscript>
+    <div class="no-script"><div class="branding"></div>
+      <p>You must have JavaScript enabled to view this page.</p>
+    </div>
+  </noscript>
+  <div ng-cloak>
+    <!--[if lte IE 8]>
+    <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="scripts/outdated.js"></script>
+    <![endif]-->
+
+    <div ng-include="'views/navbar.html'"></div>
+    <div class="container"><ui-view></ui-view></div>
+
+    <script src="scripts/all.js"></script>
+
+    <div ng-include="'views/joyride.html'"></div>
+  </div>
+  </body>
+</html>
+```
