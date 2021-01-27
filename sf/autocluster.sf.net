@@ -1,0 +1,107 @@
+```<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <title>The Automatic Clustering Project</title>
+
+</head>
+<body>
+&nbsp;
+<table CELLSPACING=0 CELLPADDING=0 WIDTH="95%" NOSAVE >
+<tr NOSAVE>
+<td NOSAVE>
+<center>
+<h1>
+The Automatic Clustering Project</h1></center>
+
+<center><img SRC="images/logo.jpg" ALT="The Automatic Clustering Project" BORDER=0 height=149 width=170></center>
+<P>
+<h2>Project Status</h2>
+<BR>
+I'm afraid the project has been put on the back burner for the moment as
+me & Jon get our exams out of the way.  However, if you're interested
+don't hesitate to say!  It would be great if people got some ideas
+knocking around in our absence.  Thanks for your patience!
+<P>
+<h3>
+What is it?</h3>
+The Automatic Clustering Project (or '<b><font face="Courier">autocluster</font></b>')
+is a project designed to harness the power of distributed computing using
+open source software. The ultimate aim of autocluster is to produce a bootable
+CD to allow a user to boot a network straight into a fully functional cluster.
+<p>The power of clustering can be used to great effect, allowing the user
+to process complex calculations quickly. Many schools, colleges and universities
+have large numbers of computers on fast networks, but each machine only
+runs on it's own power. The Automatic Clustering Project is intended to
+give system administrators a way to turn their networks into 'clusters
+on demand', so they can acceas the extra computing power when required.
+<h3>
+What stage is it at?</h3>
+The Automatic Cluster Project is currently an idea on a piece of paper,
+but hopefully, with the help of the tools avalable at <a href="http://sourceforge.net">SourceForge</a>
+the project will soon be underway. <a href="http://sourceforge.net/projects/autocluster/">Visit
+to check it out now.</a>
+<h3>
+Problems to overcome - Can you help?</h3>
+Once the project gets underway and starts producing disks, we are really
+going to need a way to upload them to a server without it taking all week
+and a place to store them all. The help of somone in the UK with a fast
+connection would be ideal. Email me at <a href="mailto:gozzer@users.sourceforge.net">gozzer@users.sourceforge.net</a>
+if you think you can help. I doubt that this will be for a while, however...
+:-)
+<p>Jamie Gosling
+<br><a href="mailto:gozzer@users.sourceforge.net">gozzer@users.sourceforge.net</a>
+<center><A href="http://sourceforge.net"><IMG src="http://sourceforge.net/sflogo.php?group_id=25532" width="88" height="31" border="0" alt="SourceForge Logo"></A>
+<p><a href="http://slashdot.org"><img SRC="images/slashdot.gif" ALT="/." BORDER=0 height=74 width=80></a></center>
+</td>
+</tr>
+</table>
+
+<FORM METHOD="POST" ACTION="http://www.netacclaim.co.uk/FormMail.pl">
+<input type=hidden name="required" value="realname,email">
+<input type=hidden name="env_report" value="REMOTE_HOST,HTTP_USER_AGENT">
+<input type=hidden name="missing_fields_redirect" value="http://www.netacclaim.co.uk/autoclustererror.html">
+<input type=hidden name="redirect" value="http://www.netacclaim.co.uk/autoclusterthanks.html">
+<input type=hidden name="recipient" value="jon@netacclaim.co.uk, gozzer@users.sourceforge.net">
+<input type=hidden name="subject" value="Autocluster feedback">
+
+<center><table COLS=2 WIDTH="80%" BGCOLOR="#FFFFFF" NOSAVE >
+<tr BGCOLOR="#FFFF99" NOSAVE>
+<td COLSPAN="2" NOSAVE><b><font size=+1>Register your interest now!</font></b></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td><i>Your name:</i>
+<br><input type="text" name="realname" size="35"></td>
+
+<td><i>Your email address:</i>
+<br><input type="text" name="email" size="35"></td>
+</tr>
+
+<tr NOSAVE>
+<td COLSPAN="2" NOSAVE>
+<center><input type="checkbox" name="maillist" value="yes" checked maillist>&nbsp;&nbsp; Sign me up to your mailing list&nbsp;&nbsp;&nbsp;
+<input type="checkbox" name="advice" value="yes" advice>&nbsp;&nbsp; Email me if you need advice&nbsp;&nbsp; <input type="checkbox" name="develop" value="yes" develop>&nbsp;&nbsp;
+I'm interested in developing&nbsp;</center>
+</td>
+
+<td></td>
+</tr>
+
+<tr NOSAVE>
+<td COLSPAN="2" NOSAVE>Your specialist area(s) of technical knowledge/experience:
+<br><input type="text" name="specialism" size="80">
+<br>Any other comments/enquiries/suggestions:
+<br><textarea name="comments" rows="3" cols="80"></textarea></td>
+<br><br>
+
+<td></td>
+</tr>
+<td><center><INPUT TYPE="SUBMIT" VALUE="Submit"></center></td>
+</table></center>
+</form>
+</body>
+</html>
+```
