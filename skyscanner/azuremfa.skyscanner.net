@@ -1,0 +1,148 @@
+```
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	Multi-Factor Authentication User Portal: User Log In
+</title>
+  <script src="javascripts/RoboHelp_CSH.js" type="text/javascript"></script>
+  <script src="javascripts/common.js" type="text/javascript"></script>
+<link href="App_Themes/Default/StyleSheet.css" type="text/css" rel="stylesheet" /></head>
+<body>
+  <form name="aspnetForm" method="post" action="./login.aspx" id="aspnetForm" autocomplete="off">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="529E2CAA" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="+ps1BafZUCZbAGOACnulkpB5m548Cf7qLAvGJFhiyiQZcX1+CfvTr00CFnFEHj0lzC1Z281lh+7DMf30cZD9FGMfs3BmKuwiowi9qWo+taKSz02HKmwth2H7O1gEhh1wWwkGzgm0mSR3gbp+ukUF8UjCynr6QYuPVdtkd0FA3Rz4SQUw1THStq9HNP8Fl4wZJom6mP2aHhLBOG0stVTqbPRtRFwvY0yOpwZy+Qfd75wbcUcz49byqYQt3TU/BGIpcP+44931rZiF/8Il5U7D47ffz9prlZUzFCdF0UWUjWLpwtd5JHDFXsyUEWdv4uWbzcYPvP/z+0i0LOVEvpnr+PuEla3dQ0wywyQXAaICDncZ0mKoLEbI5Vw51qnR1slRtQ/BIMM5c85u6GUxU5h4E961e5QW33LAnA49EYiCPqJTHqj2SftmgseqPG1I+Swo7Xtf3OlCf+Z6TEDfRFcXQgUrN5tC0uhju2fxV/9UBdtQMTBWMHGOU5dv7AMO5JUNORfkwtNGbB8xXymOioKps5xGmWDQ23l40KvPzQ5sDcPbjQWNiYEwU6xVmadHi8v9bABH011kwU+5oAE24K4WDYqvn2IncF84H0vxDjZIM+AWHnaXwNm6fNgBbESmgs6NAY/Neysc/J1j4UL7iy2KMo8sR8HXBbd8ohFix8ufPQrKvviVNdqDSn1+1ivr9nzuA5RsM8INPCqDfdgMPHs44fZviB2ZlAZQyAmZPN/wMFFU58b6x3UwAivzWnffm1OLnqZ1TxFXoLYiWMU0dxFx6ZGNP17RSc0mLZha1/RJrMlsgJ+OYKpl2n+Y9q18mnjoNhRkOU6AHSkTkATKISmLy394RLBrOl2ozEnyAd7G0hD7dlB+O8Hu88LIr0mHDkzijhcG3uJaQAg6PXJxoK/vA6ltL9uK51EAqUtq/p6/D4Vqsio9nHkX6TRaOfjPnsG8iNZkvChe5A714r46MULiZeO0ZrVmPV3v7q9rZ3qzcqNI84YWbR6JOI/IBSl54IKQ6D4nIaoPaF7uHPz7YgqWqFbG5VHbOpZT4p8cVknbUjAtKersNm6i86Zgct7hph6Tkqo7V/6FsbG1LZ2R+/+oNw==" />
+	<div class="divTable" id='layoutTable' cellspacing='0' cellpadding='0'>
+		<div class="divTableRow">
+			<div class="divTableCell" id="leftCol">
+				<div id="pfLogo"><a href="main.aspx" tabIndex="350"><img src="images/spacer.gif" alt="PhoneFactor" width="220" height="170" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></a></div>
+				<!-- start left navigation -->
+                
+    
+        
+		    <div id="ftr" role="contentinfo">
+		      <span id="ctl00_navigationMenu_navigation_menu1_lblVersion">Version</span> <span id="ctl00_navigationMenu_navigation_menu1_lblVersionValue">8.0.1</span><br />
+			    <span id="ctl00_navigationMenu_navigation_menu1_lblCopyright">© 2018 Microsoft. All rights reserved.</span>
+		    </div>
+
+				<!-- end left navigation -->
+			</div>
+
+			<div class="divTableCell" id="rightCol">
+				<div id="navBar" class="navBar">
+                    
+    <span id="ctl00_topMenu_lblLanguage" role="form">Language:</span> <select name="ctl00$topMenu$cboLanguage" id="cboLanguage">
+	<option value="ar">ar: العربية</option>
+	<option value="bg">bg: български</option>
+	<option value="ca">ca: catal&#224;</option>
+	<option value="cs">cs: čeština</option>
+	<option value="da">da: dansk</option>
+	<option value="de">de: Deutsch</option>
+	<option value="el">el: Ελληνικά</option>
+	<option selected="selected" value="en">en: English</option>
+	<option value="es">es: espa&#241;ol</option>
+	<option value="et">et: eesti</option>
+	<option value="eu">eu: euskara</option>
+	<option value="fi">fi: suomi</option>
+	<option value="fr">fr: fran&#231;ais</option>
+	<option value="gl">gl: galego</option>
+	<option value="he">he: עברית</option>
+	<option value="hi">hi: हिंदी</option>
+	<option value="hr">hr: hrvatski</option>
+	<option value="hu">hu: magyar</option>
+	<option value="id">id: Indonesia</option>
+	<option value="it">it: italiano</option>
+	<option value="ja">ja: 日本語</option>
+	<option value="kk">kk: қазақ тілі</option>
+	<option value="ko">ko: 한국어</option>
+	<option value="lt">lt: lietuvių</option>
+	<option value="lv">lv: latviešu</option>
+	<option value="ms">ms: Bahasa Melayu</option>
+	<option value="nl">nl: Nederlands</option>
+	<option value="no">no: norsk</option>
+	<option value="pl">pl: polski</option>
+	<option value="pt-BR">pt-BR: portugu&#234;s (Brasil)</option>
+	<option value="pt-PT">pt-PT: portugu&#234;s (Portugal)</option>
+	<option value="ro">ro: rom&#226;nă</option>
+	<option value="ru">ru: русский</option>
+	<option value="sk">sk: slovenčina</option>
+	<option value="sl">sl: slovenščina</option>
+	<option value="sr-Cyrl-RS">sr-Cyrl-RS: српски (Србија)</option>
+	<option value="sr-Latn-RS">sr-Latn-RS: srpski (Srbija)</option>
+	<option value="sv">sv: svenska</option>
+	<option value="th">th: ไทย</option>
+	<option value="tr">tr: T&#252;rk&#231;e</option>
+	<option value="uk">uk: українська</option>
+	<option value="vi">vi: Ti&#234;́ng Việt</option>
+	<option value="zh-HANS">zh-HANS: 中文(简体)</option>
+	<option value="zh-HANT">zh-HANT: 中文(繁體)</option>
+
+</select>
+
+				</div>					
+                <div id="subHdr">
+                    
+    <a href="javascript:RH_ShowHelp(0, 'help/PhoneFactor_User_Portal.htm>myWindow', HH_HELP_CONTEXT, 6);" id="ctl00_helpLink_lnkHelp" style="color:#804028; text-decoration:none">
+      <span id="ctl00_helpLink_lblHelp">Help</span>
+    </a>
+
+                </div>
+				<div>
+				    <!-- start content -->
+                    
+    <div id="ctl00_pageContent_divInstructions" class="divInstructions">
+	    <div class="divInstructionsLeft">
+		    <div id="banner" role="banner"><h1 class="sectionHeader"><span id="ctl00_pageContent_lblTitle">Multi-Factor Authentication User Log In</span></h1></div>
+	    </div>
+	    <div class="divInstructionsRight"><div id="customize180"></div></div>
+    </div>
+    <br/>
+
+	<div style="width:650px">
+        
+    </div>
+      
+    <div id="ctl00_pageContent_pnlDisable" role="form">
+	
+		<label for="ctl00_pageContent_txtUsername" id="ctl00_pageContent_lblUsername" class="lbl">Username</label>
+		<div class="tooltip">
+			<input name="ctl00$pageContent$txtUsername" type="text" id="ctl00_pageContent_txtUsername" onfocus="showTooltipText(this)" onfocusout="hideTooltipText(this)" />
+			<span id="tooltiptext" class="tooltiptext"><span id="ctl00_pageContent_txtUsernameTooltip">Username required</span></span>
+		</div>
+
+		<label for="ctl00_pageContent_txtPassword" id="ctl00_pageContent_lblPassword" class="lbl" for="txtPassword">Password</label>
+		<div class="tooltip">
+            <input name="ctl00$pageContent$txtPassword" type="password" id="ctl00_pageContent_txtPassword" onfocus="showTooltipText(this)" onfocusout="hideTooltipText(this)" />
+            <span id="tooltiptext" class="tooltiptext"><span id="ctl00_pageContent_txtPasswordTooltip">Password required</span></span>
+        </div>
+
+        <span id="ctl00_pageContent_lblHiddenAuthenticationMessage" style="display:none">We've contacted you for multi-factor authentication.  Please respond to continue.</span>
+        <span id="ctl00_pageContent_lblAuthenticationMessage" role="status" aria-live="polite" style="display:none"></span>
+        <div id="Progress" class='ProgressFlag' style="visibility: hidden;">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+		<div style='padding: 10px 0px 0px 0px;'>
+            <input type="submit" name="ctl00$pageContent$btnLogin" value="Log In" onclick="disableControl(this); ShowProgress();" id="ctl00_pageContent_btnLogin" />
+		</div>
+
+		<div style='padding: 10px 0px 0px 0px;'>
+            
+		</div>
+	
+</div>
+
+				    <!-- end content -->
+				</div>
+			</div>
+		</div>
+	</div>
+	</form>
+    <script src="javascripts/onload.js" type="text/javascript"></script>
+</body>
+</html>```
