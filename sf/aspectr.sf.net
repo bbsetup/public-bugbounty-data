@@ -1,0 +1,140 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE>AspectR README</TITLE>
+<META NAME="generator" CONTENT="txt2html v1.28">
+</HEAD>
+<BODY>
+<H1><A NAME="section-1.">AspectR - Simple aspect-oriented programming in Ruby</A></H1>
+<PRE>
+Version:          0.3.5
+Release date:     2002-01-29
+Home page:        <A HREF="http://aspectr.sf.net/">http://aspectr.sf.net/</A>
+Tarball:          <A HREF="http://prdownloads.sf.net/aspectr/aspectr-0-3-5.tar.gz">http://prdownloads.sf.net/aspectr/aspectr-0-3-5.tar.gz</A>
+Authors:          Avi Bryant and Robert Feldt
+Email:            <A HREF="mailto:avi@beta4.com">avi@beta4.com</A>, <A HREF="mailto:feldt@ce.chalmers.se">feldt@ce.chalmers.se</A>
+</PRE>
+
+<H2><A NAME="section-1.1.">What is it?</A></H2>
+Aspect-oriented programming concepts to Ruby. Essentially 
+it allows you to wrap code around existing methods in your classes. 
+This can be a good thing (and even affect how you design your code) since 
+it separates different concerns into different parts of the code. 
+It is somewhat similar to AspectJ, <A HREF="http://www.aspectj.org">www.aspectj.org</A>/.
+
+<P>
+Main features of AspectR (in AspectJ lingo): 
+* Join points: 
+<UL>
+  <LI>object receives method/constructor call, and 
+  <LI>field accessed (if access is via getter/setter meth) 
+* Advices: before (pre), after returning and after throwing (post) 
+* Aspects: classes inheriting Aspect. 
+  <LI>supports "abstract" Aspects and overriding between advices. 
+* Wildcards (really regexps) can be used in pointcut designators, ie. to 
+  specify classes and methods to wrap advice's to. 
+* Pointcut parameters. Advices can access: 
+  <LI>object and method receiving call, 
+  <LI>arguments to call, 
+  <LI>return values, and 
+  <LI>exceptions raised. 
+
+</UL>
+<H2><A NAME="section-1.2.">Installation?</A></H2>
+<OL>
+  <LI>unpack tarball (if you haven't already)
+  <LI>install: ruby install.rb
+  <LI>If you've got RubyUnit you can also run tests: ruby tests/runtests.rb
+
+</OL>
+<H2><A NAME="section-1.3.">Example of use?</A></H2>
+See tests, try out examples/logger.rb or check out the aspects in the aspects
+subdir.
+
+<H2><A NAME="section-1.4.">Documentation?</A></H2>
+AspectR lets a module wrap any number of methods in other classes 
+(or objects) with the "advice" methods (in the lingo of Aspect/J) 
+of the module.
+
+<P>
+Usage:<BR>
+ require 'aspectr'<BR>
+ include AspectR<BR>
+ class MyAspect &lt; Aspect
+<PRE>
+        def someAdviceMethod(method, object, exitstatus, *args)
+             ...
+      end
+        ... some other advice methods ...
+</PRE>
+<P>
+ end<BR>
+ ma = MyAspect.new<BR>
+ ma.wrap(someClassorObject, :preAdvice, :postAdvice, ... methods to wrap...)
+ or<BR>
+ ma.wrap(someClassorObject, :preAdvice, :postAdvice, /patternToWrap/)
+ or<BR>
+ AspectR.wrap_classes(ma, :preAdvice, :postAdvice,
+<P>
+                      [Class1, Class2], ...methods to wrap...)
+
+<P>
+Advice methods are passed a variable number of parameters:
+the first is the name of the method currently being wrapped
+the second is the object receiving the method call
+the third is the exit/return status:
+<PRE>
+        Array with return value(s) if the method exited normally
+        true if the method exited with an exception
+        nil if the method hasn't yet exited (for preAdvice)
+</PRE>
+<P>
+the rest are the arguments that were passed to the wrapped method.
+
+<H2><A NAME="section-1.5.">I'm confused by the different version of this? What is/was 'advice.rb'?</A></H2>
+AspectR was originally called advice.rb and written by Avi Bryant.
+Later Robert Feldt changed/tweaked/extended it. Avi then refactored very
+nicely, Robert tweaked a bit more and on it goes... ;-) For details see 
+<STRONG>CHANGELOG.</STRONG>
+
+<H2><A NAME="section-1.6.">License and legal issues?</A></H2>
+All files in this package are <BR>
+Copyright (c) 2001 Avi Bryant (<A HREF="mailto:avi@beta4.com">avi@beta4.com</A>) and Robert Feldt (<A HREF="mailto:feldt@ce.chalmers.se">feldt@ce.chalmers.se</A>) 
+
+<P>
+and they are distributed under GPL. See COPYING.TXT.
+
+<H2><A NAME="section-1.7.">Plans for the future?</A></H2>
+See TODO. This is an alpha release so there might be (some) changes 
+to the interface.
+
+<H2><A NAME="section-1.8.">How does AspectR differ from AspectJ?</A></H2>
+AspectJ features that AspectR is missing:
+<UL>
+  <LI>Join points: method/constructor called, method/constructor executes (?),
+      exception handler executes
+  <LI>Most of the pointcut designator primitives
+  <LI>Composition of pointcut designators (well you can of course specify 
+      several method calls in different classes and objects)
+  <LI>'around' advices (should be pretty easy to add if there's a benefit)
+  <LI>precedence/specificity among advices/aspects
+  <LI>reflection by sending joinpoint object to advices with context of join
+      point etc (easily added but why?)
+  <LI>control-flow based crosscutting (might be possible if we locally attach
+      a trace func but are they needed?)
+
+</UL>
+<H2><A NAME="section-1.9.">Do you have comments or questions?</A></H2>
+We'd appreciate if you drop us a note if you're using 
+AspectR. If there are some known users we'll be more motivated to 
+pack up additions / new versions and post them to RAA.
+
+<P>
+Happy coding!
+
+<P>
+Avi and Robert
+
+</BODY>
+</HTML>
+```
