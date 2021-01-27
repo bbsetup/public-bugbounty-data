@@ -1,0 +1,273 @@
+```<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  
+  <title>ashkelon Project Home</title>
+  <link rel="icon" href="logo16.gif" type="image/gif" />
+  <link rel="stylesheet" type="text/css" href="default.css" />
+  <script src="code.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+  <div id="container">
+  
+    <div id="header">&nbsp;</div>
+    
+    <div id="banner">
+      <div id="bannerTitle">
+        <img class="logo" src="ashkelon-logo.gif" border="0" alt="ashkelon Logo" />
+        <div class="text">
+          <h1>ashkelon</h1>
+          <h2>Multi-API Documentation System for Java</h2>
+        </div>
+      </div>
+      <div id="download-link">
+        <a class="download" target="_blank" href="http://sourceforge.net/project/showfiles.php?group_id=54364&package_id=49021&release_id=390725">Download v0.9</a>
+      </div>
+    </div>
+    
+    <div id="central">
+    
+      <div id="navcontainer">
+      
+        <ul id="navlist">
+          <li><span id="current">news</span></li>
+<li><a href="index.php?p=screenshots">screenshots</a></li>
+<li><a href="index.php?p=docs">docs</a></li>
+<li><a href="index.php?p=faq">faq</a></li>
+<li><a href="index.php?p=about">about</a></li>
+        </ul>
+        
+      </div>
+      
+      
+      <style type="text/css">
+        #content .date
+        {
+          float: left;
+          clear: left;
+          width: 100px;
+          font-weight: bold;
+          text-align: right;
+        }
+        #content .news-item
+        {
+          margin-left: 120px;
+          margin-bottom: 1em;
+        }
+      </style>
+      
+      <div id="sidebar">
+      
+        <div class="boxTop"></div>
+        <div class="boxContent">
+          <p>
+          <a target="_blank" href="https://sourceforge.net/donate/index.php?group_id=54364"><img src="donate.jpg" border="0" style="float: left; margin-right: 0.5em;" alt="donate" /></a>
+          Donate to ashkelon</p>
+        </div>
+        <div class="boxBottom" style="clear:left;" ></div>
+        
+        <div class="boxTop"></div>
+        <div class="boxContent">
+          <p style="text-align: center;">
+          <a target="_blank" href="http://sourceforge.net/projects/ashkelon">SourceForge Project Site</a>
+          </p>
+        </div>
+        <div class="boxBottom" style="clear:left;" ></div>
+
+        <div style="text-align: center;">
+          <a href="http://www.jetbrains.com/idea/" target="_blank"><img border="0" alt="The best Java IDE" title="The best Java IDE" src="http://www.jetbrains.com/img/linklogos/idea_logo.gif"/></a>
+          <p style="font-size:12px;margin:0"><a style="color:#2277d9" href="http://www.jetbrains.com/idea/" target="_blank">The best Java IDE</a></p>
+        </div>
+
+      </div>
+      
+      
+      <div id="content">
+      
+        <div class="boxTop"></div>
+        <div class="boxContent">
+          <p class="date">
+          February 3 2006
+          </p>
+          <p class="news-item">Version 0.9 is out;  check out the <a href="http://sourceforge.net/project/shownotes.php?group_id=54364&release_id=390725">release notes</a>
+          </p>
+          <p>&nbsp;</p>
+        </div>
+        <div class="boxBottom"></div>
+
+        <div class="boxTop"></div>
+        <div class="boxContent">
+          <p class="date">
+          August 26 2004
+          </p>
+          <p class="news-item">
+            java.net publishes <a href="http://today.java.net/pub/a/today/2004/08/26/ashkelon.html" target="_blank">article</a> on ashkelon
+          </p>
+          <p>&nbsp;</p>
+        </div>
+        <div class="boxBottom"></div>
+
+        <div class="boxTop"></div>
+        <div class="boxContent">
+          <p class="date">
+          August 20 2004
+          </p>
+          <div class="news-item">
+            <p>
+The ashkelon project is proud to announce a new product:
+            </p>
+
+<p style="text-align: center; font-weight: bold;"> 
+  <a href="http://prdownloads.sourceforge.net/ashkelon/ashkelon-lite.war?download" target="_blank">ashkelon lite</a>
+</p>
+       
+            <p>
+  "ashkelon lite" provides all the benefits of the ashkelon product without any of the hassle and overhead.  It's ashkelon in a war file.  There's no need to setup a database, no need to configure _anything_, not even to populate a repository.
+            </p>
+  
+            <p>
+  Just drop the downloaded war file into tomcat (or whatever servlet container you use) and you've got searchable javadocs "out of the box" presented the ashkelon way (or if you prefer the classic look, you've got it too).  ashkelon lite embeds a mckoidb database prepopulated with j2se, servlet, hibernate, dom4j, and junit APIs.
+            </p>
+  
+            <p>
+  This is the first release of ashkelon lite.  Future releases will further tune which and how many APIs to bundle into the product, based on your feedback (please use the ashkelon-users@lists.sourceforge.net mailing list).
+            </p>
+
+          </div>
+
+          <p>&nbsp;</p>
+        </div>
+        <div class="boxBottom"></div>
+
+        <div class="boxTop"></div>
+        <div class="boxContent">
+        
+          <p class="date">
+          August 20 2004
+          </p>
+          <div class="news-item">
+            <p> Version 0.8.8 of ashkelon has been released. </p>
+            <p>
+             The primary enhancement to ashkelon in version 0.8.8 is the support for <a href="http://mckoi.com/database" target="_blank">mckoidb</a> in addition to mysql and postgres (both of which have been supported in ashkelon for some time)
+            </p>
+          </div>
+
+          <p class="date">
+          August 17 2004
+          </p>
+          <p class="news-item">
+          Version 0.8.7 released with <em><a href="http://maven.apache.org/" target="_blank">Maven</a> POM (project object model) file support</em>.  You can now populate maven projects with ease by directly feeding ashkelon your POM file.
+          </p>
+
+          <p class="date">
+          August 11 2004
+          </p>
+          <p class="news-item">
+          Eitan finally takes the time to give ashkelon a project site.  I hope you find it useful / helpful.
+          </p>
+
+          <p class="date">
+          August 11 2004
+          </p>
+          <p class="news-item">
+          Ben Galbraith today <a href="http://weblogs.java.net/pub/wlg/1731">blogged</a> on the release of jdocs.org and about ashkelon.
+          </p>
+
+          <p class="date">
+          August 11 2004
+          </p>
+          <div class="news-item">
+          <p>
+          jdocs.org first major adopter of ashkelon "technology"
+          </p>
+          <p>
+          javalobby today announced a new service <a href="http://jdocs.org/" target="_blank">http://jdocs.org</a>, based on ashkelon. they're using ashkelon to serve javadocs for public consumption (currently using the ashkelon repository manager but with their own jsps instead of ashkelon's dhtml ui).
+          </p>
+          </div>
+
+          <p class="date">
+          August 1 2004
+          </p>
+          <p class="news-item">
+          ashkelon v0.8.6 released.  See <a target="_blank" href="http://sourceforge.net/project/shownotes.php?release_id=257456">release notes</a>.
+          </p>
+
+          <p class="date">
+          July 7 2004
+          </p>
+          <p class="news-item">
+          ashkelon v0.8.5 released.  See <a target="_blank" href="http://sourceforge.net/project/shownotes.php?release_id=251619"> release notes</a>
+          </p>
+
+          <p class="date">
+          May 2004
+          </p>
+          <p class="news-item">
+          ashkelon <a href="index.php?p=docs">documentation</a> updated, gets face lift, thanks to <a href="http://docbook.sourceforge.net/" target="_blank">docbook</a>
+          </p>
+
+
+          <p class="date">
+          July 22 2002
+          </p>
+          <p class="news-item">
+          java.sun.com features <a target="_blank" href="http://java.sun.com/features/2002/07/dbdoc.html">front-page article</a> on dbdoc
+          </p>
+
+          <p class="date">
+           JavaOne 2002
+          </p>
+          <p class="news-item">
+            ashkelon <a target="_blank" href="files/1145suez.pdf">alternate technical session</a> (pdf)
+          </p>
+          
+
+          <p class="date">
+          June 2002
+          </p>
+          <p class="news-item">
+          SourceForge project <a target="_blank" href="http://www.sf.net/projects/ashkelon">ashkelon</a> setup
+          </p>
+          
+          <p class="date">
+          May 9 2002
+          </p>
+          <p class="news-item">
+          dbdoc goes open source, gets new name: ashkelon
+          </p>
+       
+          <p>&nbsp;</p>
+        </div>
+        <div class="boxBottom"></div>
+
+      </div>
+      
+
+
+      <div id="bottom">
+
+        <a target="_blank" href="http://www.jetbrains.com/idea/"><img src="intellij.png" border="0" /></a>
+        <a target="_blank" href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=54364&type=4" width="125" height="37" border="0" style="margin: 0.25em 1em;" alt="SourceForge.net Logo" /></a>
+        <a target="_blank" href="http://java.net"><img src="javanet_button_170.gif" border="0" /></a>
+      </div>
+      
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+    
+  </div>
+  
+   
+   
+</body>
+</html>
+
+
+```
