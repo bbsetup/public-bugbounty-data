@@ -1,0 +1,1037 @@
+```
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katalog aplikací | Apky, hry a vychytávky</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <link rel="stylesheet" type="text/css" href="https://www.applikace.cz/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.applikace.cz/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.applikace.cz/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://www.applikace.cz/css/responsive.css">
+    
+    <link rel="shortcut icon" href="img/favicons/favicon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.applikace.cz/img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.applikace.cz/img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.applikace.cz/img/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.applikace.cz/img/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.applikace.cz/img/favicons/apple-touch-icon-72x72.png" />
+    <script type="text/javascript" src="https://www.applikace.cz/js/package/jquery-1.7.1.min-slimbox-wolf-sharethis-package.js"></script>
+    <script type="text/javascript" src="https://www.applikace.cz/admin/scripts/frontend.js"></script>
+    	
+    
+    
+    
+  </head>
+  <body>
+  	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+  ga('create', 'UA-46735900-1', 'applikace.cz');
+  ga('send', 'pageview');
+
+</script>    <!--Navigation bar-->
+    <nav class="top-nav">
+    	<div class="container">
+    		<a class="navbar-brand" href="https://www.applikace.cz">
+            	<img src="https://www.applikace.cz/img/logo.png" alt="Applikace.cz">
+            </a>
+            <a href="https://www.t-mobile.cz" target="_blank"><div class="partner-top"></div></a>
+        </div>
+    </nav>
+    <nav id="sticky" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        </div>
+        
+        
+        
+        <div class="sb-search-box">
+        <div id="sb-search" class="sb-search">
+			<form action="https://www.applikace.cz/vyhledavani">
+				<input class="sb-search-input" placeholder="Napište, co hledáte..." type="text" value="" name="q" id="search">
+				<input class="sb-search-submit" type="submit" value="">
+				<span class="sb-icon-search"><i class="fa fa-search"></i></span>
+			</form>
+		</div>
+        </div>
+        <div class="pull-left">Ty nejlepší aplikace, hry a technologie</div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-left">
+          <li ><a href="https://www.applikace.cz/novinky">Novinky</a></li>
+          <li ><a  href="https://www.applikace.cz/aplikace">Aplikace</a></li>
+          <li class="active"><a href="https://www.applikace.cz/katalog-aplikaci">Katalog aplikací</a></li>
+          <li ><a href="https://www.applikace.cz/hry">Hry</a></li>
+          <li ><a href="https://www.applikace.cz/tv-archiv">TV pořad</a></li>
+          <!-- <li  ><a href="https://www.applikace.cz/soutez">Soutěž</a></li>-->
+          <li><a href="https://www.applikace.cz/bezpecnaplatba" target="_blank">Bezpečná platba</a></li>
+           <!--<li ><a href="https://www.applikace.cz/pro-zacatecniky">Pro začátečníky</a></li>-->
+          <!--<li ><a href="https://www.applikace.cz/aktualni-tema">Aktuální téma</a></li>-->
+        </ul>
+        </div>
+      </div>
+    </nav>
+    <!--/ Navigation bar-->
+    
+    <section class="section-content">
+      <div class="container">
+        <div class="row">
+          	
+            <div class="left-content">
+                
+                <div class="article-title no-image">
+					
+				</div>
+                <form action="https://www.applikace.cz/katalog-aplikaci" id="filterForm">
+                <div class="app-filter">
+								
+                    <div class="item platform">
+                
+                	
+                    	<select  name="os" id="platform" class="SlectBox" required onchange="if (comboValue('category') > 0) window.location.href='/katalog-aplikaci?os='+comboValue('platform')+'&cat='+comboValue('category')"</select>
+       						       						<option value="" disabled selected style="display: none;">Vyberte platformu</option>
+       								
+       						<option value="2" >Android</option>
+       						<option value="3" >iPhone</option>
+      					</select>
+                    </div>
+                    
+                    <div class="item category">
+                    	<select  id="category" name="cat" class="SlectBox" required onchange="if (comboValue('platform') > 0) window.location.href='/katalog-aplikaci?os='+comboValue('platform')+'&cat='+comboValue('category')">
+       							       							<option value="17" >T-Mobile výhody</option>
+       							       							<option value="5" >T-Mobile aplikace</option>
+       							       							<option value="18" >Jídlo a pití</option>
+       							       							<option value="3" >Finance a podnikání</option>
+       							       							<option value="14" >Doprava a cestování</option>
+       							       							<option value="19" >Komunikace</option>
+       							       							<option value="20" >Noviny a časopisy</option>
+       							       							<option value="6" >Vzdělávání</option>
+       							       							<option value="21" selected>Produktivita</option>
+       							       							<option value="22" >Sport a zdraví</option>
+       							       							<option value="10" >Fotky, video, hudba</option>
+       							       							<option value="12" >Hry</option>
+       							       							<option value="15" >Může se hodit</option>
+       							       							<option value="13" >České aplikace</option>
+       							       							<option value="23" >Počasí</option>
+       							      					</select>
+                    </div>
+                 
+                    <!--<div class="item"><a href="javascript:void(0)" onclick="El('filterForm').submit()" class="btn btn-default center-block">Vyhledat</a></div>-->
+				</div>
+                 </form>
+                <div class="row">
+                
+                               <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-3-dropbox"><img src="https://m.aplikace.t-mobile.cz/attachments/3/4077623.jpeg" class="img-responsive" alt="Dropbox"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-3-dropbox">Dropbox</a></h3>
+                        <p>Všechny dokumenty stále při sobě.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-6-teamviewer"><img src="https://m.aplikace.t-mobile.cz/attachments/6/4077499.jpeg" class="img-responsive" alt="TeamViewer"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-6-teamviewer">TeamViewer</a></h3>
+                        <p>Vzdálený přístup k vašemu PC.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-18-evernote"><img src="https://m.aplikace.t-mobile.cz/attachments/18/4076277.jpeg" class="img-responsive" alt="Evernote"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-18-evernote">Evernote</a></h3>
+                        <p>Poznámkový blok pro 21. století</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-24-pocket-informant-udalosti-a-ukoly"><img src="https://m.aplikace.t-mobile.cz/attachments/24/799298.png" class="img-responsive" alt="Pocket Informant - Události a úkoly"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-24-pocket-informant-udalosti-a-ukoly">Pocket Informant - Události a úkoly</a></h3>
+                        <p>Kalendář, úkoly, události - vše v jednom</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-362-gmail"><img src="https://m.aplikace.t-mobile.cz/attachments/362/4077080.jpeg" class="img-responsive" alt="Gmail"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-362-gmail">Gmail</a></h3>
+                        <p>Konverzujte nepřetržitě, ať jste kdekoliv.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-479-casovac-ztiseni"><img src="/images/3627.png" class="img-responsive" alt="Časovač ztišení"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-479-casovac-ztiseni">Časovač ztišení</a></h3>
+                        <p>Automatické ztišení telefonu pro každou situaci.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-480-skitch"><img src="https://m.aplikace.t-mobile.cz/attachments/480/1232753.png" class="img-responsive" alt="Skitch"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-480-skitch">Skitch</a></h3>
+                        <p>Popisujte své fotky a obrázky!</p>
+                        <div class="app-platform-icons-box">
+							<a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-485-remember-the-milk"><img src="https://m.aplikace.t-mobile.cz/attachments/485/4075839.jpeg" class="img-responsive" alt="Remember The Milk"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-485-remember-the-milk">Remember The Milk</a></h3>
+                        <p>Už nikdy nezapomenete na mléko.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-486-colornote"><img src="/images/3627.png" class="img-responsive" alt="ColorNote"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-486-colornote">ColorNote</a></h3>
+                        <p>Poznámkový blok do kapsy.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-512-sledovani-zasilek"><img src="/images/3627.png" class="img-responsive" alt="Sledování zásilek"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-512-sledovani-zasilek">Sledování zásilek</a></h3>
+                        <p>Sledujte vaše balíky na každém kroku!</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-614-barcode-scanner"><img src="https://m.aplikace.t-mobile.cz/attachments/614/3376873.png" class="img-responsive" alt="Barcode scanner"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-614-barcode-scanner">Barcode scanner</a></h3>
+                        <p>Skener čárových kódů.</p>
+                        <div class="app-platform-icons-box">
+							<a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-755-any-do"><img src="https://m.aplikace.t-mobile.cz/attachments/755/4077242.jpeg" class="img-responsive" alt="Any.DO "></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-755-any-do">Any.DO </a></h3>
+                        <p>Taky máte své poznámky rozházené po celém mobilu?</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-775-clockwork-tomato"><img src="/images/3627.png" class="img-responsive" alt="Clockwork Tomato"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-775-clockwork-tomato">Clockwork Tomato</a></h3>
+                        <p>Aplikace na management vašeho pracovního času.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-851-awesome-note"><img src="https://m.aplikace.t-mobile.cz/attachments/851/4077635.jpeg" class="img-responsive" alt="Awesome Note"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-851-awesome-note">Awesome Note</a></h3>
+                        <p>Inovativní organizér.</p>
+                        <div class="app-platform-icons-box">
+							<a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-885-cal-any-do-kalendar"><img src="https://m.aplikace.t-mobile.cz/attachments/885/3584637.jpeg" class="img-responsive" alt="Cal: Any.do Kalendář"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-885-cal-any-do-kalendar">Cal: Any.do Kalendář</a></h3>
+                        <p>Designový kalendář od tvůrců aplikace Any.DO.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-967-super-backup-sms-contacts"><img src="/images/3627.png" class="img-responsive" alt="Super Backup : SMS & Contacts"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-967-super-backup-sms-contacts">Super Backup : SMS & Contacts</a></h3>
+                        <p>Rychlý nástroj pro zálohování dat</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-968-app-backup-restore"><img src="/images/3627.png" class="img-responsive" alt="App Backup & Restore"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-968-app-backup-restore">App Backup & Restore</a></h3>
+                        <p>Zálohování a obnovení aplikací pro Android</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-973-applock"><img src="/images/3627.png" class="img-responsive" alt="AppLock"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-973-applock">AppLock</a></h3>
+                        <p>AppLock vám pomůže ochránit soukromí</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1053-prevodnik-jednotek"><img src="/images/3627.png" class="img-responsive" alt="Převodník jednotek"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1053-prevodnik-jednotek">Převodník jednotek</a></h3>
+                        <p>Užitečný převodník jednotek</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1087-asana-mobile"><img src="https://m.aplikace.t-mobile.cz/attachments/1087/4077629.jpeg" class="img-responsive" alt="Asana Mobile"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1087-asana-mobile">Asana Mobile</a></h3>
+                        <p>Mobilní verze webového projektu Asana</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1099-disk-google"><img src="https://m.aplikace.t-mobile.cz/attachments/1099/4075818.jpeg" class="img-responsive" alt="Disk Google"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1099-disk-google">Disk Google</a></h3>
+                        <p>Google úložiště</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1153-prohlizec-chrome-u-google"><img src="https://m.aplikace.t-mobile.cz/attachments/1153/4074990.jpeg" class="img-responsive" alt="Prohlížeč Chrome – Google"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1153-prohlizec-chrome-u-google">Prohlížeč Chrome – Google</a></h3>
+                        <p>Nejpoužívanější prohlížeč i pro telefony</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1155-scanbot-pdf-skener"><img src="https://m.aplikace.t-mobile.cz/attachments/1155/4075422.jpeg" class="img-responsive" alt="Scanbot | PDF Skener"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1155-scanbot-pdf-skener">Scanbot | PDF Skener</a></h3>
+                        <p>Aplikace převede vaše dokumenty a účtenky na PDF.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1193-ifttt"><img src="https://m.aplikace.t-mobile.cz/attachments/1193/4077035.jpeg" class="img-responsive" alt="IFTTT"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1193-ifttt">IFTTT</a></h3>
+                        <p>Jednoduše si nastavte chování vašeho telefonu.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1291-swiftkey-keyboard"><img src="https://m.aplikace.t-mobile.cz/attachments/1291/4077062.jpeg" class="img-responsive" alt="SwiftKey Keyboard"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1291-swiftkey-keyboard">SwiftKey Keyboard</a></h3>
+                        <p>Chytrá klávesnice pro Android</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1341-top-aplikace"><img src="/images/3627.png" class="img-responsive" alt="TOP Aplikace"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1341-top-aplikace">TOP Aplikace</a></h3>
+                        <p>Zorientujete se v mobilních aplikacích!</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1368-wetransfer"><img src="https://m.aplikace.t-mobile.cz/attachments/1368/4079326.jpeg" class="img-responsive" alt="WeTransfer"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1368-wetransfer">WeTransfer</a></h3>
+                        <p>Posílání objemných dat přes internet.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1371-airdroid-android-on-computer"><img src="/images/3627.png" class="img-responsive" alt="AirDroid - Android on Computer"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1371-airdroid-android-on-computer">AirDroid - Android on Computer</a></h3>
+                        <p>Ovládejte svého Androida na PC.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1390-foxit-mobilepdf"><img src="https://m.aplikace.t-mobile.cz/attachments/1390/4077425.jpeg" class="img-responsive" alt="Foxit MobilePDF"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1390-foxit-mobilepdf">Foxit MobilePDF</a></h3>
+                        <p>Prohlížeč PDF dokumentů</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1501-kalendar-google"><img src="https://m.aplikace.t-mobile.cz/attachments/1501/4074761.jpeg" class="img-responsive" alt="Kalendář Google"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1501-kalendar-google">Kalendář Google</a></h3>
+                        <p>Kalendář propojený s Gmailem.</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                                <div class="app">
+                <div class="post-app">
+                    <div class="post-app-title">
+                    <div class="post-app-image-left">
+                        <a href="https://www.applikace.cz/aplikace-1509-dokumenty-google"><img src="https://m.aplikace.t-mobile.cz/attachments/1509/4075856.jpeg" class="img-responsive" alt="Dokumenty Google"></a>
+                    </div>
+						<div class="post-app-title-right">
+                        <h3><a href="https://www.applikace.cz/aplikace-1509-dokumenty-google">Dokumenty Google</a></h3>
+                        <p>Ryze praktická aplikace</p>
+                        <div class="app-platform-icons-box">
+							<a class="android" title="Android"></a><a class="iphone" title="iPhone"></a>	
+						</div>
+                        </div>
+					</div>
+              	<div class="clearfix"></div>
+                			
+                </div>
+                </div>
+                 	
+                
+               
+                
+                
+                
+                </div>
+                <div id="moreArea"></div>
+                <div class="clearfix"></div>
+                <!--<div class="paginator"><a href="javascript:void(0)" onclick="moreApps()" class="btn btn-default center-block">Zobrazit další</a></div>-->
+                
+			</div>
+            
+            <div class="popular-article">
+            	<div class="right-side">
+                
+					<div class="title"><h2><span class="blue">Applikace</span> na Facebooku</h2></div>
+                    <div class="wide-fb"><div class="fb-page" data-href="https://www.facebook.com/applikace" data-width="300" data-height="300" data-small-header="true" data-adapt-container-width="true" data-show-posts="false" data-hide-cover="true" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"></div></div></div>
+
+                                      
+                	
+                    
+                                        		<div class="appbox-adv">
+                    	<div class="title-adv2">inzerce</div>
+                    		                    				<a href="https://www.youtube.com/watch?v=w3P4I_Bjzz8" target="_self"><img src="https://www.applikace.cz/upload/banners/10_CN_CZ_BeABuddy2019_Competition_promo_300x300_01.jpg"></a>
+                    				                    		</div>
+                    			 			
+                    
+                    
+                    	<div class="post-popular-side">
+                        <div class="title"><h2><span class="blue">Populární</span> články</h2></div>
+                        
+                                                <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5400-lehci-a-tenci-apple-letos-predstavi-macbook-air-s-novym-designem"><img src="https://www.applikace.cz/upload/articles/5400_macbook_1200_th.jpg" class="img-responsive" alt="Lehčí a tenčí. Apple letos představí Macbook Air s novým designem"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5400-lehci-a-tenci-apple-letos-predstavi-macbook-air-s-novym-designem">Lehčí a tenčí. Apple letos představí Macbook Air s novým designem</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5401-youtube-konecne-podporuje-hdr-video-na-konzolich-xbox"><img src="https://www.applikace.cz/upload/articles/5401_xbox_1200_th.jpg" class="img-responsive" alt="YouTube konečně podporuje HDR video na konzolích Xbox"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5401-youtube-konecne-podporuje-hdr-video-na-konzolich-xbox">YouTube konečně podporuje HDR video na konzolích Xbox</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5402-deti-nemaji-na-tiktoku-co-delat-italske-urady-daly-provozovateli-socialni-site-ultimatum"><img src="https://www.applikace.cz/upload/articles/5402_tiktok_1200_th.jpg" class="img-responsive" alt="Děti nemají na TikToku co dělat. Italské úřady daly provozovateli sociální sítě ultimátum"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5402-deti-nemaji-na-tiktoku-co-delat-italske-urady-daly-provozovateli-socialni-site-ultimatum">Děti nemají na TikToku co dělat. Italské úřady daly...</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5403-mastna-pokuta-pro-grindr-seznamka-mela-prodavat-data-uzivatelu"><img src="https://www.applikace.cz/upload/articles/5403_grind_1200_th.jpg" class="img-responsive" alt="Mastná pokuta pro Grindr! Seznamka měla prodávat data uživatelů"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5403-mastna-pokuta-pro-grindr-seznamka-mela-prodavat-data-uzivatelu">Mastná pokuta pro Grindr! Seznamka měla prodávat data uživatelů</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                					
+                                                                  
+                       
+                        
+                        </div>
+                
+               	                
+                <!-- promo -->
+                                    
+                        
+                                                		<div class="post-popular-side">
+                        <div class="title"><h2><span class="blue">Redakce</span> doporučuje</h2></div>
+                                                <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5031-odbornici-varuji-pred-novym-virem-ktery-dokaze-podpalit-mobil"><img src="https://www.applikace.cz/upload/articles/5031_nabijecka_th.jpg" class="img-responsive" alt="Odborníci varují před novým virem, který dokáže podpálit mobil"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5031-odbornici-varuji-pred-novym-virem-ktery-dokaze-podpalit-mobil">Odborníci varují před novým virem, který dokáže podpálit mobil</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5048-elite-squad-od-ubisoftu-konecne-venku-stoji-vubec-za-stazeni"><img src="https://www.applikace.cz/upload/articles/5048_blbost_th.jpg" class="img-responsive" alt="Elite Squad od Ubisoftu konečně venku. Stojí vůbec za stažení?"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5048-elite-squad-od-ubisoftu-konecne-venku-stoji-vubec-za-stazeni">Elite Squad od Ubisoftu konečně venku. Stojí vůbec za stažení?</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5049-novy-mobilni-zaklinac-se-inspiroval-u-pokemon-go"><img src="https://www.applikace.cz/upload/articles/5049_zaklinac_mobil_th.jpg" class="img-responsive" alt="Nový mobilní Zaklínač se inspiroval u Pokémon GO"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5049-novy-mobilni-zaklinac-se-inspiroval-u-pokemon-go">Nový mobilní Zaklínač se inspiroval u Pokémon GO</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-5051-dockame-se-konecne-apple-storu-v-praze-neradujte-se-predcasne"><img src="https://www.applikace.cz/upload/articles/5051_apple_1200_th.jpg" class="img-responsive" alt="Dočkáme se konečně Apple Storu v Praze? Neradujte se předčasně"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-5051-dockame-se-konecne-apple-storu-v-praze-neradujte-se-predcasne">Dočkáme se konečně Apple Storu v Praze? Neradujte se předčasně</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                				                        <div class="post-popular">
+                    		<div class="post-popular-image">
+								<a href="https://www.applikace.cz/novinka-3811-kovy-cartoon-network-a-linka-bezpeci-se-spojili-v-boji-proti-sikane"><img src="https://www.applikace.cz/upload/articles/3811_kovy-sikana_th.jpg" class="img-responsive" alt="Kovy, Cartoon Network a Linka bezpečí se spojili v boji proti šikaně"></a>
+                    		</div>
+							<div class="post-popular-title">
+								<h3><a href="https://www.applikace.cz/novinka-3811-kovy-cartoon-network-a-linka-bezpeci-se-spojili-v-boji-proti-sikane">Kovy, Cartoon Network a Linka bezpečí se spojili v boji proti...</a></h3>
+							</div>
+              				<div class="clearfix"></div>
+                		</div>
+                					
+                                                                  
+                       
+                        
+                       
+                
+                </div>
+                              
+              
+              
+                             
+              
+			</div>            
+        </div>
+      </div>
+    </section>
+   
+    
+    
+    
+
+    
+    
+    
+    <div id="fb-root"></div>
+
+
+<script>
+    	var wpd=0;
+    function moreApps()
+    	{
+    			 
+    			wpd+=10;
+    			
+    			/*var select1 = El('category');
+    			var selected1 = [];
+    			for (var i = 0; i < select1.length; i++) 
+    			{
+        		if (select1.options[i].selected) 
+        			selected1.push(select1.options[i].value);
+        	}
+        	
+        	var select2 = El('platform');
+    			var selected2 = [];
+    			for (var i = 0; i < select2.length; i++) 
+    			{
+        		if (select2.options[i].selected) 
+        			selected2.push(select2.options[i].value);
+        	}*/
+        	
+        	
+        	var cat=selected1.join();
+        	var os=selected2.join();
+        
+    			var startRight = (wpd & 1) ? 0:1;	 
+    			var cat = 0;
+    			   				
+    			// $("#itemData").html('<div class="loader-ajax"><img src="https://www.applikace.cz/img/loading.gif"></div>');
+    			// $("#pager").html('');
+    			 
+    			 var ajaxUrl = 'https://www.applikace.cz/ajax/getApps.php?os='+comboValue('platform')+'&cat='+comboValue('category')+'&wpd='+wpd;
+    			 
+    			      			
+		 
+		 $.get(ajaxUrl,function(data)
+		 {
+                       	
+       	var jsonData = JSON.parse(data, true);
+
+       	document.getElementById('moreArea').innerHTML+=jsonData.items;
+       	
+       		
+                
+            });
+
+    	}	
+    </script>    
+    <!--Subscribe-->
+    <section class="section-subscribe">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+              <h2 class="text-center">Chci posílat výběr<br>nejlepších článků na e-mail</h2>
+             <div class="cta-2-form text-center" id="mailing_area">
+             
+                    <input name="mailing_address" id="mailing_address" placeholder="Zadejte Vaši e-mailovou adresu" type="email">
+                    <input class="cta-2-form-submit-btn" value="Potvrdit" type="button" onclick="addEmail()">
+               
+             </div>   
+            </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Subscribe-->
+    <!--Footer-->
+    <footer class="footer">
+      	<div class="container">
+      		<div class="row">
+            	<div class="col-lg-10-footer">
+                <div class="row" align="center">
+					<a href="https://www.applikace.cz/o-nas">O nás</a>
+                	<a href="https://www.applikace.cz/casopis">Časopis</a>
+                	<a href="https://www.applikace.cz/reklama">Reklama</a>
+                	<a href="https://www.applikace.cz/kontakt">Kontakt</a>
+                	<a href="https://www.applikace.cz/cookies">Cookies a ochrana soukromí</a>
+                </div>
+                </div>
+   		  </div>
+
+      </div>
+      
+      <div class="credits">
+      <div class="container">
+        Copyright © 2012-2021  T-Mobile Czech Republic a.s. 
+        <ul class="social-links">
+        <!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
+        <li><a href="https://www.youtube.com/channel/UCtg4AJuyT8GtOqaTGQs2kDQ" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+        <li><a href="https://www.facebook.com/applikace/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+      </ul>
+        
+        </div>
+        </div>
+    </footer>
+    <!--/ Footer-->
+    
+    <script src="https://www.applikace.cz/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.applikace.cz/js/jquery.sticky.js"></script>
+    <script src="https://www.applikace.cz/js/jquery.easing.min.js"></script>
+    <script src="https://www.applikace.cz/js/bootstrap.min.js"></script>
+    <script src="https://www.applikace.cz/js/custom.js"></script>
+    <script src="https://www.applikace.cz/js/classie.js"></script>
+    <script src="https://www.applikace.cz/js/uisearch.js"></script>
+    
+    
+    		<script src="https://www.applikace.cz/js/sumoselect/jquery.sumoselect.js"></script>
+    <link href="https://www.applikace.cz/js/sumoselect/sumoselect.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            window.asd = $('.SlectBox').SumoSelect({ csvDispCount: 3, captionFormatAllSelected: "Vše" });
+            window.test = $('.testsel').SumoSelect({okCancelInMulti:true, captionFormatAllSelected: "Vše" });
+            window.testSelAll = $('.testSelAll').SumoSelect({okCancelInMulti:true, selectAll:true });
+            window.testSelAlld = $('.SlectBox-grp').SumoSelect({okCancelInMulti:true, selectAll:true });
+
+            window.testSelAll2 = $('.testSelAll2').SumoSelect({selectAll:true });
+           
+
+            window.Search = $('.search-box').SumoSelect({ csvDispCount: 3, search: true, searchText:'Enter here.' });
+            window.searchSelAll = $('.search-box-sel-all').SumoSelect({ csvDispCount: 3, selectAll:true, search: true, searchText:'Enter here.', okCancelInMulti:true });
+            window.searchSelAll = $('.search-box-open-up').SumoSelect({ csvDispCount: 3, selectAll:true, search: false, searchText:'Enter here.', up:true });
+
+            window.groups_eg_g = $('.groups_eg_g').SumoSelect({selectAll:true, search:true });
+        });
+    </script>
+		    	<script>
+		
+		
+		new UISearch( document.getElementById( 'sb-search' ) );
+	</script>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.9&appId=155828927840956";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+ <script>
+    	
+    function addEmail()
+    	{
+    		
+    			
+    			 var eml = El('mailing_address').value;
+    			 if (!validateEmail(eml))
+    			 	return;
+    			 else 
+    			 {		
+    		   			 
+    			 var ajaxUrl = 'https://www.applikace.cz/ajax/addEmail.php?eml='+eml;
+    			 
+    			     			
+		 
+							 $.get(ajaxUrl,function(data)
+							 {
+					                      	
+					       	var jsonData = JSON.parse(data, true);
+									
+					       	document.getElementById('mailing_area').innerHTML=jsonData.items;
+					       	
+					       	
+					                
+					            });
+					}
+			}	
+    	
+    	function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}
+
+    </script>
+    
+    <!-- Nivo-Lightbox-master -->
+    <link href="https://www.applikace.cz/js/nivo-lightbox-master/nivo-lightbox.css" media="screen" rel="stylesheet" type="text/css" >
+    <link href="https://www.applikace.cz/js/nivo-lightbox-master/nivo-default.css" media="screen" rel="stylesheet" type="text/css" >
+   
+	<script type="text/javascript" src="https://www.applikace.cz/js/nivo-lightbox-master/nivo-lightbox.min.js"></script>
+    <script>
+$(document).ready(function(){
+    $('a').nivoLightbox();
+});
+	</script>
+
+    
+  </body>
+</html>```
