@@ -1,0 +1,1 @@
+```{"error":{"message":"Unsupported get request. Please read the Graph API documentation at https:\/\/developers.facebook.com\/docs\/graph-api","type":"GraphMethodException","code":100,"error_subcode":33,"fbtrace_id":"A6y78wOatUe6pRTOxJrWYM9"}}```
