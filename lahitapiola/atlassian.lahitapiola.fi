@@ -1,0 +1,73 @@
+```
+<!DOCTYPE html> <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>LÃ¤hitapiola Atlassian</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link href="bootstrap/css/bootstrap.css" rel="stylesheet">-->
+    <link href="main.css" rel="stylesheet">
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="bootstrap/ico/nofavicon.ico">
+  </head>
+  <body>
+    <div class="container">
+     <div class="row">
+      <div id="title">
+        <img id="logo" src="lahitapiola.png" />
+        <hr/>
+        
+      </div>
+        <div class="row">
+		  <div class="span_left">
+          	<a href="https://atlassian.lahitapiola.fi/confluence"><img id="confluence" class="left_image" src="images/confluence.png"></a>
+            
+            <div class="row">
+             </div>
+          </img></div>
+          <div class="span_right">
+	          <div class="right_text">
+              <a class="title" href="https://atlassian.lahitapiola.fi/confluence">Confluence - Wiki</a>
+              <p>Content collaboration tool for teams to create, share, and discuss rich content â projects, documentation, files, ideas, minutes, specs, 
+diagrams, mockups, anything.</p>
+              </div>
+        </div>
+        <hr/>
+		
+		
+        <div class="row">
+          <div class="span_left">
+          	<a href="https://atlassian.lahitapiola.fi/jira"><img id="jira" class="left_image" src="images/jira.png"></img></a>
+          </div>
+          <div class="span_right">
+          	<div class="right_text">
+	          	<a class="title" href="https://atlassian.lahitapiola.fi/jira">Jira - Issue tracker</a>
+    	        <p>Track everything â bugs, tasks, projects, people, source â and pull reports for easy analysis and management. The center of the product 
+suite, the hub for the development team.</p>
+            </div>
+          </div>
+        </div>
+        <hr/>
+        <div class="row">
+          <div class="span_left">
+          	<a href="https://atlassian.lahitapiola.fi/crowd"><img id="crowd" class="left_image" src="images/crowd.png"></img></a>
+          </div>
+          <div class="span_right">
+          	<div class="right_text">
+	          	<a class="title" href="https://atlassian.lahitapiola.fi/crowd">Crowd - Single sign-on</a>
+    	        <p>Web based single sign-on (SSO) tool to simplify application provisioning and identity management.</p>
+            </div>
+          </div>
+        </div>
+        <hr/>
+      </div>
+    </div>
+    
+    </div> <!-- /container -->
+  </body> </html>
+```
