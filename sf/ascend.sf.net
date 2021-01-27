@@ -1,0 +1,148 @@
+```<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>ASCEND</title>
+</head>
+
+<body>
+
+<table border="0" width="100%">
+    <tr>
+    <td colspan="2">
+
+
+<div align="right">
+<!-- Call for Papers <a href="http://peers-at-play.org/MMVE10/"><font color="red"><b>MMVE 2010</b></font></a> -->
+</div>
+
+
+    <div align="center">&nbsp<p>
+    <img border=0 src="/logo.jpg" alt=ASCEND">
+    &nbsp<p>
+    </div>
+    </td>
+    </tr>
+
+    <tr>
+    <td width="15%" valign="top">
+        &nbsp<p>
+        <font face="Times New Roman" style="font-size: 12pt">
+        <a href="/">Home</a><p>
+        &nbsp&nbsp<font size="-1"><a href="/proposal">Proposal</a></font><br>
+        &nbsp&nbsp<font size="-1"><a href="/P2P-3Dstreaming">3D streaming</a></font><br>
+        &nbsp&nbsp<font size="-1"><a href="/AOI-voice-chat">AOI voice chat</a></font><br>
+        &nbsp&nbsp<font size="-1"><a href="/people-search">People search</a></font><p>
+        <a href="/publications.php">Publications</a><p>
+        <a href="/relatedwork.php">Related Work</a><p>
+        <a href="/FAQ.php">FAQ</a><p>
+        <a href="http://sourceforge.net/project/showfiles.php?group_id=153209">Download</a><p>
+        <a href="/contributors.php">Contributors</a><p>
+        <a href="mailto:ascend-develop_at_lists_dot_sourceforge-dot-net">
+        Contact Us</a><p>
+        </font>
+
+    </td>
+    <td width="85%">
+
+        <table dir="ltr" cellSpacing="0" cellPadding="0" width="100%" border="0" id="table2">
+            <tr>
+                <td vAlign="top">
+                &nbsp<p class="MsoNormal" style="text-justify: inter-ideograph; text-align: justify">
+                <span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp; 
+                ASCEND is a collective effort to construct programming libraries that will faciliate the creations of</span><i>
+                <span lang="EN-US">scalable, affordable, and accessible 
+                peer-to-peer (P2P)-based 3D networked virtual environments</span></i>
+                (NVEs) where participants may share data (e.g. files, photos, 
+                blogs) and interact with one another in real-time. ASCEND is 
+                based on the scalable <a href="http://vast.sourceforge.net/VON"><i>
+                Voronoi-based overlay network (VON)</i></a>
+                and a number of important P2P-based NVE (P2P-NVE) issues will be investigated, 
+                including: 3D streaming for P2P-NVEs, 
+                state management in P2P-NVEs, persistent storage designed for 
+                P2P-NVEs, and suitable P2P-NVE overlays. Libraries that support the above functions will be released under
+                the <a href="http://www.gnu.org/copyleft/lesser.html">GNU's Lesser General Public License (LGPL)</a>.
+                ASCEND's motivation is based on three important 
+                Internet trends: the rising popularity of<i>
+                Massively Multiplayer Online Games</i>
+                (MMOGs), the scalability potential of P2P networks, and the 
+                rapid growth of user-generated contents such as blog, file and 
+                photo sharing. We hope that ASCEND may bridge the transitions 
+                toward the next stage of Internet communication that is 
+                3D-based, highly interactive, and user-empowering. ASCEND covers 
+                three major research topics:</p>
+                
+                <ul>
+                <p class="MsoNormal" style="text-justify: inter-ideograph; text-align: justify">
+                <span lang="EN-US">1) </span>
+                <b><span lang="EN-US"><a href="/P2P-3Dstreaming/">3D Streaming for P2P-NVE</a></span></b><span lang="EN-US">: 
+                We will investigate how real-time streaming delivery of 3D 
+                contents (geometric meshes and textures) may be done in a 
+                scalable manner by using P2P networks. We intend to devise 
+                distributed visibility determination and parallel streaming 
+                methods in order to relieve server load and to shorten 
+                client-side download time.</span></p>
+                                
+                <p class="MsoNormal" style="text-justify: inter-ideograph; text-align: justify">
+                <span lang="EN-US">2)
+                </span><b><span lang="EN-US"><a href="/proposal#Consistency">State Management in 
+                P2P-NVE</a></span></b><span lang="EN-US">: We will investigate how 
+                the synchronization of object states and event ordering may be 
+                supported in a distributed P2P environment by assigning 
+                ownerships for each object within a NVE. We intend to adopt a
+                </span><span lang="EN-US" style="color: black">
+                fully-distributed </span>
+                <span lang="EN-US">consensus-based voting mechanism for the 
+                efficient and correct determination of object owners. An update 
+                propagation mechanism that provides high availability of object 
+                states in the face of a dynamically changing environment will 
+                also be investigated.</span></p>
+                
+                <p class="MsoNormal" style="text-justify: inter-ideograph; text-align: justify">
+                <span lang="EN-US">3)</span><b><span lang="EN-US"> 
+                <a href="/proposal#Persistency">Persistent Storage for P2P-NVE</a></span></b><span lang="EN-US">: 
+                We will investigate how persistent data may be supported in a 
+                P2P environment by using only a light-weight server for the 
+                eventual data backup. We intend to devise leader node election 
+                protocols and data aggregation techniques to support scheduled 
+                backups of object states without causing server overload.</span></p>
+                </ul>
+                
+                &nbsp<p>
+                
+
+            </td>
+            </tr>
+        </table>
+        <p>
+
+
+<hr>
+        
+<div align="center">
+Sponsors:<br>
+<a href="http://acnlab.csie.ncu.edu.tw">ACNLab</a>, <a href="http://www.ncu.edu.tw">National Central University</a>, Taiwan
+
+</div>       
+        
+&nbsp<p>
+
+
+    </td>
+    </tr>
+</table>
+
+
+<div align="right">
+
+
+<font size="1">Copyright &#169; 2006-2010, ASCEND Development Team</font><br>
+<font size="1">Last modified: July 11 2010.</font>
+<p>
+<A href="http://sourceforge.net/projects/ascend/"> <IMG src="http://sourceforge.net/sflogo.php?group_id=153209&type=3" border="0" alt="SourceForge Logo"></A>
+
+
+</div>
+</body>
+
+</html>```
