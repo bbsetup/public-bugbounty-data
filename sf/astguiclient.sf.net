@@ -1,0 +1,250 @@
+```<HTML>
+<HEAD><TITLE>ViciDial/astGUIclient - A Call Center and GUI client application for the Asterisk open-source PBX</TITLE></HEAD>
+<body BGCOLOR=white marginheight=0 marginwidth=0 leftmargin=0 topmargin=0>
+<table BORDER=0 CELLPADDING=0 CELLSPACING=0 leftmargin=0 topmargin=0 width=100%>
+<tr align=left valign=top><td align=left valign=top bgcolor="#B5BAFF" width=128 height=100><a href="./"><IMG SRC="./images/logo.gif" width=128 height=100 align=left valign=top alt="astGUIclient LOGO" border=0></a></td>
+<td align=center valign=middle bgcolor="#B5BAFF" width=387 height=100><font face="Courier" size=6><b>
+
+<!-- this is where the title of the page goes -->
+
+ViciDial/astGUIclient - <br><font size=3>
+A Call Center and GUI client application for the Asterisk open-source PBX 
+
+</b></font></td></tr>
+<tr align=left valign=top><td colspan=2 align=left valign=top bgcolor="#FFC600" width=515 height=2><IMG SRC="./images/top_orange.gif" width=515 height=2 align=left valign=top alt="astGUIclient LOGO"></td></tr>
+</table>
+<table BORDER=0 CELLPADDING=0 CELLSPACING=0 leftmargin=0 topmargin=0 width=100%>
+<tr align=left valign=top><td align=left valign=top>
+<table BORDER=0 CELLPADDING=0 CELLSPACING=0 leftmargin=0 topmargin=0 width=130>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="http://sourceforge.net/project/showfiles.php?group_id=95133" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>
+DOWNLOAD</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="http://sourceforge.net/projects/astguiclient/" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>
+Sourceforge SUMMARY</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=40 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="./astguiclient.html" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>astGUIclient</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="./acqs.html" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>ACQS</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="./vicidial.html" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>VICIDIAL</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="./screenshots.html" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>SCREENSHOTS</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="./contact.html" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>CONTACT / HELP</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="http://www.eflo.net/VICIDIALforum/index.php" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>FORUM</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="./install.html" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>REQUIREMENTS</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="./scratch_install.html" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>SCRATCH_INSTALL</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="./faq.html" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>FAQ</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="./consultants.html" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>CONSULTANTS<BR>AND SERVICES</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=45 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=50 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="./contributors.html" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>CONTRIBUTORS</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="./admin_demo.html" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>WEB ADMIN DEMO</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="./code_updates.html" style="text-decoration:none"><font face="Arial,Helvetica" size=2 color=white><b>CODE UPDATES</b></font></a></td>
+<td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=30 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><font face="Arial,Helvetica" size=1 color=white><br>To donate to this project:<br>
+<a href="http://sourceforge.net/donate/index.php?group_id=95133"><font face="Arial,Helvetica" size=1 color=white><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project"><br> click here</font></a></td><td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=80 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=95133&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo"></a></td><td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=60 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=0&amp;t=64"><img border="0" alt="Get Firefox!" title="Get Firefox!" src="http://sfx-images.mozilla.org/affiliates/Buttons/110x32/get.gif"/></a></td><td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=60 align=left valign=top></td>
+</tr>
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=top width=128 height=5><IMG SRC="./images/sidebar_spacer.gif" width=128 height=5 align=center valign=top></td>
+</tr>
+
+<tr align=left valign=top bgcolor="#898989"><td align=center valign=middle width=128><img src="http://www.eflo.net/cgi-sys/Count.cgi?df=agcsf.dat|display=Counter|ft=0|md=6|frgb=100;139;216|dd=M"></td><td rowspan=2 align=right valign=top width=2 height=15 bgcolor=white><IMG SRC="./images/sidebar_right.gif" width=2 height=60 align=left valign=top></td>
+</tr>
+
+
+
+</table>
+
+
+
+</td><td>
+
+
+
+<TABLE CELLSPACING=4 CELLPADDING=4><TR><td>
+
+<!-- this is the end of the template -->
+
+
+<B>The VICIDIAL project is maintained by the <a href="http://www.vicidial.com">VICIDIAL Group</a>.</B>
+<BR><BR>
+<center><h2>This project website is in "archive mode" and is no longer updated. For more recent information on the VICIdial project, go to <a href="http://www.vicidial.org">VICIdial.org</a></h2></center>
+<BR><BR>
+This is a suite of programs that are designed to interact with the <a href="http://www.asterisk.org/" target="_blank">Asterisk Open-Source PBX Phone system</a> at a client computer level to extend the functionality of your phone and system.
+<BR><BR>
+The suite of software is designed to work with an Asterisk system that has Zap(T1/E1/PSTN),IAX or SIP trunks and SIP/IAX/Zap phones.
+<BR><BR>
+<A HREF="screenshots.html"><IMG SRC="images/VICIDIAL_agent_2.0.5_small.gif" border=0 align=LEFT></A>
+The main application within the astGUIclient suite is the <a href="./vicidial.html">VICIDIAL call center system</a>. This includes a predictive dialer(with it's own real-time agent web-client application) that can be added to Asterisk and is highly configurable with detailed logging. VICIDIAL can dial predictively and can also can function as an ACD for inbound calls, as well as blending inbound and outbound calling, or for Closer/Verifier calls coming from VICIDIAL fronters and even allows for remote agents that may only have a phone.
+<BR><BR>
+The software suite also includes installation instructions, full English and Spanish as well as ten other language versions of the web-clients and admin pages.
+<BR><BR>
+This group of applications is designed to run on top of just about any version of Asterisk 1.2 and 1.4 so no messing around with the Asterisk source code is necessary. For more information see the <a href="./install.html">system requirements</a>. astGUIclient is also an Asterisk configuration utility, offering a basic web-based utility to configure phones, extensions, carrier trunks and DIDs.
+<BR><BR>
+All astGUIclient software elements are distributed freely through the AGPLv2 with no warranty.
+
+<BR><BR>
+<CENTER>
+</td></tr></table>
+
+
+
+</td><td>
+
+
+
+
+<TABLE CELLSPACING=4 CELLPADDING=4 WIDTH=180><TR>
+<TD VALIGN=TOP BGCOLOR="#E6E6E6" WIDTH=180>
+<center>
+<IMG SRC="./images/news.gif" width=120 height=21 align=center valign=top><BR>
+<a href="http://astguiclient.blogspot.com/"><B><font face="arial,helvetica" size=2 color=black>THE PROJECT BLOG</font></B></a>
+</center>
+<BR>
+<FONT SIZE=2><B>May 10, 2010 - </B><BR>Released version 2.2.1</FONT>
+<BR><BR>
+<FONT SIZE=2><B>April 3, 2009 - </B><BR>Released version 2.0.5</FONT>
+<BR><BR>
+<FONT SIZE=2><B>December 3, 2007 - </B><BR>Released version 2.0.4</FONT>
+<BR><BR>
+<FONT SIZE=2><B>April 26, 2007 - </B><BR>Released version 2.0.3</FONT>
+<BR><BR>
+<FONT SIZE=2><B>December 22, 2006 - </B><BR>Released version 2.0.2</FONT>
+<BR><BR>
+<FONT SIZE=2><B>October 25, 2006 - </B><BR>Matt Florell gave a <a href="http://www.vicidial.org/presentations.php">presentation</a> on High-Availability and Call Centers at <a href="http://www.astricon.net/">Astricon</a> in Dallas.</FONT>
+<BR><BR>
+<FONT SIZE=2><B>September 15, 2006 - </B><BR>Released version 2.0.1</FONT>
+<BR><BR>
+<FONT SIZE=2><B>June 30, 2006 - </B><BR>eflo.net publishes <a href="http://www.vicidial.org/store.php#MANAGER">VICIDIAL Manager Manual</a></FONT>
+<BR><BR>
+<FONT SIZE=2><B>June 22, 2006 - </B><BR>Released version 1.1.12</FONT>
+<BR><BR>
+<FONT SIZE=2><B>April 28, 2006 - </B><BR>Released version 1.1.11</FONT>
+<BR><BR>
+<FONT SIZE=2><B>April 25, 2006 - </B><BR>eflo.net publishes <a href="http://www.vicidial.org/store.php">VICIDIAL Agent Manual</a></FONT>
+<BR><BR>
+<FONT SIZE=2><B>March 17, 2006 - </B><BR>Released version 1.1.10</FONT>
+<BR><BR>
+<FONT SIZE=2><B>January 19, 2006 - </B><BR>Released version 1.1.9</FONT>
+<BR><BR>
+<FONT SIZE=2><B>November 10, 2005 - </B><BR>Released version 1.1.8</FONT>
+<BR><BR>
+<FONT SIZE=2><B>October 13, 2005 - </B><BR>Matt Florell gave a <a href="http://www.vicidial.org/presentations.php">case-study presentation</a> about the first VICIDIAL installation <a href="http://www.astricon.net/">Astricon</a> in Los Angeles.</FONT>
+<BR><BR>
+<FONT SIZE=2><B>October 5, 2005 - </B><BR>Released version 1.1.7</FONT>
+<BR><BR>
+<FONT SIZE=2><B>July 25, 2005 - </B><BR>New list of <a href="./consultants.html">recommended consultants</a></FONT>
+<BR><BR>
+<FONT SIZE=2><B>June 24, 2005 - </B><BR>Released version 1.1.4 - Now works with SIP trunks!</FONT>
+<BR><BR>
+<FONT SIZE=2><B>September 22, 2004 - </B><BR>Matt Florell gave a <a href="http://www.vicidial.org/presentations.php">presentation</a> on astGUIclient at <a href="http://www.astricon.net/">Astricon</a> in Atlanta.</FONT>
+<BR><BR>
+
+
+</TD></TR></TABLE>
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+<BR><CENTER>
+<TABLE><TR><TD>
+</TD><TD>
+</TD></TR></TABLE>
+
+<TD VALIGN=TOP>
+
+</TD><TD VALIGN=TOP>
+
+
+
+
+
+
+</BODY>
+</HTML>
+```
