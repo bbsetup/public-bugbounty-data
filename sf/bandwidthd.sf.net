@@ -1,0 +1,72 @@
+```<HTML>
+<BODY>
+<center><img src="http://bandwidthd.sourceforge.net/logo.gif"></center>
+<br>
+Welcome to BandwidthD's home page! 
+<br>
+<br>
+BandwidthD tracks usage of TCP/IP network subnets and builds html files with 
+graphs to display utilization. Charts are built by individual IPs, and
+by default display utilization over 2 day, 8 day, 40 day, and 400 day periods. 
+Furthermore,  each ip address's utilization can be logged out at intervals
+of 3.3 minutes, 10 minutes, 1 hour or 12 hours in cdf format, or to a
+backend database server. HTTP, TCP, UDP, ICMP, VPN, and P2P traffic are color coded.
+<br><br>
+BandwidthD runs on most platforms including windows. Required libraries for
+unix are only: libpcap, libgl and libpng.  
+<br>
+<br>
+Most of the info you're looking for is on the 
+<a href="http://sourceforge.net/projects/bandwidthd">SourceForge project page</a>.  At SourceForge we keep 
+all new releases, the bug tracker and the support forums.
+<br>
+<br>
+Bandwidthd now produces output in 2 ways.  The first is as a standalone
+application that produces static html and png output every 200 seconds.  The
+second is as a sensor that transmits it's data to a backend database which
+is then reported on by dynamic php pages.  The visual output of both is
+simular, but the database driven system allows for searching, filtering, multiple
+sensors and custom reports.<br>
+<br>
+Here are some screenshots of the dynamic version.<br>
+<a href=bandwidthd-top2.png><img src=bandwidthd-top2.png height=200></a>
+<a href=bandwidthd-graphs.png><img src=bandwidthd-graphs.png height=200></a>
+<a href=bandwidthd-search.png><img src=bandwidthd-search.png height=200></a><br>
+
+
+We also have an <a href=demo>example</a> of the static version.  
+We have copied the BandwidthD html directory from an isp and
+posted it here.  Please take a moment to inspect it's output.  The output is frozen
+in time. It represents a copy made on Jan 15, 2004. This should convey what
+BandwidthD currently produces.<br>
+<br>
+Link to the download area on SourceForge: <a href="http://sourceforge.net/project/showfiles.php?group_id=89685&release_id=184856">Download BandwidthD</a>
+<br>
+<br>
+Please Note:
+Development of BandwidthD is funded and provided under the GPL by <a
+href=http://cipafilter.com>cipafilter.com</a> wireless
+networking and Linux consulting services, for use in our line of linux
+routing, anti-virus, contentfiltering and reporting systems.  Please take a
+moment to visit the website and try our free filtering demo!<br>
+<br>
+Bandwidthd is authored by <a href=http://frugalreef.com/wiki/User:Hinkle>David Hinkle</a> and numerous voluneteers.  
+If you're into it, please also check out my new website for the <a href=http://frugalreef.com/>Marine Reef Aquarium 
+Community</a>.
+<br>
+<br>
+We thank:
+<br>
+SourceForge for a place to put our source, DerbyTech Linux consulting, for 
+allowing us to release the source, Brice for actually releasing the source
+:), Blaze at ts@spective.net for his excellent graphic ability, and all the
+crew at havoc for distributing clue to the needy :).
+<br>
+<br>
+<br>
+<center><img src="http://sourceforge.net/sflogo.php?group_id=89685&type=5">
+</center>
+
+</BODY>
+</HTML>
+```
