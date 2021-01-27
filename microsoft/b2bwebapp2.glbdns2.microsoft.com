@@ -1,0 +1,3 @@
+```<html><head><title>b2bwebapp2.glbdns2.microsoft.com - /</title></head><body><H1>b2bwebapp2.glbdns2.microsoft.com - /</H1><hr>
+
+<pre> 7/18/2017  9:50 AM        &lt;dir&gt; <A HREF="/aspnet_client/">aspnet_client</A><br> 6/16/2018 12:18 AM        &lt;dir&gt; <A HREF="/Loadbalancer/">Loadbalancer</A><br>10/19/2020  9:14 AM          468 <A HREF="/web.config">web.config</A><br></pre><hr></body></html>```
