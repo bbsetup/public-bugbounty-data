@@ -1,0 +1,101 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
+
+<head>
+<title></title>
+<meta name="language" content="pt-br" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<link rel="stylesheet" href="skins/greendragon/main.css" type="text/css" media="screen, projection" />
+
+</head>
+<body>
+
+<div id='header'>
+<h1></h1></div>
+
+<div id='content'>
+
+    <div id='short'>
+	    </div>
+    
+    <p>Welcome to the page of the OpenVPN Auth Passwd Project.</p>
+<p>This project is a plugin for the <a href="http://openvpn.net" target=blank>OpenVPN</a> vpn program.
+It can authenticate users either from the passwd or shadow files.</p>
+<p> VERY IMPORTANT!!! - Help Needed</p>
+<p> I'm intending to see this project integrated into the OpenVPN project. I
+already talked with James Yonan, the author and main developer, and sent a
+patch for it. But i'd also like to tell more sucess cases to it. I know the
+plugin works for many people, but never got any critics or suggestions back.
+You can help just sending me a very short info of your setup, like OS, openvpn
+version, and how many users you authenticate against. Also want feedback about
+the group auth functionality. I use it dayly, but dont know if anyone uses it.
+Feedback about it would be great too. Thanks for helping, and perhaps this
+project will be integrated into the mainline openvpn. I'm also working on new
+functionality to get more than one group, and check the users against any of
+the groups. I'm thinking in reading it from a file, or similar. Maybe in a few
+weeks it will be released.</p>
+<h2>History</h2>
+<p>It was developed from an author's need to authenticate users in a system that didn't had the PAM installed. 
+Just for information, it was a Slackware Linux system. Then was written a small C program that did authentication
+receiving a temporary file from OpenVPN. But, this setup is overly insecure. So this plugin was written, based on
+the other plugins for OpenVPN: auth-pam, down-root and the example plugin.</p>
+<h2>Technical Information</h2>
+<p>This plugin uses the function getpwnam(3) or the function getspnam(3). Historically, the first Unix systems, didn't
+used shadowed passwords, all the hashes were stored in the /etc/passwd files and everyone could read it. 
+But then, the computers evolved and, with them, the tools to break the passwords evolved too. A new system to store
+the hashes was developed. It was created a new file, were the hashes would stay, and only the superuser can see this
+file. Nowadays there are two implementations. The shadow suite, that is used in almost all Linux distributions and the
+Sun Solaris. The shadow suite implements some new functions that should be used, rather than the old functions. The
+getspnam(3) is used to get a pointer to the structure containing the user information. The program that call the function
+must be run with superuser privileges, or have the same group of the shadow file. BSD systems use in most cases, the file
+/etc/master.passwd. But the function getpwnam(3), can still be used to obtain the same pointer. The only requisite is
+that the program calling it must be run with superuser privileges.</p>
+<p>The plugin works by using a privilege separation model. It fork(2) and create two programs. One, the foreground 
+process, drops it's privilege with the OpenVPN program calling it, if you specified it. And it keeps a second process
+running with the privileges of the superuser so it can read the shadowed passwords. This setup is much more secure
+than using an external program to make the authentication, as the user name and the password are passed from the
+OpenVPN program itself, rather than from a temporary file or environmental variables.</p>
+<p>Starting from the release 1.1, the plugin can receive an optional parameter containing a group name. This alter the
+normal behaviour of the plugin which is to authenticate any user on the password file. With the group parameter set,
+then it will be checked if the user belong to the group or not, before the password authentication take place.
+If he/her belong to the group, then the normal authentication process continue. If not, then the whole authentication
+fail. The group can be either the primary or a secondary group of the user. The function that make the group authentication
+use the getgrnam(3) function to get a pointer to the group structure, then check against all members in the group.</p>
+<p>This plugin was tested on many Linux distributions and with OpenBSD. It compiled cleanly in many other systems,
+as FreeBSD, NetBSD, etc. And in other architetures as Alpha, PowerPC, Athlon 64, etc. Due to the author not having
+the possibility to actually test the plugin in these system/archs, any comments are welcome. It's expected to work
+on any POSIX compliant system, as the getpwnam(3) is a POSIX function.</p>
+
+</div>
+
+<div id='side'>
+
+    
+
+    <div class='menu'>
+	<h2>sf menu</h2>
+	<ul>
+	    
+	<li><a href='https://sourceforge.net/projects/auth-passwd' target=_blank>project</a></li>
+	</ul>
+    </div>
+
+    <div id='powered'>
+	<ul>
+	    <li><a href='http://academia.codigolivre.org.br/losango/' title='Site mantido com Losango 0.5' target=_blank><img src='bans/pwd_losango.jpg' alt='losango' /></a></li>
+<li><a href='http://www.openbsd.org' title='Work with OpenBSD' target=_blank><img src='bans/pwd_openbsd.png' alt='openbsd' /></a></li>
+<li><a href='http://www.linux.org' title='Work with GNU/Linux' target=_blank><img src='bans/pwd_linux.png' alt='linux' /></a></li>
+<li><a href='http://www.freebsd.org' title='Work with FreeBSD' target=_blank><img src='bans/pwd_freebsd.png' alt='freebsd' /></a></li>
+<li><a href='http://sourceforge.net' title='Hosted at Source Forge' target=_blank><img src='http://sflogo.sourceforge.net/sflogo.php?group_id=165711&amp;type=1' alt='sourceforge' /></a></li>
+	</ul>
+    </div>
+</div>
+
+
+</body>
+</html>
+```
