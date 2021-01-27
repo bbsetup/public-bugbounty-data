@@ -1,0 +1,144 @@
+```<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>axTLS Embedded SSL</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<link rel="shortcut icon" href="/axoloTLS/favicon.ico" type="image/x-icon" />
+<meta name="Microsoft Theme" content="sandston 110">
+<meta name="Microsoft Border" content="tlb, default">
+</head>
+
+<body bgcolor="#FFFFCC" text="#333333" link="#993300" vlink="#666633" alink="#CC6633"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Arial, Helvetica">
+
+<!--mstheme--></font><table border="0" cellspacing="0" cellpadding="0" width="1314" height="87">
+  <tr>
+    <td align="left" valign="top" width="145" height="87"><!--mstheme--><font face="Arial, Helvetica">
+    <img border="0" src="_borders/top.ht1.jpg" width="109" height="84"><!--mstheme--></font></td>
+    <td align="left" valign="top" width="614" height="87"><!--mstheme--><font face="Arial, Helvetica">
+    <img src="_derived/index.htm_cmp_sandston110_bnr.gif" width="600" height="60" border="0" alt="axTLS Embedded SSL"><!--mstheme--></font></td>
+    <td align="left" valign="top" width="232" height="87"><!--mstheme--><font face="Arial, Helvetica">
+    &nbsp;<img border="0" src="_borders/top.ht1.jpg" width="109" height="84"><!--mstheme--></font></td>
+    <td align="left" valign="top" width="323" height="87"><!--mstheme--><font face="Arial, Helvetica">&nbsp;<!--mstheme--></font></td>
+  </tr>
+</table><!--mstheme--><font face="Arial, Helvetica">
+
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="Arial, Helvetica">
+
+<p>
+<script language="JavaScript"><!--
+MSFPhover =
+  (((navigator.appName == "Netscape") &&
+  (parseInt(navigator.appVersion) >= 3 )) ||
+  ((navigator.appName == "Microsoft Internet Explorer") &&
+  (parseInt(navigator.appVersion) >= 4 )));
+function MSFPpreload(img)
+{
+  var a=new Image(); a.src=img; return a;
+}
+// --></script><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav1n=MSFPpreload("_derived/home_cmp_sandston110_vbtn_p.gif"); MSFPnav1h=MSFPpreload("_derived/home_cmp_sandston110_vbtn_a.gif"); }
+// --></script><a href="index.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1h.src" onmouseout="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1n.src"><img src="_derived/home_cmp_sandston110_vbtn_p.gif" width="140" height="40" border="0" alt="Home" name="MSFPnav1"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav2n=MSFPpreload("_derived/specifications.htm_cmp_sandston110_vbtn.gif"); MSFPnav2h=MSFPpreload("_derived/specifications.htm_cmp_sandston110_vbtn_a.gif"); }
+// --></script><a href="specifications.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2h.src" onmouseout="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2n.src"><img src="_derived/specifications.htm_cmp_sandston110_vbtn.gif" width="140" height="40" border="0" alt="Specifications" name="MSFPnav2"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav3n=MSFPpreload("_derived/faq.htm_cmp_sandston110_vbtn.gif"); MSFPnav3h=MSFPpreload("_derived/faq.htm_cmp_sandston110_vbtn_a.gif"); }
+// --></script><a href="faq.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3h.src" onmouseout="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3n.src"><img src="_derived/faq.htm_cmp_sandston110_vbtn.gif" width="140" height="40" border="0" alt="F.A.Q." name="MSFPnav3"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav4n=MSFPpreload("dox/_derived/index.html_cmp_sandston110_vbtn.gif"); MSFPnav4h=MSFPpreload("dox/_derived/index.html_cmp_sandston110_vbtn_a.gif"); }
+// --></script><a href="dox/index.html" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4h.src" onmouseout="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4n.src" target="_top"><img src="dox/_derived/index.html_cmp_sandston110_vbtn.gif" width="140" height="40" border="0" alt="axTLS API" name="MSFPnav4"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav5n=MSFPpreload("_derived/contact.htm_cmp_sandston110_vbtn.gif"); MSFPnav5h=MSFPpreload("_derived/contact.htm_cmp_sandston110_vbtn_a.gif"); }
+// --></script><a href="contact.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5h.src" onmouseout="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5n.src"><img src="_derived/contact.htm_cmp_sandston110_vbtn.gif" width="140" height="40" border="0" alt="Contact Us" name="MSFPnav5"></a>
+</p>
+
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="Arial, Helvetica">
+
+<div align="center">
+  <center>
+  <!--mstheme--></font><table border="0" width="1179" cellpadding="5">
+    <tr>
+      <td width="546" style="border-style: none; border-width: medium" align="left" valign="top"><!--mstheme--><font face="Arial, Helvetica">
+      <h4><!--mstheme--><font color="#660000">What is it?<!--mstheme--></font></h4>
+      The axTLS embedded SSL project is a highly configurable client/server TLSv1.2 library
+      designed for  platforms with small memory requirements. It comes with a
+      small HTTP/HTTPS server and additional test tools. <h4><!--mstheme--><font color="#660000">Download<!--mstheme--></font></h4>
+      <!--mstheme--></font><!--msthemelist--><table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">
+        <a href="http://sourceforge.net/project/showfiles.php?group_id=171217">
+        Latest version</a><!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">A Win32 <a href="axhttpd.msi">demo</a> to show some basic
+        functionality. Run as below.<!--mstheme--></font><!--msthemelist--></td></tr>
+      <!--msthemelist--></table><!--mstheme--><font face="Arial, Helvetica">
+      <h4><!--mstheme--><font color="#660000">To run it<!--mstheme--></font></h4>
+      <!--mstheme--></font><!--msthemelist--><table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">Go to the axTLS directory and type &quot;make&quot;. Select the
+        appropriate OS and then run it
+        (as superuser, from the <i>_stage</i> directory) with:<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">./axhttpd<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">Point your browser at <a href="https://127.0.0.1">https://127.0.0.1</a> (or whatever your server name is).<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">You will be asked to accept the axTLS certificate (press ok).<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">You can access the same pages using normal HTTP on
+        <a href="http://127.0.0.1">http://127.0.0.1</a>.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">On the demo you can run the axssl server followed by the axssl
+        client. Type a few characters into the client and see them appear on the
+        server (on Linux/Unix you can type characters from the server and see
+        them on the client).<!--mstheme--></font><!--msthemelist--></td></tr>
+      <!--msthemelist--></table><!--mstheme--><font face="Arial, Helvetica">
+      <p>See the <a href="README/index.html">README</a> for notes, changes and
+      errata.<p>&nbsp;<p>&nbsp;<p><font size="1">Some countries have export restrictions on cryptography
+      software. Check <a href="http://rechten.uvt.nl/koops/cryptolaw/">here</a>
+      for details.</font><!--mstheme--></font></td>
+      <td width="6" style="border-style: none; border-width: medium"><!--mstheme--><font face="Arial, Helvetica"><!--mstheme--></font></td>
+      <td width="595" style="border-style: none; border-width: medium" align="left" valign="top"><!--mstheme--><font face="Arial, Helvetica">
+      <h4><!--mstheme--><font color="#660000">Features<!--mstheme--></font></h4>
+      <!--mstheme--></font><!--msthemelist--><table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">A very small footprint (around 50-60kB for the library in
+        'server only' mode).<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">Supports TLSv1.2/1.1/1.0<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">Session resumption for high SSL performance.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">AES128/AES256 for high quality encryption.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">SHA256/SHA384/SHA512 for high quality digests.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">Portable across many systems (written in ANSI C). Tested on
+        Linux/Win32/Cygwin.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">Variable  RSA key sizes (512-4096 bits have been tested).<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">A very simple API - ~20 functions in C and no structures.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">Peer client/server verification, certificate chaining, session
+        renegotiation.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">X509v1, PKCS#8, PKCS#12 keys/certificates in DER/PEM format, <!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">Highly configurable compile-time options (using
+        <a href="faq.htm#busybox_config">BusyBox</a>-like config tool)<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">Partial openssl compatibility.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">Interfaces for C#, VB.NET, Java, Perl and Lua.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">It's free! (BSD style licensing)<!--mstheme--></font><!--msthemelist--></td></tr>
+      <!--msthemelist--></table><!--mstheme--><font face="Arial, Helvetica">
+      <h4><!--mstheme--><font color="#660000">Not supported<!--mstheme--></font></h4>
+      <!--mstheme--></font><!--msthemelist--><table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">SSLv2 or SSLv3.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">Anonymous or Ephemeral DH.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">DSA or ECC.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">DES/3DES/RC4 ciphers.<!--mstheme--></font><!--msthemelist--></td></tr>
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/sandston/astonbu1.gif" width="15" height="15" hspace="13" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="Arial, Helvetica">Key generation (however certificate generation is supported).<!--mstheme--></font><!--msthemelist--></td></tr>
+      <!--msthemelist--></table><!--mstheme--><font face="Arial, Helvetica">
+      <p>&nbsp;</p>
+      <a href="http://sourceforge.net/">
+      <img border="0" src="images/sourceforge.gif" width="125" height="37"></a>&nbsp;
+      <!--mstheme--></font></td>
+    </tr>
+  </table><!--mstheme--><font face="Arial, Helvetica">
+  </center>
+</div>
+
+<!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Arial, Helvetica">
+
+<!--msthemeseparator--><p align="left"><img src="_themes/sandston/astonrul.gif" width="600" height="10"></p>
+<p align="left"><small>
+<nobr>Home</nobr>&nbsp;|&nbsp;<nobr><A HREF="specifications.htm" TARGET="" STYLE="text-decoration: none;">Specifications</A></nobr>&nbsp;|&nbsp;<nobr><A HREF="faq.htm" TARGET="" STYLE="text-decoration: none;">F.A.Q.</A></nobr>&nbsp;|&nbsp;<nobr><A HREF="dox/index.html" TARGET="_top" STYLE="text-decoration: none;">axTLS&nbsp;API</A></nobr>&nbsp;|&nbsp;<nobr><A HREF="contact.htm" TARGET="" STYLE="text-decoration: none;">Contact&nbsp;Us</A></nobr>
+</small></p>
+<p align="left"><small><small>Copyright © Cameron Hamilton-Rich 2016. All rights reserved.<br>
+Last modified:
+17/08/2016.</small></small>
+</p>
+
+<!--mstheme--></font></td></tr><!--msnavigation--></table></body>
+
+</html>```
