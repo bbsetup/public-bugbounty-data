@@ -1,0 +1,312 @@
+```<!DOCTYPE html>
+<html>
+<head>
+    <title>Slashdot</title>
+<script type='text/javascript'>
+var rtv = 2.1;
+window.is_euro_union = 1;
+</script>
+<script src="https://a.fsdn.com/con/js/sftheme/vendor/promise.polyfill.min.js"></script>
+<script src="https://a.fsdn.com/con/js/sftheme/cmp.js"></script>
+<!-- <script src="https://slashdot.org/country.js"></script> -->
+<script type='text/javascript'>
+if (window.is_euro_union) {
+  bizx.cmp.init({
+      'Display UI': 'always',
+      'Publisher Name': 'Slashdot',
+      'Publisher Logo': 'https://a.fsdn.com/sd/sdlogo.svg',
+      'Consent Scope': 'global group',
+      'Consent Scope Group URL': 'https://7.xb.sf.net/gdpr-cookies.pl',
+    });
+}
+</script>
+    <script type="text/javascript" id="pbjs_script" data-dom="https://d3tglifpd8whs6.cloudfront.net" src="https://d3tglifpd8whs6.cloudfront.net/js/prebid/slashmob/slashmob.min.js"></script>
+<script type='text/javascript'>
+window.Ads_disallowPersonalization = 1;
+bizx.cmp.ifConsent('all', 'all', function(){
+    // consent ok
+    window.Ads_disallowPersonalization = 0;
+  }, function(){
+    // consent denied
+    window.Ads_disallowPersonalization = 1;
+  }, function(){
+    // always runs
+    bizx.cmp.onUICloseComplete = function(){
+      bizx.cmp.ifConsent('all', 'all', function(){ location.reload() }, function(){ location.reload() });
+    }
+    window.bizxPrebid.Ads.initPrebid(window.bizxPrebid.adUnits);
+  });
+</script>
+    <!-- TABOOLA -->
+    <script type="text/javascript">
+    if (!window.is_euro_union) {
+        window._taboola = window._taboola || [];
+        _taboola.push({article:'auto'});
+        !function (e, f, u, i) {
+            if (!document.getElementById(i)){
+                e.async = 1;
+                e.src = u;
+                e.id = i;
+                f.parentNode.insertBefore(e, f);
+            }
+        }(document.createElement('script'),
+                document.getElementsByTagName('script')[0],
+                '//cdn.taboola.com/libtrc/slashdot/loader.js',
+                'tb_loader_script');
+    }
+    </script>
+    <!-- END TABOOLA -->
+    <link href="https://m.7.xb.sf.net/assets/application.min.css?v=2.6" media="all" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,600' rel='stylesheet'
+          type='text/css'>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed"
+          href="https://m.7.xb.sf.net/assets/apple-touch-icon-precomposed1X-e8446b280d16f1ffe1ff1a1b25bfeada.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="https://m.7.xb.sf.net/assets/apple-touch-icon-precomposed2X-e553cba2892b057428cabcdff1a372fc.png">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1"/>
+</head>
+<body>
+<div id="filler">
+    <noscript>
+        <div id="noscript">
+            It looks like your browser doesn't support JavaScript or it is disabled.
+            Please use the <a href="https://7.xb.sf.net?desktop=1">desktop site</a> instead.
+        </div>
+    </noscript>
+</div>
+<div id="content"></div>
+<div id="image-preloader" style="display: none"></div>
+
+<!-- Slashdot/Slashdot_Mobile_1x1 -->
+<div id='div-gpt-ad-1374612485853-0' style='width:1px; height:1px;'></div>
+
+<script src="https://m.7.xb.sf.net/assets/standard_libs-7713187021bd1ae9f75af9293a0ac4ea.js"
+        type="text/javascript"></script>
+<script src="https://m.7.xb.sf.net/assets/application.min.js?v=2.12" type="text/javascript"></script>
+
+<script type="text/javascript">
+    //TODO change me
+    if (SlashMobile.DeviceIdentifier.isTablet()) {
+        document.write('<scr' + 'ipt src="https://m.7.xb.sf.net/assets/tablet_templates.min.js?v=2.6"></scr' + 'ipt>');
+    }
+    else {
+        document.write('<scr' + 'ipt src="https://m.7.xb.sf.net/assets/phone_templates.min.js?v=2.6"></scr' + 'ipt>');
+    }
+    /*! A fix for the iOS orientationchange zoom bug. Script by @scottjehl, rebound by @wilto.MIT / GPLv2 License.*/
+    (function (a) {
+        function m() {
+            d.setAttribute("content", g), h = !0
+        }
+
+        function n() {
+            d.setAttribute("content", f), h = !1
+        }
+
+        function o(b) {
+            l = b.accelerationIncludingGravity, i = Math.abs(l.x), j = Math.abs(l.y), k = Math.abs(l.z), (!a.orientation || a.orientation === 180) && (i > 7 || (k > 6 && j < 8 || k < 8 && j > 6) && i > 5) ? h && n() : h || m()
+        }
+
+        var b = navigator.userAgent;
+        if (!(/iPhone|iPad|iPod/.test(navigator.platform) && /OS [1-5]_[0-9_]* like Mac OS X/i.test(b) && b.indexOf("AppleWebKit") > -1)) return;
+        var c = a.document;
+        if (!c.querySelector) return;
+        var d = c.querySelector("meta[name=viewport]"), e = d && d.getAttribute("content"), f = e + ",maximum-scale=1", g = e + ",maximum-scale=10", h = !0, i, j, k, l;
+        if (!d) return;
+        a.addEventListener("orientationchange", m, !1), a.addEventListener("devicemotion", o, !1)
+    })(this);
+</script>
+
+<script type="text/javascript">
+    //Version fab210a7a773bacb8e9a1aee1339ce0956080d86
+    $(function () {
+        var standalone = !!window.navigator.standalone,
+                isSupportedDevice = SlashMobile.DeviceIdentifier.isSupportedDevice();
+        $('body').toggleClass('android', !!$.os.android);
+        $('body').toggleClass('iPhone', !!$.os.iphone);
+        $('body').toggleClass('supportedDevice', !!isSupportedDevice);
+        $('body').addClass('production');
+        var wantAds = document.location.pathname == '/login' ? false : true;
+        SlashMobile.boot({
+            buildSha: "fab210a7a773bacb8e9a1aee1339ce0956080d86",
+            container: $("#content"),
+            socialAuthUrl: 'https://7.xb.sf.net',
+            siteUrl: 'http://m.7.xb.sf.net',
+            cookieDomain: '7.xb.sf.net',
+            apiUrl: 'https://m.7.xb.sf.net/api',
+            isTablet: SlashMobile.DeviceIdentifier.isTablet(),
+            isDesktop: SlashMobile.DeviceIdentifier.isDesktop(),
+            isSupportedDevice: isSupportedDevice,
+            secureApiUrl: 'https://m.7.xb.sf.net/api',
+            apiKey: 'MdotSLEDY7Ss2nEy7Op9lkKJctCqbGjWUBAUsatNKsQ',
+            facebookShareAppID: '392867874113308',
+            avatarUrl: "https://m.7.xb.sf.net/assets/transparent-0f6404e1c072cc56e77d7df6a87fbb56.png",
+            standalone: standalone,
+            testAds: false,
+            features: {
+                notificationsEnabled: true, interstitialAdsEnabled: false,
+                enabledGoogleAds: wantAds, pullToRefresh: true, redirectDesktop: true
+            }
+        });
+        // This hides the URL bar on Android
+        setTimeout(function () {
+            if (!!$.os.android && window.pageYOffset === 0) {
+                window.scrollTo(0, 1);
+            }
+        }, 1000);
+
+        //preload images
+        var images = [];
+        var sources = [
+            "https://m.7.xb.sf.net/assets/loader1X-3e180de92dfa3c213cc48334d497d0e3.gif",
+            "https://m.7.xb.sf.net/assets/loader2X-21f2aeb43facad3e3636519b958d7aa3.gif",
+            "https://m.7.xb.sf.net/assets/ajax_loader_1X-e010e8e47d852d46061444f1f5fa783b.gif",
+            "https://m.7.xb.sf.net/assets/ajax_loader_2X-de2407cb7fc8db02b64953a083e6005f.gif",
+            "https://m.7.xb.sf.net/assets/generated_sprites/social-sprites-d04a12db9d03f9a066c78f31bdf38fab.png",
+            "https://m.7.xb.sf.net/assets/generated_sprites/preload-sprites-0aada9d1f592fd5a8b9efc5f6c6400f5.png"
+        ];
+        for (i = 0, length = sources.length; i < length; ++i) {
+            images[i] = new Image();
+            $('#image-preloader').append(images[i]);
+            images[i].src = sources[i];
+        }
+    });
+</script>
+<script type="text/javascript">
+    if (typeof window.janrain !== 'object') window.janrain = {};
+    if (typeof window.janrain.settings !== 'object') window.janrain.settings = {};
+    janrain.settings.custom = true;
+    janrain.settings.type = 'embed';
+    janrain.settings.appId = 'ggidemlconlmjciiohla';
+    janrain.settings.appUrl = 'https://login.7.xb.sf.net';
+    janrain.settings.capture = janrain.settings.capture || {};
+    janrain.settings.capture.noStyling = true;
+
+    if ('__proto__' in {}) {
+        //not IE
+        janrain.settings.__defineGetter__('tokenUrl', function () {
+            return SlashMobile.socialAuthUrl + '/token_callback.pl?returnto=' + encodeURIComponent(SlashMobile.returnPath);
+        });
+    } else {
+        //IEMobile
+        janrain.settings.tokenUrl = SlashMobile.socialAuthUrl + '/token_callback.pl?returnto=' + encodeURIComponent(SlashMobile.siteUrl);
+    }
+
+    function isReady() {
+        janrain.ready = true;
+    }
+    ;
+    if (document.addEventListener) {
+        document.addEventListener("DOMContentLoaded", isReady, false);
+    } else {
+        window.attachEvent('onload', isReady);
+    }
+    var e = document.createElement('script');
+    e.type = 'text/javascript';
+    e.id = 'janrainAuthWidget';
+    if (document.location.protocol === 'https:') {
+        e.src = 'https://rpxnow.com/js/lib/login.slashdot.org/engage.js';
+    } else {
+        e.src = 'https://widget-cdn.rpxnow.com/js/lib/login.slashdot.org/engage.js';
+    }
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(e, s);
+</script>
+<script type="text/javascript">
+    // Unused janrain CSS was taking up about 30-40% of CSS processing time.  This gross hack should disable that CSS.
+    setTimeout(function () {
+        var sheet, i;
+        for (i = 0; i < document.styleSheets.length; i++) {
+            sheet = document.styleSheets.item(i);
+            if (sheet.cssRules && sheet.cssRules[0] && sheet.cssRules[0].href && sheet.cssRules[0].href.indexOf("janrain") >= 0) {
+                sheet.disabled = true;
+            }
+        }
+    }, 5000);
+</script>
+<!-- piwick -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    var _paq = _paq || [];
+function initPiwik() {
+    _paq.push(["setCookieDomain", "*.7.xb.sf.net"]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+        var u = "//analytics.slashdotmedia.com/";
+        _paq.push(['setTrackerUrl', u + 'sd.php']);
+        _paq.push(['setSiteId', 40]);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript';
+        g.async = true;
+        g.defer = true;
+        g.src = u + 'sd.js';
+        s.parentNode.insertBefore(g, s);
+    })();
+}
+bizx.cmp.ifConsent('publisher', ['storage', 'measurement'], initPiwik);
+</script>
+<link rel="stylesheet" href="//a.fsdn.com/con/css/sftheme/sandiego/cmp.css" type="text/css">
+<style type="text/css">
+.qc-cmp-publisher-logo, .qc-cmp-nav-bar-publisher-logo {
+    background-color: #016765;
+}
+</style>
+<!-- Cross-Pixel -->
+<script type="text/javascript">
+if (!window.is_euro_union) {
+    try {
+        (function () {
+            var cb = new Date().getTime();
+            var s = document.createElement("script");
+            s.defer = true;
+            s.src = "//tag.crsspxl.com/s1.js?d=2397&cb=" + cb;
+            var s0 = document.getElementsByTagName('script')[0];
+            s0.parentNode.insertBefore(s, s0);
+        })();
+    } catch (e) {
+    }
+}
+</script>
+<!-- Datonics -->
+<script async type="text/javascript" src="//ads.pro-market.net/ads/scripts/site-143573.js"></script>
+<script>
+    var footerHtml = '<ul><li><a class="new_submission">Submit</a></li><li><a class="skip-ad" href="http://slashdotmedia.com/slashdot-mobile-eula/">Terms</a></li><li><a class="skip-ad" href="http://slashdotmedia.com/privacy-statement/">Privacy</a></li><li><a href="mailto:feedback@7.xb.sf.net">Feedback</a></li>';
+    if (window.is_euro_union)
+        footerHtml += '<li><a href="#" title="Privacy Choices" onclick="bizx.cmp.promptConsent();return false;">Privacy Opts</a></li>';
+    footerHtml += '<li><a class="skip-ad desktop-site" href="https://7.xb.sf.net/">Non-mobile</a></li></ul>';
+    $(document).ready(function () {
+        function checkCloseAd(){
+            var adon = $('div.ad-on');
+            if(adon){
+                var closead = adon.find('.close-ad');
+                if(!closead || closead.length === 0){
+                    adon.prepend('<div class="close-ad"><span>Close Ad</span></div>');
+                }
+            }
+        }
+        function footerFixer(){
+            var footer = $('#home .stage-center #footer');
+            if(footer.length){
+                if(footer.length > 1){
+                    $('#home .stage-center #footer').eq(1).remove();
+                }
+                if(footerHtml != $(footer).html()) footerHtml = $(footer).html();
+            }else{
+                $('#home .stage-center div').first().append('<div id="footer">'+footerHtml+'</div>');
+            }
+        }
+        $('#river_bottom').prepend('<div class="close-ad"><span>Close Ad</span></div>');
+        $('body').on('click','.close-ad', function(){
+            $(this).hide();
+            $('#river_bottom,#story_slot2').toggleClass('ad-on');
+        });
+        setInterval(checkCloseAd,1000);
+        setInterval(footerFixer,1000);
+    });
+</script>
+
+</body>
+</html>
+```
