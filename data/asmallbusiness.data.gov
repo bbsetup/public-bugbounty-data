@@ -1,0 +1,279 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<script language="javascript">
+if (document.location.protocol != "https:")
+{
+document.location.href = "https://www.fpds.gov" + document.location.pathname;
+};
+</script>
+<!--  <base href="https://www.fpds.gov/fpdsng_cms/index.php"> -->
+<head>
+<base href="https://www.fpds.gov/fpdsng_cms/index.php/en" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="FPDS-NG, FPDS, Recovery, ARRA" />
+	<meta name="description" content="FPDS-NG Project Website" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Reports Category</title>
+	<link href="/fpdsng_cms/index.php/en/reports.feed?type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+	<link href="/fpdsng_cms/index.php/en/reports.feed?type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+	<link href="/fpdsng_cms/templates/themza_j25_07/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"e5715c057969e3dcf50033db9d196a53","system.paths":{"root":"\/fpdsng_cms","base":"\/fpdsng_cms"}}</script>
+	<script src="/fpdsng_cms/media/jui/js/jquery.min.js?16b821a03f4708e65de43f98ab52b052" type="text/javascript"></script>
+	<script src="/fpdsng_cms/media/jui/js/jquery-noconflict.js?16b821a03f4708e65de43f98ab52b052" type="text/javascript"></script>
+	<script src="/fpdsng_cms/media/jui/js/jquery-migrate.min.js?16b821a03f4708e65de43f98ab52b052" type="text/javascript"></script>
+	<script src="/fpdsng_cms/media/system/js/caption.js?16b821a03f4708e65de43f98ab52b052" type="text/javascript"></script>
+	<script src="/fpdsng_cms/media/system/js/mootools-core.js?16b821a03f4708e65de43f98ab52b052" type="text/javascript"></script>
+	<script src="/fpdsng_cms/media/system/js/core.js?16b821a03f4708e65de43f98ab52b052" type="text/javascript"></script>
+	<script src="/fpdsng_cms/media/system/js/mootools-more.js?16b821a03f4708e65de43f98ab52b052" type="text/javascript"></script>
+	<script type="text/javascript">
+
+		   
+		   				function reloadCapthcha(instanceNo)
+						{
+							var captchaSrc = "/fpdsng_cms/index.php?showCaptcha=True&instanceNo="+instanceNo+"&time="+ new Date().getTime();
+var form = document.getElementById('main');
+document.getElementById('captchaCode'+instanceNo).src = captchaSrc ;						
+	
+						} 
+						
+
+				function validateForm(form)
+ 				{
+					/*jQuery.ajax({
+						url: "/fpdsng_cms/index.php?showCaptcha=False&instanceNo=0&time=1347220301704&isRenew=False&getVal=True",
+						success:  function(data){
+                						form.isValidCaptcha.value = data;
+        							done = true;
+							}, 
+						async: false
+					});*/
+					
+					var url = "/fpdsng_cms/index.php/?showCaptcha=False&instanceNo=0&time=1347220301704&isRenew=False&getVal=True";
+					var xmlHttp = new XMLHttpRequest();
+					xmlHttp.open("GET", url, false);
+					xmlHttp.send(null);
+					form.isValidCaptcha.value = xmlHttp.responseText; 
+				}
+				jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+	</script>
+
+<link rel="stylesheet" href="/fpdsng_cms/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="/fpdsng_cms/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="/fpdsng_cms/templates/themza_j25_07/css/template.css" type="text/css" />
+<link rel="stylesheet" href="/fpdsng_cms/templates/themza_j25_07/css/dblue.css" type="text/css" />
+<link rel="stylesheet" href="/fpdsng_cms/templates/themza_j25_07/css/gce.css" type="text/css" />
+<!--[if lte IE 6]>
+<link href="/fpdsng_cms/templates/themza_j25_07/css/ieonly.css"  rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--<script src="/fpdsng_cms/Federated-Analytics.js"></script>-->
+
+<script language="javascript" id="_fed_an_ua_tag" src="/fpdsng_cms/Universal-Federated-Analytics.1.0.js?agency=GSA">
+</script> 
+
+</head>
+
+<body id="page_bg">
+<a name="up" id="up"></a>
+<div id="main_bg">
+	<img src="/fpdsng_cms/templates/themza_j25_07/images/dblue/top.png" alt="top" /><div id="logo_bg">
+	<img src="/fpdsng_cms/templates/themza_j25_07/images/dblue/fpds_logo.png" alt="logo" align="left" hspace="5" vspace="5" width="40" />
+        <a href="/fpdsng_cms/index.php" class="logo">Federal Procurement Data System - Next Generation</a>
+        <div id="user4"></div>
+        <br clear="all" />
+    </div>
+    <div id="user3"><div id="pillmenu"><ul class="nav menu mod-list">
+<li class="item-132 default"><a href="https://www.fpds.gov/fpdsng_cms/index.php/en/" >Home</a></li><li class="item-5"><a href="/fpdsng_cms/index.php/en/newsroom.html" >Newsroom</a></li><li class="item-98 current active"><a href="/fpdsng_cms/index.php/en/reports.html" >Reports</a></li><li class="item-6"><a href="/fpdsng_cms/index.php/en/status.html" >Status</a></li><li class="item-11"><a href="/fpdsng_cms/index.php/en/worksite.html" >Worksite</a></li><li class="item-9"><a href="/fpdsng_cms/index.php/en/archives-9.html" >Archives</a></li><li class="item-4"><a href="/fpdsng_cms/index.php/en/training.html" >Training</a></li><li class="item-95"><a href="https://www.fpds.gov/help/index.jsp" onclick="window.open(this.href, 'targetWindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,'); return false;">Help</a></li></ul>
+
+<script language='javascript' type='text/javascript'>
+<!--
+defaultSize = 11;
+//-->
+</script><script type="text/javascript" src="/fpdsng_cms/modules/mod_ppc_fastfont/js/fastfont.js"></script>
+
+<div id="fontsize" style="font-size:16px;line-height:110%;text-align:center;">
+
+<div style="border:none;margin:0px 0px 5px 5px;background:#686868 url(modules/mod_ppc_fastfont/img/20none.png);float:left;height:20px;width:20px;">
+<a style="text-decoration: none" href="/fpdsng_cms/index.php" title="Increase size" onclick="changeFontSize(1); return false;" class="larger">
+<img style="margin:0; padding:0;" src="/fpdsng_cms/modules/mod_ppc_fastfont/img/20fontincrease.png" alt="Increase size" /></a>
+</div>
+<div style="border:none;margin:0px 0px 5px 5px;background:#686868 url(modules/mod_ppc_fastfont/img/20none.png);float:left;height:20px;width:20px;">
+<a style="text-decoration: none" href="/fpdsng_cms/index.php" title="Reset font size to default" onclick="revertStyles(); return false;" class="reset">
+<img style="margin:0; padding:0;" src="/fpdsng_cms/modules/mod_ppc_fastfont/img/20fontreset.png" alt="Reset to Default" /></a>
+</div>
+<div style="border:none;margin:0px 0px 5px 5px;letter-spacing:-1px;background:#686868 url(modules/mod_ppc_fastfont/img/20none.png);float:left;height:20px;width:20px;">
+<a style="text-decoration: none" href="/fpdsng_cms/index.php" title="Decrease size" onclick="changeFontSize(-1); return false;" class="smaller">
+<img style="margin:0; padding:0;" src="/fpdsng_cms/modules/mod_ppc_fastfont/img/20fontdecrease.png" alt="Decrease size" /></a>
+			</div>	
+
+</div>
+</div></div>
+   <div id="_banner"></div>
+    <div id="leftcolumn" style="display: inline">
+	    			<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Login - MFA</h3>
+											
+ 
+ <script>
+                 function enableJavascript(form) {
+                                 form.isJavascriptEnabled.value = 'true';
+                         }
+
+  
+                 var date = new Date();
+                 date.setTime(date.getTime()+(-1*24*60*60*1000));
+                 var expires = "; expires="+date.toGMTString();
+                 var hostName = location.hostname;
+                 document.cookie = "ORGSESSIONID = null "+expires+"; Domain= " + hostName + "; path=/";
+ </script>
+ <form name="main" id="main" method="post" action="https://www.fpds.gov/common/jsp/loginmfa.jsp">
+ <table width="100%" id="table4" border=0>
+ <tr>
+ <td scope="row" align="center" height="25" valign="middle" colspan="2">
+ <input tabIndex="3" type="image" height="25" alt="Login" src="/common/images/fpds_login.gif" value="login" border="0" name="login">
+ </td>
+ </tr>
+ <tr>
+ <td scope="row" colspan="2" valign="top">
+ <ul class="menu">
+ <li><a title="Security and Privacy" href="/common/jsp/SecurityPolicy.jsp" tabindex="5">Security and Privacy</a>
+ <li><a title="Login.gov FAQ" href="/common/html/loginGovFAQ.html" tabindex="6">Login.gov FAQ</a>
+ <li><a title="Contact Help Desk" href="/common/html/fpds_help_desk_info.html" tabindex="7">Contact Help Desk</a>
+ <li>You must click <a title="D&B Disclaimer" href="/help/DnB.htm" tabindex="8"><strong>here</strong></a>
+for very Important D&B Information
+ </ul>
+ 	</td>
+ </tr>
+ </table>
+ <input type="hidden" name="isJavascriptEnabled" value="false" style="display: none;">
+ <input type="hidden" id="isValidCaptcha" name="isValidCaptcha" value="false" style="display: none;">
+
+ </form>					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>FAQs</h3>
+											<ul class="nav menu mod-list">
+<li class="item-30"><a href="/wiki/index.php/FPDS-NG_FAQ" onclick="window.open(this.href, 'targetWindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,'); return false;">FPDS-NG</a></li><li class="item-31"><a href="/wiki/index.php/EzSearch_FAQ" onclick="window.open(this.href, 'targetWindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,'); return false;">ezSearch</a></li><li class="item-118"><a href="/wiki/index.php/ATOM_Feed_FAQ" onclick="window.open(this.href, 'targetWindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,'); return false;">ATOM Feed</a></li></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+        <div id="maincolumn">
+        <div class="path"></div><!-- <div id="system-message-container">
+	</div>
+-->
+        <div class="nopad">	
+<div class="blog" itemscope itemtype="https://schema.org/Blog">
+	
+		
+	
+	
+	
+				<div class="items-leading clearfix">
+							<div class="leading-0"
+					itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+					<div class="item-page">
+
+
+
+<table class="contentpaneopen">
+<tr>
+                <td class="contentheading" width="100%">
+        	         	       Static Reports Migration        		</td>
+      	
+	
+                <td align="right" width="100%" class="buttonheading">
+        <a href="/fpdsng_cms/index.php/en/reports/162-static-reports-migration.html?tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/fpdsng_cms/media/system/images/printButton.png" alt="Print" /></a>        </td>
+        
+                     </tr>
+
+</table>
+
+<table class="contentpaneopen">
+
+
+
+<tr>
+<td valign="top">
+<p><span style="font-size: 12pt;"><strong>Attention:</strong> FPDS reports module is now retired. <img style="float: right;" src="/fpdsng_cms/images/banners/beta_samgov_stacked.jpg" alt="gsa_banner" width="122" height="121" /></span></p>
+<p><span style="font-size: 12pt;">Go to <a href="https://beta.sam.gov/">beta.SAM.gov</a> to access any Contract Data Reports.</span></p>
+<p> </p>
+<p><span style="font-size: 12pt;">On <strong>October 17, 2020</strong>, the FPDS reports module retired and the <a href="https://beta.sam.gov/help/contract-data">beta.SAM.gov Data Bank</a> is the only place to create and run both standard and ad hoc reports on federal contract data. <a href="https://interact.gsa.gov/blog/fpds-reports-functions-complete-integration-betasamgov-oct-17">Learn more</a> about the transition.</span></p>
+<p> </p>
+<p><span style="font-size: 12pt;">Static reports like National Interest Action reports (including the bi-weekly COVID-19 report), the annual Small Business Goaling Reports, the annual Top 100 Contractor Reports, and other periodic reports of government-wide data, remain publicly available. Download them from <a href="https://beta.sam.gov/reports/awards/static">https://beta.sam.gov/reports/awards/static</a>.</span></p>
+<p> </p>
+<p><span style="font-size: 12pt;">If you are searching for details on specific contracts, continue using FPDS eZsearch as FPDS remains the authoritative source for entering and viewing details about contract award data.</span></p>
+<p> </p></td>
+</tr>
+
+
+
+
+</table>
+<!--<span class="article_separator">&nbsp;</span>-->
+</div>
+				</div>
+									</div><!-- end items-leading -->
+	
+	
+	
+	
+		</div>
+</div>
+    </div>
+	<div id="rightcolumn">
+            
+        </div>    
+
+	    
+        <br clear="all" />
+    <img id="main_bottom" src="/fpdsng_cms/templates/themza_j25_07/images/dblue/bottom.png" alt="bottom" align="bottom" /></div>
+
+<div id="f_area"><img src="/fpdsng_cms/templates/themza_j25_07/images/dblue/top.png" alt="top" align="top" />
+                    		<div class="moduletable">
+						
+
+<div class="custom"  >
+	<div style="width: 960px; height: 90px;">
+<table style="height: 100%; width: 100%;" border="0">
+<tbody>
+<tr>
+<td align="left" width="39"><a href="https://www.acquisition.gov" target="_new"><img src="/fpdsng_cms/../common/images/iae_logo_65.gif" alt="Integrated Acquisition Environment logo" width="39" height="65" /></a></td>
+<td align="left" width="57"><a href="http://www.usa.gov" target="_new"><img src="/fpdsng_cms/images/stories/firstgovlogo.gif" alt="First-Gov Logo" width="57" height="17" /></a></td>
+<td align="left" width="78"><a href="http://www.egov.gov" target="_new"><img src="/fpdsng_cms/../common/images/egov_30.gif" alt="E-Gov Logo" width="78" height="30" /></a></td>
+<td align="center" valign="bottom" width="620"><span style="font-size: xx-small;">Required Plugins: <a href="https://get.adobe.com/reader/"> Adobe Acrobat Reader </a> | <a href="https://get.adobe.com/flashplayer/">Adobe Flash Player</a></span> <br /> <a title="About Federal Procurement Data System Next Generation" href="/fpdsng_cms/?view=article&amp;id=56">About FPDS-NG </a> | <a title="Accessibility" href="/fpdsng_cms/?view=article&amp;id=52">Accessibility</a> | <a title="Contact Information" href="/fpdsng_cms/?option=com_content&amp;view=article&amp;id=21"> Contact Information</a> | <a title="Disclaimer" href="/fpdsng_cms/?view=article&amp;id=51"> Disclaimer</a> | <a title="Help" href="/fpdsng_cms/../help/index.jsp" rel="shadowbox">Help</a> | <a title="Privacy Policy" href="/fpdsng_cms/?view=article&amp;id=53">Privacy Policy</a> | <a title="Copyright Information" href="/fpdsng_cms/?view=article&amp;id=54">Copyright Information</a>
+<p style="font-size: xx-small;"><b>**********************************WARNING***********************************<br />This is a U.S. General Services Administration Federal Government computer system<br />that is "FOR OFFICIAL USE ONLY." This system is subject to monitoring.<br />Individuals found performing unauthorized activities are subject to disciplinary action including criminal prosecution.</b></p>
+</td>
+<td align="right" valign="center" width="200"><a href="http://www.gsa.gov" target="_new"><img src="/fpdsng_cms/../common/images/gsa_logo_40.gif" alt="General Services Administration Logo" width="40" height="40" /></a></td>
+</tr>
+</tbody>
+</table>
+</div></div>
+		</div>
+	
+    <!--    <br clear="all" />-->
+    <img id="f_area_bottom" src="/fpdsng_cms/templates/themza_j25_07/images/dblue/bottom.png" alt="bottom" align="bottom" /></div>
+
+
+
+
+
+	
+
+
+
+
+</body>
+</html>
+```
