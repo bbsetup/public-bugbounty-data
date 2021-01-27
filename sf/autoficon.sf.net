@@ -1,0 +1,201 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  <title>Autoficon - Automatic filetype convertor</title>
+<!-- Link Style sheet -->
+  <link rel="stylesheet" type="text/css" href="./autoficon.css">
+<!--Search keywords-->
+  <meta content="linux ,file convertor, mime, extension " name="keywords">
+
+</head>
+
+<body>
+<div id="header">
+<table width="100%"	border="0">
+  <tbody>
+    <tr>
+		<td id="header-logo">
+			<a href="index.html"><img src="./image/aflogo.jpg" alt="autoficon"></a>
+      </td>
+		<td id="header-text"><B><I>AUTOFICON</I></B> 
+		<div id="header-subtitle"><B>Automatic File Type Convertor</B>
+		</div>
+		
+		</td>
+		<td id="header-navbar">
+	  		<a href="downloads.html">Downloads </a>
+		</td>
+	</tr>
+	<tr> <td id="separator" colspan=3>&nbsp;</td></tr>
+
+
+	<tr> <td colspan=3>
+		<table width="100%"	border="0"> <tbody>
+			<tr>
+			 <td id="vnavbar">
+	            <table width="100%"	border="0">
+              <tbody>
+               <tr>
+               		<td id="navigation"> 
+                  	<B>News</B><br> 
+							<a href="about.html">About</a><br>
+                  	<a href="http://sourceforge.net/projects/autoficon/">Project Page</a><br>
+					  	   <a href="hacking.html">Hacking</a><br>
+	                  <a href="downloads.html">Downloads</a><br>
+	                  <a href="faq.html">FAQ</a><br>
+	               	<a href="install.html">Installation</a><br>
+						   <a href="manual.html">Manual</a><br>
+	    	           	<a href="developers.html">Developers</a><br>
+	    	           	<a href="lists.html">Mailing Lists</a><br>
+  	        	        	<a href="bugs.html">Bugs</a><br>
+  	        	     		</td>
+  	             </tr>
+                </tbody>
+				 	</table>
+		</td>
+		<td id="content">
+			<h3>Latest News</h3>
+			<div id="news"> 
+			<em>GXFormer 0.2</em><br>
+			</div>
+			<div class="newsdate">
+				<a href="https://sourceforge.net/forum/forum.php?forum_id=493464">
+				September 03, 2005 - 23:11PM EDT</a>
+			</div>				 
+			<div class="newscontent"> 
+			<p>Transformer-0.2 version has now includes a new module, GXFormer. GXFormer is a Transformer-GUI,  Written in Python using PyGtk.
+</p>
+			</div>				 
+		<div id="news"> 
+			<em>Transformer-0.2 Released</em><br>
+			</div>
+			<div class="newsdate">
+				<a href="https://sourceforge.net/forum/forum.php?forum_id=493461">
+				September 03, 2005 - 23:09PM EDT</a>
+			</div>				 
+			<div class="newscontent"> 
+			<p>Transformer version 0.2 has been released.
+			Changes since transformer 0.1.1
+			<ul>
+			<li>Created directories under src to categorize
+			</li><li>
+			Rewrite plugins, with convert_file (char* source, char* dest)
+			</li><li>
+			tf_config_from_modules - program to return the XML code for config file
+			</li><li>
+			Remove the file transformer.xml
+			</li><li>
+			New Module, Transformer-GUI, GXFormer 0.1.1
+			</li><li>
+			Adding README file for gxformer
+			</li><li>
+			Script file to generate the executable.
+			</li><li>
+			Add command line help
+			</li>
+			</ul>
+			<p> <a href="downloads.html">Click here to download</a>
+		</div>
+
+
+		<div id="news"> 
+			<em>Transformer-0.1.1 Released</em><br>
+			</div>
+			<div class="newsdate">
+				<a href="https://sourceforge.net/forum/forum.php?forum_id=491314">
+				August 25, 2005 - 23:09PM EDT</a>
+			</div>				 
+			<div class="newscontent"> 
+			<p>Transformer version 0.1.1 has been released.
+			<br>Changes since transformer 0.1.0
+    			<ul>
+			<li>Create a config xml file and install to home dir</li>
+    			 <li>Create LOG file</li>
+			<li>Command line help feature</li>
+			<li>Cleaned up CVS</li>
+		</ul>	
+			<p> <a href="downloads.html">Click here to download</a>
+		</div>
+
+		<div id="news"> 
+			<em>Mailing Lists created</em><br>
+			</div>
+			<div class="newsdate">
+				<a href="https://sourceforge.net/forum/forum.php?forum_id=486020">
+				August 04, 2005 - 16:30PM EDT</a>
+			</div>				 
+			<div class="newscontent"> 
+			<p> <a href="lists.html">Mailing lists</a> has been created for the autoficon project. 
+			One for the developers and another for the users. 
+			Any queries reg. any of the modules of the autoficon project can be sent to the mailing lists. 
+			
+			</div>
+		
+		<div id="news"> 
+			<em>Latest additions to transformer</em><br>
+			</div>
+			<div class="newsdate">
+				<a href="https://sourceforge.net/forum/forum.php?forum_id=486018">
+				August 04, 2005 - 16:23PM EDT</a>
+			</div>				 
+			<div class="newscontent"> 
+			<p> Transformer now gives the user the ability to adjust a config file and make the transformer work as per the config file. Its written in XML, hence easy to read and adjust.
+			</div>
+			
+			<div id="news"> 
+			<em>Transformer-0.1 checked into CVS</em><br>
+			</div>
+			<div class="newsdate">
+				<a href="https://sourceforge.net/forum/forum.php?forum_id=483630">
+				July 26, 2005 - 10:23PM EDT</a>
+			</div>				 
+			<div class="newscontent"> 
+			<p> The transformer module has been checked into the CVS repository. Check out the 
+			<a href="downloads.html">download</a> section to read on how to checkout the module from CVS. 
+			</div>
+			
+			<div id="news"> 
+			<em>Transformer-0.1 is out</em><br>
+			</div>
+			<div class="newsdate">
+				<a href="https://sourceforge.net/forum/forum.php?forum_id=483643">
+				July 26, 2005 - 10:15PM EDT</a>
+			</div>				 
+			<div class="newscontent"> 
+			<p> The first release of the module transformer is just out. <a href="downloads.html">
+			Click here to download</a>
+			</div>
+			
+			<div id="news"> 
+				<em>Site uploaded</em><br>
+			</div>
+			<div class="newsdate">
+				<a href="https://sourceforge.net/forum/forum.php?forum_id=483137">
+				July 26, 2005 - 9:43PM EDT</a>
+			</div>				 
+			<div class="newscontent"> 
+			<p> Atlast the site has been designed and uploaded. ;) 
+			</div>
+			
+			<tr> <td id="separator" colspan=3>&nbsp;</td></tr>
+			</td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+	<tr>
+		<td id="footer-logo" colspan=3>
+			Hosted on:<br>
+       		<a href="http://sourceforge.net">
+			<img src="http://sourceforge.net/sflogo.php?group_id=117669&amp;type=5" alt="SourceForge.net Logo"></a><br>
+		</td>
+     </tr>
+
+  </tbody>
+</table> 
+</div>
+</body>
+</html>
+```
