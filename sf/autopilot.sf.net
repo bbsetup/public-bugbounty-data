@@ -1,0 +1,286 @@
+```<!-- START OF HEADER -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+	<title>autopilot: Do it yourself UAV</title>
+	<meta
+		http-equiv	= "Content-Type"
+		content		= "text/html; charset=utf-8"
+	>
+	<meta
+		name		= "Description"
+		content		= "Autopilot for model helicopters, with 3 axis IMU/INS+GPS"
+	>
+	<meta
+		name		= "Keywords"
+		content		= "autopilot,helicopter,heli,model heli,model helicopter,remote control,uav,unmanned aerial vehicle,rpv,remotely piloted vehicle,aerial robot,ins,imu,gps,inertial measurement unit,inertial navigation system,attitude reference,ahrs,stabilization,automatic flight control system,afcs,linux,avr,microcontroller,pcb,servo,transmitter,telemetry,automatic stabilization system,source code,ins mechanization,strap down,strap down ins,strap down imu,strapdown ins,strapdown,strapdown imu,autonomous,automatic,automation,rotorcraft,rotor craft,rate integration,navigation,tactical,strategic"
+	>
+	<link
+		rev		= "$Id: index.html,v 1.104 2003/07/04 02:53:15 tramm Exp $"
+	>
+<style type="text/css">
+<!--
+body {
+	margin:		0 0 0 0;
+	background:	#FFFFFF
+			url(images/rotomotion.background.png)
+			no-repeat
+			fixed
+			bottom
+			right
+}
+-->
+</style>
+</head>
+
+<body
+	bgcolor		= "#FFFFFF"
+	text		= "#000000"
+	alink		= "#00FF00"
+	vlink		= "#AF00A0"
+	link		=" #0000FF"
+	background	= "images/rotomotion.background.png"
+>
+
+<table
+	width		= "100%"
+	border		= 0
+><tr
+><td
+	width		= 300
+	height		= 100
+><a
+	href		= "index.html"
+><img
+	src		= "images/clouds-banner.jpg"
+	width		= 300
+	height		= 100
+	align		= "left"
+	alt		= "[ Concept 60 hovering ]"
+	border		= 0
+></a></td>
+<td>
+<h2>autopilot: Do it yourself UAV</h2>
+<hr>
+<a
+	href		= "index.html"
+>Home</a>
+|
+<a
+	href		= "download.html"
+>Download</a>
+|
+<a
+	href		= "lists.html"
+>Mailing lists</a>
+|
+<a
+	href		= "gallery.html"
+>Gallery</a>
+|
+<a
+	href		= "faq.html"
+>FAQ</a>
+|
+<a
+	href		= "systems.html"
+>Systems</a>
+<hr>
+</td>
+</tr>
+</table>
+
+<br clear="all">
+
+<!-- END OF HEADER -->
+
+<!-- TITLE= autopilot: Do it yourself UAV kit -->
+
+<p>
+<h3>Latest news:</h3>
+<ul>
+	<li>Drupal Broke, so we've moved back to the "old" website for now.
+(20 Dec 2005)
+
+	<li>Successful navigation tests:  When the autopilot was engaged,
+the cyclic stick became an absolute north/south position with 10 meters of
+authority in each direction.
+<a href="images/nova_proto/command.1.png">Test 1</a>,
+<a href="images/nova_proto/command.2.png">test 2</a>
+and
+<a href="http://sourceforge.net/mailarchive/message.php?msg_id=5438268">interpretation of the data</a>.
+
+	<li><b>IT WORKS!</b>  The system hovered Dennis' Nova for several
+tanks of fuel, holding a position with full authority on the cyclic and
+tail rotor.  You can see it
+<a href="images/nova_proto/bench.jpg">on the bench</a>
+and
+<a href="images/nova_proto/handsoff.jpg">in hands-off flight</a>.
+There is also a
+<a href="movies/hover1.mov">short Quicktime movie</a> of it (4.9 MB).
+There are
+<a href="http://sourceforge.net/mailarchive/forum.php?thread_id=2594676&forum_id=296">more details in this posting</a>, and more movies to come.
+(16 June 2003)
+
+	<li>
+<a href="download.html">Release 2.5</a> is out.  This code has many updates, 
+including a new network layer, rev2.4 hardware support, diagnostic utilities, 
+and more. (March 26, 2003) 
+	</li>
+	<li>
+<a href="http://www.rotomotion.com/prd_IMP.html">Rev 2.4</a> hardware is now available.
+Updates include high-speed tail servo support, ground plane for reduced noise, seperate
+xy and z sensor boards, tachometer support, and more. (March 20, 2003)
+	</li>
+	<li>
+<a href="http://autopilot.sourceforge.net/cgi-bin/source?onboard/rev2/pcm.c">PCM decoding</a>
+is progressing.  I've done some work to analyze a few frames and have produced
+<a href="images/pcm.png">an image of the PCM data</a> from my Futaba 8U (28 January 2003)
+	</li>
+	<li>
+<a href="download.html">Release 2.4</a>
+is out.  This has the code that actually flew the helicopter a few weeks ago.
+(20 October 2002)
+	</li>
+	<li>
+<a href="http://autopilot.sourceforge.net/cgi-bin/source?onboard/rev2/ahrs.c">ahrs.c</a>
+that runs on the Mega163 at 25 Hz.  Six state Kalman filter produces an
+attitude estimate from the accelerometer and gyro readings.
+(19 October 2002)
+	</li>
+	<li>
+<a href="bib.html">Recommended readings</a> from Aaron Kahn
+(15 October 2002)
+	</li>
+	<li>
+Flights with the seven state filter and compass.
+<a href="hudson.20021014">Images and details</a>
+(14 October 2002)
+	</li>
+	<li>
+<a href="/cgi-bin/source?downlink/ground/src">Ground station</a>
+written in
+<a href="http://fltk.org/">fltk</a>
+(10 October 2002)
+	</li>
+	<li>
+16 bit -> 8 bit SPI bridge works
+(27 September 2002)
+<br>
+	</li>
+	<li>
+Successful autonomous flights!
+(22 September 2002)
+<br>
+	</li>
+	<li>
+2.2 board flown under manual control
+(18 August 2002)
+<br>
+	</li>
+	<li>
+25 Rev 2.2 kits shipped, 10 assembled so far
+(1 August 2002)
+<br>
+	</li>
+	<li>
+Group order for 2.2 boards
+(July 2002)
+<br>
+	</li>
+	<li>
+Rev 2.1 board demonstrates inertial sensors
+(July 2002
+<br>
+	</li>
+</ul>
+
+<hr>
+<p>
+<h3>What's going on here?</h3>
+We're building a system for autonomous aerial vehicles for the
+hobbiest.  The entire design and all software is available as
+Free Software, licensed under the GPL.  The goal is to produce
+a do-it-yourself <a href="http://www.rotomotion.com/prd_IMP.html">autopilot kit</a> that anyone can build and fly.
+
+<p>
+Our initial target is 60 sized model helicopters and less than
+$500 in parts.  So far we've been very successful -- one of our
+2.2 boards has hovered a Concept 60 for several minutes at a time
+under attitude command from the safety pilot.
+It isn't totally autonomous yet, but the demonstration has proven
+that the inertial measurement unit (IMU) and Kalman filter approach
+work well.
+
+<hr>
+
+<h3>How do I get involved?</h3>
+<p>
+If you're interested in helping out, please sign up for the one of the
+<a href="lists.html">mailing lists</a>.
+You may also want to view the
+<a href="faq.html">Frequently Asked Questions</a>.
+There is also
+<a href="download.html">source code to download</a> and <a href="http://www.rotomotion.com/prd_IMP.html">hardware to run it on</a>.
+Project details are available on our
+<a href="http://sourceforge.net/projects/autopilot/">sourceforge project 
+page</A>.
+
+<p>
+
+<hr>
+
+<!-- START OF FOOTER -->
+<p>
+<!-- END OF LAYOUT -->
+<br clear="all">
+
+<table
+	width		= "100%"
+	border		= 1
+	bgcolor		= "#A0A0A0"
+>
+<tr>
+<td
+	width		= "100%"
+>
+<a href="index.html"
+><IMG
+	src		= "images/logo-clear.gif"
+	width		= "88"
+	height		= "31"
+	border		= "1"
+	alt		= "Autopilot Logo"
+	align		= "right"
+></A>
+<A href="http://sourceforge.net"
+><IMG
+	src		= "http://sourceforge.net/sflogo.php?group_id=36164"
+	width		= "88"
+	height		= "31"
+	border		= "1"
+	alt		= "SourceForge"
+	align		= "right"
+></A>
+<a href="http://validator.w3.org/check/referer"
+><img
+	src		= "http://www.w3.org/Icons/valid-html40"
+	alt		= "HTML 4.0!"
+	height		= "31"
+	width		= "88"
+	border		= "1"
+	align		= "right"
+></a>
+
+<h6><a
+	href		= "/cgi-bin/history"
+>$Id: index.html,v 1.104 2003/07/04 02:53:15 tramm Exp $</a></h6>
+</td>
+</tr>
+</table>
+
+</html>
+
+<!-- END OF FOOTER -->
+```
