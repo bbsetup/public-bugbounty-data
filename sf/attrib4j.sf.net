@@ -1,0 +1,773 @@
+```
+  
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+      
+  
+
+      
+      
+      
+      
+      
+      
+        
+         
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      
+
+      
+
+  
+  
+
+  
+  
+
+   
+   
+
+
+    
+	
+	
+
+    
+    
+      
+	
+	
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+    <html>
+      <head>
+        
+        
+          <title>
+            Attrib4j - 
+          Attrib4j - Attributes for Java
+        
+          </title>
+        
+        
+        
+        <style type="text/css">
+          @import url("./style/tigris.css");
+          @import url("./style/maven.css");
+        </style>
+        
+        
+        
+        
+        
+        <link rel="stylesheet" href="./style/print.css" type="text/css" media="print"></link>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></meta>
+        
+          <meta name="author" content="Mark Pollack"></meta>
+          <meta name="email" content="mpollack@speakeasy.org"></meta>
+        
+        
+        
+        
+      </head>
+
+      <body class="composite">
+
+        <div id="banner">
+          <table border="0" width="100%" cellpadding="8" cellspacing="0">
+            <tr>
+              
+              <td>
+                
+                
+                  
+                  
+                  
+                    
+                  
+                  
+                  
+                  
+                  
+                  <a href="http://attrib4j.sourceforge.net">
+                    <img border="0" alt="Mark Pollack" src="http://sourceforge.net/sflogo.php?group_id=65539&amp;type=5" align="left"></img>
+                  </a>
+                
+              </td>
+
+              
+              <td>
+                <div id="login" align="right">
+                  
+                  
+                    
+                    
+                    
+                      
+                    
+
+                    <a href="http://attrib4j.sourceforge.net">
+                      <img border="0" alt="Attributes in Java" src="./images/attrib4j_logo2.gif" align="right"></img>
+                    </a>
+                  
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div id="breadcrumbs">
+          <table border="0" width="100%" cellpadding="4" cellspacing="0">
+            <tr>
+              
+              <td>
+                <div align="right">
+                  
+                  
+                  
+                    
+    
+    
+      
+      
+      
+      <a href="http://sourceforge.net/projects/attrib4j">Sourceforge Project Home</a>
+      
+    
+  
+                  
+                  
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        
+        <table border="0" width="100%" cellpadding="8" cellspacing="0"> 
+          <tr valign="top">
+            <td width="20%" id="leftcol">
+              <div id="navcolumn">
+                
+
+                
+                  
+    <div>
+      <strong>Attrib4j</strong>
+      
+    
+    
+    
+    
+
+    <div>
+      <small>
+      	
+      		<b><a href="index.html">Overview</a></b>
+      	
+      	
+      </small>
+	  
+        
+      
+    </div>
+  
+    
+    
+    
+    
+
+    <div>
+      <small>
+      	
+      	
+      		<a href="usage.html">Usage</a>
+      	
+      </small>
+	  
+        
+      
+    </div>
+  
+    
+    
+    
+    
+
+    <div>
+      <small>
+      	
+      	
+      		<a href="gettingstarted.html">Getting Started</a>
+      	
+      </small>
+	  
+        
+      
+    </div>
+  
+    
+    
+    
+    
+
+    <div>
+      <small>
+      	
+      	
+      		<a href="todo.html">Todo</a>
+      	
+      </small>
+	  
+        
+      
+    </div>
+  
+    
+    
+    
+    
+
+    <div>
+      <small>
+      	
+      	
+      		<a href="applications.html">Applications</a>
+      	
+      </small>
+	  
+        
+      
+    </div>
+  
+    
+    
+    
+    
+
+    <div>
+      <small>
+      	
+      	
+      		<a href="related.html">Related Links</a>
+      	
+      </small>
+	  
+        
+      
+    </div>
+  
+    </div>
+  
+                
+                
+                
+                
+
+                
+                
+                <div>
+                  <strong>Project Documentation</strong>
+                  <div>
+                    <small>
+                      <a href="./index.html">About Attributes in Java</a>
+                    </small>
+                  </div>
+                  <div>
+                    <small>
+                      <a href="./project-info.html">Project Info</a>
+                    </small>
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                  </div>
+                  <div>
+                    <small>
+                      <a href="./maven-reports.html">Project Reports</a>
+                    </small>
+                    
+					
+                    
+                    
+                      
+                      
+                    
+                      
+                      
+                    
+                      
+                      
+                    
+                      
+                      
+                    
+                      
+                      
+                    
+                      
+                      
+                    
+                      
+                      
+                    
+                      
+                      
+                    
+                      
+                      
+                    
+                      
+                      
+                    
+                      
+                      
+                    
+                      
+                      
+                    
+                    
+                    
+                    
+                  </div>
+                  
+                    
+                      <div>
+                        <small>
+                          <a href="./apidocs/index.html">JavaDocs</a>
+                        </small>
+                      </div>
+                      <div>
+                        <small>
+                          <a href="./xref/index.html">Source XReference</a>
+                        </small>
+                      </div>
+                      
+                        <div>
+                          <small>
+                            <a href="./xref-test/index.html">Test XReference</a>
+                          </small>
+                        </div>
+                      
+                    
+                  
+                  
+                  
+                  
+                  
+                    <div>
+                      <small>
+                        
+                        <a href="http://maven.apache.org/development-process.html">Development Process</a>
+                      </small>
+                    </div>
+                  
+                </div>
+              
+              
+                
+                
+                
+                
+                	<div style="margin-top: 20px; width: 100%; text-align: center;">
+                		<a href="http://maven.apache.org/" title="Powered by Maven"><img style="border: 1px solid black" alt="Powered by Maven" src="./images/logos/maven-propaganda.png"></img></a>
+                	</div>
+                
+              
+                
+              </div>
+            </td>
+            <td rowspan="2">
+              <div id="bodycol">
+                
+                <div class="app">
+                  
+                  
+    <div class="h3">
+      
+      
+        <h3>
+          <a name="Introduction">Introduction</a>
+        </h3>
+      
+      
+    <p>
+      The basic goal of the project is to support the inclusion and extraction of custom metadata associated with various program elements of a Java class or interface.  An individual element of metadata associated with a program element, for example a method, is commonly referred to as an attribute.  These attributes are inserted at compile time and then can be retrieved later at runtime. 
+            
+    </p>
+   
+    <p>
+      An overhaul of the project will take place soon, removing the need for attribute marker interfaces.
+            
+    </p>
+   
+    <div class="h4">
+      
+      
+        <h4>
+          <a name="Status">Status</a>
+        </h4>
+      
+      
+    <p>
+      
+    <b>
+      In CVS 9/13/03
+    </b>
+   Added a very experimental compiler adapter for Ant to make compilation easier.  It might also be implemented easier using an Ant javac task listener.
+					You can now use attrib4j in your ant file like this.
+
+    <div id="source">
+      <pre> 
+ &lt;property name="build.compiler" value="attrib4j.ant.Attrib4jCompilerAdapter"/&gt;	
+ &lt;property name="attrib4j.destdir" value="${build}/generated"/&gt;
+ &lt;property name="attrib4j.packages" value="attrib4j.examples.attributes"/&gt;
+
+ &lt;target name="compile" depends="prepare" &gt;
+   &lt;javac srcdir="${examples}" 
+          destdir="${build}/examples"&gt;
+   &lt;/javac&gt;    
+ &lt;/target&gt;	
+</pre>
+    </div>
+  
+	            
+    </p>
+   
+    <p>
+      
+                Future release will make it easier to set parameters specific to attrib4j by either using an attrib4jSetup task or the javac task compilerargs attribute.
+				
+    </p>
+   
+    <p>
+      
+    <b>
+      Release 0.9.0 on 9/12/03
+    </b>
+     Made the attrib4jCompiler Ant task easier to use.  The Ant CompilerAdapter is another approach being investigated.  Anyway, now the syntax looks like this
+    </p>
+   
+    <div id="source">
+      <pre> 
+  &lt;!-- include the custom task --&gt;
+  &lt;taskdef name="attrib4jCompiler" classname="attrib4j.ant.Attrib4jTask"/&gt;
+
+  &lt;target name="compile" depends="example-attributes"&gt;
+  &lt;attrib4jCompiler sourcepath="${examples}"
+                    classpath="${build}/examples"
+                    destdir="${build}/generated"
+                    attributepackages="attrib4j.examples.attributes"&gt;
+		&lt;fileset dir="${examples}"/&gt;
+    &lt;/attrib4jCompiler&gt;
+  &lt;/target&gt;
+	            </pre>
+    </div>
+  
+    <p>
+      The XML attributes for the custom task are the following.   	
+    		     
+    <ul>
+      
+    	           
+    <li>
+      sourcepath - The location of the source .java files to parse for javadoc attribute comments.
+    </li>
+   
+    	           
+    <li>
+      classpath - The location of the corresponding .class files to modify with attribute information.
+    </li>
+   
+    	           
+    <li>
+      destdir - The location where the modified .class files will be placed. (Currently looking into overwriting in the same location as classpath)
+    </li>
+   
+    	           
+    <li>
+      attributepackages - Specifies what packages to prepend to classname listed after the javadoc '@' symbol.  This allows you not to use the fully qualified name (FQN) when specifying the attribute class in your code
+    </li>
+   
+                 
+    </ul>
+   
+				
+    </p>
+   
+    <p>
+      
+    <b>
+      Released 0.8.9 on 9/1/03.
+    </b>
+     Fixed a bug in parsing parameters.  You should now put a space after your attribute classname followed by the constructor parenthesis.  For example
+
+    <div id="source">
+      <pre>/**
+ * @Pointcut ("* *set(..)")
+ */</pre>
+    </div>
+  
+                
+    </p>
+   
+    <p>
+      
+This is necessary because of how the Javadoc engine parses out the "name" and "text" parts of Javadoc comments.  I think QDox has the same requirement.  Added a test case for this situation.  Fixed a small bug for resolving paths on Unix.  Switched to latest Maven, though still use a build.xml for releases and running unit tests.  
+                                
+    </p>
+   
+    <p>
+      After quite a bit of time away from the project, I will be starting to attack the issues on the 
+    <a href="./todo.html">todo</a>
+   list.
+                                
+    </p>
+   
+    <p>
+      
+                                You can download Attrib4j 
+    <a href="http://sourceforge.net/project/showfiles.php?group_id=65539">here.</a>
+    
+                                Read the docs under the links 'Getting Started' and 'Usage' for more detailed information on working with Attrib4j. 
+                                
+    </p>
+   
+    </div>
+  
+    </div>
+  
+    <div class="h3">
+      
+      
+        <h3>
+          <a name="Background">Background</a>
+        </h3>
+      
+      
+    <p>
+      
+    The inclusion of attributes as part of Microsoft's .NET framework has increased the attention of how meta-data may be used in day to day programming.  Interestingly, there was similar, but more limited, functionality available when Microsoft created their Visual J++ compiler.  On the Java side of the fence there have been a couple of efforts geared towards providing similar functionality, most notably the open source project 
+    <a href="http://xdoclet.sourceforge.net">xDoclet</a>
+   and BEA's 
+    <a href="http://edocs.bea.com/wls/docs70/ejb/EJB_utilities.html">EJBGen.</a>
+    These both 'hijack' the 
+    <a href="http://java.sun.com/j2se/javadoc">Javadoc</a>
+   tool provided in the JDK or a similar tool to extract additional meta-data/attributes from program elements.  This technique was described in the 
+    <a href="http://www.javaworld.com/javaworld/jw-08-2000/jw-0818-javadoc.html">JavaWorld article</a>
+   by yours truly and inspired the creation of these Javadoc based tools.  While this technique is rather effective, there is a desire to formalize this mechanism and introduce meta-data features into the Java language itself.  These efforts are being coordinated through the work of the Java Community Process, specifically 
+    <a href="http://jcp.org/jsr/detail/175.jsp">JSR 175</a>
+  , "A Metadata Facility for the JavaTM Programming Language".
+    
+    </p>
+   
+    <p>
+      
+    While the findings of this JSR are not yet public, this project has similar goals and will hopefully be able to bring comparable functionality to versions of the JDK that do not natively support attributes. (Probably pre-1.5 JDKs).
+    
+    </p>
+   
+    <p>
+      
+    There are now also two other related Java attributes projects.  An apache-commons project 
+    <a href="http://jakarta.apache.org/commons/sandbox/attributes/index.html">apache-commons-attributes</a>
+  , 
+    <a href="http://nanning.sourceforge.net/">Nanning</a>
+  , and 
+    <a href="http://www.ideanest.com/attributes/">Ideanest Attributes</a>
+  
+    
+    </p>
+   
+    </div>
+  
+    <div class="h3">
+      
+      
+        <h3>
+          <a name="Approach">Approach</a>
+        </h3>
+      
+      
+    <p>
+      
+    Attrib4j provides support for creating and manipulating attributes by using the familar Javadoc notation and using byte code manipulation libraries such as 
+    <a href="http://jakarta.apache.org/bcel">BCEL.</a>
+  .  The basic approach is to use Javadoc, or another equivalent source code parser such as Qdox, to extract the meta-data tags.  BCEL to insert custom attributes into the Java class files.  These attributes can then be retrieved later at runtime. 
+    
+    </p>
+   
+    <p>
+      
+    For a more detailed introduction to this software, please read the following 
+    <a href="http://www.javageeks.com/Papers/JavaAttributes/AttributesInJava.pdf">Paper</a>
+   (
+    <b>
+      Note:
+    </b>
+   currenlty not there...will put it up locally soon) Also take a look at the Usage and Getting Started sections.
+    
+    </p>
+   
+    <p>
+      
+    That's all for now.  Keep checking back for updates.   Many thanks to Ted Neward for kick starting the code base.
+    
+    </p>
+   
+    </div>
+  
+    <div class="h3">
+      
+      
+        <h3>
+          <a name="Older News">Older News</a>
+        </h3>
+      
+      
+    <p>
+      Released 0.8.8 on 4/23/03.  The syntax to specify an attribute has changed!  It is no longer required to use the '@attribute' tag before the classname of the attribute.  Instead the attribute can be specified immediately following the '@' symbol.  For example instead of  @attribute Debug(true), you can just directly type @Debug(true).  This is a more natural syntax for the user.  Valid javadoc documentation tags are still allowed.    Note that in the in the current implementation any spaces in the text immediately following the '@' symbol is used by the javdoc engine as the token to seperate the javadoc comment into the 'Name' and 'Text' part.   This results in parsing the constructor syntax incorrectly and will be fixed in an upcoming release.  The old syntax to declare attributes is still supported by setting the system property attrib4j.Syntax to the value 'javadoc'.  Support for the old syntax will be removed in a later release.
+                  
+    </p>
+   
+    <p>
+      Released 0.8.6 on 4/18/03.  Inheritance of attribute declared in a superclass or interface are now supported for attributes declared on methods.  You can also specify a filter class when retreiving method attributes.
+                  
+    </p>
+   
+    <p>
+      
+                  Released 0.8.4 on 4/10/03.  You now have the option of not using a fully qualified name (FQN) to specify an attribute class.  For example, instead of typing '@attribute attrib4j.examples.attributes.Transaction("Required")', you can now type '@attribute Transaction("Required")'.  In order to do this you must specify a comma delimited list of package names to the attribute compiler that will be prepended to the classname specified after the @attribute tag.  The option is named 'attributepackages' and it is also exposed in the Ant task.
+                  
+    </p>
+   
+    <p>
+      
+                  Released 0.8.2 on 4/1/03.  Added first iteration of custom Ant task.  Updated docs.  Misc improvements to doclet.  General code cleanup. 4/1/03
+                  
+    </p>
+   
+    <p>
+      Made a first relase. 0.8.0 on 3/21/03  Wrote getting started documentation. 
+		      
+    </p>
+   
+    <p>
+      
+    Restructured the package by introducing a base class 'Attribute' and a class 'Attributes' that contains convenience methods to access attributes.  Only the BCEL implementation has been updated to reflect these changes.  This should make it easier to use the package. 3/18/02
+    
+    </p>
+   
+    <p>
+      A long time away :-(  Started to add support to handle 'ordinary' Javadoc comments.  An option to the doclet -usejavadocattributes true will trigger the creation of a attribj4.attributes.JavadocAttribute for each Javadoc tag that does not start with '@attribute'.  Added simple support to specify 'filters' when asking for attributes.  Attribute.getCustomClassAttribute(Class c, Object o), where object 'o' is an instance that acts as a filter.  Need to clean up the retrieval interface - make it more clean etc. 12/14/02
+    </p>
+   
+    <p>
+      Put method parameter matching in BCEL Extractor, Improved tests. Code clean up.  11/20/02
+    </p>
+   
+    <p>
+      Added first support for method and field attributes with bcel. 11/19/02
+    </p>
+   
+    <p>
+      Abstract factory for bytecode library 11/5/02
+    </p>
+   
+    <p>
+      Initial import. 10/29/02
+    </p>
+   
+    <p>
+      
+				
+    <b>
+      Last Updated: April 23, 2003.
+    </b>
+   
+			
+    </p>
+   
+    </div>
+  
+                  
+                  
+                  
+                  
+                  
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <div id="footer">
+          <table border="0" style="width:100%" cellpadding="4" cellspacing="0">
+            
+            <tr>
+              <td>
+                
+                  
+                    
+                    
+                      © 2002-2003, Mark Pollack
+                    
+                  
+                  
+                
+
+                
+              </td>
+              
+            </tr>
+          </table>
+        </div>
+      </body>
+    </html>
+  ```
