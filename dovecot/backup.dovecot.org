@@ -1,0 +1,236 @@
+```
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Dovecot manual &#8212; Dovecot documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css" />
+    <script id="documentation_options" data-url_root="#" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex/" />
+    <link rel="search" title="Search" href="search/" />
+    <link rel="next" title="Settings" href="settings/" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="dovecot-manual">
+<h1>Dovecot manual<a class="headerlink" href="#dovecot-manual" title="Permalink to this headline">¶</a></h1>
+<p>Dovecot is an open source IMAP and POP3 email server for Linux/UNIX-like systems, written with security primarily in mind. Dovecot is an excellent choice for both small and large installations. It’s fast, simple to set up, requires no special administration and it uses very little memory.</p>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="settings/">Settings</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="settings/core/">Dovecot Core Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="settings/plugin/">Plugin Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="settings/pigeonhole/">Pigeonhole settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="settings/pigeonhole-ext/">Pigeonhole extensions and plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/config_file/config_types/">Dovecot Config Types</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="admin_manual/">Administrative Manual</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/cassandra/">Cassandra administration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/debugging/">Debugging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/director/">Director Administration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/obox/">Object Storage Mailbox Format Administration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/ssl/">SSL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/doveadm_http_api/">Doveadm HTTP API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/doveadm_mailbox_commands/">Doveadm Mailbox Commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/dovecot_backend/">Dovecot Backend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/dovecot_cluster_architecture/">Dovecot Cluster Architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/dovecot_proxy/">Dovecot Proxy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/event_design/">Events Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/health_check/">Health-Check scripting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/importing_mailboxes_converting_exporting_moving_migrating/">ImportingMailboxes/Converting/Exporting/Moving/Migrating</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/list_of_events/">Events</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/logging/">Dovecot Logging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/login_processes/">Login processes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/login_proxy/">Login process proxying</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/lua/">Dovecot Lua support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/mailbox_administration/">Mailbox Administration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/mta/">MTA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/namespaces/">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/pigeonhole_managesieve_server/">Pigeonhole ManageSieve Server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/post_login_scripting/">Post-login scripting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/preparing_for_testing/">Preparing for Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/running_dovecot/">Running Dovecot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/running_imaptest/">Running IMAPtest</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/sample_tests/">Sample Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/submission_server/">Submission Server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/system_users_used_by_dovecot/">System users used by Dovecot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/testing/">Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/troubleshooting/">Troubleshooting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/virtualised_architecture/">Virtualised Architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin_manual/virtualised_dovecot_instances/">Virtualised Dovecot instances</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="configuration_manual/">Configuration Manual</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/authentication/">Authentication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/config_file/">Configuration file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/fts/">FTS (Full Text Search)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/haproxy/">HAProxy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/howto/">Guides and tutorials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/mail_location/">Mail Location Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/namespace/">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/namespace/#mailbox-settings">Mailbox settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/os/">OS Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/plugins/">Plugin configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/protocols/">Protocols</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/quota/">Quota</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/sieve/">Sieve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/stats/">Statistics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/coi/">COI (Chat Over IMAP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/common_configuration/">Common configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/director_settings/">Director Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/dovecot_ssl_configuration/">Dovecot SSL configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/dovemon/">Dovemon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/event_export/">Event Export</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/event_filter/">Event Filtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/forwarding_parameters/">Forwarding Parameters in IMAP/POP3/LMTP/SMTP proxying</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/general_backend_settings/">General Backend Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/general_settings/">General Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/hibernation/">Hibernation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/home_directories_for_virtual_users/">Home Directories for Virtual Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/imap_metadata/">IMAP METADATA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/lastlogin_plugin/">Last Login Plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/lazy_expunge_plugin/">Lazy Expunge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/lazy_expunge_plugin/#dumpster">Dumpster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/mail_cache_settings/">Mail Cache Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/mail_crypt_plugin/">mail-crypt-plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/nfs/">NFS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/notify_plugin/">Notify plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/notify_status_plugin/">notify_status plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/old_stats/">stats (old_stats)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/proxy_settings/">Proxy Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/push_notification/">Push Notification Framework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/quick_configuration/">Quick Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/quota_clone_plugin/">Quota Clone Plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/quota_plugin/">Quota</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/resource_usage/">Resource Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/service_configuration/">Service configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/spam_reporting/">Spam Reporting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/ssl_configuration/">SSL Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/virtual_plugin/">Virtual Plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/welcome_plugin/">Welcome plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/zlib_plugin/">Zlib plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/stats/openmetrics/">OpenMetrics exporter for statistics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration_manual/stats/old_statistics/">Old Statistics</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installation_guide/">Installation guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation_guide/dovecot_pro_releases/">OX Dovecot Pro releases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation_guide/dovecot_community_repositories/">Dovecot community repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation_guide/upgrading/">Upgrading dovecot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation_guide/startup_scripts/">Startup Scripts</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="#">
+    <img class="logo" src="_static/dovecot.gif" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="settings/">Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="admin_manual/">Administrative Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration_manual/">Configuration Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation_guide/">Installation guide</a></li>
+</ul>
+
+
+<hr />
+<ul>
+    
+    <li class="toctree-l1"><a href="https://github.com/dovecot/documentation/pulls/">Edit Documentation</a></li>
+    
+    <li class="toctree-l1"><a href="https://repo.dovecot.org/">Repositories</a></li>
+    
+    <li class="toctree-l1"><a href="https://dovecot.org/download.html">Download</a></li>
+    
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="settings/" title="next chapter">Settings</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search/" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+<hr>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2002-2019, Dovecot Authors.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>```
