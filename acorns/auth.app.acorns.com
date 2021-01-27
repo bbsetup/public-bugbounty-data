@@ -1,0 +1,2 @@
+```<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>auth/index.html</Key><RequestId>C151473CC8A92EB5</RequestId><HostId>oCEGNqIWyhQTZmrtXgtd+G0s0bWneVJOY+HMr6m6HV0fMMQUnB9BABeCIuQOef8bvInOyn5++/E=</HostId></Error>```
