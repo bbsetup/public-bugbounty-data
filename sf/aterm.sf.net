@@ -1,0 +1,324 @@
+```
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+   <head>
+   <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+   <title>AfterStep - Aterm : The AfterStep Terminal Emulator</title>
+   
+   <script type="text/javaScript">
+	<!--
+		function MM_swapImgRestore() { //v3.0
+        		var i, x, a=document.MM_sr;
+        		for (i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++)
+        		x.src=x.oSrc;
+		}
+
+		function MM_preloadImages() { //v3.0
+        		var d=document;
+        		if (d.images) {
+        		if (!d.MM_p)
+        		d.MM_p=new Array();
+        		var i,j=d.MM_p.length,a=MM_preloadImages.arguments;
+        		for (i=0; i<a.length; i++)
+        		if (a[i].indexOf("#")!=0) {
+                		d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];
+        		}
+        		}
+		}
+
+		function MM_findObj(n, d) { //v4.0
+        		var p,i,x;
+        		if (!d)
+        		d=document;
+        		if ((p=n.indexOf("?"))>0&&parent.frames.length) {
+        		d=parent.frames[n.substring(p+1)].document;
+        		n=n.substring(0,p);
+        		}
+        		if (!(x=d[n])&&d.all)
+        		x=d.all[n];
+        		for (i=0;!x&&i<d.forms.length;i++)
+        		x=d.forms[i][n];
+        		for (i=0;!x&&d.layers&&i<d.layers.length;i++)
+        		x=MM_findObj(n,d.layers[i].document);
+        		if (!x && document.getElementById)
+        		x=document.getElementById(n);
+        		return x;
+		}
+
+		function MM_swapImage() { //v3.0
+        		var i,j=0,x,a=MM_swapImage.arguments;
+        		document.MM_sr=new Array;
+        		for (i=0;i<(a.length-2);i+=3)
+        		if ((x=MM_findObj(a[i]))!=null) {
+        		document.MM_sr[j++]=x;
+        		if (!x.oSrc)
+                		x.oSrc=x.src;
+        		x.src=a[i+2];
+        		}
+		}
+	//-->
+</script>
+
+   <style type="text/css">
+	<!--
+
+	body {
+        	margin-top: 5px;
+		background-repeat: repeat;
+	}
+     
+        .copy {
+                font-family: Tahoma, Arial, Verdana, Helvetica;
+                font-size: smaller;
+		margin-top: 10px;
+        	margin-left: 4%;
+        	margin-right: 4%;
+	}
+
+	.copy a:link, .copy a:visited {
+        	color:#0FF;
+        	text-decoration:none
+	}
+
+	.copy a:active, .copy a:hover {
+        	color:#FC3;
+        	text-decoration:underline
+	}
+
+	.copy2 {
+		margin-top: 10px;
+        	margin-left: 0;
+        	margin-right: 0;
+	}
+
+	.copy2 a:link, .copy a:visited {
+        	color:#0FF;
+        	text-decoration:none
+	}
+
+	.copy2 a:active, .copy a:hover {
+        	color:#FC3;
+        	text-decoration:underline
+	}
+
+	p.codeBlock {
+	background: #444444;
+	padding: 1em;
+	margin-left: 4em;
+	font-family:Tahoma, Arial, Verdana, Helvetica;
+	font-size:14px;
+	}
+
+        code {
+                font-size: larger;
+                color: #0FF;
+        }
+	pre {
+		font-size: larger;
+	}
+
+	.container {
+		padding: -1em;
+		margin-left: 1em;
+		margin-right: -1em;
+		width: 100%;
+		background: #444;
+		border: 1px solid #000;
+		font-size:13px;
+	}
+	p.dense {
+		margin-top: 0em;
+		padding: 0em;
+		line-height: 90%;
+	}			       
+	dl.dense {
+		padding: 0;
+		margin: 0;
+		font-size:14px;
+	}
+	ul.dense {
+		padding: 2px;
+	}
+	li.dense {
+		line-height: 100%;
+	}
+	dt.dense {
+		line-height: 90%;
+	}
+	dd.dense {
+		font-size:13px;
+	}
+	-->
+   div.screenshot {
+      height: 250px;
+      border: none;
+      float: left;
+      margin: 5px;
+   }
+
+   div.screenshot img {
+      border: none;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+   }
+</style>
+
+
+</head>
+
+<body bgcolor="#333333" background="images/Stormy_Skies/background.jpg" text="#FFFFFE" leftmargin="5" topmargin="0" marginwidth="5" marginheight="0"onLoad="MM_preloadImages('images/Stormy_Skies/cvs_site_btn_a.jpg','images/Stormy_Skies/apps_site_btn_a.jpg',
+                                      'images/Stormy_Skies/dockapps_site_btn_a.jpg','images/Stormy_Skies/devel_site_btn_a.jpg','images/Stormy_Skies/wao_site_btn_a.jpg','images/Stormy_Skies/wiki_site_btn_a.jpg','images/Stormy_Skies/bugtrack_site_btn_a.jpg')">
+     <a href="http://www.afterstep.org" title="Home" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('wao_site','','images/Stormy_Skies/wao_site_btn_a.jpg',1)"><img name="wao_site" border="0" src="images/Stormy_Skies/wao_site_btn_i.jpg" alt="Home" /></a><a href="http://wiki.afterstep.org" title="AfterStep Wiki" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('wiki_site','','images/Stormy_Skies/wiki_site_btn_a.jpg',1)"><img name="wiki_site" border="0" src="images/Stormy_Skies/wiki_site_btn_i.jpg" alt="AfterStep Wiki" /></a><a href="http://windowmaker.org/dockapps" title="Dockapps.org" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('dockapps_site','','images/Stormy_Skies/dockapps_site_btn_a.jpg',1)"><img name="dockapps_site" border="0" src="images/Stormy_Skies/dockapps_site_btn_i.jpg" alt="Dockapps.org" /></a><a href="http://tigr.net/afterstep" title="Apps" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('apps_site','','images/Stormy_Skies/apps_site_btn_a.jpg',1)"><img name="apps_site" border="0" src="images/Stormy_Skies/apps_site_btn_i.jpg" alt="Apps" /></a><a href="https://github.com/afterstep/afterstep/" title="AfterStep at GitHub" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cvs_site','','images/Stormy_Skies/cvs_site_btn_a.jpg',1)"><img name="cvs_site" border="0" src="images/Stormy_Skies/cvs_site_btn_i.jpg" alt="AfterStep at GitHub" /></a><a href="https://github.com/afterstep/afterstep/issues" title="Bug Tracker" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('bugtrack_site','','images/Stormy_Skies/bugtrack_site_btn_a.jpg',1)"><img name="bugtrack_site" border="0" src="images/Stormy_Skies/bugtrack_site_btn_i.jpg" alt="Bug Tracker" /></a>  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left" valign="top">
+      <font size="1">&nbsp;<br /></font>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr><td><a href="index.php" title="Home"><img border="0" src="images/Stormy_Skies/home.png" width="64" height="64" alt="Home" /></a>
+					</td></tr>
+        <tr><td><a href="news.php" title="News"><img border="0" src="images/Stormy_Skies/news.png" width="64" height="64" alt="News" /></a>
+					</td></tr>
+        <tr><td><a href="download.php" title="Downloads"><img border="0" src="images/Stormy_Skies/download.png" width="64" height="64" alt="Downloads" /></a>
+						</td></tr>
+        <tr><td><a href="documentation.php" title="Documentation"><img border="0" src="images/Stormy_Skies/documentation.png" width="64" height="64" alt="Documentation" /></a>
+					</td></tr>
+        <tr><td><a href="look.php" title="Looks and Themes"><img border="0" src="images/Stormy_Skies/look.png" width="64" height="64" alt="Looks and Themes" /></a>
+				</td></tr>
+	<tr><td><a href="graphics.php?show=index&amp;src=/desktop" title="Icons, Clipart, etc."><img border="0" src="images/Stormy_Skies/data.png" width="64" height="64" alt="Icons, Clipart, etc." /></a>
+ </td></tr>
+        <tr><td><a href="mail.php" title="Mailing List and Contacts"><img border="0" src="images/Stormy_Skies/mail.png" width="64" height="64" alt="Mailing List and Contacts" /></a>
+			</td></tr>
+      </table>
+    </td>
+    <td align="center" valign="top" >
+      <table border="0" cellspacing="5" cellpadding="5">
+	<tr><td colspan="2" align="left">
+      		<table align="left" width="642" background="images/Stormy_Skies/shaded_back.png" border="0" frame="vsides" bordercolor="black" cellspacing="0" cellpadding="0">		<tr><td align="center">
+			<table background="images/Stormy_Skies/titlebar_a.jpg" width="642" height="28" border="0" cellspacing="0" cellpadding="0"> 			<tr><td align="center">
+				<img id="titlebar_image" src="images/Stormy_Skies/aterm_title_a.png" alt="Welcome to the Official AfterStep website" />        		</td></tr>
+			</table>
+		</td></tr>
+		<tr><td>
+	      		<div class="copy">
+<IMG src="logos/aterm.png" border="0" vspace="0" hspace="20" align="left" valign="center">
+
+<p align="right">
+Latest <A href="ftp://ftp.afterstep.org/apps/aterm/aterm-1.0.1.tar.bz2">Version 1.0.1</A> was released on August 1, 2007
+<hr>
+<br />
+<b>Status</b><ul>
+
+aterm is deprecated and in a maintenance mode only; there will be no further updates. Use <A href="http://software.schmorp.de/pkg/rxvt-unicode.html">rxvt-unicode</A> instead.
+</ul>
+<br />
+
+<b>Synopsis</b>
+<ul> aterm is designed to provide pleasing visual effects, while performing such a mundane function as terminal
+emulation under X. It is largely based on <a href="http://sourceforge.net/projects/rxvt">rxvt</a> 
+code. Several points set it apart from other similar applications : 
+<ul>
+<li>fast pseudo-transparency, that does not consume any additional resources.</li>
+<li>optional off-focus fading of text - when aterm looses focus its contents is dimmed.</li>
+<li>NeXT-ish scrollbar</li>
+<li>integration with AfterStep window manager, allowing for aterm looks to be determined by AfterStep theme,
+and allowing aterm do things like semitransparent gradiented background, JPEG, PNG and other images used as background, 
+and more.</li>
+</ul>
+Note that AfterStep integration works only with AfterStep version 2.00.01 or later.<br />
+Support for background images requires either AfterStep integration, or at least <A href="afterimage/index.php">libAfterImage</A> v.1.07 or later installed.
+</ul>
+<br />
+<b>Downloading</b><ul>
+<fieldset>You can get aterm releases from several places:
+    <OL>
+	<LI><A href="ftp://ftp.afterstep.org/apps/aterm/">From AfterStep FTP site</A>.
+	<LI><A href="http://sourceforge.net/project/showfiles.php?group_id=888">Here</A> at <B>sourceforge</B>.
+	<LI><B>Debian</B> <A href="ftp://ftp.debian.org/debian/pool/main/a/aterm">packages</A> courtesy <A
+href="mailto:weinholt@debian.org">G&ouml;ran Weinholt</A>
+	<LI><B>Fedora</B> packages via yum or via <A href="ftp://ftp.afterstep.org/stable/rpms/RPMS">AfterApplet RPMS</A>
+    </OL>
+    If you mirrored aterm distribution and want your site added here -
+    please e-mail me at &lt;<A href="mailto:sasha@aftercode.net">sasha@aftercode.net</a>&gt; .
+<br />
+You can get standalone libAfterImage to enable background image support from <A href="ftp://ftp.afterstep.org/stable/libAfterImage/">this location</A>. 
+</fieldset>
+</ul>
+<br />
+<b>CVS access</b><ul>
+
+cvs -d :pserver:anonymous@cvs.aftercode.net:/home/cvsroot co aterm1
+
+</ul>
+<br />
+<b>Usage</b><ul>
+Here is blue tinted transparent term, using efficient transparency :<br />
+<b>aterm -tr -tint blue -fg yellow -bg black</b><br />
+<br />
+Here is the same but with off-focus fading :<br />
+<b>aterm -tr -tint blue -fg yellow -bg black -fade 50</b><br />
+<br />
+Here is the shaded transparent aterm : <br />
+<b>aterm -tr -sh 50</b><br />
+<br />
+If you have AfterStep 2.0.1 or later installed - aterm should be able to detect it and 
+integrate into AfterStep. That allows you to setup MyStyle structures in AfterStep look,
+making aterm automagically use them upon startup. For example default MyStyle creates semitransparent gradient 
+in aterm's background :
+<br />
+<a href="screenshots/aterm.Stormy_Skies.png"><img src="screenshots/aterm.Stormy_Skies.png.small.jpg" width=210 align="right"></a>
+<br />
+<b>MyStyle</b> "*aterm"<br />
+&nbsp;&nbsp;<b>ForeColor</b> &nbsp;&nbsp; InactiveText2<br />
+&nbsp;&nbsp;<b>BackColor</b> &nbsp;&nbsp; Inactive2<br />
+&nbsp;&nbsp;<b>BackGradient</b> &nbsp; 6 Inactive2Light alpha(50,Inactive2Dark)<br />
+<b>~MyStyle</b><br />
+<br />
+Starting aterm without parameters will cause it to use that MyStyle.
+You can also override it with -mystyle parameter : <br />
+<b>aterm -mystyle your_style_name</b><br />
+</ul>
+<br />
+<b>Screenshots</b><ul>
+
+See <A href="look.php">AfterStep screenshots</A> for examples of aterm in action.
+</ul>
+<br />
+<b>Related links :</b><ul>
+    <A href="http://www.ibbnet.nl/~anne/keyboard/keyboard.html#X">Backspace and Delete</A><A href="keyboard.html#X"><font size=2>(local copy)</font></A><br />
+    <A href="http://www.linuxdoc.org/HOWTO/Keyboard-and-Console-HOWTO.html">Keyboard and Console HOWTO</A><br />
+    <A href="http://www.linuxdoc.org/HOWTO/Xterm-Title.html">Title HOWTO</A><br />
+    <A href="http://www.linuxdoc.org/HOWTO/Bash-Prompt-HOWTO/index.html">BASH prompt HOWTO</A><br />
+    <A href="http://aterm.sourceforge.net/README.Unix98PTY">Unix98 PTY README</A><br />
+    <A href="http://tronche.com/gui/x/xlib/function-index.html">Xlib programming manual</A><br />
+    <A href="http://tronche.com/gui/x/icccm/">ICCCM</A>
+</ul>
+ 	      		<p>&nbsp;</p>
+	      		</div>
+		</td></tr>
+		<tr><td align="center"><img class="lowbar_a_image" src="images/Stormy_Skies/lowbar_a.jpg" alt="decor" /></td></tr>
+		</table>
+  	</td>
+  	<td align="right" valign="top">
+	      <table border="0" cellspacing="0" cellpadding="0">
+		<tr><td><img src="images/Stormy_Skies/cs_menu_titlebar_a.jpg" alt="titlebar decor" /></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=Crimson" title="$title"><img border="0" src="images/Crimson/cs_mini.jpg" width="24" height="24" alt="Crimson" /></a></td><td valign="middle"><a href="aterm.php?cs=Crimson" title="Crimson"><img align="left" border="0" src="images/Stormy_Skies/Crimson.png" alt="Crimson" /></a></td></tr></table></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=Deep_Red" title="$title"><img border="0" src="images/Deep_Red/cs_mini.jpg" width="24" height="24" alt="Deep Red" /></a></td><td valign="middle"><a href="aterm.php?cs=Deep_Red" title="Deep Red"><img align="left" border="0" src="images/Stormy_Skies/Deep_Red.png" alt="Deep Red" /></a></td></tr></table></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=Gold_On_Blue" title="$title"><img border="0" src="images/Gold_On_Blue/cs_mini.jpg" width="24" height="24" alt="Gold On Blue" /></a></td><td valign="middle"><a href="aterm.php?cs=Gold_On_Blue" title="Gold On Blue"><img align="left" border="0" src="images/Stormy_Skies/Gold_On_Blue.png" alt="Gold On Blue" /></a></td></tr></table></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=Green_Sea" title="$title"><img border="0" src="images/Green_Sea/cs_mini.jpg" width="24" height="24" alt="Green Sea" /></a></td><td valign="middle"><a href="aterm.php?cs=Green_Sea" title="Green Sea"><img align="left" border="0" src="images/Stormy_Skies/Green_Sea.png" alt="Green Sea" /></a></td></tr></table></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=Lime" title="$title"><img border="0" src="images/Lime/cs_mini.jpg" width="24" height="24" alt="Lime" /></a></td><td valign="middle"><a href="aterm.php?cs=Lime" title="Lime"><img align="left" border="0" src="images/Stormy_Skies/Lime.png" alt="Lime" /></a></td></tr></table></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=NeXTish" title="$title"><img border="0" src="images/NeXTish/cs_mini.jpg" width="24" height="24" alt="NeXT-ish" /></a></td><td valign="middle"><a href="aterm.php?cs=NeXTish" title="NeXT-ish"><img align="left" border="0" src="images/Stormy_Skies/NeXTish.png" alt="NeXT-ish" /></a></td></tr></table></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=Peru" title="$title"><img border="0" src="images/Peru/cs_mini.jpg" width="24" height="24" alt="Peru" /></a></td><td valign="middle"><a href="aterm.php?cs=Peru" title="Peru"><img align="left" border="0" src="images/Stormy_Skies/Peru.png" alt="Peru" /></a></td></tr></table></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=Purple" title="$title"><img border="0" src="images/Purple/cs_mini.jpg" width="24" height="24" alt="Purple" /></a></td><td valign="middle"><a href="aterm.php?cs=Purple" title="Purple"><img align="left" border="0" src="images/Stormy_Skies/Purple.png" alt="Purple" /></a></td></tr></table></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=Sea_Water" title="$title"><img border="0" src="images/Sea_Water/cs_mini.jpg" width="24" height="24" alt="Sea Water" /></a></td><td valign="middle"><a href="aterm.php?cs=Sea_Water" title="Sea Water"><img align="left" border="0" src="images/Stormy_Skies/Sea_Water.png" alt="Sea Water" /></a></td></tr></table></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=Silver" title="$title"><img border="0" src="images/Silver/cs_mini.jpg" width="24" height="24" alt="Silver" /></a></td><td valign="middle"><a href="aterm.php?cs=Silver" title="Silver"><img align="left" border="0" src="images/Stormy_Skies/Silver.png" alt="Silver" /></a></td></tr></table></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=Stormy_Skies" title="$title"><img border="0" src="images/Stormy_Skies/cs_mini.jpg" width="24" height="24" alt="Stormy Skies" /></a></td><td valign="middle"><a href="aterm.php?cs=Stormy_Skies" title="Stormy Skies"><img align="left" border="0" src="images/Stormy_Skies/Stormy_Skies.png" alt="Stormy Skies" /></a></td></tr></table></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=Turquoise" title="$title"><img border="0" src="images/Turquoise/cs_mini.jpg" width="24" height="24" alt="Turquoise" /></a></td><td valign="middle"><a href="aterm.php?cs=Turquoise" title="Turquoise"><img align="left" border="0" src="images/Stormy_Skies/Turquoise.png" alt="Turquoise" /></a></td></tr></table></td></tr>
+        	<tr><td><table background="images/Stormy_Skies/cs_menu_item.jpg" cellspacing="0" cellpadding="2" width="220" height="26" align="left"><tr><td align="left" valign="middle"><a href="aterm.php?cs=Washed_Blue" title="$title"><img border="0" src="images/Washed_Blue/cs_mini.jpg" width="24" height="24" alt="Washed Blue" /></a></td><td valign="middle"><a href="aterm.php?cs=Washed_Blue" title="Washed Blue"><img align="left" border="0" src="images/Stormy_Skies/Washed_Blue.png" alt="Washed Blue" /></a></td></tr></table></td></tr>
+		<tr><td><img class="lowbar_a_image" src="images/Stormy_Skies/cs_menu_lowbar_a.jpg" alt="decor" /></td></tr>
+	      </table>
+	</td>
+  	</tr>
+<div class="copy">&nbsp;</div>
+</body>
+</html>
+```
