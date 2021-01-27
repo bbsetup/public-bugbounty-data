@@ -1,0 +1,1 @@
+```<script type='text/javascript'>parent.window.location.href = 'http://passport.qcloud.com/index.php?s_url=https%3A%2F%2Favc.cloud.tencent.com%2F';</script>```
