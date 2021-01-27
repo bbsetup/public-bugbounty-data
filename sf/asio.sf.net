@@ -1,0 +1,176 @@
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.8">
+<title>Asio C++ Library</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+</head>
+<body class="article">
+<div id="header">
+</div>
+<div id="content">
+<table class="tableblock frame-topbot grid-none stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 66.6667%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-middle"><a href="#"><span class="image"><img src="asio.png" alt="asio C++ library"></span></a></th>
+<th class="tableblock halign-right valign-middle"><a href="#">Home</a> | <a href="Download.html">Download</a> | <a href="Documentation.html">Documentation</a> | <a href="Repository.html">Source</a> | <a href="MailingList.html">Mailing List</a> | <a href="http://blog.think-async.com">Blog</a></th>
+</tr>
+</thead>
+</table>
+<div class="sect1">
+<h2 id="_asio_c_library">Asio C++ Library</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Asio is a cross-platform C&#43;&#43; library for network and low-level I/O
+programming that provides developers with a consistent asynchronous
+model using a modern C&#43;&#43; approach.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="title">Latest Stable Release</div>
+<div class="paragraph">
+<p>Asio version 1.18.1</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://sourceforge.net/projects/asio/files/asio/1.18.1%20%28Stable%29/">Download</a></p>
+</li>
+<li>
+<p><a href="https://think-async.com/Asio/asio-1.18.1/doc/asio/history.html#asio.history.asio_1_18_1">Release notes</a></p>
+</li>
+<li>
+<p><a href="https://think-async.com/Asio/asio-1.18.1/doc/">Documentation (non-Boost)</a></p>
+</li>
+<li>
+<p><a href="https://think-async.com/Asio/boost_asio_1_18_1/libs/asio/">Documentation (Boost)</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><em>(Note: Boost.Asio 1.18.1 is also included in Boost 1.75.)</em></p>
+</div>
+<div class="paragraph">
+<p><a href="LatestStableRelease.html">More&#8230;&#8203;</a></p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>When targeting C&#43;&#43;11 (or later), most of Asio can be used without any extra
+dependencies. <a href="AsioStandalone.html">More&#8230;&#8203;</a></p>
+</div>
+<div class="sect2">
+<h3 id="_what_does_asio_provide">What does Asio provide?</h3>
+<div class="paragraph">
+<p>Asio provides the basic building blocks for C&#43;&#43; networking, concurrency
+and other kinds of I/O.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="overview.gif" alt="asio overview"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_what_kind_of_applications_can_use_asio">What kind of applications can use Asio?</h3>
+<div class="paragraph">
+<p>Asio is used in all kinds of applications, from phone apps to the
+world&#8217;s fastest share markets.</p>
+</div>
+<div class="paragraph">
+<p>Here is a list of <a href="WhoIsUsingAsio.html">some applications that use Asio</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_asio_and_boost_asio">Asio and Boost.Asio</h3>
+<div class="paragraph">
+<p>Asio comes in two variants: (non-Boost) Asio and Boost.Asio.
+<a href="AsioAndBoostAsio.html">More&#8230;&#8203;</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_license">License</h3>
+<div class="paragraph">
+<p>Asio is released under the <a href="http://www.boost.org/LICENSE_1_0.txt">Boost
+Software License</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_supported_platforms">Supported Platforms</h3>
+<div class="paragraph">
+<p>Asio is regularly tested with the following platforms:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Linux</p>
+<div class="ulist">
+<ul>
+<li>
+<p>gcc 4.8 or later</p>
+</li>
+<li>
+<p>clang 3.0 or later</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>macOS</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Xcode8 or later using bundled clang</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Windows</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Visual C&#43;&#43; 2013 or later</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>FreeBSD</p>
+<div class="ulist">
+<ul>
+<li>
+<p>gcc 6.0 or later</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="SupportedPlatforms.html">More&#8230;&#8203;</a></p>
+</div>
+<table class="tableblock frame-topbot grid-none stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 66.6667%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-middle"></th>
+<th class="tableblock halign-right valign-middle"><a href="#">Home</a> | <a href="Download.html">Download</a> | <a href="Documentation.html">Documentation</a> | <a href="Repository.html">Source</a> | <a href="MailingList.html">Mailing List</a> | <a href="http://blog.think-async.com">Blog</a></th>
+</tr>
+</thead>
+</table>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>```
