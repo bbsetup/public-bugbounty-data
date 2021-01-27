@@ -1,0 +1,125 @@
+```<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html;
+charset=windows-1252">
+<title>asfpga v1</title>
+
+</head>
+
+<body>
+
+<p><b><font size="5" face="Arial">asfpga v1.00e</font></b>
+</p>
+<hr>
+<table border="1" cellpadding="0" cellspacing="0"
+style="border-collapse: collapse" bordercolor="#111111" width="100%"
+id="AutoNumber1">
+  <tr>
+    <td width="14%" align="center" bgcolor="#C0C0C0"><b>
+    <font face="Arial" size="2"><a
+href="#Description">Description</a></font></b></td>
+    <td width="14%" align="center" bgcolor="#C0C0C0"><b>
+    <font face="Arial" size="2"><a href="#Changelog">Change
+log</a></font></b></td>
+    <td width="14%" align="center" bgcolor="#C0C0C0"><b>
+    <font face="Arial" size="2"><a
+href="#ToDo">To-Do</a></font></b></td>
+    <td width="14%" align="center" bgcolor="#C0C0C0"><b>
+    <font face="Arial" size="2"><a
+href="#Download">Download</a></font></b></td>
+    <td width="14%" align="center" bgcolor="#C0C0C0"><b>
+    <font face="Arial" size="2"><a
+href="#Howto">Howto</a></font></b></td>
+    <td width="15%" align="center" bgcolor="#C0C0C0"><b>
+    <font face="Arial" size="2"><a href="#Sample">Sample
+ASMs</a></font></b></td>
+    <td width="15%" align="center" bgcolor="#C0C0C0"><b>
+    <font face="Arial" size="2"><a
+href="#License">License</a></font></b></td>
+  </tr>
+</table>
+<p><u><font face="Arial"><b><a
+name="Description">Description</a>:</b></font></u></p>
+<p><font face="Arial">asfpga is an assembler written for use in FPGA
+design. It 
+can be easily modified for your instruction set. The ultimate goal of
+this 
+software is to allow a FPGA designer to easily write assembly code for a
+custom 
+instruction set.</font></p>
+<p><font face="Arial">The current version allows to create a listing
+file, a 
+memory dump file which can be used in debugging HDL code using
+$readmemh() or 
+equivalent routine, and a binary file which can be used to program a
+EPROM.</font></p>
+<p><u><font face="Arial"><b><a
+name="Changelog">Changelog</a>:</b></font></u></p>
+<p><font face="Arial"><u>Jan 21st:<br>
+</u>Initial public release v 1.00e</font></p>
+<p><u><b><font face="Arial"><a name="ToDo">ToDo</a>:</font></b></u></p>
+<p><font face="Arial"><u><b><br>
+</b></u>* Remove need for inserting ';' for blank line<br>
+* Add comments, and indent source code<br>
+&nbsp;</font></p>
+<p><u><font face="Arial"><b><a
+name="Download">Download</a>:</b></font></u></p>
+<p><u><b><font face="Arial"><a href="download/asfpga_v1.00e.zip">
+asfpga_v1.00e.zip</a></font></b></u></p>
+<p><u><b><font face="Arial"><a href="download/asfpga_v1.00e.tar.gz">
+asfpga_v1.00e.tar.gz</a></font></b></u></p>
+<p><u><b><font face="Arial"><a name="Howto">Howto</a> compile and
+use:</font></b></u></p>
+<p><u><font face="Arial">To compile:</font></u></p>
+<p><font face="Arial">gcc -o asfpga main.c asfpga.c error.c</font></p>
+<p><u><font face="Arial">To use:</font></u></p>
+<p><font face="Arial">./asfpga inputfileName.asm</font></p>
+<p><font face="Arial">&nbsp;* Comments should be preceded by a ';'.<br>
+&nbsp;* All labels should be preceded by a '#'<br>
+&nbsp;* Empty lines in the source code are not allowed =&gt; should (put
+';' to 
+indicate a carriage return)<br>
+&nbsp;* Instructions such as 'LDI M, LED2', should have a space after
+comma<br>
+&nbsp;* All characters *must* be upper case =&gt; turn CAPS on while
+coding :-)</font></p>
+<p><b><u><font face="Arial"><a name="Sample">Sample</a> asm
+files:</font></u></b></p>
+<p><font face="Arial"><a
+href="download/test1.asm">test1.asm</a></font></p>
+<p align="left"><font face="Arial"><a
+href="download/test2.asm">test2.asm</a></font></p>
+<p><u><b><font face="Arial"><aname="License">License</a>:</font></b></u></p>
+<br>
+This program is free software; you can redistribute it and/or modify it
+under 
+the terms of the GNU General Public License as published by the Free
+Software 
+Foundation; either version 2 of the License, or (at your option) any
+later 
+version.<br>
+<br>
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY 
+WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A 
+PARTICULAR PURPOSE. See the GNU General Public License for more
+details.<br>
+<br>
+You should have received a copy of the GNU General Public License along
+with 
+this program; if not, write to the Free Software Foundation, Inc., 59
+Temple 
+Place, Suite 330, Boston, MA 02111-1307 USA</font></p>
+<hr>
+<p>
+<a href="http://sourceforge.net">
+<img src="http://sourceforge.net/sflogo.php?group_id=72141&amp;type=7" width="210" height="62" border="0" alt="SourceForge.net Logo" align="right"></a>
+</p>
+</body>
+
+</html>
+
+```
