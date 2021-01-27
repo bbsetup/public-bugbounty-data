@@ -1,0 +1,117 @@
+```
+	
+<html>
+<head>
+	<title>Retail Auto Auction</title>
+	<link rel="stylesheet" href="./main.css" type="text/css">
+</head>
+
+
+<body>
+
+<div class="PageTitle">Retail Auto Auction</div>
+
+
+
+
+<p><br></p>
+
+<ul>
+<div class="Section">Introduction</div>
+<p class="SectionBody">This software, written in Python and Qt, provides a complete network-based Point-of-Sale software solution for an auto auction company.  The program currently interfaces with a MySQL database hosted on one of the companies machines and can be installed on any number of machines that act as clients and connect to the database.</p><br>
+
+<p class="SectionBody">In addition to tracking buyers/consignors, vehicles, and sales, the program includes powerful and extensible reporting capabilities.  For instance, reports on buyer participation, vehicle history, car lists, etc. are available and can be exported for use with a spreadsheet.  Contract printouts are generated for a dot matrix printer suitable for triplicate form printing.</p>
+
+
+
+<p><br></p>
+
+<div class="Section">Note</div>
+<p class="SectionBody">
+The 1.6.0 release is almost done.  In the meantime, check out the <a href="./screenshots.php">Screenshots</a>.  We'll get a picture of the VIP Bidpass card used in Reno up as soon as possible.<br><br>
+
+Here is a quick listing of the major new features present in the 1.6.0 release:
+</p>
+
+<ul>
+	<li><b>Photo ID Cards</b><br>
+		The software now allows the user to take photos of a customer, attach the photos to the customer's file, and print out a credit card sized photo ID card on a standard card printer made by Evolis, Eltron or Fargo.  This feature currently works under both Linux and Windows.<br><br>
+		
+	<li><b>Increased Speed</b><br>
+		Several portions of the program ran slowly when 500 or more cars were entered into a single auction.  Those portions have been improved dramatically and are now many times faster when dealing with large numbers of cars.  Affected components include program Startup Time and Car List Edit.<br><br>
+		
+	<li><b>Improved Layout</b><br>
+		Many of the interfaces have been redesigned with speed and efficiency in mind.<br><br>
+		
+	<li><b>Additional Error Messages</b><br>
+		Error messages have been added that inform the user when they attempt to do something that is not possible.<br><br>
+	
+	<li><b>Mailing List Tracking</b><br>
+		Users now have the ability to specify that a customer would like to receive mailings.  Two new reports allow the user to generate snail-mail lists as well as e-mail lists.<br><br>
+		
+	<li><b>Password Prompt on Startup</b><br>
+		Although the password can still be stored in the options file, the user is prompted for the password if it is not found.  This requires users to login each time they start the program and can help increase security.
+</ul>
+
+<p><br></p>
+
+<div class="Section">Downloads</div>
+<p class="SectionBody">
+Our releases and links to packages we require can be found <a href="./downloads.php">here</a>.
+</p>
+
+<p><br></p>
+
+<div class="Section">Screenshots</div>
+<p class="SectionBody">
+Some sample screenshots can be found <a href="./screenshots.php">here</a>.
+</p>
+
+<p><br></p>
+
+<div class="Section">Project Page</div>
+<p class="SectionBody">
+The Sourceforge project page can be found at <a href="http://sourceforge.net/projects/auto-auction/">http://sourceforge.net/projects/auto-auction/</a>.
+</p>
+
+
+<p><br></p>
+
+<div class="Section">Contact Information</div>
+<p class="SectionBody">For more information contact either 
+<a href="mailto:inquiry@gregfortune.com">Greg Fortune</a> or 
+<a href="mailto:kibab@users.sourceforge.net">Kaleb Pederson</a>.</p>
+</ul>
+<p><br></p>
+
+
+
+<br><br><br><br>
+
+<table width="100%" border="0">
+	<tr>
+		<td width="28%" align="left">
+			Hosted by: <A href="http://sourceforge.net">
+			<IMG src="http://sourceforge.net/sflogo.php?group_id=20786" width="88"
+			height="31" border="0" alt="SourceForge Logo"></A>
+		</td>
+		<td width="44%" align="center">
+			<a href="./">Main Page</a> | 
+			<a href="./downloads.php">Downloads</a> |
+			<a href="./screenshots.php">Screenshots</a> | 
+			<a href="http://sourceforge.net/projects/auto-auction/">Project Page</a>
+		</td>
+		<td width="28%" align="right">
+			<a href="mailto:inquiry@gregfortune.com">Greg Fortune</a><br>
+			<a href="mailto:kibab@users.sourceforge.net">Kaleb Pederson</a><br>
+			Last Modified: Jan 01, 1970<br>
+		</td>
+	</tr>
+</table>
+		
+		
+
+</body>
+
+</html>
+```
