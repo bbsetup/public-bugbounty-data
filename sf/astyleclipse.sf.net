@@ -1,0 +1,152 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="Author" content="Larry Cai" />
+<meta name="Copyright" content="Copyleft" />
+<meta name="Description" content="astyleclipse provide a C/C++ formatter for CDT plugin in eclipse based on astyle engine" />
+<meta name="Keywords" content="CDT, eclipse, formatter, astyleclipse, astyle, C/C++ formatter,beautify,plugin" />
+<meta name="Robots" content="follows" />
+<title>Astyle Eclipse Plugin</title>
+<link href="style.css" media="screen" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <table class="mainTable">
+<tbody><tr>
+		<!-- HEADER -->						
+		
+		<td class="topLeft">
+			<a href="http://astyleclipse.sourceforge.net/"><img src="logo.jpg" class="logo" /></a>
+		</td>
+		<td class="topRight">
+			<span class="headerLinks"> 
+				<a href="http://astyleclipse.sourceforge.net/">Home</a> | 
+				<a href="http://www.sourceforge.net/projects/astyleclipse">Project</a> | 						
+				<a href="http://sourceforge.net/project/screenshots.php?group_id=177924">Screenshots</a> | 
+				<a href="http://sourceforge.net/project/showfiles.php?group_id=177924">Download</a>	| 
+				<a href="http://sourceforge.net/forum/?group_id=177924">Forums</a> |
+				<a href="http://sourceforge.net/tracker/?group_id=177924&amp;atid=883174">Feature Requests</a> | 
+				<a href="http://sourceforge.net/tracker/?group_id=177924&amp;atid=883171">Bugs</a>
+			</span>
+		</td>
+	</tr>
+	
+	<tr>
+
+		<!-- MENU -->			
+		
+		<td class="leftBar">
+		<div class="menu">
+		<ul>
+			<li>Home</li>
+			<li><a href="http://astyleclipse.sourceforge.net/clover">Clover report(1.0.0)</a></li>
+<!--				<li><a href="http://astyleclipse.sourceforge.net/help.html">Help Wanted</a></li> -->
+		</ul>
+		</div>
+		<a href="http://sourceforge.net"><img class="friendLogo" 
+		src="http://sflogo.sourceforge.net/sflogo.php?group_id=177924&amp;type=1" 
+		width="88" height="31" border="0" alt="SourceForge.net Logo" /></a>
+		<a href="http://cooltext.com" target="_top"><img class="friendLogo" 
+		src="ct_pixel.gif" 
+		width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
+		<a href="http://www.cenqua.com/clover"><img class="friendLogo" 
+		src="clovered1.gif" width="89" height="33" border="0" alt="Code Coverage by Clover"/></a>
+		</td>
+		
+		<td class="content">
+
+			<!-- CONTENT START -->
+
+		<h1>About Astyle Eclipse</h1>
+		<p>Astyle Eclipse is based on <a href="http://astyle.sourceforge.net">Astyle</a> 
+		program, it aims to provide a C/C++ formatter for CDT plugin in eclipse. so all the 
+		supported format optional shall check astyle</p>
+		<p>The project started as a fork from example 
+		<a href="http://dev.eclipse.org/viewcvs/index.cgi/cdt-home/contrib/?cvsroot=Tools_Project">
+		indent plugin in CDT plugin</a> and get the java ported astyle source codes from 
+		<a href="http://plugins.jedit.org/plugins/?AStylePlugin">
+		astyle-plugin for jedit</a>, then the astyleclipse comes out</p>
+		<p>The application is available as a plugin for Eclipse 3.2.</p>
+		<p>the webpage style is copied from 
+		<a href="http://eclipsesql.sourceforge.net">
+			Eclipse SQL Exployer</a></p>
+		<p>If you like, please 
+		<a href="http://www.eclipseplugincentral.com/Web_Links-index-req-ratelink-lid-671.html">
+			Rate this plugin @ Eclipse Plugin Center</a>, and leave your comments</p>
+		<h1>Installation Instructions</h1>
+		<p><b>Eclipse Plugin</b></p>
+		<p><i>Download</i></p>				
+		<p><a href="http://sourceforge.net/project/showfiles.php?group_id=177924">Download</a> 
+		the Astyle Eclipse plugin and extract the zip file in your eclipse directory.<br />
+		After restarting eclipse with the -clean option,
+		select Astyle Plugin in C/C++ format.</p>
+		<p><i>Eclipse Update Site</i></p>
+		<p>You can install and update Astyle Eclipse via the eclipse update
+mechanism. The update site for Astyle Eclipse is
+<b>http://astyleclipse.sourceforge.net/update</b>, (support eclipse3.2+)</p>
+		<h1>Getting started</h1>
+		<p>In <b>Preference</b> choose <I>Astyle Plugin</I> in C++ Code Formatter, then right click in editor and choose Format to use.<br>
+				see <a href="http://sourceforge.net/project/screenshots.php?group_id=177924">screenshots</a> for what the preference page looks like</p>
+				
+		<h1>Release</h1>
+		<h2>Plan</h2>
+		<ul>
+		<li>it is planned to release 1.1.0 (Mud) (astyle engine 1.19) in 2006.10.23 
+		<span class="statuswarning">[Paused]</span><br />
+		"request if you needs?" check 
+		<a href="http://sourceforge.net/pm/task.php?group_project_id=49277&group_id=177924&func=browse">project tasks</a></li>
+		<li>release 0.9.0 (based on 1.0.100) for eclipse 3.1 in 2006.10.13. <span class="statusok">[Passed]</span></li>
+		<li>release 1.0.0 in 2006.09.23, see <a href="http://sourceforge.net/forum/forum.php?forum_id=615382">
+			release news</a> <span class="statusok">[Passed]</span></li>
+		</ul>
+		<h2>Notes</h2>
+		<p>
+		 2006.10.20 <span class="statuswarning">[error]</span> - version 1.0.101 bug fix - remove JDK5.0 specific codes to support jdk1.4, but it doesn't work<br/>
+		2006.10.14 - version 0.9.0 new - supports eclipse 3.1<br/> 
+		2006.10.04 - version 1.0.100 bug fix - update preview fonts to support mac os<br/>
+		 2006.10.01 - version 1.0.5 improve - support preview and more options<br />
+		 </p>
+		<h2>Requirements</h2>
+		<p>
+		For astyleclipse 1.0.x versions: Eclipse 3.2<br/>
+		For astyleclipse 0.9.x versions: Eclipse 3.1.x or Eclipse 3.2<br/>
+		JDK 1.4 or JDK 1.5<br/>
+		</p>
+		<p>I don't want to maintain two lines, it is only because the Eclipse-LazyStart/Eclipse-AutoStart in MANIFEST.MF 
+		for different eclipse, do you have good suggestion ?</p>
+		
+
+		<h1>Acknowledgements </h1>
+		<ul>
+		<li>Big thanks to the <a href="http://astyle.sourceforge.net">astyle project</a> of creating nice Artistic style format tool</li>
+		<li>thanks to <b>Dirk Moebius</b> who ported astyle 1.14.1 to java version</li>
+		<li>thanks to <a href="http://www.sf.net">SourceForge</a> for giving Artistic Style its home</li>
+		<li>thanks to <a href="http://www.eclipse.org">Eclipse.org</a> for giving this excellent platform</li>
+		<li>thanks to <a href="http://www.cenqua.com">cenqua</a> who provide free license of clover, which is a plugin to 
+		take care of the quality of my codes</li>
+		<li>thanks to the first user (<b>Jimmy</b>) who bring me quick feedback, which give me energy</li>
+		<li><b>Patrick</b> drives me to support jdk1.4 under eclipse 3.2</li>
+		<li>thanks to everyone who visited this webpage, bb</li>
+		</ul>
+		<h1>Reference</h1>
+		<ul>
+		<li><a href="http://softwitch.net/blog/index.php/simple-indent-code-formatter-for-cdt">
+			Simple Indent plugin for CDT</a></li>
+		<li><a href="http://www.amazon.com/gp/product/032142672X">Book - Eclipse: 
+		Building Commercial-Quality Plug-ins, Second Edition</a> by Eric Clayberg, Dan Rubel</li>
+		<li><a href="http://eclipse-plugins.info/eclipse/plugin_details.jsp?id=1577">
+			astyleclipse @ eclipse-plugins.info</a></li>
+		<li><a href="http://www.eclipseplugincentral.com/Web_Links-index-req-viewlink-cid-703.html">
+			astyleclipse @ eclipseplugincentral.com</a></li>
+		<li>see <a href="wayofplugin.html">way of plugin astyleclipse</a> and 
+		<a href="development.html">my development issues</a></li>
+		</ul>
+						
+			<!-- CONTENT END -->		
+		</td>
+	</tr>
+
+</tbody>
+		</table>
+	</body>
+</html>```
