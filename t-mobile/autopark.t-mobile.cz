@@ -1,0 +1,267 @@
+```<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var dataLayer = dataLayer || []; // Google Tag Manager
+        </script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title></title>
+
+        <link rel="SHORTCUT ICON" href="favicon.ico" />        
+        
+        <link class="include" rel="stylesheet" type="text/css" href="js/jplot/jquery.jqplot.min.css" />
+        <link class="include" rel='stylesheet' type='text/css' href='js/fullcalendar/fullcalendar.css' />
+        <link class="include" rel='stylesheet' type='text/css' href="js/select2/css/select2.min.css" />
+        
+        
+        
+        <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
+        <script type="text/javascript" src="js/jquery.layout-latest.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-timepicker-addon.js"></script>
+        <script src="js/i18n/grid.locale-cs.js" type="text/javascript"></script>
+        <script src="js/jquery.jqgrid.src.js?v182" type="text/javascript"></script>
+        <script src="js/scrollabletab.js" type="text/javascript"></script>
+        <script type='text/javascript' src="js/i18n/jquery.ui.datepicker-cs.js" charset="utf-8"></script>
+        <script src="js/jquery.ui.position.js" type="text/javascript"></script>
+        <script src="js/jquery.contextmenu.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery.ui.selectmenu.js"></script>
+        <script type='text/javascript' src='js/fullcalendar/fullcalendar.js' charset="utf-8"></script>
+        <script type="text/javascript" src="js/passfield.min.js"></script>
+        <script type="text/javascript" src="js/jquery.inputmask.bundle.min.js"></script>
+        <script type="text/javascript" src="js/datejs.js?v=182"></script>
+        <script type="text/javascript" src="js/spectrum.js"></script>
+        <script type="text/javascript" src="js/jquery.json.js"></script>      
+        <script type="text/javascript" src="js/select2/js/select2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fileDownload.js"></script>
+        <script type="text/javascript" src="js/nprogress/nprogress.js"></script>
+        <link rel="stylesheet" type="text/css" href="js/nprogress/nprogress.css" />
+        
+        <link rel="stylesheet" type="text/css" href="templates/default/css/main.css?v182a" />
+
+
+        <!--[if lt IE 9]><script language="javascript" type="text/javascript" src="js/jplot/excanvas.min.js"></script><![endif]--> 
+        <script class="include" type="text/javascript" src="js/jplot/jquery.jqplot.min.js"></script>
+        <script class="include" language="javascript" type="text/javascript" src="js/jplot/plugins/jqplot.cursor.min.js"></script>
+        <script class="include" language="javascript" type="text/javascript" src="js/jplot/plugins/jqplot.dateAxisRenderer.min.js"></script>
+        <script class="include" type="text/javascript" src="js/jplot/plugins/jqplot.highlighter.min.js"></script>
+        <script type="text/javascript" src="js/jplot/plugins/jqplot.canvasTextRenderer.min.js"></script>
+        <script type="text/javascript" src="js/jplot/plugins/jqplot.canvasAxisTickRenderer.min.js"></script>
+        <script type="text/javascript" src="js/jplot/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
+        <script type="text/javascript" src="js/jplot/plugins/jqplot.enhancedLegendRenderer.min.js"></script>
+        <script type="text/javascript" src="js/jplot/plugins/jqplot.donutRenderer.min.js"></script>
+        <script type="text/javascript" src="js/jplot/plugins/jqplot.barRenderer.min.js"></script>
+        <script type="text/javascript" src="js/jplot/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+        <script type="text/javascript" src="js/jplot/plugins/jqplot.pointLabels.min.js"></script>
+        
+        <!--script type="text/javascript" src="js/app/script-1.0.js?177c"></script>
+        <script type="text/javascript" src="js/app/appvalidator.js?v182"></script>
+        <script type="text/javascript" src="js/app/contextmenus.js?v182"></script>
+        <script type="text/javascript" src="js/app/appplaces.js?v182"></script>
+        <script type="text/javascript" src="js/app/appareas.js?v182"></script>
+        <script type="text/javascript" src="js/app/approutes.js?v182"></script>
+        <script type="text/javascript" src="js/app/apprights.js?v182"></script>
+        <script type="text/javascript" src="js/app/apppumps.js?v182"></script>
+        <script type="text/javascript" src="js/app/appdrivers.js?v182"></script>
+        <script type="text/javascript" src="js/app/appusers.js?v182"></script>
+        <script type="text/javascript" src="js/app/appcars.js?v182"></script>
+        <script type="text/javascript" src="js/app/appgroups.js?v182"></script>
+        <script type="text/javascript" src="js/app/applockkj.js?v182"></script>
+        <script type="text/javascript" src="js/app/appreservation.js?v182"></script>
+        <script type="text/javascript" src="js/app/appcosts.js?v182"></script>
+        <script type="text/javascript" src="js/app/appterms.js?v182"></script>
+        <script type="text/javascript" src="js/app/appfuel.js?v182"></script>
+        <script type="text/javascript" src="js/app/appevents.js?v182"></script>
+        <script type="text/javascript" src="js/app/appinsuredevents.js?v182"></script>
+        <script type="text/javascript" src="js/app/appregisters.js?v182"></script>
+        <script type="text/javascript" src="js/app/apppaycards.js?v182"></script>
+        <script type="text/javascript" src="js/app/apprightstemplate.js?v182"></script>
+        <script type="text/javascript" src="js/app/appreportscalendar.js?v182"></script-->
+
+        <script type="text/javascript" src="js/app/apputils.js?v182"></script>
+
+        <script type="text/javascript" src="js/app/script.min.js?v182"></script> 
+        <script type="text/javascript" src="js/app/appapisettings.js?v182"></script>
+        <script type="text/javascript" src="templates/default/js/applang-cs.js?v182"></script>
+
+    </head>
+    <body class="unselectable">
+        <div id="nanobar"></div>
+       
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WXF57L"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WXF57L');</script>
+        <!-- End Google Tag Manager -->
+        <div id="fmOuterFrm" class="">
+            <span id="fmOuterLoader" class="loader"></span>
+            <div id="fmHeader">
+                <span class="brLogo"></span>
+                <a id="headerUrl" href="#"><span class="tmLogo2"></span></a>
+            </div>
+            <div id="fmInnerFrm">
+                <div id="fmMainMenuFrm">
+                    <div id="nav">
+                        <ul>    
+                            <li class="nav-arrow nav-first">
+                                <a class="nav-zobrazeni trantext">ZobrazenÃ­</a>
+                                <ul class="nav-menu">
+                                    <li class=""><a href="#" id="fmDispMapBtn"><span class="ui-icon fm-icon-offmap trantext"></span>Mapa</a></li>
+                                    <li><a href="#" id="fmDispExploreBtn"><span class="ui-icon fm-icon-lupa"></span>PrÅ¯zkumnÃ­k</a></li>
+                                    <li><a href="#" id="fmDispDataBtn"><span class="ui-icon fm-icon-text"></span>Data</a></li>
+                                    <li><a href="#" id="fmDispReportBtn"><span class="ui-icon fm-icon-report"></span>Reporty</a></li>
+                                </ul>       
+                            </li>
+                            <li class="nav-arrow"><a id="fmEvidenceListBtn" class="nav-evidence">Evidence</a>
+                                    <ul class="nav-menu">
+                                        <li><a href="#" id="fmEvidCarsListBtn"><span class="ui-icon fm-icon-vozidlo"></span>Vozidla</a></li>
+                                        <li><a href="#" id="fmEvidUsersListBtn"><span class="ui-icon fm-icon-seznam"></span>UÅ¾ivatelÃ©</a></li>                                        
+                                        <li><a href="#" id="fmEvidDriversListBtn"><span class="ui-icon fm-icon-users"></span>ÅidiÄi</a></li>
+                                        <li><a href="#" id="fmEvidPlacesListBtn"><span class="ui-icon fm-icon-home"></span>MÃ­sta</a></li>
+                                        <li><a href="#" id="fmEvidTermsListBtn"><span class="ui-icon fm-icon-report"></span>TermÃ­ny a km</a></li>
+                                        <li><a href="#" id="fmEvidAreasListBtn"><span class="ui-icon fm-icon-onmap"></span>Oblasti</a></li>
+                                        <li><a href="#" id="fmEvidRoutesListBtn"><span class="ui-icon fm-icon-onmap"></span>PlÃ¡novÃ¡nÃ­ tras</a></li>
+                                        <li><a href="#" id="fmMassExportKJBtn"><span class="ui-icon fm-icon-export"></span>HromadnÃ½ export KJ</a></li>
+                                        <li><a href="#" id="fmEvidRightsListBtn"><span class="ui-icon fm-icon-user"></span>OprÃ¡vnÄnÃ­</a></li>
+                                        <li><a href="#"><span class="ui-icon fm-icon-home"></span>VeÅejnÃ© body zÃ¡jmu</a>
+                                            <ul>
+                                                <li><a href="#"  id="fmEvidPoiPumpsBtn"><span></span>ÄerpacÃ­ stanice s akcept. CCS</a></li>
+                                                <li><a href="#"><span></span>PolicejnÃ­ stanice</a>
+                                                    <ul>
+                                                        <li><a href="#" id="fmEvidPoiPolicieBtn"><span></span>Policie ÄR</a></li>
+                                                        <li><a href="#" id="fmEvidPoiPolicieMestskaBtn"><span></span>Policie mÄstskÃ¡ a obecnÃ­</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>       
+                            </li>
+                            <li class="nav-arrow"><a class="nav-reporty" id="fmMenuReportBtn" title="">Reporty</a></li>
+                            <li class="nav-arrow"><a class="nav-reporty" id="fmMenuORBtn">OborovÃ¡ ÅeÅ¡enÃ­</a>
+                                    <ul class="nav-menu">
+                                        <li class="ui-state-disabled"><a href="#" id="fmORDopravaBtn"><span class="ui-icon fm-icon-report"></span>Doprava</a></li>
+                                        <li class="ui-state-disabled"><a href="#" id="fmORStavebnictviBtn"><span class="ui-icon fm-icon-report"></span>StavebnictvÃ­</a></li>
+                                        <li class="ui-state-disabled"><a href="#" id="fmORZasobovaniBtn"><span class="ui-icon fm-icon-report"></span>ZÃ¡sobovÃ¡nÃ­</a></li>
+                                        <li class="ui-state-disabled"><a href="#" id="fmORTechsluzbyBtn"><span class="ui-icon fm-icon-report"></span>TechnickÃ© sluÅ¾by</a></li>
+                                        <li class="ui-state-disabled"><a href="#" id="fmORZemedelstviBtn"><span class="ui-icon fm-icon-report"></span>ZemÄdÄlstvÃ­</a></li>
+                                        <li class="ui-state-disabled"><a href="#" id="fmORSluzbyBtn"><span class="ui-icon fm-icon-report"></span>SluÅ¾by a vÃ½roba</a></li>
+                                    </ul>       
+                            </li>
+                            <li class="nav-arrow"><a class="nav-nastroje" id="fmMenuToolsBtn">NÃ¡stroje</a>
+                                    <ul class="nav-menu">
+                                        <li><a href="#" id="fmToolsPlanovaniTrasBtn"><span class="ui-icon fm-icon-routeplan"></span>PlÃ¡novÃ¡nÃ­ tras</a></li>
+                                        <li><a href="#" id="fmToolsRezervaceVozidelBtn"><span class="ui-icon fm-icon-time"></span>Rezervace vozidel</a></li>
+                                        <li><a href="#" id="fmToolsLockKJBtn"><span class="ui-icon fm-icon-lock"></span>HromadnÃ© zamykÃ¡nÃ­ KJ</a></li>
+                                        <li><a href="#" id="fmToolsKalendarReportuBtn"><span class="ui-icon fm-icon-send"></span>ZasÃ­lÃ¡nÃ­ reportÅ¯</a></li>
+                                        <li id="fmManSumReportBtn"><a href="#" id="fmToolsManSumReportBtn"><span class="ui-icon fm-icon-report"></span>ManaÅ¾erskÃ½ pÅehled</a></li>                                        
+                                        <li><a href="#" id="fmToolsCPBtn"><span class="ui-icon fm-icon-money"></span>CestovnÃ­ pÅÃ­kazy</a></li>
+                                        <li><a href="#" id="fmToolsPovCerpaciStaniceBtn"><span class="ui-icon fm-icon-money"></span>PovolenÃ© ÄerpacÃ­ stanice</a></li>
+                                        <li><a href="#" id="fmToolsProvozovCerpaciStaniceBtn"><span class="ui-icon fm-icon-money"></span>ProvozovatelÃ© ÄerpacÃ­ch stanic</a></li>
+                                        <li><a href="#" id="fmToolsImportFuelCardBtn"><span class="ui-icon fm-icon-fuel"></span>Import nÃ¡kupÅ¯</a></li>
+                                        <li><a href="#" id="fmToolsSettingsBtn"><span class="ui-icon fm-icon-settings"></span>NastavenÃ­</a></li>
+                                        <li><a href="#" id="fmToolsPasswdBtn"><span class="ui-icon fm-icon-lock"></span>ZmÄna hesla</a></li>
+                                        <li><a href="#" id="fmToolsLangBtn"><span class="ui-icon fm-icon-lang"></span>Jazyk</a>
+                                            <ul>
+                                                   <li><a href="#cs" id="fmToolsLangCs"><span class="ui-icon fm-icon-cs"></span>Äesky</a></li>
+                                                   <li><a href="#en" id="fmToolsLangEn"><span class="ui-icon fm-icon-en"></span>Anglicky</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" id="fmToolsMessagesBtn"><span class="ui-icon fm-icon-report"></span>ZprÃ¡vy systÃ©mu</a></li>
+                                        <li><a href="#" id="fmToolsTerminalMenuBtn"><span class="ui-icon fm-icon-text"></span>TerminÃ¡ly ÅidiÄÅ¯</a>
+                                            <ul>
+                                                   <li><a href="#cs" id="fmToolsTerminalsBtn"><span class="ui-icon fm-icon-report"></span>ZprÃ¡vy z terminÃ¡lÅ¯</a></li>
+                                                   <li><a href="#en" id="fmToolsTerminalRoutesBtn"><span class="ui-icon fm-icon-onmap"></span>Trasy na terminÃ¡ly</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>       
+                            </li>
+                            <li class="nav-arrow"><a class="nav-napoveda" id="fmMenuHelpBtn">NÃ¡povÄda</a>
+                                <ul class="nav-menu">
+                                    <li id="fmMenuOnlineHelpBtn"><a id="menuHelpOnlineUrl"  href="#" target="help"><span class="ui-icon fm-icon-help"></span>Online nÃ¡povÄda</a></li>
+                                    <li><a id="menuHelpPdfUrl" href="#" target="helppdf"><span class="ui-icon fm-icon-dropdown"></span>NÃ¡povÄda ke staÅ¾enÃ­</a></li>
+                                    <li id="fmMenuContactsBtn"><a id="menuContactsUrl" href="#" target="_blank"><span class="ui-icon seznam"></span>Kontakty</a></li>
+                                    <li><a href="#" id="fmHelpAboutBtn"><span class="ui-icon fm-icon-about"></span>O aplikaci</a></li>                                    
+                                </ul>
+                            </li>
+                            <li style="width:100%" class="nav-none"></li>
+                            <li class="nav-arrow" style="display: block; height: 30px;"><span class="brLogo on-fmScr"></span></li>
+                            <li class="nav-arrow"><a href="#" id="fmMaximizeBtn" class="nav-maximize"  title="ZmÄnit velikost okna">&nbsp;</a></li>
+                            <li class="nav-arrow nav-dark nav-last"><a href="#" id="fmLogoutBtn" class="nav-odhlasit"><span></span>OdhlÃ¡sit</a></li>
+                        </ul>                        
+                    </div>
+                </div>
+                <div id="fmMainFrm">
+                    <div id="fmContentFrm"  class="ui-layout-center">
+                        <div id="fmMapFrm" class="ui-layout-center overflow-hidden"></div>
+                        <div id="fmTabsFrm" class="ui-layout-south overflow-hidden">
+                                    <ul>
+                                    </ul>
+                        <span id="fmTabsFrmsControls">
+                            <button id="fmTabsFrmMaximize">ZvÄtÅ¡it okno</button>
+                            <button id="fmTabsFrmMinimize">ZmenÅ¡it okno</button>
+                        </span> 
+                        <span id="fmTabsFrmsControlsBackGr">
+                        </span>                             
+                            <div class="ui-layout-content ui-widget-content ui-corner-bottom background-shadow">
+                            </div>                        
+                        </div>
+                    </div>
+                    <div id="fmExploreFrm" class="ui-layout-west">
+                        <div class="ui-widget-header">
+                                PrÅ¯zkumnÃ­k
+                                <div id="expToolBar">
+                                    <input type="checkbox" id="fmExpSearchBtn" /><label for="fmExpSearchBtn">Hledat</label>
+                                    <button id="fmExpRefreshBtn">Obnovit</button>
+                                    <button id="fmExpOptionsBtn">MoÅ¾nosti</button>
+                                    <button id="fmExpCloseBtn">SkrÃ½t</button>
+                                </div>
+                        </div>
+                        <div id="fmExpSearch" class="ui-widget-header tab-header hidden">
+                            <span>
+                            <input type="text" id="fmExpSearchInp" class="ui-widget ui-widget-content ui-state-default ui-corner-all ui-autocomplete-input"/>
+                            <button id="fmExpDoSearchBtn">Hledat</button>
+                            </span>
+                        </div>
+                         <div id="radio" class="tab-header max-size">
+                             <button id="fmExpOpenAll" class="whalf">Rozbalit vÅ¡e</button>
+                             <button id="fmExpCloseAll" class="whalf">Zabalit vÅ¡e</button>
+                         </div>
+                        <div class="tree-container ui-layout-content" id="fmExplorerContent" >
+                            <span class="loader"></span>
+                        </div>
+<!--                         <div class="ui-widget-header" id="fmExplorerFooter"></div>-->
+                    </div>
+                    <div id="fmReportListFrm" class="ui-layout-east">
+                        <div class="ui-widget-header">
+                                Reporty
+                                <div id="repToolBar">
+                                        <button id="fmRepCloseBtn">SkrÃ½t</button>
+                                </div>
+                        </div>
+                        <div class="tree-container ui-layout-content" id="fmReportsContent">
+                            <span class="loader"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="fmFooter"><p id="footer-copy"></p></div>
+        </div>
+        <div id="loginDialog">
+            <form id="loginForm" class="fmTabEdit">
+                <DIV id="loginErrorLabel" class="ui-state-error dialogErrorLabel"></DIV>
+                <DIV><label>ZÃ¡kaznÃ­k</label> <input type="text" name="CUSTOMER"></DIV>
+                <DIV><label>JmÃ©no</label> <input type="text" name="USERNAME"></DIV>
+                <DIV><label>Heslo</label> <input type="password" name="PASSWD"></DIV>                
+                <div id="loginLanguage"><a href="#cs" onclick="app.setLanguage('cs', function () {window.location.reload();});"><span class="ui-icon fm-icon-cs" title="Äesky"></span></a><a href="#en" onclick="app.setLanguage('en', function () {window.location.reload();});"><span class="ui-icon fm-icon-en" title="Anglicky"></span></a></div>
+            </form>
+        </div>
+        <div id="messageBox"></div>
+        <iframe id="exportWindow" class="hidden" onload="NProgress.done(true)"></iframe>
+    </body>
+</html>  
+    
+```
