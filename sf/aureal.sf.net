@@ -1,0 +1,28 @@
+```<html>
+<head>
+<title>Aureal Linux Hacking</title>
+</head>
+<body>
+<h1>Linux Aureal Drivers</h1>
+<h2>The Story</h2> Aureal makes these sound card chipsets called vortex. They released a mixed binary, 
+source driver for linux. They had some problems, so some hackers worked on making them more stable and support 
+the latest kernel. These were submitted back to aureal with the intent to make them back into the official 
+drivers. Aureal went through some business problems, and has now gone bankrupt. Their assests 
+were purchased by Creative Labs. Unfortunatly, Creative refuses to release the specs for these cards. 
+
+<h2>Status</h2>
+The current drivers (<a href="http://sourceforge.net/project/showfiles.php?group_id=8109">1.1.2</a>) are in usable state. However, it is recommended that the <a href="http://sourceforge.net/cvs/?group_id=8109">cvs</a> be used instead.
+The cvs version has a variety of useful fixes, and a rewritten makefile that should make them eaiser to install.
+<p>
+We are currently in the progress of reverse engineering the binary part of the drivers with the hope of finding out how to talk directly with the card.
+When this is complete the drivers will likely be completely rewritten from scratch.<p>
+The current reverse engineering work can be checked out of the cvs using the "aureal_re" module
+
+<h2>Links</h2>
+<ul>
+<li><a href="http://sourceforge.net/projects/aureal">Project Page</a>
+<li><a href="http://www.vortexofsound.com/">Vortex of Sound</a>
+</ul>
+</body>
+</html>
+```
