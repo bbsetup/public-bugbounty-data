@@ -1,0 +1,164 @@
+```<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="300"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kali Continuous Integration Results">
+    <meta name="author" content="The Debian Project">
+    <title>Kali Continuous Integration</title>
+    <link rel="icon" type="image/png" href="/logo.png"/>
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.min.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+  </head>
+  <body>
+    <div id='wrap'>
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand hidden-xs" href="/">Kali Continuous Integration</a>
+            <a class="navbar-brand visible-xs" href="/">Kali CI</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="/status/">Status</a></li>
+              <li><a href="/doc/">Documentation</a></li>
+              <li><a href="/api/">API</a></li>
+              <li><a href="/data/">Data</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/user">Self Service</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+
+  <div class="col-md-6">
+
+    <h3>Packages</h3>
+    <ul class="list-inline">
+        <li><h5><a href="/packages/2">2</a></h5></li>
+        <li><h5><a href="/packages/3">3</a></h5></li>
+        <li><h5><a href="/packages/4">4</a></h5></li>
+        <li><h5><a href="/packages/6">6</a></h5></li>
+        <li><h5><a href="/packages/9">9</a></h5></li>
+        <li><h5><a href="/packages/a">a</a></h5></li>
+        <li><h5><a href="/packages/b">b</a></h5></li>
+        <li><h5><a href="/packages/c">c</a></h5></li>
+        <li><h5><a href="/packages/d">d</a></h5></li>
+        <li><h5><a href="/packages/e">e</a></h5></li>
+        <li><h5><a href="/packages/f">f</a></h5></li>
+        <li><h5><a href="/packages/g">g</a></h5></li>
+        <li><h5><a href="/packages/h">h</a></h5></li>
+        <li><h5><a href="/packages/i">i</a></h5></li>
+        <li><h5><a href="/packages/j">j</a></h5></li>
+        <li><h5><a href="/packages/k">k</a></h5></li>
+        <li><h5><a href="/packages/l">l</a></h5></li>
+        <li><h5><a href="/packages/lib3">lib3</a></h5></li>
+        <li><h5><a href="/packages/liba">liba</a></h5></li>
+        <li><h5><a href="/packages/libb">libb</a></h5></li>
+        <li><h5><a href="/packages/libc">libc</a></h5></li>
+        <li><h5><a href="/packages/libd">libd</a></h5></li>
+        <li><h5><a href="/packages/libe">libe</a></h5></li>
+        <li><h5><a href="/packages/libf">libf</a></h5></li>
+        <li><h5><a href="/packages/libg">libg</a></h5></li>
+        <li><h5><a href="/packages/libh">libh</a></h5></li>
+        <li><h5><a href="/packages/libi">libi</a></h5></li>
+        <li><h5><a href="/packages/libj">libj</a></h5></li>
+        <li><h5><a href="/packages/libk">libk</a></h5></li>
+        <li><h5><a href="/packages/libl">libl</a></h5></li>
+        <li><h5><a href="/packages/libm">libm</a></h5></li>
+        <li><h5><a href="/packages/libn">libn</a></h5></li>
+        <li><h5><a href="/packages/libo">libo</a></h5></li>
+        <li><h5><a href="/packages/libp">libp</a></h5></li>
+        <li><h5><a href="/packages/libq">libq</a></h5></li>
+        <li><h5><a href="/packages/libr">libr</a></h5></li>
+        <li><h5><a href="/packages/libs">libs</a></h5></li>
+        <li><h5><a href="/packages/libt">libt</a></h5></li>
+        <li><h5><a href="/packages/libu">libu</a></h5></li>
+        <li><h5><a href="/packages/libv">libv</a></h5></li>
+        <li><h5><a href="/packages/libw">libw</a></h5></li>
+        <li><h5><a href="/packages/libx">libx</a></h5></li>
+        <li><h5><a href="/packages/liby">liby</a></h5></li>
+        <li><h5><a href="/packages/libz">libz</a></h5></li>
+        <li><h5><a href="/packages/m">m</a></h5></li>
+        <li><h5><a href="/packages/n">n</a></h5></li>
+        <li><h5><a href="/packages/o">o</a></h5></li>
+        <li><h5><a href="/packages/p">p</a></h5></li>
+        <li><h5><a href="/packages/q">q</a></h5></li>
+        <li><h5><a href="/packages/r">r</a></h5></li>
+        <li><h5><a href="/packages/s">s</a></h5></li>
+        <li><h5><a href="/packages/t">t</a></h5></li>
+        <li><h5><a href="/packages/u">u</a></h5></li>
+        <li><h5><a href="/packages/v">v</a></h5></li>
+        <li><h5><a href="/packages/w">w</a></h5></li>
+        <li><h5><a href="/packages/x">x</a></h5></li>
+        <li><h5><a href="/packages/y">y</a></h5></li>
+        <li><h5><a href="/packages/z">z</a></h5></li>
+    </ul>
+
+  </div> <!-- class='col-md-6' -->
+  <div class="col-md-6">
+    <h3>Search Package</h3>
+    <form action='javascript:redirect();' name="searchform" id="searchform" method="post" style="display: inline;">
+      <input autofocus="" id="package" name="package" size="20" type="text" value="">
+      <input type="submit" value="Go">
+    </form>
+    </div>
+  <script>
+    function redirect() {
+      var package = document.getElementById("package").value
+      var m = package.match(/((lib)?.)/)
+      prefix = m[0]
+      location.href = '/packages/' + prefix + '/' + package
+    }
+  </script>
+    
+  </div> <!-- class='col-md-6' -->
+
+</div> <!-- class='row' -->
+
+      </div>
+
+      <div id="footer">
+        <div class="container">
+          <div class='row'>
+            <p class='text-muted credit'>
+            debci - Copyright Â© 2014-2021 the debci development team. This is free
+            software licensed under the GNU General Public License version 3 or
+            later. Source code on
+            <a href="https://salsa.debian.org/ci-team/debci">git repository</a>
+            </p>
+            <p class='text-muted'>
+            This page was generated on 2021-01-27 11:00:51 UTC
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script type="text/javascript" src="../jquery.flot.js"></script>
+    <script type="text/javascript" src="../jquery.flot.time.js"></script>
+    <script type="text/javascript" src="../jquery.flot.stack.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../app.js"></script>
+    
+  </body>
+</html>
+```
