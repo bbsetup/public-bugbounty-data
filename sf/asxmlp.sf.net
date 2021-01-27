@@ -1,0 +1,43 @@
+```<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>ASXMLP</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+ <link href="newstyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="header">Al Suttons XML Parser</div>
+<div class="main">
+<p>&nbsp;</p>
+<p>ASXMLP is a J2SE / J2ME library for parsinhg XML which is small, portable, flexible, highly efficient, and has minimal requirements.</p>
+
+<p>The library offers both push and model views of an xml document, and typically comples to around 6Kb of class files, making it ideal for J2ME projects, applets, or WebStart applications where code size of great concern.</p>
+
+<p>The parser was originally written by <a href="http://www.alsutton.com/">Al Sutton</a>, and has been tested in Jonathan Knudsens'
+<a href="http://developers.sun.com/techtopics/mobility/midp/articles/parsingxml/">Parsing XML in J2ME</a> article at <a href="http://developers.sun.com">developers.sun.com</a>.</p>
+
+<p>The source code can be downloaded from <a href="http://sourceforge.net/projects/asxmlp">Sourceforge</a></p>
+<p>&nbsp;</p>
+</div>
+
+<div class="footer">
+<table width="100%">
+<tr>
+<td width="50%">
+<p align="center">Hosted By<br/>
+<a href="http://sourceforge.net/projects/asxmlp"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=27245&amp;type=2" width="125" height="37" border="0" alt="SourceForge.net Logo" /></a>
+</p>
+</td>
+<td width="50%">
+<p align="center">Sponsored By<br/>
+<a href="http://www.enterprisedatasafe.net/"><b>Enterprise Data Safe</b></a></p>
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>
+```
