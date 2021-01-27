@@ -1,0 +1,760 @@
+```<!doctype html><!-- © 1998 - 2021 DPG Online Services B.V. -->
+<html lang="NL"><head>
+        
+                            <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                                                <meta name="referrer" content="origin-when-cross-origin">
+                                                <meta name="description" content="Over Linux">
+                            
+                    <title>B2&#039;s Blog - Tweakers</title>
+        <link rel="navigator" title="Spring voorbij navigatie" href="https://b2blog.tweakblogs.net/#contentArea">
+
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-Regular.woff2" as="font" type="font/woff2" crossorigin>
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+
+                                            <link rel="shortcut icon" href="https://tweakers.net/favicon.ico" type="image/x-icon">
+                            <link rel="alternate" title="B2&#039;s Blog - Reacties" type="application/rss+xml" href="https://b2blog.tweakblogs.net/feed/comments">
+                            <link rel="alternate" title="B2&#039;s Blog" type="application/rss+xml" href="https://b2blog.tweakblogs.net/feed/">
+            
+        <script>
+                var relaxedDomain  = 'tweakers.net',
+                    tweakersConfig = {"BaseURL":"https:\/\/b2blog.tweakblogs.net\/","TnetBaseURL":"https:\/\/tweakers.net\/","ForumBaseURL":"https:\/\/gathering.tweakers.net\/","ImgURL":"https:\/\/tweakers.net\/","sidName":"__Secure-TnetID","UserID":0,"requestId":"Twk-tc3-web4_200.3.6_15816_60117612e49131.46329161","abStatsPath":"\/ajax\/7aoepIikoTnbngVWrzOTL77yPd\/","loginJs":"https:\/\/tweakers.net\/x\/scripts\/min\/login.js?1605690650","loginCss":"https:\/\/tweakers.net\/x\/styles\/profiles\/login.css?1583238942","clickToLoad":false};
+
+                try
+                {
+                    document.domain = relaxedDomain;
+                }
+                catch (e)
+                {
+                    relaxedDomain = '';
+                }
+                document.documentElement.className = 'js';
+            </script>
+        <link rel="stylesheet" href="https://tweakers.net/x/styles/tweakblogs/weblogs.css?1608112821" type="text/css">
+                                        <script src="https://tweakers.net/x/build/runtime.f4fad719.js"></script><script src="https://tweakers.net/x/build/0.3c968efc.js"></script><script src="https://tweakers.net/x/build/1.fe0b8bdd.js"></script><script src="https://tweakers.net/x/build/frontpage.aad0f1fd.js"></script>
+
+                    <script src="https://tweakers.net/x/scripts/min/general.js?1605696722"></script>
+            <script src="https://tweakers.net/x/scripts/min/weblogs.js?1604565751"></script>
+            <script src="https://tweakers.net/x/scripts/min/rml_toolbar.js?1605522743"></script>
+                    <script>
+            var _wtq=[['_init',{"randomId":"227184419945836","trackId":"318816705845986","trackDomain":"tweakers.net","domain":"tweakers.net;gathering.tweakers.net","cookie":"1","mediaCode":"wt_mc","contentId":"","contentGroup":{"1":"tweakers.net","2":"Tweakblogs"},"executePluginFunction":"wt_urlCampaignMapper;wt_stats_plugin","requestObfuscation":true,"customParameter":{"1":"LG"}}],['_trackPage']];
+			loadJS('https://tweakers.net/x/scripts/min/zH4Uvz.js',AbStats.wtCallBack);
+
+        </script>
+    
+    </head>
+    <body>
+
+    <div id="container">    <div id="tweakblogsNav">
+        <div class="logo"><a href="https://tweakblogs.net/"><img src="https://tweakers.net/g/if/weblogs/tweakblogs.png" width=131 height=20 alt="Tweakblogs"></a></div>
+        <ul>
+            <li><a href="https://tweakblogs.net/">Tweakblogs Home</a></li>
+            <li><a href="https://tweakers.net/">Tweakers</a></li>
+                            <li>
+                    <a href="https://tweakers.net/nieuws/">Nieuws</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/reviews/">Reviews</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/pricewatch/">Pricewatch</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/aanbod/">Vraag &amp; Aanbod</a>
+                </li>
+                            <li>
+                    <a href="https://gathering.tweakers.net/">Forum</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/carriere/">Carri&egrave;re</a>
+                </li>
+                            <li>
+                    <a href="#">Meer</a>
+                </li>
+                    </ul>
+    </div>
+    <div id="banner">
+    
+        
+    <h1><a href="https://b2blog.tweakblogs.net">B2&#039;s Blog</a></h1>
+            <span class="subtitle">Wa seggie?</span>
+    </div>
+            <p class="breadCrumb">
+                <a href="https://b2blog.tweakblogs.net/feed/" title="B2&#039;s Blog" rel="nofollow">
+            <img src="https://tweakers.net/g/if/v2/icons/rss_small.png" width=12 height=12 alt="[RSS]">
+        </a>
+                                <a href="https://b2blog.tweakblogs.net">            Home            </a>
+            </p>
+<div id="pagebody">
+                <div class="columnwrapper normal">    <div class="content">
+			<div class="blogpost">
+				<h2><a href="https://b2blog.tweakblogs.net/blog/7983/postfix-dovecot-en-mysql-met-centos.html">Postfix, Dovecot en MySQL met CentOS</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/4824/" rel="nofollow">B2</a> op vrijdag 22 juni 2012 15:51 - <a href="https://b2blog.tweakblogs.net/blog/7983/postfix-dovecot-en-mysql-met-centos.html#reacties">Reacties (25)</a><br>Categorie: <a href="https://b2blog.tweakblogs.net/blog/cat/1869">HOWTO : Homeserver</a>, Views: 7.623
+				</p>
+				<div class="article">Update : deze blog is inmiddels in een geüpdate ook te vinden op <a href="http://www.gzeel.nl/postfix-dovecot-en-mysql-met-centos/" rel="external nofollow">gZeel.nl</a><br>
+<br>
+Er bestaan verschillende applicaties die gebruikt kunnen worden om een mail server op te zetten op Linux. In deze blog wil ik laten zien hoe je dat kunt doen met Postfix als MTA en Dovecot als IMAP/POP server om gebruikers hun mail op te laten halen. Postfix en Dovecot zijn beide standaard pakketten in RedHat Linux/CentOS. Postfix en Dovecot zijn goed te integreren, ik zal dan ook laten zien hoe je Dovecot de authenticatie voor Postfix kunt laten afhandelen.<br>
+<br>
+De makkelijkste manier om een mail server op te zetten is door alle mailgebruikers aan te maken als standaard gebruikers (dus met een entry in /etc/passwd) en een maildir directory in hun homedir.<br>
+Het nadeel hieraan is dat wanneer je meerdere domeinen om deze mailserver wil hosten dit nogal omslachtig gaat. Je kunt dan beter gebruik maken van virtuele domeinen en gebruikers. Deze domeinen en gebruikers maak je dan aan in een database (in dit geval MySQL). Om het beheer makkelijk te maken installeer ik ook een php frontend, Postfix Admin.<br>
+<br>
+Het diagram hieronder laat zien hoe het e.e.a. in elkaar zit :<br>
+<br>
+<noscript class="lazycontent"><img src="https://tweakers.net/camo/6f0160012080837d34ace9dd4172d12cb365505d/?url=http%3A%2F%2Fwiki.mediatemple.net%2Fimages%2FPostfix_dovecot_chart.png" class="rml" width="580" height="400" alt="http://wiki.mediatemple.net/images/Postfix_dovecot_chart.png" title="http://wiki.mediatemple.net/images/Postfix_dovecot_chart.png"></noscript><br>
+<br>
+Ik begin met het installeren van Apache httpd, php en MySQL. Als je httpd al hebt draaien heb je deze pakketten waarschijnlijk al geinstalleerd. De php-mbstring en php-imap pakketten zijn nodig voor Postfix Admin.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># yum install httpd mysql-server php php-mbstring php-imap php-mysql</pre></div></td></tr></table></div><br>
+<br>
+Installeer Postfix en Dovecot. Postfix is waarschijnlijk al aanwezig op het systeem.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># yum install postfix dovecot</pre></div></td></tr></table></div><br>
+<br>
+Als het de eerste keer dat je MySQL opzet moet er wat configuratie werk gedaan worden :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># service mysqld start</pre></div></td></tr></table></div><br>
+<br>
+Dit zorgt er voor dat de server start, voer daarna het onderstaande commando uit om het MySQL root wachtwoord in te stellen en wat sample rommel op te ruimen.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># /usr/bin/mysql_secure_installation</pre></div></td></tr></table></div><br>
+Als extra beveiligingsmaatregel kan in /etc/my.cnf de bind_address optie worden aangepast zodat MySQL alleen connecties vanaf de localhost accepteert.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>vi /etc/my.cnf</pre></div></td></tr></table></div><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>bind-address=127.0.0.1</pre></div></td></tr></table></div><br>
+Herstart hierna de MySQL server<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>service mysqld restart</pre></div></td></tr></table></div><br>
+Als MySQL automatisch gestart moet worden met het booten van het systeem voer dan het volgende commando uit<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># chkconfig mysqld on</pre></div></td></tr></table></div><br>
+<br>
+<b>Setup mail database</b> <br>
+Als de MySQL server eenmaal draaiende is, moet er nog een database aangemaakt worden om de mail configuratie in op te slaan en een database user voor Postfix en Dovecot.<br>
+<br>
+Log in bij MySQL als de MySQL root gebruiker :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># mysql -u root -p</pre></div></td></tr></table></div><br>
+Maak een database aan, ik noem deze 'mail'<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>mysql&gt; CREATE DATABASE mail;</pre></div></td></tr></table></div><br>
+Maak een database user aan 'mail_admin' en geef deze genoeg rechten op de database. Vervang &lt;WACHTWOORD&gt; door je eigen gekozen wachtwoord.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+</pre></td><td class="phphighlightcode"><div><pre>mysql&gt; GRANT ALL ON mail.* TO &#39;mail_admin&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;&lt;WACHTWOORD&gt;&#39;;
+mysql&gt; FLUSH PRIVILEGES;
+mysql&gt; quit;</pre></div></td></tr></table></div><br>
+<br>
+<b>Setup Postfix Admin</b><br>
+Download Postfix Admin van de sourceforge project site<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># wget http://sourceforge.net/projects/postfixadmin/files/postfixadmin/postfixadmin_2.3.tar.gz/download</pre></div></td></tr></table></div><br>
+Installeer het bijvoorbeeld in /usr/share/postfixadmin<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+</pre></td><td class="phphighlightcode"><div><pre># tar xzf postfixadmin_2.3.tar.gz
+# mv postfixadmin-2.3/ /usr/share/postfixadmin</pre></div></td></tr></table></div><br>
+Apache httpd moet een configuratie file hebben voor postfixadmin<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vi /etc/httpd/conf.d/postfixadmin.conf</pre></div></td></tr></table></div><br>
+Insert de volgende code :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="phphighlightcode"><div><pre>&lt;Directory &quot;/usr/share/postfixadmin&quot;&gt;
+Order Allow,Deny
+Allow from all
+&lt;/Directory&gt;
+
+Alias /postfixadmin /usr/share/postfixadmin
+Alias /PostFixAdmin /usr/share/postfixadmin
+Alias /PostfixAdmin /usr/share/postfixadmin</pre></div></td></tr></table></div><br>
+Herstart Apache httpd om de wijzigingen actief te maken:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># service httpd restart</pre></div></td></tr></table></div><br>
+Nu zou PostfixAdmin bereikbaar moeten zijn via http://domeinofip/postfixadmin<br>
+Eventueel zou je de postfixadmin.conf file nog zo aan kunnen passen dat deze alleen bereikbaaris vanuit je interne netwerk.<br>
+<br>
+<b>PostFixAdmin</b><br>
+Er moet nog het e.e.a. geconfigureerd worden aan postfixadmin.<br>
+Open hiervoor het volgende bestand :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vi /usr/share/postfixadmin/config.inc.php</pre></div></td></tr></table></div><br>
+verander<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>$CONF[&#39;configured&#39;] = false;</pre></div></td></tr></table></div><br>
+in<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>$CONF[&#39;configured&#39;] = true;</pre></div></td></tr></table></div><br>
+Vul de database gegevens in (verander wachtwoord in je eerder gekozen wachtwoord:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="phphighlightcode"><div><pre>// Database Config
+// mysql = MySQL 3.23 and 4.0, 4.1 or 5
+// mysqli = MySQL 4.1+
+// pgsql = PostgreSQL
+$CONF[&#39;database_type&#39;] = &#39;mysqli&#39;;
+$CONF[&#39;database_host&#39;] = &#39;localhost&#39;;
+$CONF[&#39;database_user&#39;] = &#39;mail_admin&#39;;
+$CONF[&#39;database_password&#39;] = &#39;&lt;WACHTWOORD&gt;&#39;;
+$CONF[&#39;database_name&#39;] = &#39;mail&#39;;
+$CONF[&#39;database_prefix&#39;] = &#39;&#39;;</pre></div></td></tr></table></div><br>
+Het adres van de postmaster kun je nog aanpassen<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>$CONF[&#39;admin_email&#39;] = &#39;postmaster@eigendomeinnaam.nl&#39;;</pre></div></td></tr></table></div><br>
+Andere interessante instellingen kunnen zijn :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>$CONF[&#39;domain_path&#39;] = &#39;YES&#39;;</pre></div></td></tr></table></div><br>
+Om de mailboxen op te slaan onder een domeinnaam path. Dus bijvoorbeeld : /var/mail/vhosts/eigendomeinnaam.nl/user/<br>
+en<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>$CONF[&#39;domain_in_mailbox&#39;] = &#39;NO&#39;;</pre></div></td></tr></table></div><br>
+om de username+domeinnaam te gebruiken, dus  /var/mail/vhosts/eigendomeinnaam.nl/user@eigendomeinnaam.nl/<br>
+Ik heb hier voor NO gekozen, zodat het bij  /var/mail/vhosts/eigendomeinnaam.nl/user/ blijft.<br>
+<br>
+De volgende settings kunnen nog aangepast worden om de defaults te zetten voor quota, aantal mailboxen en aliasses.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+</pre></td><td class="phphighlightcode"><div><pre>$CONF[&#39;aliases&#39;] = &#39;100&#39;;
+$CONF[&#39;mailboxes&#39;] = &#39;100&#39;;
+$CONF[&#39;maxquota&#39;] = &#39;100&#39;;</pre></div></td></tr></table></div><br>
+Wanneer je gebruik wilt gaan maken van quotas zijn de volgende opties van belang:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+</pre></td><td class="phphighlightcode"><div><pre>$CONF[&#39;quota&#39;] = &#39;YES&#39;;
+$CONF[&#39;used_quotas&#39;] = &#39;YES&#39;;
+$CONF[&#39;new_quota_table&#39;] = &#39;YES&#39;;</pre></div></td></tr></table></div><br>
+<br>
+Nu het configuratiebestand klaar is kan de setup gestart worden. Ga hier voor naar <br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>http://www.eigendomeinnaam.nl/postfixadmin/setup.php</pre></div></td></tr></table></div><br>
+De setup test of alle benodigde packages geïnstalleerd zijn. Hierna moet een setup wachtwoord opgegeven worden. Dit wachtwoord wordt gehashed, en moet vervolgens in /usr/shared/postfixadmin/config.inc.php ingevoerd worden :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>vi /usr/shared/postfixadmin/config.inc.php</pre></div></td></tr></table></div><br>
+Zoek de volgende regel, en verander changeme in de hash.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>$CONF[&#39;setup_password&#39;] = &#39;changeme&#39;</pre></div></td></tr></table></div><br>
+Daarna moet er nog een super-admin account aangemaakt worden. Ik heb hiervoor admin@domeinnaam.nl gekozen. Het moet in een email formaat, ook als het account geen mail gaat ontvangen.<br>
+<br>
+<b>Postfix</b><br>
+Postfix heeft de meeste configuratie opties in /etc/postfix/main.cf staan. Je kunt Postfix configureren met het postconf commando, maar ik vind het sneller werken om direct de main.cf aan te passen.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>vi /etc/postfix/main.cf</pre></div></td></tr></table></div><br>
+Verander de volgende opties :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="phphighlightcode"><div><pre>myhostname = mail.eigendomeinnaam.nl
+mydomain = eigendomeinnaam.nl
+myorigin = $mydomain
+inet_interfaces = all
+mydestination = $myhostname, localhost.$mydomain, localhost, $mydomain
+mynetworks = 127.0.0.0/8
+home_mailbox = Maildir/</pre></div></td></tr></table></div><br>
+<br>
+Onderstaande code zorgt voor de samenwerking qua authenticatie tussen Postfix en Dovecot<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+</pre></td><td class="phphighlightcode"><div><pre>smtpd_sasl_type = dovecot
+smtpd_sasl_path = private/auth
+smtpd_sasl_auth_enable = yes
+smtpd_recipient_restrictions = permit_mynetworks, permit_sasl_authenticated, reject_unauth_destination, permit
+broken_sasl_auth_clients = yes</pre></div></td></tr></table></div><br>
+Herstart hierna postfix.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># service postfix restart</pre></div></td></tr></table></div><br>
+<br>
+<b>Virtual Domains Setup</b><br>
+Als je Virtual Domains wilt ondersteunen moeten er nog een aantal extra dingen in de configuratie geregeld worden.<br>
+<br>
+Maak als eerste een user aan welke eigenaar is van alle mail directories.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># useradd -u 5000 -d /var/mail/vhosts/ -m -s /sbin/nologin vmail</pre></div></td></tr></table></div><br>
+<br>
+Voor de samenwerking tussen Postfix en MySQL moeten er weer een aantal configuratieopties in /etc/postfix/main.cf gezet worden.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+</pre></td><td class="phphighlightcode"><div><pre># The follwing lines connect Postfix with the MySQL database that contains information about
+# the virtual users/accounts hosted. See proxymap(8) virtual(5) and mysql_table(5)
+#
+virtual_mailbox_domains = proxy:mysql:/etc/postfix/mysql_virtual_domains_maps.cf
+#
+virtual_alias_maps = proxy:mysql:/etc/postfix/mysql_virtual_alias_maps.cf
+#
+virtual_mailbox_maps = proxy:mysql:/etc/postfix/mysql_virtual_mailbox_maps.cf
+#
+# Additional for quota support
+virtual_create_maildirsize = yes
+virtual_mailbox_extended = yes
+virtual_mailbox_limit_maps = mysql:/etc/postfix/mysql_virtual_mailbox_limit_maps.cf
+virtual_mailbox_limit_override = yes
+virtual_maildir_limit_message = Sorry, this user has exceeded their disk space quota, please try again later.
+virtual_overquota_bounce = yes
+#
+#user/group voor de mail directories
+virtual_uid_maps = static:5000
+virtual_gid_maps = static:5000
+#
+proxy_read_maps = $local_recipient_maps $mydestination $virtual_alias_maps $virtual_alias_domains $virtual_mailbox_maps $virtual_mailbox_domains $relay_recipient_maps $relay_domains $canonical_maps $sender_canonical_maps $recipient_canonical_maps $relocated_maps $transport_maps $mynetworks $virtual_mailbox_limit_maps</pre></div></td></tr></table></div><br>
+<br>
+Hierboven hebben we aangegeven dat Postfix informatie over de virtuele adressen uit MySQL moet halen (via mysql_virtual_domains_maps.cf, etc.), maar deze bestanden moeten we eerst nog aanmaken:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vi /etc/postfix/mysql_virtual_domains_maps.cf</pre></div></td></tr></table></div><br>
+Voeg de volgende regels toe:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="phphighlightcode"><div><pre>user = mail_admin
+password = &lt;WACHTWOORD&gt;
+hosts = localhost
+dbname = mail
+query          = SELECT domain FROM domain WHERE domain=&#39;%s&#39; AND active = &#39;1&#39;
+#optional query to use when relaying for backup MX
+#query           = SELECT domain FROM domain WHERE domain=&#39;%s&#39; AND backupmx = &#39;0&#39; AND active = &#39;1&#39;</pre></div></td></tr></table></div><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vi /etc/postfix/mysql_virtual_alias_maps.cf</pre></div></td></tr></table></div><br>
+Voeg ook hier de volgende regels toe :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+</pre></td><td class="phphighlightcode"><div><pre>user = mail_admin
+password = &lt;WACHTWOORD&gt;
+hosts = localhost
+dbname = mail
+query = SELECT goto FROM alias WHERE address=&#39;%s&#39; AND active = &#39;1&#39;</pre></div></td></tr></table></div><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vi /etc/postfix/mysql_virtual_mailbox_maps.cf</pre></div></td></tr></table></div><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+</pre></td><td class="phphighlightcode"><div><pre>user = mail_admin
+password = &lt;WACHTWOORD&gt;
+hosts = localhost
+dbname = mail
+query = SELECT CONCAT(domain,&#39;/&#39;,maildir) FROM mailbox WHERE username=&#39;%s&#39; AND active = 1</pre></div></td></tr></table></div><br>
+Als je quotas wilt ondersteunen moet je het volgende bestand ook nog aanmaken :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vi /etc/postfix/mysql_virtual_mailbox_limit_maps.cf</pre></div></td></tr></table></div><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+</pre></td><td class="phphighlightcode"><div><pre>user = mail_admin
+password = &lt;WACHTWOORD&gt;
+hosts = localhost
+dbname = mail
+query = SELECT quota FROM mailbox WHERE username=&#39;%s&#39; AND active = &#39;1&#39;</pre></div></td></tr></table></div><br>
+<br>
+<b>Dovecot LDA</b><br>
+We kunnen Dovecot's LDA (local delivery agent) gebruiken om de mails uiteindelijk in de inbox van de users te krijgen. Postfix heeft zelf ook een LDA, maar die van Dovecot is iets uitgebreider met oa quota support en is sneller met IMAP door indexing.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vi /etc/postfix/main.cf</pre></div></td></tr></table></div><br>
+Voeg de volgende twee regels toe:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+</pre></td><td class="phphighlightcode"><div><pre>virtual_transport = dovecot
+dovecot_destination_recipient_limit = 1</pre></div></td></tr></table></div><br>
+Nu moet de andere configuratie file van postfix nog bewerkt worden :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vi /etc/postfix/master.cf</pre></div></td></tr></table></div><br>
+Voeg de volgende regels toe aan het einde van het bestand :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+</pre></td><td class="phphighlightcode"><div><pre># Dovecot LDA, as explained here: http://wiki.dovecot.org/LDA/Postfix
+dovecot   unix  -       n       n       -       -       pipe flags=DRhu user=vmail:vmail argv=/usr/libexec/dovecot/deliver -f ${sender} -d ${recipient}</pre></div></td></tr></table></div><br>
+Als je Postfix ook op poort 587 wilt laten luisteren (ipv 25 wat verschillende ISP's nog wel eens willen blokkeren) moet je de volgende regel uitcommentarieeren :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>#submission inet n       -       n       -       -       smtpd</pre></div></td></tr></table></div><br>
+<br>
+<b>Dovecot</b><br>
+<br>
+Tot zover hebben we Postfix opgezet om gebruik te maken van de SASL functionaliteit van Dovecot. Nu moet de configuratie van Dovecot natuurlijk nog zo aangepast worden dat deze functionaliteit ook beschikbaar is voor Postfix.<br>
+<br>
+Dovecot's hoofd configuratie kan gevonden worden in /etc/dovecot.conf<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>vi /etc/dovecot/dovecot.conf</pre></div></td></tr></table></div><br>
+Pas de volgende regels aan, of uncomment deze voor IMAP en POP3 functionaliteit. Het specifiek benoemen van IMAPS of POP3S is niet meer nodig.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+</pre></td><td class="phphighlightcode"><div><pre>protocols = imap pop3
+listen = *</pre></div></td></tr></table></div><br>
+<br>
+De authenticatie configuratie staat in /etc/dovecot/conf.d/10-auth.conf<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>vi /etc/dovecot/conf.d/10-auth.conf</pre></div></td></tr></table></div><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+</pre></td><td class="phphighlightcode"><div><pre>disable_plaintext_auth = no
+auth_mechanisms = plain login</pre></div></td></tr></table></div><br>
+<br>
+De plek op het filesysteem waar de mails worden opgeslagen staat in /etc/dovecot/conf.d/10-mail.conf<br>
+Ik wil de mails opgeslagen hebben in  /var/mail/vhosts/eigendomeinnaam.nl/user/Maildir <br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>vi /etc/dovecot/conf.d/10-mail.conf</pre></div></td></tr></table></div><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>mail_location = maildir:%hMaildir</pre></div></td></tr></table></div><br>
+<br>
+Authenticatie voor Postfix<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>vi /etc/dovecot/conf.d/10-master.conf</pre></div></td></tr></table></div><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="phphighlightcode"><div><pre>#unix_listener auth-userdb {
+    #mode = 0600
+    #user =
+    #group =
+  #}
+
+# change or setup on these line:
+# Postfix smtp-auth
+  unix_listener /var/spool/postfix/private/auth {
+    mode = 0666
+    user = postfix
+    group = postfix
+  }</pre></div></td></tr></table></div><br>
+<b>Protocol-specifieke settings</b><br>
+<br>
+Quota<br>
+Wanneer je gebruik wil maken van quota pas dan de volgende files aan<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>vi /etc/dovecot/conf.d/20-imap.conf</pre></div></td></tr></table></div><br>
+En voeg toe :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>mail_plugins = quota imap_quota</pre></div></td></tr></table></div><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>vi /etc/dovecot/conf.d/20-pop3.conf</pre></div></td></tr></table></div><br>
+En voeg toe :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>mail_plugins = quota</pre></div></td></tr></table></div><br>
+<br>
+Outlook - Om Outlook beter met Dovecot POP3 te laten werken is het aan te raden onderstaande opties te zetten.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+</pre></td><td class="phphighlightcode"><div><pre>pop3_uidl_format = %08Xu%08Xv
+pop3_client_workarounds = outlook-no-nuls oe-ns-eoh</pre></div></td></tr></table></div><br>
+<br>
+LDA - De Local Delivery Agent van Dovecot.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>vi /etc/dovecot/conf.d/15-lda.conf</pre></div></td></tr></table></div><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+</pre></td><td class="phphighlightcode"><div><pre>postmaster_address = postmaster@eigendomeinnaam.nl
+mail_plugins = quota</pre></div></td></tr></table></div><br>
+<br>
+<b>Authenticatie bij Dovecot</b><br>
+Standaard doet Dovecot alleen plaintext authenticatie. Als je gebruik gaat maken van TLS/SSL is plaintext prima, het zal toch versleutelt worden. Alleen bepaalde versies van Outlook vereisen nog een extra optie : login.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>vi /etc/dovecot/conf.d/10-auth.conf</pre></div></td></tr></table></div><br>
+Zoek de regel auth_mechanisms op en verander in :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>auth_mechanisms = plain login</pre></div></td></tr></table></div><br>
+<br>
+<b>MySQL integratie</b><br>
+Om Dovecot met MySQL te kunnen laten samenwerken zal Dovecot moeten weten hoe en op welke manier er informatie uit MySQL gehaald moet worden.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>vi /etc/dovecot/conf.d/auth-sql.conf.ext</pre></div></td></tr></table></div><br>
+Pas  args = /etc/dovecot/dovecot-sql.conf.ext aan naar<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>args = /etc/dovecot/dovecot-sql.conf</pre></div></td></tr></table></div><br>
+Uncomment de userdb prefetch en userdb passwd regels zodat er het volgende komt te staan:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="phphighlightcode"><div><pre>userdb {
+  driver = prefetch
+}
+
+userdb {
+  driver = sql
+  args = /etc/dovecot/dovecot-sql.conf
+}
+
+user = vmail</pre></div></td></tr></table></div><br>
+Kopieer nu de voorbeeld file dovecot-sql.conf-ext naar /etc/dovecot<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># cp /usr/share/doc/dovecot-`dovecot --version`/example-config/dovecot-sql-example.conf /etc/dovecot/dovecot-sql.conf</pre></div></td></tr></table></div><br>
+Open nu de file, en bewerk deze<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vi /etc/dovecot/dovecot-sql.conf</pre></div></td></tr></table></div><br>
+Specificeer het type DB<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>driver = mysql</pre></div></td></tr></table></div><br>
+De gegevens om de database te benaderen<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>connect = host=localhost dbname=mail user=mail_admin password=WACHTWOORD</pre></div></td></tr></table></div><br>
+Wachtwoorden als CRAM-MD5 opslaan<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>default_pass_scheme = CRAM-MD5</pre></div></td></tr></table></div><br>
+De queries om gebruikersinformatie op te halen:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>user_query = SELECT CONCAT(&#39;/var/mail/vhosts/&#39;, maildir) AS home, 5000 AS uid, 5000 AS gid FROM mailbox WHERE username = &#39;%u&#39; AND active=&#39;1&#39;</pre></div></td></tr></table></div><br>
+Bij gebruik van quotas wordt dit :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>user_query = SELECT CONCAT(&#39;/var/mail/vhosts/&#39;, maildir) AS home, 5000 AS uid, 5000 AS gid, CONCAT(&#39;*:bytes=&#39;, quota) as quota_rule FROM mailbox WHERE username = &#39;%u&#39; AND active=&#39;1&#39;</pre></div></td></tr></table></div><br>
+En de wachtwoord query:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>password_query = SELECT username AS user, password, CONCAT(&#39;/var/mail/vhosts/&#39;, maildir) AS userdb_home, 5000 AS userdb_uid, 5000 AS userdb_gid FROM mailbox WHERE username = &#39;%u&#39; AND active=&#39;1&#39;</pre></div></td></tr></table></div><br>
+En hier ook met quotas :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>password_query = SELECT username AS user, password, CONCAT(&#39;/var/mail/vhosts/&#39;, maildir) AS userdb_home, 5000 AS userdb_uid, 5000 AS userdb_gid, CONCAT(&#39;*:bytes&#39;, quota) as userdb_quota_rule FROM mailbox WHERE username = &#39;%u&#39; AND active=&#39;1&#39;</pre></div></td></tr></table></div><br>
+Dovecot weet nu waar de informatie op te halen wat de limieten voor een gebruiker zijn. Alleen moet het ook nog kunnen bepalen hoeveel er al gebruikt is van deze limiet.<br>
+Open hiervoor eerst de file /etc/dovecot/conf.d/10-master.conf en wijzig hierin.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vi /etc/dovecot/conf.d/10-master.conf</pre></div></td></tr></table></div><br>
+Voeg toe :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+</pre></td><td class="phphighlightcode"><div><pre>dict {
+quotadict = mysql:/etc/dovecot-dict-quota.conf
+}</pre></div></td></tr></table></div><br>
+En daarna de file 90-quota.conf<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+</pre></td><td class="phphighlightcode"><div><pre># Quota setting per /usr/share/postfixadmin/DOCUMENTS/DOVECOT.txt
+# http://wiki.dovecot.org/Quota/Dict
+quota = dict:user::proxy::quotadict</pre></div></td></tr></table></div><br>
+Maak hierna de file /etc/dovecot/dovecot-dict-quota.conf aan<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vi /etc/dovecot/dovecot-dict-quota.conf</pre></div></td></tr></table></div><br>
+En voeg hier de volgende regels aan toe :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="phphighlightcode"><div><pre>connect = host=localhost dbname=mail user=mail_admin password=&lt;YOUR PASSWORD&gt;
+map {
+pattern = priv/quota/storage
+table = quota2
+username_field = username
+value_field = bytes
+}
+map {
+pattern = priv/quota/messages
+table = quota2
+username_field = username
+value_field = messages
+}</pre></div></td></tr></table></div><br>
+<br>
+<b>Starten</b><br>
+Test nu de configuratie van dovecot door de service te starten.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># service dovecot start</pre></div></td></tr></table></div><br>
+Als er geen foutmeldingen worden gegeven is het configureren gelukt.<br>
+Hetzelfde voor postfix :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># service postfix start</pre></div></td></tr></table></div><br>
+Eventueel beide services toevoegen aan de init :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+</pre></td><td class="phphighlightcode"><div><pre># chkconfig postfix on
+# chkconfig dovecot on</pre></div></td></tr></table></div><br>
+<b>Testen</b><br>
+De postfix service kan getest worden door een telnet sessie te starten naar poort 25.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># telnet localhost 25</pre></div></td></tr></table></div><br>
+De volgende respons zou moeten komen<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+</pre></td><td class="phphighlightcode"><div><pre>Trying 127.0.0.1...
+Connected to localhost.
+Escape character is &#39;^]&#39;.
+220 eigendomeinnaam.nl ESMTP Postfix</pre></div></td></tr></table></div><br>
+Hetzelfde voor Dovecot POP3 en IMAP<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># telnet localhost 110</pre></div></td></tr></table></div><br>
+Geeft :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+</pre></td><td class="phphighlightcode"><div><pre>Trying 127.0.0.1...
+Connected to localhost.
+Escape character is &#39;^]&#39;.
++OK Dovecot ready.</pre></div></td></tr></table></div><br>
+En IMAP<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># telnet localhost 143</pre></div></td></tr></table></div><br>
+Geeft :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+</pre></td><td class="phphighlightcode"><div><pre>Trying 127.0.0.1...
+Connected to localhost.
+Escape character is &#39;^]&#39;.
+* OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE STARTTLS AUTH=PLAIN AUTH=LOGIN AUTH=DIGEST-MD5 AUTH=CRAM-MD5] Dovecot ready.</pre></div></td></tr></table></div><br>
+<b>TLS/SSL Encryptie</b><br>
+Het is mogelijk om TLS/SSL encryptie toe te voegen aan Postfix en Dovecot.<br>
+Installeer hiervoor eerst het crypto-utils package<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># yum install crypto-utils</pre></div></td></tr></table></div><br>
+Genereer vervolgens de benodigde keys en certificaten<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># genkey --days 365 mail.eigendomeinnaam.nl</pre></div></td></tr></table></div><br>
+Wanneer er gevraagd wordt <i>Would you like to send a Certificate Request (CSR) to a Certificate Authority (CA)?</i> selecteer dan NO, tenzij je het certificaat naar een CA wil sturen om te laten signen. Selecteer ook niet <i>Encrypt the private key</i>, want Postfix ondersteund dit niet.<br>
+De bestanden komen hier te staan : <br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+</pre></td><td class="phphighlightcode"><div><pre>/etc/pki/tls/certs/mail.eigendomeinnaam.nl.crt
+/etc/pki/tls/private/mail.eigendomeinnaam.nl.key</pre></div></td></tr></table></div><br>
+Nu moet Postfix nog weten waar de bestanden te vinden zijn. Pas daarom het volgende bestand aan :<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vim /etc/postfix/main.cf</pre></div></td></tr></table></div><br>
+En voeg de volgende regels code toe<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="phphighlightcode"><div><pre>smtpd_tls_security_level = may
+smtpd_tls_key_file = /etc/pki/tls/private/mail.eigendomeinnaam.nl.key
+smtpd_tls_cert_file = /etc/pki/tls/certs/mail.eigendomeinnaam.nl.crt
+smtpd_tls_loglevel = 1
+smtpd_tls_session_cache_timeout = 3600s
+smtpd_tls_session_cache_database = btree:/var/spool/postfix/smtpd_tls_cache
+tls_random_source = dev:/dev/urandom</pre></div></td></tr></table></div><br>
+Open vervolgende het Dovecot configuratie bestand<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre># vim /etc/dovecot.conf</pre></div></td></tr></table></div><br>
+En voeg de volgende regels toe <br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+</pre></td><td class="phphighlightcode"><div><pre>ssl_cert_file = /etc/pki/tls/certs/eigendomeinnaam.nl.crt
+ssl_key_file = /etc/pki/tls/private/eigendomeinnaam.nl.key
+ssl_cipher_list = ALL:!LOW:!SSLv2</pre></div></td></tr></table></div><br>
+Herstart vervolgens postfix en dovecot<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+</pre></td><td class="phphighlightcode"><div><pre># service postfix restart
+# service dovecot restart</pre></div></td></tr></table></div><br>
+<br>
+Klaar! Nu is het alleen nog een kwestie van de Mail Clients juist configureren.</div>
+			</div></div><div class="sidebar">
+        <div id="loginFrame">
+            <h2 class="top">Inloggen</h2>
+            <p>Login met je  <a href="https://tweakblogs.net/login/?location=https%3A%2F%2Fb2blog.tweakblogs.net%2F">Tweakers profiel</a>.</p>
+        </div>
+		<div class="recentPosts">
+			<h4>Recente posts</h4><ul class="ellipsis"><li><a href="https://b2blog.tweakblogs.net/blog/7983/postfix-dovecot-en-mysql-met-centos.html" title="Postfix, Dovecot en MySQL met CentOS (25)">Postfix, Dovecot en MySQL met CentOS (25)</a></li></ul>
+		</div>
+		<div class="categories">
+			<h4>Categorieën</h4><ul><li><a href="https://b2blog.tweakblogs.net/blog/cat/1869">HOWTO : Homeserver (1)</a></li></ul>
+		</div>
+		<div class="archives">
+			<h4>Archieven</h4><ul id="archiveList"><li class="open"><b>2012</b> (1)<ul class="ulChild"><li><a href="https://b2blog.tweakblogs.net/blog/archief/2012/06/">jun 2012</a> (1)</li></ul></li></ul><script type="text/javascript">weblogFolderTree('archiveList');</script>
+		</div>
+		<div class="about">
+			<h4>About</h4>
+			<p>Over Linux</p>
+			<ul>
+				<li class="user"><a href="https://tweakers.net/gallery/4824/" rel="nofollow">Profiel op Tweakers</a></li>
+			</ul>
+		</div></div>
+</div>
+            </div>
+
+        </div>    <script>
+                if(window.BehaviourManager)BehaviourManager.exec();
+            </script>
+    <noscript>
+                    <img src="https://tweakers.net/318816705845986/wt?p=328,&amp;cg1=tweakers.net&amp;cg2=Tweakblogs&amp;cp1=LG" width="1" height="1" alt="" style="display:none">
+            </noscript>
+
+<!--
+Request ID: Twk-tc3-web4_200.3.6_15816_60117612e49131.46329161
+Env: frontpage-production
+Server time: 0,0216 s (C: 0,0153 s, Q: 5; 0,0092 s, E: 1; 0,0194 s, M: 2; 0,0044 s, A: 0; 0,0000 s)
+Mem: 4637 KB
+
+Engines: (S) twk-tc3-nosql3 (1)
+-->
+        
+    </body>
+</html>
+```
