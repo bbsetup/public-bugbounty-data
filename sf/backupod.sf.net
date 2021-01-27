@@ -1,0 +1,95 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>BackuPod | Backup Your iPod Music</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="code.js"></script>
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 14px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+
+<body class="Background">
+<map name="Map" id="Map">
+<area shape="poly" coords="53,161,70,186,79,183,90,183,96,186,100,188,119,159,106,152,94,149,83,149,70,149,58,154" href="#Upper" />
+<area shape="poly" coords="104,209,135,219,140,209,140,200,140,193,137,183,103,191,103,196,104,200,104,203" href="#right" />
+<area shape="poly" coords="69,190,38,177,31,186,31,194,32,214,66,207,65,201,65,198,66,191" href="#left" />
+<area shape="poly" coords="70,215,49,240,63,250,70,250,81,252,101,252,110,246,118,241,125,234,98,216,90,220,81,217" href="#" />
+<area shape="circle" coords="86,201,18" href="#middle" />
+</map>
+
+<div align="center" class="Screen" id="layer" style=" position:absolute; overflow:hidden; left:15px; top:8px; width:190px; height:301px; z-index:0";><img src="images/iPod.png" alt="Screen" width="171" height="286" border="0" usemap="#Map2" />
+          <map name="Map2" id="Map2">
+            <area shape="rect" coords="61,158,109,173" href="#" onclick="Download()"/>
+            <area shape="circle" coords="85,200,19" href="#" onClick="Home()"/>
+  <area shape="rect" coords="104,190,138,206" href="#" onClick="About()"/><area shape="rect" coords="60,227,110,242" href="mailto: Beshrkayali@gmail.com" />
+  <area shape="rect" coords="34,191,65,209" href="http://www.sourceforge.com/projects/backupod" />
+  </map>
+</div>
+
+
+<div align="center" class="Screen" id="screen01" style="position:absolute; overflow:hidden; left:44px; top:23px; width:136px; height:105px; z-index:1; visibility: visible;";><img src="images/01.png" alt="Screen" width="139" height="104" border="0" /></div>
+
+<div align="center" class="Screen" id="screen02" style="position:absolute; overflow:hidden; left:44px; top:23px; width:136px; height:105px; z-index:2; visibility: hidden;";><img src="images/02.png" alt="Screen" width="139" height="104" border="0" usemap="#Map3" />
+<map name="Map3" id="Map3">
+  <area shape="rect" coords="47,36,91,76" href="http://downloads.sourceforge.net/backupod/BackuPod.2.0.bin.win.zip" />
+  <area shape="rect" coords="95,37,132,74" href="http://downloads.sourceforge.net/backupod/BackuPod.2.0.src.linux.zip" />
+  <area shape="rect" coords="8,36,39,71" href="http://downloads.sourceforge.net/backupod/BackuPod.2.0.bin.osx.dmg"/>
+</map>
+</div>
+
+<div align="center" class="Screen" id="screen03" style="position:absolute; overflow:hidden; left:44px; top:23px; width:136px; height:105px; z-index:3; visibility: hidden;";><img src="images/03.png" alt="Screen" width="139" height="104" border="0" usemap="#Map4" />
+<map name="Map4" id="Map4">
+  <area shape="rect" coords="14,19,123,99" href="#Info" OnClick="GoToAbout()"/>
+</map></div>
+
+<div align="center" id="About" style="position:absolute; overflow:hidden; left:215px; top:6px; width:329px; height:287px; z-index:5;";>
+  <table width="303" border="0" align="left" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="303" class="About"><p align="left">
+  <p><b><i>
+A small program to backup and restore your music library (with iTunes preferences) in a one file to restore it whenever you need.</i></b></p>
+  <p align="left">
+  <B>Version 2.0</B> is avaliable now.<BR>
+  <B>Linux version 2.0</b> is now ready.<BR>
+  <B>OS X version 2.0</b> is now ready (PowerPC only not Intel) (using wxPython) (It's here, it's real, it's amazing, remember anything folks?).
+  <p align="left">If you have any suggestion to make BackuPod better, please don't hesitate <a href="mailto: Beshrkayali@gmail.com">drop me a mail!</a></p>
+ <a href="http://www.sourceforge.net"><img src="Images/sflogo.php.png" alt="SF Logo" width="88" height="31" border="0" /></a> 
+ <a href="http://mac.softpedia.com/progClean/Backupod-Clean-31430.html"><img src="http://www.softpedia.com//images/spyward/softpedia_free_award_f.gif" border="0" /></a>
+
+</td></tr>
+</table>
+</div>
+
+
+
+
+<div align="center" class="About_Screen_Back" id="About_screen" style="position:absolute; overflow:visible; left:2px; top:3px; width:456px; height:299px; z-index:6; visibility: hidden;";>
+	
+    <div align="left" class="About_Screen_Back_inside"><br />
+  BackuPod is a small utility that allows you to backup and restore   your iPod Music Library (Including iTunes Preferences) in one single  file.<br />
+  <p class="style1">Why BackuPod is useful?</p>
+  <p><strong>1- </strong>Backup your iPod music library in one single file to restore in case of data loss. </p>
+  <p><strong>2- </strong>Because BackuPod is crossplatform, it's easy to transfare your library between Win and Mac with all of your preferences! </p>
+  <p><strong>3-</strong> Easily transfare your iPod music library to another iPod.</p>
+  <p><strong>4-</strong> Save all your iTunes preferences for ever! </p>
+  </div>
+  <div align="center" id="XClose">
+  		<input name="X" type="button" id="X" value="Close"  onclick="Restore_About();"/>
+  </div>  
+</div>
+
+
+
+<div align="left"></div><p>&nbsp;</p>
+</body>
+</html>
+```
