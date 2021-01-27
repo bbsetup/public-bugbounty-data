@@ -1,0 +1,345 @@
+```
+<!DOCTYPE html>
+<html ng-app="TilojaApp" ng-controller="RootController">
+  <head>
+    <!-- giosg tag -->
+    <script>
+    (function(w, t, f) {
+      var s='script',o='_giosg',h='https://service.giosg.com',e,n;e=t.createElement(s);e.async=1;e.src=h+'/live/';
+      w[o]=w[o]||function(){(w[o]._e=w[o]._e||[]).push(arguments)};w[o]._c=f;w[o]._h=h;n=t.getElementsByTagName(s)[0];n.parentNode.insertBefore(e,n);
+    })(window,document,3513);
+    </script>
+    <!-- giosg tag -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="fragment" content="!" />
+<title>
+    Mutkaton koti – LähiTapiolan vuokra-asunnot
+</title>
+<meta charset='utf-8' />
+	<meta name="description" content="Mutkaton koti tekee asunnon valinnasta ja muutosta helppoa. Siksi tarjoamme sinulle valmiiksi räätälöidyt ratkaisut ja parhaat kumppanit yhdestä paikasta. Sinulle jää vain asuminen." /><link href="https://mutkatonkoti.fi/" rel="canonical" /><meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width" />
+<meta name="google-site-verification" content="kFClywTYaTXnp8flM8rQRydX9WqnNoFj3pnScQVv0AY" />
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+
+<link rel="stylesheet" media="screen" href="/assets/application-fc430c6728896396fe3095a7d3850f399989b309f613235f86f392f533c9a823.css" />
+
+
+
+
+<script src="/assets/modernizr-min-d2554c51611a93e3d8887cde21c85dc1a06162e6ffb8addec3a99811706490fa.js"></script>
+
+
+      <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDRSttiHEu9WFw9V5sFRq-7rUSZjdMRtmQ&libraries=places'></script>
+
+    <script src="/assets/application-c91ce7f0025eed6af979c5b9795dfc83fec7d2a510da2caa596acc9edcaa74b8.js"></script>
+
+  </head>
+  <body id="etusivu-page">
+      <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PFZJ56P');</script>
+
+    <div class="wrapper">
+      <header fixed-header="headerConfig" class="header content-padding" id="header">
+        <div class="header__content">
+	<div class="header__logo vertical-center">
+		<a href="/" target="_self">
+			<img class="vertical-center" src="/assets/logos/mutkaton_koti_logo1.png" alt="Mutkaton koti logo1" />
+		</a>
+	</div>
+
+	<div class="header__menu vertical-center">
+
+
+		<div class="menu__button hidden-md hidden-lg" >
+			<div class="menu__label vertical-center hide-mobile">
+				<span class="" translate="routes.route_{{currentLocationId}}"></span>
+			</div>
+			<div class="menu__icon" ng-click="toggleMainMenu();">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+
+		<ul class="menu__list hidden-sm hidden-xs" tmp-ng-show="mainMenuVisible"  auto-active>
+			<li>
+				<a ng-href="{{item.path}}"
+					target="_self"
+           ng-class="{active: isActive(item.path)}"
+					class="menu__list-item"
+           ng-repeat="item in menuItems"
+				>
+					<span translate="routes.route_{{item.title}}"> </span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+         <ul class="main-menu menu" ng-show="mainMenuVisible">
+  <li>
+    <a ng-href="{{item.path}}" 
+      target="_self"
+      class="menu__item"
+      ng-repeat="item in menuItems"
+      ng-click="toggleMainMenu();"
+    >
+      <span translate="routes.route_{{item.title}}"></span>
+    </a>
+  </li>
+</ul>
+      </header>
+      <section id="page" class="page-content">
+        <div class="content content--home" ng-controller="HomeController">
+  <div class="content__top">
+    <div class="page-banner" style="background-image: url('/system/images/W1siZiIsIjIwMTgvMDUvMjkvMXhsYWNnOWpzeV9pc29tcGlfaGVhZGVyLmpwZyJdXQ/isompi_header.jpg?sha=28efb8a23626589f');">
+      <div class="page-banner__text">
+        <div class="header1-new--white shadowed"><p>LähiTapiola vuokra-asunnot</p></div>
+        <div class="lt-header lt-header--smaller shadowed"><p>Mutkattomia koteja kaikkiin elämän vaiheisiin.</p></div>
+
+
+        <div class="filters__submit filters__section">
+          <div class="button lt lt--condensed" ng-click="submitSearch(filter.keys.list)">
+            <span class="button-text">Aloita asuntohaku &gt;</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="">
+    <div class="page-section">
+
+      <div class="content__top">
+        <div class="apartments-search">
+          <div class="apartments-search__container">
+            <h3>LähiTapiolan vuokra-asuntohaku</h3>
+            <div class="filters clearfix" ng-cloak>
+
+              <div class="filters__city filters__section">
+                <div class="select-box">
+                  <div class="select-box__label" translate="filter.city"></div>
+                  <div class="select-box__button" ng-click="openList('city')">
+                    <span class="font1 font1--bold" ng-if="!filter.activeFilters.Commune" translate="filter.all"></span>
+                    <span class="font1 font1--bold" ng-if="filter.activeFilters.Commune">{{filter.activeFilters.Commune}}</span>
+                  </div>
+
+                  <div class="select-box__list" ng-show="select.city.visible">
+                    <div class="select-box__list-item" ng-click="filter.set(filter.keys.city, null); closeLists();">
+                      <span class="small-text--blue" translate="filter.all"></span>
+                    </div>
+                    <div class="select-box__list-item" ng-repeat="city in filter.cities" ng-click="filter.set(filter.keys.city, city); closeLists();">
+                      <span class="small-text--blue">{{city}}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="filters__district filters__section">
+                <div class="select-box">
+                  <div class="select-box__label" translate="filter.district"></div>
+                  <div class="select-box__button" ng-click="openList('district');">
+                    <span class="font1 font1--bold" ng-if="!filter.activeFilters.District" translate="filter.all"></span>
+                    <span class="font1 font1--bold" ng-if="filter.activeFilters.District">{{filter.activeFilters.District}}</span>
+                  </div>
+                  <div class="select-box__list" ng-show="select.district.visible">
+                    <div class="select-box__list-item" ng-click="filter.set(filter.keys.district, null); closeLists();">
+                      <span class="small-text--blue" translate="filter.all"></span>
+                    </div>
+                    <div class="select-box__list-item"
+                         ng-repeat="district in filter.filteredDistricts | filter:filter.districtVisible"
+                         ng-click="filter.set(filter.keys.district, district); closeLists();"
+                    >
+                      <span class="small-text--blue">{{district}}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="filters__rooms filters__section">
+                <div class="select-box">
+                  <div class="select-box__label" translate="filter.rooms"></div>
+                  <div class="select-box__button" ng-click="openList('room');">
+                    <span class="font1 font1--bold" ng-if="!filter.activeFilters.NumberOfRooms" translate="filter.all"></span>
+                    <span class="font1 font1--bold" ng-if="filter.activeFilters.NumberOfRooms" translate="filter.room_{{filter.activeFilters.NumberOfRooms}}"></span>
+                  </div>
+                  <div class="select-box__list" ng-show="select.room.visible">
+                    <div class="select-box__list-item" ng-click="filter.set(filter.keys.rooms, null); closeLists();">
+                      <span class="small-text--blue" translate="filter.all"></span>
+                    </div>
+                    <div class="select-box__list-item" ng-repeat="room in filter.rooms" ng-click="filter.set(filter.keys.rooms, room); closeLists();">
+                      <span class="small-text--blue" translate="filter.room_{{room}}"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix buttons-view">
+              <div class="filters__submit filters__section hidden-xs">
+                <div class="button lt lt--condensed" ng-click="submitSearch(filter.keys.map)">
+                  <span class="button-text">asunnot kartalla &gt;</span>
+                </div>
+              </div>
+              <div class="filters__submit filters__section">
+                <div class="button lt lt--condensed" ng-click="submitSearch(filter.keys.list)">
+                  <span class="hidden-xs button-text">asunnot listalla &gt;</span>
+                  <span class="visible-xs-block button-text">näytä vuokrattavat asunnot ></span>
+                </div>
+              </div>
+            </div>
+            <div class="all-apartments">
+              <p class="font1" translate="apartments_count" translate-values="{count: filteredApartments.length}"></p>
+              <a ng-href="{{apartmentsPath}}" target="_self"><span class="text-link-2">Tarkemmat hakuehdot &gt;</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="page-section mutkatonkoti-section">
+        <div class="content">
+          <div class="content__wrapper">
+            <div class="page-section page-section--first text-center">
+              <div class="image image--half-centered">
+                <img src="/system/images/W1siZiIsIjIwMTgvMDUvMjkvM29lYzc5cGlmcl9tdXRrYXRvbl9rb3RpX2xvZ28yLnBuZyJdXQ/mutkaton_koti_logo2.png?sha=7e56d2a7eea4a063"/>
+
+              </div>
+              <div class="item lt-ingress narrow-text font-basic">
+                <p>Mutkaton koti tekee asunnon valinnasta ja muutosta helppoa. Siksi tarjoamme sinulle valmiiksi räätälöidyt ratkaisut ja parhaat kumppanit yhdestä paikasta. Sinulle jää vain asuminen.</p>
+              </div>
+              <div class="lt-ingress narrow-text item">
+                <a class="button lt lt--condensed"
+                   href="/asukasedut/#parasta_asuntopalvelua" target="_self"
+                >
+                  <span class="button-text">Mutkaton koti -edut &gt;</span>
+                </a>
+              </div>
+              <div class="lt-ingress narrow-text font-basic item">
+                <p>Mutkaton koti -vuokra-asuntomme on rakennettu LähiTapiola Kiinteistövarainhoito Oy:n vastuullisuusperiaatteiden mukaisesti. Tämä tarkoittaa sitä että otamme huomioon toimintamme ympäristövaikutukset ja vaadimme yhteistyökumppaneiltamme sitoutumista harmaantalouden</p>
+
+              </div>
+              <div class="lt-ingress narrow-text font-basic item">
+                <a class="link-text"  href="/asukasedut/#vastuullisuus">Lue lisää</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="page-section lahitapiola-section">
+        <div class="content">
+          <div class="content__wrapper">
+            <div class="page-section page-section--first text-center">
+              <div class="image image--half-centered">
+                <img src="/system/images/W1siZiIsIjIwMTgvMDUvMjkvM2ZvdW83bDdjaV9MYWhpdGFwaW9sYV9sb2dvMS5wbmciXV0/Lahitapiola_logo1.png?sha=17de2065d93b28d5"/>
+              </div>
+
+              <div class="item lt-ingress narrow-text header1-new">
+                <p>Hanki kotivakuutus</p>
+              </div>
+
+              <div class="lt-ingress narrow-text font-basic item">
+                <p>Kun turvanasi on kotivakuutus, et ole tyhjän päällä vaikka sattuisi tulipalo, varkaus tai vesivahinko. Kotivakuutus suojaa lompakkoasi myös tilanteissa, jos aiheutat vahinkoa ulkopuoliselle tai jos tarvitset lakimiesapua.</p>
+
+              </div>
+
+              <div class="lt-ingress narrow-text item">
+                <a class="button lt lt--condensed lt--blue" href="https://verkkopalvelu.lahitapiola.fi/e2/kotivakuutus/vakuutuslaskuri/?cmpid=afl-kotiosto-mutkaton-kotivakuutus-button#/" target="_blank">
+                  <span class="button-icon"></span>
+                  <span class="button-text">
+                  Osta tästä &gt;</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="">
+      <div class="big-footer row">
+  <div class="col-sm-6 col-md-4 col-lg-4">
+    <div class="information__rental">
+      <h3>Asuntojen vuokraus</h3>
+<p>LähiTapiolan tarjoamien asuntojen vuokraamisesta vastaa Realia Management Oy.</p>
+<h4>Realian asuntovuokraustoimistojen yhteystiedot:</h4> <a href="http://www.realiaasuntovuokraus.fi/people">www.realiaasuntovuokraus.fi/people</a>
+<dl><h4>Realia Management Oy</h4>
+<dt>Puhelin</dt>
+<dd>020 780 3770</dd>
+<dt>Sähköposti</dt>
+<dd><a href="mailto:asuntovuokraus@realia.fi">asuntovuokraus@realia.fi</a>
+</dd>
+<dt>Käyntiosoite</dt>
+<dd>Valimotie 17-19, 00380 Helsinki</dd>
+</dl>
+    </div>
+    <div class="lahitapiola-logo">
+      <img src="/assets/logos/lahitapiola_logo_2-95a86f418613911fe4bbb482f50e8b42185c97317db5ec8b65c94b4e57dc05a6.svg" alt="Lahitapiola logo 2" />
+    </div>
+  </div>
+
+
+  <div class="col-sm-6 col-md-4 col-lg-4">
+    <div class="information__apartments-by-area">
+      <h3><h3>Vuokra-asunnot paikkakunnittain</h3></h3>
+      <div class="link-text--footer" ng-repeat="city in filter.cities" ng-click="apartmentsByArea(city);">
+        <span>Vuokra-asunnot</span>
+        <span>{{city}}</span>
+        <span>»</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-4">
+    <div class="information__company-related">
+      <h3><h3>LähiTapiola vuokra-asunnot</h3></h3>
+
+
+      <div class="link-text--footer" ng-click="openTermsOfUse();">
+        <span>Verkkopalvelun käyttöehdot</span>
+        <span>»</span>
+      </div>
+
+      <p class="link-text--footer" ng-click="openFeedbackForm();">
+        <span>Palaute</span>
+        <span>»</span>
+      </p>
+
+      <h4>Verkkopalvelua ylläpitää:</h4>
+<a href="http://www.lahitapiola.fi/kiinteistovarainhoito" target="_blank">LähiTapiola Kiinteistövarainhoito Oy, yhteistyössä</a> <a href="http://www.tiloja.fi" target="_blank">Tiloja.fi</a>  <a href="http://www.realiamanagement.fi" target="_blank">ja Realia</a>  <h4>LähiTapiolan vuokrattavat toimitilat:</h4>
+<a href="http://www.toimitilat.lahitapiola.fi" target="_blank">toimitilat.lahitapiola.fi</a> <h4>LähiTapiola Kiinteistövarainhoidon, LähiTapiola-ryhmän sekä Vahinko- ja Henkivakuutusyhtiöiden tietosuojaselosteet:</h4>
+<p><a href="https://www.lahitapiola.fi/henkilo/asiakaspalvelu/asioi-verkossa/hyva-tietaa/henkilotietojen-kasittely/tietosuojaselosteet" title="https://www.lahitapiola.fi/henkilo/asiakaspalvelu/asioi-verkossa/hyva-tietaa/henkilotietojen-kasittely/tietosuojaselosteet" target="_blank">Tutustu tietosuojaselosteisiin »</a>
+</p>
+
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+
+</div>
+
+<div loading-overlay visible="loadingOverlayVisible" text="Ladataan" class="home_loading_overlay"></div>
+
+      </section>
+      <footer class="footer content-padding">
+        <div class="row">
+	<div class="col-sm-8">
+	  <span>© LähiTapiola Kiinteistövarainhoito Oy</span>
+	</div>
+	<div class="col-sm-4 align-right align-right--desktop">
+		Powered by: <a href='http://www.tiloja.fi' target='_blank' title='Tiloja.fi'>Tiloja.fi</a>
+	</div>
+</div>
+      </footer>
+    </div>
+  </body>
+</html>
+```
