@@ -1,0 +1,48 @@
+```<HTML>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<title>Autoblogger</title></head>
+<div id="main">
+<div id="title">
+<h1>Autoblogger v0.1</h1>
+</div>
+<div id="side">
+<a href="autoblogger.zip">download</a></li>
+| <a href="mailto:dnavarro@gmail.com">contact</a></li>
+| <a href="http://www.navarro.mus.br/diego/xml-summary.php">autoblogger in action</a>
+</div>
+<div id="text">
+<h2>ABOUT</h2>
+
+Autoblogger will read recent <a href="http://del.icio.us">del.icio.us</a> bookmarks marked with a specified tag and create a link to them with the page title, as well as quote a random (filtered, given simple heuristics) excerpt of the text. It's better used for long texts -- so it's more likely to pick up significant excerpts. 
+
+Autoblogger can be used to create an autoblog -- a page summarizing your recent reading -- or as a blog sidebar plug-in.
+
+<h2>DOWNLOAD AND INSTALLATION</h2>
+
+<a href="autoblogger.zip">autoblogger.zip</a> is a small zip file containing all the necessary files. Just unzip, follow the configuration instructions and upload.
+
+<h2>CONFIGURATION</h2>
+
+Simply edit ab-config.php and fill in your del.icio.us account details. Upload ab-config.php and autoblogger.php to the same directory. Be sure to change $tag to the del.icio.us tag being used to mark autoblog entries.
+
+<h2>INSTALLING IN A SIDEBAR</h2>
+
+With any PHP-based content management system (like Wordpress), add the following code to your sidebar template:
+<pre>
+    &lt;?php require("autoblogger.php"); ?&gt;
+</pre>    
+
+
+
+<h2>CREDITS & LICENSE</h2>
+
+Autoblogger is released by Diego Navarro 
+
+<a href="mailto:dnavarro@gmail.com"> &lt;dnavarro@gmail.com&gt;</a>
+ under the GPL v.2. All further rights are reserved. 
+</div>
+</div>
+</body>
+</html>
+```
