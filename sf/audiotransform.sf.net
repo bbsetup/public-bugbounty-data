@@ -1,0 +1,81 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>Audiotransform</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <style type="text/css"></style> 
+ </head>
+ <body bgcolor="#d3dbcb" marginwidth="0" marginheight="0">
+  <center><img src="images/audiotransform-logo.png" /></center>
+  <img src="images/border.png" width="100%" height="1" border="0" />
+  <table border="0" width="100%" cellspacing="5" cellpadding="0">
+   
+   <tr>
+    <!-- The left navigation bar -->
+   	<td valign="top" width="20%">
+	 <table bgcolor="#d3dbcb" cellspacing="0" cellpadding="0" border="0">
+	 	<tr><td><H3><a href="index.html">News</a></H3></td></tr>
+		<tr><td><H3><a href="what_is.html">What is this?</a></H3></td></tr>
+		<tr><td><H3><a href="features.html">Features</a></H3></td></tr>
+		<tr><td><H3><a href="screen_shots.html">Screen Snaps</a></H3></td></tr>
+		<tr><td><H3><a href="download.html">Download</a></H3></td></tr>
+		<tr><td><H3><a href="http://sourceforge.net/projects/audiotransform/index.html">Project Page</a></H3></td></tr>
+		<tr><td><H3><a href="http://sourceforge.net/tracker/?atid=555004&group_id=78950&func=browse">Bug Reports</a></H3></td></tr>
+	 </table>
+ 	</td>
+
+	<!-- vertical separation bar between nav bar and content. -->
+	<td rowspan="1">
+	 <img src="images/border.png" width="1" height="100%">
+	</td>
+
+	<!-- page content goes here -->
+	<td valign="top" width="80%">
+	 <H4>Audiotransform Status Update [October 3, 2003]</H4>
+	 <p>
+	 Not much has happened in cvs in the last three weeks
+	 or so.  But fear not, work has continued.  I took a short break
+	 and stepped back from the project to contemplate where it stands
+	 its flaws and the direction it will go.
+	 </p>
+	 <p>
+	 A number of changes will take place before the next release
+	of audiotransform and I appoligize for the delay.  I know that the motto is 
+	release early and often but I like to release stuff that works too.
+	 </p>
+	 <H4>Audiotransform 0.1.4 stable release [August 15, 2003]</H4>
+	 <p>
+	 This is the first stable release and sports a number of new
+	 features although not completely mature, it is getting closer.
+	 Audiotransform now has full support for WAV, AU and AIFF files
+	 through Sox and/or libsndfile.  Including reading and writing with
+	 different encodings such as [signed linear, unsigned linear, 
+	 GSM, ADPCM, IMA ADPCM, MS ADPCM, A-law, U-law and more!!!].
+	 This release also has a ton of bug fixes and supports drag
+	 and drop for ease of use.
+	 </p>
+	 <p>
+	 This program depends heavily on <B>you</B>.  I would love to 
+	 hear that you are using the program and more importantly, I
+	 would love to know about any bugs that you can find
+	 or features that you would like to see in 0.1.5.  I know I
+	 am excited about adding support for mp3 and ogg in 0.1.5.
+	 But please, tell me what you think!
+	 </p>
+	 <p>Thanks,<br />
+	 Russ</p>
+
+	 </td>
+    </tr>
+  </table>
+
+  
+   <img src="images/border.png" width="100%" height="1" border="0" />
+  <center>
+  <a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=78950&amp;type=2" width="125" height="37" border="0" alt="SourceForge.net Logo" /></a>
+  </center>
+ </body>
+</html>
+```
