@@ -1,0 +1,292 @@
+```<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html
+          PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+<!--
+  ==  EDIT THIS FILE WITH CAUTION  (index.html)
+  ==
+  ==  It has been AutoGen-ed
+  ==  From the definitions    /u/bkorb/ag/WWW/sf.def
+  ==  and the template file   index.htmt
+
+  ***  THEREFORE  *** if you make changes to this file, please
+  email the author so it will not be overwritten  :-)
+
+  -->
+<head>
+  <title>AutoGen: The Automated Text and Program Generation Tool</title>
+  <meta http-equiv="Content-Type"
+        content="text/html; charset=iso-8859-1" />
+  <meta name="author"    content="Bruce Korb" />
+  <meta name="generator" content="AutoGen 5.18.6pre15" />
+  <meta name="keywords"  content="macro source code software development preprocess substitution template" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33211350-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga   = document.createElement('script');
+    ga.type  = 'text/javascript';
+    ga.async = true;
+    ga.src   = 'http://www.google-analytics.com/ga.js';
+    var s    = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body link="#0000ff" vlink="#800080" bgcolor="#ffffff">
+<a name="top"></a>
+
+<center><img src="http://AutoGen.sourceforge.net/pix/autogen_back.png"
+         alt="autogen_back" border="0" />
+<h2><font color="teal" size="+2"><font color="teal" size="+2">The AutoGen Home Page</font></font></h2>
+</center>
+<table border="0" cellpadding="2"><tr><td width="60" valign="top">
+  <table border="0" cellpadding="4"><tr><td nowrap="nowrap">
+    <p align="center"><b>Main<br />AutoGen<br />Pages</b><br />
+    Home<br />
+    <a href="/announce.html">Announce</a><br />
+    <a href="/faq.html">FAQ</a><br />
+    <a href="/doc/autogen_toc.html">docs</a><br />
+    <a href="/xml2ag.html">XML Defs</a><br />
+    <a href="/testimonials.html">testimonials</a><br />
+    <a href="http://sourceforge.net/project/showfiles.php?group_id=3593">downloads</a><br /></p>
+
+    <p align="center"><b>Automated<br />Options</b><br />
+    <a href="/autoopts.html">AutoOpts</a><br />
+    <a href="/compare.html">Comparison</a><br />
+    <a href="/man1-autogen.html">Man&nbsp;example</a><br />
+    <a href="/blocksort.html">Redistribute</a><br />
+    <a href="/doc/Licensing.html#Licensing">Licensing</a><br />
+    <a href="/man2html.html">local&nbsp;use</a><br />
+    <a href="/doc/getopt_005flong.html#getopt_005flong">using&nbsp;getopt</a><br /></p>
+
+    <p align="center"><b>GCC's<br />Fixincludes</b><br />
+    <a href="/fixinc.html">fixincludes</a><br /></p>
+
+    <p align="center"><b>Automated<br />FSM</b><br />
+    <a href="/autofsm.html">description</a><br />
+    <a href="/examplefsm.html">example</a><br />
+    <a href="/usagefsm.html">usagefsm</a><br /></p>
+
+    <p align="center"><b>Addons</b><br />
+    <a href="/addon.html">addon</a><br /></p>
+
+    <p align="center"><b>Autoconf<br />Config<br />Tests</b><br />
+    <a href="/conftest.html">create&nbsp;form</a><br />
+    <a href="/acquoting.html">M4&nbsp;Quoting</a><br /></p>
+
+    <p align="center"><b>Automated<br />XDR</b><br />
+    <a href="/xdr/index.html">xdr&nbsp;project</a><br /></p>
+  </td></tr></table>
+</td>
+<td width="1" bgcolor="black">i</td>
+<td width="2" />
+<td valign="top">
+
+
+<p><strong>AutoGen</strong> is a tool designed to simplify
+ the creation and maintenance of programs that contain large amounts
+ of repetitious text. It is especially valuable in programs that have
+ several blocks of text that must be kept synchronized.</p>
+
+<p>AutoGen will accept either its own definition format, or <a href="/xml2ag.html">XML files</a> as definition input, in addition to <a href="/doc/AutoGen-CGI.html#AutoGen-CGI">CGI data</a> (for producing <a href="/testimonials.html#cgi">dynamic HTML</a>) and traditional AutoGen <a href="/doc/Definitions-File.html#Definitions-File">definitions</a>.</p>
+
+<p>A common example where this would be useful is in creating and maintaining
+the code required for processing program options.  Processing options requires
+multiple constructs to be maintained in parallel in different places in your
+program. Options maintenance needs to be done countless times. So, AutoGen
+comes with an add-on package named <a href="/autoopts.html">AutoOpts</a> that simplifies the maintenance and
+documentation of program options.</p>
+
+<p>AutoGen is known to work on GNU/Linux, BSD, Apple's OS/X, SVR4-5, HPUX,
+SCO OpenServer and Solaris.  It is expected that it will work on
+any reasonably modern UNIX system with an ANSI-compliant C compiler.
+It also runs under WinNT, provided you have <a
+href="http://cygwin.com/">CygWin</a> and <a
+href="http://www.gnu.org/software/guile/guile.html">Guile</a> loaded.
+
+<hr />
+<p>Items of interest:</p>
+<ul>
+<li><p>
+The <a href="/announce.html" >announcement</a> for the <a href="http://autogen.sourceforge.net/data/">AutoGen-5.18.6pre15 source distribution</a> describes recent changes.  If you choose to download, please drop <script language="JavaScript" type="text/javascript">
+<!--
+var one = 'm&#97;';
+var two = 'i&#108;t';
+document.write('<a href="' + one + two );
+document.write('&#111;:&#98;&#107;&#111;&#114;&#98;&#64;&#103;&#110;&#117;&#46;&#111;&#114;&#103;');
+document.write('" >Bruce Korb</a>');
+//-->
+</script> a note and let me know if you built it and what you used it for.
+Thank you. :)</p></li>
+
+<li><p>Autogen code uses a tailored character map for determining which
+of twenty or so character classes a particular character belongs to.
+Just using &lt;ctypes.h&gt; doesn't work so well for that many categories.
+So, this generator was developed to create the mappings:
+<a href="https://sourceforge.net/projects/autogen/files/char-mapper/char-mapper.tar.gz/download">char-mapper</a>.</p></li>
+<li>Here is some <a
+href="http://en.wikipedia.org/wiki/Comparison_of_code_generation_tools"
+>general information about code generators</a> and <a
+href="http://en.wikipedia.org/wiki/Template_processor">template processors</a>.
+A brief quote:
+
+<blockquote>A template processor (also known as a template engine or a template
+parser) is software or a software component that is designed to
+combine one or more templates with a data model to produce one or more
+result documents.</blockquote>
+
+AutoGen is listed there as "complex".  :)</li>
+
+<li>An interesting <a href="http://cwflyris.computerworld.com/t/372890/3396502/12711/2/">article from Computer World</a></li>
+
+<li><p><a href="http://autogen.sourceforge.net/conftest.html"
+>Autoconf configuration macros can be created with an online form</a>.  The resulting macro may be added directly to your <code>aclocal.m4</code
+> file, or the <a href="/doc/Definitions-File.html#Definitions-File">AutoGen definitions</a> may be copied aside and the macro regenerated,
+should the conftest template be updated.  This template is distributed with
+AutoGen.  <i>NOTE:</i>This form is temporarily out of service.  It must
+be rebuilt due to server upgrades...</p></li>
+
+<li>AutoGen development <a href="http://sourceforge.net/">is hosted on SourceForge</a>.
+Source code management is now under <a
+href="http://autogen.git.sourceforge.net/git/gitweb.cgi?p=autogen">GIT</a>.
+The development page is in <a href="http://SourceForge.net/projects/autogen" >projects/autogen</a>.  People interested in AutoGen are encouraged to download the CVS sources and provide input.<p> </p></li>
+
+<li>Contacting Development:
+<ul><li><a href="http://sf.net/mail/?group_id=3593" >Mailing lists</a> make life easier for tracking general issues,</li>
+<li><a href="http://sf.net/tracker/?func=add&amp;group_id=3593&amp;atid=103593">bug reports</a> can be filed here, and</li>
+<li><a href="http://sf.net/tracker/?func=add&amp;group_id=3593&amp;atid=353593">feature requests</a> can be filed here.<p> </p></li></ul></li>
+
+<li><p><a href="/doc/autogen.html" >The full documentation</a> is available online here. But be aware that it is the <strong >full</strong > documentation, intended as a reference.  For just learning to understand AutoGen, the <a href="/doc/Introduction.html#Introduction" >introduction</a> has a purpose section and a simple example.  For handy reference, below is a hook into a <a href="#Google">Google site search</a> to help you search the documentation.</p></li>
+
+<li><p>A <a href="/faq.html">FAQ (Frequently Asked Questions)</a> is available online.</p></li>
+
+<li><p>The AutoGen distribution now comes with a ``<tt>make package</tt>'' rule that will create a native binary package for Solaris and Linux platforms.  I'd like to do the same for Debian, Fink and other platforms, too.
+</p></li>
+
+<li><p><a href="/autoopts.html">AutoOpts 41.1, a semi-automated command line option parser,</a> is included with AutoGen 5.18.6pre15.  It automatically generates everything you need for option processing, including <a href="/man1-autogen.html">man pages</a> and an <a href="/doc/autogen-Invocation.html#autogen-Invocation">"invoking"</a> chapter for your texinfo document.  There is a separate <a href="/doc/AutoOpts.html#AutoOpts" >AutoOpts chapter</a> in the AutoGen doc, complete with a <a href="/doc/Quick-Start.html#Quick-Start">quick-start</a> section.  Online, there is a command line option parser <a href="/compare.html">Feature Comparison</a>.</p><p>Be aware that this chapter is the <strong >complete</strong > reference doc for AutoOpts, so don't let it overwhelm you.</p></li>
+
+<li><p>AutoOpts incorporates <a href="/doc/Config-File-Format.html#Config-File-Format">a configuration file parser library</a>.  This functionality supports
+<a href="/compare.html"
+>AutoOpts features</a> and is also available separately through <a href="/doc/libopts_002dconfigFileLoad.html#libopts_002dconfigFileLoad">configFileLoad(3AutoOpts)</a> and a selected subset of <a href="/doc/libopts-procedures.html#libopts-procedures">libopts exported functions</a>.</p></li>
+
+<li><p><a href="/blocksort.html">blocksort</a> is a separately downloadable module that you can use as an example of how to integrate the libopts library component of AutoOpts in your project.  The above referenced page also gives information on how to simply use AutoOpts.</p><p>All that notwithstanding, some folks do not want to mess with dependencies on external libraries.  There is now help for you, too:  <a href="/doc/getopt_005flong.html#getopt_005flong"><tt>getopt(3C)</tt> and <tt>getopt_long(3GNU)</tt> can parse the AutoOpts options</a> instead of the <tt>libopts</tt> library.  It <i>significantly</i> reduces the set of available features, though.</p></li>
+
+<li><p><a href="/autofsm.html">AutoFSM, a finite state machine generator,</a> is included with AutoGen.  It automatically generates easy-to-follow tables and a prototype implementation of a Finite State Machine.</p></li>
+
+<li><p><a href="/doc/snprintfv.html#snprintfv" >The snprintfv formatting library</a> is included in the AutoGen distribution. It is a replacement for stdio formatting library.  It is a fully portable, consistent and extensible formatting library that replaces the standard <strong>printf(3)</strong> collection of routines.</p></li>
+
+<li><p>AutoGen is <strong>licensed</strong> under the terms of <a
+href="http://www.gnu.org/licenses/licenses.html#TOCGPL">the GPL</a>.
+However, whatever it produces is the result of the work of creating
+the appropriate template.  In other words, the template author is
+responsible for choosing the license for the use of that template.
+My AutoGen-related projects use the following licenses:</p>
+
+<ul>
+<li><a href="/autoopts.html">AutoOpts</a> is licensed under the GPL, with the exception that it is allowed to be linked with non-free programs.  See the text for fuller details.</li>
+
+<li><a href="/autofsm.html">AutoFSM</a> generates Finite State Machines that are licensed under the BSD license, sans the advertising clause.</li>
+
+<li><a href="/xdr">AutoXDR</a> is public domain.</li>
+
+<li><a href="/fixinc.html">fixincludes</a> is <a href="http://gcc.gnu.org">part of GCC</a>, so it is GPL-ed and donated to the <a href="http://www.fsf.org">FSF</a>.</li>
+
+<li><a href="/autoevents.html">AutoEvents</a> is undecided, but likely BSD.
+<p> </p></li></ul></li>
+
+<li><p>GCC's <a href="/fixinc.html">FixIncludes</a> was rewritten to make it far, far simpler to specify and maintain system header file edits required by GCC.</p></li>
+
+<li><p><a href="/xdr/">AutoXDR</a> is a project for augmenting the rpcgen interface.  NFSv4 adopted protocols that cannot be directly supported via rpcgen.  They combine RPC calls in order to save network traffic.  This is a useful enhancement, but you have to marshall and unmarshall your own arguments.  With minor reformatting of the ONC IDL and using this program, it is possible to generate the procedures that will do all of this for you.  You can get this <a href="http://prdownloads.sourceforge.net/autogen/autoxdr-0.2.tar.gz">here</a >.</p></li>
+
+<li><p><a href="/autoevents.html">The AutoEvents project</a> is underway, making incredibly slow progress.  It is a means for automatically maintaining infrastructure for managing the creation, storage, dispatching and displaying of events.  For most large projects, it is necessary to coordinate the display and routing of software-initiated messages.  This scheme completely alleviates the programmers from the need of making source changes in the event there are changes in central policy.  (It happens.)</p>
+
+<p>It also handles much, but not all, of the drudgery of maintaining, managing and triggering these events.  (In case you want common methods for enabling and disabling them, and deciding on throttling policies.)</p>
+
+<p>This is not ready yet.  It is just coming, eventually.</p></li>
+</ul><hr />
+<center>
+  <a name="Google">
+    <font size="+2">AutoGen Site Search</font>
+  </a>
+
+  <form method="get" action="http://www.google.com/custom">
+    <table bgcolor="#FFFFFF" cellspacing="0" border="0"><tr valign="top">
+      <td><img src="http://AutoGen.sourceforge.net/pix/Logo_40wht.gif" border="0"
+               alt="Google" align="middle"/></td>
+      <td>
+         <input type="text"   name="q"  size="31" maxlength="255" value=""/>
+         <input type="submit" name="sa" value="Google Search"/>
+         <input type="hidden" name="cof"
+                value="LW:400;L:http://AutoGen.sourceforge.net/pix/autogen_back.png;LH:110;AH:center;AWFID:be951f42b322e93e;"/>
+         <font face="arial,sans-serif" size="-1">
+         <input type="hidden" name="domains"
+                value="autogen.sourceforge.net"/><br />
+         <input type="radio"  name="sitesearch"
+                value=""/> Search WWW
+         <input type="radio"  name="sitesearch"
+                value="autogen.sourceforge.net"
+                checked="checked"/> Search autogen.sourceforge.net</font><br />
+      </td>
+    </tr></table>
+  </form>
+</center><hr />
+<b>Acknowledgements</b><p>
+This program has evolved over a period of several years.  During that time, <script language="JavaScript" type="text/javascript">
+<!--
+var one = 'm&#97;';
+var two = 'i&#108;t';
+document.write('<a href="' + one + two );
+document.write('&#111;:&#103;&#97;&#114;&#121;&#64;&#103;&#110;&#117;&#46;&#111;&#114;&#103;');
+document.write('" >Gary V. Vaughan</a>');
+//-->
+</script> has been a tremendous help in making it more portable, setting up the regression tests and building an entire formatting library because vsprintf was unportable.  Thank you!<br />Also, thanks to <script language="JavaScript" type="text/javascript">
+<!--
+var one = 'm&#97;';
+var two = 'i&#108;t';
+document.write('<a href="' + one + two );
+document.write('&#111;:&#110;&#112;&#102;&#100;&#100;&#64;&#103;&#109;&#120;&#46;&#110;&#101;&#116;');
+document.write('" >Daniel Schregenberger</a>');
+//-->
+</script> for providing code and impetus for implementing <a href="/doc/Features.html#Features" >GNU-ish usage</a> text for <a href="/autoopts.html">AutoOpts</a>.</p>
+
+<p></p><p>Please direct any questions, comments, suggestions or anything else
+to the author, <script language="JavaScript" type="text/javascript">
+<!--
+var one = 'm&#97;';
+var two = 'i&#108;t';
+document.write('<a href="' + one + two );
+document.write('&#111;:&#98;&#107;&#111;&#114;&#98;&#64;&#103;&#110;&#117;&#46;&#111;&#114;&#103;');
+document.write('" >Bruce Korb</a>');
+//-->
+</script>.</p>
+
+</td></tr></table><hr />
+<p align="center"><a href="#top"><img src="/pix/tophat.jpg" alt="top"/></a>&nbsp;&nbsp;<a href="http://www.anybrowser.org/campaign/"><img src="http://AutoGen.sourceforge.net/pix/abrowser.png" width="118" height="32" alt="Viewable With Any Browser"
+   border="0"/></a>&nbsp;&nbsp;<a href="http://AutoGen.sourceforge.net"
+><img src="http://sourceforge.net/sflogo.php?group_id=3593"
+     width="88" height="31" border="0" alt="SourceForge Logo"/></a>
+&nbsp;&nbsp;<a
+href="http://sourceforge.net/donate/index.php?group_id=3593"><img
+src="http://images.sourceforge.net/images/project-support.jpg"
+width="88" height="32" border="0" alt="Support This Project" />
+</a> &nbsp;&nbsp;<a href="http://validator.w3.org/check/referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10"
+        alt="Valid XHTML 1.0!" height="31" width="88" /></a></p><br /><font size="-2">AutoGen, AutoOpts, columns, getdefs, AutoFSM, AutoXDR and these web pages
+copyright (c) 1999-2012 Bruce Korb, all rights reserved.
+<br />
+snprintfv and its documentation copyright (c) 1999, 2000 Gary V. Vaughan,
+all rights reserved.
+<br />
+<br />fixincludes copyright (c) 1999-2012 the Free Software Foundation,
+all rights reserved.
+<br />AutoXDR copyright (c) 2000-2012 Bruce Korb, all rights reserved.<!-- hhmts start -->
+Last modified: Fri Aug 21 14:20:28 PDT 2015
+<!-- hhmts end -->
+</font></body></html>
+```
