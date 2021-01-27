@@ -1,0 +1,174 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- 
+  Copyright (C) 2005 Alessandro Dotti Contra <alessandro@hyboria.org>
+  This layout is released under the terms of the Creative Commons
+  Attribution-NonCommercial-ShareAlike version 2.5
+  http://creativecommons.org/licenses/by-nc-sa/2.5/
+-->
+<html>
+<head>
+  <title>AutoCrud :: Project Home</title>
+  <link rel="stylesheet" href="autocrud.css" type="text/css">
+</head>
+
+<body>
+<div id="frame">
+
+<div id="logo">
+
+<h1>AutoCRUD</h1>
+
+</div>
+
+<div id="toolbar">
+|
+<a href="http://sourceforge.net/projects/autocrud">Project Page</a>
+|
+<a href="http://sourceforge.net/tracker/?group_id=200664">Trackers</a>
+|
+<a href="http://sourceforge.net/forum/?group_id=200664">Forums</a>
+|
+<a href="http://sourceforge.net/docman/?group_id=200664">Documentation</a>
+|
+<a href="http://autocrud.cvs.sourceforge.net/autocrud/">Browse CVS</a>
+|
+<a href="http://sourceforge.net/project/showfiles.php?group_id=200664">Download</a>
+|
+</div>
+
+<div id="title">
+
+<h1>Welcome to the AutoCRUD Project</h1>
+
+</div>
+
+<div id="sidebar">
+
+<div class="menu">
+
+<h4>Software Used</h4>
+
+<ul>
+  <li><a href="http://maven.apache.org/">Maven2</a>
+  <li><a href="http://www.springframework.org/">Spring Framework</a>
+  <li><a href="http://velocity.apache.org/">Velocity</a>
+  <li><a href="http://java.sun.com/javase/6/">Java 1.6</a>
+  <li><a href="http://www.mortbay.org/">Jetty</a>
+</ul>
+
+</div>
+
+<br>
+<br>
+
+<div class="menu">
+
+<h4>Related Projects/Pages</h4>
+
+<ul>
+  <li><a href="http://www.rubyonrails.org/">Ruby on Rails</a>
+  <li><a href="http://grails.codehaus.org/">Grails</a>
+  <li><a href="http://opensails.org/">Sails</a>
+  <li><a href="http://sujitpal.blogspot.com/2007/07/webapp-scaffolds-with-java-spring-and.html">Blog: AutoCRUD overview</a>
+</ul>
+
+</div>
+
+</div>
+
+<div id="content">
+
+<div class="block">
+
+<h2>
+  <span class="marker">
+  &raquo;
+  </span>
+  Overview
+</h2>
+
+<div class="content">
+
+<p>AutoCRUD is a simple Java based framework, that allows you to design a database schema in MySQL, and generate a complete web application to do CRUD (Create, Retrieve, Update and Delete) operations on these tables. It is similar in design to Ruby on Rails (RoR).</p>
+
+<p>AutoCRUD generates a complete ready-to-run web application into a standard Maven2 directory structure. The web application is based on Spring's MVC framework. It can be started using the Maven2 Jetty plugin from the command line. The files are generated using Velocity templates, so you can change the templates if your coding style is different from mine.</p>
+
+<p>Like in RoR, AutoCRUD generates an ActiveRecord subclass for each database table. The subclass provides getters and setters for each of the database columns. The ActiveRecord class is provided as part of the AutoCRUD framework and provides methods to perform CRUD operations. The methods use dynamic JDBC (using Spring JdbcTemplate).</p>
+
+<p>On the controller end, AutoCRUD provides an ActiveController implementation that is a Spring MultiActionController, and generates the edit, list and show JSP files. The JSP files are all JSTL based, so its clean and maintainable. Each table has an associated controller. Different instances are realized through Spring IoC, each controller is an ActiveController but is injected with the appropriate ActiveRecord subclass. This is slightly different from RoR where the Controllers are explicitly generated for each bean.</p>
+
+<p>AutoCRUD will also generate other Spring and web application artefacts, such as the web.xml, a default landing index.jsp page and the DispatcherServlet's configuration file *-servlet.xml. Currently, it generates the web application as part of the same project AutoCRUD lives in. The packaging will be improved in the future so AutoCRUD can be used to generate different web applications.</p>
+
+</div>
+
+<div class="block">
+  <h2><span class="marker">&raquo;</span>Schema design rules</h2>
+  <div class="content">
+    <p>Since everything is generated, we have to follow certain rules when designing our database schema, so its possible for the generator to build the beans and other artifacts. Here they are:</p>
+    <ol>
+      <li>Entities should be represented by singular table names, and these table names must not contain underscores. For example, project, person, etc.</li>
+      <li>Join tables that join two entities that have a many-to-many or one-to-many relation must contain both entities in its name, separated by underscore. For example, project_person.</li>
+      <li>All tables must have an id column, whose type must resolve to the Java long type. Currently only MySQL is supported, so it must also be an autoincrement column. For MySQL, the data type that resolves to a long is bigint(20).</li>
+      <li>Foreign key reference columns should have the entity name followed by _id, for example, person_id. This is not an issue at the moment, but will be once table relationships are supported in the future.</li>
+    </ol>
+  </div>
+</div>
+
+<div class="block">
+
+<h2>
+  <span class="marker">
+  &raquo;
+  </span>
+  Status
+</h2>
+
+<div class="content">
+
+<p> The following are features I would like to add to AutoCRUD if I ever have the time or the need for them. Currently, I am no longer building database backed apps, but may do so sometime in the future, when I will pick off on this project again.</p>
+
+<ul>
+  <li><b>Multiple database support</b> -- I would like to add Oracle and PostgreSQL support, in addition to the MySQL support already present. Ideally, the backend should be switchable through configuration.</li>
+  <li><b>Support for table relations</b> -- Currently AutoCRUD works against a single table only. I would like to add persistent data structures to model one-to-many, many-to-one and many-to-many relationships, similar to the way RoR does it.</li>
+  <li><b>Use of standard widgets</b> -- Currently, all the inputs are of type text, but we may want to create/use standard widgets for date fields, multi-value fields, etc. This is also an idea borrowed from RoR.</li>
+  <li><b>Packaging improvements</b> -- Will be released as its own JAR with possible Maven2 archetype to generate the CRUD application.</li>
+  <li><b>Replace JDBC with Hibernate</b> -- An earlier version of AutoCRUD, which I never completed, was based on Hibernate as the ORM. I no longer use Hibernate, so this version uses JDBC with Spring JdbcTemplate. It may make switch to using Hibernate for supporting multiple databases.</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="quicklinks">
+<p>
+|
+<a href="http://sourceforge.net/projects/autocrud">Project Page</a>
+|
+<a href="http://sourceforge.net/tracker/?group_id=200664">Trackers</a>
+|
+<a href="http://sourceforge.net/forum/?group_id=200664">Forums</a>
+|
+<a href="http://sourceforge.net/docman/?group_id=200664">Documentation</a>
+|
+<a href="http://autocrud.cvs.sourceforge.net/autocrud/">Browse CVS</a>
+|
+<a href="http://sourceforge.net/project/showfiles.php?group_id=200664">Download</a>
+|
+</p>
+</div>
+
+<div id="footer">
+<p>
+&copy; 2007 AutoCRUD :: Design by <a href="http://www.hyboria.org/">Alessandro Dotti Contra</a>
+</p>
+</div>
+
+</div>
+
+</body>
+</html>
+```
