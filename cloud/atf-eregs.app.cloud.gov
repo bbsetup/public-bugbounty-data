@@ -1,0 +1,312 @@
+```
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=8; IE=EDGE">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+        eRegulations
+        </title>
+        
+
+<link rel="shortcut icon" type="image/x-icon" href="/static/atf_eregs/favicon.ico"/>
+
+        
+        
+        <link rel="stylesheet" href="/static/regulations/css/regulations.min.css"/>
+        
+        
+        
+
+
+        <!--[if lt IE 9]>
+            <script src="/static/regulations/js/built/lib/respond/respond.min.js"></script>
+        <![endif]-->
+        
+        
+
+    </head>
+    <!--[if lt IE 7]>      <body class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <body class="lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <body class="lt-ie9"> <![endif]-->
+    <!--[if IE 9]>         <body class="lt-ie10"> <![endif]-->
+    <!--[if gt IE 9]><!--><body><!--<![endif]-->
+
+      
+        
+
+
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-48605964-38', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'forceSSL', true);
+    ga('send', 'pageview');
+  </script>
+
+
+      
+      
+        
+
+
+  <script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOJ&amp;subagency=ATF" id="_fed_an_ua_tag"></script>
+
+
+      
+
+      
+<header id="site-header" class="reg-header">
+    <div class="main-head">
+    <div class="title">
+        <h1 class="site-title"><a href="/">ATF <span class="e">e</span>Regulations</a></h1>
+        
+    </div> <!-- /reg-title -->
+    <nav class="app-nav">
+        <a href="#" class="mobile-nav-trigger">
+             <span class="cf-icon cf-icon-menu"></span>
+             <span class="icon-text">Mobile navigation</span>
+        </a>
+        <ul class="app-nav-list">
+            <li class="app-nav-list-item"><a href="/">Regulations</a></li>
+            <li class="app-nav-list-item"><a href="/about">About</a></li>
+            <li class="app-nav-list-item logo-list-item">
+<a href="https://www.atf.gov" title="ATF Home">
+    <img class="logo" src="/static/atf_eregs/atf-logo.png" alt="Bureau of Alcohol, Tobacco, Firearms and Explosives"/>
+</a></li>
+            <li class="app-nav-list-item org-title"><a href="https://www.atf.gov">Bureau of Alcohol, Tobacco, Firearms and Explosives</a>
+</li>
+        </ul>
+    </nav>
+</div>
+
+
+</header>
+
+<script src="/static/atf_eregs/js/jquery-3.5.1.min.js"></script>
+<script src="/static/atf_eregs/js/autocomplete.js"></script>
+
+<div class="landing-content">
+
+
+<div class="hero">
+    <div class="inner-wrap group">
+      <div class="primary">
+        <h2 class="hero-header">A platform to read regulations.</h2>
+        <p class="hero-text">eRegulations makes regulations easier to find, read, and understand.</p>
+
+        <p class="read-more-link"><a href="/about" class="go">About eRegulations</a></p>
+      </div>
+    </div> <!-- /.inner-wrap -->
+</div> <!-- /.hero -->
+
+
+<!-- <a href="javascript:AjaxTest()" class="go">Ajax - Django Test Button</a> -->
+
+<div class="landing-main" role="main">
+  <div class="inner-wrap">
+    <h3 class="list-header"><span class="cf-icon cf-icon-search"></span>Search all ATF regulations</h3>
+    <form action="/search_all_parts" id="searchallparts" method="GET" role="search" class="content-primary">
+      <div class="landing-search-box2">
+        <input type="text" name="q" id="query" title="Search term" autocomplete="off"/><button id="qsubmit" type="submit">Search</button><br>
+        <select class="autocomplete" size="10"></select>
+        <span class="enhance_input">
+            Include related terms and acronyms<input type="checkbox" name="enhance" value="1">
+          <a href="/about#reg_search" class="go">Learn more about search</a>
+        </span>
+      </div>
+    </form>
+    <div class="group">
+      <div class="content-primary column-l bump">
+        
+        <h2 class="small-header light-header">
+            Title XXVII Alcohol, Tobacco Products and Firearms
+        </h2>
+        
+
+        
+        <ul class="reg-list">
+            
+                <li>
+                    <a href="/447">
+                        <span class="title-num">447</span>
+                        <div class="reg-sub-title">
+                            
+                                <span class="reg-major-text">Importation Of Arms, Ammunition And Implements Of War</span>
+                            
+                        </div>
+                        <span class="cf-icon cf-icon-right-round"></span>
+                    </a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/478">
+                        <span class="title-num">478</span>
+                        <div class="reg-sub-title">
+                            
+                                <span class="reg-major-text">Commerce In Firearms And Ammunition</span>
+                            
+                        </div>
+                        <span class="cf-icon cf-icon-right-round"></span>
+                    </a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/479">
+                        <span class="title-num">479</span>
+                        <div class="reg-sub-title">
+                            
+                                <span class="reg-major-text">Machine Guns, Destructive Devices, And Certain Other Firearms</span>
+                            
+                        </div>
+                        <span class="cf-icon cf-icon-right-round"></span>
+                    </a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/555">
+                        <span class="title-num">555</span>
+                        <div class="reg-sub-title">
+                            
+                                <span class="reg-major-text">Commerce In Explosives</span>
+                            
+                        </div>
+                        <span class="cf-icon cf-icon-right-round"></span>
+                    </a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/646">
+                        <span class="title-num">646</span>
+                        <div class="reg-sub-title">
+                            
+                                <span class="reg-major-text">Contraband Cigarettes</span>
+                            
+                        </div>
+                        <span class="cf-icon cf-icon-right-round"></span>
+                    </a>
+
+                    
+                </li>
+            
+                <li>
+                    <a href="/771">
+                        <span class="title-num">771</span>
+                        <div class="reg-sub-title">
+                            
+                                <span class="reg-major-text">Rules Of Practice In Explosive License And Permit Proceedings</span>
+                            
+                        </div>
+                        <span class="cf-icon cf-icon-right-round"></span>
+                    </a>
+
+                    
+                </li>
+            
+        </ul>
+        
+
+        
+        
+      </div> <!-- /.primary -->
+
+        
+        
+    </div> <!-- /.group -->
+
+      
+      <section class="about bump group">
+        <h2 class="light-header">About eRegulations</h2>
+        <div class="content-primary column-l">
+
+          <p>eRegulations is a web-based tool that makes regulations easier
+          to find, read and understand with features such as inline
+          official interpretations, highlighted defined terms, and a
+          revision comparison view.</p>
+
+          <p><a href="/about" class="go">Learn more about eRegulations&#8217; features</a></p>
+        </div> <!-- /.primart -->
+
+        
+        
+
+        
+        
+      </section> <!-- /.about -->
+      
+  </div> <!-- /.inner-wrap -->
+</div> <!-- /.landing-main -->
+
+</div> <!-- /.landing-content -->
+<div id="linkappend"></div>
+
+<footer class="reg-footer">
+  <ul>
+    <li><a href="https://www.justice.gov" class="external " target="_blank"
+   
+   title="U.S. Department of Justice" aria-label="U.S. Department of Justice, Link opens in a new window"
+   
+>This is an official site of the U.S. Department of Justice.</a>
+
+
+        <div class="footer-small">
+            <ul>
+                <li><a href="https://www.justice.gov/doj/privacy-policy" class="external " target="_blank"
+   
+   title="Privacy Policy" aria-label="Privacy Policy, Link opens in a new window"
+   
+>Privacy Policy</a>
+</li>
+                <li><a href="https://www.justice.gov/legalpolicies" class="external " target="_blank"
+   
+   title="Legal Policies and Disclaimers" aria-label="Legal Policies and Disclaimers, Link opens in a new window"
+   
+>Legal Policies and Disclaimers</a>
+</li>
+            </ul>
+        </div>
+    </li>
+    <li><a href="https://www.atf.gov" class="external " target="_blank"
+   
+   title="ATF Home" aria-label="ATF Home, Link opens in a new window"
+   
+>Looking for ATF.gov?</a>
+</li>
+  </ul>
+</footer>
+
+
+
+
+
+
+
+      <script type="text/javascript">
+        /*<![CDATA[*/
+        (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//siteimproveanalytics.com/js/siteanalyze_6020567.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+        })();
+        /*]]>*/
+      </script>
+
+    </body>
+</html>
+```
