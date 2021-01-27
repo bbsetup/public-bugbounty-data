@@ -1,0 +1,96 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>ASDF - A Simple DVD Frontend for MPlayer</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+  <style type="text/css"><!--
+    body {
+      margin-left: 10%;
+      font-family: sans-serif;
+    }
+    h1,h2,h3 {
+      margin-left: -10%;
+      font-family: Trebuchet, sans-serif;
+    }
+    h2 { margin-left: -5%;}
+    h3 { margin-left: 0%;}
+    div.code {
+      font-family: monospace;
+      border: solid;
+      border-width: thin;
+      padding: 1em;
+      padding-left: 2em;
+      margin-right: 10%;
+    }
+
+  --></style>
+</head>
+<body>
+
+  <h1>ASDF - A Simple DVD Frontend for MPlayer</h1>
+
+  <a href="http://sourceforge.net/projects/asdf-mplayer">ASDF</a> is a simple graphical frontend for playing DVDs with MPlayer.  It's written in Perl using the Qt toolkit.  <b>NOTE: This application does not require KDE</b>, just Qt.
+  <p>
+  If you encounter any problems, or have any suggestions, please let me know through the project's <a href="http://sourceforge.net/tracker/?group_id=181717">bug-tracker</a>.
+
+  <h2>Screenshot:</h2>
+  <img src="http://sourceforge.net/dbimage.php?id=99288" alt="ASDF in action" border="1" height="480" width="512">
+
+  <h2>Download:</h2>
+  The latest version is available now for download from the <a href="http://sourceforge.net/projects/asdf-mplayer">Sourceforge project page</a>
+
+  <h2>Getting Started:</h2>
+    <h3>Dependencies:</h3>
+    <ul>
+      <li><a href="http://www.mplayerhq.hu">MPlayer</a></li>
+      <li><a href="http://untrepid.com/acidrip/lsdvd.html">lsdvd</a></li>
+      <li><a href="http://perlqt.sourceforge.net/">PerlQt-3</a> (Debian call it libqt-perl)</li>
+    </ul>
+
+    <h3>Install:</h3>
+  <div class="code">
+      tar -xjvf asdf-0.4.tar.bz2
+  <br>cd asdf-0.4/
+  <br>perl Makefile.PL
+  <br>make
+  <br>su -c 'make install' root
+  </div>
+
+  <p>
+  Of course you can still use it without installing:
+  <div class="code">
+      tar -xjvf asdf-0.4.tar.bz2
+  <br>cd asdf-0.4/
+  <br>perl -I. asdf
+  </div>
+  <p>
+
+  <h3>Using it:</h3>
+    Just type <TT>asdf</TT> at the command line, and hit return.  Things should happen.  Hopefully the interface is clear and easy to use (it even has tooltips for the less intuitive options); if not, let me know.
+  <p>
+  <hr>
+  <p>
+  <a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=181717&amp;type=5" width="210" height="62" border="0" alt="SourceForge.net Logo" /></a>
+  This project is kindly hosted by Sourceforge.
+  <p>
+  <a href="http://www.mplayerhq.hu/"><img border="0"
+        alt="MPlayer"
+	src="mplayer-white.jpg"/></a>
+  <p>
+  <hr>
+  <p>
+  <a href="http://www.amnesty.org"><img border="0"
+      alt="Support Amnesty International" 
+      src="http://www.amnesty.org/images/banners/banner1-grey/banner1-234x60-eng.jpg"/></a>
+  <a href="http://www.rsf.org/"><img
+      alt="Support Reporters Sans Frontieres" 
+      src="http://www.rsf.org/home_page/class06/logo.gif" height="59" width="170"></a>
+  <p>
+  <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-html401"
+      alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+  </p>
+</body>
+</html>
+```
