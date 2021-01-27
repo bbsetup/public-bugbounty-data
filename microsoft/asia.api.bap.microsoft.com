@@ -1,0 +1,1 @@
+```{"error":{"code":"InvalidProviderHostName","message":"The host name 'asia.api.bap.microsoft.com' is not allowed for provider '<null>'"}}```
