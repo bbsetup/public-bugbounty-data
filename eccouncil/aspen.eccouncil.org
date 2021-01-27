@@ -1,0 +1,493 @@
+```<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | ASPEN</title>
+    <meta name="description" content="ASPEN | EC-Council">
+    <meta name="author" content="EC-Council">
+	
+	<meta name="referrer" content="Same-origin" />
+
+    <!-- Devices Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Put favicon.ico and apple-touch-icon(s).png in the images folder -->
+    <link rel="shortcut icon" href="/Content/assets/images/fav16x16.png">
+
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,100,300,500,700%7CLato:400,300,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <!-- Plugins CSS files -->
+    <link rel="stylesheet" href="/Content/assets/css/assets.css">
+
+    <!-- REVOLUTION SLIDER STYLES -->
+    <link rel="stylesheet" href="/Content/assets/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" type="text/css">
+    <link rel="stylesheet" href="/Content/assets/revolution/css/settings.css" type="text/css">
+    <link rel="stylesheet" href="/Content/assets/revolution/css/navigation.css" type="text/css">
+
+    <!-- Template CSS files -->
+    <link rel="stylesheet" href="/Content/assets/css/style.css">
+    <link rel="stylesheet" href="/Content/assets/css/shortcodes.css">
+    <link id="theme_css" rel="stylesheet" href="/Content/assets/css/light.css">
+    <link id="skin_css" rel="stylesheet" href="/Content/assets/css/skins/default.css">
+    <link href="/Content/assets/css/shop.css" rel="stylesheet" />
+    <link href="/Content/assets/css/mystyle.css" rel="stylesheet" />
+    <script src="/Scripts/CustomScripts/jquery-3.1.0.min.js"></script>
+    <link href="/Content/assets/css/pickmeup.css" rel="stylesheet" />
+    <link href="/Content/jquery1.9.2.css" rel="stylesheet" />
+    <link href="/Content/skins/flat/blue.css" rel="stylesheet" />
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100% !important;
+        }
+
+        #m-container {
+            min-height: 100% !important;
+            position: relative !important;
+        }
+
+        #content {
+            padding-bottom: 60px !important;
+        }
+
+        #footer2 {
+            position: absolute !important;
+            bottom: 0 !important;
+            width: 100% !important;
+			height: 60px !important;
+        }
+
+
+        .pickmeup {
+            border-width: medium;
+            border-style: double;
+            border-color: #1d98e6;
+        }
+
+        .no-padding {
+            padding: 0px !important;
+        }
+
+        .fnt {
+            font-weight: 400;
+            font-family: 'Oswald', sans-serif;
+            font-size: 17px;
+        }
+
+        .white-tr-bg {
+            background-color: rgba(245, 245, 247,0.4);
+        }
+
+        .my-btntext {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+            .my-btntext:hover {
+                color: #26abff !important;
+            }
+
+        .icon-box.lg-icon1 i {
+            margin: auto;
+            margin-bottom: 10px;
+            position: relative;
+            font-weight: normal;
+            box-shadow: 0px 20px 21px -12px rgba(0,0,0,.2);
+            -webkit-box-shadow: 0px 20px 21px -12px rgba(0,0,0,.2);
+            width: 50px !important;
+            height: 30px !important;
+            line-height: 30px !important;
+            overflow: hidden;
+            font-size: 20px !important;
+        }
+
+            .icon-box.lg-icon1 i:before {
+                position: relative;
+                z-index: 2;
+                transform: rotate(-26deg);
+                -webkit-transform: rotate(-26deg);
+                display: block;
+                bottom: -7px;
+                -webkit-transition: all 600ms ease;
+                transition: all 600ms ease;
+            }
+
+        .dropdown-menu {
+            border: 1px solid #26abff !important;
+            background-color: #ffffff;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            border-radius: 15px;
+            min-width: 335px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.15), 0px 0px 1px 1px rgba(0,0,0,0.1);
+        }
+
+        @media only screen and (max-width: 768px) {
+            .dropdown-menu {
+                min-width: 160px !important;
+                height: 400px !important;
+                overflow-y: scroll;
+                overflow-x: hidden;
+            }
+
+            .icon-box.simple, .icon-box-2, .icon-box {
+                margin-bottom: 20px !important;
+            }
+        }
+		
+	
+    
+	}	
+       
+    </style>
+	<script src="/scripts/chat.js"></script>
+</head>
+<body>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123768072-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123768072-1');
+</script>
+    <!-- site preloader start -->
+    <div class="page-loader"></div>
+    <!-- site preloader end -->
+    <div id="m-container" class="pageWrapper">
+        <!-- Header start -->
+        <div class="top-bar gry-bg">
+            <div class="container">
+                <ul class="top-info f-left">
+                    <li style="font-size:14px;font-weight:Bold;"><i class="fa fa-envelope main-color"></i><b class="main-color"></b> <a href="/cdn-cgi/l/email-protection#d6b7a5a6b3b8a5a3a6a6b9a4a296b3b5b5b9a3b8b5bfbaf8b9a4b1"><span class="__cf_email__" data-cfemail="62031112070c111712120d1016220701010d170c010b0e4c0d1005">[email&#160;protected]</span> </a></li>
+                    <li style="font-size:14px;font-weight:Bold;"><i class="fa fa-phone main-color"></i><b class="main-color"></b><a href="tel:18445504357"> +1-844 550-4357</a></li>					
+                </ul>				
+                        <div class="f-right social-list">
+                            <a href="/Account/Login">
+                                <span class="lbl-txt main-color" style="font-size:14px;"><b>Login</b></span>
+                            </a>
+                            <span class="lbl-txt"><b>|</b></span>
+                            <a href="/Account/Register"><span class="lbl-txt main-color" style="font-size:14px;"><b>Register</b></span></a> 
+							
+							
+                        </div>
+
+            </div>
+        </div>
+        <header class="top-head minimal no-border">
+            <div class="container">
+                <!-- Logo start -->
+                <div class="logo">
+                   <a href="/Home" title="Home"> <img alt="" src="/Content/assets/images/aspen_logo.png" /> </a>
+                </div>
+                <!-- Logo end -->
+                <!-- top navigation menu start -->
+
+                <div class="responsive-nav">
+                    <nav class="top-nav" id="divmenu">
+                        <ul>
+                            <li id="hme"><a href="/Home"><span style="line-height: 79px;">Home</span></a></li>
+                            <li id="training" class="hasChildren">
+                                <a><span style="line-height: 79px;">Training</span></a>
+                                <ul>                                   
+                                    <li><a href="/Home/iLearn">iLearn</a></li>
+                                    <li><a href="/Home/iWeek">iWeek</a></li>
+                                    <li><a href="/Home/FindTraining">Classroom Training</a></li>
+                                    <li><a href="https://cert.eccouncil.org/application-process-eligibility.html" target="_blank">Self Study</a></li>
+                                    <li><a href="/Home/ECCUniversity">EC-Council University</a></li>
+                                </ul>
+                            </li>
+                            <li id="trngpartner" class="hasChildren">
+                                <a><span style="line-height: 79px;">Training Partner</span></a>
+                                <ul>
+                                    <li><a href="/BecomeAnATC"><span>Accredited Training Center</span></a></li>
+                                    <li><a href="/BecomeAnAIP" style="font-size:13.5px"><span>Authorized IIB Council Partner</span></a></li>
+                                </ul>
+                            </li>
+                            <li id="instructr" class="hasChildren">
+                                <a><span style="line-height: 79px;">Instructor</span></a>
+                                <ul>
+                                    <li><a href="/BecomeACEI" style="font-size:13.5px"><span>Certified EC-Council Instructor</span></a></li>
+                                    <li><a href="/BecomeACII" style="font-size:13.5px"><span>Certified IIB Council Instructor</span></a></li>
+                                </ul>
+                            </li>                            
+                            <li id="ciso"><a href="/Home/CISOMAG"><span style="line-height:79px;">CISO MAG</span></a></li>
+							<li><a href="https://codered.eccouncil.org/?utm_source=aspen&utm_medium=header&utm_campaign=navigation" target="_blank"><span style="line-height:79px;">CodeRed</span></a></li>
+                            <li class="hasChildren" id="about">
+                                <a><span>About</span></a>
+                                <ul>
+                                    <li><a href="/Home/Announcements">Announcements</a></li>
+                                    <li class="hasChildren">
+                                        <a href="#">EC-Council Events</a>
+                                        <ul>
+                                            <li><a href="http://www.hackerhalted.com/" target="_blank">HackerHalted </a></li>
+                                            <li><a href="http://www.takedowncon.com/" target="_blank">TakeDownCon</a></li>
+                                            <li><a href="https://www.cyberlympics.org/" target="_blank">Global Cyberlympics</a></li>
+                                            <li><a href="https://ciso.eccouncil.org/ciso-events/" target="_blank">CISO SUMMIT</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://blog.eccouncil.org/members-feedback/?utm_source=aspen&utm_medium=testimonials" target="_blank">Testimonials</a></li>
+                                    <li><a href="/Home/Contributions">Contributions</a></li>
+                                     <li><a href="/Home/Helpdesk">Help Desk</a></li>
+                                    <li><a href="/Home/ContactUs">Contact Us</a></li>
+                                    <li><a href="https://eccouncil.zendesk.com/anonymous_requests/new" target="_blank">Have a Question?</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+                <!-- top navigation menu end -->
+            </div>
+        </header>
+        
+
+        <!-- Header start -->
+        <!-- Content start -->
+        <div id="content" class="pageContent">
+            
+
+<div class="video-section">
+    <div class="container-fluid">
+        <div class="row t-center" style="padding: 10% 0%;background: rgba(0, 78, 128, 0.6);">
+            <h3 class="white font-40">One-Stop Gateway to Multiple Learning Services </h3>
+            <p class="tbl white wid-70 font-30 light-font"> Provided by EC-Council for its registered members.</p>
+        </div>
+    </div>
+    <div class="video-wrap">
+        <video poster="/Content/assets/images/videos/aspenbgimg.jpg" preload="auto" loop="" autoplay="" muted="" style="top:-40%;">
+            <source src="/Content/assets/images/videos/aspenbg-video.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<!--sub header start-->
+    <div class="sm-padding pattern-line-1 main-bg" style="padding-bottom: 20px;padding-top: 30px;">
+      <div class="container">
+        <div class="cta_btn">
+			<div class="col-sm-12">
+				<div class="col-sm-12">
+					<div class="col-md-12 p-a-0">
+						<div class="col-md-7 p-a-0">
+							<h1 class="uppercase white" style="font-weight: bold;margin-left: 18px;margin-bottom: 10px;font-size: 30px;">Join Our Community To Receive</h1>
+						</div>
+						<div class="col-md-5" style="margin-top: -15px;">
+							<a href="https://bit.ly/AspenSLFBE" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Join us Facebook"><span class="fa-stack" style="font-size: 2.5em;"> <i class="fa fa-circle fa-stack-2x" style="color: #17439f;"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span></a>
+							<a href="https://bit.ly/AspenSL" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Join us Linkedin"><span class="fa-stack" style="font-size: 2.5em;"> <i class="fa fa-circle fa-stack-2x" style="color: #0077B5;"></i> <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i> </span></a>
+							<a href="https://bit.ly/AspenSLTw" target="_blank" data-toggle="tooltip" data-placement="top" data-original-title="Join us Twitter"><span class="fa-stack" style="font-size: 2.5em;"> <i class="fa fa-circle fa-stack-2x" style="color: #1dcaff;"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span></a>
+					    </div>
+					</div>
+					
+					 <div class="col-sm-12 p-a-0">
+              <div class="col-sm-7 p-a-0">
+                <ul class="font-20" style="line-height: 1.8;">
+                  <li>Invitation to EC-Council Events and Conferences</li>
+                  <li>Invitation to Webinars on Latest Cyber Hacks and Trends</li>
+                  <li>Exclusive Cyber Challenges and Opportunities</li>
+                </ul>
+              </div>
+              <div class="col-sm-5 p-a-0" style="line-height: 1.8;">
+                <ul class="font-20">
+                  <li>EC-Council Cyber Research</li>
+                  <li>Invitation to New Credential Releases</li>
+                  <li>Invitation to Upcoming Training Schedules</li>
+                </ul>
+              </div>
+            </div>
+				</div>				
+			</div>
+        </div>
+      </div>
+    </div>
+<!--sub header end-->
+
+
+<div class="sm-padding">
+    <div class="container">
+        <div class="heading main centered">
+            <h3 class="uppercase lg-title">Learning <span class="main-color uppercase bolder">Options</span></h3>
+            <p>In the ASPEN platform we offer a few different ways in which you can train</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="icon-box lg-icon t-center light-gry-border rect-angles">
+                    <i class="fa fa-html5 lg-icon"></i>
+                    <h4 class="capitalize">Onsite at Your Location</h4>
+                    <p class="m-b-2">Onsite private courses are a turn-key solution including official courseware, certification exam, and iLabs where applicable. Our team has delivered private courses for companies such as IBM, Dominos, HP, Lockheed Martin and many others. We have also delivered private classes for literally every branch of the US military on and off military installations.</p>
+                    <a class="btn main-bg uppercase" href="/Home/FindTraining">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="icon-box lg-icon t-center light-gry-border rect-angles">
+                    <i class="fa fa-calendar lg-icon"></i>
+                    <h4>iWeek, Live, Online</h4>
+                    <p class="m-b-2">This solution is a live, online course delivered via Blackboard’s Elluminate platform in a format that is similar to a “Go To Meeting” on steroids. iWeek comes with a certification exam voucher and extended access to EC-Council’s iLabs*, online lab platform.</p>
+                    <p class="m-b-4 hidden-xs">&nbsp;</p>
+                    <a class="btn main-bg uppercase" href="/Home/iWeek">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="icon-box lg-icon t-center light-gry-border rect-angles">
+                    <i class="fa fa-fax lg-icon"></i>
+                    <h4 class="capitalize">iLearn, Self-Paced Streaming Video</h4>
+                    <p class="m-b-3">This solution is an asynchronous, self-study environment which delivers EC-Council’s sought after IT Security training courses, such as CEH, in a streaming video format. All lectures are delivered by a professional practitioner to assure a real-world perspective on the course concepts.</p>
+                    <a class="btn main-bg uppercase" href="/Home/iLearn">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="icon-box lg-icon t-center light-gry-border rect-angles">
+                    <i class="fa fa-file-text-o  lg-icon"></i>
+                    <h4 class="capitalize">Self-Study, Certification</h4>
+                    <p class="m-b-3">In today's busy schedule, we are finding more and more folks simply don’t have the time for a full blown training solution. All of our exams are available to be purchased separate from training for those who hold enough experience and qualify to attempt the exam directly. </p>
+                    <p class="m-b-3 hidden-xs">&nbsp;</p>
+                    <a class="btn main-bg uppercase" href="https://cert.eccouncil.org/application-process-eligibility.html" target="_blank">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+		<!-- banner end--> 
+		<div class="clearfix"></div>
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/Scripts/CustomScripts/jquery-3.1.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        hidemenu();
+        $("ul #hme").addClass("selected");
+    });
+
+    function hidemenu() {
+        $("ul #training").removeClass("selected");
+        $("ul #about").removeClass("selected");
+        $("ul #mycourse").removeClass("selected");
+        $("ul #instructr").removeClass("selected");
+        $("ul #store").removeClass("selected");
+        $("ul #trngpartner").removeClass("selected");
+        $("ul #ciso").removeClass("selected");
+    }
+</script>
+
+        </div>
+		
+        <input type="hidden" id="forgeryToken" value="df82MgpfBr5OqNSRfhpZBQg4mb3s65UBT6yb-HdgrDyPYPo4_xUuA0gg5zoRczNwWI7W-g2,5kyKnPkz0CNwr4OaO_w5cpNo20OothrY2eB4IbWcOtSa8-1X6MOhwzCZnEMxj-VwbqH6RQ2" />
+        <!-- Content start -->
+		
+		
+        <!-- Footer start -->
+        <footer id="footer2">
+            <!-- footer bottom bar start -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <!-- footer copyrights left cell -->
+                        <div class="copyrights col-md-6">© Copyrights <b class="main-color">EC-COUNCIL</b> 2020. All rights reserved.<a href="/Terms"><span class="main-color">Terms Of Use</span></a> | <a href="/Privacy"><span class="main-color">Privacy Statement</span></a></div>
+                                            </div>
+                </div>
+            </div>
+            <!-- footer bottom bar end -->
+        </footer>
+        <!-- Footer end -->
+    </div>
+
+
+
+    <!-- Back to top Link -->
+    <a id="to-top" href="#"><span class="fa fa fa-angle-up"></span></a>
+
+    <!-- Load JS plugins -->
+    <script type="text/javascript" src="/Content/assets/js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="/Content/assets/js/assets.js"></script>
+
+    <!-- SLIDER REVOLUTION  -->
+    <script type="text/javascript" src="/Content/assets/revolution/js/jquery.themepunch.tools.min.js">
+    </script>
+    <script type="text/javascript" src="/Content/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS
+        (Load Extensions only on Local File Systems !  +
+        The following part can be removed on Server for On Demand Loading) -->
+    <script type="text/javascript" src="/Content/assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="/Content/assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="/Content/assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="/Content/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="/Content/assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="/Content/assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="/Content/assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="/Content/assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="/Content/assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- END SLIDER REVOLUTION 5.0 EXTENSIONS -->
+    <!-- general script file -->
+    <script type="text/javascript" src="/Content/assets/js/script.js"></script>
+    <script type="text/javascript" src="/Content/assets/js/custom.js"></script>
+
+    <script type="text/javascript" src="/Content/Js/jquery.pickmeup.min.js"></script>
+
+    <script>
+	
+	 $(document).ajaxStart(function () {
+            $("body").append('<div id="loader" style="height:100%;width:100%;top:0px;bottom:0px;left:0px;right:0px;position:fixed;background-color:rgba(0,0,0,0.3);z-index:75;"><div style="margin-left:45%;margin-top:18%;"><img src="../Content/Images/ajax-loader.gif" alt="Loading...." <="" div="" style="border-radius: 100%;"></div></div>');
+        }).ajaxStop(function () {
+            $("#loader").remove();
+        }).ajaxError(function () {
+            $("#loader").remove();
+        });
+
+        window.onerror = function (message, source, lineno, colno, error) {
+            $("#loader").remove();
+        }
+		
+	 //restrict special characters start
+       $("input[type='text'],textarea").on("paste", function (e) {
+			if (e.target.id != "txtPassword") {
+				var data = e.originalEvent.clipboardData.getData('Text');
+				var b = data.replace(/[^a-z 0-9-_.,@$]/gi, '');
+				$(this).val(b);
+				return false;
+			}
+        });
+
+		$("input[type='text'],textarea").keypress(function (e) {
+			if (e.target.id != "txtPassword") {
+				var keyCode = e.keyCode == 0 ? e.charCode : e.keyCode;
+				//32 Space, //46 .   //45 -  //44 ,   //95 _    //64 @       //36 $    //backspace
+				var ret = ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || keyCode == 32 || keyCode == 46 || keyCode == 45 || keyCode == 44 || keyCode == 95 || keyCode == 64 || keyCode == 8);
+				return ret;
+			}
+        });
+
+         //restrict special characters end
+		 
+        $(".date").pickmeup({
+            format: 'm-d-Y'
+        });
+        $(".pickmeup").on("click", ".pmu-days .pmu-button", function () {
+            $(".pickmeup").hide();
+        });
+
+        $(function () {
+            var controls = $(".disable");
+            controls.bind("paste", function () {
+                return false;
+            });
+            controls.bind("drop", function () {
+                return false;
+            });
+            controls.bind("cut", function () {
+                return false;
+            });
+            controls.bind("copy", function () {
+                return false;
+            });
+        });
+    </script>
+
+</body>
+</html>```
