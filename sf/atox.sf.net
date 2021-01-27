@@ -1,0 +1,131 @@
+```<html>
+  <head>
+    <title>Atox</title>
+    <style>
+body {
+    font-size       : 11px;
+    color           : 333;
+    background      : white;
+    font-family     : verdana, arial, helvetica, sans-serif; /* Drop verdana? */
+    text-align      : left; 
+    margin-left     : auto;
+    margin-right    : auto;
+    padding         : 15px;
+    width           : 500px;
+}
+
+h1 {
+    font:1.8em/1 Georgia, Times New Roman, Times, serif;
+    font-weight:900;
+    padding-top: 50px;
+    text-align      : center; 
+}
+      p {
+        text-align: justify;
+        line-height: 1.6;
+      }
+
+a:link {
+    color           : #862; 
+    text-decoration : none;
+}
+
+a:visited {
+    color           : #862; 
+    text-decoration : none;
+}
+
+a:hover {
+    color           : #862; 
+    text-decoration : underline;
+}
+    </style>
+  </head>
+  <body>
+  <h1>Atox</h1>
+
+  <center>
+  <b>Atox</b> [<i>'eitoks</i>], n. (acronym, short for ascii-to-xml;
+  <i>c.f.</i> atoi, atops)
+  </center>
+
+  <p> Atox is a fully customizable tool for adding markup to plain text. The <a
+href="atox.html">manual</a> (<a href="atox.pdf">pdf</a>, <a
+href="atox.txt">source text</a>) is available online, and the most recent
+version of the software can be downloaded from the SourceForge <a
+href="http://sourceforge.net/projects/atox">project page</a>.
+Even more updated, and probably less stable, code can be found in the <a
+href="http://sourceforge.net/cvs/?group_id=100269">CVS repository</a>.
+There is also a <a
+href="http://lists.sourceforge.net/lists/listinfo/atox-user">mailing list</a>
+for discussing Atox.
+</p>
+
+<p><b>What's going on</b>? [2005-05-31] I'm working on a new version of Atox,
+with a completely new (filter-based) architecture, which is much more modular
+and extensible. This new version will also be able to work with partial XML
+documents (even ill-formed ones) so you can mix Atox and other tools in a UNIX
+pipe. The main architecture (including parsing potentially ill-formed XML and
+outputting transformed XML) and a couple of core component (one for "chinking"
+or splitting text into block-level elements, with all kinds of interactions
+with the XML, and one for "fixing" XML so that it conforms to a certain
+schema-like structure) are in place.</p>
+
+<p>Before the system is going to be of much use, I plan to implement at least a
+couple of other components (one for renaming elements based on their textual
+contents, and one for looking for features, similar to the core functionality
+of the previous Atox). The code is in quite a raw state, and I probably won't
+be releasing it for quite some time (if I manage to finish it at all). Also, it
+will not be backward-compatible, although I may add some code to make it work
+with the old format-language. Anyone interested in the code could <a
+href="http://hetland.org/contact">email</a> me to receive a snapshot. (The code
+hasn't been checked into SourceForge CVS yet.)</p>
+
+<p><b>Latest release</b>: Version 0.5, on Apr 24, 2004. See the manual
+for revision history.</p>
+
+<p>A prototype that uses Flex and Bison to do the parsing is available. Note
+that it is just an experiment and may never be used as part of Atox. You can
+download it <a href="atox-proto-20040616.tgz">here</a>.</p>
+
+<p><b>Current status</b>: Atox is still experimental and may yet undergo
+changes that are not backward compatible. Version 0.5 is, however, a rather
+complete implementation of the main ideas behind the project. It is quite
+possible that, save the odd bug fix, no great changes (or much development)
+will occur in the near future. (You never know, of course... And you never know
+when the <a
+href="http://www.joelonsoftware.com/articles/fog0000000069.html">complete
+rewrite</a> will be done...)</p>
+
+<p>If you need a more mature and actively supported solution for converting
+text documents into XML (or something else) you could also consider the various
+technologies mentioned in the <a href="atox.html">manual</a>, such as <a
+href="http://docutils.sourceforge.net/rst.html">reStructuredText</a> or
+<a href="http://www.methods.co.nz/asciidoc">AsciiDoc</a>.</p>
+
+<p>If you'd like to write a custom markup parser, <a
+href="http://simpleparse.sourceforge.net">SimpleParse</a> might be a useful
+too. (Davit Mertz has written <a
+href="http://www-106.ibm.com/developerworks/linux/library/l-simple.html">an
+article</a> about using it for markup parsing.)</p>
+
+<p><a href="http://www.dalkescientific.com/Martel">Martel</a> is a parser
+generator that uses mxTextTools and uses SAX as a callback API. This could
+be useful in converting plain text into XML. And then there is always good old
+<a href="http://www.gnu.org/software/sed">sed</a>.</p>
+
+<p><b>Small print</b>: Atox comes with no warranty of any kind. There is no
+guarantee of continued support. What you see is what you get.</p>
+
+  <center style="margin-top: 50px">
+<a href="https://foundries.sourceforge.net/"><img border=0
+src="http://sourceforge.net/images/sf-icon-foundry_member.gif"></a>
+ :<a
+href="http://sourceforge.net/foundry/python-foundry/">Python Foundry</a><br /><br />
+  <img src="http://sf.net/sflogo.php?group_id=100269&amp;type=1" width="88"
+       height="31" alt="SourceForge.net Logo">
+  </center>
+
+  </body>
+</html>
+```
