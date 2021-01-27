@@ -1,0 +1,84 @@
+```<!DOCTYPE html>
+<html lang="fi" >
+
+<head>
+  <style type="text/css">
+    body,
+    html {
+      min-height: 100vh;
+    }
+
+    .app-loading {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .app-loading .spinner {
+      height: 200px;
+      width: 200px;
+      animation: rotate 2s linear infinite;
+      transform-origin: center center;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    .app-loading .spinner .path {
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+      animation: dash 1.5s ease-in-out infinite;
+      stroke-linecap: round;
+      stroke: #ddd;
+    }
+
+    @keyframes rotate {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes dash {
+      0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+      }
+
+      50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35px;
+      }
+
+      100% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124px;
+      }
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Self Service</title>
+  <base href="/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" id="appFavicon" type="image/x-icon"/>
+<link rel="stylesheet" href="styles.5f17f3bc79eafd631134.css"></head>
+
+<body class="duet-sticky-footer duet-bg-gradient">
+  <app-root>
+    <div class="app-loading">
+      <svg class="spinner" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle>
+      </svg>
+    </div>
+  </app-root>
+<script src="runtime-es2015.895a55a3754a091c5edd.js" type="module"></script><script src="runtime-es5.895a55a3754a091c5edd.js" nomodule defer></script><script src="polyfills-es5.5f2b48bfefa407ded44c.js" nomodule defer></script><script src="polyfills-es2015.be696b1fceb85a403cb5.js" type="module"></script><script src="main-es2015.549c0948f5fbe6c377de.js" type="module"></script><script src="main-es5.549c0948f5fbe6c377de.js" nomodule defer></script></body>
+
+</html>
+```
