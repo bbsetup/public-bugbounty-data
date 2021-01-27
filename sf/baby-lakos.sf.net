@@ -1,0 +1,172 @@
+```<!-- $Id: documentation.makefile,v 1.1.1.1 2000/09/15 13:20:53 dean_foster Exp $   -*-text-*- -->
+
+
+<h1> BABY-LAKOS: Makefiles for levelization</h1>
+
+<h2> PROJECT PURPOSE AND SUMMARY</h2>
+
+This is a collection of files to implement a simple version of John
+Lakos' amazing book _Large-scale C++ Software Design_.  The goal is to
+decrease the overhead of implementing levelization.  The goal is to
+have a Makefile that is very easy to read and keep current.
+<p>
+
+It enforces regression testing.  It strongly encourages levelization.
+It provides simple templates to help remind authors of style
+guidelines.  It works well with CVS.
+
+<h2>LIMITATIONS</h2>
+
+It requires gnu-make, has gcc hard wired in, and generally is set up
+for running under linux.  
+
+
+<h2>GENERAL SUMMARY</h2>
+
+The primary assumption is that you will ALWAYS write a testing program
+for each and every class.  Since this is such a pain, the system tries
+to make that as easy as possible.
+<p>
+	To use this system, first edit the ./generic.* files to match
+whatever style of naming conventions you like best.  Then to create a
+new class, copy these generic.* files to the library to create the
+following three files:
+<p>
+		   foo.h = declaration
+<p>
+	          foo.cc = definitions
+<p>
+	     foo.test.cc = examples of how to use Foo and testing of Foo
+<p>
+Now edit them to implement the class Foo.  Finally add "foo.o"
+somewhere in the Makefile levelization section.  Now do a "make
+foo.OK" and the following will be generated:
+<p>
+    	          foo.d  = the dependencies of foo.cc
+<p>
+             foo.test.d  = the dependencies for foo.test.cc
+<p>
+	           foo.o = object 
+<p>
+  	      foo.test.o = object (temp)
+<p>
+     foo.test.executable = testing executable (temp)
+<p>
+        foo.test.results = output of the sample code (temp)
+<p>
+At this point the system will have compiled the class, and ran the
+foo.test.cc file to generate the output.  It will then try to compare
+this output to the regression output.  (Which currently doesn't
+exist).  So you should look at the output and certify that it did the
+right thing.  Then copy it to foo.test.results_correct.  Now when you
+rerun the "make foo.OK" you will have the following two files added: 
+<p>
+foo.test.results_correct = output of the sample code (temp)
+<p>
+ 	          foo.OK = signifies passing regression testing
+<p>
+Finally if you run a plan "make" or a "make test" or a "make install"
+the system will generate *.OK's and then generate a file called:
+<p>
+                    test = signifies passing ALL regression tests	
+
+<p>
+<h2>LEVELIZATION</h2>
+
+If a class Bar depends on another class, then we have to put it at
+level_2 of the Makefile.  This requires putting Foo as a "level 1"
+item and the class it depends on as a "level 0" item.  (For example,
+the sample Makefile has bar depending on foo).
+
+<h2>LIBRARY LEVEL MAKES</h2>
+
+make foo.OK  : Tries to compile, link, run and regression test foo.cc. 
+<p>
+make test    : tries to generate *.OK
+<p>
+make         : runs "make test"
+<p>
+make install : copies *.h to ../Include/*.  Builds a library and copies
+               it to ../lib/*
+<p>
+
+<h2>TOP LEVEL MAKES</h2>
+
+make          : update any libraries that are out of date relative to
+                libraries that have been installed already.
+<p>
+make install  : runs a make install on each library.
+<p>
+make evil     : tricks the system into generating libraries and copying
+		the .h files WITHOUT running any regression testing.
+		This saves link time and run time.  So it is very
+		fast, but it undermines the entire reason for building
+		this whole system! 
+<p>
+
+make pure     : Runs a make test in each library.
+
+<h2>UTILITIES</h2>
+
+The only utility provided at the moment is a include guard checker.
+Run "include_guarding" from the top level.  It will check all your
+*/*.h files to see if some of them use an incorrect name for an
+include guard of some other file.  For example, two/foo.h has an error
+that is caught by this program.
+
+
+<h2>WHY RUN MAKE EVIL?</h2>
+
+The reason I find myself using "make evil" is when I detect a error
+in a low level library while running some high level code.  Of course
+this means that the *.test.cc files are not doing their job.  So what
+I will sometimes do is to try to find the error by using the high
+level system for testing.  This requires rebuilding all intervening
+libraries AND generating 100's of executables and running all of
+them.  I can't wait that long (since I never took up coffee).  So I
+run make evil.  This is the call of the dark side!
+<p>
+So you think regression testing is really cool--but your on a slow
+machine.  So it takes FOREVER to to the linking.  Your sure you
+haven't actually introduced any errors.  You want to see how the new
+library effects some other code.  You are looking for a "fast make"
+that doesn't actually do all these regression tests.  Take the
+following oath: "I PROMISE to ALWAYS do regression tests as soon as I
+buy a new CPU."  Now you may run "make evil".  This can be up to 10
+times faster. 
+<p>
+After you have been taken over by the dark-side, read a chapter of
+Lakos so the force will be with you!
+
+<h2>CVS</h2>
+
+Add the following to your cvsignore:
+<p>
+*.d
+<p>
+*.executable
+<p>
+*.results
+<p>
+*.OK
+<p>
+Include
+<p>
+test
+</p>
+(Detailed instructions: cvs co CVSROOT; cd CVSROOT; edit cvsignore;
+cvs ci; cd ..;rm -rf CVSROOT)
+
+<h2>BUGS</h2>
+
+(1) If you delete a .h file in a directory, it doesn't get deleted in
+    the ../Include/*/* directory.  So other libraries can still use the
+    obsolete .h file, but obviously the .cc file no longer exists.  
+
+
+<h2>Suggestions</h2>
+
+Please feel free to make suggestions/modifications.  If you want write
+acccess to the CVS repository, let me know and I'll set it up.
+(dean_foster)
+```
