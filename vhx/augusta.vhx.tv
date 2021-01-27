@@ -1,0 +1,2564 @@
+```<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Hope for Augusta</title>
+
+  <meta name="title" content="Hope for Augusta">
+  <meta name="description" content="This is how God is changing the inner-city of Augusta.">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://augusta.vhx.tv&format=json" title="Hope for Augusta" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://augusta.vhx.tv&format=xml" title="Hope for Augusta" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://augusta.vhx.tv">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      /*............................................
+  	global
+  ..............................................*/
+  html.wf-loading {
+  	opacity: 0;
+  }
+  html.wf-active {
+  	opacity: 1;
+    transition: 0.2s ease;
+  	-moz-transition: 0.2s ease;
+  	-webkit-transition: 0.2s ease;
+  	-o-transition: 0.2s ease;
+  }
+  
+  body {
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+   	font-weight: 300;
+    overflow: hidden;
+  }
+  
+  html,
+  body { height: 100%; margin: 0; padding: 0; background-color: #000000;}
+  
+  a:link,
+  a:visited {
+  	color: inherit;
+    transition: 0.2s ease;
+  	-moz-transition: 0.2s ease;
+  	-webkit-transition: 0.2s ease;
+  	-o-transition: 0.2s ease;
+    opacity: 0.9;
+  }
+  
+  a:hover,
+  a:active {
+  	color: #ffffff;
+    opacity: 1;
+  }
+  
+  h1, h2, h3, ul, dl, dd {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.02em; 
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  
+  h2 {
+  	font-size: 38px;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  body.sub-page{
+  	overflow-x: hidden;
+  	overflow-y: auto;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 500px){
+    body, html {
+    	overflow-x: hidden;
+      overflow-y: auto;
+    }
+  }
+  
+  /*............................................
+  	header
+  ..............................................*/
+  header {
+    position: fixed;
+    padding-top: 25px;
+    padding-left: 0px;
+  	width: 50%;
+  	color: #ffffff;
+  	z-index: 5;
+  }
+  header h1 {
+    font-size: 53px;
+    text-align: left;
+    padding-left: 40px;
+    /*letter-spacing: 2.5px;*/
+    letter-spacing: 5px;
+    color: #ffffff;
+  }
+  
+  header nav a:link,
+  header nav a:visited {
+  	color: #ffffff;
+    text-decoration: none;
+  }
+  header nav a:hover,
+  header nav a:active {
+  	color: #ffffff;
+    text-decoration: none;
+    padding-top: 5px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
+  
+  header .hr {
+  	opacity: .5;
+    height: 1px;
+    padding-right: 80px;
+    margin-left: 40px;
+  }
+  
+  header nav {
+   position: relative;
+   margin-top: -2px;
+   padding-left: 40px;
+  }
+  
+  header nav li {
+    float: left;
+    display: inline;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgba(255, 255, 255, 0);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
+  
+  header nav li a.on {
+    padding: 5px 11px 0px 11px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
+  
+  header nav li a.off {
+  
+  }
+  
+  header nav li a {
+    padding: 5px 11px 0px 11px;
+  }
+  
+  header nav li:first-child a {
+    padding: 5px 10px 0px 5px;
+  }
+  
+  header nav li:last-child {
+  }
+  
+  header .buy {
+  	display: none;  
+  }
+  
+  .subpagebg {
+    background: url(https://dr56wvhu2c8zo.cloudfront.net/augusta/assets/8c0054bf-e095-45fd-ad14-fce1a178bba9/vhx3.jpg) no-repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  
+  @media screen and (max-width: 884px){
+  	header {
+      width: 100%;
+      top: 37%;
+    }
+    
+   
+  }
+  
+  @media screen and (max-width: 500px){
+  	header {
+    	position: absolute;
+      width: 100%;
+      top: 37%;
+      padding-left: 0px;
+    }
+    
+    header h1 {
+      text-align: center;
+    }
+    
+    header .hr {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    
+    header nav {
+      padding-left: 10px;
+    }
+    
+    header nav li a {
+      padding: 5px 15px;
+    }
+    
+    header nav li:first-child a {
+      padding: 5px 15px 5px 15px;
+    }
+    
+    header nav li:last-child {
+    	padding-left: 0px;
+      padding-top: 5px;
+    }
+    
+    header .buy {
+  		display: block;
+      font-family: "Orbitron", sans-serif;
+      letter-spacing: 2.5px; 
+      text-transform: uppercase;
+      font-size: 17px;
+      font-weight: 500;
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+      text-decoration: none;
+      color: #ffffff;
+      width: 100%;
+      text-align: center;
+      padding: 20px 0px;
+  	}
+    
+    header .buy .price {
+    	color: #000000;
+      position: relative;
+      z-index: 10;
+      margin-top: -78px;
+      padding-bottom: 58px;
+    }
+    
+    header .buy .circle-price {
+    	color: #000000;
+      position: relative;
+      z-index: 10;
+      margin-top: -59px;
+      padding-bottom: 48px;
+    }
+    
+    header .buy .action {
+    	opacity: 0.7;
+    }
+    
+    header .buy .triangle-up {
+    	padding-top: 10px;
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+      border-bottom: 60px solid #FFFFFF;
+      text-align: center;
+      margin: 0 auto;
+      opacity: 1;
+    }
+    
+    header .buy .triangle-down {
+    	padding-bottom: 10px;
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+      border-top: 60px solid #FFFFFF;
+      top: 0px;
+      text-align: center;
+      margin: 0 auto;
+      opacity: 1;
+    }
+    
+    header .buy .circle-up {
+      height:50px;
+      width:100px;
+      border-radius: 100px 100px 0 0;
+      -moz-border-radius: 100px 100px 0 0;
+      -webkit-border-radius: 100px 100px 0 0;
+      background-color: #FFFFFF;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 10px;
+      opacity: 1;
+    }
+    
+    header .buy .circle-down {
+      height:50px;
+      width:100px;
+      border-radius: 0 0 100px 100px;
+      -moz-border-radius: 0 0 100px 100px;
+      -webkit-border-radius: 0 0 100px 100px;
+      background-color: #FFFFFF;
+      top: 0px;
+      text-align: center;
+      margin: 0 auto;
+      opacity: 1;
+      margin-bottom: 0px;
+    }
+    
+    header .buy .play-btn-triangle {
+      border-top: 15px solid transparent;
+      border-left: 25px solid #000000;
+      border-bottom: 15px solid transparent;
+      position: relative;
+      z-index: 11;
+      left: 48%;
+      text-align: center;
+      margin-top: -84px;
+      margin-bottom: 56px;
+    }
+    
+    header .buy .play-btn-circle {
+      border-top: 20px solid transparent;
+      border-left: 30px solid #000000;
+      border-bottom: 20px solid transparent;
+      position: relative;
+      z-index: 11;
+      left: 47%;
+      text-align: center;
+      margin-top: -68px;
+      margin-bottom: 41px;
+    }
+    
+    header .buy a, header .buy a:hover {
+    	opacity: 1;
+    }
+    
+   
+  }
+  
+  @media screen and (max-width: 320px){
+  	header {
+    	position: absolute;
+      width: 100%;
+      top: 37%;
+      padding-left: 0px;
+    }
+    
+    header h1 {
+      text-align: center;
+    }
+    
+    header .hr {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    
+    header nav {
+      padding-left: 10px;
+    }
+    
+    header nav li a {
+      padding: 5px 10px;
+    }
+    
+    header nav li:first-child a {
+      padding: 5px 10px;
+      /*margin-right: 6px;*/
+    }
+    
+    header nav li:last-child {
+    	padding-left: 0px;
+      padding-top: 4px;
+      margin-top: 15px;
+      border-top: 1px solid rgb(255, 255, 255);
+    	border-top: 1px solid rgba(255, 255, 255, 0.5);
+    	-webkit-background-clip: padding-box;
+    	background-clip: padding-box;
+    }
+    
+   
+  }
+  /*............................................
+  	sidebox
+  ..............................................*/
+  .sidebox {
+  	background: rgb(0,0,0); /*IE 8*/
+  	background: rgba(0, 0, 0, 0.5);
+  	width: 50%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    border-right: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
+  
+  
+  @media screen and (max-width: 884px){
+    .sidebox {
+      width: 100%;
+      position: fixed;
+      top: 37%;
+      bottom: 0;
+      z-index: 1;
+      border-top: 1px solid rgb(255, 255, 255);
+    	border-top: 1px solid rgba(255, 255, 255, 0.2);
+    	-webkit-background-clip: padding-box;
+    	background-clip: padding-box;
+    }
+    
+  }
+    
+  @media screen and (max-width: 500px){
+    .sidebox {
+     	display: none;
+    }
+  
+  }
+  
+  /*............................................
+  	feature
+  ..............................................*/
+  .feature {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 996;
+  }
+  
+  .feature iframe, .feature object, .feature embed {
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    z-index: 997;
+    margin-top: 50px;
+    /*z-index: 9998;*/
+  }
+  
+  .feature .close-btn {
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    background: #000;
+    font-size: 28px;
+    display: inline-block; 
+    position: absolute;
+    text-align: center;
+    z-index: 998;
+    width: 40px;
+    opacity: 0.5;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .slides-normal {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    z-index:0;
+  }
+  
+  .static-image {
+  	display: none;
+  }
+  
+  .sub-page .slides-normal, .sub-page .feature {
+    display: none;
+  }
+  
+  @media screen and (max-width: 884px){ 
+  	.slides-normal {
+      height: 37%; 
+    }
+    
+    .static-image {
+  		display: block;
+      height: 63%;
+      width: 100%;
+      position: absolute;
+      top: 37%;
+      z-index: 0;
+      background-image:url(https://dr56wvhu2c8zo.cloudfront.net/augusta/assets/8c0054bf-e095-45fd-ad14-fce1a178bba9/vhx3.jpg);
+  	}
+    
+    .sub-page .slides-normal, .sub-page .feature, .sub-page .static-image {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 500px){ 
+    .static-image {
+  		display: none;
+  	}
+  
+  }
+  
+  /*............................................
+  	right section, buy button, watch button, etc
+  ..............................................*/
+  .right-area {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .triangle-up {
+    position: relative;
+    z-index:7;
+  	width: 0;
+  	height: 0;
+  	border-left: 150px solid transparent;
+  	border-right: 150px solid transparent;
+  	border-bottom: 150px solid #000000;
+    opacity: 0.6;
+  }
+  
+  .triangle-up.active {
+  	border-bottom: 150px solid #FFFFFF;
+  }
+  
+  .triangle-down {
+    position: relative;
+    z-index:7;
+  	width: 0;
+  	height: 0;
+  	border-left: 150px solid transparent;
+  	border-right: 150px solid transparent;
+  	border-top: 150px solid #000000;
+    top: -33px;
+    opacity: 0.6;
+  }
+  
+  .triangle-down.active {
+  	border-top: 150px solid #FFFFFF;
+  }
+  
+  .circle-up {
+    position: relative;
+    z-index:7;
+  	height:150px;
+    width:300px;
+    border-radius: 300px 300px 0 0;
+    -moz-border-radius: 300px 300px 0 0;
+    -webkit-border-radius: 300px 300px 0 0;
+    background-color: #000000;
+    opacity: 0.6;
+  }
+  
+  .circle-up.active {
+  	background-color: #FFFFFF;
+  }
+  
+  .circle-down {
+    position: relative;
+    z-index:7;
+  	height:150px;
+    width:300px;
+    border-radius: 0 0 300px 300px;
+    -moz-border-radius: 0 0 300px 300px;
+    -webkit-border-radius: 0 0 300px 300px;
+    background-color: #000000;
+    top: -33px;
+    opacity: 0.6;
+  }
+  
+  .circle-down.active {
+  	background-color: #FFFFFF;
+  }
+  
+  .right-area .hr {
+  	width: 300px;
+    position: relative;
+    z-index:7;
+    top: -16px;
+    opacity: 0.7;
+  }
+  
+  .sub-page .right-area {
+      display: none;
+  }
+  
+  @media screen and (max-width: 884px){
+    .triangle-up {
+      border-left: 130px solid transparent;
+      border-right: 130px solid transparent;
+      border-bottom: 130px solid #000000;
+    }
+    
+    .triangle-up.active {
+  		border-bottom: 130px solid #FFFFFF;
+  	}
+    
+    .triangle-down { 
+      border-left: 130px solid transparent;
+      border-right: 130px solid transparent;
+      border-top: 130px solid #000000;
+      top: -33px;
+      opacity: 0.6;
+    }
+    
+    .triangle-down.active {
+      border-top: 130px solid #FFFFFF;
+    }
+    
+    .circle-up {
+      position: relative;
+      z-index:7;
+      height:130px;
+      width:260px;
+      border-radius: 260px 260px 0 0;
+      -moz-border-radius: 260px 260px 0 0;
+      -webkit-border-radius: 260px 260px 0 0;
+      background-color: #000000;
+      opacity: 0.6;
+    }
+    
+    .circle-down {
+      position: relative;
+      z-index:7;
+      height:130px;
+      width:260px;
+      border-radius: 0 0 260px 260px;
+      -moz-border-radius: 0 0 260px 260px;
+      -webkit-border-radius: 0 0 260px 260px;
+      background-color: #000000;
+      top: -33px;
+      opacity: 0.6;
+    }
+    
+    .right-area .hr {
+      width: 260px;
+      top: -16px;
+    }
+   
+  }
+  
+  @media screen and (max-width: 500px){
+  	.triangle-up {
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 50px solid #000000;
+    }
+    
+    .triangle-down { 
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 50px solid #000000;
+      top: 0px;
+      opacity: 0.6;
+    }
+    
+    .circle-up {
+      height:50px;
+      width:100px;
+      border-radius: 100px 100px 0 0;
+      -moz-border-radius: 100px 100px 0 0;
+      -webkit-border-radius: 100px 100px 0 0;
+    }
+    
+    .circle-down {
+      height:50px;
+      width:100px;
+      border-radius: 0 0 100px 100px;
+      -moz-border-radius: 0 0 100px 100px;
+      -webkit-border-radius: 0 0 100px 100px;
+      top: 0px;
+    }
+    
+    .right-area .hr {
+      display: none;
+    }
+    
+    .right-area {
+      width: 100%;
+      margin: 0 auto;
+    }
+   
+  }
+  
+  /*............................................
+  	controls
+  ..............................................*/
+  .controls {
+  	position: absolute;
+    z-index:8;
+    top: 52px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .controls .container {
+  	margin: 0 auto;
+    text-align: center;
+  }
+  
+  .controls .trailer {
+    color: #ffffff;
+  }
+  
+  .controls .container a{
+    text-decoration: none;
+  }
+  
+  .controls .trailer .circle-text {
+    padding-top: 0px;
+    padding-bottom: 35px;
+    display: block;
+  }
+  
+  .controls .trailer .triangle-text {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    display: block;
+  }
+  
+  .controls .buy .circle-text, .controls .trailer .circle-text {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 2.5px; 
+    text-transform: uppercase;
+    font-size: 20px;
+    /*font-weight: 500;*/
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.6;
+  }
+  
+  .controls .buy .triangle-text, .controls .trailer .triangle-text {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 2.5px; 
+    text-transform: uppercase;
+    font-size: 16px;
+    /*font-weight: 500;*/
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.6;
+  }
+  
+  .controls .trailer .circle-text.active, .controls .buy .circle-text.active, .controls .trailer .triangle-text.active, .controls .buy .triangle-text.active, .controls .buy .price-circle.active, .controls .buy .price-triangle.active {
+    color: #000000;
+  }
+  
+  .controls .trailer .play-btn-circle {
+  	width: 0;
+  	height: 0;
+  	border-top: 25px solid transparent;
+  	border-left: 35px solid #FFFFFF;
+  	border-bottom: 25px solid transparent;
+    position: relative;
+    left: 140px;
+    margin-bottom: 20px;
+    margin-top: -15px;
+  }
+  
+  .controls .trailer .play-btn-triangle {
+  	width: 0;
+  	height: 0;
+  	border-top: 20px solid transparent;
+  	border-left: 30px solid #FFFFFF;
+  	border-bottom: 20px solid transparent;
+    position: relative;
+    left: 140px;
+    top: 5px;
+  }
+  
+  .controls .trailer .play-btn-circle.active {
+  	border-left: 35px solid #000000;
+  }
+  
+  .controls .trailer .play-btn-triangle.active {
+  	border-left: 30px solid #000000;
+  }
+  
+  .controls .trailer i,
+  .controls .buy i{
+    font-size: 49px;
+  }
+  .controls .buy .icon-stop {
+  	font-size: 25px;
+  }
+  
+  .controls .buy {
+    color: #ffffff;
+  }
+  
+  .controls .buy .price-triangle {
+    font-size: 30px;
+    display: block;
+    font-family: "Helvetica", sans-serif;
+    opacity: 1;
+    letter-spacing: 1px;
+  }
+  
+  .controls .buy .price-circle {
+    font-size: 37px;
+    display: block;
+    font-family: "Helvetica", sans-serif;
+    opacity: 1;
+    letter-spacing: 1px;
+  }
+  
+  .controls .buy .play-btn-triangle {
+  	width: 0;
+  	height: 0;
+  	border-top: 20px solid transparent;
+  	border-left: 30px solid #FFFFFF;
+  	border-bottom: 20px solid transparent;
+    position: relative;
+    left: 140px;
+    margin-top: 12px;
+  }
+  
+  .controls .buy .play-btn-triangle.active {
+  	border-left: 30px solid #000000;
+  }
+  
+  .controls .buy .play-btn-circle {
+  	width: 0;
+  	height: 0;
+  	border-top: 25px solid transparent;
+  	border-left: 35px solid #FFFFFF;
+  	border-bottom: 25px solid transparent;
+    position: relative;
+    left: 140px;
+    margin-top: 12px;
+  }
+  
+  .controls .buy .play-btn-circle.active {
+  	border-left: 35px solid #000000;
+  }
+  
+  .controls .buy .geoblocked {
+  	font-family: "Helvetica", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: none;
+    color: #ffffff;
+    width: 250px;
+    text-align: center;
+    margin-left: 25px;
+  }
+   
+  @media screen and (max-width: 884px){
+   .controls {
+      top: 52px;
+      width: 260px;
+    }
+    
+    .controls .buy, .controls .trailer {
+      letter-spacing: 2px; 
+      font-size: 14px;
+    }
+  
+    .controls .trailer .circle-text {
+      padding-top: 0px;
+      padding-bottom: 19px;
+    }
+    
+    .controls .trailer .triangle-text {
+      padding-top: 15px;
+      padding-bottom: 30px;
+    }
+    
+    .controls .buy .price-triangle {
+      font-size: 26px;
+      letter-spacing: 0px;
+    }
+    
+    .controls .trailer .play-btn-triangle {
+      border-top: 15px solid transparent;
+      border-left: 25px solid #FFFFFF;
+      border-bottom: 15px solid transparent;
+      left: 122px;
+      top: 0px;
+    }
+    
+    .controls .trailer .play-btn-triangle.active {
+      border-left: 25px solid #000000;
+    }
+    
+    .controls .trailer .play-btn-circle {
+      border-top: 20px solid transparent;
+      border-left: 30px solid #FFFFFF;
+      border-bottom: 20px solid transparent;
+      left: 122px;
+      top: 0px;
+    }
+    
+    .controls .trailer .play-btn-circle.active {
+      border-left: 30px solid #000000;
+    }
+    
+    .controls .buy .play-btn-triangle {
+      border-top: 15px solid transparent;
+      border-left: 25px solid #FFFFFF;
+      border-bottom: 15px solid transparent;
+      left: 122px;
+    }
+    
+    .controls .buy .play-btn-triangle.active {
+      border-left: 25px solid #000000;
+    }
+    
+    .controls .buy .play-btn-circle {
+      border-top: 20px solid transparent;
+      border-left: 30px solid #FFFFFF;
+      border-bottom: 20px solid transparent;
+      left: 122px;
+    }
+    
+    .controls .buy .play-btn-circle.active {
+      border-left: 30px solid #000000;
+    }
+    
+    .controls .buy .geoblocked {
+      width: 150px;
+      margin-left: 55px;
+    }
+  }
+  
+  @media screen and (max-width: 500px){
+    .controls .trailer .circle-text, .controls .trailer .triangle-text {
+      display: none;
+    }
+    
+    .controls .buy {
+    	display: none;
+     }
+     
+     .controls .trailer .play-btn-circle {
+      left: 42px;
+      top: -18px;
+      margin: 0;
+      padding: 0;
+      margin-top: -5px;
+    }
+    
+    .controls .trailer .play-btn-triangle {
+      left: 42px;
+      top: -18px;
+    }
+    
+    .controls .buy .geoblocked {
+      display: none;
+    }
+  }
+   
+   /*............................................
+  	newsletter
+  ..............................................*/
+  .newsletter form {
+    margin-top: 3px;
+    padding-top: 3px;
+    border: 2px solid rgb(250, 250, 250);
+    border: 2px solid rgba(250,250,250,0.5);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 146px;
+    height: 21px;
+  }
+  .newsletter {
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .newsletter label {
+  	font-size: 12px;
+    text-align: left;
+  }
+  
+  .newsletter input.required {
+    font-family: "Helvetica", sans-serif;
+  	margin: 0;
+    color: #ffffff;
+    background-color: transparent;
+    opacity: 1;
+    width: 100px;
+    height: 21px;
+    border: none;
+    opacity: 0.7;
+    margin-left: 3px;
+    font-size: 13px;
+  }
+  
+  .newsletter ::-webkit-input-placeholder {
+  	color: #ffffff;
+  }
+  .newsletter :-moz-placeholder {
+  	color: #ffffff;
+  }
+  .newsletter ::-moz-placeholder {
+  	color: #ffffff;
+  }
+  .newsletter :-ms-input-placeholder {
+  	color: #ffffff;
+  }
+  
+  .newsletter input:focus {
+      outline: none;
+  }
+  
+  .newsletter input[type="submit"] {
+    border: none;
+    position: absolute;
+    margin-top: -2px;
+  	left: 125px;
+    height: 21px;
+    width: 21px;
+    background: url('https://dr56wvhu2c8zo.cloudfront.net/theginbin/assets/7ecb15ab-832b-4ffa-8563-595a960ca9d6/submit-arrow.png');
+  	opacity: 1;
+  }
+  
+  .newsletter input[type="submit"]:hover {
+    opacity: 0.5;
+  }
+   
+  @media screen and (max-width: 500px){
+    .newsletter input[type="submit"] {
+    	
+     }
+  }
+  
+  /*............................................
+  	about
+  ..............................................*/
+  .about {
+  	color: #ffffff;
+    min-height: 260px;
+  }
+  
+  .about h2 {
+  	text-align: center;
+    line-height: 1;
+  }
+  
+  .about p {
+  	opacity: .8;
+  }
+  
+  .about .text {
+  	width: 400px;
+    margin-top: 15px;
+    line-height: 1.57;
+    text-align: justify;
+  }
+  .about a:link,
+  .about a:visited {
+  	color: #000000;
+  }
+  .about a:hover,
+  .about a:active {
+  	opacity: .7;
+  }
+  
+  /*............................................
+  	tumblr, twitter, etc
+  ..............................................*/
+  #main {
+    
+  }
+  
+  .news {
+    color: #ffffff;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    padding-left: 43px;
+    width: 40%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .news .content {
+  	width: 90%;
+    margin: 0px;
+  }
+  
+  .news .text {
+  	opacity: .8;
+  }
+  
+  .news .content h2 {
+  	text-align: center;
+    line-height: 1;
+  }
+  .news .page {
+  	position: relative;
+    top: 0;
+  }
+  
+  /* DIRECTOR */
+  .news .director {
+  	display: none;
+  }
+  
+  /* TWITTER */
+  .news .twitter {
+  	display: none;
+  }
+  .news .tweets li {
+  	margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    /*border-bottom: 1px solid ;*/
+  }
+  .news .tweets li:last-child {
+  	border-bottom: none;
+  }
+  .news .tweets li .post {
+  	width: 80%;
+    margin: 0 auto;
+    text-transform: none;
+  }
+  .news .tweets li .avatar {
+  	-webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  .news .tweets li .text {
+  	text-align: left;
+    margin-left: 60px;
+    min-height: 50px;
+    line-height: 1.3;
+  }
+  .news .tweets li .meta a {
+  	text-decoration: none;
+    font-size: 11px;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1.7px;
+    opacity: 0.6;
+    text-transform: uppercase;
+  }
+  
+  .news .tweets li a {
+  }
+  /* BLOG */
+  .news .blog {
+  	text-align: center;
+    display: none;
+  }
+  .news .blog .entry {
+  	margin-bottom: 20px;
+    padding-bottom: 30px;
+    text-align: left;
+  }
+  .news .blog .entry .timestamp a {
+  	text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1.7px;
+    opacity: 0.6;
+    padding-bottom: 10px;
+   /* border-bottom: 1px solid #FFFFFF;*/
+  }
+  .news .blog .entry p {
+  	text-align: left;
+    opacity: .8;
+  }
+  .news .blog .photo img {
+  	width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .news .blog .link h2 a {
+  	text-decoration: none;
+  }
+  .news .blog .video .thevideo {
+  	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 */
+  	padding-top: 0px;
+  	height: 0;
+  }
+  .news .blog .video .thevideo iframe,
+  .news .blog .video .thevideo object,
+  .news .blog .video .thevideo embed {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  }
+  .news .blog .readmore {
+  	display: inline-block;
+    margin: 0 auto;
+    padding: 10px 12px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration:none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  .news .blog .readmore:hover {
+  	
+  }
+  .credits ul {
+    text-transform: uppercase;
+    line-height: 28px;
+    margin-top: 15px;
+  }
+  
+  .credits ul span {
+  	display: inline-block;
+    width: 290px;
+    text-align: right;
+    padding-right: 20px;
+    opacity:0.7;
+  	filter:alpha(opacity=70);
+    text-transform: none;
+  }
+  
+  .credits h2 {
+  	margin-top: 30px;
+  }
+  
+  .sub-page .news {
+  	display: none;
+    overflow: hidden;
+  }
+  
+  @media screen and (max-width: 1024px){
+    .news {
+      left: 0;
+      padding-left: 40px;
+      width: 45%;
+    }
+  
+  	.news .content {
+  		width: 90%;
+  	}
+    
+    .sub-page .news {
+      display: none;
+      overflow: hidden;
+    }
+  }
+  
+  @media screen and (max-width: 884px){
+    .news {
+      left: 0;
+      padding-left: 40px;
+      width: 94%;
+      overflow-x: hidden;
+    	overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  
+  	.news .content {
+  		width: 95%;
+  	}
+    
+    .sub-page .news {
+      display: none;
+      overflow: hidden;
+    }
+  }
+  
+  @media screen and (max-width: 500px){
+  	.news {
+      left: 0;
+      padding-left: 20px;
+      width: 94%;
+    	overflow-y: hidden;
+      overflow-x: hidden;
+    }
+  
+  }
+  
+  /*............................................
+  	multiple packages
+  ..............................................*/
+  .packages {
+  	margin-top: 0px;
+    width: 100%;
+    line-height: 1.2;
+    padding-bottom: 30px;
+  }
+  
+  .packages .item {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  
+  .packages .package-image {
+  
+  }
+  
+  .packages .package-text {
+    position: relative;
+    left: 235px;
+    margin-top: -130px;
+    display: inline-block;
+    vertical-align: top;
+    width: 55%;
+  }
+  
+  .packages .title {
+  	opacity: 1;
+    text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+   
+  .packages .title a {
+  	text-decoration: none;
+  }
+  
+  .packages .desc {
+    text-align: left;
+    font-size: 14px;
+    opacity: 0.8;
+    line-height: 1.4;
+    display: block;
+    padding-top: 6px;
+    margin-bottom: -32px;
+  }
+  
+  .packages .price-area {
+    width: 222px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: center;
+    position: relative;
+    top: 178px;
+    background: rgb(255, 255, 255) transparent;
+  	background: rgba(255, 255, 255, 0.3);
+  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4CFFFFFF, endColorstr=#4CFFFFFF)";
+  }
+  
+  .packages .price-area .price-text {
+  	text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+  
+  .packages .price-area .price {
+  	text-transform: uppercase;
+    opacity: 1;
+    font-family: "Helvetica", sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-left: 6px;
+  }
+  
+  .packages .price-area a {
+  	text-decoration: none;
+  }
+  
+  .packages .package-image img {
+  	width: 220px;
+    height: 124px;
+    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, .5);
+    -webkit-background-clip: padding-box; 
+    background-clip: padding-box;
+  }
+  
+  @media screen and (max-width: 1024px){
+  
+  	.packages .package-image img {
+      width: 180px;
+  	}
+    
+    .packages .package-text {
+    	left: 195px;
+    	width: 55%;
+  	}
+    
+    .packages .price-area {
+      width: 182px;
+      height: 25px;
+      top: 172px;
+    }
+    
+    .packages .price-area .price-text {
+      font-size: 12px;
+      letter-spacing: 1.5px;
+    }
+    
+    .packages .price-area .price {
+      font-size: 16px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 884px){
+  	.packages .package-text {
+    	width: 65%;
+  	}
+  }
+  
+  @media screen and (max-width: 500px){
+    .packages .package-image img {
+      height: 200px;
+      width: 100%;
+  	}
+    
+    .packages .item {
+      padding-bottom: 95px;
+      width: 100%;
+    }
+    
+    .packages .package-text {
+      position: relative;
+      top: 64px;
+      left: 0px;
+      width: 100%;
+      text-align: left;
+      display: inline;
+    }
+    
+    .packages .price-area {
+      width: 100%;
+      height: 25px;
+      top: 255px;
+      padding: 10px 0px 5px 0px;
+    }
+    
+    .packages .price-area .price-text {
+      font-size: 15px;
+    }
+    
+    .packages .price-area .price {
+      font-size: 19px;
+      letter-spacing: 1px;
+      padding-left: 10px;
+    }
+  }
+  
+  /*............................................
+  	footer
+  ..............................................*/
+  footer {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: fixed;
+    left: 40px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    z-index: 5;
+  }
+  
+  footer .hr {
+  	padding-bottom: 10px;
+  	opacity: .5;
+  	height: 1px;
+    padding-right: 80px;
+  }
+  
+  footer a:link,
+  footer a:visited {
+  	color: #ffffff;
+    text-decoration: none;
+    transition: 0.2s ease;
+  	-moz-transition: 0.2s ease;
+  	-webkit-transition: 0.2s ease;
+  	-o-transition: 0.2s ease;
+  }
+  
+  footer .left-area {
+  	width: 50%;
+  }
+  
+  footer .vhx-logo {
+    opacity: 0.8;
+  	filter: alpha(opacity=80);
+    float:right;
+    padding-right: 80px;
+    margin-top: -41px;
+  }
+  
+  footer .vhx-logo:hover {
+    opacity:1;
+  	filter:alpha(opacity=100);
+  }
+  
+  footer h2 {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.05em; 
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 1;
+  }
+  
+  footer .menu {
+  	padding-top: 10px;
+  }
+  
+  footer ul {
+  	float: left;
+    padding-right: 20px;
+  }
+  
+  footer li {
+  	float:left;
+    margin-right: 15px;
+  }
+  
+  footer .social {
+    float: right;
+    position: absolute;
+    right: 40px;
+    bottom: 25px;
+  }
+  
+  footer .social .email {
+    text-align: right;
+  }
+  
+  footer .social li {
+  	float: right;
+    margin-top: 10px;
+  }
+  
+  footer .social li.twitter {
+  	width: 85px;
+  }
+  
+  footer .social li.email a {
+  	display: block;
+  	max-width: 200px;
+  }
+  
+  footer .social li.email a i {
+  	color: #000;
+  }
+  
+  footer .social li.email a:hover {
+  	opacity: 1;
+  }
+  
+  footer .social li.email a:hover i {
+  }
+  
+  footer .socialgroup {
+  	
+  }
+  
+  
+  @media screen and (max-width: 884px){
+    footer {
+    	position: fixed;
+    }
+  	footer .left-area {
+  		width: 100%;
+  	}
+    
+    footer .social{
+      bottom: 5px;
+      right: 48px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 600px){
+    footer .social {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 500px){
+    footer {
+      position: absolute;
+      left: 10px;
+      padding-bottom: 10px;
+    }
+    
+    footer .vhx-logo {
+      float:right;
+      padding-right: 20px;
+      margin-top: -41px;
+    }
+    
+    footer .hr {
+      padding-right: 20px;
+    }
+    
+    footer .menu {
+      padding-top: 15px;
+    }
+    
+   
+    
+  }
+  
+  @media screen and (max-width: 320px){
+  	footer {
+    	position: absolute;
+    }
+    
+  	footer .menu {
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 20px;
+    } 
+    
+    footer {
+    	padding-bottom: 15px;
+    }
+    
+   
+  }
+   
+  
+  /*............................................
+  	utilties
+  ..............................................*/
+  .group:after {
+  	content: ".";
+  	display: block;
+  	height: 0;
+  	clear: both;
+  	visibility: hidden;
+   }
+  </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      var _gaq = _gaq || [];
+  
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+        ga('create', 'UA-19540423-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'augusta');
+      ga('send', 'pageview');
+  
+      var Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_SENT_FREE_COPIES":"admin_sent_free_copies","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_SIGNUP_COMPLETE":"authentication","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_LOADEDDATA":"Video Content Loaded","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_FULLSCREEN":"Fullscreen Enabled/ Disabled","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD_TRIGGER":"addwatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE_TRIGGER":"removewatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List ","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_CURRENT_USER_ID":"current_user_id","PROPERTY_CURRENT_USER_EMAIL":"current_user_email","PROPERTY_CURRENT_SITE_ID":"current_site_id","PROPERTY_CURRENT_SITE_KEY":"current_site_key","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+        SITE_GANALYTICS_ENABLED: false
+      };
+  
+        Tracking.SITE_GANALYTICS_ENABLED = true;
+          ga('create', '', 'auto', { 'name': 'site' });
+  
+        ga('site.require', 'displayfeatures');
+        ga('site.set', 'dimension1', 'augusta');
+        ga('site.send', 'pageview');
+  
+        var _vhx = {
+          environment: 'production',
+          site: { id: '5476', domain: 'augusta.vhx.tv', host: 'augusta.vhx.tv' },
+          geo:  { country: 'us' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      var _current_user = {"id":null,"email":null,"name":null},
+          _current_site = {"id":5476,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"augusta"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <link href='http://fonts.googleapis.com/css?family=Orbitron:500,400' rel='stylesheet' type='text/css'>
+<header>
+	<h1 class="title">Hope for Augusta</h1>
+  <div class="buy">
+				<a href="/buy" class="buy" title="Buy Now">
+    <span>
+			 
+        <span class="action">Pre-order </span>
+          <div class="triangle-up"></div>
+          <div class="triangle-down"></div>
+          <div class="price">$10</div>
+        	
+        <span class="action">Now</span>
+   </span>
+   </a>
+  </div>
+ 	<div class="hr"><hr /></div>
+  <nav>
+  	<ul class="toggle">
+  		<li><a href="#" rel="about" class="on">Video Information</a></li>
+    	<li><a href="#" rel="director" class="off">About Hope for Augusta</a></li>
+    	
+    	
+    </ul>
+  </nav>
+</header>
+<div class="subpagebg"></div>
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <div class="slides-normal" data-slideshow>
+         <img src="https://dr56wvhu2c8zo.cloudfront.net/augusta/assets/c6e3975b-58f8-4420-a28b-2c61c16ee6d9/vhx1a.jpg">
+         <img src="https://dr56wvhu2c8zo.cloudfront.net/augusta/assets/b94bfc00-9805-4691-bf92-49a1a5530759/vhx5.jpg">
+         <img src="https://dr56wvhu2c8zo.cloudfront.net/augusta/assets/52e65e1c-d80b-46c7-baf3-a7b7137f23f9/vhx3.jpg">
+         <img src="https://dr56wvhu2c8zo.cloudfront.net/augusta/assets/0d37196a-8e62-446e-8c13-d6d85666f01f/vhx2.jpg">
+         <img src="https://dr56wvhu2c8zo.cloudfront.net/augusta/assets/a8fcf4a9-8d0b-4adb-8066-95c813c5d820/vhx6.jpg">
+         <img src="https://dr56wvhu2c8zo.cloudfront.net/augusta/assets/aac4244d-a866-4348-8a85-d3f165265329/vhx4.jpg">
+         <img src="https://dr56wvhu2c8zo.cloudfront.net/augusta/assets/1c87d728-e7c7-4996-b262-2957ea71fc21/vhx7.jpg">
+    </div>
+    <div class="static-image"></div>
+    <div class="sidebox"></div>
+    <section class="news">
+        <ul class="content credits" id="content">
+          <li class="page" rel="about">
+           <div class="text">Below are the videos available for purchase/pre-order</div>
+           <div class="packages">
+                  <div class="item">
+                  	<div class="price-area"><a href="/buy/all-videos"><span class="price-text">Pre-order </span><span class="price">$10</span></a></div>
+                    <div class="package-image"><a href="/buy/all-videos"><img class="img" src="https://cdn.vhx.tv/assets/thumbnails/default-large.png" /></a></div>
+                    <div class="package-text"><span class="title"><a href="/buy/all-videos">All Videos</a></span><span class="desc">All proceeds directly benefit Hope for Augusta.</span></div>
+                  </div>
+                  <div class="item">
+                  	<div class="price-area"><a href="/buy/mope-for-augusta-documentary"><span class="price-text">Pre-order </span><span class="price">$5</span></a></div>
+                    <div class="package-image"><a href="/buy/mope-for-augusta-documentary"><img class="img" src="https://cdn.vhx.tv/assets/thumbnails/default-large.png" /></a></div>
+                    <div class="package-text"><span class="title"><a href="/buy/mope-for-augusta-documentary">Hope for Augusta Documentary</a></span><span class="desc">All proceeds directly benefit Hope for Augusta.</span></div>
+                  </div>
+          </div>
+          </li> <!-- .page -->
+          <li class="page director" rel="director">
+           <div class="text">Hope for Augusta began three years ago when a few pioneers from First Presbyterian church bought old homes and moved into the inner city of Augusta, GA.  Their focus was two-fold: to restore people and rebuild places. They longed to see the community redeemed from within. The pioneers sought to be Christ-centered, gospel-driven and Spirit-filled as they lived in the community.  As they developed relationships within the neighborhood they began to understand the challenges and assets of the community.  What started as a community dinner morphed into a community Bible study for urban kids.  The kids Bible study has become a funnel for us get to know parents and to offer deeper assistance in tutoring, mentoring and discipleship.  From there they began to partner with other like minded organizations to offer Hope for Augusta!</div>
+          </li> <!-- .page -->
+          <li class="page twitter" rel="tweetstream" data-twitter-handle="">
+    			</li> <!-- .twitter-handle -->
+    
+          <li class="page blog" rel="updates">
+          </li>
+      	</ul> <!-- #content -->
+    </section>
+      <!--<section class="pics">
+      </section>-->
+    <div class="right-area">
+    	<section class="controls">
+      	<div class="container group">
+          <a href="#trailer" class="trailer" title="Play Trailer">
+            <div class="play-btn-triangle"></div>
+            <span class="triangle-text">Play Trailer</span>
+          </a>
+            <a href="/buy" class="buy" title="Buy Now">
+              
+            <span>
+                    <span class="action triangle-text">Pre-order</span>
+                    <span class="price-triangle">$10</span>
+              
+    				</span>
+          </a>
+        </div>
+    	</section>
+      <div class="triangle-up"></div>
+      <div class="hr"><hr /></div>
+      <div class="triangle-down"></div>
+    </div>
+    <section class="feature">
+        <div id="trailer" data-trailer-url=""></div>
+        <div class="close-btn">X</div>
+    </section>    <div class="clear"></div>
+  </section>
+
+  <section>
+    <footer>
+  <div class="left-area">
+  	<div class="hr"><hr /></div>
+    <div class="newsletter" data-contact-form>
+      <label>Join the newsletter!</label>
+    </div>
+    <a class="vhx-logo" href="http://vhx.tv" title="Powered by VHX" target="_blank">
+      <img src="https://dr56wvhu2c8zo.cloudfront.net/theginbin/assets/d4f3ac7d-cfee-4f9c-ae6c-3e64a938b835/vhx-logo-smaller.png" alt="Powered by VHX">
+    </a>
+    <ul class="menu">
+      <li><a href="/">Home</a></li>
+      <li><a href="/faq">FAQ</a></li>
+      <li><a href="/privacy">Privacy Policy</a></li>
+      <li><a href="/tos">Terms of Use</a></li>
+    </ul>
+  </div>
+	<div>
+  </div>
+</footer>
+    <div class="clear"></div>
+  </section>
+
+  <script>
+    var _site = {
+      color:        '#CC0018',
+      key:          'augusta',
+      facebook_url: 'https://www.facebook.com/pages/Hope-for-Augusta/145409995529956',
+      twitter_name: ''
+    };
+  
+    var _config = {
+      country_code: 'us'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  
+<script>
+  var _flash = {
+    alert:  "",
+    notice: ""
+  };
+
+  
+      $(document).ready(function() {
+        $("nav .toggle a").click(function(e){
+  	e.preventDefault();
+    
+  	$("nav .toggle a").removeClass("on").addClass("off");
+    $(this).addClass("on");
+    
+    var rel = $(this).attr("rel");
+    var $targ = $("#content .page[rel='"+rel+"']");
+    
+    $targ.show();
+    $("#content .page").not("[rel='"+rel+"']").hide();
+    $('.news').scrollTop(0);
+    $(window).resize();
+  });
+  
+  if ($("#blog").length > 0){
+  	getTumblog($("#blog").data("tumblr"),"#blog");
+  }
+  
+  //----------------------
+  // ------------------------------------------------------------------------
+  // RETRIEVES TUMBLR DATA
+  function getTumblog(username, target){
+  	
+  	var tumblrkey = "mhg6b9xFS5pGZr9inve9sSsa0Zl2zy4ojb3K7Ta3aWswFqqSU8";
+    var tumblruser = username + ".tumblr.com";
+    var endpoint = "http://api.tumblr.com/v2/blog/" + tumblruser + "/posts/";
+    var data = {
+        api_key: tumblrkey
+      };
+      
+    setTimeout(function() {
+    
+        $.ajax({
+          type: "GET",
+          url: endpoint,
+          dataType: "jsonp",
+          data: data
+        })
+        .done(function(returnData) {
+  			 	processTumblog(returnData, username, target);
+  			});
+        
+      }, 500);
+  }
+  // ------------------------------------------------------------------------
+  // PARSES TUMBLR DATA INTO ARRAY
+  function processTumblog(data, username, target){
+  	var limit = $("#blog").data("tumblr-limit");
+    var usernamesafe = username.replace(/-/g,'');
+  	var html = '<div class="rssBody" id="tumblr_'+usernamesafe+'"><ul id="blog-entries"></ul></div>';
+    $(target).html(html);
+    
+    if (data.meta.status == 200) {
+        var feed = {
+          url: 'http://' + username + '.tumblr.com',
+          posts: []
+        };
+  
+        $(data.response.posts).each(function(i, post) {
+  
+          switch (post.type){
+            case "text":
+              feed.posts.push({
+                text: {
+                  title: post.title,
+                  body: post.body
+                }
+              });
+              break;
+  
+            case "photo":
+              var photos = [];
+              $(post.photos).each(function(i, obj){
+                photos.push({
+                  photo_url: obj.alt_sizes[1].url // 500px wide
+                })
+              });
+  
+              feed.posts.push({
+                photo: {
+                  caption: post.caption,
+                  photos: photos
+                }
+              });
+              break;
+  
+            case "quote":
+              feed.posts.push({
+                quote: {
+                  type: post.type,
+                  tags: post.tags,
+                  text: post.text,
+                  source: post.source
+                }
+              });
+              break;
+  
+            case "link":
+              feed.posts.push({
+                link: {
+                  linkURL: post.url,
+                  title: post.title,
+                  description: post.description
+                }
+              });
+              break;
+  
+            case "chat":
+              var chat_log = post.body.split("\n");
+              feed.posts.push({
+                chat: {
+                  title: post.title,
+                  body: post.body,
+                  chat: chat_log,
+                  dialogue: post.dialogue
+                }
+              });
+              break;
+  
+            case "audio":
+              feed.posts.push({
+                audio: {
+                  source_title: post.source_title,
+                  source_url: post.source_url,
+                  id3_title: post.id3_title,
+                  caption: post.caption,
+                  audio_player: post.player,
+                  audio_plays: post.plays,
+                  artist: post.artist,
+                  album: post.album,
+                  track_name: post.track_name,
+                  track_num: post.track_num,
+                  year: post.year
+                }
+              });
+              break;
+  
+            case "video":
+              feed.posts.push({
+                video: {
+                  source_title: post.source_title,
+                  caption: post.caption,
+                  video_embed: post.player[2].embed_code
+                }
+              });
+              break;
+  
+            case "answer":
+              feed.posts.push({
+                answer: {
+                  asking_name: post.asking_name,
+                  asking_url: post.asking_url,
+                  question: post.question,
+                  answer: post.answer
+                }
+              });
+              break;
+  					
+  
+            default:
+              feed.posts.push({
+                title: post.title,
+                body: post.body
+              });
+          } // end switch
+  			       
+          feed.posts[feed.posts.length - 1].date = post.date.substr(0,10);
+          feed.posts[feed.posts.length - 1].tags = post.tags;
+          feed.posts[feed.posts.length - 1].timestamp = post.timestamp;
+          feed.posts[feed.posts.length - 1].url = post.post_url;
+          feed.posts[feed.posts.length - 1].type = post.type;
+        }); // end each
+        
+        // make sure we don't display too many
+        if (feed.posts.length > limit){
+        	feed.posts = feed.posts.slice(0,limit);
+        }
+        // make the output
+        createTumblrHTML(feed, username);
+       
+  	} // end if
+  } // end function
+  // ------------------------------------------------------------------------
+  // PARSES ARRAY OUT INTO STANDARD HTML
+  function createTumblrHTML(data, username){
+  	var thehtml ="";
+    
+    $(data.posts).each(function(i, post) {
+      
+      switch (post.type){
+      	case "text":
+        	 thehtml +='<div class="entry text">';
+           thehtml +='   <h2><a href="'+post.url+'">'+post.text.title+'</a></h2>';
+           thehtml +=			post.text.body;
+           thehtml +='   <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+           thehtml +=' </div>';
+        	break;
+      
+        case "photo":
+         	 
+           thehtml +='<div class="entry photo">';
+           thehtml += '   <div class="photos">';
+  				 $(post.photo.photos).each(function(j, thephoto){
+           	thehtml += ' <img src="'+thephoto.photo_url+'" />';
+           });
+           thehtml += '  </div>';
+           thehtml += 	 post.photo.caption;
+           thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+           thehtml += '</div>';
+          break;
+        
+        
+   			case "quote":
+        	 thehtml +='<div class="entry quote">';
+           thehtml +='   <h2>'+post.quote.text+'</h2>';
+           thehtml +='   <p class="source">'+post.quote.source+'</p>';
+           thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+           thehtml +=' </div>';
+        	break;
+          
+        case "link":
+        	thehtml +='<div class="entry link">';
+          thehtml +='    <h2><a href="'+post.link.linkURL+'">'+post.link.title+'</a></h2>';
+          thehtml +=		post.link.description;
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+          thehtml +='</div>';
+        	break;
+        
+        case "chat":
+        	thehtml +=' <div class="entry chat">';
+          thehtml +='    <h2><a href="'+post.url+'">'+post.chat.title+'</a></h2>';
+          thehtml +='    <ul>';
+          $(post.chat.chat).each(function(k, chatter){
+          thehtml +='        <li>'+chatter+'</li>';
+          });
+          thehtml +='    </ul>';
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+          thehtml +='  </div>';
+        	break;
+       	
+        case "audio":
+        	thehtml +=' <div class="entry audio">';
+          thehtml +='    <div class="player">'+post.audio.audio_player+'</div>';
+          thehtml +=			post.audio.caption;
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+          thehtml +='  </div>';
+        	break;
+          
+        case "video":
+        	thehtml +=' <div class="entry video">';
+          thehtml +='    <div class="thevideo">'+post.video.video_embed+'</div>';
+          thehtml +=			post.video.caption;
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+          thehtml +='  </div>';
+  	      break;
+        
+        case "answer":
+        	thehtml += ' <div class="entry answer">';
+          thehtml += '    <div class="query"><h3>'+post.answer.question+'<h3>';
+          thehtml += '		&mdash; '+post.answer.asking_name+'</div>';
+          thehtml += '		<div class="response"><p>'+post.answer.answer+'</p></div>';
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+          thehtml += '  </div>';
+        	break;             
+          
+        default:
+       	  thehtml +='<div class="entry text">';
+           thehtml +='   <h2><a href="'+post.url+'">'+post.title+'</a></h2>';
+           thehtml +=			post.body;
+           thehtml +='   <div class="timestamp"><a href="'+post.url+'">Posted '+post.date+'</a></div>';
+           thehtml +=' </div>';
+  		} // end switch
+  	});// end each
+   
+   thehtml += '<a class="readmore button" href="http://'+username+'.tumblr.com/page/2" target="_blank">Read More</a>';
+   
+   var usernamesafe = username.replace(/-/g,'');
+   
+   $('#tumblr_' + usernamesafe).hide();
+   $('#tumblr_' + usernamesafe).html(thehtml);
+   $('#tumblr_' + usernamesafe).fadeIn(500);
+        
+  } // end createTumblrHTML
+  
+  
+  var THM = {
+    bindTrailerEvents: function() {
+    
+    	var image = $('.feature .feature-poster').find('img'),
+        	poster = $('.feature .feature-poster'),
+  				initTrailer = $('a[href=#trailer]'),
+          close = $('.feature .close-btn'),
+          trailer = $('#trailer');
+      
+  		initTrailer.on('click', function(event) {
+      		var halfW = $(window).width()/2;
+          var topPos = $(window).height(); //third of screen vertical design
+          $('html,body').animate({scrollTop:0},300);  
+          
+          if ($(window).width() > 884) {
+            $( "footer" ).animate({
+                opacity: 0
+             }, 100, function() {	
+             });
+              
+             $( ".slides-normal" ).animate({
+               opacity: 0
+             }, 500, function() {	
+             });
+              
+             $( ".right-area" ).animate({
+                opacity: 0
+             }, 500, function() {	
+             });
+           
+            $( "header" ).animate({
+              left: "-"+halfW
+            }, 500, function() {	
+            	$(this).css({"opacity": 0});
+            });
+            
+            $( ".news" ).animate({
+              left: "-"+halfW
+            }, 500, function() {
+            	$(this).css({"opacity": 0});
+            });
+            
+            $( ".static-image" ).animate({
+              opacity: 0
+            }, 500, function() {	
+            });
+            
+            $( ".sidebox" ).animate({
+              left: "-"+halfW
+            }, 500, function() {
+            	$(this).css({"opacity": 0});
+              loadVideo(initTrailer);
+              $(".feature").show();
+            });
+          } else if ($(window).width() > 500 && $(window).width() <= 884){ //vertical version
+          	$( "footer" ).animate({
+                opacity: 0
+             }, 100, function() {	
+             });
+              
+             $( ".slides-normal" ).animate({
+               opacity: 0
+             }, 500, function() {	
+             });
+              
+             $( ".right-area" ).animate({
+                opacity: 0
+             }, 500, function() {	
+             });
+             
+            $( ".static-image" ).animate({
+              opacity: 0
+            }, 500, function() {	
+            });
+            
+            $( "header" ).animate({
+              "padding-top": "+="+topPos
+            }, 500, function() {
+            	$(this).css({"opacity": 0});
+            });
+            
+            $( ".news" ).animate({
+              "margin-top": "+="+topPos
+            }, 500, function() {	
+            	$(this).css({"opacity": 0});
+            });
+            
+            $( ".sidebox" ).animate({
+              top: "+="+topPos
+            }, 500, function() {
+            	$(this).css({"opacity": 0});
+              loadVideo(initTrailer);
+              $(".feature").show();
+            });
+          } else {
+          
+          	$("header").css({"opacity": 0}); 
+          	$(".slides-normal").css({"opacity": 0});
+             
+          	loadVideo(initTrailer);
+            $(".feature").show();
+          }
+       });
+      
+      close.hover( 
+      	function() {
+       		$(this).css("opacity", "1");
+      	},
+        function() {
+        	$(this).css("opacity", "0.5");
+      	}
+      );
+      
+      close.on('click', function(event) {
+       		stopVideo($(".controls a.trailer"));
+      })
+       
+  		trailer.on('video:load', function() {
+  				trailer.attr('id','');
+       })
+       
+       trailer.on('video:stop', function() {
+  				stopVideo($(".controls a.trailer"));
+       })
+      
+      
+      function loadVideo(el) {
+        if (el.hasClass('playing')) {
+          stopVideo(el);        
+        }
+        else {
+  				startVideo(el);
+        }
+      }
+      
+      function startVideo(el) {
+        image.fadeOut(1);
+        trailer.fadeIn(500);
+       	el.addClass('playing');
+      }
+      
+      function stopVideo(el){
+     	 	trailer.empty().attr('id','trailer').fadeOut(500); 
+        image.fadeIn(500);
+        
+          $(".feature").hide();
+          
+          $( ".slides-normal" ).animate({
+              opacity: 1
+            }, 400, function() {	
+            });
+            
+          $( ".right-area" ).animate({
+             opacity: 1
+          }, 400, function() {	
+          });
+          
+          $( "footer" ).animate({
+      			opacity: 1
+    				}, 500, function() {	
+    			});
+          
+          $( ".static-image" ).animate({
+              opacity: 1
+            }, 500, function() {	
+          });
+          
+          if ($(window).width() > 884) {
+          	
+          	$("header").offset({left: -$(window).width()});
+            $("header").css({"padding-top": "25px"});
+            $("header").css({"opacity": 1});
+            
+            $( "header" ).animate({
+              left: 0
+            }, 500, function() {	
+            });
+            
+            $(".news").offset({left: -$(window).width()});
+            $(".news").css({"margin-top": "0px"});
+            $(".news").css({"opacity": 1});
+            
+            $( ".news" ).animate({
+              left: 0
+            }, 500, function() {	
+            });
+            
+            $(".sidebox").css({"top": 0});
+            $(".sidebox").css({"left": -$(window).width()});
+            $(".sidebox").css({"opacity": 1});
+            
+            $( ".sidebox" ).animate({
+              left: 0
+            }, 500, function() {
+            });
+            
+            resizeNormal();
+            
+          } else if ($(window).width() > 500 && $(window).width() <= 884){ //vertical version
+           	$("header").offset({left: 0});
+            $("header").css({"opacity": 1});
+            $( "header" ).animate({
+              "padding-top": "25px"
+            }, 400, function() {	
+            });
+            
+            $(".news").offset({left: 0});
+            $(".news").css({"opacity": 1});
+            $( ".news" ).animate({
+              "margin-top": 0
+            }, 400, function() {	
+            });
+            
+            $(".sidebox").offset({top: $(window).height()});
+            $(".sidebox").css({"left":"0"});
+            $(".sidebox").css({"opacity": 1});
+            
+            $( ".sidebox" ).animate({
+              top: "37%"
+            }, 300, function() {
+            });
+          } else { 
+          	$("header").css({"opacity": 1});
+          	$(".slides-normal").css({"opacity": 1});
+            $(".news").css({"opacity": 1});
+            $(".sidebox").css({"opacity": 1});
+          }
+          
+  			el.removeClass('playing');
+      }
+      
+       
+    },
+    
+    init: function() {
+  		this.bindTrailerEvents();
+    }
+  }
+  THM.init();
+  
+  //--------- RESIZE FUNCTIONS
+  function resizeNormal() {
+  	var newsHeight = $(window).height() - $("header").height() - $("footer").height()-50;
+    $(".news").css({height: newsHeight});
+    $(".news").offset({top: $("header").height()+60});
+   
+    $("footer").offset({top: $(".news").position().top + $(".news").height()-10, bottom: 0});
+    $(".sub-page footer").offset({top: "auto", bottom: "auto"});
+    
+    var controlsTop = $(window).height()/2 - 180;
+    var quarterW = $(window).width()/4;
+    var controlsLeft = $(window).width() - quarterW - 150;
+    $(".right-area").offset({top: controlsTop, left: controlsLeft});
+    
+    $(".sidebox").css({"top": 0});
+  }
+  
+  function resizeTablet() {
+  	var newsHeight = ($(window).height()*.63) - $("header").height() - $("footer").height()-50;
+    $(".news").css({height: newsHeight});
+    $(".news").offset({top: $("header").position().top + $("header").height() + 60});
+    
+    $("footer").offset({top:$(".news").position().top + $(".news").height()-10, bottom: 0});
+    $(".sub-page footer").offset({top: "auto", bottom: "auto"});
+    
+    var quarterH = $(window).height()/5;
+    var controlsTop = quarterH - 145;
+    var controlsLeft = ($(window).width()/2)-130;
+    $(".right-area").offset({top: controlsTop, left: controlsLeft});
+    
+    $(".sidebox").css({"top": "37%"});
+  }
+  
+  function resizeMobile() {
+  	var newsHeight = $(".news").height;
+    $(".news").css({height: newsHeight});
+    $(".news").offset({top: $("header").position().top + $("header").height() + 50});
+    
+   	$("footer").offset({top: $(".news").position().top + $(".news").height() + 10});
+    $(".sub-page footer").offset({top: "auto", bottom: "auto"});
+    
+    var quarterH = $(window).height()/6;
+    var controlsTop = quarterH - 44;
+    var controlsLeft = ($(window).width()/2)-48;
+    $(".right-area").offset({top: controlsTop, left: controlsLeft});
+  }
+  
+  //---------CONTROLS ROLLOVERS
+  $(".controls .trailer").hover(
+    function() {
+    	if ($(window).width() > 500) {
+        $(".controls .trailer .circle-text").addClass("active");
+        $(".controls .trailer .triangle-text").addClass("active");
+        $(".controls .trailer .play-btn-circle").addClass("active");
+        $(".controls .trailer .play-btn-triangle").addClass("active");
+        $(".triangle-up").addClass("active");
+        $(".circle-up").addClass("active");
+      }
+    }, function() {
+   	 if ($(window).width() > 500) {
+    	$(".controls .trailer .circle-text").removeClass("active");
+      $(".controls .trailer .triangle-text").removeClass("active");
+      $(".controls .trailer .play-btn-circle").removeClass("active");
+      $(".controls .trailer .play-btn-triangle").removeClass("active");
+      $(".triangle-up").removeClass("active");
+      $(".circle-up").removeClass("active");
+      }
+     }
+  );
+  
+  $(".controls .buy").hover(
+    function() {
+    	if ($(window).width() > 500) {
+        $(".controls .buy .circle-text").addClass("active");
+        $(".controls .buy .triangle-text").addClass("active");
+        $(".controls .buy .price-circle").addClass("active");
+        $(".controls .buy .price-triangle").addClass("active");
+        $(".controls .buy .play-btn-triangle").addClass("active");
+        $(".controls .buy .play-btn-circle").addClass("active");
+        $(".triangle-down").addClass("active");
+        $(".circle-down").addClass("active");
+       }
+    }, function() {
+    	if ($(window).width() > 500) {
+        $(".controls .buy .circle-text").removeClass("active");
+        $(".controls .buy .triangle-text").removeClass("active");
+        $(".controls .buy .price-circle").removeClass("active");
+        $(".controls .buy .price-triangle").removeClass("active");
+        $(".controls .buy .play-btn-circle").removeClass("active");
+        $(".controls .buy .play-btn-triangle").removeClass("active");
+        $(".triangle-down").removeClass("active");
+        $(".circle-down").removeClass("active");
+        }
+      }
+  );
+  
+  ///////////-----------
+  
+  /*! RESPONSIVE HEADER FONT SIZE
+  * FitText.js 1.1
+  *
+  * Copyright 2011, Dave Rupert http://daverupert.com
+  * Released under the WTFPL license
+  * http://sam.zoy.org/wtfpl/
+  *
+  * Date: Thu May 05 14:23:00 2011 -0600
+  */
+  
+  (function( $ ){
+    $.fn.fitText = function( kompressor, options ) {
+      // Setup options
+      var compressor = kompressor || 1,
+          settings = $.extend({
+            'minFontSize' : Number.NEGATIVE_INFINITY,
+            'maxFontSize' : Number.POSITIVE_INFINITY
+          }, options);
+  
+      return this.each(function(){
+        // Store the object
+        var $this = $(this);
+        // Resizer() resizes items based on the object width divided by the compressor * 10
+        var resizer = function () {
+          $this.css('font-size', Math.max(Math.min($this.width() / (compressor*10), parseFloat(settings.maxFontSize)), parseFloat(settings.minFontSize)));
+        };
+        // Call once to set.
+        resizer();
+        // Call on resize. Opera debounces their resize by default.
+        $(window).on('resize.fittext orientationchange.fittext', resizer);
+      });
+    };
+  })( jQuery );
+  
+  $("header h1").fitText(1.4, { minFontSize: '20px', maxFontSize: '80px' });
+  $(".sub-page header h1").fitText(1.4, { minFontSize: '20px', maxFontSize: '60px' });
+  $(".sub-page #payment-module header h1").fitText(1.4, { minFontSize: '20px', maxFontSize: '30px' });
+  
+  // CONTROL IPAD SWITCHING FROM PORTRAIT TO LANDSCAPE WITHOUT ZOOMING
+  if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+      var viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta) {
+          viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0';
+          document.body.addEventListener('gesturestart', function () {
+              viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+          }, false);
+      }
+  }
+  ////////--------------------------
+  
+  ///// SET RESIZING ---------------
+  setTimeout(function() {
+    if ($(window).width() > 884) {
+      resizeNormal();
+    } else if ($(window).width() > 500 && $(window).width() <= 884){
+      resizeTablet();
+    } else {
+      resizeMobile();
+    }
+  }, 50);
+  
+  $(window).resize(function() {
+  	if ($(window).width() > 884) {
+      resizeNormal();
+    } else if ($(window).width() > 500 && $(window).width() <= 884){
+      resizeTablet();
+    } else {
+      resizeMobile();
+    }
+  });
+  
+  // HIDE VIDEO LAYER
+  $(".feature").hide();
+  $('.newsletter').find('.required').prop('placeholder','your@email.com');
+  $('.newsletter input[type="submit"]').prop('value','');
+  
+  $('.sub-page .newsletter').find('.required').prop('placeholder','your@email.com');//why do these lines not work?
+  $('.sub-page .newsletter input[type="submit"]').prop('value','');
+  
+      });
+    </script>
+
+<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+
+
+    <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="augusta.vhx.tv"></script>
+</body>
+</html>
+```
