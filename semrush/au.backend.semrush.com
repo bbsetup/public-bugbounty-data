@@ -1,0 +1,2 @@
+```query type not found
+```
