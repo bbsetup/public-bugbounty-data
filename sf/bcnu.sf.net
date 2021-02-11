@@ -1,0 +1,356 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+	<HEAD>
+		<TITLE>
+			bcnu - web based monitor
+		</TITLE>
+ 	<META NAME="FORMATTER" CONTENT="Arachnophilia 3.9/GTML">
+		<META NAME="keywords" CONTENT="monitor manage unix agent web alert page mail free schedule">
+ <!-- 		<link rel="stylesheet" href="bcnu.css" type="text/css"> -->	
+	</HEAD>
+	<BODY BACKGROUND="" BGCOLOR="ffffff" TEXT="#000000" LINK="#0000ff" VLINK="#800080" ALINK="#ff0000">
+		<TABLE>
+			<TR>
+				<TD valign="top">
+         <TABLE>
+            <TR>
+              <TD>
+                <IMG SRC="images/spacer.gif" WIDTH="130" HEIGHT="2" ALT="">
+              </TD>
+            </TR>
+            <TR>
+              <TD bgcolor="#0000a0" align="center">
+                <FONT face="Arial,Helvetica" color="FFFFFF">
+                  <B>
+                    Fast Links
+                  </B>
+                </FONT>
+              </TD>
+            </TR>
+            <TR>
+              <TD bgcolor="#f0d88c" valign="top">
+                <P ALIGN="Left">
+                <A HREF="index.html">Summary of features</A>
+                <P ALIGN="Left">
+                <A HREF="detail.html">Detailed description</A>
+                <P ALIGN="Left">
+                <A HREF="install.html">Download/Install</A>
+                <P ALIGN="Left">
+                <A HREF="sample.html" >Sample screens</A>
+                <P ALIGN="Left">
+                <A HREF="changes.html" >Change log</A>
+                <P ALIGN="Left">
+                <A HREF="contrib.html" >Contributors</A>
+                <P ALIGN="Left">
+                <A HREF="todo.html">Todo List</A>
+                <P ALIGN="Left">
+                <A HREF="#mail" >Mailing List</A>
+                <P ALIGN="Left">
+                <A HREF="licence.html">Licence</A>
+                <P ALIGN="Left">
+                <A HREF="sitemap.html" >Site map</A>
+
+              </TD>
+            </TR>
+            <TR>
+              <TD>
+                &nbsp;
+              </TD>
+            </TR>
+            <TR>
+              <TD bgcolor="#0000a0" align="center">
+                <FONT face="Arial,Helvetica" color="FFFFFF">
+                  <B>
+                    Documentation
+                  </B>
+                </FONT>
+              </TD>
+            </TR>
+            <TR>
+              <TD bgcolor="#f0d88c" valign="top">
+                <B>
+                  Admin Guide
+                </B>
+                <P>
+                <A HREF="ADMIN.HTM">html</A>
+                <BR>
+                <A HREF="word/admin.doc">MSWord6</A>
+                <BR>
+                <P>
+                <B>
+                  Man pages
+                </B>
+                <P>
+                <A HREF="manhtml/bcnu.html">bcnu</A>
+                <BR>
+                <A HREF="manhtml/bcnud.html">bcnud</A>
+                <BR>
+                <A HREF="manhtml/bcnumsg.html">bcnumsg</A>
+                <BR>
+                <P>
+                <B>
+                  Files
+                </B>
+                <P>
+                <A HREF="manhtml/agents.html">agents</A>
+                <BR>
+                <A HREF="manhtml/services.html">services</A>
+                <BR>
+                <A HREF="manhtml/logpatterns.html">logpatterns</A>
+                <BR>
+                <A HREF="manhtml/hostinfo.html">hostinfo</A>
+                <BR>
+                <A HREF="manhtml/bcnunet.html">bcnunet</A>
+                <BR>
+              </TD>
+            </TR>
+            <TR>
+              <TD>
+                &nbsp;
+              </TD>
+            </TR>
+            <TR>
+              <TD bgcolor="#0000a0" align="center">
+                <FONT face="Arial,Helvetica" color="FFFFFF">
+                  <B>
+                    Mirror Sites
+                  </B>
+                </FONT>
+              </TD>
+            </TR>
+            <TR>
+              <TD bgcolor="#f0d88c" valign="top">
+<!--                 <P ALIGN="Left">
+                <A HREF="http://bcnu6666.tripod.com/">Tripod</A>
+                <P ALIGN="Left">
+                <A HREF="http://members.tripod.co.uk/~ukbcnu6666/">Tripod UK</A>
+                <P ALIGN="Left">
+                <A HREF="http://website.lineone.net/~john_a_phillips">Lineone UK</A>
+ -->                <HR><P ALIGN=CENTER>
+                <A HREF="http://bcnu.sourceforge.net/">Main bcnu site</A>
+				<P ALIGN=CENTER>
+				Hosted by<BR>
+				<A href="http://sourceforge.net"><IMG ALIGN=CENTER src="http://sourceforge.net/sflogo.php?group_id=421&type=1" 
+				width="88" height="31" border="0"></A>
+              </TD>
+            </TR>
+            <TR>
+              <TD bgcolor="#0000a0" align="center">
+                <FONT face="Arial,Helvetica" color="FFFFFF">
+                  <B>
+                  </B>
+                </FONT>
+              </TD>
+            </TR>
+            <TR>
+            <TD>
+              <H6>Updated: 21th August 2001</H6>
+            </TD>
+            </TR>
+          </TABLE>
+        </TD>
+        <TD>
+          <IMG SRC="images/spacer.gif" WIDTH="10" HEIGHT="1" ALT="">
+        </TD>
+				<TD VALIGN=TOP>
+					<TABLE>
+						<TR>
+							<TD width=100%>
+								<IMG SRC="images/bcnu.gif" WIDTH="204" HEIGHT="94" ALT="">
+								<FONT SIZE="3" COLOR=#8000ff" FACE="Village, Arial">
+									Version 1.22
+									<HR>
+								</FONT>
+							</TD>
+						</TR>
+					</TABLE>
+
+
+<center>
+</center>
+<P>
+  <TABLE>
+<tr align="center" bgcolor="Red"><td><font size="+2">Stop Press! bcnu development has started again! see <a href="changes.html">changes</a> for details</font></td></tr>
+      <TR>
+        <TD BGCOLOR="#0000a0" ALIGN="center">
+          <FONT FACE="Arial,Helvetica" COLOR="FFFFFF"><B>Summary of Features</B></FONT>
+        </TD>
+      </TR>
+      <TR>
+        <TD>
+          <P>
+            bcnu is a web based system management tool which delivers information on the status of networked systems in a simple and easy to use manner. Have a look at the <A HREF="sample.html">
+            sample screens</A> to see how easy it is. It uses a web browser to display information about hosts in a tabular form. Coloured icons show the status of monitored conditions and clicking
+            on these will bring up detail about the state of the system. Historical information can be held indefinitely and there is a powerful query tool available to interrogate it. More details
+            can be found <A HREF="detail.html">here</A>.
+          </P>
+          <P>
+            bcnu can be managed from a central unix system, with all agents, scripts and config files distributed from one point using the supplied shell scripts. It will soon be possible to
+            configure agents from a web browser.
+          </P>
+          <P>
+            bcnu has a very open architecture. The agents are currently bourne shell scripts, but can be any program. There are a set of standard shell functions available to make interfacing with
+            bcnu very easy. It is a simple matter to modify existing scripts to talk to bcnu. These will have all the benefits of bcnu agents, e.g. logging, resending, proxy etc. I would be happy to
+            receive your agents to include with the distribution
+          </P>
+          <P>
+            bcnu has been designed to be very simple to <A HREF="install.html">implement</A>. By default it is configured to make very little impact on the managed system. Logging levels can be set
+            for each agent separately. It is possible to set an agent only to log in the event of an error.
+          </P>
+          <P>
+            Monitoring of network devices can be spread over multiple machines, all may have different checking and logging intervals. e.g. you may wish to check all web servers every 5 minutes,
+            application servers every 10 minutes, but mail or print servers only every 30 minutes. This is easy with bcnu due to the flexible agent architecture.
+          </P>
+          <P>
+            Its main features:
+          </P>
+          <UL>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">easy to use</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">simple agent based monitoring with flexible thresholds</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">multiple views of the same information</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">includes agent scheduler for total flexibility</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">automatic logging and resend of messages</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">discover agent to build a picture of your system automatically</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">built in web server for static pages</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">powerful cgi access to data including multiple views and historical queries</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">free!! (Distributed under the terms of the Artistic licence)</FONT>
+            </LI>
+          </UL>
+          Standard agents include: 
+          <UL>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">network monitor, ping, http, ftp , mail, lpd, oracle etc</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">intelligent log file scanning for messages and warnings</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">checking for required processes to be running</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">filesystem mount status and space usage</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">processor/memory usage and system up time</FONT>
+            </LI>
+          </UL>
+          Special agents include: 
+          <UL>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">volume management checks for solaris,aix and hpux</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">system availibility</FONT>
+            </LI>
+          </UL>
+          Admin agents include: 
+          <UL>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">logging and resending of agent data</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">agent proxy</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">alerts sent by mail, pager, win32popup, web, Perl/TK window or custom program</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">report of all errors and warnings</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">self monitoring and alerting agent (runs on another system)</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">discovery of systems to be managed</FONT>
+            </LI>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">optional static web page built to show status of all systems</FONT>
+            </LI>
+          </UL>
+          Contributed agents include: 
+          <UL>
+            <LI>
+              <FONT FACE="ARIAL" COLOR="#800040">Critical file checker - checks to see if important files have been changed </FONT>
+            </LI>
+			<LI>
+              <FONT FACE="ARIAL" COLOR="#800040">oracle table space monitor</FONT>
+            </LI>
+			<LI>
+              <FONT FACE="ARIAL" COLOR="#800040">check oracle backup log agent</FONT>
+            </LI>
+
+          </UL>
+        </TD>
+      </TR>
+	  </TABLE>
+	</TD>
+      </TR>
+      <TR>
+<TR>
+	<TD colspan="3" bgcolor="#f0d88c" ><P ALIGN="Center">
+	<A NAME="mail"></A>
+	  You can email me at <A HREF="mailto:jap@users.sourceforge.net">jap@users.sourceforge.net</A>
+or subscribe to the <A HREF=http://lists.sourceforge.net/mailman/listinfo/bcnu-discuss>low volume mailing list</a>
+<BR>
+<FONT size="-1">&copy; 1999,2000 John Phillips All rights reserved</FONT>
+
+</TD>
+	</TR>
+		</TABLE>
+<P>
+<A HREF=http://bcnu.sourceforge.net/cgi-bin/showstats.cgi?index>
+<img src="http://bcnu.sourceforge.net/cgi-bin/stats.cgi?index">
+</a> 
+<A HREF=http://bcnu.sourceforge.net/stats/>Old Site Stats</A>
+
+<HR>
+			<table width=100% border=0 cellspacing=0 cellpadding=2 bgcolor=ffffff> 
+        <tr>
+          <td><FORM NAME="systran" ACTION="http://translator.go.com/" METHOD=POST>
+            <input type="hidden" name="input_type" value="url">
+            <input type="hidden" name="url" value="http://bcnu.sourceforge.net/index.html" >
+            <font face=geneva,arial size=2><b>Translate this page from</b></font>
+            <SELECT NAME="lp" >
+                            <OPTION VALUE="en_sp" selected> English to Spanish
+                <OPTION VALUE="en_fr"> English to French
+                <OPTION VALUE="en_ge"> English to German
+                <OPTION VALUE="en_it"> English to Italian
+                <OPTION VALUE="en_pt"> English to Portuguese
+                <OPTION VALUE=""> ===============
+                <OPTION VALUE="sp_en"> Spanish to English
+                <OPTION VALUE="fr_en"> French to English
+                <OPTION VALUE="ge_en"> German to English
+                <OPTION VALUE="it_en"> Italian to English
+                <OPTION VALUE="pt_en"> Portuguese to English
+
+            </SELECT>&nbsp;
+			<INPUT TYPE="submit" VALUE="Translate"><br>
+            <font face=geneva,arial size=1>powered by</font><font 
+            face=geneva,arial size=2>&nbsp;<a 
+            href="http://www.systransoft.com/english/products/personal/go_personal.html">SYSTRAN 
+            Translation Software</a></font></form></td>
+        </tr> 
+        </table>
+
+</BODY>
+</HTML>
+
+
+```
