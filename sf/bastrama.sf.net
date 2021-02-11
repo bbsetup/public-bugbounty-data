@@ -1,0 +1,375 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<HTML>
+<HEAD>
+<TITLE>BASTRAMA - Backup Strategy Manager</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+	p,h1,h2,td,th,a { font-family:Verdana,Helvetica,Arial,sans-serif }
+	img { border-style:none }
+	th { text-align:center }
+	td { text-align:center; font-size:smaller }
+-->
+</style>
+</HEAD>
+
+<BODY>
+
+<h1>Bastrama - Backup Strategy Manager</h1>
+
+<p>Bastrama is a command-line tool to manage backup files that are stored on random
+access memory (eg. hard drives). It implements an infinite grandfather-father-son
+strategy by deleting a defined subset of the backup files, therefore saving storage
+space while still keeping some of the older backups in case something went wrong
+(and needs to be restored from) a long time ago.</p>
+
+<p>The idea is: Bastrama lets you run full daily backups to hard drive and you will
+just never run out of space. - Of course you'll have to do the backups yourself
+(using the backup tool of your choice). Bastrama is just managing the resulting
+backup files.</p>
+
+<hr>
+
+<ul>
+<li><a href="perldoc.html">POD Documentation of Bastrama</a>
+<li><a href="http://sourceforge.net/project/showfiles.php?group_id=59624">Download Bastrama 0.15</a>
+<li><a href="http://sourceforge.net/projects/bastrama/">Bastrama project page on SourceForge</a>
+</ul>
+
+<hr>
+
+<h2>Backup Strategies</h2>
+
+<p>From you backup files, numbered linear starting from 0, Bastrama builds
+a "tree", where every node has n children. Then from every level of the tree,
+Bastrama keeps the latest k files. The rest is deleted.</p>
+
+<p>Here are some charts to make it clear.
+A sequence of backups is drawn from left to right, numbered from 0 to 68,
+where 0 denotes the oldest backup and 68 the latest (eg. "today's").
+Green files are kept, gray ones are deleted.</p>
+
+<p>
+n=2, k=2<br>
+<img src="bastrama-2-2.png" alt="Chart for n=2, k=2">
+</p>
+
+<p>
+n=2, k=4<br>
+<img src="bastrama-2-4.png" alt="Chart for n=2, k=4">
+</p>
+
+<p>
+n=3, k=3<br>
+<img src="bastrama-3-3.png" alt="Chart for n=3, k=3">
+</p>
+
+<p>
+n=3, k=6<br>
+<img src="bastrama-3-6.png" alt="Chart for n=3, k=6">
+</p>
+
+<p>It can be seen that the oldest and the latest backup are always kept. Between
+them, the probability of a backup being kept decreases exponentially with its age.
+</p>
+
+<p>As a consequence, the required storage space increases only logarithmically over
+time, which is very, very slow. (This is assuming, that the later backup files
+aren't larger than the older ones.)</p>
+
+<p>An example: After 10000 backup cycles with a n=3, k=3 strategy, 18 files
+are kept:</p>
+
+<table>
+	<tr>
+		<th>file kept</th>
+		<th>age</th>
+	</tr>
+
+	<tr>
+		<td># 10000               </td>
+		<td>0 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9999               </td>
+		<td>1 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9998               </td>
+		<td>2 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9996               </td>
+		<td>4 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9993               </td>
+		<td>7 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9990              </td>
+		<td>10 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9981              </td>
+		<td>19 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9963              </td>
+		<td>37 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9936              </td>
+		<td>64 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9882             </td>
+		<td>118 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9801             </td>
+		<td>199 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9720             </td>
+		<td>280 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9477             </td>
+		<td>523 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 8748            </td>
+		<td>1252 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 8019            </td>
+		<td>1981 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 6561            </td>
+		<td>3439 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 4374            </td>
+		<td>5626 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 0           </td>
+		<td>10000 cycles</td>
+	</tr>
+</table>
+
+
+<p>If you have more space, do a n=3, k=6 strategy on those 10000 files
+and keep 33 of them:</p>
+
+
+<table>
+	<tr>
+		<th>file kept</th>
+		<th>age</th>
+	</tr>
+
+	<tr>
+		<td># 10000               </td>
+		<td>0 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9999               </td>
+		<td>1 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9998               </td>
+		<td>2 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9997               </td>
+		<td>3 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9996               </td>
+		<td>4 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9995               </td>
+		<td>5 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9993               </td>
+		<td>7 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9990              </td>
+		<td>10 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9987              </td>
+		<td>13 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9984              </td>
+		<td>16 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9981              </td>
+		<td>19 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9972              </td>
+		<td>28 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9963              </td>
+		<td>37 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9954              </td>
+		<td>46 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9936              </td>
+		<td>64 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9909              </td>
+		<td>91 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9882             </td>
+		<td>118 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9855             </td>
+		<td>145 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9801             </td>
+		<td>199 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9720             </td>
+		<td>280 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9639             </td>
+		<td>361 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9558             </td>
+		<td>442 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9477             </td>
+		<td>523 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 9234             </td>
+		<td>766 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 8991            </td>
+		<td>1009 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 8748            </td>
+		<td>1252 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 8019            </td>
+		<td>1981 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 7290            </td>
+		<td>2710 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 6561            </td>
+		<td>3439 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 5832            </td>
+		<td>4168 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 4374            </td>
+		<td>5626 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 2187            </td>
+		<td>7813 cycles</td>
+	</tr>
+
+	<tr>
+		<td># 0           </td>
+		<td>10000 cycles</td>
+	</tr>
+</table>
+
+<hr>
+
+<p>
+<a href="http://sourceforge.net/projects/bastrama/"><img
+			src="http://sourceforge.net/sflogo.php?group_id=59624&amp;type=1"
+			width="88" height="31" alt="to SourceForge project page"></a>
+<a href="http://validator.w3.org/check/referer"><img
+        src="http://www.w3.org/Icons/valid-html401"
+        alt="Valid HTML 4.01!" height="31" width="88"></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+			style="border:0;width:88px;height:31px"
+       src="http://jigsaw.w3.org/css-validator/images/vcss"
+       alt="Valid CSS!"></a>
+
+</p>
+
+</BODY>
+
+</HTML>```
