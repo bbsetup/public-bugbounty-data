@@ -1,0 +1,142 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+   <TITLE> beepcore-c</TITLE>
+   <META NAME="GENERATOR" CONTENT="DOC++ 3.4.8">
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+
+<H2> <A HREF="#DOC.DOCU">beepcore-c</A></H2></H2><BLOCKQUOTE><b>C/C++ BEEP project hosted on <a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=32788" width="88" height="31" border="0" alt="SourceForge Logo"></a></b></BLOCKQUOTE>
+
+<HR>
+<DL>
+<DT>
+
+<IMG ALT="o" BORDER=0 SRC=icon1.gif><A NAME="Manual Entries"></A>
+<A HREF=ManualEntries.html><B>Manual Entries</B></A><DD><I> </I>
+</DL>
+<A NAME="DOC.DOCU"></A>
+<BLOCKQUOTE>
+<p>
+<A HREF=http://beepcore.org/>BEEP</A> is a P2P application protocol framework
+for connection-oriented, asychonous interctions.
+BEEP permits simultaneous and independent exchanges within the context of a
+single application user-identity,
+supporting both textual and binary messages.
+
+<P>You're looking at the home of the documentation for <b>beepcore-c</b>,
+which implements BEEP in C/C++.
+Useful links:
+<ul>
+<li><a href="http://beepcore.org/">BEEP community website</a> (highly recommended)</li>
+
+<P><li><a href="http://sourceforge.net/projects/beepcore-c">Sourceforge project page</a></li>
+
+<P><li><a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/beepcore-c/beepcore-c/">CVS web interface</a></li>
+
+<P><li>How to get the source tree via CVS:<br><PRE>
+    cvs -z3 \
+      -d:pserver:anonymous@cvs.beepcore-c.sourceforge.net:/cvsroot/beepcore-c \
+      login
+
+<P>    cvs -z3 \
+      -d:pserver:anonymous@cvs.beepcore-c.sourceforge.net:/cvsroot/beepcore-c \
+      co beepcore-tcl
+</PRE></li>
+
+<P><li>Mailing lists:
+<a href="http://lists.sourceforge.net/lists/listinfo/beepcore-c-announce">announcements</a>, 
+<a href="http://lists.sourceforge.net/lists/listinfo/beepcore-c-commits">cvs commits</a>, and
+<a href="http://lists.sourceforge.net/lists/listinfo/beepcore-c-users">users</a></li>
+
+<P><li>Documentation: <a href="docs.tgz">tgz file</a>, or
+<a href="docs.zip">zip file</a>.</li>
+</ul>
+
+<P>First read the <A HREF=Architecture.html>architectural overview</A>,
+followed by the <A HREF=ProfileTutorial.html>profile tutorial</A>.
+Then consult these source files:
+<ul>
+<li><A HREF=http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/beepcore-c/beepcore-c/profiles/null-profiles.h?rev=HEAD&content-type=text/vnd.viewcvs-markup>profiles/null-profiles.h</A></li>
+<li><A HREF=http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/beepcore-c/beepcore-c/profiles/null-profiles.c?rev=HEAD&content-type=text/vnd.viewcvs-markup>profiles/null-profiles.c</A></li>
+<li><A HREF=http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/beepcore-c/beepcore-c/threaded_os/examples/beepd.c?rev=HEAD&content-type=text/vnd.viewcvs-markup>threaded_os/examples/beepd.c</A></li>
+<li><A HREF=http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/beepcore-c/beepcore-c/threaded_os/examples/beepng.c?rev=HEAD&content-type=text/vnd.viewcvs-markup>threaded_os/examples/beepng.c</A></li>
+</ul>
+
+<P>Because the <a href="ManualEntries.html">manual entries</a> are implicitly-based on the ordering of definitions in the source code,
+it may not intuitive to use the hierarchy it presents.
+So,
+we've provided both an
+<a href="index2.html">alphabetic index</a> of structures and functions,
+along with this perspective:
+<ul>
+<li><A HREF=LibraryInitialization.html>Library Initialization</A></li>
+<li>Profile Module Management:</li>
+<ul>
+<li><A HREF=PROFILE_REGISTRATION.html>PROFILE_REGISTRATION structure</A></li>
+<li><A HREF=Registrationstructureandfunctions.html>Functions</A></li>
+</ul>
+<li>Connection Management:</li>
+<ul>
+<li><A HREF=BP_CONNECTION.html>BP_CONNECTION structure</A></li>
+<li><A HREF=ConnectionManagement.html>General Functions</A></li>
+<ul>
+<li><A HREF=ConveniencefunctionsforTCP-basedconnections.html>Convenience functions for TCP-based connections</A></li>
+</ul>
+</ul>
+<li><A HREF=SessionManagement.html>Session Management</A></li>
+<li>Channel Management:</li>
+<ul>
+<li><A HREF=PROFILE_INSTANCE.html>PROFILE_INSTANCE structure</A></li>
+<li><A HREF=CHANNEL_INSTANCE.html>CHANNEL_INSTANCE structure</A></li>
+<li><A HREF=profile.html>profile structure</A></li>
+<li><A HREF=frame.html>frame structure</A></li>
+<li><A HREF=ChannelManagement.html>General Functions</A></li>
+<li><A HREF=BufferManagement.html>Buffer Management</A></li>
+<li><A HREF=FrameManagement.html>Frame Management</A></li>
+<li><A HREF=TuningProfileMagic.html>Tuning Profile Magic</A></li>
+</ul>
+<li>Diagnostic Management:</li>
+<ul>
+<li><A HREF=diagnostic.html>DIAGNOSTIC structure</A></li>
+<li><A HREF=DiagnosticManagement.html>Functions</A></li>
+</ul>
+<li>Utility Functions:</li>
+<ul>
+<li><A HREF=Configurationfunctions.html>Configuration</A></li>
+<li><A HREF=Loggingfunctions.html>Logging</A></li>
+<li><A HREF=Semaphorestructureandfunctions.html>Semaphores</A></li>
+<li><A HREF=Threadstructureandfunctions.html>Threads</A></li>
+</ul>
+<li>Profiles:</li>
+<ul>
+<li><A HREF=TuningParameters.html>Tuning Parameters</A></li>
+<li><A HREF=TheSASLANONYMOUSandOTPprofiles.html>SASL ANONYMOUS and OTP</A><br>
+<b>Note well:</b> the next major release of <b>beepcore-c</b> will remove
+support for the home-grown OTP profile &#151;
+instead, you'll need to use the Cyrus SASL profiles.
+Now would be a good time to familiarize yourself with
+<A HREF=ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/cyrus-sasl-2.1.0.tar.gz>Cyrus SASL</A>.</li>
+<li><A HREF=CyrusSASLprofiles.html>Cyrus SASL</A></li>
+<li><A HREF=TheTLSprofile.html>TLS</A></li>
+<li><A HREF=TheNULLECHOandNULLSINKprofiles.html>NULL ECHO/SINK</A></li>
+<li><A HREF=TheSYSLOGreliableRAWprofile.html>SYSLOG reliable RAW</A></li>
+</ul>
+</ul>
+
+<P><!-- keep these here to avoid a bug in the index generator...
+
+<P><!1><A HREF="PROFILE_REGISTRATION.html#DOC.1.1.4.1.1.1">proreg_connection_init</A>
+<!1><A HREF="PROFILE_REGISTRATION.html#DOC.1.1.4.1.1.2">proreg_connection_fin</A>
+<!1><A HREF="PROFILE_REGISTRATION.html#DOC.1.1.4.1.1.4">proreg_session_fin</A>
+<!1><A HREF="PROFILE_REGISTRATION.html#DOC.1.1.4.1.1.5">proreg_greeting_notification</A>
+-->
+
+<P></BLOCKQUOTE>
+<DL><DT><DD></DL><P><P><I><A HREF="index.html">Home</A> <A HREF="index2.html">Alphabetic index</A></I></P><HR>
+<BR>
+This page was generated with the help of <A HREF="http://docpp.sourceforge.net">DOC++</A>.
+</BODY>
+</HTML>
+```
