@@ -1,0 +1,129 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=700" />
+		<meta name="description" lang="en" content="BibDesk project web page" />
+		<meta name="keywords" content="BibDesk, Bibliography, Cite, Citation, Mac, Mac OS X, BibTeX, RIS, PubMed, Z39.50, Google Scholar, Open Source" />
+		<link href="bibdesk.css" rel="stylesheet" type="text/css" media="screen" />
+		<script type="text/javascript" src="ssp-fancyzoom/ssp-fancyzoom.js"></script>
+		<link rel="shortcut icon" href="bibdesk.ico" type="image/x-icon" />
+		<title>BibDesk</title>
+	</head>
+
+	<body onload="setupZoom();">
+	<div id="main">
+		<h1>BibDesk <span id="titlenote">❧ Mac Bibliography Manager</span></h1>
+		
+		<h2 id="downloads">Downloads</h2>
+			<p>
+			<a class="maindownloadlink" href="https://sourceforge.net/projects/bibdesk/files/BibDesk/BibDesk-1.7.9/BibDesk-1.7.9.dmg/download">Current Version</a> v1.7.9 · <a href="relnotes.html">release notes</a> · Mac OS X 10.7 and above
+			</p>
+			
+			<p>
+				<strong>also:</strong> <a href="https://www.dropbox.com/sh/pkt955ttu8vbsdi/E21z4ghXRy/BibDesk">latest nightly builds</a> ·
+				<a href="https://sourceforge.net/projects/bibdesk/files/BibDesk">older builds</a>
+			</p>
+		
+		<h2 id="screenshots">Screenshots</h2>	
+			<a href="#description" class="hidden">Skip Screenshots</a>
+			<ul id="screenshotlist">
+				<li>
+					<a href="screenshots/Publication.png" title="In the publication window you set up the type of each publication (book, article, thesis etc.), give it a unique cite-key for convenient reference and enter the data.<br>
+					In the panel at the right you see previews of the files and web pages associated to the publication. You can drag them there from the Finder or your web browser.">
+						<img src="screenshots/Publication-thumbnail.png" alt="Thumbnail of Publication Window">
+						<span class="title">Publication Editor</span>
+					</a>
+				</li>
+				<li>
+					<a href="screenshots/Main-Window.png" title="BibDesk’s Bibliography window displaying the results of a live search in the middle and the details for the selected publication at the bottom and previews for the files and web pages associated to it at the right. 
+					<br>
+					 There is a ‘source list’ at the left, containing groups, smart groups, shared BibDesk libraries on your network, web pages like PubMed or direct queries of online Bibliography resources.">
+						<img src="screenshots/Main-Window-thumbnail.png" alt="Thumbnail of Bibliography Window">
+						<span class="title">Bibliography</span>
+					</a>
+				</li>
+				<li>
+					<a href="screenshots/Google-Scholar.png" title="BibDesk integrates directly with a number of research related web sites like <a href='http://scholar.google.com/'>Google Scholar</a>, the <a href='http://arxiv.org'>arXiv</a> or <a href='http://hubmed.org/'>HubMed</a>.
+					Browse them in BibDesk’s Web browser and BibDesk will automatically locate the bibliographic references on the pages and import them to your bibliography database with a single click.">
+						<img src="screenshots/Google-Scholar-thumbnail.png" alt="Thumbnail of BibDesk working with Google Scholar">
+						<span class="title">Web search</span>
+					</a>
+				</li>
+			</ul>
+			
+		
+			<h2 id="description">Description</h2>
+			<p>
+				Use BibDesk to edit and manage your bibliography. It will keep track of both the bibliographic information and the associated files or web links for you. BibDesk’s services will simplify using your bibliography in other applications and are particularly well suited for L<span class="latexA">A</span>T<span class="texE">E</span>X users.
+			</p>
+			
+			<p>
+				BibDesk is developed as an open source project and available free of charge. Any contributions to further its development are appreciated.
+			</p>
+			
+			<p>
+				Please visit the <a href="https://sourceforge.net/p/bibdesk/wiki/">BibDesk Wiki</a> or follow the links below for additional information.
+			</p>
+
+		<h2>Features</h2>
+		<ul class="features">
+			<li><a>Manage references				
+				<span class="more">
+					BibDesk’s reference management begins with basic bibliographic data and goes forth to include details like the publication type, abstracts or links to web pages or local files – PDFs or any other kind –  related to the publication. <br>
+					If desired, BibDesk will automatically move and rename these files for you.
+				</span>
+				</a>
+			</li>
+			<li><a>Find references
+				<span class="more">
+					BibDesk’s search field lets you quickly sift through your whole bibliography by instantaneously filtering all the entries for the terms you enter.<br>
+					Advanced options include full text search of all the PDF files associated to your bibliography entries and ‘smart groups’ which you can set up to always show the publications matching certain keywords.
+				</span>
+				</a>
+			</li>
+			<li><a>Import
+				<span class="more">
+					BibDesk comes with a wide range of import features. These begin with simple text files and rich BibT<span class="texE">e</span>X and RIS files which you may already have or can download from many scientific web sites. <br>
+					More advanced features are integration with online resources – which tries to extract bibliographic information from web pages – and direct access to the catalogues of libraries and other publication sites (e.g. PubMed) using protocols like Z39.50 or Entrez.
+				</span>
+				</a>
+			</li>
+			<li><a>Export
+				<span class="more">
+					BibDesk helps you share and publish your bibliographic information. It exports to standard bibliographic formats like RIS, BibT<span class="texE">e</span>X or EndNote and can also provide you with a PDF file or copy rich text to the clipboard that you can paste into your document. <br>
+					In addition to native integration for citation autocompletion with most L<span class="latexA">a</span>T<span class="texE">e</span>X editors, there exist many user contributed scripts which make a wide range of bibliographic chores easy.<br>
+					For online collaboration, BibDesk allows both bibliography sharing with your colleagues and export to HTML and RSS, so everybody can be up-to-date.
+				</span>
+				</a>
+			</li>
+		</ul>
+
+		<div class="links">
+			<h2>Information</h2>
+			<ul>
+			<li><a href="https://sourceforge.net/p/bibdesk/">Project Page</a></li>
+			<li><a href="http://bibdesk.sourceforge.net/manual/">Help Book</a></li>
+			<li><a href="https://sourceforge.net/p/bibdesk/wiki/">Wiki</a></li>
+			<li><a href="https://sourceforge.net/p/bibdesk/wiki/BibDesk_Applescripts">AppleScripts</a></li>
+			<li>Mailing Lists: <a href="https://lists.sourceforge.net/mailman/listinfo/bibdesk-announce">News</a>, <a href="https://lists.sourceforge.net/mailman/listinfo/bibdesk-users">Users</a>, <a href="https://lists.sourceforge.net/mailman/listinfo/bibdesk-develop">Developers</a></li>
+			</ul>
+		</div>
+		
+		
+		<div class="links">
+			<h2>Helping</h2>
+			<ul>
+			<li><a href="https://sourceforge.net/p/bibdesk/bugs/">Report a bug</a> / <a href="https://sourceforge.net/p/bibdesk/feature-requests/">Request a feature</a></li>
+			<li><a href="https://sourceforge.net/p/bibdesk/wiki/Developer_Information">Help developing</a></li>
+			<!--<li><a href="http://sourceforge.net/donate/index.php?group_id=61487">Donate</a></li>-->
+			</ul>
+		</div>
+		
+	</div> <!-- end of  #main -->
+	<p id="foot">
+		❧ Hosted by <a href="http://sourceforge.net/projects/bibdesk">sourceforge.net</a>
+	</p>
+	</body>
+</html>
+```
