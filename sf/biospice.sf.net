@@ -1,0 +1,722 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Bio-SPICE</title></head>
+<body>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><img style="width: 272px; height: 37px;" alt="Bio-SPICE" src="images/title.jpg"></td>
+      <td><a href="http://sourceforge.net/"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=120114&amp;type=2" alt="SourceForge.net Logo" align="right" border="0" height="37" width="125"></a></td>
+    </tr>
+  </tbody>
+</table>
+<span style="font-style: italic;"><img style="width: 1333px; height: 99px;" alt="welcome" src="images/banner_welcome.jpg"></span>
+<p>[<a href="#Mission">Mission</a>] [<a href="#Background">Background</a>] [<a href="#Bio-SPICE_Core">Core Tools</a>] [<a href="#Update_Center">Update Center</a>] [<a href="#Bio-SPICE_Products">Products</a>] [<a href="#Example_Bio-SPICE_Projects">Example Projects</a>] [<a href="http://sourceforge.net/projects/biospice">SourceForge Project Page</a>] [<a href="http://sourceforge.net/project/showfiles.php?group_id=120114">Download</a>] [<a href="#In_Memoriam">In Memoriam</a>]<br>
+</p>
+
+<h1>Bio-SPICE</h1>
+
+<h3 style="font-style: italic;">Biological Simulation Program for Intra- and Inter-Cellular Evaluation</h3>
+
+<p>Bio-SPICE, an open source
+framework and software toolset for Systems Biology, is intended to
+assist biological researchers in the modeling and simulation of
+spatio-temporal processes in living cells. In addition, our goal is to
+develop and serve a user community committed to using, extending, and
+exploiting these tools to further our knowledge of biological
+processes. </p>
+
+<p>In collaboration with other
+Bio-SPICE Community members, we will develop, license, distribute, and
+maintain a comprehensive software environment that integrates a suite
+of analytical, simulation, and visualization tools and services to aid
+biological researchers engaged in building computable descriptions of
+cellular functions. From disparate data analysis and information mining
+to experimental validation
+of computational models of cell systems, our environment will offer a
+comprehensive substrate for efficient research, collaboration, and
+publication.</p>
+
+<h2><a name="Mission"></a>Mission</h2>
+
+Bio-SPICE is intended for modeling and simulation of spatio-temporal
+processes in living cells. The goals of Bio-SPICE are to support
+discovery through:<br>
+
+<ol>
+
+<li>Developing computational and
+mathematical models of bio-molecular systems in cells capturing the
+nature of gene-protein interactions</li>
+<li>Developing tools that can
+rapidly incorporate relevant experimental data and knowledge known in
+the literature to build models of pathways, networks, and spatial
+processes</li>
+<li>Developing simulation tools for the dynamic analysis of bio-molecular systems</li>
+<li>Creating an extensible
+framework for easy insertion of models and their refinement,
+as well as customization to specific mechanisms<br>
+</li>
+</ol>
+
+In addition, our goal is to develop and serve a user community
+committed to using, extending, and exploiting these tools to further our
+knowledge of biological processes. In collaboration with other
+Bio-SPICE Community members, we will develop, license, distribute, and
+maintain a comprehensive software environment that integrates a suite
+of analytical, simulation, and visualization tools and services to aid
+biological researchers engaged in building computable descriptions of
+cellular functions. From disparate data analysis and information mining
+to experimental validation of computational models of cell systems, our
+environment will offer a comprehensive substrate for efficient
+research, collaboration, and publication.<br>
+
+<br>
+
+<h2><a name="Background"></a>Background</h2>
+
+The biological sciences have experienced dramatic growth over the past
+two decades, culminating in the recent completion of a working draft of
+the human genome. This stands as a seminal scientific achievement and
+is indicative of the growing repertoire of available molecular,
+biochemical, and physiological approaches by which investigators can
+elucidate the complex inner-workings of living cells. Research
+hypotheses that were untestable only a short time-period ago are fast
+becoming amenable to the scientific method.<br>
+
+<br>
+
+Originally a DARPA-sponsored program, the goal of Bio-SPICE was to
+apply expertise from the computational and information sciences in
+order to develop in silico simulations that model how various pathogens
+act to disrupt normal cellular processes. The program was transitioned
+to an Open Source project at the conclusion of its DARPA sponsorship in
+December 2006. &nbsp;The project is now hosted by
+<a href="http://sourceforge.net/projects/biospice">SourceForge.net</a>.
+&nbsp;Originally developed under the DARPA BioCOMP license, Bio-SPICE
+is now released under the open-source BSD license. &nbsp;(See license
+below.)<br>
+
+<br>
+
+Original key contributors to Bio-SPICE included: Virginia Polytechnic
+University, University of Pennsylvania, University of Texas, Harvard
+University, University of California, Los Angeles and Berkeley,
+Lawrence Berkeley National Laboratory, California Institute of
+Technology, New York University, Massachusetts Institute of Technology,
+and the Molecular Sciences Institute. The lead integrator for the
+project was <a href="http://www.sri.com">SRI International</a>.<br>
+
+<ul>
+
+<li><a href="documents/bio_release.pdf">Original DARPA Bio-SPICE release announcement</a></li>
+<li><a href="documents/Bio-SPICE_BSD_License.pdf">Bio-SPICE BSD License</a></li>
+<li>Selected publications of the Bio-SPICE project</li>
+<ul>
+<li><a href="documents/sept_omics_issue_1.pdf">OMICS issue 1</a></li>
+<li><a href="documents/dec_omics_issue_2.pdf">OMICS issue 2</a></li>
+</ul>
+</ul>
+
+<h2><a name="Bio-SPICE_Core"></a>Bio-SPICE Core Tools</h2>
+
+The core of the Bio-SPICE application is called the Dashboard. The
+Bio-SPICE Dashboard has an Update Center and allows for different tool
+functionality to be downloaded, data to be specified, and both to be
+integrated into tool chains and work flows for modeling, analysis, and
+simulation. The Dashboard is a Java-based toolkit, but the integrated tools can be
+written in any language. The Dashboard core libraries provide support
+for accessing non-Java tools.<br>
+
+<br>
+
+Follow these links to begin setting up your Bio-SPICE work environment:<br>
+
+<ul>
+
+<li><a href="http://sourceforge.net/project/showfiles.php?group_id=120114">Download</a> the latest Dashboard Installer.</li>
+<li>Read the Dashboard Manual and Release Notes (included with installer)</li>
+<li>Read a tutorial on <a href="http://biospice.sourceforge.net/documentation/Getting_Started_with_BioSpice_Tutorial.pdf">"Getting Started with Bio-SPICE"</a></li>
+</ul>
+
+If you are developing tools for integration into Bio-SPICE, please take a look at the Developer's Manual.<br>
+<br>
+<h2><a name="Update_Center"></a>Update Center</h2>
+
+
+The update center server, formerly hosted by SRI, has been
+discontinued. &nbsp;Please contact individual tool owners for their
+respective tools.<br>
+<br>
+
+<h2><a name="Bio-SPICE_Products"></a>Bio-SPICE Products</h2>
+
+Most Bio-SPICE tools are written to be plugin modules to the Bio-SPICE
+Dashboard. &nbsp;The following is a partial list of tools written for
+Bio-SPICE, with links to the authoring institution, where available.
+&nbsp;Tools are available from a variety of locations. &nbsp;In
+addition to the links below, some tools are available when using the
+Bio-SPICE Dashboard's Update Center wizard. &nbsp;(See the user manual
+for more information.)<br>
+
+<br>
+
+<div style="margin-left: 40px;">
+<div style="margin-left: 40px;"></div>
+</div>
+
+<table style="border-collapse: collapse; width: 275pt; margin-left: 40px;" x:str="" border="0" cellpadding="0" cellspacing="0" width="366">
+
+<col style="width: 204pt;" width="272">
+<col style="width: 71pt;" width="94">
+<tbody><tr style="height: 13.5pt;" height="18">
+<td style="height: 13.5pt; width: 204pt; font-weight: bold;" class="xl26" height="18" width="272">MODULE</td>
+<td class="xl26" style="border-left: medium none; width: 71pt; font-weight: bold;" width="94">INSTITUTION</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl34" style="height: 12.75pt;" height="17">2DGrapher</td>
+<td class="xl25" style="border-left: medium none;">SRI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl29" style="height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">Add Column to Timeseries</a></td>
+<td class="xl25" style="border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl33" style="border-top: medium none; height: 12.75pt;" height="17">Biodata
+Viewer</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">SRI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">BioGrid</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl31" style="border-top: medium none; height: 12.75pt;" height="17">BioMat
+Bridge</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">SRI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://x.amath.unc.edu/BioNetS">BioNets</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UNC</td>
+</tr>
+<tr style="height: 13.5pt;" height="18">
+<td class="xl30" style="border-top: medium none; height: 13.5pt;" height="18"><a href="http://jigcell.biol.vt.edu/parameter.html">BioPack</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">VT</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://www.chemengr.ucsb.edu/%7Eceweb/faculty/doyle/biosens/BioSens.htm">BioSens</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UCSB</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://www.cis.upenn.edu/biocomp/new_html/biosketch.php3">BioSketchPad</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">U Penn/BBN</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17">BioSmokey</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">BioSpreadsheet</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl31" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biowarehouse.ai.sri.com">BioWarehouse</a></td>
+<td class="xl28" style="border-top: medium none; border-left: medium none;">SRI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl31" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biowarehouse.ai.sri.com">BioWarehouse
+Query</a></td>
+<td class="xl28" style="border-top: medium none; border-left: medium none;">SRI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl35" style="height: 12.75pt;" height="17">BioWarehouse2SBML</td>
+<td class="xl24" style="border-top: medium none;">Harvard</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="height: 12.75pt;" height="17"><a href="http://bioinformatics.nyu.edu/Projects/DARPA-BioComp/index.shtml">BioWave</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">NYU</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biodynamics.indiana.edu/CellModeling/AboutCellX.html">Cellx</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">Indiana</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://www.cis.upenn.edu/mobies/charon">Charon</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">U Penn</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://www.dbi.tju.edu/tools/biospice/dbi_tju_feb_23/#cloneupdater">Clone
+Updater</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">TJU</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">CoBi</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">CFDRC</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl31" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">Convert Data to Graph</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 15pt;" height="20">
+<td class="xl33" style="border-top: medium none; height: 15pt;" height="20">DBAgent</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">SRI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">ESS</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://arep.med.harvard.edu/gmc/fba.html">Fluxor Computational Analyzer</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">Harvard</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl32" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://arep.med.harvard.edu/moma/">Fluxor Spreadsheet</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">Harvard</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">FTF</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">GCMConverter</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">GCMMerger</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://ftp.bioinformatics.org/pub/wrair/genecite/">GeneCite</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">WRAIR</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://www.ee.ucla.edu/%7Ericcardo/GeneScreen/">GeneScreen</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UCLA</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://geneways.genomecenter.columbia.edu/">Geneways</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">Columbia</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">Get Column from Timeseries</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">Get Rows from Timeseries</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://genomics.lbl.gov/index.html">Graphviz</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">LBL</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">Graph Viewer</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://genomics.lbl.gov/index.html">Homologue Finder</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">LBL</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://cherokee.stanford.edu/%7Eronojoy/biospice/">Hybrid Automata
+Symbolic Reachability Tool</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">Stanford</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://receptor.seas.ucla.edu/lcDNA/">IcDNA</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UCLA</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://sbw.kgi.edu/">Jdesigner</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">KGI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://jigcell.biol.vt.edu/index.html">Jigcell</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">VT</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl31" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://textmine.cu-genome.org/html/index.html">JournalMine ActionQuery</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">Columbia</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biodynamics.indiana.edu/">Karyote Cell Analyzer (KCA)</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">Indiana</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biodynamics.indiana.edu/CellModeling/AboutKaryote.html">Karyote
+Genome Analyzer (KAGAN)</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">Indiana</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">Merge Timeseries Columns</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">Merge Timeseries Rows</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://www.dbi.tju.edu/dbi/">MetaCluster</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">TJU</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://public.kgi.edu/%7Evchickar/Optimization/optimizationfinal.pdf">MetaTool</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">KGI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">MIAMESpice</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UCLA</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">Model Builder
+Analyzer</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://monod.molsci.org/">Monod</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">MSI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://www.seas.ucla.edu/%7Eliaoj/NCA1.htm">NCA Analyzer</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UCLA</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://bioinformatics.nyu.edu/Projects/index.shtml">NYUMAD</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">NYU</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://bioinformatics.nyu.edu/Projects/index.shtml">NYUSIM</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">NYU</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl31" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">Octave Bridge</a></td>
+<td class="xl28" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl31" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://oscill8.sourceforge.net/">Oscill8 Tools</a></td>
+<td class="xl28" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://www.dbi.tju.edu/dbi/tools/paint/">PAINT</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">TJU</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17">PathwayBuilder</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">LBL</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">PathwayScreen</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">WRAIR</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://www.quantumii.com/qi/qisd2.html">QIS</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">QIS</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl33" style="border-top: medium none; height: 12.75pt;" height="17">PlotML
+Translator</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">SRI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl33" style="border-top: medium none; height: 12.75pt;" height="17">PtPlot</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">SRI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl31" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://www.reactome.org/">Reactome</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">&nbsp;</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">Render Matlab
+Simulation</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">LBL</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">Render SBML</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">LBL</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl33" style="border-top: medium none; height: 12.75pt;" height="17">SAL</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">SRI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">Sample Timeseries</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">SBML TO
+Graphviz Dot</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">LBL</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">SBML to
+PathwayBuilder</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">LBL</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">SBML to
+laid-out Graphviz DOT</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">LBL</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">SBML:SCC to
+PathwayBuilder</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">LBL</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://public.kgi.edu/%7Ecwellock/software.htm">SBWMatlab</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">KGI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biospice.lbl.gov/home.html">SCCFinder</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">LBL</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biospice.lbl.gov/home.html">Sensitivity Analyzer</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">LBL</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://bioinformatics.nyu.edu/Projects/Simpathica/">Simpathica</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">NYU</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://www.cds.caltech.edu/sostools/">SOS Tools</a></td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">Cal Tech</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">Symbolic
+Analysis Toolbox</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">Stanford</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl33" style="border-top: medium none; height: 12.75pt;" height="17">Tab Dlimited
+Text Converter</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">SRI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl33" style="border-top: medium none; height: 12.75pt;" height="17">TableView</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">SRI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl30" style="border-top: medium none; height: 12.75pt;" height="17"><a href="http://biocomp.ece.utk.edu/tools.html">Timeseries to Text</a></td>
+<td class="xl28" style="border-top: medium none; border-left: medium none;">UTK</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl33" style="border-top: medium none; height: 12.75pt;" height="17">TimeSeries To
+ZipFile Converter</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">SRI</td>
+</tr>
+<tr style="height: 12.75pt;" height="17">
+<td class="xl27" style="border-top: medium none; height: 12.75pt;" height="17">Vibrio</td>
+<td class="xl24" style="border-top: medium none; border-left: medium none;">U Penn</td>
+</tr></tbody>
+</table>
+
+<div style="margin-left: 40px;"><br>
+</div>
+
+<br>
+
+<hr style="width: 100%; height: 2px;">
+<h2><a name="Example_Bio-SPICE_Projects"></a><span class="bold">Example Bio-SPICE Projects</span></h2>
+
+<p><a name="top"></a>Experimental systems being studied using Bio-SPICE software include:</p>
+
+<table border="0" cellpadding="0" cellspacing="0" height="53">
+
+<tbody><tr valign="top">
+<td width="283"><ul><li>Bacteriology</li><ul><li> <a href="#sporulation">Sporulation (Bacillus subtilis and Bacillus anthracis sporulation)</a></li><li> Piliation in E.coli</li><li> <a href="#mtb">Mtb Dormancy</a></li><li> Chemotaxis (E.coli and B. subtilis)</li><li> <a href="#bacterial">Bacterial Metabolism</a></li></ul></ul>
+<ul><li>Virology</li><ul><li> Lambda-phage</li><li> <a href="#hiv">HIV - 1</a></li><li>Host-Pathogen Interactions </li><li> Lethal Shock: SEB Induced Apoptosis</li></ul></ul>
+<ul><li>Eukaryotes</li><ul><li> <a href="#cell">Cell Cycle Models</a></li><li> <a href="#planar">Planar Cell Polarity in Drosophila Wings Epithelium</a></li><li> Pheromones </li></ul></ul></td>
+<td width="304"><ul><li>Signal Transduction</li><ul><li> Alliance for Cell Signaling</li><li> Quorum Sensing</li></ul></ul>
+<ul><li>Synthetic Circuits</li><ul><li> Genetic Oscillator Design</li><li> Minimal Cell</li></ul></ul>
+<ul><li>Immunology Related</li><ul><li> <a href="#neutrophil">Neutrophil Chemotaxis</a></li><li><a href="#hiv"> HIV - 1</a></li></ul></ul></td>
+</tr>
+</tbody>
+</table>
+
+<p></p>
+
+<h4><a name="sporulation"></a><span class="bold">Sporulation: Bacillus subtilis and Bacillus anthracis sporulation</span></h4>
+
+<p>
+Using comparative genomics software included as part of the Bio-SPICE
+software, researchers have characterized core elements and variable
+elements (environment specific) across more than 280 spore forming
+species; include Bacillus subtilis and Bacillus anthracis. This has
+provided a starting point for dynamic network analysis, which was
+performed to classify and analyze feedback loops, identify subnetworks
+(motifs) that could be potential control points, and analyze dynamic
+parameterized models. Analysis ranges from elementary modules to full
+system level, with robust identification of system level control
+points. Bio-SPICE software modules are used to identify relevant
+proteins and interactions and use literature searches to filter
+pathways of interest. Importantly, the computational model has been
+validated experimentally.</p>
+
+<img src="images/sporulation.jpg">
+<p class="caption"><small>Bio-SPICE analysis of key switches in sporulation network<br>
+Overall sporulation network: B. subtilis - common across mutants <br>
+Source: Bio-SPICE projects at LBNL (PI: Adam Arkin)</small></p>
+
+<h4><span class="boldunder"><a name="mtb"></a></span><span class="bold">Mtb Dormancy</span></h4>
+
+<p>Bio-SPICE has been used to
+generate an integrated model of metabolic and regulatory network for
+Myobacterium tuberculosis (Mtb). The stringent response is modeled by a
+stochastic hybrid system with integrated metabolic and regulatory
+pathways. The model was verified experimentally both in vivo and in
+vitro. Boundaries of the flux model kinetic parameters have been
+described. The Rel gene has been identified as a critical point, with
+the products regulated by this gene found to be diagnostic markers and
+therapeutic targets. The developed model has been expanded to simulate
+dormancy in other pathogens.</p>
+
+<img src="images/mtb.jpg">
+<p class="caption"><small>Source: Bio-SPICE projects at Univ. of Penn. (PI: Harvey Rubin)</small></p>
+
+<h4><span class="boldunder"><a name="bacterial"></a></span><span class="bold">Bacterial Metabolism</span></h4>
+
+<p>
+This project is developing tools for metabolic analysis and employing
+integrated Bio-SPICE to study how mutant organisms optimize their
+growth rate or minimize their metabolic adjustment relative to the
+wild-type organism. What are the gaps in our knowledge of the
+metabolism of this organism? And how can we re-optimize it for new
+(biotech) goals?</p>
+
+<p>The modeling questions include:
+Given a genome how do we reconstruct metabolism? How do we generate
+optimal models? How do we compute the metabolic capabilities of an
+in-silico representation of an organism? How do we choose a metric for
+minimizing a mutant organism's metabolic adjustment?</p>
+
+<p>How do we integrate predictions with experimental design and data?</p>
+
+<p>Metabolic
+models from this pipeline can be used for any annotated microbial
+genome, e.g., pathogenic Escherichia, Pseudomonas, Yersinia, Bacillus
+and others of concern to the DoD. In addition, the models could be used
+to engineer the production and delivery of biomolecules.</p>
+
+<img src="images/bacterial.jpg">
+<p class="caption"><small>Bio-SPICE Minimization of metabolic adjustment - MOMA<br>
+Source: Bio-SPICE projects at Harvard (PI: George Church)</small></p>
+
+<p class="caption"> </p>
+
+<h4><span class="boldunder"><a name="hiv"></a></span><span class="bold">HIV</span></h4>
+
+<p>In the fight against the HIV
+virus, the elucidation of retroviruses has been key in fighting the
+disease. The lack of current computational models also makes HIV a
+difficult and logical target for malicious engineering. Cell models
+have been developed to design therapeutic retroviruses and predict
+parameters critical to the design of these retroviruses. In HIV, the
+TAT gene has been heavily implicated in whether HIV is latent or
+active. A higher TAT level results in an increased level of mRNA for
+the viral genome. The influence of TAT is though to be even more
+relevant, with measurements obscured by noise.</p>
+
+<p><img src="images/hiv.jpg">
+</p>
+
+<p class="caption"><small>Source: Bio-SPICE projects at LBNL (PI : Adam Arkin)</small></p>
+
+<p>	<img src="images/hiv2.jpg" width="80%">
+</p>
+
+<p class="caption"><small>Source: Bio-SPICE projects at LBNL (PI : Adam Arkin)</small></p>
+
+<p></p>
+
+<h4><a name="cell"></a><span class="bold">Cell Cycle Models</span></h4>
+
+<p>
+A key Bio-SPICE discovery found that cell cycle control could be
+stopped after passing what was conventionally assumed to be the point
+of no return. A critical checkpoint was identified that allows cell
+cycle to be arrested and restarted through control of the cyclin
+pathway. The discovery was made in yeast cells, but a homologous
+pathway was identified in frog cells, cells which are more complex with
+a higher level of differentiation. The homologous pathways consisted of
+similar interactions, but utilized different genes and proteins. The
+computational model developed contained three modules: an oscillatory
+module, based on a delayed negative feedback loop; a switching module,
+based on cooperative removal; and a proteolysis module, based on
+irreversible activation. Cell cycle arrest was predicted and
+experimentally verified. Discoveries such as these open new vistas of
+research, including bacterial growth control, wound-healing, and nerve
+regeneration.</p>
+
+<img src="images/cell.jpg">
+<p class="caption"><small>Bio-SPICE assisting rapid validation of CDK control across organisms <br>
+Cell cycle control: generic model of CDK control developed<br>
+Source: Bio-SPICE projects at VaTech (PI: John Tyson)</small>
+</p>
+
+<h4><span class="boldunder"><a name="planar"></a></span><span class="bold">Planar Cell Polarity in Drosophila Wings Epithelium</span></h4>
+
+<p>
+This project is developing models and tools for predicting the spatial
+pattern on hair formation in drosophila wings and cell differentiation
+in xenopus. Novel stochastic hybrid system models (combining continuous
+and discrete dynamics) of protein concentrations in a network of cells
+are developed to characterize hair pattern formation and the dependence
+on cellular network connectivity and initial conditions. Models use
+robust parameter identification techniques, symbolic computation and
+reachability analysis, and ordinary and partial differential equations
+to represent the system. The role of delta-notch protein concentration
+dynamics in xenopus differentiation, and the role of Fz, Dsh, and Pk
+proteins in drosophila wing hair pattern formation are being studied.</p>
+
+<img src="images/planar.jpg">
+<p class="caption"><small>Bio-SPICE Spatial Models of networks of cells <br>
+Source: Bio-SPICE projects at Stanford Univ. (PI: Claire Tomlin) and at UC Berkeley (PI: Shankar Sastry)</small></p>
+
+<p class="caption">
+</p>
+
+<h4><span class="boldunder"><a name="neutrophil"></a></span><span class="bold">Neutrophil Chemotaxis</span></h4>
+
+<p>Neutrophil chemotaxis has been
+elucidated through three dimensional modeling and simulation, allowing
+reconstruction of the cell shape during location through measurements
+of polarity and chemical localization. Bio-SPICE offers the unique
+ability to perform three dimensional simulation of multi-physical
+systems with one, two, and three dimensional diffusion and changing
+boundary morphology. The simulation model takes into account both
+surface and volume measurements, using partial differential equations
+with stochastic events to model the spatial chemical activity.</p>
+
+<img src="images/neutrophil.jpg">
+<p class="caption"><small>Spatial modeling and simulation essential in many systems <br>
+Source: Bio-SPICE projects at LBNL (PI: Adam Arkin</small>)
+</p>
+
+
+
+<br>
+
+<h2><a name="In_Memoriam"></a>In Memoriam</h2>
+<br>
+<table style="background-color: rgb(153, 153, 255); width: 80%; text-align: left; margin-left: auto; margin-right: auto;" border="1" cellpadding="10" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="background-color: rgb(153, 153, 255);"><span style="font-style: italic;"></span><span style="font-style: italic;"></span><span style="font-style: italic;"></span><span style="font-style: italic;">The Bio-SPICE project &nbsp;is dedicated
+to the memory of our friend and colleague, Charles "John" Pedersen.
+&nbsp;John enthusiastically ran the Bio-SPICE program at SRI during its five
+years as a DARPA project. &nbsp;We miss you John!</span></td>
+      <td><span style="font-style: italic;"><img style="width: 100px; height: 126px;" alt="John Pedersen" src="images/pedersen.jpg"></span></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+</body></html>```
