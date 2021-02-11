@@ -1,0 +1,40 @@
+```<html><head>
+<title>Internal Error</title>
+<style type="text/css">
+
+  body {
+    background: #ffffff;
+    font-family: "Trebuchet MS",sans-serif;
+    text-align: center;
+  }
+  h1 {
+    border-bottom: solid 3px #789078;
+  }
+  h1,p {
+    text-align: left;
+  }
+  table {
+    width: 100%;
+    vertical-align: top;
+    border: 0 none;
+  }
+  tr,td,th {
+    vertical-align: top;
+    border: 0 none;
+  }
+  #box {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  </style>
+</head><body>
+<div id="box">
+<table><tr>
+<td><img src="./images/internal_error.png" alt="Error"></td>
+<td><h1>Internal Server Error</h1><p class="msg">Call to undefined function set_magic_quotes_runtime()</p></td>
+</tr></table>
+</div>
+</body></html>
+```
