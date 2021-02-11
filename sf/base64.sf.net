@@ -1,0 +1,133 @@
+```<html>
+  <head>
+    <title>
+      base64 Project Home Page
+    </title>
+  </head>
+  <body style="margin: 0 auto; background-color:#E6E6FA; width:100%">
+    <div style="margin: 30 auto; background-color:#D0D0E4; width:42em; height:20">
+	<p>&nbsp;</p>
+      <div style="margin: 40 auto; background-color:#E6E6FA; width:40em">
+        <h1>
+          base64
+        </h1>
+        <h2>
+          base64 Source Code in C
+        </h2>
+        <h3>
+          Introduction
+        </h3>
+        <p>
+          This little utility implements the Base64 Content-Transfer-Encoding
+          standard described in RFC1113
+          (http://www.faqs.org/rfcs/rfc1113.html). This is the coding scheme
+          used by MIME to allow binary data to be transferred by SMTP mail.
+        </p>
+        <p>
+          Here is the source code in question: <a href=
+          "http://base64.sourceforge.net/b64.c">b64.c</a>
+        </p>
+        <p>
+          The b64.c code was updated 2012-08-04 to version 0.12R. Only cosmetic
+          changes have taken place since its initial release in 2001. This is
+          now 'production stable', even by the author's standards, as evidenced
+          by the removal of the beta tag :)
+        </p>
+        <p>
+          The sourceforge project page is here: <a href=
+          "https://sourceforge.net/projects/base64/">https://sourceforge.net/projects/base64/</a>
+        </p>
+        <h3>
+          Inspiration
+        </h3>
+        <p>
+          I was attempting to look at a mime attachment in a badly formed
+          e-mail one day.  I needed to convert the Base64 stream to something I
+          could examine. This seemed a trivial problem, but I was not able to
+          find source that was simple to compile correctly and would actually
+          work.  I had been working on a project where code similar to this was
+          in use. I decided that I would create a file similar to what I was
+          looking for and make it available to others. 
+        </p>
+        <h3>
+          Hosting on SourceForge
+        </h3>
+        <p>
+          Hosting on SourceForge gave me a chance to work with their system and
+          (with the luck I was hoping for) allowed the source to take on a life
+          of its own.  The code is available in one form or another in many
+          places now, but if you can't get it here and need it, look me up!
+        </p>
+        <h3>
+          Design Goals
+        </h3>
+        <p>
+          <strong>Specifically:</strong><br />
+          This code is a stand-alone utility to perform base64
+          encoding/decoding. It should be genuinely useful when the need arises
+          and it meets a need that is likely to occur for some users. Code acts
+          as sample code to show the author's design and coding style.
+        </p>
+        <p>
+          <strong>Generally:</strong><br />
+          This program is designed to survive: Everything you need is in a
+          single source file. It compiles cleanly using a vanilla ANSI C
+          compiler. It does its job correctly with a minimum of fuss. The code
+          is not overly clever, not overly simplistic and not overly verbose.
+          Access is 'cut and paste' from a web page. Terms of use are
+          reasonable. 
+        </p>
+        <h3>
+          Hidden Agenda
+        </h3>
+        <p>
+          I was hoping that this little source file wouled have all its bugs
+          isolated and corrected in a single round of testing so that the beta
+          code version 0.00.00B could actually be released as version 0.00.00R
+          and stay there.  It is a real long shot for code to be error, but
+          having reviewed and unit-tested the code, I thought it was a
+          possibility. It is, after all, a relatively simple utility.
+        </p>
+        <p>
+          In the eleven years between posting the code and this writing, where
+          it is finally being released, by me, as release level code, the code
+          has seen wide use in a large variety of places. As of this uploaded
+          version (0.12.00R), no changes have taken place to the code beyond
+          cosmetic changes. The file itself has changed little. Although I
+          *did* get feedback over the years with 'bug' reports, they were all
+          mistaken reports by programmers who had attempted to use internal
+          functions incorrectly. So ... it never was 'broken'.
+        </p>
+        <p>
+          Even though there was no dramatic 'reveal' of a bug, the use this has
+          seen has validated it far better than the original testing. Although
+          absence of proof is famously not proof of absence, a decade of use
+          without a verifiable bug is a good indication that it is 'good
+          enough'.
+        </p>
+        <p>
+          <strong>Thanks for the help:</strong>
+        </p>
+        <p>
+          I am grateful for the many people who have compiled and run unit
+          tests over the years. The code has survived all major operating
+          systems and ports to sibling (say, C++) and cousin (say, Java)
+          languages. It is safe to say that it can be compiled and run on just
+          about any platform that supports a C compiler that is reasonably
+          close to an ANSI standard.
+        </p>
+        <p>
+          Again, the source code is here: <a href=
+          "http://base64.sourceforge.net/b64.c">b64.c</a>
+        </p>
+		<p>
+		<strong>Copyright (C) 2001 Bob Trower</strong> <a href=
+        "http://sourceforge.net"><img src=
+        "http://sourceforge.net/sflogo.php?group_id=32869" width="54" height=
+        "19" border="0" alt="SourceForge Logo" /></a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+```
