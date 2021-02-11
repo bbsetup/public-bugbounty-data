@@ -1,0 +1,807 @@
+```<!doctype html><!-- © 1998 - 2021 DPG Online Services B.V. -->
+<html lang="NL"><head>
+        
+                            <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                                                <meta name="referrer" content="origin-when-cross-origin">
+                            
+                    <title>Balkblog - Tweakers</title>
+        <link rel="navigator" title="Spring voorbij navigatie" href="https://balk.tweakblogs.net/#contentArea">
+
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-Regular.woff2" as="font" type="font/woff2" crossorigin>
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+
+                                            <link rel="shortcut icon" href="https://tweakers.net/favicon.ico" type="image/x-icon">
+                            <link rel="alternate" title="Balkblog - Reacties" type="application/rss+xml" href="https://balk.tweakblogs.net/feed/comments">
+                            <link rel="alternate" title="Balkblog" type="application/rss+xml" href="https://balk.tweakblogs.net/feed/">
+            
+        <script>
+                var relaxedDomain  = 'tweakers.net',
+                    tweakersConfig = {"BaseURL":"https:\/\/balk.tweakblogs.net\/","TnetBaseURL":"https:\/\/tweakers.net\/","ForumBaseURL":"https:\/\/gathering.tweakers.net\/","ImgURL":"https:\/\/tweakers.net\/","sidName":"__Secure-TnetID","UserID":0,"requestId":"Twk-eun-web2_201.26.0_40834_6024d67d200750.60517669","abStatsPath":"\/ajax\/1AKXipQZyfKi6nyNgGJCXwm0eY\/","loginJs":"https:\/\/tweakers.net\/x\/scripts\/min\/login.js?1612781350","loginCss":"https:\/\/tweakers.net\/x\/styles\/profiles\/login.css?1583238942","clickToLoad":false};
+
+                try
+                {
+                    document.domain = relaxedDomain;
+                }
+                catch (e)
+                {
+                    relaxedDomain = '';
+                }
+                document.documentElement.className = 'js';
+            </script>
+        <link rel="stylesheet" href="https://tweakers.net/x/styles/tweakblogs/weblogs.css?1608112821" type="text/css">
+                                        <script src="https://tweakers.net/x/build/runtime.eb309c42.js"></script><script src="https://tweakers.net/x/build/0.c89d5b71.js"></script><script src="https://tweakers.net/x/build/1.3c8535aa.js"></script><script src="https://tweakers.net/x/build/frontpage.f69aca6a.js"></script>
+
+                    <script src="https://tweakers.net/x/scripts/min/general.js?1605696722"></script>
+            <script src="https://tweakers.net/x/scripts/min/weblogs.js?1604565751"></script>
+            <script src="https://tweakers.net/x/scripts/min/rml_toolbar.js?1605522743"></script>
+                    <script>
+            var _wtq=[['_init',{"randomId":"078215767157724","trackId":"318816705845986","trackDomain":"tweakers.net","domain":"tweakers.net;gathering.tweakers.net","cookie":"1","mediaCode":"wt_mc","contentId":"","contentGroup":{"1":"tweakers.net","2":"Tweakblogs"},"executePluginFunction":"wt_urlCampaignMapper;wt_stats_plugin","requestObfuscation":true,"customParameter":{"1":"LG"},"customSessionParameter":{"3":"Geen"}}],['_trackPage']];
+			loadJS('https://tweakers.net/x/scripts/min/IRCEnz.js',AbStats.wtCallBack);
+
+        </script>
+    
+    </head>
+    <body>
+
+    <div id="container">    <div id="tweakblogsNav">
+        <div class="logo"><a href="https://tweakblogs.net/"><img src="https://tweakers.net/g/if/weblogs/tweakblogs.png" width=131 height=20 alt="Tweakblogs"></a></div>
+        <ul>
+            <li><a href="https://tweakblogs.net/">Tweakblogs Home</a></li>
+            <li><a href="https://tweakers.net/">Tweakers</a></li>
+                            <li>
+                    <a href="https://tweakers.net/nieuws/">Nieuws</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/reviews/">Reviews</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/pricewatch/">Pricewatch</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/aanbod/">Vraag &amp; Aanbod</a>
+                </li>
+                            <li>
+                    <a href="https://gathering.tweakers.net/">Forum</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/carriere/">Carri&egrave;re</a>
+                </li>
+                            <li>
+                    <a href="#">Meer</a>
+                </li>
+                    </ul>
+    </div>
+    <div id="banner">
+    
+        
+    <h1><a href="https://balk.tweakblogs.net">Balkblog</a></h1>
+            <span class="subtitle"></span>
+    </div>
+            <p class="breadCrumb">
+                <a href="https://balk.tweakblogs.net/feed/" title="Balkblog" rel="nofollow">
+            <img src="https://tweakers.net/g/if/v2/icons/rss_small.png" width=12 height=12 alt="[RSS]">
+        </a>
+                                <a href="https://balk.tweakblogs.net">            Home            </a>
+            </p>
+<div id="pagebody">
+                <div class="columnwrapper normal">    <div class="content">
+			<div class="blogpost">
+				<h2><a href="https://balk.tweakblogs.net/blog/16775/hoe-ik-mijn-nefit-easy-thermostaat-bedien-met-home-assistant">Hoe ik mijn Nefit Easy thermostaat bedien met Home Assistant</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/2026/" rel="nofollow">balk</a> op dinsdag 25 september 2018 20:29 - <a href="https://balk.tweakblogs.net/blog/16775/hoe-ik-mijn-nefit-easy-thermostaat-bedien-met-home-assistant#reacties">Reacties (3)</a><br>Categorie: -, Views: 12.530
+				</p>
+				<div class="article">Zie <a href="https://gathering.tweakers.net/forum/list_message/56569049#56569049" rel="external">deze post</a>.<br>
+<br>
+Ik wilde onze <a href="https://www.nefit.nl/consument/service/easy/easy#" rel="external nofollow">Nefit Easy</a> kunnen besturen met <a href="https://home-assistant.io" rel="external nofollow">Home Assistant</a>. Maar ik kon geen component vinden die dat mogelijk kon maken. (<a href="https://github.com/marconfus/ha-nefit" rel="external nofollow">er is er intussen wel een</a>).<h5 class="rml" id="part_1">Globale stappen</h5>1) Ik heb de python <a href="https://github.com/robertklep/nefit-easy-http-server" rel="external nofollow">Nefit Easy HTTP Server</a> draaien. Die opent een http server die je kan aanspreken met<br>
+2) Node Red om elke zoveel seconden te informeren wat de status is van de Nefit Easy thermostaat: ingestelde temperatuur, operatie modus en nog wat zaken. De Node Red flow stopt dat in een MQTT topic dat door HASS wordt uitgelezen<br>
+3) Door middel van de Hass Climate MQTT HVAC component heb ik een thermostaat in HASS die de status uitleest van bovenstaande MQTT topics<br>
+4) Ik heb een AppDaemon script dat reageert op een MQTT topic om de temperatuur in te stellen. Dit script roept 3 endpoints van de Nefit Easy HTTP server aan om de temperatuur in te stellen. Vervolgens pollt Node Red weer de HTTP server en wordt de nieuwe ingestelde temperatuur weer aan HASS doorgegeven.<h5 class="rml" id="part_2">Nefit Easy Server</h5>Dit <a href="https://github.com/robertklep/nefit-easy-http-server" rel="external nofollow">pakket</a> praat met de Nefit cloud, waarmee ook de app op mijn telefoon en natuurlijk de thermostaat zelf communiceert.<h5 class="rml" id="part_3">Node Red flow:</h5>Vanuit Node Red wordt elke zoveel seconden de status opgevraagd aan het pyhton script hierboven. De resultaten worden in enkele MQTT telegrammen gestopt voor verdere verwerking.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>[{&quot;id&quot;:&quot;41151e3f.3383e&quot;,&quot;type&quot;:&quot;tab&quot;,&quot;label&quot;:&quot;Nefit&quot;},{&quot;id&quot;:&quot;c03c0e01.75cb3&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;ret&quot;:&quot;txt&quot;,&quot;url&quot;:&quot;http://192.168.0.9:8124/bridge/ecus/rrc/uiStatus&quot;,&quot;tls&quot;:&quot;&quot;,&quot;x&quot;:538.5,&quot;y&quot;:146,&quot;wires&quot;:[[&quot;cdb1fbde.fd35d8&quot;,&quot;5d90adf3.160804&quot;,&quot;28ec33bd.11d44c&quot;,&quot;feecaa72.399178&quot;,&quot;d6366363.501d&quot;,&quot;ae42c889.77b0c8&quot;,&quot;15cc82c4.7d3c8d&quot;]]},{&quot;id&quot;:&quot;85019b50.4bca78&quot;,&quot;type&quot;:&quot;inject&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;&quot;,&quot;payload&quot;:&quot;&quot;,&quot;payloadType&quot;:&quot;date&quot;,&quot;repeat&quot;:&quot;10&quot;,&quot;crontab&quot;:&quot;&quot;,&quot;once&quot;:false,&quot;onceDelay&quot;:&quot;&quot;,&quot;x&quot;:310,&quot;y&quot;:140,&quot;wires&quot;:[[&quot;c03c0e01.75cb3&quot;]]},{&quot;id&quot;:&quot;cdb1fbde.fd35d8&quot;,&quot;type&quot;:&quot;function&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;BAI&quot;,&quot;func&quot;:&quot;var data = JSON.parse(msg.payload);\nmsg.payload = data.value.BAI;\n\n//if (msg === \&quot;No\&quot; or msg === \&quot;CH\&quot; or msg === \&quot;HW\&quot;) {\n    return msg;\n//}&quot;,&quot;outputs&quot;:1,&quot;noerr&quot;:0,&quot;x&quot;:742.5,&quot;y&quot;:146,&quot;wires&quot;:[[&quot;b8c9c4e2.56d2b8&quot;,&quot;db7e1433.7a2d98&quot;]]},{&quot;id&quot;:&quot;b8c9c4e2.56d2b8&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:false,&quot;console&quot;:&quot;false&quot;,&quot;complete&quot;:&quot;false&quot;,&quot;x&quot;:1099.8332824707031,&quot;y&quot;:116.00000667572021,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;15cc82c4.7d3c8d&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:false,&quot;console&quot;:&quot;false&quot;,&quot;complete&quot;:&quot;false&quot;,&quot;x&quot;:871.5,&quot;y&quot;:107,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;5d90adf3.160804&quot;,&quot;type&quot;:&quot;json&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;x&quot;:712.5,&quot;y&quot;:108,&quot;wires&quot;:[[&quot;15cc82c4.7d3c8d&quot;]]},{&quot;id&quot;:&quot;28ec33bd.11d44c&quot;,&quot;type&quot;:&quot;function&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;IHT (measured Temp)&quot;,&quot;func&quot;:&quot;var data = JSON.parse(msg.payload);\nmsg.payload = data.value.IHT;\n\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;noerr&quot;:0,&quot;x&quot;:792.5,&quot;y&quot;:376,&quot;wires&quot;:[[&quot;e912d7a.8d6a428&quot;]]},{&quot;id&quot;:&quot;ebe95643.b53498&quot;,&quot;type&quot;:&quot;mqtt out&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;woonkamer/woonkamer/thermostaat/gemetentemperatuur&quot;,&quot;qos&quot;:&quot;&quot;,&quot;retain&quot;:&quot;true&quot;,&quot;broker&quot;:&quot;716d90a0.a6a12&quot;,&quot;x&quot;:1300,&quot;y&quot;:380,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;dd1ecb0a.adafd8&quot;,&quot;type&quot;:&quot;mqtt out&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;woonkamer/woonkamer/thermostaat/boilerstatus&quot;,&quot;qos&quot;:&quot;&quot;,&quot;retain&quot;:&quot;true&quot;,&quot;broker&quot;:&quot;716d90a0.a6a12&quot;,&quot;x&quot;:1113.5,&quot;y&quot;:154,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;bbb2fc01.b582d&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;ret&quot;:&quot;txt&quot;,&quot;url&quot;:&quot;http://192.168.0.9:8124/bridge/heatingCircuits/hc1/actualSupplyTemperature&quot;,&quot;tls&quot;:&quot;&quot;,&quot;x&quot;:538,&quot;y&quot;:771.6666259765625,&quot;wires&quot;:[[&quot;a17b3b28.bec538&quot;,&quot;811e023b.a9537&quot;]]},{&quot;id&quot;:&quot;95de828.7c3578&quot;,&quot;type&quot;:&quot;inject&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;&quot;,&quot;payload&quot;:&quot;&quot;,&quot;payloadType&quot;:&quot;date&quot;,&quot;repeat&quot;:&quot;60&quot;,&quot;crontab&quot;:&quot;&quot;,&quot;once&quot;:false,&quot;onceDelay&quot;:&quot;&quot;,&quot;x&quot;:329.6666603088379,&quot;y&quot;:770.3333015441895,&quot;wires&quot;:[[&quot;bbb2fc01.b582d&quot;]]},{&quot;id&quot;:&quot;a17b3b28.bec538&quot;,&quot;type&quot;:&quot;function&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;supplytemp&quot;,&quot;func&quot;:&quot;var data = JSON.parse(msg.payload);\nmsg.payload = data.value;\n\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;noerr&quot;:0,&quot;x&quot;:762,&quot;y&quot;:771.6666259765625,&quot;wires&quot;:[[&quot;47cbd323.b8a28c&quot;,&quot;bb7239da.99e638&quot;]]},{&quot;id&quot;:&quot;47cbd323.b8a28c&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:false,&quot;console&quot;:&quot;false&quot;,&quot;complete&quot;:&quot;false&quot;,&quot;x&quot;:791,&quot;y&quot;:871.6666259765625,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;811e023b.a9537&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:false,&quot;console&quot;:&quot;false&quot;,&quot;complete&quot;:&quot;false&quot;,&quot;x&quot;:910,&quot;y&quot;:640,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;2320da2a.17c066&quot;,&quot;type&quot;:&quot;json&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;x&quot;:712,&quot;y&quot;:733.6666259765625,&quot;wires&quot;:[[]]},{&quot;id&quot;:&quot;85524341.08a56&quot;,&quot;type&quot;:&quot;mqtt out&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;woonkamer/woonkamer/thermostaat/supplytemp&quot;,&quot;qos&quot;:&quot;&quot;,&quot;retain&quot;:&quot;true&quot;,&quot;broker&quot;:&quot;716d90a0.a6a12&quot;,&quot;x&quot;:1350,&quot;y&quot;:780,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;feecaa72.399178&quot;,&quot;type&quot;:&quot;function&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;TSP (Temp Setpoint)&quot;,&quot;func&quot;:&quot;var data = JSON.parse(msg.payload);\nmsg.payload = data.value.TSP;\n\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;noerr&quot;:0,&quot;x&quot;:623.75,&quot;y&quot;:471.25,&quot;wires&quot;:[[&quot;d0484361.073b2&quot;,&quot;480a92c5.6b298c&quot;]]},{&quot;id&quot;:&quot;d27d50d0.31f34&quot;,&quot;type&quot;:&quot;mqtt out&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;woonkamer/woonkamer/thermostaat/tempsetpoint&quot;,&quot;qos&quot;:&quot;&quot;,&quot;retain&quot;:&quot;true&quot;,&quot;broker&quot;:&quot;716d90a0.a6a12&quot;,&quot;x&quot;:1170,&quot;y&quot;:460,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;d6366363.501d&quot;,&quot;type&quot;:&quot;function&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;CPM (Clock Program)&quot;,&quot;func&quot;:&quot;var data = JSON.parse(msg.payload);\nmsg.payload = data.value.CPM;\n\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;noerr&quot;:0,&quot;x&quot;:624.4443969726562,&quot;y&quot;:555.5555419921875,&quot;wires&quot;:[[&quot;f87a3188.ba761&quot;]]},{&quot;id&quot;:&quot;358c21bc.ffdfbe&quot;,&quot;type&quot;:&quot;mqtt out&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;woonkamer/woonkamer/thermostaat/clockprogram&quot;,&quot;qos&quot;:&quot;&quot;,&quot;retain&quot;:&quot;true&quot;,&quot;broker&quot;:&quot;716d90a0.a6a12&quot;,&quot;x&quot;:1190,&quot;y&quot;:560,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;5d6fee11.49984&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;ret&quot;:&quot;txt&quot;,&quot;url&quot;:&quot;http://192.168.0.9:8124/api/program&quot;,&quot;tls&quot;:&quot;&quot;,&quot;x&quot;:406.6666564941406,&quot;y&quot;:1009.9999389648438,&quot;wires&quot;:[[&quot;c70461a6.4a46a&quot;,&quot;3b923a34.936356&quot;]]},{&quot;id&quot;:&quot;4bb1ea37.1d2924&quot;,&quot;type&quot;:&quot;inject&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;&quot;,&quot;payload&quot;:&quot;&quot;,&quot;payloadType&quot;:&quot;date&quot;,&quot;repeat&quot;:&quot;&quot;,&quot;crontab&quot;:&quot;&quot;,&quot;once&quot;:false,&quot;onceDelay&quot;:&quot;&quot;,&quot;x&quot;:188.33331680297852,&quot;y&quot;:1008.6666145324707,&quot;wires&quot;:[[&quot;5d6fee11.49984&quot;]]},{&quot;id&quot;:&quot;c70461a6.4a46a&quot;,&quot;type&quot;:&quot;function&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;Active Program&quot;,&quot;func&quot;:&quot;var data = JSON.parse(msg.payload);\nmsg.payload = data.active;\n\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;noerr&quot;:0,&quot;x&quot;:640.6666564941406,&quot;y&quot;:1009.9999389648438,&quot;wires&quot;:[[&quot;a842484d.822288&quot;,&quot;8cf65bdb.a0a548&quot;]]},{&quot;id&quot;:&quot;a842484d.822288&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:false,&quot;console&quot;:&quot;false&quot;,&quot;complete&quot;:&quot;false&quot;,&quot;x&quot;:659.6666564941406,&quot;y&quot;:1109.9999389648438,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;3b923a34.936356&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:false,&quot;console&quot;:&quot;false&quot;,&quot;complete&quot;:&quot;false&quot;,&quot;x&quot;:730,&quot;y&quot;:920,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;3a9e078d.00b1c8&quot;,&quot;type&quot;:&quot;json&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;x&quot;:580.6666564941406,&quot;y&quot;:971.9999389648438,&quot;wires&quot;:[[]]},{&quot;id&quot;:&quot;8cf65bdb.a0a548&quot;,&quot;type&quot;:&quot;mqtt out&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;woonkamer/woonkamer/thermostaat/activeprogram&quot;,&quot;qos&quot;:&quot;&quot;,&quot;retain&quot;:&quot;true&quot;,&quot;broker&quot;:&quot;716d90a0.a6a12&quot;,&quot;x&quot;:991.6666564941406,&quot;y&quot;:1017.9999389648438,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;ae42c889.77b0c8&quot;,&quot;type&quot;:&quot;function&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;BAI&quot;,&quot;func&quot;:&quot;var data = JSON.parse(msg.payload);\nmsg.payload = data.value.BAI;\nif (data.value.BAI === \&quot;No\&quot;) {\n    msg.payload = 0;\n} else if (data.value.BAI === \&quot;CH\&quot;) {\n    msg.payload = 1;\n} else if (data.value.BAI === \&quot;HW\&quot;) {\n    msg.payload = 2;\n}\n\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;noerr&quot;:0,&quot;x&quot;:758,&quot;y&quot;:257,&quot;wires&quot;:[[&quot;af3e35bd.9c8f58&quot;]]},{&quot;id&quot;:&quot;af3e35bd.9c8f58&quot;,&quot;type&quot;:&quot;mqtt out&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;woonkamer/woonkamer/thermostaat/boilerstatus_num&quot;,&quot;qos&quot;:&quot;&quot;,&quot;retain&quot;:&quot;true&quot;,&quot;broker&quot;:&quot;716d90a0.a6a12&quot;,&quot;x&quot;:1200,&quot;y&quot;:260,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;d0484361.073b2&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:false,&quot;console&quot;:&quot;false&quot;,&quot;complete&quot;:&quot;false&quot;,&quot;x&quot;:1115.3332824707031,&quot;y&quot;:227.00000667572021,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;db7e1433.7a2d98&quot;,&quot;type&quot;:&quot;filter&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;property&quot;:&quot;payload&quot;,&quot;propertyType&quot;:&quot;msg&quot;,&quot;asArray&quot;:false,&quot;itemProperty&quot;:&quot;payload&quot;,&quot;itemPropertyType&quot;:&quot;item&quot;,&quot;rules&quot;:[{&quot;t&quot;:&quot;eq&quot;,&quot;v&quot;:&quot;CH&quot;,&quot;vt&quot;:&quot;str&quot;,&quot;output&quot;:1},{&quot;t&quot;:&quot;eq&quot;,&quot;v&quot;:&quot;No&quot;,&quot;vt&quot;:&quot;str&quot;,&quot;output&quot;:1},{&quot;t&quot;:&quot;eq&quot;,&quot;v&quot;:&quot;HW&quot;,&quot;vt&quot;:&quot;str&quot;,&quot;output&quot;:1}],&quot;checkall&quot;:&quot;true&quot;,&quot;outputs&quot;:1,&quot;x&quot;:850,&quot;y&quot;:200,&quot;wires&quot;:[[&quot;dd1ecb0a.adafd8&quot;]]},{&quot;id&quot;:&quot;abbc08dd.ddc508&quot;,&quot;type&quot;:&quot;filter&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;property&quot;:&quot;payload&quot;,&quot;propertyType&quot;:&quot;msg&quot;,&quot;asArray&quot;:false,&quot;itemProperty&quot;:&quot;payload&quot;,&quot;itemPropertyType&quot;:&quot;item&quot;,&quot;rules&quot;:[{&quot;t&quot;:&quot;eq&quot;,&quot;v&quot;:&quot;CH&quot;,&quot;vt&quot;:&quot;str&quot;,&quot;output&quot;:1},{&quot;t&quot;:&quot;eq&quot;,&quot;v&quot;:&quot;No&quot;,&quot;vt&quot;:&quot;str&quot;,&quot;output&quot;:1},{&quot;t&quot;:&quot;eq&quot;,&quot;v&quot;:&quot;HW&quot;,&quot;vt&quot;:&quot;str&quot;,&quot;output&quot;:1}],&quot;checkall&quot;:&quot;true&quot;,&quot;outputs&quot;:1,&quot;x&quot;:880,&quot;y&quot;:260,&quot;wires&quot;:[[]]},{&quot;id&quot;:&quot;e912d7a.8d6a428&quot;,&quot;type&quot;:&quot;filter&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;property&quot;:&quot;payload&quot;,&quot;propertyType&quot;:&quot;msg&quot;,&quot;asArray&quot;:false,&quot;itemProperty&quot;:&quot;payload&quot;,&quot;itemPropertyType&quot;:&quot;item&quot;,&quot;rules&quot;:[{&quot;t&quot;:&quot;nnull&quot;,&quot;output&quot;:1}],&quot;checkall&quot;:&quot;true&quot;,&quot;outputs&quot;:1,&quot;x&quot;:980,&quot;y&quot;:380,&quot;wires&quot;:[[&quot;ebe95643.b53498&quot;]]},{&quot;id&quot;:&quot;480a92c5.6b298c&quot;,&quot;type&quot;:&quot;filter&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;property&quot;:&quot;payload&quot;,&quot;propertyType&quot;:&quot;msg&quot;,&quot;asArray&quot;:false,&quot;itemProperty&quot;:&quot;payload&quot;,&quot;itemPropertyType&quot;:&quot;item&quot;,&quot;rules&quot;:[{&quot;t&quot;:&quot;nnull&quot;,&quot;output&quot;:1}],&quot;checkall&quot;:&quot;true&quot;,&quot;outputs&quot;:1,&quot;x&quot;:840,&quot;y&quot;:480,&quot;wires&quot;:[[&quot;d27d50d0.31f34&quot;]]},{&quot;id&quot;:&quot;f87a3188.ba761&quot;,&quot;type&quot;:&quot;filter&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;property&quot;:&quot;payload&quot;,&quot;propertyType&quot;:&quot;msg&quot;,&quot;asArray&quot;:false,&quot;itemProperty&quot;:&quot;payload&quot;,&quot;itemPropertyType&quot;:&quot;item&quot;,&quot;rules&quot;:[{&quot;t&quot;:&quot;nnull&quot;,&quot;output&quot;:1}],&quot;checkall&quot;:&quot;true&quot;,&quot;outputs&quot;:1,&quot;x&quot;:860,&quot;y&quot;:560,&quot;wires&quot;:[[&quot;358c21bc.ffdfbe&quot;]]},{&quot;id&quot;:&quot;bb7239da.99e638&quot;,&quot;type&quot;:&quot;filter&quot;,&quot;z&quot;:&quot;41151e3f.3383e&quot;,&quot;name&quot;:&quot;&quot;,&quot;property&quot;:&quot;payload&quot;,&quot;propertyType&quot;:&quot;msg&quot;,&quot;asArray&quot;:false,&quot;itemProperty&quot;:&quot;payload&quot;,&quot;itemPropertyType&quot;:&quot;item&quot;,&quot;rules&quot;:[{&quot;t&quot;:&quot;nnull&quot;,&quot;output&quot;:1}],&quot;checkall&quot;:&quot;true&quot;,&quot;outputs&quot;:1,&quot;x&quot;:1000,&quot;y&quot;:780,&quot;wires&quot;:[[&quot;85524341.08a56&quot;]]},{&quot;id&quot;:&quot;716d90a0.a6a12&quot;,&quot;type&quot;:&quot;mqtt-broker&quot;,&quot;z&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;broker&quot;:&quot;192.168.0.9&quot;,&quot;port&quot;:&quot;1883&quot;,&quot;clientid&quot;:&quot;&quot;,&quot;usetls&quot;:false,&quot;compatmode&quot;:true,&quot;keepalive&quot;:&quot;60&quot;,&quot;cleansession&quot;:true,&quot;birthTopic&quot;:&quot;&quot;,&quot;birthQos&quot;:&quot;0&quot;,&quot;birthPayload&quot;:&quot;&quot;,&quot;closeTopic&quot;:&quot;&quot;,&quot;closePayload&quot;:&quot;&quot;,&quot;willTopic&quot;:&quot;&quot;,&quot;willQos&quot;:&quot;0&quot;,&quot;willPayload&quot;:&quot;&quot;}]</pre></div></td></tr></table></div><h5 class="rml" id="part_4">Home Assistant code:</h5>In Home Assistant heb ik een <a href="https://www.home-assistant.io/components/climate.mqtt/" rel="external nofollow">MQTT Climate Component</a> geactiveerd. Die ontvangt de MQTT topics die Node Red produceert, en verstuurt ook het nieuwe set point voor de thermostaat. <br>
+<noscript class="lazycontent"><img src="https://tweakers.net/ext/f/u8TmJ16qvOf1eGjX1RAF4rhT/full.png" class="rml" width="375" height="513" alt="https://tweakers.net/ext/f/u8TmJ16qvOf1eGjX1RAF4rhT/full.png" title="https://tweakers.net/ext/f/u8TmJ16qvOf1eGjX1RAF4rhT/full.png"></noscript><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="phphighlightcode"><div><pre>climate:
+- platform: mqtt
+  name: Woonkamer
+  current_temperature_topic: &quot;woonkamer/woonkamer/thermostaat/gemetentemperatuur&quot;
+  temperature_command_topic: &quot;woonkamer/woonkamer/thermostaat/temperature/set&quot;
+  temperature_state_topic: &quot;woonkamer/woonkamer/thermostaat/tempsetpoint2&quot;
+  mode_state_topic: &quot;woonkamer/woonkamer/thermostaat/boilerstatus&quot;
+  modes:
+    - &quot;No&quot;
+    - &quot;HW&quot;
+    - &quot;CH&quot;
+  min_temp: 10
+  max_temp: 25
+  intial: 15
+  retain: True</pre></div></td></tr></table></div><br>
+Ik heb ook een paar sensoren aangemaakt om met de volgende stap te praten.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+</pre></td><td class="phphighlightcode"><div><pre>sensors:
+- platform: mqtt
+  name: &#39;wk_boilerstatus&#39;
+  state_topic: &quot;woonkamer/woonkamer/thermostaat/boilerstatus&quot;
+- platform: mqtt
+  name: &#39;wk_thermostaat_pv&#39;
+  unit_of_measurement: &#39;°C&#39;
+  state_topic: &quot;woonkamer/woonkamer/thermostaat/gemetentemperatuur&quot;
+- platform: mqtt
+  name: &#39;wk_thermostaat_hass_sp&#39;
+  unit_of_measurement: &#39;°C&#39;
+  state_topic: &quot;woonkamer/woonkamer/thermostaat/temperature/set&quot;
+- platform: mqtt
+  name: &#39;thermostaat_activeprogram&#39;
+  state_topic: &quot;woonkamer/woonkamer/thermostaat/activeprogram&quot;
+- platform: mqtt
+  name: &#39;thermostaat_tempsetpoint_raw&#39;
+  state_topic: &quot;woonkamer/woonkamer/thermostaat/tempsetpoint&quot;</pre></div></td></tr></table></div><h5 class="rml" id="part_5">Appdaemon script 1</h5>De Nefit Easy Server spuugt soms een 'undefined' uit en die moet ik er uit filteren. Dat gebeurt met dit AppDaemon script:<br>
+<div class="code">Python:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_kn">import</span> <span class="code_nn">appdaemon.plugins.hass.hassapi</span> <span class="code_kn">as</span> <span class="code_nn">hass</span>
+
+<span class="code_k">class</span> <span class="code_nc">thermostaat_raw</span><span class="code_p">(</span><span class="code_n">hass</span><span class="code_o">.</span><span class="code_n">Hass</span><span class="code_p">):</span>
+    <span class="code_k">def</span> <span class="code_nf">initialize</span><span class="code_p">(</span><span class="code_bp">self</span><span class="code_p">):</span>
+
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">listen_state</span><span class="code_p">(</span><span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">inputhandler</span><span class="code_p">,</span> <span class="code_s2">&quot;sensor.thermostaat_tempsetpoint_raw&quot;</span><span class="code_p">)</span>
+
+
+    <span class="code_k">def</span> <span class="code_nf">inputhandler</span><span class="code_p">(</span><span class="code_bp">self</span><span class="code_p">,</span> <span class="code_n">entity</span><span class="code_p">,</span> <span class="code_n">attribute</span><span class="code_p">,</span> <span class="code_n">old</span><span class="code_p">,</span> <span class="code_n">new</span><span class="code_p">,</span> <span class="code_n">kwargs</span><span class="code_p">):</span>
+        <span class="code_n">reading</span> <span class="code_o">=</span> <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">get_state</span><span class="code_p">(</span><span class="code_s2">&quot;sensor.thermostaat_tempsetpoint_raw&quot;</span><span class="code_p">)</span>
+        <span class="code_c1">#self.log(reading)</span>
+        <span class="code_k">if</span> <span class="code_n">reading</span> <span class="code_o">!=</span> <span class="code_s2">&quot;undefined&quot;</span><span class="code_p">:</span>
+            <span class="code_k">try</span><span class="code_p">:</span>
+                <span class="code_n">temp_sp_thermostaat</span> <span class="code_o">=</span> <span class="code_nb">float</span><span class="code_p">(</span><span class="code_n">reading</span><span class="code_p">)</span>
+                <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_s2">&quot;float: &quot;</span> <span class="code_o">+</span> <span class="code_n">reading</span> <span class="code_p">)</span>
+                
+                <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">call_service</span><span class="code_p">(</span><span class="code_s2">&quot;mqtt/publish&quot;</span><span class="code_p">,</span> <span class="code_n">topic</span><span class="code_o">=</span><span class="code_s2">&quot;woonkamer/woonkamer/thermostaat/tempsetpoint2&quot;</span><span class="code_p">,</span> <span class="code_n">payload</span><span class="code_o">=</span><span class="code_n">temp_sp_thermostaat</span><span class="code_p">,</span> <span class="code_n">retain</span><span class="code_o">=</span><span class="code_bp">True</span><span class="code_p">)</span>
+                
+
+            <span class="code_k">except</span><span class="code_p">:</span>
+                <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_s2">&quot;error in: reading&quot;</span> <span class="code_o">+</span> <span class="code_n">reading</span><span class="code_p">)</span></pre></div></td></tr></table></div><h5 class="rml" id="part_6">Appdaemon Script 2</h5>Dit script zet een nieuw (in hass ingesteld) set point door naar de thermostaat. Het roept drie endpoints aan, zoals beschreven in <a href="https://github.com/robertklep/nefit-easy-http-server/issues/10" rel="external nofollow">dit bericht</a> op github.<br>
+<div class="code">Python:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+</pre></td><td class="phphighlightcode"><div><pre><span class="code_kn">import</span> <span class="code_nn">appdaemon.plugins.hass.hassapi</span> <span class="code_kn">as</span> <span class="code_nn">hass</span>
+
+<span class="code_kn">import</span> <span class="code_nn">requests</span>
+
+<span class="code_k">class</span> <span class="code_nc">thermostaat_mqtt</span><span class="code_p">(</span><span class="code_n">hass</span><span class="code_o">.</span><span class="code_n">Hass</span><span class="code_p">):</span>
+    <span class="code_k">def</span> <span class="code_nf">initialize</span><span class="code_p">(</span><span class="code_bp">self</span><span class="code_p">):</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">listen_state</span><span class="code_p">(</span><span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">program_enable</span><span class="code_p">,</span> <span class="code_s2">&quot;input_boolean.nefit_programma&quot;</span><span class="code_p">,</span><span class="code_n">new</span><span class="code_o">=</span><span class="code_s2">&quot;on&quot;</span><span class="code_p">)</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">listen_state</span><span class="code_p">(</span><span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">inputhandler</span><span class="code_p">,</span> <span class="code_s2">&quot;sensor.wk_thermostaat_hass_sp&quot;</span><span class="code_p">)</span>
+
+
+    <span class="code_k">def</span> <span class="code_nf">inputhandler</span><span class="code_p">(</span><span class="code_bp">self</span><span class="code_p">,</span> <span class="code_n">entity</span><span class="code_p">,</span> <span class="code_n">attribute</span><span class="code_p">,</span> <span class="code_n">old</span><span class="code_p">,</span> <span class="code_n">new</span><span class="code_p">,</span> <span class="code_n">kwargs</span><span class="code_p">):</span>
+        <span class="code_n">temp_sp_hass</span> <span class="code_o">=</span> <span class="code_nb">float</span><span class="code_p">(</span><span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">get_state</span><span class="code_p">(</span><span class="code_s2">&quot;sensor.wk_thermostaat_hass_sp&quot;</span><span class="code_p">))</span>
+
+        <span class="code_n">headers</span> <span class="code_o">=</span> <span class="code_p">{</span><span class="code_s1">&#39;Content-type&#39;</span><span class="code_p">:</span> <span class="code_s1">&#39;application/json&#39;</span><span class="code_p">}</span>
+        <span class="code_n">myurl</span> <span class="code_o">=</span> <span class="code_s2">&quot;http://192.168.0.9:8124&quot;</span>
+        <span class="code_n">command1</span> <span class="code_o">=</span> <span class="code_s2">&quot;/bridge/heatingCircuits/hc1/temperatureRoomManual&quot;</span>
+        <span class="code_n">command2</span> <span class="code_o">=</span> <span class="code_s2">&quot;/bridge/heatingCircuits/hc1/manualTempOverride/status&quot;</span>
+        <span class="code_n">command3</span> <span class="code_o">=</span> <span class="code_s2">&quot;/bridge/heatingCircuits/hc1/manualTempOverride/temperature&quot;</span>
+
+        <span class="code_n">body1</span> <span class="code_o">=</span> <span class="code_n">temp_sp_hass</span>
+        <span class="code_n">body2</span> <span class="code_o">=</span> <span class="code_s2">&quot;on&quot;</span>
+        <span class="code_n">body3</span> <span class="code_o">=</span> <span class="code_n">temp_sp_hass</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_s2">&quot;new setpoint &amp; command:&quot;</span><span class="code_p">)</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_n">body1</span><span class="code_p">)</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_n">body2</span><span class="code_p">)</span>
+
+
+        <span class="code_n">r1</span> <span class="code_o">=</span> <span class="code_n">requests</span><span class="code_o">.</span><span class="code_n">post</span><span class="code_p">(</span><span class="code_n">myurl</span><span class="code_o">+</span><span class="code_n">command1</span><span class="code_p">,</span> <span class="code_n">verify</span><span class="code_o">=</span><span class="code_bp">False</span><span class="code_p">,</span> <span class="code_n">json</span><span class="code_o">=</span><span class="code_p">{</span><span class="code_s2">&quot;value&quot;</span><span class="code_p">:</span> <span class="code_n">body1</span><span class="code_p">},</span> <span class="code_n">headers</span> <span class="code_o">=</span> <span class="code_n">headers</span><span class="code_p">)</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_n">r1</span><span class="code_o">.</span><span class="code_n">status_code</span><span class="code_p">)</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_n">r1</span><span class="code_o">.</span><span class="code_n">text</span><span class="code_p">)</span>
+
+        <span class="code_n">r2</span> <span class="code_o">=</span> <span class="code_n">requests</span><span class="code_o">.</span><span class="code_n">post</span><span class="code_p">(</span><span class="code_n">myurl</span><span class="code_o">+</span><span class="code_n">command2</span><span class="code_p">,</span> <span class="code_n">verify</span><span class="code_o">=</span><span class="code_bp">False</span><span class="code_p">,</span> <span class="code_n">json</span><span class="code_o">=</span><span class="code_p">{</span><span class="code_s2">&quot;value&quot;</span><span class="code_p">:</span> <span class="code_n">body2</span><span class="code_p">},</span> <span class="code_n">headers</span> <span class="code_o">=</span> <span class="code_n">headers</span><span class="code_p">)</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_n">r2</span><span class="code_o">.</span><span class="code_n">status_code</span><span class="code_p">)</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_n">r2</span><span class="code_o">.</span><span class="code_n">text</span><span class="code_p">)</span>
+
+        <span class="code_n">r3</span> <span class="code_o">=</span> <span class="code_n">requests</span><span class="code_o">.</span><span class="code_n">post</span><span class="code_p">(</span><span class="code_n">myurl</span><span class="code_o">+</span><span class="code_n">command3</span><span class="code_p">,</span> <span class="code_n">verify</span><span class="code_o">=</span><span class="code_bp">False</span><span class="code_p">,</span> <span class="code_n">json</span><span class="code_o">=</span><span class="code_p">{</span><span class="code_s2">&quot;value&quot;</span><span class="code_p">:</span> <span class="code_n">body3</span><span class="code_p">},</span> <span class="code_n">headers</span> <span class="code_o">=</span> <span class="code_n">headers</span><span class="code_p">)</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_n">r3</span><span class="code_o">.</span><span class="code_n">status_code</span><span class="code_p">)</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_n">r3</span><span class="code_o">.</span><span class="code_n">text</span><span class="code_p">)</span>
+
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">call_service</span><span class="code_p">(</span><span class="code_s2">&quot;input_boolean/turn_off&quot;</span><span class="code_p">,</span> <span class="code_n">entity_id</span><span class="code_o">=</span><span class="code_s2">&quot;input_boolean.nefit_programma&quot;</span><span class="code_p">)</span>
+
+
+
+
+
+    <span class="code_k">def</span> <span class="code_nf">program_enable</span><span class="code_p">(</span><span class="code_bp">self</span><span class="code_p">,</span> <span class="code_n">entity</span><span class="code_p">,</span> <span class="code_n">attribute</span><span class="code_p">,</span> <span class="code_n">old</span><span class="code_p">,</span> <span class="code_n">new</span><span class="code_p">,</span> <span class="code_n">kwargs</span><span class="code_p">):</span>
+
+        <span class="code_n">headers</span> <span class="code_o">=</span> <span class="code_p">{</span><span class="code_s1">&#39;Content-type&#39;</span><span class="code_p">:</span> <span class="code_s1">&#39;application/json&#39;</span><span class="code_p">}</span>
+        <span class="code_n">myurl</span> <span class="code_o">=</span> <span class="code_s2">&quot;http://192.168.0.9:8124&quot;</span>
+        <span class="code_n">command2</span> <span class="code_o">=</span> <span class="code_s2">&quot;/bridge/heatingCircuits/hc1/manualTempOverride/status&quot;</span>
+
+        <span class="code_n">body2</span> <span class="code_o">=</span> <span class="code_s2">&quot;off&quot;</span>
+
+
+        <span class="code_n">r2</span> <span class="code_o">=</span> <span class="code_n">requests</span><span class="code_o">.</span><span class="code_n">post</span><span class="code_p">(</span><span class="code_n">myurl</span><span class="code_o">+</span><span class="code_n">command2</span><span class="code_p">,</span> <span class="code_n">verify</span><span class="code_o">=</span><span class="code_bp">False</span><span class="code_p">,</span> <span class="code_n">json</span><span class="code_o">=</span><span class="code_p">{</span><span class="code_s2">&quot;value&quot;</span><span class="code_p">:</span> <span class="code_n">body2</span><span class="code_p">},</span> <span class="code_n">headers</span> <span class="code_o">=</span> <span class="code_n">headers</span><span class="code_p">)</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_n">r2</span><span class="code_o">.</span><span class="code_n">status_code</span><span class="code_p">)</span>
+        <span class="code_bp">self</span><span class="code_o">.</span><span class="code_n">log</span><span class="code_p">(</span><span class="code_n">r2</span><span class="code_o">.</span><span class="code_n">text</span><span class="code_p">)</span></pre></div></td></tr></table></div></div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://balk.tweakblogs.net/blog/14657/co2-meter-met-mh-z19">CO2 Meter met MH-Z19</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/2026/" rel="nofollow">balk</a> op zondag  9 april 2017 21:00 - <a href="https://balk.tweakblogs.net/blog/14657/co2-meter-met-mh-z19#reacties">Reacties (1)</a><br>Categorie: -, Views: 6.630
+				</p>
+				<div class="article"><h4 class="rml" id="part_1"><span style="color:#ff0000"><b>DEZE BLOG IS NOG NIET AF</b></span></h4>maar er was wat vraag naar. <small>dus ik heb em maar online gezet</small><br>
+<br>
+In <a href="https://gathering.tweakers.net/forum/list_messages/1609383" rel="external">dit topic</a> wordt veel gesproken over het uitlezen van  CO2 sensoren en met name de MH-Z19 is populair. Op het grote wijde web kon ik echter niet heel duidelijk vinden hoe ik het nou aan de praat kan krijgen.<br>
+<br>
+Wat ik heb:<br>
+- een Wemos D1 mini<br>
+- een MH-Z19b<br>
+- een computer (Mac)<br>
+- een Linux server met een MQTT service<br>
+Die laatste twee zijn optioneel<br>
+<br>
+Je kunt ook een andere ESP module gebruiken, dan moet je de pin nummers even corrigeren in de code.<h4 class="rml" id="part_2">Stap 1 - Prepareer software</h4>Installeer de <a href="https://www.arduino.cc/en/Main/Software" rel="external nofollow">Arduino IDE</a> op je computer (1.8.2 op dit moment, ik kreeg de online versie niet aan de praat). Genoeg howtos te vinden. Als je beginneling bent is het verstandig om eerst met de Wemos te spelen die sketches als Blink te laden.<h4 class="rml" id="part_3">Stap 2 - Sluit de sensor aan</h4>Sluit de sensor en de Wemos op elkaar aan als volgt:<br>
+<table class="rml" cellspacing="0" cellpadding="2"><tr><td>MH-Z19 Tx</td><td>&#8594; Wemos pin D8</td></tr><tr><td>MH-Z19 Rx</td><td>&#8594; Wemos pin D7</td></tr><tr><td>MH-Z19 gnd</td><td>&#8594; Wemos gnd pin</td></tr><tr><td>MH-Z19 vcc</td><td>&#8594; Wemos 3.3V pin</td></tr></table><br>
+Het moet er dan ongeveer zo uit zien:<h4 class="rml" id="part_4">Stap 3 - Laad de software</h4>Ik ben begonnen met <a href="https://github.com/jehy/arduino-esp8266-mh-z19-serial" rel="external nofollow">deze sketch</a>, en heb er de <a href="https://github.com/jehy/arduino-esp8266-mh-z19-serial/pull/2/commits/d77f4a39a5d548c573ecfe6d74fe3f30e83214e4" rel="external nofollow">LCD support uit gesloopt</a>.<br>
+<br>
+Laad dit in de Arduino software. In de Arduino IDE kun je een serial terminal openen en de bezigheden van je thing volgen:<h4 class="rml" id="part_5">Stap 4 (optioneel) - Een stapje verder</h4>Ik wil graag met MQTT aan de slag. Daarom gebruik ik <a href="https://github.com/marvinroger/homie-esp8266" rel="external nofollow">Homie</a>. <a href="https://github.com/marvinroger/homie-esp8266/archive/develop.zip" rel="external nofollow">Download</a> hier de dev branch, en plaats deze in de Arduino library directory.<br>
+<br>
+Vervolgens kun je verder met het script van <a href="https://gathering.tweakers.net/forum/list_message/50458569#50458569" rel="external">Houthakker</a>. Download <a href="https://github.com/theeuwke/Co2Sensor" rel="external nofollow">deze sketch en library</a>.<br>
+<br>
+Laad nu deze sketch. Ik had wat problemen met het aanpassen van de settings van Homie. <a href="http://esp8266.github.io/Arduino/versions/2.3.0/doc/filesystem.html#uploading-files-to-file-system" rel="external nofollow">Door deze instructies te volgen</a> kun je vanuit de Arduino IDE op de Wemos laden. In de serial monitor kun je nu volgen waar er gebeurt.<h4 class="rml" id="part_6">Stap 5</h4>Op mijn Linux server draait Mosquitto. De Wemos poept nu elke zoveel seconden via MQTT een gemeten CO2 waarde uit. Die waarde wordt door Home Assistant opgepikt. Uiteindelijke doel is om mechanische ventilatie er mee te sturen.</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://balk.tweakblogs.net/blog/14421/script-om-p1-metingen-in-mysql-database-naar-dsmr-reader-api-te-sturen">Script om P1 metingen in MySQL database naar DSMR-Reader API te sturen</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/2026/" rel="nofollow">balk</a> op vrijdag 27 januari 2017 13:19 - <a href="https://balk.tweakblogs.net/blog/14421/script-om-p1-metingen-in-mysql-database-naar-dsmr-reader-api-te-sturen#reacties">Reacties (5)</a><br>Categorie: -, Views: 8.254
+				</p>
+				<div class="article">Ik heb een script geschreven om P1 meet data uit een MySQL database te trekken en naar een <a href="https://github.com/dennissiemensma/dsmr-reader/issues/226" rel="external nofollow">DSMR-reader database</a> te sturen. <br>
+<br>
+/edit: ik heb de code een beetje aangepast want de overgang van winter naar zomertijd liep niet lekker. Dus nu maar handmatig de overgang ingevuld. Voor een jaar data moet je het script misschien wel drie keer draaien, telkens met een andere set datums. Op de nacht van de overgang van zomer naar wintertijd of andersom knip ik van middernacht tot zeven uur 's ochtends er uit. Gewoon om er zeker van te zijn dat het goed gaat.<br>
+<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+</pre></td><td class="phphighlightcode"><div><pre>#!/usr/bin/python
+import MySQLdb
+import MySQLdb.cursors
+import sys
+from datetime import datetime
+import time
+import requests  # Tested with requests==2.9.1
+
+
+
+
+db = MySQLdb.connect(host=&quot;localhost&quot;,    # your host, usually localhost
+                     user=&quot;root&quot;,         # your username
+                     passwd=&quot;xxx&quot;,  # your password
+                     db=&quot;p1&quot;,cursorclass=MySQLdb.cursors.SSCursor)        # name of the data base
+
+# you must create a Cursor object. It will let
+#  you execute all the queries you need
+cur = db.cursor()
+
+nmin = 0
+nmax = 5 # used for testing; I did not want to print 400,000 records every time :-)
+
+
+# Select the latest meter readings from database
+query = (&quot;SELECT `p1_timestamp`, `p1_meterreading_in_1`, `p1_meterreading_in_2`, `p1_current_tariff`, `p1_current_power_in`, `p1_channel_1_timestamp`,`p1_channel_1_meterreading` FROM `p1_log` WHERE `p1_timestamp` BETWEEN %s AND %s &quot;)
+
+
+datum1 = datetime(2016,10,31,7)
+datum2 = datetime(2017,2,1,0)
+
+
+cur = db.cursor()
+results = cur.execute(query, (datum1,datum2))
+
+rows = cur.fetchone()
+n = 0
+while rows is not None:
+    n = n+1
+
+    if n &gt;= nmin: #and n &lt;= nmax:
+
+            p1_timestamp = rows[0]
+            p1_meterreading_in_1 = rows[1]
+            p1_meterreading_in_2 = rows[2]
+            p1_current_tariff = rows[3]
+            p1_current_power_in = rows[4]
+            p1_channel_1_timestamp = rows[5]
+            p1_channel_1_meterreading = rows[6]
+           
+            # create timestamps in the right format
+            eyear = p1_timestamp.strftime(&quot;%Y&quot;)[2:4]
+            emonth = p1_timestamp.strftime(&quot;%m&quot;)
+            eday = p1_timestamp.strftime(&quot;%d&quot;)
+            ehour = p1_timestamp.strftime(&quot;%H&quot;)
+            emin = p1_timestamp.strftime(&quot;%M&quot;)
+            esec = p1_timestamp.strftime(&quot;%S&quot;)
+            gyear = p1_channel_1_timestamp.strftime(&quot;%Y&quot;)[2:4]
+            gmonth = p1_channel_1_timestamp.strftime(&quot;%m&quot;)
+            gday = p1_channel_1_timestamp.strftime(&quot;%d&quot;)
+            ghour = p1_channel_1_timestamp.strftime(&quot;%H&quot;)
+            gmin = p1_channel_1_timestamp.strftime(&quot;%M&quot;)
+            gsec = p1_channel_1_timestamp.strftime(&quot;%S&quot;)
+            
+           # create meter readings in the right format
+            p1_meterreading_in_1 = &quot;{:.3f}&quot;.format(p1_meterreading_in_1).rjust(9, &#39;0&#39;)
+            p1_meterreading_in_2 = &quot;{:.3f}&quot;.format(p1_meterreading_in_2).rjust(9, &#39;0&#39;)
+            p1_current_power_in = &quot;{:.3f}&quot;.format(p1_current_power_in).rjust(6, &#39;0&#39;)
+            p1_current_tariff =str(p1_current_tariff)
+            p1_channel_1_meterreading = &quot;{:.3f}&quot;.format(p1_channel_1_meterreading).rjust(9, &#39;0&#39;)
+            gtime = gyear+gmonth+gday+ghour+gmin+esec
+
+            
+           # create the telegram (DSMR 2.2!)
+            telegram_string = &#39;&#39;.join([
+                &quot;/XMX5XMXABCE000043811\r\n&quot;,
+                &quot;\r\n&quot;,
+                &quot;0-0:1.0.0(&quot;+etime+&quot;)\r\n&quot;,
+                &quot;0-0:96.1.1(xxx)\r\n&quot;,
+                &quot;1-0:1.8.1(&quot;+p1_meterreading_in_1+&quot;*kWh)\r\n&quot;,
+                &quot;1-0:1.8.2(&quot;+p1_meterreading_in_2+&quot;*kWh)\r\n&quot;,
+                &quot;1-0:2.8.1(00000.000*kWh)\r\n&quot;,
+                &quot;1-0:2.8.2(00000.000*kWh)\r\n&quot;,
+                &quot;0-0:96.14.0(000&quot;+p1_current_tariff+&quot;)\r\n&quot;,
+                &quot;1-0:1.7.0(&quot;+p1_current_power_in+&quot;*kW)\r\n&quot;,
+                &quot;1-0:2.7.0(0000.00*kW)\r\n&quot;,
+                &quot;0-0:96.13.1()\r\n&quot;,
+                &quot;0-0:96.13.0()\r\n&quot;,
+                &quot;0-1:96.1.0(xxx)\r\n&quot;,
+                &quot;0-1:24.1.0(03)\r\n&quot;,
+                &quot;0-1:24.3.0(&quot;+gtime+&quot;)(00)(60)(1)(0-1:24.2.0)(m3)\r\n&quot;,
+                &quot;(&quot;+p1_channel_1_meterreading+&quot;)\r\n&quot;,
+                &quot;!000\r\n&quot;,
+
+
+
+            ])
+
+            #print telegram_string
+
+                #Register telegram by simply sending it to the application with a POST request.
+                response = requests.post(
+                    &#39;http://192.168.0.8/api/v1/datalogger/dsmrreading&#39;,
+                    headers={&#39;X-AUTHKEY&#39;: &#39;xxx&#39;},
+                    data={&#39;telegram&#39;: telegram_string},
+
+                # You will receive a status 200 when successful.
+                if response.status_code != 200:
+                    # Or you will find the error (hint) in the reponse body on failure.
+                    print(&#39;Error: {}&#39;.format(response.text))
+
+                
+    #            print &quot;end of telegram: &quot;, n
+
+
+    rows = cur.fetchone()
+    #rows = cur.fetchmany(size=100)
+cur.close()
+db.close()</pre></div></td></tr></table></div></div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://balk.tweakblogs.net/blog/14387/thermodynamisch-model-van-je-huis">Thermodynamisch model van je huis</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/2026/" rel="nofollow">balk</a> op woensdag 18 januari 2017 02:29 - Reageren is niet meer mogelijk<br>Categorie: -, Views: 2.788
+				</p>
+				<div class="article">Ik wil in deze post een theoretisch thermodynamisch model beschrijven van een huis. Wellicht kan iemand dit gebruiken om z'n eigen thermostaat te tunen. Let wel: ik heb dit niet zelf geïmplementeerd!<h4 class="rml" id="part_1">Warmtebalans</h4>Over elk object kun je een wamtebalans opstellen, dus ook over een huis:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>Qin - Quit = accumulatie , deltaQ, toename van wamteinhoud (1)</pre></div></td></tr></table></div><br>
+Waarbij Q = warmtestroom [Watt]<br>
+Wat? Alles wat er in gaat, en er niet uit gaat, hoopt er in op. Als je huis 15°C is, heb je veel energie nodig om je huis en alles er in op te warmen. Als je huis op temperatuur is hoeft de cv ketel maar een beetje te stoken. Dat komt omdat deltaQ dan 0 is. Er is geen toename meer van de warmteinhoud van je huis. Alle warmte die je in je huis stopt verlies je ook weer aan de omgeving.<h4 class="rml" id="part_2">Warmteverlies <i>Quit</i></h4>Warmteverlies is een functie van drie factoren:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>Quit = U * A * deltaT (2)</pre></div></td></tr></table></div><br>
+Waarbij<ul><li>U = warmteoverdrachtscoefficient [Joule/m<sup>2</sup>/°C], afhankelijk van hoe goed je huis is geïsoleerd en van de windsnelheid buiten, en onbekend.</li><li>A = oppervlak van je huis [m<sup>2</sup>], ligt vast (tenzij je een verbouwing uitvoert of een extra kamer gaat verwarmen)</li><li>deltaT = temperatuur verschil tussen binnen en buiten [°C], kun je meten</li><li>Quit = warmteverlies [W]</li></ul>Hoe kunnen we Quit en U bepalen?<h4 class="rml" id="part_3">Warmtetoevoer [Qin]</h4>Wanneer een huis in steady-state is (constante temperatuur), zal Quit gelijk zijn aan Qin volgens (1). En Qin kun je berekenen aan de hand van het gasverbruik! Tijdens een periode van constante temperatuur dien je het verbruik te meten, en de buitentemperatuur. De <a href="https://nl.wikipedia.org/wiki/Verbrandingswarmte" rel="external nofollow">energetische onderwaarde (LHV)</a> van Slochters aardgas is <a href="https://nl.wikipedia.org/wiki/Verbrandingswarmte#Verbrandingswarmten_van_enkele_stoffen" rel="external nofollow">31,65 MJ/m<sup>3</sup></a>. Dus als je in twee uur 0,1 m<sup>3</sup> hebt verbruikt komt dat neer op een gasverbruik van 440 Watt. Bij een rendement van de ketel van 107% (ja dat kan!) heb je dus een warmtetoevoer Qin van 470 Watt. En dat is ook je Quit. Doe hetzelfde bij een andere kamertemperatuur en bij voorkeur met behulp van een stookseizoen aan data. Zorg dat je geen douche of kookactiviteiten hebt tijdens de meting.<h4 class="rml" id="part_4">Warmteoverdracht <i>U*A</i></h4>Bereken nu voor elk datapunt, met behulp van de binnen- en buitentemperatuur. Daarmee kun je U*A berekenen. Je zult zien dat dit geen constante is. Als het waait zal je meer warmte verliezen. Dus eigenlijk wil je voor elk datapunt ook de windsnelheid wx hebben. Die kun je met de <a href="https://www.wunderground.com/weather/api/" rel="external nofollow">wunderground API</a> binnentrekken of zelf meten. <div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>Q= U*A*c*wx * deltaT</pre></div></td></tr></table></div> zou dan moeten kloppen. Hier is <i>c</i> een empirische factor.<br>
+<br>
+Als je je warmteoverdracht kunt voorspellen weet je dus ook hoeveel energie je verliest op een willekeurige dag.<h4 class="rml" id="part_5">Accumulatie</h4>Hoeveel warmte heb je nodig om van de ene stabiele temperatuur naar de andere te gaan? Je moet een deel van de lucht in het huis opwarmen. Bijvoorbeeld de woonkamer en keuken naar 20°C en de overige vertrekken naar gemiddeld 18°C. De <a href="http://www.engineeringtoolbox.com/air-properties-d_156.html" rel="external nofollow">warmte capaciteit</a> <i>Cp</i> van droge lucht is 1,006 kJ/kg/°C, de <a href="https://en.wikipedia.org/wiki/Density_of_air" rel="external nofollow">dichtheid van droge lucht</a> is in dit temperatuur gebied ongeveer 1,21 kg/m<sup>3</sup>. Dus om 100 m<sup>3</sup> droge lucht 5°C op te warmen heb je 608,6 kJoule nodig. Als je dit in een half uur doet is dat 338 Watt. Maar lucht is niet droog. <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Kinetic/relhum.html" rel="external nofollow">Lucht van 20°C en 60% vochtigheid</a> bevat 0,010 kg waterdamp per kubieke meter. Dat is 1 kg in onze ruimte van 100 m<sup>3</sup> en kost 9300 kJ om 5°C op te warmen. Als die hoeveelheid energie in een half uur aanvoert is dat 5 Watt.<br>
+<br>
+Zo kun je ook verder gaan voor muren, ramen, waterbedden en andere grote objecten.<h4 class="rml" id="part_6">Toepassing</h4>Wat kun je hier nu mee?<ol type="i" class="list-lower-roman"><li>Een schatting maken van de tijd die een ketel nodig heeft om bij een vast vermogen een huis op te warmen. Of</li><li>Een schatting maken van het benodigde vermogen van de ketel om in een bepaalde tijd het huis op te warmen.</li></ol>En dat natuurlijk als functie van de buitentemperatuur, binnentemperatuur, luchtvochtigheid en windsnelheid.<br>
+<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>Afgegeven vermogen Qin [W] = warmteverlies Quit [W] + opwarmwarmte Hacc [J] / opwarmtijd t [s]</pre></div></td></tr></table></div><br>
+<br>
+Het hangt af van je ketel of je een vermogen kunt regelen zodat je met een vaste opwarmtijd kunt werken, of dat je ketel volle bak gaat bij warmtevraag (aan/uit regeling bijvoorbeeld), of volgens een voorspelbare curve.<br>
+<br>
+Ik hoop dat dit wat inzicht geeft in huis tuin en keuken thermodynamica en dat iemand zijn of haar voordeel er mee kan doen. Vragen? Opmerkingen? Onduidelijkheden?</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://balk.tweakblogs.net/blog/14361/nas-aan-en-uit-wanneer-macbook-aan-en-uit-is">NAS aan en uit wanneer MacBook aan en uit is</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/2026/" rel="nofollow">balk</a> op zaterdag  7 januari 2017 13:50 - <a href="https://balk.tweakblogs.net/blog/14361/nas-aan-en-uit-wanneer-macbook-aan-en-uit-is#reacties">Reacties (10)</a><br>Categorie: -, Views: 6.638
+				</p>
+				<div class="article">Ik heb een Intel D510MO met twee HDD's draaiend op Debian. Dit ding is vooral een backup server voor de MacBook die hier in huis rondslingert. Het verbruik is ongeveer 20W en dat zijn natuurlijk weggegooide wattjes wanneer we slapen of werken.<br>
+<br>
+Vanaf de Mac stuur ik elk uur een incremental backup met behulp van <a href="https://bombich.com" rel="external nofollow">CCC</a> naar de NAS. Het ene uur grote bestanden naar een share. Het andere uur kleine bestanden naar een image op een share. Kleine files? zaken als de Aperture library van 90 GB en enkele 100.000en files. Grote files? zaken als de raw foto bestanden.<br>
+<br>
+Ik had eens ergens een script vandaan gehaald dat zorgde dat de NAS automatisch aan gaat als een bepaalde computer aan gaat, aan blijft als deze aan is, en weer uit gaat als die computer uit gaat. Bron is weg, dus ik herhaal hier schaamteloos de scriptjes.<h4 class="rml" id="part_1">1. Wake on Lan</h4>In het BIOS van mijn NAS moest ik Wake On Lan activeren.<h4 class="rml" id="part_2">2. Wek de NAS wanneer MacBook ontwaakt</h4>Met behulp van <a href="http://www.bernhard-baehr.de/" rel="external nofollow">Sleepwatcher</a> laat ik een script draaien wanneer de laptop wakker wordt. Dit staat in het bestand <i>~/.wakeup</i>.<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="phphighlightcode"><div><pre>#!/bin/bash
+
+
+/usr/bin/perl /path/to/wol.pl --mac xx:xx:xx:xx:xx:xx
+
+/bin/sleep 120
+
+# vul IP van server in
+/usr/bin/ssh 192.x.x.x &#39;/bin/echo $(/bin/date +%s)  &gt; /path/to/folder/wake/upmark&#39;</pre></div></td></tr></table></div><br>
+<br>
+Dit [url=]http://www.cpan.org/authors/id/S/SR/SRAMKI/]Wake on lan script[/] heb je nodig om met perl de NAS te WoL'en. Dit script heeft enkele dependencies. Installeer die ook.<br>
+<br>
+Op de NAS moet je ook een (door de user beschrijfbare) directory aanmaken. Die van mij staat in ~/wake. Maak daarin een bestand upmark:<br>
+<div class="cmd"><pre>touch ~/wake/upmark</pre></div><br>
+Bovenstaand script zal de NAS wakker schudden en twee minuten later de tijd schrijven naar ~/wake/upmark.<h4 class="rml" id="part_3">3. Hou de NAS wakker (kant van de Mac)</h4>Ik heb op de Mac het volgende script: ticker.sh<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="phphighlightcode"><div><pre>#!/bin/bash
+
+ip=&quot;192.168.0.NAS&quot; # IP of NAS
+
+if ! ping -c 1 -W 5 &quot;$ip&quot; &amp;&gt;/dev/null ; then
+
+echo &quot;$ip is down, they&#39;re all going to laugh at you!&quot;
+/usr/bin/perl /path/to/wol.pl --mac xx:xx:xx:xx:xx:xx
+/bin/sleep 120
+else
+echo &quot;$ip is up&quot;
+fi
+
+/usr/bin/ssh 192.168.0.NAS &#39;/bin/echo $(/bin/date +%s)  &gt; /path/to/wake/upmark&#39;
+#$(/bin/date +%s)</pre></div></td></tr></table></div><br>
+Met behulp van <a href="http://www.soma-zone.com/LaunchControl/" rel="external nofollow">Launcontrol</a> roep ik elk kwartier dit script aan:<br>
+<a href="https://tweakers.net/ext/f/1waU6qyuWHUAAjNFFr97GSjS/full.png" rel="external"><noscript class="lazycontent"><img src="https://tweakers.net/ext/f/1waU6qyuWHUAAjNFFr97GSjS/medium.png" class="rml" width="234" height="176" alt="ticker.sh" title="ticker.sh"></noscript></a><h4 class="rml" id="part_4">4. Hou de NAS wakker (kant van de NAS)</h4>Op de NAS, installeer <span class="mono">pm-utils</span> en test de correcte werking. Het laat je NAS hibernaten, dit schrijft de inhoud van je RAM naar schijf en de NAS gaat helemaal uit.<br>
+<br>
+Creëer het bestand <span class="mono">/path/to/wake/keepawake.sh</span><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+</pre></td><td class="phphighlightcode"><div><pre>#!/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+file=&quot;/path/to/wake/upmark&quot;
+LOGPATH=&quot;/path/to/wake/log_wake.log&quot;
+
+timestamp() {
+  /bin/date
+}
+
+mactime=$(/bin/cat &quot;$file&quot;)
+now=$(/bin/date +%s)
+
+#deltat=`/usr/bin/expr $(/bin/date +%s)-$mactime`
+deltat=$(($now  - $mactime))
+limit=1200
+
+/bin/echo $deltat
+/bin/echo $limit
+
+if (( deltat &gt; limit ));
+then
+        # hibernate
+        /bin/echo &quot;$(timestamp): system hibernated&quot; &gt;&gt; $LOGPATH
+#       /bin/systemctl hibernate
+        /usr/bin/sudo /usr/sbin/pm-hibernate
+        exit
+else
+        # do nothing
+        
+        /bin/echo &quot;$(timestamp): system kept awake, delta is $deltat&quot; &gt;&gt; $LOGPATH
+        exit
+fi</pre></div></td></tr></table></div><br>
+Als user:<br>
+<div class="cmd"><pre>crontab -e</pre></div><br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>5,20,35,50 * * * * /path/to/wake/keepawake.sh</pre></div></td></tr></table></div><br>
+Dit roept elk uur, 5 minuten nadat er een ticker binnen is gekomen van de Mac, het script op dat de huidige tijd met de ticker tijd vergelijkt. Is er geen ticker binnengekomen? Dan is de Mac offline en kan de NAS gaan slapen.</div>
+			</div><div class="pageIndex"><div class="floatright"><a href="https://balk.tweakblogs.net/blog/page/2">Oudere posts</a> &raquo;</div></div></div><div class="sidebar">
+        <div id="loginFrame">
+            <h2 class="top">Inloggen</h2>
+            <p>Login met je  <a href="https://tweakblogs.net/login/?location=https%3A%2F%2Fbalk.tweakblogs.net%2F">Tweakers profiel</a>.</p>
+        </div>
+		<div class="recentPosts">
+			<h4>Recente posts</h4><ul class="ellipsis"><li><a href="https://balk.tweakblogs.net/blog/16775/hoe-ik-mijn-nefit-easy-thermostaat-bedien-met-home-assistant" title="Hoe ik mijn Nefit Easy thermostaat bedien met Home Assistant (3)">Hoe ik mijn Nefit Easy thermostaat bedien met Home Assistant (3)</a></li><li><a href="https://balk.tweakblogs.net/blog/14657/co2-meter-met-mh-z19" title="CO2 Meter met MH-Z19 (1)">CO2 Meter met MH-Z19 (1)</a></li><li><a href="https://balk.tweakblogs.net/blog/14421/script-om-p1-metingen-in-mysql-database-naar-dsmr-reader-api-te-sturen" title="Script om P1 metingen in MySQL database naar DSMR-Reader API te sturen (5)">Script om P1 metingen in MySQL database naar DSMR-Reader API te sturen (5)</a></li></ul>
+		</div>
+		<div class="categories">
+			<h4>Categorieën</h4><p>Er zijn nog geen categorieën beschikbaar.</p>
+		</div>
+		<div class="archives">
+			<h4>Archieven</h4><ul id="archiveList"><li class="open"><b>2018</b> (1)<ul class="ulChild"><li><a href="https://balk.tweakblogs.net/blog/archief/2018/09/">sep 2018</a> (1)</li></ul></li><li><b>2017</b> (4)<ul class="ulChild"><li><a href="https://balk.tweakblogs.net/blog/archief/2017/04/">apr 2017</a> (1)</li><li><a href="https://balk.tweakblogs.net/blog/archief/2017/01/">jan 2017</a> (3)</li></ul></li><li><b>2016</b> (1)<ul class="ulChild"><li><a href="https://balk.tweakblogs.net/blog/archief/2016/05/">mei 2016</a> (1)</li></ul></li></ul><script type="text/javascript">weblogFolderTree('archiveList');</script>
+		</div>
+		<div class="about">
+			<h4>About</h4>
+			<p></p>
+			<ul>
+				<li class="user"><a href="https://tweakers.net/gallery/2026/" rel="nofollow">Profiel op Tweakers</a></li>
+			</ul>
+		</div></div>
+</div>
+            </div>
+
+        </div>    <script>
+                if(window.BehaviourManager)BehaviourManager.exec();
+            </script>
+    <noscript>
+                    <img src="https://tweakers.net/318816705845986/wt?p=328,&amp;cg1=tweakers.net&amp;cg2=Tweakblogs&amp;cp1=LG" width="1" height="1" alt="" style="display:none">
+            </noscript>
+
+<!--
+Request ID: Twk-eun-web2_201.26.0_40834_6024d67d200750.60517669
+Env: frontpage-production
+Server time: 0,0245 s (C: 0,0168 s, Q: 5; 0,0075 s, E: 1; 0,0210 s, M: 2; 0,0038 s, A: 0; 0,0000 s)
+Mem: 6318 KB
+
+Engines: (S) twk-eun-nosql2 (1)
+-->
+        
+    </body>
+</html>
+```
