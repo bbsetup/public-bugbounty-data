@@ -1,0 +1,157 @@
+```<!--#include file="start.sht" -->
+
+<!-- ************************** -->
+<!-- ******* Center menu ******** -->
+<!-- ************************** -->
+
+
+<p class="hd0">Welcome to the Home of BioEra!</p>
+<p>
+<p class="hd2">What is BioEra?</p>
+BioEra is a visual designer for analyzing bio-signals in real time. It can be used with any bio-feedback device that has ability to send bio data to computer.<br><br>
+</p>
+
+
+<!-- ******** Pictures ********** -->
+
+<center><table valign="center" align="center" style="width:98%;">
+<tr>
+	<td>
+		<p class="hd13">BioEra on PocketPC</p>
+		<table>
+			<tr>
+				<td>
+					<a href="pda020.jpg"><img src="pda020_small.jpg" border="0"></a>
+				</td>
+				<td>
+					<table CELLSPACING="2" CELLPADDING="2">
+						<tr>						
+							<td><a href="pdaimages/pda5.jpg"><img src="pdaimages/pda5_s.gif" border="0"></a></td>
+						</tr>
+						<tr>
+							<td><a href="pdaimages/pda1.jpg"><img src="pdaimages/pda1_s.gif" border="0"></a></td>
+						</tr>
+						<tr>						
+							<td><a href="pdaimages/pda3.jpg"><img src="pdaimages/pda3_s.gif" border="0"></a></td>
+						</tr>
+						<tr>						
+							<td><a href="pdaimages/pda4.jpg"><img src="pdaimages/pda4_s.gif" border="0"></a></td>
+						</tr>
+					</table>					
+				</td>
+			</tr>
+		</table>
+	</td>
+	<td>
+		<p class="hd13">Teeth grinding 3D graph</p>
+		<a href="grind2.gif"><img src="grind2_small.gif" border="0"></a>
+	</td>
+</tr>
+</table>
+</center>
+
+<!-- ******** End of pictures ********** -->
+
+<p class="hd2">What is it for?</p>
+<p>
+	BioEra provides environment and tools to create various types of processing tasks. It can be used for anything like research, games, self exploration, entrainment, sound processing or even video analyzer/mixer. Each task is contained in a design. To create a design, no programming skill is required, only understanding of the whole process and its requirements.<br><br>
+</p>
+<p class="hd2">How it works?</p>
+<p>
+	BioEra provides mechanisms to create custom designs. Each design represents signal flow from input (e.g. biofeedback device) to output (e.g. visual or sound feedback). The flow can be customized with using over 120 built-in objects (elements) in visual designer. For example the amplitude of alpha brainwaves can be filtered from input EEG signal, then at certain threshold it can trigger MIDI, video or a computer task. There are hundreds built-in functions that can be used in a design.<br><br>
+</p>
+<p class="hd2">Is BioEra for biofeedback only?</p>
+<p>
+	Biofeedback is primary goal for BioEra, but in fact it can be used for any type of digital signal processing (DSP).<br><br>
+</p>
+<p class="hd2">On which OS BioEra can run?</p>
+<p>
+BioEra has been confirmed to work on <a href="grind2.gif">Windows XP</a>, <a href="/gallery/os/redhat-linux.png">Linux</a>, <a href="/gallery/os/mac_os_x.jpg">Mac OS X </a>, <a href="pda020.jpg">PocketPC PDA</a> and <a href="/gallery/os/pda_linux.jpg">linux PDA</a>. It should work as well on other systems if java is supported.<br><br>
+</p>
+<p class="hd2">What can be done with BioEra?</p>
+<p>
+BioEra provides highest performance, flexibility and options not found in any other software. It can easily process dozens of channels simultaneously and in real time, many types of biofeedback devices can be operated together all in the same time. It has been tested for up to 4 million loops per second on Pentium 4, 2.4GHz processor. <br><br>Most popular features: <br>
+</p>
+<ul>
+<li> Process digital signals in real time. This includes operations on :
+<ul>
+  <li> Scalar streams (like sounds or signals from devices), 
+  <li> Logical streams
+  <li> Vectors
+  <li> Complex values streams
+  <li> Matrixes
+  <li> Images, 
+  <li> Other objects
+</ul>
+<li> Graphic visualisation
+<ul>
+  <li> Oscilloscope, Polygraph
+  <li> Vector display
+  <li> 3D and 2D graphics in real time
+  <li> Video and audio in real time
+  <li> Text messages
+  <li> Images
+  <li> Numeric values
+  <li> Box display, bar display, progress bar
+</ul>
+<li> Perform wide range of transforms
+<ul>
+  <li> FFT (on real or complex values)
+  <li> Digital filtering (with Butterworth, Bessel and Chebyshev filters).
+  <li> Arithmetic operations (add, subtract, multiply, modulo etc).
+  <li> Mixing, concatenations, windowing, multiplexing, range mapping, threshold
+  <li> Cross correlation (on scalar or vector streams)
+  <li> Operations on complex numbers, matrixes and images
+</ul>
+<li> Source code evaluation, can be used as expression evaluator.
+<li> Pattern recognition with neural network and back propagation learning algorithm.
+<li> Store/retrieve data in files (archivization)
+<li> Interaction with user
+<ul>
+  <li> Buttons (instant or toggle)
+  <li> Sliders
+  <li> Text/numeric fields 
+  <li> Keyboard
+  <li> Interactive controls: toolbar icons, toolabar combos, menu items, MouseInteractor, KeyInteractor, SystemIntractor
+</ul>
+<li> Exchange data across computer network like Internet or LAN: NetworkServer and NetworkClient (built on sockets)
+<li> Support for data exchange with other applications
+<ul>
+  <li> Write/read sound files (like wav) to allow further processing in sound editors
+  <li> Save data in text files that can be then imported into Excel, Matlab or databases.
+  <li> Save/import to/from PCM, EDF and custom encoded formats.
+</ul>
+<li> 
+Artificial signal generation: Generator, Simulator 
+<li> 
+Stream control:
+<ul>
+  <li> Decimator, Resampler, Valve, Selector, Sequencer, Demultiplexer, Threshold and many others
+</ul>
+<li> Support for time domain: Timer, TimeRange, Counter, RateLimitter, CounterRatio
+<li> Rich support for processing on vectors.
+<li> Real time image processing and <a href="/gallery/results/image_recognition2.gif ">image recognition</a> with ImageMixer, ImageSequencer, ImageDisplay, ImageTransform, VideoImageSource and others
+<li> Suport for hardware devices (listed on the right side)
+<li> Logical operations: AND, OR, XOR, etc.
+<li> Sound feedback
+<ul>
+  <li> MIDI
+  <li> Sampled sound files
+  <li> Mathematically calculated and generated sounds
+</ul>
+<li> Sound and video recording and synchronization with bio-signal recording
+</li><ul>
+  <li> Microphone
+  <li> Video camera (webcam)
+</ul>
+<li> SignalParameters on element level, several devices can work simultaneously also if they have different signal parameters (like rate, range etc)
+<li> Others: 
+<ul>
+  <li> Orbital (planet) animation
+</ul>
+</ul>
+<br><br>
+</p>
+
+<!--#include file="end.sht" -->
+```
