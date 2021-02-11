@@ -1,0 +1,342 @@
+```<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+	<style type="text/css">
+		body {
+			font-family: "Courier New"; font-size: 13px; color: #000000;
+			background-image: url("bc2conn-bg.jpg");
+			background-repeat: no-repeat;
+			background-position: top left;
+			background-attachment: fixed;
+		}
+
+		h1.title {
+			font-size: 22px; font-weight: bold; color: #000000;
+			padding-bottom: 20px;
+		}
+
+		h2.title {
+			font-size: 20px; font-weight: bold; color: #000000;
+			padding: 0;
+		}
+
+		a:link, a:active, a:visited {
+			color: #0078FF;
+			text-decoration: none;
+			border-bottom: 1px dotted #9F9F9F;
+		}
+
+		a:hover {
+			color: #0078FF;
+			text-decoration: none;
+			border-bottom: 1px solid transparent;
+		}
+
+		a:focus {
+			outline-style: none;
+		}
+
+		span.bold {
+			font-weight: bold;
+		}
+
+		span.underline {
+			text-decoration: underline;
+		}
+
+		span.grey {
+			color: #f9f9f9;
+		}
+
+		span.infoblock {
+			display: block;
+			margin-left: 40px;
+			padding: 10px;
+			text-align: justify;
+			width: 400px;
+			color: #555555;
+		}
+
+		p.bodytext {
+			margin: 0;
+			padding: 0 0 20px;
+		}
+
+		pre.verList {
+			padding: 0 0 30px 30px;
+			margin: 0;
+		}
+
+		img {
+			border: 0;
+		}
+
+		form {
+			display: inline;
+		}
+		
+		div#don {
+			position: relative;
+			width: 400px;
+			padding: 10px;
+			border: 3px solid #cccccc;
+			background-color: #eeeeee;
+			margin-bottom: 30px;
+		}
+	</style>
+
+	<title>BC2Conn v1.06 RC3 - PHP class for communicating with a Battlefield Bad Company 2 gameserver</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="This is the project page of the BC2Conn PHP class for communicating with a Battlefield Bad Company 2 gameserver." />
+	<meta name="keywords" content="BC2Conn, BFBC2, Bad Company 2, Battlefield, RCON" />
+	<meta name="author" content="JLNNN &lt;JLN@hush.ai&gt;" />
+	<meta name="robots" content="index,follow" />
+	<link rel="shortcut icon" href="favicon.ico" />
+
+</head>
+<body>
+
+<h1 class="title">BC2Conn v1.06 RC3 - PHP class for communicating with a Battlefield Bad Company 2 gameserver</h1>
+
+<p class="bodytext">
+	<span class="bold underline">Download:</span>
+
+	<a href="https://sourceforge.net/projects/bc2conn/">BC2Conn_v1.06_RC3</a> - Ready for server version <span class="bold">R28</span>
+	<br /><br />
+
+	You can find the <span class="bold">API</span> <a href="API/">here</a>.
+	<br /><br />
+
+	Features coming <a href="TODO.txt">soon</a>.
+	<br /><br />
+</p>
+
+<div id="don">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	<p class="bodytext" style="padding: 0 !important;">
+		If you like what I did, please do me a favour and donate me some euros.<br />
+		I'm coding this project in my freetime, and I've to pay servers and so on. Thank you!<br /><br />
+		<input type="hidden" name="cmd" value="_s-xclick" />
+		<input type="hidden" name="hosted_button_id" value="U6RNY3J5KAE58" />
+		<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+		<img alt="" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
+		<br /><br />
+		Check out the latest <a href="http://bc2conn.sourceforge.net/board/viewtopic.php?f=18&t=16">donations</a>.
+	</p>
+</form>
+</div>
+
+<h2 class="title">Important:</h2>
+
+<p class="bodytext">
+	Visit the <span class="bold"><a href="board/">official BC2Conn message board</a></span>!
+	<br /><br /><br />
+</p>
+
+<p class="bodytext">
+	<span class="bold underline">Information:</span><br /><br />
+	
+	<span class="infoblock"><span class="bold">BC2Conn</span> is a PHP written class for developers who want to build their 
+	own webinterfaces or services to administrate their gameservers. It is 
+	also possible to create webpages just with reading server information so 
+	that you can display them on your site. It comes along with an <span class="bold">API</span> - 
+	developers who aren't that deeply involved into PHP can easily 
+	understand what to do and use the given features, too. Other features 
+	included are the XML files, which include the current map / team / 
+	playmode / squad names. It's easy to add new content without touching 
+	the main class. The next step planned is to implement the eventhandling 
+	to receive messages sent from the gameservers ..</span><br /><br />
+	
+	If you think that the <span class="bold">BC2Conn</span> PHP class is useful, please post a link to this page for your users.<br />
+	And a big THX to all the people posting news about the <span class="bold">BC2Conn</span> PHP class on their pages :)<br />
+	<br />
+	If you want to contact me, just send me an E-Mail in English or German: <script type="text/javascript">document.write(atob("PGEgaHJlZj0ibWFpbHRvOkpMTkBodXNoLmFpP1N1YmplY3Q9QkMyQ29ubiUyMENvbnRhY3QiPkpMTkBodXNoLmFpPC9hPg=="));</script> <noscript><span class="underline bold">JLN 'at' hush 'dot' ai</span></noscript>
+	<br /><br />
+</p>
+
+<p class="bodytext">
+	<span class="bold underline">Official threads:</span><br /><br />
+	
+	<!--<a href="http://www.bfbc2admin.com/phpbb/viewtopic.php?f=9&amp;t=220&amp;start=0">http://www.bfbc2admin.com/phpbb/viewtopic.php?f=9&amp;t=220&amp;start=0</a> <span class="bold">(English)</span><br />-->
+	<a href="http://www.fpsadmin.com/forum/showthread.php?t=20045">http://www.fpsadmin.com/forum/showthread.php?t=20045</a> <span class="bold">(English)</span><br />
+	<a href="http://www.bf-games.net/forum/index.php?showtopic=45896">http://www.bf-games.net/forum/index.php?showtopic=45896</a> <span class="bold">(German)</span><br />
+	<a href="http://www.f7c-foren.de/showthread.php?t=68234">http://www.f7c-foren.de/showthread.php?t=68234</a> <span class="bold">(German)</span>
+	<br /><br />
+</p>
+
+<p class="bodytext" id="changelogToggle">
+	<span class="bold underline">Changelog:</span>
+	<br />
+</p>
+<div id="changelogs">
+<pre class="verList">
+<span class="bold">v1.06 (08.02.2011)</span>
+* R28 support
+* updated maxNames.xml
+* added maps for Battlefield Bad Company 2: Vietnam
+* changed getMapNames() to compare case insensitive mapnames
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.05 (01.08.2010)</span>
+* R17 support
+* updated maxNames.xml
+* included R17 functionality
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.04 (10.06.2010)</span>
+* R13 support
+* added some new features introduced with R13
+* fixed minor bugs
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.03 (24.04.2010)</span>
+* R11 support
+* added some requested features (see board for more information)
+* added option to turn on/off caching of some serverdata
+* added function to ban players by GUID
+* added function to move players to opponent team
+* added function to change the squad of a player
+* added function to kill players
+* added function adminSayMessageToAll() - uses admin.say
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.02 (14.04.2010)</span>
+* added new functions (view 'feature request' topic on <a href="board/">board</a>)
+* added some caching functionality
+* changed some return types from array to string or boolean
+* implemented check which socket connection is available on webserver
+* some refactoring stuff
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.01 (11.04.2010)</span>
+* fixed bug with receiving data from gameserver > 4096 bytes
+* added getPlayerlistNames() function to improve usage of getPlayerXX() functions
+* changes in connection function (no longer fsockopen())
+* changed return type of constructor (THX to courgette from <a href="http://courgette.github.com/">http://courgette.github.com/</a>)
+* added caching var for receiving playerlist
+* minor other changes
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.0-FINAL (09.04.2010)</span>
+* added GPLv2+ license
+* added R9 support of gameservers
+* fixed/reworked getTeamName()
+* needed to change/add some contents in teamNames.xml
+* updated squadNames.xml and mapNames.xml
+* implemented adminYellMessageToTeam()
+* renamed almost all functions (sorry guys!)
+* reworked kick and ban functions
+* implemented admin.say command
+* added new functions to get player stats / kills / deaths etc.
+* fixed minor bugs
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.5b (05.04.2010)</span>
+* added functions to get player specific data (playername, clantag, squadid, teamid)
+* added some more functions 
+* fixed listing player subset of a given player
+* fixed minor bugs
+* improved some comments
+* <span class="bold">YES - we did the 200 downloads! THANK YOU ALL ;)</span>
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.41b (04.04.2010)</span>
+* fixed kicking or banning players with names containing whitespaces doesn't work
+  (reported by Thomas from <a href="http://www.blut-und-stahl.de/">www.blut-und-stahl.de</a> - THX!)
+* changed default ban time from 'round' to 'perm'
+* changed syntax of adminYellMesage()
+* fixed sending adminYellMessage() to players works fine now
+* minor improvements
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.4b (02.04.2010)</span>
+* added more functions (kick/ban players, reserved slots handling &amp; more)
+* fixed minor bugs
+* changed some return types
+* better example file
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.3b (31.03.2010)</span>
+* added method to get teamnames (big THX to phogue from <a href="http://www.phogue.net/">www.phogue.net</a>)
+* added teamnames.xml file
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.2b (30.03.2010)</span>
+* added more functions
+* added comments to (almost) all methods
+* generated <a href="API/">api</a>
+* renamed some vars
+* changed return type of some get methods from array to string
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.1b (29.03.2010)</span>
+* fixed admin yell message containing whitespaces
+* fixed server description containing whitespaces
+</pre>
+
+<pre class="verList">
+<span class="bold">v1.0b (27.03.2010)</span>
+* more functions added
+</pre>
+
+<pre class="verList">
+<span class="bold">v0.1b (25.03.2010)</span>
+* initial release
+</pre>
+</div>
+
+<p class="bodytext">
+	<br />
+	<span class="bold underline">Last site update:</span> 2011-02-08
+</p>
+
+<script type="text/javascript">
+<!--
+
+	document.getElementById("changelogs").style.display = "none";
+
+	function initPage() {
+		document.getElementById("changelogToggle").innerHTML = "<span class=\"bold\"><a href=\"\" onclick=\"toggleBox('changelogs'); return false;\">Changelog:</a></span> (click to view/hide)<br />";
+	}
+
+	function toggleBox(divID) {
+		toggleElement = document.getElementById(divID);
+		if (toggleElement.style.display == "none") { toggleElement.style.display = "";}
+		else { toggleElement.style.display = "none"; }
+	}
+
+	initPage();
+
+-->
+</script>
+	
+<!-- Piwik -->
+<script type="text/javascript">
+	var pkBaseURL = (("https:" == document.location.protocol) ? "https://sourceforge.net/apps/piwik/bc2conn/" : "http://sourceforge.net/apps/piwik/bc2conn/");
+	document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+	</script><script type="text/javascript">
+	try {
+	var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+	piwikTracker.trackPageView();
+	piwikTracker.enableLinkTracking();
+	} catch( err ) {}
+</script><noscript><p><img src="http://sourceforge.net/apps/piwik/bc2conn/piwik.php?idsite=1" style="border:0" alt=""/></p></noscript>
+<!-- End Piwik Tag -->
+
+</body>
+</html>```
