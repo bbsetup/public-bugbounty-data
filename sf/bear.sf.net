@@ -1,0 +1,292 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+  <title>Bear - Bers slices of punctured tori</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+
+<body>
+
+<div id="title">
+  <table class="center" summary="page title">
+    <tr>
+      <td><img src=
+      "/images/icon/teddy.96.png"
+      alt="Bear" style="padding-right: 1em"></td>
+
+      <td>
+        <h1 class="withimage">Bear</h1>
+        <p><strong>
+	A tool for studying Bers slices of punctured tori<br>
+	by <a href="http://math.brown.edu/~ddumas/">David
+        Dumas</a>
+	</strong></p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="nav-inline">
+<a href="#about">about</a>
+/
+<a href="#news">news</a>
+/
+<a href="#examples">examples</a>
+/
+<a href="#documentation">documentation</a>
+/
+<a href="#download">download</a>
+/
+<a href="#feedback">feedback</a>
+</div>
+
+<div id="about">
+<h3>About Bear</h3>
+<p>
+Bear is a mathematical research tool for calculating and testing
+discreteness of holonomy representations of complex projective
+structures on punctured tori.  It can be used to draw pictures of Bers
+slices and explore the geometry of quasifuchsian space in the
+SL<sub>2</sub>(<strong>C</strong>) representation variety.  It also has powerful
+scripting features that make it easy to create complex animations or
+to automate larger calculations.</p>
+<p>
+Bear computes holonomy by applying standard ODE integration techniques
+to the Schwarzian differential equation; currently it uses an ODE solver from the 
+<a href="http://www.gnu.org/software/gsl/">GNU Scientific Library (GSL)</a>.
+The discreteness testing module in Bear includes the first implementation of a discreteness
+algorithm for punctured torus groups based on the paper 
+<a href="http://www.warwick.ac.uk/~masgak/papers/bhb-markoff.dvi.gz"><i>Markoff triples and quasifuchsian groups</i></a>
+by <a href="http://www.warwick.ac.uk/~masgak/">Brian Bowditch</a>, 
+published in Proc. London. Math. Soc. 77 (1998) 697--736.
+</p>
+</div>
+
+<div id="news">
+<h3>News</h3>
+
+<h4>2007-12-31 - Bear version 0.9.7 released</h4>  This release includes bug fixes, code improvements, and a new module for computing McShane-type sums over the tree of Markov triples.  Source and binary packages are available from the <a href="http://sourceforge.net/projects/bear/"> SourceForge project site.</a>
+
+<h4>2006-02-26 - Updated DEBs for 0.9.6</h4>  New Debian binary packages of Bear 0.9.6 for systems with GCC4 as the default compiler (e.g. the lastest Debian unstable) are now available on the <a href="http://sourceforge.net/projects/bear/"> SourceForge project
+site.</a>
+
+<h4>2005-08-13 - RPM and DEB package offerings expanded</h4> Bear has always been available as a source code archive and as a binary package for Debian GNU/Linux.  Starting with version 0.9.6, binary packages in RPM format for several popular RPM-based GNU/Linux distributions will be offered.  Currently, RPMs for Fedora Core 2, 3, and 4 on the i386 platform are available.  (Note: for Fedora Core 2, the required library HDF5 is not a standard package, but it can be obtained from <a href="http://monkeyrpms.net/fc2-i386/html/hdf5.html">MonkeyRPMs</a>.)  A source RPM that can be used to build RPMs for other distributions is also provided.
+<p>
+The Debian GNU/Linux package options have also been expanded.  Packages of the 0.9.6 releae for Ubuntu GNU/Linux 4.1 ("Warty") on i386 and Debian GNU/Linux unstable ("sid") on AMD64 have been added; as before, a Debian GNU/Linux unstable ("sid") i386 package is available.  The debian package control files have also been incorporated into the source tar archive, making it easy to produce DEB packages for other dpkg-based GNU/Linux distributions.
+<p>
+Bear source code and binary packages are available from the
+<a href="http://sourceforge.net/projects/bear/"> SourceForge project
+site.</a>
+
+<h4>2005-08-13 - Bear version 0.9.6 released</h4> This is a
+bugfix release that includes further performance improvments resulting
+from the same trace normalization issue that was fixed in the 0.9.5
+release.
+<p>
+The interpolation features of the 'bers2' module are now much more
+effective since convergence of the interpolation to the actual
+holonomy is now much faster.  (It is often possible to reduce the
+computation time for a large Bers slice calulation by a factor of 5 or
+more.) In addition, memory requirements for the 'bers2' module have
+been significantly reduced, and performance has been improved.
+<p>
+The source distribution now includes the control files necessary to
+make both RPM and DEB binary packages of bear.  The included RPM spec
+file is designed for use on the Fedora Core series of GNU/Linux
+distributions, but should work on other RPM-based distributions with
+little modification.  The dpkg control files have been tested with
+Debian GNU/Linux unstable ("sid") and Ubuntu GNU/Linux 4.1 ("Warty").
+
+As always, files are available from the 
+<a href="http://sourceforge.net/projects/bear/"> SourceForge project
+site.</a>
+
+<h4>2005-07-11 - Bear version 0.9.5 released</h4> This release is a
+minor patch against 0.9.4 to fix a numerically unstable part of the
+Bers slice holonomy calculation.  This results in a drastic
+improvement in the stability and accuracy of Bers slice calculations.
+
+<h4>2005-06-08 - Bear version 0.9.4 released</h4>
+<div class="newsitem">
+This is a bugfix release that includes minor feature enhancements.
+The build system has been improved, specifically addressing problems
+building on Darwin / Mac OS X, and compatibility with older versions
+of the HDF5 and GSL libraries.  Overall the portability of the build
+system and source code has improved significantly, and this release
+builds successfully without any changes on these platforms (and
+probably many more):
+<ul>
+<li> Darwin / Mac OS X 10.2
+<li> FreeBSD 4.8
+<li> Fedora Core 3
+<li> Debian GNU/Linux unstable (sid)
+<li> Ubuntu GNU/Linux hoary
+<li> Solaris 9 (gcc)
+</ul>
+New features in this release include:
+<ul>
+
+<li>LSODE differential equation solver -- requires a FORTRAN compiler
+and '--enable-lsode' option to configure script
+
+<li>Dataset name conflict resolution -- when attempting to write to a
+dataset that already exists, a new dataset with a similar name
+(e.g. 'mydataset01' instead of 'mydataset') is created instead.
+
+<li>Blocking mode -- eases the subdivision of large computations into
+smaller parts by adjusting the range so that output arrays tile nicely
+
+</ul>
+As always, files are available from the <a href="http://sourceforge.net/projects/bear/">
+SourceForge project site.</a>
+</div>
+
+<h4>2005-03-24 - Bear version 0.9.3 released</h4>
+<div class="newsitem">
+This is
+the second SourceForge.net release.  New features in version 0.9.3
+include support for several types of Schwarzian equation integration
+contours (splines, ellipses, piecewise linear paths), and a new module
+<i>bers2</i> for computing holonomy on a sparse grid and then
+interpolating over a finer grid.  An experimental module
+<i>anosov</i> for computing unstable manifolds of pseudo-anosov
+mapping classes was also added; while functional, it is still under
+active development and may change significantly in future releases.
+Several minor usability improvements were also made.  All files are
+available from the <a href="http://sourceforge.net/projects/bear/">
+SourceForge project site.</a>
+</div>
+
+<h4>2004-06-12 - Bear version 0.9.0 released</h4>
+<div class="newsitem">
+This is
+the first release as a SourceForge.net project.  Version 0.9.0
+includes support for the HDF5 output format, scripting using the Lua
+extension language, and minor improvements to the discreteness testing
+algorithm.  Source, RPM, and DEB packages are available from the <a
+href="http://sourceforge.net/projects/bear/"> SourceForge project
+site.</a>
+</div>
+</div>
+
+<h4>2004-05-09 - Bear project created</h4>
+<div class="newsitem">
+Bear has just
+been accepted as a <a href="http://www.sourceforge.net/">SourceForge</a> project.  We are in
+the process of moving project web pages and resources to their new
+home, and preparing a new release of the software.
+</div>
+
+<div id="examples">
+<h3>Examples</h3>
+<ul>
+<li>A few examples hosted here (click the thumbnails for 1024x1024 images):
+<ul>
+<li>Hexagonal punctured torus, radius = 1
+<br>lambda=0.5+0.866i, center=0.5+0.288i, radius=1.0
+<div class="thumb">
+<a href="/images/examples/bers_hex_large.png" class="img">
+<img class="thumb" src="/images/examples/bers_hex_thumb.png" alt="(thumbnail)">
+</a>
+</div>
+<li>Square punctured torus
+<br>lambda=0.5, center=0.5+0.25i, radius=5.0
+<div class="thumb">
+<a href="/images/examples/bers_square_large.png" class="img">
+<img class="thumb" src="/images/examples/bers_square_thumb.png" alt="(thumbnail)">
+</a>
+</div>
+</ul>
+<li><a href="http://www.math.brown.edu/~ddumas/bear/images/">Larger gallery (with data files)</a> on author's 
+<a href="http://www.math.brown.edu/~ddumas/slices/">Bers slice</a> page.
+<li class="endnote">If you have images or data created with Bear, you can have them linked
+here by <a href="mailto:daviddumas@gmail.com">contacting me</a> with the relevant information.
+</ul>
+</div>
+
+<div id="documentation">
+<h3>Documentation &amp; How-to</h3>
+
+<h4><a href="build.html">Building Bear from source</a></h4>
+Compiling the source and installing Bear in a posix environment.
+
+<h4><a href="install.html">Installing Bear from a binary package</a></h4>
+Including <strong>dependency problems</strong>, where to find packages for HDF5, GSL, etc.
+
+<h4>Using Bear</h4>
+<div class="warning">
+Note: The manuals below were generated for Bear 0.9.4.  An updated HTML manual for the latest release (0.9.7) will be available shortly.
+</div>
+<ul>
+<li>Bear reference manual<br>
+<table class="doclinks">
+<tr>
+<td><a class="img" title="Reference Manual (HTML)" href="/doc/bear-ref/"><img src="/images/icon/html.png" alt="HTML"></a></td>
+<td><a class="img" title="Reference Manual (Postscript)" href="/doc/bear-ref.ps"><img src="/images/icon/ps.png" alt="PS"></a></td>
+<td><a class="img" title="Reference Manual (PDF)" href="/doc/bear-ref.pdf"><img src="/images/icon/pdf.png" alt="PDF"></a></td>
+</tr>
+<tr>
+<td class="tinylabel"><a title="Reference Manual (HTML)" href="/doc/bear-ref/">HTML</a></td>
+<td class="tinylabel"><a title="Reference Manual (Postscript)" href="/doc/bear-ref.ps">PS</a></td>
+<td class="tinylabel"><a title="Reference Manual (PDF)" href="/doc/bear-ref.pdf">PDF</a></td>
+</tr>
+</table>
+
+<li>Manual page<br>
+<table class="doclinks">
+<tr>
+<td><a class="img" title="Man page (HTML)" href="/doc/bear-man.html"><img src="/images/icon/html.png" alt="HTML"></a></td>
+</tr>
+<tr>
+<td class="tinylabel"><a title="Man page (HTML)" href="/doc/bear-man.html">HTML</a></td>
+</tr>
+</table>
+</ul>
+</div>
+
+<div id="download">
+<h3>Download</h3>
+<p>
+Source and binary packages can be found on the
+<a href="http://sourceforge.net/projects/bear/">
+SourceForge project site.
+</a>
+</p>
+</div>
+
+<div id="acknowledgment">
+<h3>Acknowledgment</h3>
+Development of this software was partially supported by a National
+Science Foundation Postdoctoral Research Fellowship (award 0402964). Any
+opinions, findings, and conclusions or recommendations expressed in this
+material are those of the author and do not necessarily reflect the
+views of the National Science Foundation.
+</div>
+
+<div id="feedback">
+  <h3>Feedback</h3>
+
+  <p>Please send comments and questions to <a href=
+  "mailto:daviddumas@gmail.com">daviddumas@gmail.com</a></p>
+</div>
+
+  <div id="emblems" style="margin-top: 3em">
+<a href="http://sourceforge.net"><img
+src="http://sourceforge.net/sflogo.php?group_id=108925&amp;type=1"
+width="88" height="31" border="0" alt="SourceForge.net Logo"/></a>
+      <a href="http://validator.w3.org/check?uri=referer"><img border="0"
+          src="http://www.w3.org/Icons/valid-html401"
+          alt="Valid" height="31" width="88"></a>
+ <a href="http://jigsaw.w3.org/css-validator/">
+  <img style="border:0;width:88px;height:31px"
+       src="http://jigsaw.w3.org/css-validator/images/vcss" 
+       alt="Valid">
+ </a>
+
+  </div>
+  
+  </body>
+</html>
+```
