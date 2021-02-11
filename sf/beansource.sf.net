@@ -1,0 +1,66 @@
+```<html>
+	<head>
+		<title>Beansource - a data source for an xslt transformation based on java beans</title>
+		<meta name="Keywords" content="transformer datasource xslt xml java bean">
+		<script src="mbfg.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="mbfg.css" />
+	</head>
+	<body background>
+		<div style="position:absolute;top:0;left:0;width:256;height:65535;z-index:1;background-image:url(blend.jpg);">
+		</div>
+		<div style="position:absolute;top:20;left:20;z-index:3;">
+			<h1><!--<img style="position:relative;top:10;" src="beansource.png"/>-->&nbsp;Beansource</h1>
+			<hr/>
+			<a href="http://www.sourceforge.net/projects/beansource">Project Page</a>
+			<img src="vbar.gif" height="12"/>
+			<a href="javadoc/index.html">JavaDoc</a>
+						<div id="mbfg_div" onMouseover="javascript:toggleDiv('mbfg_projects')" onMouseout="javascript:toggleDiv('mbfg_projects')">
+			    <a id="mbfg_menu" href="#" >Other MeBigFatGuy Projects</a>
+			    <div id="mbfg_projects">
+			    	<ul>
+			    		<li><a href="http://beansource.sf.net">Beansource</a></li>
+			    		<li><a href="http://fb-contrib.sf.net">FB-Contrib</a></li>
+			    		<li><a href="http://mongobrowser.sf.net">MongoBrowser</a></li>
+			    		<li><a href="http://mysfstats.sf.net">MySFStats</a></li>
+			    		<li><a href="http://patchanim.sf.net">PatchAnim</a></li>
+			    		<li><a href="http://pixelle.sf.net">Pixelle</a></li>
+			    		<li><a href="http://polycasso.sf.net">Polycasso</a></li>	
+			    		<li><a href="http://schemalizer.sf.net">Schemalizer</a></li>	
+			    		<li><a href="http://tomailer.sf.net">ToMailer</a></li>	
+			    		<li><a href="http://www.heartofgoldfarm.com">Heart of Gold Farm</a></li>
+			    	</ul>
+			    </div>
+			</div>
+ 
+			<hr/>
+	
+			<p>Thanks for your interest in Beansource.</p>
+			
+			<p>Beansource is an alternative datasource for xslt transformations that use 
+			an ordinary java bean as the input, rather than an xml file. In this way you can
+			transform the data found in a databean directly into an alternative xml, html or
+			other output document. Here's an example of how it works:</p>
+			<pre>
+		TransformerFactory tf = TransformerFactory.newInstance(); 
+		Transformer t = tf.newTransformer(myStyleSheetSource); 
+		t.transform(new BeanSource(myJavaBean), myResult); 
+			</pre>
+			<p>Here, myJavaBean is any java bean of your choice. The style sheet refers to properties of
+			the java bean, and transforms the data by what the style sheet specifies.
+			</p>
+			
+			<p>-- Dave Brosius</p>
+		</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-249537-10");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+	</body>
+</html>
+```
