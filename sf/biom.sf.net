@@ -1,0 +1,120 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>BIOM - bioinformatics software</title>
+<link href="style.css" rel="stylesheet"  type="text/css">
+<LINK REL="SHORTCUT ICON" HREF="favicon.ico">
+</head>
+
+<body> 
+<div id="wrapper">
+
+<div id="header">
+<a href="http://sourceforge.net/donate/index.php?group_id=213320">
+<img src="http://images.sourceforge.net/images/project-support.jpg" style="width:88px;height:32px;float:right;position:relative" alt="Support This Project" />
+</a>
+</div><!-- END HEADER-->
+
+<div id="nav">
+<ul>
+<li><a href="index.php"  class="selected">Home</a></li>
+<li><a href="Biom.jar">Download jar</a></li>
+<li><a href="SARS CoV S PROTEIN.pdf">Download research (.pdf)</a></li>
+<li><a href="http://www.mfhinc.net">Credits</a></li>
+</ul>
+
+</div> <!-- END NAV-->
+
+
+<div id="content">
+
+<div id="col1">
+<h1> Welcome to the home of <span class="oker">BIOM</span></h1>
+<p><span class="oker">BIOM</span> is bionifromatics software.</p>
+
+
+<p>
+Bioinformatics and computational biology involve the use of techniques including applied mathematics, informatics, statistics, computer science, artificial intelligence, chemistry, and biochemistry to solve biological problems usually on the molecular level. The core principle of these techniques is using computing resources in order to solve problems on scales of magnitude far too great for human discernment. Research in computational biology often overlaps with systems biology. Major research efforts in the field include sequence alignment, gene finding, genome assembly, protein structure alignment, protein structure prediction, prediction of gene expression and protein-protein interactions, and the modeling of evolution.
+</p>
+
+<p><b>Anonymous CVS Access</b></p>
+	<p>
+
+	This project's SourceForge.net CVS repository can be checked out through anonymous (pserver) CVS with the following instruction set. The module you wish to check out must be specified as the <i>modulename</i>. When prompted for a password for <i>anonymous</i>, simply press the Enter key.  To determine the names of the modules created by this project, you may examine their CVS repository via the provided <a href="http://biom.cvs.sourceforge.net/biom">web-based CVS repository viewer</a>.
+	</p> 
+	<p>
+	<tt>
+	cvs -d:pserver:anonymous@biom.cvs.sourceforge.net:/cvsroot/biom login
+	<br>&nbsp;<br>
+	cvs -z3 -d:pserver:anonymous@biom.cvs.sourceforge.net:/cvsroot/biom co -P <i>modulename</i>
+
+	</tt>
+	</p>
+	<p>
+	Information about accessing this CVS repository may be found in our document titled, "<a href="http://p.sf.net/sitedocs/cvs">CVS (Version Control for Source Code)</a>".
+	</p>
+	<p>
+	Updates from within the module's directory do not need the -d parameter.
+	</p>
+	<p>
+
+	<b>NOTE:</b> UNIX file and directory names are case sensitive.  The path to the project CVSROOT must be specified using lowercase characters (i.e. /cvsroot/biom)
+	</p>
+
+
+</div> <!-- END COL1-->
+
+<div id="news">
+<h1 id="newsh" style="position:relative; width:200px">News</h1>
+
+<div class="post">
+<h2>Work is done</h2>
+<span class="datum">15. September 2008.</span>
+<p>
+Our scientific research is out. And developing of the BIOM is pretty much finished. Feel free to use it and edit for your purpose.
+</p> 
+</div> <!-- END POST-->
+
+<div class="post">
+<h2>Jar and CVS</h2>
+<span class="datum">13. July 2008.</span>
+<p>
+You can download jar or use CVS to get code.
+</p> 
+</div> <!-- END POST-->
+
+<div class="post">
+<h2>BIOM is going to JAVA</h2>
+<span class="datum">10. April 2008.</span>
+<p>
+Cause of easier maintaing and simplicity, we are re-writting from C to JAVA. 
+</p> 
+</div> <!-- END POST-->
+
+<div class="post">
+<h2>BIOM is online!</h2>
+<span class="datum">5. April 2008.</span>
+<p>
+Finally BIOM is online, everything is in alpha phase, so be patient ;)
+</p> 
+</div> <!-- END POST-->
+
+
+</div> <!-- END NEWS-->
+
+</div> <!-- END CONTENT-->
+
+
+<div id="footer">
+<p><a href="#">&copy; 2008 MFH inc<br><img style="border: none;" src="img/mfh1.png" alt="MFH inc"></a><br>
+<a href="http://validator.w3.org/check?uri=referer">Valid HTML 4.01</a> | 
+<a href="http://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+</p>
+</div>  <!-- END FOOTER -->
+
+</div> <!--END  WRAP --> 
+</body>
+
+</html>
+
+```
