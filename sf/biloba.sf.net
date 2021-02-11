@@ -1,0 +1,320 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <title>Biloba, an abstract strategy game</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+  <script type="text/javascript">
+    var scrs_dyn=1;
+  </script>
+  <!--[if lt IE 7]>
+    <script defer type="text/javascript" src="pngfix.js"></script>
+    <script type="text/javascript">
+      scrs_dyn=0;
+    </script>
+  
+  <![endif]-->
+  <script type="text/javascript">
+  <!--
+
+  var active_div = 'general_div';
+  var elts = new Array(5);
+  elts[0]='general';
+  elts[1]='rules';
+  elts[2]='faq';
+  elts[3]='screenshots';
+  elts[4]='contact';
+  function setOthers(divid,cname,suffix) {
+  	for (i in elts) {
+		var elt = document.getElementById(elts[i]+'_'+suffix);
+		if (elt !== null && divid !== elts[i]) {
+			elt.className = cname;
+		}
+	}
+  }
+
+  var scrs = new Array(4);
+  scrs[0]='menu';
+  scrs[1]='2p';
+  scrs[2]='3p';
+  scrs[3]='4p';
+  function setOthersScr(divid, cname) {
+  	for (i in scrs) {
+		var elt = document.getElementById('scr_'+scrs[i]+'_div');
+		if (elt !== null && divid !== scrs[i]) {
+			elt.className = cname;
+		}
+	}
+  }
+
+  function hide(id) {
+    var elt = document.getElementById(id);
+    if (elt !== null) {
+      elt.className = 'invisible';
+    }
+  }
+
+  function activate(divid) {
+  	var divelt = document.getElementById(divid+'_div');
+	var lnkelt = document.getElementById(divid+'_lnk');
+	if (divelt !== null && lnkelt !== null) {
+		setOthers(divid, 'invisible', 'div');
+		setOthers(divid, 'inactive', 'lnk');
+		divelt.className = 'visible';
+		lnkelt.className = 'active';
+	}
+	return false;
+  }
+
+  function showScr(scrid) {
+  	var elt = document.getElementById('scr_'+scrid+'_div');
+	if (scrs_dyn == 0)
+		return true;	
+	if (elt !== null) {
+		setOthersScr(scrid, 'invisiblescr');
+		elt.className = 'visiblescr';
+	}
+	return false;
+  }
+
+  function hideScr() {
+	setOthersScr("", 'invisiblescr');
+	return false;
+  }
+  
+  function parseUrl() {
+  	var url=document.location.href;
+	var i = url.indexOf("#");
+	if (i <= 0)
+		i = url.indexOf("?");
+	if (i > 0) {
+		var divid = url.substring(i+1,url.length);
+		activate(divid);
+	}
+  }
+  //-->
+  </script>
+</head>
+<body onLoad="parseUrl()">
+
+<div class="languages">
+<p>
+<a href="index.html">
+<img src="en.png" width="30" height="30" alt="en">&nbsp;
+</a>
+<a href="index.fr.html">
+ <img src="fr.png" width="30" height="30" alt="fr">&nbsp;
+</a>
+<!--a href="index.html">
+ <img src="es.png" width="30" height="30" alt="es">
+</a-->
+</p>
+</div>
+
+<h1><img alt="Biloba" width="200" height="50" src="biloba-title.png"><br></h1>
+<hr>
+<p class="menu">
+<a href="#general" id="general_lnk" class="active" onClick="return activate('general')">General</a> - 
+<a href="#rules" id="rules_lnk" class="inactive" onClick="return activate('rules')">Rules</a> - 
+<a href="#faq" id="faq_lnk" class="inactive" onClick="return activate('faq')">FAQ</a> - 
+<a href="#screenshots" id="screenshots_lnk" class="inactive" onClick="return activate('screenshots')">Screenshots</a> - 
+<a href="#contact" id="contact_lnk" class="inactive" onClick="return activate('contact')">Contact</a>
+
+</p>
+<p>&nbsp;</p>
+<div class="visible" id="general_div">
+<h2><a name="general"></a>What is Biloba?</h2>
+<p>
+Biloba is an abstract strategy board game for 1 to 4 players. At each turn
+ the player moves pawns on a octogonal shaped board (but squared cells)
+ trying to remove opponent's pawns from it. The game is free software, licensed 
+ under the <a href="COPYING">GPL</a>.
+</p>
+
+<h2>Get Biloba</h2>
+<p>Biloba currently works on Windows, GNU/Linux and Nokia Internet Tablets (n8x0 series).</p>
+<table class="links"><tr>
+ <td>
+  <a href="https://sourceforge.net/projects/biloba/files/Biloba/0.9.3/biloba-0.9.3.exe/download">
+   <img src="nsis_install.png" width="52" height="52" alt="Windows install">
+  <br>
+  Windows installer
+  </a>
+ </td><td>
+  <a href="https://sourceforge.net/projects/biloba/files/Biloba/0.9.3/biloba-0.9.3.tar.gz/download">
+   <img src="gnome-mime-application-x-compressed-tar.png" width="52" height="52" alt="Sources">
+  <br>
+  Sources
+  </a>
+ </td><td>
+  <a href="biloba.install">
+   <img src="maemo_install_button_small.png" width="76" height="52" alt="Nokia internet tablets">
+  <br>
+  Nokia Tablets installer
+  </a>
+ </td>
+</tr></table>
+<p>
+Biloba is also available pre-packaged in various Linux distributions, like Debian, Ubuntu, Mandriva,
+SuSE, Gentoo, and maybe more. Simply use your normal package manager to install Biloba.
+<br>
+If you want to compile Biloba from the sources, you will need SDL, SDL-image, SDL-mixer, and their
+respective development packages.
+</p>
+
+
+<h2>How can I play Biloba?</h2>
+<p>
+Biloba includes an AI opponent for single player mode, and supports local or
+ network play for 2 or more (up to 4) players.
+</p>
+</div>
+<noscript><p><a href="#">^ Top</a></p></noscript>
+<div id="rules_div">
+<script type="text/javascript">
+<!--
+hide("rules_div");
+//-->
+</script>
+<h2><a name="rules"></a>Rules</h2>
+<ul>
+ <li><b>Goal: </b>Eliminate your opponent(s)' pawns.</li>
+ <li><b>Moving, taking and replacing: </b> 
+  <ul>
+  <li>A pawn can move by jumps of one tile, in any way. </li>
+  <li>One can jump over any pawn, one at a time, but never backwards.</li>
+  <li>To take out an enemy pawn, one must place two of his pawns on each side, in a vertical,
+      horizontal or diagonal axis.</li>
+  <li>The pawn is then taken out of the board, and replaced by one of the two pawns that took 
+      it out.</li>
+  <li>If more than one enemy pawns are taken in a same move, they'll be all taken out of the 
+      board before doing the replacement.</li>
+  <li>If replacing a pawn lets you take out other ones, they must be removed first, and followed
+      by more replacements.</li>
+  <li>Taking pawns is mandatory when possible, and unlimited.</li>
+  <li>If a player is forced to take pawns at the beginning of his turn, he makes his take, his
+      replacement, and his turn is over.</li>
+  <li>If he can take a pawn while it's not his turn (in 3 or 4 players games), he'll wait for his
+      turn, and make his take if it is still possible.</li>
+  <li>A player's turn is over when he did all the possible takes and replacements.</li>
+  </ul></li>
+ <li><b>Special tile: </b>
+  <ul>
+  <li>The tile at the center of the board is special. It allows to move again on one of the seven
+      free adjacent tiles.</li>
+  <li>One can't stop on the special tile.</li>
+  <li>The special tile is not accessible by jumping over a pawn.</li>
+  </ul></li>
+ <li><b>End of game: </b>
+  <ul>
+  <li>The winner is the one who's the last to have at least three pawns on the board.</li>
+  <li>As soon as a player only has two pawns left, and he can't take an opponent's pawn out just
+      after, he loses and his pawns are put out.</li>
+  <li>If, after having lost his pawn, he can take another pawn with doing a move, it's a draw.</li>
+  </ul></li>
+ </ul>
+<noscript><p><a href="#">^ Top</a></p></noscript>
+</div>
+
+<div id="faq_div">
+<script type="text/javascript">
+<!--
+hide("faq_div");
+//-->
+</script>
+<h2><a name="faq"></a>FAQ</h2>
+ <ul>
+ <li><b>How do I play against the computer?</b><br>
+     Click on one of the players' type to switch from <i>Human</i> to <i>CPU</i>.</li>
+ <li><b>May I play at three or four players if I'm on my own?</b><br>
+     You can set a three or four players game and switch <i>Human</i> to <i>CPU</i> for all your
+     opponents.</li>
+ <li><b>Is there a box version of this game?</b><br>
+     I'm planning on having Biloba edited, or edit it myself. Patience is a virtue!</li>
+ <li><b>I have another question!</b><br>
+     Feel free to <a href="#contact" onClick="return activate('contact')">contact us</a>!
+ </ul>
+<noscript><p><a href="#">^ Top</a></p></noscript>
+</div>
+
+<div class="invisiblescr" id="scr_menu_div">
+<a href="#" onclick="return hideScr()">
+<img src="menu.png" width="626" height="477" alt="menu">
+</a>
+</div>
+<div class="invisiblescr" id="scr_2p_div">
+<a href="#" onclick="return hideScr()">
+<img src="2p.png" width="626" height="477" alt="2 players">
+</a>
+</div>
+<div class="invisiblescr" id="scr_3p_div">
+<a href="#" onclick="return hideScr()">
+<img src="3p.png" width="626" height="477" alt="3 players">
+</a>
+</div>
+<div class="invisiblescr" id="scr_4p_div">
+<a href="#" onclick="return hideScr()">
+<img src="4p.png" width="626" height="477" alt="4 players">
+</a>
+</div>
+
+
+<div id="screenshots_div">
+<script type="text/javascript">
+<!--
+hide("screenshots_div");
+//-->
+</script>
+<h2><a name="screenshots"></a>Screenshots</h2>
+<table class="screenshots"><tr>
+ <td>
+  <a href="menu.png" onClick="return showScr('menu')">
+   <img src="thumb.menu.png" width="250" height="190" alt="menu">
+  <br>
+  The menu
+  </a>
+ </td><td>
+  <a href="2p.png" onClick="return showScr('2p')">
+   <img src="thumb.2p.png" width="250" height="190" alt="2 players">
+  <br>
+  Two players game
+  </a>
+ </td>
+</tr><tr>
+ <td>
+  <a href="3p.png" onClick="return showScr('3p')">
+   <img src="thumb.3p.png" width="250" height="190" alt="3 players">
+  <br>
+  Three players game
+  </a>
+ </td><td>
+  <a href="4p.png" onClick="return showScr('4p')">
+   <img src="thumb.4p.png" width="250" height="190" alt="4 players">
+  <br>
+  Four players game
+  </a>
+ </td>
+</tr></table>
+<noscript><p><a href="#">^ Top</a></p></noscript>
+</div>
+
+<div id="contact_div">
+<script type="text/javascript">
+<!--
+hide("contact_div");
+//-->
+</script>
+<h2><a name="contact"></a>Contact</h2>
+<p>
+Please report bugs on the 
+<a href="http://sourceforge.net/tracker/?group_id=148188&amp;atid=772939">bug tracker</a>. You can also
+email <a href="mailto:g.dmgt@hotmail.fr">Guillaume</a>, who invented Biloba, or 
+<a href="mailto:colin@colino.net">Colin</a>, who wrote the computer version of the game.
+</p>
+<noscript><p><a href="#">^ Top</a></p></noscript>
+</div>
+
+</body>
+</html>
+```
