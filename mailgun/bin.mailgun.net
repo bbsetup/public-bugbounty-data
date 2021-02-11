@@ -1,0 +1,64 @@
+```<html>
+  <head>
+    <title>Mailgun Postbin - Debug Mailgun Webhooks</title>
+    <link href="goldeneye/static/css/mg.css?03205804" type="text/css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <div class="rs-nav-utility">
+      <div class="rs-container">
+        <ul class="rs-nav rs-pull-right">
+          <li><a href='http://mailgun.com/cp'>Control Panel</a></li>
+          <li><a href='http://mailgun.com/cp/support'>Support</a></li>
+          <li><a href='http://documentation.mailgun.com'>Documentation</a></li>
+        </ul>
+      </div>
+    </div>
+    <header>
+      <div class="rs-container">
+        <a class="mg-logo"></a>
+      </div>
+    </header>
+      <div class="rs-main">
+        <div class="rs-container">
+          <div class="rs-panel rs-content mg-envelope" style = "margin-top: 2px;">
+            <div class="rs-inner">
+              <div class="rs-row">
+                <div class="span-12">
+                <h2>Postbin #e119a4fa</h2>
+<h5>URL:</h5><input type="text" name="bin" onClick="this.select();" style="width: 260px" value="http://bin.mailgun.net/e119a4fa" class="key-value">
+<br><br>
+<p>HTTP Post requests are displayed here, newest to oldest. When sharing with support, please refer to the permalink within your request.
+</p>
+
+<form action='/' method='get' id='new_bin'>
+  <input type='submit' name='New Postbin' value='New Postbin' class="rs-btn rs-btn-primary">
+<br><br>
+<br>
+<small><p><em>Data Disclaimer: Data posted to the Mailgun Postbin is public information and can be accessed by anyone on the internet. Please do not post any sensitive information here. If you accidentally expose data, please immediately delete the Postbin. We make no guarantee on the availability of this service and we reserve the right to delete Postbin data at any time. Currently Postbin data is held for 5 days max.</em></p></small>
+
+              </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  <footer class="rs-footer">
+    <div class="rs-container">
+    <ul class="rs-links">
+        <li><a href='https://mailgun.com/cp/support'>Support</a></li>
+        <li><a href='http://documentation.mailgun.com'>Documentation</a></li>
+        <li><a href='http://documentation.mailgun.com/faqs.html'>Faq</a></li>
+        <li><a href='http://blog.mailgun.com'>Blog</a></li>
+        <li><a href='http://twitter.com/#!/mail_gun'>Twitter</a></li>
+        <li><a href="http://www.mailgun.com/team">Team</a></li>
+            <li><a href="http://mailgun.com/public/terms">Terms of Service</a></li>
+            <li><a href="http://mailgun.com/public/privacy">Privacy Policy</a></li>
+        <li style="text-align: right; font-weight: normal">Copyright 2010-18 Mailgun, Inc.</li>
+    </ul>
+
+    </div>
+  </footer>
+  </body>
+</html>
+```
