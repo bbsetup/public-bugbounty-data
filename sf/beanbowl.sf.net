@@ -1,0 +1,451 @@
+```<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.75 [en] (Windows NT 5.0; U) [Netscape]">
+   <meta name="Author" content="Henrik Kniberg">
+   <title>Bean Bowl</title>
+</head>
+<body text="#FFB56A" bgcolor="#000000" link="#00B0B0" vlink="#00B0B0" background="blackWrinkledPaper.jpg">
+
+<center>
+<h1>
+<a href="splash.jpg"><img SRC="title.gif" ALT="Bean Bowl" BORDER=0 height=69 width=244></a></h1></center>
+
+<center><a href="http://home.kniberg.com/henrik"><img SRC="Fuzzy2.gif" ALT="Fuzzy2.gif (2058 bytes)" BORDER=0 height=48 width=61></a>
+<br><b><font size=+1>version 1.3</font></b>
+<br><b><font size=+1>released 2001-10-14</font></b>
+<p><i><font size=-1>Copyright &copy; <a href="http://www.kniberg.com/henrik">Henrik
+Kniberg</a></font></i>
+<p><img SRC="CoolRedHorizontalLine.gif" ALT="CoolRedHorizontalLine.gif (1279 bytes)" height=4 width=580>
+<br><b><font size=+1>** NEWS **</font></b>
+<br>Bean Bowl goes open source!
+<br>This project is now hosted at source forge: <a href="http://www.sf.net/projects/beanbowl/">http://www.sf.net/projects/beanbowl/</a></center>
+
+<center>
+<h3>
+<img SRC="CoolRedHorizontalLine.gif" ALT="CoolRedHorizontalLine.gif (1279 bytes)" height=4 width=580></h3></center>
+
+<center><b><a href="#whatis">What is the Bean Bowl?</a></b>
+<br><b><a href="#howlook">How does it look?</a></b>
+<br><b><a href="#applet">I want to run it as an Applet!</a></b>
+<br><b><a href="#download">I want to download and run it!</a></b>
+<br><b><a href="#featuresToCome">Features to come...</a></b>
+<br><b><a href="#recentchanges">Recent changes</a></b>
+<br><b><a href="#links">Other links</a></b>
+<p><img SRC="CoolRedHorizontalLine.gif" ALT="CoolRedHorizontalLine.gif (1279 bytes)" height=4 width=580></center>
+
+<p><br>
+<table BORDER=0 CELLPADDING=2 >
+<tr>
+<td WIDTH="299" HEIGHT="30" BGCOLOR="#000080">
+<h3>
+<a NAME="whatis"></a>What is the Bean Bowl?</h3>
+</td>
+</tr>
+</table>
+
+<blockquote>Bean Bowl is a 100% pure Java program that allows you to work
+with Java classes and objects in "real time", using direct manipulation
+techniques. I developed it as a tool to aid my own Java-related work, but
+realized that this must be useful to many other Java programmers as well.
+Basically it lets you study and debug programs, classes, and APIs without
+having to write any code at all.&nbsp; You can also save and load your
+bean bowls, thus saving a collection of objects that can later on be reloaded
+in the exact state (this only works if all objects in you bowl implement
+the java.io.Serializable interface).</blockquote>
+
+<blockquote>Here are three situations in which the Bean Bowl is really
+useful:
+<ul>
+<li>
+<b><font color="#FFFFFF">Debug your own programs dynamically</font></b>
+- this lets you directly manipulate your objects, call methods, check the
+results, catch exceptions, etc. No more having to write "main"-methods
+to test your code!</li>
+
+<li>
+<b><font color="#FFFFFF">Study a third-party API</font></b> - The best
+way to learn a new API (for example a third party class library), besides
+reading the documentation, is to play around with it!&nbsp; Use the Bean
+Bowl to study the behaviour of the classes.</li>
+
+<li>
+<b><font color="#FFFFFF">Learn or teach Java</font></b> - Again, the best
+way to learn is to play around - use the Bean Bowl to study (or demonstrate,
+if you are trying to teach someone else) the behaviour of Java objects
+and classes.</li>
+</ul>
+At first glance this may look no different than, for example, the BeanBox
+that comes with the BDK.&nbsp; But at second glance the differences should
+become apparent:
+<ul>
+<li>
+Bean Bowl works with any objects, not just JavaBeans.</li>
+
+<li>
+You can refer to objects that you have previously created, using an automated
+naming mechanism. This makes it very easy to connect objects to each other.</li>
+
+<li>
+You can refer to classes directly, and access their constructors and static
+methods.</li>
+
+<li>
+You can call any methods directly, and easily access the output value.</li>
+</ul>
+</blockquote>
+
+<center><img SRC="CoolRedHorizontalLine.gif" ALT="CoolRedHorizontalLine.gif (1279 bytes)" height=4 width=580></center>
+
+<p><br>
+<table BORDER=0 CELLPADDING=2 WIDTH="299" HEIGHT="30" >
+<tr>
+<td WIDTH="299" HEIGHT="30" BGCOLOR="#000080">
+<h3>
+<a NAME="howlook"></a><b>How does it look?</b></h3>
+</td>
+</tr>
+</table>
+
+<blockquote>&nbsp;Click here to see a <a href="mainwindow.gif">full screenshot</a>.<a href="mainwindow.gif"><img SRC="mainwindow-small.gif" height=149 width=207 align=TEXTTOP></a></blockquote>
+
+<blockquote>&nbsp;
+<br>&nbsp;
+<table BORDER=0 CELLPADDING=2 WIDTH="619" HEIGHT="8" >
+<tr>
+<td VALIGN=TOP COLSPAN="2" WIDTH="395" HEIGHT="3" BGCOLOR="#000080"><b>Bean
+bowl contents</b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="295" HEIGHT="12">This panel on the left side of the
+main window shows all the objects that are currently included in your bean
+bowl.&nbsp; Here you can choose which class to browse, and manipulate the
+objects.</td>
+
+<td VALIGN=TOP WIDTH="312" HEIGHT="12"><img SRC="bowlContents.gif" ALT="mainwindow.gif (4813 bytes)" BORDER=0 height=275 width=212></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER=0 CELLPADDING=2 WIDTH="752" HEIGHT="17" >
+<tr>
+<td VALIGN=TOP COLSPAN="2" WIDTH="742" HEIGHT="10" BGCOLOR="#000080"><b>Class
+browser</b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="336" HEIGHT="5">This window lets you directly manipulate
+a class. The "Constructors" panel lets you create a new instance - you
+simply select a constructor, feed in the parameters, and press "Create".
+The new object instance will be added to the Bean Bowl. The "Static Methods"
+panel exposes all the static methods that this class provides. You can
+execute them directly - in this example I have used getProperty() to check
+the value of the "java.version" property.</td>
+
+<td VALIGN=TOP WIDTH="404" HEIGHT="5"></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="336" HEIGHT="10"><img SRC="constructors.gif" ALT="constructors.gif (4328 bytes)" height=247 width=336></td>
+
+<td VALIGN=TOP WIDTH="404" HEIGHT="10"><img SRC="staticMethods.gif" ALT="staticMethods.gif (5301 bytes)" height=246 width=391></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER=0 CELLPADDING=2 WIDTH="851" HEIGHT="23" >
+<tr>
+<td VALIGN=TOP COLSPAN="2" WIDTH="845" HEIGHT="8" BGCOLOR="#000080"><b>Object
+browser</b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="397" HEIGHT="7">The object browser can be opened
+for any object. The "Properties" tab exposes all properties of the object,
+and lets you modify the ones that aren't read-only. The "Methods" tab lets
+you directly execute any methods on the object. In the example below I
+have used the add() method to add a JCheckBox to my panel.</td>
+
+<td VALIGN=TOP WIDTH="442" HEIGHT="7"></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="397" HEIGHT="9"><img SRC="properties.gif" ALT="properties.gif (7522 bytes)" height=305 width=375></td>
+
+<td VALIGN=TOP WIDTH="442" HEIGHT="9"><img SRC="methods.gif" ALT="methods.gif (5502 bytes)" height=301 width=439></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER=0 CELLPADDING=2 HEIGHT="10" >
+<tr>
+<td VALIGN=TOP COLSPAN="3" WIDTH="514" HEIGHT="7" BGCOLOR="#000080"><b>Component
+viewer</b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="195" HEIGHT="8">To view a component, use the pop-up
+menu and select "view".&nbsp;</td>
+
+<td VALIGN=TOP WIDTH="258" HEIGHT="8"><img SRC="popup.gif" ALT="popup.gif (5059 bytes)" height=175 width=240></td>
+
+<td VALIGN=TOP WIDTH="170" HEIGHT="8"><img SRC="gui.gif" ALT="gui.gif (1139 bytes)" height=72 width=162></td>
+</tr>
+</table>
+
+<br>&nbsp;
+<br>&nbsp;
+<table BORDER=0 CELLPADDING=2 HEIGHT="3" >
+<tr>
+<td VALIGN=TOP COLSPAN="2" WIDTH="495" HEIGHT="6" BGCOLOR="#000080"><b>Exceptions</b></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH="316" HEIGHT="9">If something goes wrong, an object
+browser will simply be displayed for that Exception, allowing you to examine
+exactly what went wrong, where, and why.&nbsp;</td>
+
+<td VALIGN=TOP WIDTH="263" HEIGHT="9"><img SRC="exception.gif" ALT="exception.gif (3563 bytes)" height=155 width=309></td>
+</tr>
+</table>
+</blockquote>
+
+<center><img SRC="CoolRedHorizontalLine.gif" ALT="CoolRedHorizontalLine.gif (1279 bytes)" height=4 width=580></center>
+
+<p><br>
+<table BORDER=0 CELLPADDING=2 WIDTH="299" HEIGHT="4" >
+<tr>
+<td BGCOLOR="#000080">
+<h3>
+<a NAME="applet"></a><b>I want to run it as an Applet!</b></h3>
+</td>
+</tr>
+</table>
+
+<blockquote>In that case I'm afraid you'll have to wait for the next version,
+I can't be bothered to fight all the browser incompatibilities right now.&nbsp;
+If you really badly want to run it as an applet, <a href="mailto:henrik@kniberg.com">let
+me know</a> and I might hurry up. Or better yet, join the project and do
+it yourself!</blockquote>
+
+<center><img SRC="CoolRedHorizontalLine.gif" ALT="CoolRedHorizontalLine.gif (1279 bytes)" height=4 width=580></center>
+
+<p><br>
+<table BORDER=0 CELLPADDING=2 WIDTH="299" HEIGHT="30" >
+<tr>
+<td WIDTH="299" HEIGHT="30" BGCOLOR="#000080">
+<h3>
+<a NAME="download"></a><b>I want to download and run it!</b></h3>
+</td>
+</tr>
+</table>
+
+<blockquote>NOTE - you must have Java 1.2 or (preferrably) 1.3 installed
+on your computer and the JAVA_HOME environment variable must point to where
+it is installed (for example d:/java/jdk1.3).
+<ul>
+<li>
+Download the latest <a href="http://sourceforge.net/project/showfiles.php?group_id=31863">beanbowl-x.x.x.zip</a>
+from sourceforge.</li>
+
+<li>
+Unzip it on your local system</li>
+
+<li>
+Run it by either executing run.bat (if you are on a windows system) or
+by browsing to your bean bowl directory and typing:</li>
+
+<br><tt>java -Djava.ext.dirs=./external -classpath ./lib/beanbowl.jar com.netbreeze.bbowl.gui.BeanBowlGUI</tt></ul>
+</blockquote>
+
+<blockquote>The "ext.dirs" stuff means that any other JARs that you place
+in the ./external directory will be included. If you want to include class
+files that are not JAR'ed you have to create a subdirectory under ./external,
+for example "./external/myclasses", and place your classes under there.
+<p>Here's a <a href="quick-start-guide.html">quick start guide</a>.</blockquote>
+
+<center><img SRC="CoolRedHorizontalLine.gif" ALT="CoolRedHorizontalLine.gif (1279 bytes)" height=4 width=580></center>
+
+<p><br>
+<table BORDER=0 CELLPADDING=2 >
+<tr>
+<td WIDTH="299" HEIGHT="30" BGCOLOR="#000080">
+<h3>
+<a NAME="featuresToCome"></a>Features to come...</h3>
+</td>
+</tr>
+</table>
+
+<blockquote>The following stuff is not yet implemented but definitely planned
+for the future:
+<p><b>High priority</b>
+<ul>
+<li>
+Add seperate editors for java.util.Set and java.util.List, since they are
+quite different.</li>
+
+<li>
+Add editors for arrays</li>
+</ul>
+<b>Not as high priority</b>
+<ul>
+<li>
+Add a web layer, so you can interact with a bean bowl remotely through
+a web browser.</li>
+
+<li>
+Event notification and triggering</li>
+
+<li>
+Dynamic class loading, right now you can only use the classes that were
+in your CLASSPATH when you started BeanBowl...</li>
+
+<li>
+Helper GUIs and shortcuts for things like:</li>
+
+<ul>
+<li>
+Looking up objects over JNDI, for example EJBs</li>
+
+<li>
+Distributed computing via Java RMI, Voyager and other similar protocols</li>
+
+<li>
+Interacting with JMS queus and topics</li>
+</ul>
+
+<li>
+Online help</li>
+
+<li>
+Make it work as an applet</li>
+
+<li>
+Make more use of drag &amp; drop</li>
+</ul>
+</blockquote>
+
+<center><img SRC="CoolRedHorizontalLine.gif" ALT="CoolRedHorizontalLine.gif (1279 bytes)" height=4 width=580></center>
+
+<p><br>
+<table BORDER=0 CELLPADDING=2 >
+<tr>
+<td WIDTH="299" HEIGHT="30" BGCOLOR="#000080">
+<h3>
+<a NAME="recentchanges"></a>Recent changes</h3>
+</td>
+</tr>
+</table>
+
+<blockquote><b>Done for version 1.3.1:</b>
+<ul>
+<li>
+This is now an open source project! Hurray! If you want to get involved
+go to <a href="http://sourceforge.net/projects/beanbowl/">http://sourceforge.net/projects/beanbowl/</a></li>
+
+<li>
+Implement property editors for collections, i.e. GUIs for viewing and editing
+the contents of java.util.Collections. You can use drag &amp; drop to add
+and remove elements. It is still a bit crude, for example you can't rearrange
+items within a list and things like that (unless you use normal method
+calls of course...). Another important thing that is missing is GUIs for
+array management.</li>
+
+<li>
+Refactored the whole project to make it more clean and independent.</li>
+</ul>
+<b>Done for version 1.2.19:</b>
+<blockquote>
+<li>
+Updated to JDK 1.3</li>
+
+<li>
+Removed the object selection feature, due to certain complications that
+I need to have a closer look at. It didn't have any real purpose anyway,
+except making the GUI look more cool...</li>
+
+<li>
+No more expiration dates, you can use this version forever</li>
+
+<li>
+Fixed some minor bugs here and there</li>
+</blockquote>
+<b>Done for version 1.1.3:</b>
+<ul>
+<li>
+You can now rename your beans</li>
+</ul>
+<b>Done for version 1.1.2:</b>
+<ul>
+<li>
+Hardly anything at all, haven't had time. Just changed the version number
+and the expiration date.&nbsp; Oh yeah, I removed an unneccessary warning
+that was being displayed when you settings file was missing (which happens
+the first time you run bean bowl).</li>
+</ul>
+<b>Done for version 1.1.1:</b>
+<ul>
+<li>
+Fixed the icon problem. Now the icons are snugly embedded in beanbowl.zip</li>
+</ul>
+<b>Done for version 1.1:</b>
+<ul>
+<li>
+Loading/Saving</li>
+
+<li>
+General GUI enhancements:</li>
+
+<ul>
+<li>
+enhanced menu system</li>
+
+<li>
+changed to platform-neutral look &amp; feel</li>
+
+<li>
+went back to using the internal windows within one single main window,
+so that you can easily move and minimize the whole bean bowl application.</li>
+
+<li>
+and some other details...</li>
+</ul>
+
+<li>
+Added a cool <a href="splash.jpg">splash image</a> :o)</li>
+</ul>
+</blockquote>
+
+<table BORDER=0 CELLPADDING=2 >
+<tr>
+<td WIDTH="299" HEIGHT="30" BGCOLOR="#000080">
+<h3>
+<a NAME="links"></a>Other links</h3>
+</td>
+</tr>
+</table>
+
+<blockquote>
+<ul>
+<li>
+<a href="javadoc/index.html">Javadoc API documentation</a></li>
+</ul>
+</blockquote>
+
+<blockquote>
+<center><img SRC="CoolRedHorizontalLine.gif" ALT="CoolRedHorizontalLine.gif (1279 bytes)" height=4 width=580></center>
+</blockquote>
+
+<center><a href="http://home.kniberg.com/henrik"><img SRC="Fuzzy2.gif" ALT="Fuzzy2.gif (2058 bytes)" BORDER=0 height=48 width=61></a>
+<br><i><font size=-1>Copyright &copy; <a href="http://home.kniberg.com/henrik">Henrik
+Kniberg</a></font></i></center>
+
+<p><br>
+</body>
+</html>
+```
