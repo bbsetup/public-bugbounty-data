@@ -1,0 +1,217 @@
+```<html>
+<head><title>beam-back</title></head>
+<body
+  bgcolor="black"
+  text="beige"
+  link="beige"
+  vlink="beige"
+  alink="beige"
+>
+<table width="100%" cellpadding=0 cellspacing=0 border=0>
+<tr align=center>
+  <td width="33%">
+    <h1> beam-back homepage </h1>
+  </td>
+  <td width="33%">
+  <A href="http://sourceforge.net/projects/beam-back"> 
+    <img alt="[Source Forge]"
+    src="http://sourceforge.net/sflogo.php?group_id=2752&amp;type=1" 
+    width=88 height=31 border=0></a> 
+  </td>
+  <td width="33%">
+    <a href="http://my.mp3.com/">my.mp3.com</a>
+  </td>
+  <td width="33%">
+    <a href="http://www.shoutcast.com/">www.shoutcast.com</a>
+  </td>
+</tr>
+</table>
+<br>
+<a href="beam-back.py">Download the latest release</a>
+<br>
+<br>
+<pre>
+
+Latest News
+===========
+
+Now supports Python 2.0 and much improved ICY handling for Shoutcast.
+
+
+Introduction
+============
+
+This is a simple Python script to save streaming mp3's so you can 
+use them on your portable mp3 player.  This script should actually 
+work with any streaming mp3 (see below re: Infinite Streams).
+
+Works with my.mp3.com, www.shoutcast.com and www.myplay.com!
+
+
+Homepage
+========
+http://beam-back.sourceforge.net
+
+
+Author
+======
+kal@users.sourceforge.net
+
+
+Setup with Netscape in GNU/Linux 
+================================
+
+Select Edit->Preferences->Navigator->Applications
+Select New (Edit if you already have a handler for m3u playlists)
+Enter Description: m3u Playlists
+Enter MIMEType: audio/x-mpegurl
+Enter Suffixes: m3u
+Enter Application: xterm -e beam-back.py %s
+Select OK->OK
+
+Do the same for suffix pls with mime type audio/x-scpls
+
+(Note you may have to put the full path of the beam-back.py script
+if it is in a sub dir like /home/kal/beam-back-1.32/beam-back.py)
+
+Setup with Explorer in Windows
+==============================
+First download and install python for windows from www.python.org.
+Save the beam-back.py file to C:\music.  If you are using winamp 
+or sonique right now, start the program and under preferences or 
+options de-select the m3u file association.
+
+Double click on "My Computer" on the desktop.
+View->Folder Options->File Types.
+Scroll thru the window and find the application that is handling
+the suffixes "m3u", "pls" or both.  Remove it.
+Select New Type.
+Enter Description: m3u Playlists
+Enter Extension: m3u
+Enter MIMEType: audio/x-mpegurl
+Select OK.
+Under Actions click New 
+Enter Action: open
+Enter Application ...: 
+  "C:\Program Files\Python\python.exe" C:\music\beam-back.py -v -d c:\music "%1"
+Ok
+
+Do the same for pls with mime type audio/x-scpls
+
+
+
+Setup with Netscape in Windows
+==============================
+First download and install python for windows from www.python.org.
+Save the beam-back.py file to C:\music.  If you are using winamp 
+or sonique right now, start the program and under preferences or 
+options de-select the m3u file association.
+
+Select Edit->Preferences->Navigator->Applications
+Scroll thru the window and find the application that is handling
+the mime type: audio/x-mpegurl (probably winamp).  Remove it.
+Select New.
+Enter Description: m3u Playlists
+Enter MIMEType: audio/x-mpegurl
+Enter Suffixes: m3u
+Enter Application: 
+  "C:\Program Files\Python\python.exe" C:\music\beam-back.py -v -d c:\music "%1"
+Select OK->OK
+
+Do the same for pls with mime type audio/x-scpls
+
+
+Infinite Streams
+================
+If you want to make an mp3 for an infinite stream m3u url,
+start beam-back with the option -v:
+xterm -e beam-back.py -v %s
+
+Verbose mode will tell you how much data has been read on a 
+particular stream.  Hitting ctrl-c in the xterm will cause 
+beam-back to stop downloading and save the stream to a file.
+The default name is "unfinished-stream.mp3" which can be changed
+with the -u option.
+
+If you find the stream is dropping out and losing link unexpectedly,
+try the -p option.
+
+Many internet radio sites use the .pls file format but the servers
+do not treat the mime type correctly :( You can save these streams 
+in the following manner:
+1) save the .pls file locally
+2) from a linux prompt execute: ./beam-back.py -v pls_filename
+
+Or you can set both the two mime types:
+    audio/x-scpls
+    application/octet-stream
+with suffix pls to "xterm -e beam-back.py -v %s"
+
+Finally, if you want to setup cron jobs, you can stop and save
+a beam-back transfer by doing a kill -INT to the job.
+
+
+Options
+=======
+
+beam-back v1.32 linux
+
+Usage: beam-back.py [options] m3u_file
+
+       -c       clobber files instead of appending -# 
+       -d dir   top directory to create files/subdirs in 
+       -i       use ICY title data from a shoutcast stream 
+                (this option is much improved) 
+       -l       log output to beam-back.log file 
+       -m       create a local .m3u playlist (in top dir) 
+       -n 1     name as "artist - title.mp3" (default) 
+       -n 2     name as "title.mp3" 
+       -n 3     name as "title.mp3" in subdir "artist" 
+       -n 4     name as "artist - title.mp3" in subdir "artist" 
+       -n #u    same as -n 1 to 4 except sub underscores for spaces 
+       -p       persistent re-open pls until keyboard interrupt
+       -t msec  trim msec milliseconds off the end of ICY files 
+       -u file  name for unfinished streams (unfinished-stream.mp3)
+       -v       verbose mode 
+       -z size  download size limit in megabytes
+
+Set your netscape application for m3u suffixes to something like:
+xterm -e beam-back.py -v -n 3 %s
+
+
+Motivation
+==========
+
+I apologize in advance to mp3.com for any troubles this software
+may cause them.  My motivation for making this available is to
+make streaming mp3 usable on portable mp3 players and for people
+with transfer limits.  
+
+In the long run, this program will also reduce internet traffic.
+In fact, I suggest you consider some sort of "local cache" feature
+for my.mp3.com where the user can enter the location of an album
+on their local drive.  Then a my.mp3.com playlist can have both
+local and remote entries.
+
+
+Acknowledgements
+================
+
+SourceForge crew -hosting this project. 
+my.mp3.com       -providing such a great service
+Robert A. Seace  -m3u playlist idea and code
+Tim Carroll      -infinite streaming suggestions
+Jake Kauth       -filename cleaning, logging class and rename code
+XMMS team        -ICY handling resource
+
+</pre>
+<br>
+<a href = "mailto:kal@users.sourceforge.net">kal@users.sourceforge.net</a>
+<br>
+</html>
+</pre>
+<br>
+<a href = "mailto:kal@users.sourceforge.net">kal@users.sourceforge.net</a>
+<br>
+</html>
+```
