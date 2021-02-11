@@ -1,0 +1,105 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"> <!-- -*-html-*- -->
+<html><head>
+<title>BBBike</title>
+<meta name="google-site-verification" content="AhshJV2yBnE08KkNwk0u-ArBFxZad0s6L3hHcIIWPEE">
+<meta name="language" content="en">
+<link rev=made href="mailto:slaven@rezic.de">
+<link rel=stylesheet type="text/css" href="bbbike.css">
+<link type="image/x-icon" rel="shortcut icon" href="http://www.bbbike.de/BBBike/images/srtbike1.ico">
+
+<script>
+function open_window(url) {
+    window.open(url, "bbbike_screenshot", "width=640,height=480,resizable=yes,scrollbars=yes,menubar=yes");
+    return false;
+}
+</script>
+
+</head>
+
+<body>
+
+<h1>BBBike<img style="position:relative; top:15px; left:-15px; " alt="" src="bbbike/images/srtbike.gif"></h1>
+
+<div style="position:absolute; top:20px; right:15px;"><a href="index.de.html"><img src="images/de_flag.png"
+alt="Deutsch" border=0></a></div>
+<b>Home</b> | <a href="screenshots.en.html">Screenshots</a> | <a href="downloads.en.html">Downloads</a> | <a href="http://www.bbbike.de/en">Web interface</a> | <a href="https://twitter.com/BBBikeDE">Twitter</a><!-- | <a href="bbbikelog">Blog</a>--><p>
+<b>BBBike</b> is an information system for cyclists in Berlin and
+Brandenburg (Germany). The application has the following features:
+<ul>
+ <li>Display map with streets, cycle paths, bad surfaces, railways,
+ rivers, parks, altitudes and other map features
+ <li>Find routes between two points. The route-finder may be
+ customized to match cyclists preferences, amongst others:
+ <ul>
+  <li>fastest route
+  <li>avoid busy streets
+  <li>avoid bad surfaces, for example cobblestones
+  <li>prefer "green" routes (in parks, forest or along rivers and lakes)
+  <li>consider current wind direction and strength and hills
+ </ul>
+ <li>Current road works in Berlin are known and used in route calculations
+ <li>Output map with route as PDF or a GPS track
+ <li>A bike power calculator
+ <li>Automatically fetch current Berlin weather data
+</ul>
+<p>
+
+<a href="screenshots.en.html">Screenshots</a> of
+the desktop application which is available for Linux, Unix,
+Mac&#160;OS&#160;X, and Windows.
+
+<!--
+There is also a <a
+href="images/tkbabybike-screenshot.png">Screenshot</a> of a trimmed-down
+version for Intel ARM Handhelds running Linux (like the
+Compaq iPAQ). 
+-->
+<p>
+
+There is also a simple but popular
+<a href="http://www.bbbike.de/en">Web interface</a>.
+<!-- <small>(<a
+href="http://bbbike.sourceforge.net/cgi-bin/bbbike.cgi">alternative on
+sourceforge.net</a>,
+<a
+href="http://user.cs.tu-berlin.de/~eserte/bbbike/cgi/bbbike.cgi">alternative
+on cs.tu-berlin.de</a>)</small>
+-->
+
+<p>
+
+<a
+href="downloads.en.html">Download</a>
+of the desktop application, written in the Perl programming language together with the Tk GUI toolkit. Note that for Linux
+and Unix you also need
+<a href="http://www.perl.com">Perl</a>
+
+and the
+<a
+href="http://search.cpan.org/search?mode=module&amp;query=Tk">Tk</a>
+
+module installed. Windows and Mac&#160;OS&#160;X users may download the complete package.
+Instructions are included in the <a
+href="bbbike/doc/README.english.html">README</a> file.
+<p>
+
+<!--
+If you want to participate in the project, you can take a look at the
+<a href="http://sourceforge.net/projects/bbbike">Sourceforge homepage
+of the project</a> and submit bug reports and patches. Or just send an
+<a href="mailto:slaven@rezic.de">e-mail</a> to the author.
+-->
+
+<h2>Documentation</h2>
+<ul>
+ <li><a href="bbbike/doc/bbbike.html">POD documentation</a> (only German)
+ <li><a href="bbbike/doc/README.english.html">README</a> (English)
+ <li><a href="https://github.com/eserte/bbbike/blob/master/CHANGES">CHANGES</a>
+</ul>
+<p>
+Author:
+<a href="mailto:slaven@rezic.de">Slaven Rezic</a> &lt;slaven@rezic.de&gt;
+</p>
+
+</body></html>
+```
