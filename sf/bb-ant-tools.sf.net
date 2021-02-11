@@ -1,0 +1,112 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>BlackBerry Ant Tools</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+
+<div id="header">
+  <h3>Collection of ant tasks for building blackberry applications.</h3>
+</div>
+
+<div id="nav">
+  <ul>
+    <li class="first"><a href="main">Home</a></li>
+    <li><a href="docs">Documentation</a></li>
+	<li><a href="support">Support</a></li>
+	<li><a href="http://sourceforge.net/projects/bb-ant-tools/">SourceForge Project Page</a></li>
+	<li><a href="http://sourceforge.net/project/showfiles.php?group_id=195339">Downloads</a></li>
+	<li><a href="credits">Credits</a></li>
+  </ul>
+</div>
+
+<div id="body">
+<h2>What is bb-ant-tools?</h2>
+
+<p>Blackberry Ant Tools is a collection of ant tasks for building blackberry
+applications.  It's designed to be as simple as possible yet powerful enough
+to completely replace the RIM JDE.  However a copy of the JDE must be
+installed for the rapc and signature tool jar files.</p>
+
+<p>Blackberry Ant Tools use the executable jar files to run the rapc
+compiler and signature tool.  There is nothing windows specific about these
+ant tasks.  If you have a copy of the JDE and the J2ME preverify command
+somewhere in the path, the rapc compiler works fine on other operating
+systems (Linux, Mac OS X, etc).</p>
+
+<p>If you don't like something, provide
+<a href="http://sourceforge.net/tracker/?group_id=195339&amp;atid=953049">feedback</a>
+and we'll take a look.  Or better yet,
+<a href="http://sourceforge.net/svn/?group_id=195339">get the source</a>
+and send in a patch!</p>
+
+<h2>News</h2>
+
+<p>
+
+<div class="news_item">
+  <div><a class="news_link" href="http://sourceforge.net/news/?group_id=195339&id=299559">BlackBerry_App_Descriptor.xml</a></div>
+  <span class="news_date">Fri, 15 Apr 2011 20:35:59 GMT</span><br />
+  <p>Initial support for configuring the &lt;rapc&gt; task from the XML file created by RIM's eclipse plugin is ready for testing.<br /><br />Please test and drop by the mailing list to let me know how it goes. To test this feature please compile from source:<br /><br /># clone repo<br />git clone git://bb-ant-tools.git.sourceforge.net/gitroot/bb-ant-tools/bb-ant-tools<br />cd bb-ant-tools<br /><br /># checkout branch<br />git checkout -b appdescriptor remotes/origin/appdescriptor<br /><br /># build<br />ant build<br /><br />Use it like this:<br /><br />&lt;rapc descriptor=&quot;BlackBerry_App_Descriptor.xml&quot; /&gt;</p>
+</div>
+<div class="news_item">
+  <div><a class="news_link" href="http://sourceforge.net/news/?group_id=195339&id=299557">Migration to Git</a></div>
+  <span class="news_date">Fri, 15 Apr 2011 19:28:34 GMT</span><br />
+  <p>The subversion repository has been retired and the complete project history moved over to git.</p>
+</div>
+<div class="news_item">
+  <div><a class="news_link" href="http://sourceforge.net/news/?group_id=195339&id=282721">Rollover icon support</a></div>
+  <span class="news_date">Tue, 16 Feb 2010 22:22:23 GMT</span><br />
+  <p>Release 1.2.5 adds support for setting the rollover icon for applications on the BlackBerry home screen.  This feature is available when compiling using version 4.7 or greater RIM JDE.  Applications compiled using previous version will need to handle rollover icons at runtime.<br /><br />The syntax is simple and backwards compatible with previous version of bb-ant-tools.  See the documentation for further details:<br /><br /><a href="http://bb-ant-tools.sourceforge.net/docs#rapc">http://bb-ant-tools.sourceforge.net/docs#rapc</a></p>
+</div>
+<div class="news_item">
+  <div><a class="news_link" href="http://sourceforge.net/news/?group_id=195339&id=255340">New features in BB Ant Tools</a></div>
+  <span class="news_date">Fri, 05 Dec 2008 00:56:18 GMT</span><br />
+  <p>The following new features have been added:<br /><br /> * &lt;alx&gt; generate .alx file and copy .cod files<br /> * &lt;jadtool&gt; update .jad file and extract sibling .cod files<br /><br />In addition, the rapc task has been updated to fix an issue on Windows when compiling projects with many files or very long path names.<br /><br />From now on, version numbering will follow the standard x.y.z nomenclature.  Since bb-ant-tools has been in use by myself and many others for quite some time now, I think it's fitting that the project be given the 1.0.0 status.</p>
+</div>
+<div class="news_item">
+  <div><a class="news_link" href="http://sourceforge.net/news/?group_id=195339&id=253149">Preprocessor support</a></div>
+  <span class="news_date">Sun, 02 Nov 2008 23:03:06 GMT</span><br />
+  <p>A few weeks back RIM held their first ever developer conference.  One of the presentations went over techniques for managing code bases that must target legacy OS versions.  In this presentation RIM revealed the presence of a simple preprocessor in the rapc compiler.<br /><br />Release 0.8 exposes said preprocessor and provides several new attributes in the rapc ant task for slightly increased control on compiler output and behavior.<br /><br />See the documentation section for details on how to use the preprocessor and a list of new boolean attributes.</p>
+</div>
+<div class="news_item">
+  <div><a class="news_link" href="http://sourceforge.net/news/?group_id=195339&id=230191">One less environment variable to set</a></div>
+  <span class="news_date">Thu, 17 Jan 2008 17:18:18 GMT</span><br />
+  <p>I've had so many people ask for help when the rapc task bails because it can't find the preverify program that I decided to update the rapc task to automagically add the JDE's bin directory (temporarily) to the systems PATH environment variable.<br /><br />The latest build (version 0.7) has this update.<br /><br />However, you MUST have the Java JDK's bin directory in your systems PATH variable otherwise rapc won't be able to find the javac command.<br /><br />I will update the website with instructions on setting up your environment shortly.</p>
+</div>
+<div class="news_item">
+  <div><a class="news_link" href="http://sourceforge.net/news/?group_id=195339&id=223182">New SignatureTool in JDE 4.3</a></div>
+  <span class="news_date">Thu, 01 Nov 2007 17:30:02 GMT</span><br />
+  <p>With the release of JDE 4.3 came a few updates to the signature tool.  You can (finally!) specify your password on the command line so that you don't have to re-type the damn thing ever time you sign a cod file.<br /><br />I've update the sigtool task to support this.  See the documentation for details.<br /><br />Oh, and it appears as though the signature tool still doesn't work in *nix (write once, run anywhere my ass).  Bummer...</p>
+</div>
+<div class="news_item">
+  <div><a class="news_link" href="http://sourceforge.net/news/?group_id=195339&id=212287">CLDC alternate entry point</a></div>
+  <span class="news_date">Mon, 02 Jul 2007 16:51:30 GMT</span><br />
+  <p>The fifth release of blackberry ant tools has been posted in the downloads section.  This release has a new feature for setting alternate entry points for CLDC applications.<br /><br />See the <a href="http://bb-ant-tools.sourceforge.net/#docs">http://bb-ant-tools.sourceforge.net/#docs</a>  for more information.</p>
+</div>
+<div class="news_item">
+  <div><a class="news_link" href="http://sourceforge.net/news/?group_id=195339&id=210062">Set jvm used by rapc</a></div>
+  <span class="news_date">Thu, 07 Jun 2007 18:23:08 GMT</span><br />
+  <p>With certain combinations of the RIM JDE and the Sun JRE, the rapc compiler will complain it can't find certain classes in the rim api.<br /><br />To remedy this, I added an optional property to the rapc task for setting the home directory of the jvm to use for launching the rapc command.  Version 0.4 incorporates this feature.</p>
+</div>
+<div class="news_item">
+  <div><a class="news_link" href="http://sourceforge.net/news/?group_id=195339&id=208853">Updated source package</a></div>
+  <span class="news_date">Fri, 25 May 2007 19:44:41 GMT</span><br />
+  <p>There was a mistake in the project build script which caused empty directories for source code and config files to be added to the source package when creating release packages.<br /><br />I've fixed the build script and updated the source package in the latest release on SourceForge.  The version number has not change.</p>
+</div>
+</p>
+
+</div>
+<div id="footer">
+  Site powered by:
+  <a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=195339&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo" /></a>
+  |
+  <a href="http://michelf.com/projects/php-markdown/">Markdown</a>
+  |
+  <a href="http://magpierss.sourceforge.net/">MagpieRSS</a>
+</div>
+
+</body>
+</html>
+```
