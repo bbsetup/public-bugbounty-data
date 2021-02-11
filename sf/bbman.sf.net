@@ -1,0 +1,333 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>BBMan v3.0.1 --- SSH / SFTP Client, Cross-platform !R OpenSource</title>
+</head>
+
+<body bgcolor="#EEFFEE">
+<div id="Layer1" style="position:absolute; z-index:1"> 
+  <Script Src="http://bbman.sourceforge.net/script/scd_counter.php?counter_name">
+</Script>
+  <br>
+  <a href="taiwan/"><strong><font color="#FF0000">Taiwan version</font></strong></a></div>
+<div id="Layer2" style="position:absolute; top:3293px; height:36px; z-index:2; left: 116px;"></div>
+<div align="center"><FONT color=blue size="+2"><strong>BBMan v3.0.1 --- Cross-platform 
+  &amp; OpenSource<br>
+  <font color="#FF0000"> SSH</font> / <font color="#FF0000">SFTP</font> / Telnet 
+  / BBS <font color="#FF0000">GUI</font> Client</strong></FONT></div>
+<div align="center"> 
+  <p><font color="green"> designed by <strong>Xie, Chun-Da</strong> (jakky1), 
+    <strong>Taiwan</strong>.</font> </p>
+  </div>
+<table border="1" align="center" cellpadding="6" cellspacing="3" bordercolor="#9900FF" bgcolor="#FFEEEE">
+  <tr> 
+    <td nowrap><div align="center"><font color="red"><strong>Multi-connections</strong></font>, 
+        <strong></strong><font color="#FF0000"><strong>security-concerns</strong></font>, 
+        with<font color="red"><strong> GUI</strong></font><br>
+        support<font color="red"><font color="FF6666"> <strong><font color="#0000FF">Windows</font></strong></font></font>
+        / <strong></strong><font color="red"><font color="FF6666"><strong><font color="#0000FF">Linux</font></strong></font></font> 
+        / <strong></strong><font color="red"><font color="FF6666"><strong><font color="#0000FF">FreeBSD</font></strong> 
+        </font></font>platforms, <font color="red"><strong><font color="#0000FF">i18n</font></strong><br>
+        </font>Support<font color="red"> <strong><font color="#FF0000">Double-byte 
+        character</font></strong></font>, and<font color="red"> <font color="#FF0000"><strong>XIM</strong></font> 
+        (X Input Method) under Linux / FreeBSD <strong> </strong><br>
+        </font></div></td>
+  </tr>
+</table>
+<br>
+<table align="center">
+  <tr>
+    <td><table align="center" cellpadding="5">
+        <tr> 
+          <td nowrap><a href="#license">License</a></td>
+          <td nowrap><a href="#features">Features</a></td>
+          <td nowrap><a href="#security">Security</a></td>
+          <td nowrap><a href="http://sourceforge.net/project/screenshots.php?group_id=114729" target="_blank">Screenshots</a></td>
+          <td nowrap><a href="#who-needs-bbman">Who-needs-BBMan ?</a></td>
+          <td><a href="#known-bugs">Known-bugs</a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<table align="center" cellpadding="5">
+        <tr> 
+          <td nowrap><a href="#news">News</a></td>
+          <td nowrap>Forum</td>
+          <td nowrap><a href="#download">Download</a></td>
+          <td nowrap><a href="#help"><font color="#FF0000"><strong>HELP!</strong></font></a></td>
+          <td nowrap><a href="development.html">Development</a></td>
+          <td nowrap><a href="http://sourceforge.net/projects/bbman/">Sourceforge</a></td>
+          <td nowrap><a href="mailto:g9208@cs.nccu.edu.tw?subject=%5BBBMan%5D%20%20Suggestion%20/%20Bug-Report">Email</a> 
+          </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<ul>
+  <li><a name="license" id="license"></a>License : <strong><a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a></strong><strong> 
+    <a href="http://www.opensource.org/docs/definition.php" target="_blank"><img src="http://opensource.org/trademarks/opensource/web/opensource-55x48.gif" alt="OSS" border="0"></a> 
+    <a href="http://sourceforge.net/projects/bbman/" target="_blank"><img src="http://sourceforge.net/sflogo.php?group_id=9863" border="0"> 
+    </a><a href="http://sourceforge.net/donate/index.php?group_id=114729" target="_blank"><img src="http://images.sourceforge.net/images/project-support.jpg" border="0"></a></strong> 
+  </li>
+</ul>
+<table width="60%" border="1" align="center" bordercolor="#0000FF" bgcolor="#AAFFAA">
+  <tr> 
+    <td><div align="center"><a name="news"></a>News ( updated 09/14 10:00am +08:00 
+        )</div></td>
+  </tr>
+</table>
+<ul>
+  <li>(2004/09/22) v3.0.1 released ! 
+    <ul>
+      <li>From now on, BBMan has two version : full &amp; nossh. The &quot;full&quot; 
+        version has full functionality (SSH / SFTP / BBS / Telnet), and &quot;nossh&quot; 
+        version has only BBS / Telnet functionality.</li>
+      <li>It seems that in some environment (ex. OpenSSH 3.81 with OpenSSL 0.9.7d 
+        ) BBMan has some authentication problem with SSH server, it means that 
+        in some environment you <font color="red">can't login to SSH server</font>. 
+        It will be fixed if the libssh author fix it.</li>
+      <li>Fix some problem with &quot;Favotes Editor&quot; and &quot;Favotes&quot; 
+        menu.</li>
+      <li>Enable the [Enter] key in the numpad.</li>
+      <li>Fix problem when &quot;copy plain text&quot; (it prefix &quot;0[m&quot; 
+        to each line in v3.0).</li>
+    </ul>
+  </li>
+  <li>(2004/09/14) Sorry for the imcomplete of this page, such as the libeay32.dll 
+    link, and the incomplete information about how to make a ssh connection. If 
+    you want to connect SSH server in BBMan, Please enter <font color="#FF0000"><strong>ssh://your.host.ip</strong></font> 
+    in the <strong><font color="#0000FF">[menu]-&gt;[Quick Connection]</font></strong> 
+    , or the TextBox on the toolbar, or you can try menu<strong><font color="#0000FF"> 
+    [Favorite] -&gt; [Edit favorite]</font></strong> directly using address your.host.ip 
+    without prefix ssh:// . BUT if you connect SSH without specify username, then 
+    program will show a InputBox to ask your username. SORRY or the InputBox that 
+    I just found there has BIG5 character (taiwan language), I'm not very sure 
+    that if it will crash because of this under Linux/FreeBSD. If it will crash, 
+    I'll put the newer version in a week or so. ;)</li>
+  <li>(2004/09/14) AND you can open SFTP window in the menu <strong><font color="#FF0000">[Tool]-&gt;[Show 
+    SFTP Window]. </font></strong>Just as what I said, BBMan v3.0 is the first 
+    version that I put the SSH / SFTP feature in it, so there will be some problem 
+    in SSH/SFTP, but I think the problem will not too be serious, and I will try 
+    to solve these problem as soon as possible. :)</li>
+  <li>(2004/09/14) The libssh author just fix a bug yesterday, this will make 
+    you open the SFTP Window faster. In a week or so I will put the new version.</li>
+  <li>(2004/09/14) Welcome for any suggestion / bug-report. BUT sorry for my poor 
+    English, if you want to email me in English, I hope that you can understand 
+    what I mean in the replied email. And it will be better if you talk with me 
+    with easier English, to ensure that I can understand what you mean in email. 
+    If you don't know how to use BBMan, PLEASE let me know, and I will be glad 
+    to help you using BBMan, and I will add some information I forgot to put on 
+    both this webpage and the program BBMan.</li>
+  <li>(2004/09/11) BBMan v3.0 released. It is the first version that I put the 
+    SSH / sftp feature in it ;)</li>
+</ul>
+<p>&nbsp;</p><table width="60%" border="1" align="center" bordercolor="#0000FF" bgcolor="#AAFFAA">
+  <tr> 
+    <td><div align="center"><a name="features" id="features"></a>Features</div></td>
+  </tr>
+</table>
+<ul>
+  <li>You can <font color="#FF0000"><strong>connect to SSH</strong></font> server. 
+    (Please add the prefix ssh:// , for example, enter <strong><font color="#FF0000">ssh://your.server.ip</font></strong> 
+    as adderss )</li>
+  <li>BBMan also provide a <font color="#FF0000"><strong>GUI</strong></font> for 
+    you to <strong><font color="#FF0000">transfer files</font></strong> using 
+    <strong><font color="#FF0000">SFTP</font></strong> (under SSH on the server 
+    you connect). You can also perform <font color="#FF0000"><strong>file-manipulation</strong></font>, 
+    such as rename/delete/mkdir/cd, just like most FTP client does.</li>
+  <li>support<font color="red"><font color="FF6666"> <strong><font color="#0000FF">Windows</font></strong></font></font> 
+    / <strong></strong><font color="red"><font color="FF6666"><strong><font color="#0000FF">Linux</font></strong></font></font> 
+    / <strong></strong><font color="red"><font color="FF6666"><strong><font color="#0000FF">FreeBSD</font></strong> 
+    </font></font>platforms</li>
+  <li>BBMan can help you <strong><font color="#FF0000">auto-login</font></strong> 
+    and <strong><font color="#FF0000">auto-connect</font></strong> when startup.</li>
+  <li>Support <strong><font color="#FF0000">tabbed-window</font></strong>, this 
+    means that you can connected to many servers <strong><font color="#FF0000">at 
+    the same time</font></strong>.</li>
+  <li>In SSH / sftp connections, all the data are <strong><font color="#FF0000">compressed</font></strong> 
+    and <strong><font color="#FF0000">encrypted</font></strong> (of course).</li>
+  <li>You can create new account in BBMan, and you can have your own settings 
+    and favorites list. And nobody can use your favorites list if he knows your 
+    password to log in BBMan. All the password are <strong><font color="#FF0000">encrypted</font></strong> 
+    then save to profile.</li>
+  <li>BBMan can also connect to <strong><font color="#FF0000">BBS</font></strong> 
+    server, with many features that is useful in BBS. If you are interested in 
+    theses features, please visit <font color="#FF0000">Taiwan-version webpage</font> 
+    for more details.</li>
+  <li>Supports <strong><font color="#FF0000">i18n</font></strong>, <font color="red"><strong><font color="#FF0000">Double-byte 
+    character</font></strong></font>, and<font color="red"> <font color="#FF0000"><strong>XIM</strong></font> 
+    (X Input Method) under Linux / FreeBSD </font></li>
+</ul>
+<p>&nbsp;</p><table width="60%" border="1" align="center" bordercolor="#0000FF" bgcolor="#AAFFAA">
+  <tr> 
+    <td><div align="center"><a name="security" id="security"></a>Security</div></td>
+  </tr>
+</table>
+<ul>
+  <li>Over the SFTP, all the data are transferred under SSH, that is, all the 
+    data will be <strong><font color="#FF0000">encrypted</font></strong>.</li>
+  <li>You can pre-enter your password so you don't need to enter your password 
+    each time you log in. Of course, you can <font color="#FF0000">establish your 
+    own account</font> on the BBMan to prevent anyone knowing your password or 
+    login with your account. Your password will be <strong><font color="#FF0000">encrypted</font></strong> 
+    when BBMan save it to profile.</li>
+  <li>You can also <font color="#FF0000"><strong>hide</strong></font> BBMan when 
+    you leave your seat for a moment, to prevent anybody issue any command via 
+    your account.</li>
+</ul>
+<p>&nbsp;</p><table width="60%" border="1" align="center" bordercolor="#0000FF" bgcolor="#AAFFAA">
+  <tr> 
+    <td><div align="center"><a name="who-needs-bbman" id="who-needs-bbman"></a>Who need BBMan ?</div></td>
+  </tr>
+</table>
+<ul>
+  <li>People who often need to connect two or more SSH servers at the same time.</li>
+  <li>People who need to upload / download files to / from the SSH server they 
+    connected, hoping that nobody knows what they transfered.</li>
+  <li>People who are lazy for remembering all the password, but still concern 
+    the security issue.</li>
+</ul>
+<p>&nbsp;</p>
+<table width="60%" border="1" align="center" bordercolor="#0000FF" bgcolor="#AAFFAA">
+  <tr> 
+    <td><div align="center"><a name="news"></a>Thanks to</div></td>
+  </tr>
+</table>
+<br>
+<table border="1" cellpadding="6">
+  <tr> 
+    <td nowrap><a href="http://0xbadc0de.be/?part=libssh" target="_blank">http://0xbadc0de.be/?part=libssh</a></td>
+    <td>The <font color="#FF0000">SSH library</font> that BBMan use. You should 
+      visit this site if you want to develop a SSH / sftp client.</td>
+  </tr>
+  <tr> 
+    <td nowrap><a href="http://www.foood.net/" target="_blank">http://www.foood.net/</a></td>
+    <td>They provide free and pretty cute <font color="#FF0000">icons</font>. 
+      BBMan use their icons as default icon set.</td>
+  </tr>
+  <tr> 
+    <td nowrap><a href="http://www.wxwidgets.org/" target="_blank">http://www.wxwidgets.org/</a></td>
+    <td><font color="#FF0000">cross-platform GUI toolkit</font> that BBMan develop 
+      on.</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="60%" border="1" align="center" bordercolor="#0000FF" bgcolor="#AAFFAA">
+  <tr> 
+    <td><div align="center"><a name="known-bugs" id="known-bugs"></a>Known bugs</div></td>
+  </tr>
+</table>
+<ul>
+  <li><strong><font color="#FF0000">If you like the BBMan, PLEASE HELP me fix 
+    some problems in BBMan (Please see the &quot;HELP&quot; section below).</font></strong></li>
+  <li>There are still a few <font color="#FF0000">terminal-protocol code</font> 
+    that BBMan can't parse it. But it won't make world too bad. In fact, I have 
+    tested the SSH on some popular Linux distro. such as Mandrake, Fedora core, 
+    FreeBSD, and SunOS, and it works good almost the time. I hope anybody can 
+    <strong><font color="#FF0000">help</font></strong> me to fill all the terminal-protocol 
+    problem. Please see the <font color="#FF0000">Development section</font>. 
+    I think this will be fixed soon if anyone have such domain-knowledge and be 
+    willing to help me.</li>
+  <li>No history window yet. Coming soon...</li>
+  <li>In Linux/FreeBSD, BBMan can't directly paste text from other program. This 
+    is caused by wxWidgets. Please use [Edit]-&gt;[Input line] instead, and paste 
+    the text you copied to the popup window.</li>
+</ul>
+<p>&nbsp;</p><table width="60%" border="1" align="center" bordercolor="#0000FF" bgcolor="#FFCCFF">
+  <tr> 
+    <td><div align="center"><a name="help" id="help"></a><font color="#FF0000"><strong>Search 
+        for HELP</strong></font></div></td>
+  </tr>
+</table>
+<ul>
+  <li><strong><font color="#FF0000">If you like the BBMan, PLEASE HELP me fix 
+    some problems in BBMan ;)</font></strong></li>
+  <li>There are still a few <font color="#FF0000">terminal-protocol code</font> 
+    that BBMan can't parse it. 
+    <ul>
+      <li>If anybody knows about it, you can press [F3] when connecting to SSH 
+        server. The [F3] turn on/off debug mode. When turn on it, all the data 
+        in shell will show in a message box. You can use it to see which terminal-code 
+        that BBMan didn't handle it well, and tell me what these terminal-code 
+        mean or patch it directly :)</li>
+      <li>For example, you can tell me that ^[[3@ means &quot;insert 3 characters&quot; 
+        and so on.</li>
+      <li>All the terminal-protocol handling code are in <font color="#FF0000">SCD_Terminal::parse()</font> 
+        in <font color="#FF0000">src/scd_terminal.cpp</font>, about 350 lines. 
+        Sorry for most of the comments are Traditional-Chinese (Big5) characters, 
+        I will modify it if I'm free.</li>
+    </ul>
+  </li>
+  <li>In Linux/FreeBSD, BBMan can't copy/paste text to/from other program. This 
+    is caused by wxWidgets. Although BBMan now use some not-very-well method to 
+    solve this problem, I hope there is someone can help <a href="http://www.wxwidgets.org/" target="_blank">wxWidgets</a> 
+    to solve it.</li>
+  <li>Because I don't have <strong><font color="#FF0000">MacOS X</font></strong>, 
+    so if anyone know how to port BBMan to MacOS X with <a href="http://www.wxwidgets.org/" target="_blank">wxWidgets</a> 
+    that BBMan use, <strong><font color="#FF0000">Please help me</font></strong> 
+    :)</li>
+</ul>
+<p>&nbsp;</p>
+<table width="60%" border="1" align="center" bordercolor="#0000FF" bgcolor="#AAFFAA">
+  <tr> 
+    <td><div align="center"><a name="download" id="download"></a>Download</div></td>
+  </tr>
+</table>
+<br>
+<table border="1" cellpadding="6">
+  <tr bordercolor="red" bgcolor="#FFCCCC">
+    <td nowrap><font color="red"><strong>Note</strong></font></td>
+    <td><p>From v3.0.1, BBMan has two version : &quot;<strong><font color="red">full</font></strong>&quot; 
+        and &quot;<strong><font color="red">nossh</font></strong>&quot;.</p>
+      <p>The &quot;full&quot; version has all the functionality for SSH / SFTP 
+        / Telnet / BBS.<br>
+        It needs &quot;libeay32.dll&quot; for Windows, and &quot;openssl&quot; 
+        &quot;openssl-devel&quot; packages in Linux / FreeBSD.</p>
+      <p>The &quot;nossh&quot; version has only &quot;BBS / Telnet&quot; function. 
+        It is designed for Asian who only use BBMan to connect BBS server.</p></td>
+  </tr>
+  <tr bordercolor="red" bgcolor="#FFCCCC"> 
+    <td nowrap><font color="red"><strong>Common<br>
+      data</strong></font></td>
+    <td><p><a href="/data/">Icons</a></p></td>
+  </tr>
+  <tr> 
+    <td nowrap>Source</td>
+    <td><a href="http://sourceforge.net/project/showfiles.php?group_id=114729&package_id=124450" target="_blank">Download</a> 
+      (<a href="compile.html">instructions</a>) </td>
+  </tr>
+  <tr> 
+    <td nowrap>Windows</td>
+    <td><p><a href="http://sourceforge.net/project/showfiles.php?group_id=114729&package_id=127235" target="_blank">Download</a><br>
+        <font color="#FF0000"><strong>Note</strong></font>: You need to download 
+        <a href="/data/libeay32.dll">libeay32.dll</a> to C:\WINDOWS\system32\ 
+        or where BBMan are reside in, to enable SSH.</p></td>
+  </tr>
+  <tr> 
+    <td nowrap>Linux</td>
+    <td><a href="http://sourceforge.net/project/showfiles.php?group_id=114729&package_id=127236" target="_blank">Download 
+      Linux Executable (static-link)</a> <strong><font color="#FF0000">(need openssl 
+      package)</font></strong></td>
+  </tr>
+  <tr> 
+    <td nowrap>FreeBSD</td>
+    <td><p><a href="http://sourceforge.net/project/showfiles.php?group_id=114729&package_id=127237" target="_blank">Download 
+        FreeBSD Executable (static-link)</a> <strong><font color="#FF0000">(need 
+        openssl package)</font></strong></p>
+      <p><font color="#FF0000"><strong>Compile and Install via ports :</strong></font><br>
+        <font color="green"># cd /usr/port/chinese/BBMan <br>
+        # make install clean</font></p></td>
+  </tr>
+  <tr bgcolor="#FFCCFF"> 
+    <td nowrap>MacOS X</td>
+    <td>Because I don't have MacOS, so if anyone know how to build software on 
+      MacOSX with <a href="http://www.wxwidgets.org/" target="_blank">wxWidgets</a> 
+      that BBMan use, <strong><font color="#FF0000">Please help me</font></strong> 
+      :)</td>
+  </tr>
+</table>
+</body>
+</html>
+```
