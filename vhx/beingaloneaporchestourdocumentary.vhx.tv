@@ -1,0 +1,1065 @@
+```<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Being Alone - A PORCHES TOUR DOCUMENTARY</title>
+
+  <meta name="title" content="Being Alone - A PORCHES TOUR DOCUMENTARY">
+  <meta name="description" content="The film follows six young musicians who ride a breaking down bus from sea to shining sea. New friends along the road give the band a place to sleep, meals to eat, and a glimpse into their own lives as independent musicians living across the US. 
+
+Featuring the “Bummer pop” band Porches from their beginnings in a small town basement to indie success. ">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://beingaloneaporchestourdocumentary.vhx.tv&format=json" title="Being Alone - A PORCHES TOUR DOCUMENTARY" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://beingaloneaporchestourdocumentary.vhx.tv&format=xml" title="Being Alone - A PORCHES TOUR DOCUMENTARY" />
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://beingaloneaporchestourdocumentary.vhx.tv">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      /* -----------------------------------------------------
+  
+  	document / reset
+  
+  ------------------------------------------------------ */
+  body {
+  	font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #172928;
+    font-size: 12px;
+    background: #dbd8d8 url() repeat 0 0;
+  }
+  ul, li {
+  	padding: 0;
+  	margin: 0;
+  	list-style: none;
+  }
+  a:link,
+  a:visited {
+  	color: #d73a19;
+    text-decoration: none;
+  }
+  a:hover,
+  a:active {
+  	color: #a02208;
+  	text-decoration: underline;
+  }
+  
+  
+  /* -----------------------------------------------------
+  
+  	header
+  
+  ------------------------------------------------------ */
+  #head { 
+  	display: block;
+  }
+  
+  	/* primary navigation
+  	-------------------------------------------------- */
+  	.nav-pri { 
+  	  background: #dbd8d8 url() repeat 0 0;
+      width: 100%;
+      padding: 10px 0;
+      text-align: left;
+      z-index: 10;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .sub-page .nav-pri {
+      background: #000000;
+    }
+  	.nav-pri ul {
+    	padding-left: 15px;
+    }
+  	.nav-pri li {
+    	display: inline-block;
+      padding: 0 10px;
+    }
+  	.nav-pri a {
+    	color: #ffffff;
+   		font-size: 12px;
+    }
+  	.nav-pri a:link,
+    .nav-pri a:visited {
+    		text-decoration: none;
+    }
+  	.nav-pri a:hover,
+    .nav-pri a:active {
+  		text-decoration: none;
+      color: #d73a19;
+    }
+    .social {
+      position: absolute;
+  	  top: 48px;
+    	right: 10px;
+  	  z-index: 100;
+    }
+    .social li {
+  	  float: left;
+     	padding: 0 2px;
+    }
+  	.social .mail {
+      display: inline-block;
+      max-width: 200px;
+      padding: 3px 5px;
+      margin: 0px 4px 10px 4px;
+      
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      
+      background-color: #ffffff;
+      border: 1px solid #f7f7f7;
+      color:#333333;
+  
+  		letter-spacing: 0;
+      line-height: 1;
+      font-size: 11px;
+      font-family: sans-serif;
+      font-weight: bold;
+      
+      text-align: center;
+      text-decoration: none;
+      text-transform: none;
+      text-shadow: 1px 1px 0px rgba(255,255,255,.2);
+      
+      background: rgb(255,255,255);
+      background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(223,223,223,1) 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(223,223,223,1)));
+      background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(223,223,223,1) 100%);
+      background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(223,223,223,1) 100%);
+      background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(223,223,223,1) 100%);
+      background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(223,223,223,1) 100%);
+  	}
+    .social .mail i {
+    	color: #000;
+    }
+    .social .mail:hover {
+    	opacity: 1;
+      color: #d73a19;
+    }
+    .social .mail:hover i {
+    	color: #d73a19;
+    }
+    
+  	/* media
+  	-------------------------------------------------- */
+  	@media screen and (max-width: 650px){
+  	}
+  	@media screen and (max-width: 450px){
+  	}
+  
+  /* -----------------------------------------------------
+  
+  	main
+  
+  ------------------------------------------------------ */
+  
+  	/* feature
+  	-------------------------------------------------- */
+  	.feature {
+    	width: 100%;
+      min-height: 700px;
+      display: block;
+      overflow: hidden;
+    }
+  	.feature-options {
+    	position: absolute;
+      top: 62%;
+      width: 40%;
+      max-width: 900px;
+      margin: 0 30%;
+      z-index: 1000;
+    }
+    .feature-options li {
+    	width: 50%;
+      float: left;
+      text-align: center;
+    }
+    .feature-options .btn {  
+    	width: 95%;
+      margin: 0 auto;
+    }
+    .feature-options .btn:hover {
+       background: #a02208; 
+  	}
+  	.feature-head {
+  	  padding: 10px;
+  		display: inline-block;
+      position: absolute;
+      top:	25%;
+      left: -999999px;
+      max-width: 80%;
+      min-width: 45%;
+      z-index: 1000;
+     	background: url('https://dr56wvhu2c8zo.cloudfront.net/brick/assets/19116f7a-13fa-48ac-8a42-e4ae014818a4/bg-black-transparent.png') repeat 0 0 \9;
+      background: rgba(0,0,0,.5);
+      max-width: 960px;
+    }
+  	.feature-head .hgroup {
+  		text-align: center;
+      display: block;
+      margin: 0;
+    	border: 2px solid #ffffff;    
+      padding: 10px;    
+  	}
+    .feature-head .hgroup .contain {
+  		display: inline-block;
+   	}
+    .feature-head h1 {
+    	font-family: 'Oranienbaum', serif;
+  		color: #ffffff;
+      font-size: 34px;
+      line-height: 1em;
+     }
+   	.feature-head h2 {
+    	border-top: 1px solid #ffffff;
+  		color: #ffffff;
+      padding: 10px 0 5px 0;
+      display: block;
+      text-transform: uppercase;
+      font-family: 'Oranienbaum', serif;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  	.feature-slideshow {
+    	position: absolute;
+      min-height: 700px;
+      top: 0;
+      left: 0;
+    	width: 100%;
+  		height: 100%;
+      display: block;
+    }
+   	.feature-slideshow img {
+    	display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .callout {
+    	width: 300px;
+      left: 50%;
+      margin-left: -150px;
+      position: absolute;
+      bottom: 5%;
+      color: #fff;
+      text-align: center;
+    }
+    .callout img {
+  	  width: 100px;
+     }
+    
+    @media screen and (max-width: 650px){
+    .feature {
+      min-height: 450px;
+    }
+  	.feature-options {
+      width: 60%;
+  		margin: 0 20%;
+    }
+    .feature-slideshow {
+      min-height: 450px;  
+    }
+   	.feature-head {
+  		min-width: 65%;
+  	}
+  	.feature-head h1 {
+      	font-size: 28px;
+    }
+    .feature-head h2 {
+  		font-size: 16px;
+    }
+   }
+    @media screen and (max-width: 450px){
+  	  .feature {
+    	  min-height: 350px;
+  	  }
+     	.feature-options {
+        margin: 0 15%;
+      	width: 70%;
+    	}
+    	.feature-slideshow {
+      	min-height: 350px;
+  	  }    
+  	 	.feature-head {
+  			min-width: 75%;
+  		}    
+  		.feature-head h1 {
+      	font-size: 21px;
+     	}
+      .feature-head h2 {
+  			font-size: 12px;
+     	}  
+    }
+  
+    /* primary
+  	-------------------------------------------------- */
+    .primary {
+  	  width: 90%;
+      margin: 0 auto;
+      padding: 50px 0;
+      display: none;
+      max-width: 960px;
+    }
+  
+    /* synopsis
+  	-------------------------------------------------- */
+    .synopsis {
+    	font-size: 21px;
+      line-height: 28px;
+      padding-right: 5%;
+      margin-bottom: 75px;
+    }
+    
+    /* packages
+  	-------------------------------------------------- */
+  	.packages {
+    	padding-right: 50px;
+    }
+  	.packages .visual {
+      background: #000;
+    	width: 40%;
+      float: left;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    .packages .title-2 {
+    	margin: 0 0 1em 0;
+    }
+    .packages li {
+    	margin-bottom: 45px;
+    }
+  	.packages .desc {
+    	padding-left: 5%;
+      width: 55%;
+      float: left;    
+    }
+  	.packages img {
+  		width :100%;
+  	}
+    .packages .btn {
+    	position: absolute;
+      bottom: 0px;
+      left: 0;
+      line-height: 60px;
+      width: 100%;
+    }
+  	@media screen and (max-width: 650px){
+  		.packages {
+      	padding-right: 0px;
+      }
+      .primary .col-2-3 {
+      	width: 100%;
+        float: none;
+      }
+      .primary .col-1-3 {
+         width: 100%;
+        float: none;
+      }
+  	}
+    @media screen and (max-width: 450px){
+    	.packages .visual {
+      	float: none;
+        width: 100%;
+       }
+  		.packages .desc {
+  			padding-left: 0;
+  			width: 100%;
+  			float: none;
+       }
+    }
+    
+  	/* about
+  	-------------------------------------------------- */
+  	.about-copy {
+    	padding: 20px 40px;
+    }
+  	.about-image {
+  	  text-align: center;
+  		width: 225px;
+      height: 225px;
+  		overflow: hidden;
+  	  -webkit-border-radius: 150px;
+  		-moz-border-radius: 150px;
+  		border-radius: 150px;
+    }
+  	.about-image {
+  	  margin: 25px auto;
+  		width: 225px;
+    }
+  
+  	/* newsletter
+  	------------------------------------------------- */
+  
+  	.newsletter {
+  		padding: 20px 0 20px 40px;
+     }
+  	.newsletter input[type="submit"] {
+    	display: inline-block;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: #fff;
+      font-size: 12px;
+      letter-spacing: 1px;
+      padding: 0;
+      margin: 0;
+    	background: #000000;
+      border: none;
+      width: 100px
+    }
+  	.newsletter input[type="submit"]:hover,
+  	.newsletter input[type="submit"]:active {
+  	  text-decoration: none;
+      background: #a02208;
+    }
+  	.newsletter input.required {
+  		border: none;
+      background: #222222;
+      color: #fff;
+      font-size: 12px;
+      padding: 12px 5px;
+      margin-right: 10px;
+      width: 200px;
+      text-indent: 5px;
+    }
+    .newsletter label {
+  	  display: block;
+    	padding-bottom: 5px;
+    }
+  
+  	/* twitter
+  	------------------------------------------------- */
+  	.twitter {
+      position: relative;
+      margin: 35px 0;
+  	 }
+  	.tw-icon {
+  	  display: block;
+      position: absolute;
+  		top: 0px;
+  		left: 50%;
+      margin-left: -32px;
+      z-index: 15;
+     }
+  	.icon-twitter {
+  		font-size: 58px;
+  	  color: rgba(250,250,250,.1);    
+      text-decoration: none;    
+    }
+  	.icon-twitter:hover {
+  	  color: #d73a19;
+      text-decoration: none;
+  	}  
+  	.tweets {
+      background: url('https://dr56wvhu2c8zo.cloudfront.net/brick/assets/19116f7a-13fa-48ac-8a42-e4ae014818a4/bg-black-transparent.png') repeat 0 0 \9;
+      background: rgba(0,0,0,.3);
+  		position: relative;
+  		height: 215px;
+      width: 100%;
+  		padding: 10px 0 0 0;
+  		text-align: left;
+    }
+  	.tweets li {
+    	position: absolute;
+      top: 85px;
+      left: 10%;
+      width: 80%;
+  	  display: none;
+      line-height: 19px;
+      font-size: 14px;
+  	}
+    .tweets li.next {
+  	  z-index: 1;
+    }
+  	.tweets li.active {
+    	display: block;
+    }
+  	.twitter li a:link,
+  	.twitter li a:visited {
+  		color: #d73a19;
+  		text-decoration: none;
+  	}
+  	.twitter li a:hover,
+  	.twitter li a:active {
+  		color: #a02208;
+  	}
+  	.twitter li .meta a,
+  	.twitter li .meta a:visited {
+    	color: #505050;
+  	}
+    .twitter li .meta a:hover,
+  	.twitter li .meta a:visited:hover {
+    	color: #333;
+  	}
+  
+  	/* social
+  	------------------------------------------------- */
+  	.social {}
+  	
+  	/* media
+  	-------------------------------------------------- */
+  	@media screen and (max-width: 850px){
+    	.tweets {
+        min-height: 235px;
+       }
+    }
+  	@media screen and (max-width: 650px){
+  		.twitter {
+        width: 80%;
+      	position: relative;
+      	margin: 35px auto;
+  	 	}
+  		.tweets {
+  		  position: relative;
+        text-align: center;
+        width : 100%;
+        min-height: 120px;
+        margin: auto;
+      	height: auto;
+      }
+  		.tweets li {
+      	width: 80%;
+        margin: auto;
+    		position: relative;
+      	top: auto;
+      	left: auto;
+      }
+     	.icon-twitter {
+  			display: none;
+       }
+  	}
+  	@media screen and (max-width: 450px){
+      .tweets {
+      	position: relative;
+    	  min-height: 120px;
+      }
+  	}
+  
+  
+  
+  /* -----------------------------------------------------
+  
+  	footer
+  
+  ------------------------------------------------------ */
+  #footer {
+  	min-height: 100px;
+  	padding-top: 20px;
+    background: #000;
+    position: relative;
+    display: none;
+  }
+  
+  @media screen and (max-width: 750px){
+  	#footer .col-2-3 {
+    	width: 100%;
+      float: none;
+    }
+    #footer .col-1-3 {
+     	width: 100%;
+      float: none;
+    }
+    .newsletter {
+      padding: 0;
+      width: 80%;
+      margin: auto;
+    }
+    .newsletter input[type="submit"] {
+      width: 30%;
+      margin: 10px 0 40px 5%;
+    }
+    .newsletter input.required {
+    	width: 60%;
+    }
+  }
+  @media screen and (max-width: 650px){ 
+    .newsletter label {
+  	  text-align: center;
+    }
+    .newsletter {
+  	  padding: 0;
+    }
+    .newsletter input[type="submit"] {
+    	display: block;
+      width: 80%;
+      margin: 20px auto;
+    }
+    .newsletter input.required {
+     	display: block;
+      width: 80%;
+      margin: 20px auto;
+  	}
+  }
+  
+  	/* site navigation
+  	-------------------------------------------------- */
+  	.nav-site { 
+  		position: absolute;
+      bottom: 20px;
+      right: 40px;
+    }
+  	.nav-site li {
+    	display: inline-block;
+      padding: 0 5px;
+    }
+  	.nav-site a {
+  	  font-weight: bold;
+    	font-size: 11px;
+  	  text-transform: uppercase;
+     }
+  	.nav-site a:link,
+    .nav-site a:hover {
+    	color: #ffffff;
+      text-decoration: none;
+    }
+  	.nav-site a:active,
+    .nav-site a:visited {
+    	color: #cccccc;
+      text-decoration: none;    
+    }  
+  
+  	/* vhx branding
+  	-------------------------------------------------- */
+  	#footer .vhx-brand img {
+    	width: 40px;
+      position: relative;
+      top: -5px;
+    }
+  	
+  	/* media
+  	-------------------------------------------------- */
+  @media screen and (max-width: 750px){
+    .nav-site {
+    	position: relative;
+    	bottom: auto;
+      right: auto;
+      text-align: center;
+     }
+  }
+  @media screen and (max-width: 650px){
+     .nav-site .vhx-brand {
+  		display: block;
+  		padding: 20px;
+  	}
+  }
+  @media screen and (max-width: 450px){
+  }
+  
+  /* -----------------------------------------------------
+  
+  	global
+  
+  ------------------------------------------------------ */
+  
+  	/* titles
+  	-------------------------------------------------- */
+  	.title-1 {
+  		font-size: 18px;
+  		text-transform: uppercase;
+  		color: #ffffff;
+  	}
+    .title-1 a:link,
+  	.title-1 a:visited {
+  		color: #ffffff;
+  		text-decoration: none;      
+    }
+  	.title-1 a:hover,
+    .title-1 a:active {
+  		color: #ffffff;
+  		text-decoration: none;
+    }
+  	.title-2 {
+  		font-size: 16px;
+      font-family: 'Oranienbaum', serif;
+  		text-transform: uppercase;
+  		color: #ffffff;
+      letter-spacing: 1px;
+  	}
+    .title-2 a:link,
+  	.title-2 a:visited {
+  		color: #ffffff;
+  		text-decoration: none;      
+    }
+  	.title-2 a:hover
+    .title-2 a:active {
+  		color: #ffffff;
+  		text-decoration: none;
+    }  
+  
+  	/* copy 
+  	-------------------------------------------------- */
+  	.copy-1 {
+      line-height: 19px;
+      font-size: 14px;
+  		color: #172928;
+  	}
+  
+  
+    /* buttons
+  	-------------------------------------------------- */
+  	.btn,
+    a.btn {
+  	  display: inline-block;
+      line-height: 60px;
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+      letter-spacing: 1px;
+      padding: 0;
+      margin: 0;
+    	background: #000000;
+    }
+    a.btn:hover,
+    a.btn:active {
+  	  text-decoration: none;
+      background: #a02208;
+    }
+  
+  	/* media
+  	-------------------------------------------------- */
+  	@media screen and (max-width: 650px){
+  	}
+  	@media screen and (max-width: 450px){
+  	}
+  
+  /* -----------------------------------------------------
+  
+  	utiltiies
+  
+  ------------------------------------------------------ */	
+  
+  	/* grid row
+  	-------------------------------------------------- */
+  	.row:after {
+  		content: ""; 
+  		display: block;
+  		height: 0; 
+  		clear: both;
+  		visibility: hidden;
+  	}
+  
+  	/* grid column
+  	-------------------------------------------------- */
+  	.col-1-1 { float: left; width: 100%; }
+  	.col-1-2 { float: left; width: 50%; }
+  	.col-1-3 { float: left; width: 33.33333%; }
+  	.col-2-3 { float: left; width: 66.66667%; }
+  	.col-1-4 { float: left; width: 25%; }
+  	.col-2-4 { float: left; width: 50%; }
+  	.col-3-4 { float: left; width: 75%; }
+  	.col-1-5 { float: left; width: 20%; }
+  	.col-2-5 { float: left; width: 40%; }
+  	.col-3-5 { float: left; width: 60%; }
+  	.col-4-5 { float: left; width: 80%; }
+  
+  
+  	/* misc
+  	-------------------------------------------------- */
+  	.group:after {
+  		content: "."; 
+  		display: block;
+  		height: 0; 
+  		clear: both;
+  		visibility: hidden;
+  	}
+  	.page-contain {
+  		
+  	}
+  </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      var _gaq = _gaq || [];
+  
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+        ga('create', 'UA-19540423-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'beingaloneaporchestourdocumentary');
+      ga('send', 'pageview');
+  
+      var Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_SENT_FREE_COPIES":"admin_sent_free_copies","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_SIGNUP_COMPLETE":"authentication","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_LOADEDDATA":"Video Content Loaded","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_FULLSCREEN":"Fullscreen Enabled/ Disabled","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD_TRIGGER":"addwatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE_TRIGGER":"removewatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List ","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_CURRENT_USER_ID":"current_user_id","PROPERTY_CURRENT_USER_EMAIL":"current_user_email","PROPERTY_CURRENT_SITE_ID":"current_site_id","PROPERTY_CURRENT_SITE_KEY":"current_site_key","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+        SITE_GANALYTICS_ENABLED: false
+      };
+  
+        Tracking.SITE_GANALYTICS_ENABLED = true;
+          ga('create', '', 'auto', { 'name': 'site' });
+  
+        ga('site.require', 'displayfeatures');
+        ga('site.set', 'dimension1', 'beingaloneaporchestourdocumentary');
+        ga('site.send', 'pageview');
+  
+        var _vhx = {
+          environment: 'production',
+          site: { id: '5399', domain: 'beingaloneaporchestourdocumentary.vhx.tv', host: 'beingaloneaporchestourdocumentary.vhx.tv' },
+          geo:  { country: 'us' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      var _current_user = {"id":null,"email":null,"name":null},
+          _current_site = {"id":5399,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"beingaloneaporchestourdocumentary"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <link href='http://fonts.googleapis.com/css?family=Oranienbaum' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+
+	<header id="head">
+   
+    <!-- primary Navigation -->
+     <nav class="nav-pri">
+      <ul>
+        <li><a href="/"><i class="icon-home"></i> BEING ALONE. A PORCHES TOUR DOCUMENTARY </a></li>
+        <li><a href="/buy">Buy</a></li>
+      </ul>
+    </nav>
+    
+		<ul class="social">
+      <li>
+        <a href="https://twitter.com/share" class="twitter-share-button" 
+          data-via="" 
+          data-text="" 
+          data-counturl="http://beingaloneaporchestourdocumentary.vhx.tv" 
+          data-url="http://beingaloneaporchestourdocumentary.vhx.tv">Tweet</a>
+      </li>
+      <li>
+      	<div class="fb-like" 
+        	data-href="https://www.facebook.com/pages/Porches-Being-Alone-The-Movie/1400051130256433" 
+          data-send="false" 
+          data-layout="button_count" 
+          data-show-faces="false"></div>
+      </li>
+      <li>
+        <a class="mail" href="mailto:?subject=Buy Being Alone - A PORCHES TOUR DOCUMENTARY on VHX!&body=http://beingaloneaporchestourdocumentary.vhx.tv"><i class="icon-envelope-alt"></i> Share</a>
+      </li>
+    </ul>
+	</header>
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <section id="main">
+    
+    	<!-- FEATURE SECTION -->
+    	<section class="feature">
+    
+        <!-- trailer -->
+    		<div class="feature-head">
+    	    <div class="hgroup">
+          	<div class="contain">
+    	  	  	<h1>BEING ALONE. A PORCHES TOUR DOCUMENTARY </h1>
+      	  	  <h2>The film follows six young musicians who ride a breaking down bus from sea to shining sea. New friends along the road give the band a place to sleep, meals to eat, and a glimpse into their own lives as independent musicians living across the US. </h2>
+            </div>
+        	</div>
+         </div>
+    
+        <!-- options -->
+        <ul class="feature-options group">
+            <li><a class="btn" href="/buy">$11 Buy</a></li>
+            <li><a class="btn trailer-btn" href="" data-preview-url="2416">Preview</a></li>
+        </ul>
+        
+    		<!-- slideshow / gallery -->
+        <ul class="feature-slideshow" data-slideshow>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/beingaloneaporchestourdocumentary/assets/ad1e1aa3-7870-4f1e-8a1b-1d2b863334dd/untitled-0918.jpg" /></li>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/beingaloneaporchestourdocumentary/assets/8f6faa9a-3287-4754-a0a8-0f0289b3224d/IMG_9645.jpg" /></li>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/beingaloneaporchestourdocumentary/assets/f674bc53-8ee8-43ef-92e2-326e28c640ac/porches.jpg" /></li>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/beingaloneaporchestourdocumentary/assets/b4c4475d-b9f6-4756-94cd-19f58b257d3d/kevstring-9005.jpg" /></li>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/beingaloneaporchestourdocumentary/assets/badcbbc8-1f36-4e3e-bbd7-b8894135bbf5/IMG_0145.jpg" /></li>
+        </ul>
+        
+        
+    	</section>
+      
+      	<!-- MID SECTION -->
+       <section class="primary group">
+    
+        <div class="col-2-3">
+        
+        <div class="synopsis">
+          <!-- synopsis -->
+          <h3 class="title-2">The Film</h3>
+          <p>Follow PORCHES. from the basement to indie success. </p>
+        </div>
+        
+          <!-- packages -->
+          <ul class="packages group">
+                <li class="group">
+                    <div class="visual">
+    	                <a href="/buy/being-alone-a-porches-tour-documentary"><img src="https://vhx.imgix.net/beingaloneaporchestourdocumentary/assets/6c5fdb04-fb53-4253-ba3d-ca7206912371/IMG_9645.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+    	                <a class="btn btn-size-15" href="/buy/being-alone-a-porches-tour-documentary">$11 Buy</a>                  
+                    </div>
+                    <div class="desc">
+    									<h3 class="title-2"><a href="/buy/being-alone-a-porches-tour-documentary">BEING ALONE - A PORCHES TOUR DOCUMENTARY  </a></h3>
+                      <div class="copy-1">
+    	                  <p>The film follows six young musicians who ride a breaking down bus from sea to shining sea. New friends along the road give the band a place to sleep, meals to eat, and a glimpse into their own lives as independent musicians living across the US. </p>
+
+<p>Follow PORCHES. from the basement to indie success. </p>
+                       </div>
+                    </div>
+                 </li>
+          </ul>
+        </div>
+      
+    		<div class="col-1-3">
+          <!-- about -->
+          <div class="about-image">
+            <img src="https://dr56wvhu2c8zo.cloudfront.net/chadsplayground/assets/c52ebcf1-b27e-4312-8e5b-d9df6c44aebd/IMG_1756.JPG" />
+          </div>
+    
+    		<!-- twitter -->
+          <div class="twitter" rel="tweetstream" data-twitter-handle="">
+    	    </div>
+    		</div>
+        
+    	</section>
+      
+    </section>    <div class="clear"></div>
+  </section>
+
+  <section>
+    <footer id="footer" class="row">
+
+	<div class="col-2-3">
+		<!-- newsletter -->
+		<div class="newsletter">
+  		<div data-contact-form>
+		    <label>Get the latest news.</label>
+		  </div>
+		</div>
+ </div>
+  
+  <div class="col-1-3">
+  	<!-- site Navigation -->
+    <nav class="nav-site">
+      <ul>
+        <li><a href="/faq">Help / FAQ</a></li>
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/tos">Terms of Use</a></li>
+        <li class="vhx-brand"><a href="http://vhx.tv"><img src="http://dr56wvhu2c8zo.cloudfront.net/assets/powered_by_vhx_white.png" /></a></li>
+      </ul>
+    </nav>
+  </div>
+    
+</footer>
+    <div class="clear"></div>
+  </section>
+
+  <script>
+    var _site = {
+      color:        '#22b9b0',
+      key:          'beingaloneaporchestourdocumentary',
+      facebook_url: 'https://www.facebook.com/pages/Porches-Being-Alone-The-Movie/1400051130256433',
+      twitter_name: ''
+    };
+  
+    var _config = {
+      country_code: 'us'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  
+<script>
+  var _flash = {
+    alert:  "",
+    notice: ""
+  };
+
+  
+      $(document).ready(function() {
+        function rotate(list) {
+    list.find('.active').fadeOut(100, function() {
+  	  $(this).removeClass('active').css('display','none').appendTo(list);
+      list.find('li').eq(1).fadeIn(500, function(){
+    	  $(this).addClass('active');
+  	  });
+    });
+  }
+  
+  if ($('.tweets').length > 0) {
+  	$('.tweets').find('li:first').addClass('active');
+    setInterval(function(){ rotate($('.tweets'));}, 5000);
+  }
+  
+  function feature() {  
+  
+    $(window).on('resize',function() {
+      var height = $(this).height();
+    
+  	  if ($('.feature').length > 0) {
+    		$('.feature').height(height);
+    	}
+  
+  		if ($('.feature-head').length > 0) {
+  			var width =	$('.feature-head').outerWidth() / 2;
+  	    $('.feature-head').css({'marginLeft': '-'+width+'px'});
+    	}
+    })
+    
+    $(window).trigger('resize');
+  	 
+     if ($('.feature-head').length > 0) {
+  		$('.feature-head').css({'left':'50%'});
+    	$('.primary').fadeIn('500');
+  	  $('footer').fadeIn('500');
+     }
+  }
+  
+  interval = 0;
+  
+  is_loaded = setInterval(function() {
+    interval++;
+  	if (interval >= 50) {
+  		clearInterval(is_loaded);  	
+    }
+    else if ($('img').eq(1).height() > 0) {
+    	feature();
+    	clearInterval(is_loaded);
+    }
+  },100);
+      });
+    </script>
+
+<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+
+
+    <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="beingaloneaporchestourdocumentary.vhx.tv"></script>
+</body>
+</html>
+```
