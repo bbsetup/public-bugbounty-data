@@ -1,0 +1,300 @@
+```<html>
+  <head>
+<title>The Batch Login Project Page</title>
+  </head>
+  <body>
+<center>
+<table border="0" width="100%">
+<tr>
+  <td align="left">
+<img src="/images/blbutton.png">
+  </td>
+  <td>
+<h1>The Batch Login Project</h1>
+  </td>
+  <td>
+<a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=139851&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo" /></a>
+  </td>
+</tr>
+</table>
+</center>
+<hr noshade size="1" width="98%">
+<center>
+<table border="0" width="90%"><tr>
+<td><center><a href="http://batchlogin.sourceforge.net/index.php">HOME</a></center></td>
+<td><center><a href="/code.php">DOWNLOAD</a></center></td>
+<td><center><a href="/install.php">INSTALLATION</a></center></td>
+<td><center><a href="/docs">DOCUMENTATION</a></center></td>
+<td><center><a href="mailto:fericyde@users.sourceforge.net">CONTACT</a></center></td>
+</tr></table>
+</center>
+<hr noshade size="1" width="98%">
+<table border="0" cellpadding="5" cellspacing="0">
+<tr>
+<td width="20%" valign="top">
+<hr size="4" noshade width="80%">
+<font size="-1">
+<!-- document html start -->
+<center>
+<b>Documents:</b>
+</center>
+<hr size="1" width="80%">
+<ul>
+<li><a href="docs/blFAQ.html">Frequently asked questions.</a></li>
+<li><a href="docs/usage.html">Getting started and usage instructions.</a></li>
+<li><a href="docs/configuration.html">How to configure password lists (passlists).</a></li>
+<li><a href="docs/bltrc.html">How to configure the initial startup file (bltrc).</a></li>
+<!-- 
+<li><a href="cyber-ark.html">Minimal Cyber-ark command line utility help.</a></li>
+-->
+<li><a href="docs/logging.html">Log directory structure and encryption.</a></li>
+<li><a href="docs/filetransfer.html">File transfer methods and technical details.</a></li>
+<li><a href="docs/securex.html">SecureX Installation.</a></li>
+</ul>
+<hr size="1" width="80%">
+<!-- RSS -->
+<center>
+<a href="https://sourceforge.net/export/rss2_project.php?group_id=139851">RSS</a>
+</center>
+<hr size="1" width="80%">
+<center>
+<b>SF Quick Links:</b>
+</center>
+<ul>
+   <li><a href="http://sourceforge.net/projects/batchlogin/">Main project page</a>
+   <li><a href="http://sourceforge.net/project/showfiles.php?group_id=139851&package_id=153397">File Releases</a>
+   <li><a href="http://sourceforge.net/forum/?group_id=139851">Forum</a>
+   <li><a href="http://sourceforge.net/tracker/?group_id=139851">Tracker</a>
+<!--   <li><a href="">Blah</a> -->
+</ul>
+<hr size="1" width="80%">
+
+<!-- <hr size="1" width="80%"> -->
+<hr size="4" noshade width="80%">
+</font>
+
+</td>
+<td valign="top" width="0" bgcolor="#888888">
+</td>
+<td valign="top" width="80%">
+
+<h2>What is BatchLogin?</h2>
+<ul>
+BatchLogin is a <a href="http://www.gnu.org/licenses/licenses.html#GPL">free software (GPL)</a> licensed tool that allows you to manage connections to servers
+in serial format across diverse environments.
+It has its limitations, but for the most part, any script or data file can be
+automatically transferred and executed across a multiple server environment, regardless of the
+complexity of the "zone" (I.E.: iDMZ, DMZ, etc).  It does this in a way that shell scripts and access to servers 
+can easily be managed on a "per admin" basis. 
+See the usage instructions for more on the configuration aspect of the
+program.
+</ul>
+<h2>What Can This Thing Do For Me?</h2>
+<ul>
+Just about anything that can be done with a shell script 
+on a Unix box.  In other words, just about anything that is
+repetitious.
+</ul>
+<h2>What Are The Current Abilities?</h2>
+<ul>
+	<li>Data can be transferred via uuencode/uudecode.
+	<li>Shell scripts can be created and executed via "here" documents.
+	<li>Custom expect programs can be created and executed from a central
+	location (In other words, expect is seamlessly leveraged from one place
+  	using BatchLogin to "leverage" the access credentials of the user.
+
+</ul>
+<h2>How Does It Work?</h2>
+<ul>
+The BatchLogin program starts up as a shell script, and prompts the user
+for the executable (script) to pass, and the password list to run the program
+against.  It then asks for the password for that encrypted list.  Using
+a decryption program that utilizes the blowfish encryption algorithm, 
+it unencrypts the connection data, which is a specially prepared, white space 
+delimited encrypted text file. It feeds this data into an array (this is done in 
+such a way that the password(s) cannot be seen in a process show command or otherwise, 
+for security reasons) and begins by logging into the first server.
+<p>
+Once on the server, it creates the shell script(s) in /tmp, chmod's it(them), 
+and then finally, it executes the program(s).  Error codes are checked and if 
+the program exited with anything other than 0 (success), it echos an error string that
+can be later sifted easily out of the primary log file.  Finally, it cleans up after itself
+by removing the freshly created executable.   All data is logged, except for password 
+entries.  This gives an administrator a log of the entire process.
+<p>
+Log files created by the session are stored in ~/.batch2/logs.  Log files are
+named for the program run, the password list it ran against, and the
+process id of the BatchLogin program itself.  This way no file will ever have
+the same name, and the program can run concurrently without fear of over-running a log
+file.
+<p>
+</ul>
+<h2>How Does BatchLogin Run Expect On A Server Where Expect Is Not Loaded?</h2>
+<ul>
+BatchLogin can run a merged expect script instead of a shell script.  
+The mode of operation is extremely
+similar to the execution of shell scripts.  Normally, BatchLogin uploads 
+the script to be executed and uses the remote machine's shell interpreter. 
+With an expect script, the BatchLogin expect program
+is altered in 3 areas to allow custom expect code to be executed (this is
+of course, executed in the same process as the BatchLogin program itself).
+<p>
+This way, things like password changing on the remote node, and other items
+requiring expect-like functionality, can be executed seamlessly.
+<p>
+The program auto-senses this behavior during the executable selection routine.
+If a user picks a program that ends with a .exp extension (expect), it pieces
+together a new BatchLogin program and calls that instead of the stock 
+upload/execute functionality.  
+</ul>
+<h2>What if I don't want to do something to everything in a password list?</h2>
+<ul>
+Before BatchLogin goes out to terrorize the known Unix universe with some new
+program, it displays a list of target execution nodes.  At this point it says, 
+more or less, "Okay, one last time here, this is what I'm gonna do...".  
+You can easily say n for no, y for yes, or c -- for confirm on each node.  
+In other words, you have expect stop at each node, waiting for confirmation.  
+</ul>
+<h2>What Prompted The Creation Of This Program?</h2>
+<ul>
+BatchLogin was concieved to address a complex network environment I was 
+exposed to as part of my job.  In this environment, multiple DMZs, different
+access methodologies and differing technologies prompted me to create a 
+program that would address all of these concerns by virtualizing the login
+process.
+<p>
+In this environment, simple questions like "How many instances of Web server
+X are in [a particular group of servers]?" Were not so simple to answer.
+<p>
+You could get to a server here and there, but each group of servers was 
+different, and from an administrative point of view, it was a situation of 
+extreme frustration.  Servers in different zones could use one mode of file
+transport from one place but not to another.  Servers in another secure 
+location could only be reached via another secure protocol, but not via the
+first and so on.  
+<p>
+There seemed to be no really easy way to execute anything or transport data
+across the entire environment.  Canned automated system management software 
+was an option for some servers, which would have solved a lot of issues, but 
+that software was managed by another group entirely and only available on half
+of the servers.  Over and over, the same questions were being answered the 
+same way:  Things are just different in each environment.  
+Different connection methods, different automation tools.  
+<p>
+Complicating matters, another secure environment was added with a totally
+different transport mechanism.  While this was great from a
+security perspective (I'm a big proponent of security), it was yet 
+another degree of complexity in terms of managing the environment.  
+<p>
+Worse, the most simple of audits required somehow checking the entire list of
+servers, and I was part of a security team that required that all machines 
+be treated more or less alike.  I believe it was J. C., however, who
+pointed out that the production boxes all had one level of connectivity that
+was more or less consistent.
+<p>
+The idea was an old one.  BatchLogin was born from this idea.  Essentially,
+the idea was to use secure term servers (which are very slow) in serial 
+fashion with an automated program. 
+<p>
+Batch Login came into being a piece at a time.  When a new project
+needed a patch to some software, and it was going to require a 
+program and a file edit across 70 servers, this program took rough shape.  
+The initial program was written by G. P., and the first file to transport 
+via the "Expect Here Document" method, was an awk script that simply fixed a 
+config file that was part of the configuration.
+<p>
+I took that program, and a week or so later, extended it to handle the term
+servers in the [group name deleted] server farm.  At this point, I had to 
+code around a couple of new term server issues.  Some term servers were 
+[section removed].  It all looked fairly good at this point.
+<p>
+Then I attempted to execute something in another environment, and ran into a
+snag; About 1/3 of the servers there didn't have the same access method.
+Worse, some of the servers required a different access protocol
+<p>
+At each of these points, the whole configuration concept was extended.  
+And extended.  And Extended.  It got to be a horrible configuration mess.
+<p>
+BatchLogin 2 was created to undo this configuration madness and document more
+clearly the connection information -- including password expiration issues -- needed
+to attach to a server.  BatchLogin 2 takes into account a lot of the server and
+operating system specific quirks that foiled BatchLogin 1.  All Unicies are not alike,
+but they're close enough that this program can leverage some seriously quick wins in
+our environment.
+</ul>
+<h2>Why did you use Expect?</h2>
+<ul>
+It does the job.
+Because it is free software (free as in freedom, not cost).  It is available for most Unices , and it does this kind of 
+interaction (fairly) painlessly.  No other language really has an interactive that can 
+deal with input streams and terminal issues like with an API like this, from my experience.  
+It's very focused upon dealing with serial communication data and decision making.
+<p>
+Unfortunately, expect is a real piece of work when it comes to text 
+manipulation, which brings us to:
+<p>
+</ul>
+<h2>Why then does this program have a shell component?</h2>
+<ul>
+It does the job.
+Because it's free.  It comes built into the operating system, and it does 
+things like setup and text manipulation really, really well.  No other 
+language really has the flexibility or bang for the buck of the shell from 
+my experience.
+<p>
+Unfortunately, the shell doesn't do things like graphical user interfaces
+very well (unless you count desktop korn shell, which, I'm sorry to say, is
+a serious aberration and besides that an unholy marriage of posix compliance
+and motif API calls.  If you think I'm joking, and well, I am somewhat, the
+fact is that I'm not making this up).  The program really needed a Graphical
+User Interface (GUI) to get to the next level.  
+<p>
+Which again, brings us to:
+<p>
+</ul>
+<h2>Why then does this program have a Java component?</h2>
+<ul>
+It does the job.
+Because it's a somewhat open, flexible language.  
+It is available for most Unicies, and it does things like browsers and graphical
+interfaces (swing) really, really well.  No other language really 
+has the flexibility/portability or neat logo...  Okay, that's stretching it.
+<p>
+I put some Java in there because I'm out of my mind.
+<p>
+Seriously, the Java is there so that the keyboard-impaired among you would have a
+somewhat easier time of launching BatchLogin sessions.  The Java, unfortunately is
+somewhat less easy in the sense of number of lines of code to actual work
+performed category.  I'd say the signal to noise ratio in comparison to the
+shell is about 30 to 1, and about 10 to one compared to expect.
+<p>
+I'm somewhat biased, so take that with a grain of salt.  
+<p>
+The Java interface is Not Done(TM).  I haven't focused upon it much more than
+what you see.  The passlist editor is broken at the moment (launching works,
+however).   If someone out there wants to get involved with it, feel free.
+<p>
+</ul>
+<h2>What can I do to help?</h2>
+<ul>
+Find bugs and squash them.  Suggest improvements.  Write some documentation.
+</ul>
+<hr noshade size="1" width="90%">
+Questions?  Comments?  Feel like swearing at the author?  I can be reached
+at <a href="mailto:fericyde@users.sourceforge.net">fericyde@users.sourceforge.net</a>.   Enjoy.
+</td></tr>
+</table>
+<hr noshade size="1" width="98%">
+<center>
+<table border="0" width="90%"><tr>
+<td><center><a href="http://batchlogin.sourceforge.net/index.php">HOME</a></center></td>
+<td><center><a href="/code.php">DOWNLOAD</a></center></td>
+<td><center><a href="/install.php">INSTALLATION</a></center></td>
+<td><center><a href="/docs">DOCUMENTATION</a></center></td>
+<td><center><a href="mailto:fericyde@users.sourceforge.net">CONTACT</a></center></td>
+</tr></table>
+</center>
+<hr noshade size="1" width="98%">
+  </body>
+</html>
+```
