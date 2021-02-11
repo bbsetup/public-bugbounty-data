@@ -1,0 +1,84 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Blaster Construction Kit - Blaster Master Map Editor</title>
+</head>
+<body>
+<a href="http://bck.sourceforge.net">Mirror Site</a><br>
+<a href="http://www.uranium-anchor.com/cs/bck.html">Mirror Site</a><br>
+<a href="http://sourceforge.net/projects/bck/">Sourceforge Site</a><br>
+<a href="blastermaster.txt">Blaster Master Format Specification</a> Note: EXTREMELY disorganized. Your head will probably hurt if you try to read it. You've been warned. I'll probably end up completely rewriting this later. I recently updated it with a bit more data. Take a look if you dare.<br>
+<a href="level1tr0.png">Screenshot</a> 'bck level1t.cfg -r0' From v0.1<br>
+<a href="level1tm.png">Screenshot</a> 'bck level1t.cfg -d level1tm.bmp' (then shrank to 512x512 and converted to png)<br>
+<a href="http://www.uranium-anchor.com/cs/bmmaps/">Maps</a> dumped by BCK and converted into pngs of various sizes<br>
+<a href="ChangeLog">ChangeLog</a><br>
+<b>WARNING:</b> This program comes with absolutely NO WARRANTY. If it causes your computer to summon demons or makes you stub your toe, it's not my fault. Use at your own risk.<br>
+<p>Note that you need <a href="http://www.libsdl.org/">SDL</a> installed to run this program. <br>
+Windows DLL for SDL is <a href="SDL.dll">here</a>. Either place it in the same dir as bck.exe, or preferably in C:\WINDOWS (or wherever Windows is installed).<br>
+This source will compile without any significant modifications with gcc (for *nix), mingw32 (for Windows), and OSX. Other compilers should work in theory, but I've not tested anything besides what's listed. I will not provide OSX binaries, because that's too much trouble. But it will compile.<br>
+This program will work with the US BM ROM ONLY. It does NOT work with the prototype, or the Europe versions. Well, it does, but some of the data is in a different place and the program reads it wrong. So don't do it. I'll try to add support for alternate versions of the ROM in later versions. If you're unsure which version of the ROM you have, use the -v option. You can also check the CRC. ucon64 and FCEU return 0x3F0FD764 as the CRC, mIRC and RAR return 0x52BCF64A. If you get any other values, you may be using a version incompatible with BCK.<br>
+<h1>Version 1.0 Final</h1>
+<p><a href="http://prdownloads.sourceforge.net/bck/bck-src-1.0.zip?download">Source</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-win32-bin-1.0.zip?download">Win32 Binary</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-linux-bin-1.0.zip?download">Linux Binary</a><br>
+<h1>Version 0.7</h1>
+<p><a href="http://prdownloads.sourceforge.net/bck/bck-src-0.7.zip?download">Source</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-win32-bin-0.7.zip?download">Win32 Binary</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-linux-bin-0.7.zip?download">Linux Binary</a><br>
+<h1>Version 0.6.2</h1>
+<p><a href="http://www.cs.colostate.edu/~cutler/bck-build-0.6.2/bck-src-0.6.2.zip">Source</a><br>
+<a href="http://www.cs.colostate.edu/~cutler/bck-build-0.6.2/bck-win32-bin-0.6.2.zip">Win32 Binary</a><br>
+<a href="http://www.cs.colostate.edu/~cutler/bck-build-0.6.2/bck-linux-bin-0.6.2.zip">Linux Binary</a><br>
+<h1>Version 0.6.1</h1>
+<p><b>Warning: BROKEN, DO NOT USE!</b><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-src-0.6.1.zip?download">Source</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-win32-bin-0.6.1.zip?download">Win32 Binary</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-linux-bin-0.6.1.zip?download">Linux Binary</a><br>
+<h1>Version 0.6</h1>
+<p><a href="http://prdownloads.sourceforge.net/bck/bck-src-0.6.zip?download">Source</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-win32-bin-0.6.zip?download">Win32 Binary</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-linux-bin-0.6.zip?download">Linux Binary</a><br>
+<h1>Version 0.5.1</h1>
+<p><a href="http://prdownloads.sourceforge.net/bck/bck-src-0.5.1.zip?download">Source</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-win32-bin-0.5.1.zip?download">Win32 Binary</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-linux-bin-0.5.1.zip?download">Linux Binary</a><br>
+<h1>Version 0.5</h1>
+<p><a href="http://prdownloads.sourceforge.net/bck/bck-src-0.5.zip?download">Source</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-win32-bin-0.5.zip?download">Win32 Binary</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-linux-bin-0.5.zip?download">Linux Binary</a><br>
+<h1>Version 0.4</h1>
+<p><a href="http://prdownloads.sourceforge.net/bck/bck-src-0.4.zip?download">Source</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-win32-bin-0.4.zip?download">Win32 Binary</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-linux-bin-0.4.zip?download">Linux Binary</a><br>
+<h1>Version 0.3.1</h1>
+<p><a href="http://prdownloads.sourceforge.net/bck/bck-src-0.3.1.zip?download">Source</a><br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-win32-bin-0.3.1.zip?download">Win32 Binary</a> (built with Visual Studio, requires <a href="msvcr70.dll">msvcr70.dll</a>)<br>
+<a href="http://prdownloads.sourceforge.net/bck/bck.exe?download">Win32 Binary</a> (cross-compiled on a Linux box using mingw32, does NOT require msvcr70.dll)<br>
+<a href="http://prdownloads.sourceforge.net/bck/bck-linux-bin-0.3.1.zip?download">Linux Binary</a><br>
+<p>Windows versions older than 0.3.1 require <a href="cygwin1.dll">cygwin1.dll</a>. But they're all broken, so you shouldn't be using them anyway.
+<h1>Version 0.3</h1>
+<p><a href="http://www.cs.colostate.edu/~cutler/bck-build-0.3/bck-src-0.3.zip">Source</a><br>
+<a href="http://www.cs.colostate.edu/~cutler/bck-build-0.3/bck-win32-bin-0.3.zip">Win32 Binary</a> Warning: This program DOES NOT work properly. Cygwin seems to require more than the dll when you distribute the apps. But thankfully one of my hallmates was able to figure out why the code wasn't working with Visual Studio! Hurrah, no more worrying about Cygwin!<br>
+<a href="http://www.cs.colostate.edu/~cutler/bck-build-0.3/bck-linux-bin-0.3.zip">Linux Binary</a><br>
+<h1>Version 0.2 Alpha</h1>
+<p><a href="http://www.cs.colostate.edu/~cutler/bck-src-0.2.zip">Source</a><br>
+<a href="http://www.cs.colostate.edu/~cutler/bck-win32-bin-0.2.zip">Win32 Binary</a> Warning: Same deal as above, but you can use the -e mode to a least browse the levels more easily than below... don't save without Cygwin installed or you'll mess up the rom.<br>
+<a href="http://www.cs.colostate.edu/~cutler/bck-linux-bin-0.2.zip">Linux Binary</a><br>
+<h1>Version 0.1.1 Alpha</h1>
+<P><a href="http://www.cs.colostate.edu/~cutler/bck-src-0.1.1.zip">Source</a><br>
+<a href="http://www.cs.colostate.edu/~cutler/bck-win32-bin-0.1.1.zip">Win32 Binary</a><br>
+<a href="http://www.cs.colostate.edu/~cutler/bck-linux-bin-0.1.1.zip">Linux Binary</a><br>
+<h1>Version 0.1 Alpha</h1>
+<p><a href="http://www.cs.colostate.edu/~cutler/bck-src-0.1.zip">Source</a><br>
+<a href="http://www.cs.colostate.edu/~cutler/bck-win32-bin-0.1.zip">Win32 Binary</a><br>
+<a href="http://www.cs.colostate.edu/~cutler/bck-linux-bin-0.1.zip">Linux Binary</a><br>
+<a href="overheadcfg.zip">Overhead Config Files</a> Lets you view the overhead sections to Level 2, 4, 5, 6, 7, 8 (included in 0.1.1 and up)<br>
+<a href="othercfgs.zip">Overhead Config Files</a> Same as above, but for Level 1 and 3 (included 0.1.1 and up)<br>
+<b>IMPORTANT</b>: The -e option doesn't work. -d also does not display scroll borders if given a number. I was a little messy with the compile. Sorry. :p<br>
+<b>ALSO IMPORTANT</b>: This version requires the rom to be named "Blaster Corrupt.nes". Later versions allow you to use bck.cfg to change the filename.<br>
+<p> BCK is Copyright 2003 Benjamin Cutler<br>
+BCK is redistributable under the <a href="COPYING">GPL</a>. Which basically means you can do whatever you want with it, including modify it and distribute modified versions, but you must clearly mark any modifications you make as not part of the original code. Enjoy! <br>
+<a href="http://sourceforge.net/"><img src="http://sourceforge.net/sflogo.php?group_id=92165&type=5" width=210 height=62 border=0 alt="Sourceforge.net"></a><br>
+</body>
+</html>
+```
