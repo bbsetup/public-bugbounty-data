@@ -1,0 +1,902 @@
+```<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Bayou Maharajah</title>
+
+  <meta name="title" content="Bayou Maharajah">
+  <meta name="description" content="This critically acclaimed documentary explores the life and music of New Orleans piano legend James Booker, the man Dr. John described as “the best black, gay, one-eyed junkie piano genius New Orleans has ever produced.” A brilliant pianist, his eccentricities and showmanship belied a life of struggle, prejudice, and isolation. A wild genius with a style that combined elements of rhythm-and-blues, jazz, ragtime and classical music, Booker gained the nicknames &quot;Piano Prince of New Orleans&quot;, &quot;Black Liberace&quot; and &quot;Bayou Maharajah&quot;. Illustrated with never-before-seen concert footage, rare personal photos and exclusive interviews, the film paints a portrait of this overlooked genius.">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://bayoumaharajahfilm.vhx.tv&format=json" title="Bayou Maharajah" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://bayoumaharajahfilm.vhx.tv&format=xml" title="Bayou Maharajah" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://bayoumaharajahfilm.vhx.tv">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      *, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  }
+  body {
+    background: #020203 url() no-repeat;
+    background-size: cover;
+    font-family:'Open Sans',sans-serif;
+    color: #fffeeb;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4,
+  .sub-page .vhx h1, .sub-page .vhx h2, .sub-page .vhx h3, .sub-page .vhx h4 {
+    margin: 0;  padding: 0;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+  }
+  
+  ul { list-style: none; margin: 0; padding: 0; }
+  
+  
+  a, a:visited,
+  .sub-page .vhx a, .sub-page .vhx a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  a:hover, a:visited:hover {
+    color: #f74f7c;
+  }
+  .button, .button:visited {
+    display: inline-block;
+    padding: 8px 10px;
+    margin-right: 10px;
+    color: #020203;
+    background-color: #ffffff;
+    line-height: 1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+  }
+  .button:hover, .button:visited:hover,
+  .button.active, .button.active:visited {
+    background-color: #f74f7c;
+    color: #020203;
+  }
+  .right { float: right; margin-left: 10px; }
+  .flush { margin: 0; }
+  .padding { padding: 20px; }
+  
+  .contained  {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .social {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .social .item {
+    width: 90px;
+    float: left;
+    margin-right: 5px;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contained {
+      width: auto;
+      margin: 0 20px;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .contained {
+      width: auto;
+      margin: 0 20px;
+    }
+  }
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* HEADER */
+  /* ----------------------------------------------------------------------------------------------------- */
+  header {
+    display: none;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 0 20px 0;
+  }
+  
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* MAIN */
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* ................................................
+    feature area
+   ................................................*/
+  .feature {
+  
+  }
+  .feature .contained {
+    position: relative;
+    z-index: 99;
+  }
+  .feature .redeem {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: left;
+    z-index: 120;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+    opacity: 0;
+  }
+  .feature .redeem.active {
+    top: 50%;
+    opacity: 1;
+  }
+  .feature .redeem form {
+    background-color: #FFF;
+    padding: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: #020203 0px 0px 10px;
+    -moz-box-shadow: #020203 0px 0px 10px;
+    box-shadow: #020203 0px 0px 10px;
+  }
+  .feature .redeem form input[type="text"],
+  .feature .redeem form input[type="email"] {
+    padding: 4px;
+    border: none;
+    width: 235px;
+    font-family: sans-serif;
+  }
+  .feature .redeem form input[type="submit"],
+  .feature .redeem form input[type="button"] {
+    background-color: #020203;
+    border: none;
+    color: #fffeeb;
+    float: right;
+    display: block;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Raleway',sans-serif;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing:antialiased;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border-radius: 25px;
+  }
+  .feature .redeem form input[type="submit"]:hover,
+  .feature .redeem form input[type="button"]:hover {
+  	background-color: #020203;
+  }
+  .feature .thetrailer {
+    position: absolute;
+    left: 0;
+    top: -440px;
+    width: 100%;
+    height: 440px;
+    z-index: 100;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  .feature .thetrailer.active {
+    top: 0 !important;
+  }
+  .feature .thetrailer iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .feature .theslideshow {
+    position: relative;
+  	/* padding-bottom: 56.25%; /* 16:9 
+  	height: 0;*/
+    height: 600px;
+    min-height: 600px;
+    height: 70vh;
+    overflow: hidden;
+  }
+  .feature .theslideshow.active {
+    opacity: .5;
+  }
+  .feature .theslideshow .slides {
+  	height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  /*.feature .theslideshow img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }*/
+  .feature .theslideshow.vignette .before {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+  }
+  .feature .theslideshow.vignette .after {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .feature .actions {
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 700;
+    z-index: 20;
+    position: relative;
+    font-family: 'Raleway',sans-serif;
+  }
+  .feature .actions.active {
+    padding-top: 440px;
+  }
+  .feature .text {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .feature .text h1 {
+    font-size: 70px;
+    line-height: 62px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fffeeb;
+  }
+  .feature .text h2 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fffeeb;
+    text-transform: none;
+  }
+  .feature .text h4 {
+    color: #f74f7c;
+    font-size:14px;
+    padding-bottom: 5px;
+  }
+  .feature .geoblocked {
+  	padding-bottom: 20px;
+  }
+  .feature .geoblocked h3 {
+  	padding: 20px 0 0 0;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+  }
+  @media screen and (max-width: 767px){
+  	.feature .theslideshow {
+    	height: 0px;
+      padding-top: 56.25%;
+       min-height: 0px;
+    }
+    .feature .slides {
+    	position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .feature .slides img {
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .feature .text h1 {
+    	font-size: 32px;
+      line-height: 40px;
+    }
+    .feature .actions a.button {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .feature .redeem.active { 
+    	top: 15%;
+    }
+  }
+  
+  /* ................................................
+    MLIST
+   ................................................*/
+  .mlist {
+  	margin: 40px auto;
+    max-width: 310px;
+  }
+  .mlist form {
+  }
+  .mlist label {
+  	font-size: 13px;
+    display: block;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+  }
+  
+  .mlist form input[type="text"],
+  .mlist form input[type="email"] {
+    padding: 8px 4px;
+    border: none;
+    width: 208px;
+    font-size: 14px;
+    font-family: sans-serif;
+    -webkit-border-radius: 3px 0px 0px 3px;;
+    border-radius: 3px 0px 0px 3px;
+    min-height: 36px;
+  }
+  .mlist form input[type="submit"],
+  .mlist form form input[type="button"] {
+    background-color: #ffffff;
+    border: none;
+    color: #020203;
+    float: right;
+    display: block;
+    font-weight: bold;
+    font-family: 'Raleway',sans-serif;
+    line-height: 1;
+    padding: 8px 5px;
+    width: 95px;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing:antialiased;
+    -webkit-border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 3px 3px 0px;
+    min-height: 36px;
+  }
+  .mlist form input[type="submit"]:hover,
+  .mlist form input[type="button"]:hover {
+  	background-color: #f74f7c;
+  }
+  /* ................................................
+    LAURELS
+   ................................................*/
+  .laurels {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .laurels img {
+    margin-right: 20px;
+    display: inline-block;
+    max-height: 80px;
+    width: auto;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+  }
+  @media screen and (max-width: 767px){
+  
+  }
+  /* ................................................
+    ABOUT
+   ................................................*/
+  .about .contained p {
+    width: 80%;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+  }
+  @media screen and (max-width: 767px){
+  
+  }
+  /* ................................................
+    PACKAGES
+   ................................................*/
+  .packages {
+    margin-top: 60px;
+  }
+  .packages .item {
+    width: 31%;
+    float: left;
+    min-height: 200px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  .packages li.item:nth-child(3n+3) {
+    margin-right: 0px;
+  }
+  .packages .cover {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+  }
+  .packages .cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  .packages h4.title {
+    font-weight: bold;
+  }
+  .packages h4.desc {
+    font-size: 13px;
+    line-height: 18px;
+    opacity: .9;
+  }
+  .packages .text .padding {
+  	padding-top: 0px;
+  }
+  .packages .button {
+  
+  }
+  .packages.duo .contained {
+    width: 700px;
+  }
+  .packages.duo .contained .item {
+    width: 47%;
+  }
+  .packages.duo li.item:even {
+    margin-right: 10px;
+  }
+  .packages li.item:last-child {
+    margin-right: 0px;
+  }
+  .packages .actions {
+  	text-align: center;
+    margin-bottom: 10px;
+  }
+  .packages .actions .button {
+  	font-weight: bold;
+    display: block;
+    margin-right: 5px;
+    text-align: center;
+  }
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+  }
+  @media screen and (max-width: 767px){
+    .packages.duo .contained {
+      width: auto;
+    }
+    .packages.duo .contained .item {
+      width: auto;
+    }
+    .packages .item {
+      width: auto;
+      float: none;
+    }
+  }
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* FOOTER */
+  /* ----------------------------------------------------------------------------------------------------- */
+  footer {
+    margin-bottom: 100px;
+    font-family: 'Raleway',sans-serif;
+  
+  }
+  footer .contained {
+    padding-top: 13px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(0,0,0,.35);
+    overflow: hidden;
+  }
+  footer .pages {
+    height: 20px;
+    margin-bottom: 20px;
+    clear: both;
+  
+  }
+  footer ul {
+    list-style: none; position: relative; float: left; display: block; left: 50%;
+  }
+  footer ul li {
+    position: relative; float: left; display: block; right: 50%;
+  }
+  footer ul li a,
+  footer ul li a:visited {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fffeeb;
+    margin-right: 20px;
+    font-weight: 700;
+  }
+  footer .social {
+    clear: both;
+    height: 20px;
+    margin: 20px auto;
+  }
+  footer .poweredby {
+    width: 50px;
+    margin: 20px auto;
+  }
+  footer .poweredby img {
+    width: 100%;
+    height: auto;
+  }
+  footer .poweredby a {
+    opacity: .3;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+  }
+  footer .poweredby a:hover {
+    opacity: 1;
+  }
+  @media screen and (max-width: 767px){
+    footer .social {
+      display: none;
+    }
+    footer .poweredby {
+      margin: 50px 0;
+      text-align: left;
+    }
+  }
+  
+  
+  
+  </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      var _gaq = _gaq || [];
+  
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+        ga('create', 'UA-19540423-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'bayoumaharajahfilm');
+      ga('send', 'pageview');
+  
+      var Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_SENT_FREE_COPIES":"admin_sent_free_copies","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_SIGNUP_COMPLETE":"authentication","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_LOADEDDATA":"Video Content Loaded","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_FULLSCREEN":"Fullscreen Enabled/ Disabled","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD_TRIGGER":"addwatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE_TRIGGER":"removewatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List ","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_CURRENT_USER_ID":"current_user_id","PROPERTY_CURRENT_USER_EMAIL":"current_user_email","PROPERTY_CURRENT_SITE_ID":"current_site_id","PROPERTY_CURRENT_SITE_KEY":"current_site_key","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+        SITE_GANALYTICS_ENABLED: false
+      };
+  
+  
+        var _vhx = {
+          environment: 'production',
+          site: { id: '20264', domain: 'bayoumaharajahfilm.vhx.tv', host: 'bayoumaharajahfilm.vhx.tv' },
+          geo:  { country: 'us' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      var _current_user = {"id":null,"email":null,"name":null},
+          _current_site = {"id":20264,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"bayoumaharajahfilm"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,800|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+
+<header>
+	<h1><a href="/">Bayou Maharajah</a></h1>
+</header>
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <section class="feature">
+     
+    	<article class="redeem">
+          <form accept-charset="UTF-8" action="/buy/bayou-maharajah" class="validate" method="get">
+            <input class="required" id="code" name="code" placeholder="Enter code..." type="text" />
+            <input name="commit" type="submit" value="&gt;" />
+          </form>
+    	</article>
+        
+    	<article class="theslideshow vignette">
+          	<div class="vignette before"></div>
+            <div class="vignette after"></div>
+          	<div class="slides" data-slideshow>
+    	        <img src="https://dr56wvhu2c8zo.cloudfront.net/bayoumaharajahfilm/assets/b7e6f75c-e551-44b2-bd98-9885e803c16d/BAYOU-MAHARAJAH_Anton-CorbijnTITLElowres.jpg">
+            </div>
+    
+    	</article>
+        
+        
+    	<div class="contained">
+        
+        <article class="actions">
+          <a href="#" data-preview-url="15283" class="button">Watch Trailer</a>
+          
+         
+          	<a href="/checkout/bayou-maharajah?purchase=1" class="button">$12.99 Buy Now</a>
+          
+          
+          
+          
+          		<a href="https://bayoumaharajahfilm.vhx.tv/buy/bayou-maharajah-deluxe-edition?purchase=1&amp;country=us&amp;platform=windows&amp;referrer=bayoumaharajah.com&amp;site_id=20264&amp;uid=9778132385894" target="_blank" class="button">$19.99 Buy Deluxe Edition</a>
+          
+        </article>
+        <article class="text">
+            <div class="promo">
+              <h4>Now Available for Download! </h4>
+            </div>
+          
+          
+          	<h2><p>This critically acclaimed documentary explores the life and music of New Orleans piano legend James Booker, the man Dr. John described as “the best black, gay, one-eyed junkie piano genius New Orleans has ever produced.” A brilliant pianist, his eccentricities and showmanship belied a life of struggle, prejudice, and isolation. A wild genius with a style that combined elements of rhythm-and-blues, jazz, ragtime and classical music, Booker gained the nicknames "Piano Prince of New Orleans", "Black Liberace" and "Bayou Maharajah". Illustrated with never-before-seen concert footage, rare personal photos and exclusive interviews, the film paints a portrait of this overlooked genius.</p></h2>
+          
+          
+          
+          
+         
+      
+        
+          
+        </article>
+      </div> <!-- .contained -->
+    </section> <!-- .feature -->
+    
+    
+    
+    
+    
+      <section class="packages">
+      <a name="packages"></a>
+        <div class="contained">
+           <ul>
+                  <li class="item">
+                     <div class="cover">
+                       <a href="/buy/bayou-maharajah"><img class="img" src="https://vhx.imgix.net/bayoumaharajahfilm/assets/6a6088f3-2791-4a26-88ca-9c646ea819d6/BAYOU-MAHARAJAH_Anton-CorbijnTITLElowres.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                     </div>
+                     <div class="actions">
+                       <a href="/checkout/bayou-maharajah?purchase=1" class="button">$12.99 Buy </a>
+                   	</div>
+                     <div class="text">
+                       <div class="padding">
+                        <h4 class="title"><a href="/buy/bayou-maharajah">Bayou Maharajah</a></h4>
+                        <h4 class="desc"><p>This is a version of the download that includes the feature only. To get access to the film and more than 50 minutes of bonus features, please download the Deluxe Edition.   </p></h4>
+                       </div>
+                     </div>
+                  </li> <!-- .item -->
+                  <li class="item">
+                     <div class="cover">
+                       <a href="/buy/bayou-maharajah-deluxe-edition"><img class="img" src="https://vhx.imgix.net/bayoumaharajahfilm/assets/72be0195-3acc-4cd6-bb90-fc5bb5dbcf68/deluxeedition.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                     </div>
+                     <div class="actions">
+                       <a href="/checkout/bayou-maharajah-deluxe-edition?purchase=1" class="button">$19.99 Buy </a>
+                   	</div>
+                     <div class="text">
+                       <div class="padding">
+                        <h4 class="title"><a href="/buy/bayou-maharajah-deluxe-edition">Bayou Maharajah - Deluxe Edition</a></h4>
+                        <h4 class="desc"><p>This Deluxe Package includes more than 50 minutes of Exclusive Digital Bonus Features not included anywhere else for Download!  </p></h4>
+                       </div>
+                     </div>
+                  </li> <!-- .item -->
+                  <li class="item">
+                     <div class="cover">
+                       <a href="/buy/just-the-bonus-features-1"><img class="img" src="https://vhx.imgix.net/bayoumaharajahfilm/assets/7b37f085-26e9-4b7b-9664-7a80a8d325f3/justthebonus.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                     </div>
+                     <div class="actions">
+                       <a href="/checkout/just-the-bonus-features-1?purchase=1" class="button">$7 Buy </a>
+                   	</div>
+                     <div class="text">
+                       <div class="padding">
+                        <h4 class="title"><a href="/buy/just-the-bonus-features-1">Bonus Features Only</a></h4>
+                        <h4 class="desc"><p>Already purchased the feature and want more content? You can access more than 50 minutes of bonus material for just $6.99! </p></h4>
+                       </div>
+                     </div>
+                  </li> <!-- .item -->
+            </ul>
+        </div> <!-- .contained -->
+      </section> <!-- .packages -->
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <footer>
+	<div class="contained">
+  	<ul class="pages">
+			<li><a href="/login">Login</a></li>
+			<li><a href="/login">Forgot Password</a></li>
+        
+			<li><a href="/buy">Buy the Film</a></li>
+
+			<li><a href="/faq">Help</a></li>
+			<li><a class="flush" href="/tos">Terms of Use</a></li>
+		</ul>
+
+
+  	<div class="poweredby">
+      <a href="http://vhx.tv"><img src="http://dr56wvhu2c8zo.cloudfront.net/assets/powered_by_vhx_white.png"></a>
+    </div>
+
+	</div><!--.contained -->
+</footer>
+
+    <div class="clear"></div>
+  </section>
+
+  <script>
+    var _site = {
+      color:        '#030303',
+      key:          'bayoumaharajahfilm',
+      facebook_url: 'https://www.facebook.com/bayoumaharajah/',
+      twitter_name: 'ivoryemperor'
+    };
+  
+    var _config = {
+      country_code: 'us'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  
+<script>
+  var _flash = {
+    alert:  "",
+    notice: ""
+  };
+
+  
+      $(document).ready(function() {
+        
+  var VHXJS = VHXJS || {};
+  
+  /* theme js object
+  ---------------------------------------------*/
+  VHXJS = {
+  	/* initiate
+    ---------------------------------------------*/
+   
+    init: function() {
+      this._setupPackageDescriptionHeights();
+      this._setupRedeemer();
+      this._setupVignette();
+      this._monitorVideo();
+      
+      $(window).resize(function(){ VHXJS.resized() });
+      this.resized();
+    },
+    
+   	resized: function() {
+    	var value = $(window).width();
+      var videoHeight = Math.round((value/16)*9);
+      $(".automaticVideoHeight").height(videoHeight);
+      
+      if (!$(".thetrailer").hasClass("active")){
+      	$(".thetrailer").css("top",videoHeight * -1);
+      }
+    },
+    componentToHex: function(c) {
+      var hex = c.toString(16);
+      return hex.length == 1 ? "0" + hex : hex;
+  	}, 
+    rgbToHex: function(r, g, b) {
+      return "#" + VHXJS.componentToHex(r) + VHXJS.componentToHex(g) + VHXJS.componentToHex(b);
+  	},  
+    _setupVignette: function() {
+  		
+  		if ($(".theslideshow").hasClass("vignette")){
+      	var colour = $("body").css("background-color");    
+        colour = colour.replace("rgb(","");
+        colour = colour.replace(")","");
+        colour = colour.replace(/ /g,"");
+        colourArr = colour.split(",");
+        var bgHex = VHXJS.rgbToHex(parseInt(colourArr[0]),parseInt(colourArr[1]),parseInt(colourArr[2]));
+        
+        // $('.test').css({ 'background': '-webkit-gradient(linear,left top,left bottom,from(#f4f4f4),to(#FFFFFF))' });
+        // build the before gradient
+        var prefixes = new Array("-moz-linear-","-webkit-linear-","-o-linear-","-ms-linear-","linear-");
+        var beforestr, afterstr = "";
+        var beforedir = "top";
+        var afterdir = "left";
+        for(var i =0;i<=prefixes.length-1;i++){
+          if (i == prefixes.length-1){
+            beforedir = "to bottom";
+            afterdir = "to right";
+          } 
+          // before = bottom 
+          // after = sides
+          beforestr = prefixes[i]+"gradient("+beforedir+",  rgba("+colourArr[0]+","+colourArr[1]+","+colourArr[2]+",0) 0%, rgba("+colourArr[0]+","+colourArr[1]+","+colourArr[2]+",1) 100%)";
+          afterstr = prefixes[i]+"gradient("+afterdir+",  rgba("+colourArr[0]+","+colourArr[1]+","+colourArr[2]+",1) 0%, rgba("+colourArr[0]+","+colourArr[1]+","+colourArr[2]+",1) 5%, rgba("+colourArr[0]+","+colourArr[1]+","+colourArr[2]+",0) 21%, rgba("+colourArr[0]+","+colourArr[1]+","+colourArr[2]+",0) 76%, rgba("+colourArr[0]+","+colourArr[1]+","+colourArr[2]+",1) 95%, rgba("+colourArr[0]+","+colourArr[1]+","+colourArr[2]+",1) 100%)"
+          
+          $(".vignette.before").css("background",beforestr);
+          $(".vignette.after").css("background",afterstr);
+        }
+   
+      }
+      
+    },
+    
+    
+    _setupRedeemer: function(){
+    	$('a[href^="#redeem"]').click(function(){
+      	if ($(this).hasClass("active")){
+        	// hide redeemer
+          $(".redeem,.theslideshow").removeClass("active");
+          $(this).removeClass("active");
+        } else {
+        	// show redeemer 
+          $(".redeem,.theslideshow").addClass("active");
+        	$(this).addClass("active");  
+        }
+         
+      });
+    },
+    
+    _setupPackageDescriptionHeights: function() {
+    	var descHeight = 0;
+      
+      $(".packages .padding .desc").each(function(i){
+        if ($(this).height() > descHeight){
+          descHeight = $(this).height();
+          //console.log(descHeight);
+        }
+      }).height(descHeight);
+      
+      // packages tighten
+      if ($(".packages li").length > 0){
+        if ($(".packages li").length == 2){
+          $(".packages").addClass("duo");
+        }
+     	}
+    },
+    
+    _monitorVideo: function() {
+    	if ($('[data-preview-url]').data('preview-url') == '') {
+  			$('[data-preview-url]').hide();
+      }
+    }
+  };
+  
+  
+  VHXJS.init();
+  
+  
+  $("#trailer").on("video:stop",function(){
+  	$("a[href^=#trailer]").removeClass("active");
+    $("a[href^=#trailer]").html('Watch Trailer');
+    $(this).removeClass("active").empty();
+  });
+  
+      });
+    </script>
+
+<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+
+
+    <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="bayoumaharajahfilm.vhx.tv"></script>
+</body>
+</html>
+```
