@@ -1,0 +1,64 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <title>
+      BEWARESERV: simple robust extensible services for P10.
+    </title>
+  </head>
+  <!body bgcolor="#000000" text="#ffffcc" link="#ffcc99" vlink="#ffcc99" alink="#ffff99">
+  <body bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#880088" alink="#ff0000">
+    <table>
+      <tr>
+        <td width=170 valign=top>
+          
+<a href="borders.shtml?/home.shtml">home</a><br>
+<a href="borders.shtml?/download.shtml">download</a><br>
+<a href="borders.shtml?/roadmap.shtml">roadmap</a><br>
+<a href="borders.shtml?/linking.shtml">linking to us</a><br>
+<a href="http://sourceforge.net/projects/bewareserv">sourceforge project page</a><br>
+
+<a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=79206&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo" /></a>
+<br>
+<a href="/borders.shtml?/home.shtml">white</a><br>
+<a href="/black/borders.shtml?/home.shtml">black</a><br>
+
+
+
+
+        </td>
+        <td>
+          <h3>beware IRC services</h3>
+BEWARESERV (beware irc services) is an irc services core written in pascal for undernets P10 
+protocol and designed to be scaleable both to large netwoks and to small hardware setups. 
+The core is combined with a
+number of bots and compiled into an executeable. 
+<p>
+<hr>
+Currently there are four bots BWORLD,AUTH,CHANNEL and CONNECT4
+<p>
+BWORLD is an operator service bot similar to undernets UWORLD
+<p>
+AUTH is an authentication service providing login and account management for
+the other bots,
+<p>
+CHANNEL is a quakenet style channel service
+<p>
+CONNECT4 is a bot that allows users to play the board game connect4 in
+channels
+
+<p>
+with the release of 2.3 more bots will most likely be introduced.
+<p>
+<hr>
+copyright (c) 2003 <a href="http://www.bircd.org/">Bas Steendijk</a> and 
+<a href="http://www.p10link.net/plugwash/">Peter Green</a>. All rights 
+reserved
+
+
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+```
