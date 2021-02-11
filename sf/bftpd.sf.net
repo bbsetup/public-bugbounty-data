@@ -1,0 +1,248 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Bftpd -- A fast, secure, easy to configure ftp server</title>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+	<div id="page-wrap">
+	
+		<div id="top-header">	
+			<p>The Bftpd program is a small, easy-to-configure FTP server.</p> 
+			<p>It strives to be fast, secure and quick to install and configure.</p>
+		</div>
+	
+		<div id="logo"> 
+			<img src="images/logo.png" alt="Bftpd Logo" />
+		</div>
+	
+		<div id="main-content"> 
+				
+				<div id="balloon">
+					<a href="http://sourceforge.net/projects/bftpd/files/latest">
+						<img src="images/balloon.png" alt="Download Lastest Version" />
+					</a>
+				</div>
+
+				<!--Here you will put the "anchor" to the news.html. Be sure to always put it inside de divs-->
+				<div id="news">
+The Bftpd program is a small, flexible FTP server which is designed to work out of the box with little or no
+configuration required. Most users in home and small office environments can simply install Bftpd without any
+manual configuration, Bftpd will automatically attempt to work as smoothly and securely as possible. Bftpd can
+work in a wide variety of environments, including on desktops, servers, embedded devices and media centres. The
+service can be configured to run in read-only file systems, suitable for live CDs and demo discs.
+The service has been tested and shown to work on Linux, FreeBSD, NetBSD, Solaris and MINIX.
+<br><br>
+					<h2>Lastest News</h2>
+	                                <br />
+	                                <br />
+<a href="news.html#302480">January 10, 2021</a>
+<p>Minor bug fix release.</p>
+<br><br>
+
+<a href="news.html#302470">April 16, 2020</a>
+<p>Minor bug fix release.</p>
+<br><br>
+
+<a href="news.html#302460">January 9, 2020</a>
+<p>Security update.</p>
+<br><br>
+
+<a href="news.html#302450">January 7, 2020</a>
+<p>Minor bug fixes and updated documentation.</p>
+<br><br>
+<a href="news.html#302440">July 13, 2019</a>
+<p>Added better formatting for access denied message to client. Fixed incremental build in Makefile.</p>
+<br><br>
+<a href="news.html#302430">April 24, 2019</a>
+<p>Improved standards compliance on errors/replies to client. Minor bug fixes.</p>
+<br><br>
+<a href="news.html#302420">October 15, 2018</a>
+<p>Added more checks when accessing files and symlinks.</p>
+<br><br>
+<a href="news.html#302410">February 27, 2018</a>
+<p>Fixed some possible crashes and cleaned up compiler warnings.</p>
+<br><br>
+<a href="news.html#302400">November 19, 2017</a>
+<p>Fixed two minor memory bugs which could have caused a double-free crash during shutdown.</p>
+<br><br>
+<a href="news.html#302390">November 16, 2017</a>
+<p>Fixed memory leak in file renaming function.</p>
+<br><br>
+<a href="news.html#302380">September 30, 2017</a>
+<p>Fixed memory corruption errors. Made sure default behaviour is to use chroot.</p>
+<br><br>
+<a href="news.html#302370">September 6, 2017</a>
+<p>Fixed possible buffer underflow bug in command interpreter.</p>
+<br><br>
+<a href="news.html#302360">October 1, 2014</a>
+<p>Fixed possible buffer overflow bug when symbolic links are accesses.</p>
+<br><br>
+<a href="news.html#302350">April 25, 2014</a>
+<p>Clarified license and fixed pointer-to-int cast.</p>
+<br><br>
+<a href="news.html#302340">Dec 22, 2013</a>
+<p>Patched a bug which can cause valid users to be locked
+out of the FTP server.</p>
+<br><br>
+<a href="news.html#302330">Oct 29, 2013</a>
+<p>Patched a bug which may cause Bftpd to crash in certain
+cases with modern glibc versions (2.17 and newer).</p>
+<br><br>
+<a href="news.html#302320">May 28, 2013</a>
+<p>Patched Bftpd to allow the service to compile on NetBSD.</p>
+<br><br>
+<a href="news.html#302310">May 27, 2013</a>
+<p>Several bug fixes and port to MINIX.</p>
+<br><br>
+<a href="news.html#302300">May 8, 2012</a>
+<p>Minor bug fix release.</p>
+<br><br>
+<a href="news.html#302290">Feb 20, 2012</a>
+<p>Bug fix release.</p>
+<br><br>
+<a href="news.html#302280">July 27, 2011</a>
+<p>Minor bug fix release.</p>
+<br><br>
+<a href="news.html#302270">July 10, 2011</a>
+<p>Minor bug fix release.</p>
+<br><br>
+
+<a href="news.html#302260">May 11, 2011</a>
+<p>Minor bug fix/feature addition.</p>
+<br><br>
+                                        <a href="news.html#302250">May 8, 2011</a>
+                                        <p>Minor bug fix update.</p>
+                                        <br><br>
+
+                                        <a href="news.html#302240">March 6, 2011</a>
+                                        <p>Minor feature update.</p>
+                                        <br><br>
+
+                                        <a href="news.html#302230">September 22, 2010</a>
+                                        <p>Important security update.</p>
+                                        <br><br>
+
+                                        <a href="news.html#302220">September 4, 2010</a>
+                                        <p>New release version 3.0.</p>
+                                        <br><br>
+                                        <a href="news.html#302210">August 30, 2010</a>
+                                        <p>Added Slovak documentation.<br>
+                                        <br></p>
+
+                                        <a href="news.html#032200">July 7, 2010</a>
+                                        <p>Update to documentation.<br>
+                                        <br></p>
+
+                                        <a href="news.html#032190">June 2, 2010</a>
+                                        <p>Anonymous login bug fix.<br>
+                                        <br></p>
+                                           
+                                        <a href="news.html#032180">May 25, 2010</a>
+                                        <p>Support for PC-BSD added.<br>
+                                        <br></p>
+                                        <a href="news.html#032170">April 19, 2010: New release - 2.8</a>
+                                        <p>Important bug fixes and improvements.<br>
+                                        <br></p>
+                                        <a href="news.html#032160">March 28, 2010: Stable release - 2.7</a>
+                                        <p>Minor bug fix and code clean-up.<br>
+                                        <br></p>
+	                                <a href="news.html#032150">October 19, 2009: Stable release - 2.6</a>
+	                                <p>Minor bug fixed in bandwidth logging.<br>
+	                                <br></p>
+
+	                                <a href="news.html#032140">October 9, 2009: Stable release - 2.5</a>
+	                                <p>Two new features have been added to Bftpd.<br>
+	                                <br></p>
+
+	                                <a href="news.html#032130">September 2, 2009: Stable release - 2.4</a>
+	                                <p>A minor security bug has been fixed in this version.
+	                                <br /><br />
+	                                </p>
+                                        <a href="news.html#032120">October 5, 2008: Stable Release</a>
+                                        <p>An update to the stable code base is now ready for download.<br />
+					<br />
+					<a href="news.html#032110">September 16, 2008: Development Release</a>
+<p>A minor bug fix here, now ready for testing.<br />
+<br />
+
+                                        <a href="news.html#032109">June 22, 2008: New Website</a>
+                                        <p>Daniel Zilli was kind enough to volunteer to redesign the Bftpd website.<br />
+<br />
+					<a href="news.html#032108">March 21, 2008: Stable release Bftpd-2.2</a>		
+					<p>This release brings one small change over the previous development releases...</p>
+
+					<br />
+				</div>
+			
+				<hr />
+				
+				<div id="about">
+					<h2>About Bftpd</h2>
+				
+						<p>The Bftpd file server is designed to be as small and easy to manage
+							as possible, while providing most of the features you would expect 
+							from a file server. On most home systems, Bftpd is ready to work 
+							out-of-the-box without requiring any extra configuration. Production
+							systems can be set up by editing a few lines in an easy-to-read config file.</p>
+					
+						<p>Bftpd has been reported to run on Linux, BSD, routers and machines 
+							running read-only file systems.</p>
+				</div>
+		</div>
+		
+		<div id="siderbar-left"> 
+			
+				<ul id="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a href="download.html">Download</a></li>
+					<li><a href="documents.html">Documents</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+<input type="hidden" name="cmd" value="_donations">
+                                
+<input type="hidden" name="business" value="jessefrgsmith@yahoo.ca">
+                        
+<input type="hidden" name="lc" value="CA">
+
+<input type="hidden" name="item_name" value="Bftpd">
+
+<input type="hidden" name="no_note" value="0">
+
+<input type="hidden" name="currency_code" value="CAD">
+
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
+
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+</form>
+
+				</ul>
+			
+			<div id="image">
+<a href="http://www.domagoj-babic.com/index.php/ResearchProjects/Calysto" target="_blank"><img src="images/calysto.jpg" alt="Checked by Calysto" border=0 alt="Calysto"/></a>
+
+			</div>
+			
+		
+		</div>
+		
+		<div id="footer">	
+			<p>Copyright Â© 2004-2020, The BFTPD Project.</p>
+			<p id="lec"><a href="http://www.lechost.com">made by LecHost</a></p>
+		</div>
+
+	</div>
+</body>
+</html>
+```
