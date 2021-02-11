@@ -1,0 +1,793 @@
+```<!doctype html>
+<!--
+ ____                              __
+/\  _`\                           /\ \__
+\ \ \L\ \     __     __     __  __\ \ ,_\  __  __
+ \ \  _ <'  /'__`\ /'__`\  /\ \/\ \\ \ \/ /\ \/\ \
+  \ \ \L\ \/\  __//\ \L\.\_\ \ \_\ \\ \ \_\ \ \_\ \
+   \ \____/\ \____\ \__/.\_\\ \____/ \ \__\\/`____ \
+    \/___/  \/____/\/__/\/_/ \/___/   \/__/ `/___/> \
+                   __                          /\___/
+                  /\_\    ____                 \/__/
+                  \/\ \  /',__\
+                   \ \ \/\__, `\
+                    \ \_\/\____/
+                     \/_/\/___/
+           ____                __
+          /\  _`\             /\ \
+          \ \ \L\_\    ___ ___\ \ \____     __     _ __   _ __    __      ____    ____/\_\    ___      __
+           \ \  _\L  /' __` __`\ \ '__`\  /'__`\  /\`'__\/\`'__\/'__`\   /',__\  /',__\/\ \ /' _ `\  /'_ `\
+            \ \ \L\ \/\ \/\ \/\ \ \ \L\ \/\ \L\.\_\ \ \/ \ \ \//\ \L\.\_/\__, `\/\__, `\ \ \/\ \/\ \/\ \L\ \
+             \ \____/\ \_\ \_\ \_\ \_,__/\ \__/.\_\\ \_\  \ \_\\ \__/.\_\/\____/\/\____/\ \_\ \_\ \_\ \____ \
+              \/___/  \/_/\/_/\/_/\/___/  \/__/\/_/ \/_/   \/_/ \/__/\/_/\/___/  \/___/  \/_/\/_/\/_/\/___L\ \
+                                                                                                      /\____/
+                                                                                                      \_/__/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Beauty is Embarrassing</title>
+
+  <meta name="description" content="Beauty Is Embarrassing is a funny, irreverent, joyful and inspiring documentary featuring the life and current times of one of America&#039;s most important artists, Wayne White.">
+  <meta name="author" content="They Integrated Inc.">
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="YNNQeiSMSHYTA4FzsdbCXzG5hNcJcfu3BgHfXRecPB8=" name="csrf-token" />
+
+  <link rel="icon" type="image/png" href="/assets/beautyisembarrassing/images/favicon-4979c8cd441f80b6da00ccc6f2209093.png" />
+  <link rel="apple-touch-icon" href="/assets/beautyisembarrassing/images/apple-touch-icon-0f15da577d9ecd96fdec0c3a325bb0d6.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/beautyisembarrassing/images/apple-touch-icon-72x72-fc7848ba1d95ad121f4f18423e94343d.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/beautyisembarrassing/images/apple-touch-icon-114x114-359cb1bc6abab893b8b4dee724190531.png" />
+
+  <link rel='index' title='Beauty is Embarrassing' href='http://beautyisembarrassing.com/' />
+  <link rel='next' title='The Film' href='http://beautyisembarrassing.com/the-film/' />
+
+  <link rel='canonical' href='http://beautyisembarrassing.com/' />
+
+  <link rel="alternate" type="application/rss+xml" title="Beauty is Embarrassing &raquo; Feed" href="http://beautyisembarrassing.com/feed/" />
+  <link rel="alternate" type="application/rss+xml" title="Beauty is Embarrassing &raquo; Comments Feed" href="http://beautyisembarrassing.com/comments/feed/" />
+  <link rel="alternate" type="application/rss+xml" title="Beauty is Embarrassing &raquo; Home Comments Feed" href="http://beautyisembarrassing.com/home/feed/" />
+
+  <link href="/assets/beautyisembarrassing-vhxbundle-16cc641c6c7d2b409e3d.css" media="screen" rel="stylesheet" type="text/css" />
+
+  <script src="/assets/modernizr-293e2991cd4826d46ed9b7b3ab18b18c.js" type="text/javascript"></script>
+
+  <script src="https://use.typekit.net/hhp6ipg.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script>
+  var Tracking = undefined;
+  var Page = undefined;
+  var Segment_ID = undefined;
+  var _current_user = undefined;
+  var _current_site = undefined;
+</script>
+
+
+  <script>
+    _vhx = {
+      environment: 'production',
+      site: { id: '5', domain: 'buy.beautyisembarrassing.com', host: 'beautyisembarrassing.vhx.tv' },
+      geo:  { country: 'us' },
+      product: {id: '5' }
+    };
+
+    var _current_user = {"id":null,"email":null,"name":null,"city":null,"state":null,"country":null},
+        _current_site = {"id":5,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"beautyisembarrassing","title":"Beauty is Embarrassing","subdomain":"beautyisembarrassing","made_for_kids":false,"made_for_kids_tracking_blocked":true,"algolia_search_enabled":true,"passwords_disabled":false,"segment_heartbeat_frequency":10,"tracking_v2_enabled":true,"segment_includes_user_id":true};
+  </script>
+
+<script>
+  var Tracking = {
+    EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_SENT_FREE_COPIES":"admin_sent_free_copies","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_PAGE_VIEW":"site_page_view","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_PURCHASE_COMPLETED":"purchasecompleted","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_AUTHENTICATION_IDENTIFY_USER":"identify_user","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_SEGMENT_VIDEO_COMMENT_ADDED":"Video Comment Added","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_CLICKED":"Video Ad Clicked","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_VIEW":"Sign In Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete","EVENT_SEGMENT_SEARCH_ITEM_SELECTED":"Search Result Selected","EVENT_SEGMENT_SEARCH_EXECUTED":"Search Executed","EVENT_SEARCH":"search","EVENT_SEARCH_ITEM_SELECTED":"searchitemselected","EVENT_EXTRA_VIEWED":"extraviewed"},
+    PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_SITE_ID":"site_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_EMAIL":"user_email","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+    DEPRECATED_EVENTS: ["admin_connect_payout","admin_create_coupon","admin_create_screener","admin_link_dev_docs","admin_link_faq","admin_link_help","admin_publish_theme","metadata_click_cast","metadata_click_crew","metadata_click_genres","metadata_click_rating","metadata_click_tags","metadata_click_advisory"],
+    UPDATED_EVENTS: {"search_video":"searchitemselected","search_collection":"searchitemselected","site_search_item_selected":"searchitemselected","site_extras":"extraviewed"},
+    SITE_GANALYTICS_ENABLED: false,
+    SESSION: '777df706e6d6b9fa601b7983485641af'
+  };
+</script>
+
+
+
+  <script>
+  var _gaq = _gaq || [];
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-19540423-6', 'auto');
+    ga('require', 'displayfeatures');
+
+      ga('set', 'dimension1', 'beautyisembarrassing');
+
+    ga('send', 'pageview');
+
+
+      (function() {
+        var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+        vhx.src = '/assets/tracker-703237ddf4b2927b69d278e317d3325c.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+      })();
+
+
+    Tracking.SITE_GANALYTICS_ENABLED = true;
+
+      ga('create', 'UA-35865931-1', 'auto', { 'name': 'site', 'allowLinker': true});
+
+    ga('site.require', 'displayfeatures');
+      ga('site.require', 'linker');
+      ga('site.linker:autoLink', ['buy.beautyisembarrassing.com','beautyisembarrassing.vhx.tv'] );
+    ga('site.set', 'dimension1', 'beautyisembarrassing');
+    ga('site.send', 'pageview');
+
+
+  if (_current_site && _current_site.facebook_pixel_codes.length > 0) {
+    var facebook_pixel_codes = _current_site.facebook_pixel_codes;
+    // <!-- Facebook Pixel Code -->
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    for (var i=0; i<facebook_pixel_codes.length; i++) {
+      fbq('init', facebook_pixel_codes[i].pixel_code);
+    }
+    fbq('track', 'PageView');
+    //<!-- End Facebook Pixel Code -->
+  }
+
+  if (_current_site && _current_site.twitter_pixel_codes.length > 0) {
+    var twitter_pixel_codes = _current_site.twitter_pixel_codes;
+    // <!-- Twitter Pixel Code -->
+    !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+    },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+    a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+    // Insert Twitter Pixel ID and Standard Event data below
+    for (var i=0; i<twitter_pixel_codes.length; i++) {
+      twq('init', twitter_pixel_codes[i].pixel_code);
+      twq('track','PageView');
+    }
+    //<!-- End Twitter Pixel Code -->
+  }
+
+  </script>
+
+
+</head>
+<body class="sites sites-show">
+  
+  <script>
+  var _flash = {
+    alert:  null,
+    notice: null
+  };
+</script>
+
+
+  <div id="container">
+    <header class="clearfix">
+      <!-- <div id="quote-callout"></div> -->
+
+      <div id="theatre-callout">
+       <div class="promos">
+        <a class="app" target="_blank" href="https://vimeo.com/beautyisembarrassing">
+          <img alt="Promo-vimeo" src="/assets/beautyisembarrassing/images/promo-vimeo-81e73450a0c5a405b1ed28164d98d46c.png" />
+        </a>
+         <a class="app" target="_blank" href="https://itunes.apple.com/us/app/words-with-wayne/id557787444?mt=8&uo=4&at=10l7hF">
+          <img alt="Bie-app-right" src="/assets/beautyisembarrassing/images/bie-app-right-3523888400ba02eae053a76a237ef493.png" />
+        </a>
+       </div>
+        <div class="buy">
+            <a href="/checkout" class="price"><sup>$</sup>4<sup class="tight">.99</sup></a>
+          <div class="text">
+            <a class="watch" href="/buy" >Watch the film now</a>
+
+            <div class="sub">
+                Already bought it?
+                <a href="/login">Sign In</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <h1 id="logo"><a class="logo" href="/" rel="home">Beauty is Embarrassing</a></h1>
+
+      <ul id="nav" class="clearfix">
+        <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="/">Home</a></li>
+        <li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="http://beautyisembarrassing.com/the-film/">Film</a></li>
+        <li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="http://beautyisembarrassing.com/video/">Video</a></li>
+        <li id="menu-item-371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371"><a href="http://beautyisembarrassing.com/screenings/">Find a Theatre</a></li>
+        <li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="http://beautyisembarrassing.com/gallery/">Gallery</a></li>
+        <li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a href="http://beautyisembarrassing.com/contact/">Contact</a></li>
+        <li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="http://beautyisembarrassing.com/press/">Press</a></li>
+        <li id="menu-item-586" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-586"><a href="http://shopbeautyisembarrassing.com">Shop</a></li>
+      </ul>
+
+      <ul id="social-action" class="group">
+        <li class="facebook-like">
+          <div class="fb-like social-plugin" data-action="like" data-href="https://www.facebook.com/pages/Beauty-Is-Embarrassing/203656703013095" data-send="false" data-layout="button_count" data-width="120" data-show-faces="false"></div>
+<a id="popup_facebook_link" href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fpages%2FBeauty-Is-Embarrassing%2F203656703013095" style="display:none" target="_blank">Share</a>
+        </li>
+        <li class="twitter-tweet">
+          <div class="social-plugin">
+  <a href="//twitter.com/share" style="display:none" class="twitter-share-button"   data-text="Check out Beauty Is Embarassing, the story of artist Wayne White. /via @WayneWhiteDoc @SeeWayneWhite."  >Tweet</a>
+</div>
+<a id="popup_twitter_link" href="https://twitter.com/intent/tweet?text=Check+out+Beauty+Is+Embarassing%2C+the+story+of+artist+Wayne+White.+%2Fvia+%40WayneWhiteDoc+%40SeeWayneWhite." style="display:none" target="_blank">Tweet</a>
+        </li>
+        <li class="twitter-follow">
+          <a href="https://twitter.com/waynewhitedoc" class="twitter-follow-button" data-show-count="false">Follow @waynewhitedoc</a>
+        </li>
+      </ul>
+    </header>
+
+     <div id="main" class="clearfix nopadding">
+  <div id="carousel" class="slideshow">
+    <img alt="Beauty Is Embarrassing" src="/assets/beautyisembarrassing/images/stills/still1-flipped-512290b3f8cd712e9f6ad278566741b8.jpg" />
+    <img alt="Beauty Is Embarrassing" src="/assets/beautyisembarrassing/images/stills/still2-f2d4979deb4e8d35ac3ab12d210a17da.jpg" />
+    <img alt="Beauty Is Embarrassing" src="/assets/beautyisembarrassing/images/stills/still3-4d242dcd08be774423594c3bf9db29b3.jpg" />
+    <img alt="Beauty Is Embarrassing" src="/assets/beautyisembarrassing/images/stills/still4-e0a45d5476e3707b2393e4d00a1d02c5.jpg" />
+    <img alt="Beauty Is Embarrassing" src="/assets/beautyisembarrassing/images/stills/still5-bfa71de5c30acd06a3f31f06a9be1f91.jpg" />
+    <img alt="Beauty Is Embarrassing" src="/assets/beautyisembarrassing/images/stills/still6-f9f1c98e5de0d5ce87063db4e7e88bbe.jpg" />
+    <img alt="Beauty Is Embarrassing" src="/assets/beautyisembarrassing/images/stills/still7-7cd2deee9780f3d9e0fa800adb7c6e6c.jpg" />
+    <img alt="Beauty Is Embarrassing" src="/assets/beautyisembarrassing/images/stills/still8-419b29b0b443628be74dd8165dba212d.jpg" />
+    <img alt="Beauty Is Embarrassing" src="/assets/beautyisembarrassing/images/stills/still9-f9cfe8b35ec3db71e762e623f248d599.jpg" />
+    <img alt="Beauty Is Embarrassing" src="/assets/beautyisembarrassing/images/stills/still0-5888637e86c63104d777efea30b648d0.png" />
+  </div>
+
+  <div id="trailer_video">
+  </div>
+
+  <div id="cta">
+    <div id="trailer_area">
+      <div class="promo">
+            <a href="/buy" class="threed">
+            <img alt="WATCH NOW" src="/assets/beautyisembarrassing/images/watch-now-letters-932e1dd0ad3cc4e2746f2a165b4855c9.png" />
+          </a>
+          <div class='interior'>
+            <p>Support Wayne and the filmmakers directly! Stream or download the film now. It’s DRM-Free.</p>
+              <p><a class="button" href="/buy"><span>$4.99</span> Buy the Film</a></p>
+            <div class="hr"><span>OR</span></div>
+            <p class="flushbottom clearfix">
+              <a class="button orange" href="/buy?gift=1" title="Send To A Friend">Gift Film</a>
+              <a id="watch_btn" class="button yellow" href="/browse" data-embed-code="&lt;iframe src=&quot;https://embed.vhx.tv/packages/8509&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;">Watch Trailer</a>
+            </p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div id="buybar" class="hidden">
+    <div class="buy">
+      <a href="/buy" class="button"><span>$4.99</span> Buy the film</a>
+    </div>
+    <a href="/buy"><img alt="BUY NOW" src="/assets/beautyisembarrassing/images/buy_now_letters-60442c39332a40d1ea404bb6344dd4a6.png" /></a>
+    <div class="text">support Wayne and the filmmakers directly!<br>Stream or download the film now. It’s DRM-Free.</div>
+  </div>
+</div> <!-- end #main -->
+
+<div id="vod">
+  <h2 id="vod-title">AVAILABLE IN THE US ON DIGITAL AND VIDEO ON DEMAND</h2>
+  <div class="dods">
+  <ul id="dod-links" class="clearfix">
+    <li class="first"><a id="itunes-link" target="_blank" href="https://itunes.apple.com/us/movie/beauty-is-embarrassing/id563126797?uo=4&at=10l7hF">iTunes</a></li>
+    <li><a id="amazon-link" target="_blank" href="http://www.amazon.com/gp/product/B009NNGMRU/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B009NNGMRU&linkCode=as2&tag=v09ce-20">Amazon</a></li>
+    <li class="last"><a id="vimeo-link" href="https://vimeo.com/beautyisembarrassing">Vimeo</a></li>
+  </ul>
+  </div>
+  <ul id="vod-links" class="clearfix">
+    <li><a id="att-link" href="#">AT&amp;T</a></li>
+    <li><a id="cablevision-link" href="#">Cablevision</a></li>
+    <li><a id="charter-link" href="#">Charter</a></li>
+    <li><a id="comcast-link" href="#">Comcast</a></li>
+    <li><a id="cox-link" href="#">Cox</a></li>
+    <li><a id="twc-link" href="#">Time Warner Cable</a></li>
+    <li><a id="tvn-link" href="#">TVN</a></li>
+    <li><a id="verizon-link" href="#">Verizon</a></li>
+    <li><a id="xbox-link" href="#">Xbox 360</a></li>
+    <li class="last"><a id="psn-link" href="#">Playstation Network</a></li>
+  </ul>
+  <h2 id="vod-title-canada">AVAILABLE IN CANADA ON DIGITAL AND VIDEO ON DEMAND</h2>
+  <ul id="vod-links-can" class="clearfix">
+    <li><a id="mts-link" href="#">MTS</a></li>
+    <li><a id="sasktel-link" href="#">Sasktel</a></li>
+    <li><a id="telus-link" href="#">Telus</a></li>
+    <li><a id="cogeco-link" href="#">Cogeco</a></li>
+    <li><a id="shaw-link" href="#">Shaw PPV</a></li>
+  </ul>
+</div>
+
+
+<div id="trio">
+  <div class="item">
+    <a href="http://itunes.apple.com/us/app/words-with-wayne/id557787444?mt=8" target="_blank"><img alt="WORDS WITH WAYNE" src="/assets/beautyisembarrassing/images/promo-www-9e670a4f0f733e7af94f9b67cee75a26.png" /></a>
+  </div>
+  <div class="item shop">
+    <div class="padded">
+      <h3>Wayne White Book</h3>
+      <p>Get it at the shop along with clothing, prints and more!</p>
+      <a href="http://shopbeautyisembarrassing.com/" class="button">Shop</a>
+    </div>
+  </div>
+  <div class="item last">
+    <div class="padded">
+      <h2>Stay Up To Date</h2>
+      <p>Don't miss out on the latest screenings, news, and announcements.
+      Sign up to our email newsletter, and we'll keep you up to date!</p>
+      <style>
+              input#ns_widget_mailchimp-email-2 {
+                font-size: 11px;
+                color: #bab5a6;
+                background-color: #252525;
+                border: 0 none;
+                width: 200px;
+                padding: 8px 8px;
+                margin-right: 4px;
+              }
+
+              #ns_widget_mailchimp_form-2 input[type="submit"] {
+                font-size: 11px;
+                padding: 7px 8px 7px 8px;
+                border: 0 none;
+                text-transform: uppercase;
+                background-color: #6f5c59;
+                color: #ffffff;
+              }
+
+              #ns_widget_mailchimp_form-2 input[type="submit"]:hover {
+                background-color: #5d4d4a;
+              }
+              #ns_widget_mailchimp_form-2 label {
+                display: none;
+              }
+      </style>
+      <form action="http://beautyisembarrassing.com/new-sign-up" id="ns_widget_mailchimp_form-2" method="post">
+        <input type="hidden" name="ns_mc_number" value="2">
+        <label for="ns_widget_mailchimp-email-2">Email Address :</label>
+        <input id="ns_widget_mailchimp-email-2" type="text" name="ns_widget_mailchimp_email" placeholder="Email Address">
+        <input type="submit" name="SUBSCRIBE" value="SUBSCRIBE">
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="clear"></div>
+<div class="bottom">
+  <div id="updates">
+  <div id="blog" class="twothirds">
+    
+
+<div id="tumblr_beauty-is-embarrassing-themovie" class="tumblr-feed "></div>
+
+<script type="text/html" id="vhx_tumblr_partial">
+
+  <div class="tumblr_container">
+    <div class="tumblr_feed">
+      {{#posts}}
+
+        {{#photo}}
+          <div class="entry photo">
+            <div class="photos">
+              {{#photos}}
+                <img src="{{photo_url}}" />
+              {{/photos}}
+            </div>
+            {{{caption}}}
+            <div class="timestamp"><a href="{{url}}">Posted {{date}}</a></div>
+          </div>
+        {{/photo}}
+
+        {{#video}}
+          <div class="entry video">
+            <div class="video">{{{video_embed}}}</div>
+            {{{caption}}}
+            <div class="timestamp"><a href="{{url}}">Posted {{date}}</a></div>
+          </div>
+        {{/video}}
+
+        {{#text}}
+          <div class="entry text">
+            <h2><a href="{{url}}">{{title}}</a></h2>
+            {{{body}}}
+            <div class="timestamp"><a href="{{url}}">Posted {{date}}</a></div>
+          </div>
+        {{/text}}
+
+        {{#chat}}
+          <div class="entry chat">
+            <h2><a href="{{url}}">{{title}}</a></h2>
+            <ul>
+              {{#chat}}
+                <li>{{{.}}}</li>
+              {{/chat}}
+            </ul>
+            <div class="timestamp"><a href="{{url}}">Posted {{date}}</a></div>
+          </div>
+        {{/chat}}
+
+        {{#link}}
+          <div class="entry link">
+            <h2><a href="{{linkURL}}">{{title}}</a></h2>
+            {{{description}}}
+            <div class="timestamp"><a href="{{url}}">Posted {{date}}</a></div>
+          </div>
+        {{/link}}
+
+        {{#quote}}
+          <div class="entry quote">
+            <h2>{{{text}}}</h2>
+            <p class="source">{{{source}}}</p>
+            <div class="timestamp"><a href="{{url}}">Posted {{date}}</a></div>
+          </div>
+        {{/quote}}
+
+        {{#audio}}
+          <div class="entry audio">
+            <div class="player">{{{audio_player}}}</div>
+            {{{caption}}}
+            <div class="timestamp"><a href="{{url}}">Posted {{date}}</a></div>
+          </div>
+        {{/audio}}
+
+      {{/posts}}
+    </div>
+    <a class="readmore" href="{{url}}" target="_blank">Read More</a>
+  </div>
+</script>
+
+  </div>
+
+  
+
+<div id="twitter_waynewhitedoc" class="twitter-feed onethird"></div>
+
+<script type="text/html" id="vhx_twitter_partial">
+  {{#posts}}
+  <div class="post">
+    <p>{{{tweet}}}</p>
+    <div class="details">
+        <span class="posted_at">
+          <a href="{{url}}" title="Permalink to this Post" target="_blank">{{time_ago}}</a>
+        </span>
+      &middot; <a href="{{reply_url}}" title="Reply on Twitter" target="_blank" class="reply"><i class="icon-share-alt"></i> reply</a>
+      &middot; <a href="{{retweet_url}}" title="Retweet on Twitter" target="_blank" class="retweet"><i class="icon-refresh"></i> retweet</a>
+    </div>
+  </div>
+  {{/posts}}
+</script>
+
+</div>
+
+</div>
+
+
+  <div style="clear:both"></div>
+
+  <footer class="clearfix">
+
+    <div style="clear:both"></div>
+
+    <div id="ff-callout">
+      <p class="ff-text"><a target="_blank" id="foundry" href="http://filterfoundry.com/">Filter Foundry</a> Browse <a class="ff-text" target="_blank" href="http://filterfoundry.com/waynewhite">Wayne’s PAD on Filter Foundry</a> with Galleries of original art from the movie.</p>
+    </div>
+
+    <ul id="social-links" class="clearfix">
+      <li><a target="_blank" id="imdb-link" href="http://www.imdb.com/title/tt2040281/">IMDB</a></li>
+      <li><a target="_blank" id="yt-link" href="http://www.youtube.com/user/mrbrkly1">Youtube</a></li>
+      <li><a target="_blank" id="fb-link" href="http://www.facebook.com/pages/Beauty-Is-Embarrassing/203656703013095">Facebook</a></li>
+      <li><a target="_blank" id="tw-link" href="http://twitter.com/waynewhitedoc">Twitter</a></li>
+    </ul>
+
+    <!-- <div id="email-signup" class="clearfix">
+      <form action="http://they.createsend.com/t/y/s/bitgu/" method="post" id="subForm">
+        <label for="bitgu-bitgu">Stay in the Loop</label>
+        <input id="email" type="text" name="cm-bitgu-bitgu" id="bitgu-bitgu" value="Enter your email address" />
+        <input id="submit" type="submit" value="GO" />
+      </form>
+    </div> -->
+    <div style="clear:both"></div>
+
+    <ul id="laurel-links" class="clearfix">
+      <li><a target="_blank" id="sxsw-link" href="http://sxsw.com/film">SXSW Film Festival</a></li>
+      <li><a target="_blank" id="fullframe-link" href="http://www.fullframefest.org/">Full Frame Documentary Film Festival</a></li></li>
+      <li><a target="_blank" id="atlanta-link" href="http://www.atlantafilmfestival.com/">Atlanta Film Festival</a></li>
+      <li><a target="_blank" id="cleveland-link" href="http://www.clevelandfilm.org">Cleveland International Film Festival</a></li>
+      <li><a target="_blank" id="hotdocs-link" href="http://www.hotdocs.ca/">Hotdocs Film Festival</a></li>
+      <li><a target="_blank" id="boston-link" href="http://www.iffboston.org/">Independent Film Festival Boston</a></li>
+      <li><a target="_blank" id="nashville-link" href="http://www.nashvillefilmfestival.org/">Nashville Film Festival</a></li>
+      <li><a target="_blank" id="crossroads-link" href="http://www.crossroadsfilmfestival.com/">Crossroads Film Festival</a></li>
+      <li><a target="_blank" id="dead-link" href="http://www.deadcenterfilm.org/">DeadCENTER Film Festival</a></li>
+      <li class="last"><a target="_blank" id="la-link" href="http://www.lafilmfest.com/">Los Angeles Film Festival</a></li>
+    </ul>
+    <!-- <ul id="laurel-links" class="clearfix">
+      <li><a target="_blank" id="cleve-link" href="http://www.clevelandfilm.org">Cleveland International Film Festival</a></li>
+      <li><a target="_blank" id="sxsw-link" href="http://sxsw.com/film">SXSW Film Festival</a></li>
+      <li><a target="_blank" id="hot-link" href="http://www.hotdocs.ca/">Hotdocs</a></li>
+      <li><a target="_blank" id="atlanta-link" href="http://www.atlantafilmfestival.com/">Atlanta Film Festival</a></li>
+      <li class="last"><a target="_blank" id="fullframe-link" href="http://www.fullframefest.org/">Full Frame Documentary Film Festival</a></li></li>
+    </ul> -->
+
+
+
+    <p id="billing">FUTURE YOU PICTURES PRESENTS &ldquo;BEAUTY IS EMBARRASSING&rdquo; FEATURING Wayne White, Mimi Pond, Mark Mothersbaugh, Todd Oldham, Matt Groening, Gary Panter, RIC HEITZMAN AND Paul REUBENS  EDITED BY CHRIS BRADLEY DIRECTOR OF PHOTOGRAPHY CHRIS BRADLEY EXECUTIVE PRODUCERS AIMEE BOTHWELL AND BART MCDONOUGH PRODUCED BY NEIL BERKELEY, CHRIS BRADLEY, AND MILAN ERCEG CO-PRODUCERS LIAH CORRAL AND ANTHONY MAIURI WRITTEN BY NEIL BERKELEY AND CHRIS BRADLEY DIRECTED BY NEIL BERKELEY</p>
+
+    <ul id="footer-links" class="clearfix">
+      <li><a target="_blank" id="brkly-link" href="http://brkly.tv/">Brkly.tv</a></li>
+      <li><a target="_blank" id="fy-link" href="http://futureyoupictures.com/">Future You Pictures</a></li>
+      <li><a target="_blank" id="ww-link" href="http://www.western-project.com/">Western Project</a></li>
+      <li><a target="_blank" id="trem-link" href="http://tremoloproductions.com/">Tremolo Productions</a></li>
+      <li><a target="_blank" id="vhx-link" href="http://vhx.tv">VHX</a></li>
+      <!-- <li class="lastlink"><a target="_blank" id="foundry-link" href="http://filterfoundry.com/">Filter Foundry</a></li> -->
+    </ul>
+
+    <p>COPYRIGHT &copy; 2011 <a target="_blank" href="http://brkly.tv">BRKLY</a> — ALL RIGHTS RESERVED &mdash; Site by <a target="_blank" href="http://theyinspire.com">They</a> &mdash; <a href="mailto:support+beautyisembarrassing@vhx.tv">Support</a></p>
+
+  </footer>
+</div> <!--! end of #container -->
+
+
+  <script>
+  // legacy upload variables
+  var _upload_types = ["azw3","epub","flac","gif","ico","jpeg","jpg","mobi","mp3","mp4","ogv","pdf","png","swf","wav","webm","zip","3gp","eot","svg","ttf","woff","srt","vtt","css","js"];
+  var _video_types = ["mov","avi","wmv","mp4","m4v"];
+
+  var _config = {
+    environment:  "production",
+    country_code: "us"
+  };
+
+    var _site = {
+      color: '#f47773',
+      key:   'beautyisembarrassing'
+    };
+</script>
+
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  <script src="/assets/beautyisembarrassing/javascripts/application-69d2ffcb7172d354b2a8812972c2cadf.js" type="text/javascript"></script>
+  <script src="/assets/shared/flash-4fac19ab5608de0c308f848f5137d4aa.js" type="text/javascript"></script>
+    <script>
+    var VHXTumblr = Class.extend({
+      username: false,
+
+      init: function(args) {
+        this.username = args.username;
+        this.usernamesafe = args.username.replace(/-/g,'');
+
+        var tumblrkey = "mhg6b9xFS5pGZr9inve9sSsa0Zl2zy4ojb3K7Ta3aWswFqqSU8";
+        var tumblruser = args.username + ".tumblr.com";
+        var endpoint = "http://api.tumblr.com/v2/blog/" + tumblruser + "/posts/"
+
+        var data = {
+          api_key: tumblrkey,
+          jsonp: "tumblr_" + this.usernamesafe + ".onLoad",
+          limit: args.limit
+        };
+
+        if (args.tag != undefined && args.tag != false) {
+          data.tag = args.tag
+        }
+
+        setTimeout(function() {
+          $.ajax({
+            type: "GET",
+            url: endpoint,
+            dataType: "jsonp",
+            data: data
+          });
+        }, 1000)
+      },
+
+      onLoad: function(data) {
+        if (data.meta.status == 200) {
+          var feed = {
+            url: 'http://' + this.username + '.tumblr.com',
+            posts: []
+          };
+
+          $(data.response.posts).each(function(i, post) {
+
+            switch (post.type){
+              case "text":
+                feed.posts.push({
+                  text: {
+                    title: post.title,
+                    body: post.body
+                  }
+                });
+                break;
+
+              case "photo":
+                var photos = [];
+                $(post.photos).each(function(i, obj){
+                  photos.push({
+                    photo_url: obj.alt_sizes[1].url // 500px wide
+                  })
+                });
+
+                feed.posts.push({
+                  photo: {
+                    caption: post.caption,
+                    photos: photos
+                  }
+                });
+                break;
+
+              case "quote":
+                feed.posts.push({
+                  quote: {
+                    type: post.type,
+                    tags: post.tags,
+                    text: post.text,
+                    source: post.source
+                  }
+                });
+                break;
+
+              case "link":
+                feed.posts.push({
+                  link: {
+                    linkURL: post.url,
+                    title: post.title,
+                    description: post.description
+                  }
+                });
+                break;
+
+              case "chat":
+                var chat_log = post.body.split("\n");
+                feed.posts.push({
+                  chat: {
+                    title: post.title,
+                    body: post.body,
+                    chat: chat_log,
+                    dialogue: post.dialogue
+                  }
+                });
+                break;
+
+              case "audio":
+                feed.posts.push({
+                  audio: {
+                    source_title: post.source_title,
+                    source_url: post.source_url,
+                    id3_title: post.id3_title,
+                    caption: post.caption,
+                    audio_player: post.player,
+                    audio_plays: post.plays,
+                    artist: post.artist,
+                    album: post.album,
+                    track_name: post.track_name,
+                    track_num: post.track_num,
+                    year: post.year
+                  }
+                });
+                break;
+
+              case "video":
+                feed.posts.push({
+                  video: {
+                    source_title: post.source_title,
+                    caption: post.caption,
+                    video_embed: post.player[2].embed_code
+                  }
+                });
+                break;
+
+              case "answer":
+                feed.posts.push({
+                  answer: {
+                    asking_name: post.asking_name,
+                    asking_url: post.asking_url,
+                    question: post.question,
+                    answer: post.answer
+                  }
+                });
+                break;
+
+
+              default:
+                feed.posts.push({
+                  title: post.title,
+                  body: post.body
+                });
+            }
+
+            feed.posts[feed.posts.length - 1].date = post.date.substr(0,10);
+            feed.posts[feed.posts.length - 1].tags = post.tags;
+            feed.posts[feed.posts.length - 1].timestamp = post.timestamp;
+            feed.posts[feed.posts.length - 1].url = post.post_url;
+          });
+
+          $('#tumblr_' + this.username).hide();
+          $('#tumblr_' + this.username).html(Mustache.to_html($('#vhx_tumblr_partial').html(), feed));
+          $('#tumblr_' + this.username).fadeIn(500);
+
+          $('#tumblr_' + this.username).trigger('tumblr:loaded');
+        }
+      }
+    });
+
+    var tumblr_beautyisembarrassingthemovie = false;
+    $(function() {
+      tumblr_beautyisembarrassingthemovie = new VHXTumblr({"username":"beauty-is-embarrassing-themovie","limit":3,"tumblr":null,"style":{}});
+    })
+  </script>
+  <script>
+    var VHXTwitter = Class.extend({
+      username: false,
+
+      init: function(args) {
+        this.username = args.username;
+
+        $.ajax({
+          url: '/twitter',
+          type: 'get',
+          dataType: 'json',
+          data: {
+            handle: args.username
+          },
+          success: this.renderTweets.bind(this)
+        });
+      },
+
+      renderTweets: function(twitters) {
+        var posts = { posts: [] };
+
+        if (twitters && twitters.length) {
+          for (var i = 0; i < twitters.length; i++) {
+            var username = twitters[i].user.screen_name;
+
+            var status = twitters[i].text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
+              return '<a href="' + url + '" target="_blank">' + url + '</a>';
+            }).replace(/\B@([_a-z0-9]+)/ig, function(reply) {
+                return '<a href="http://twitter.com/' + reply.substring(1) + '" target="_blank">@' + reply.substring(1) + '</a>';
+              }).replace(/\#([_a-z0-9+\-]+)/ig, function(hash) {
+                return '<a class="tag" href="http://twitter.com/search/%23' + hash.substring(1) + '" target="_blank">' + hash + '</a>';
+              });
+
+            var cls = i == twitters.length - 1 ? ' last' : '';
+            var url = 'http://twitter.com/' + username + '/statuses/' + twitters[i].id_str;
+            var reply_url = 'https://twitter.com/intent/tweet?in_reply_to=' + twitters[i].id_str;
+            var retweet_url = 'https://twitter.com/intent/retweet?tweet_id=' + twitters[i].id_str;
+            var favorite_url = 'https://twitter.com/intent/favorite?tweet_id='  + twitters[i].id_str;
+
+            posts.posts.push({
+              username: username,
+              time_ago: $.timeago(twitters[i].created_at),
+              created_at: twitters[i].created_at,
+              url: url,
+              reply_url: reply_url,
+              retweet_url: retweet_url,
+              favorite_url: favorite_url,
+              tweet: status
+            });
+          }
+        }
+
+        $('#twitter_' + this.username).html(Mustache.to_html($('#vhx_twitter_partial').html(), posts));
+      }
+    });
+
+    var twitter_waynewhitedoc = false;
+    $(function() {
+      twitter_waynewhitedoc = new VHXTwitter({"username":"waynewhitedoc","limit":25,"style":{"class":"onethird"},"twitter":null});
+     });
+  </script>
+
+
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+</body>
+</html>
+```
