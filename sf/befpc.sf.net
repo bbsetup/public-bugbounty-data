@@ -1,0 +1,358 @@
+```<html>
+<head>
+	<title>BePascal [Main]</title>
+	<!-- <base href="http://befpc.sourceforge.net/"> -->
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<!-- Header Begin-->
+
+<table cellpadding=0 cellspacing=1 bgcolor="#000000" width="100%">
+<tr><td>
+	<table bgcolor="#BBBBBB" border="0" cellspacing="1" width="100%">
+	<tr><td>
+		<table border="0" cellspacing="1" cellpadding="1" width="100%">
+		<tr><td width="100%" align="center" bgcolor="#BBCCDD">
+
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+				<b>The <font color="blue">B</font><font color="red">e</font>Pascal Project</b>
+<!--				<b>The BePascal Project</b> -->
+			</font>
+
+		</td></tr>
+		<tr><td align="center" width="100%" bgcolor="#EEEEEE">
+
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+				[ Castellano ]<!-- <a href="./cas/index.html">Castellano</a> -->
+				[ English ]<!-- <a href="index.html">English</a> -->
+				[ Fran&ccedil;ais ]<!-- <a href="./fra/index.html">Fran&ccedil;ais</a> -->
+				[ Russkiy ]<!-- <a href="./rus/index.html">Russkiy</a> -->
+			</font>
+
+		</td></tr>
+		</table>
+	</td></tr>
+	</table>
+</td></tr>
+</table>
+
+<!-- Header End-->
+
+&nbsp;
+
+<!-- Middle Section Begin-->
+
+<!-- Open Main Table Container -->
+<table width="100%" border="0" cellspacing="0">
+<tr>
+
+<!-- LeftNavBar Begin --> 
+<td width="25%" height="100%" valign="top">
+
+	<table cellpadding=0 cellspacing=1 bgcolor="#000000" width="100%">
+	<tr><td>
+		<table bgcolor="#BBBBBB" color="#BBBBBB" border="0" cellspacing="1" width="100%">
+		<tr><td>
+			<table border="0" cellspacing="1" cellpadding="1" width="100%">
+			<tr><td width="100%" align="center" bgcolor="#BBCCDD">
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+					<b>Site Navigation</b>
+				</font>
+			</td></tr>
+			<tr><td bgcolor="#EEEEEE">
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+					&nbsp;- Main<br>
+					<center><HR WIDTH="80%"></center>
+					&nbsp;- <a href="./about.html">About</a><br>
+					&nbsp;- <a href="./news/index.html">News</a><br>
+					&nbsp;- <a href="./downloads.html">Downloads</a><br>
+					&nbsp;- <a href="./docs/index.html">Documentation</a><br>
+					&nbsp;- <a href="./screenshots.html">Screenshots</a><br>
+					&nbsp;- <a href="./docs/status.html">Status</a><br>
+					&nbsp;- <a href="./team.html">Team</a><br>
+					<center><HR width="80%"></center>
+					&nbsp;<B>More BePascal on...</B><br>
+					&nbsp;- Our SF.net's <a href="http://sourceforge.net/projects/befpc/" target="_blank">Project page</a>.<br>
+					&nbsp;- Our <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/befpc/" target="_blank">CVS</a> Repository.<br>
+				</font>
+			</td></tr>
+			</table>
+		</td></tr>
+		</table>
+	</td></tr>
+	</table>
+<!-- LeftNavBar End -->
+
+&nbsp;
+
+<!-- LowNavBar Begin -->
+	<table cellpadding=0 cellspacing=1 bgcolor="#000000" width="100%">
+	<tr><td>
+		<table bgcolor="#BBBBBB" border="0" cellspacing="1" width="100%">
+		<tr><td>
+			<table border="0" cellspacing="1" cellpadding="1" width="100%">
+			<tr><td width="100%" align="center" bgcolor="#BBCCDD">
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+					<b>Links</b>
+				</font>
+			</td></tr>
+			<tr><td bgcolor="#EEEEEE">
+
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+					&nbsp;<B>BeOS News Sites.</B><br>
+					&nbsp;- <a href="http://www.beosaires.com.ar/" target="_blank">BeOS Aires</a> (Castellano).<br>
+					&nbsp;- <a href="http://www.iscomputeron.com/" target="_blank">IsComputerOn</a> (English)<br>
+					&nbsp;- <a href="http://www.beosjournal.org/" target="_blank">The BeOS Journal</a> (English)<br>
+					&nbsp;- <a href="http://www.ubix.org/" target="_blank">Ubix.org</a> (Fran&ccedil;ais).<br>
+					&nbsp;- <a href="http://www.qube.ru/" target="_blank">qube.ru</a> (Russian).<br>
+					<br>
+					&nbsp;<B>BeOS Software.</B><br>
+					&nbsp;- <a href="http://www.bebits.com/" target="_blank">BeBits</a> (English)<br>
+					&nbsp;- <a href="http://bezip.de/" target="_blank">BeZip.de</a> (Deutsch)<br>
+					<br>
+					&nbsp;<B>Pascal.</B><br>
+					&nbsp;- <a href="http://www.freepascal.org/" target="_blank">Free Pascal Compiler</a>.<br>
+					&nbsp;- <a href="http://pasdoc.sourceforge.net/" target="_blank">PasDoc</a>.
+				</font>
+
+			</td></tr>
+			</table>
+		</td></tr>
+		</table>
+	</td></tr>
+	</table>
+<!-- LowNavBar End -->
+
+&nbsp;
+
+<!-- Site Info Begin -->
+	<table cellpadding=0 cellspacing=1 bgcolor="#000000" width="100%">
+	<tr><td>
+		<table bgcolor="#BBBBBB" border="0" cellspacing="1" width="100%">
+		<tr><td>
+			<table border="0" cellspacing="1" cellpadding="1" width="100%">
+			<tr><td width="100%" align="center" bgcolor="#BBCCDD">
+
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+					<b>This site is hosted by</b>
+				</font>
+
+			</td></tr>
+			<tr><td bgcolor="#EEEEEE">
+			
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+				<center>
+        <a href="http://sourceforge.net" target="_blank"> 
+           <img src="http://sourceforge.net/sflogo.php?group_id=33869&type=1" width=88 height=31 border=0 alt="SourceForge.net"> 
+        </a>
+				</center>
+				</font>
+
+			</td></tr>
+			</table>
+		</td></tr>
+		</table>
+	</td></tr>
+	</table>
+<!-- Site Info End -->
+
+
+</td>
+
+<!-- Separator -->
+<td rowspan="0"><img src="./pics/transparent.gif" width="5"></td>
+
+<!-- CenterBoxes Begin -->
+
+<td width="85%" height="100%" valign="top">
+
+<table cellpadding=0 cellspacing=1 bgcolor="#000000" width="100%">
+<tr><td>
+	<table bgcolor="#BBBBBB" border="0" cellspacing="1" width="100%">
+	<tr><td>
+		<table border="0" cellspacing="1" cellpadding="1" width="100%">
+		<tr><td width="100%" align="center" bgcolor="#BBCCDD">
+
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+				<b>Welcome to the BePascal Homepage!</b></td>
+			</font>
+
+		</tr>
+		<tr><td bgcolor="#EEEEEE">
+
+			<center>
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+				The aim of BePascal is to provide you with an ObjectPascal wrapper around the BeAPI<br>
+				(BeOS Application Programming Interface).<BR>
+				That, plus the use of the <i>Free Pascal Compiler</i> allows you to create GUI applications
+				for your most loved Operating System: BeOS.<br>
+<!--				<center><HR WIDTH="90%"></center>
+				You can read a more complete description of the project on this <a href="./about.html">about</a> page.
+-->
+			</font>
+			</center>
+
+		</td></tr>
+		</table>
+	</td></tr>
+	</table>
+</td></tr>
+</table>
+
+&nbsp;
+
+<table cellpadding=0 cellspacing=1 bgcolor="#000000" width="100%">
+<tr><td>
+	<table bgcolor="#BBBBBB" border="0" cellspacing="1" width="100%">
+	<tr><td>
+		<table border="0" cellspacing="1" cellpadding="1" width="100%">
+		<tr><td width="100%" align="center" bgcolor="#BBCCDD">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+				<b>Latest Project's News</b>
+			</font>
+		</td></tr>
+		<tr><td bgcolor="#EEEEEE">
+
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+				&nbsp;<b>BePascal First Release!!!</b> - submited by: The BePascal Team | 9 Oct 2003.
+				<br>
+				&nbsp;<i><small>EXTRA! EXTRA!</small></i>
+				<br><br>
+				&nbsp;Yes, you read it well. We have a first release of BePascal!<BR>
+				&nbsp;You can see our entry on <A HREF="http://www.bebits.com/app/3619/">bebits.com</A>
+				or you can download it from our <A HREF="./downloads.html">download section</A>.</BR>
+				&nbsp;Please use the <A HREF="http://sourceforge.net/mail/?group_id=29716">mailing lists</A> to post your comments regarding this release. Thanks, and good coding.
+			</font>
+
+			<br>
+			<center><HR WIDTH="90%"></center>
+			<br>
+
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+				&nbsp;<b>New version of FPK</b> - submited by: BiPolar | 9 Oct 2003.
+				<br>
+				&nbsp;<i><small>Bug-fix version 1.0.8 is out</small></i>
+				<br><br>
+				&nbsp;Ok, 1.0.10 is out too, but not for BeOS yet (the difference between the two version are small).<br>
+				&nbsp;According to the <a HREF="http://www.freepascal.org">FPK site</a>, this is probably the last release before 1.2!!!<BR>
+				&nbsp;See our <A HREF="./downloads.html">download section</A> for a link to the compiler, or pay a visit to the FPK crew.</BR>
+				&nbsp;Keep up the good work guys!.
+			</font>
+
+			<br>
+			<center><HR WIDTH="90%"></center>
+			<br>
+
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+				&nbsp;<b>New Website design</b> - submited by: BiPolar | 24 Jun 2003.
+				<br>
+				&nbsp;<i><small>New website? where? mmm, THIS is the new one (sorry guys! :P)</small></i>
+				<a href="./news/news-archive.html" class="c4">more</a>
+			</font>
+
+			<br>
+			<center><HR WIDTH="90%"></center>
+			<br>
+<!--
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+<b>Previous News</b> (from the old website, links may be broken. These are provided
+just as a temporal reference, and will go away as soon as we add more recent info.)<br>
+<br>
+&nbsp;- 2/4/2003 : Great new ! Brend from <A HREF="http://www.YellowTab.com" TARGET="_blank">YellowTab</A> has successfully compiled BePascal under Zeta. And BePascal will be distributed with the deluxe edition.<BR>
+&nbsp;- 31/3/2003 : A new screenshot of Menu made by oco .<A HREF="Menu.jpg" TARGET="_blank">screenshoot</A><BR>
+&nbsp;- 23/3/2003 : A new screenshot of a TestApp made by BiPolar .<A HREF="TestApp-2.png" TARGET="_blank">screenshoot</A><BR>
+&nbsp;- 4/3/2003 : TListItem, TStringItem, TListView and TOutlineListView are working.<BR>
+&nbsp;- 24/2/2003 : A new unit to acces sqlite SQL engine: <A HREF="sqlite_fpc_beos.zip" TARGET="_blank">download</A><BR>
+&nbsp;- 15/2/2003 : A new  Pascal highlight for Pe Editor made by BiPolar (works better): <A HREF="PascalAddOn.tar" TARGET="_blank">download</A><BR>
+&nbsp;- 1/2/2003 : We have add lots of classe, you can see here the first pascal editor write in BePascal : <A HREF="screen8.jpg" TARGET="_blank">screenshoot</A><BR>
+&nbsp;- 23/1/2003 : We modify the compilator fpc to allow works under Dano. calculator under Dano <A HREF="screen5.jpg" TARGET="_blank">screenshoot</A><BR>
+&nbsp;- 22/1/2003 : RadioBox works correcly<BR>
+&nbsp;- 21/1/2003 : BiPolar has join us to help the development : Welcome Bipolar<BR>
+&nbsp;- 17/1/2003 : This is the first little application : a calculator <A HREF="screen4.jpg" TARGET="_blank">screenshoot</A><BR>
+&nbsp;- 15/1/2003 : CheckBox works correctly <A HREF="screen3.jpg" TARGET="_blank">screenshoot</A><BR>
+&nbsp;- 14/1/2003 : <A HREF="screen2.jpg" TARGET="_blank">screenshoot</A> and his <A HREF="hello2.pp" TARGET="_blank">source</A> code in Pascal.<BR>
+&nbsp;- 14/1/2003 : TextControl works correctly<BR>
+&nbsp;- 14/1/2003 : StringView works correctly<BR>
+&nbsp;- 13/1/2003 : Beginning of Menu Objects<BR>
+&nbsp;- 13/1/2003 : <A HREF="screen1.jpg" TARGET="_blank">First screenshoot</A> and his <A HREF="hello.pp" TARGET="_blank">source</A> code in Pascal.<BR>
+&nbsp;- 12/1/2003 : Button works correctly<BR>
+&nbsp;- 11/1/2003 : FreePascal Team help us to port the compiler version 1.1 for BeOS.<BR>
+&nbsp;- 10/12/2002 : We have developed a add-on for Pe editor for Pascal highlight.
+			</font>
+
+			<center><HR WIDTH="90%"></center>
+-->
+
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+				&nbsp;Full news are <a href="./news/index.html" class="c4"><b>here</b></a> (read'em all!).
+				&nbsp;Previous news are (will be) located <a href="./news/news-archive.html" class="c4"><b>here</b></a> (d&eacute;j&agrave; vu!).
+			</font>
+
+
+		</td></tr>
+		</table>
+	</td></tr>
+	</table>
+</td></tr>
+</table>
+
+</td></tr>
+</table> <!-- Close Center Table Container -->
+
+<!-- CenterBoxes End -->
+
+<!-- Center End -->
+
+&nbsp;
+
+<!-- Footer Begin -->
+
+<table cellpadding=0 cellspacing=1 bgcolor="#000000" width="100%">
+<tr><td>
+	<table bgcolor="#BBBBBB" border="0" cellspacing="1" width="100%">
+	<tr><td>
+		<table border="0" cellspacing="1" cellpadding="1" width="100%">
+		<tr><td width="100%" align="center" bgcolor="#BBCCDD">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+				<b>Site Info</b>
+			</font>
+		</td></tr>
+		<tr><td>
+			<table border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tr>
+				<td bgcolor="#EEEEEE" align="center" width="20%">
+
+					<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+						Site's <i>design</i> stinks<br>thanks to: BiPolar
+					</font>
+
+				</td>
+				<td bgcolor="#EEEEEE" align="center" width="70%">
+
+					<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+						&copy; 2003 by BePascal Team. All rights reversed. Best	viewed with, at least, one eye open.<br>
+					</font>
+
+				</td>
+				<td bgcolor="#EEEEEE" align="center" width="10%">
+
+					<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000">
+						Last. Mod.<BR>
+						5 Nov 2003
+					</font>
+
+				</td>
+			</tr>
+			</table>
+		</td></tr>
+		</table>
+	</td></tr>
+	</table>	
+</td></tr>
+</table>
+
+<!-- Footer End-->
+</body>
+</html>
+```
