@@ -1,0 +1,296 @@
+```<HTML>
+  <HEAD>
+<meta name="description" content="DIY genetic engineering, synbio, bio-experimentalism -- join the fight against disease and death today.">
+    <TITLE>Open biohacking - DIY genetic engineering, synbio (synthetic biology), join the fight against disease and death</TITLE>
+  
+<style type="text/css">
+    .login { text-align: right; }
+    .login { color: gray; }
+    .login :link, .login :visited { color: gray; text-decoration: underline;}
+
+    .error { color: red; font-weight: bold; }
+
+    .linky {
+        color: gray; background-color: transparent;
+        border: none; cursor: pointer;
+        margin: 0px; padding: 0px; vertical-align: bottom;
+        display: inline;
+        text-align: right;
+        text-decoration: underline;
+        font-size: 1em;
+    }
+    form th { text-align: right; color: gray; font-weight: normal; text-transform: lowercase; }
+    form .wrong { color: red; font-weight: bold; }
+
+.header { background-color: #00557C; padding: .2em;}
+.header h1 {   text-align: center;  }
+.header h1 :link, .header h1 :visited { 
+  font-family: MPW, monospace; 
+  color: #fff;  /*BFEBFF */
+  font-weight: 300%;
+  margin-bottom: 0;
+}
+.subtitle {
+  text-align: center; margin-top: 0;
+  font-family: MPW, monospace;
+  color: #BFEBFF; /*ACC6D8*/
+}
+
+body { font-family: "Lucida Grande";}
+
+.body, .page {
+  border: 1px solid #ccc; margin: 1.5em; padding: 0 1em;
+  background-color: #eee;
+}
+
+.frontpage { 
+  width: 100%;
+  border-spacing: .6em 0;
+}
+.frontpage td { vertical-align: top; padding: 0; width: 33%; padding-bottom: 1em; }
+.frontpage p { padding-left: 1em; padding-right: 1em;}
+.frontpage h2 { text-align: center; margin-bottom: 0; font-family: MPW, monospace; padding-top: .5em;}
+.frontpage .subhed { margin-top: .5em; text-align: center; color: #777; padding: 0;}
+
+
+.r1 { background-color: #fdd;}
+.r2 { background-color: #dfd;}
+.r3 { background-color: #ddf;}
+
+.status { text-align: right; color: gray }
+.footer { clear: both}
+.nav { text-align: center; }
+    </style>
+<link rel="alternate" type="application/rss+xml"  title="Transapient Musings of an S6 Archailect" href="http://heybryan.org/~bbishop/cgi-bin/blosxom.cgi/index.rss">
+  </HEAD>
+  <BODY>
+
+    <P>
+      <TABLE COLS="1" BORDER="0" CELLSPACING="4" CELLPADDING="5">
+	<TR>
+	  <TD COLSPAN="2" WIDTH="100%" BGCOLOR="#99CCFF" >
+<table><tr><td style="align:left">   <select name="jumpit" onchange="document.location.href=this.value"><option selected value="#">Social options</option>
+<option value="http://blinkbits.com/bookmarklets/save.php?v=1&source_url=http://biohack.sf.net/&Title=Open Biohacking Project / Kit">BlinkBits</option>
+
+<option value="http://www.blinklist.com/index.php?Action=Blink/addblink.php&Url=http://biohack.sf.net/&Title=Open Biohacking Project / Kit">BlinkList</option>
+
+<option value="http://blogmarks.net/my/new.php?mini=1&title=Open Biohacking Project / Kit&url=http://biohack.sf.net/">Blogmarks</option>
+
+<option value="http://buddymarks.com/add_bookmark.php?bookmark_title=Open Biohacking Project / Kit&bookmark_url=http://biohack.sf.net/">Buddymarks</option>
+
+<option value="http://www.citeulike.org/posturl?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">CiteUlike</option>
+
+<option value="http://www.connotea.org/add?continue=return&uri=http://biohack.sf.net/&title=Open Biohacking Project / Kit">Connotea</option>
+
+<option value="http://del.icio.us/post?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">del.icio.us</option>
+
+<option value="http://digg.com/submit?phase=2&url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">Digg it</option>
+
+<option value="http://myfavorites.earthlink.net/my/add_favorite?v=1&url=http://biohack.sf.net/&title=Open Biohacking Project / Kit" target="_blank">Earthlink</option>
+<option value="http://hs.facebook.com/group.php?gid=10201960134" target="_blank">Facebook</option>
+
+<option value="http://www.feedmarker.com/admin.php?do=bookmarklet_mark&url=http://biohack.sf.net/&title=Open Biohacking Project / Kit;">FeedMarker</option>
+
+<option value="http://www.flogz.com/submit?url=http://biohack.sf.net/" title="personal finance and investing news website">Flog this!</option>
+
+<option value="http://feedmelinks.com/categorize?from=toolbar&op=submit&name=Open Biohacking Project / Kit&url=http://biohack.sf.net/">feedmelinks</option>
+
+<option value="http://www.furl.net/storeIt.jsp?t=Open Biohacking Project / Kit&u=http://biohack.sf.net/">Furl</option>
+
+<option value="http://www.givealink.org/cgi-pub/bookmarklet/bookmarkletLogin.cgi?&uri=http://biohack.sf.net/&title=Open Biohacking Project / Kit">Give a Link</option>
+
+<option value="http://www.gravee.com/account/bookmarkpop?u=http://biohack.sf.net/&t=Open Biohacking Project / Kit">Gravee</option>
+
+<option value="http://www.igooi.com/addnewitem.aspx?self=1&noui=yes&jump=close&url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">igooi</option>
+
+<option value="http://lister.lilisto.com/?t=Open Biohacking Project / Kit&l=http://biohack.sf.net/">Lilisto</option>
+
+<option value="http://www.linkagogo.com/go/AddNoPopup?title=Open Biohacking Project / Kit&url=http://biohack.sf.net/">Linkagogo</option>
+
+<option value="http://linkroll.com/insert.php?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">Linkroll</option>
+
+<option value="http://ma.gnolia.com/bookmarklet/add?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">ma.gnolia</option>
+
+<option value="http://www.maple.nu/bookmarks/bookmarklet?bookmark[url]=http://biohack.sf.net/&bookmark[description]=Open Biohacking Project / Kit">Maple.nu</option>
+
+<option value="http://user.my-tuts.com/tag-tutorial/?title=Open Biohacking Project / Kit&url=http://biohack.sf.net/">My-Tuts</option>
+
+<option value="http://www.netvouz.com/action/submitBookmark?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit&popup=no">Netvouz</option>
+
+<option value="http://www.newsvine.com/_wine/save?popoff=0&u=http://biohack.sf.net/&h=Open Biohacking Project / Kit">Newsvine</option>
+
+<option value="http://www.onlywire.com/b/?u=http://biohack.sf.net/&t=Open Biohacking Project / Kit;">Onlywire</option>
+
+<option value="http://www.rawsugar.com/pages/tagger.faces?turl=http://biohack.sf.net/&tttl=Open Biohacking Project / Kit">RawSugar</option>
+
+<option value="http://reddit.com/submit?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">reddit</option>
+
+<option value="http://scuttle.org/bookmarks.php/pass?action=add&address=http://biohack.sf.net/&title=Open Biohacking Project / Kit">Scuttle</option>
+
+<option value="http://www.shadows.com/features/tcr.htm?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">Shadows</option>
+
+<option value="http://simpy.com/simpy/LinkAdd.do?note=Open Biohacking Project / Kit&href=http://biohack.sf.net/">Simpy</option>
+
+<option value="http://www.spurl.net/spurl.php?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">Spurl</option>
+
+<option value="http://taggly.com/bookmarks.php/pass?action=add&address=http://biohack.sf.net/">Taggly</option>
+
+<option value="http://www.tagtooga.com/tapp/db.exe?c=jsEntryForm&b=fx&title=Open Biohacking Project / Kit&url=http://biohack.sf.net/">tagtooga</option>
+
+<option value="http://www.talkdigger.com/index.php?surl=http://biohack.sf.net/">TalkDigger</option>
+
+<option value="http://www.wink.com/_/tag?url=http://biohack.sf.net/&doctitle=Open Biohacking Project / Kit">Wink</option>
+
+<option value="http://myweb2.search.yahoo.com/myresults/bookmarklet?t=Open Biohacking Project / Kit&u=http://biohack.sf.net/">Yahoo MyWeb</option>
+
+<option value="http://www.google.com/bookmarks/mark?op=edit&bkmk=http://biohack.sf.net/&title=Open Biohacking Project / Kit">Google</option>
+
+<option value="http://www.diigo.com/post?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">Diigo</option>
+
+<option value="http://www.netscape.com/submit/?U=http://biohack.sf.net/&T=Open Biohacking Project / Kit">Netscape</option>
+
+<option value="http://www.dzone.com/links/add.html?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">DZone</option>
+
+<option value="http://www.squidoo.com/lensmaster/bookmark?http://biohack.sf.net/">Squidoo</option>
+
+<option value="http://api.looklater.com/bookmarks/save?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">Looklater</option>
+
+<option value="http://recommendit.dehsoftware.com/bookmarks.php?action=add&address=http://biohack.sf.net/&title=Open Biohacking Project / Kit&description=">RecommendzIt</option>
+
+<option value="http://segnalo.com/post.html.php?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit&description=">Segnalo</option>
+
+<option value="http://www.stumbleupon.com/submit?url=http://biohack.sf.net/&title=Open Biohacking Project / Kit">StumbleUpon</option>
+
+<option value="http://www.mister-wong.de/index.php?action=addurl&bm_url=http://biohack.sf.net/&bm_description=Open Biohacking Project / Kit">Mr. Wong</option>
+
+</select>(<a href="http://www.ifeedreaders.com/social-creator/" style="font:9px Verdana, Arial, Helvetica, sans-serif; width:100px;">src</a>)
+ </td><td>
+	    &nbsp;&nbsp;&nbsp;&nbsp;<B><FONT COLOR="#000000" SIZE="+1">The Open Biohacking Project / Kit</FONT></B>
+</td></tr></table>
+	  </TD>
+	</TR>
+	<tr>
+	    <td colspan="2">
+	      <p><small>As part of his <a href="http://heybryan.org/transhuman/roadmap.html">Transhumanist Technical Roadmap</a>, its maintainer (<a href="http://heybryan.org/">Bryan Bishop</a>) is pleased to release this site; to read up on the philosophy of transhumanism, check out <a href="http://extropy.org/">http://extropy.org/</a> where you will find links to subcommunities for the debate of the ethics and morality of projects such as these, to which any interested reader is referred. Otherwise, enjoy your stay, download the kit, and be sure to join up with the rest of the community to make it better and tell us about your experiences with this fresh look at biohacking.</small>
+	    </td>
+	  </tr>
+	  <tr>
+	    <TD COLSPAN="1" WIDTH="100%" BGCOLOR="#FFF0D0">
+	    <font color="red">2008-01-28 edition</font>: <a href="http://downloads.sourceforge.net/biohack/biotech-DIY__kanzure_2008-01-28_v1.zip?use_mirror=osdn">Download now</a> (42 MB zip) (feel free to <a href="http://www.mininova.org/tor/1142859">torrent</a>)
+	    </TD>
+	  </TR>
+	    <tr>
+	      <td colspan="2">
+<center><h3><a href="http://heybryan.org/mediawiki/">wiki</a></h3></center>
+		
+<div class="page">
+
+
+<p> Join the fight against cancer, against all sorts of disease! Or would you rather see some glowing bacterium, get your own ecoli farm set up to amaze your friends? This open, free synthetic biology kit contains all sorts of information from across the web on how to do it: how to extract and amplify DNA, cloning techniques, making DNA by what's known as oligonucleotides, and all sorts of other tutorials and documents on techniques in genetic engineering, tissue engineering, synbio (synthetic biology), stem cell research, SCNT, evolutionary engineering, bioinformatics, etc. And since the project is open, it's free for you to revise or share your experiences, or even share your genes (got anything cool?). The more eyes, the better-- you can't ignore these awesome possibilities (or even the not-so-cool ones<font color="red">*</font>).
+<br />
+<center><a href="http://heybryan.org/cgi-bin/mailman/listinfo/hplusroadmap">Join the mailing list</a> (it's like a forum, except by email -- see previous posts <a href="http://heybryan.org/pipermail/hplusroadmap/">in the archives</a>) or just fill out the form below</center>
+<br />
+
+
+ <P>
+	    
+	  <ul>  <FORM Method=POST ACTION="http://heybryan.org/cgi-bin/mailman/subscribe/hplusroadmap">
+  <h2>Join the community</h2>
+	      <TABLE BORDER="0" CELLSPACING="2" CELLPADDING="2"
+		WIDTH="70%" HEIGHT= "112">
+		<TR>
+		  <TD BGCOLOR="#dddddd" WIDTH="55%">Your email address:</TD>
+		  <TD WIDTH="33%"><INPUT type="Text" name="email" size="30" value="">
+	</TD>
+	<TD WIDTH="12%">&nbsp;</TD></TR>
+      <tr>
+        <td bgcolor="#dddddd" width="55%">Your name (optional):</td>
+        <td width="33%"><INPUT type="Text" name="fullname" size="30" value=""></td>
+	<TD WIDTH="12%">&nbsp;</TD></TR>
+      <TR>
+	<TD COLSPAN="3"><FONT SIZE=-1>You may enter a
+	    privacy password below. This provides only mild security,
+	    but should prevent others from messing with your
+	    subscription.  <b>Do not use a valuable password</b> as
+	    it will occasionally be emailed back to you in cleartext.
+
+            <p>If you choose not to enter a password, one will be
+            automatically generated for you, and it will be sent to
+            you once you've confirmed your subscription.  You can
+            always request a mail-back of your password when you edit
+            your personal options.
+	    
+	</TD>
+      </TR>  
+      <TR>
+	<TD BGCOLOR="#dddddd">Pick a password:</TD>
+	<TD><INPUT type="Password" name="pw" size="15"></TD>
+	<TD>&nbsp;</TD></TR>
+      <TR> 
+	<TD BGCOLOR="#dddddd">Reenter password to confirm:</TD>
+	<TD><INPUT type="Password" name="pw-conf" size="15"></TD>
+	<TD>&nbsp; </TD></TR>
+      <tr>
+        <TD BGCOLOR="#dddddd">Which language do you prefer to display your messages?</TD> 
+        <TD> English (USA)</TD>
+        <TD>&nbsp; </TD></TR>
+      
+      <tr>
+	<td>Would you like to receive list mail batched in a daily
+	  digest? (maybe you don't have a lot of time?)
+	  </td>
+	<td><input type=radio name="digest" value="0" CHECKED> No
+	    <input type=radio name="digest" value="1">  Yes
+	</TD>
+      </tr>
+      
+      <tr>
+	<td colspan="3">
+	  <center><INPUT type="Submit" name="email-button" value="Subscribe"></P></center>
+    </TABLE>
+    </FORM>
+    </ul>
+
+</div>
+
+	      
+	  </p>
+	</TD>
+      </TR>
+
+ <TR>
+	<TD COLSPAN="2" WIDTH="100%" BGCOLOR="#FFF0D0">
+	  <B><FONT COLOR="#000000">Possible projects</FONT></B> (some more advanced than others)
+	</TD>
+      </TR>
+      <tr>
+	<td colspan="2">
+<ul><li>Glow-in-the-dark bacteria (attaching a time-lapsed camera to this would make an awesome photoblog)</li>
+<li>The classic bacteria photofilm (search: light cannon)</li>
+<li>Bactoblood</li>
+<li><a href="http://genomics.org/index.php/Main_Page">$0 genome project</a></li>
+<li>... and many more! (<a href="mailto:hplusroadmap@heybryan.org">submit one</a>)</li>
+</ul>
+<br /><br /><br />
+
+</td></tr></tr>
+
+      <TR>
+	<TD COLSPAN="2" WIDTH="100%" BGCOLOR="#FFF0D0">
+	  <B><FONT COLOR="#000000">Quick disclaimer on the possibility of misuse</FONT></B>
+	</TD>
+      </TR>
+      <tr>
+	<td colspan="2">
+	  <small>Admit it: you cannot deny the potential for misuse. Though the information to construct novel, deadly bacteria does not exist in this package (nor will it ever), the pieces are <u>already out there</u> on the internet and they will only become increasingly more consolidated. It is a <font color="red">real</font> threat <i>now</i> and ignoring these threats is not the solution. Indeed, the broader purpose of this project is in fact to <i>counter</i> these threats via the mentioned roadmap and its developments so that we will not be harmed by script kiddies running wild, so that we will not lose lives (<i>people</i>) to bioterrorists or to senescence. By allowing the proliferation of open source synbio projects, like those for artificial tissue engineering organs (hearts, lungs, liver) or those for genome modifications, we are allowing a community of diagnosticians and diagnostics to develop so that we may proceed to collect as much information as possible to preserve as much as we can. People are dying, every moment, at an increasingly faster rate-- and so will you, less you try. But again: please see <a href="http://extropy.org">http://extropy.org/</a> or <a href="http://lifeboat.com">the LifeBoat Foundation</a> for philosophy and disaster prevention activism.</small>
+	</td>
+      </tr>
+   <tr><td>
+ <br /><br />
+<center><a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=216241&amp;type=4" width="125" height="37" border="0" alt="SourceForge.net Logo" /></a></center>
+<br /><br />
+</td></tr>
+</BODY>
+</HTML>
+
+```
