@@ -1,0 +1,713 @@
+```<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>BASICS of Filmmaking : Introduction</title>
+
+  <meta name="title" content="BASICS of Filmmaking : Introduction">
+  <meta name="description" content="SO your looking for something that can guide you a little on the the road to the aspiring &quot;Filmmaker“ -  [BASICS of Filmmaking :  Introduction]   is the fruit of a &quot;FILM INDUSTRY ROUND TABLE&quot;  [FIRT] innovative 8-hour, 3-table gabfest between more than 36 industry professionals with the idea of passing along the kind of practical, real-world information that could save other aspiring filmmakers from costly mistakes, errors in judgment, or the fallout from ego-blindness.  The advice and tips you will learn from transcend time and are the basics on which you make film and television. We are continuing this tradition and actively compiling more information for our forth coming release “BASICS of Filmmaking” : Development   ">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://basicsoffilmmakingintroduction.vhx.tv&format=json" title="BASICS of Filmmaking : Introduction" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://basicsoffilmmakingintroduction.vhx.tv&format=xml" title="BASICS of Filmmaking : Introduction" />
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://basicsoffilmmakingintroduction.vhx.tv">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      *, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  }
+  body {
+  	font-family:'Open Sans';
+  }
+  h1, h2, h3, h4,
+  .sub-page .vhx h1, .sub-page .vhx h2, .sub-page .vhx h3, .sub-page .vhx h4 { margin: 0;  padding: 0; font-weight: normal; }
+  
+  ul { list-style: none; margin: 0; padding: 0; }
+  
+  a, a:visited {
+    color: #141fb5;
+    text-decoration: none;
+  }
+  a:hover, a:visited:hover {
+    color: #4ce08f;
+  }
+  .button, .button:visited {
+  	background-color: #141fb5;
+    color: #FFF;
+    display: inline-block;
+    line-height: 1;
+    padding: 5px 10px;
+  }
+  .button:hover, .button:visited:hover {
+  	background-color: #4ce08f;
+    color: #FFF;
+  }
+  .right { float: right; margin-left: 10px; }
+  .flush { margin: 0; }
+  .padding { padding: 20px; }
+  
+  .contained,
+  .sub-page .vhx .subpage,
+  .sub-page .vhx .watch {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) { 
+  	.contained {
+      width: auto;
+      margin: 0 20px;
+    }
+  }
+  @media screen and (max-width: 767px){
+  	.contained {
+      width: auto;
+      margin: 0 20px;
+    }
+  }
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* HEADER */
+  /* ----------------------------------------------------------------------------------------------------- */
+  header {
+  	padding-top: 50px;
+  }
+  header .contained {
+    padding: 13px 0;
+    border-bottom: 1px solid rgba(0,0,0,.75);
+    margin-bottom: 10px;
+  }
+  header a {
+  	text-decoration: none;
+  }
+  header li {
+    display: inline;
+  }
+  header .item {
+    width: 90px;
+    float: left;
+    margin-right: 5px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) { 
+  	header .contained {
+    
+    }
+  }
+  @media screen and (max-width: 767px){
+  	header .contained {
+    
+    }
+  }
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* MAIN */
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* ................................................
+    feature area
+   ................................................*/
+  .feature .contained {
+    position: relative;
+    min-height: 540px;
+    z-index: 99;
+  }
+  .feature .trailer {
+    width: 100%;
+    height: 540px;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .feature .slideshow {
+    height: 540px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+  }
+  .feature .slideshow img {
+  	position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .feature .controls {
+  	margin: 40px auto 20px auto;
+    text-align: center;
+    padding-top: 560px;
+  }
+  .feature .controls a {
+  	margin-right: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .feature .controls p {
+  	width: 80%;
+    margin: 10px auto;
+  }
+  .feature .controls.active {
+  
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) { 
+  	
+  }
+  @media screen and (max-width: 767px){
+  
+  }
+  /* ................................................
+    LAURELS
+   ................................................*/
+  .laurels {
+  	text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .laurels img {
+  	margin-right: 20px;
+    display: inline-block;
+    max-height: 80px;
+    width: auto;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) { 
+  	
+  }
+  @media screen and (max-width: 767px){
+  
+  }
+  /* ................................................
+    ABOUT
+   ................................................*/
+  .about .contained p {
+  	width: 80%;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) { 
+  	
+  }
+  @media screen and (max-width: 767px){
+  
+  }
+  /* ................................................
+    PACKAGES
+   ................................................*/
+  .packages {
+   	margin-top: 60px;
+  }
+  .packages .item {
+  	width: 31%;
+    float: left;
+    min-height: 200px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  .packages li.item:last-child {
+  	margin-right: 0px;
+  }	
+  .packages .cover {
+  	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 */
+  	padding-top: 25px;
+  	height: 0;
+    overflow: hidden;
+  }
+  .packages .cover img {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: auto;
+  }
+  .packages h4.title {
+  	font-weight: bold;
+  }
+  .packages .button {
+  	margin-left: 20px;
+  }
+  .packages.duo .contained {
+  	width: 700px;
+  }
+  .packages.duo .contained .item {
+  	width: 47%;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) { 
+  	
+  }
+  @media screen and (max-width: 767px){
+    .packages.duo .contained { 
+      width: auto;
+    }
+    .packages.duo .contained .item {
+    	width: auto;
+    }
+  	.packages .item {
+    	width: auto;
+      float: none;
+    }
+  }
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* FOOTER */
+  /* ----------------------------------------------------------------------------------------------------- */
+  footer {
+  	margin-bottom: 100px;
+  }
+  footer .contained {
+  	padding-top: 13px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(0,0,0,.75);
+  }
+  footer ul li {
+  	display: inline
+  }
+  footer ul li a,
+  footer ul li a:visited {
+  	font-size: 11px;
+    text-transform: uppercase;
+    color: #999;
+    margin-right: 20px;
+  }
+  footer .poweredby {
+  	width: 50px;
+  }
+  footer .poweredby img {
+  	width: 100%;
+    height: auto;
+  }
+  footer .poweredby a {
+  	opacity: .3;
+  }
+  footer .poweredby a:hover {
+  	opacity: 1;
+  }
+  
+  
+  
+  
+  
+  
+  
+  </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      var _gaq = _gaq || [];
+  
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+        ga('create', 'UA-19540423-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'basicsoffilmmakingintroduction');
+      ga('send', 'pageview');
+  
+      var Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_SENT_FREE_COPIES":"admin_sent_free_copies","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_SIGNUP_COMPLETE":"authentication","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_LOADEDDATA":"Video Content Loaded","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_FULLSCREEN":"Fullscreen Enabled/ Disabled","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD_TRIGGER":"addwatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE_TRIGGER":"removewatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List ","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_CURRENT_USER_ID":"current_user_id","PROPERTY_CURRENT_USER_EMAIL":"current_user_email","PROPERTY_CURRENT_SITE_ID":"current_site_id","PROPERTY_CURRENT_SITE_KEY":"current_site_key","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+        SITE_GANALYTICS_ENABLED: false
+      };
+  
+        Tracking.SITE_GANALYTICS_ENABLED = true;
+          ga('create', '', 'auto', { 'name': 'site' });
+  
+        ga('site.require', 'displayfeatures');
+        ga('site.set', 'dimension1', 'basicsoffilmmakingintroduction');
+        ga('site.send', 'pageview');
+  
+        var _vhx = {
+          environment: 'production',
+          site: { id: '1519', domain: 'basicsoffilmmakingintroduction.vhx.tv', host: 'basicsoffilmmakingintroduction.vhx.tv' },
+          geo:  { country: 'us' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      var _current_user = {"id":null,"email":null,"name":null},
+          _current_site = {"id":1519,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"basicsoffilmmakingintroduction"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+<header>
+  <div class="contained">
+    <div class="social right">
+      <div class="item"><a href="https://twitter.com/share" class="twitter-share-button" data-via="basicfilm" data-text="Tips and advice for the filmmaker every step of the way" data-url="http://basicsoffilmmakingintroduction.vhx.tv">Tweet</a></div>
+      <div class="item flush">
+        <div class="fb-like" 
+        	data-href="https://www.facebook.com/BasicsOfFilmmaking" 
+          data-send="false" 
+          data-layout="button_count" 
+          data-show-faces="false"></div>
+        <div id="fb-root"></div>      
+        </div>
+    </div>
+    <nav>
+      <ul>
+       <li><a href="/">BASICS of Filmmaking : Introduction</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <section class="feature">
+      <div class="contained">
+    
+        <div class="trailer" id="trailer" data-hd="1" data-trailer-url="https://www.youtube.com/watch?v=CmUFif0O0Ks"></div>
+        
+        <div class="slideshow" data-slideshow>
+            <img src="https://dr56wvhu2c8zo.cloudfront.net/basicsoffilmmakingintroduction/assets/039b6f96-97e1-4824-a935-f82ca51491ac/basics.jpg">
+        </div>
+        
+        <div class="controls">
+    
+        	<a href="#trailer">Play Trailer</a>
+          <a href="#stop" class="hidden">Stop Trailer</a>
+          
+    
+          <a href="/buy">$0.99 Buy Movie</a>
+    
+           <p>How you write your script can effect the interpretation of how others see or don&#39;t see your vision.  &quot;it was a dark and stormy night&quot; just isn&#39;t enough. Your script will go through changes and you may have to rewrite to fit someone else&#39;s vision. Know your choices, know how to protect you script.</p>
+           
+        </div>
+      </div>
+    </section>
+    
+    <section class="about">
+    	<a name="about"></a>
+    	<div class="contained">
+      	<p>SO your looking for something that can guide you a little on the the road to the aspiring &quot;Filmmaker“ -  [BASICS of Filmmaking :  Introduction]   is the fruit of a &quot;FILM INDUSTRY ROUND TABLE&quot;  [FIRT] innovative 8-hour, 3-table gabfest between more than 36 industry professionals with the idea of passing along the kind of practical, real-world information that could save other aspiring filmmakers from costly mistakes, errors in judgment, or the fallout from ego-blindness.  The advice and tips you will learn from transcend time and are the basics on which you make film and television. We are continuing this tradition and actively compiling more information for our forth coming release “BASICS of Filmmaking” : Development   </p>
+      </div>
+    </section>
+    
+    <section class="laurels">
+    	<a name="laurels"></a>
+    	<div class="contained">
+          <img src="https://dr56wvhu2c8zo.cloudfront.net/basicsoffilmmakingintroduction/assets/1ddf2d8e-3599-4205-b160-d85bc510de3f/HEADER700x192.gif">
+      </div>
+    </section>
+    
+    
+    <section class="packages">
+    <a name="packages"></a>
+    	<div class="contained">
+      		<ul>
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/writing"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/78993272-cd2c-4439-a7c2-8ab92c3c438c/writing.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/writing">Writing</a></h4>
+                     	<h4 class="desc">How you write your script can effect the interpretation of how others see or don&#39;t see your vision.  &quot;it was a dark and stormy night&quot; just isn&#39;t enough. Your script will go through changes and you may have to rewrite to fit someone else&#39;s vision. Know your choices, know how to protect you script.</h4>
+                     </div>
+                     <a href="/buy/writing" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/finance-and-the-investor"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/4e9455c4-9e8e-4026-b906-3585931b0039/financing.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/finance-and-the-investor">Finance and the Investor</a></h4>
+                     	<h4 class="desc">Suggestions and Tips on how secure and validate the investment.</h4>
+                     </div>
+                     <a href="/buy/finance-and-the-investor" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/accounting-insurance-and-legal"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/4aa8e18d-76bb-41b9-b2a6-68a766eb5cc2/legalpieces.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/accounting-insurance-and-legal">Accounting Insurance and Legal</a></h4>
+                     	<h4 class="desc">Key points and tips on keeping your books, production and investment safe.</h4>
+                     </div>
+                     <a href="/buy/accounting-insurance-and-legal" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/budgeting"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/cc4bd98a-55c9-416e-809a-ab490b931f26/budgeting.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/budgeting">Budgeting</a></h4>
+                     	<h4 class="desc">Advice and tips on where your budget should be and what to expect at that budget. Ultra low or Micro; Low to Medium and big budgets discussed.</h4>
+                     </div>
+                     <a href="/buy/budgeting" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/production-crew-above-line-below-line"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/a181092e-0468-4935-8153-4b0f67f4f8d8/prodcrew.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/production-crew-above-line-below-line">Production Crew (Above line/ Below Line)</a></h4>
+                     	<h4 class="desc">Understand who is who in the filmmaking process while in production. Tips and Advice on why you need a smooth running and cohesive crew.</h4>
+                     </div>
+                     <a href="/buy/production-crew-above-line-below-line" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/prep-your-checklist-before-filming-begins"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/b2979925-42f0-462c-be7e-58a2fde6fb21/prep.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/prep-your-checklist-before-filming-begins">Prep (your checklist before filming begins)</a></h4>
+                     	<h4 class="desc">Prep - &quot;going through your checklist and making good decisions ahead of time&quot;.  As you begin to put together the fundamental pieces of your project, accounting for their requirements as far ahead as distribution must be taken into consideration as well as budgeted for.</h4>
+                     </div>
+                     <a href="/buy/prep-your-checklist-before-filming-begins" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/casting"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/5535b0dc-55bf-41f4-a7af-3602fdbdfde9/casting.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/casting">Casting</a></h4>
+                     	<h4 class="desc">What is the role of the casting director.</h4>
+                     </div>
+                     <a href="/buy/casting" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/production-design"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/5d13cf6a-dfa4-471b-b456-9ebd0173a7d5/production+crew.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/production-design">Production Design</a></h4>
+                     	<h4 class="desc">The aesthetics and design of your film project dictates a lot of different directions; some of these include wardrobe, lighting and location.  While we want to make everything big and beautiful there can be limitations to the environment your in.</h4>
+                     </div>
+                     <a href="/buy/production-design" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/post-production"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/bfcdf7e5-8ce8-4a82-ac6f-31a11dc4d4b2/post_production.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/post-production">Post - Production</a></h4>
+                     	<h4 class="desc">Key elements of your Post Production that will make or break the process of making a great movie vs oh no we don&#39;t have the budget to? or We had to take some money out of the budget and all we are left with is?</h4>
+                     </div>
+                     <a href="/buy/post-production" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/editing"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/e30b80f6-1523-4806-ab98-a27762b10c48/editing.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/editing">Editing</a></h4>
+                     	<h4 class="desc">Knowing what your shooting will always make editing easier. Editing appears and is part of production communication throughout the whole process. Editors cut, Directors cut and Final cut. </h4>
+                     </div>
+                     <a href="/buy/editing" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/music-and-sound"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/28da38e7-3253-4656-9d11-f7ad8ba5c16f/2013-08-28+20.07.30.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/music-and-sound">Music and Sound</a></h4>
+                     	<h4 class="desc">The character and life of the film is Music and Sound. </h4>
+                     </div>
+                     <a href="/buy/music-and-sound" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/acquisitions-festivals-screenings"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/9f6cd68f-a9e4-4062-9f7d-e1d16a1c229b/aquisitionssalesfestivals.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/acquisitions-festivals-screenings">Acquisitions Festivals Screenings</a></h4>
+                     	<h4 class="desc">How to get a deal! How to get interest and a buyer for your film. What are the rules to selling and not being considered  &quot;unsolicited&quot;.   Fastest way to kill your film is false representation such as claiming to have name talent attached.  </h4>
+                     </div>
+                     <a href="/buy/acquisitions-festivals-screenings" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/publicity-and-distribution"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/6541ee3a-dd1f-462e-9a00-d0bfbeb64a80/distrib.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/publicity-and-distribution">Publicity and Distribution</a></h4>
+                     	<h4 class="desc">Giving meaning to not just the product by the project as a whole. Who is involved and what is their history, the world wants to know.</h4>
+                     </div>
+                     <a href="/buy/publicity-and-distribution" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+         
+    						<li class="item">
+                   <div class="cover">
+                     <a href="/buy/personel-production-crew"><img class="img" src="https://vhx.imgix.net/basicsoffilmmakingintroduction/assets/9114a737-1f15-4361-ae9c-85aac7e33c49/production+crew.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>
+                   </div>
+                   <div class="text">
+                   	 <div class="padding">
+                     	<h4 class="title"><a href="/buy/personel-production-crew">Personel (production crew)</a></h4>
+                     	<h4 class="desc">When you put together your production crew what are the specifics and duties of each.  Tips on getting the best production value with a great team.</h4>
+                     </div>
+                     <a href="/buy/personel-production-crew" class="button"><strong class="price">$0.99 Buy</strong></a>
+                   </div>
+    						</li> <!-- .item -->
+          </ul>
+    	</div>
+    </section> <!-- .packages -->
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <footer>
+  <div class="contained">
+      <div class="poweredby right">
+        <a href="http://vhx.tv"><img src="http://dr56wvhu2c8zo.cloudfront.net/assets/powered_by_vhx_black.png"></a>
+      </div>
+      <ul class="pages">
+          <li><a href="/login">Login</a></li>
+          <li><a href="/login">Forgot Password</a></li>
+        
+          <li><a href="/buy">Buy the Film</a></li>
+
+        <li><a href="/faq">Help</a></li>
+        <li><a class="flush" href="/tos">Terms of Use</a></li>
+      </ul>
+    </div>
+  <div class="overlay"></div>
+</footer>
+
+    <div class="clear"></div>
+  </section>
+
+  <script>
+    var _site = {
+      color:        '#fafafa',
+      key:          'basicsoffilmmakingintroduction',
+      facebook_url: 'https://www.facebook.com/BasicsOfFilmmaking',
+      twitter_name: 'basicfilm'
+    };
+  
+    var _config = {
+      country_code: 'us'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  
+<script>
+  var _flash = {
+    alert:  "",
+    notice: ""
+  };
+
+  
+      $(document).ready(function() {
+        $('#trailer').on('video:load', function() {
+    $(".feature .slideshow").fadeOut();
+    $(".feature .controls").addClass("active");
+    $('a[href^="#stop"]').removeClass("hidden");
+    $('a[href^="#trailer"]').addClass("hidden");
+  });
+  
+  $('#trailer').on('video:stop', function() {
+   stopVideo();
+  });
+  
+  $('a[href^="#stop"]').on('click', function(e) {
+    stopVideo();
+    e.preventDefault();
+  });
+  Mousetrap.bind('esc', function() {
+    stopVideo();
+  });
+  
+  function stopVideo(){
+    $("#trailer").empty();
+    $('.feature .slideshow').fadeIn();
+    $(".feature .controls").removeClass("active");
+    $('a[href^="#stop"]').addClass("hidden");
+    $('a[href^="#trailer"]').removeClass("hidden");
+  }
+  
+  // packages tighten
+  if ($(".packages li").length > 0){
+  	if ($(".packages li").length == 2){
+    	$(".packages").addClass("duo");
+    }
+  }
+  // watch page
+  $('a[href^="#download"]').addClass("button");
+  
+  var descHeight = 0;
+  $(".packages .padding .desc").each(function(i){
+  	if ($(this).height() > descHeight){
+    	descHeight = $(this).height();
+      //console.log(descHeight);
+    }
+  }).height(descHeight);
+  
+  // packages tighten
+  if ($(".packages li").length > 0){
+  	if ($(".packages li").length == 2){
+  		$(".packages").addClass("duo");
+  	}
+  }
+      });
+    </script>
+
+<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+
+
+    <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="basicsoffilmmakingintroduction.vhx.tv"></script>
+</body>
+</html>
+```
