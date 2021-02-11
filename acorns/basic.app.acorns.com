@@ -1,0 +1,2 @@
+```<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>basic/index.html</Key><RequestId>97AF2F247AB9F3B2</RequestId><HostId>8hnRdOVun1cW7WB6rxFIT2zIZHQDsfxwMHKXmbPiqhB3UMS6s3ZLapYqnaytpcF4VYEKGo2Ufu4=</HostId></Error>```
