@@ -1,0 +1,1 @@
+```<html><head><META http-EQUIV=refresh CONTENT=9000></head><frameset rows=><frame src=https://i.ppstatic.com/restricted_generic.html></frameset></html>```
