@@ -1,0 +1,25 @@
+```<!DOCTYPE html>
+<html>
+  <head>
+    <title>Endpoints Portal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="/app.css">
+    <link rel="icon" type="image/x-icon" href="/dist/resources/favicon.ico" />
+  </head>
+  <body>
+    <base href="/">
+    <pergamon-http-app>Loading...</pergamon-http-app>
+    <script type="text/javascript" nonce="21fc8d36-bbc8-4803-ac58-8ef355b0233d">
+      var environment_config = {"features":{"apiSpecUploadUi":false,"getApiKey":false,"searchSpecs":false,"errorReporting":true},"releaseDate":"20201026","revision":"ae0c9fef9c3ace4cfa1b8156574aaff2e826a8ad","serviceManagementUrlBase":"https://servicemanagement.googleapis.com"};
+      var instance_config = {"demoMode":false,"projectId":"lbc36647359048f2b-tp"};
+      var site_settings = {"primaryColor":"#333333","secondaryColor":"#18a093","logo":"","homepageTitle":"Developer Portal","homepageDescription":"Welcome to our API Developer Portal home page. Browse our APIs or click on an API to view its reference documentation. Each API reference page contains descriptions for its endpoints and resources as well as an interactive UI where you can try out our API from your browser"};
+      var login_state = undefined;
+    </script>
+    <script type="text/javascript" src="/dist/app.js" nonce="21fc8d36-bbc8-4803-ac58-8ef355b0233d"></script>
+  </body>
+</html>
+```
