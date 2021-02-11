@@ -1,0 +1,135 @@
+```<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <link rel="stylesheet" href="site.css">
+  <title>bex script</title>
+</head>
+<body>
+<div class="content">
+
+<h1>About</h1>
+
+<p>Bex script is a (yet another) scripting language for the Java platform. 
+It is heavily based on another great scripting language 
+<a href="http://www.beanshell.org">BeanShell</a>. I've been using BeanShell 
+for years and grown to like the language very much. However, there are a few 
+details about BeanShell that I would like to be different. Bex script is my 
+attempt to fix these issues and hopefully give some ideas to the BeanShell 
+developers.</p>
+
+<p>Bex script was originally called bee script. Unfortunately, there seems to 
+be another scripting language for java called BEE script, which is part of some
+kind of middleware server. This language has nothing to do with the language
+being described  here so to avoid confusion I decided to rename my language to 
+bex script before making a 1.0 release. The new name also describes the 
+language better because it is an abbreviation of <b>b</b>lock 
+<b>ex</b>pression which is a fundamental construct in this language.</p>
+
+<h1>Features</h1>
+
+<p>Some highlights:</p>
+<ul>
+<li>Loose typing - variables have no type</li>
+<li>Highly functional - functions are first class objects</li>
+<li>Simple - minimal syntax, only a few keywords</li>
+<li>Small - about 100k jar file =&gt; easy to embed</li>
+<li>Good Java interoperability - easy access to Java code, support for JSR 223</li>
+</ul>
+
+<h1>Why another scripting language?</h1>
+
+<p>I use JVM scripting languages to glue, debug and test existing Java code. 
+Therefore, for me the most important property of a scripting language is how 
+well it integrates with code written in Java. I want to use the Java APIs 
+from the scripting language at least as easily as from Java language itself. 
+In addition I do not want to learn another language specific library when all 
+the functionality in the world is already available in Java APIs.</p>
+
+<p>Most of the languages that are ports of some existing scripting language 
+to the JVM tend to have their own libraries and they often encourage 
+developers to use the native libraries instead of the Java APIs. Accessing 
+the Java APIs is either slower or otherwise more awkward. To me the native 
+libraries are just bloat that I do not need. This rules out Jython, JRuby 
+and Rhino as my preferred scripting language.</p>
+
+<p>There are also scripting languages that have been designed for the JVM from 
+the beginning. Groovy for instance is an interesting language. However, based 
+on the version compability issues and the bad publicity it has recently 
+received, I'm not ready to start using it just yet. Pnuts is another even more
+interesting language. I must confess that I haven't really tried it, but it 
+surely looks like it could be used as a replacement for Java. They say it is 
+fast and fully featured so one of these days I'll probably try to write 
+something real with it. However, for the moment, me requirements for a 
+scripting language is that it is small and easily embeddable. To me, Pnuts 
+feels like it want's to be a "real language" and not just some glue or 
+debugging interface inside some Java based server system.</p>
+
+<p>This leaves me with BeanShell. Now BeanShell has been one of the best tools
+I've ever had. I can not imagine working with Java code without BeanShell
+smoothing out the rough edges. I've used BeanShell when debugging and 
+repairing live systems, in unit testing, for writing system testing tools, as 
+a JSP replacement, as an XML replacement for configuration and in many other 
+places, you get the picture.</p>
+
+<p>Over the years I've also modified BeanShell a bit to better suit my needs. 
+However, I feel that there are some issues with BeanShell that cannot be 
+fixed with just a few simple hacks. First, as they say on BeanShell's home 
+page, BeanShell is a "Java source interpreter with object scripting language 
+features". I don't want to interpret my Java source, I prefer to compile it 
+with javac. So my BeanShell code is often heavily based on the "scripting 
+language features" using untyped variables, scripted objects and "clever" 
+hacks with namespaces and special variables. Still, I feel that the scripting 
+language features are a second class citizen in BeanShell with the main 
+emphasis on being fully compliant with Java source.</p> 
+
+<p>The language space is rapidly evolving with new languages having exciting 
+new features popping up constantly. With BeanShell I feel I'm missing part 
+of the action since it is so married with the features of Java. There seems 
+to be a considerable amount of friction against new features in the BeanShell 
+community. Most of them seem to be happy with the feature set available in the
+Java language and some of them feel that adding new scripting language 
+features (like closures for instance) would clutter the language and make 
+it less attractive.</p>
+
+<p>I don't feel this way. I couldn't care less about the source compatibility 
+with Java. I want to use all the fancy new innovations in the computer 
+language space that let me express my thoughts more elegantly in less lines 
+of code. With bex script I hope I can achieve the usefulness of BeanShell 
+combined with the expressive power of Lisp. You have to set your goals high, 
+right? :)</p>
+
+<h1>What next?</h1>
+<p>If you have read this far, you might be interested in seeing what it looks 
+like. The <a href="examples.html">examples</a> page demonstrates some of the 
+features of the language. After that please proceed to the 
+<a href="download.html">download</a> page and start using the language and 
+contributing to its development.</p>
+
+<h1>Author</h1>
+<p>Juha Lindstr&ouml;m<br>
+<i>juhal {at} users.sourceforge.net</i>
+</p>
+<hr>
+</div>
+<div class="logo">
+  <table border="0">
+    <tr>
+      <td><img src="bexscript.png"/></td>
+      <td>{bex<br>&nbsp;script}</td>
+    </tr>
+  </table>
+</div>
+<br/>
+<div class="navigation">
+  <h1>Contents</h1>
+  <ul>
+    <li class="selected"><a href="index.html">About</a></li>
+    <li><a href="examples.html">Examples</a></li>
+    <li><a href="manual.html">Manual</a></li>
+    <li><a href="download.html">Download</a></li>
+    <li><a href="links.html">Links</a></li>
+  </ul>
+</div>
+</body>
+</html>
+```
