@@ -1,0 +1,154 @@
+```<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <title>Log In - Reflexion</title>
+
+        
+        
+
+        
+        <link rel="shortcut icon" href="/favicon.ico" />
+
+        <link rel="stylesheet" type="text/css" href="/emp/static/public/css/login.css?9.32.0" />
+        <link rel="stylesheet" type="text/css" href="/emp/static/public/vendors/font-awesome/font-awesome.min.css?9.32.0" />
+        <!--[if lte IE 7]>
+          <link rel="stylesheet" type="text/css" href="/emp/static/public/vendors/font-awesome/font-awesome-ie7.min.css?9.32.0" />
+        <![endif]-->
+
+
+    </head>
+    <body>
+        <div id="content-wrapper">
+
+            <div id="logo">
+                
+                <img src="/emp/static/public/images/REFLEXION/stock-logo-large.png" alt="Logo">
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>Management Portal</h1>
+<h2>Log In</h2>
+
+
+
+<form action="/login"
+      method="post"
+      name="LOGIN_FORM"
+      id="LOGIN_FORM" >
+
+    <input type="hidden" name="csrfToken" value="BB3C-5XVO-E9OX-ORLU-TK9E-UF21-22JU-QMNB" />
+
+    <label>
+        <span>Email</span>
+        <input type="email"
+               placeholder="Your email address"
+               name="j_username"
+               id="j_username"
+               value=""
+               autofocus >
+    </label>
+
+
+    <label>
+        <span>Password</span>
+        <input type="password"
+               placeholder="Your password"
+               name="j_password"
+               id="j_password" >
+    </label>
+
+
+    <div id="login-options">
+        <label>
+            <input type="checkbox"
+                   id="CHECK_REMEMBER_CREDENTIALS"
+                   name="CHECK_REMEMBER_CREDENTIALS"
+                   value="CHECK_REMEMBER_CREDENTIALS"
+                    >
+            Remember me
+        </label>
+
+        &nbsp;&nbsp;&nbsp;
+
+        <a href="/password-reminder"
+           title="Click to reset your password">
+           Forgot your password?
+        </a>
+    </div>
+
+
+    <input type="submit"
+           id="BUT_OK"
+           name="BUT_OK"
+           value="Log In"
+           class="button-primary" >
+
+
+</form>
+
+
+
+
+
+
+
+
+        </div>
+        <div id="footer">
+
+            <div class="gdprMessage"><p>By accessing this system, you acknowledge that Reflexion, a Sophos Company, will process personal data in accordance</p><p> with the Sophos Group <a href="https://www.sophos.com/en-us/legal/sophos-group-privacy-policy.aspx">Privacy Policy</a>, found at <a href="https://www.sophos.com/en-us/legal/sophos-group-privacy-policy.aspx">https://www.sophos.com/en-us/legal/sophos-group-privacy-policy.aspx</a></p></div>
+
+        </div>
+
+
+        <script src="/emp/static/public/vendors/jquery-1.11.0.min.js?"></script>
+        <script src="/emp/static/public/vendors/es5-shim.min.js?" ></script>
+        <!--[if lte IE 9]>
+              <link rel="stylesheet" type="text/css" href="/emp/static/public/vendors/placeholder_polyfill.min.css" />
+              <script src="/emp/static/public/vendor/placeholder_polyfill.jquery.min.js"></script>
+              <script src="/emp/static/public/js/validate.js"></script>
+        <![endif]-->
+        <script src="/emp/static/public/js/auth.js?"></script>
+
+    </body>
+</html>
+
+```
