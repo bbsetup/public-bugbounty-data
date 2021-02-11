@@ -1,0 +1,183 @@
+```
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>
+    Barbecue project</title>
+    <style type="text/css" media="all">
+      @import url("./css/maven-base.css");
+      @import url("./css/maven-theme.css");
+      @import url("./css/site.css");
+    </style>
+    <link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  </head>
+  <body class="composite">
+    <div id="banner">
+                            <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+      <div class="xleft">Last Published: Sun May 06 10:40:10 GMT-08:00 2007</div>
+      <div class="xright">      <a href="http://www.sourceforge.net/projects/barbecue/">barbecue</a>
+      </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn"><div id="navcolumn">      <h5>barbecue</h5>
+    <ul>
+              
+    <li class="none">
+          <strong><a href="index.html">Home</a></strong>
+        </li>
+              
+    <li class="none">
+          <a href="http://prdownloads.sourceforge.net/barbecue/barbecue-1.5-beta1.zip?download">Download</a>
+        </li>
+              
+    <li class="none">
+          <a href="faq.html">FAQ</a>
+        </li>
+              
+    <li class="none">
+          <a href="http://barbecue.svn.sourceforge.net/viewvc/barbecue/trunk/barbecue/LICENSE.txt?view=markup">License</a>
+        </li>
+              
+    <li class="none">
+          <a href="http://sourceforge.net/donate/index.php?group_id=78049">Donate</a>
+        </li>
+              
+    <li class="none">
+          <a href="xref/index.html">View source</a>
+        </li>
+              
+    <li class="none">
+          <a href="apidocs/index.html">Javadocs</a>
+        </li>
+              
+    <li class="none">
+          <a href="screenshots.html">Screenshots</a>
+        </li>
+              
+    <li class="none">
+          <a href="tools.html">Tools and libraries</a>
+        </li>
+              
+    <li class="none">
+          <a href="related.html">Related</a>
+        </li>
+              
+    <li class="none">
+          <a href="credits.html">Credits</a>
+        </li>
+              
+    <li class="none">
+          <a href="http://sourceforge.net/projects/barbecue/">SourceForge</a>
+        </li>
+          </ul>
+      <h5>Project Documentation</h5>
+    <ul>
+              
+    <li class="none">
+          <strong><a href="index.html">About barbecue</a></strong>
+        </li>
+              
+                
+        <li class="collapsed">
+          <a href="project-info.html">Project Info</a>
+                
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        </li>
+              
+                
+        <li class="collapsed">
+          <a href="maven-reports.html">Project Reports</a>
+                
+      
+            
+      
+              
+        </li>
+          </ul>
+  <a href="http://maven.apache.org/" title="Built by Maven" id="poweredBy">
+              <img alt="Built by Maven" src="./images/logos/maven-feather.png"></img>
+            </a>
+    </div></div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        
+
+  
+
+  
+
+  <div class="section"><h2>Overview</h2>
+    <p>
+Barbecue is an open-source, Java library that provides the means to 
+create barcodes for printing and display in Java applications. A number of barcode 
+formats are supported and many more can be added via the flexible 
+<a href="http://barbecue.sourceforge.net/apidocs/net/sourceforge/barbecue/BarcodeFactory.html">barcode API</a>. 
+Barcodes can be output to three different image formats (PNG, GIF, JPEG), 
+used <a href="images/screenshot-barcodetool.png">as a Swing component</a>, or 
+written out as SVG.</p>
+   <p>
+   <img src="images/example-code128.png"></img>
+   </p>
+   </div>
+   
+  <div class="section"><h2>News</h2>
+    <p>
+<ul>
+<li>May 6, 2007: <a href="http://sourceforge.net/project/showfiles.php?group_id=78049&package_id=79085&release_id=506324">Barbecue 1.5 beta 1</a></li>
+<li>January 1, 2007: enabled project <a href="http://sourceforge.net/donate/index.php?group_id=78049">donations</a></li>
+<li>December 28, 2006: <a href="http://sourceforge.net/project/showfiles.php?group_id=78049&package_id=79085&release_id=474375">Barbecue 1.5 Alpha 3</a></li>
+<li>November 2, 2006: Barbecue source code is now in <a href="http://barbecue.svn.sourceforge.net/viewvc/barbecue/trunk/barbecue/src/java/net/sourceforge/barbecue/">Subversion</a></li>
+<li>October 22, 2006: <a href="http://sourceforge.net/project/showfiles.php?group_id=78049&package_id=79085&release_id=457686">Barbecue 1.5 Alpha 2</a></li>
+<li>October 22, 2006: added barcode portlet class:  <a href="http://barbecue.sourceforge.net/xref/net/sourceforge/barbecue/BarcodePortlet.html">BarcodePortlet</a></li>
+<li>August 29, 2006: <a href="http://sourceforge.net/project/showfiles.php?group_id=78049&package_id=79085&release_id=443269">Barbecue 1.5 Alpha 1</a></li>
+<li>May 28, 2005: <a href="http://sourceforge.net/project/showfiles.php?group_id=78049&package_id=79085&release_id=330636">Barbecue 1.0.6d</a></li>
+</ul>
+    
+    
+  </div>
+
+  
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2003-2007
+    
+          barbecue.sourceforge.net
+      </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>
+```
