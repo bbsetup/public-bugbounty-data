@@ -1,0 +1,391 @@
+```<!doctype html><!-- © 1998 - 2021 DPG Online Services B.V. -->
+<html lang="NL"><head>
+        
+                            <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                                                <meta name="referrer" content="origin-when-cross-origin">
+                                                <meta name="description" content="Mijn visie op uiteenlopende tech-zaken.">
+                            
+                    <title>Het relaasch - Tweakers</title>
+        <link rel="navigator" title="Spring voorbij navigatie" href="https://bazs2000.tweakblogs.net/#contentArea">
+
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-Regular.woff2" as="font" type="font/woff2" crossorigin>
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+
+                                            <link rel="shortcut icon" href="https://tweakers.net/favicon.ico" type="image/x-icon">
+                            <link rel="alternate" title="Het relaasch - Reacties" type="application/rss+xml" href="https://bazs2000.tweakblogs.net/feed/comments">
+                            <link rel="alternate" title="Het relaasch" type="application/rss+xml" href="https://bazs2000.tweakblogs.net/feed/">
+            
+        <script>
+                var relaxedDomain  = 'tweakers.net',
+                    tweakersConfig = {"BaseURL":"https:\/\/bazs2000.tweakblogs.net\/","TnetBaseURL":"https:\/\/tweakers.net\/","ForumBaseURL":"https:\/\/gathering.tweakers.net\/","ImgURL":"https:\/\/tweakers.net\/","sidName":"__Secure-TnetID","UserID":0,"requestId":"Twk-tc3-web4_201.26.1_30069_6024dbc794fab6.46749865","abStatsPath":"\/ajax\/1AKXipQZyfKi6nyNgGJCXwm0eY\/","loginJs":"https:\/\/tweakers.net\/x\/scripts\/min\/login.js?1612781350","loginCss":"https:\/\/tweakers.net\/x\/styles\/profiles\/login.css?1583238942","clickToLoad":false};
+
+                try
+                {
+                    document.domain = relaxedDomain;
+                }
+                catch (e)
+                {
+                    relaxedDomain = '';
+                }
+                document.documentElement.className = 'js';
+            </script>
+        <link rel="stylesheet" href="https://tweakers.net/x/styles/tweakblogs/weblogs.css?1608112821" type="text/css">
+                                        <script src="https://tweakers.net/x/build/runtime.eb309c42.js"></script><script src="https://tweakers.net/x/build/0.c89d5b71.js"></script><script src="https://tweakers.net/x/build/1.3c8535aa.js"></script><script src="https://tweakers.net/x/build/frontpage.f69aca6a.js"></script>
+
+                    <script src="https://tweakers.net/x/scripts/min/general.js?1605696722"></script>
+            <script src="https://tweakers.net/x/scripts/min/weblogs.js?1604565751"></script>
+            <script src="https://tweakers.net/x/scripts/min/rml_toolbar.js?1605522743"></script>
+                    <script>
+            var _wtq=[['_init',{"randomId":"206696077312398","trackId":"318816705845986","trackDomain":"tweakers.net","domain":"tweakers.net;gathering.tweakers.net","cookie":"1","mediaCode":"wt_mc","contentId":"","contentGroup":{"1":"tweakers.net","2":"Tweakblogs"},"executePluginFunction":"wt_urlCampaignMapper;wt_stats_plugin","requestObfuscation":true,"customParameter":{"1":"LG"},"customSessionParameter":{"3":"Geen"}}],['_trackPage']];
+			loadJS('https://tweakers.net/x/scripts/min/IRCEnz.js',AbStats.wtCallBack);
+
+        </script>
+    
+    </head>
+    <body>
+
+    <div id="container">    <div id="tweakblogsNav">
+        <div class="logo"><a href="https://tweakblogs.net/"><img src="https://tweakers.net/g/if/weblogs/tweakblogs.png" width=131 height=20 alt="Tweakblogs"></a></div>
+        <ul>
+            <li><a href="https://tweakblogs.net/">Tweakblogs Home</a></li>
+            <li><a href="https://tweakers.net/">Tweakers</a></li>
+                            <li>
+                    <a href="https://tweakers.net/nieuws/">Nieuws</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/reviews/">Reviews</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/pricewatch/">Pricewatch</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/aanbod/">Vraag &amp; Aanbod</a>
+                </li>
+                            <li>
+                    <a href="https://gathering.tweakers.net/">Forum</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/carriere/">Carri&egrave;re</a>
+                </li>
+                            <li>
+                    <a href="#">Meer</a>
+                </li>
+                    </ul>
+    </div>
+    <div id="banner">
+    
+        
+    <h1><a href="https://bazs2000.tweakblogs.net">Het relaasch</a></h1>
+            <span class="subtitle"></span>
+    </div>
+            <p class="breadCrumb">
+                <a href="https://bazs2000.tweakblogs.net/feed/" title="Het relaasch" rel="nofollow">
+            <img src="https://tweakers.net/g/if/v2/icons/rss_small.png" width=12 height=12 alt="[RSS]">
+        </a>
+                                <a href="https://bazs2000.tweakblogs.net">            Home            </a>
+            </p>
+<div id="pagebody">
+                <div class="columnwrapper normal">    <div class="content">
+			<div class="blogpost">
+				<h2><a href="https://bazs2000.tweakblogs.net/blog/14101/dpi-en-netneutraliteit-hoe-zit-het-daar-nu-mee">DPI en netneutraliteit, hoe zit het daar nu mee?</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/15256/" rel="nofollow">bazs2000</a> op donderdag 10 november 2016 12:08 - <a href="https://bazs2000.tweakblogs.net/blog/14101/dpi-en-netneutraliteit-hoe-zit-het-daar-nu-mee#reacties">Reacties (6)</a><br>Categorie: <a href="https://bazs2000.tweakblogs.net/blog/cat/2363">Zoektochten</a>, Views: 3.101
+				</p>
+				<div class="article">Deep Packet inspection, hierna te noemen DPI. Alle providers gebruiken dat en alle providers mogen dat gebruiken. Wel zijn er een aantal voorwaarden aan gesteld om misbruik te voorkomen.<br>
+<br>
+In 2011 is er veel ophef over geweest omdat destijds naar voren kwam dat DPI als middel ingezet werd (of kon worden) om bepaald verkeer voorang te verlenen, of uit te sluiten. En daar komt netneutraliteit om de hoek kijken.<br>
+<br>
+Maar goed, wat is in de eerste instantie handig om te weten over DPI en de inzet hiervan? Hier is een stukje uit de telecomwet waar dit onder zou vallen:<blockquote><div class="quote">Artikel 11.2a<br>
+1 Onverminderd het Wetboek van Strafrecht en het overigens bij of krachtens deze wet bepaalde, dragen de aanbieder van een openbaar elektronisch communicatienetwerk en de aanbieder van een openbare elektronische communicatiedienst zorg voor het vertrouwelijke karakter van de communicatie en de daarmee verband houdende gegevens via hun netwerken onderscheidenlijk hun diensten.<br>
+2 De aanbieder van een openbaar elektronisch communicatienetwerk en de aanbieder van een openbare elektronische communicatiedienst onthouden zich van het aftappen, afluisteren of anderszins onderscheppen of <b>controleren</b> van de communicatie via een openbaar elektronisch communicatienetwerk of openbare elektronische communicatiedienst en de daarmee verband houdende gegevens tenzij en voor zover:<br>
+a. de betrokken abonnee voor deze handelingen zijn <b>uitdrukkelijke toestemming</b> heeft gegeven;<br>
+b. deze handelingen noodzakelijk zijn om de integriteit en de veiligheid van de netwerken en diensten van de betrokken aanbieder te waarborgen;<br>
+c. deze handelingen noodzakelijk zijn voor het overbrengen van informatie via de netwerken en diensten van de betrokken aanbieder, of<br>
+d. deze handelingen noodzakelijk zijn ter uitvoering van een wettelijk voorschrift of rechterlijk bevel.<br>
+3 Voorafgaand aan het verkrijgen van toestemming als bedoeld in het tweede lid, onderdeel a, verstrekt de aanbieder aan de abonnee de volgende informatie:<br>
+a. de soort gegevens die wordt afgetapt, afgeluisterd, onderschept of gecontroleerd;<br>
+b. de doeleinden waarvoor de gegevens worden afgetapt, afgeluisterd, onderschept of gecontroleerd, en<br>
+c. <b>de duur van het aftappen, afluisteren, onderscheppen of controleren van de gegevens.</b><br>
+4 Een abonnee kan de verleende toestemming, bedoeld in het tweede lid, onderdeel a, op elk moment intrekken.</div></blockquote>Oke, een provider heeft zich aan heel wat regels te houden als het gaat om DPI want verderop in de wet staat dat er op zich niets mis mee is, resultaten mogen zelfs (geanonimiseerd) worden gebruikt in onderzoeken door derde partijen (ook weer aan een lading regels gebonden). Maar waar zit het knelpunt?<br>
+<br>
+Nou, T-mobile heeft bedacht (en in uitvoering gebracht) dat klanten met specifieke abonnementen onbeperkt van muziekdiensten gebruik mogen maken (mits aangemeld en goedgekeurd door T-mobile) en dat dit verkeer niet ten koste gaat van de bundel.<br>
+<br>
+Dat klinkt erg mooi maar er zitten een aantal addertjes onder het gras. Volgens T-mobile mogen alle muziekdiensten hieraan meedoen, dat klinkt goed want zo ontstaat gelijkheid tussen de muziek-aanbieders alleen duurt het heel lang voordat aanbieders van muziekdiensten goedgekeurd worden waardoor er toch sprake is van ongelijkheid. Als gebruiker zou je hierdoor geneigd kunnen zijn door bijvoorbeeld een abonnement op Spotify te nemen omdat dit verkeer niet van de bundel af gaat. Als twee weken later een vergelijkbare dienst wordt toegevoegd dan zit die gebruiker al bij Spotify en zal niet snel overstappen (de overstapkans wordt kleiner wanneer de gebruiker een betaald abonnement heeft afgenomen).<br>
+<br>
+Een ander knelpunt is dat er geen gebruik gemaakt kan worden van VPN, dat klopt want om na te gaan of je gebruik maakt van een muziekdienst moet je DPI inzetten of naar de headers van het verkeer te kijken. T-mobile is er niet heel duidelijk over en redelijk ontwijkend in haar antwoorden. Op het forum van T-mobile wordt over IP-adressen gerept wat impliceert dat er gebruik wordt gemaakt van headers maar het sluit het gebruik van DPI niet uit. Voor de passage uit de telecomwet maakt dit onderscheid niet uit want ook het controleren van de headers en de resultaten tegen de lijst van muziekdiensten houden valt onder het controleren van de verkeersgegevens en mag dus niet zonder aan al die regels te voldoen.<br>
+<br>
+Nu wordt het interessant want we weten nu het volgende:<br>
+<br>
+1.	T-mobile doet aan prijsdiscriminatie door alleen specifieke abonnementen in aanmerking te laten komen voor het gebruik van muziekdiensten buiten de databundel.<br>
+2.	T-mobile voldoet niet aan alle voorwaarden die zijn gesteld aangaande het controleren van het verkeer. Zo moet iedere gebruiker hiervoor nadrukkelijk toestemming verlenen. Bovendien, als voorwaarde is gesteld dat het alleen mag om de integriteit en de veiligheid van het netwerk of de diensten te waarborgen. Dat is duidelijk niet het geval.<br>
+3.	T-mobile werpt een drempel op voor het toevoegen van de dienst omdat het gebruik van VPN bij voorbaat is uitgesloten. Het open karakter is helemaal niet meer zo open, bovendien ontstaat er een verschil tussen muziekaanbieders omdat het lang duurt voordat je op de lijst staat, hierdoor is de kans groot dat je als muziekaanbieder klanten misloopt of zelfs verliest.<br>
+<br>
+Alleen al vanwege de hierboven genoemde zaken zou je verwachten dat er in de politiek rellen uit zouden breken maar dat is niet zo.  In 2011 was de commotie een stuk groter, anno 2016 worden er wel wetsvoorstellen aangaande dit onderwerp ingediend alleen blijft de handhaving blijkbaar uit. Er gaat heel wat mis op dit vlak, het wordt tijd dat dit verandert omdat wij anders over 5 jaar weer met dit probleem te maken krijgen.<br>
+<br>
+Nog wat interessante links:<br>
+<br>
+<a href="http://www.sfix.nl/2011/07/telcos-blijven-deep-packet-inspection-gebruiken/" rel="external nofollow" title="http://www.sfix.nl/2011/07/telcos-blijven-deep-packet-inspection-gebruiken/">http://www.sfix.nl/2011/0...ket-inspection-gebruiken/</a><br>
+<a href="http://wetten.overheid.nl/BWBR0009950/2016-11-03#Hoofdstuk11" rel="external nofollow">http://wetten.overheid.nl/BWBR0009950/2016-11-03#Hoofdstuk11</a><br>
+<a href="https://www.bof.nl/2016/10/10/plan-t-mobile-druist-in-tegen-netneutraliteit/" rel="external nofollow" title="https://www.bof.nl/2016/10/10/plan-t-mobile-druist-in-tegen-netneutraliteit/">https://www.bof.nl/2016/1...in-tegen-netneutraliteit/</a><br>
+<a href="https://www.bof.nl/2016/06/28/netneutraliteit-alles-valt-of-staat-bij-handhaving/" rel="external nofollow" title="https://www.bof.nl/2016/06/28/netneutraliteit-alles-valt-of-staat-bij-handhaving/">https://www.bof.nl/2016/0...-of-staat-bij-handhaving/</a><br>
+<a href="https://www.bof.nl/2016/05/26/veel-sneller-kon-t-mobile-niet-om-een-boete-vragen/" rel="external nofollow" title="https://www.bof.nl/2016/05/26/veel-sneller-kon-t-mobile-niet-om-een-boete-vragen/">https://www.bof.nl/2016/0...niet-om-een-boete-vragen/</a><br>
+<a href="http://www.nu.nl/internet/4268619/acm-nieuwe-t-mobile-bundel-op-gespannen-voet-met-netneutraliteit.html" rel="external nofollow" title="http://www.nu.nl/internet/4268619/acm-nieuwe-t-mobile-bundel-op-gespannen-voet-met-netneutraliteit.html">http://www.nu.nl/internet...-met-netneutraliteit.html</a><br>
+<br>
+Ik blijf het maar raar vinden dat dit zomaar kan en nog raarder, waarom zoiets keer op keer terug kan komen.</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://bazs2000.tweakblogs.net/blog/9862/voeding-hoe-bewust-van-onze-energie-inname-zijn-wij.html">[Voeding] Hoe bewust van onze energie-inname zijn wij?</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/15256/" rel="nofollow">bazs2000</a> op donderdag 30 januari 2014 11:10 - <a href="https://bazs2000.tweakblogs.net/blog/9862/voeding-hoe-bewust-van-onze-energie-inname-zijn-wij.html#reacties">Reacties (30)</a><br>Categorie: <a href="https://bazs2000.tweakblogs.net/blog/cat/2363">Zoektochten</a>, Views: 7.969
+				</p>
+				<div class="article">L.S,<br>
+<br>
+Wij dachten altijd bewust om te gaan met de voeding die wij ons dochter voorschotelen (zowel eten als drinken). Helaas blijkt dit helemaal niet het geval.<br>
+<br>
+Wat maakt dat wij denken dat wij bewust omgaan met voeding?<br>
+Wij letten namelijk op de volgende zaken (per 100g of 100ml):<br>
+<br>
+ - Hoeveelheid energie<br>
+ - Hoeveelheid suiker<br>
+ - Hoeveelheid (on)verzadigde vetten<br>
+ - Hoeveelheid zout<br>
+<br>
+En nog een aantal andere zaken die wij belangrijk achten zoals de porties die onze dochter krijgt. Zo laten wij onze dochter vooral niet teveel eten maar geven haar wel de vrijheid om meer te nemen wanneer de honger na haar portie alsnog niet is gestild (zij sport namelijk en soms heeft een lichaam meer nodig). <br>
+<br>
+Bovendien laten wij haar voldoende drinken en hoewel haar keuze vaak op water valt drinkt zij ook graag vruchtensap of limonade. Wij laten haar zelf kiezen aangezien zij heeft bewezen dat zij zelf een verstandige keuze kan maken. Frisdrank vindt zij wel lekker maar drinkt dit alleen op feestjes.<br>
+<br>
+Het bovenstaande verhaal ziet er goed uit. Het geeft weer dat wij voeding belangrijk vinden en dat wij deze boodschap hebben kunnen overbrengen op onze dochter. Maar wat is het probleem dan?<br>
+<br>
+Ons probleem is als volgt, onze dochter wordt onderzocht vanwege de verdenking op ADHD. Is op zich niet bijzonder want het is vrijwel zeker dat zij het heeft gezien de manier waarop zij zich gedraagt en ik, haar vader, heeft het ook. Prima en geen probleem maar dit maakt wel dat voedingsgerelateerde problemen eerder aan het licht komen.<br>
+<br>
+Dit begon allemaal toen wij een experiment uitvoerde op het voedingspatroon. Vrienden van ons hebben een zoon die ADHD zou kunnen hebben (echter, niet vastgesteld) en een verandering van voeding (als in, het in zijn geheel weglaten van suiker) heeft een positief effect gehad. Als test hebben wij een tijd lang de suiker weggelaten. Suiker werd vervangen door stevia en als er echt geen alternatief was voor stevia dan werd de eerst mogelijke vervanging gezocht voor  suiker zo lang het maar geen aspartaam was.<br>
+<br>
+Goed, na een paar dagen constateerde wij een grote verandering. Op het uiterlijke vlak toonde zij meer rust waardoor zij beter kon stilzitten. Dat zag er veelbelovend uit want wellicht betekende dit dat wij op het juiste spoor zaten. Een paar dagen later zag alles er nog steeds 'rustig' uit maar werd zij lusteloos. Dat vonden wij vreemd aangezien wij de hoeveelheid energie die zij nodig heeft wel intact hebben gelaten. De energie kwam echter niet uit suiker meer.<br>
+<br>
+Dit gaf ons te denken want wij zagen iets gebeuren wat wij niet hadden verwacht. Tijd om het experiment af te breken dus maar niet zomaar, we hebben in stappen de suikervrije en suikerarme producten vervangen door de reguliere producten om te zien wat er allemaal zou veranderen. Na een paar dagen was de lusteloosheid voorbij maar de uiterlijke rust was er nog. Blijkbaar hadden wij de gouden combinatie ontdekt en we hebben deze tot op de dag van gister toegepast.<br>
+<br>
+Oké, wat was deze gouden combinatie?<br>
+<br>
+Voor het ontbijt:<br>
+ - Brood of Cruesli (Quaker) Of honingringen (kleine hoeveelheid 20Gr).<br>
+ - Beker water of vruchtensap<br>
+<br>
+Voor het tussendoortje op school:<br>
+ - Pakje vruchtensap (Roosvicee)<br>
+ - Sultana's of afgeleiden of fruit (meestal banaan)<br>
+<br>
+Voor de lunch (school):<br>
+ - Broodje pindakaas (is zij gek op dus eet zij vaak) of kaas.<br>
+ - Pakje vruchtensap (Roosvicee)<br>
+<br>
+Voor de lunch (thuis):<br>
+ - Broodje met willekeurig beleg.<br>
+ - Water of limonade (limonade zonder reguliere suiker)<br>
+<br>
+Voor het diner:<br>
+ - Veel variatie (veel groenten), soms pasta/rijst en heel soms patat)<br>
+ - Water<br>
+<br>
+In de avond:<br>
+ - Soms een koekje, meestal niets<br>
+ - Water of limonade<br>
+<br>
+De dag zit er dan op en aangezien zij om 19:00 uur naar bed gaat wordt er in de avond dan ook niet tot weinig gegeten. Drinken wel want dat is wel belangrijk.<br>
+<br>
+Oké, en dan nu het probleem waaruit een nare ontdekking is voortgekomen.<br>
+<br>
+Onze dochter heeft naast de zeer waarschijnlijke ADHD nog iets anders. Zij luistert vaak niet naar wat er wordt gevraagd en heeft ook de sterke neiging om niet te doen wat er van haar wordt verwacht. Soms heeft zij dit heel erg en soms bijna niet.<br>
+<br>
+De laatste dagen is het mis waardoor wij ons weer zijn gaan afvragen wat er aan de hand kan zijn omdat wij vonden dat wij op de goede weg waren. Uiteindelijk kon ik geen spannende zaken vinden die haar gedrag konden verklaren.<br>
+<br>
+Dat maakte dat ik naar de periode van 2 weken geleden tot aan gister ben gaan analyseren (wij houden veel bij dus dat was mogelijk). Ik heb slechts één opvallend feit gezien en die had te maken met haar voeding. Op de dagen dat zij brood in de ochtend kreeg was de kans zeer grood dat de dag zonder incidenten zou verlopen. Op de dagen dat er werd ontbeten met cruesli of honingringen was de kans groot dat het mis ging.<br>
+<br>
+Wat was het causale verband? Het verband was de opeenstapeling van suiker. Cruesly bevat veel meer suiker dan wij dachten (wij maken kleinere porties namelijk) en dus ben ik eens gaan rekenen wat dan de totale hoeveelheid suiker is op de &quot;cruesli-dagen&quot;.<br>
+<br>
+Ik heb een keukenweegschaal gepakt en een kommetje en een bak kristalsuiker. Vervolgens heb ik van alle producten die zij die dagen tot zich nam de verpakking erbij gepakt en heb van alles de juiste hoeveelheid suiker in het kommetje gegooid. Als je weet hoeveel jouw kind van iets krijgt dan kun je namelijk uitrekenen hoeveel suiker zij heeft binnengekregen (ervanuitgaande dat de fabrikant eerlijk is met het etiket).<br>
+<br>
+Toen ik hiermee klaar was ben ik geschrokken. Zij bleek op de crueslidagen namelijk bijna 97gr aan suiker binnen te krijgen (dagtotaal). Op de dagen dat er met een broodje werd gestart was dit 74gr. De broodjesdagen geven bijna geen problemen, de crueslidagen wel dus de 97gr neem ik als uitgangspunt voor haar probleem.<br>
+<br>
+97gr suiker staat gelijk aan 1649Kj. Een kind van 6 heeft per KG 80Kj nodig. Zij weegt 22KG en zou daardoor per dag 1760KJ binnen moeten krijgen. Aan suiker had zij dus al 1649Kj binnen en dus was er nog 111Kj over voor de rest. Met andere woorden, zij kreeg veel meer binnen aan energie dan nodig want naast suiker zijn er meerdere zaken die voor energie zorgen en dat is dan schrikken. Je denkt bewust bezig te zijn en dan volgt de confrontatie dat dit dus helemaal niet het geval is.<br>
+<br>
+De conclusie die ik hieruit trek is alsvolgt:<br>
+<br>
+ - Het is heden ten dage zeer moeilijk om een goede inschatting te maken van het eetgedrag van een kind zonder dat je met een rekenmachine aan de slag gaat.<br>
+ - Het is niet onmogelijk om het echt goed te doen (veel groenten, fruit en weinig aardappels, rijst of pasta) wat betekent dat je een kind heel vaak &quot;nee&quot; moet verkopen omdat goede alternatieven naast groente/fruit niet bestaan.<br>
+<br>
+<br>
+Wij gaan een aantal zaken drastisch op de schop nemen op het gebied van voeding. Suiker is belangrijk voor ons lichaam maar in lage hoeveelheden. Wij gaan in dit geval meer uitgebreide rekensommen maken in de supermarkt om een beeld te krijgen wat het product doet op het dagelijkse totaal aan suiker (met andere woorden, hoeveel procent maakt een product deel uit van het dagtotaal?).<br>
+<br>
+Maar hoe zit dit op maatschappelijk vlak? Wij als ouders kunnen dit allemaal berekenen en nemen hier de tijd voor. Als ik in mijn omgeving kijk dan doet bijna niemand anders dit. Als ik in mijn omgeving kijk dan zie ik veel kinderen die meer gewicht met zich meedragen dan volgens de leeftijd zou moeten zijn.<br>
+<br>
+Wie heeft de verantwoordelijkheid? De fabrikanten? Tja, zij zijn onlangs in het nieuws gekomen omdat zij creatief met de ingrediënten omgaan om het woordje suiker niet te noemen. De regering? Hoe zou dit er dan uit moeten zien? Strengere naleving van de bestaande regelgeving of het veranderen van de regelgeving?<br>
+<br>
+Een kort onderzoek van mezelf wijst uit dat er op dit moment niets gebeurt op dit vlak. Ze dronken een glas, deden een plas en alles blijft zoals het was.De werkelijke verantwoordelijken op dit gebied zijn wij ouders. Uiteindelijk zijn wij de personen die de producten in huis halen en aan ons kroost geven. Wij ouders moeten dan ook heel goed kijken naar de producten die wij door onze handen laten glijden. Dat weten wij allemaal wel maar wie doet dit? Wie neemt hiervoor de tijd?<br>
+<br>
+Mijn suikeronderzoek kostte iets meer dan een uur. Dit is niet iets wat je iedere dag gaat doen. Er zou een soort van tabel kunnen worden gemaakt waaruit je kunt aflezen wat een bepaald product qua energie doet op het dagtotaal. Dat is handig want zo weet je sneller of iets kan of niet.<br>
+<br>
+Wat kunnen wij nu doen op dit gebied? Voor mezelf wil ik een tabel opstellen die als rekenhulp kan dienen want ik zie mezelf niet met een rekenmachine in een supermarkt staan. Een hulpmiddel dus.<br>
+<br>
+Brengt mij op een laatste opmerking:<br>
+<br>
+&quot;Wanneer een mens een hulpmiddel nodig heeft tijdens het doen van boodschappen is de situatie te gecompliceerd.&quot;<br>
+<br>
+Tijd om deze gecompliceerde situatie te decomplexeren.</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://bazs2000.tweakblogs.net/blog/9123/ubuntu-windowsvervanger-of-niet.html">Ubuntu, Windowsvervanger of niet?</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/15256/" rel="nofollow">bazs2000</a> op woensdag  3 juli 2013 23:30 - <a href="https://bazs2000.tweakblogs.net/blog/9123/ubuntu-windowsvervanger-of-niet.html#reacties">Reacties (44)</a><br>Categorie: <a href="https://bazs2000.tweakblogs.net/blog/cat/2363">Zoektochten</a>, Views: 26.039
+				</p>
+				<div class="article">Sinds ik met computers werk ben ik al bezig met Linux.<br>
+<br>
+Het begon allemaal met Red Hat en een lange tijd draaide dit naast Windows. Windows was nodig voor het spelen van spellen en het maken van Muziek (Muziek maakte ik eerst met FT2, daarna ben ik overgestapt op Reason).<br>
+<br>
+Red Hat was leuk maar KDE maakte het zwaar en de drivers waren voor mijn hardware ondermaats en er was veel gekunstel nodig om het goed te laten werken. Om die reden was Linux meer een hobby dan een serieuze omgeving om in te werken,<br>
+<br>
+Tegenwoordig is alles anders en hebben wij Ubuntu. Ubuntu draai ik nu een lange tijd en valt eindelijk in te zetten als vervanger voor Windows, een beetje.<br>
+<br>
+Op mijn desktop draait Windows en dat zal altijd zo blijven (vanwege de spellen en het maken van muziek).<br>
+<br>
+Mijn ervaring baseert zich nu op Ubuntu op de laptop.<br>
+<br>
+Sinds een paar maanden heb ik een Dell E6500 waar ik zeer tevreden over ben. Lange accuduur, meer dan voldoende processorkracht en een knappe resolutie (1440x900). Ik heb hier Windows 7 en Ubuntu op staan. In het begin was het voornamelijk schakelen tussen beide OS'en vanwege het gebruik van diverse programma's. Een zelfonderzoek leerde dat Libre Office beter was dan Open Office en Mozilla Thunderbird beter dan Outlook. Nu Steam ook beschikbaar is voor Ubuntu merk ik dat Windows niet meer nodig is op mijn laptop.<br>
+<br>
+Alles wat je nodig hebt is beschikbaar, al dan niet out of the box en dat maakt het ideaal, of niet?<br>
+<br>
+Office en internet gaat super, de simpelheid van Unity (door velen verguisd) is voor mij ideaal. Ik loop alleen tegen een aantal problemen aan die niet kunnen worden verholpen. De ondersteuning voor mijn GPU bijvoorbeeld, die is niet helemaal lekker. Nu kan ik denken dat het niet zo erg is maar Minecraft (wat ik regelmatig speel) draait op dezelfde laptop onder Windows vele malen beter dan onder Ubuntu. Het installeren van gedownloade software gaat ook niet altijd zonder slag of stoot.<br>
+<br>
+Zelfs kleine zaken zoals printerinstellingen van een HP netwerkprinter zijn lastiger in te stellen. Waar ik onder Windows binnen 1 minuut klaar ben is het bij Ubuntu regelmatig een mix van trial and error en het opzoeken van tutorials en dat brengt mij op het volgende.<br>
+<br>
+Is Ubuntu nu geschikt voor de massa of niet? Als je het installeert dan blijkt alles te werken (gebaseerd op eigen ervaring op verscheidene hardware). Echter, wanneer je configuraties wilt aanpassen dan wordt het verhaal anders. Je moet zoeken en als je het niet zelf kunt vinden dan moet je al snel naar tutorials grijpen. En dat is niet voor iedereen weggelegd.<br>
+<br>
+Op de laptop is Windows niet meer nodig maar ik merk wel dat je een behoorlijke sloot aan tijd kwijt bent voordat alles werkt zoals jij dat wil. Als ik dan aan mijn vader denk dan weet ik gewoon dat hij gewoon niet naar Ubuntu kan overstappen. Hij weet na 10 jaar eindelijk de weg in Windows, moet hij weer opnieuw beginnen. Mijn vrouw zou het misschien wel kunnen maar zij is niet zo avontuurlijk ingesteld dat zij een avond aan tijd steekt in het vinden van een oplossing voor een netwerkprinter die niet zomaar op 10x15 papier wil printen.<br>
+<br>
+Ubuntu bestaat al een lange tijd, waarom is het nog steeds niet zo gemaakt dat mensen heel snel iets voor elkaar kunnen krijgen? Waarom is de driverondersteuning van vele fabrikanten (creative?) nog niet voor elkaar? De algehele gebruikerservaring is goed maar niet uitstekend omdat een vers geïnstalleerd systeem niet meteen betekent dat alles voor 100% werkt.<br>
+<br>
+Hoe lang duurt het nog voordat wij de juiste drivers hebben bij een installatie? Hoe lang duurt het nog voordat wij vanuit The Gimp 10x15 papier kunnen selecteren? (Nu gaat het nog op basis van milimeters en dat is verwarrend aangezien het papier niet echt 10x15 is. Het blijft nog altijd een beetje een nerd OS terwijl het voor de massa is bedoeld. Wanneer is het echt voor de massa?<br>
+<br>
+In mijn ogen is iets voor de massa wanneer de massa weet wat Wine is. Voor mij is iets voor de massa wanneer de massa kan doen wat de massa wil.<br>
+<br>
+Onder Windows gaat dit in bijna alle gevallen zo maar onder Ubuntu nog niet.<br>
+<br>
+Ik ben een tevreden Ubuntugebruiker maar wanneer jij? <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"></div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://bazs2000.tweakblogs.net/blog/8753/laptops-is-er-nog-iets-voor-de-kleine-beurs.html">Laptops, is er nog iets voor de kleine beurs?</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/15256/" rel="nofollow">bazs2000</a> op vrijdag  1 maart 2013 10:29 - <a href="https://bazs2000.tweakblogs.net/blog/8753/laptops-is-er-nog-iets-voor-de-kleine-beurs.html#reacties">Reacties (26)</a><br>Categorie: -, Views: 14.260
+				</p>
+				<div class="article">Hallo tweakers tweakinnen,<br>
+<br>
+Je kent het misschien wel, je werkt op een oude laptop die na bijna 8 jaar van trouwe dienst op het punt staat om het te begeven. Welnu, in deze situatie bevind ik mezelf nu al een jaar.<br>
+<br>
+De Compaq Presario C700 (waar ook deze post op is getypt) is aan vervanging toe. Destijds kostte deze een kleine 550 euro bij de Mediamarkt en het is geen miskoop geweest. De laptop heeft in de loop der tijd een geheugenuitbreiding ondergaan en draait tegenwoordig naast Windows 7 (X64) ook Ubuntu (12.10).<br>
+<br>
+Helaas heeft een jaar geleden mijn lieftallige dochter op de laptop gestaan (!) om zo beter bij een tafeltje te komen (!!) waarna er een aantal scheuren in de behuizing zijn ontstaan. Bovendien is daardoor intern de koeling losgekomen van de CPU en kan niet meer goed worden bevestigd. Het gevolg, de laptop is altijd heet en de CPU-fan blaast alsof er een gebouw moet worden neergehaald. Kortom, tijd voor een vervanger.<br>
+<br>
+Maar ja, waarmee dan?<br>
+<br>
+Voordat je een laptop koopt moet je weten wat je ermee gaat doen want een laptop moet namelijk een verlengstuk zijn van jouw creativiteit en daardoor jouw helpende hand worden.<br>
+<br>
+Goed, wat doe ik er allemaal mee?<br>
+<br>
+ - The Gimp (Ja, ook met een Intel T2310 kan dit)<br>
+ - Open Office<br>
+ - Wat browserspellen waaronder Wartune (voor de oude C700 wel wat zwaar)<br>
+ - Rooten van tablets en telefoons.<br>
+ - Flashen van roms op tablets en telefoons.<br>
+ - Herverpakken van Android-roms zodat deze aan mijn eisen voldoen ( <img src="https://tweakers.net/g/s/puh2.gif" width="15" height="15" alt=":P"> )<br>
+<br>
+Goed, als ik al deze zaken bij elkaar optel en dan onder de streep kijk dan zie ik dat ik geen zware laptop nodig heb. De meest goedkope laptop zou al aan mijn eisen voldoen. Er is echter iets wat ik altijd op een laptop zou willen doen en daar wordt het lastig.<br>
+<br>
+Ik maak ook muziek. Hiervoor gebruik ik Reason met een lading VSTi's. Reason zelf heeft niet veel nodig om te draaien maar de VSTi's wel. Daarvoor heb ik in mijn PC een goede geluidskaart, op een laptop is dit een ander verhaal, je bent gebonden aan de chip die de fabrikant heeft geplaatst en het gebruik van VSTi's hebben de laptopfabrikanten nooit in het achterhoofd tijdens het ontwerpen van een nieuw product.<br>
+<br>
+Dan heb ik dus meer processorkracht nodig. Ohja, en ik wil een hogere resolutie dan 1280x800 (1440x900 past beter bij mij).<br>
+<br>
+Mooi, nu duidelijk is wat mijn specifieke wensen zijn kan het zoeken beginnen. Ik heb met mezelf afgesproken dat een laptop maximaal 500 euro mag kosten maar dan is het slikken. Voor dat geld kun je geen snelle laptop vinden met de resolutie van 1440x900. Dat is een domper. Dat zou een budgetoverschreiding betekenen en dat is niet de bedoeling. Als ik namelijk voor 500 euro een laptop zou kopen die een beetje aan mijn wensen voldoet dan krijg ik daar zeer veel spijt van. Ik wil er nog jaren plezier aan hebben dus moet het gewoon goed zijn.<br>
+<br>
+De laaste &quot;Laptop BBG&quot; hier liet het al doorschemeren, de fabrikanten zijn alleen bezig met het hogere segment. Maar de mensen die hier niet het geld aan willen uitgeven (zoals ik) hebben weinig te kiezen.<br>
+<br>
+Wat dan? Tweede hands? Is ook een optie want in het verleden zijn er vele goede laptops geweest die wel aan mijn wensen voldoen dus even zoeken kan geen kwaad. Nu zat ik al aan een hele specifieke laptop te denken, de <a href="http://www.notebookcheck.nl/Testrapport-Dell-Latitude-E6500-Notebook.12918.0.html" rel="external nofollow">Dell Latitude E6500</a>. Waarom? Nou, bij mijn oude werkgever heb ik een paar jaar met zo'n ding gewerkt en het was echt een fantastisch apparaat. Hij is snel, als je geluk hebt betrouwbaar en ik kan alles draaien wat ik maar wil.<br>
+<br>
+Uiteindelijk heb ik er een gevonden op Marktplaats, deze ga ik vanavond ophalen.<br>
+<br>
+Specificaties:<br>
+<br>
+- Processor: Intel P8700<br>
+- Geheugen: 4 GB DDR2<br>
+- Schermdiagonaal: 15.4 inch.<br>
+- Schermresolutie: 1440x900<br>
+- Videokaart : Intel GM45<br>
+- Opslagruimte: 160 GB 7200RPM<br>
+<br>
+De grap is, mocht ik ooit meer grafische kracht nodig hebben dan kan vrij eenvoudig het moederboard worden vervangen door een exemplaar waar een nVidia NVS160 Quadro op is gesoldeerd. Dat kost ongeveer $150,- Ook mooi meegenomen is dat alle onderdelen waaruit de laptop is opgebouwd los gekocht kunnen worden. Nou, het gemak van een PC in de vorm van een laptop, wat wil je als tweaker nog meer.<br>
+<br>
+Ohja, ik koop deze E6500 voor 250 euro. Ver beneden mijn budget, voldoet aan mijn wensen en is uitbreidbaar en repareerbaar.<br>
+<br>
+Goed, nu is dit wel een heel eenzijdig verhaal maar het komt erop neer dat wanneer je iets wil, dat je dan echt de tijd moet nemen om uit te zoeken wat bij jou past. Met een nieuwe laptop had ik niet gelukkig kunnen wezen voor 500 euro. Voor de helft van dit geld ben ik ineens een happy camper. <img src="https://tweakers.net/g/s/puh2.gif" width="15" height="15" alt=":P"><br>
+<br>
+Blijft alleen wel raar. Op dit moment worden wij doodgegooid met nieuwe technieken voor allerhande apparaten maar voor de laptops staat het nagenoeg stil. Alle aandacht lijkt op de ultrabooks te zijn gericht terwijl de normale laptopgebruiker een beetje in de kou staat.<br>
+<br>
+Misschien nog een update wanneer ik de E6500 binnen heb. <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+<br>
+<b>EDIT:</b><br>
+<br>
+Vanavond de laptop gezien en was toch wel wat teleurgesteld. <img src="https://tweakers.net/g/s/nosmile.gif" width="15" height="15" alt=":{"><br>
+<br>
+Gebruikersschade was acceptabel. Zowel de boven als onderkant bevatten de nodige krasjes maar voor de rest prima. Wat mij alleen niet beviel was het flikkerende scherm onder Windows 8. De beste man zei dat dit wellicht kwam doordat de videodriver niet goed was geinstalleerd. Ik had voor het gemak ook een booteble USB-stick met Ubuntu (12.04) meegenomen en daarmee was geen flikkerend scherm te zien. Lijkt inderdaad een driverissue te zijn.<br>
+<br>
+Wat vervelender is was het probleem met de trackpad. De cursor had de neiging om steevast naar rechtsboven te bewegen. Meestal langzaam maar soms heel snel. Een kleine inspectie leerde dat de trackpad abnormaal diep ingedrukt kon worden, hier was duidelijk iets mee gebeurd.<br>
+<br>
+Nu bleek ook dat de beste man laptops opkocht en defecte onderdelen verving door goede onderdelen uit andere laptops te halen. Dat is prima, hele volksstammen doen dit maar op dit moment heb ik er geen goed gevoel over. Hij kan en gaat het repareren (moet wel want de laptop is niet verkoopbaar op deze manier) maar of dit het voor mij is? Ik denk het niet en ben met een schuin oog al aan het zoeken naar een ander exemplaar.<br>
+<br>
+<b>EDIT2:</b><br>
+<br>
+En nog een edit.<br>
+Eergister berichtte de beste man met de mededeling dat het probleem met de trackpad was verholpen. Dus ik ben gaan kijken en inderdaad, het was zo goed als opgelost. Als ik veel druk uitoefen dan wil de cursor verschieten alleen is het nu niet storend meer. Je moet veel druk uitoefenen en wie doet nu zoiets? <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"><br>
+<br>
+Ik heb de E6500 dus gekocht en ben er blij mee. Nu Windows7 en Ubuntu 12.10 erop staan kan ik deze verder eigen maken. Renoise plus een lading VSTi's staan er ook op en het draait allemaal prima. De laptop voldoet precies aan de verwachting en voor €250,- is het dus mogelijk om een laptop te kopen die precies doet wat jij wil. <img src="https://tweakers.net/g/s/smile.gif" width="15" height="15" alt=":)"></div>
+			</div></div><div class="sidebar">
+        <div id="loginFrame">
+            <h2 class="top">Inloggen</h2>
+            <p>Login met je  <a href="https://tweakblogs.net/login/?location=https%3A%2F%2Fbazs2000.tweakblogs.net%2F">Tweakers profiel</a>.</p>
+        </div>
+		<div class="recentPosts">
+			<h4>Recente posts</h4><ul class="ellipsis"><li><a href="https://bazs2000.tweakblogs.net/blog/14101/dpi-en-netneutraliteit-hoe-zit-het-daar-nu-mee" title="DPI en netneutraliteit, hoe zit het daar nu mee? (6)">DPI en netneutraliteit, hoe zit het daar nu mee? (6)</a></li><li><a href="https://bazs2000.tweakblogs.net/blog/9862/voeding-hoe-bewust-van-onze-energie-inname-zijn-wij.html" title="[Voeding] Hoe bewust van onze energie-inname zijn wij? (30)">[Voeding] Hoe bewust van onze energie-inname zijn wij? (30)</a></li><li><a href="https://bazs2000.tweakblogs.net/blog/9123/ubuntu-windowsvervanger-of-niet.html" title="Ubuntu, Windowsvervanger of niet? (44)">Ubuntu, Windowsvervanger of niet? (44)</a></li></ul>
+		</div>
+		<div class="categories">
+			<h4>Categorieën</h4><ul><li><a href="https://bazs2000.tweakblogs.net/blog/cat/2363">Zoektochten (3)</a></li></ul>
+		</div>
+		<div class="archives">
+			<h4>Archieven</h4><ul id="archiveList"><li class="open"><b>2016</b> (1)<ul class="ulChild"><li><a href="https://bazs2000.tweakblogs.net/blog/archief/2016/11/">nov 2016</a> (1)</li></ul></li><li><b>2014</b> (1)<ul class="ulChild"><li><a href="https://bazs2000.tweakblogs.net/blog/archief/2014/01/">jan 2014</a> (1)</li></ul></li><li><b>2013</b> (2)<ul class="ulChild"><li><a href="https://bazs2000.tweakblogs.net/blog/archief/2013/07/">jul 2013</a> (1)</li><li><a href="https://bazs2000.tweakblogs.net/blog/archief/2013/03/">mrt 2013</a> (1)</li></ul></li></ul><script type="text/javascript">weblogFolderTree('archiveList');</script>
+		</div>
+		<div class="about">
+			<h4>About</h4>
+			<p>Mijn visie op uiteenlopende tech-zaken.</p>
+			<ul>
+				<li class="user"><a href="https://tweakers.net/gallery/15256/" rel="nofollow">Profiel op Tweakers</a></li>
+			</ul>
+		</div></div>
+</div>
+            </div>
+
+        </div>    <script>
+                if(window.BehaviourManager)BehaviourManager.exec();
+            </script>
+    <noscript>
+                    <img src="https://tweakers.net/318816705845986/wt?p=328,&amp;cg1=tweakers.net&amp;cg2=Tweakblogs&amp;cp1=LG" width="1" height="1" alt="" style="display:none">
+            </noscript>
+
+<!--
+Request ID: Twk-tc3-web4_201.26.1_30069_6024dbc794fab6.46749865
+Env: frontpage-production
+Server time: 0,0251 s (C: 0,0144 s, Q: 5; 0,0082 s, E: 1; 0,0216 s, M: 2; 0,0035 s, A: 0; 0,0000 s)
+Mem: 6214 KB
+
+Engines: (S) twk-tc3-web4 (1)
+-->
+        
+    </body>
+</html>
+```
