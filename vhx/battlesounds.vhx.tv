@@ -1,0 +1,2195 @@
+```<!doctype html>
+<!--ok
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Battle Sounds</title>
+
+  <meta name="title" content="Battle Sounds">
+  <meta name="description" content="Official Website of The Battle Sounds DJ Documentary Project  and Turntablist Festivals.
+
+(Official digital release, previously not available.)  #battlesounds">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://battlesounds.vhx.tv&format=json" title="Battle Sounds" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://battlesounds.vhx.tv&format=xml" title="Battle Sounds" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://battlesounds.vhx.tv">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      /* 
+   ____    ____    __       __  __   __   __   ______   __  __     
+  /\  _`\ /\  _`\ /\ \     /\ \/\ \ /\ \ /\ \ /\__  _\ /\ \/\ \    
+  \ \ \/\ \ \ \L\_\ \ \    \ \ \ \ \\ `\`\/'/'\/_/\ \/ \ \ `\\ \   
+   \ \ \ \ \ \  _\L\ \ \  __\ \ \ \ \`\/ > <     \ \ \  \ \ , ` \  
+    \ \ \_\ \ \ \L\ \ \ \L\ \\ \ \_\ \  \/'/\`\   \_\ \__\ \ \`\ \ 
+     \ \____/\ \____/\ \____/ \ \_____\ /\_\\ \_\ /\_____\\ \_\ \_\
+      \/___/  \/___/  \/___/   \/_____/ \/_/ \/_/ \/_____/ \/_/\/_/
+  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* GLOBAL  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  *, *:before, *:after {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+  }
+   
+  body {
+  	font-family: 'Open Sans',sans-serif;
+    background: #f7f7f7;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialised;
+  }
+  body.open {
+  	position: fixed;
+  }
+  h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; line-height: 1; }
+  a, a:visited {
+  	color: #ffffff;
+    text-decoration: none;
+  }
+  a:hover, a:visited:hover {
+  
+  }
+  hr {
+  	border: 0;
+    height: 1px;
+    border-bottom: 1px dotted #939488;  
+  }
+  ul, ol {	list-style: none; margin: 0; padding: 0;  }	
+  .button {
+  	display: inline-block;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px 14px;
+    background-color: #939488;
+    color: #ffffff;  
+       -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .button:hover, .button:visited:hover {
+  	background-color: #ad9926;
+  }
+  .bgone { background-color: #c2c4b6; }
+  .bgtwo { background-color: #f7f7f7; }
+  .white, .bgwhite { background-color: #FFF; }
+  .black, .bgblack { background-color: #000; }
+  
+  .contained {
+  	width: 960px;
+    margin: 0 auto;
+  }
+  .padded {
+  	padding: 20px;
+  }
+  .huge {
+  	font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+  }
+  body .mobile {
+  	display: none;
+  }
+  .pane {
+  	position: fixed;
+    display: none;
+    z-index: 15;
+    top: 125px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    padding: 0;
+    overflow-y: scroll;
+    background-color: #c2c4b6;
+  }
+  .pane .padding {
+  	padding: 20px;
+  }
+  .pane li {
+  	margin-bottom: 10px;
+  }
+  .pane a {
+  	color: #FFF;
+    font-weight: 900;
+  }
+  .pane a:hover {
+  	opacity: .8;
+  }
+  .blanket {
+  	position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 14;
+    opacity: 1;
+    background-color: rgba(255,255,255,.8);
+  }
+  @media only screen and (max-width: 767px) { 
+  	body .mobile {
+  		display: block;
+    }
+    body .mobile.menu-link {
+      display: inline-block;
+      min-width: 30px;
+    }
+    .menu-link img {
+    	width: 100%;
+      height: auto;
+    }
+  }
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* HEADER  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .header {
+  	position: relative;
+    background: #242729;
+  }
+  .header.sticky {
+  	position: fixed;
+    background: #242729;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125px;
+    z-index: 50;
+  }
+  .header h1 {
+  	text-align: center;
+    padding-bottom: 20px;
+  }
+  .header.sticky h1 {
+  	text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    width: 100%;
+    padding-bottom: 0px;
+  }
+  .nav { padding-top: 10px; overflow: hidden; }
+  .nav ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
+  .nav li { position: relative; float: left; display: block; right: 50%; margin-right: 20px; }
+  .nav li:last-child { margin-right: 0px; }
+  .nav li a {
+  	color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1em;
+  }
+  .nav li a:hover {
+  	opacity: .5;
+  }
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+  	#vhx-iframe {
+    	display: none !important;
+    }
+  	body {
+    	padding-top: 80px;
+    }
+  	.header {
+    	height: auto;
+      padding: 20px 0;
+    }
+  	.nav {
+    	display: none;
+    }
+    .nav li a {
+    	font-size: 12px;
+    }
+  }
+  
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* CONTENT (generic rules) */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .column {
+  	float: left;
+  }
+  .column.half {
+  	width: 50%;
+  }
+  .column.thirds {
+  	width: 33.333%;
+  }	
+  .column.twothirds {
+  	width: 66.666%;
+  }
+  h1.title {
+  	text-align: center;
+    color: #c2c4b6;
+    font-weight: 900;
+    padding: 20px 0;
+    text-transform: uppercase;
+  }
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	.contained {
+    	width: auto;
+      padding: 0 20px;
+    }
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+    .contained {
+    	width: auto;
+      padding: 0 20px;
+    }
+    
+    h1.huge {
+    	font-size: 30px;
+  		position: relative;
+      left: 0;
+      bottom: 0;
+    }
+  }
+  
+  
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* FEATURE ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .featurezone {
+  	background: url('');
+    padding-top: 40px;
+  }
+  .featurezone.sticky {
+  	margin-top: 125px;
+  }
+  .buyzone {
+  	
+  }
+  .buyzone .contained {
+  	padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .buyzone .contained.nomlist {
+  	padding-bottom: 50px;
+  }
+  .packages { list-style: none; margin: 0; padding: 0; }
+  
+  .package {
+  	background-color: #FFF;
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-box-shadow: 0 0 5px 5px rgba(0,0,0,.05);
+  	box-shadow: 0 0 5px 5px rgba(0,0,0,.05);
+    width: 48%;
+    float: left;
+    overflow: hidden;
+    margin-right: 19px;
+    
+   
+    
+  }
+  .package .img {
+  	float: left;
+    width: 50%;
+  	height: auto;
+   	overflow: hidden;
+    background-color: #c2c4b6;
+    position: relative;
+  }
+  .package .img .src {
+  	height: 0px;
+    padding-top: 56.25%;
+    position:relative;
+  }
+  .package .img .src img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .package .img .action {
+  	position: absolute;
+    left: 0;
+  	bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .package .img .action .button {
+  	background-color: #FFF;
+  	background-color: rgba(255,255,255,.8);
+    color: #999;
+    color: rgba(0,0,0,.5);
+    padding-left: 40px;
+    position: relative;
+  }
+  .package .img .action .button:hover {
+  	background-color: #FFF;
+    color: #000;
+  }
+  .package .img .action .button span {
+  	display: block;
+  	font-size: 1.3em;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+     -webkit-border-radius: 3px 0px 0px 3px;
+    border-radius: 3px 0px 0px 3px;
+    overflow: hidden;
+  }
+  .package .txt {
+  	float: left;
+    width: 50%;
+    position: relative;
+  }
+  .package .txt .padder {
+  	padding: 20px;
+  }
+  
+  .package .txt h1 {
+  	font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 0;
+    letter-spacing: 0;
+  }
+  .package .txt .desc {
+  	font-size: 14px;
+    overflow: hidden;
+  }
+  .package .txt .desc p {
+  	  text-overflow: ellipsis;
+      margin-top: 5px;
+  }
+  .package .txt .buttons {
+  	margin-top: 20px;
+  }
+  .package .txt .buttons .button {
+  
+  }
+  .package .img .action .button {
+  	font-size: 23px;
+    background-color: #939488;
+    color: #ffffff;
+    padding-left: 70px;
+  
+  }
+  
+  
+  
+  .package.featured {
+  
+  }
+  .package.featured .padded {
+  	padding: 20px;
+  }
+  .package.featured .img {
+  }
+  .package.featured .img .src {
+  
+  }
+  .package.featured .img .src img {
+  	display: inline;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+  }
+  .package.featured .img .src img.is-active {
+  	opacity: 1;
+  }
+  .package.featured .img .action {
+  
+  }
+  
+  .package .img .action .button span { 
+  	left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #f7f7f7;
+  	position: absolute;
+  }
+  .package .img .action .button span i {
+  	color: #939488;
+    line-height: 1;
+    font-size: 50px;
+  }
+  .package .img .action .button:hover {
+  	-webkit-box-shadow: 0 0 15px 5px rgba(255,255,255,.3);
+  	box-shadow: 0 0 15px 5px rgba(255,255,255,.3);
+    background-color: #ad9926;
+  }
+  .package .img .action .button:hover span i {
+   	color: #ad9926;
+  }
+  .package.featured .txt {
+    position: relative;
+  }
+  .package.featured .txt .padder  {
+  	padding-top: 0;
+    padding-bottom: 0;
+  }
+  .package.featured .txt h1 {
+  	font-size: 30px;
+    line-height: 37px;
+  }
+  
+  .package.featured .txt .button {
+  	font-size: 20px;
+    padding: 20px 30px;
+    display: inline-block;
+    width: auto;
+  }
+   
+  .package.wide {
+  	width: auto;
+    float: none;
+    margin-right: 0px;
+  }
+  /* read more */
+  .package a.readmore-js-toggle {
+  	color: #939488;
+    font-size: 12px;
+    padding-top: 5px;
+    text-transform: uppercase;
+  }
+  
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	.package {
+    	width: auto;
+      float: none;
+    }
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+  	.package {
+    	width: auto;
+      float: none;
+  	}
+      .featurezone.sticky {
+    	margin-top: 40px;
+    }
+  	.featurezone .contained {
+    	width: auto;
+      padding: 0 10px;
+    }
+   .package {
+    	margin-right: 0px;
+      float: none;
+      width: auto;
+      overflow: visible;
+      height: auto;
+    }
+  	.package .img {
+    	width: auto;
+      float: none;
+      min-height: 200px;
+    }
+   
+    .package .txt,
+    .package.featured .txt {
+    	width: auto;
+      float: none;
+      height: auto;
+    }
+    .package .txt .buttons,
+    .package.featured .txt .buttons {
+    	position: relative;
+      bottom: auto;
+      left: auto;
+    }
+    .package .txt .desc {
+  
+    }
+    .package.featured .txt .button {
+    	padding: 10px 20px;
+    }
+    .package .txt .padder,
+    .package.featured .txt .padder{
+    	padding: 20px 40px;
+    }
+    .package.featured .padded {
+  		padding: 0px;
+    }
+    .package.featured .txt h1, 
+    .package h1 {
+    	font-size: 22px;
+      line-height: 28px;
+    }
+  }	
+  
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* ABOUT ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .about {
+  	border-bottom: 1px solid #FFF;
+  }
+  .about .column.borderright {
+  	border-right: 1px solid #FFF;
+    margin: 100px 0 0 0;
+    padding-bottom: 100px;
+  }
+  .about .column {
+  	min-height: 400px;
+  }
+  .about .avatar {
+  	width: 210px;
+    height: 210px;
+    -webkit-border-radius: 105px;
+    border-radius: 105px;
+    border: 5px solid #f7f7f7;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: -150px;
+  }
+  .about.topmost .avatar {
+  	margin-top: -60px;
+  }
+  .about .avatar img {
+  	height: 100%;
+    width: auto;
+    display: none;
+  }
+  .about .about h3 { margin: 0; }
+  
+  .about .synopsis {
+  	font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	.synopsis {
+    	margin-right: 20px;
+    }
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+  	 .about .column {
+     	min-height: 0px;
+     }
+  	 .about .column.half {
+     	width: auto;
+     }
+     .about .column.borderright {
+     	border-right: none;
+      border-bottom: 1px solid #f7f7f7;
+      margin-bottom: 0px;
+     }
+     .about .synopsis {
+     	padding: 20px;
+     }
+  }
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* MLIST  ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .mlist {
+  	padding: 20px 0 60px 0;
+  }
+  .mlist .formholder {
+    clear: both;
+    position: relative;
+    background: #FFF;
+    display: block;
+    min-height: 50px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #242729;
+  }
+  .mlist h4 {
+  	text-transform: uppercase;
+    color: #c2c4b6;
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+  
+  .mlist form input[type="text"],
+  .mlist form input[type="email"] {
+  	position: absolute;
+    top: 4px;
+    left: 0;
+    padding: 8px 12px;
+    border: none;
+  	width: 100%;
+    font-size: 24px;
+    font-family: sans-serif;
+    outline: 0;
+  }
+  .mlist form input[type="submit"],
+  .mlist form form input[type="button"] {
+    background-color: #242729;
+    border: none;
+    color: #FFF;
+  	position: absolute;
+    right: 2px;
+    top: 2px;
+    display: block;
+    font-weight: 900;
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    height: 92%;
+  	outline: 0;
+    
+    text-transform: uppercase;
+    font-size: 21px;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing:antialiased;
+    
+     -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  .mlist form input[type="submit"]:hover,
+  .mlist form input[type="button"]:hover {
+  	background-color: #ad9926;
+  }
+  
+  
+  
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* QUOTE  ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .quotes {
+  	color: #ffffff;
+    padding-left: 20px;
+  }
+  .quotes.withavatar {
+  	margin-top: 165px;
+  }
+  .quotes li {
+  	display: none;
+  }
+  .quotes li:first-child {
+  	display: inline;
+  }
+  .quotes li h1 {
+  	font-size: 30px;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-weight: 900;
+  }
+  .quotes li h1:before {
+  	content: open-quote;
+  }
+  .quotes li h1:after {
+  	content: close-quote;
+  }
+  .quotes li h3 {
+  	font-size: 20px;
+    font-weight: 700px;
+    margin-top: 20px;
+  }
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+    .quotes {
+    	margin-bottom: 50px;
+    }
+  	.quotes.withavatar {
+    	margin-top: 0px;
+    }
+    .quotes li h1 {
+    	font-size: 20px;
+    }
+  }
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /*  SOCIAL ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .cast {
+  	padding-bottom: 100px;
+    background: url(https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/78d6f387-c0a6-4d7e-a2f0-e029f82b45d5/Shiftee+shoot.jpg) top;
+   }
+  .cast.fullbg {
+  	background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cast .contained {
+  
+  }
+  .cast .content  {
+  	width: 680px;
+    margin: 0 auto;
+  }
+  
+  .cast .content h3 {
+  	text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 900;
+  }
+  .cast .content pre {
+  	font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+    white-space: pre-line;
+  }
+  
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+   .cast .content {
+   	width: auto;
+   }
+  }
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /*  UPDATES ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .updates .contained {
+  	min-width: 960px;
+    width: 80%;
+  }
+  .updates .wide {
+    width: 60%;
+  }
+  .updates .doubleskinny {
+  	width: 40%;
+  }
+  .updates .skinny {
+    width: 20%;
+  }
+  .updates .padded {
+  	padding: 10px 30px 0 30px;
+  }	
+  .updates .module {
+  	margin-bottom: 40px;
+  }
+  .updates a:hover {
+  	text-decoration: underline;
+  }
+  .updates .meta a:hover {
+  	text-decoration: none;
+    opacity: .5;
+  }
+  .updates .promo {
+  	border-bottom: 1px solid #f7f7f7;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+    height: 157px;
+  }
+  .updates .border-bottom {
+  	border-bottom: 1px solid #f7f7f7;
+  }
+  .updates .promo h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #f7f7f7;
+    font-size: 15px;
+  }
+  .updates .topper {
+  	text-align: center;
+    margin-bottom: 25px;
+  }
+  .updates .topper img {
+  	max-height: 30px;
+    width: auto;
+  }
+  .updates .topper a:hover {
+  	opacity: .5;
+  }
+  .updates h1.title {
+  	color: #f7f7f7;
+  }
+  /* TUMBLR */
+  .blog .entry {
+  	margin-bottom: 40px;
+  }
+  .blog .entry a:hover {
+  	text-decoration: underline;
+  }
+  .blog .entry .title h1 {
+  	margin-top: 10px;
+  }
+  .blog .entry img {
+  	max-width: 100%;
+    height: auto;
+  }
+  .blog .entry.photo img {
+  	width: 100%;
+    height: auto;
+  }
+  .blog .entry .thevideo {
+  	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 */
+  	height: 0;
+  }
+  .blog .entry .thevideo iframe,
+  .blog .entry .thevideo object,
+  .blog .entry .thevideo embed {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  }
+  .blog .timestamp,
+  .blog .timestamp a {
+  	font-weight: 900;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-right: 20px;
+  }
+  .blog .timestamp a:hover {
+  	opacity: .5;
+    text-decoration: none;
+  }
+  .blog .tags {
+  	margin-bottom: 10px;
+    display: none;
+  }
+  .blog .tags a {
+  	display: inline-block;
+    font-weight: normal ;
+    text-transform: uppercase;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .blog .tags a:hover {
+  	opacity: .5;
+    text-decoration: none;
+  }
+  .blog .readmore.button {
+  	background-color: #ad9926;
+  }
+  .blog .readmore.button:hover {
+  	background-color: #000;
+  }
+  /* FACEBOOK */
+  
+  .updates .promo .like-button {
+  	width: 47px;
+    margin: 0 auto;
+  }
+  /* TWEETS */
+  .updates .tweets {
+  	padding-bottom: 1em;
+  }
+  .updates .tweets li {
+  	margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .updates .tweets li a {
+  	color: #f7f7f7;
+  }
+  
+  .updates .tweets li .meta {
+  	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 3px;
+  }
+  .updates .tweets li .meta a {
+  	color: #FFF;
+    opacity: .8;
+    font-weight: normal;
+  }
+  
+  /* MLIST */
+  .updates .mlist {
+  	padding-bottom: 20px;
+    padding-top: 0px;
+  }
+  .updates .mlist form input[type="text"], 
+  .updates .mlist form input[type="email"] {
+  	position: relative;
+    clear: both;
+    top: auto;
+    left: auto;
+    font-size: 14px;
+  }
+  .updates .mlist form input[type="submit"], 
+  .updates .mlist form input[type="button"] {
+  	position: relative;
+    top: auto;
+    right: auto;
+    clear: both;
+  	width: 100%;
+    font-size: 15px;
+  }
+  .updates .mlist .formholder {
+  	padding: 2px;
+  }
+  /* INSTAGRAM */
+  
+  .instagram .entry {
+  	font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0px;
+    width: 50%;
+    float: left;
+  }
+  .instagram .padding {
+  	padding: 0 5px 5px 0;
+  }
+  .instagram .entry a.main {
+  	display: block;
+  }
+  .instagram .entry img {
+  	width: 100%;
+    height: auto;
+  }
+  .instagram .entry a.main:hover {
+  	opacity: .5;
+  }
+  .instagram .entry p {
+  	margin-top: 5px;
+    display: none;
+  }
+  .instagram .avatar {
+  	width: 20px;
+    height: 20px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  
+  /* TABLET */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	.updates .contained {
+    	width: auto;
+      min-width: 0px;
+      padding: 0;
+    }
+    .updates .promo {
+    	height: auto;
+      height: 200px;
+    }
+    .updates .skinny {
+    	width: 40%;
+    }	
+    .updates .skinny.lastcol {
+    	float: none;
+      clear: both;
+      width: auto;
+    }
+    .instagram .entry {
+    
+    }
+    .updates .padded {
+    	padding: 0;
+      margin: 10px 20px 0 20px;
+    }	
+  }
+  /* iPHONE VERTICAL */
+  @media only screen and (max-width: 767px) {
+  	.updates .contained {
+    	width: auto;
+      min-width: 0px;
+    }
+    .updates .wide,
+    .updates .skinny {
+      	width: auto;
+     }
+     /* keep updates shorter */
+     .blog .entry:nth-child(n+3) { 
+     	display: none;
+     }
+     .blog .entry:nth-child(n+3) { 
+     	display: none;
+     }
+     .updates .tweets li:nth-child(n+5) { 
+     	display: none;
+     }
+     .updates .instagram .entry:(n+3) { 
+     	display: none;
+     }
+  }
+  
+  
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* FOOTER  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .footer {
+  	background-color: #000000;
+    color: #000000;
+    padding: 20px 0;
+  }
+  .footer .helpers {
+  	overflow: hidden;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .footer .helpers ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
+  .footer .helpers li { position: relative; float: left; display: block; right: 50%; margin-right: 20px; }
+  .footer .helpers li:last-child { margin-right: 0px; }
+  .footer .helpers li a:hover { opacity: .5; }
+  .footer .poweredby { text-align: center; margin-top: 20px; }
+  .footer .poweredby img { opacity: .4; max-height: 40px; width: auto; }
+  .footer .poweredby a:hover img { opacity: 1; }
+  
+  </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      var _gaq = _gaq || [];
+  
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+        ga('create', 'UA-19540423-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'battlesounds');
+      ga('send', 'pageview');
+  
+      var Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_SENT_FREE_COPIES":"admin_sent_free_copies","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_SIGNUP_COMPLETE":"authentication","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_LOADEDDATA":"Video Content Loaded","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_FULLSCREEN":"Fullscreen Enabled/ Disabled","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD_TRIGGER":"addwatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE_TRIGGER":"removewatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List ","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_CURRENT_USER_ID":"current_user_id","PROPERTY_CURRENT_USER_EMAIL":"current_user_email","PROPERTY_CURRENT_SITE_ID":"current_site_id","PROPERTY_CURRENT_SITE_KEY":"current_site_key","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+        SITE_GANALYTICS_ENABLED: false
+      };
+  
+        Tracking.SITE_GANALYTICS_ENABLED = true;
+          ga('create', '', 'auto', { 'name': 'site' });
+  
+        ga('site.require', 'displayfeatures');
+        ga('site.set', 'dimension1', 'battlesounds');
+        ga('site.send', 'pageview');
+  
+        var _vhx = {
+          environment: 'production',
+          site: { id: '12263', domain: 'battlesounds.vhx.tv', host: 'battlesounds.vhx.tv' },
+          geo:  { country: 'us' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      var _current_user = {"id":null,"email":null,"name":null},
+          _current_site = {"id":12263,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"battlesounds"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,800,700,600' rel='stylesheet' type='text/css'>
+<header class="header sticky">
+	<div class="contained">
+  	<nav class="nav">
+    	<ul>
+      	<li class=""><a href="/#buy" class="scroll">Buy Movie</a></li>
+				<li><a href="/#about" class="scroll">Synopsis</a></li>
+        
+        <li><a href="/#updates" class="scroll">Updates</a></li>
+        <li><a href="mailto:btlsnds@battlesounds.com">Contact</a></li>
+      </ul>
+    </nav>
+    <h1 class="huge">
+    	<a class="menu-link mobile" href="#"><img src="https://dr56wvhu2c8zo.cloudfront.net/yewknee/assets/76cb1a33-0596-491a-bcce-f1e64abea067/hamburger.svg"></a>
+      <a href="/">Battle Sounds</a>
+    </h1>
+  </div>
+  <div class="clear"></div>
+</header>
+
+<div class="mobile pane">
+	<div class="padding"></div>
+</div>
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <article class="featurezone sticky">
+      <section class="buyzone ">
+        <a name="buy"></a>
+        <div class="contained ">
+      
+          
+          <ul class="packages">
+            <li class="package  wide">
+              <div class="padded">
+                <div class="img">
+                  <div class="src"><img src="https://vhx.imgix.net/battlesounds/assets/67ae2fea-cb6b-498e-abac-9ad4c71091d3/Full+mixbig.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=360&amp;w=640"></div>
+                  <div class="clear"></div>
+                </div>
+                <div class="txt featured">
+                  <div class="padder">
+                    <h1>The Full Mix </h1>
+                    <div class="desc"><p> All the digital releases:</p>
+
+<p>• Battle Sounds 1997 Whitney Biennial Cut 
+<br />• X-ersize #1 (feat: the X-men) 
+<br />• The Turntablist Festivals 1-5 </p>
+
+<p>running time: 6.5 hours + 
+<br />∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞</p>
+
+<p>UNLIMITED STREAMING included w/purchase ! 
+<br />Via VHX, available online and/or the VHX app (iOs), Roku, Chromecast, Xbox360, PS4, Apple TV and more.
+</p></div>
+    
+                    <div class="buttons">
+                      <a href="/checkout/the-full-mix-whiteney-cut-x-ersize-1-complete-turntablist-festival-series?purchase=1" class="button">Buy $25</a>                  
+                    </div>
+    
+                  </div> <!-- .padded -->
+                </div> <!-- .txt -->
+               <div class="clear"></div>
+              </div> <!-- .padded -->
+            </li> <!-- .package -->
+            <li class="package featured wide">
+              <div class="padded">
+                <div class="img">
+                  <div class="src" >
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/b59104d7-f77e-487d-ab22-347c468ef2a9/BTL+1.jpeg">
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/c32a776d-cfa0-442f-8dd5-f602a66b8746/BTL_Still_Theo.jpg">
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/ae51fa25-537e-4b00-a7df-68f46b511a93/BTL_Still_DSt.jpg">
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/a1a88050-acb9-4471-88fa-dea538f67d0b/BTL_Still_Q_all.jpg">
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/c0975a47-7985-4c75-aec8-79489eaa759e/BTL_still_8ball.jpg">
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/bd13f267-5183-4498-a54b-7448b797a6c4/BTL_still_RR.jpg">
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/1cd48eb6-4699-4080-9458-baef0c99b6ba/BTL_still_JoeyS.jpg">
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/ffab79d8-d8b6-46cd-8b38-a7457ce02a88/BTL_still_Ald2.jpg">
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/5c971b14-7463-4502-a2a5-8b8ab141e5a6/BTL_Stiil+_BAM.jpg">
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/5e36fc04-491c-4caf-bbea-346e60edc67e/BTL_Still_MMMAP.jpg">
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/6676a219-9e54-4b27-a3db-a135db5dd73e/BTL_still_Steved.jpg">
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/043875e4-c354-428a-a53b-7426542defa0/BTL_still_rob2.jpg">
+                      <img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/1c21a8ec-0332-4b13-9036-aaf00449ecf8/BTL_Still+Disk.jpg">
+                      <img src="">
+                      <img src="">
+                  </div>
+                  <div class="action">
+                    <a class="button"  data-preview-url="11375" href="11375"><span class="icon"><i class="icon-play-circle"></i></span> Watch Trailer</a>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="txt featured">
+                  <div class="padder">
+                    <h1>Battle Sounds &quot;1997 Whitney Biennial Cut&quot;</h1>
+                    <div class="desc"><p>Battle Sounds Hip-Hop DJ Documentary </p>
+
+<p>The first of it's kind documentary about Hip-Hop DJ's, primarily those that participated in competitive battles (later to be known as Turntablists). Shot over a period of three years, the project captured the grass root movement efforts of DJ culture at a pivotal moment in it’s evolution. </p>
+
+<p>Features DJs:
+<br />Grand Wizard Theodore, Grandmixer DSt., Aladdin, Steve D, Q-bert, Mixmaster Mike, Apollo, Rob Swift, Roc Raider, Mr. Sinister, 8-ball  and more. </p>
+
+<p>This is the first and only publicly released version of the fim.  It was created for the The Whitney Museum of American Art in New York City, a part of its historic Biennial exhibit, which features "a collection of the most relevant contemporary american art work". Excerpts from a longer unfinished version of the film appear in this version of the project. Proceeds from the sale of this production go toward releasing more unseen and finished versions of the film. There are over 200 hours of archives recorded.</p>
+
+<p>running time: 60 minutes +</p>
+
+<p>∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞</p>
+
+<p>UNLIMITED STREAMING included w/purchase ! 
+<br />Via VHX, available online and/or the VHX app (iOs), Roku, Chromecast, Xbox360, PS4, Apple TV and more.</p></div>
+    
+                    <div class="buttons">
+                      <a href="/checkout/battle-sounds-hip-hop-dj-documentary-the-1997-whitney-biennial-cut?purchase=1" class="button">Buy $10</a>                  
+                    </div>
+    
+                  </div> <!-- .padded -->
+                </div> <!-- .txt -->
+               <div class="clear"></div>
+              </div> <!-- .padded -->
+            </li> <!-- .package -->
+            <li class="package  wide">
+              <div class="padded">
+                <div class="img">
+                  <div class="src"><img src="https://vhx.imgix.net/battlesounds/assets/91565985-ebed-423c-b797-24f60ac32a07/X-ER_Thumb.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=360&amp;w=640"></div>
+                  <div class="action">
+                    <a class="button"  data-preview-url="11374" href="11374"><span class="icon"><i class="icon-play-circle"></i></span> Watch Trailer</a>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="txt featured">
+                  <div class="padder">
+                    <h1>X-ersize #1</h1>
+                    <div class="desc"><p>Featuring DJs  Roc Raida, Rob Swift & Mr. Sinista</p>
+
+<p>This underground documentary, recorded in 1996, follows NYC baddest DJ crew the X-men ( later known as the X-ecutioners). Audiences get a rare, never before seen view of the world of this new form of DJ. From practice to strategy to performance, this film give you an authentic look at the life of a Turntablist, then know as "Battle DJs".</p>
+
+<p>Note : This is a new re-mastered version, previously only available on VHS via Fatbeats Records. The original was edited by Director John Carluccio using two VCRs!  </p>
+
+<p>running time: 35 minutes
+<br />∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞</p>
+
+<p>UNLIMITED STREAMING included w/purchase ! 
+<br />Via VHX, available online and/or the VHX app (iOs), Roku, Chromecast,  Xbox360, PS4, Apple TV and more.</p></div>
+    
+                    <div class="buttons">
+                      <a href="/checkout/x-ersize-1?purchase=1" class="button">Buy $10</a>                  
+                    </div>
+    
+                  </div> <!-- .padded -->
+                </div> <!-- .txt -->
+               <div class="clear"></div>
+              </div> <!-- .padded -->
+            </li> <!-- .package -->
+            <li class="package  wide">
+              <div class="padded">
+                <div class="img">
+                  <div class="src"><img src="https://vhx.imgix.net/battlesounds/assets/a53aa455-2873-4974-b554-8374994b9ec5/BTL_TF2.jpeg?auto=format%2Ccompress&amp;fit=crop&amp;h=360&amp;w=640"></div>
+                  <div class="action">
+                    <a class="button"  data-preview-url="9816" href="9816"><span class="icon"><i class="icon-play-circle"></i></span> Watch Trailer</a>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <div class="txt featured">
+                  <div class="padder">
+                    <h1>The Turntablist Festivals  | 1996-2001</h1>
+                    <div class="desc"><p>The full series of 5 videos</p>
+
+<p>Featuring DJs:
+<br />Q-bert, Babu, Roc Raida, Rob Swift, Mr. Sinsta, Precision, Radar, Mr. Dibbs, T-Rock, Z-trip, Mysterio, Dummy, Rakus, Evil Dee, Neil Armstrong, Roli Rho, Daddy Dog, Kuttin Kandi, Do Boy, Shark, Slyce, Excess, IXL, Precision, Sugarcuts, Spiktacular, J-Smoke, Supa Dave, Impereal, Trajik, Faust, Ginsu D, Rod, Marz1, Big Wiz, and the 1999 Battle Sounds DJ Battle (won by Develop). </p>
+
+<p>Over 5 hours of turntablist performances.
+<br />• Turntablist Festival 1, 1996
+<br />• Turntablist Festival 2, 1997
+<br />• Turntablist Festival 3, 1998
+<br />• Turntablist Festival 4, 2000
+<br />• Turntablist Festival 5, 2001</p>
+
+<p>As part of Director John Carluccio's goal to bring greater attention to this growingly sophisticated art form, he began coordinating The Battle Sounds Turntablist Festival in 1996. The festival provided a non-competitive venue for unknown and established DJs. </p>
+
+<p>On November 21st, 1996 at S.O.B's in New York City, a sold-out audience witnessed Turntablist Festival I featuring the X-men, The 5th Platoon, and the first open turntable showcase. From 1997 to 2001, festivals were held at New York venues, including the Knitting Factory, Speed, and Symphony Space.  </p>
+
+<p>running time: 5 hours + 
+<br />∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞</p>
+
+<p>UNLIMITED STREAMING included w/purchase ! 
+<br />Via VHX, available online and/or the VHX app (iOs), Roku, Chromecast, Xbox360, PS4, Apple TV and more.</p></div>
+    
+                    <div class="buttons">
+                      <a href="/checkout/battle-sounds-turntablist-festivals-1-5?purchase=1" class="button">Buy $15</a>                  
+                    </div>
+    
+                  </div> <!-- .padded -->
+                </div> <!-- .txt -->
+               <div class="clear"></div>
+              </div> <!-- .padded -->
+            </li> <!-- .package -->
+            <li class="package  wide">
+              <div class="padded">
+                <div class="img">
+                  <div class="src"><img src="https://vhx.imgix.net/battlesounds/assets/e1ec1f46-853e-4da9-a543-b23c953577d0/documix.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=360&amp;w=640"></div>
+                  <div class="clear"></div>
+                </div>
+                <div class="txt featured">
+                  <div class="padder">
+                    <h1>The Docu Mix</h1>
+                    <div class="desc"><p>The two documentary films:
+<br />• Battle Sounds 1997 Whitney Biennial Cut 
+<br />• X-ersize #1 (feat: the X-men) </p>
+
+<p>The critically acclaimed art documentary about the history of battle DJing  aka "Turntablism", and the underground film about a NYC top DJ crew, The X-men ( Roc Raida, Rob Swift, Mr. Sinista).</p>
+
+<p>running time: 95 min + 
+<br />∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞</p>
+
+<p>UNLIMITED STREAMING included w/purchase ! 
+<br />Via VHX, available online and/or the VHX app (iOs), Roku, Chromecast, Xbox360, PS4, Apple TV and more.</p>
+
+<p></p></div>
+    
+                    <div class="buttons">
+                      <a href="/checkout/battle-sounds-hiphop-dj-documentary-97-whitney-cut-x-ersize-1?purchase=1" class="button">Buy $15</a>                  
+                    </div>
+    
+                  </div> <!-- .padded -->
+                </div> <!-- .txt -->
+               <div class="clear"></div>
+              </div> <!-- .padded -->
+            </li> <!-- .package -->
+          
+         </ul>
+        
+        <div class="clear"></div>
+        </div>
+      </section>
+      
+      <section class="mailinglist">
+      
+        <div class="contained">
+            
+            <div class="mlist">
+              <h4>Get updates ASAP | New Release Information</h4>
+              <div class="formholder" data-contact-form></div>
+              <div class="clear"></div>
+            </div>
+                 
+            
+        </div>
+      </section>
+    
+    </article>
+    
+    <section class="about bgone">
+    	<a name="about"></a>
+      <div class="contained">
+      
+      	<div class="column half borderright">
+        	<div class="avatar backstretch">
+          	<img src="https://dr56wvhu2c8zo.cloudfront.net/battlesounds/assets/1fdf72db-dbb9-41d6-82a8-e007829212de/Carluccio_Profile.jpg">
+          </div>
+          <div class="synopsis">
+          	Battle Sounds is back  Welcome, longtime fans and newcomers.  For the first time ever, you can now officially download and stream all the Battle Sounds releases that were previously only available on VHS.  With every purchase you will be supporting the fundraising efforts to release new, never before seen films pulled from the over 200 hours of archives.  In addition, all new customers will be added to an exclusive fan group with early access and discounts to future products.Thank you for your support, and stay tuned for new releases.          – Director John Carluccio
+          </div>
+         
+        </div>	<!-- .column -->
+        
+        <div class="column half quotes withavatar">
+        	<ul>
+          	<li>
+            	<div class="padded">
+      	      	<h1>This is the most complete and dense document on the art of DJing in existence. It ups the ante on the idea that the DJ's use of the turntable is just as relevant and important in the world of music as the trumpet player or the guitarist, and it furthers the notion that DJing is the new jazz.</h1>
+    	        	<h3>&mdash; Sam MacAbee (Lumpen Magazine)</h3>
+              </div>
+            </li>
+          </ul>
+        </div> <!-- .column -->
+        
+        <div class="clear"></div>
+      </div> <!-- .contained -->
+    </section> <!-- .about -->
+    
+    
+    
+    <section class="updates bgone">
+    	<a name="updates"></a>
+      <h1 class="title">Updates</h1>
+    	<div class="contained">
+    
+      	<div class="column wide">
+        	<div class="padded">
+          
+          	
+          	<div class="module blog">
+    		    	<div id="blog" data-tumblr="battlesoundsdoc" data-tumblr-limit="5"></div>
+            </div>
+            
+            
+          </div>
+        </div>
+        
+        <div class="column doubleskinny">
+      		<div class="padded">
+              <div class="module promo">
+                <h4>Get updates ASAP | New Release Information</h4>
+                <div class="mlist">
+                <div class="formholder" data-contact-form></div>
+                <div class="clear"></div>
+                </div>
+              </div>
+            
+            
+              <div class="module facebook promo">
+                <div class="box">
+                  <h4>Get updates on FB</h4>
+                   <div class="like-button">
+                     <div class="fb-like" 
+                       data-href="https://www.facebook.com/BattleSoundsDocumentary" 
+                       data-share="false" 
+                       data-layout="box_count" 
+                       data-show-faces="false"></div>
+                     <div id="fb-root"></div>
+                   </div>
+                   <div class="clear"></div>
+                 </div> <!-- .promo -->
+              </div>
+            
+              <div class="module twitter border-bottom">
+                <div class="topper">
+                  <h1><a href="http://twitter.com/battlesounds"><img src="https://dr56wvhu2c8zo.cloudfront.net/yewknee/assets/cf4c2b2c-38f2-4235-9f85-43cf9588c44e/twitter-bird.png"></a></h1>
+                </div>
+                <div class="posts tweets">
+                 <ul>
+                     <li>
+                       <div class="text">
+                         RT <a target='_blank' href='https://twitter.com/DJ_Mista_B'>@DJ_Mista_B</a>: I had the honor of meeting <a target='_blank' href='https://twitter.com/johncarluccio'>@johncarluccio</a> of <a target='_blank' href='https://twitter.com/battlesounds'>@battlesounds</a>. Def let him know how much those vids… <a target='_blank' href='https://t.co/IqU6eykfjL'>https://t.co/IqU6eykfjL</a>
+                         <div class="meta"><a href="http://twitter.com/BattleSounds/statuses/911345958197301249" target="_blank">posted over 3 years ago</a></div>  
+                       </div>               
+                     </li>
+                     <li>
+                       <div class="text">
+                         RT <a target='_blank' href='https://twitter.com/djmikenyce'>@djmikenyce</a>: ROC RAIDA COLLECTION ON DECK. 
+<a target='_blank' href='https://twitter.com/search?q=%23riprocraida'>#riprocraida</a> 
+shout outs to brolicarm <a target='_blank' href='https://twitter.com/battlesounds'>@battlesounds</a> and everyone… <a target='_blank' href='https://t.co/sPfCuSsTXX'>https://t.co/sPfCuSsTXX</a>
+                         <div class="meta"><a href="http://twitter.com/BattleSounds/statuses/911345746586341376" target="_blank">posted over 3 years ago</a></div>  
+                       </div>               
+                     </li>
+                     <li>
+                       <div class="text">
+                         <a target='_blank' href='https://twitter.com/search?q=%23latinos'>#latinos</a> <a target='_blank' href='https://twitter.com/search?q=%23Hispanos'>#Hispanos</a>, subtítulos en español está disponible en los Battle Sounds  <a target='_blank' href='https://twitter.com/search?q=%23turntablist'>#turntablist</a> <a target='_blank' href='https://twitter.com/search?q=%23dj'>#dj</a> Vea cómo ganar un… <a target='_blank' href='https://t.co/7abw1bmLZ3'>https://t.co/7abw1bmLZ3</a>
+                         <div class="meta"><a href="http://twitter.com/BattleSounds/statuses/809102300849508354" target="_blank">posted about 4 years ago</a></div>  
+                       </div>               
+                     </li>
+                     <li>
+                       <div class="text">
+                         Para todos mis fans <a target='_blank' href='https://twitter.com/search?q=%23latinos'>#latinos</a> <a target='_blank' href='https://twitter.com/search?q=%23Hispanos'>#Hispanos</a>, una nueva función de subtítulos en español está disponible en los Battle So… <a target='_blank' href='https://t.co/mDVaCNO9iH'>https://t.co/mDVaCNO9iH</a>
+                         <div class="meta"><a href="http://twitter.com/BattleSounds/statuses/809101233004879872" target="_blank">posted about 4 years ago</a></div>  
+                       </div>               
+                     </li>
+                 </ul>
+                </div> <!-- .posts -->
+              </div>
+            
+              <div class="module instagram">
+                <div class="topper">
+                  <h1><a href="http://instagram.com/battlesounds"><img src="https://dr56wvhu2c8zo.cloudfront.net/yewknee/assets/00541a6f-4bf4-4f7a-b49e-20e7350fe961/instagram-logo.png"></a></h1>
+                </div>
+                
+                <div id="instagram_feed"><a href="http://instagram.com/battlesounds">Loading @battlesounds</a></div>
+              </div>
+            
+          </div>
+        </div>
+        
+        
+        <div class="clear"></div>
+      </div>
+    </section>
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <footer class="footer">
+	<div class="contained">
+  	<div class="helpers">
+    	<ul>
+      	<li><a href="/buy">Buy the Film</a></li>
+        <li><a href="/tos">Terms of Service</a></li>
+        <li><a href="/faq">Help</a></li>
+        <li><a href="/login">Watch Now</a></li>
+      </ul>
+    </div>
+    <div class="poweredby">
+    <a href="http://vhx.tv"><img src="http://dr56wvhu2c8zo.cloudfront.net/assets/powered_by_vhx_white.png"></a>
+    </div>
+  </div>
+</footer>
+
+<div class="blanket"></div>
+    <div class="clear"></div>
+  </section>
+
+  <script>
+    var _site = {
+      color:        '#979ea6',
+      key:          'battlesounds',
+      facebook_url: 'https://www.facebook.com/BattleSoundsDocumentary',
+      twitter_name: 'battlesounds'
+    };
+  
+    var _config = {
+      country_code: 'us'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/playful/assets/69d3a182-3367-40ea-8a81-4682ee116301/readmore.min.js"></script>
+  
+	<script>
+	  var _flash = {
+	    alert:  "",
+	    notice: ""
+	  };
+	
+	   $('.packages .desc').readmore({
+	  	  speed: 75,
+	    	maxHeight: 113
+	  	});
+	    
+	      $(document).ready(function() {
+	        var VHXJS = VHXJS || {};
+	  
+	  /* theme js object
+	  ---------------------------------------------*/
+	  VHXJS = {
+	  	mobilePaneHeight: 0,
+	    slideshowTimer: 0,
+	    slideshowTimeout: 5000,
+	    slideshowCount: 0,
+	    slideshowSafetyTimer: 0,
+	  	/* initiate
+	    ---------------------------------------------*/
+	    init: function() {
+	     // make header scroll to targets
+	     this._moveiFrame();
+	  	 this._startSlideshow();
+	     this._backstretch();
+	     this._setupQuotes();
+	     this._bindScrollEvents();
+	     this._setupInnerNav();
+	     this._setupMobileNav();
+	     this._fixMailingList();
+	    },
+	    _moveiFrame: function(){
+	    	if (screen.width < 500){
+	  	    $("#vhx-iframe").hide();
+	    	} else {
+	  		  $("#vhx-iframe").css("top","0px");
+	      }
+	    },
+	  	_buyzoneAlterations: function(){
+	    	// make sure the "src" div is as tall as it should be
+	    	/*$(".package.featured .src").height($(".package.featured .img").height());
+	      
+	      // loop through all non-.featured packages, backstretch them
+	    	$(".package:not(.featured)").each(function(ind){
+	      	var theimg = $(this).find(".img .src img:eq(0)").attr("src");
+	        if (theimg){
+	      		$(this).find(".img .src").backstretch(theimg);
+	        }
+	      });
+	      
+	      // if there are only 2 packages, make the second wide
+	      if ($(".package").length == 2){
+	      	$(".package:eq(1)").addClass("wide");
+	      }*/
+	    },
+	    _startSlideshow: function() {
+	  	  $(".package.featured .src img:eq(0)").addClass("is-active");
+	      // only start our timer if we need to
+	      if ($(".package.featured .src").children().length > 1){
+	        VHXJS.slideshowCount = $(".package.featured .src").children().length -1;
+	        VHXJS._startSlideshowTimeout();
+	       }
+	      },
+	      _startSlideshowTimeout: function(){
+	        VHXJS.slideshowTimer = setTimeout(function(){ VHXJS._slideshowNext(); }, VHXJS.slideshowTimeout);
+	      },
+	      _slideshowNext: function(){
+	        var $currentElem = $(".package.featured .src img.is-active");
+	        var current = $currentElem.index();
+	        var total = VHXJS.slideshowCount;
+	        var next = parseInt(current) + 1;
+	        if (next > total){ next = 0; }
+	  
+	        $currentElem.removeClass("is-active");
+	        $(".package.featured .src img:eq("+next+")").addClass("is-active");
+	  
+	        VHXJS._startSlideshowTimeout();
+	    },
+	    _backstretch: function(){
+	    	// backstretch anything that asks for it
+	      $(".backstretch").each(function(ind){
+	      	var theimg = $(this).find("img:eq(0)").attr("src");
+	        if (theimg){
+	      		$(this).backstretch(theimg);
+	        }
+	      });
+	    },
+	    _setupQuotes: function(){
+	    	if ($(".quotes li").length > 1){
+	  			$(".quotes ul").cycle();
+	      }
+	    },
+	    _bindScrollEvents: function() {
+	       $('.scroll').live('click',function(event) {
+	        	event.preventDefault();
+	         
+	          var target = $(this).attr('href').replace("/#","");
+	  				console.log(target);
+	          
+	  	       VHXJS._scrollToTarget(target);
+	           
+	           if ($("body").hasClass("open")){
+	           	VHXJS.__closeMobileNav();
+	           }
+	        });
+	  	},
+	    _scrollToTarget: function(target){
+	    	 if (target === 'top') {
+	  				pos = 0;
+	       }
+	       else {
+	  	     	pos = $('a[name^='+target+']').offset().top - $(".header").height();            
+	  		 }
+	              
+	  		$('body,html').animate({scrollTop: pos+'px'}, 300, function(){
+	  			window.location.hash = "#"+target;
+	  		});
+	    },
+	   	_setupInnerNav: function(){
+	   		if ($(".updates .innernav li").length > 1){
+	      	var $innernav = $(".updates .innernav li a");
+	        
+	      	$(".updates .innernav li a").click(function(){
+	        	var targ = $(this).prop("rel");
+	          
+	        	$innernav.removeClass("active");
+	          $(this).addClass("active");
+	          
+	          $(".updates .content .page").addClass("hidden");
+	          $(".updates .content .page[rel='"+targ+"']").removeClass("hidden").show();
+	          
+	          return false;
+	        });
+	      }
+	   	},
+	    __closeMobileNav: function(){
+	      $("body").stop().removeClass("open");
+	      $(".mobile.pane").stop().animate({"top":(VHXJS.mobilePaneHeight * -1)+$(".header").outerHeight()},300);
+	      $(".blanket").hide();
+	    },
+	    _setupMobileNav: function(){
+	    	// put the nav into the mobile pane
+	      var navhtml = $("header nav").html();
+	      $(".mobile.pane .padding").append(navhtml);
+	      VHXJS.mobilePaneHeight = $(".mobile.pane").height();
+	      
+	      if (VHXJS.mobilePaneHeight > 0){
+	        $(".mobile.pane").css({"top": (VHXJS.mobilePaneHeight * -1) - $(".header").outerHeight(), "display":"block"});
+	        
+	         $("header .menu-link").click(function(ev){
+	          if (!$("body").hasClass("open")){
+	            $("body").stop().addClass("open");
+	            $(".mobile.pane").stop().animate({"top":$(".header").outerHeight()},300);
+	            $(".blanket").css("display","block");
+	          } else {
+	            VHXJS.__closeMobileNav();
+	          }
+	          ev.preventDefault();
+	        });
+	        $(".blanket").on('click',function(){
+	          VHXJS.__closeMobileNav();
+	        });
+	      } else {
+	      	$(".menu-link").remove();
+	      }
+	    },
+	  	_fixMailingList: function(){
+	    	$(".mailinglist form").append("<div class='clear'></div>");
+	    }
+	  };
+	  
+	  (function(window,document,$,VHXJS) {
+	  	VHXJS.init();
+	  })(window,document,jQuery,VHXJS);
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  /* ------------------------------------------------------------------------
+	  INSTAGRAM
+	  /* ------------------------------------------------------------------------ */
+	  var VHXInstagram = {
+	  
+	    tag: false,
+	    username: false,
+	    client_id: "7b13b59bd3fd4b0cae2f46598798feee",
+	    client_secret: "7f63b6681e00460aab47d26494826dfb",
+	    
+	    init: function(args) {
+	  
+	      this.username = args.username;
+	      this.usernamesafe = args.username.replace(/-/g,'');
+	  		
+	      var username = args.username;
+	      var usersafe = args.username.replace(/-/g,'');
+	  
+	      var endpoint = "https://api.instagram.com/v1/users/search?q=" + args.username;
+	  
+	      var data = {
+	        client_id: this.client_id,
+	        q: args.username
+	      }
+	      endpoint = endpoint + "&client_id=" + VHXInstagram.client_id;
+	      if (args.limit){
+	        data.count = args.limit;
+	      }
+	  
+	      $.ajax({
+	        type: "GET",
+	        url: endpoint,
+	        dataType: "jsonp",
+	        data: data
+	      })
+	      .done(function(returnData) {
+	  			 	VHXInstagram.onUser(returnData);
+	  		});
+	    },
+	  	onUser: function(data){
+	    	// sadly, we have to ask Instagram what a User ID is - this means we hit them up twice
+	      var userid = 0;
+	  
+	  		if (data.meta.code == 200){
+	  	    userid = data.data[0]['id'];
+	        var feedendpoint = "https://api.instagram.com/v1/users/"+userid+"/media/recent/?client_id=" + VHXInstagram.client_id;
+	  
+	  			var feeddata = {
+	          client_id: VHXInstagram.client_id
+	        }
+	        
+	        $.ajax({
+	          type: "GET",
+	          url: feedendpoint,
+	          dataType: "jsonp",
+	          data: feeddata
+	        })
+	        .done(function(returnData) {
+	        	VHXInstagram.onLoad(returnData);
+	        });
+	        
+	      } else {
+	      	VHXInstagram.hideLoader();
+	      }
+	      
+	    },
+	    onLoad: function(data) {
+	       
+	      if (data.meta.code == 200) {
+	        var feed = {
+	          url: 'http://instagram.com/' + this.username,
+	          posts: []
+	        };
+	  	  var htmlvar = "";
+	  	  	
+	        
+	        $(data.data).each(function(i, post) {
+	  
+	          /*feed.posts.push({
+	            username: (post.caption != null) ? post.caption.from.username : null,
+	            caption:  (post.caption != null) ? post.caption.text : null,
+	            link: post.link,
+	            filter: post.filter,
+	            timestamp: post.created_time,
+	            image: post.images.standard_resolution.url,
+	            thumbnail: post.images.thumbnail.url
+	          });*/
+	  
+	  		 var username = post.user.username;
+	  		 var userimg = post.user.profile_picture;
+	       var caption = "";
+	       if (post.caption != null){
+	  		 	var caption = post.caption.text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
+	            return '<a href="' + url + '" target="_blank">' + url + '</a>';
+	          }).replace(/\B@([_a-z0-9]+)/ig, function(reply) {
+	              return '<a href="http://instagram.com/' + reply.substring(1) + '" target="_blank">@' + reply.substring(1) + '</a>';
+	            }).replace(/\#([_a-z0-9+\-]+)/ig, function(hash) {
+	              return '<span class="tag">' + hash + '</span>';
+	            });
+	        } 
+	       
+	  		  
+	  		  /* instagram doesn't do public #tags yet
+	  		  .replace(/\#([_a-z0-9+\-]+)/ig, function(hash) {
+	              return '<a class="tag" href="http://twitter.com/search/%23' + hash.substring(1) + '" target="_blank">' + hash + '</a>';
+	            });*/
+	  		  
+	  		//console.log(post);
+	  		htmlvar += '<div class="entry">';
+	  		htmlvar += '	<div class="padding">';
+	      htmlvar += '	<a href="'+post.link+'" target="_blank" class="main"><img src="'+post.images.thumbnail.url+'" /></a>';
+	  		htmlvar += '	<div class="avatar hidden"><a target="_blank" href="http://instagram.com/'+username+'"><img src="'+userimg+'"></a><h3><a target="_blank" href="http://instagram.com/'+username+'">@'+username+'</a></h3></div>';
+	  		if (post.caption != null){
+	  		htmlvar += '	<p>'+caption+'</p>';
+	  		} else {
+	      htmlvar += '	<p>&nbsp;</p>';
+	      }
+	      htmlvar += '	</div> <!-- end .padding -->';
+	  		htmlvar += '</div> <!-- end .entry -->';
+	  		
+	        });
+	  
+	        $('#instagram_feed').hide();
+	        $('#instagram_feed').html(htmlvar);
+	        $('#instagram_feed').fadeIn(500);
+	      }
+	    },
+	    hideLoader: function(){
+	    	// this is called if we encounter a failure
+	    	$("#instagram_feed").hide();
+	    }
+	  
+	  };
+	  if ($("#instagram_feed").length > 0){
+	    // https://api.instagram.com/v1/users/search?q=yewknee&client_id=7b13b59bd3fd4b0cae2f46598798feee
+	  	// start instagram
+	  	VHXInstagram.init({"username":"battlesounds"});
+	  }
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  /* ------------------------------------------------------------------------ */
+	  /* TUMBLR */
+	  /* ------------------------------------------------------------------------ */
+	  // RETRIEVES TUMBLR DATA
+	  if ($("#blog").length > 0){
+	  	getTumblog($("#blog").data("tumblr"),"#blog");
+	  }
+	  
+	  function getTumblog(username, target){
+	  	
+	  	var tumblrkey = "mhg6b9xFS5pGZr9inve9sSsa0Zl2zy4ojb3K7Ta3aWswFqqSU8";
+	    var tumblruser = username + ".tumblr.com";
+	    var endpoint = "http://api.tumblr.com/v2/blog/" + tumblruser + "/posts/";
+	    var data = {
+	        api_key: tumblrkey
+	      };
+	      
+	    setTimeout(function() {
+	    
+	        $.ajax({
+	          type: "GET",
+	          url: endpoint,
+	          dataType: "jsonp",
+	          data: data
+	        })
+	        .done(function(returnData) {
+	  			 	processTumblog(returnData, username, target);
+	  			});
+	        
+	      }, 500);
+	  }
+	  // ------------------------------------------------------------------------
+	  // PARSES TUMBLR DATA INTO ARRAY
+	  function processTumblog(data, username, target){
+	  	var limit = $("#blog").data("tumblr-limit");
+	    var usernamesafe = username.replace(/-/g,'');
+	  	var html = '<div class="rssBody" id="tumblr_'+usernamesafe+'"><ul id="blog-entries"></ul></div>';
+	    var totalPosts = data.response.total_posts;
+	    
+	    $(target).html(html);
+	    
+	    if (data.meta.status == 200) {
+	        var feed = {
+	          url: 'http://' + username + '.tumblr.com',
+	          posts: []
+	        };
+	  
+	        $(data.response.posts).each(function(i, post) {
+	  
+	          switch (post.type){
+	            case "text":
+	              feed.posts.push({
+	                text: {
+	                  title: post.title,
+	                  body: post.body
+	                }
+	              });
+	              break;
+	  
+	            case "photo":
+	              var photos = [];
+	              $(post.photos).each(function(i, obj){
+	                photos.push({
+	                  photo_url: obj.alt_sizes[1].url // 500px wide
+	                })
+	              });
+	  
+	              feed.posts.push({
+	                photo: {
+	                  caption: post.caption,
+	                  photos: photos
+	                }
+	              });
+	              break;
+	  
+	            case "quote":
+	              feed.posts.push({
+	                quote: {
+	                  type: post.type,
+	                  tags: post.tags,
+	                  text: post.text,
+	                  source: post.source
+	                }
+	              });
+	              break;
+	  
+	            case "link":
+	              feed.posts.push({
+	                link: {
+	                  linkURL: post.url,
+	                  title: post.title,
+	                  description: post.description
+	                }
+	              });
+	              break;
+	  
+	            case "chat":
+	              var chat_log = post.body.split("\n");
+	              feed.posts.push({
+	                chat: {
+	                  title: post.title,
+	                  body: post.body,
+	                  chat: chat_log,
+	                  dialogue: post.dialogue
+	                }
+	              });
+	              break;
+	  
+	            case "audio":
+	              feed.posts.push({
+	                audio: {
+	                  source_title: post.source_title,
+	                  source_url: post.source_url,
+	                  id3_title: post.id3_title,
+	                  caption: post.caption,
+	                  audio_player: post.player,
+	                  audio_plays: post.plays,
+	                  artist: post.artist,
+	                  album: post.album,
+	                  track_name: post.track_name,
+	                  track_num: post.track_num,
+	                  year: post.year
+	                }
+	              });
+	              break;
+	  
+	            case "video":
+	              feed.posts.push({
+	                video: {
+	                  source_title: post.source_title,
+	                  caption: post.caption,
+	                  video_embed: post.player[2].embed_code
+	                }
+	              });
+	              break;
+	  
+	            case "answer":
+	              feed.posts.push({
+	                answer: {
+	                  asking_name: post.asking_name,
+	                  asking_url: post.asking_url,
+	                  question: post.question,
+	                  answer: post.answer
+	                }
+	              });
+	              break;
+	  					
+	  
+	            default:
+	              feed.posts.push({
+	                title: post.title,
+	                body: post.body
+	              });
+	          } // end switch
+	  			       
+	          feed.posts[feed.posts.length - 1].date = post.date.substr(0,10);
+	          feed.posts[feed.posts.length - 1].tags = post.tags;
+	          feed.posts[feed.posts.length - 1].timestamp = post.timestamp;
+	          feed.posts[feed.posts.length - 1].url = post.post_url;
+	          feed.posts[feed.posts.length - 1].type = post.type;
+	          feed.posts[feed.posts.length - 1].note_count = post.note_count;
+	        }); // end each
+	        
+	        // make sure we don't display too many
+	        if (feed.posts.length > limit){
+	        	feed.posts = feed.posts.slice(0,limit);
+	        }
+	        // make the output
+	        createTumblrHTML(feed, username, totalPosts);
+	       
+	  	} // end if
+	  } // end function
+	  // ------------------------------------------------------------------------
+	  // PARSES ARRAY OUT INTO STANDARD HTML
+	  function createTumblrHTML(data, username, totalPosts){
+	  	var thehtml ="";
+	    
+	    $(data.posts).each(function(i, post) {
+	      
+	      switch (post.type){
+	      	case "text":
+	        	 thehtml +='<div class="entry text">';
+	           thehtml +='   <h2><a href="'+post.url+'">'+post.text.title+'</a></h2>';
+	           thehtml +=			post.text.body;
+	           thehtml += 		createTumblrMeta(post, username);
+	           thehtml +=' </div>';
+	        	break;
+	      
+	        case "photo":
+	         	 
+	           thehtml +='<div class="entry photo">';
+	           thehtml += '   <div class="photos">';
+	  				 $(post.photo.photos).each(function(j, thephoto){
+	           	thehtml += ' <img src="'+thephoto.photo_url+'" />';
+	           });
+	           thehtml += '  </div>';
+	           thehtml += 	 post.photo.caption;
+	           thehtml += 		createTumblrMeta(post, username);
+	           thehtml += '</div>';
+	          break;
+	        
+	        
+	   			case "quote":
+	        	 thehtml +='<div class="entry quote">';
+	           thehtml +='   <h2>'+post.quote.text+'</h2>';
+	           thehtml +='   <p class="source">'+post.quote.source+'</p>';
+	           thehtml += 		createTumblrMeta(post, username);
+	           thehtml +=' </div>';
+	        	break;
+	          
+	        case "link":
+	        	thehtml +='<div class="entry link">';
+	          thehtml +='    <h2><a href="'+post.link.linkURL+'">'+post.link.title+'</a></h2>';
+	          thehtml +=		post.link.description;
+	          thehtml += 		createTumblrMeta(post, username);
+	          thehtml +='</div>';
+	        	break;
+	        
+	        case "chat":
+	        	thehtml +=' <div class="entry chat">';
+	          thehtml +='    <h2><a href="'+post.url+'">'+post.chat.title+'</a></h2>';
+	          thehtml +='    <ul>';
+	          $(post.chat.chat).each(function(k, chatter){
+	          thehtml +='        <li>'+chatter+'</li>';
+	          });
+	          thehtml +='    </ul>';
+	          thehtml += 		createTumblrMeta(post, username);
+	          thehtml +='  </div>';
+	        	break;
+	       	
+	        case "audio":
+	        	thehtml +=' <div class="entry audio">';
+	          thehtml +='    <div class="player">'+post.audio.audio_player+'</div>';
+	          thehtml +=			post.audio.caption;
+	          thehtml += 		createTumblrMeta(post, username);
+	          thehtml +='  </div>';
+	        	break;
+	          
+	        case "video":
+	        	thehtml +=' <div class="entry video">';
+	          thehtml +='    <div class="thevideo">'+post.video.video_embed+'</div>';
+	          thehtml +=			post.video.caption;
+	          thehtml += 		createTumblrMeta(post, username);
+	          thehtml +='  </div>';
+	  	      break;
+	        
+	        case "answer":
+	        	thehtml += ' <div class="entry answer">';
+	          thehtml += '    <div class="query"><h3>'+post.answer.question+'<h3>';
+	          thehtml += '		&mdash; '+post.answer.asking_name+'</div>';
+	          thehtml += '		<div class="response"><p>'+post.answer.answer+'</p></div>';
+	          thehtml += 		createTumblrMeta(post, username);
+	          thehtml += '  </div>';
+	        	break;             
+	          
+	        default:
+	       	  thehtml +='<div class="entry text">';
+	           thehtml +='   <h2><a href="'+post.url+'">'+post.title+'</a></h2>';
+	           thehtml +=			post.body;
+	           thehtml += 		createTumblrMeta(post, username);
+	           thehtml +=' </div>';
+	           
+	           
+	                              
+	  		} // end switch
+	  	});// end each
+	    
+	   if (totalPosts > 10){
+	  	 thehtml += '<a class="readmore button" href="http://'+username+'.tumblr.com/page/2/" target="_blank">Read More</a>';
+	   } else {
+	   	thehtml += '<a class="readmore button" href="http://'+username+'.tumblr.com/#noredirect" target="_blank">Read More</a>';
+	   }
+	   
+	   var usernamesafe = username.replace(/-/g,'');
+	   
+	   $('#tumblr_' + usernamesafe).hide();
+	   $('#tumblr_' + usernamesafe).html(thehtml);
+	   $('#tumblr_' + usernamesafe).fadeIn(500);
+	        
+	  } // end createTumblrHTML
+	  
+	  // helper function to make the tumblr meta info
+	  function createTumblrMeta(post, username){
+	  	var thehtml = '';
+	    if (post.tags.length >0){  
+	    	thehtml += createTumblrTags(post.tags,username);	 
+	    }
+	  	thehtml += '	<div class="timestamp"><a class="datetime" href="'+post.url+'">';
+	    thehtml += '		<i class="icon-time"></i> Posted '+post.date+'</a>';
+	    thehtml += '		<a class="likecount" href="'+post.url+'">';
+	    thehtml += '		<i class="icon-heart"></i> ';
+	    if (post.note_count){
+	    thehtml += 			post.note_count;
+	    }
+	    thehtml += 			'</a>';
+	    thehtml += '	</div>';
+	    
+	    
+	    
+	    return thehtml;
+	  }
+	  // helper function to make linked tags
+	  function createTumblrTags(tags,tumblrUsername){
+	  	var returnhtml = "<div class='tags'>";
+	  	for (var i=0;i<=tags.length-1;i++){
+	    	returnhtml += "<a href='http://tumblr.com/tagged/"+tags[i]+"'>#"+tags[i]+"</a>";
+	    }
+	    returnhtml += "</div>";
+	    return returnhtml;
+	  }
+	  
+	      });
+	    	</script>
+	
+	<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+	  <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="battlesounds.vhx.tv"></script>
+</body>
+</html>
+```
