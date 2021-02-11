@@ -1,0 +1,277 @@
+```<html>
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<title>bbkeys :: a blackbox keygrabber :: a movingparts.net company</title>
+
+
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#3e3e5d" vlink="#3e3e5d"
+  alink="#00ff00" marginheight="0" marginwidth="0" topmargin="0"
+  leftmargin="0" rightmargin="0">
+  
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0"
+    cols="4">
+  <tr bgcolor="#C8D4D0"> 
+    <!-- Begin Logo -->
+    <td align="center" valign="middle" colspan="4" background="images/blue_white_grad.jpg"><img src="images/header.png" width="496" height="65" border="0"> 
+    </td>
+  </tr>
+  <!-- End Logo -->
+  <!-- Begin Divider -->
+  <tr bgcolor="#3e3e5d"> 
+    <td align="left" valign="top" colspan="4"><img src=
+        "images/clear.gif" height="1" width="1" border="-" alt=""></td>
+  </tr>
+  <!-- End Divider -->
+  <!-- Begin Highlite -->
+  <tr bgcolor="#a2a2bc"> 
+    <td align="left" valign="top" colspan="4"><img src=
+        "images/clear.gif" height="1" width="1" border="-" alt=""></td>
+  </tr>
+  <!-- End Highlite -->
+  <!-- Begin Spacer -->
+  <tr bgcolor="#8a8aa0"> 
+    <td align="left" valign="top" colspan="4"><img src=
+        "images/clear.gif" height="3" width="1" border="-" alt=""></td>
+  </tr>
+  <!-- End Spacer -->
+  <!-- Begin Navbar -->
+  <tr bgcolor="#507CA0"> 
+    <td align="center" valign="middle"><a href="/" class="navlinks">what is it?</a></td>
+    <td align="center" valign="middle"><a href="download.php" class="navlinks">where 
+      do I get it?</a></td>
+    <td align="center" valign="middle"><a href=
+        "changelog.php" class="navlinks">changelog?</a></td>
+    <td align="center" valign="middle"><a href=
+        "http://movingparts.net/" class="navlinks">huh?</a></td>
+  </tr>
+  <!-- End Navbar -->
+  <!-- Begin Spacer -->
+  <tr bgcolor="#8a8aa0"> 
+    <td align="left" valign="top" colspan="4"><img src=
+        "images/clear.gif" height="3" width="1" border="-" alt=""></td>
+  </tr>
+  <!-- End Spacer -->
+  <!-- Begin Divider -->
+  <tr bgcolor="#3e3e5d"> 
+    <td align="left" valign="top" colspan="4"><img src=
+        "images/clear.gif" height="1" width="1" border="-" alt=""></td>
+  </tr>
+  <!-- End Divider -->
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr> 
+    <td align="right" valign="top" width="20%" bgcolor="#efeff4"> 
+      <p><font class="heading">blackbox links </font><br>
+        <a href="http://blackboxwm.sourceforge.net/" class=
+          "linkstyle">bb home</a> <br>
+        <a href="http://bbconf.sourceforge.net/" class=
+          "linkstyle">bb configurator</a> <br>
+        <a href="http://themes.org/" class=
+          "linkstyle">bb themes</a> <br>
+        <a href="http://bbtools.thelinuxcommunity.org" class=
+          "linkstyle">bb tools</a> <br>
+        <a href="http://sf.net/" class=
+          "linkstyle">sourceforge.net</a> <br>
+      </p>
+      <p><img src="images/line.jpg" width="90" height="3" > </p>
+      <p><font class="heading">gnu/linux links</font><br>
+        <a href="http://debian.org/" class="linkstyle">debian gnu/linux</a><br>
+        <a href="http://packages.debian.org/unstable/" class=
+          "linkstyle">debian packages</a><br>
+        <a href="http://linuxart.com/stuff/sources.list" class=
+          "linkstyle">garrett's sources.list</a><br>
+        <a href="http://kernel.org/" class=
+          "linkstyle">kernel.org</a><br>
+        <a href="http://www.linuxdoc.org/HOWTO/Kernel-HOWTO.html"
+          class="linkstyle">linux kernel howto</a></p>
+      <p><img src="images/line.jpg" width="90" height="3" ></p>
+      <p>&nbsp;</p>
+    </td>
+    <td bgcolor="#efeff4"><img src="images/clear.gif" width="5" height="5"></td>
+    <td width="1" bgcolor="#3e3e5d"><img src="images/clear.gif" width=
+        "1" height="1" border="0" alt=""></td>
+    <td align="left" valign="top"><img src="images/clear.gif" width="8" height="5"></td>
+    <td align="left" valign="top" width="60%"> 
+
+      
+<div> 
+  		<div class="entrytext"> 
+		  <p class="title"><font class="entrytitle">Well now. Welcome to the website 
+			for bbkeys. =:)</font></p>
+  </div>
+        
+  <div class="entrytext"> 
+		  <p><span class="entrytext">I'll start this off with a posting from the original 
+			blackbox window manager code, Brad 'nyz' Hughes. It's VERY old, and 
+			can be seen online (and with the original follow-ups) <a href="http://www.mail-archive.com/blackbox@troll.no/msg00973.html">here</a>.</span></p>
+    <table width="80%" border="0" cellspacing="0" cellpadding="5">
+      <tr>
+        <td><img src="images/clear.gif" width="20" height="5"></td>
+        <td width="100%"> 
+          <div class="entrytext">
+            <p class="fineprint">From: Bradley T. Hughes <br>
+              Subject: special announcement <br>
+              Date: Sat, 13 Nov 1999 14:58:27 -0800 <br>
+              <br>
+              ok people... i have done something that should be well received... 
+              <br>
+              <br>
+              i have made 0.60.0-alpha available... take a look at http://blackbox.alug.org/alpha.html 
+              before even *thinking* about downloading it... this is NOT A FULL 
+              BLOWN RELEASE... this is just a snapshot of my current source tree... 
+              and will change frequently <br>
+              <br>
+              read alpha.html twice... then read it again... once you understand 
+              that this is *alpha* software... download it and play with it... 
+              also... i have made Jason Kasper's bbkeys slitapp available as well... 
+              read the docs on how to configure the little jewel... <br>
+              regards :) <br>
+              <br>
+              Blackbox - An X11R6 Window Manager <br>
+              http://blackbox.alug.org/ <br>
+              __________________________________ <br>
+              Bradley T. Hughes &lt;bhughes@tcac.net&gt;</p>
+          </div>
+        
+</td>
+      </tr>
+    </table>
+    <p class="entrytext">Confused? =:) Prior to this above posting from Brad, 
+      blackbox handled its own keybindings. Brad and I worked together for the 
+      few months prior to this alpha release on pulling out all the keybindings 
+      for blackbox and allowing an external application to handle them for it. 
+      I wrote bbkeys--the application that does just that.</p>
+    <p class="entrytext">Originally, bbkeys was a very simple C program with less 
+      than 100 lines of code. But I decided that it might be of some value to 
+      the blackbox user if they would have an icon of some sort on their screen 
+      that they could use to launch the configuration program of their choice 
+      to configure their keybindings in blackbox. Thus, I rewrote bbkeys inside 
+      the framework of John Kennis's bbtools. Kennis has written numerous other 
+      programs for blackbox, including bbpager, bbmail, bbppp, bbdate, and others. 
+      His work can be found <a href="http://bbtools.thelinuxcommunity.org/">here</a>. 
+    </p>
+    <p><span class="entrytext">bbkeys has grown tremendously in functionality 
+      since I first wrote it. During 2001, Ben 'xOr' Jansens started helping me 
+      with bbkeys. His contributions include the stacked cycling code that bbkeys 
+      now offers--a much better window-cycling mechanism--as well as the menuing 
+      code that bbkeys uses to show its user a list of open windows to cycle through. 
+      Thanks to patches and contributions from around the world, bbkeys now allows 
+      blackbox to rival the key-driven functionality of the other window managers. 
+      Almost anything you want to do with windows in blackbox can be done through 
+      bbkeys interfacing with blackbox.</span></p>
+    <p><span class="entrytext">Now, bbkeys is just one example of what having 
+      an external-to-the-window-manager program handling keybindings can be like. 
+      Another extremely well-written keygrabber for blackbox is the epistrophy 
+      code that Scott 'woodblock' Moynes has written. Having keybindings managed 
+      outside of the window manager has meant that even though blackbox development 
+      has stopped for over a year, the keyboard interface to blackbox has grown 
+      and developed in exciting ways. The future remains to be seen for this, 
+      though. Sean 'shaleh' Perry has taken over development for blackbox and 
+      it will be his call as to what happens with keybindings and blackbox.</span><br>
+	</p>
+  </div>
+        
+  <table BORDER="0" width="100%" CELLPADDING="0">
+        <tr>
+          <td BGCOLOR="#000000" VALIGN="TOP">
+            <table BORDER="0" WIDTH="100%" CELLSPACING="1" CELLPADDING="3">
+              <tr>
+                <td class="HeaderCellStyle2" bgcolor="grey">
+                  SourceForge Project Page
+                </td>
+              </tr>
+              <tr>
+                
+				  <td class="ContentCell" bgcolor="white"> <a href="http://sourceforge.net"><img SRC="http://sourceforge.net/sflogo.php?group_id=33459&type=4" border="0" height="37" width="125" align="RIGHT" alt="SourceForge Logo"></a> 
+					<span class="entrytext">A <a href="http://sourceforge.net/projects/bbkeys">project 
+					page</a> for bbkeys has been registered on SourceForge. This 
+					provides bbkeys with the following facilities:<br>
+					</span> <ul>
+					  <li class="entrytext"> the <a href="http://sourceforge.net/tracker/?group_id=33459">support 
+						tracker</a> - you can post support questions here; 
+					  <li class="entrytext"> the <a href="http://sourceforge.net/tracker/?group_id=33459">feature 
+						tracker</a> - use this facility to request new features 
+						for bbkeys; 
+					  <li class="entrytext"> the <a href="http://sourceforge.net/tracker/?group_id=33459">bug 
+						tracker</a> - use this facility to report bugs in bbkeys; 
+					</ul>
+					<span class="entrytext"> Before adding a new entry in any 
+					of the above trackers, please take a moment to check if someone 
+					else has already made a similar request. </span> <p> <span class="entrytext"><b>If 
+					  you are reporting a bug</b>, please keep in mind that it 
+					  is really difficult for us to track down bugs that we can't 
+					  reproduce.&nbsp; If at all possible, create a small, self-contained 
+					  demonstration application and send it to us with a description 
+					  of what needs fixing. It is also worth posting the bug report 
+					  in the discussion forum. </span>
+					<p class="entrytext"> If you need a bug fixed <u>really</u> 
+					  urgently, use the source... </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+	  
+  		<p class="entrytext">bbkeys is written and maintained by Jason Kasper (vanRijn) 
+		  &lt;<a href="mailto:vR%20at%20movingparts%20dot%20net">vR at movingparts 
+		  dot net</a>&gt;. Any suggestions, donations, or job offers should go 
+		  to one of us. =:)<font face="Verdana, Arial, Helvetica, sans-serif"> 
+		  </font></p>
+                        <br>
+        <br>
+        <br>
+      </div>
+
+    </td>
+    <td align="left" valign="top" bgcolor="#FFFFFF"><img src="images/clear.gif" width="8" height="5"></td>
+    <td width="1" bgcolor="#3e3e5d"><img src="images/clear.gif" width=
+        "1" height="1" border="0" alt=""></td>
+    <td align="left" valign="top" bgcolor="#efeff4"><img src="images/clear.gif" width="5" height="5"></td>
+    <td align="left" valign="top" width="20%" bgcolor="#efeff4"> 
+      <p ><font class="heading">Memorable Quotes </font><br>
+        <font class="fineprint"> 
+        You have probably heard this before, but there is one thing I miss in bbkeys. That is a proper window cycling keybinding. I know you have window next and last. But I often have 5-6 windows in a workspace, but most of the time I only use 2-3 of them. It's very annoying to have to cycle throug all other windows that I don't use to swap between 2 windows. I know I can use the "prev window", but then I need to bind another key. <br><br> The best thing would be to have a cycle windows keybinding that works the same way as the one in sawfish. The windows aren't cycled through sequentially, but instead the most recent window comes first.<br><br> Best regards<br> Vidar Breivik
+        </font> </p>
+      <p><img src="images/line.jpg" width="90" height="3" > </p>
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+  <tr> 
+    <td bgcolor="#efeff4"><img src="images/clear.gif" width="1" height=
+        "1" border="0"></td>
+    <td bgcolor="#efeff4"></td>
+    <td bgcolor="#3e3e5d" colspan="4"><img src="images/clear.gif"
+        width="1" height="1" border="0" alt=""></td>
+    <td bgcolor="#3e3e5d"></td>
+    <td bgcolor="#efeff4"></td>
+    <td bgcolor="#efeff4"><img src="images/clear.gif" width="1" height=
+        "1" border="0"></td>
+  </tr>
+  <tr> 
+    <td align="center" valign="middle" width="100%" colspan="9"
+        bgcolor="#efeff4"> <br>
+      <a href="http://www.elcoronel.com" class=
+        "linkstyle">this site based heavily on (ripped off from) a design by Greg 
+      Sanders (ElCoronel)</a></td>
+  </tr>
+  <tr> 
+    <td width="1" bgcolor="#3e3e5d" colspan="9"><img src=
+        "images/clear.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+</table>
+<p></p>
+<center>
+  <a href="http://movingparts.net" class=
+      "linkstyle">bbkeys, a subsidiary of the mythical movingparts.net companies</a> 
+</center>
+<br>
+<br>
+
+
+</body>
+</html>
+
+```
