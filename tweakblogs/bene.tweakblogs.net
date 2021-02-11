@@ -1,0 +1,315 @@
+```<!doctype html><!-- © 1998 - 2021 DPG Online Services B.V. -->
+<html lang="NL"><head>
+        
+                            <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                                                <meta name="referrer" content="origin-when-cross-origin">
+                            
+                    <title>Lé blog! - Tweakers</title>
+        <link rel="navigator" title="Spring voorbij navigatie" href="https://bene.tweakblogs.net/#contentArea">
+
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-Regular.woff2" as="font" type="font/woff2" crossorigin>
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+
+                                            <link rel="shortcut icon" href="https://tweakers.net/favicon.ico" type="image/x-icon">
+                            <link rel="alternate" title="Lé blog! - Reacties" type="application/rss+xml" href="https://bene.tweakblogs.net/feed/comments">
+                            <link rel="alternate" title="Lé blog!" type="application/rss+xml" href="https://bene.tweakblogs.net/feed/">
+            
+        <script>
+                var relaxedDomain  = 'tweakers.net',
+                    tweakersConfig = {"BaseURL":"https:\/\/bene.tweakblogs.net\/","TnetBaseURL":"https:\/\/tweakers.net\/","ForumBaseURL":"https:\/\/gathering.tweakers.net\/","ImgURL":"https:\/\/tweakers.net\/","sidName":"__Secure-TnetID","UserID":0,"requestId":"Twk-eun-web3_201.26.2_12608_6024ee504be2d5.03791283","abStatsPath":"\/ajax\/1AKXipQZyfKi6nyNgGJCXwm0eY\/","loginJs":"https:\/\/tweakers.net\/x\/scripts\/min\/login.js?1612781350","loginCss":"https:\/\/tweakers.net\/x\/styles\/profiles\/login.css?1583238942","clickToLoad":false};
+
+                try
+                {
+                    document.domain = relaxedDomain;
+                }
+                catch (e)
+                {
+                    relaxedDomain = '';
+                }
+                document.documentElement.className = 'js';
+            </script>
+        <link rel="stylesheet" href="https://tweakers.net/x/styles/tweakblogs/weblogs.css?1608112821" type="text/css">
+                                        <script src="https://tweakers.net/x/build/runtime.eb309c42.js"></script><script src="https://tweakers.net/x/build/0.c89d5b71.js"></script><script src="https://tweakers.net/x/build/1.3c8535aa.js"></script><script src="https://tweakers.net/x/build/frontpage.f69aca6a.js"></script>
+
+                    <script src="https://tweakers.net/x/scripts/min/general.js?1605696722"></script>
+            <script src="https://tweakers.net/x/scripts/min/weblogs.js?1604565751"></script>
+            <script src="https://tweakers.net/x/scripts/min/rml_toolbar.js?1605522743"></script>
+                    <script>
+            var _wtq=[['_init',{"randomId":"386484940153261","trackId":"318816705845986","trackDomain":"tweakers.net","domain":"tweakers.net;gathering.tweakers.net","cookie":"1","mediaCode":"wt_mc","contentId":"","contentGroup":{"1":"tweakers.net","2":"Tweakblogs"},"executePluginFunction":"wt_urlCampaignMapper;wt_stats_plugin","requestObfuscation":true,"customParameter":{"1":"LG"},"customSessionParameter":{"3":"Geen"}}],['_trackPage']];
+			loadJS('https://tweakers.net/x/scripts/min/IRCEnz.js',AbStats.wtCallBack);
+
+        </script>
+    
+    </head>
+    <body>
+
+    <div id="container">    <div id="tweakblogsNav">
+        <div class="logo"><a href="https://tweakblogs.net/"><img src="https://tweakers.net/g/if/weblogs/tweakblogs.png" width=131 height=20 alt="Tweakblogs"></a></div>
+        <ul>
+            <li><a href="https://tweakblogs.net/">Tweakblogs Home</a></li>
+            <li><a href="https://tweakers.net/">Tweakers</a></li>
+                            <li>
+                    <a href="https://tweakers.net/nieuws/">Nieuws</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/reviews/">Reviews</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/pricewatch/">Pricewatch</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/aanbod/">Vraag &amp; Aanbod</a>
+                </li>
+                            <li>
+                    <a href="https://gathering.tweakers.net/">Forum</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/carriere/">Carri&egrave;re</a>
+                </li>
+                            <li>
+                    <a href="#">Meer</a>
+                </li>
+                    </ul>
+    </div>
+    <div id="banner">
+    
+        
+    <h1><a href="https://bene.tweakblogs.net">Lé blog!</a></h1>
+            <span class="subtitle">Technobabble</span>
+    </div>
+            <p class="breadCrumb">
+                <a href="https://bene.tweakblogs.net/feed/" title="Lé blog!" rel="nofollow">
+            <img src="https://tweakers.net/g/if/v2/icons/rss_small.png" width=12 height=12 alt="[RSS]">
+        </a>
+                                <a href="https://bene.tweakblogs.net">            Home            </a>
+            </p>
+<div id="pagebody">
+                <div class="columnwrapper normal">    <div class="content">
+			<div class="blogpost">
+				<h2><a href="https://bene.tweakblogs.net/blog/12492/raspberry-pi-headless-setup">Raspberry Pi Headless setup</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/9775/" rel="nofollow">Bene</a> op zaterdag  2 januari 2016 09:30 - <a href="https://bene.tweakblogs.net/blog/12492/raspberry-pi-headless-setup#reacties">Reacties (3)</a><br>Categorie: -, Views: 5.074
+				</p>
+				<div class="article"><b>Best thing of 2015? The Raspberry Pi Zero! Slower, less memory, too few interfaces for practical use and overal so much of a hassle to install I'd rather watch reruns of four month old golf matches. It's amazing and it's also only 5 euro.</b> <br>
+<br>
+But that installation. No ethernet and a mini HDMI. That's a real pain. I did the first few by setting up a fresh image on a RPI B (using Ethernet), then cloning that, but that was not a pretty method. There are some excellent blogs out there that explained to me how to open the image on the SD card, but they required a Linux machine with a card reader. The best solution was to configure the image file itself, so any new Raspberry Pi I load with said image can join my network without having to attach a monitor or an ethernet cable. <br>
+<br>
+To enjoy such a pain-free installation on the RPI Zero or any other Raspberry Pi, you'll need the following:<br>
+&bull; Any flavour Raspberry Pi. And the common stuff like power and a MicroSD card. <br>
+&bull; The most recent Raspbian image. I use 2015-11-21-raspbian-jessie-lite.img<br>
+&bull; The Raspberry Pi should have an USB stick based on the RTL8188CUS chipset. For example, the PiHUT 802.11n WIFI dongle, the EDUP N8508 or N8508GS WiFi stick or any of those other tiny, tiny WIFI USB stubs costing about 5 euro's. This should also work with anything based on the 8192CU, but I did not test those. <br>
+&bull;  Any Linux machine for editing the image file and running NMAP. Another RPI already running or a VM will work just fine. <br>
+<br><h6 class="rml" id="part_1">Editting the image</h6>Unzip the downloaded Raspbian image so you have the basis 1,5 gb .img file. Copy that to your Linux machine. We are going to mount the file like a filesystem, but before we can do that there is a small hurdle, this file actually contains two images: a small system for booting, and the actual Raspbian installation that we would want to modify. If we don't tell the mount command where our disk starts in the image file, it will fail with the &quot;mount: wrong fs type, bad option, bad superblock&quot; error. So first, we will determine at which byte offset mount will open the file. We use fdisk to show us the partition information found in the image file:<br>
+<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td><td class="phphighlightcode"><div><pre>root@linux:~# fdisk -l 2015-11-21-raspbian-jessie-lite.img
+
+Disk 2015-11-21-raspbian-jessie-lite.img: 1.4 GiB, 1458569216 bytes, 2848768 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xb3c5e39a
+
+Device                               Boot  Start     End Sectors  Size Id Type
+2015-11-21-raspbian-jessie-lite.img1        8192  131071  122880   60M  c W95 FAT32 (LBA)
+2015-11-21-raspbian-jessie-lite.img2      131072 2848767 2717696  1.3G 83 Linux</pre></div></td></tr></table></div><br>
+Okay. So every sector contains 512 bytes. The second disk starts at sector offset 131072 (second column on the last line). This means mount will have to open our image file from byte 512 * 131072 = 67108864 and up. <br>
+<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+</pre></td><td class="phphighlightcode"><div><pre>root@linux:~# mount -o loop,offset=67108864 2015-11-21-raspbian-jessie-lite.img /mnt/
+root@linux:~# ls /mnt
+bin   dev  home  lost+found  mnt  proc  run   srv  tmp  var
+boot  etc  lib   media       opt  root  sbin  sys  usr</pre></div></td></tr></table></div><br>
+Cake for everybody! That's half the job already done. Assuming you have a RTL8188CUS card, edit /etc/wpa_supplicant/wpa_supplicant.conf and replace it's content with the following:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="phphighlightcode"><div><pre>ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+network={
+    ssid=&quot;YOUR_SSID&quot;
+    psk=&quot;YOUR_WIFI_PASSWORD&quot;
+    proto=RSN
+    key_mgmt=WPA-PSK
+    pairwise=CCMP TKIP
+}</pre></div></td></tr></table></div><br>
+You could also configure a static IP address, but for me that contradicts the purpose of being able to load the image onto multiple RPI's. <br>
+<br>
+Since the RTL8188CUS has some erratic behaviour with power saving mode, we'll disable that in two seperate ways: <br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+</pre></td><td class="phphighlightcode"><div><pre>echo &quot;wireless-power off&quot; &gt;&gt; /mnt/etc/network/interfaces;
+echo &quot;options 8192cu rtw_power_mgnt=0 rtw_enusbss=0&quot; &gt;&gt; /mnt/etc/modprobe.d/8192cu.conf</pre></div></td></tr></table></div><br>
+There. Now leave the /mnt directory and &quot;umount /mnt&quot;. &quot;Burn&quot; the image file to the SD card with whatever tool you favor - I usually copy it back to my Windows machine and use win32disk imager. <br>
+<br>
+<br><h6 class="rml" id="part_2">Booting..</h6>Power it up. Check that the light on the WiFi sticks blinks like a disco. Now from the Linux machine, run an NMAP scan for new devices on port 22 on your subnet:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="phphighlightcode"><div><pre>root@linux:~# nmap -p 22 --open  192.168.1.0/24
+
+...
+
+Nmap scan report for 192.168.1.235
+Host is up (0.0090s latency).
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: E8:7E:06:32:33:95 (Edup International (hk) CO.)</pre></div></td></tr></table></div><br>
+There! A fresh Raspberry Pi Zero, on a clean image. <br>
+<br>
+Additionally, since we are headless, you should consider the following: <br>
+- Lower the amount of memory allocated to graphics: using raspi-config, set the memory split value to 16 mb. <br>
+- Disable the HDMI port and save power: add &quot;/usr/bin/tvservice -o&quot; to /etc/rc.local</div>
+			</div>
+			<div class="blogpost">
+				<h2><a href="https://bene.tweakblogs.net/blog/12447/connect-a-bluetooth-lightbulb-to-philips-hue">Connect a Bluetooth lightbulb to Philips HUE</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/9775/" rel="nofollow">Bene</a> op dinsdag 15 december 2015 23:45 - <a href="https://bene.tweakblogs.net/blog/12447/connect-a-bluetooth-lightbulb-to-philips-hue#reacties">Reacties (4)</a><br>Categorie: -, Views: 7.673
+				</p>
+				<div class="article"><b>Anyone who regularly buys gadgets online has seen them: cheap Bluetooth enabled RGB led light bulbs. Different fittings, different packages, different manufacturers. What they have in common is that they all cost about $15 each. They also all share the same problem: you can only control them with a dedicated iOS / Android app. But no API, no alternatives. That turns them from &#8220;supercool!&#8221; to &#8220;meh.&#8221;</b><br>
+<br>
+In this blog I&#8217;ll attempt to link them to my Philips Hue system one way or the other. I&#8217;ll write up my research, implementation and code and I&#8217;ll probably end up with a situation that&#8217;s just about useable. Useable means good enough for my wife not to get annoyed. <br>
+<br>
+First, let&#8217;s take a look at what we have on the table. On the left, there&#8217;s a bulb that has a Bluetooth interface. On the right is the HUE system. HUE uses Zigbee. They share the same frequency and the friendship stops there. There is simply no way in day to day ordinary hell that they could ever communicate. Whatever our solution, we will have to do what is basically done in any IT problem: we introduce a middleman. In this case, I&#8217;ll use the Raspberry Pi for a platform. It&#8217;s cheap, fast and as versatile as a roll of quality duct tape.<h4 class="rml" id="part_1">Approach</h4>The BT bulb is the easy part here. I&#8217;ll start with a Bluetooth adapter (3 dollars!). I think I can sniff traffic and see how the bulb and the app communicate. I should be able to replay any traffic I find. HUE / Zigbee however is not cheap. I don&#8217;t think the whole Hue bulb -&gt; Bridge communication setup has been fully documented and there are no alternatives for the official bulbs, so I would be the first one in. I thought I should at least be able to wire(less) something up that sniffs network queries out of the air (similar to the <a href="https://medium.com/@edwardbenson/how-i-hacked-amazon-s-5-wifi-button-to-track-baby-data-794214b0bdd8#.gzkbq3awg" rel="external nofollow">dash button approach</a>) but the Zigbee sniffers cost up to 50 for a complete USB package or 20 dollars for just a chip. I know my limits and soldering up a whole board around a single controller is one of them and even then, I am not so sure I can isolate HUE bridge commands, let alone emulate a HUE lamp. <br>
+<br>
+Anyone who has ever fiddled with HUE bulbs and code has run into the excellent JSON API. As a lousy alternative, I can poll and track changes in that. That might be a much more reasonable goal, to query on a specific lamp and copy that to my Bluetooth bulbs. <br>
+<br>
+So, my shopping list is as follows:<ul><li>One cheap Bluetooth bulb. I bought the Tanbaby &#8220;Magicblue&#8221; lamp, fully known as &#8220;Magic Blue UU E27 Bulb Bluetooth 4.0&#8221; on <a href="http://www.aliexpress.com/item/Tanbaby-4-5W-E27-RGBW-led-light-bulb-Bluetooth-4-0-smart-lighting-lamp-color-change/32363205055.html" rel="external nofollow">the well-known Chinese webshops</a>. E 10 .</li><li>The cheapest Bluetooth USB dongle I could find. E 2.</li><li>I use the Raspberry Pi Zero for the extremely low power draw, but any linux machine will do. E 5.</li><li>Additional USB knickknacks: a 2 dollar USB hub, a 5 euro wifi stick and a 1 euro micro USB -&gt; USB converter (which required some shearing).</li></ul>That's about 25 euro's total. <br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/mBR8vUOmXv0hWXjIo5pGAtbr/full.jpg" class="rml" width="585" height="439" alt="zero_setup" title="zero_setup"></noscript><h4 class="rml" id="part_2">The &quot;Magicblue&quot; bluetooth bulb</h4><noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/iMU5b2MQxdzfzJaBQdkLnDnC/full.png" class="rml" width="585" height="383" alt="http://static.tweakers.net/ext/f/iMU5b2MQxdzfzJaBQdkLnDnC/full.png" title="http://static.tweakers.net/ext/f/iMU5b2MQxdzfzJaBQdkLnDnC/full.png"></noscript><br>
+<br>
+Let&#8217;s see if we can make some sense of the protocol used between the bulb and the app first. If you have an android phone, in the hidden developer options you can &#8220;enable Bluetooth HCI snoop log&#8221;. This will log all Bluetooth traffic to btsnoop_hci.log, which in turn you can open in tools such as Wireshark. Don&#8217;t forget to disable this option once you are done to prevent your phone from filling up. <br>
+<br>
+I set about a number of actions. First, I tried turning the light on and off a number of times. <br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/AayqdTYz0BcB6XJNjQMZ9x2W/full.png" class="rml" width="585" height="359" alt="http://static.tweakers.net/ext/f/AayqdTYz0BcB6XJNjQMZ9x2W/full.png" title="http://static.tweakers.net/ext/f/AayqdTYz0BcB6XJNjQMZ9x2W/full.png"></noscript><br>
+<br>
+The above screenshot is from opening the log file in Wireshark, then sorting on the source. I'm assuming they took the cheapest approach possible so the bulb is probably a load of fire and forget messages. In the above screenshot, you can see the value being written: &#8220;cc2433&#8221;, to handle 0x000C. If you have no knowledge of Bluetooth working (like me), just consider a handle similar to a memory location. The value alternated between CC2433 (turning off) and CC2333 (turning on). <br>
+<br>
+After that, I moved the lamp from red to green and back, also dozen times. <br>
+<br>
+<noscript class="lazycontent"><img src="https://static.tweakers.net/ext/f/ySRzxsSEZda2PDd39mdrTjk6/full.png" class="rml" width="585" height="321" alt="http://static.tweakers.net/ext/f/ySRzxsSEZda2PDd39mdrTjk6/full.png" title="http://static.tweakers.net/ext/f/ySRzxsSEZda2PDd39mdrTjk6/full.png"></noscript><br>
+<br>
+You can see that the write command is being sent to the same handle as the on/off commands. The values all looked similar to this &#8220;56------00F0AA&#8221;, with the dashes being replaced by a 6 digit hex code. And what else is a 6 digit hex code? Exactly, web colors. The closer to a fully saturated color the hex code is, the brighter the lamp. Not as sophisticated as HUE, but very easy to use. <br>
+<br>
+Some googling into these codes led me to a <a href="https://github.com/madhead/saberlight/blob/master/protocols/ZJ-MBL-RGBW%20%28v3%29/protocol.md" rel="external nofollow">github page</a> on the &quot;saberlight&quot;. This light has almost similar handles and mode of operation, which adds to the suspicion that these lights use a common Bluetooth controller probably sold as a package to all these budget light makers. If you want to know more outside of the scop of this blog, the control message for the Magicblue light can be read by first writing the message &#8220;ef0177&#8221; to handle 0x000c, which tells the controller to update the values at handle 0x000f which can then be read. The status request layout is almost the same as in the saberlight link.<h4 class="rml" id="part_3">Prepping the Pi</h4>Okay. So now I the knowledge I need to reproduce app commands. Next step is to configure the RPI to actually replay them. <br>
+<br>
+I&#8217;ll be starting out with a clean Raspberry Pi, using the latest raspbian Jessie lite image. I&#8217;ll skip the part where I set up networking, apt-get update, run raspi-config and disable some things for lower power use. <br>
+<br>
+After inserting the Bluetooth stick, I first check if Raspbian can successfully connect it:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+</pre></td><td class="phphighlightcode"><div><pre>root@raspberrypi:~# lsusb
+Bus 001 Device 004: ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)</pre></div></td></tr></table></div><br>
+<br>
+Good! Let&#8217;s install the required tooling first:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>apt-get install bluez</pre></div></td></tr></table></div><br>
+<br>
+Reboot after installation (or, do a &#8220;hciconfig hci0 up&#8221;) and you should be able to run a scan for Bluetooth Low Energy devices:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+2
+3
+4
+5
+</pre></td><td class="phphighlightcode"><div><pre>root@raspberrypi:~# hcitool lescan
+LE Scan ...
+FB:6F:13:A3:C1:98 LEDBLE-13A3C198
+FB:6F:13:A3:C1:98 (unknown)
+FB:6F:13:A3:C1:98 LEDBLE-13A3C198</pre></div></td></tr></table></div><br>
+<br>
+LEDBLE-somenumber is how the Magicblue bulb identifies itself. You should recognize this value from the splash screen of the magicblue app on your phone. We&#8217;re more interested in the Bluetooth MAC value, which in my case is FB:6F:13:A3:C1:98<br>
+<br>
+Now I try to turn the light on by sending the cc2333 (&#8220;turn on&#8221;) message:<br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>root@raspberrypi:~# gatttool -t random -b FB:6F:13:A3:C1:98 --char-write --handle=0x000c --value=cc2333</pre></div></td></tr></table></div><br>
+<br>
+Great success! I could have added a picture but it&#8217;s like you imagine: the light merrily switched on to it's last known state. <br>
+<br>
+Note that using the gatttool &quot;char-write&quot; command will not return a response, at most an error if something went entirely wrong during the Bluetooth connection. If you get no response, either in an error message or in actual changing of the light state, it could be that the last color set was &#8220;000000&#8221; or something very dark.<h4 class="rml" id="part_4">Code!</h4>How to get this discovery into Python? I looked into a Bluetooth python library (Gattlib), but couldn&#8217;t get it stable. Every other request I would get &#8220;device is busy&#8221; notifications so I dumped that in favor of fire-and-forget GATTOOL commands. I could have tried bluepy which seems a little more alive  (<a href="https://github.com/IanHarvey/bluepy/blob/master/bluepy/btle.py)." rel="external nofollow" title="https://github.com/IanHarvey/bluepy/blob/master/bluepy/btle.py).">https://github.com/IanHar...b/master/bluepy/btle.py).</a> <br>
+<br>
+First The HUE part. There are a lot of Python HUE libraries (<a href="http://www.developers.meethue.com/tools-and-sdks" rel="external nofollow">http://www.developers.meethue.com/tools-and-sdks</a> has a good list), but we&#8217;ll only need some basic functionality. I&#8217;m going with the one that claims little overhead: <a href="https://github.com/quentinsf/qhue/" rel="external nofollow">https://github.com/quentinsf/qhue/</a>. It&#8217;s just some wrapper code, very simple. We'll require the Python requests library later. <br>
+<div class="code">code:<br><table class="phphighlight"><tr><td class="phphighlightline"><pre>1
+</pre></td><td class="phphighlightcode"><div><pre>root@raspberrypi:~# pip install requests</pre></div></td></tr></table></div><br>
+<br>
+Some research into polling the Hue bridge shows that you can easily poll 30 times per second. That&#8217;s a lot more then needed &#8211; the HUE lamps write their state into the bridge only every second or so, so the gain is little in relation to the stress we will be putting on the network, pi, etcetera. <br>
+<br>
+Polling every two seconds seems sane. This means that if I&#8217;m setting up the Bluetooth bulbs to follow the HUE light, at most we will have to wait 2 seconds before the Bluetooth bulb follows suit. <br>
+HUE uses a different color scheme then HEX colors, a so called CIELAB map. The RGB converter class can help us convert CIELAB colors to HEX, but it&#8217;s not perfect. <br>
+<br>
+All components are there. Now to tie them together in a python script. Basically, it polls the state of a single given HUE light. If the power state has changed, the Magicblue bulb follows suit. If the color has changed, the conversion code approximates an RGB color and has the Magicblue bulb change to that.<h4 class="rml" id="part_5">Results and conclusion</h4>The proof is in the pudding..<br>
+<div class="video-wrapper"><div class="video-container"><noscript class="lazycontent"><iframe data-thumbnail="https://tweakers.net/camo/8ac0a991b742d3b7cd1c69ecc39e55026e4dbcfe/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FsMI4B214mKM%2Fhqdefault.jpg" width="585" height="329" src="https://www.youtube.com/embed/sMI4B214mKM?feature=oembed&amp;enablejsapi=1" frameborder="0" allowfullscreen=""></iframe></noscript></div></div><br>
+What you see is one bluetooth bulb on the left and one HUE bulb on the right. Not shown in the video is the raspberry pi setup and the HUE remote control. First, I switch the HUE light on. Then, I change it to a red color. After that, I switch off. In all three situations the Bluetooth bulb follows after a few seconds.  <br>
+<br>
+As you can see, the bulb is slow to follow. This is due to HUE lights lagging in sending their updated status. Also, the color conversion isn't very good at red-heavy colors. In daily use, it's better to just configure a color and have them<br>
+<br>
+My final code can be found here: <a href="https://github.com/b0tting/magicbluehue" rel="external nofollow">https://github.com/b0tting/magicbluehue</a>. It's just a proof of concept, all of the settings can be found in the first 20 lines or so. If you want to use it but can't manage to start it, drop me a message and I'll add some actual documentation.</div>
+			</div></div><div class="sidebar">
+        <div id="loginFrame">
+            <h2 class="top">Inloggen</h2>
+            <p>Login met je  <a href="https://tweakblogs.net/login/?location=https%3A%2F%2Fbene.tweakblogs.net%2F">Tweakers profiel</a>.</p>
+        </div>
+		<div class="recentPosts">
+			<h4>Recente posts</h4><ul class="ellipsis"><li><a href="https://bene.tweakblogs.net/blog/12492/raspberry-pi-headless-setup" title="Raspberry Pi Headless setup (3)">Raspberry Pi Headless setup (3)</a></li><li><a href="https://bene.tweakblogs.net/blog/12447/connect-a-bluetooth-lightbulb-to-philips-hue" title="Connect a Bluetooth lightbulb to Philips HUE (4)">Connect a Bluetooth lightbulb to Philips HUE (4)</a></li></ul>
+		</div>
+		<div class="categories">
+			<h4>Categorieën</h4><p>Er zijn nog geen categorieën beschikbaar.</p>
+		</div>
+		<div class="archives">
+			<h4>Archieven</h4><ul id="archiveList"><li class="open"><b>2016</b> (1)<ul class="ulChild"><li><a href="https://bene.tweakblogs.net/blog/archief/2016/01/">jan 2016</a> (1)</li></ul></li><li><b>2015</b> (1)<ul class="ulChild"><li><a href="https://bene.tweakblogs.net/blog/archief/2015/12/">dec 2015</a> (1)</li></ul></li></ul><script type="text/javascript">weblogFolderTree('archiveList');</script>
+		</div>
+		<div class="about">
+			<h4>About</h4>
+			<p></p>
+			<ul>
+				<li class="user"><a href="https://tweakers.net/gallery/9775/" rel="nofollow">Profiel op Tweakers</a></li>
+			</ul>
+		</div></div>
+</div>
+            </div>
+
+        </div>    <script>
+                if(window.BehaviourManager)BehaviourManager.exec();
+            </script>
+    <noscript>
+                    <img src="https://tweakers.net/318816705845986/wt?p=328,&amp;cg1=tweakers.net&amp;cg2=Tweakblogs&amp;cp1=LG" width="1" height="1" alt="" style="display:none">
+            </noscript>
+
+<!--
+Request ID: Twk-eun-web3_201.26.2_12608_6024ee504be2d5.03791283
+Env: frontpage-production
+Server time: 0,0230 s (C: 0,0197 s, Q: 5; 0,0066 s, E: 1; 0,0205 s, M: 2; 0,0034 s, A: 0; 0,0000 s)
+Mem: 6148 KB
+
+Engines: (S) twk-eun-nosql2 (1)
+-->
+        
+    </body>
+</html>
+```
