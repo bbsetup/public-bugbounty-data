@@ -1,0 +1,958 @@
+```<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TPPJXTL');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>BCRM User Manual</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #f8f8f2;
+  background-color: #272822;
+}
+.highlight .err {
+  color: #272822;
+  background-color: #f92672;
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #f4bf75;
+}
+.highlight .nt {
+  color: #f4bf75;
+}
+.highlight .o, .highlight .ow {
+  color: #f8f8f2;
+}
+.highlight .p, .highlight .pi {
+  color: #f8f8f2;
+}
+.highlight .gi {
+  color: #a6e22e;
+}
+.highlight .gd {
+  color: #f92672;
+}
+.highlight .gh {
+  color: #66d9ef;
+  background-color: #272822;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #ae81ff;
+}
+.highlight .kc {
+  color: #fd971f;
+}
+.highlight .kt {
+  color: #fd971f;
+}
+.highlight .kd {
+  color: #fd971f;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #a6e22e;
+}
+.highlight .sr {
+  color: #a1efe4;
+}
+.highlight .si {
+  color: #cc6633;
+}
+.highlight .se {
+  color: #cc6633;
+}
+.highlight .nn {
+  color: #f4bf75;
+}
+.highlight .nc {
+  color: #f4bf75;
+}
+.highlight .no {
+  color: #f4bf75;
+}
+.highlight .na {
+  color: #66d9ef;
+}
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #a6e22e;
+}
+.highlight .ss {
+  color: #a6e22e;
+}
+    </style>
+    <link href="stylesheets/screen-f20feec9.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print-7545362f.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all-e90a89b9.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-99780509-1', 'auto');
+      ga('send', 'pageview', {'page': location.pathname + location.search + location.hash});
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113050259-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113050259-1');
+    </script>
+  </head>
+
+  <body class="index" data-languages="[]">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPPJXTL"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <a href="#" id="nav-button">
+      <span>
+        <img src="images/navbar.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="tocify-wrapper">
+      <div class="lc-logo"><a href="./"><img src="images/line.png" alt="Line" /></a></div>
+      <div class="lc-logo">BCRM User Manual</div>
+        <div class="lang-selector">
+        </div>
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="Search">
+        </div>
+        <ul class="search-results"></ul>
+      <div id="toc">
+      </div>
+        <ul class="toc-footer">
+            <li><a href='/api/' style="color:#878787">BCRM APIs Documentation</a></li>
+        </ul>
+      <p class="lc-copyright"><small>Â©&nbsp;LINE Corporation</small></p>
+    </div>
+    <div class="page-wrapper">
+      <div class="content">
+        <div class="manual">
+          <h1 id="introduction">Introduction</h1>
+
+<p>LINE BCRM tracks and understands your followers in Official Account, and gives you insights and tools to convert audiences into real customers.</p>
+
+<p>LINE BCRM provides a variety of features to engage and convert your users, and improves retention for existing customers</p>
+
+<p><strong><a href="#campaigns">Targeted and personalised messaging</a></strong><br>
+Send targeted messages to groups, segments or individual users. Improve your CTR and engagement rates 100 folds by sending out personalised and engaging messages to individuals.</p>
+
+<p><strong><a href="#link-campaigns">Track, analyze user behaviors and demographics</a></strong><br>
+Measure the real interests of your users by tracking individual users&rsquo; clicks and interactions on Official Account Messages, as well as your e-commerce websites. Customizable surveys can also understand customer demographics and interests.</p>
+
+<p><strong><a href="#user-messages">Always ON AIR</a></strong><br>
+Listen to your customers - always receiving messages from your users, and receive insights on customer&rsquo;s needs and sentiments. Surprise guaranteed when you discover what your users are saying.</p>
+
+<p><strong><a href="#one-on-one-chats">One-on-one chats</a></strong><br>
+Chat and support your users one on one. Especially useful for Products with high Customer Lifetime Value. Improve your conversion and retention rate.</p>
+
+            <h1 id="questionnaire">Questionnaire</h1>
+
+<p>Use questionnaires to profile or segment use. All the answer will be recorded and visible in real time, allowing the brand to properly segment their LINE users.</p>
+
+<h2 id="new-questionnaires">New questionnaires</h2>
+
+<p>1) Go to <strong>Questionnaires</strong> menu in the left hand side.</p>
+
+<p><img src="images/questionnaire/questionnaire_menu.png" alt="Questionnaire Menu" /></p>
+
+<p>2) Click <strong>New questionnaire</strong> button.</p>
+
+<p><img src="images/questionnaire/questionnaire_new_button.png" alt="New Questionnaire button" /></p>
+
+<p>3) Fill in questionnaire name.</p>
+
+<p>4) Check <strong>Publish</strong> to allow user to answer the questionnaire.</p>
+
+<aside class="notice">Leave it for now, will be checked in later steps</aside>
+
+<p>5) Choose language &ldquo;Thai&rdquo; or &ldquo;English&rdquo;.</p>
+
+<p><img src="images/questionnaire/questionnaire_new.png" alt="New questionnaire" /></p>
+
+<p>6) Fill in the Conditions Title and Terms &amp; Conditions.</p>
+
+<aside class="notice">Optional, Need to check âTerm & Conditions enableâ to show the Terms & Conditions</aside>
+
+<p>7) Set the name of the Agree buttons.</p>
+
+<p><img src="images/questionnaire/questionnaire_term_condition.png" alt="Questionnaire term condition" /></p>
+
+<p><p align="center"><br>
+<image src="images/questionnaire/term_and_condition.png"><br>
+<p></p>
+
+<p>8) Fill in text (choose &ldquo;Basic&rdquo; option) or upload images (choose &ldquo;Full image&rdquo; option) for Thank you page.</p>
+
+<aside class="notice">Recommend: Full image option, size 1080px x 1728px</aside>
+
+<p><img src="images/questionnaire/questionnaire_thankyou.png" alt="Questionnaire Thank you" /></p>
+
+<p><p align="center"><br>
+<image src="images/questionnaire/thank_you.png"><br>
+<p></p>
+
+<p>9) Fill in text (choose &ldquo;Basic&rdquo; option) or upload images (choose &ldquo;Full image&rdquo; option) for Complete page.</p>
+
+<aside class="notice">Recommend: Full image option, size 1080px x 1728px</aside>
+
+<p><img src="images/questionnaire/questionnaire_completed.png" alt="Questionnaire Completed" /></p>
+
+<p><p align="center"><br>
+<image src="images/questionnaire/completed.png"><br>
+<p></p>
+
+<p>10) Fill in text (choose &ldquo;Basic&rdquo; option) or upload images (choose &ldquo;Full image&rdquo; option) for Unpublished page.</p>
+
+<aside class="notice">Unpublished page will be shown when the questionnaire is unpublished. Recommend: Full image option, size 1080px x 1728px</aside>
+
+<p><img src="images/questionnaire/questionnaire_unpublished.png" alt="Questionnaire Unpublished" /></p>
+
+<p><p align="center"><br>
+<image src="images/questionnaire/unpublished.png"><br>
+<p></p>
+
+<p>11) Click <strong>Show</strong> button in header section to fill in header details: Title, description or image header.</p>
+
+<aside class="notice">The questionnaire header is optional</aside>
+
+<p><img src="images/questionnaire/questionnaire_header.gif" alt="Questionnaire Header" /></p>
+
+<p><p align="center"><br>
+<image src="images/questionnaire/questionnaire.png"><br>
+<p></p>
+
+<p>12) Click <strong>Show</strong> button in footer section to fill in footer details:: Title, description or image footer.</p>
+
+<aside class="notice">The questionnaire footer is optional</aside>
+
+<p><p align="center"><br>
+<image src="images/questionnaire/footer.png"><br>
+<p></p>
+
+<p>13) Click <strong>Show</strong> button in style options section to adjust the style of each part in the questionnaire.</p>
+
+<aside class="notice">This step is optional</aside>
+
+<p>14) Click <strong>Show</strong> button in advanced options section to choose auto response to reply to user when user submits the questionnaire.</p>
+
+<aside class="notice">This step is optional. Need to create a <a href="/#auto-response">Auto response</a> first.</aside>
+
+<p><img src="images/questionnaire/questionnaire_auto_response.png" alt="Questionnaire Auto response" /></p>
+
+<p>15) Click <strong>Save</strong> button.</p>
+
+<p><img src="images/save.png" alt="Save" /></p>
+
+            <h2 id="add-new-question">Add new question</h2>
+
+<p>1) Click <strong>Update questions</strong> button.</p>
+
+<p><img src="images/questionnaire/edit_update_qr_menu.png" alt="Update Questions" /></p>
+
+<p>2) Choose to add new question from the left list. Use &ldquo;User Info Field&rdquo; to keep the user&rsquo;s data in BCRM system (Next time if the same user has to do the questionnaire again, BCRM will show the existing data so the user doesn&rsquo;t need to fill in again)</p>
+
+<p><img src="images/questionnaire/add_question.png" alt="Update Questions" /></p>
+
+<p>3) Edit field for each question.</p>
+
+<p><img src="images/questionnaire/edit_question.png" alt="Edit field Questions" /></p>
+
+<p>4) Arrange order of the questions by dragging the question up or down.</p>
+
+<p><img src="images/questionnaire/reorder_questions.gif" alt="Reorder Questions" /></p>
+
+<p>5) Click <strong>Save form</strong> button to save the questionnaire.</p>
+
+<p><img src="images/questionnaire/save_form.png" alt="Save form" /></p>
+
+<p>6) Click <strong>Preview</strong> button to preview the questionnaire.</p>
+
+<aside class="notice">Click <b>Checkbox images</b> button to upload the image and use it in &ldquo;Photo Checkboxes&rdquo; or &ldquo;Photo Choice&rdquo;</aside>
+
+<p><img src="images/questionnaire/preview.png" alt="Preview" /></p>
+
+            <h2 id="publish-questionnaire">Publish questionnaire</h2>
+
+<p>1) To publish the questionnaire, Go to the questionnaire main page and click <strong>Edit questionnaire</strong></p>
+
+<p><img src="images/questionnaire/edit_update_qr_menu.png" alt="Update Questions" /></p>
+
+<p>2) Checked <strong>Publish</strong> checkbox.</p>
+
+<aside class="notice">To unpublished the questionnaire, unchecked <b>Publish</b> checkbox</aside>
+
+<p><img src="images/questionnaire/publish.png" alt="Publish" /></p>
+
+<p><p align="center"><br>
+<image src="images/questionnaire/questionnaire.png"><br>
+<p></p>
+
+            <h2 id="get-link-or-qr-code-of-questionnaire">Get link or QR code of questionnaire</h2>
+
+<p>1) Go to questionnaires that you want to generate the link or QR code. Then click <strong>QR Code</strong> button.</p>
+
+<p><img src="images/questionnaire/edit_update_qr_menu.png" alt="QR code" /></p>
+
+<p>2) Or go to questionnaires list and click <strong>QR Code</strong> button in Actions column.</p>
+
+<p><img src="images/questionnaire/get_qr_code.png" alt="QR code" /></p>
+
+<p>3) Put this link in rich menu or use the link to send the rich message.</p>
+
+<p><img src="images/questionnaire/questionnaire_qr.png" alt="QR code" /></p>
+
+            <h2 id="report-of-questionnaire">Report of questionnaire</h2>
+
+<p>1) Go to questionnaires that you want to see the report. Then click <strong>Report</strong> button in Actions column.</p>
+
+<p><img src="images/questionnaire/questionnaire_report_button.png" alt="Report" /></p>
+
+<p>2) Choose the condition that you want to filter by using demographic filter, questions filter or additional filter.</p>
+
+<p><img src="images/questionnaire/questionnaire_report.png" alt="Questionnaire Report" /></p>
+
+<p>3) After filter the result, you can also assign the users to the group.</p>
+
+<p><img src="images/questionnaire/questionnaire_assign.png" alt="Questionnaire Assign" /></p>
+
+            <h2 id="export-answers-in-questionnaire">Export answers in questionnaire</h2>
+
+<p>1) Go to questionnaires that you want to export the answers. Then click <strong>Generate</strong> button in Download column. The button will change to <strong>Generating&hellip;</strong> state.</p>
+
+<p><img src="images/questionnaire/questionnaire_generate.gif" alt="Generate Report" /></p>
+
+<p>2) Refresh the web browser one time (press <strong>F5</strong> button). Then click <strong>Download</strong> button and choose CSV format.</p>
+
+<p><img src="images/questionnaire/questionnaire_download.png" alt="Download Report" /></p>
+
+            <h1 id="campaigns">Campaigns</h1>
+
+<p>Use Campaign to create personalised messages and send it to user using their profile pictures and LINE display name to create more personalized experience with the user and will greatly increase CTR.</p>
+
+<p>You can then define clickable areas on the image which redirects the user to a link or sends a specified text message from your user to your bot.</p>
+
+<h2 id="new-rich-messages">New rich messages</h2>
+
+<p>1) In <strong>Campaign</strong> menu, Click <strong>Rich messages</strong> sub-menu.</p>
+
+<p><img src="images/campaign/rich_message_menu.png" alt="Rich Message" /></p>
+
+<p>2) Click <strong>New rich message</strong> button.</p>
+
+<p><img src="images/campaign/rich_message_button.png" alt="Rich Message" /></p>
+
+<p>3) Choose <strong>Personalised</strong> rich message types.</p>
+
+<p><img src="images/campaign/rich_message_personalised_type.png" alt="Rich Message" /></p>
+
+<p>4) Fill in Message title (Name of this rich message)</p>
+
+<aside class="notice">This message title will not send to user</aside>
+
+<p>5) Fill in Alt Text.</p>
+
+<aside class="notice">This alt text will be shown as preview message</aside>
+
+<p>6) Choose Background image.</p>
+
+<p><img src="images/campaign/rich_message_info.png" alt="Rich Message" /></p>
+
+<p>7) Add Whitelist Variable and default value.</p>
+
+<aside class="notice">This step is optional. Use only for API incase your BOT to send the message using this template. The value of whitelist variable will be changed when sending personalized rich Message via API</aside>
+
+<p>8) Adjust the style of the message header.</p>
+
+<aside class="notice">This step is optional. Use only for customize the rich message by using HTML code</aside>
+
+<p>9) Click <strong>Save</strong> button.</p>
+
+<p><img src="images/save.png" alt="Save" /></p>
+
+            <h2 id="add-clickable-area">Add clickable area</h2>
+
+<p>1) Scroll down to &ldquo;Create action areas&rdquo; section.</p>
+
+<p>2) You can adjust user&rsquo;s display image and display name, by click at image or name and move around inside the picture.</p>
+
+<p><img src="images/campaign/rich_message_adjust_user.gif" alt="Rich Message" /></p>
+
+<p>3) Drag the area in the picture to assign the action when user clicks on that area. Choose action for each area.</p>
+
+<aside class="notice">Fill in the link in URL field. (This link can be link campaign or external link)</aside>
+
+<p><img src="images/campaign/rich_message_assign_area.gif" alt="Rich Message" /></p>
+
+<p>4) For send message action. Fill in the text that will send out by user (this text can be match with your auto-response)</p>
+
+<p><img src="images/campaign/rich_message_assign_area_text.gif" alt="Rich Message" /></p>
+
+<p>5) Click <strong>Save</strong> button for each action.</p>
+
+<p><img src="images/save.png" alt="Save" /></p>
+
+<p>6) Drag another area (Repeat until it&rsquo;s done) and click <strong>Save</strong> button.</p>
+
+            <h2 id="send-and-schedule-campaign">Send and schedule campaign</h2>
+
+<p>1) In <strong>Campaign</strong> menu, Click <strong>Send campaigns</strong> submenu.</p>
+
+<p><img src="images/campaign/campaign_menu.png" alt="Campaign" /></p>
+
+<p><strong>Campaign status</strong></p>
+
+<p><strong>Sending:</strong> show scheduled campaigns which are in process of sending<br>
+<strong>Scheduled:</strong> show scheduled campaigns which will be sent on scheduled date and time<br>
+<strong>Draft:</strong> show draft campaigns which can be edited and will not be sent until the campaign is edited to be in âscheduledâ status<br>
+<strong>Sent:</strong> show campaigns which already sent by BCRM and API<br>
+<strong>Cancelled:</strong> show campaigns which already cancelled</p>
+
+<p><img src="images/campaign/campaign_index.png" alt="Send campaign" /></p>
+
+<p>2) Click <strong>New campaign</strong> button.</p>
+
+<p><img src="images/campaign/campaign_new_campaign.png" alt="Send campaign" /></p>
+
+<p>3) Fill in campaign name.</p>
+
+<p>4) Set &ldquo;Schedule&rdquo; date and time or choose &ldquo;Send now&rdquo; to send the campaign immediately.</p>
+
+<p>5) Select Categories/Groups/Filters/Users to send to. Then fill in the Categories/Groups/Filters/Users name into the field.</p>
+
+<aside class="notice">Can input multiple Categories/Groups/Filters/Users</aside>
+
+<p><img src="images/campaign/campaign_new.png" alt="Send campaign" /></p>
+
+<p>6) Choose rich message that you just created or other message type.</p>
+
+<aside class="notice">Can choose up to 3 messages per campaign</aside>
+
+<p><img src="images/campaign/campaign_choose_message.gif" alt="Send campaign" /></p>
+
+<p>7) You can preview before sending by click <strong>Preview</strong> button.</p>
+
+<p><img src="images/campaign/campaign_preview.gif" alt="Send campaign" /></p>
+
+<p>8) Click <strong>Save as draft</strong> to draft the campaign or <strong>Send</strong> button to send it.</p>
+
+<p><img src="images/campaign/campaign_draft_send.png" alt="Send campaign" /></p>
+
+<p><p align="center"><br>
+<image src="images/campaign/campaign_mobile.png"><br>
+<p></p>
+
+            <h2 id="template-messages">Template messages</h2>
+
+<p>Template messages have predefined layouts that help you create richer experiences for your users. Use actions to make it easier for users to interact with your bot by letting them perform certain actions with a single tap instead of manually typing a text message.</p>
+
+<aside class="notice">Template messages can be use to send as campaign. Also it can be use with <a href="/#auto-response">Auto response feature</a></aside>
+
+<h2 id="new-confirm-message">New confirm message</h2>
+
+<p>Use the confirm template to send a message with two buttons.</p>
+
+<p><p align="center"><br>
+<image src="images/api/confirm.png"><br>
+<p></p>
+
+<p>1) In <strong>Campaign</strong> menu, Click <strong>Template messages</strong> submenu.</p>
+
+<p><img src="images/campaign/template_message_menu.png" alt="Template messages" /></p>
+
+<p>2) Click <strong>New template message</strong> button.</p>
+
+<p><img src="images/campaign/template_message_button.png" alt="Template messages" /></p>
+
+<p>3) Select <strong>Confirm Message</strong> type.</p>
+
+<p><img src="images/campaign/template_choose_confirm.png" alt="Template messages" /></p>
+
+<p>4) Fill in the message title.</p>
+
+<p>5) Fill in alt text.</p>
+
+<aside class="notice">This alt text will be shown as preview message</aside>
+
+<p>6) Choose action type for each action:</p>
+
+<p><strong>Uri:</strong> fill in the link in URL field (This link can be link campaign or external link)<br>
+<strong>Message:</strong> fill in text that will send out by user (This text can be match with your auto-response)<br>
+<strong>Postback:</strong> return a specified string (key and value) in a postback event to your bot (text in postback is optional)</p>
+
+<p><img src="images/campaign/confirm_add_data.png" alt="Template messages" /></p>
+
+<p>7) Click <strong>Save</strong> button.</p>
+
+<p><img src="images/save.png" alt="Save" /></p>
+
+<p><p align="center"><br>
+<image src="images/campaign/confirm_mobile.png"><br>
+<p></p>
+
+            <h2 id="new-button-message">New button message</h2>
+
+<p>Use the buttons template to send a message with an image, title, text and multiple action buttons (Maximum action is 4).</p>
+
+<p align="center">
+<image src="images/api/buttons.png">
+</p>
+
+<p>1) In <strong>Campaign</strong> menu, Click <strong>Template messages</strong> submenu.</p>
+
+<p><img src="images/campaign/template_message_menu.png" alt="Template messages" /></p>
+
+<p>2) Click <strong>New template message</strong> button.</p>
+
+<p><img src="images/campaign/template_message_button.png" alt="Template messages" /></p>
+
+<p>3) Select <strong>Button Message</strong> type.</p>
+
+<p><img src="images/campaign/template_choose_button.png" alt="Template messages" /></p>
+
+<p>4) Fill in message title.</p>
+
+<p>5) Upload the image.</p>
+
+<aside class="notice">This step is optional.</aside>
+
+<p>6) Fill in Alt Text</p>
+
+<aside class="notice">This Alt Text will be shown as preview message.</aside>
+
+<p>7) Choose action type for each action:</p>
+
+<p><strong>Uri:</strong> fill in the link in URL field (This link can be link campaign or external link)<br>
+<strong>Message:</strong> fill in text that will send out by user (This text can be match with your auto-response)<br>
+<strong>Postback:</strong> return a specified string (key and value) in a postback event to your bot (text in postback is optional)</p>
+
+<p><img src="images/campaign/button_add_data.png" alt="Template messages" /></p>
+
+<p>8) Add another action (Repeat until it&rsquo;s done, maximum action is 4).</p>
+
+<p><img src="images/campaign/button_add_action.gif" alt="Template messages" /></p>
+
+<p>9) Click <strong>Save</strong> button.</p>
+
+<p><img src="images/save.png" alt="Save" /></p>
+
+<p><p align="center"><br>
+<image src="images/campaign/button_mobile.png"><br>
+<p></p>
+
+            <h2 id="new-carousel-message">New carousel message</h2>
+
+<p>Use the carousel template to send a message with multiple column objects that users can cycle through. (Maximum of columns is 5 and maximum action of each column is 3)</p>
+
+<aside class="notice">Keep the number of actions consistent for all columns. If you use an image or title for a column, make sure to do the same for all other columns.</aside>
+
+<p align="center">
+<image src="images/api/carousel.png">
+</p>
+
+<p>1) In <strong>Campaign</strong> menu, Click <strong>Template messages</strong> submenu.</p>
+
+<p><img src="images/campaign/template_message_menu.png" alt="Template messages" /></p>
+
+<p>2) Click <strong>New template message</strong> button.</p>
+
+<p><img src="images/campaign/template_message_button.png" alt="Template messages" /></p>
+
+<p>3) Select <strong>Carousel Message</strong> type.</p>
+
+<p><img src="images/campaign/template_choose_carousel.png" alt="Template messages" /></p>
+
+<p>4) Fill in alt text.</p>
+
+<aside class="notice">This alt text will be shown as preview message</aside>
+
+<p>5) In columns section, fill in column title, text, image and actions. Choose action type for each action:</p>
+
+<p><strong>Uri:</strong> fill in the link in URL field (This link can be link campaign or external link)<br>
+<strong>Message:</strong> fill in text that will send out by user (This text can be match with your auto-response)<br>
+<strong>Postback:</strong> return a specified string (key and value) in a postback event to your bot (text in postback is optional)</p>
+
+<p>6) Add another column and action (Repeat until it&rsquo;s done, Maximum of columns is 5 and maximum action of each column is 3).</p>
+
+<p><img src="images/campaign/carousel_add_action.gif" alt="Template messages" /></p>
+
+<p>7) Click <strong>Save</strong> button.</p>
+
+<p><img src="images/save.png" alt="Save" /></p>
+
+<p><p align="center"><br>
+<image src="images/campaign/carousel_mobile.png"><br>
+<p></p>
+
+            <h1 id="auto-response">Auto response</h1>
+
+<p>You can set auto-response to interact with users using various types of messages. Use the following types of messages to create interactive experiences for your users.</p>
+
+<aside class="notice">Recommend to use with <a href="/#template-messages">Template messages</a> to create the ChatBot experiences</aside>
+
+            <h2 id="new-auto-response">New auto response</h2>
+
+<p>1) In <strong>Auto response</strong> menu, click <strong>Auto response</strong> submenu.</p>
+
+<p><img src="images/auto_response/auto_response_menu.png" alt="Auto response" /></p>
+
+<p>2) Click <strong>New auto response</strong> button.</p>
+
+<p><img src="images/auto_response/auto_response_button.png" alt="Auto response" /></p>
+
+<p>3) Fill in Campaign Name.</p>
+
+<p>4) Choose template message that you just created or other message type.</p>
+
+<aside class="notice">Can choose up to 3 messages per auto response</aside>
+
+<p><img src="images/auto_response/auto_response_new.gif" alt="Auto response" /></p>
+
+<p>5) Click <strong>Save</strong> button.</p>
+
+<p><img src="images/save.png" alt="Save" /></p>
+
+<h2 id="add-response-keyword">Add response keyword</h2>
+
+<p>1) In <strong>Auto response</strong> menu, Click <strong>Response keywords</strong> submenu.</p>
+
+<p><img src="images/auto_response/response_keyword_menu.png" alt="Auto response" /></p>
+
+<p>2) Choose auto response campaign that you want to add the keyword.</p>
+
+<aside class="notice">Click on eye icon to see preview of that auto-response campaign</aside>
+
+<p><img src="images/auto_response/choose_auto_response.gif" alt="Auto response" /></p>
+
+<p>3) Fill in new keyword in text field and click <strong>New keyword</strong> to add the keyword to this auto response campaign.</p>
+
+<aside class="notice">If user send this keyword, this auto-response will be reply. You can also add multiple keyword</aside>
+
+<p><img src="images/auto_response/response_keyword_add.png" alt="Auto response" /></p>
+
+<p>4) Adjust the priority of the auto response by click arrow up or down button.</p>
+
+<p><img src="images/auto_response/response_keyword_priority.gif" alt="Auto response" /></p>
+
+<p>5) You can disable the keyword of auto-response by click <strong>Disable</strong> button.</p>
+
+<p><img src="images/auto_response/response_keyword_disable.png" alt="Auto response" /></p>
+
+            <h2 id="view-auto-response-statistics">View Auto Response Statistics</h2>
+
+<ol>
+<li><p>In <strong>Auto Response</strong> menu, click <strong>Keyword statistics</strong> submenu.</p></li>
+<li><p>Choose date range</p></li>
+<li><p>Click &ldquo;Export XLS&rdquo; or &ldquo;Export CSV&rdquo; button to export selected statistics.</p></li>
+</ol>
+
+<p><img src="images/auto_response/auto_response_keyword_stats.png" alt="Export statistics" /></p>
+
+            <h1 id="user-messages">User messages</h1>
+
+<h2 id="search-messages-from-users">Search messages from users</h2>
+
+<p>1) In <strong>User messages</strong> menu, click <strong>Messages</strong> submenu.</p>
+
+<p><img src="images/user_messages/user_message_menu.png" alt="User Messages" /></p>
+
+<p>2) Choose date range.</p>
+
+<p>3) Choose matching method.</p>
+
+<p>4) Fill in the text to search.</p>
+
+<p>5) Click <strong>Submit</strong> button.</p>
+
+<p><img src="images/user_messages/user_message_search.png" alt="User Messages" /></p>
+
+<p>6) Click <strong>Chat</strong> button to go to Chats room.</p>
+
+<p><img src="images/user_messages/user_message_chat.png" alt="User Messages" /></p>
+
+<p>7) After search, if you want to export the result click <strong>Generate Spreadsheet</strong> button.</p>
+
+<p><img src="images/user_messages/user_message_export.png" alt="User Messages" /></p>
+
+<p>8) Refresh the page one time (press <strong>F5</strong> button) then click <strong>Download</strong> button and choose &ldquo;CSV Format&rdquo; or &ldquo;XLS format&rdquo;.</p>
+
+<p><img src="images/user_messages/user_message_generating.gif" alt="User Messages" /></p>
+
+            <h2 id="one-on-one-chats">One-on-one Chats</h2>
+
+<p>1) In <strong>User messages</strong> menu, click <strong>Chats</strong> submenu.</p>
+
+<p><img src="images/user_messages/chats_menu.png" alt="Chats" /></p>
+
+<p>2) Select or search user with display name.</p>
+
+<p>3) Type reply message and press <strong>Enter</strong> to send message</p>
+
+<p><img src="images/user_messages/chats_page.gif" alt="Chats" /></p>
+
+            <h1 id="link-campaigns">Link campaigns</h1>
+
+<p>Use link campaign instead of normal URL to track the behavior of your followers on what they click and their interests.</p>
+
+<p>Link campaign ca be use with <a href="#new-categories">categories</a> when you want to segment the users based on any categories (for example, peoples who like to traveling abroad or domestic)</p>
+
+<h2 id="new-link-campaigns">New link campaigns</h2>
+
+<p>1) Go to <strong>Link campaigns</strong> menu.</p>
+
+<p><img src="images/link_campaign/link_campaign_menu.png" alt="New link campaign" /></p>
+
+<p>2) Click <strong>New link campaign</strong> button.</p>
+
+<p><img src="images/link_campaign/link_campaign_new.png" alt="New link campaign" /></p>
+
+<p>3) Fill in the link campaign name. (Name of main campaign)</p>
+
+<p>4) Fill in the information</p>
+
+<p>Name - Name of the link<br>
+Destination URL<br>
+<a href="#new-categories">Categories</a> - Can input multiple categories.<br>
+Add categories - One link can assign to multiple categories<br>
+Image - The image is use just to remind that this link is located to which image.<br>
+Type of link - LIFF Full (Launching a web app inside the chatroom, less drop-off) or Web Login (Redirect to in-app browser)<br>
+Desktop tracking - To track users in LINE&rsquo;s desktop version.</p>
+
+<p><img src="images/link_campaign/link_campaign_add_data.png" alt="New link campaign" /></p>
+
+<p>5) Click <strong>New link</strong> to add more link. (Each campaign can contain many links)</p>
+
+<aside class="notice">Add new link with the same URL to separate link campaign to track user click from different source. For example: Rich message, Rich Menu and Official Home</aside>
+
+<p><img src="images/link_campaign/link_campaign_new_link.png" alt="New link campaign" /></p>
+
+<p>6) Click <strong>Save</strong> button to generate Link Campaign.</p>
+
+<p>7) Copy the generated URL and use this URL to attached in the rich message or any others places.</p>
+
+<p><img src="images/link_campaign/link_campaign_generate.png" alt="New link campaign" /></p>
+
+<p>8) Click <strong>QR Code</strong> to get link campaign QR code.</p>
+
+<p><img src="images/link_campaign/link_campaign_qr.png" alt="New link campaign" /></p>
+
+<p><img src="images/link_campaign/qr_code.png" alt="New link campaign" /></p>
+
+<aside class="notice">Internal URL will be able to open only in LINE application.</aside>
+
+            <h2 id="view-link-campaign-statistics">View link campaign statistics</h2>
+
+<p>1) Show number of total clicks and total users for each link campaign.</p>
+
+<p><img src="images/link_campaign/link_campaign_stats.png" alt="link campaign" /></p>
+
+<p>2) Click <strong>Report</strong> button to view statistics graph for each link campaign.</p>
+
+<p><img src="images/link_campaign/link_campaign_view_report.png" alt="link campaign" /></p>
+
+<p>3) Select report date to view total clicks or total users and time period.</p>
+
+<p><img src="images/link_campaign/link_campaign_query.png" alt="link campaign" /></p>
+
+<p>4) Click <strong>User list</strong> button to view list of users who click the link.</p>
+
+<p><img src="images/link_campaign/link_campaign_user_list.png" alt="link campaign" /></p>
+
+            <h1 id="segmentations">Segmentations</h1>
+
+<p>Send messages to specific users, groups of users and filters to make the campaign relevant by segment the users using the collected data such as user&rsquo;s demographic, questionnaires, link campaign or user messages to find the right target group.</p>
+
+<p>Use <a href="#new-filter">filter</a> when you want to segment the users dynamically (For example segment user via questionnaire, when more user do the questionnaire. BCRM will add those users into filter). For segment users using <a href="#new-group">group</a>, the people inside the group will be fixed once it&rsquo;s created.</p>
+
+<h2 id="view-user-profile">View user profile</h2>
+
+<p>1) In <strong>Segmentations</strong> menu, click <strong>Users</strong> submenu.</p>
+
+<p><img src="images/segmentation/users_menu.png" alt="User Profile" /></p>
+
+<p><img src="images/segmentation/users_graph.png" alt="User Profile" /></p>
+
+<p>2) Choose Display name or MID then fill in the data to search.</p>
+
+<p>3) Click <strong>Search</strong> button.</p>
+
+<p><img src="images/segmentation/users_search.png" alt="User Profile" /></p>
+
+<p>4) Scroll down to view search result.</p>
+
+<p>5) Click on <strong>Display name</strong> to view user profile.</p>
+
+<p><img src="images/segmentation/users_show_profile.gif" alt="User Profile" /></p>
+
+<h2 id="new-group">New group</h2>
+
+<p>For segment users using group, the people inside the group will be fixed once it&rsquo;s created.</p>
+
+<p>1) In <strong>Segmentations</strong> menu, click <strong>Groups</strong> submenu.</p>
+
+<p><img src="images/segmentation/groups_menu.png" alt="Groups" /></p>
+
+<p>2) Click <strong>New group</strong> button.</p>
+
+<p><img src="images/segmentation/groups_new_button.png" alt="Groups" /></p>
+
+<p>3) Fill in group name.</p>
+
+<p>4) Choose CSV file (The format of CSV is the list of user&rsquo;s UID in one column).</p>
+
+<aside class="notice">This step is optional, In case you already have CSV file.</aside>
+
+<p>5) Click <strong>Save</strong> button and use <a href="#send-and-schedule-campaign">Send campaigns</a> to send to this group.</p>
+
+<p><img src="images/segmentation/groups_add_data.png" alt="Groups" /></p>
+
+<h2 id="assign-users-to-group">Assign users to group</h2>
+
+<p>1) In <strong>Segmentations</strong> menu, click <strong>Users</strong> submenu.</p>
+
+<p><img src="images/segmentation/users_menu.png" alt="User Profile" /></p>
+
+<p>2) Select Users by check the check-box.</p>
+
+<p>3) Select group.</p>
+
+<p>4) Click <strong>Assign to group</strong> button. (The success message will pop-up in upper area)</p>
+
+<p><img src="images/segmentation/users_assign_to_group.gif" alt="Assign to group" /></p>
+
+            <h2 id="new-filter">New Filter</h2>
+
+<p>Use filter when you want to segment the users dynamically (For example segment user via questionnaire, when more user do the questionnaire. BCRM will add those users into filter).</p>
+
+<p>1) In <strong>Segmentations</strong> menu, click <strong>Filters</strong> submenu.</p>
+
+<p><img src="images/segmentation/filter_menu.png" alt="Filter menu" /></p>
+
+<p>2) Click to <strong>New filter</strong> create new filter.</p>
+
+<p><img src="images/segmentation/filter_new.png" alt="Filter menu" /></p>
+
+<p>3) Select filter scope from questionnaires or Link Campaigns. Click <strong>Next</strong> button.</p>
+
+<aside class="notice">Can select multiple Questionnaires and Link Campaigns</aside>
+
+<p><img src="images/segmentation/filter_scope.png" alt="Filter scope" /></p>
+
+<p>4) Fill in filter name.</p>
+
+<p><img src="images/segmentation/filter_name.png" alt="Filter name" /></p>
+
+<p>5) In &ldquo;Demographic Segmentation&rdquo; section, you can segment the user using their demographic.</p>
+
+<p><img src="images/segmentation/filter_demographic.png" alt="Filter demographic" /></p>
+
+<p>6) In &ldquo;Behavioral Segmentation&rdquo; section. Click <strong>Select filter scopes</strong> for using the data from questionnaire, link campaign, user message and Beacon.</p>
+
+<p><img src="images/segmentation/filter_behavioral.png" alt="Filter behavioral" /></p>
+
+<p>7) Choose <strong>User Messages</strong> to specify message from users. Using &ldquo;PARTIAL&rdquo; for match your keyword partially or &ldquo;EXACT&rdquo; for match your keyword exactly. Fill in the keyword in text-box.</p>
+
+<p><img src="images/segmentation/filter_message.png" alt="Filter message" /></p>
+
+<p>8) Choose <strong>Questionnaires</strong> to specify questions from questionnaire.</p>
+
+<p><img src="images/segmentation/filter_questionnaire.png" alt="Filter questionnaire" /></p>
+
+<p>9) Choose the question that you want to segment (Can choose multiple questions).</p>
+
+<p><img src="images/segmentation/filter_question.png" alt="Filter questionnaire" /></p>
+
+<p>10) Choose &ldquo;OR&rdquo; or &ldquo;EXCLUDE&rdquo; for create the relationship between answers.</p>
+
+<p><img src="images/segmentation/filter_or_exclude.png" alt="Filter questionnaire" /></p>
+
+<p>11) Choose the answers from the question (Can choose multiple answers).</p>
+
+<p><img src="images/segmentation/filter_answers.png" alt="Filter behavioral scope" /></p>
+
+<p>12) Choose <strong>Link Campaigns</strong> to specify clicked link by users.</p>
+
+<p><img src="images/segmentation/filter_link_campaigns.png" alt="Filter behavioral scope" /></p>
+
+<p>13) Choose the link from link campaign (Can choose multiple links).</p>
+
+<p><img src="images/segmentation/filter_link.png" alt="Filter behavioral scope" /></p>
+
+<p>14) Choose <strong>Beacon</strong> to specify which Beacon that you want to filter.</p>
+
+<p><img src="images/segmentation/beacons.png" alt="Filter behavioral scope" /></p>
+
+<p>15) Choose &ldquo;OR&rdquo;, &ldquo;AND&rdquo; or &ldquo;EXCLUDE&rdquo; for create the relationship between links.</p>
+
+<p><img src="images/segmentation/filter_link_relationship.png" alt="Filter behavioral scope" /></p>
+
+<p>16) Also you can choose &ldquo;OR&rdquo; or &ldquo;AND&rdquo; for create the relationship between user messages, questionnaire, link campaign and Beacons.</p>
+
+<p><img src="images/segmentation/filter_relationship.png" alt="Filter behavioral scope" /></p>
+
+<p>17) Click <strong>Save</strong> button.</p>
+
+<p><img src="images/segmentation/save_button.png" alt="Save" /></p>
+
+<p><img src="images/segmentation/alert_saved.png" alt="Alert" /></p>
+
+            <h2 id="new-categories">New Categories</h2>
+
+<p>Use categories when you want to segment the users based on any categories (for example, peoples who like to traveling abroad or domestic)</p>
+
+<p>1) In <strong>Segmentations</strong> menu, click <strong>Categories</strong> submenu.</p>
+
+<p><img src="images/segmentation/categories_menu.png" alt="Categories menu" /></p>
+
+<p>2) Click to <strong>New category</strong> create new category.</p>
+
+<p><img src="images/segmentation/categories_new.png" alt="Categories menu" /></p>
+
+<p>3) Fill in category name and click <strong>Save</strong> button.</p>
+
+<p><img src="images/segmentation/categories_name.png" alt="Categories scope" /></p>
+
+<aside class="notice">You can <a href="/#new-link-campaigns">assign the link campaign</a> to multiple categories</aside>
+
+            <h1 id="manage-multiple-channels">Manage Multiple Channels</h1>
+
+<p>In case you have administrator right to manage multiple channels, you can also switch to different channel inside BCRM.</p>
+
+<h2 id="switching-to-different-channel">Switching to Different Channel</h2>
+
+<p>1) In top right menu, Click your username menu to open drop-down list.</p>
+
+<p>2) Click <strong>Switch channels</strong> from drop down list.</p>
+
+<p>3) Click to the channel.</p>
+
+<p><img src="images/switch_tenant.gif" alt="Switch Tenant" /></p>
+
+            <h1 id="roles">Roles</h1>
+
+<p><img src="images/roles.png" alt="Roles" /></p>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+```
