@@ -1,0 +1,254 @@
+```<html>
+<title>Be The Wumpus</title>
+<body>
+<table width=100%> <!-- header table begins -->
+<tr>
+<td valign=bottom><p align=center>
+<img src="blacksquarewumpuslair.png">
+</td>
+<td valign=bottom>
+<p><font size=+5>Be The Wumpus</font>
+</td>
+<!-- tux image -->
+<td valign=bottom><p aligne=center>
+<img src="evil-tux-large.png">
+</td>
+</tr>
+</table> <!-- header table ends -->
+<hr>
+<!-- Main page section begins -->
+<table width=100%> <!-- Main page table begins -->
+<tr>
+<td width=20% valign=top> <! -- left sidebar table data begins -->
+<a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=143063&type=2"></a>
+<li><a href="#downloads">Downloads</a>
+<li><a href="#compiling">Compiling</a>
+<li><a href="#running">Running the game</a>
+<li><a href="#screenshots">Screenshots</a>
+<li><a href="#controls">Controls</a>
+<li><a href="bethewumpus.6.txt">Man page</a>
+<li><a href="#reviews">Reviews</a>
+<li><a href="#bugs">Bugs</a>
+</td> <!-- end of left sidebar table data -->
+
+<td valign=top><!-- Main content of page is in this table data entry.
+		for matching endpoint, search for ZZYZ -->
+<p><b>Be The Wumpus</b> is a game with no graphics, 
+with no text, only audio.  You are a wumpus, a blind,
+cave dwelling creature who subsists on meals of unlucky
+cave wanderers.  Back in the 70's, you may have been among
+those brave souls who
+<a href="http://en.wikipedia.org/wiki/Hunt_the_wumpus">hunted
+the wumpus</a>.  But the wumpus, driven nearly to extinction,
+is now a protected species.  But, do not fear, there is still 
+much fun to be had involving both hunting, and wumpusses.  
+Now you can <em>be</em> the wumpus, and hunt the wumpus
+hunters!
+
+<p>You really need headphones to play this game, and
+though a game pad is not mandatory, it is highly recommeneded,
+(preferably an xbox 360 controller, and you'll need
+linux kernel 2.6.26 or better with that one.)
+
+<p>This game is really more of a novelty than an actual game,
+and there's not a whole lot to it, so don't expect too much
+from it.  It's really just a silly little project I worked
+on for awhile for my own amusement.
+
+<p>This game is licensed under the good old GPL v. 2.0, except
+for the audio files, which are licensed under the 
+Creative Commons Sampling Plus 1.0 license.
+(see sounds/<a href="http://bethewumpus.cvs.sourceforge.net/bethewumpus/bethewumpus/sounds/Attribution.txt?view=markup">Attribution.txt</a>).
+
+<p><b>WARNING -- this game does contain small amounts of sounds of people
+speaking words which some people might consider profane.</b>  If you are apt to be
+offended by the numbers in a .wav file when run through a D/A converter, and
+then the analog signal amplified then run through a loudspeaker of some kind,
+well, you may have a problem with my numbers then, I suppose.  Thing is, it's
+your problem, not mine.  You've been warned.  And what sorts of things would 
+you expect people trapped in a dark cave with a hungry wumpus to say?
+
+<p>If you don't like it, well, that's just too damned bad.
+<hr>
+<a name="video">
+<p><b>Video</b>
+<p align=center><embed id="VideoPlayback" style="width:400px;height:326px" allowFullScreen="true" src="http://video.google.com/googleplayer.swf?docid=3839400884012996762&hl=en&fs=true" type="application/x-shockwave-flash"> </embed>
+<a name="screenshots">
+<p>I made a little video to try to clear up a bit of confusion
+about how this game works, how the controls work, and so on.
+<p><b>Screenshots</b>
+<p><img src="Screenshot-bethewumpus.png">
+<hr>
+<p><a name="downloads"><b>Downloads</b></a>
+
+<p><a href="https://sourceforge.net/project/showfiles.php?group_id=219742&package_id=265208">Download bethewumpus-0.05.tar.gz</a>, current as of Aug 30, 2008.
+<p>You may be able to get a more up to date version via CVS.
+To download from CVS, do the following at the shell prompt:
+<pre>
+	cvs -d:pserver:anonymous@bethewumpus.cvs.sourceforge.net:/cvsroot/bethewumpus login
+
+	cvs -z3 -d:pserver:anonymous@bethewumpus.cvs.sourceforge.net:/cvsroot/bethewumpus co -P bethewumpus
+</pre>
+<pre>
+	cd bethewumpus
+	make
+</pre>
+<hr>
+<a name="compiling"></a>
+<p><b>Compiling the game</b>
+<p>Compiling is easy, after checking out from 
+CVS as above, just type "make."  You'll need the
+gnome libraries and header files, which you likely already
+have.
+<p>You may need to set a couple environment variables:
+<pre>
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+export LD_LIBRARY_PATH=/usr/local/lib
+</pre>
+<p>(I have that in my ~/.login, so I tend to forget about them.)
+<p><b>You'll also need 
+<a href="http://xiph.org">libvorbisfile</a>
+and the 
+<a href="http://www.portaudio.com/">portaudio</a>
+libraries</b>, which there's a good chance you don't already have.
+These are easily compiled and installed via the traditional
+"./configure", "make", and (as root) "make install"
+commands.  You need version 19 of portaudio, not 18.  portaudio v. 18 
+is several years
+old, and the API has changed.  I think debian may have version 18
+of portaudio as the default, 
+as I have gotten some complaints about this from debian users.
+<p>Other packages you might need:
+<ul>
+<li>gtk2-devel
+<li>pango-devel
+<li>atk-devel
+<li>libvorbisfile
+</ul>
+
+<hr>
+<a name="running"></a>
+<p><b>Running the game</b>
+Type <pre>./bethewumpus</pre>
+in the directory you built it (because it expects the
+sound files in a "sounds" subdirectory).  
+<hr>
+<a name="controls">
+<p><b>Controls</b>
+<p>This game is best played with an xbox 360 controller.  This is
+the only controller for which rumble effects are known by me to work.
+(You will need linux kernel 2.6.26 or better as well, and you'll
+probably have to chown /dev/input/event5 or /dev/input/event6,
+or wherever your OS makes the device file for the rumble feature
+so that bethewumpus will have permission to use it.)
+Failing that, use a gamepad with two joysticks, such as the 
+Logitech Dual Action 2 Rumble is not a bad choice. 
+(The rumble function doesn't work with this controller on linux 
+though.)  Headphones are <em>highly</em>
+recommended, and to really get anything out of the game, headphones
+not just recommeded, but <em>mandatory</em>.
+<p>If you do not have a joystick, you can play with the keyboard,
+arrow keys + space bar to chomp, but it sucks.  Gamepads aren't 
+extremely expensive, consider buying one.  (Well, ok, that xbox
+360 controller isn't exactly cheap.)
+<ul>
+<li>The left stick controls rotation.
+<li>The right stick controls forward and backward motion. 
+<li>The first button makes the wumpus attack.  You must be
+within close range of your prospective meal for this to be
+effective, otherwise you simply frighten the meal.
+</uL>
+<p>Some people have complained that e.g. the right stick pressed
+to the left moves the wumpus backwards -- I have not seen that 
+behavior, it may have to do with whatever game pad was being used.
+There is no real standardization when it comes to mapping axis and
+button numbers to a game pad's physical controls, so if you have
+a gamepad other than the two I've tried, things may be wonky.
+<p>If you experience trouble, or cannot tell if the controls
+are working correctly or not, there is a debug mode (as shown in
+the video) which you can enable by changing bethewumpus.c in the
+following way:
+<pre>
+ 151 int framerate_hz;
+ 152 int sound_device = -1;
+ <b>153 int debugmode = 0;   &lt;-- Change this to a 1 for debug mode.</b>
+ 154 double water_x = SCREEN_WIDTH/2;
+ 155 double water_y = 0;
+ 156 int level = 0;
+ 157 int intro_music_slot = -1;
+ 158 int Be_The_Wumpus_slot = -1;
+</pre>
+<p>Of course the game is not meant to be played in this way,
+and it isn't any fun this way as it becomes trivially easy.
+However, doing this once or twice just to get the idea of how 
+the controls work, and to find out <em>if</em> they are working, 
+especially if you have some oddball game pad might be worthwhile.
+<hr>
+<a name="bugs"></a>
+<p><b>Bugs</b>
+<p>There are probably some bugs.
+<p>I have noticed that sometimes, in v. 0.02, you cannot
+attack.  The game tries to only allow one "wumpus roar" sound
+play at a time, so you can't attack while the wumpus roar sound
+is still playing from the previous attack.  Somehow the variable
+which tracks this gets out of sync, or overwritten, and you are
+prevented from attacking at all.  From what I've seen, this happens
+at the beginning of the game, just running the game again may allow
+you to pass this.  I haven't tracked this bug down yet, but it is
+the first thing on my list of things to fix when I get some time
+and motivation to work on this.
+<p><b>Update, Mar 31:</b>Sean Bolton sent
+me a patch which fixes this problem (thanks Sean).  The fix is
+now in CVS.
+<p><b>Update, Apr 5:</b>The above bug is fixed in v. 0.03.
+<hr>
+<a name="reviews"><b>Reviews</b></a>
+<p>The October 2008 issue of <a href="http://www.linuxformat.co.uk/index.php">Linux Format Magazine</a> has a mini review of Be The Wumpus:
+<p align=center><img src="btwreview_700.jpg">
+<p align=center><font size=-1>The above photo of the magazine is
+Copyright (c) Future Publishing Limited. Reg No. 2008885 England. 30 Monmouth Street, Bath, BA1 2BW.   It is reproduced here <a href="http://www.linuxformat.co.uk/index.php?name=PNphpBB2&file=viewtopic&p=64600">with permission of the copyright holder</a>.
+</font>
+<hr>
+<a name="acknowledgements">
+<p><b>Acknowledgements</b>
+<ul>
+<li>This game is obviously inspired by 
+<a href="http://www.studiohunty.com/itp/">In the Pit</a>
+by <a href="http://www.studiohunty.com/">Studio Hunty</a>.
+I have never played "In the Pit", as I don't have a Windows
+machine, nor a wired xbox controller which that game requires.
+(<em>I have since acquired an xbox 360 controller, obviously,
+though I still don't have a Windows machine. -- ed)</em>
+"Be The Wumpus" is almost certainly an inferior version of
+"In the Pit", but after reading about In the Pit, then much
+later getting a Logitech Dual Action Rumble joystick, or
+whatever it's called, and mistakenly thinking the rumble
+might be made to work (after reading Documentation/input/ff.txt
+in the linux kernel), (Update Jul 21, 2008, actually, with kernel
+2.6.25, rumble *does* work with the xbox 360 controller, and
+is used by the game since version 0.04.)
+it seemed an interesting project to
+make a game based on the description of "In the Pit."  I
+figured I'd have more fun programming "Be the Wumpus" than
+I would playing it (or playing In the Pit, if I could) and
+learn more as well.  And so I have.
+<p>Anyway, I would like to acknowledge Studio Hunty for the
+very interesting idea.
+<li><p>Also, see sounds/<a href="http://bethewumpus.cvs.sourceforge.net/bethewumpus/bethewumpus/sounds/Attribution.txt?view=markup">Attribution.txt</a>.  
+Freesound users "qubodup" and "alphahog" did some
+voice acting for this the game, and without them, the game
+would contain only one victim -- me.  So thanks, guys.  Also,
+it turns out qubodup runs the excellent site <a href="http://wiki.freegamedev.net/index.php/Main_Page">
+Freegamedev.net</a>.  If you're into developing
+free and/or open source games, check it out.  And
+don't miss <a href="http://forum.freegamedev.net/">
+the Freegamedev.net forum.</a> and check out the
+<a href="http://freegamer.blogspot.com/">Free Gamer blog</a> 
+as well.
+</ul>
+</td> <!-- End of main content table data ZZYZ -->
+</tr> <!-- End of main table row -->
+</table> <!--End  of main table. -->
+</body>
+</html>
+```
