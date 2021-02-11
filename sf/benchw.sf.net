@@ -1,0 +1,54 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" >
+  <meta http-equiv="expires" content="mon, 18 oct 2004 00:00:00 gmt">
+  <title>Benchw </title>
+  <link rel=stylesheet href="/style/basic.css">
+</head>
+<body>
+
+<h1>Benchw</h1>
+<h2>Overview</h2>
+<p class="text1">Benchw is a tool to compare capabilities of several different database managers for data warehouse activities. It is designed to test data loading, index creation and query performance.
+
+<h2>The Purpose</h2>
+<p class="text1">Although there are a number of database benchmarks around, there are no readily available, free Data Warehousing benchmarks apart form the TPC D,H,R family. Unfortunately these are quite complicated to actually perform. The intention is that Benchw should fill this gap - i.e. be simple to perform, but contain enough real-life characteristics to be useful.
+
+<h2>Supported Servers</h2>
+<p class="text1">The toolkit has been tested against the following :
+<ul>
+<li>Postgresql</li>
+<li>Mysql</li>
+<li>DB2</li>
+<li>Oracle</li>
+<li>Sapdb</li>
+<li>Firebird</li>
+<li>Microsoft SQL Server</li>
+<li>Sybase</li>
+</ul>
+
+<h2>The Results</h2>
+<p class="text1">Some of the commercial engines have licenses that specifically forbid publishing benchmark results, so these cannot be displayed.
+<p class="text1">This benchmark is really all about people performing the tests for themselves, but sample results have been asked for, and so a few have been produced :
+<ul>
+  <li><a href="benchw_results_open3.html">Three open source databases</a></li>
+  <li><a href="benchw_results_postgres_history.html">Several Postgresql Versions</a></li>
+  <li><a href="benchw_results_mysql_indexes.html">Mysql Index Tuning</a></li>
+</ul>
+
+<h2>More Information</h2>
+<p class="text1">For more information see the Sourceforge <a href="http://sourceforge.net/projects/benchw">project page</a> 
+
+<h2>Contact</h2>
+<p class="text1">Any questions can be directed to the author <a href="mailto:markir@paradise.net.nz">markir@paradise.net.nz</a>
+</p>
+
+<p>
+<a href="http://validator.w3.org/check?uri=referer"><img border="0"
+src="http://www.w3.org/Icons/valid-html401"
+alt="Valid HTML 4.01!" height="31" width="88"></a>
+</p>
+</body>
+</html>
+```
