@@ -1,0 +1,58 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>BioSig</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+
+<div id="title">
+    <div id="title_icon">
+        <img src="B.png" alt="BioSig Logo"/>
+    </div>
+    <div id="title_text">
+        The BioSig Project
+    </div>
+    <div id="title_menu">
+        <a class="title_menu_entry_active" href="index.html">Home</a>
+        &nbsp;&nbsp;
+        <a class="title_menu_entry_inactive" href="news.html">News</a>
+        &nbsp;&nbsp;
+        <a class="title_menu_entry_inactive" href="projects.html">Projects</a>
+        &nbsp;&nbsp;
+        <a class="title_menu_entry_inactive" href="documentation.html">Documentation</a>
+        &nbsp;&nbsp;
+        <a class="title_menu_entry_inactive" href="download.html">Download</a>
+        &nbsp;&nbsp;
+        <a class="title_menu_entry_inactive" href="links.html">Links</a>
+        &nbsp;&nbsp;
+        <a class="title_menu_entry_inactive" href="contact.html">Contact</a>
+    </div>
+</div>
+
+<div id="content">
+<p>BioSig is an open source software library for biomedical signal processing, featuring for example the analysis of biosignals such as the electroencephalogram (EEG), electrocorticogram (ECoG), electrocardiogram (ECG), electrooculogram (EOG), electromyogram (EMG), respiration, and so on. Major application areas are: Neuroinformatics, brain-computer interfaces, neurophysiology, psychology, cardiovascular systems and sleep research. The aim of the BioSig project is to foster research in biomedical signal processing by providing open source software tools for many different applications. Generally, many concerns have to be addressed in this scientific field. BioSig handles this by providing solutions for data acquisition, artifact processing, quality control, feature extraction, classification, modeling, data visualization, and so on. Everything in this project is freely available under the GNU General Public License.</p>
+<p>BioSig consists of some (more or less) coherent parts, for more details take a look at the <a href="projects.html">project page</a>:</p>
+<ul>
+<li>BioSig for Octave and Matlab (biosig4octmat): A toolbox for <a href="http://www.octave.org/">Octave</a> and <a href="http://www.mathworks.com/">Matlab</a> with powerful data import and export filters, feature extraction algorithms, classification methods, and a powerful viewing and scoring software.</li>
+<li>BioSig for C/C++ (biosig4c++): A C/C++ library that provides reading and writing routines for different biosignal data formats.</li>
+<li>rtsBCI (rtsbci): A real-time BCI system implemented in Matlab and Simulink.</li>
+<li>BioProFeed (bioprofeed)</li>
+<li>BCIx (bcix)</li>
+</ul>
+<br/>
+
+<a href="http://sourceforge.net/projects/biosig"><img src="http://sourceforge.net/sflogo.php?group_id=7072&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo"/></a>
+<a href="http://portal.tugraz.at/pls/portal/url/page/TU_Graz"><img src="tug.png" border="0" alt="TUG"/></a>
+<a href="http://www.ist.ac.at"><img src="ist.gif" height=40" border="0" alt="IST"/></a>
+
+</div>
+
+</body>
+
+</html>
+```
