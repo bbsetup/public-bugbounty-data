@@ -1,0 +1,136 @@
+```<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>BioRec Software - a tool for digitizing hand-drawn maps</title>
+        <meta name="description" content="BioRec is an open-source MATLAB-based tool for digitizing hand-drawn maps">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Facebook meta tags -->	
+        <meta property="og:url" content="http://biorec.sourceforge.net/">
+        <meta property="og:image" content="img/fb-image.png">
+        <meta property="og:description" content="Website for BioRec Software - an open-source MATLAB-based tool for digitizing hand-drawn maps. Featuring the story of the project, installation instructions and user guide.">
+        <meta property="og:title" content="BioRec Software - a tool for digitizing hand-drawn maps">
+        <meta property="og:site_name" content="BioRec Software Website">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type="text/css">
+        <meta name="google-site-verification" content="c51QkAi4TbPOgJXJ4_bj8SfcpQNWYYshyOypXYrBNyc" />
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body id="index">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+    <nav>
+        <div id="menu_button_wrapper">
+            <div id="menu_button">
+                <span id="menu_text">Menu&nbsp;&nbsp;</span>
+                <div id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>  
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <ul id="menu_list">
+            <li id="nav_home"><a href="index.shtml">Home</a></li>
+            <li id="nav_about"><a href="about.shtml">About</a></li>
+            <li id="nav_installation"><a href="installation.shtml">Installation</a></li>
+            <li id="nav_user_guide"><a href="user_guide.shtml">User Guide</a></li>
+        </ul>
+    </nav>
+    <header class="wrapper clearfix">
+        <img class="first_bird" src="img/bird01.png">
+        <img class="second_bird" src="img/bird02.png">
+        <h1 class="title">BioRec Software</h1>
+        <p class="description">MATLAB-based tool for digitizing hand-drawn images</p>
+    </header>
+</div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+                
+                <div class="featured_blocks">
+                    <div class="home_featured">
+                        <img src="img/description_icon.svg">
+                        <h2>Project Description</h2>
+                        <p>Want to know what this software is for? How it was created? Read the story of the project.</p>
+                        <a href="about.shtml" class="custom_button">See the description&nbsp;&gt;&gt;</a>
+                    </div>
+                    <div class="home_featured">
+                        <img src="img/installation_icon.svg">
+                        <h2>Installation Manual</h2>
+                        <p>Want to try out the software? Find installation instructions here!</p>
+                        <a href="installation.shtml" class="custom_button">See the manual&nbsp;&gt;&gt;</a>
+                    </div>
+                    <div class="home_featured">
+                        <img src="img/user_guide_icon.svg">
+                        <h2>User Guide</h2>
+                        <p>Already installed the software? Check this definitive user guide!</p>
+                        <a href="user_guide.shtml" class="custom_button">See the guide&nbsp;&gt;&gt;</a>
+                    </div>
+                </div>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+    <footer class="wrapper">
+        <div class="links_container">
+            <div class="links">
+                <h3>Biorec Links</h3>
+                <ul>
+                    <li><a href="https://sourceforge.net/projects/biorec/" target="_blank">Project page on SourceForge</a></li>
+                    <li><a href="https://sourceforge.net/p/biorec/tickets/" target="_blank">Bug Tracker</a></li>
+                    <li><a href="https://sourceforge.net/p/biorec/mailman/">Mailing List</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>Author Links</h3>
+                <ul>
+                    <li><a href="http://vladimir.nikishkin.pw/" target="_blank">Author's personal page</a></li>
+                    <li><a href="https://www.facebook.com/vladimir.nikishkin" target="_blank">Facebook</a></li>
+                    <li><a href="https://uk.linkedin.com/in/vladimirnikishkin" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>Various Links</h3>
+                <ul>
+                    <li><a href="http://www.mathworks.com/products/matlab/" target="_blank">MATLAB Software</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <small>BioRec Software, an open-source project, 2016</small>
+        </div>  
+    </footer>
+</div>
+
+        <script src="js/main.js"></script>
+        <!-- Google Analytics Tracking Code -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-79722769-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+    </body>
+</html>
+```
