@@ -1,0 +1,62 @@
+```<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+
+    <title>BashBurn | .: BashBurn :.</title>
+            <meta name="description" content="Awesome disc burning shell scripts for Linux/*BSD">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css" />
+    <link rel="stylesheet" href="http://bashburn.dose.se/themes/default/style.css" type="text/css" />
+    <link rel="stylesheet" href="http://bashburn.dose.se/themes/default/fontello.css" type="text/css" />
+
+    <script src="http://bashburn.dose.se/themes/default/scripts/modernizr-2.6.1.min.js"></script>
+</head>
+<body>
+
+    <header id="header">
+        <div class="inner clearfix">
+            <h1><a href="http://bashburn.dose.se/?index" id="logo">.: BashBurn :.</a></h1>
+            <nav>
+                <ul>
+                                            <li class="active">
+                            <a href="http://bashburn.dose.se/?index">BashBurn</a>
+                        </li>
+                                            <li>
+                            <a href="http://bashburn.dose.se/?sub%2Findex">Downloads</a>
+                        </li>
+                                    </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="content">
+        <div class="inner">
+            <h2>Welcome to the amazing world of BashBurn</h2>
+<p>BashBurn is a collection of shell scripts for Linux/*BSD
+for burning discs (and various other things) from the
+terminal. No graphical nonsense needs to be installed.</p>
+<h2>Now what?</h2>
+<p>This page contains info about BashBurn as well as links to download the
+latest release. Distributions might also already have BashBurn packaged,
+and in that case it's probably better you just install it that way
+instead.</p>
+<h2>Where is all the contents?</h2>
+<p>The textpattern CMS is replaced by Pico, so right now things are a
+little barebones. In time more stuff will be put back. </p>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="inner">
+            <div class="social">
+                            </div>
+            <a href="http://picocms.org/">Pico</a> was made by <a href="http://gilbert.pellegrom.me">Gilbert Pellegrom</a>
+            and is maintained by <a href="https://github.com/picocms/Pico/graphs/contributors">The Pico Community</a>.
+            Released under the <a href="https://github.com/picocms/Pico/blob/master/LICENSE.md">MIT license</a>.
+        </div>
+    </footer>
+
+</body>
+</html>
+```
