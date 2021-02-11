@@ -1,0 +1,242 @@
+```<!DOCTYPE 
+    HTML PUBLIC 
+    "-//W3C//DTD HTML 4.01 Transitional//EN" 
+    "http://www.w3.org/TR/html4/loose.dtd"
+    >
+
+<!--
+
+//
+// Copyright (C) Julian I. Kamil <julian.kamil@gmail.com>
+// No warranty is provided.  Use at your own risk.
+//
+// Commercial support is available through ESV Media Group
+// who can be reached at: http://www.ESV-i.com/.
+//
+// Name: simple.tmpl
+// Author: Julian I. Kamil <julian.kamil@gmail.com>
+// Created: 2005-05-18
+// Description:
+//     This is a simple skin for PmWiki. Please see:
+//         http://www.madhckr.com/project/PmWiki/SimpleSkin
+//     for a live example and doumentation.
+//
+// $Id: simple.tmpl,v 1.1 2005/08/17 19:24:54 julian Exp $
+//
+// History:
+//     2005-05-18  jik  Created.
+//     2005-06-21  jik  Added the directive that enables
+//                      the injection of additional stylesheets.
+//     2005/06/27  jik  Added SkinTone feature.
+//     2005/07/06  jik  Added group name in the title.
+//     2005/07/15  jik  Added code to style abbr on IE.
+//
+
+-->
+
+<html>
+    <head>
+        <title>BCX (Basic to C Converter) : Main - Home Page </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <!--HeaderText--><style type='text/css'><!--
+  ul, ol, pre, dl, p { margin-top:0px; margin-bottom:0px; }
+  code.escaped { white-space: nowrap; }
+  .vspace { margin-top:1.33em; }
+  .indent { margin-left:40px; }
+  .outdent { margin-left:40px; text-indent:-40px; }
+  a.createlinktext { text-decoration:none; border-bottom:1px dotted gray; }
+  a.createlink { text-decoration:none; position:relative; top:-0.5em;
+    font-weight:bold; font-size:smaller; border-bottom:none; }
+  img { border:0px; }
+  .editconflict { color:green; 
+  font-style:italic; margin-top:1.33em; margin-bottom:1.33em; }
+
+  table.markup { border:2px dotted #ccf; width:90%; }
+  td.markup1, td.markup2 { padding-left:10px; padding-right:10px; }
+  table.vert td.markup1 { border-bottom:1px solid #ccf; }
+  table.horiz td.markup1 { width:23em; border-right:1px solid #ccf; }
+  table.markup caption { text-align:left; }
+  div.faq p, div.faq pre { margin-left:2em; }
+  div.faq p.question { margin:1em 0 0.75em 0; font-weight:bold; }
+   
+    .frame 
+      { border:1px solid #cccccc; padding:4px; background-color:#f9f9f9; }
+    .lfloat { float:left; margin-right:0.5em; }
+    .rfloat { float:right; margin-left:0.5em; }
+a.varlink { text-decoration:none; }
+
+--></style><link rel='alternate' title='BCX (Basic to C Converter) RSS Feed'
+      href='http://bcx-basic.sourceforge.net/Site/AllRecentChanges?action=rss'
+      type='application/rss+xml' />
+  <link rel='alternate' title='BCX (Basic to C Converter) Atom Feed'
+      href='http://bcx-basic.sourceforge.net/Site/AllRecentChanges?action=atom'
+      type='application/atom+xml' />
+    <meta name='robots' content='index,follow' />
+
+        <link rel='stylesheet' title="Simple" href='http://bcx-basic.sourceforge.net/pub/skins/simple/simple.css' type='text/css' />
+        <!--[if IE]>
+            <link href='http://bcx-basic.sourceforge.net/pub/skins/simple/simple-ie.css' rel='stylesheet' type='text/css' />
+        <![endif]-->
+        <script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+        startList = 
+            function() 
+            {
+                if (document.all && document.getElementById) {
+                    navRoot = document.getElementById("menu");
+                    for (i = 0; i < navRoot.childNodes.length; i++) {
+                        node = navRoot.childNodes[i];
+                        if (node.nodeName == "LI") {
+                            node.onmouseover = 
+                                function() { this.className += " over"; }
+                            node.onmouseout = 
+                                function() { this.className = this.className.replace(" over", ""); }
+                        }
+                    }
+                }
+            }
+
+        function styleAbbr() 
+        {
+            var oldBodyText, newBodyText, reg;
+
+            if (isIE) {
+                oldBodyText = document.body.innerHTML;
+                reg = /<ABBR([^>]*)>([^<]*)<\/ABBR>/g;
+                newBodyText = oldBodyText.replace(reg, '<ABBR $1><SPAN class=\"abbr\" $1>$2</SPAN></ABBR>');
+                document.body.innerHTML = newBodyText;
+            }
+        }
+
+        window.onload = function(){
+            styleAbbr();
+            startList();
+        };
+
+        isIE = (document.all) ? true:false;
+        //--><!]]>
+        </script>
+    </head>
+    <body bgcolor="#ffffff">
+        <div 
+            id="header" 
+            style="border: 1px none #ccf; background: url(http://bcx-basic.sourceforge.net/pub/skins/simple/image/Box-Top-Classic.jpg) no-repeat; " 
+            title='Main &raquo; Home Page was last modified on November 21, 2019, at 10:33 PM'
+            >
+            <table width="100%" style="padding: 0px; margin:0px;">
+                <tr>
+                    <td style="padding: 0px; margin:0px; border: none;">
+                        <div id="page-title">BCX (Basic to C Converter)</div>
+                        <div id="page-subtitle">Main &raquo; Home Page</div>
+                    </td>
+                    <td 
+                        align="right" width="120" 
+                        style="padding: 0px; margin:0px; padding-top: 16px; border: none;"
+                        >
+                        <center>
+                            <a href="http://bcx-basic.sourceforge.net/Main"><img src="http://bcx-basic.sf.net/pub/skins/bcxlogo-small.png" border="0" /></a>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="main">
+            <div id="menubar" style="display: block;">
+                <div>
+                    <span id="popupmenu" style="float: left;">
+                        <ul id="menu">
+                            <li>Website Menu
+                                <ul><li><a class='selflink' href='http://bcx-basic.sourceforge.net/Main/HomePage'>HomePage</a>
+</li><li><a class='wikilink' href='http://bcx-basic.sourceforge.net/Main/Downloads'>Downloads</a>
+</li><li><a class='wikilink' href='http://bcx-basic.sourceforge.net/Main/Support'>Support</a>
+</li><li><a class='wikilink' href='http://bcx-basic.sourceforge.net/Main/Links'>Links</a>
+</li><li>--------
+</li><li><a class='wikilink' href='http://bcx-basic.sourceforge.net/Main/JoinProject'>Join the BCX Project</a>
+</li><li><a class='wikilink' href='http://bcx-basic.sourceforge.net/Main/GetSourceCode'>Get the Source Code</a>
+</li><li>--------
+</li><li><a class='wikilink' href='http://bcx-basic.sourceforge.net/Main/License'>License</a>
+</li><li>--------
+</li><li><a class='wikilink' href='http://bcx-basic.sourceforge.net/Main/WikiSandbox'>WikiSandbox</a>
+</li><li><a class='wikilink' href='http://bcx-basic.sourceforge.net/PmWiki/BasicEditing'>Wiki Help</a>
+</li><li>--------
+</li><li><span style='font-size:83%'><a class='wikilink' href='http://bcx-basic.sourceforge.net/Site/SideBar?action=edit'>edit Menu</a></span>
+</li></ul>
+
+                            </li>
+                        </ul>
+                    </span>
+					<span style="float: left;">
+						<ul>|
+							<li><a href='http://bcx-basic.sourceforge.net/Site/Search'>Search Site</a></li>
+						</ul>
+					</span>
+					<span style="float: right; font-size: xx-small;">
+                        <ul>
+                            <li><a href='http://bcx-basic.sourceforge.net/Main/HomePage?action=edit'>Edit Page</a></li>|
+                            <li><a href='http://bcx-basic.sourceforge.net/Main/HomePage?action=diff'>Page History</a></li>|
+							<li><a href='http://bcx-basic.sourceforge.net/Main/HomePage?action=print'>Print</a></li>
+                            <!--<li><a href='http://bcx-basic.sourceforge.net/Main.HomePage?action=upload' title='Upload a file' rel='nofollow' >Upload</a></li>-->
+                        </ul>
+                    </span>
+                </div>
+                <div class="clearer"></div>
+            </div>
+
+            <div class="content-mat" style="border: 1px none #fcc;">
+                <div id="content" style="border: 1px none #ccc;">
+                    <!--PageText-->
+<div id='wikitext'>
+<p>BCX was originally started by Kevin Diggins. This project is a direct continuation of his great efforts. It is now completely open source and developed by a group.
+</p>
+<p class='vspace'><br />
+</p><div class='frame' > 
+<h2>Description</h2>
+</div>
+<p class='vspace'>BCX is a small command line tool that inputs a BCX BASIC source code file and outputs a 'C' source code file which can be compiled with many C or C++ compilers.
+</p>
+<p class='vspace'>Using BCX and a C compiler enables you to produce powerful 32-bit native code Windows console mode programs, windows GUI applications, and Dynamic Link Libraries (DLL's) without having to incur the costs of an expensive commercial BASIC compiler. The programs that you create will be among the smallest and fastest 32 bit executable programs around, requiring no additional distributed runtime modules.
+</p>
+<p class='vspace'>Although BCX remains a work in progress, it is capable of some very powerful feats. Its ability to use Microsoft Windows structures, variables, and the powerful Win32 API, coupled with its ability to mix "C" code in a straight forward BASIC way, makes BCX a very powerful tool while retaining the relative ease of use by anyone familiar with modern BASIC programming.
+</p>
+<p class='vspace'>BCX - The free Basic to C/C++ Translator BCX generates source code for these fine compilers:
+</p>
+<div class='vspace'></div><ul><li>Pelles C Compiler (Free For Professional Use)
+</li><li>LCC-Win32 C Compiler (Free For Personal Use Only)
+</li><li>Borland C++ 5.5 Compiler (Free for Professional Use)
+</li><li>Open Watcom C++ 1.3 Compiler (Free for Professional Use)
+</li><li><span class='wikiword'>MinGW32</span> C++ Compiler (Free for Professional Use)
+</li><li>Microsoft Visual C++ Toolkit 2003 (Free for Professional Use)
+</li></ul><p class='vspace'><br />
+</p><div class='frame' > 
+<h2>Where to Get it</h2>
+</div>
+<p class='vspace'>Yahoo Group <a class='urllink' href='http://groups.yahoo.com/neo/groups/BCX/info' rel='nofollow'>http://groups.yahoo.com/neo/groups/BCX/info</a> <br />BCX Website <a class='urllink' href='http://www.bcxbasiccoders.com/' rel='nofollow'>http://www.bcxbasiccoders.com/</a> <br />Source Forge <a class='urllink' href='http://sourceforge.net/projects/bcx-basic/' rel='nofollow'>http://sourceforge.net/projects/bcx-basic/</a>
+</p>
+</div>
+
+                </div>
+                <div class="clearer">&nbsp;</div>
+				<div align="right">
+					<span style="padding-right: 20px;">
+						<a href="https://sourceforge.net/projects/bcx-basic/" target="_new"><img src="http://sourceforge.net/sflogo.php?group_id=122080&amp;type=1" width="88" height="31" border="0" alt="Project Hosted by SourceForge.net" /></a>
+					</span>
+				</div>
+            </div>
+        </div>
+
+        <div id="footer" style="border: 1px none #000;">
+            <div id="copyright">
+                <span style="float: left; padding-left: 20px;">
+                    Copyright © 2008
+                </span>
+                <span style="float: right; display: block; padding-right: 20px;">
+                    <span id='sitepoweredby' title='Powered by PmWiki'>
+    Powered by <a href='http://www.pmichaud.com/wiki/PmWiki/PmWiki' title='PmWiki Home'>PmWiki</a>
+</span>
+                </span>
+            </div>
+        </div>
+    </body>
+</html>
+```
