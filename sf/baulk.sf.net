@@ -1,0 +1,453 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"/>
+		<meta name="description" content="Baulk Project Website"/>
+		<meta name="keywords" content="Baulk baulk wm WM Window Manager Cross-Platform Qt4 terminal Windows WinXP Vista"/> 
+		<meta name="author" content="HaaTa"/> 
+		<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
+		<script type="text/javascript" src="tabber.js"></script>
+		<title>||Baulk||</title>
+	</head>
+	<body style="margin: 0 12%;">
+	<div class="container">
+		<div class="header">
+			<a href="http://baulk.sf.net"><span>Baulk || What!? A scriptable tiling window manager for Windows!</p>
+</span></a>
+		</div>
+		<div class="stripes"><span></span></div>
+		<div class="nav">
+			<a href="http://sf.net/projects/baulk/">Summary</a>
+			<a href="http://sf.net/tracker2/?func=browse&amp;group_id=242954&amp;atid=1120915">Bug Tracker</a>
+			<a href="http://gitorious.org/baulk">Git Repo</a>
+			<!--<a href="http://sf.net/mailarchive/forum.php?forum_name=baulk-main">Mailing List</a>-->
+			<a href="http://apps.sf.net/gallery/baulk/index.php">Screenshots</a>
+			<a href="http://apps.sf.net/taskfreak/baulk/public.php">TaskFreak!</a>
+			<div class="clearer"><span></span></div>
+		</div>
+		<div class="stripes"><span></span></div>
+		<div class="main">
+			<div class="left">
+				<div class="content">
+					<div class="tabber">
+						<div class="tabbertab tabbertabdefault" title="Baulk">
+							<br/>
+							<h2>Baulk</h2>
+							<br/>
+							<h3>Features:</h3>
+							<ul>
+								<li>Cross-Platform (Currently tested under WinXP/Vista and Linux)</li>
+								<li>Multi-Monitor support</li>
+								<li>Plugin based model for extensibilty</li>
+								<li>Profiled XML configurations</li>
+								<li>Tiling window control scheme</li>
+								<li>Tile orientation swapping</li>
+								<li>Very few dependencies</li>
+								<li>Very minimalistic UI for maximized screen usage</li>
+							</ul>
+							<h3>Background</h3>
+							<p>Baulk has a bit of a history behind it.</p>
+							<p>For those who just want the summary, here's the important points:</p>
+							<ul>
+								<li>Baulk is in its 4th complete rewrite</li>
+								<li>Baulk is more or less a window manager, without the root window (for now at least).</li>
+								<li>Baulk used to be called QuillTex</li>
+								<li>QuillTex was originally a Latex IDE with support for a Wacom tablet</li>
+							</ul>
+							<p>See the History tab for the long winded version</p>
+							<div class="descr">Last Updated May 10, 2009 by HaaTa</div>
+						</div>
+						<div class="tabbertab" title="BaulkTerm">
+							<br/>
+							<h2>BaulkTerm</h2>
+							<br/>
+							<h3>Features:</h3>
+							<ul>
+								<li>Real transparency</li>
+								<li>Unfocus fade</li>
+								<li>256 colours</li>
+								<li>Utf-8</li>
+								<li>XML Configuration file</li>
+								<li>Can potentially have every feature of Konsole, but without any KDE4 dependencies (except for Qt4)</li>
+								<li>Defaults that don't suck</li>
+							</ul>
+							<h3>Upcoming Features:</h3>
+							<ul>
+								<li>Faster, less ugly window resizing</li>
+								<li>Right click, "simple" configuration menu, think Sakura terminal</li>
+								<li>Custom configuration dialog (primarily for Baulk)</li>
+								<li>Command-Line options (all options will be configurable from the command-line</li>
+								<li>Terminal title, think urxvt</li>
+								<li>New-line wrapping on resizing</li>
+								<li>Tabs</li>
+								<li>Hotkeys will be mappable to any option</li>
+							</ul>
+							<h3>Background:</h3>
+							<p>BaulkTerm evolved out of the need for a terminal in Baulk. 
+							Initially I had been using an XEmbed wrapper around xterm but was having major issues with focus control. 
+							A few months later I had found a wonderful project called QTermWidget.
+							QTermWidget is essentially Konsole (KDE4) rewritten in Qt4 so that there are no dependencies on KDE and prepared as a QWidget.
+							This made QTermWidget very easy to integrate into Baulk (at that time QuillTex).
+							After a few months I decided to completely rewrite QuillTex again (for the fourth time), and I decided to fork QTermWidget for my own uses.
+							</p>
+							<p>The reasons behind my forking of QTermWidget are simple:</p> 
+							<ul>
+								<li>Bugs in QTermWidget that I want fixed</li>
+								<li>Very low update rate for QTermWidget</li>
+								<li>I want alot more handles for features available in Konsole than QTermWidget currently provides</li>
+								<li>Make QTermWidget fast, which could possibly mean removing/changing features found in QTermWidget and Konsole</li>
+							</ul>
+							<p>Now my principle goal of BaulkTerm is to become my new terminal (I already use it as my default terminal in awesome wm).
+							I am also very open to random terminal features that people may want.
+							</p>
+							<h3>Cool Features that HaaTa wants</h3>
+							<ul>
+								<li>OpenGL, because its really fast</li>
+								<li>OpenGL, why else did HaaTa buy a 4870 but for an OpenGL terminal</li>
+								<li>OpenGL, because there is no up-to-date usuable full OpenGL terminals (that HaaTa can find)</li>
+								<li>OpenGL, because HaaTa hates vim lag</li>
+							</ul>
+							<div class="descr">Last Updated Nov 19, 2008 by HaaTa</div>
+							<br/>
+							<p>* BaulkTerm requires X11 (Linux, Cygwin, etc.)</p>
+							<p>* Real transparency requires a compositing window manager</p>
+						</div>
+						<div class="tabbertab" title="History">
+							<br/>
+							<h2>History</h2>
+							<br/>
+							<p><b>Pre-QuillTex</b></p>
+							<p>This whole debacle (known as Baulk/QuillTex) started when HaaTa (Jacob Alexander) decided to learn Qt4.
+							During the Summer of 2007, HaaTa was going to a karate seminar in Barrie Ontario (HaaTa is a University of Waterloo student in Computer Engineering).
+							It just so happened that some of the other people in the van (method of travel to Barrie) wanted some of those overpriced coffee things from Starbucks, and that Starbucks had the overpriced bookstore, Chapters.
+							Anyways, HaaTa wanted some reading material for the trip there.
+							So HaaTa went over to the programming section to see if there were any interesting languages to pick up books on.
+							That's when "C++ GUI Programming with Qt4" caught HaaTa's eye.</p>
+							<p>HaaTa had been using Linux for the last year (Fedora) with his preferred environment being KDE.
+							Mind you HaaTa had already had his intro with Tiling Window Managers at this point with DWM and WMII on DSL (Damn Small Linux).
+							Not to ramble to far, HaaTa bought the book, and learned Qt4 (which helped in getting him his first Linux job at Xandros).</p>
+							<p>During the same term HaaTa started to use Latex extensively for note-taking.
+							Mind you, this can leave some things to be desired, like diagrams, which is why HaaTa bought a Wacom tablet.</p>
+							<p>At this point HaaTa's environment was a 15.4" laptop running Fedora (KDE), using Kile and a simple drawing program for diagrams.
+							This was sufficient, but left something to be desired.</p>
+							<p>This is when HaaTa decided he wanted to do some Open-Source work.
+							After a lot of thinking, he settled on a Qt4 Latex IDE with Wacom tablet integration.</p>
+
+							<p><b>QFS 1</b> (<a href="http://quilltex.sf.net/">QuillTex</a> from Scratch)</p>
+
+							<p>Not a lot of usable code came out of this version that officially started on August 10th 2007.
+							HaaTa did start to learn about SVN, Sourceforge, and some of the inner workings of Qt4 though.</p>
+							<p>From the period of September to December 2007 development more or less stopped.
+							This wasn't planned, HaaTa just got his first computer in 2 years that could play games (lots of catching up to do).
+							There were also a bunch of annoying issues with the computer he built (which never fully got resolved till May 2008).</p>
+							<p><b>QFS 2</b></p>
+							<p>After working at Xandros (Sept-Dec 2007, during the period when the first EeePC came out actually) HaaTa got himself a EeePC 701.
+							One of the first things HaaTa did was get the Wacom tablet working on the 701.</p>
+							<p>Once getting back to classes in January 2008, HaaTa attempted to use the setup he had been using on his laptop for taking notes on the EeePC 701.
+							Now this works, but you really don't have the screen real-estate for full IDE.
+							So HaaTa became interested in QuillTex again, but this time also focusing on a minimal GUI.</p>
+							<p>Now HaaTa likes to tinker with OS's alot, so one of the things he made was a custom minimal live cd of Fedora 8 for the EeePC 701 with WMII as the window manager.
+							At this point HaaTa started liking tiling based window managers more and more, as it improves work flow, don't need a mouse, and use very little screen real-estate.
+							Yet, rather than looking to give QuillTex a tiling based control scheme (right away), HaaTa wanted something else.
+							A terminal inside QuillTex.</p>
+							<p>One of the main features of QFS 2 was that it had an integrated terminal (xterm).
+							Unfortunately this caused so many issues to get working properly with focus (and HaaTa's computer died), that HaaTa put the project aside for a while.
+							(It turned out later, that it would be impossible to get focus support working properly with most terminals (xterm, urxvt) since they steal all keyboard events once they have focus, code changes would be necessary)</p>
+
+							<p><b>QFS 3</b> (QuillTex || Quintessentially)</p>
+
+							<p>After deciding to start QFS, HaaTa found something very useful (May 2008).
+							A terminal written in only QT4, QTermWidget.
+							Now QTermWidget, is Konsole (KDE4) rewritten to only use QT4 by e_k (JK).</p>
+							<p>For QF3 3 there were actually two distinct versions: List-based Widget tracking (first), and Layout-based Widget tracking.</p>
+							<p>For the first version basic tiling control was achieved, albeit very very buggy.
+							However, one of the main achievements for the first version was dynamic library loading.
+							This allowed QFS 3 to load Widgets based upon a wrapper function, so one would not have to compile everything together just to use that particular Widget.</p>
+							<p>Now, HaaTa started to become very productive in the coding since he was now on am 8 month work term.
+							Tiling options such as hiding, resizing, moving, and focus switching were more or less brought up to a usuable state.
+							By this point HaaTa had managed to make a usable product (he was actually using it at work).
+							However, a few big features (and lots of bugs remained).</p>
+
+							<p>This is when HaaTa, began trying out plans for a multi-window scheme.
+							The first feature, switching focus control between windows was a success, and worked well.
+							However, the horror that was widget swapping became the largest hurdle for the project (and was never really solved ideally, well till the next year).</p>
+
+							<p>Now, the idea was simple. Move one "active" widget (with the state intact) to a different window.
+							By this point navigating around and through all of the dynamic libraries was starting to become painful (since they were an after thought with this revision).
+							The code was only a few lines long, since all you really have to do is pass around a pointer...
+							Now from the introduction so far you'd think it wouldn't work at all.
+							That would be better, since HaaTa would've far less confused.</p>
+
+							<p>First when moving widgets would work.
+							Open up two or more windows through QuillTex.
+							Then start up a widget in the first window, and pass it to a window created afterwards.
+							Yes, that's right the widget could only be passed to a window created after the window with the widget.
+							You could not even pass the widget back.
+							It would become segfault happy.</p>
+
+							<p>Needless to say HaaTa was very confused at this point.
+							So HaaTa began to look into other means of inter-proces communication.</p>
+
+							<p>HaaTa first started looking within Qt for answers but came up to quite a road-block.
+							He was able to send textual and binary data between applications, but not active C++ classes.
+							After trying as many tricks as he could possibly think of, he then started to look at Shared Memory.</p>
+
+							<p>For those actually reading this far along, note that Shared Memory is a royal pain in the ass, and should nevert even be considered as an option for what HaaTa wanted to do.</p>
+
+							<p>Qt had a class to deal with shared memory, but it was severely lacking, and well didn't really work.
+							HaaTa was able to send super simple data like, an int pointer and such, reliable through shared memory.
+							But something like a generic QWidget derived class, just wasn't happening (segfault city).</p>
+
+							<p>The next resort HaaTa turned to was Boost.
+							To make a long story short, this was a complete nightmare.
+							HaaTa was able to manipulate the classes to do shared memory, but ran into problems in key areas.</p>
+
+							<p>First he had to instanciate the object in shared memory, ok he did that.
+							But also all of the stuff in the class must also be instanciated in shared memory, which you can only do if you've made the class manually do that, not for the generic classes HaaTa wanted to put into shared memory like a QWidget.
+							Next, he found that anything with a virtual function does not play nice with shared memory in C++.
+							As the map of all the virtual functions is created just for that set of functions in the process.
+							As soon as you move it into another process where anything is different, segfault.
+							Looking back this is similar to the problem where HaaTa could only pass widgets forward but not backwards.
+							As the new Windows were identical to the original but changes to the virtual tables on moving the Widgets forward rendered them incompatible with the Window it was initially created in.</p>
+
+							<p>HaaTa also read somewhere that sharing classes between processes was designed to be impossible in C++...fun.</p>
+
+							<p>Needless to say, HaaTa had exhausted his brain by this point, and got nowhere.</p>
+
+							<p>HaaTa needed to give his brain a break, so he started on the most boring piece of software he's ever written, and XML Configuration Library.</p>
+
+							<p>Needless to say it was painful to write BaulkXML but HaaTa finished it, since it was quite useful for random configuration options.
+							However, since HaaTa had plenty of brainpower leftover while writing the XML library he started thinking about a re-write, again.</p>
+
+							<p><b>QFS 4</b> (Baulk | Almost a Window Manager)</p>
+
+							<p>At this point HaaTa was being nudged into using some new technologies.
+							Needless to say, it was all <a href="http://www.garoth.com">Garoth's Fault&trade;</a> since he was a co-worker of HaaTa's at Xandros for his final 4 months there.</p>
+							
+							<p>Garoth, convinced HaaTa to switch from WMII to Awesome WM.
+							Which ended up converting HaaTa to Arch Linux from Fedora 8 (9 was out at this point but AMD/ATi was being an arse about releasing updated drivers, so HaaTa really couldn't use 9 for much of anything) because compiling something as bleeding edge as Awesome WM on Fedora 8 was a royal pain in the ass.
+							He also convinced HaaTa to start looking into using Git rather than Subversion, for pretty much everything.
+							Too bad they still used a little bit of CVS at work still (which was a nightmare).</p>
+
+							<p>Now by this point HaaTa was ready to do a complete re-write (well except for the XML Library he had just written).
+							But there was a problem, Sourceforge.
+							Sourceforge was starting to become a complete ass at that point, since they were moving datacenters.
+							So, things, like the dynamically updating site were broken, and there was really no way to fix it at that point.
+							Also, Sourceforge was lacking in the all powerful feature known as Git repos.</p>
+
+							<p>HaaTa probed Garoth for some decent free Git Repositories for projects.
+							The two he gave him were <a href="http://github.com">GitHub</a> and <a href="http://gitorious.org">Gitorious</a>.
+							Eventually HaaTa chose Gitorious since he liked the interface more (less cluttered with random stuff).
+							HaaTa had tried to look for a way to replace Sourceforge, but was unsuccessful, since there really wasn't anything that offered free Web-Hosting without ads other than sourceforge for open-source projects.</p>
+
+							<p>On a side note HaaTa has an <a href="http://github.com/haata">account</a> on GitHub for his various Linux configs.
+							He usually updates them whenever there are a bunch of updates needing to be done to the configs, since he hates losing them during the occasional screw-up.</p>
+
+							<p>That was the start of using Gitorious for Baulk development.</p>
+
+							<p>Even though quite a bit of code was written for QuillTex, HaaTa wanted to change everything, since the old layout really didn't take into account dynamic libraries.
+							First, HaaTa wrote a simple Message Handler to identify and forward all the console messages internally.
+							Next, HaaTa wrote his build system in CMake since he had been experimenting with it successfully in QuillTex, and of course because it had pretty console output.</p>
+
+							<p>Now, the first very useful function HaaTa wrote was the LibraryLoader class for Baulk.
+							The idea behind the LibraryLoader was to remove all of the complexity in loading dynamic libraries, and to have things like symbols dynamically indentified using templates and lists (rather than having to hard code them in like one usually does).</p>
+
+							<p>The next application written was the BaulkServer application.
+							The application consisted of the server, the client code, and the packet definition for communcation between the clients and the server.</p>
+
+							<p>Next, since there was now runnable code, HaaTa decided make the code Windows compatible.</p>
+
+							<p>BaulkWidget and BaulkControl were created as the main pillars of Baulk.
+							BaulkWidget was created as a reimplementation of QWidget, that all main Baulk Widget classes should be derived from, inorder to add additional functionality, such as pass-throughs for message logs.
+							BaulkControl was created as the central point of control for using Baulk, as it handled the Widget order, control, configuration, and hotkeys.</p>
+
+							<p>By this point, HaaTa wanted to do some interesting things, so he created some external Widgets for Baulk.
+							The first being the Message Logger, which displayed all of the console message redirected from Baulk into a Window with pretty colour output.
+							The next was a wrapper for QTermWidget.
+							After succeeding in making a template for such Widgets, he decided to test out how easy it was to create widgets, by making a simple web-browser out of QWebKit.</p>
+
+							<p>After a good period of solid development, HaaTa was getting frustrated with QTermWidget.
+							So he forked it (see the BaulkTerm tab above for more info).</p>
+
+							<p>After adding a few features back into BaulkTerm (QTermWidget) like actually transparency support, and colour configurations.
+							HaaTa decided to add a Daemon feature, that allows for faster startups of terminals and less memory to be used.</p>
+
+							<p>During this time of BaulkTerm development, HaaTa adds a load of build options to the CMake build scripts.
+							These options allow for one to be able to build just a single library out of Baulk (and all of the libraries that one depends upon are also built).
+							This was done, so that BaulkTerm could be built easily as a stand-alone binary (as it was more ready for a release than Baulk was).
+							Around this time an Arch AUR script was created for BaulkTerm.</p>
+
+							<p>By this point, HaaTa was finishing up at Xandros, going home for Christmas (flying to Southern BC in the Winter sucks, 1.5 hour flights == 13+ hour bus rides), then back to classes.
+							So HaaTa wrapped up development until reading week at the University of Waterloo (Feb 2009).</p>
+
+							<p>Now, during reading week, HaaTa began working on the OpenGL renderer for BaulkTerm.
+							He accomplished two things.
+							One, learn how to use OpenGL.
+							Two, create a Qt OpenGL font renderer.
+							However, by the time he finished reading week was over, and he again had to concentrate on his studies.</p>
+
+							<p><b>QFS 5</b> (Baulk | What!? A scriptable tiling window manager for Windows!)</p>
+
+							<p>As can been seen (if you've made it this far), HaaTa likes to change his mind.
+							However, this time it was less, that he didn't like the progess thus far on Baulk.
+							But, that his needs changed, slightly.</p>
+
+							<p>HaaTa managed to get himself a co-op job in Ueda Japan (Nagano Prefecture) working for Seiko Epson.
+							Now the kicker was that he'd be using Windows.
+							Sooo, he actually needed a Tiling Window manager concept that would work in Windows, at least to maintain sanity.</p>
+
+							<p>After a lot of thought (and research on MSDN), HaaTa found that creating window manager using the current method (encompassing Qt application) wasn't going to work.
+							So HaaTa decided to go right to the bottom of the windowing stacks of X11 and Windows.</p>
+
+							<p>The plan HaaTa set out, was to develop an API that would expose only the commands needed for window control from X11 and Windows.
+							This way, all the inconsistancies would be hidden, and HaaTa could write a Window manager quite easily on top of the commands.</p>
+
+							<p>In order to start the API, HaaTa needed some reference material to see how to interface with the two windowing systems.
+							Since HaaTa liked the idea of XCB, Awesome WM was a good choice for example code.
+							Finding an example for Windows was slightly more difficult.
+							But HaaTa had time, with almost 2 months between finishing exams and leaving for Japan.</p>
+
+							<p>During his side trip to Fort Frances, Ont. HaaTa discovered <a href="http://hashtwm.demonastery.org/">HashTWM</a>.
+							This was exactly what HaaTa was looking for.
+							A relatively small window manager for Windows, so he could see all the commands needed, and how to use them.
+							It was just a bonus that it was also a Tiling Window Manager.</p>
+
+							<p>Right before HaaTa started coding the new API, he had an interesting idea.
+							One of the common themes of tiling window managers is that they are scriptable.
+							But none that HaaTa knew of were for Windows, and definitely not cross-platform.</p>
+
+							<p>Mostly due to sheer convenience HaaTa decided on using QtScript, since he was already using Qt, which would also allow the scripter to have full leverage of the Qt code-base as well.
+							QtScript is a form of ECMAScript for those interested.</p>
+
+							<p>TODO, HaaTa is currently writing the API.</p>
+							<div class="descr">Last Updated June 12, 2009 by HaaTa</div>
+						</div>
+
+						<div class="tabbertab" title="Misc">
+							<br/>
+							<h2>Miscellaneous Widgets</h2>
+							<br/>
+							<h3>BaulkStatus</h3>
+							<ul>
+								<li>Basic HTML Formatting</li>
+								<li>Supports 4 types of messages (Debug, Warning, Critical, Fatal)</li>
+							</ul>
+							<h3>WebBaulk</h3>
+							<ul>
+								<li>Custom Web Browser using QtWebKit</li>
+								<li>Tab Support</li>
+							</ul>
+							<div class="descr">Last Updated May 11, 2009 by HaaTa</div>
+						</div>
+						<div class="tabbertab" title="Road Map">
+							<br/>
+							<h2>Road Map</h2>
+							<br/>
+							<h2>0.2 - [To be decided]</h2>
+							<br/>
+							<p>TODO: Release Desirables</p>
+							<h2>0.1 - Initial Release <br/><br/> (Was almost ready, then HaaTa changed his mind)</h2>
+							<br/>
+							<p>ETA: When its done</p>
+							<h3>Baulk Features:</h3>
+							<ul>
+								<li>Initial Release</li>
+								<li>Linux and Windows Compatibility</li>
+								<li>Very basic multi-window support</li>
+								<li>XCB Tiling Window Management for X11</li>
+								<li>XML Configuration library</li>
+								<li>Fully Scriptable using QtScript (ECMAScript)</li>
+								<li>Windows Tiling Window Management</li>
+							</ul>
+							<h3>BaulkTerm Features:</h3>
+							<ul>
+								<li>Initial Release</li>
+								<li>Colour theme support with a usable default</li>
+								<li>Configuration menu (right click) and dialog (Baulk)</li>
+								<li>Real transparency support and focus fading</li>
+								<li>XML Configuration</li>
+							</ul>
+							<h3>Check <a href="http://apps.sf.net/taskfreak/baulk/public.php">TaskFreak!</a> for things holding back the release.</h3>
+							<br/>
+							<div class="descr">Last Updated May 10, 2009 by HaaTa</div>
+							<!--
+							<h1>Porttitor posuere</h1>
+							<div class="descr">Jun 13, 2006 by Vulputate</div>
+			
+							<p>In hac habitasse platea dictumst. Duis porttitor. Sed vulputate elementum nisl. Vivamus et mi at arcu mattis iaculis. <a href="index.html">Nunc eget pretium</a> diam. Pellentesque dictum faucibus leo. Vestibulum ac ante. Sed in est.</p>
+			
+							<blockquote><p>Sed sodales nisl sit amet augue. Donec ultrices, augue ullamcorper posuere laoreet, turpis massa tristique justo, sed egestas metus magna sed purus.</p></blockquote>
+			
+							<ul>
+								<li>Pretium</li>
+							</ul>
+			
+							<code>margin-bottom: 12px;
+			font-size: 1.1em;
+			background: url(img/quote.gif);
+			padding-left: 28px;
+			color: #555;</code>
+							-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right">
+				<div class="subnav">
+					<h1>Baulk</h1>
+					<br/>
+					<p>Baulk is a cross-platform native application tiling management tool written in Qt4. An emphasis is made on making all major components a separate dynamic library, for modularity.</p>
+					<p>Read: Almost a Window Manager, that works natively in Linux and Windows (no Cygwin).</p>
+					<!--
+					<h1>TEST</h1>
+					<ul>
+						<li><a href="index.html">TEST</a></li>
+					</ul>
+					-->
+					<h1>Related Projects</h1>
+					<ul>
+						<li><a href="http://awesome.naquadah.org/">Awesome WM</a></li>
+						<li><a href="http://www.suckless.org/">DWM and WMII</a></li>
+						<li><a href="http://hashtwm.demonastary.org/">HashTWM</a></li>
+						<li><a href="http://trolltech.com/products">Qt</a></li>
+						<li><a href="http://qtermwidget.sf.net">QTermWidget</a></li>
+						<li><a href="http://xcb.freedesktop.org/">XCB</a></li>
+					</ul>
+					<a href="http://sf.net/projects/baulk"><img src="http://sflogo.sf.net/sflogo.php?group_id=242954&amp;type=8" width="80" height="15" alt="Get Baulk at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
+				</div>
+			</div>
+			<div class="clearer"><span></span></div>
+		</div>
+		<div class="footer">
+			<!--	
+			<div class="col3">
+				<h2>Left</h2>
+				<ul>
+					<li><a href="index.html">TEST</a></li>
+				</ul>
+			</div>
+			<div class="col3center">
+				<h2>Center</h2>
+				<ul>
+					<li><a href="index.html">TEST</a></li>
+				</ul>
+			</div>
+			<div class="col3">
+				<h2>Right</h2>
+				<ul>
+					<li><a href="index.html">TEST</a></li>
+				</ul> 
+			</div>
+			-->
+				<div class="bottom">
+					<span class="left">Baulk &copy; 2008-2009 Jacob Alexander (HaaTa). Valid <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> &amp; <a href="http://validator.w3.org/check?uri=referer">XHTML</a>.</span>
+					<span class="right">Initial design by <a href="http://arcsin.se/">Arcsin</a></span>
+					<div class="clearer"><span></span></div>
+					<br/>
+				</div>
+		</div>
+	</div>
+	</body>
+</html>
+
+```
