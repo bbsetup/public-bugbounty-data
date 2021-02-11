@@ -1,0 +1,79 @@
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<html>
+
+<head>
+<title>bcov</title>
+</head>
+
+<body>
+
+<p align=center><h3>bcov</h3></p>
+
+<p>
+<b>Introduction</b><br/>
+<code>bcov</code> produces coverage information without recompiling a program
+by instrumenting it with breakpoints. Effectively it debugs the
+program automatically, removing each breakpoint after it has been
+hit. This produces detailed coverage information with minimal
+runtime overhead.
+</p>
+
+<p>
+<b>Example:</b><br/>
+
+Usage:<br/>
+
+<blockquote style="padding:10px; border:thin solid;">
+  <p><code>bcov</code> executable [arguments]</p>
+</blockquote>
+
+Executes the binary with the given arguments and stores the
+coverage summary in <code>.bcovdump</code>. The result file is more or less
+human readable (and easily machine readable), a nicer presentation
+can be generated with <code>bcov-report</code>:<br/>
+
+<blockquote style="padding:10px; border:thin solid;">
+  <p><code>bcov-report</code> [dumpfile] [output directory]</p>
+</blockquote>
+
+Converts the coverage dump into an <a href="http://ltp.sourceforge.net/coverage/lcov.php">lcov</a>-style html report. If
+not output directory is given <code>bcov-report</code> uses a temporary directory
+and tries to open the result in the standard browser.<br/>
+<br>
+<a href="example/index.html">Example Output</a> produced by <code>bcov</code><br/>
+</p>
+
+<p>
+<b>Requirements:</b><br/>
+<code>bcov</code> requires <a href="http://reality.sgiweb.org/davea/dwarf.html">libdwarf</a> to read
+debug info. Note you need a fairly recent one, older libdwarf releases are buggy concerning new gcc output.
+<b>Using an old libdwarf will crash the profiled program!</b>.
+If the version in your distro is too old (quite likely), do the following:
+<ol>
+<li>download and build <a href="http://reality.sgiweb.org/davea/dwarf.html">libdwarf</a></li>
+<li>copy <code>libdwarf.h</code> and <code>libdwarf.a</code> to a directory somewhere</li>
+<li>configure <code>bcov</code> with <code>./configure --with-libdwarf=</code>path<code>/libdwarf</code></li>
+</ol>
+</p>
+
+<p>
+<b>Download:</b><br/>
+<ul>
+<li><a href="http://prdownloads.sourceforge.net/bcov/bcov-0.2.tar.gz?download">bcov 0.2</a></li>
+</ul>
+More information and the current source code is available from the <a href="http://sourceforge.net/projects/bcov">project page</a>.
+</p>
+
+<p>
+<a href="http://sourceforge.net">
+<img src="http://sourceforge.net/sflogo.php?group_id=191082&type=1" width="88" height="31" border="0" alt="SourceForge Logo"/>
+</a>
+</p>
+
+<br><br>&copy; 2007-2009 <a href="mailto:tneumann@users.sourceforge.net">Thomas Neumann</a>
+
+</body>
+
+</html>
+```
