@@ -1,0 +1,41 @@
+```<HTML>
+<HEAD>
+<TITLE>BF Debugger Project</TITLE>
+<link rel="icon" href="Bug.png" type="image/png">
+</HEAD>
+<BODY>
+<H1>BF Debugger Project</H1>
+<P>
+<H3>Purpose:</H3>
+To provide an integrated GUI debugger for the development of software using the brainf*** programming language.  This project also seeks to expand the number of tools available to use this language, and also provide a test bed for possible extensions of this language.  Additional BF related tools may also be released under this umbrella project, as well as some general BF documentation that will augment existing information found elsewhere on the internet.
+<P>
+<H3><A HREF="http://sourceforge.net/project/showfiles.php?group_id=62660">Downloads</A></H3>
+Copies of the current software are available from the <A HREF="http://sourceforge.net/project/showfiles.php?group_id=62660">project download site</A>, including source code written in Object Pascal (Delphi), and compiled Win32 PE format files that will run on most versions of 32-bit MS Windows or compatable environments (like Wine or ReactOS).
+<P>
+<H3><A HREF="http://sourceforge.net/projects/bfdebug/">Project</A></H3>
+To see what is happening with the BF Debugger, you can <A HREF = "http://sourceforge.net/projects/bfdebug/">view the project page</A> to see updates, view the CVS repository, file bug reports, and view the general development status of this project.
+<P>
+<H3><A HREF="./philosophy.html">Philosophy</A></H3>
+I've put together a <A HREF="./philosophy.html">web page</A> that details some of the ideas that went into this project, why I've done things I've done, and the general conecpts that I did when I put this project together.  A sort of Theory of Operations, but a little more than that.  Also why I'm proposing a name change to Brainf***, including some proposed language extensions that really would require a name change anyway because it really is a new programming language.
+<P>
+<H3><A HREF="./tutorial/index.html">BF Debug Tutorial</A></H3>
+Some <A HREF="./tutorial/index.html">Brainf*** tutorial information</A> can be found here, including the basic language specification documents, as well as some tips to programming in this language.  It really isn't as bad of a language as it seems on the surface, and syntax errors are almost impossible to make.  Seriously.  If you havn't been exposed to this programming language, you need to see these documents.  Even more incredible is that there is a BF software development community already.
+<P>
+<H3><A HREF="./links.html">BF Language Resources</A></H3>
+There are a number of really possessed individuals (I can't think of any real normal reason why you would seriously develop stuff for BF) who have developed documentation for Brainf***.  Almost as much as Intercal.  I think there has been even more software development in BF however.  <A HREF="./links.html">This link page</A> should (hopefully) be a current listing of many of these projects.
+<P>
+<CENTER>Another group of excellent resources:</CENTER>
+<script language=javascript 
+src="http://ss.webring.com/navbar?f=j;y=teancum;u=10083803"></script>
+<noscript><center><table bgcolor=gray cellspacing=0 border=2 bordercolor=red>
+<tr><td><table cellpadding=2 cellspacing=0 border=0><tr><td align=center>
+<font face=arial size=-1>This site is a member of WebRing. 
+To browse visit <a href="http://ss.webring.com/navbar?f=l;y=teancum;u=10083803">
+here</a>.</font></td></tr></table></td></tr></table></center></noscript>
+<P>
+A special thanks to the people of Source Forge, including VA Linux, for hosting this project:
+<P>
+<A HREF="http://sourceforge.net"><IMG SRC="http://sourceforge.net/sflogo.php?group_id=62660&amp;type=5" WIDTH="210" HEIGHT="62" BORDER="0" ALT="SourceForge.net Logo"></A>
+<P>
+</BODY>
+</HTML>```
