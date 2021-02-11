@@ -1,0 +1,2397 @@
+```<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Becoming Fools</title>
+
+  <meta name="title" content="Becoming Fools">
+  <meta name="description" content="Becoming Fools is a documentary inspired by the legacy of a single person who lived as a fool and died as a friend.
+Italo Castro was a professional clown who became a father figure to countless street youth in Guatemala City. After his tragic death, the street youth wanted to honor their mentor and share he story of his legacy. Athentikos worked with them, using the I Am Art initiative to empower their dreams. Professional entertainers mentored the youth in a theatrical production on a distinguished stage. With odds stacked against them, perhaps they’re fools for believing it can be done. Or perhaps, Becoming Fools is exactly what they needed.">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://becomingfools.vhx.tv&format=json" title="Becoming Fools" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://becomingfools.vhx.tv&format=xml" title="Becoming Fools" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://becomingfools.vhx.tv">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      /* -----------------------------------------------------
+  
+  	document / reset
+  
+  ------------------------------------------------------ */
+  *, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+   }
+  body {
+  	font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-size: 12px;
+    background: #0ba9b9 url() repeat 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialised;
+  }
+  ul, li {
+  	padding: 0;
+  	margin: 0;
+  	list-style: none;
+  }
+  a:link,
+  a:visited {
+  	color: #ffffff;
+    text-decoration: none;
+  }
+  a:hover,
+  a:active {
+  	color: #f6852e;
+  	text-decoration: underline;
+  }
+  
+  .contained {
+  	width: 960px;
+    margin: 0 auto;
+  }
+  
+  .padded {
+  	padding: 20px;
+  }
+  
+  /* buttons
+  	-------------------------------------------------- */
+  	.btn,
+    a.btn {
+  	  display: inline-block;
+      line-height: 60px;
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+      letter-spacing: 1px;
+      padding: 0;
+      margin: 0;
+    	background: #f6852e;
+    }
+    a.btn:hover,
+    a.btn:active {
+  	  text-decoration: none;
+      background: #31bf4e;
+    }
+    
+  /* Redemption pop up 
+  ------------------------------------------------- */
+  #redemption {
+  	position: absolute;
+    top: -200px;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
+    background-color: #0ba9b9;
+    z-index: 55;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    text-align: center;
+    padding: 20px;
+    background: #0ba9b9 url("https://dr56wvhu2c8zo.cloudfront.net/theginbin/assets/20d2aa95-df9d-43c4-8478-ed01718c7753/sublte-dots.png") repeat;
+  }
+  #redemption.active {
+  	top: 100px;
+  }
+  #redemption.error {
+  	
+  }
+  
+  #redemption p {
+  	margin: 5px 0 10px 0;
+    font-size: 14px;
+  }
+  #redemption h4 {
+  	font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    padding: 0px;
+    margin: 10px 10px 20px 40px;
+    line-height: 0;
+  }
+  #redemption .close-btn {
+    position: absolute;
+    top: -10px;
+    right: -10px; 
+    width: 40px;
+    height: 40px;
+    border-radius: 20px; 
+    -moz-border-radius: 20px; 
+    -webkit-border-radius: 20px; 
+    -khtml-border-radius: 20px;  
+    color: #fff; 
+    line-height: 30px; 
+    text-align: center; 
+    background: #000;
+    border: 5px solid #0ba9b9;
+  }
+  #redemption .close-btn a {
+  	color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+  }
+  #redemption .close-btn a:hover {
+  	color: #f6852e;
+    text-decoration: none;
+  }
+  #redemption .form {
+  	position: relative;
+    text-align: left;
+  }	
+  #redemption .form input {
+  	font-family: 'Open Sans',serif;
+  	-webkit-appearance: none;
+  	border: none;
+    padding: 5px 10px;
+    outline: 0;
+    font-size: 14px;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    height: 34px;
+  }
+  #redemption .form input[type='text'],
+  #redemption .form input[type='email'] {
+  	width: 78%;
+  }
+  #redemption .form input[type='button'],
+  #redemption .form input[type='submit']{
+  	background-color: #000;
+    color: #FFF;
+    display: inline-block;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-family: 'Oswald', serif;
+    font-size: 16px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  #redemption .form input[type='button']:hover,
+  #redemption .form input[type='submit']:hover{
+  	text-decoration: none;
+    background: #31bf4e;
+  }
+  
+  /* -----------------------------------------------------
+  
+  	header
+  
+  ------------------------------------------------------ */
+  #head { 
+  	display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 38px;
+    z-index: 2000;
+    background-color: #000;
+  }
+  
+  /* primary navigation
+  ------------------------------------------------- */
+  .nav-pri { 
+  	  background: #0ba9b9;
+      width: 100%;
+      padding: 10px 0;
+      text-align: left;
+      z-index: 10;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .sub-page .nav-pri {
+      background: #f6852e;
+    }
+  	.nav-pri ul {
+    	padding-left: 15px;
+    }
+  	.nav-pri li {
+    	display: inline-block;
+      padding: 0 10px;
+      text-transform: uppercase;
+    }
+  	.nav-pri a {
+    	color: #ffffff;
+   		font-size: 12px;
+    }
+  	.nav-pri a:link,
+    .nav-pri a:visited {
+    		text-decoration: none;
+    }
+  	.nav-pri a:hover,
+    .nav-pri a:active {
+  		text-decoration: none;
+      color: #f6852e;
+    }
+    
+    .nav-pri .active {
+    	color: #f6852e;
+    }
+    
+  
+    .social {
+      position: absolute;
+  	  top: 9px;
+    	right: 10px;
+  	  z-index: 100;
+    }
+    .social li {
+  	  float: left;
+     	padding: 0 2px;
+    }
+  	.social .mail {
+      display: inline-block;
+      max-width: 200px;
+      padding: 3px 5px;
+      margin: 0px 4px 10px 4px;
+      
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      
+      background-color: #ffffff;
+      border: 1px solid #f7f7f7;
+      color:#333333;
+  
+  		letter-spacing: 0;
+      line-height: 1;
+      font-size: 11px;
+      font-family: sans-serif;
+      font-weight: bold;
+      
+      text-align: center;
+      text-decoration: none;
+      text-transform: none;
+      text-shadow: 1px 1px 0px rgba(255,255,255,.2);
+      
+      background: rgb(255,255,255);
+      background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(223,223,223,1) 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(223,223,223,1)));
+      background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(223,223,223,1) 100%);
+      background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(223,223,223,1) 100%);
+      background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(223,223,223,1) 100%);
+      background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(223,223,223,1) 100%);
+  	}
+    .social .mail i {
+    	color: #000;
+    }
+    .social .mail:hover {
+    	opacity: 1;
+      color: #ffffff;
+    }
+    .social .mail:hover i {
+    	color: #ffffff;
+    }
+    
+  	/* media
+  	-------------------------------------------------- */
+  	@media screen and (min-width : 320px) and (max-width : 568px) {
+      header .social {
+      	display: none;
+  		}
+  	}
+  
+  /* -----------------------------------------------------
+  
+  	main
+  
+  ------------------------------------------------------ */
+  
+  	/* feature
+  	-------------------------------------------------- */
+  .feature {
+    	width: 100%;
+      height: 700px;
+      display: block;
+      overflow: hidden;
+      position: fixed;
+      top: 38px;
+      left: 0;
+      z-index: 1;
+      background: #0ba9b9;
+    }
+  	.feature-options {
+        width: 610px;
+        margin: -10px auto 0px auto;
+    }
+    .feature-options li {
+    	/*width: 50%;*/
+      float: left;
+      text-align: center;
+      display: block;
+    }
+    .feature-options li .margin {
+    	margin-right: 10px;
+    }
+    .feature-options li.flush .margin {
+      margin-right: 0px;
+    }
+    
+    .feature-options li.flush .primary .multi {
+     	padding-left: 15px;
+    }
+    
+    .feature-options .btn {  
+  		display: block;
+      width: 300px;
+      font-size: 22px;
+      text-transform: uppercase;
+      /*padding: 2px 10px;*/
+      font-family: 'Oswald', serif;
+      font-weight: 700;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+    }
+    .feature-options .btn:hover {
+       background: #31bf4e; 
+  	}
+  	.feature-head {
+  		display: inline-block;
+      position: absolute;
+      top:	0px;
+      left: 0px;
+      z-index: 1000;
+     	width: 100%;
+    }
+  
+  	.feature-head .hgroup {
+  		text-align: center;
+      display: block;
+      margin: 0;
+  	}
+    .feature-head .hgroup .contain {
+  		display: inline-block;
+  		margin-top: 270px;
+      min-width: 400px;
+   	}
+    .feature-head h1 {
+    	font-family: 'Oswald', serif;
+  		color: #ffffff;
+      font-weight: 700;
+      font-size: 125px;
+      line-height: 1em;
+      text-align: center;
+      opacity: .9;
+      margin: 0 0 20px 0;
+      text-shadow: 0 0 15px rgba(0,0,0,1);
+      padding-bottom: 10px;
+      text-transform: uppercase;
+     }
+     
+     .feature-head h1 img {
+  			width: 100%;
+        height: auto;
+     }
+     
+   	.feature-head h2 {
+    	font-family: 'Abril Fatface', cursive;
+  		color: #ffffff;
+    	opacity: .9;
+      text-transform: uppercase;
+      font-size: 21px;
+      text-shadow: 0 0 15px rgba(0,0,0,1);
+      font-weight: normal;
+      -webkit-font-smoothing: antialiased;
+    }
+    .feature-head h2 img {
+    	max-width: 160px;
+      height: auto;
+    }
+    .feature-head h3 {
+     	color: #FFF;
+      text-transform: uppercase;
+      margin: 0;
+    }
+  	.feature-slideshow {
+    	position: absolute;
+      max-height: 720px;
+      top: 0;
+      left: 0;
+    	width: 100%;
+  		height: 100%;
+    	display: block;
+    }
+   	.feature-slideshow img {
+    	display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .redeemer {
+    	padding: 10px 0px;
+      font-size: 14px;
+      text-shadow: 0 0 15px rgba(0,0,0,1);
+      font-weight: normal;
+      -webkit-font-smoothing: antialiased;
+  	}
+    
+    .redeemer a {
+    	margin-left: 5px;
+    	text-decoration: underline; 
+      color: #ffffff;
+    }
+    
+    .redeemer a:hover {
+    	color: #f6852e; 
+    }
+    
+    /* BUY BUTTON */
+  .buy-block {
+    position: relative;
+    width: 300px;
+    top: 36px;
+    left: 10px;
+   	/*left: 50%;
+    top: -122px;
+    margin-left: 5px;*/
+  }
+  
+  .buy-block a {
+    display: block;
+    background-color: #000;
+    -webkit-transition: all 0s ease;
+    -moz-transition: all 0s ease;
+    -ms-transition: all 0s ease;
+    -o-transition: all 0s ease;
+    transition: all 0s ease;
+    -webkit-border-radius: 3px;
+     border-radius: 3px;
+     /*font-family: 'Oswald', serif;
+     font-weight: 700;*/
+     text-transform: uppercase;
+     font-weight: normal;
+     text-decoration: none;
+  }
+  .buy-block a span.price {
+    font-size: 13px;
+    display: block;
+    /*padding: 10px 14px 14px 14px;*/
+    float: left;
+    /*height: 74px;*/
+    /*min-width: 85px;*/
+    text-align: center;
+    width: 70px;
+    /*width: 90px;*/
+    /*min-height: 40px;*/
+  }
+  .buy-block a span.txt {
+    /*text-align: center;*/
+    display: block;
+    /*padding: 12px 20px; */
+    font-size: 13px;
+    position: relative;
+  }
+  .buy-block a:hover span {
+    color: #f6852e;
+    text-decoration: none;
+  }
+  
+  /* multi-package header */
+  .buy-block .dropdown {
+  	
+  }
+  .buy-block ul {  display: none; width: 100%; height: auto; z-index: 15; background-color: #000; overflow: visible; }
+  /* .buy-block:hover ul { display: block; } */
+  .buy-block ul a { display: block; padding: 5px; }
+  .buy-block ul .details { display: none; font-size: 13px; line-height: 17px; background: #0ba9b9; color: #FFF; text-align: left; width: 100%; position: relative; }
+  .buy-block ul .details .padding { padding: 0px 20px; }
+  .buy-block ul li { 
+    display: block; 
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out; 
+   };
+  
+  .buy-block ul li.active a, .buy-block ul li.active span { background-color: #000 ;}
+  /*.buy-block ul li.active span.price { border-right: 1px solid #000; }*/
+  .buy-block ul li.active .desc { display: block }
+    
+  .buy-block ul .details:before {
+  	display: block;
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: 0;
+   	width: 0; 
+  	height: 0; 
+  	border-left: 10px solid transparent;
+  	border-right: 10px solid transparent;
+  	border-top: 10px solid #000;
+  }
+   @media screen and (min-width: 569px) and (max-width: 768px) {
+      .feature-head h2 {
+        font-size: 16px;
+      }
+      
+      .feature-head .hgroup .contain {
+        margin-top: 300px;
+      }
+      
+      .feature-head h1 {
+      	font-size: 100px;
+      }
+   }
+   /* mobile phone landscape */
+   @media screen and (min-width: 421px) and (max-width: 568px) {
+   		.feature {
+     		height: 400px;
+       	position: relative;
+      }
+      
+  		.feature-options {
+          width: 370px;
+          margin: 0px auto;
+      }
+      
+      .feature-head h2 {
+        font-size: 12px;
+      }
+      
+      .feature-head h1 {
+      	font-size: 65px;
+      }
+      
+      .feature-options .btn {  
+        width: 180px;
+        font-size: 20px; 
+      }
+      
+      .feature-head .hgroup .contain {
+        margin-top: 75px;
+      }
+  	}
+    /* iphone portrait */
+   @media screen and (max-width: 420px){
+   		.feature {
+     		height: 400px;
+       	position: relative;
+      }
+      
+      .feature-options {
+         width: 200px;
+         margin: 0px auto;
+         text-align: center;
+      }
+  	  
+      .feature-options li {
+      	width: auto;
+        float: none;
+        margin: 0 auto 10px;
+      }
+      
+      .feature-head h2 {
+        font-size: 12px;
+      }
+      
+      .feature-options li .margin {
+    	margin-right: 0px;
+    }
+      .feature-options li.flush .margin {
+        margin-right: 0px;
+      }
+      .feature-options .btn {  
+        width: 200px;
+        font-size: 20px; 
+      }
+      
+      .feature-head .hgroup .contain {
+        margin-top: 20px;
+        min-width: 300px;
+      }
+      
+      .feature-head h1 {
+      	font-size: 45px;
+      }
+   }
+  
+    /* primary
+  	-------------------------------------------------- */
+    /*.primary {
+  	  width: 90%;
+      margin: 0 auto;
+      padding: 50px 0;
+      display: none;
+      max-width: 960px;
+    }*/
+     .content {
+    	text-align: center;
+      margin: 0 auto;
+      position: relative;
+      margin-top: 700px;
+      background: #ffffff url() center center fixed;/*#0ba9b9;*/
+      z-index: 200;
+    }
+    
+    @media screen and (max-width: 600px) {
+     	.content {
+    		margin-top: 0px;
+      }
+    }
+  
+    	/* about
+  	-------------------------------------------------- */
+    .synopsis {
+    	width: 100%;
+    	height: 100%;
+      background: #0ba9b9 url("") repeat;
+     }
+    
+    .synopsis .about {
+    	font-size: 21px;
+      line-height: 28px;
+      max-width: 450px;
+      margin: 0 auto;
+      position: relative;
+      top: -75px;
+      text-align: center;
+      padding-bottom: 60px;
+    }
+    .about p {
+    	color: #ffffff;
+      text-align: left;
+      font-size: 16px;
+    }
+  	.about-copy {
+    	padding: 20px 40px;
+      text-align: center;
+    }
+  	.about-image {
+  	  text-align: center;
+  		width: 225px;
+      height: 225px;
+  		overflow: hidden;
+      margin: 25px auto;
+  		width: 225px;
+      border-style: solid;
+  		border-color: #0ba9b9;
+      border-width: 10px;
+      -webkit-border-radius: 150px;
+  		-moz-border-radius: 150px;
+  		border-radius: 150px;
+    }
+    .about-image img {
+    	width: auto;
+      height: 100%;
+    }
+    .about h3 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 38px;
+      color: #ffffff;
+      font-weight: bold;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    @media screen and (max-width: 420px){
+    	.synopsis .about {
+        line-height: 22px;
+        max-width: 400px;
+        padding: 0 20px;
+       }
+    }
+    
+    /* packages
+  	-------------------------------------------------- */
+    .package-holder {
+    	width: 100%;
+      height: 100%;
+    	background: #ffffff url() center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    
+  	.packages {
+    	width: 100%;
+      height: 415px;
+      background-color: #ffffff;
+      margin: 0 auto;
+      padding-top: 20px;
+      text-align: center;
+    }
+    
+    .packages .contained {
+    	width: auto;
+    	min-width: 0px;
+    	padding: 0px;
+    }
+    
+    .packages ul.contained {
+    	background-color: #ffffff;
+      margin-top: -100px;
+      padding-top: 20px;
+    }
+    
+    .packages .visual {
+      position: relative;
+      width: 442px;
+      margin: 0 auto;
+     }
+    
+  	.packages .visual .gradient {
+      display: block;
+      width: 100%;
+      height: 90px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: 3;
+      /* gradient is applied via JS
+    	background: -moz-linear-gradient(top,  rgba(77,106,130,0) 0%, rgba(77,106,130,1) 39%); 
+  		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(77,106,130,0)), color-stop(39%,rgba(77,106,130,1))); 
+  		background: -webkit-linear-gradient(top,  rgba(77,106,130,0) 0%,rgba(77,106,130,1) 39%); 
+  		background: -o-linear-gradient(top,  rgba(77,106,130,0) 0%,rgba(77,106,130,1) 39%); 
+  		background: -ms-linear-gradient(top,  rgba(77,106,130,0) 0%,rgba(77,106,130,1) 39%);
+  		background: linear-gradient(to bottom,  rgba(77,106,130,0) 0%,rgba(77,106,130,1) 39%); 
+  		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004d6a82', endColorstr='#4d6a82',GradientType=0 ); 
+      */
+    }
+    
+    .packages .visual a {
+    	 position: relative;
+       z-index: 1;
+    }
+    
+    .packages h3 {
+      font-family: 'Abril Fatface', cursive;
+      font-size: 21px;
+      color: #ffffff;
+      text-shadow: 0 0 15px rgba(0,0,0,1);
+      font-weight: normal;
+      -webkit-font-smoothing: antialiased;
+    }
+    .packages li {
+      padding: 0 20px;
+      float: none;
+    }
+  	.packages .desc {
+      color: #ffffff;
+      text-align: left;
+      font-size: 16px;
+      line-height: 25px;
+      font-weight: normal;
+      -webkit-font-smoothing: antialiased; 
+      position: relative;
+      top: -70px;
+      z-index: 5;
+      padding: 10px;
+      width: 442px;
+      margin: 0 auto;
+    }
+    
+    .packages .single {
+    	float: none;
+    	width: 442px;
+     }
+    
+    .packages .pair {
+     	float: left;
+      width: 50%;
+      max-width: 442px;
+    }
+    
+    .packages .triple {
+    	float: left;
+      width: 33.3%;
+    }
+    
+    .packages .desc .title-2 {
+    	
+    }
+    
+    .packages .desc .copy-1 {
+    	margin-top: -10px;
+    }
+    
+  	.packages img {
+      width: 100%;
+  	}
+    .packages .package-btn {
+    	line-height: 48px;
+      display: block;
+      background: #f6852e;
+      text-align: center;
+      color: #fff;
+      font-size: 16px;
+      width: 162px;
+      text-transform: uppercase;
+      font-family: 'Oswald', serif;
+      font-weight: 700;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      margin-top: 15px;
+    }
+    
+    .packages .package-trailer-btn img {
+   		width: 37px;
+      height: 17px;
+      padding-right: 10px;
+      vertical-align: middle;
+    }
+    .packages .package-trailer-btn {
+      opacity: 0.7;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-top: 24px;
+      margin-left: 20px;
+      color: #fff;
+    }
+    
+    a.package-btn, a.package-trailer-btn {
+  	  text-decoration: none;
+      float: left;
+    }
+    
+    a.package-trailer-btn:hover,
+    a.package-trailer-btn:active{
+    	opacity: 1;
+      text-decoration: none;
+    }
+    
+    a.package-btn:hover,
+    a.package-btn:active {
+  	  text-decoration: none;
+      background: #31bf4e;
+    }
+    
+  /* pair view */
+  @media screen and (min-width: 750px) and (max-width: 900px) {
+  	.packages .package-trailer-btn {
+      	font-size: 12px;
+      	margin-left: 15px;
+        margin-top: 28px;
+     }
+     
+     .packages .desc {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      
+      .packages .package-btn {
+      	width: 145px;
+      }
+      
+  }
+  
+  /* single packages smaller than ipad */
+  @media screen and (min-width: 601px) and (max-width: 749px) {
+  	.packages .package-trailer-btn {
+      	font-size: 12px;
+      	margin-left: 15px;
+        margin-top: 28px;
+     }
+     
+     .packages .desc {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      
+      .packages .package-btn {
+      	width: 145px;
+      }
+      
+      .packages ul.contained {
+      	margin-top: 0px;
+      	padding-top: 20px;
+    	}
+  }
+  
+  /* mobile phone landscape */
+  @media screen and (min-width: 421px) and (max-width: 600px) {
+   	.package {
+    	
+    }
+    
+    .packages .package-trailer-btn {
+      	font-size: 18px;
+     }
+     
+     .packages ul.contained {
+      	margin-top: 0px;
+      	padding-top: 20px;
+    	}
+  }
+  
+  /* mobile phone portrait */
+  @media screen and (max-width: 420px) {
+     .packages .package-trailer-btn {
+      	font-size: 15px;
+      	margin-left: 0px;
+        margin-top: 15px;
+     }
+      
+    .packages li {
+      padding: 0 20px;
+      float: none;
+    }
+    
+    .package {
+    	
+     }
+     
+     .packages ul.contained {
+      margin-top: 0px;
+      padding-top: 20px;
+    }
+    
+    .packages .desc {
+       font-size: 16px;
+       line-height: 20px;
+     }
+  }
+   
+  /* ----------------- tumblr --------------------------- */
+  .blog {
+  	background-color: #0ba9b9;
+    color: #ffffff;
+  }
+  
+  /* TUMBLR */
+  .blog .entry {
+  	margin-bottom: 40px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .blog .entry h1 {
+  	line-height: 28px;
+  }
+  
+  .blog .entry a {
+  	text-decoration: underline;
+    color: #ffffff;
+  }
+  
+  .blog .entry a:hover {
+  	text-decoration: underline;
+    color: #f6852e;
+  }
+  .blog .entry img {
+  	max-width: 100%;
+    height: auto;
+  }
+  .blog .entry.photo img {
+  	width: 100%;
+    height: auto;
+  }
+  .blog .entry .thevideo {
+  	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 */
+  	height: 0;
+  }
+  .blog .entry .thevideo iframe,
+  .blog .entry .thevideo object,
+  .blog .entry .thevideo embed {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  }
+  .blog .timestamp {
+  
+  }
+  
+  .blog .timestamp a {
+  	font-weight: 900;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.45;
+  }
+  .blog .timestamp a:hover {
+  	color: #000;
+    opacity: 1;
+    text-decoration: none;
+  }
+  .blog .tags {
+  	margin-bottom: 10px;
+  }
+  .blog .tags a {
+  	display: inline-block;
+    font-weight: normal ;
+    text-transform: uppercase;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.45;
+    text-decoration: none;
+  }
+  .blog .tags a:hover {
+  	color: #000;
+    opacity: 1;
+    text-decoration: none;
+  }
+  .blog .readmore.button {
+      text-align: center;
+      color: #fff;
+      padding: 10px 15px;
+      margin: 0;
+    	background: #000;
+      border: none;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-family: 'Oswald', serif;
+      font-weight: 700;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      width: 80px;
+  }
+  .blog .readmore.button:hover {
+  	text-decoration: none;
+    background: #31bf4e;
+  }
+    
+  /* newsletter
+  ------------------------------------------------- */
+  
+  	.newsletter {
+  		padding-bottom: 20px;
+      color: #fff;
+      font-family: 'Abril Fatface', cursive;
+      font-size: 21px;
+      font-weight: normal;
+      -webkit-font-smoothing: antialiased;
+     }
+  	.newsletter input[type="submit"] {
+      line-height: 35px;
+      text-align: center;
+      color: #fff;
+      padding: 0 5px;
+      margin: 0;
+    	background: #000;
+      border: none;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-family: 'Oswald', serif;
+      font-weight: 700;
+      -webkit-font-smoothing: antialiased;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      margin-top: 5px;
+      position: relative;
+      top: 3px;
+    }
+  	.newsletter input[type="submit"]:hover,
+  	.newsletter input[type="submit"]:active {
+  	  text-decoration: none;
+      background: #31bf4e;
+    }
+  	.newsletter input.required {
+  		border: none;
+      background: #fff;
+      color: #000;
+      font-size: 12px;
+      padding: 10px 5px;
+      margin-right: 10px;
+      width: 200px;
+      text-indent: 5px;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+    }
+    
+    .newsletter label {
+  	 
+    }
+    
+    .newstablet {
+      	display: none;
+     }
+    
+    @media screen and (max-width: 768px) {
+      .newsletter label {
+      	text-align: center;
+        display: block;
+      }
+      
+      .newsletter {
+      	width: 280px;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      
+      .newstablet {
+      	display: block;
+        }
+        
+      .newsnormal {
+      	display: none;
+       }
+       
+      .contained .newsletter{
+      
+      }
+    }
+  
+   /* twitter
+  	-------------------------------------------------- */
+  .tweets h1 {
+  	font-family: 'Abril Fatface', cursive;
+    font-size: 21px;
+    font-weight: normal;
+  }
+  
+  .tweets h1 a {
+  	color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  .tweets h1 a:hover {
+  	color: #f6852e;
+  }
+    
+  .updates .tweets li {
+  	margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  .updates .tweets li a {
+  	text-decoration: underline;
+    color: #ffffff;
+  }
+  
+  .updates .tweets li a:hover {
+    color: #f6852e;
+   }
+  
+  .updates .tweets li .meta {
+  	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  
+  .updates .tweets .meta a {
+  	text-decoration: none;
+    color: #000;
+    opacity: 0.45;
+  }
+  
+  .updates .tweets .meta a:hover {
+  	text-decoration: none;
+    color: #000;
+    opacity: 1;
+  }
+    
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /*  UPDATES ZONE  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .updates {
+  	background-color: #0ba9b9;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .updates .contained {
+    /*min-width: 960px;
+    width: 85%;*/
+    width: auto;
+    min-width: 0px;
+    padding: 0px;
+    max-width: 1000px;
+  }
+  .updates .wide {
+    width: 60%;
+  }
+  .updates .skinny {
+    width: 40%;
+  }
+  .updates .padded {
+  	padding: 0px;
+    margin: 20px 20px 0 20px;
+  }
+  .updates .module {
+  	margin-bottom: 40px;
+  }
+  
+   @media screen and (max-width: 768px) {
+   	.updates .wide,
+    .updates .skinny {
+      	width: auto;
+     }
+     
+     /* keep updates shorter */
+     .blog .entry:nth-child(n+3) { 
+     	display: none;
+     }
+     .blog .entry:nth-child(n+3) { 
+     	display: none;
+     }
+     .updates .tweets li:nth-child(n+5) { 
+     	display: none;
+     }
+     .updates .instagram .entry:(n+3) { 
+     	display: none;
+     }
+   }
+  	
+  
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* FOOTER  */
+  /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+  .footer {
+  	background-color: #f6852e;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1001;
+  }
+  .footer .helpers {
+  	overflow: hidden;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .footer .helpers ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
+  .footer .helpers li { position: relative; float: left; display: block; right: 50%; margin-right: 20px; }
+  .footer .helpers li:last-child { margin-right: 0px; }
+  .footer .poweredby { text-align: center; margin-top: 20px; }
+  .footer .poweredby img { opacity: .4; max-height: 40px; width: auto; }
+  .footer .poweredby a:hover img { opacity: 1; }
+  
+  .footer .helpers a:link,
+  a:visited {
+  	color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer .helpers a:hover, a:active {
+  	color: #f6852e;
+  	text-decoration: none;
+   }
+   
+   @media screen and (max-width: 420px){
+     .footer {
+      margin: 0 auto;
+      text-align: center;
+     }
+     
+     .footer .helpers li:nth-child(2) {
+     	padding-bottom: 20px;
+     }
+     
+     .footer .helpers li {
+     	
+     }
+     
+     .footer .helpers {
+      	/*width: 100%;
+        margin: 0 auto;
+      	text-align: center;*/
+        padding-left: 30px;
+     }
+   }
+  
+  
+  	/* site navigation
+  	-------------------------------------------------- */
+  	.nav-site { 
+  		position: absolute;
+      bottom: 20px;
+      right: 40px;
+    }
+  	.nav-site li {
+    	display: inline-block;
+      padding: 0 5px;
+    }
+  	.nav-site a {
+  	  font-weight: bold;
+    	font-size: 11px;
+  	  text-transform: uppercase;
+     }
+  	.nav-site a:link,
+    .nav-site a:hover {
+    	color: #ffffff;
+      text-decoration: none;
+    }
+  	.nav-site a:active,
+    .nav-site a:visited {
+    	color: #cccccc;
+      text-decoration: none;    
+    }  
+  	
+  	/* media
+  	-------------------------------------------------- */
+  @media screen and (max-width: 750px){
+    .nav-site {
+    	position: relative;
+    	bottom: auto;
+      right: auto;
+      text-align: center;
+     }
+  }
+  @media screen and (max-width: 650px){
+     .nav-site .vhx-brand {
+  		display: block;
+  		padding: 20px;
+  	}
+  }
+  @media screen and (max-width: 450px){
+  }
+  
+  /* -----------------------------------------------------
+  
+  	global
+  
+  ------------------------------------------------------ */
+  
+  	/* titles
+  	-------------------------------------------------- */
+  	.title-1 {
+  		font-size: 18px;
+  		color: #ffffff;
+  	}
+    .title-1 a:link,
+  	.title-1 a:visited {
+  		color: #ffffff;
+  		text-decoration: none;      
+    }
+  	.title-1 a:hover,
+    .title-1 a:active {
+  		color: #ffffff;
+  		text-decoration: none;
+    }
+  	.title-2 {
+      font-family: 'Abril Fatface', cursive;
+  		color: #ffffff;
+  	}
+    .title-2 a:link,
+  	.title-2 a:visited {
+  		color: #ffffff;
+  		text-decoration: none;      
+    }
+  	.title-2 a:hover
+    .title-2 a:active {
+  		color: #ffffff;
+  		text-decoration: none;
+    }  
+  
+  	/* copy 
+  	-------------------------------------------------- */
+  	.copy-1 {
+  	}
+  
+  
+  /* -----------------------------------------------------
+  
+  	utiltiies
+  
+  ------------------------------------------------------ */	
+  
+  .column {
+  	float: left;
+  }
+  .column.half {
+  	width: 50%;
+  }
+  .column.thirds {
+  	width: 33.333%;
+  }	
+  .column.twothirds {
+  	width: 66.666%;
+  }
+  
+  /* grid row
+  -------------------------------------------------- */
+  	.row:after {
+  		content: ""; 
+  		display: block;
+  		height: 0; 
+  		clear: both;
+  		visibility: hidden;
+  	}
+  
+  /* grid column
+  -------------------------------------------------- */
+  	.col-1-1 { float: left; width: 100%; }
+  	.col-1-2 { float: left; width: 50%; }
+  	.col-1-3 { float: left; width: 33.33333%; }
+  	.col-2-3 { float: left; width: 66.66667%; }
+  	.col-1-4 { float: left; width: 25%; }
+  	.col-2-4 { float: left; width: 50%; }
+  	.col-3-4 { float: left; width: 75%; }
+  	.col-1-5 { float: left; width: 20%; }
+  	.col-2-5 { float: left; width: 40%; }
+  	.col-3-5 { float: left; width: 60%; }
+  	.col-4-5 { float: left; width: 80%; }
+  
+  /* misc
+  -------------------------------------------------- */
+  	.group:after {
+  		content: "."; 
+  		display: block;
+  		height: 0; 
+  		clear: both;
+  		visibility: hidden;
+  	}
+  	.page-contain {
+  		
+  	}
+  </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      var _gaq = _gaq || [];
+  
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+        ga('create', 'UA-19540423-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'becomingfools');
+      ga('send', 'pageview');
+  
+      var Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_SENT_FREE_COPIES":"admin_sent_free_copies","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_SIGNUP_COMPLETE":"authentication","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_LOADEDDATA":"Video Content Loaded","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_FULLSCREEN":"Fullscreen Enabled/ Disabled","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD_TRIGGER":"addwatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE_TRIGGER":"removewatchlist","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List ","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_CURRENT_USER_ID":"current_user_id","PROPERTY_CURRENT_USER_EMAIL":"current_user_email","PROPERTY_CURRENT_SITE_ID":"current_site_id","PROPERTY_CURRENT_SITE_KEY":"current_site_key","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+        SITE_GANALYTICS_ENABLED: false
+      };
+  
+        Tracking.SITE_GANALYTICS_ENABLED = true;
+          ga('create', '', 'auto', { 'name': 'site' });
+  
+        ga('site.require', 'displayfeatures');
+        ga('site.set', 'dimension1', 'becomingfools');
+        ga('site.send', 'pageview');
+  
+        var _vhx = {
+          environment: 'production',
+          site: { id: '4642', domain: 'becomingfools.vhx.tv', host: 'becomingfools.vhx.tv' },
+          geo:  { country: 'us' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      var _current_user = {"id":null,"email":null,"name":null},
+          _current_site = {"id":4642,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"becomingfools"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+
+	<header id="head"> 
+    <!-- primary Navigation -->
+     <nav class="nav-pri">
+      <ul>
+        <li><a href="/"><i class="icon-home"></i> Becoming Fools</a></li>
+        	<li><a href="#about">About</a></li>
+        <li>
+        <a href="#buy">Buy</a>
+        
+        </li>
+      </ul>
+    </nav>
+    
+		<ul class="social">
+      <li>
+        <a href="https://twitter.com/share" class="twitter-share-button" 
+          data-via="Athentikos" 
+          data-text="" 
+          data-counturl="http://becomingfools.vhx.tv" 
+          data-url="http://becomingfools.vhx.tv">Tweet</a>
+      </li>
+      <li>
+      	<div class="fb-like" 
+        	data-href="http://facebook.com/athentikos" 
+          data-send="false" 
+          data-layout="button_count" 
+          data-show-faces="false"></div>
+      </li>
+      <li>
+        <a class="mail" href="mailto:?subject=Buy Becoming Fools on VHX!&body=http://becomingfools.vhx.tv"><i class="icon-envelope-alt"></i> Share</a>
+      </li>
+    </ul>
+    
+    <div class="buy-block">
+      <ul class="dropdown">
+        <li>
+          <a href="/buy/becoming-fools-feature"><span class="price">$2</span><span class="txt">Becoming Fools Feature</span></a>            
+          <div class="details"><div class="padding"><p>Italo Castro was a professional clown who became a father figure to countless street youth in Guatemala City. After his tragic death, the street youth wanted to honor their mentor and share he story of his legacy. Athentikos worked with them, using the I Am Art initiative to empower their dreams. Professional entertainers mentored the youth in a theatrical production on a distinguished stage. With odds stacked against them, perhaps they’re fools for believing it can be done. Or perhaps, Becoming Fools is exactly what they needed.</p></div></div>            
+        </li>
+        <li>
+          <a href="/buy/becoming-fools"><span class="price">$3</span><span class="txt">Becoming Fools Deluxe Package</span></a>            
+          <div class="details"><div class="padding"><p>For a limited time, The Deluxe version of Becoming Fools is only $10! Purchase the film and help support at-risk communities through the I AM ART camps hosted by Athentikos. 100% of the films proceeds are going to purchase art supplies for the camps.</p>
+
+<p>Italo Castro was a professional clown who became a father figure to countless street youth in Guatemala City. After his tragic death, the street youth wanted to honor their mentor and share he story of his legacy. Athentikos worked with them, using the I Am Art initiative to empower their dreams. Professional entertainers mentored the youth in a theatrical production on a distinguished stage. With odds stacked against them, perhaps they’re fools for believing it can be done. Or perhaps, Becoming Fools is exactly what they needed.</p></div></div>            
+        </li>
+      </ul>
+    </div>
+	</header>
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <section id="main">
+    
+    	<!-- FEATURE SECTION -->
+    	<section class="feature">  
+        <!-- trailer -->
+    		<div class="feature-head">
+    	    <div class="hgroup">
+          	<div class="contain">
+    	  	  	<h2></h2>
+              <h1>
+              	
+                Becoming Fools
+              </h1>
+                <ul class="feature-options group">
+                    <li class="first"><div class="margin"><a class="btn trailer-btn" href="" data-preview-url="">Watch Trailer</a></div></li>
+                		<li class="flush">
+                    	<div>
+                      <a class="btn primary" href="#"><span class="multi">Buy Now <i class="icon-chevron-down"></i></span></a>
+                      
+                      </div>
+                    </li>
+                </ul>
+                <div class="redeemer">
+    							Have a Redemption Code? <a href="/buy">Redeem It Here</a>.
+    						</div>
+            </div> <!-- .contain -->
+        	</div> <!-- .hgroup -->
+         </div> <!-- .feature-head -->
+    		
+        <!-- slideshow / gallery -->
+    		<ul class="feature-slideshow" data-slideshow>
+    			<li><img src="https://dr56wvhu2c8zo.cloudfront.net/becomingfools/assets/83d1d240-9594-4c4c-a851-652de073e20b/VozPerformance_0585b.jpg" /></li>
+    			<li><img src="https://dr56wvhu2c8zo.cloudfront.net/becomingfools/assets/586a6a62-8709-489b-b780-a6aed1b00516/Becoming-Fools---FINAL-GOLD-MASTER---CUT.jpg" /></li>
+    			<li><img src="https://dr56wvhu2c8zo.cloudfront.net/becomingfools/assets/59872700-eb22-4705-bdd1-4ed5889fe0a7/Becoming-Fools---FINAL-GOLD-MASTER---CUT2.jpg" /></li>
+    			<li><img src="https://dr56wvhu2c8zo.cloudfront.net/becomingfools/assets/2cf178f4-de0b-48d6-aa94-46b53444ab01/Becoming-Fools---FINAL-GOLD-MASTER---CUT5.jpg" /></li>
+    			<li><img src="https://dr56wvhu2c8zo.cloudfront.net/becomingfools/assets/9b11ab5d-08d3-47d3-b93d-6621841b9b0f/Becoming-Fools---FINAL-GOLD-MASTER---CUT3.jpg" /></li>
+    			<li><img src="https://dr56wvhu2c8zo.cloudfront.net/becomingfools/assets/963c320f-652a-4671-8e4f-20596bb85610/Becoming-Fools---FINAL-GOLD-MASTER---CUT4.jpg" /></li>
+    			<li><img src="https://dr56wvhu2c8zo.cloudfront.net/becomingfools/assets/2d34bb4b-b81d-465c-adaa-3f01ed0c1f75/Becoming-Fools---FINAL-GOLD-MASTER---CUT8.jpg" /></li>
+    			<li><img src="https://dr56wvhu2c8zo.cloudfront.net/becomingfools/assets/ae39e68b-afa4-4202-9422-fe00c0c8ae27/Becoming-Fools---FINAL-GOLD-MASTER---CUT6.jpg" /></li>
+    			<li><img src="https://dr56wvhu2c8zo.cloudfront.net/becomingfools/assets/0f7c5b96-7bd1-4420-bfdd-c63ce019186e/Becoming-Fools---FINAL-GOLD-MASTER---CUT7.jpg" /></li>
+    			<li><img src="https://dr56wvhu2c8zo.cloudfront.net/becomingfools/assets/83d1d240-9594-4c4c-a851-652de073e20b/VozPerformance_0585b.jpg" /></li>
+    		</ul> 
+    	</section> <!-- .feature --> 
+    </section> <!-- END MAIN -->
+    
+    <section class="content">
+    <!-- MID SECTION -->
+       <section class="group">
+        	<div class="col-3-3 synopsis">
+            <div class="about" id="about">
+              <!-- synopsis -->
+               <div class="about-image">
+                <img src="https://dr56wvhu2c8zo.cloudfront.net/becomingfools/assets/a9e7daf0-d804-428e-9665-aa498f3f9b8d/A-Icon-White.png" />
+              </div>
+              <h3>Synopsis</h3>
+              <p>Becoming Fools is a documentary inspired by the legacy of a person who lived as a fool and died as a friend.  Italo Castro was a professional clown who became a father figure to countless street youth in Guatemala City. After his tragic death, the street youth wanted to honor their mentor and share he story of his legacy. Athentikos worked with them, using the I Am Art initiative to empower their dreams. Professional entertainers mentored the youth in a theatrical production on a distinguished stage. With odds stacked against them, perhaps they’re fools for believing it can be done. Or perhaps, Becoming Fools is exactly what they needed.</p>
+            </div> <!-- .synopsis -->
+              
+       	 </div> <!-- col 1-3 -->
+    	</section> 
+      
+    	<!-- packages -->
+      <div class="package-holder">
+      <div class="packages">
+     	 	<ul class="contained group" id="package-area">
+                <li class="package">
+                    <div class="visual">
+                    	<div class="gradient"></div>
+    	                <a href="/buy/becoming-fools-feature"><img src="https://vhx.imgix.net/becomingfools/assets/87c3125e-61aa-46c0-8790-812f976a590a/Becoming_Fools_Trailer_600w.png?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>               
+                    </div>
+                    <div class="desc">
+    									<h3 class="title-2"><a href="/buy/becoming-fools-feature">Becoming Fools Feature</a></h3>
+                      <div class="copy-1">
+    	                  Italo Castro was a professional clown who became a father figure to countless street youth in Guatemala City. After his tragic death, the street youth wanted to honor their mentor and share he story of his legacy. Athentikos worked with them, using the I Am Art initiative to empower their dreams. Professional entertainers mentored the youth in a theatrical production on a distinguished stage. With odds stacked against them, perhaps they’re fools for believing it can be done. Or perhaps, Becoming Fools is exactly what they needed.
+                       </div>
+                       <div class="btn-container">
+                         <a class="package-btn" href="/buy/becoming-fools-feature">Buy from $2</a>
+                       </div>
+                    </div>
+                 </li>
+               
+                           <li class="package">
+                    <div class="visual">
+                    	<div class="gradient"></div>
+    	                <a href="/buy/becoming-fools"><img src="https://vhx.imgix.net/becomingfools/assets/1975cb9e-7135-403f-8c40-a42878d2c79d/BF_YouTube_Thumb.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></a>               
+                    </div>
+                    <div class="desc">
+    									<h3 class="title-2"><a href="/buy/becoming-fools">Becoming Fools Deluxe Package</a></h3>
+                      <div class="copy-1">
+    	                  For a limited time, The Deluxe version of Becoming Fools is only $10! Purchase the film and help support at-risk communities through the I AM ART camps hosted by Athentikos. 100% of the films proceeds are going to purchase art supplies for the camps.
+
+Italo Castro was a professional clown who became a father figure to countless street youth in Guatemala City. After his tragic death, the street youth wanted to honor their mentor and share he story of his legacy. Athentikos worked with them, using the I Am Art initiative to empower their dreams. Professional entertainers mentored the youth in a theatrical production on a distinguished stage. With odds stacked against them, perhaps they’re fools for believing it can be done. Or perhaps, Becoming Fools is exactly what they needed.
+                       </div>
+                       <div class="btn-container">
+                         <a class="package-btn" href="/buy/becoming-fools">Buy from $3</a>
+                           <a class="package-trailer-btn" data-preview-url="5557" href="5557">
+                             <img src="https://dr56wvhu2c8zo.cloudfront.net/theginbin/assets/e652f6bc-72a0-4ec7-a5fc-1da5eea9f42c/eye.png" />Watch Trailer
+                           </a>
+                       </div>
+                    </div>
+                 </li>
+               
+            
+          </ul>
+         </div> <!-- .packages -->
+        </div> <!-- .package-holder-->
+      
+      <section class="updates group" id="updates">
+      	<div class="contained">
+       		<div class="newstablet">
+          <!-- newsletter tablet -->
+            <div class="newsletter">
+              <div data-contact-form>
+                <label>Get the latest news.</label>
+              </div>
+            </div>
+          </div>
+        
+          
+        <div class="column skinny">
+        <div class="padded">
+    		<!-- newsletter in column -->
+        <div class="newsnormal">
+          <div class="newsletter">
+            <div data-contact-form>
+              <label>Get the latest news.</label>
+            </div>
+          </div>
+         </div>
+          
+              <section class="tweets">
+                <h1>Follow us <a href="http://twitter.com/Athentikos" target="_blank">@Athentikos</a></h1>
+                <div id="twitter" data-twitter-handle="Athentikos">
+                  <ul>
+                    <li>
+                      <div class="text">★ Just published a new episode of I AM ART: Interview with Jen Galvin Listen: <a target='_blank' href='https://t.co/rtac7EJRcY'>https://t.co/rtac7EJRcY</a></div>
+                      <div class="meta"><a href="http://twitter.com/athentikos/status/1256448584939118593" target="_blank">10 months ago - reply</a></div>
+                    </li>
+                    <li>
+                      <div class="text">The Athentikos 2019 Impact - <a target='_blank' href='https://t.co/N4K8uwuYKH'>https://t.co/N4K8uwuYKH</a></div>
+                      <div class="meta"><a href="http://twitter.com/athentikos/status/1211375836496093184" target="_blank">about 1 year ago - reply</a></div>
+                    </li>
+                    <li>
+                      <div class="text">2019 I Am Art Camp Registration Deadline Approaching - <a target='_blank' href='https://t.co/zQx8qF0CvF'>https://t.co/zQx8qF0CvF</a></div>
+                      <div class="meta"><a href="http://twitter.com/athentikos/status/1111376024271388672" target="_blank">almost 2 years ago - reply</a></div>
+                    </li>
+                    <li>
+                      <div class="text">Got questions about I AM ART? Here are some answers in video form.
+
+<a target='_blank' href='https://t.co/btkQqmZVBF'>https://t.co/btkQqmZVBF</a> <a target='_blank' href='https://t.co/btkQqmZVBF'>https://t.co/btkQqmZVBF</a></div>
+                      <div class="meta"><a href="http://twitter.com/athentikos/status/1106946124965920768" target="_blank">almost 2 years ago - reply</a></div>
+                    </li>
+                    <li>
+                      <div class="text">Calling all creatives! Join an I AM ART trip to Guatemala in 2019.
+
+<a target='_blank' href='https://t.co/9WMxLmMixJ'>https://t.co/9WMxLmMixJ</a> <a target='_blank' href='https://t.co/9WMxLmMixJ'>https://t.co/9WMxLmMixJ</a></div>
+                      <div class="meta"><a href="http://twitter.com/athentikos/status/1095767067914051584" target="_blank">almost 2 years ago - reply</a></div>
+                    </li>
+                    <li>
+                      <div class="text">2019 I Am Art Camp Dates! - <a target='_blank' href='https://t.co/3qkEVz7A0F'>https://t.co/3qkEVz7A0F</a></div>
+                      <div class="meta"><a href="http://twitter.com/athentikos/status/1095457253568774145" target="_blank">almost 2 years ago - reply</a></div>
+                    </li>
+                    <li>
+                      <div class="text">Meet Kati Korosuo- a dancer, choreographer and artistic director from Finland, Europe. Kati has completed many I Am… <a target='_blank' href='https://t.co/v64hczwPuc'>https://t.co/v64hczwPuc</a></div>
+                      <div class="meta"><a href="http://twitter.com/athentikos/status/1093897300487884800" target="_blank">about 2 years ago - reply</a></div>
+                    </li>
+                    <li>
+                      <div class="text">"During the art camp, God orchestrated a gathering of talented and passionate people from different countries, cult… <a target='_blank' href='https://t.co/4PRM08RlvN'>https://t.co/4PRM08RlvN</a></div>
+                      <div class="meta"><a href="http://twitter.com/athentikos/status/1087767034463772672" target="_blank">about 2 years ago - reply</a></div>
+                    </li>
+                    <li>
+                      <div class="text">Our Guatemalan team member Diego wrote a new blog post titled "The Best Prize"...head over to our blog to find out… <a target='_blank' href='https://t.co/d20cWqq6cv'>https://t.co/d20cWqq6cv</a></div>
+                      <div class="meta"><a href="http://twitter.com/athentikos/status/1085357764585684992" target="_blank">about 2 years ago - reply</a></div>
+                    </li>
+                    <li>
+                      <div class="text">"Still working... This child knew. Even though he hadn't experienced the redemption of changing our bags into Stars… <a target='_blank' href='https://t.co/mVZKF2QZzE'>https://t.co/mVZKF2QZzE</a></div>
+                      <div class="meta"><a href="http://twitter.com/athentikos/status/1082695651484405760" target="_blank">about 2 years ago - reply</a></div>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+           
+           </div>
+          </div>
+       </div>
+      </section> 
+    </section>  
+    
+    <div id="redemption">
+      	<div class="close-btn"><a href="#" class="close">X</a></div>
+      	<h4>Redeem a Code</h4>
+      	<p>Received a Kickstarter backer code or Discount Code?<br />Use it here.</p>
+      	<div class="form">
+      		<input type="text" class="formtextfield" placeholder="Your Code">
+        	<input type="submit" class="formbutton" value="Redeem">
+        </div>
+    </div>    <div class="clear"></div>
+  </section>
+
+  <section>
+    <footer class="footer">
+  	<div class="helpers">
+    	<ul>
+      	<li><a href="/buy">Buy the Film</a></li>
+        <li><a href="/tos">Terms of Service</a></li>
+        <li><a href="/faq">Help</a></li>
+        <li><a href="/login">Watch Now</a></li>
+      </ul>
+    </div>
+    <div class="poweredby">
+    <a href="http://vhx.tv"><img src="http://dr56wvhu2c8zo.cloudfront.net/assets/powered_by_vhx_white.png"></a>
+    </div>
+</footer>
+    <div class="clear"></div>
+  </section>
+
+  <script>
+    var _site = {
+      color:        '#0BA9B9',
+      key:          'becomingfools',
+      facebook_url: 'http://facebook.com/athentikos',
+      twitter_name: 'Athentikos'
+    };
+  
+    var _config = {
+      country_code: 'us'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  
+<script>
+  var _flash = {
+    alert:  "",
+    notice: ""
+  };
+
+  
+      $(document).ready(function() {
+        // ------------------------------------------------------------------------
+  var VHXJS = VHXJS || {};
+  
+  /* theme js object
+  ---------------------------------------------*/
+  VHXJS = {
+  
+  	buyOptionsList: $(".buy-block ul"),
+    
+  	/* initiate
+    ---------------------------------------------*/
+   
+    init: function() {
+     // hide trailer buttons if no link
+  		$("a.package-trailer-btn[href='']").hide();
+      
+      this._moveiFrame();
+      this._setupVignette();
+      this._bindEvents();
+      this._setupBuyButton();
+    },
+    
+    _moveiFrame: function(){
+    	if (screen.width < 500){
+  	    $("#vhx-iframe").hide();
+    	} else {
+  		  $("#vhx-iframe").css("top","38px");
+      }
+    },
+    
+    _bindEvents: function() {
+      $('.nav-pri ul li').find('a').click(function(){
+          var $href = $(this).attr('href');
+          var $anchor = $($href).offset();
+          if ($href == "#buy") {
+          	$(this).toggleClass("active");
+          	VHXJS.__closeNavSubmenus();
+        		VHXJS.buyOptionsList.stop().slideToggle();
+          } else {
+          	$('body').animate({ scrollTop: $anchor.top-20 });
+          }
+          return false;
+      });
+      
+      $('.feature-options .primary').click(function(){
+      	if ($(this).attr('href') == "#") {
+      		var $anchor = $("#package-area").offset().top - 20;
+      		$('body').animate({ scrollTop: $anchor });
+        }
+      });
+      
+      $(".redeemer, .redeemer a, #redemption .close").click(function(){
+      $("#redemption").toggleClass("active");
+        return false;
+      });
+      $("#redemption .formbutton").click(function(){
+        if ($("#redemption .formtextfield").val()){
+          window.location = "/buy/?code="+$("#redemption .formtextfield").val();
+        } else {
+          $("#redemption").addClass("error");
+        }
+      });
+    },
+    
+    _setupBuyButton: function(){
+    	// monitor buy switch
+      /*$('.feature-options a.primary').on('mouseenter',function() {
+        VHXJS.__closeNavSubmenus();
+        VHXJS.buyOptionsList.stop().slideToggle();
+      });*/
+      $('.buy-block ul li').on('mouseenter', function() {
+        VHXJS.__closeNavSubmenus();
+        $(this).addClass("active").children('.details').stop().slideDown();
+      });
+      $('.buy-block ul li').on('mouseleave', function() {
+        $(this).removeClass("active");
+      });  
+    },
+    
+    __closeNavSubmenus: function() {
+        $('.buy-block ul li .details').stop().slideUp();
+    },
+    
+    setUpdates: function() {
+      if ($('#twitter').length < 1 || $('#tumblr').length < 1) { //all content in one column
+        $(".newsletter label").css({
+          "text-align": "center",
+          "display": "block"
+        });
+        
+        $(".newsletter").css({
+          "width": "280px",
+          "margin": "0 auto",
+          "padding-top": "20px",
+          "padding-bottom": "10px"
+        });
+        
+        $(".newstablet").css({
+          "display": "block"
+        });
+        
+        $(".newsnormal").css({
+          "display": "none"
+        });
+        
+        //restrict blog/twitter width and center 
+        if ($(window).width() > 768) {
+          $(".updates .wide").css({
+            "width": "100%"
+          });
+          
+          $(".updates .skinny").css({
+            "width": "100%"
+          });
+          
+          $(".updates .contained").css({
+            "width": "700px"
+          });
+       } else {
+          $(".updates .wide").css({
+            "width": "auto"
+          });
+          
+          $(".updates .skinny").css({
+            "width": "auto"
+          });
+          
+          $(".updates .contained").css({
+            "width": "auto"
+          });
+        }
+      }
+    },
+    
+    setPackages: function() {
+      if ($(".package").length > 0){ 
+        if ($(window).width() < 750) {
+          $(".packages .visual").css("width", "100%");
+          $(".packages .desc").css("width", "100%");
+          $(".packages li").removeClass("pair");
+          $(".packages .desc").css({"top": "-90px"});
+          if ($(".package").length == 3){ 
+            $(".packages .visual").css("width", "100%");
+            $(".packages li").removeClass("triple");
+            $(".packages .desc").css({"font-size": "14px", "line-height": "20px", "width": "100%", "top": "-90px"});
+            $(".packages .package-trailer-btn").css({"margin-top": "40px"});
+            $(".packages").css("max-width", "auto");
+            $(".packages .package-trailer-btn").css({"margin-left": "15px", "margin-top": "28px"});
+            $(".packages .package-btn").css({"margin-top": "15px"});
+          }
+          if ($(window).width() < 600) {
+            $(".packages .desc").css({"top": "-40px"});
+            $(".packages .package-trailer-btn").css({"margin-left": "15px", "margin-top": "25px"});
+          }
+          
+          if ($(window).width() <= 420) {
+            $(".packages .desc").css({"top": "-40px"});
+            $(".packages .package-trailer-btn").css({"margin-left": "0px", "margin-top": "15px"});
+          }
+        } else {
+          $(".packages .desc").css({"top": "-70px"});
+          if ($(".package").length == 2 || $(".package").length > 3){ //split in half
+            $(".packages .visual").css("width", "100%");
+            $(".packages .desc").css("width", "100%");
+            $(".packages li").removeClass("single");
+            $(".packages li").addClass("pair");
+            $(".packages").css("max-width", "884px");
+          } else if ($(".package").length == 3){ 
+            //keep on one line if not tablet
+            $(".packages .visual").css("width", "100%");
+            $(".packages li").addClass("triple");
+            $(".packages .desc").css({"font-size": "14px", "line-height": "20px", "width": "100%", "top": "-40px"});
+            $(".packages").css("max-width", "960px");
+            $(".packages .package-btn").css({"margin-top": "40px"});
+            $(".packages .package-trailer-btn").css({"margin-left": "0px"});
+          } else if ($(".package").length == 1) {
+            $(".packages").css("max-width", "484px");
+          }
+        }
+      }
+      
+      //align package buttons
+      if ($(window).width() > 749) {
+        $(".packages .desc .copy-1").css({"height": "auto"});	
+        $(".packages .desc .title-2").css({"height": "auto"});
+        var maxTitleH = Math.max.apply(null, $(".packages li .title-2").map(function() {
+          return $(this).height();
+          }));
+        
+        $(".packages .desc .title-2").css({"height": maxTitleH});
+        
+        var maxCopyH = Math.max.apply(null, $(".packages li .copy-1").map(function() {
+          return $(this).height();
+          }));
+        $(".packages .desc .copy-1").css({"height": maxCopyH});
+       } else {
+          $(".packages .desc .copy-1").css({"height": "auto"});	
+          $(".packages .desc .title-2").css({"height": "auto"});
+        }
+      
+      //set packages height
+      var newHeight = $(".packages ul.contained").height();
+      if ($(window).width() >= 750) {
+        newHeight = newHeight - 50;
+      }
+      if ($(window).width() <= 600) {
+        newHeight = newHeight + 80; 
+      }
+      $(".packages").css({"height": newHeight, "margin-bottom": "30px"});   
+    },
+    
+   	// utility function
+    componentToHex: function(c) {
+      var hex = c.toString(16);
+      return hex.length == 1 ? "0" + hex : hex;
+  	}, 
+    // utility function
+    rgbToHex: function(r, g, b) {
+      return "#" + VHXJS.componentToHex(r) + VHXJS.componentToHex(g) + VHXJS.componentToHex(b);
+  	},  
+    // 
+    _setupVignette: function() {
+  		// only do this if we actually have packages to show
+  		if ($(".content .package").length > 0){
+      	// get the bg color value from .content
+      	var colour = $(".packages").css("background-color");    
+        colour = colour.replace("rgb(","");
+        colour = colour.replace(")","");
+        colour = colour.replace(/ /g,"");
+        colourArr = colour.split(",");
+        // converts the bg color from browser rgb to usable hex
+        var bgHex = VHXJS.rgbToHex(parseInt(colourArr[0]),parseInt(colourArr[1]),parseInt(colourArr[2]));
+        
+        // $('.test').css({ 'background': '-webkit-gradient(linear,left top,left bottom,from(#f4f4f4),to(#FFFFFF))' });
+        // build the before gradient
+        var prefixes = new Array("-moz-linear-","-webkit-linear-","-o-linear-","-ms-linear-","linear-");
+        var beforestr, afterstr = "";
+        var beforedir = "top";
+        for(var i =0;i<=prefixes.length-1;i++){
+          if (i == prefixes.length-1){
+            beforedir = "to bottom";
+          }
+          // before = bottom 
+          gradientstr = prefixes[i]+"gradient("+beforedir+",  rgba("+colourArr[0]+","+colourArr[1]+","+colourArr[2]+",0) 0%, rgba("+colourArr[0]+","+colourArr[1]+","+colourArr[2]+",1) 100%)";
+          
+          $(".package .visual .gradient").css("background",gradientstr);
+        }
+   
+      } 
+    }
+  };
+  
+  (function(window,document,$,VHXJS) {
+  	VHXJS.init();
+  })(window,document,jQuery,VHXJS);
+  
+  
+  /* ------------------------------------------------------------------------ */
+  /* RESIZING */
+  /* ------------------------------------------------------------------------ */
+  $(window).resize(function() {
+    VHXJS.setPackages();
+    VHXJS.setUpdates();
+  });
+  
+  $(window).on("load", function() { $(window).trigger("resize"); });
+  
+  ///////////-----------------------
+  
+  /* ------------------------------------------------------------------------ */
+  /* CONTROL IPAD SWITCHING FROM PORTRAIT TO LANDSCAPE WITHOUT ZOOMING */
+  /* ------------------------------------------------------------------------ */
+  if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+      var viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta) {
+          viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0';
+          document.body.addEventListener('gesturestart', function () {
+              viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+          }, false);
+      }
+  }
+  
+  /* ------------------------------------------------------------------------ */
+  /* TUMBLR */
+  /* ------------------------------------------------------------------------ */
+  // ------------------------------------------------------------------------
+  // RETRIEVES TUMBLR DATA
+  if ($('#tumblr').length > 0) {
+    getTumblog($("#tumblr").data("tumblr"), "#tumblr");
+  } 
+      
+  function getTumblog(username, target){
+  	
+  	var tumblrkey = "mhg6b9xFS5pGZr9inve9sSsa0Zl2zy4ojb3K7Ta3aWswFqqSU8";
+    var tumblruser = username + ".tumblr.com";
+    var endpoint = "http://api.tumblr.com/v2/blog/" + tumblruser + "/posts/";
+  
+    var data = {
+      api_key: tumblrkey
+    };
+    
+    setTimeout(function() {
+      $.ajax({
+        type: "GET",
+        url: endpoint,
+        dataType: "jsonp",
+        data: data
+      })
+      .done(function(returnData) {
+        processTumblog(returnData, username, target);
+      });
+      
+    }, 500);
+  }
+  // ------------------------------------------------------------------------
+  // PARSES TUMBLR DATA INTO ARRAY
+  function processTumblog(data, username, target){
+  
+  	var limit = parseInt($("#tumblr").data("tumblr-limit"));
+    var usernamesafe = username.replace(/-/g,'');
+  	var html = '<div class="rssBody" id="tumblr_'+usernamesafe+'"><ul id="blog-entries"></ul></div>';
+    
+    if (data.meta.status == 200) {
+        var feed = {
+          url: 'http://' + username + '.tumblr.com',
+          posts: []
+        };
+  
+        $(data.response.posts).each(function(i, post) {
+  
+          switch (post.type){
+            case "text":
+              feed.posts.push({
+                text: {
+                  title: post.title,
+                  body: post.body
+                }
+              });
+              break;
+  
+            case "photo":
+              var photos = [];
+              $(post.photos).each(function(i, obj){
+                photos.push({
+                  photo_url: obj.alt_sizes[1].url // 500px wide
+                })
+              });
+  
+              feed.posts.push({
+                photo: {
+                  caption: post.caption,
+                  photos: photos
+                }
+              });
+              break;
+  
+            case "quote":
+              feed.posts.push({
+                quote: {
+                  type: post.type,
+                  tags: post.tags,
+                  text: post.text,
+                  source: post.source
+                }
+              });
+              break;
+  
+            case "link":
+              feed.posts.push({
+                link: {
+                  linkURL: post.url,
+                  title: post.title,
+                  description: post.description
+                }
+              });
+              break;
+  
+            case "chat":
+              var chat_log = post.body.split("\n");
+              feed.posts.push({
+                chat: {
+                  title: post.title,
+                  body: post.body,
+                  chat: chat_log,
+                  dialogue: post.dialogue
+                }
+              });
+              break;
+  
+            case "audio":
+              feed.posts.push({
+                audio: {
+                  source_title: post.source_title,
+                  source_url: post.source_url,
+                  id3_title: post.id3_title,
+                  caption: post.caption,
+                  audio_player: post.player,
+                  audio_plays: post.plays,
+                  artist: post.artist,
+                  album: post.album,
+                  track_name: post.track_name,
+                  track_num: post.track_num,
+                  year: post.year
+                }
+              });
+              break;
+  
+            case "video":
+              feed.posts.push({
+                video: {
+                  source_title: post.source_title,
+                  caption: post.caption,
+                  video_embed: post.player[2].embed_code
+                }
+              });
+              break;
+  
+            case "answer":
+              feed.posts.push({
+                answer: {
+                  asking_name: post.asking_name,
+                  asking_url: post.asking_url,
+                  question: post.question,
+                  answer: post.answer
+                }
+              });
+              break;
+  					
+  
+            default:
+              feed.posts.push({
+                title: post.title,
+                body: post.body
+              });
+          } // end switch
+  			       
+          feed.posts[feed.posts.length - 1].date = post.date.substr(0,10);
+          feed.posts[feed.posts.length - 1].tags = post.tags;
+          feed.posts[feed.posts.length - 1].timestamp = post.timestamp;
+          feed.posts[feed.posts.length - 1].url = post.post_url;
+          feed.posts[feed.posts.length - 1].type = post.type;
+  				feed.posts[feed.posts.length - 1].note_count = post.note_count;
+          
+        }); // end each
+        
+       if (limit > 0) {
+  	     feed.posts = feed.posts.slice(0, limit);
+       }
+       $("#tumblr").html(createTumblrHTML(feed, username));
+       
+  	} // end if
+  } // end function
+  // ------------------------------------------------------------------------
+  // PARSES DATA FEED INTO STANDARD HTML
+  function createTumblrHTML(data, username){
+  	
+    var thehtml ="";
+    
+    $(data.posts).each(function(i, post) {
+          
+      switch (post.type){
+      	case "text":
+        	 thehtml +='<div class="entry text">';
+           thehtml +='   <h2><a href="'+post.url+'">'+post.text.title+'</a></h2>';
+           thehtml +=			post.text.body;
+           if (post.tags.length >0){  thehtml += createTumblrTags(post.tags);	 }
+           thehtml +='   <div class="timestamp"><a href="'+post.url+'"><i class="icon-time"></i> Posted '+post.date+' <i class="icon-heart"></i> '+post.note_count+'</a></div>'; 
+           thehtml +=' </div>';
+        	break;
+      
+        case "photo":
+         	 
+           thehtml +='<div class="entry photo">';
+           thehtml += '   <div class="photos">';
+  				 $(post.photo.photos).each(function(j, thephoto){
+           	thehtml += ' <img src="'+thephoto.photo_url+'" />';
+           });
+           thehtml += '  </div>';
+           thehtml += 	 post.photo.caption;
+           if (post.tags.length >0){  thehtml += createTumblrTags(post.tags,username);	 }
+           thehtml += '  <div class="timestamp"><a href="'+post.url+'"><i class="icon-time"></i> Posted '+post.date+' <i class="icon-heart"></i> '+post.note_count+'</a></div>';
+           thehtml +=' </div>';
+          break;
+        
+        
+   			case "quote":
+        	 thehtml +='<div class="entry quote">';
+           thehtml +='   <h2>'+post.quote.text+'</h2>';
+           thehtml +='   <p class="source">'+post.quote.source+'</p>';
+           if (post.tags.length >0){  thehtml += createTumblrTags(post.tags,username);	 }
+           thehtml += '  <div class="timestamp"><a href="'+post.url+'"><i class="icon-time"></i> Posted '+post.date+' <i class="icon-heart"></i> '+post.note_count+'</a></div>';
+           thehtml +=' </div>';
+        	break;
+          
+        case "link":
+        	thehtml +='<div class="entry link">';
+          thehtml +='    <h2><a href="'+post.link.linkURL+'">'+post.link.title+'</a></h2>';
+          thehtml +=		post.link.description;
+          if (post.tags.length >0){  thehtml += createTumblrTags(post.tags,username);	 }
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'"><i class="icon-time"></i> Posted '+post.date+' <i class="icon-heart"></i> '+post.note_count+'</a></div>';
+  				thehtml +=' </div>';        
+        	break;
+        
+        case "chat":
+        	thehtml +=' <div class="entry chat">';
+          thehtml +='    <h2><a href="'+post.url+'">'+post.chat.title+'</a></h2>';
+          thehtml +='    <ul>';
+          $(post.chat.chat).each(function(k, chatter){
+          thehtml +='        <li>'+chatter+'</li>';
+          });
+          thehtml +='    </ul>';
+          if (post.tags.length >0){  thehtml += createTumblrTags(post.tags,username);	 }
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'"><i class="icon-time"></i> Posted '+post.date+' <i class="icon-heart"></i> '+post.note_count+'</a></div>';  
+          thehtml +=' </div>';
+        	break;
+       	
+        case "audio":
+        	thehtml +=' <div class="entry audio">';
+          thehtml +='    <div class="player">'+post.audio.audio_player+'</div>';
+          thehtml +=			post.audio.caption;
+          if (post.tags.length >0){  thehtml += createTumblrTags(post.tags,username);	 }
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'"><i class="icon-time"></i> Posted '+post.date+' <i class="icon-heart"></i> '+post.note_count+'</a></div>';
+          thehtml +=' </div>';
+        	break;
+          
+        case "video":
+        	thehtml +=' <div class="entry video">';
+          thehtml +='    <div class="thevideo">'+post.video.video_embed+'</div>';
+          thehtml +=			post.video.caption;
+          if (post.tags.length >0){  thehtml += createTumblrTags(post.tags,username);	 }
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'"><i class="icon-time"></i> Posted '+post.date+' <i class="icon-heart"></i> '+post.note_count+'</a></div>'; 
+          thehtml +=' </div>';
+  	      break;
+        
+        case "answer":
+        	thehtml += ' <div class="entry answer">';
+          thehtml += '    <div class="query"><h3>'+post.answer.question+'<h3>';
+          thehtml += '		&mdash; '+post.answer.asking_name+'</div>';
+          thehtml += '		<div class="response"><p>'+post.answer.answer+'</p></div>';
+          if (post.tags != null){  thehtml += createTumblrTags(post.tags,username);	 }
+          thehtml += '  <div class="timestamp"><a href="'+post.url+'"><i class="icon-time"></i> Posted '+post.date+' <i class="icon-heart"></i> '+post.note_count+'</a></div>';
+          thehtml +=' </div>';
+        	break;             
+          
+        default:
+       	  thehtml +='<div class="entry text">';
+           thehtml +='   <h2><a href="'+post.url+'">'+post.title+'</a></h2>';
+           thehtml +=			post.body;
+           if (post.tags.length >0){  thehtml += createTumblrTags(post.tags,username);	 }
+           thehtml +='   <div class="timestamp"><a href="'+post.url+'"><i class="icon-time"></i> Posted '+post.date+' <i class="icon-heart"></i> '+post.note_count+'</a></div>';	
+           thehtml +=' </div>';
+  		} // end switch
+  	});// end each
+   
+    thehtml += '<a class="readmore button" href="http://'+username+'.tumblr.com/page/2" target="_blank">Read More</a>';
+  	return thehtml;
+        
+  } // end createTumblrHTML
+  
+  function createTumblrArchive(posts,username){
+  
+  }
+  // helper function to make linked tags
+  function createTumblrTags(tags,tumblrUsername){
+  	var returnhtml = "<div class='tags'>";
+  	for (var i=0;i<=tags.length-1;i++){
+    	returnhtml += "<a href='http://"+tumblrUsername+".tumblr.com/tagged/"+tags[i]+"'>#"+tags[i]+"</a>";
+    }
+    returnhtml += "</div>";
+    return returnhtml;
+  }
+      });
+    </script>
+
+<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+
+
+    <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="becomingfools.vhx.tv"></script>
+</body>
+</html>
+```
