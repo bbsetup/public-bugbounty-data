@@ -1,0 +1,76 @@
+```<html>
+<body>
+<A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=101653&amp;type=5" width="210" height="62" border="0" alt="SourceForge.net Logo" /></A>
+
+<ul>
+<li><a href='https://sourceforge.net/projects/barcr-reader/'>Summary Page</a>
+<li><a href='https://sourceforge.net/project/showfiles.php?group_id=101653'>Files</a>
+</ul>
+
+From the readme:
+
+<pre>
+WHAT THIS IS:
+
+This program is a proof of concept for a UPC code reader based which uses the
+ built in camera in series 60 devices.
+
+BASIC DEMO:
+- Print out the included test_upc.gif.  It will need to be about 6" wide.
+- Install and run the included SIS file on your phone.
+- Hold the test image about 8 inches away, under bright lighting without
+        any shadows falling on it
+- Make sure the whole barcode is visible and that there is only white space on
+        the left and right sides
+- Hold steady
+- If the app crashes (it seems to every 20 seconds, i'm still working on this),
+        restart.
+- If you wish scan real UPC codes you will need to buy Nokia's CC-49 Macro Lens
+        Expansys appears to be a good source of these in a number of countries.
+        Your mileage may vary.   The built in camera can't focus on objects
+        closer than about 5cm.  A regulation sized UPC code won't provide enough
+        data to decode at that distance.
+
+HOW IT WORKS:
+- The program sets up a timer (PeriodicRunner.cpp) to either take a picture
+        (when the phone is in use) or read an image file (on the simulator) every
+        so often.  Currently this doesn't allow the app to be as responsive as
+        it could be.
+- The timers trigger the userdraw drawing function in BarcrAppview.cpp
+- The first several events trigger the program to power the camera on, then
+        set the lighting and quality modes (normal lighting, high quality), and
+        then finally to start taking pictures.  Every time a picture is completed,
+        another one is scheduled.
+- Once a picture is available, it is run through a processing algorithm
+- The processing algorithm only evaluates a 1 pixel band through the middle of
+        the picture.  This is done so that no resizing, or aspect ratio
+        correction are needed.
+- The processing algorithm's first pass determines the average light and dark
+        values of the image (the two most common values which are more than 20
+        values apart on a 255 color greyscale range).  The average of that value
+        then becomes the threshhold point.
+- The processing algorithm makes its second pass, to locate the guard pattern.
+- Starting from x position 0, a counter is incremented while it is finding light
+        values (those above the threshhold point).  Once it hits a dark value,
+        it keeps going until it finds another light value.  It does this to find        
+	an alternating pattern of dark,light,dark of bars that are approximately
+        the same length.  This is the left hand side guard pattern.
+- Once the left hand side guard pattern has been identified, the right hand side
+        pattern is searched for by searching from the right end of the image.
+- When the guard patterns are identified, the average bar size is compared
+        against the number of pixels between the guard patterns to see if
+        we're likely to have a good match.
+- If a good match is found, each digit is iterated on based on approximate start
+        point, which is calculated from the end of the guard pattern and the bar
+        width.
+- Each digit is read and then compared to known bit patterns.  If there is no
+        exact match for a number, the read is aborted.
+- If the whole UPC is read without any errors, the final value is set on the
+        class instance.
+- The screen update function (called periodically) detects that a final value has
+        been read, and stops calling the camera functions.  It displays the value.
+
+</pre>
+</body>
+</html>
+```
