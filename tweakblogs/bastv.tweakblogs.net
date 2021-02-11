@@ -1,0 +1,173 @@
+```<!doctype html><!-- © 1998 - 2021 DPG Online Services B.V. -->
+<html lang="NL"><head>
+        
+                            <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                                                <meta name="referrer" content="origin-when-cross-origin">
+                            
+                    <title>BasBlog - Tweakers</title>
+        <link rel="navigator" title="Spring voorbij navigatie" href="https://bastv.tweakblogs.net/#contentArea">
+
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-Regular.woff2" as="font" type="font/woff2" crossorigin>
+            <link rel="preload" href="https://tweakers.net/x/fonts/IBMPlexSansCondensed-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+
+                                            <link rel="shortcut icon" href="https://tweakers.net/favicon.ico" type="image/x-icon">
+                            <link rel="alternate" title="BasBlog - Reacties" type="application/rss+xml" href="https://bastv.tweakblogs.net/feed/comments">
+                            <link rel="alternate" title="BasBlog" type="application/rss+xml" href="https://bastv.tweakblogs.net/feed/">
+            
+        <script>
+                var relaxedDomain  = 'tweakers.net',
+                    tweakersConfig = {"BaseURL":"https:\/\/bastv.tweakblogs.net\/","TnetBaseURL":"https:\/\/tweakers.net\/","ForumBaseURL":"https:\/\/gathering.tweakers.net\/","ImgURL":"https:\/\/tweakers.net\/","sidName":"__Secure-TnetID","UserID":0,"requestId":"Twk-eun-web1_201.26.1_31085_6024dacfc57ff4.30472960","abStatsPath":"\/ajax\/1AKXipQZyfKi6nyNgGJCXwm0eY\/","loginJs":"https:\/\/tweakers.net\/x\/scripts\/min\/login.js?1612781350","loginCss":"https:\/\/tweakers.net\/x\/styles\/profiles\/login.css?1583238942","clickToLoad":false};
+
+                try
+                {
+                    document.domain = relaxedDomain;
+                }
+                catch (e)
+                {
+                    relaxedDomain = '';
+                }
+                document.documentElement.className = 'js';
+            </script>
+        <link rel="stylesheet" href="https://tweakers.net/x/styles/tweakblogs/weblogs.css?1608112821" type="text/css">
+                                        <script src="https://tweakers.net/x/build/runtime.eb309c42.js"></script><script src="https://tweakers.net/x/build/0.c89d5b71.js"></script><script src="https://tweakers.net/x/build/1.3c8535aa.js"></script><script src="https://tweakers.net/x/build/frontpage.f69aca6a.js"></script>
+
+                    <script src="https://tweakers.net/x/scripts/min/general.js?1605696722"></script>
+            <script src="https://tweakers.net/x/scripts/min/weblogs.js?1604565751"></script>
+            <script src="https://tweakers.net/x/scripts/min/rml_toolbar.js?1605522743"></script>
+                    <script>
+            var _wtq=[['_init',{"randomId":"112688727886575","trackId":"318816705845986","trackDomain":"tweakers.net","domain":"tweakers.net;gathering.tweakers.net","cookie":"1","mediaCode":"wt_mc","contentId":"","contentGroup":{"1":"tweakers.net","2":"Tweakblogs"},"executePluginFunction":"wt_urlCampaignMapper;wt_stats_plugin","requestObfuscation":true,"customParameter":{"1":"LG"},"customSessionParameter":{"3":"Geen"}}],['_trackPage']];
+			loadJS('https://tweakers.net/x/scripts/min/IRCEnz.js',AbStats.wtCallBack);
+
+        </script>
+    
+    </head>
+    <body>
+
+    <div id="container">    <div id="tweakblogsNav">
+        <div class="logo"><a href="https://tweakblogs.net/"><img src="https://tweakers.net/g/if/weblogs/tweakblogs.png" width=131 height=20 alt="Tweakblogs"></a></div>
+        <ul>
+            <li><a href="https://tweakblogs.net/">Tweakblogs Home</a></li>
+            <li><a href="https://tweakers.net/">Tweakers</a></li>
+                            <li>
+                    <a href="https://tweakers.net/nieuws/">Nieuws</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/reviews/">Reviews</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/pricewatch/">Pricewatch</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/aanbod/">Vraag &amp; Aanbod</a>
+                </li>
+                            <li>
+                    <a href="https://gathering.tweakers.net/">Forum</a>
+                </li>
+                            <li>
+                    <a href="https://tweakers.net/carriere/">Carri&egrave;re</a>
+                </li>
+                            <li>
+                    <a href="#">Meer</a>
+                </li>
+                    </ul>
+    </div>
+    <div id="banner">
+    
+        
+    <h1><a href="https://bastv.tweakblogs.net">BasBlog</a></h1>
+            <span class="subtitle"></span>
+    </div>
+            <p class="breadCrumb">
+                <a href="https://bastv.tweakblogs.net/feed/" title="BasBlog" rel="nofollow">
+            <img src="https://tweakers.net/g/if/v2/icons/rss_small.png" width=12 height=12 alt="[RSS]">
+        </a>
+                                <a href="https://bastv.tweakblogs.net">            Home            </a>
+            </p>
+<div id="pagebody">
+                <div class="columnwrapper normal">    <div class="content">
+			<div class="blogpost">
+				<h2><a href="https://bastv.tweakblogs.net/blog/3082/vmware-esxi-4-performance.html">VMWare ESXi 4 performance</a></h2>
+				<p class="author">
+					Door <a href="https://tweakers.net/gallery/155650/" rel="nofollow">bastv</a> op vrijdag 13 november 2009 11:20 - <a href="https://bastv.tweakblogs.net/blog/3082/vmware-esxi-4-performance.html#reacties">Reacties (18)</a><br>Categorie: -, Views: 7.813
+				</p>
+				<div class="article">Op dit moment maken we bij mij op het werk nog geen gebruik van VMware ESX server en de voornaamste reden daarvoor is dat we daar geen tijd voor vrij hebben willen maken.<br>
+Omdat we steeds afhankelijker worden van pc's en server is uptime ook een big issue.<br>
+VMWare heeft hele mooie en in verhouding goedkope cluster oplossingen waardoor we er eigenlijk niet meer omheen kunnen.<br>
+Een collega riep gelijk dat we niet alles om kunnen zetten naar virtuele server omdat de performance enorm omlaag gaat.<br>
+Zijn mening was gebaseerd op gelezen artikelen, ik hou meer van praktijk voorbeelden.<br>
+<br>
+Ik heb dus een server gepakt,alle firmware updates gedraaid, daarna windows server 2003 r2 x64 erop geïnstalleerd en wat benchmarks gedraaid. Daarna VMWare ESXi 4.0 geïnstalleerd met 1 virtuele machine die alle resources mag gebruiken en dezelfde benchmarks gedraaid.<br>
+Hieronder de resultaten:<br>
+<br>
+Server Specs:<br>
+HP DL380 G5<br>
+Xeon E5420 @ 2.5ghz<br>
+6gb RAM<br>
+4x SAS 10.000rpm in RAID5 via Smartarray p400<br>
+<br>
+Software:<br>
+Windows server 2003 r2 x64 incl sp2<br>
+Vmware ESXi 4.0 <a href="https://h20392.www2.hp.com/portal/swdepot/displayProductInfo.do?productNumber=HPVM06" rel="external nofollow">hp versie</a> (voor status en management tools)<br>
+<br>
+CPU test:<br>
+<a href="http://www.mwsoft.nl/tweakers/vmware/superpi1m.jpg" rel="external nofollow">superpi 1m</a><br>
+<a href="http://www.mwsoft.nl/tweakers/vmware/superpi8m.jpg" rel="external nofollow">superpi 8m</a><br>
+<a href="http://www.mwsoft.nl/tweakers/vmware/hyperpi1m.jpg" rel="external nofollow">hyperpi 1m</a><br>
+<a href="http://www.mwsoft.nl/tweakers/vmware/hyperpi8m.jpg" rel="external nofollow">hyperpi 8m</a><br>
+<br>
+Disk test:<br>
+<a href="http://www.mwsoft.nl/tweakers/vmware/atto.jpg" rel="external nofollow">atto</a> &lt;--- <b>WTF! hoe kan dit</b><br>
+update: <a href="http://www.mwsoft.nl/tweakers/vmware/attoPVSCSI.jpg" rel="external nofollow">atto met PVSCSI</a> <br>
+<br>
+Mem test:<br>
+<a href="http://www.mwsoft.nl/tweakers/vmware/maxxmem.jpg" rel="external nofollow">maxxmem</a><br>
+<br>
+Conclusie: <br>
+CPU en Geheugen performance verschil is verwaarloosbaar maar disk performance is gewoon ruk (bij DAS niet bij NAS).<br>
+Het enige relevante artikel over vergelijkbare disk performance wat ik heb kunnen vinden is <a href="http://laez.nl/vmware-bad-performance-on-hp-proliant-dl380-g6-with-esxi-3-5-u4/?comments=true" rel="external nofollow">deze</a>. <br>
+Alleen zit er al een battery pack op de p400 controller en alle firmwares zijn al geupdate.<br>
+<br>
+Zoals het er nu uit ziet moeten we nog wachten met SQL en fileservers om te zetten naar virtuele servers.</div>
+			</div></div><div class="sidebar">
+        <div id="loginFrame">
+            <h2 class="top">Inloggen</h2>
+            <p>Login met je  <a href="https://tweakblogs.net/login/?location=https%3A%2F%2Fbastv.tweakblogs.net%2F">Tweakers profiel</a>.</p>
+        </div>
+		<div class="recentPosts">
+			<h4>Recente posts</h4><ul class="ellipsis"><li><a href="https://bastv.tweakblogs.net/blog/3082/vmware-esxi-4-performance.html" title="VMWare ESXi 4 performance (18)">VMWare ESXi 4 performance (18)</a></li></ul>
+		</div>
+		<div class="categories">
+			<h4>Categorieën</h4><p>Er zijn nog geen categorieën beschikbaar.</p>
+		</div>
+		<div class="archives">
+			<h4>Archieven</h4><ul id="archiveList"><li class="open"><b>2009</b> (1)<ul class="ulChild"><li><a href="https://bastv.tweakblogs.net/blog/archief/2009/11/">nov 2009</a> (1)</li></ul></li></ul><script type="text/javascript">weblogFolderTree('archiveList');</script>
+		</div>
+		<div class="about">
+			<h4>About</h4>
+			<p></p>
+			<ul>
+				<li class="user"><a href="https://tweakers.net/gallery/155650/" rel="nofollow">Profiel op Tweakers</a></li>
+			</ul>
+		</div></div>
+</div>
+            </div>
+
+        </div>    <script>
+                if(window.BehaviourManager)BehaviourManager.exec();
+            </script>
+    <noscript>
+                    <img src="https://tweakers.net/318816705845986/wt?p=328,&amp;cg1=tweakers.net&amp;cg2=Tweakblogs&amp;cp1=LG" width="1" height="1" alt="" style="display:none">
+            </noscript>
+
+<!--
+Request ID: Twk-eun-web1_201.26.1_31085_6024dacfc57ff4.30472960
+Env: frontpage-production
+Server time: 0,0171 s (C: 0,0148 s, Q: 5; 0,0051 s, E: 1; 0,0149 s, M: 2; 0,0026 s, A: 0; 0,0000 s)
+Mem: 6044 KB
+
+Engines: (S) twk-eun-nosql1 (1)
+-->
+        
+    </body>
+</html>
+```
