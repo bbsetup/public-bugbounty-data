@@ -1,0 +1,163 @@
+```<html>
+<head>
+<meta name="verify-v1" content="6wo51xu6ARUrklKNbMeXjgoTCvR8I3C7/IESIFp0t10=" /> 
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style type="text/css">
+ol, ul { margin: 0.5em; }
+li { margin: 0; }
+</style>
+<title>Burrows-Wheeler Aligner</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div id="wrap">
+<div id="header"><h1>Burrows-Wheeler Aligner</h1></div>
+<div id="menu">
+  <ul>
+	<li><a href="index.shtml">Home</a></li>
+  </ul>
+</div>
+
+<div id="sidebar">
+  <h3>BWA:</h3>
+  <ul>
+	<li><a href="http://sourceforge.net/projects/bio-bwa/">SF project page</a>
+	<li><a href="http://sourceforge.net/projects/bio-bwa/files/">SF download page</a>
+	<li><a href="http://sourceforge.net/mail/?group_id=276243">Mailing list</a>
+	<li><a href="bwa.shtml">BWA maual page</a>
+	<li><a href="https://github.com/lh3/bwa">Repository</a>
+  </ul>
+  <br>
+  <h3>Links:</h3>
+  <ul>
+	<li><a href="http://samtools.sourceforge.net">SAMtools</a>
+	<li><a href="http://maq.sourceforge.net">MAQ</a>
+  </ul>
+</div>
+
+<div id="main">
+<!-- BEGIN OF THE BODY -->
+<h2>Introduction</h2>
+<p>
+BWA is a software package for mapping low-divergent sequences against a large
+reference genome, such as the human genome. It consists of three algorithms:
+BWA-backtrack, BWA-SW and BWA-MEM. The first algorithm is designed for Illumina
+sequence reads up to 100bp, while the rest two for longer sequences ranged from
+70bp to 1Mbp. BWA-MEM and BWA-SW share similar features such as long-read
+support and split alignment, but BWA-MEM, which is the latest, is generally
+recommended for high-quality queries as it is faster and more accurate. BWA-MEM
+also has better performance than BWA-backtrack for 70-100bp Illumina reads.
+</p>
+<br>
+<h2>FAQ</h2>
+<dl>
+  <dt>How can I cite BWA?</dt>
+  <dd>
+	The short read alignment component (bwa-short) has been published:
+	<ul>
+	  Li H. and Durbin R. (2009) Fast and accurate short read alignment
+	  with Burrows-Wheeler Transform. Bioinformatics, 25:1754-60.
+	  [PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/19451168">19451168</a>]
+	</ul>
+	If you use BWA-SW, please cite:
+	<ul>
+	  Li H. and Durbin R. (2010) Fast and accurate long-read alignment
+	  with Burrows-Wheeler Transform. Bioinformatics, Epub.
+	  [PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20080505">20080505</a>]
+	</ul>
+	(See also Errata below for a minor correction to the formulae in
+	these papers.)
+  </dd>
+  <dt>There are three algorithms, which one should I choose?</dt>
+  <dd>
+	For 70bp or longer Illumina, 454, Ion Torrent and Sanger reads, assembly
+	contigs and BAC sequences, BWA-MEM is usually the preferred algorithm. For
+	short sequences, BWA-backtrack may be better. BWA-SW may have better
+	sensitivity when alignment gaps are frequent.
+  </dd>
+  <dt>With BWA-MEM/BWA-SW, my tools are complaining about multiple primary alignments. Is it a bug?</dt>
+  <dd>
+	It is not. Multi-part alignments are possible in the presence of structural
+	variations, gene fusion or reference misassembly. However, representing
+	multi-part alignments in SAM has not been finalized. To make BWA work with
+	your tools, please use option `-M' to flag extra hits as secondary.
+  </dd>
+  <dt>What is the tolerance of sequencing errors?</dt>
+  <dd>
+	Bwa-back is mainly designed for sequencing error rates below
+	2%. Although users can ask it to tolerate more errors by tuning
+	command-line options, its performance is quickly degraded. Note that
+	for Illumina reads, bwa-backtrack may optionally trim low-quality bases
+	from the 3'-end before alignment and thus is able to align more
+	reads with high error rate in the tail, which is typical to Illumina
+	data.
+  </dd>
+  <dd>
+	BWA-SW and BWA-MEM both tolerate more errors given longer alignment.
+	Simulation suggests that they may work well given 2% error for an 100bp
+	alignment, 3% error for a 200bp, 5% for 500bp and 10% for 1000bp or
+	longer alignment.
+  </dd>
+  <dt>Does BWA find chimeric reads?</dt>
+  <dd>
+	Yes, both BWA-SW and BWA-MEM are able to find chimera. BWA usually
+	reports one alignment for each read but may output two or more
+	alignments if the read/contig is a chimera.
+  </dd>
+  <dt>Does BWA call SNPs like MAQ?</dt>
+  <dd>
+	No, BWA only does alignment. Nonetheless, it outputs alignments in
+	the <a href="http://samtools.sourceforge.net">SAM format</a> which
+	is supported by several generic SNP callers such
+	as <a href="http://samtools.sourceforge.net/cns0.shtml">samtools</a>
+	and <a href="http://www.broadinstitute.org/gsa/wiki/index.php/The_Genome_Analysis_Toolkit">GATK</a>.
+  </dd>
+  <dt>I see one read in a pair has high mapping quality, but the other read has zero. Is this right?</dt>
+  <dd>
+	This is correct. Mapping quality is assigned for individual read,
+	not for a read pair. It is possible that one read can be mapped
+	unambiguously, but its mate falls in a tandom repeat and thus its
+	accurate position cannot be determined.
+  </dd>
+  <dt>I see a read stands out the end of a chromosome and is flagged as
+	unmapped (flag 0x4). What is happening here?</dt>
+  <dd>
+	Internally BWA concatenates all reference sequences into one long
+	sequence. A read may be mapped to the junction of two adjacent
+	reference sequences. In this case, BWA will flag the read as
+	unmapped, but you will see position, CIGAR and all the tags. A
+	better solution would be to choose an alternative position or trim
+	the alignment out of the end, but this is quite complicated in
+	programming and is not implemented at the moment.
+  </dd>
+  <dt>Does BWA work on reference sequences longer than 4GB in total?</dt>
+  <dd>
+	Yes. Since 0.6.x, all BWA algorithms work with a genome with total length
+	over 4GB. However, invidual chromosome should not be longer than 2GB.
+  </dd>
+</dl>
+<br>
+<h2>Errata</h2>
+<p>
+  The suffix array interval of an empty string should [0,n-1] where n is
+  the length of database string, not [1,n-1] as is stated in Li and
+  Durbin (2009 and 2010). Correspondingly, we need to define O(a,-1)=0
+  and revise the pseudocode in Figure 3 from Li and Durbin (2009). BWA
+  implementation is actually correct. The mistake only occurs to the
+  paper. We apologize for the confusion and thank Nils Homer and Abel
+  Antonio Carrion Collado for pointing this out.
+</p>
+<!-- END OF THE BODY-->
+</div>
+<!-- BEGIN OF THE FOOTER -->
+<div style="clear: both;"> </div>
+<div id="footer">
+<hr/>
+<p style="text-align: right;">Last modified: 2010-02-28</p>
+</div>
+<!-- END OF THE FOOTER -->
+</div>
+</body>
+</html>
+```
