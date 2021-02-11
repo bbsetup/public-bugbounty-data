@@ -1,0 +1,522 @@
+```<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>BasicProperty (and BasicTypes)</title>
+  
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="style/sitestyle.css"></head>
+<body style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);" alink="#008000" link="#000080" vlink="#800080">
+<h1>BasicProperty (and BasicTypes) for Python<br>
+</h1>
+
+<p>The BasicProperty/BasicTypes system provides a mechanism for
+intelligent property-based modeling of problem domains in Python
+2.2+.&nbsp; The idea behind property-based domain modeling is to
+simplify the definition of objects/data structures so that concerns
+such as initialization, data-type checking and coercion, run-time
+introspection, and domain specific storage/retrieval operations can be
+abstracted out from the modeling operations.<br>
+</p>
+
+<p>BasicProperty builds on the Python 2.2+ descriptor system to provide
+attribute descriptors with:<br>
+</p>
+
+<ul>
+
+  <li>declared default values, or default-value functions</li>
+  <li>integral documentation (property.__doc__)</li>
+  <li>easily overridden storage and/or retrieval methods</li>
+  <ul>
+    <li>optional weak-ref storage</li>
+    <li>method-based storage</li>
+  </ul>
+</ul>
+
+<p>As part of the implementation of BasicProperty, the BasicTypes
+package provides base data types and data type annotations for use with
+BasicProperty properties.&nbsp; BasicTypes provides:<br>
+</p>
+
+<ul>
+
+  <ul>
+    <ul>
+    </ul>
+  </ul>
+  <li>coercion protocol, and coercion for common data types<br>
+  </li>
+  <li>data-type and format check protocol<br>
+  </li>
+  <li>factory declarations (for-run time introspection of object
+constructors)<br>
+  </li>
+  <li>list-of data-type meta-types (for StringsProperty,
+IntegersProperty, etceteras)<br>
+  </li>
+  <li>annotation mechanism for built-in data-types, and protocol for
+new data types to participate in the system</li>
+</ul>
+
+<p>As well as a number of utility mechanisms:</p>
+
+<ul>
+
+  <ul>
+  </ul>
+  <li>Fix for use of true booleans with Python 2.2.x, BooleanProperties
+always return Boolean instances<br>
+  </li>
+  <li>Minimal stand-in for Python 2.3 logging module for use under
+Python 2.2.x</li>
+  <li>Late-bind loading of classes/functions from descriptor strings</li>
+  <li>Restricted-list data-type for executing arbitrary code on
+list-item assignment</li>
+</ul>
+
+<p>BasicProperty was originally created as part of the <a href="http://wxpypropdist.sourceforge.net/">wxPython Properties
+Distribution</a>.&nbsp; It is released under a BSD-style license.
+BasicProperty can
+be
+downloaded from the <a href="http://sourceforge.net/projects/basicproperty/">project
+page</a> on <a href="http://sourceforge.net/">SourceForge</a>.&nbsp; The automatically generated reference documentation for <a href="pydoc/basicproperty.html">basicproperty</a> and <a href="pydoc/basictypes.html">basictypes</a> is available online.<br>
+</p>
+
+<ul>
+
+  <li><a href="http://pytable.sourceforge.net/">PyTable RDBMS
+Wrapper</a> provides a relational database bridge layer which makes
+extensive use of the BasicProperty mechanisms, both for internal
+operations such as schema declaration, and to provide the
+Object-Relational mapping mechanism for database fields exposed as
+BasicProperty properties.<br>
+  </li>
+  <li><a href="http://wxpypropdist.sourceforge.net/">wxOO</a>, provides a set of GUI tools for editing
+BasicProperty-modeled objects (including PyTable objects).<br>
+  </li>
+  <li>The <a href="http://conflictsolver.sourceforge.net/">ConflictSolver
+Room Scheduler</a> and a few in-house projects all use BasicProperty
+extensively.</li>
+</ul>
+
+<h2>Usage Example</h2>
+
+<p>To start off, let's create a simple object that model's a task to be
+accomplished:<br>
+</p>
+
+<pre>from basicproperty import propertied, common<br><br>class Todo( propertied.Propertied):<br>	"""Simple example of a todo object"""<br>	name = common.StringProperty(<br>		"name", "Allows you to identify this todo item",<br>		defaultValue="",<br>		setDefaultOnGet = 0,<br>	)<br>	description = common.StringProperty(<br>		"description", """Description of what is to be accomplished""",<br>		defaultValue = "",<br>		friendlyName = "Note",<br>	)<br>	def isOverDue( property, client ):<br>		"""Determine whether client is overDue or not"""<br>		if hasattr( client, 'dueDate') and client.dueDate &lt; now():<br>			return 1<br>		return 0<br>	overDue = common.BooleanProperty(<br>		"overDue", """Whether we are currently overdue""",<br>		setDefaultOnGet=1,<br>		defaultFunction = isOverDue,<br>	)<br>	del isOverDue # just to clean up the namespace<br>	notes = common.StringsProperty(<br>		"notes", """List of note strings for the item""",<br>		# list and dictionary property types default to creating<br>		# new instances and storing them as the property-value<br>	)<br><br>if __name__ == "__main__":<br>	t = Todo()<br>	print 'name: %r description: %r overDue: %r'%( t.name, t.description, t.overDue )<br>	t.name = 23<br>	print 'name: %r description: %r overDue: %r'%( t.name, t.description, t.overDue )<br>	for x in range( 10 ):<br>		t.notes.append( 'Note %s'%(x,))<br>	print t.notes<br></pre>
+
+<p>And the results of running it:<br>
+</p>
+
+<pre>name: u'' description: u'' overDue: False<br>name: u'23' description: u'' overDue: False<br>[u'Note 0', u'Note 1', u'Note 2', u'Note 3', u'Note 4', u'Note 5', <br>u'Note 6', u'Note 7', u'Note 8', u'Note 9']</pre>
+
+<p>The <code><a href="pydoc/basicproperty.propertied.html">propertied</a>.Propertied</code> class here simply provides
+an initialiser that takes named arguments and calls <code>setattr(
+obj, name, value)</code> for each named argument.&nbsp; This makes it
+very convenient to work with propertied classes during development, as
+the addition of new properties can be done merely by adding a new
+property descriptor.<br>
+</p>
+
+<p>The <a href="pydoc/basicproperty.common.html"><code>common</code></a> module collects together properties for the
+most commonly used data-types, lists, dictionaries, ints, longs,
+locale-specific strings, unicode strings, floats, and mx.DateTime
+values.&nbsp; The properties in the module are themselves
+propertied.Propertied objects, and are therefore initialised with named
+arguments, though they have two positional arguments as well; their
+name, and their docstring.<br>
+</p>
+
+<h2>Default Values</h2>
+
+<p>There are two major ways to define default values for properties:<br>
+</p>
+
+<pre>name = common.StringProperty(<br>	"name", "Allows you to identify this todo item",<br>	defaultValue="",<br>)<br></pre>
+
+<p>Here, we specify a simple default value for use if the name property
+does not currently have a default.
+The value given can be any data-type compatible with the property's
+underlying data-type (in this case, a (Unicode) string), as it will be
+coerced to the property's data-type before being returned or set as the
+value for the object.&nbsp; In this case, the locale-specific string
+(str)
+object will be coerced to a Unicode string for the name property.<br>
+</p>
+
+<p>In the second approach:<br>
+</p>
+
+<pre>def isOverDue( property, client ):<br>	"""Determine whether client is overDue or not"""<br>	if hasattr( client, 'dueDate') and client.dueDate &lt; now():<br>		return 1<br>	return 0<br>overDue = common.BooleanProperty(<br>	"overDue", """Whether we are currently overdue""",<br>	setDefaultOnGet=1,<br>	defaultFunction = isOverDue,<br>)<br>del isOverDue # just to clean up the namespace<br></pre>
+
+<p>we define a default value by creating a default function which takes
+as its arguments the property being set (a <code><a href="pydoc/basicproperty.basic.html">basicproperty.basic</a>.BasicProperty</code>
+instance) and the client object (in this case, a <code>Todo</code>
+instance).&nbsp; The default function can do any arbitrary amount of
+processing necessary to determine the appropriate value for the
+property on this client.<br>
+</p>
+
+<p>Because the defaultFunction may involve an arbitrarily large amount
+of processing to calculate the value, it's useful to be able to tell
+the system whether, on calculating a default value, that default value
+should be set as the current value of the property for the
+client.&nbsp; The
+setDefaultOnGet flag is used to signal this behaviour.<br>
+</p>
+
+<p class="technical">List and Dictionary properties from the <code>basicproperty.common</code>
+module, by default, have their setDefaultOnGet flag set, and provide a
+defaultFunction similar to: <code>lambda prop,client: []</code> and <code>lambda
+prop,client: {}</code> respectively.&nbsp; This is because, in normal
+use, users normally want to be able to say <code>myTodo.notes.append(
+'this' )</code>, rather than <code>myTodo.notes =
+getattr(myTodo,'notes',[]).append( 'this' )</code>, i.e. to treat the
+default value as a new per-instance list/dictionary.<br>
+</p>
+
+<p>The example above could have been written more tersely as:<br>
+</p>
+
+<pre>overDue = common.BooleanProperty(<br>	"overDue", """Whether we are currently overdue""",<br>	setDefaultOnGet=1,<br>	defaultFunction = lambda prop,client: hasattr(client,overDue) and client.overDue &lt; now(),<br>)<br></pre>
+
+<p>for those who prefer lambda functions to named functions.<br>
+</p>
+
+<p class="technical">Under the covers, BasicProperty instances wrap the
+defaultValue or defaultFunction value in a <code><a href="pydoc/basicproperty.defaults.html">basicproperty.defaults</a>.Default</code>
+instance appropriate to the given argument.<br>
+</p>
+
+<h2>Common Property Types</h2>
+
+<p>Much of the time the common module's built-in property types will be
+sufficient for modeling simple domain objects.&nbsp; This module
+provides the following property types:<br>
+</p>
+
+<ul>
+
+  <li><a href="pydoc/basicproperty.common.html#BooleanProperty">BooleanProperty</a> -- either the Python 2.3 bool type, or a
+back-port of this type for use with Python 2.2.x, type-annotations
+provide for coercion, type-checking and the like</li>
+  <li><a href="pydoc/basicproperty.common.html#IntegerProperty">IntegerProperty</a>/<a href="pydoc/basicproperty.common.html#LongProperty">LongProperty</a>/<a href="pydoc/basicproperty.common.html#FloatProperty">FloatProperty</a> -- Python numeric data
+types, type-annotations provide for coercion, type-checking and the
+like.&nbsp; "", "0", and None all coerce directly to 0, while all other
+values attempt to be coerced by calling base-type( value ) and/or
+float(value).<br>
+  </li>
+  <li><a href="pydoc/basicproperty.common.html#StringProperty">StringProperty</a> -- Unicode strings, these properties are intended
+for use with human-readable text strings.&nbsp; Coerces None to u"",
+str instances to value.decode() and int/float/long/complex values to
+unicode(value).</li>
+  <li><a href="pydoc/basicproperty.common.html#StringLocaleProperty">StringLocaleProperty</a> -- 8-bit str instances, otherwise equivalent
+to StringProperty.</li>
+  <li><a href="pydoc/basicproperty.common.html#ClassNameProperty">ClassNameProperty</a> -- dotted-format string class specifiers.
+Coerces
+references to classes to their dotted-format name.<br>
+  </li>
+  <li><a href="pydoc/basicproperty.common.html#ClassProperty">ClassProperty</a> (a.k.a ClassByNameProperty) -- storage for class
+instances. Coerces dotted-format str class specifier to the referenced
+class.</li>
+  <li><a href="pydoc/basicproperty.common.html#ListProperty">ListProperty</a> -- simple list, no type-checking/coercion done on
+the members of the list.&nbsp; The following are the type-limited
+versions:<br>
+  </li>
+  <ul>
+    <li><a href="pydoc/basicproperty.common.html#BooleansProperty">BooleansProperty</a>, <a href="pydoc/basicproperty.common.html#IntegersProperty">IntegersProperty</a>, <a href="pydoc/basicproperty.common.html#LongsProperty">LongsProperty</a>,
+      <a href="pydoc/basicproperty.common.html#FloatsProperty">FloatsProperty</a>, <a href="pydoc/basicproperty.common.html#StringsProperty">StringsProperty</a>, <a href="pydoc/basicproperty.common.html#ClassNamesProperty">ClassNamesProperty</a>, <a href="pydoc/basicproperty.common.html#ClassesProperty">ClassesProperty</a>
+(a.k.a. ClassByNamesProperty)</li>
+  </ul>
+  <li><a href="pydoc/basicproperty.common.html#DateTimeProperty">DateTimeProperty</a> -- mx.DateTime instances.&nbsp; Coerces
+str/unicode via DateTimeFrom, float via DateTimeFromTicks, and
+time.struct_time via mktime.</li>
+  <li><a href="pydoc/basicproperty.common.html#DateTimeDeltaProperty">DateTimeDeltaProperty</a> -- mx.DateTimeDelta instances.&nbsp;
+Provides a parser for duration format:</li>
+  <ul>
+    <li>2 hours, 3 days, 45 minutes</li>
+    <li>3d 2h 45m</li>
+    <li>45m</li>
+    <li>2 hours</li>
+    <li>H:M:S (i.e. 23:34:45 for 23h 34m 45s)</li>
+  </ul>
+  <li><a href="pydoc/basicproperty.common.html#TimeOfDayProperty">TimeOfDayProperty</a> -- basictypes.datemx_types.mxTimeOfDay
+instances (a sub-class of the mxDateTime RelativeDateTime class).&nbsp;
+Parses:</li>
+  <ul>
+    <li>2:13pm into 14:13:00</li>
+    <li>2:13 into 2:13:00</li>
+    <li>14:13:00 into 14:13:00</li>
+    <li>3pm into 15:00:00</li>
+    <li>4 into 04:00:00<br>
+    </li>
+  </ul>
+</ul>
+
+<p>The last three property types will not be available if the
+mx.DateTime package is not available.</p>
+
+<p>In case you are wondering where all of this interesting
+functionality comes from (as there is almost no code in the common
+module itself); BasicProperty objects are designed to delegate most of
+their operations to their "base type" (stored as
+property.baseType).&nbsp; <br>
+</p>
+
+<p>Each property type in the common module stores a reference to either
+a class which implements the BasicTypes protocols for coercian and
+type-checking, or a base-type which has had annotations registered to
+provide those services.&nbsp; In the next section we'll discuss how to
+write your classes to act as baseTypes for BasicProperty objects.<br>
+</p>
+<h2>Boundaries/Constraints<br>
+</h2>
+<p>You often want to constrain the value of a given property in some
+way, such as constraining it to a given range of values, or to values
+which are "not null", or by constraining each element in a sequence
+value in such a way.&nbsp; BasicProperty allows you to add such
+constraints to the property object.&nbsp; For instance:<br>
+</p>
+<pre>from basicproperty import propertied, common<br>from basictypes import boundary<br><br>class TestData( propertied.Propertied ):<br>	str2 = common.StringProperty(<br>		"str2", """Test string property""",<br>		boundaries = (<br>			boundary.Range( minimum= "a", maximum="z" ),<br>			boundary.Length( maximum = 10 ),<br>		)<br>	)<br></pre>
+<p>Creates a string/unicode property where the value must be between
+the characters "a" and "z" (inclusively) in Python's comparison order
+(i.e. 'A', '' or '\000' would raise errors, but 'a', 'abc' or 'z' would
+not).&nbsp; Boundary objects have a fairly simple API.&nbsp; The must
+be callable objects with a signature like so:<br>
+</p>
+<pre>def boundary( value, property, client ):<br>	"""Check value against some condition, raise errors on failure"""<br></pre>
+<p>boundaries should raise (subclasses of) TypeError, ValueError, KeyError or AttributeError if a boundary condition is violated.<br>
+</p><p>The <a href="pydoc/basictypes.boundary.html">basictypes.boundary</a> module defines a number of useful Boundary types:<br>
+</p>
+<ul>
+  <li><code>Range( minimum = NULL, maximum = NULL )</code> -- constrain value so that&nbsp; <code>minimum &lt;= value &lt;= maximum</code>,
+note that None is a perfectly valid minimum or maximum, only the
+special object NULL (the default) eliminates the given constraint.</li>
+  <li><code>Length( minimum = NULL, maximum = NULL )</code> -- as with Range, save that it is the length of the value (i.e. len(value)) which is constrained.</li>
+  <li><code>NotNull( )</code> -- constrain value so that not value<br>
+  </li>
+  <li><code>Type( typeDescriptor )</code> -- constrain the value to
+objects of a given type, can be specified as a dotted string name to
+allow for late binding (note, normally you would use baseType for this
+kind of thing, Type is largely a holdover from an earlier codebase).</li>
+</ul>
+<p>In order to allow for checking each element of a sequence, the module also defines:<br>
+</p>
+<ul>
+  <li>ForEach( baseBoundary ) -- which applies baseBoundary to every item in a sequence value</li>
+</ul>
+<p>Boundaries are checked during every __set__ and getDefault
+operation, after coercian and checking have completed.&nbsp; As a
+result, it is best to keep them to a minimum (or code them efficiently)
+for frequently used classes.<br>
+</p>
+<p>The examples directory has a contrived <a href="examples/boundaries.py">example</a> for restricting a string to an email-like format with a boundary.<br>
+</p>
+
+<pre></pre>
+
+
+<h2>Writing Property Base Types</h2>
+
+<p>BasicProperty objects are designed to delegate much of their
+operation to their "base type".&nbsp; The idea of a base type is that,
+for the most part, the most common interest in property modeling is in
+representing the data types which can be stored in a particular
+attribute, which factory functions should be used to create new
+instances for storage in the attribute, and how to coerce a given value
+to an appropriate value for storage.<br>
+</p>
+
+<p>To specify the base data type for a new BasicProperty, we specify a
+baseType argument in the property constructor:<br>
+</p>
+
+<pre>myInteger = basic.BasicProperty(<br>	"myInteger", """Demonstration of specifying a base-type""",<br>	baseType = int,<br>)<br></pre>
+
+<p>In this particular instance, we specify that the base type for the
+property is to be the built-in type int.&nbsp; We could just as easily
+specify a user-defined class, or even the dotted-name string specifier
+for a class/type conforming to the baseType protocol.<br>
+</p>
+
+<h3>Base-type Stand-ins (Annotating Types)<br>
+</h3>
+
+<p>Because there is no way to alter the definition of an int or other
+built-in type, BasicTypes allows for registering another object to
+serve as the base-type for a property whose base-type is considered
+unalterable.&nbsp; In this case, the int type has had the
+<a href="pydoc/basictypes.basic_types.html">basictypes.basic_types</a>.Int_DT class registered to provide the baseType
+protocol implementation.<br>
+</p>
+
+<p>You can register a baseType protocol stand in for a given class
+object like so:<br>
+</p>
+
+<pre><a href="pydoc/basictypes.registry.html">basictypes.registry</a>.registerDT( classObject, standIn )<br></pre>
+
+<p>Although originally created to support built-in types, this
+mechanism is not restricted to built-in types.&nbsp; Any class which
+you would rather not alter for use with BasicProperty can be annotated
+in this way.&nbsp; Keep in mind, however, that every class for use with
+the stand-in must be registered, subclasses are not annotated when a
+superclass is annotated.<br>
+</p>
+
+<h3>Writing Base-type Protocol Objects<br>
+</h3>
+
+<p>The protocol used for communicating between a BasicProperty instance
+and its associated baseType object is fairly minimal.&nbsp; All aspects
+of the protocol are optional, with fairly reasonable default operations
+defined assuming that the base-type is a class defining an object type
+which is to be stored in the associated property.<br>
+</p>
+
+<p>The following elements may be defined:<br>
+</p>
+
+<ul>
+
+  <li><code>def coerce(cls, value)</code> -- if provided, coerce the
+given value to an instance of the base-type.&nbsp; After coercion, the
+value must pass the check( value ) test.&nbsp; Failed coercion should
+raise TypeError or ValueError when an invalid value is
+encountered.&nbsp; It is often useful to do cls.check( value ) before
+any involved processing to catch the common case where the value is
+already acceptable.&nbsp; coerce is only called by BasicProperty if the
+value is not already an instance of the baseType, but the coerce method
+should be robust enough to handle the case where the value is of the
+baseType.<br>
+  </li>
+  <li><code>def check( cls, value )</code> -- if provided, check that
+the given value is of the correct type and conforms to all type-based
+restrictions (such as being properly formatted).&nbsp; If not provided,
+BasicProperty uses isinstance( value, baseType) to do the test.<br>
+  </li>
+  <li><code>factories</code> (or <code>def factories( cls )</code>) --
+if provided, should be a sequence of callable objects which construct
+new instances suitable for storage in the property, or a callable
+object returning such a sequence.&nbsp; The only use of this feature in
+BasicProperty/BasicTypes is to provide a method getFactories() on
+properties which returns either this value, or a sequence with just the
+baseType itself, or [] if there is no baseType.&nbsp; This is used by
+the wxPython Properties Distribution to provide GUI menus for editing
+modeled objects.</li>
+</ul>
+
+<p>The special case of sequence of type classes should be
+examined.&nbsp; BasicTypes provides a meta-class which can be used to
+construct baseTypes for use as list-of-somethings.&nbsp; Here's an
+example of use:<br>
+</p>
+
+<pre>from basictypes import list_types<br>ConstraintSchemas = list_types.listof(<br>	ConstraintSchema,<br>	name = "ConstraintSchemas",<br>	dataType = "list.ConstraintSchemas",<br>	factories = classmethod( constraint_factories ),<br>)<br></pre>
+
+<p>The first argument is the base type for individual elements within
+the list of elements.&nbsp; Interactions between the list-property and
+this baseType are approximately equivalent to those for individual
+BasicProperties, save that they are applied to members of the list,
+rather than the whole list.<br>
+</p>
+
+<p>The name becomes the new class's name, with a reasonable default
+determined if it is missing.&nbsp; Any named arguments are passed to
+the class constructor, so in the above example, the new list base-type
+will have a classmethod named factories.&nbsp; The dataType may be used
+in creating the name if not provided.<br>
+</p>
+
+<p class="technical">There's actually some dark magic going on
+underneath the covers which will attempt to find the module from which
+list_types.list_of is called in order to set the __module__ attribute
+of the new class so that the class will work properly with Python's
+pickle module.&nbsp; For this to work properly, however, the class
+needs to be available at the top level of the module in which it is
+defined.&nbsp; i.e.&nbsp; mymodule.ConstraintSchemas needs to point to
+the newly created class in order for the pickling system to work with
+it.<br>
+</p>
+
+<h2>Changes</h2>
+
+<p>Version 0.6.3a<br>
+</p>
+<ul>
+  <li>Added getException( err ) method, which returns a string version
+of traceback, or a simple representation of err if the traceback cannot
+be produced.<br>
+  </li>
+</ul>
+<p>Version 0.6.2a<br>
+</p>
+
+<ul>
+  <li>Reintroduced the boundary API.&nbsp; You can now constrain a
+property by passing in a "boundaries" value to the property
+constructor.&nbsp; The Boundary API has changed the order of the
+arguments to make it more natural feeling to write the actual boundary
+code.&nbsp; The boundary module has been altered to conform to the new
+API.<br>
+  </li>
+</ul>
+<p>Version 0.6.1a<br>
+</p>
+
+
+<ul>
+
+  <li>Provide friendly representation for enumeration values (display as their name or value)<br>
+  </li>
+  <li>Provide utility function for constructing new enumerations sets</li>
+  <li>Provide better attribute error text when attempting to delete a property's value</li>
+  <li>Registration metadata for PyPI added</li>
+  <li>Eliminate spurious error from list-types when converting via iteration<br>
+  </li>
+</ul>
+
+<p>Version 0.6.0a<br>
+</p>
+
+
+<ul>
+
+  <li>Eliminate coercian of "" and None to 0/0.0 for int/float
+properties<br>
+  </li>
+</ul>
+
+<p>Version 0.5.12a<br>
+</p>
+
+<ul>
+
+  <li>Improved documentation, minor tweaks and fixes resulting from
+pytable development<br>
+  </li>
+</ul>
+
+<p>Version 0.5.9a<br>
+</p>
+
+<ul>
+
+  <li>Initial stand-alone release for BasicProperty and BasicTypes<br>
+  </li>
+</ul>
+
+<h2>License</h2>
+
+<pre>BasicProperty and BasicTypes<br>	Copyright (c) 2002-2003, Michael C. Fletcher<br>	All rights reserved.<br><br>THIS SOFTWARE IS NOT FAULT TOLERANT AND SHOULD NOT BE USED IN ANY<br>SITUATION ENDANGERING HUMAN LIFE OR PROPERTY.<br><br>Redistribution and use in source and binary forms, with or without<br>modification, are permitted provided that the following conditions<br>are met:<br><br>    Redistributions of source code must retain the above copyright<br>    notice, this list of conditions and the following disclaimer.<br><br>    Redistributions in binary form must reproduce the above<br>    copyright notice, this list of conditions and the following<br>    disclaimer in the documentation and/or other materials<br>    provided with the distribution.<br><br>    The name of Michael C. Fletcher may not be used to endorse or <br>    promote products derived from this software without specific <br>    prior written permission.<br><br>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS<br>``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT<br>LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS<br>FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE<br>COPYRIGHT HOLDERS AND CONTRIBUTORS BE LIABLE FOR ANY DIRECT,<br>INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES<br>(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR<br>SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)<br>HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,<br>STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)<br>ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED<br>OF THE POSSIBILITY OF SUCH DAMAGE.<br></pre>
+
+<p class="footer" style="text-align: center;"><a href="http://basicproperty.sourceforge.net/">BasicProperty/BasicTypes</a>&nbsp;
+is a <a href="http://sourceforge.net"> <img src="http://sourceforge.net/sflogo.php?group_id=87034&amp;type=1" style="border: 0px solid ; width: 88px; height: 31px;" alt="SourceForge.net Logo" align="middle" border="0" height="31" width="88"></a>
+Open-Source <a href="https://sourceforge.net/projects/basicproperty/">Project</a><br>
+</p>
+
+</body></html>```
