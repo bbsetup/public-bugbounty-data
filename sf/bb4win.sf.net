@@ -1,0 +1,279 @@
+```<html><head>
+<title>blackbox for windows</title>
+<meta name="description" content="Blackbox for Windows">
+<meta name="keywords" content="Blackbox for Windows, Blackbox, alternative shell, shells, windowmanager, desktop, Windows, Linux, styles, 32-bits, plugins, documentation, development, fonts">
+<link rel="shortcut icon" href="favicon.ico"></head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<meta http-equiv="pragma" content="no-cache"/>
+<link rel=stylesheet type="text/css" href="bb4win_style.css">
+</head>
+
+<body>
+<table align="center" cellspacing=0 cellpadding=0>
+<tr>
+<td valign="top" class="tab2" width="15%">
+<p class="sep">&nbsp;</p>
+
+<h4 class="c3">plugin needs</h4>
+
+<a href="plugins.html">plugin list by function</a><br />
+<a class='bbcode' href='http://wiki.bb4win.org/wiki/Plugins'>bb4win wiki</a></em><br />
+<a class='bbcode' href='http://xoblite.net/plugins.html' title="Qwilk's plugin list">plugin list by date</a><br />
+<a class='bbcode' href='http://www.tancrend.org/bb4win/exclusions.zip' title="updated June 2009">exclusions.rc</a><br />
+&nbsp;
+
+<h4 class="c3">basic tools</h4>
+<p>artwiz&nbsp;fontpacks
+<li><a href="http://bb4win.sourceforge.net/bblean/files/bbfontpack_windows_20090520_en.zip" title="The bb quasi-standard fonts">english</li></a>
+<li><a href="http://bb4win.sourceforge.net/bblean/files/bbfontpack_windows_20090520_de.zip" title="The bb quasi-standard fonts">german</li></a>
+<li><a href="http://bb4win.sourceforge.net/bblean/files/bbfontpack_windows_20090520_la.zip" title="The bb quasi-standard fonts">latin</li></a>
+<li><a href="http://bb4win.sourceforge.net/bblean/files/bbfontpack_windows_20090520_se.zip" title="The bb quasi-standard fonts">swedish</li></a>
+<a href="http://bb4win.sourceforge.net/bblean/bbsr.htm" title="Essential for background images">bsetroot</a>
+<br />&nbsp;
+
+<h4 class="c3">other tools</h4>
+<a href="http://bb4win.sourceforge.net/bblean/bbno.htm" title="Edit your style with bb-style">bbNote</a>
+<br /><a href="http://bb4win.sourceforge.net/bblean/bbsm.htm" title="What you see is what you get!">bbStylemaker</a>
+<!-- <br /><a href="http://bb4win.sourceforge.net/bblean/bbib.htm" title="Icons in the box">bbIconBox</a> -->
+<br />&nbsp;
+
+<h4 class="c3">styles - bb4win</h4>
+<!-- <a href="http://www.coldcontagious.com/">auto</a><br /> -->
+<a href="http://bb.nlc.no/">m 3 g b o y</a><br />
+<a href="http://www.sowl.org/tag/blackbox-styles/">owl</a><br />
+<a href="http://snkmchnb.com/index.php?page=bbstyles">snkmchnb</a><br />
+<a href="http://www.toxicana.com/index.php?page=blackbox" title="cthu1hu">cthu1hu</a><br />
+<a href="http://www.ratednc-17.com/styles.php" title="NC-17">NC-17</a><br />
+<!-- <a href="http://semicolin.net/" title="darkfyre">darkfyre</a><br /> -->
+<a href="http://blockhead.deviantart.com" title="blockhead">blockhead</a><br />
+<a href="http://pitkon.deviantart.com" title="Pitkon">Pitkon</a><br />
+<a href="http://indecisions.org/prm/blackbox/" title="PovRayMan">PovRayMan</a><br />
+<br />
+<h4 class="c3">more styles</h4>
+<a href="http://themes.freshmeat.net/browse/920/?topic_id=920" title="Freshmeat - Blackbox Themes">FM - Blackbox</a><br />
+<a href="http://www.box-look.org/index.php?xcontentmode=7400" title="Box-Look - Fluxbox Themes">BL - Fluxbox</a><br />
+<a href="http://themes.freshmeat.net/browse/962/?topic_id=962" title="Freshmeat - Fluxbox Themes">FM - Fluxbox</a><br />
+<a href="http://www.box-look.org/index.php?xcontentmode=7402" title="Box-Look - Openbox Themes">BL - Openbox</a><br />
+<a href="http://thrynk.deviantart.com" title="lyrae">lyrae</a><br />
+<br />
+<h4 class="c3">*nix window managers</h4>
+<a href="http://blackboxwm.sourceforge.net/" title="blackbox">Blackbox</a><br />
+<a href="http://fluxbox.sourceforge.net/" title="fluxbox">FluxBox</a><br />
+<a href="http://icculus.org/openbox/" title="Openbox">Openbox</a><br />
+<a href="http://scrudgeware.org/projects/Hackedbox" title="Hackedbox">Hackedbox</a><br />
+<br />
+<h4 class="c3">code</h4>
+<p><!-- <a href="./files/sources/bbSDK_001.zip" title="Start your own plugin...">plugin sdk</a>
+<br /> --><a href="http://bb4win.cvs.sourceforge.net/" title="bbLean and older sources">sources - cvs</a>
+<br /><a href="http://bb4win.svn.sourceforge.net/" title="newer sources">sources - svn</a>
+<br /><a href="api.html" title="API exports available to plugins">API exports</a>
+<br />&nbsp;</p>
+<p class="sep">&nbsp;</p>
+</td>
+
+<td valign="top" class="tab1" width="70%">
+
+<div class='caption' align="left"> <a href="index.html"><img src="blackbox.gif" align="middle" /></a><b>&nbsp;&nbsp;BlackBox for Windows</b>
+   <div align="right">how to<font color="#777777">[<a href="basics.html">basics</a>][<a href="menu.html">menu</a>][<a href="styles.html">styles</a>][<a href="core_broams.html">core bro@ms</a>]<!--[<a href="http://docs.bb4win.org/index_files/history.html">history</a>][<a href="http://docs.bb4win.org/index_files/development.html">development</a>] --></font></div></div>
+ <br />
+
+<p class="sep">&nbsp;</p>
+
+<p>Blackbox for Windows is based stylistically on the <a href="http://blackboxwm.sourceforge.net/" target="_top">Blackbox</a> window manager for the X Window System by Brad Hughes,
+however it does not use the same codebase except for the gradient rendering code</p><br />
+
+<p>The foundation of Blackbox for Windows is
+full cross-platform support
+<ul><li>a theme (or style as it is
+called in *nix) can be taken directly from *nix and used in Windows
+with little or no difference in appearance<!-- . -->
+<li>this means
+- unlike most other shells - themes don't have to be custom
+created for the shell<!-- . -->
+<li>hundreds upon hundreds of styles are at <a href="http://themes.freshmeat.net/browse/56/">themes.freshmeat.net</a> (login required) and at <a href="http://www.box-look.org/index.php?xcontentmode=39x7301x7302x7303x7304x7305x7306x7307x7310x7311x7312x7313x7314x7400x7401x7402x7403">box-look</a>
+<!-- . -->
+<li>strong portability of Fluxbox &amp; Blackbox (for *nix) user configuration files - fully recreating the *nix interface on Windows<!-- .You can even use the .blackboxrc
+and menu files directly. -->
+</p></ul><br />
+
+<p>From the time the first line of code was written, Blackbox has evolved around one premise
+<ul><li>minimalism<!-- . -->
+<li>it's not meant to be Eye Candy (even though it is fairly simple to
+make it look really cool!)<!-- , -->
+<li>nor is it meant to be the most fully
+featured shell out there<!-- . -->
+<li>it is just meant to be fast<!-- . --></p></ul>
+
+<p class="sep">&nbsp;</p><br />
+
+</font><strong class='bb1'>Branches:</strong> <br /><br />
+
+<a><a class='bbcode' href='http://www.tancrend.org/bb4win/bb4win_mod.htm'><img src='bb4win_mod_plug.gif' align="bottom" alt='bb4win_mod' /></a></a><a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?f=64&t=3585'>1.19</a> | <a class='bbcode' href='http://www.tancrend.org/bb4win/bb4win_mod.htm'>Documentation</a> | <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?f=64&t=3586'>Discussion</a> | <a class='bbcode' href='http://www.lostinthebox.com/download/file.php?id=2357'>9x-&gt;Vista 32-bit </a> | <a class='bbcode' href='http://www.lostinthebox.com/download/file.php?id=2358'>NT 32-bit </a>(June 2009)<br /><br />
+
+<a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=29086#p29086'>bb4win_mod|bbMien 7.11.8.4</a> | <a class='bbcode' href='http://www.tancrend.org/bb4win/bb4win_mod_711.htm'>Documentation</a> | <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?t=5673'>Discussion</a> |  <a class='bbcode' href='http://www.lostinthebox.com/download/file.php?id=2390'>32-bit</a> (August 2009)<br /><br />
+
+<dir><dir><strong class='bb1'>></strong>
+<a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?t=7944'>bb4win_mod|bbMien - modifications</a> : <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=31727#p31727'>090820</a>  | <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?t=7944'>Discussion</a> |  <a class='bbcode' href='http://www.lostinthebox.com/download/file.php?id=2404'>32-bit</a> (November 2009)</dir></dir>
+
+<p class="sep2">&nbsp;</p><br />
+
+<a href='http://bb4win.sourceforge.net/bblean/'><img src='http://bb4win.sourceforge.net/bblean/docs/bblean_logo.png' align="bottom" alt='BBLean'  /></a>
+<a class='bbcode' href='http://wiki.bb4win.org/wiki/BbLean'>1.17.1</a>
+original version: <a class='bbcode' href='http://bb4win.sourceforge.net/bblean_117/docs/bblean.htm' title="Yes, read it!">Documentation </a>  | <a class='bbcode' href='http://bb4win.sourceforge.net/bblean/files/bbLean-1.17.1.bin32.exe'>32-bit</a>   | <a class='bbcode' href='http://bb4win.sourceforge.net/bblean/files/bbLean-1.17.1.bin64.exe'>64-bit</a> |  <a class='bbcode' href='http://www.lostinthebox.com/download/file.php?id=2464'>32-bit (with menu icons)</a> (December 2009)
+<br /><br />
+<br />
+
+<p class="sep2">&nbsp;</p><br />
+
+<a href='http://bb4win.sourceforge.net/bblean/'><img src='http://bb4win.sourceforge.net/bblean/docs/bblean_logo.png' align="bottom" alt='BBLean'  /></a><a class='bbcode' href='http://wiki.bb4win.org/wiki/BbLean'>1.16</a>
+original version: <!-- <a class='bbcode' href='http://bb4win.sourceforge.net/bblean/docs/bblean.htm' title="Yes, read it!">Documentation </a>  |  --><a class='bbcode' href='http://bb4win.sourceforge.net/bblean/files/bbLean_116.zip'>32-bit</a> (May 2005)  <br />
+
+<dir><dir><strong class='bb1'>></strong>
+<a class='bbcode' href='http://wiki.bb4win.org/wiki/BBLeanMod'>BBLean 1.16 Mod</a> : <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=26340#p26340'>081123</a>  | <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?t=263'>Discussion</a> |  <a class='bbcode' href='http://www.lostinthebox.com/download/file.php?id=2210'>32-bit</a> (November 2008)</dir></dir>
+
+<dir><dir><strong class='bb1'>></strong>
+<a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?f=3&t=2475'>BBDeleted</a> : <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=21534#p21534'>  0.0.7</a> | <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?f=3&t=2475'>Discussion</a> |  <a class='bbcode' href='http://www.lostinthebox.com/download/file.php?id=2431'>32-bit</a>  (September 2009)</dir></dir>
+
+<dir><dir><strong class='bb1'>></strong>
+<a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=30347#p30347'>BB2 - BitBox</a> : <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=21696#p21696'>090419</a> | <a class='bbcode' href='http://www.lostinthebox.com/32-bit/file.php?id=2319'>32-bit</a> (April 2009)</dir></dir>
+
+<dir><dir><strong class='bb1'>></strong>
+<a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?f=3&t=3766'>boxCore</a> : <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=26801#p26801'>  0.2.1</a> | <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?f=3&t=3766'>Discussion</a> |  <a class='bbcode' href='http://prdownload.berlios.de/boxcore/boxCore-package-0.2.1-x86.zip'>32-bit</a>  |  <a class='bbcode' href='http://prdownload.berlios.de/boxcore/boxCore-package-0.2.1-x64.zip'>64-bit</a> (January 2009)</dir></dir>
+
+<a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=24889#p24889'  title="bbClean NEB - packaged with utilities"><img src='utbox.png' align="bottom" alt='utbox' />&nbsp;utbox</a> : <a class='bbcode' href='http://utbox.weebly.com/index.html'> 1.6</a> | <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=22144#p22144'>Discussion</a> |  <a class='bbcode' href='http://usetools.net/sysinstall/setupbin/guishell/utbox.exe'>32-bit</a> (December 2008)<br /><br />
+<br />
+
+<p class="sep2">&nbsp;</p><br />
+
+<a><a class='bbcode' href='http://www.xoblite.net/'><img src='xoblite.gif' align="bottom" alt='Xoblite' /></a></a> <a class='bbcode' href='http://wiki.bb4win.org/wiki/Xoblite'>bb3 RC1 - 0.5.12.31</a> | <a class='bbcode' href='http://www.xoblite.net/docs/'>Documentation</a> | <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=8993#p8993'>Discussion</a> | <a class='bbcode' href='http://xoblite.net/files/xoblite_bb3_rc1.zip'>32-bit</a> (December 2005)<br /><br />
+<br />
+
+<p class="sep">&nbsp;</p><br />
+
+
+<strong class='bb1'>Other Branches </strong><em>(no longer under active development)</em><strong class='bb1'>:</strong><br /><br />
+
+<a><img src='http://www.boxshots.org/links/bb4win.gif' align="bottom" alt='BB4Win' /></a>
+: <a class='bbcode' href='http://bb4win.sourceforge.net/'>0.0.92b2</a> | <a class='bbcode' href='http://docs.bb4win.org/'>Documentation</a> | <a class='bbcode' href='http://docs.bb4win.org/FAQ.html'>FAQ</a>  | <a class='bbcode' href='http://bb4win.sourceforge.net/latest/Latest/0.0.92_Pack_Sep13.zip'>32-bit</a> (September 2004) <br /><br />
+
+<a><img src='http://www.boxshots.org/links/bluebox.png' align="bottom" alt='Bluebox' href='http://www.lostinthebox.com/viewtopic.php?p=3015#p3015'/></a>
+: <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=21089#p21089'>0.56d</a> | <a class='bbcode' href='http://www.codedump.org/e107/news.php'>Documentation</a> | <a class='bbcode' href='http://www.lostinthebox.com/32-bit/file.php?id=115'>32-bit</a> (September 2005) <br /><br />
+
+<strong class='bb1'>></strong> <a class='bbcode' href='http://www.lostinthebox.com/viewforum.php?f=3'>BBClean</a> | <a class='bbcode' href='http://www.lostinthebox.com/32-bit/file.php?id=1147'>32-bit</a> (January 2007)<br /><br />
+
+<strong class='bb1'>></strong>
+<a class='bbcode' href='http://wiki.bb4win.org/wiki/BBClean'>BBClean NEB</a> : <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=22353#p22353'>0802</a>  | <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=17991#p17991'>Discussion</a> |  <a class='bbcode' href='http://www.lostinthebox.com/viewtopic.php?p=22951#p22951'>32-bit</a> | <a class='bbcode' href='http://sharesource.org/project/bb4win64/files/74/'>64-bit</a> (February 2008)<br /><br />
+
+<!-- <p class="sep">&nbsp;</p>
+<p>&nbsp;</p>
+<p>included plugins</p>
+
+<ul>
+
+<li>bbKeys - configurable hotkeys</li>
+<li>bbLeanBar - a fluxbox style taskbar</li>
+<li>bbLeanSkin - for all windows versions</li>
+</ul>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p> -->
+<p class="sep">&nbsp;</p>
+<p>&copy; 2001-2009 the blackbox for windows development team</p>
+<p>&copy; 2003-2009 grischka</p>
+</td>
+
+<td valign="top" class="tab1">
+<p class="sep">&nbsp;</p>
+
+<!-- start of the tag board
+
+<TABLE class="tag_table" align="right" valign="top" cellspacing="0" cellpadding="0" border="0">
+<TR valign="top">
+    <TD colspan=2>-->
+
+        <a href="http://sourceforge.net/projects/bb4win">
+            <img src="http://sourceforge.net/sflogo.php?group_id=56991&type=1"
+                width=88
+                height=31
+                border=0
+                alt="SF-Logo"/></a>
+        <p class="tag_sep">&nbsp;</p>
+
+<h4 class="c3">info</h4>
+
+<a href="http://www.lostinthebox.com/" title="Lost-In-The-Box -- You-Are?">forum</a><br />
+
+<p><a href="http://www.bb4win.org/" title="Community site for all *box for Windows shells">bb4win</a><br />
+<a href="http://www.boxshots.org/" title="Tresni's site for *box screenies and styles">screenshots</a><br />
+<p><a href="irc://irc.freenode.net/bb4win/" title="IRC channel for Blackbox for Windows">#bb4win - live</a>
+<!-- <b>To Us</b><br /><a href="http://www.boxshots.org"><img src="/links/box_cm_us.gif" title="*box News and Screenshots" alt="boxshots.org" /></a> <br />-->
+<br />&nbsp;</p>
+
+<h4 class="c3">plugin updates</h4>
+<a href="http://www.lostinthebox.com/viewtopic.php?p=33106#p33106" title="29-dec-2009: window-switcher">bbLCTRL 0.02</a><br />
+
+<!-- <a href="http://www.lostinthebox.com/viewtopic.php?p=31688#p31688" title="01-jun-2009: update">bbWinSkin 1.21</a><br />
+
+<a href="http://www.lostinthebox.com/viewtopic.php?f=50&t=3048&p=31346#p31346" title="15-may-2009: command-line bugfix">uberbox 1.4.1</a><br />
+
+<a href="http://www.lostinthebox.com/viewtopic.php?p=30658#p30658" title="20-apr-2009: toolbar">boxBar 0.2.0 RC3</a><br />
+
+<a href="http://www.lostinthebox.com/viewtopic.php?f=3&t=3002" title="02-jan-2009: update">bbOscilloscope 1.30b</a><br />
+
+<a href="http://www.lostinthebox.com/viewtopic.php?f=3&t=2998" title="01-jan-2009: update">bbAnalogExMod 0.0.7</a><br />
+
+ <a href="http://www.lostinthebox.com/viewtopic.php?p=26590#p26590" title="25-dec-2008: iTunes support update">bbBroamTunes 0.15</a><br />
+
+<a href="http://sharesource.org/project/bb4win64/" title="3-feb-2008: not just plugins">x64 project</a><br />
+
+<p>none at present</p><br />-->
+
+
+<br /><h4 class="c3">tool updates</h4>
+<!--<a href="http://bb4win.sourceforge.net/bblean/files/bbStyleMaker_120.zip" title="20-may-2009 What you see is what you get!">bbStylemaker 1.31</a>
+<br /><a href="http://bb4win.sourceforge.net/bblean/files/bbnote-1.08.zip" title="20-may-2009 Edit your style with bb-style">bbNote 1.08</a>
+<br /><a href="http://bb4win.sourceforge.net/bblean/files/bsetroot-2.1.zip" title="20-may-2009 Essential for background images">bsetroot 2.1</a><br />
+
+<a href="http://www.lostinthebox.com/viewtopic.php?p=22531#p22531" title="08- feb-2008: requires python">rcman</a><br />
+ <a href="http://www.lostinthebox.com/viewtopic.php?p=22146#p22146" title="24- jan-2008: requires python">Smart Style Generator</a><br /> -->
+<p>none at present</p><br />
+
+
+<br /><p class="sep">&nbsp;</p>
+<br />&nbsp;</p>
+
+
+<!--         <p class="tag_msg"><span class="tag_date"></span>
+            -&nbsp;<span class="tag_handle"></span>
+        </p>
+        <p class="tag_msg">
+        </p>
+
+        <p class="tag_sep">&nbsp;</p>
+
+        <p class="tag_msg"><span class="tag_date"></span>
+            -&nbsp;<span class="tag_handle"></span>
+
+        </p>
+        <p class="tag_msg">
+        </p>
+
+        <p class="tag_sep">&nbsp;</p>
+
+
+        <p class="tag_msg"><span class="tag_date"></span>
+            -&nbsp;<span class="tag_handle"></span>
+        </p>
+        <p class="tag_msg">
+        </p>
+
+    </TD>
+
+</TR>
+</TABLE> -->
+<!-- end of the tag board -->
+</td>
+</tr></table>
+
+</body></html>
+```
